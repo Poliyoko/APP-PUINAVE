@@ -1,27 +1,42 @@
-from pathlib import Path
+﻿"""Motor principal del SGODA Project Builder."""
 
-from sgoda.generators.files import FileGenerator
-from sgoda.generators.folders import FolderGenerator
+from pathlib import Path
 
 from .config import BuilderConfig
 from .constants import DEFAULT_DIRECTORIES, REQUIRED_PROJECT_FILES
-from .templates import build_project_files
+from .initializer import InitializationResult, ProjectInitializer
 
 
 class ProjectBuilder:
+    """Construye y valida proyectos SGODA."""
+
     def __init__(self, config: BuilderConfig) -> None:
         self.config = config
+        self.initializer = ProjectInitializer(config)
 
-    def initialize(self, *, project_name: str) -> None:
-        FolderGenerator(self.config.workspace).create(DEFAULT_DIRECTORIES)
-        FileGenerator(self.config.workspace).create(
-            build_project_files(project_name)
+    def initialize(
+        self,
+        *,
+        project_name: str,
+        force: bool = False,
+    ) -> InitializationResult:
+        return self.initializer.initialize(
+            project_name=project_name,
+            force=force,
         )
 
     def validate(self) -> tuple[bool, list[Path]]:
-        required = [
+        required_paths = [
             *(self.config.workspace / item for item in DEFAULT_DIRECTORIES),
-            *(self.config.workspace / item for item in REQUIRED_PROJECT_FILES),
+            *(
+                self.config.workspace / item
+                for item in REQUIRED_PROJECT_FILES
+            ),
         ]
-        missing = [path for path in required if not path.exists()]
+
+        missing = [
+            path for path in required_paths
+            if not path.exists()
+        ]
+
         return not missing, missing

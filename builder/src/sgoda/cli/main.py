@@ -7,9 +7,11 @@ from pathlib import Path
 from sgoda.generators import ComponentGenerator
 
 from .commands import (
+    command_audit,
     command_doctor,
     command_generate,
     command_init,
+    command_quality,
     command_validate,
     command_version,
 )
@@ -42,11 +44,33 @@ def build_parser() -> argparse.ArgumentParser:
     generate.add_argument("--dry-run", action="store_true")
     generate.add_argument("--verbose", action="store_true")
 
+    audit = subparsers.add_parser(
+        "audit",
+        help="Audita un proyecto SGODA.",
+    )
+    audit.add_argument("workspace", nargs="?", default=".")
+    audit.add_argument(
+        "--format",
+        choices=("text", "json", "markdown"),
+        default="text",
+        dest="output_format",
+    )
+    audit.add_argument("--output", type=Path)
+    audit.add_argument("--strict", action="store_true")
+
+    quality = subparsers.add_parser(
+        "quality",
+        help="Muestra el resumen de calidad del proyecto.",
+    )
+    quality.add_argument("workspace", nargs="?", default=".")
+    quality.add_argument("--strict", action="store_true")
+
     return parser
 
 
 def main(argv: Sequence[str] | None = None) -> int:
-    args = build_parser().parse_args(argv)
+    parser = build_parser()
+    args = parser.parse_args(argv)
 
     if args.command == "version":
         return command_version()
@@ -65,5 +89,18 @@ def main(argv: Sequence[str] | None = None) -> int:
             dry_run=args.dry_run,
             verbose=args.verbose,
         )
+    if args.command == "audit":
+        return command_audit(
+            Path(args.workspace).resolve(),
+            output_format=args.output_format,
+            output=args.output,
+            strict=args.strict,
+        )
+    if args.command == "quality":
+        return command_quality(
+            Path(args.workspace).resolve(),
+            strict=args.strict,
+        )
 
+    parser.print_help()
     return 0

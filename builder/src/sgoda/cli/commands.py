@@ -1,8 +1,9 @@
-"""Comandos de la CLI."""
+﻿"""Comandos de la CLI."""
 
 from pathlib import Path
 
 from sgoda import __version__
+from sgoda.audit import AuditEngine, AuditExportError, render_report, save_report
 from sgoda.core import APP_NAME, BuilderConfig, ProjectBuilder
 from sgoda.generators import ComponentGenerator
 from sgoda.validators import run_doctor, validate_manifest, validate_project
@@ -33,7 +34,7 @@ def command_init(workspace: Path, project_name: str | None = None) -> int:
 def command_validate(workspace: Path) -> int:
     valid, missing = validate_project(workspace)
     if valid:
-        print(f"Proyecto SGODA válido: {workspace}")
+        print(f"Proyecto SGODA vÃ¡lido: {workspace}")
         return 0
     for path in missing:
         print(f"[FALTA] {path}")
@@ -51,7 +52,7 @@ def command_generate(
 ) -> int:
     valid, detail = validate_manifest(workspace)
     if not valid:
-        print(f"[ERROR] {detail}")
+        print(f"[ERROR] Proyecto SGODA inválido: {detail}")
         return 1
 
     try:
@@ -77,5 +78,57 @@ def command_generate(
         for path in result.preserved_files:
             print(f"[ARCHIVO CONSERVADO] {path}")
 
-    print("Generación simulada." if dry_run else "Componente generado correctamente.")
+    print(
+        "GeneraciÃ³n simulada."
+        if dry_run
+        else "Componente generado correctamente."
+    )
     return 0
+
+
+def command_audit(
+    workspace: Path,
+    *,
+    output_format: str = "text",
+    output: Path | None = None,
+    strict: bool = False,
+) -> int:
+    """Audita, muestra y opcionalmente guarda el informe."""
+    report = AuditEngine().audit(workspace)
+    rendered = render_report(report, output_format)
+
+    if output is None:
+        print(rendered)
+    else:
+        try:
+            saved_path = save_report(
+                report,
+                output,
+                output_format=output_format,
+            )
+        except AuditExportError as exc:
+            print(f"[ERROR] {exc}")
+            return 3
+        print(f"Informe guardado: {saved_path}")
+
+    return report.exit_code(strict=strict)
+
+
+def command_quality(
+    workspace: Path,
+    *,
+    strict: bool = False,
+) -> int:
+    """Muestra un resumen compacto de calidad."""
+    report = AuditEngine().audit(workspace)
+
+    print("Calidad SGODA")
+    print(f"Proyecto: {report.workspace}")
+    print(f"Puntuación: {report.score}/100")
+    print(f"Errores: {report.errors}")
+    print(f"Advertencias: {report.warnings}")
+    print(f"Estado: {report.status}")
+
+    return report.exit_code(strict=strict)
+
+
