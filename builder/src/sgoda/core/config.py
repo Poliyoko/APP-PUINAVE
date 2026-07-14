@@ -1,3 +1,5 @@
+"""Configuración del SGODA Project Builder."""
+
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -8,5 +10,5 @@ class BuilderConfig:
     dry_run: bool = False
 
     @classmethod
-    def from_path(cls, workspace: str | Path, *, verbose: bool=False, dry_run: bool=False) -> "BuilderConfig":
-        return cls(Path(workspace).expanduser().resolve(), verbose, dry_run)
+    def from_path(cls, workspace: str | Path, *, verbose: bool = False, dry_run: bool = False) -> "BuilderConfig":
+        return cls(workspace=Path(workspace).expanduser().resolve(), verbose=verbose, dry_run=dry_run)

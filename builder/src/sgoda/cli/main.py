@@ -1,21 +1,36 @@
+"""Interfaz de línea de comandos del SGODA Project Builder."""
+
 import argparse
 from collections.abc import Sequence
 from pathlib import Path
-from .commands import command_version, command_doctor, command_init, command_validate
+from sgoda.core import APP_NAME
+from .commands import command_doctor, command_init, command_validate, command_version
+
 
 def build_parser() -> argparse.ArgumentParser:
-    p=argparse.ArgumentParser(prog="sgoda", description="SGODA Project Builder")
-    s=p.add_subparsers(dest="command")
-    s.add_parser("version")
-    d=s.add_parser("doctor"); d.add_argument("workspace", nargs="?", default=".")
-    i=s.add_parser("init"); i.add_argument("workspace", nargs="?", default="."); i.add_argument("--dry-run", action="store_true"); i.add_argument("--verbose", action="store_true")
-    v=s.add_parser("validate"); v.add_argument("workspace", nargs="?", default=".")
-    return p
+    parser = argparse.ArgumentParser(prog="sgoda", description=APP_NAME)
+    subparsers = parser.add_subparsers(dest="command")
+    subparsers.add_parser("version", help="Muestra la versión del Builder.")
+    doctor_parser = subparsers.add_parser("doctor", help="Verifica el entorno de desarrollo.")
+    doctor_parser.add_argument("workspace", nargs="?", default=".")
+    init_parser = subparsers.add_parser("init", help="Inicializa profesionalmente un proyecto SGODA.")
+    init_parser.add_argument("workspace", nargs="?", default=".")
+    init_parser.add_argument("--project-name")
+    init_parser.add_argument("--force", action="store_true")
+    init_parser.add_argument("--dry-run", action="store_true")
+    init_parser.add_argument("--verbose", action="store_true")
+    validate_parser = subparsers.add_parser("validate", help="Valida la estructura de un proyecto SGODA.")
+    validate_parser.add_argument("workspace", nargs="?", default=".")
+    return parser
 
-def main(argv: Sequence[str] | None=None) -> int:
-    p=build_parser(); a=p.parse_args(argv)
-    if a.command=="version": return command_version()
-    if a.command=="doctor": return command_doctor(Path(a.workspace).resolve())
-    if a.command=="init": return command_init(Path(a.workspace), dry_run=a.dry_run, verbose=a.verbose)
-    if a.command=="validate": return command_validate(Path(a.workspace).resolve())
-    p.print_help(); return 0
+
+def main(argv: Sequence[str] | None = None) -> int:
+    parser = build_parser()
+    args = parser.parse_args(argv)
+    if args.command == "version": return command_version()
+    if args.command == "doctor": return command_doctor(Path(args.workspace).expanduser().resolve())
+    if args.command == "init":
+        return command_init(Path(args.workspace), project_name=args.project_name, force=args.force, dry_run=args.dry_run, verbose=args.verbose)
+    if args.command == "validate": return command_validate(Path(args.workspace).expanduser().resolve())
+    parser.print_help()
+    return 0
