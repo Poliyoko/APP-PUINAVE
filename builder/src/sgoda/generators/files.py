@@ -1,17 +1,19 @@
-"""Generador seguro de archivos base para proyectos SGODA."""
-
 from pathlib import Path
 from typing import Mapping
 
 
 class FileGenerator:
-    """Crea archivos sin sobrescribirlos salvo autorización explícita."""
-
     def __init__(self, workspace: Path) -> None:
         self.workspace = workspace
 
-    def create(self, files: Mapping[str, str], *, force: bool = False, dry_run: bool = False) -> list[tuple[Path, bool]]:
-        results: list[tuple[Path, bool]] = []
+    def create(
+        self,
+        files: Mapping[str, str],
+        *,
+        force: bool = False,
+        dry_run: bool = False,
+    ) -> list[tuple[Path, bool]]:
+        results = []
         for relative_path, content in files.items():
             path = self.workspace / relative_path
             should_write = force or not path.exists()
