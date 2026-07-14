@@ -1,18 +1,9 @@
-"""Generador de directorios para proyectos SGODA."""
-
-from pathlib import Path
-from typing import Iterable
-
 class FolderGenerator:
-    def __init__(self, workspace: Path) -> None:
-        self.workspace = workspace
-
-    def create(self, directories: Iterable[str], *, dry_run: bool = False) -> list[tuple[Path, bool]]:
-        results = []
-        for relative_directory in directories:
-            path = self.workspace / relative_directory
-            existed = path.exists()
-            if not dry_run:
-                path.mkdir(parents=True, exist_ok=True)
-            results.append((path, not existed))
-        return results
+    def __init__(self,workspace): self.workspace=workspace
+    def create(self,dirs,*,dry_run=False):
+        out=[]
+        for rel in dirs:
+            p=self.workspace/rel; created=not p.exists()
+            if not dry_run: p.mkdir(parents=True,exist_ok=True)
+            out.append((p,created))
+        return out
