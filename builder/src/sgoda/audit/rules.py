@@ -1,4 +1,4 @@
-"""Reglas base de auditoría para proyectos SGODA."""
+﻿"""Reglas base de auditorÃ­a para proyectos SGODA."""
 
 import json
 from collections.abc import Callable
@@ -8,10 +8,16 @@ from typing import Any
 from sgoda.core.constants import DEFAULT_DIRECTORIES, REQUIRED_PROJECT_FILES
 
 from .models import AuditFinding, Severity
+from .governance_rules import rule_care, rule_fair, rule_governance
+from .quality_rules import (
+    rule_governance_documentation,
+    rule_lexicon_quality,
+    rule_metadata,
+)
 
 AuditRule = Callable[[Path, dict[str, Any] | None], list[AuditFinding]]
 
-SUPPORTED_SCHEMA_VERSIONS = {"1.0", "1.1"}
+SUPPORTED_SCHEMA_VERSIONS = {"1.0", "1.1", "1.2"}
 
 COMPONENT_PATHS: dict[str, tuple[str, ...]] = {
     "backend": ("backend",),
@@ -27,7 +33,7 @@ COMPONENT_PATHS: dict[str, tuple[str, ...]] = {
 def load_manifest(
     workspace: Path,
 ) -> tuple[dict[str, Any] | None, list[AuditFinding]]:
-    """Carga y valida sintácticamente el manifiesto."""
+    """Carga y valida sintÃ¡cticamente el manifiesto."""
     path = workspace / "sgoda.project.json"
 
     if not path.is_file():
@@ -48,7 +54,7 @@ def load_manifest(
             AuditFinding(
                 "SGODA-MANIFEST-002",
                 Severity.ERROR,
-                f"El manifiesto no es un JSON válido: {exc}",
+                f"El manifiesto no es un JSON vÃ¡lido: {exc}",
                 str(path),
                 "Corrija el JSON antes de continuar.",
             )
@@ -59,7 +65,7 @@ def load_manifest(
             AuditFinding(
                 "SGODA-MANIFEST-003",
                 Severity.ERROR,
-                "La raíz del manifiesto debe ser un objeto JSON.",
+                "La raÃ­z del manifiesto debe ser un objeto JSON.",
                 str(path),
             )
         ]
@@ -71,7 +77,7 @@ def rule_project_identity(
     workspace: Path,
     manifest: dict[str, Any] | None,
 ) -> list[AuditFinding]:
-    """Valida la identidad mínima del proyecto."""
+    """Valida la identidad mÃ­nima del proyecto."""
     if manifest is None:
         return []
 
@@ -104,7 +110,7 @@ def rule_project_identity(
             AuditFinding(
                 "SGODA-PROJECT-003",
                 Severity.ERROR,
-                "El proyecto debe tener un nombre no vacío.",
+                "El proyecto debe tener un nombre no vacÃ­o.",
                 "sgoda.project.json",
             )
         )
@@ -116,7 +122,7 @@ def rule_schema_version(
     workspace: Path,
     manifest: dict[str, Any] | None,
 ) -> list[AuditFinding]:
-    """Valida la versión del esquema del manifiesto."""
+    """Valida la versiÃ³n del esquema del manifiesto."""
     if manifest is None:
         return []
 
@@ -129,7 +135,7 @@ def rule_schema_version(
                 Severity.WARNING,
                 "El manifiesto no declara schema_version.",
                 "sgoda.project.json",
-                "Declare una versión compatible, por ejemplo '1.1'.",
+                "Declare una versiÃ³n compatible, por ejemplo '1.1'.",
             )
         ]
 
@@ -138,7 +144,7 @@ def rule_schema_version(
             AuditFinding(
                 "SGODA-SCHEMA-002",
                 Severity.WARNING,
-                f"Versión de esquema no reconocida: {version}.",
+                f"VersiÃ³n de esquema no reconocida: {version}.",
                 "sgoda.project.json",
                 "Revise la compatibilidad con el Builder instalado.",
             )
@@ -187,7 +193,7 @@ def rule_registered_components(
     workspace: Path,
     manifest: dict[str, Any] | None,
 ) -> list[AuditFinding]:
-    """Comprueba que los componentes registrados existan físicamente."""
+    """Comprueba que los componentes registrados existan fÃ­sicamente."""
     if manifest is None:
         return []
 
@@ -210,7 +216,7 @@ def rule_registered_components(
             AuditFinding(
                 "SGODA-COMPONENT-002",
                 Severity.INFO,
-                "El proyecto aún no registra componentes generados.",
+                "El proyecto aÃºn no registra componentes generados.",
                 "sgoda.project.json",
             )
         )
@@ -263,9 +269,9 @@ def rule_registered_components(
                     AuditFinding(
                         "SGODA-COMPONENT-006",
                         Severity.ERROR,
-                        f"El componente registrado '{key}' no existe físicamente.",
+                        f"El componente registrado '{key}' no existe fÃ­sicamente.",
                         relative_path,
-                        "Regénere el componente o corrija el manifiesto.",
+                        "RegÃ©nere el componente o corrija el manifiesto.",
                     )
                 )
 
@@ -277,4 +283,11 @@ BASE_RULES: tuple[AuditRule, ...] = (
     rule_schema_version,
     rule_required_structure,
     rule_registered_components,
+    rule_governance,
+    rule_fair,
+    rule_care,
+    rule_metadata,
+    rule_lexicon_quality,
+    rule_governance_documentation,
 )
+

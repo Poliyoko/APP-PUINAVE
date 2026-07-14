@@ -1,25 +1,21 @@
 # SGODA Project Builder
 
-Versión 0.7.0.
+Versión 0.8.0.
 
-## Comandos principales
+## Auditoría de calidad y gobierno
 
 ```powershell
-python -m sgoda version
-python -m sgoda doctor
-python -m sgoda init <proyecto>
-python -m sgoda validate <proyecto>
 python -m sgoda audit <proyecto>
 python -m sgoda audit <proyecto> --format json
 ```
 
-## Auditoría base
+El motor valida:
 
-El comando `audit` verifica:
-
-- existencia y validez de `sgoda.project.json`;
-- versión del esquema;
-- estructura obligatoria;
-- archivos esenciales;
-- componentes registrados y sus rutas físicas;
-- estado general del proyecto.
+- identidad y versión del proyecto;
+- estructura y componentes;
+- gobierno DAMA-DMBOK;
+- principios FAIR;
+- principios CARE;
+- catálogo de metadatos;
+- calidad del conjunto léxico;
+- documentación de gobierno.

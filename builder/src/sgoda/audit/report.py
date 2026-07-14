@@ -27,6 +27,10 @@ class AuditReport:
         return sum(item.severity is Severity.INFO for item in self.findings)
 
     @property
+    def successes(self) -> int:
+        return sum(item.severity is Severity.SUCCESS for item in self.findings)
+
+    @property
     def passed(self) -> bool:
         return self.errors == 0
 
@@ -43,6 +47,7 @@ class AuditReport:
                 "errors": self.errors,
                 "warnings": self.warnings,
                 "information": self.information,
+                "successes": self.successes,
             },
             "findings": [item.to_dict() for item in self.findings],
         }
@@ -62,15 +67,19 @@ class AuditReport:
         if not self.findings:
             lines.append("[OK] No se encontraron hallazgos.")
 
+        markers = {
+            Severity.SUCCESS: "OK",
+            Severity.INFO: "INFO",
+            Severity.WARNING: "ADVERTENCIA",
+            Severity.ERROR: "ERROR",
+        }
+
         for item in self.findings:
-            marker = {
-                Severity.INFO: "INFO",
-                Severity.WARNING: "ADVERTENCIA",
-                Severity.ERROR: "ERROR",
-            }[item.severity]
+            marker = markers[item.severity]
             location = f" ({item.path})" if item.path else ""
             lines.append(
-                f"[{marker}] {item.rule_id}: {item.message}{location}"
+                f"[{marker}] {item.rule_id} [{item.category}]: "
+                f"{item.message}{location}"
             )
             if item.recommendation:
                 lines.append(f"  Recomendación: {item.recommendation}")
@@ -81,6 +90,7 @@ class AuditReport:
                 f"Errores: {self.errors}",
                 f"Advertencias: {self.warnings}",
                 f"Información: {self.information}",
+                f"Controles aprobados: {self.successes}",
                 f"Estado: {self.status}",
             ]
         )

@@ -7,6 +7,7 @@ from enum import StrEnum
 class Severity(StrEnum):
     """Nivel de severidad de un hallazgo."""
 
+    SUCCESS = "success"
     INFO = "info"
     WARNING = "warning"
     ERROR = "error"
@@ -21,12 +22,14 @@ class AuditFinding:
     message: str
     path: str | None = None
     recommendation: str | None = None
+    category: str = "general"
 
     def to_dict(self) -> dict[str, str | None]:
         """Convierte el hallazgo a una estructura serializable."""
         return {
             "rule_id": self.rule_id,
             "severity": self.severity.value,
+            "category": self.category,
             "message": self.message,
             "path": self.path,
             "recommendation": self.recommendation,
