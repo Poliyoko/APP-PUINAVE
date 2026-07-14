@@ -1,2 +1,15 @@
-
 Índice propuesto del documento SGD.docx
+.vscode/
+*.zip
+builder_backup/
+builder_backup_*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+coverage.xml
+htmlcov/
