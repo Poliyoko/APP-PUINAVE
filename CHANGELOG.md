@@ -49,3 +49,14 @@ y el proyecto utiliza Versionado Semántico.
 - Comando `quality`.
 - Puntuación de calidad.
 - Reglas de dependencias entre componentes.
+
+## [1.3.0] - 2026-07-14
+
+### Añadido
+
+- Registro persistente común para plugins y plantillas.
+- Validación SemVer, compatibilidad y seguridad de rutas.
+- Comandos `plugin` y `template`.
+- Instalación, listado, información y eliminación de extensiones.
+- Renderizado seguro de plantillas con variables.
+

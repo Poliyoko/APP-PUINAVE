@@ -1,11 +1,22 @@
 # SGODA Project Builder
 
-Versión 1.2.0.
+Versión 1.3.0.
 
-## Reparación
+## Plugins
 
 ```powershell
-sgoda doctor <proyecto> --fix
-sgoda doctor <proyecto> --fix --dry-run
-sgoda doctor <proyecto> --fix --format json
+sgoda plugin validate <ruta> --workspace <proyecto>
+sgoda plugin install <ruta> --workspace <proyecto>
+sgoda plugin list <proyecto>
+sgoda plugin info <nombre> --workspace <proyecto>
+sgoda plugin remove <nombre> --workspace <proyecto>
+```
+
+## Plantillas externas
+
+```powershell
+sgoda template validate <ruta> --workspace <proyecto>
+sgoda template install <ruta> --workspace <proyecto>
+sgoda template list <proyecto>
+sgoda template render <nombre> <destino> --workspace <proyecto>
 ```

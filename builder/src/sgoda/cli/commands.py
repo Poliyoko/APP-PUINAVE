@@ -6,6 +6,11 @@ from sgoda import __version__
 from sgoda.audit import AuditEngine, AuditExportError, render_report, save_report
 from sgoda.core import APP_NAME, BuilderConfig, ProjectBuilder
 from sgoda.generators import ComponentGenerator
+from sgoda.extensions import (
+    ExtensionManager,
+    ExtensionManagerError,
+    ExtensionValidationError,
+)
 from sgoda.lifecycle import (
     CURRENT_SCHEMA_VERSION,
     MigrationError,
@@ -204,3 +209,164 @@ def command_upgrade(
         backup=backup,
         output_format=output_format,
     )
+
+
+
+def _extension_output(records, output_format: str) -> None:
+    if output_format == "json":
+        import json
+        print(json.dumps(
+            [record.to_dict() for record in records],
+            ensure_ascii=False,
+            indent=2,
+        ))
+        return
+    if not records:
+        print("No hay extensiones registradas.")
+        return
+    for record in records:
+        print(
+            f"{record.type}:{record.name} "
+            f"{record.version} [{record.installed_path}]"
+        )
+
+
+def command_extension_list(
+    workspace: Path,
+    *,
+    extension_type: str,
+    output_format: str = "text",
+) -> int:
+    records = ExtensionManager(workspace).list(extension_type)
+    _extension_output(records, output_format)
+    return 0
+
+
+def command_extension_validate(
+    workspace: Path,
+    source: Path,
+    *,
+    extension_type: str,
+    output_format: str = "text",
+) -> int:
+    try:
+        manifest = ExtensionManager(workspace).validate(
+            source,
+            expected_type=extension_type,
+        )
+    except (ExtensionValidationError, ExtensionManagerError) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    if output_format == "json":
+        import json
+        print(json.dumps(manifest.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(f"[OK] {manifest.type}:{manifest.name} {manifest.version}")
+    return 0
+
+
+def command_extension_install(
+    workspace: Path,
+    source: Path,
+    *,
+    extension_type: str,
+    force: bool = False,
+    output_format: str = "text",
+) -> int:
+    try:
+        result = ExtensionManager(workspace).install(
+            source,
+            expected_type=extension_type,
+            force=force,
+        )
+    except (
+        ExtensionValidationError,
+        ExtensionManagerError,
+    ) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    if output_format == "json":
+        import json
+        print(json.dumps({
+            "status": result.status,
+            "extension": result.manifest.to_dict(),
+            "installed_path": str(result.installed_path),
+        }, ensure_ascii=False, indent=2))
+    else:
+        print(f"Estado: {result.status}")
+        print(
+            f"Extensión: {result.manifest.type}:"
+            f"{result.manifest.name}"
+        )
+        print(f"Ruta: {result.installed_path}")
+    return 0
+
+
+def command_extension_info(
+    workspace: Path,
+    name: str,
+    *,
+    extension_type: str,
+    output_format: str = "text",
+) -> int:
+    try:
+        record = ExtensionManager(workspace).info(extension_type, name)
+    except ExtensionManagerError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    if output_format == "json":
+        import json
+        print(json.dumps(record.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(f"{record.type}:{record.name}")
+        print(f"Versión: {record.version}")
+        print(f"Ruta: {record.installed_path}")
+        print(f"Habilitado: {record.enabled}")
+    return 0
+
+
+def command_extension_remove(
+    workspace: Path,
+    name: str,
+    *,
+    extension_type: str,
+) -> int:
+    removed = ExtensionManager(workspace).remove(extension_type, name)
+    if not removed:
+        print(f"[ERROR] No existe {extension_type}:{name}.")
+        return 1
+    print(f"Extensión eliminada: {extension_type}:{name}")
+    return 0
+
+
+def command_template_render(
+    workspace: Path,
+    name: str,
+    destination: Path,
+    *,
+    variables: list[str] | None = None,
+    force: bool = False,
+) -> int:
+    values: dict[str, str] = {}
+    for item in variables or []:
+        if "=" not in item:
+            print(f"[ERROR] Variable inválida: {item}")
+            return 2
+        key, value = item.split("=", 1)
+        values[key] = value
+    try:
+        result = ExtensionManager(workspace).render_template(
+            name,
+            destination,
+            variables=values,
+            force=force,
+        )
+    except (ExtensionManagerError, ExtensionValidationError) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    for path in result.written_files:
+        print(f"[ARCHIVO GENERADO] {path}")
+    for path in result.preserved_files:
+        print(f"[ARCHIVO CONSERVADO] {path}")
+    print("Plantilla renderizada correctamente.")
+    return 0

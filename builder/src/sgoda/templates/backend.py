@@ -1,8 +1,7 @@
-﻿"""Plantilla del backend SGODA."""
+"""Plantilla del backend SGODA."""
 
 
 def build_backend_files() -> dict[str, str]:
-    """Devuelve los archivos base del backend."""
     return {
         "backend/README.md": "# Backend SGODA\n",
         "backend/pyproject.toml": """[build-system]

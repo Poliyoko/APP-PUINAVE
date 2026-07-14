@@ -10,6 +10,12 @@ from .commands import (
     command_audit,
     command_doctor,
     command_generate,
+    command_extension_info,
+    command_extension_install,
+    command_extension_list,
+    command_extension_remove,
+    command_extension_validate,
+    command_template_render,
     command_init,
     command_quality,
     command_migrate,
@@ -100,6 +106,68 @@ def build_parser() -> argparse.ArgumentParser:
         dest="output_format",
     )
 
+
+    for extension_type in ("plugin", "template"):
+        extension = subparsers.add_parser(extension_type)
+        actions = extension.add_subparsers(dest="extension_action")
+
+        list_command = actions.add_parser("list")
+        list_command.add_argument("workspace", nargs="?", default=".")
+        list_command.add_argument(
+            "--format",
+            choices=("text", "json"),
+            default="text",
+            dest="output_format",
+        )
+
+        validate_command = actions.add_parser("validate")
+        validate_command.add_argument("source")
+        validate_command.add_argument("--workspace", default=".")
+        validate_command.add_argument(
+            "--format",
+            choices=("text", "json"),
+            default="text",
+            dest="output_format",
+        )
+
+        install_command = actions.add_parser("install")
+        install_command.add_argument("source")
+        install_command.add_argument("--workspace", default=".")
+        install_command.add_argument("--force", action="store_true")
+        install_command.add_argument(
+            "--format",
+            choices=("text", "json"),
+            default="text",
+            dest="output_format",
+        )
+
+        info_command = actions.add_parser("info")
+        info_command.add_argument("name")
+        info_command.add_argument("--workspace", default=".")
+        info_command.add_argument(
+            "--format",
+            choices=("text", "json"),
+            default="text",
+            dest="output_format",
+        )
+
+        remove_command = actions.add_parser("remove")
+        remove_command.add_argument("name")
+        remove_command.add_argument("--workspace", default=".")
+
+        if extension_type == "template":
+            render_command = actions.add_parser("render")
+            render_command.add_argument("name")
+            render_command.add_argument("destination")
+            render_command.add_argument("--workspace", default=".")
+            render_command.add_argument(
+                "--var",
+                action="append",
+                default=[],
+                dest="variables",
+            )
+            render_command.add_argument("--force", action="store_true")
+
     return parser
 
 
@@ -151,6 +219,52 @@ def main(argv: Sequence[str] | None = None) -> int:
             backup=not args.no_backup,
             output_format=args.output_format,
         )
+
+    if args.command in {"plugin", "template"}:
+        extension_type = args.command
+        action = args.extension_action
+        if action == "list":
+            return command_extension_list(
+                Path(args.workspace).resolve(),
+                extension_type=extension_type,
+                output_format=args.output_format,
+            )
+        if action == "validate":
+            return command_extension_validate(
+                Path(args.workspace).resolve(),
+                Path(args.source),
+                extension_type=extension_type,
+                output_format=args.output_format,
+            )
+        if action == "install":
+            return command_extension_install(
+                Path(args.workspace).resolve(),
+                Path(args.source),
+                extension_type=extension_type,
+                force=args.force,
+                output_format=args.output_format,
+            )
+        if action == "info":
+            return command_extension_info(
+                Path(args.workspace).resolve(),
+                args.name,
+                extension_type=extension_type,
+                output_format=args.output_format,
+            )
+        if action == "remove":
+            return command_extension_remove(
+                Path(args.workspace).resolve(),
+                args.name,
+                extension_type=extension_type,
+            )
+        if extension_type == "template" and action == "render":
+            return command_template_render(
+                Path(args.workspace).resolve(),
+                args.name,
+                Path(args.destination),
+                variables=args.variables,
+                force=args.force,
+            )
 
     parser.print_help()
     return 0
