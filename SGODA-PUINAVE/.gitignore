@@ -1,0 +1,4 @@
+.vscode/
+*.zip
+builder_backup/
+builder_backup_*/
