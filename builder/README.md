@@ -1,20 +1,11 @@
 # SGODA Project Builder
 
-Versión 1.1.0.
+Versión 1.2.0.
 
-## Ciclo de vida
+## Reparación
 
 ```powershell
-sgoda upgrade <proyecto>
-sgoda upgrade <proyecto> --dry-run
-sgoda migrate <proyecto> --to 1.3
+sgoda doctor <proyecto> --fix
+sgoda doctor <proyecto> --fix --dry-run
+sgoda doctor <proyecto> --fix --format json
 ```
-
-El motor:
-
-- detecta la versión de esquema;
-- calcula una ruta incremental;
-- crea respaldo automático;
-- conserva el manifiesto original;
-- registra historial de migración;
-- rechaza versiones no soportadas y migraciones regresivas.

@@ -27,6 +27,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     doctor = subparsers.add_parser("doctor")
     doctor.add_argument("workspace", nargs="?", default=".")
+    doctor.add_argument("--fix", action="store_true")
+    doctor.add_argument("--dry-run", action="store_true")
+    doctor.add_argument("--no-backup", action="store_true")
+    doctor.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
 
     init = subparsers.add_parser("init")
     init.add_argument("workspace", nargs="?", default=".")
@@ -106,7 +110,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     if args.command == "version":
         return command_version()
     if args.command == "doctor":
-        return command_doctor(Path(args.workspace).resolve())
+        return command_doctor(Path(args.workspace).resolve(), fix=args.fix, dry_run=args.dry_run, backup=not args.no_backup, output_format=args.output_format)
     if args.command == "init":
         return command_init(Path(args.workspace), args.project_name)
     if args.command == "validate":

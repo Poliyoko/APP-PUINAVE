@@ -1,4 +1,4 @@
-﻿"""Comandos de la CLI."""
+"""Comandos de la CLI."""
 
 from pathlib import Path
 
@@ -10,6 +10,7 @@ from sgoda.lifecycle import (
     CURRENT_SCHEMA_VERSION,
     MigrationError,
     ProjectMigrator,
+    ProjectRepairer,
 )
 from sgoda.validators import run_doctor, validate_manifest, validate_project
 
@@ -19,7 +20,22 @@ def command_version() -> int:
     return 0
 
 
-def command_doctor(workspace: Path) -> int:
+def command_doctor(
+    workspace: Path,
+    *,
+    fix: bool = False,
+    dry_run: bool = False,
+    backup: bool = True,
+    output_format: str = "text",
+) -> int:
+    if fix:
+        report = ProjectRepairer(workspace).repair(dry_run=dry_run, backup=backup)
+        if output_format == "json":
+            import json
+            print(json.dumps(report.to_dict(), ensure_ascii=False, indent=2))
+        else:
+            print(report.to_text())
+        return 0
     results = run_doctor(workspace)
     for result in results:
         marker = "OK" if result.success else "ERROR"
@@ -39,7 +55,7 @@ def command_init(workspace: Path, project_name: str | None = None) -> int:
 def command_validate(workspace: Path) -> int:
     valid, missing = validate_project(workspace)
     if valid:
-        print(f"Proyecto SGODA vÃ¡lido: {workspace}")
+        print(f"Proyecto SGODA válido: {workspace}")
         return 0
     for path in missing:
         print(f"[FALTA] {path}")
@@ -84,7 +100,7 @@ def command_generate(
             print(f"[ARCHIVO CONSERVADO] {path}")
 
     print(
-        "GeneraciÃ³n simulada."
+        "Generación simulada."
         if dry_run
         else "Componente generado correctamente."
     )
@@ -146,7 +162,7 @@ def command_migrate(
     backup: bool = True,
     output_format: str = "text",
 ) -> int:
-    """Migra un proyecto a una versiÃ³n especÃ­fica."""
+    """Migra un proyecto a una versión específica."""
     try:
         report = ProjectMigrator(workspace).migrate(
             target_version=target_version,
@@ -188,5 +204,3 @@ def command_upgrade(
         backup=backup,
         output_format=output_format,
     )
-
-

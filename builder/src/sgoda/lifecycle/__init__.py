@@ -12,3 +12,5 @@ __all__ = [
     "ProjectMigrator",
     "SUPPORTED_SCHEMA_VERSIONS",
 ]
+
+from .repair import ProjectRepairer, RepairAction, RepairReport
