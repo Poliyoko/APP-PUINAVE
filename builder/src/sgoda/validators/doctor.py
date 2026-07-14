@@ -1,7 +1,3 @@
-"""Diagnóstico del entorno."""
-
-import shutil
-import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -14,12 +10,4 @@ class CheckResult:
 
 
 def run_doctor(workspace: Path) -> list[CheckResult]:
-    return [
-        CheckResult("Python", sys.version_info >= (3, 11), sys.version.split()[0]),
-        CheckResult("Directorio", workspace.is_dir(), str(workspace)),
-        CheckResult(
-            "Git",
-            shutil.which("git") is not None,
-            shutil.which("git") or "No encontrado",
-        ),
-    ]
+    return [CheckResult("Directorio", workspace.is_dir(), str(workspace))]

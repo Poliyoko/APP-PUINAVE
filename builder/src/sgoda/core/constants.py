@@ -1,19 +1,14 @@
-"""Constantes del Builder."""
-
 APP_NAME = "SGODA Project Builder"
-VERSION = "0.5.0"
-
 DEFAULT_DIRECTORIES = (
     "backend",
     "frontend/web",
-    "database/migrations",
-    "database/seed",
+    "database",
     "modules",
+    "automation/n8n",
+    "docs/08_Desarrollo",
     "data/json",
-    "docs/03_ADR",
     "tests",
 )
-
 REQUIRED_PROJECT_FILES = (
     "README.md",
     ".gitignore",

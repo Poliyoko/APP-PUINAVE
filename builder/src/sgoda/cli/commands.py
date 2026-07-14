@@ -65,12 +65,17 @@ def command_generate(
         print(f"[ERROR] {exc}")
         return 2
 
+    print(f"Componente: {result.component}")
+    if result.name:
+        print(f"Nombre: {result.name}")
+
     for path in result.written_files:
-        print(f"[ARCHIVO GENERADO] {path}")
+        marker = "GENERAR" if dry_run else "ARCHIVO GENERADO"
+        print(f"[{marker}] {path}")
 
     if verbose:
         for path in result.preserved_files:
             print(f"[ARCHIVO CONSERVADO] {path}")
 
-    print("Componente generado correctamente.")
+    print("Generación simulada." if dry_run else "Componente generado correctamente.")
     return 0

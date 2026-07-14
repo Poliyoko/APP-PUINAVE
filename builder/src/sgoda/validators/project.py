@@ -1,7 +1,4 @@
-"""Validación de proyectos."""
-
 from pathlib import Path
-
 from sgoda.core import BuilderConfig, ProjectBuilder
 
 

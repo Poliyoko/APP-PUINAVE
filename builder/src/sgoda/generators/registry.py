@@ -1,4 +1,4 @@
-"""Registro de componentes."""
+"""Registro de componentes en el manifiesto SGODA."""
 
 import json
 from datetime import UTC, datetime
@@ -12,11 +12,12 @@ def register_component(
     name: str | None = None,
     dry_run: bool = False,
 ) -> None:
+    """Registra un componente generado en ``sgoda.project.json``."""
     path = workspace / "sgoda.project.json"
     manifest = json.loads(path.read_text(encoding="utf-8"))
     components = manifest.setdefault("components", {})
 
-    key = f"module:{name}" if component == "module" else component
+    key = f"{component}:{name}" if name else component
     components[key] = {
         "type": component,
         "name": name,
