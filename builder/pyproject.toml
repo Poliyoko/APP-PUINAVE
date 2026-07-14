@@ -4,16 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sgoda-builder"
-version = "0.4.0"
-description = "Herramienta CLI para construir y validar proyectos del ecosistema SGODA-PUINAVE"
+version = "0.5.0"
+description = "Herramienta CLI para construir proyectos SGODA-PUINAVE"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
-authors = [{ name = "Proyecto SGODA-PUINAVE" }]
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["black>=24.0", "pytest>=8.0", "ruff>=0.6"]
+dev = ["pytest>=8.0", "ruff>=0.6", "black>=24.0"]
 
 [project.scripts]
 sgoda = "sgoda.cli.main:main"
@@ -23,17 +21,6 @@ package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.black]
-line-length = 88
-target-version = ["py311"]
-
-[tool.ruff]
-line-length = 88
-target-version = "py311"
-
-[tool.ruff.lint]
-select = ["E", "F", "I", "UP", "B"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

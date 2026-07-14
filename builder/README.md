@@ -1,18 +1,12 @@
-# SGODA Project Builder v2
+# SGODA Project Builder
 
-Herramienta CLI para construir y validar el ecosistema SGODA-PUINAVE.
+Versión 0.5.0.
 
-## Instalación
-
-```powershell
-python -m pip install -e ".[dev]"
-```
-
-## Comandos
+## Comandos de generación
 
 ```powershell
-sgoda version
-sgoda doctor
-sgoda init ..
-sgoda validate ..
+python -m sgoda generate backend <proyecto>
+python -m sgoda generate frontend <proyecto>
+python -m sgoda generate database <proyecto>
+python -m sgoda generate module <proyecto> --name lexico
 ```

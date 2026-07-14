@@ -1,9 +1,25 @@
+"""Configuración del Builder."""
+
 from dataclasses import dataclass
 from pathlib import Path
-@dataclass(frozen=True,slots=True)
+
+
+@dataclass(frozen=True, slots=True)
 class BuilderConfig:
     workspace: Path
-    verbose: bool=False
-    dry_run: bool=False
+    verbose: bool = False
+    dry_run: bool = False
+
     @classmethod
-    def from_path(cls,workspace,**kwargs): return cls(Path(workspace).expanduser().resolve(),**kwargs)
+    def from_path(
+        cls,
+        workspace: str | Path,
+        *,
+        verbose: bool = False,
+        dry_run: bool = False,
+    ) -> "BuilderConfig":
+        return cls(
+            Path(workspace).expanduser().resolve(),
+            verbose=verbose,
+            dry_run=dry_run,
+        )
