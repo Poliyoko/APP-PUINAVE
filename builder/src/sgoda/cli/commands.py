@@ -3,6 +3,7 @@
 from pathlib import Path
 
 from sgoda import __version__
+from sgoda.audit import AuditEngine
 from sgoda.core import APP_NAME, BuilderConfig, ProjectBuilder
 from sgoda.generators import ComponentGenerator
 from sgoda.validators import run_doctor, validate_manifest, validate_project
@@ -79,3 +80,15 @@ def command_generate(
 
     print("Generación simulada." if dry_run else "Componente generado correctamente.")
     return 0
+
+
+def command_audit(workspace: Path, *, output_format: str = "text") -> int:
+    """Audita un proyecto y devuelve un código útil para automatización."""
+    report = AuditEngine().audit(workspace)
+
+    if output_format == "json":
+        print(report.to_json())
+    else:
+        print(report.to_text())
+
+    return 0 if report.passed else 1

@@ -7,6 +7,7 @@ from pathlib import Path
 from sgoda.generators import ComponentGenerator
 
 from .commands import (
+    command_audit,
     command_doctor,
     command_generate,
     command_init,
@@ -42,6 +43,18 @@ def build_parser() -> argparse.ArgumentParser:
     generate.add_argument("--dry-run", action="store_true")
     generate.add_argument("--verbose", action="store_true")
 
+    audit = subparsers.add_parser(
+        "audit",
+        help="Audita la calidad base de un proyecto SGODA.",
+    )
+    audit.add_argument("workspace", nargs="?", default=".")
+    audit.add_argument(
+        "--format",
+        choices=("text", "json"),
+        default="text",
+        dest="output_format",
+    )
+
     return parser
 
 
@@ -65,5 +78,11 @@ def main(argv: Sequence[str] | None = None) -> int:
             dry_run=args.dry_run,
             verbose=args.verbose,
         )
+    if args.command == "audit":
+        return command_audit(
+            Path(args.workspace).resolve(),
+            output_format=args.output_format,
+        )
 
+    parser.print_help()
     return 0

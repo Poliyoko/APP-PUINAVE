@@ -1,15 +1,25 @@
 # SGODA Project Builder
 
-Versión 0.6.0.
+Versión 0.7.0.
 
-## Generadores disponibles
+## Comandos principales
 
 ```powershell
-python -m sgoda generate backend <proyecto>
-python -m sgoda generate frontend <proyecto>
-python -m sgoda generate database <proyecto>
-python -m sgoda generate module <proyecto> --name lexico
-python -m sgoda generate api <proyecto> --name lexico
-python -m sgoda generate workflow <proyecto> --name importacion-lexica
-python -m sgoda generate docs <proyecto> --name api-lexico
+python -m sgoda version
+python -m sgoda doctor
+python -m sgoda init <proyecto>
+python -m sgoda validate <proyecto>
+python -m sgoda audit <proyecto>
+python -m sgoda audit <proyecto> --format json
 ```
+
+## Auditoría base
+
+El comando `audit` verifica:
+
+- existencia y validez de `sgoda.project.json`;
+- versión del esquema;
+- estructura obligatoria;
+- archivos esenciales;
+- componentes registrados y sus rutas físicas;
+- estado general del proyecto.
