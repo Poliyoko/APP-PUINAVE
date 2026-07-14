@@ -38,11 +38,26 @@ class AuditReport:
     def status(self) -> str:
         return "OK" if self.passed else "ERROR"
 
+    @property
+    def score(self) -> int:
+        """Calcula una puntuación simple de calidad entre 0 y 100."""
+        penalty = (self.errors * 25) + (self.warnings * 8)
+        return max(0, 100 - penalty)
+
+    def exit_code(self, *, strict: bool = False) -> int:
+        """Devuelve el código de salida para automatización."""
+        if self.errors:
+            return 1
+        if strict and self.warnings:
+            return 2
+        return 0
+
     def to_dict(self) -> dict[str, object]:
         """Convierte el informe a una estructura serializable."""
         return {
             "workspace": str(self.workspace),
             "status": self.status,
+            "score": self.score,
             "summary": {
                 "errors": self.errors,
                 "warnings": self.warnings,
@@ -55,6 +70,64 @@ class AuditReport:
     def to_json(self) -> str:
         """Serializa el informe en JSON."""
         return json.dumps(self.to_dict(), ensure_ascii=False, indent=2)
+
+    def to_markdown(self) -> str:
+        """Genera un informe Markdown persistible."""
+        lines = [
+            "# Informe de Auditoría SGODA",
+            "",
+            f"- **Proyecto:** `{self.workspace}`",
+            f"- **Estado:** **{self.status}**",
+            f"- **Puntuación:** **{self.score}/100**",
+            "",
+            "## Resumen",
+            "",
+            "| Métrica | Total |",
+            "|---|---:|",
+            f"| Errores | {self.errors} |",
+            f"| Advertencias | {self.warnings} |",
+            f"| Información | {self.information} |",
+            f"| Controles aprobados | {self.successes} |",
+            "",
+            "## Hallazgos",
+            "",
+        ]
+
+        if not self.findings:
+            lines.append("No se encontraron hallazgos.")
+            return "\n".join(lines) + "\n"
+
+        lines.extend(
+            [
+                "| Severidad | Regla | Categoría | Mensaje | Ruta |",
+                "|---|---|---|---|---|",
+            ]
+        )
+
+        for item in self.findings:
+            message = item.message.replace("|", r"\|")
+            path = (item.path or "").replace("|", r"\|")
+            lines.append(
+                f"| {item.severity.value} | {item.rule_id} | "
+                f"{item.category} | {message} | {path} |"
+            )
+
+        lines.append("")
+
+        recommendations = [
+            item
+            for item in self.findings
+            if item.recommendation
+        ]
+        if recommendations:
+            lines.extend(["## Recomendaciones", ""])
+            for item in recommendations:
+                lines.append(
+                    f"- **{item.rule_id}:** {item.recommendation}"
+                )
+            lines.append("")
+
+        return "\n".join(lines)
 
     def to_text(self) -> str:
         """Presenta el informe para consola."""
@@ -91,6 +164,7 @@ class AuditReport:
                 f"Advertencias: {self.warnings}",
                 f"Información: {self.information}",
                 f"Controles aprobados: {self.successes}",
+                f"Puntuación: {self.score}/100",
                 f"Estado: {self.status}",
             ]
         )

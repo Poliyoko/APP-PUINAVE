@@ -1,21 +1,21 @@
 # SGODA Project Builder
 
-Versión 0.8.0.
+Versión 0.9.0.
 
-## Auditoría de calidad y gobierno
+## Auditoría y calidad
 
 ```powershell
 python -m sgoda audit <proyecto>
+python -m sgoda audit <proyecto> --strict
 python -m sgoda audit <proyecto> --format json
+python -m sgoda audit <proyecto> --format markdown
+python -m sgoda audit <proyecto> --format json --output reports/audit.json
+python -m sgoda quality <proyecto>
 ```
 
-El motor valida:
+## Códigos de salida
 
-- identidad y versión del proyecto;
-- estructura y componentes;
-- gobierno DAMA-DMBOK;
-- principios FAIR;
-- principios CARE;
-- catálogo de metadatos;
-- calidad del conjunto léxico;
-- documentación de gobierno.
+- `0`: aprobado.
+- `1`: errores detectados.
+- `2`: advertencias en modo estricto.
+- `3`: no fue posible guardar el informe.

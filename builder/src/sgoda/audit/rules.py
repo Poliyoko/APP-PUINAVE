@@ -8,6 +8,7 @@ from typing import Any
 from sgoda.core.constants import DEFAULT_DIRECTORIES, REQUIRED_PROJECT_FILES
 
 from .models import AuditFinding, Severity
+from .dependency_rules import rule_component_dependencies
 from .governance_rules import rule_care, rule_fair, rule_governance
 from .quality_rules import (
     rule_governance_documentation,
@@ -289,5 +290,6 @@ BASE_RULES: tuple[AuditRule, ...] = (
     rule_metadata,
     rule_lexicon_quality,
     rule_governance_documentation,
+    rule_component_dependencies,
 )
 

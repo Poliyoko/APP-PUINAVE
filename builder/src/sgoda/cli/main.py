@@ -11,6 +11,7 @@ from .commands import (
     command_doctor,
     command_generate,
     command_init,
+    command_quality,
     command_validate,
     command_version,
 )
@@ -45,21 +46,31 @@ def build_parser() -> argparse.ArgumentParser:
 
     audit = subparsers.add_parser(
         "audit",
-        help="Audita la calidad base de un proyecto SGODA.",
+        help="Audita un proyecto SGODA.",
     )
     audit.add_argument("workspace", nargs="?", default=".")
     audit.add_argument(
         "--format",
-        choices=("text", "json"),
+        choices=("text", "json", "markdown"),
         default="text",
         dest="output_format",
     )
+    audit.add_argument("--output", type=Path)
+    audit.add_argument("--strict", action="store_true")
+
+    quality = subparsers.add_parser(
+        "quality",
+        help="Muestra el resumen de calidad del proyecto.",
+    )
+    quality.add_argument("workspace", nargs="?", default=".")
+    quality.add_argument("--strict", action="store_true")
 
     return parser
 
 
 def main(argv: Sequence[str] | None = None) -> int:
-    args = build_parser().parse_args(argv)
+    parser = build_parser()
+    args = parser.parse_args(argv)
 
     if args.command == "version":
         return command_version()
@@ -82,6 +93,13 @@ def main(argv: Sequence[str] | None = None) -> int:
         return command_audit(
             Path(args.workspace).resolve(),
             output_format=args.output_format,
+            output=args.output,
+            strict=args.strict,
+        )
+    if args.command == "quality":
+        return command_quality(
+            Path(args.workspace).resolve(),
+            strict=args.strict,
         )
 
     parser.print_help()
