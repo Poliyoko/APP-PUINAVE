@@ -9,7 +9,7 @@ def build_project_files(project_name: str) -> dict[str, str]:
     created_at = datetime.now(UTC).isoformat()
 
     manifest = {
-        "schema_version": "1.2",
+        "schema_version": "1.3",
         "project": {
             "name": project_name,
             "type": "SGODA",
@@ -30,6 +30,10 @@ def build_project_files(project_name: str) -> dict[str, str]:
             },
         },
         "components": {},
+        "lifecycle": {
+            "managed_by": "SGODA Project Builder",
+            "migration_history": [],
+        },
         "resources": {
             "lexicon": "data/json/palabras.json",
             "metadata_catalog": "data/metadata/catalog.json",

@@ -12,6 +12,8 @@ from .commands import (
     command_generate,
     command_init,
     command_quality,
+    command_migrate,
+    command_upgrade,
     command_validate,
     command_version,
 )
@@ -65,6 +67,35 @@ def build_parser() -> argparse.ArgumentParser:
     quality.add_argument("workspace", nargs="?", default=".")
     quality.add_argument("--strict", action="store_true")
 
+    upgrade = subparsers.add_parser(
+        "upgrade",
+        help="Actualiza un proyecto al esquema SGODA vigente.",
+    )
+    upgrade.add_argument("workspace", nargs="?", default=".")
+    upgrade.add_argument("--dry-run", action="store_true")
+    upgrade.add_argument("--no-backup", action="store_true")
+    upgrade.add_argument(
+        "--format",
+        choices=("text", "json"),
+        default="text",
+        dest="output_format",
+    )
+
+    migrate = subparsers.add_parser(
+        "migrate",
+        help="Migra un proyecto a una versión de esquema.",
+    )
+    migrate.add_argument("workspace", nargs="?", default=".")
+    migrate.add_argument("--to", required=True, dest="target_version")
+    migrate.add_argument("--dry-run", action="store_true")
+    migrate.add_argument("--no-backup", action="store_true")
+    migrate.add_argument(
+        "--format",
+        choices=("text", "json"),
+        default="text",
+        dest="output_format",
+    )
+
     return parser
 
 
@@ -100,6 +131,21 @@ def main(argv: Sequence[str] | None = None) -> int:
         return command_quality(
             Path(args.workspace).resolve(),
             strict=args.strict,
+        )
+    if args.command == "upgrade":
+        return command_upgrade(
+            Path(args.workspace).resolve(),
+            dry_run=args.dry_run,
+            backup=not args.no_backup,
+            output_format=args.output_format,
+        )
+    if args.command == "migrate":
+        return command_migrate(
+            Path(args.workspace).resolve(),
+            target_version=args.target_version,
+            dry_run=args.dry_run,
+            backup=not args.no_backup,
+            output_format=args.output_format,
         )
 
     parser.print_help()

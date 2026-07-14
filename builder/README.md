@@ -1,21 +1,20 @@
 # SGODA Project Builder
 
-Versión 0.9.0.
+Versión 1.1.0.
 
-## Auditoría y calidad
+## Ciclo de vida
 
 ```powershell
-python -m sgoda audit <proyecto>
-python -m sgoda audit <proyecto> --strict
-python -m sgoda audit <proyecto> --format json
-python -m sgoda audit <proyecto> --format markdown
-python -m sgoda audit <proyecto> --format json --output reports/audit.json
-python -m sgoda quality <proyecto>
+sgoda upgrade <proyecto>
+sgoda upgrade <proyecto> --dry-run
+sgoda migrate <proyecto> --to 1.3
 ```
 
-## Códigos de salida
+El motor:
 
-- `0`: aprobado.
-- `1`: errores detectados.
-- `2`: advertencias en modo estricto.
-- `3`: no fue posible guardar el informe.
+- detecta la versión de esquema;
+- calcula una ruta incremental;
+- crea respaldo automático;
+- conserva el manifiesto original;
+- registra historial de migración;
+- rechaza versiones no soportadas y migraciones regresivas.

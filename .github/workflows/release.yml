@@ -70,7 +70,7 @@ jobs:
       - name: Validate distributions
         run: |
           python -m twine check ./dist/*
-          python ./scripts/validate_release.py --dist ./dist --expected-version 1.0.0
+          python ./scripts/validate_release.py --dist ./dist --expected-version "${PACKAGE_VERSION}"
 
       - name: Upload workflow artifacts
         uses: actions/upload-artifact@v4

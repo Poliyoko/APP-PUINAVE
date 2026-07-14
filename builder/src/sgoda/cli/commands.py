@@ -6,6 +6,11 @@ from sgoda import __version__
 from sgoda.audit import AuditEngine, AuditExportError, render_report, save_report
 from sgoda.core import APP_NAME, BuilderConfig, ProjectBuilder
 from sgoda.generators import ComponentGenerator
+from sgoda.lifecycle import (
+    CURRENT_SCHEMA_VERSION,
+    MigrationError,
+    ProjectMigrator,
+)
 from sgoda.validators import run_doctor, validate_manifest, validate_project
 
 
@@ -130,5 +135,58 @@ def command_quality(
     print(f"Estado: {report.status}")
 
     return report.exit_code(strict=strict)
+
+
+
+def command_migrate(
+    workspace: Path,
+    *,
+    target_version: str,
+    dry_run: bool = False,
+    backup: bool = True,
+    output_format: str = "text",
+) -> int:
+    """Migra un proyecto a una versiÃ³n especÃ­fica."""
+    try:
+        report = ProjectMigrator(workspace).migrate(
+            target_version=target_version,
+            dry_run=dry_run,
+            backup=backup,
+        )
+    except MigrationError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        import json
+
+        print(
+            json.dumps(
+                report.to_dict(),
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+    else:
+        print(report.to_text())
+
+    return 0
+
+
+def command_upgrade(
+    workspace: Path,
+    *,
+    dry_run: bool = False,
+    backup: bool = True,
+    output_format: str = "text",
+) -> int:
+    """Actualiza un proyecto al esquema vigente."""
+    return command_migrate(
+        workspace,
+        target_version=CURRENT_SCHEMA_VERSION,
+        dry_run=dry_run,
+        backup=backup,
+        output_format=output_format,
+    )
 
 

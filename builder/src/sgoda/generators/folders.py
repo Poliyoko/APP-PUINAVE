@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 class FolderGenerator:
-    """Crea directorios de manera idempotente."""
+    """Crea directorios de forma idempotente."""
 
     def __init__(self, workspace: Path) -> None:
         self.workspace = workspace

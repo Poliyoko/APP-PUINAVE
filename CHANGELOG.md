@@ -5,6 +5,15 @@ Todos los cambios relevantes de SGODA Project Builder se documentan aquí.
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/)
 y el proyecto utiliza Versionado Semántico.
 
+## [1.1.0] - 2026-07-14
+
+### Añadido
+
+- Motor de actualización y migración de proyectos.
+- Respaldos automáticos del manifiesto.
+- Comandos `upgrade` y `migrate`.
+- Historial de migraciones y esquema SGODA 1.3.
+
 ## [1.0.0] - 2026-07-14
 
 ### Añadido
