@@ -19,6 +19,7 @@ from .commands import (
     command_template_render,
     command_init,
     command_quality,
+    command_report,
     command_status,
     command_migrate,
     command_upgrade,
@@ -136,6 +137,21 @@ def build_parser() -> argparse.ArgumentParser:
         dest="output_format",
     )
     history.add_argument("--record-status", action="store_true")
+
+    report = subparsers.add_parser(
+        "report",
+        help="Genera un reporte ejecutivo consolidado.",
+    )
+    report.add_argument("workspace", nargs="?", default=".")
+    report.add_argument(
+        "--format",
+        choices=("markdown", "json"),
+        default="markdown",
+        dest="output_format",
+    )
+    report.add_argument("--output", type=Path)
+    report.add_argument("--no-history", action="store_true")
+    report.add_argument("--history-limit", type=int, default=20)
 
 
     for extension_type in ("plugin", "template"):
@@ -266,6 +282,15 @@ def main(argv: Sequence[str] | None = None) -> int:
             limit=args.limit,
             output_format=args.output_format,
             record_status=args.record_status,
+        )
+
+    if args.command == "report":
+        return command_report(
+            Path(args.workspace).resolve(),
+            output_format=args.output_format,
+            output=args.output,
+            include_history=not args.no_history,
+            history_limit=args.history_limit,
         )
 
     if args.command in {"plugin", "template"}:

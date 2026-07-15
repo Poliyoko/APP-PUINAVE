@@ -75,3 +75,13 @@ status_collected
 
 Las simulaciones `--dry-run` no generan eventos. Un fallo del almacén de
 historial no modifica el código de salida de la operación principal.
+
+
+## Reportes ejecutivos
+
+```powershell
+sgoda report <proyecto>
+sgoda report <proyecto> --format json
+sgoda report <proyecto> --output .\reports
+sgoda report <proyecto> --no-history
+```

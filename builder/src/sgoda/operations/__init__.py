@@ -47,3 +47,24 @@ __all__ += [
 from .instrumentation import record_event_safely
 
 __all__ += ["record_event_safely"]
+
+
+from .report_builder import ExecutiveReportBuilder
+from .report_models import ExecutiveRecommendation, ExecutiveReport
+from .report_serializers import report_to_json, report_to_markdown
+from .report_service import (
+    ExecutiveReportExportError,
+    render_executive_report,
+    save_executive_report,
+)
+
+__all__ += [
+    "ExecutiveRecommendation",
+    "ExecutiveReport",
+    "ExecutiveReportBuilder",
+    "ExecutiveReportExportError",
+    "render_executive_report",
+    "report_to_json",
+    "report_to_markdown",
+    "save_executive_report",
+]

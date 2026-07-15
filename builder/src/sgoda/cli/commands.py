@@ -18,7 +18,10 @@ from sgoda.operations import (
     history_to_json,
     history_to_text,
     record_event_safely,
+    render_executive_report,
     render_status,
+    save_executive_report,
+    ExecutiveReportExportError,
 )
 from sgoda.lifecycle import (
     CURRENT_SCHEMA_VERSION,
@@ -553,4 +556,54 @@ def command_history(
         print(history_to_json(events))
     else:
         print(history_to_text(workspace, events))
+    return 0
+
+
+
+def command_report(
+    workspace: Path,
+    *,
+    output_format: str = "markdown",
+    output: Path | None = None,
+    include_history: bool = True,
+    history_limit: int = 20,
+) -> int:
+    """Genera el reporte ejecutivo consolidado."""
+    try:
+        rendered = render_executive_report(
+            workspace,
+            output_format=output_format,
+            include_history=include_history,
+            history_limit=history_limit,
+        )
+        saved_path = None
+        if output is not None:
+            saved_path = save_executive_report(
+                rendered,
+                output,
+                output_format=output_format,
+            )
+    except (
+        OperationCollectionError,
+        HistoryStoreError,
+        ExecutiveReportExportError,
+        ValueError,
+    ) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    print(rendered)
+    if saved_path is not None:
+        print(f"Reporte guardado: {saved_path}")
+
+    record_event_safely(
+        workspace,
+        "executive_report_generated",
+        details={
+            "format": output_format,
+            "include_history": include_history,
+            "history_limit": history_limit,
+            "output": str(saved_path) if saved_path else None,
+        },
+    )
     return 0
