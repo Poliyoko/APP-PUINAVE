@@ -11,6 +11,7 @@ from sgoda.extensions import (
     ExtensionManagerError,
     ExtensionValidationError,
 )
+from sgoda.operations import OperationCollectionError, render_status
 from sgoda.lifecycle import (
     CURRENT_SCHEMA_VERSION,
     MigrationError,
@@ -369,4 +370,24 @@ def command_template_render(
     for path in result.preserved_files:
         print(f"[ARCHIVO CONSERVADO] {path}")
     print("Plantilla renderizada correctamente.")
+    return 0
+
+
+def command_status(
+    workspace: Path,
+    *,
+    output_format: str = "text",
+    detailed: bool = False,
+) -> int:
+    """Muestra la instantánea operacional consolidada."""
+    try:
+        rendered = render_status(
+            workspace,
+            output_format=output_format,
+            detailed=detailed,
+        )
+    except (OperationCollectionError, ValueError) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    print(rendered)
     return 0

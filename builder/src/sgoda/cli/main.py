@@ -18,6 +18,7 @@ from .commands import (
     command_template_render,
     command_init,
     command_quality,
+    command_status,
     command_migrate,
     command_upgrade,
     command_validate,
@@ -105,6 +106,19 @@ def build_parser() -> argparse.ArgumentParser:
         default="text",
         dest="output_format",
     )
+
+    status = subparsers.add_parser(
+        "status",
+        help="Muestra el estado operativo consolidado del proyecto.",
+    )
+    status.add_argument("workspace", nargs="?", default=".")
+    status.add_argument(
+        "--format",
+        choices=("text", "json"),
+        default="text",
+        dest="output_format",
+    )
+    status.add_argument("--detailed", action="store_true")
 
 
     for extension_type in ("plugin", "template"):
@@ -218,6 +232,13 @@ def main(argv: Sequence[str] | None = None) -> int:
             dry_run=args.dry_run,
             backup=not args.no_backup,
             output_format=args.output_format,
+        )
+
+    if args.command == "status":
+        return command_status(
+            Path(args.workspace).resolve(),
+            output_format=args.output_format,
+            detailed=args.detailed,
         )
 
     if args.command in {"plugin", "template"}:

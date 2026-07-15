@@ -69,7 +69,7 @@ def test_template_install_and_render(tmp_path) -> None:
 
     content = (destination / "README.md").read_text(encoding="utf-8")
     assert "Mi Proyecto" in content
-    assert "1.3.0" in content
+    assert "1.4.0" in content
 
 
 def test_template_render_preserves_existing_file(tmp_path) -> None:

@@ -3,7 +3,8 @@
 
 def test_version(capsys) -> None:
     assert main(["version"]) == 0
-    assert "1.3.0" in capsys.readouterr().out
+    assert "1.4.0" in capsys.readouterr().out
+
 
 
 

@@ -50,6 +50,16 @@ y el proyecto utiliza Versionado Semántico.
 - Puntuación de calidad.
 - Reglas de dependencias entre componentes.
 
+## [1.4.0] - 2026-07-15
+
+### Añadido
+
+- Infraestructura común de observabilidad.
+- Modelo reutilizable `OperationStatus`.
+- Colector único de métricas operativas.
+- Motor de salud `HEALTHY`, `WARNING` y `ERROR`.
+- Comando `status` con salida de texto, JSON y modo detallado.
+
 ## [1.3.0] - 2026-07-14
 
 ### Añadido

@@ -1,6 +1,6 @@
 # SGODA Project Builder
 
-Versión 1.3.0.
+Versión 1.4.0.
 
 ## Plugins
 
@@ -19,4 +19,12 @@ sgoda template validate <ruta> --workspace <proyecto>
 sgoda template install <ruta> --workspace <proyecto>
 sgoda template list <proyecto>
 sgoda template render <nombre> <destino> --workspace <proyecto>
+```
+
+## Observabilidad
+
+```powershell
+sgoda status <proyecto>
+sgoda status <proyecto> --format json
+sgoda status <proyecto> --detailed
 ```

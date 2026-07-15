@@ -1,4 +1,4 @@
-﻿"""Pruebas de metadatos de distribuciÃ³n."""
+"""Pruebas de metadatos de distribución."""
 
 from pathlib import Path
 import tomllib
@@ -12,7 +12,7 @@ def test_pyproject_distribution_metadata() -> None:
     project = payload["project"]
 
     assert project["name"] == "sgoda-builder"
-    assert project["version"] == "1.3.0"
+    assert project["version"] == "1.4.0"
     assert project["requires-python"] == ">=3.11"
     assert project["scripts"]["sgoda"] == "sgoda.cli.main:main"
 
@@ -20,4 +20,3 @@ def test_pyproject_distribution_metadata() -> None:
 def test_manifest_exists() -> None:
     root = Path(__file__).resolve().parents[1]
     assert (root / "MANIFEST.in").is_file()
-
