@@ -50,6 +50,23 @@ y el proyecto utiliza Versionado Semántico.
 - Puntuación de calidad.
 - Reglas de dependencias entre componentes.
 
+## [1.5.0]
+
+### Añadido
+
+- Instrumentación automática de eventos en comandos del ciclo de vida.
+- Registro tolerante a fallos basado en `OperationStatus`.
+- Exclusión de eventos para simulaciones `--dry-run`.
+ - 2026-07-15
+
+### Añadido
+
+- Modelo persistente de eventos del ciclo de vida.
+- Almacén append-only en formato JSON Lines.
+- Serializadores de historial en texto y JSON.
+- Comando `sgoda history` con filtros por tipo, fecha y límite.
+- Reutilización de `OperationStatus` y `OperationCollector` como contexto.
+
 ## [1.4.0] - 2026-07-15
 
 ### Añadido

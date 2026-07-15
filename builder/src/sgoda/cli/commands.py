@@ -11,7 +11,15 @@ from sgoda.extensions import (
     ExtensionManagerError,
     ExtensionValidationError,
 )
-from sgoda.operations import OperationCollectionError, render_status
+from sgoda.operations import (
+    HistoryService,
+    HistoryStoreError,
+    OperationCollectionError,
+    history_to_json,
+    history_to_text,
+    record_event_safely,
+    render_status,
+)
 from sgoda.lifecycle import (
     CURRENT_SCHEMA_VERSION,
     MigrationError,
@@ -41,6 +49,20 @@ def command_doctor(
             print(json.dumps(report.to_dict(), ensure_ascii=False, indent=2))
         else:
             print(report.to_text())
+        if not dry_run:
+            record_event_safely(
+                workspace,
+                "project_repaired",
+                details={
+                    "status": report.status,
+                    "backup_path": (
+                        str(report.backup_path)
+                        if report.backup_path
+                        else None
+                    ),
+                    "actions": len(report.actions),
+                },
+            )
         return 0
     results = run_doctor(workspace)
     for result in results:
@@ -51,8 +73,12 @@ def command_doctor(
 
 def command_init(workspace: Path, project_name: str | None = None) -> int:
     config = BuilderConfig.from_path(workspace)
-    ProjectBuilder(config).initialize(
-        project_name=project_name or config.workspace.name
+    resolved_name = project_name or config.workspace.name
+    ProjectBuilder(config).initialize(project_name=resolved_name)
+    record_event_safely(
+        config.workspace,
+        "project_initialized",
+        details={"project_name": resolved_name},
     )
     print("Proyecto SGODA inicializado correctamente.")
     return 0
@@ -110,6 +136,18 @@ def command_generate(
         if dry_run
         else "Componente generado correctamente."
     )
+    if not dry_run:
+        record_event_safely(
+            workspace,
+            "component_generated",
+            details={
+                "component": result.component,
+                "name": result.name,
+                "written_files": len(result.written_files),
+                "preserved_files": len(result.preserved_files),
+                "force": force,
+            },
+        )
     return 0
 
 
@@ -138,7 +176,21 @@ def command_audit(
             return 3
         print(f"Informe guardado: {saved_path}")
 
-    return report.exit_code(strict=strict)
+    exit_code = report.exit_code(strict=strict)
+    record_event_safely(
+        workspace,
+        "audit_executed",
+        details={
+            "status": report.status,
+            "score": report.score,
+            "errors": report.errors,
+            "warnings": report.warnings,
+            "strict": strict,
+            "exit_code": exit_code,
+            "output_format": output_format,
+        },
+    )
+    return exit_code
 
 
 def command_quality(
@@ -156,7 +208,20 @@ def command_quality(
     print(f"Advertencias: {report.warnings}")
     print(f"Estado: {report.status}")
 
-    return report.exit_code(strict=strict)
+    exit_code = report.exit_code(strict=strict)
+    record_event_safely(
+        workspace,
+        "quality_executed",
+        details={
+            "status": report.status,
+            "score": report.score,
+            "errors": report.errors,
+            "warnings": report.warnings,
+            "strict": strict,
+            "exit_code": exit_code,
+        },
+    )
+    return exit_code
 
 
 
@@ -192,6 +257,23 @@ def command_migrate(
     else:
         print(report.to_text())
 
+    if not dry_run:
+        record_event_safely(
+            workspace,
+            "project_migrated",
+            details={
+                "source_version": report.source_version,
+                "target_version": report.target_version,
+                "status": report.status,
+                "changed": report.changed,
+                "steps": len(report.steps),
+                "backup_path": (
+                    str(report.backup_path)
+                    if report.backup_path
+                    else None
+                ),
+            },
+        )
     return 0
 
 
@@ -300,6 +382,24 @@ def command_extension_install(
             f"{result.manifest.name}"
         )
         print(f"Ruta: {result.installed_path}")
+
+    if result.status in {"INSTALLED", "UPDATED"}:
+        event_type = (
+            "plugin_installed"
+            if extension_type == "plugin"
+            else "template_installed"
+        )
+        record_event_safely(
+            workspace,
+            event_type,
+            details={
+                "name": result.manifest.name,
+                "version": result.manifest.version,
+                "status": result.status,
+                "installed_path": str(result.installed_path),
+                "force": force,
+            },
+        )
     return 0
 
 
@@ -337,6 +437,15 @@ def command_extension_remove(
         print(f"[ERROR] No existe {extension_type}:{name}.")
         return 1
     print(f"Extensión eliminada: {extension_type}:{name}")
+    record_event_safely(
+        workspace,
+        (
+            "plugin_removed"
+            if extension_type == "plugin"
+            else "template_removed"
+        ),
+        details={"name": name},
+    )
     return 0
 
 
@@ -370,6 +479,18 @@ def command_template_render(
     for path in result.preserved_files:
         print(f"[ARCHIVO CONSERVADO] {path}")
     print("Plantilla renderizada correctamente.")
+    record_event_safely(
+        workspace,
+        "template_rendered",
+        details={
+            "name": name,
+            "destination": str(destination.expanduser().resolve()),
+            "written_files": len(result.written_files),
+            "preserved_files": len(result.preserved_files),
+            "force": force,
+            "variables": sorted(values),
+        },
+    )
     return 0
 
 
@@ -390,4 +511,46 @@ def command_status(
         print(f"[ERROR] {exc}")
         return 1
     print(rendered)
+    record_event_safely(
+        workspace,
+        "status_collected",
+        details={
+            "output_format": output_format,
+            "detailed": detailed,
+        },
+    )
+    return 0
+
+
+def command_history(
+    workspace: Path,
+    *,
+    event_type: str | None = None,
+    since: str | None = None,
+    limit: int | None = None,
+    output_format: str = "text",
+    record_status: bool = False,
+) -> int:
+    """Consulta el historial persistente del proyecto."""
+    service = HistoryService(workspace)
+    try:
+        if record_status:
+            service.record("status_collected")
+        events = service.list(
+            event_type=event_type,
+            since=since,
+            limit=limit,
+        )
+    except (
+        HistoryStoreError,
+        OperationCollectionError,
+        ValueError,
+    ) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        print(history_to_json(events))
+    else:
+        print(history_to_text(workspace, events))
     return 0

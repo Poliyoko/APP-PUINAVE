@@ -10,6 +10,7 @@ from .commands import (
     command_audit,
     command_doctor,
     command_generate,
+    command_history,
     command_extension_info,
     command_extension_install,
     command_extension_list,
@@ -119,6 +120,22 @@ def build_parser() -> argparse.ArgumentParser:
         dest="output_format",
     )
     status.add_argument("--detailed", action="store_true")
+
+    history = subparsers.add_parser(
+        "history",
+        help="Consulta el historial persistente de eventos del proyecto.",
+    )
+    history.add_argument("workspace", nargs="?", default=".")
+    history.add_argument("--type", dest="event_type")
+    history.add_argument("--since")
+    history.add_argument("--limit", type=int)
+    history.add_argument(
+        "--format",
+        choices=("text", "json"),
+        default="text",
+        dest="output_format",
+    )
+    history.add_argument("--record-status", action="store_true")
 
 
     for extension_type in ("plugin", "template"):
@@ -239,6 +256,16 @@ def main(argv: Sequence[str] | None = None) -> int:
             Path(args.workspace).resolve(),
             output_format=args.output_format,
             detailed=args.detailed,
+        )
+
+    if args.command == "history":
+        return command_history(
+            Path(args.workspace).resolve(),
+            event_type=args.event_type,
+            since=args.since,
+            limit=args.limit,
+            output_format=args.output_format,
+            record_status=args.record_status,
         )
 
     if args.command in {"plugin", "template"}:
