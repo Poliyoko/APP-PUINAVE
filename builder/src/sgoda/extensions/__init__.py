@@ -61,3 +61,28 @@ __all__ += [
     "PluginUpdateResult",
     "PluginUpdater",
 ]
+
+
+from .integrity import (
+    IntegritySnapshot,
+    PluginIntegrityResult,
+    calculate_file_hashes,
+    calculate_manifest_hash,
+    calculate_tree_checksum,
+    create_integrity_snapshot,
+    sha256_file,
+    verify_integrity,
+)
+from .plugin_integrity import PluginIntegrityService
+
+__all__ += [
+    "IntegritySnapshot",
+    "PluginIntegrityResult",
+    "PluginIntegrityService",
+    "calculate_file_hashes",
+    "calculate_manifest_hash",
+    "calculate_tree_checksum",
+    "create_integrity_snapshot",
+    "sha256_file",
+    "verify_integrity",
+]

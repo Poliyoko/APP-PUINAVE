@@ -63,6 +63,11 @@ y el proyecto utiliza Versionado Semántico.
 - Respaldo previo y rollback automático.
 - Bloqueo de downgrade salvo autorización explícita.
 - Eventos `plugin_updated` y `plugin_update_failed`.
+- Checksums SHA-256 por archivo y checksum global.
+- `manifest_hash` para detectar cambios del manifiesto.
+- Comando `plugin verify` y actualización explícita de línea base.
+- Diagnóstico ampliado de archivos modificados, faltantes y agregados.
+- Eventos `plugin_integrity_checked` y `plugin_integrity_failed`.
 
 ## [1.6.0] - 2026-07-15
 

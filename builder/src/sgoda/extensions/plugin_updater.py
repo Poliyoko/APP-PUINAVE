@@ -10,6 +10,7 @@ import uuid
 
 from .compatibility import parse_version
 from .dependency_resolver import PluginDependencyResolver
+from .integrity import create_integrity_snapshot
 from .manager import ExtensionManagerError
 from .models import ExtensionRecord
 from .registry import ExtensionRegistry, ExtensionRegistryError
@@ -155,6 +156,14 @@ class PluginUpdater:
 
         try:
             self._copy_tree(source_dir, staging)
+            snapshot = create_integrity_snapshot(staging)
+            candidate = replace(
+                candidate,
+                checksum=snapshot.checksum,
+                manifest_hash=snapshot.manifest_hash,
+                file_hashes=snapshot.file_hashes,
+                integrity_checked_at=datetime.now(UTC).isoformat(),
+            )
 
             if backup:
                 timestamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%fZ")

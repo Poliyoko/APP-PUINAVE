@@ -11,6 +11,7 @@ from sgoda import __version__
 
 from .compatibility import CompatibilityError, requirement_satisfied
 from .dependency_resolver import PluginDependencyResolver
+from .integrity import verify_integrity
 from .registry import ExtensionRegistry
 
 
@@ -22,6 +23,9 @@ class PluginDoctorReport:
     incompatible: int
     dependency_issues: tuple[dict[str, Any], ...]
     cycles: tuple[tuple[str, ...], ...]
+    integrity: tuple[dict[str, Any], ...]
+    integrity_failures: int
+    untracked_integrity: int
     status: str
     builder_version: str
 
@@ -30,6 +34,7 @@ class PluginDoctorReport:
             **asdict(self),
             "dependency_issues": list(self.dependency_issues),
             "cycles": [list(cycle) for cycle in self.cycles],
+            "integrity": list(self.integrity),
         }
 
     def to_json(self) -> str:
@@ -45,6 +50,8 @@ class PluginDoctorReport:
             f"Incompatibles: {self.incompatible}",
             f"Problemas de dependencias: {len(self.dependency_issues)}",
             f"Ciclos: {len(self.cycles)}",
+            f"Fallos de integridad: {self.integrity_failures}",
+            f"Integridad sin línea base: {self.untracked_integrity}",
             "-" * 60,
             f"Estado: {self.status}",
         ])
@@ -78,9 +85,29 @@ class PluginDoctor:
             if not compatible:
                 incompatible += 1
 
+        integrity_results = tuple(
+            verify_integrity(
+                name=record.name,
+                root=record.installed_path,
+                expected_checksum=record.checksum,
+                expected_manifest_hash=record.manifest_hash,
+                expected_file_hashes=record.file_hashes,
+            )
+            for record in records
+        )
+        integrity_failures = sum(
+            result.status == "ERROR"
+            for result in integrity_results
+        )
+        untracked_integrity = sum(
+            result.status == "UNTRACKED"
+            for result in integrity_results
+        )
         status = (
             "ERROR"
-            if incompatible or issues or cycles
+            if incompatible or issues or cycles or integrity_failures
+            else "WARNING"
+            if untracked_integrity
             else "HEALTHY"
         )
         return PluginDoctorReport(
@@ -90,6 +117,12 @@ class PluginDoctor:
             incompatible=incompatible,
             dependency_issues=issues,
             cycles=cycles,
+            integrity=tuple(
+                result.to_dict()
+                for result in integrity_results
+            ),
+            integrity_failures=integrity_failures,
+            untracked_integrity=untracked_integrity,
             status=status,
             builder_version=__version__,
         )

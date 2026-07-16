@@ -43,6 +43,10 @@ class ExtensionRecord:
     status: str = "compatible"
     builder_requires: str = ""
     dependencies: dict[str, str] = field(default_factory=dict)
+    checksum: str = ""
+    manifest_hash: str = ""
+    file_hashes: dict[str, str] = field(default_factory=dict)
+    integrity_checked_at: str | None = None
 
     @classmethod
     def create(
@@ -73,4 +77,5 @@ class ExtensionRecord:
     def to_dict(self) -> dict[str, Any]:
         payload = asdict(self)
         payload["dependencies"] = dict(self.dependencies)
+        payload["file_hashes"] = dict(self.file_hashes)
         return payload

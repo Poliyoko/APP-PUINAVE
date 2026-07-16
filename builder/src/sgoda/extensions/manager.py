@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import UTC, datetime
 import json
 from pathlib import Path
@@ -11,6 +11,7 @@ from typing import Any
 
 from sgoda import __version__
 
+from .integrity import create_integrity_snapshot
 from .models import ExtensionManifest, ExtensionRecord
 from .registry import ExtensionRegistry, ExtensionRegistryError
 from .validator import ExtensionValidationError, load_manifest
@@ -82,7 +83,14 @@ class ExtensionManager:
                 "__pycache__", "*.pyc", ".git", ".pytest_cache"
             ),
         )
-        record = ExtensionRecord.create(manifest, destination)
+        snapshot = create_integrity_snapshot(destination)
+        record = replace(
+            ExtensionRecord.create(manifest, destination),
+            checksum=snapshot.checksum,
+            manifest_hash=snapshot.manifest_hash,
+            file_hashes=snapshot.file_hashes,
+            integrity_checked_at=datetime.now(UTC).isoformat(),
+        )
         try:
             registry_status = self.registry.register(record, force=force)
         except ExtensionRegistryError as exc:

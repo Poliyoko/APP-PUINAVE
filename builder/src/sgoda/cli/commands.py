@@ -12,6 +12,7 @@ from sgoda.extensions import (
     ExtensionValidationError,
     PluginDoctor,
     PluginStateService,
+    PluginIntegrityService,
     PluginUpdateError,
     PluginUpdater,
 )
@@ -673,6 +674,8 @@ def command_plugin_doctor(
             "installed": report.installed,
             "dependency_issues": len(report.dependency_issues),
             "cycles": len(report.cycles),
+            "integrity_failures": report.integrity_failures,
+            "untracked_integrity": report.untracked_integrity,
         },
     )
     return 0 if report.status == "HEALTHY" else 1
@@ -726,3 +729,48 @@ def command_plugin_update(
         details=result.to_dict(),
     )
     return 0
+
+
+
+def command_plugin_integrity(
+    workspace: Path,
+    name: str,
+    *,
+    refresh: bool = False,
+    output_format: str = "text",
+) -> int:
+    try:
+        service = PluginIntegrityService(workspace)
+        result = (
+            service.refresh(name)
+            if refresh
+            else service.verify(name)
+        )
+    except ExtensionManagerError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        import json
+        print(json.dumps(result.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print("Integridad de Plugin")
+        print("-" * 60)
+        print(f"Plugin: {result.name}")
+        print(f"Estado: {result.status}")
+        print(f"Seguimiento: {'sí' if result.tracked else 'no'}")
+        print(f"Modificados: {len(result.modified_files)}")
+        print(f"Faltantes: {len(result.missing_files)}")
+        print(f"Agregados: {len(result.added_files)}")
+
+    event_type = (
+        "plugin_integrity_checked"
+        if result.status == "HEALTHY"
+        else "plugin_integrity_failed"
+    )
+    record_event_safely(
+        workspace,
+        event_type,
+        details=result.to_dict(),
+    )
+    return 0 if result.status == "HEALTHY" else 1

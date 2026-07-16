@@ -142,3 +142,17 @@ sgoda plugin update <nombre> <ruta> --workspace <proyecto> --allow-downgrade
 La actualización usa un directorio de staging, crea un respaldo previo por
 defecto y restaura la versión anterior si falla la sustitución o el registro.
 Los downgrades requieren autorización explícita.
+
+
+### Integridad de plugins
+
+```powershell
+sgoda plugin verify <nombre> --workspace <proyecto>
+sgoda plugin verify <nombre> --workspace <proyecto> --format json
+sgoda plugin verify <nombre> --workspace <proyecto> --refresh
+```
+
+La instalación y actualización registran SHA-256 por archivo, checksum global y
+`manifest_hash`. La verificación detecta archivos modificados, eliminados y
+añadidos. `--refresh` acepta explícitamente el estado actual como nueva línea
+base.
