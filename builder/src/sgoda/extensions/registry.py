@@ -98,6 +98,17 @@ class ExtensionRegistry:
         self.save(payload)
         return status
 
+
+    def update_record(self, record: ExtensionRecord) -> None:
+        payload = self.load()
+        entries = payload["extensions"]
+        if record.key not in entries:
+            raise ExtensionRegistryError(
+                f"No existe el registro {record.key}."
+            )
+        entries[record.key] = record.to_dict()
+        self.save(payload)
+
     def remove(self, key: str) -> bool:
         payload = self.load()
         entries = payload["extensions"]

@@ -1,6 +1,6 @@
 """Modelos comunes para plugins y plantillas externas."""
 
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field, replace
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Literal
@@ -18,6 +18,7 @@ class ExtensionManifest:
     description: str = ""
     entry_point: str | None = None
     files: tuple[str, ...] = ()
+    dependencies: dict[str, str] = field(default_factory=dict)
 
     @property
     def key(self) -> str:
@@ -26,6 +27,7 @@ class ExtensionManifest:
     def to_dict(self) -> dict[str, Any]:
         payload = asdict(self)
         payload["files"] = list(self.files)
+        payload["dependencies"] = dict(self.dependencies)
         return payload
 
 
@@ -38,6 +40,9 @@ class ExtensionRecord:
     installed_at: str
     description: str = ""
     enabled: bool = True
+    status: str = "compatible"
+    builder_requires: str = ""
+    dependencies: dict[str, str] = field(default_factory=dict)
 
     @classmethod
     def create(
@@ -52,11 +57,20 @@ class ExtensionRecord:
             installed_path=str(installed_path),
             installed_at=datetime.now(UTC).isoformat(),
             description=manifest.description,
+            enabled=True,
+            status="compatible",
+            builder_requires=manifest.builder_requires,
+            dependencies=dict(manifest.dependencies),
         )
 
     @property
     def key(self) -> str:
         return f"{self.type}:{self.name}"
 
+    def with_state(self, *, enabled: bool, status: str) -> "ExtensionRecord":
+        return replace(self, enabled=enabled, status=status)
+
     def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
+        payload = asdict(self)
+        payload["dependencies"] = dict(self.dependencies)
+        return payload

@@ -10,6 +10,8 @@ from sgoda.extensions import (
     ExtensionManager,
     ExtensionManagerError,
     ExtensionValidationError,
+    PluginDoctor,
+    PluginStateService,
 )
 from sgoda.operations import (
     HistoryService,
@@ -613,3 +615,62 @@ def command_report(
         },
     )
     return 0
+
+
+
+def command_plugin_state(
+    workspace: Path,
+    name: str,
+    *,
+    enabled: bool,
+    output_format: str = "text",
+) -> int:
+    try:
+        result = PluginStateService(workspace).set_enabled(name, enabled)
+    except ExtensionManagerError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        import json
+        print(json.dumps({
+            "name": result.name,
+            "enabled": result.enabled,
+            "status": result.status,
+            "changed": result.changed,
+        }, ensure_ascii=False, indent=2))
+    else:
+        action = "habilitado" if result.enabled else "deshabilitado"
+        suffix = "" if result.changed else " (sin cambios)"
+        print(f"Plugin {result.name} {action}{suffix}.")
+
+    if result.changed:
+        record_event_safely(
+            workspace,
+            "plugin_enabled" if enabled else "plugin_disabled",
+            details={
+                "name": result.name,
+                "status": result.status,
+            },
+        )
+    return 0
+
+
+def command_plugin_doctor(
+    workspace: Path,
+    *,
+    output_format: str = "text",
+) -> int:
+    report = PluginDoctor(workspace).run()
+    print(report.to_json() if output_format == "json" else report.to_text())
+    record_event_safely(
+        workspace,
+        "plugin_ecosystem_diagnosed",
+        details={
+            "status": report.status,
+            "installed": report.installed,
+            "dependency_issues": len(report.dependency_issues),
+            "cycles": len(report.cycles),
+        },
+    )
+    return 0 if report.status == "HEALTHY" else 1

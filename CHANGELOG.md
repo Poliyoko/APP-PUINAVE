@@ -50,6 +50,16 @@ y el proyecto utiliza Versionado Semántico.
 - Puntuación de calidad.
 - Reglas de dependencias entre componentes.
 
+## [1.7.0] - 2026-07-16
+
+### Añadido
+
+- Habilitación y deshabilitación segura de plugins.
+- Compatibilidad con requisitos SemVer compuestos.
+- Dependencias entre plugins y detección de ciclos.
+- Diagnóstico `plugin doctor` en texto y JSON.
+- Eventos de historial para cambios de estado y diagnóstico.
+
 ## [1.6.0] - 2026-07-15
 
 ### Corregido

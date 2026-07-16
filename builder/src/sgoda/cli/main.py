@@ -19,6 +19,8 @@ from .commands import (
     command_template_render,
     command_init,
     command_quality,
+    command_plugin_doctor,
+    command_plugin_state,
     command_report,
     command_status,
     command_migrate,
@@ -211,6 +213,27 @@ def build_parser() -> argparse.ArgumentParser:
         remove_command.add_argument("name")
         remove_command.add_argument("--workspace", default=".")
 
+        if extension_type == "plugin":
+            for state_action in ("enable", "disable"):
+                state_command = actions.add_parser(state_action)
+                state_command.add_argument("name")
+                state_command.add_argument("--workspace", default=".")
+                state_command.add_argument(
+                    "--format",
+                    choices=("text", "json"),
+                    default="text",
+                    dest="output_format",
+                )
+
+            doctor_command = actions.add_parser("doctor")
+            doctor_command.add_argument("workspace", nargs="?", default=".")
+            doctor_command.add_argument(
+                "--format",
+                choices=("text", "json"),
+                default="text",
+                dest="output_format",
+            )
+
         if extension_type == "template":
             render_command = actions.add_parser("render")
             render_command.add_argument("name")
@@ -344,6 +367,18 @@ def main(argv: Sequence[str] | None = None) -> int:
                 Path(args.workspace).resolve(),
                 args.name,
                 extension_type=extension_type,
+            )
+        if extension_type == "plugin" and action in {"enable", "disable"}:
+            return command_plugin_state(
+                Path(args.workspace).resolve(),
+                args.name,
+                enabled=action == "enable",
+                output_format=args.output_format,
+            )
+        if extension_type == "plugin" and action == "doctor":
+            return command_plugin_doctor(
+                Path(args.workspace).resolve(),
+                output_format=args.output_format,
             )
         if extension_type == "template" and action == "render":
             return command_template_render(

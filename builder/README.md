@@ -108,3 +108,24 @@ reportes:
 *texto*    → <em>texto</em>
 `texto`    → <code>texto</code>
 ```
+
+
+## Ecosistema avanzado de plugins
+
+```powershell
+sgoda plugin enable <nombre> --workspace <proyecto>
+sgoda plugin disable <nombre> --workspace <proyecto>
+sgoda plugin doctor <proyecto>
+sgoda plugin doctor <proyecto> --format json
+```
+
+Los manifiestos pueden declarar dependencias y requisitos compuestos:
+
+```json
+{
+  "builder_requires": ">=1.6.0,<2.0.0",
+  "dependencies": {
+    "plugin-base": ">=1.0.0,<2.0.0"
+  }
+}
+```

@@ -9,44 +9,18 @@ from typing import Any
 
 from sgoda import __version__
 
+from .compatibility import (
+    CompatibilityError,
+    parse_version,
+    requirement_satisfied as compatibility_satisfied,
+)
 from .models import ExtensionManifest
 
 NAME_PATTERN = re.compile(r"^[a-zA-Z0-9][a-zA-Z0-9_-]{1,63}$")
-SEMVER_PATTERN = re.compile(
-    r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)"
-    r"(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$"
-)
-REQUIREMENT_PATTERN = re.compile(r"^(>=|>|==|<=|<)?\s*(\d+\.\d+\.\d+)$")
 
 
 class ExtensionValidationError(ValueError):
     """Manifiesto de extensión inválido."""
-
-
-def parse_version(value: str) -> tuple[int, int, int]:
-    match = SEMVER_PATTERN.fullmatch(value)
-    if not match:
-        raise ExtensionValidationError(f"Versión SemVer inválida: {value}")
-    return tuple(int(match.group(index)) for index in (1, 2, 3))
-
-
-def requirement_satisfied(requirement: str, current: str = __version__) -> bool:
-    match = REQUIREMENT_PATTERN.fullmatch(requirement.strip())
-    if not match:
-        raise ExtensionValidationError(
-            f"Requisito de Builder inválido: {requirement}"
-        )
-    operator = match.group(1) or "=="
-    required = tuple(int(part) for part in match.group(2).split("."))
-    installed = parse_version(current.split("-", 1)[0])
-    operations = {
-        ">=": installed >= required,
-        ">": installed > required,
-        "==": installed == required,
-        "<=": installed <= required,
-        "<": installed < required,
-    }
-    return operations[operator]
 
 
 def validate_relative_path(value: str) -> str:
@@ -127,10 +101,17 @@ def validate_manifest(
         raise ExtensionValidationError(f"Nombre inválido: {name}")
 
     version = str(payload["version"])
-    parse_version(version)
+    try:
+        parse_version(version)
+    except CompatibilityError as exc:
+        raise ExtensionValidationError(str(exc)) from exc
 
     builder_requires = str(payload["builder_requires"])
-    if not requirement_satisfied(builder_requires):
+    try:
+        compatible = compatibility_satisfied(builder_requires, __version__)
+    except CompatibilityError as exc:
+        raise ExtensionValidationError(str(exc)) from exc
+    if not compatible:
         raise ExtensionValidationError(
             f"Extensión incompatible con Builder {__version__}: "
             f"{builder_requires}"
@@ -163,6 +144,33 @@ def validate_manifest(
             )
         files.append(relative)
 
+    dependencies_raw = payload.get("dependencies", {})
+    if not isinstance(dependencies_raw, dict):
+        raise ExtensionValidationError(
+            "dependencies debe ser un objeto nombre:requisito."
+        )
+    dependencies: dict[str, str] = {}
+    for dependency_name, requirement in dependencies_raw.items():
+        if not isinstance(dependency_name, str) or not NAME_PATTERN.fullmatch(
+            dependency_name
+        ):
+            raise ExtensionValidationError(
+                f"Nombre de dependencia inválido: {dependency_name}"
+            )
+        if not isinstance(requirement, str):
+            raise ExtensionValidationError(
+                f"Requisito inválido para {dependency_name}."
+            )
+        try:
+            compatibility_satisfied(requirement, "0.0.0")
+        except CompatibilityError:
+            # El resultado puede ser falso; aquí solo interesa la sintaxis.
+            try:
+                compatibility_satisfied(requirement, "999999.0.0")
+            except CompatibilityError as exc:
+                raise ExtensionValidationError(str(exc)) from exc
+        dependencies[dependency_name] = requirement
+
     return ExtensionManifest(
         schema_version=str(payload["schema_version"]),
         type=extension_type,  # type: ignore[arg-type]
@@ -172,4 +180,5 @@ def validate_manifest(
         description=str(payload.get("description", "")),
         entry_point=str(entry_point) if entry_point else None,
         files=tuple(files),
+        dependencies=dependencies,
     )
