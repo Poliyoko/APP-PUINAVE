@@ -51,7 +51,7 @@ __all__ += ["record_event_safely"]
 
 from .report_builder import ExecutiveReportBuilder
 from .report_models import ExecutiveRecommendation, ExecutiveReport
-from .report_serializers import report_to_json, report_to_markdown
+from .report_serializers import report_to_html, report_to_json, report_to_markdown
 from .report_service import (
     ExecutiveReportExportError,
     render_executive_report,
@@ -64,7 +64,20 @@ __all__ += [
     "ExecutiveReportBuilder",
     "ExecutiveReportExportError",
     "render_executive_report",
+    "report_to_html",
     "report_to_json",
     "report_to_markdown",
     "save_executive_report",
+    "ALL_SECTIONS",
+    "PROFILE_SECTIONS",
+    "ReportProfileError",
+    "resolve_sections",
 ]
+
+
+from .report_profiles import (
+    ALL_SECTIONS,
+    PROFILE_SECTIONS,
+    ReportProfileError,
+    resolve_sections,
+)

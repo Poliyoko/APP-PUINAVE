@@ -145,13 +145,22 @@ def build_parser() -> argparse.ArgumentParser:
     report.add_argument("workspace", nargs="?", default=".")
     report.add_argument(
         "--format",
-        choices=("markdown", "json"),
+        choices=("markdown", "json", "html"),
         default="markdown",
         dest="output_format",
     )
     report.add_argument("--output", type=Path)
     report.add_argument("--no-history", action="store_true")
     report.add_argument("--history-limit", type=int, default=20)
+    report.add_argument(
+        "--profile",
+        choices=("executive", "technical", "audit"),
+        default="executive",
+    )
+    report.add_argument(
+        "--sections",
+        help="Lista separada por comas de secciones del reporte.",
+    )
 
 
     for extension_type in ("plugin", "template"):
@@ -291,6 +300,12 @@ def main(argv: Sequence[str] | None = None) -> int:
             output=args.output,
             include_history=not args.no_history,
             history_limit=args.history_limit,
+            profile=args.profile,
+            sections=(
+                tuple(args.sections.split(","))
+                if args.sections
+                else None
+            ),
         )
 
     if args.command in {"plugin", "template"}:

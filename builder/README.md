@@ -85,3 +85,26 @@ sgoda report <proyecto> --format json
 sgoda report <proyecto> --output .\reports
 sgoda report <proyecto> --no-history
 ```
+
+
+### Perfiles y formatos enriquecidos
+
+```powershell
+sgoda report <proyecto> --profile executive
+sgoda report <proyecto> --profile technical
+sgoda report <proyecto> --profile audit
+sgoda report <proyecto> --sections summary,audit,resources
+sgoda report <proyecto> --format html --output .\reports
+```
+
+
+### HTML semántico
+
+La exportación HTML convierte correctamente el marcado inline utilizado por los
+reportes:
+
+```text
+**texto**  → <strong>texto</strong>
+*texto*    → <em>texto</em>
+`texto`    → <code>texto</code>
+```

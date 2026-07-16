@@ -30,6 +30,9 @@ class ExecutiveReport:
     status: OperationStatus
     history: tuple[HistoryEvent, ...] = ()
     recommendations: tuple[ExecutiveRecommendation, ...] = ()
+    profile: str = "executive"
+    sections: tuple[str, ...] = ()
+    indicators: dict[str, Any] = field(default_factory=dict)
     metadata: dict[str, Any] = field(default_factory=dict)
 
     @property
@@ -57,6 +60,9 @@ class ExecutiveReport:
                 "available": self.status.resources.available,
                 "total": self.status.resources.total,
             },
+            "profile": self.profile,
+            "sections": list(self.sections),
+            "indicators": dict(self.indicators),
             "history": [event.to_dict() for event in self.history],
             "recommendations": [
                 recommendation.to_dict()

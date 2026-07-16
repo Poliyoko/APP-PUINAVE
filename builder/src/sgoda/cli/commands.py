@@ -567,6 +567,8 @@ def command_report(
     output: Path | None = None,
     include_history: bool = True,
     history_limit: int = 20,
+    profile: str = "executive",
+    sections: tuple[str, ...] | None = None,
 ) -> int:
     """Genera el reporte ejecutivo consolidado."""
     try:
@@ -575,6 +577,8 @@ def command_report(
             output_format=output_format,
             include_history=include_history,
             history_limit=history_limit,
+            profile=profile,
+            sections=sections,
         )
         saved_path = None
         if output is not None:
@@ -603,6 +607,8 @@ def command_report(
             "format": output_format,
             "include_history": include_history,
             "history_limit": history_limit,
+            "profile": profile,
+            "sections": list(sections or ()),
             "output": str(saved_path) if saved_path else None,
         },
     )

@@ -50,6 +50,24 @@ y el proyecto utiliza Versionado Semántico.
 - Puntuación de calidad.
 - Reglas de dependencias entre componentes.
 
+## [1.6.0] - 2026-07-15
+
+### Corregido
+
+- Corrección del serializador HTML para convertir correctamente negritas, cursivas y código inline de Markdown.
+- Pruebas de regresión para evitar fragmentos Markdown sin renderizar.
+
+### Añadido
+
+- Modelo y builder de reportes ejecutivos.
+- Serializadores Markdown y JSON.
+- Comando `sgoda report`.
+- Exportación segura e historial integrado.
+- Perfiles ejecutivo, técnico y auditoría.
+- Selección configurable de secciones.
+- Exportación HTML autocontenida.
+- Indicadores resumidos de riesgo, cobertura y volumen.
+
 ## [1.5.0]
 
 ### Añadido

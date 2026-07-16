@@ -8,6 +8,7 @@ from pathlib import Path
 from .collector import OperationCollector
 from .history import HistoryService
 from .report_models import ExecutiveRecommendation, ExecutiveReport
+from .report_profiles import resolve_sections
 
 
 class ExecutiveReportBuilder:
@@ -99,13 +100,16 @@ class ExecutiveReportBuilder:
         *,
         include_history: bool = True,
         history_limit: int = 20,
+        profile: str = "executive",
+        sections: tuple[str, ...] | None = None,
     ) -> ExecutiveReport:
         if history_limit < 1:
             raise ValueError("history_limit debe ser mayor que cero.")
 
+        selected_sections = resolve_sections(profile, sections)
         status = OperationCollector(self.workspace).collect()
         history = ()
-        if include_history:
+        if include_history and "history" in selected_sections:
             history = tuple(
                 HistoryService(self.workspace).list(limit=history_limit)
             )
@@ -115,10 +119,34 @@ class ExecutiveReportBuilder:
             generated_at=datetime.now(UTC).isoformat(),
             status=status,
             history=history,
-            recommendations=self._recommendations(status),
+            recommendations=(
+                self._recommendations(status)
+                if "recommendations" in selected_sections
+                else ()
+            ),
+            profile=profile,
+            sections=selected_sections,
+            indicators={
+                "quality_percentage": status.audit.score,
+                "resource_coverage": round(
+                    (status.resources.available / status.resources.total) * 100,
+                    2,
+                ) if status.resources.total else 100.0,
+                "component_total": sum(status.components.values()),
+                "extension_total": (
+                    status.extensions.plugins + status.extensions.templates
+                ),
+                "history_events": len(history),
+                "risk_level": (
+                    "high" if status.health == "ERROR"
+                    else "medium" if status.health == "WARNING"
+                    else "low"
+                ),
+            },
             metadata={
                 "history_included": include_history,
                 "history_limit": history_limit,
                 "model": "OperationStatus",
+                "profile": profile,
             },
         )
