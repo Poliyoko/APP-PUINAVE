@@ -59,6 +59,10 @@ y el proyecto utiliza Versionado Semántico.
 - Dependencias entre plugins y detección de ciclos.
 - Diagnóstico `plugin doctor` en texto y JSON.
 - Eventos de historial para cambios de estado y diagnóstico.
+- Actualización atómica de plugins con staging.
+- Respaldo previo y rollback automático.
+- Bloqueo de downgrade salvo autorización explícita.
+- Eventos `plugin_updated` y `plugin_update_failed`.
 
 ## [1.6.0] - 2026-07-15
 

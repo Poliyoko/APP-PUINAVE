@@ -129,3 +129,16 @@ Los manifiestos pueden declarar dependencias y requisitos compuestos:
   }
 }
 ```
+
+
+### Actualización atómica de plugins
+
+```powershell
+sgoda plugin update <nombre> <ruta> --workspace <proyecto>
+sgoda plugin update <nombre> <ruta> --workspace <proyecto> --no-backup
+sgoda plugin update <nombre> <ruta> --workspace <proyecto> --allow-downgrade
+```
+
+La actualización usa un directorio de staging, crea un respaldo previo por
+defecto y restaura la versión anterior si falla la sustitución o el registro.
+Los downgrades requieren autorización explícita.

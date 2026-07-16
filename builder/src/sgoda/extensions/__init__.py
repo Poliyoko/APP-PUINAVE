@@ -48,3 +48,16 @@ __all__ += [
     "parse_version",
     "requirement_satisfied",
 ]
+
+
+from .plugin_updater import (
+    PluginUpdateError,
+    PluginUpdateResult,
+    PluginUpdater,
+)
+
+__all__ += [
+    "PluginUpdateError",
+    "PluginUpdateResult",
+    "PluginUpdater",
+]

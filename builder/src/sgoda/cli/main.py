@@ -21,6 +21,7 @@ from .commands import (
     command_quality,
     command_plugin_doctor,
     command_plugin_state,
+    command_plugin_update,
     command_report,
     command_status,
     command_migrate,
@@ -234,6 +235,25 @@ def build_parser() -> argparse.ArgumentParser:
                 dest="output_format",
             )
 
+            update_command = actions.add_parser("update")
+            update_command.add_argument("name")
+            update_command.add_argument("source")
+            update_command.add_argument("--workspace", default=".")
+            update_command.add_argument(
+                "--no-backup",
+                action="store_true",
+            )
+            update_command.add_argument(
+                "--allow-downgrade",
+                action="store_true",
+            )
+            update_command.add_argument(
+                "--format",
+                choices=("text", "json"),
+                default="text",
+                dest="output_format",
+            )
+
         if extension_type == "template":
             render_command = actions.add_parser("render")
             render_command.add_argument("name")
@@ -378,6 +398,15 @@ def main(argv: Sequence[str] | None = None) -> int:
         if extension_type == "plugin" and action == "doctor":
             return command_plugin_doctor(
                 Path(args.workspace).resolve(),
+                output_format=args.output_format,
+            )
+        if extension_type == "plugin" and action == "update":
+            return command_plugin_update(
+                Path(args.workspace).resolve(),
+                args.name,
+                Path(args.source),
+                backup=not args.no_backup,
+                allow_downgrade=args.allow_downgrade,
                 output_format=args.output_format,
             )
         if extension_type == "template" and action == "render":

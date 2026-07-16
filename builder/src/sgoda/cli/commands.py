@@ -12,6 +12,8 @@ from sgoda.extensions import (
     ExtensionValidationError,
     PluginDoctor,
     PluginStateService,
+    PluginUpdateError,
+    PluginUpdater,
 )
 from sgoda.operations import (
     HistoryService,
@@ -674,3 +676,53 @@ def command_plugin_doctor(
         },
     )
     return 0 if report.status == "HEALTHY" else 1
+
+
+
+def command_plugin_update(
+    workspace: Path,
+    name: str,
+    source: Path,
+    *,
+    backup: bool = True,
+    allow_downgrade: bool = False,
+    output_format: str = "text",
+) -> int:
+    try:
+        result = PluginUpdater(workspace).update(
+            name,
+            source,
+            backup=backup,
+            allow_downgrade=allow_downgrade,
+        )
+    except PluginUpdateError as exc:
+        print(f"[ERROR] {exc}")
+        record_event_safely(
+            workspace,
+            "plugin_update_failed",
+            details={
+                "name": name,
+                "source": str(source),
+                "reason": str(exc),
+            },
+        )
+        return 1
+
+    if output_format == "json":
+        import json
+        print(json.dumps(result.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(
+            f"Plugin actualizado: {result.name} "
+            f"{result.previous_version} -> {result.version}"
+        )
+        print(f"Ruta: {result.installed_path}")
+        if result.backup_path is not None:
+            print(f"Respaldo: {result.backup_path}")
+
+    record_event_safely(
+        workspace,
+        "plugin_updated",
+        details=result.to_dict(),
+    )
+    return 0
