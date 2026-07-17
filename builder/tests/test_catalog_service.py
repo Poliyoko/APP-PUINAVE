@@ -12,7 +12,7 @@ def make_extension(root: Path, kind: str, name: str) -> Path:
         "type": kind,
         "name": name,
         "version": "1.0.0",
-        "builder_requires": ">=1.12.0,<2.0.0",
+        "builder_requires": ">=1.13.0,<2.0.0",
         "description": f"{kind} {name}",
         "dependencies": {},
     }

@@ -12,7 +12,7 @@ def test_pyproject_distribution_metadata() -> None:
     project = payload["project"]
 
     assert project["name"] == "sgoda-builder"
-    assert project["version"] == "1.12.0"
+    assert project["version"] == "1.13.0"
     assert project["requires-python"] == ">=3.11"
     assert project["scripts"]["sgoda"] == "sgoda.cli.main:main"
 

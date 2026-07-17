@@ -20,7 +20,7 @@ def test_pyproject_and_package_versions_match() -> None:
         (root / "pyproject.toml").read_text(encoding="utf-8")
     )
     assert payload["project"]["version"] == sgoda.__version__
-    assert sgoda.__version__ == "1.12.0"
+    assert sgoda.__version__ == "1.13.0"
 
 
 def test_changelog_contains_current_version() -> None:

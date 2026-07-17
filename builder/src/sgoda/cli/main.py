@@ -29,6 +29,10 @@ from .commands import (
     command_repo_list,
     command_repo_remove,
     command_repo_set_enabled,
+    command_sync,
+    command_index_info,
+    command_index_list,
+    command_index_verify,
     command_extension_info,
     command_extension_install,
     command_extension_list,
@@ -197,6 +201,30 @@ def build_parser() -> argparse.ArgumentParser:
         repo_state = repo_actions.add_parser(repo_action)
         repo_state.add_argument("name")
         repo_state.add_argument("--workspace", default=".")
+
+    sync = subparsers.add_parser("sync", help="Sincroniza índices remotos.")
+    sync.add_argument("repository", nargs="?")
+    sync.add_argument("--workspace", default=".")
+    sync.add_argument("--all", action="store_true", dest="sync_all")
+    sync.add_argument("--force", action="store_true")
+    sync.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    index = subparsers.add_parser("index", help="Consulta índices en caché.")
+    index_actions = index.add_subparsers(dest="index_action")
+
+    index_list = index_actions.add_parser("list")
+    index_list.add_argument("--workspace", default=".")
+    index_list.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    index_info = index_actions.add_parser("info")
+    index_info.add_argument("repository")
+    index_info.add_argument("--workspace", default=".")
+    index_info.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    index_verify = index_actions.add_parser("verify")
+    index_verify.add_argument("repository")
+    index_verify.add_argument("--workspace", default=".")
+    index_verify.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
 
     export = subparsers.add_parser("export", help="Exporta el ecosistema SGODA.")
     export_actions = export.add_subparsers(dest="export_action")
@@ -551,6 +579,32 @@ def main(argv: Sequence[str] | None = None) -> int:
         if args.repo_action in {"enable", "disable"}:
             return command_repo_set_enabled(
                 workspace, args.name, enabled=args.repo_action == "enable"
+            )
+        parser.print_help()
+        return 2
+
+    if args.command == "sync":
+        if args.sync_all and args.repository:
+            parser.error("No combine un repositorio explícito con --all.")
+        return command_sync(
+            Path(args.workspace).resolve(),
+            args.repository,
+            sync_all=args.sync_all,
+            force=args.force,
+            output_format=args.output_format,
+        )
+
+    if args.command == "index":
+        workspace = Path(getattr(args, "workspace", ".")).resolve()
+        if args.index_action == "list":
+            return command_index_list(workspace, output_format=args.output_format)
+        if args.index_action == "info":
+            return command_index_info(
+                workspace, args.repository, output_format=args.output_format
+            )
+        if args.index_action == "verify":
+            return command_index_verify(
+                workspace, args.repository, output_format=args.output_format
             )
         parser.print_help()
         return 2

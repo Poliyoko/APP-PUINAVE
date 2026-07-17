@@ -6,7 +6,7 @@ from sgoda.extensions import ExtensionManager
 def make_template(root,name,version,marker):
     source=root/f'{name}-{version}'; render=source/'template'; render.mkdir(parents=True)
     (render/'README.md').write_text(marker,encoding='utf-8')
-    (source/'sgoda.template.json').write_text(json.dumps({'schema_version':'1.0','type':'template','name':name,'version':version,'builder_requires':'>=1.12.0,<2.0.0','render_root':'template','variables':{},'files':['template/README.md']}),encoding='utf-8')
+    (source/'sgoda.template.json').write_text(json.dumps({'schema_version':'1.0','type':'template','name':name,'version':version,'builder_requires':'>=1.13.0,<2.0.0','render_root':'template','variables':{},'files':['template/README.md']}),encoding='utf-8')
     return source
 
 def test_update_backup_and_version(tmp_path,capsys):

@@ -33,7 +33,14 @@ from sgoda.extensions import (
     TemplateUpdater,
     TemplateVersionService,
 )
-from sgoda.repositories import RepositoryService, RepositoryServiceError, RepositoryValidationError
+from sgoda.repositories import (
+    IndexStore,
+    RepositoryService,
+    RepositoryServiceError,
+    RepositoryValidationError,
+    SyncService,
+    SyncServiceError,
+)
 from sgoda.operations import (
     HistoryService,
     HistoryStoreError,
@@ -1379,3 +1386,147 @@ def command_repo_set_enabled(
         f"{repository.name}"
     )
     return 0
+
+
+
+def command_sync(
+    workspace: Path,
+    repository: str | None = None,
+    *,
+    sync_all: bool = False,
+    force: bool = False,
+    output_format: str = "text",
+) -> int:
+    import json
+    service = SyncService(workspace)
+    record_event_safely(
+        workspace,
+        "repository_sync_started",
+        details={"repository": repository, "all": sync_all, "force": force},
+    )
+    try:
+        if sync_all or repository is None:
+            results = service.sync_all(force=force)
+        else:
+            results = (service.sync(repository, force=force),)
+    except SyncServiceError as exc:
+        record_event_safely(
+            workspace,
+            "repository_sync_failed",
+            details={"repository": repository, "all": sync_all, "error": str(exc)},
+        )
+        print(f"[ERROR] {exc}")
+        return 1
+
+    payload = [result.to_dict() for result in results]
+    for result in results:
+        event = (
+            "repository_index_updated"
+            if result.changed
+            else "repository_index_unchanged"
+        )
+        record_event_safely(workspace, event, details=result.to_dict())
+    record_event_safely(
+        workspace,
+        "repository_sync_completed",
+        details={
+            "repositories": len(results),
+            "updated": sum(result.changed for result in results),
+        },
+    )
+    if output_format == "json":
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+    else:
+        for result in results:
+            print(
+                f"{result.repository}: {result.status} | "
+                f"paquetes={result.package_count} | sha256={result.sha256}"
+            )
+    return 0
+
+
+def command_index_list(
+    workspace: Path,
+    *,
+    output_format: str = "text",
+) -> int:
+    import json
+    store = IndexStore(workspace)
+    items = []
+    for repository in store.list_cached():
+        index = store.load_index(repository)
+        metadata = store.load_metadata(repository)
+        items.append({
+            "repository": repository,
+            "packages": len(index.packages),
+            "generated_at": index.generated_at,
+            "synchronized_at": metadata.synchronized_at if metadata else None,
+            "sha256": metadata.sha256 if metadata else None,
+        })
+    if output_format == "json":
+        print(json.dumps(items, ensure_ascii=False, indent=2))
+    elif not items:
+        print("No hay índices en caché.")
+    else:
+        for item in items:
+            print(
+                f"{item['repository']}\t{item['packages']}\t"
+                f"{item['synchronized_at'] or '-'}\t{item['sha256'] or '-'}"
+            )
+    return 0
+
+
+def command_index_info(
+    workspace: Path,
+    repository: str,
+    *,
+    output_format: str = "text",
+) -> int:
+    import json
+    store = IndexStore(workspace)
+    try:
+        index = store.load_index(repository)
+        metadata = store.load_metadata(repository)
+    except Exception as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    payload = {
+        "index": index.to_dict(),
+        "metadata": metadata.to_dict() if metadata else None,
+    }
+    if output_format == "json":
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+    else:
+        print(
+            f"Repositorio: {repository}\n"
+            f"Esquema: {index.schema_version}\n"
+            f"Generado: {index.generated_at}\n"
+            f"Paquetes: {len(index.packages)}\n"
+            f"Sincronizado: {metadata.synchronized_at if metadata else '-'}\n"
+            f"SHA-256: {metadata.sha256 if metadata else '-'}"
+        )
+    return 0
+
+
+def command_index_verify(
+    workspace: Path,
+    repository: str,
+    *,
+    output_format: str = "text",
+) -> int:
+    import json
+    result = SyncService(workspace).verify(repository)
+    record_event_safely(
+        workspace, "repository_index_verified", details=result
+    )
+    if output_format == "json":
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+    else:
+        print(
+            f"Repositorio: {result['repository']}\n"
+            f"Válido: {'sí' if result['valid'] else 'no'}\n"
+            f"Paquetes: {result['packages']}"
+        )
+        for error in result["errors"]:
+            print(f"[ERROR] {error}")
+    return 0 if result["valid"] else 1

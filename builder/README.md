@@ -254,3 +254,21 @@ python -m sgoda repo remove official
 El registro se almacena atómicamente en
 `.sgoda/repositories/repositories.json`. Este bloque administra las fuentes;
 la sincronización y descarga de índices se implementará en SPB-002.9-B.
+
+
+## Índices y sincronización remota
+
+```powershell
+python -m sgoda repo add official https://repo.example.org --trusted
+python -m sgoda sync official
+python -m sgoda sync --all
+python -m sgoda sync official --force --format json
+python -m sgoda index list
+python -m sgoda index info official --format json
+python -m sgoda index verify official
+```
+
+SGODA descarga `<url-del-repositorio>/index.json`, valida el contrato 1.0,
+usa ETag y Last-Modified para sincronización condicional, guarda la caché
+atómicamente y conserva copias anteriores antes de cada actualización.
+Un índice remoto inválido nunca reemplaza el último índice válido.

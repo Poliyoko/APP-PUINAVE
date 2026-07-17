@@ -15,7 +15,7 @@ def make_template(root: Path) -> Path:
             "type": "template",
             "name": "state-template",
             "version": "1.0.0",
-            "builder_requires": ">=1.12.0,<2.0.0",
+            "builder_requires": ">=1.13.0,<2.0.0",
             "render_root": "template",
             "variables": {"name": {"required": True}},
             "files": ["template/README.md"],

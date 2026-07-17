@@ -16,7 +16,7 @@ def make_plugin(tmp_path: Path, **overrides) -> Path:
         "schema_version": "1.0",
         "type": "plugin",
         "name": "plugin-ejemplo",
-        "version": "1.12.0",
+        "version": "1.13.0",
         "builder_requires": ">=1.2.0",
         "entry_point": "plugin:register",
     }
@@ -44,5 +44,5 @@ def test_incompatible_builder_is_rejected(tmp_path) -> None:
 
 
 def test_requirement_comparison() -> None:
-    assert requirement_satisfied(">=1.2.0", "1.12.0")
-    assert not requirement_satisfied(">=2.0.0", "1.12.0")
+    assert requirement_satisfied(">=1.2.0", "1.13.0")
+    assert not requirement_satisfied(">=2.0.0", "1.13.0")

@@ -13,7 +13,7 @@ def make_plugin(root: Path, name: str = "alpha") -> Path:
         "type": "plugin",
         "name": name,
         "version": "1.0.0",
-        "builder_requires": ">=1.12.0,<2.0.0",
+        "builder_requires": ">=1.13.0,<2.0.0",
         "description": "Plugin bundle",
         "entry_point": "plugin:register",
         "dependencies": {},
