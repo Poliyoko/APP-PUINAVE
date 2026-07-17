@@ -5,6 +5,32 @@ Todos los cambios relevantes de SGODA Project Builder se documentan aquí.
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/)
 y el proyecto utiliza Versionado Semántico.
 
+## [1.13.0] - 2026-07-17
+
+### Añadido
+
+- Modelo y contrato de índices remotos SGODA 1.0.
+- Cliente HTTP con timeout, ETag y Last-Modified.
+- Sincronización individual y masiva de repositorios habilitados.
+- Caché local atómica con respaldo de índices anteriores.
+- Validación de esquema, repositorio, fechas, SemVer, URL y SHA-256.
+- Comandos `sync`, `index list`, `index info` e `index verify`.
+- Historial de inicio, finalización, fallo, actualización y verificación.
+- Protección del último índice válido ante fallos o documentos inválidos.
+- Pruebas de modelos, serialización, validación, caché, cliente, servicio y CLI.
+
+## [1.12.0] - 2026-07-17
+
+### Añadido
+
+- Registro persistente y atómico de repositorios remotos.
+- Modelo de repositorios con prioridad, confianza y estado.
+- Validación estricta de nombres, URLs y prioridades.
+- CLI `repo add`, `remove`, `list`, `info`, `enable` y `disable`.
+- Actualización explícita mediante `repo add --force`.
+- Historial de altas, cambios, habilitación, deshabilitación y eliminación.
+- Pruebas de persistencia, validación, servicio, CLI e historial.
+
 ## [1.1.0] - 2026-07-14
 
 ### Añadido
@@ -49,6 +75,40 @@ y el proyecto utiliza Versionado Semántico.
 - Comando `quality`.
 - Puntuación de calidad.
 - Reglas de dependencias entre componentes.
+
+## [1.11.0] - 2026-07-17
+
+### Añadido
+
+- Paquetes portables `.sgoda` con manifiesto SHA-256.
+- Verificación de integridad y extracción segura.
+- Importación transaccional con restauración automática.
+- Exportación de catálogo, registro, plugins, plantillas y bundles.
+- Reporte consolidado en texto, JSON, Markdown y HTML.
+- Comandos `export`, `import` y `ecosystem-report`.
+- Eventos de historial de exportación, importación y reporte.
+
+## [1.10.0] - 2026-07-17
+
+### Añadido
+
+- Bundles persistentes de plugins y plantillas.
+- Copia reproducible de activos de cada bundle.
+- Operaciones masivas install, update, uninstall, enable y disable.
+- Planificación mediante `--dry-run`.
+- Ejecución transaccional y rollback automático.
+- Integración con catálogo local e historial operativo.
+- Comandos `sgoda bundle create`, `list`, `info` y operaciones masivas.
+
+## [1.9.0] - 2026-07-16
+
+### Añadido
+
+- Catálogo local unificado para plugins y plantillas.
+- Persistencia reproducible en `.sgoda/extensions/catalog.json`.
+- Comandos `catalog rebuild`, `list`, `search` e `info`.
+- Estadísticas consolidadas y filtros por tipo.
+- Eventos `catalog_rebuilt`, `catalog_searched` y `catalog_info`.
 
 ## [1.8.0] - 2026-07-16
 
