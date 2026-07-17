@@ -168,3 +168,22 @@ __all__ += [
     "BundleStoreError",
     "ExtensionBundle",
 ]
+
+
+from .archive_service import ArchiveError, ArchiveService
+from .consolidated_report import ConsolidatedReportService
+from .export_service import ExportService, ExportServiceError
+from .import_service import ImportService, ImportServiceError
+from .package_manifest import PackageFile, PackageManifest
+
+__all__ += [
+    "ArchiveError",
+    "ArchiveService",
+    "ConsolidatedReportService",
+    "ExportService",
+    "ExportServiceError",
+    "ImportService",
+    "ImportServiceError",
+    "PackageFile",
+    "PackageManifest",
+]

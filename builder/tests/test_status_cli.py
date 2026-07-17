@@ -20,7 +20,7 @@ def test_status_json_detailed(tmp_path, capsys) -> None:
 
     assert main(["status", str(tmp_path), "--format", "json", "--detailed"]) == 0
     payload = json.loads(capsys.readouterr().out)
-    assert payload["builder_version"] == "1.10.0"
+    assert payload["builder_version"] == "1.11.0"
     assert payload["project"]["name"] == "JSON"
     assert payload["audit"]["score"] == 100
 

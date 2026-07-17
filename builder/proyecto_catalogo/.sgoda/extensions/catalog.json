@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "indexed_at": "2026-07-17T03:07:52.046284+00:00",
+  "indexed_at": "2026-07-17T05:16:21.299369+00:00",
   "entries": [
     {
       "type": "plugin",
@@ -15,7 +15,7 @@
       "manifest_hash": "8d529debf16001bcb84f9e69f40287ed61948b49dcb1a306b207b82d0257afd9",
       "location": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder\\proyecto_catalogo\\.sgoda\\extensions\\plugins\\plugin-base",
       "source": "workspace",
-      "indexed_at": "2026-07-17T03:07:52.046284+00:00"
+      "indexed_at": "2026-07-17T05:16:21.299369+00:00"
     },
     {
       "type": "template",
@@ -30,7 +30,7 @@
       "manifest_hash": "abf961c7b76f1d129702486f2bbaeab4ce81b75ae8f6c3ce9f1faab320c13f59",
       "location": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder\\proyecto_catalogo\\.sgoda\\extensions\\templates\\template-base",
       "source": "workspace",
-      "indexed_at": "2026-07-17T03:07:52.046284+00:00"
+      "indexed_at": "2026-07-17T05:16:21.299369+00:00"
     }
   ],
   "duplicates": [],
@@ -43,6 +43,6 @@
     "disabled": 0,
     "duplicates": 0,
     "errors": 0,
-    "indexed_at": "2026-07-17T03:07:52.046284+00:00"
+    "indexed_at": "2026-07-17T05:16:21.299369+00:00"
   }
 }

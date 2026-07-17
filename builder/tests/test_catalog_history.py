@@ -15,7 +15,7 @@ def make_plugin(root: Path) -> Path:
             "type": "plugin",
             "name": "history-catalog",
             "version": "1.0.0",
-            "builder_requires": ">=1.10.0,<2.0.0",
+            "builder_requires": ">=1.11.0,<2.0.0",
             "entry_point": "plugin:register",
         }),
         encoding="utf-8",

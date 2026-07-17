@@ -9,6 +9,11 @@ from sgoda.generators import ComponentGenerator
 from sgoda.extensions import (
     BundleService,
     BundleServiceError,
+    ConsolidatedReportService,
+    ExportService,
+    ExportServiceError,
+    ImportService,
+    ImportServiceError,
     CatalogService,
     CatalogServiceError,
     ExtensionManager,
@@ -1138,3 +1143,109 @@ def command_bundle_execute(
         },
     )
     return 0 if result.status in {"COMPLETED", "PLANNED"} else 1
+
+
+
+def command_export_create(workspace: Path, output: Path) -> int:
+    try:
+        result = ExportService(workspace).create(output)
+    except ExportServiceError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    print(f"Paquete SGODA creado: {result}")
+    record_event_safely(
+        workspace, "export_created", details={"package": str(result)}
+    )
+    return 0
+
+
+def command_export_verify(workspace: Path, package: Path, output_format: str = "text") -> int:
+    import json
+    result = ExportService(workspace).verify(package)
+    print(
+        json.dumps(result, ensure_ascii=False, indent=2)
+        if output_format == "json"
+        else (
+            f"Paquete: {result['package']}\n"
+            f"Válido: {'sí' if result['valid'] else 'no'}\n"
+            f"Archivos: {result['files']}\n"
+            + ("\n".join(result["errors"]) if result["errors"] else "")
+        )
+    )
+    record_event_safely(
+        workspace, "export_verified",
+        details={"package": str(package), "valid": result["valid"]}
+    )
+    return 0 if result["valid"] else 1
+
+
+def command_import_package(
+    workspace: Path,
+    package: Path,
+    *,
+    replace: bool = False,
+    dry_run: bool = False,
+    output_format: str = "text",
+) -> int:
+    import json
+    try:
+        result = ImportService(workspace).import_package(
+            package, replace=replace, dry_run=dry_run
+        )
+    except ImportServiceError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    print(
+        json.dumps(result, ensure_ascii=False, indent=2)
+        if output_format == "json"
+        else (
+            f"Estado: {result['status']}\n"
+            f"Paquete: {result['package']}\n"
+            f"Archivos: {result['files']}"
+        )
+    )
+    record_event_safely(
+        workspace,
+        "import_planned" if dry_run else "import_completed",
+        details=result,
+    )
+    return 0
+
+
+def command_import_verify(workspace: Path, package: Path, output_format: str = "text") -> int:
+    import json
+    result = ImportService(workspace).verify(package)
+    print(
+        json.dumps(result, ensure_ascii=False, indent=2)
+        if output_format == "json"
+        else f"Válido: {'sí' if result['valid'] else 'no'} | Archivos: {result['files']}"
+    )
+    record_event_safely(
+        workspace, "import_verified",
+        details={"package": str(package), "valid": result["valid"]}
+    )
+    return 0 if result["valid"] else 1
+
+
+def command_report_consolidated(
+    workspace: Path,
+    *,
+    output_format: str = "markdown",
+    output: Path | None = None,
+    history_limit: int = 20,
+) -> int:
+    service = ConsolidatedReportService(workspace)
+    payload = service.collect(history_limit=history_limit)
+    if output is None:
+        print(service.render(payload, output_format))
+        saved = None
+    else:
+        saved = service.save(
+            output, output_format=output_format, history_limit=history_limit
+        )
+        print(f"Reporte consolidado guardado: {saved}")
+    record_event_safely(
+        workspace, "report_consolidated_generated",
+        details={"format": output_format, "output": str(saved) if saved else None}
+    )
+    return 0

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "indexed_at": "2026-07-17T05:16:48.167555+00:00",
+  "entries": [
+    {
+      "type": "plugin",
+      "name": "plugin-base",
+      "version": "1.0.0",
+      "description": "Plugin base para catálogo",
+      "builder_requires": ">=1.8.0,<2.0.0",
+      "enabled": true,
+      "status": "compatible",
+      "dependencies": {},
+      "checksum": "c8fef77b9615a0c8780b3b0e59e0de8a5f6822a885422a0c658cbd39904f1b5b",
+      "manifest_hash": "8d529debf16001bcb84f9e69f40287ed61948b49dcb1a306b207b82d0257afd9",
+      "location": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder\\proyecto_catalogo\\.sgoda\\extensions\\plugins\\plugin-base",
+      "source": "workspace",
+      "indexed_at": "2026-07-17T05:16:48.167555+00:00"
+    },
+    {
+      "type": "template",
+      "name": "template-base",
+      "version": "1.0.0",
+      "description": "Plantilla base para catálogo",
+      "builder_requires": ">=1.8.0,<2.0.0",
+      "enabled": true,
+      "status": "compatible",
+      "dependencies": {},
+      "checksum": "932caadd3d134d0f11bde961230867ac0230b47f606506642f758dfa83f5cbd7",
+      "manifest_hash": "abf961c7b76f1d129702486f2bbaeab4ce81b75ae8f6c3ce9f1faab320c13f59",
+      "location": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder\\proyecto_catalogo\\.sgoda\\extensions\\templates\\template-base",
+      "source": "workspace",
+      "indexed_at": "2026-07-17T05:16:48.167555+00:00"
+    }
+  ],
+  "duplicates": [],
+  "errors": [],
+  "statistics": {
+    "total": 2,
+    "plugins": 1,
+    "templates": 1,
+    "enabled": 2,
+    "disabled": 0,
+    "duplicates": 0,
+    "errors": 0,
+    "indexed_at": "2026-07-17T05:16:48.167555+00:00"
+  }
+}

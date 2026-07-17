@@ -225,3 +225,15 @@ sgoda bundle disable core --workspace <proyecto>
 
 Los bundles guardan una copia reproducible de sus extensiones en
 `.sgoda/extensions/bundles/assets/` y ejecutan cambios masivos con rollback.
+
+
+## Exportación, importación y reporte consolidado
+
+```powershell
+python -m sgoda export create .\ecosistema.sgoda --workspace .\proyecto
+python -m sgoda export verify .\ecosistema.sgoda --workspace .\proyecto --format json
+python -m sgoda import verify .\ecosistema.sgoda --workspace .\destino
+python -m sgoda import package .\ecosistema.sgoda --workspace .\destino
+python -m sgoda import package .\ecosistema.sgoda --workspace .\destino --replace
+python -m sgoda ecosystem-report .\destino --format markdown --output .\reporte
+```

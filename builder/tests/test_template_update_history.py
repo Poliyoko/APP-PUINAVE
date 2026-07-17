@@ -6,7 +6,7 @@ from sgoda.operations import HistoryStore
 def make_template(root,version):
     source=root/f'h-{version}'; render=source/'template'; render.mkdir(parents=True)
     (render/'README.md').write_text(version,encoding='utf-8')
-    (source/'sgoda.template.json').write_text(json.dumps({'schema_version':'1.0','type':'template','name':'history-template','version':version,'builder_requires':'>=1.10.0,<2.0.0','render_root':'template','variables':{},'files':['template/README.md']}),encoding='utf-8'); return source
+    (source/'sgoda.template.json').write_text(json.dumps({'schema_version':'1.0','type':'template','name':'history-template','version':version,'builder_requires':'>=1.11.0,<2.0.0','render_root':'template','variables':{},'files':['template/README.md']}),encoding='utf-8'); return source
 
 def test_events(tmp_path,capsys):
     ws=tmp_path/'project'; assert main(['init',str(ws),'--project-name','Versions'])==0; capsys.readouterr()

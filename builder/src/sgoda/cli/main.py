@@ -19,6 +19,11 @@ from .commands import (
     command_doctor,
     command_generate,
     command_history,
+    command_export_create,
+    command_export_verify,
+    command_import_package,
+    command_import_verify,
+    command_report_consolidated,
     command_extension_info,
     command_extension_install,
     command_extension_list,
@@ -155,6 +160,35 @@ def build_parser() -> argparse.ArgumentParser:
         dest="output_format",
     )
     history.add_argument("--record-status", action="store_true")
+
+    export = subparsers.add_parser("export", help="Exporta el ecosistema SGODA.")
+    export_actions = export.add_subparsers(dest="export_action")
+    export_create = export_actions.add_parser("create")
+    export_create.add_argument("output", type=Path)
+    export_create.add_argument("--workspace", default=".")
+    export_verify = export_actions.add_parser("verify")
+    export_verify.add_argument("package", type=Path)
+    export_verify.add_argument("--workspace", default=".")
+    export_verify.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    import_cmd = subparsers.add_parser("import", help="Importa un paquete SGODA.")
+    import_actions = import_cmd.add_subparsers(dest="import_action")
+    import_package = import_actions.add_parser("package")
+    import_package.add_argument("package", type=Path)
+    import_package.add_argument("--workspace", default=".")
+    import_package.add_argument("--replace", action="store_true")
+    import_package.add_argument("--dry-run", action="store_true")
+    import_package.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+    import_verify = import_actions.add_parser("verify")
+    import_verify.add_argument("package", type=Path)
+    import_verify.add_argument("--workspace", default=".")
+    import_verify.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    consolidated = subparsers.add_parser("ecosystem-report", help="Genera reporte consolidado del ecosistema.")
+    consolidated.add_argument("workspace", nargs="?", default=".")
+    consolidated.add_argument("--format", choices=("text", "json", "markdown", "html"), default="markdown", dest="output_format")
+    consolidated.add_argument("--output", type=Path)
+    consolidated.add_argument("--history-limit", type=int, default=20)
 
     bundle = subparsers.add_parser(
         "bundle",
@@ -452,6 +486,37 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
+    if args.command == "export":
+        if args.export_action == "create":
+            return command_export_create(Path(args.workspace).resolve(), args.output)
+        if args.export_action == "verify":
+            return command_export_verify(
+                Path(args.workspace).resolve(), args.package,
+                output_format=args.output_format,
+            )
+        parser.print_help()
+        return 2
+    if args.command == "import":
+        if args.import_action == "package":
+            return command_import_package(
+                Path(args.workspace).resolve(), args.package,
+                replace=args.replace, dry_run=args.dry_run,
+                output_format=args.output_format,
+            )
+        if args.import_action == "verify":
+            return command_import_verify(
+                Path(args.workspace).resolve(), args.package,
+                output_format=args.output_format,
+            )
+        parser.print_help()
+        return 2
+    if args.command == "ecosystem-report":
+        return command_report_consolidated(
+            Path(args.workspace).resolve(),
+            output_format=args.output_format,
+            output=args.output,
+            history_limit=args.history_limit,
+        )
     if args.command == "bundle":
         action = args.bundle_action
         if action == "create":
