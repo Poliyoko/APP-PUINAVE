@@ -19,6 +19,7 @@ from sgoda.extensions import (
     TemplateStateService,
     TemplateValidationError,
     TemplateValidator,
+    TemplateIntegrityService,
     TemplateUpdateError,
     TemplateUpdater,
     TemplateVersionService,
@@ -884,3 +885,44 @@ def command_template_versions(workspace: Path,name: str,*,output_format: str='te
         for item in backups: print(f'- {item.version}: {item.path}')
         print('-'*60); print(f'Respaldos: {len(backups)}')
     return 0
+
+
+
+def command_template_integrity(
+    workspace: Path,
+    name: str,
+    *,
+    refresh: bool = False,
+    output_format: str = "text",
+) -> int:
+    try:
+        service = TemplateIntegrityService(workspace)
+        result = service.refresh(name) if refresh else service.verify(name)
+    except ExtensionManagerError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        import json
+        print(json.dumps(result.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print("Integridad de Plantilla")
+        print("-" * 60)
+        print(f"Plantilla: {result.name}")
+        print(f"Estado: {result.status}")
+        print(f"Seguimiento: {'sí' if result.tracked else 'no'}")
+        print(f"Modificados: {len(result.modified_files)}")
+        print(f"Faltantes: {len(result.missing_files)}")
+        print(f"Agregados: {len(result.added_files)}")
+
+    event_type = (
+        "template_integrity_checked"
+        if result.status == "HEALTHY"
+        else "template_integrity_failed"
+    )
+    record_event_safely(
+        workspace,
+        event_type,
+        details=result.to_dict(),
+    )
+    return 0 if result.status == "HEALTHY" else 1

@@ -22,6 +22,9 @@ class TemplateDiagnostic:
     compatibility: str
     validation: str
     integrity: str
+    modified_files: tuple[str, ...] = ()
+    missing_files: tuple[str, ...] = ()
+    added_files: tuple[str, ...] = ()
     issues: tuple[str, ...] = ()
 
     def to_dict(self) -> dict[str, Any]:
@@ -118,6 +121,9 @@ class TemplateDoctor:
                     compatibility=compatibility,
                     validation=validation,
                     integrity=integrity_result.status,
+                    modified_files=integrity_result.modified_files,
+                    missing_files=integrity_result.missing_files,
+                    added_files=integrity_result.added_files,
                     issues=tuple(issues),
                 )
             )

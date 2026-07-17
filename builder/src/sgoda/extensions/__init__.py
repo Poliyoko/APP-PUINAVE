@@ -119,3 +119,10 @@ __all__ += [
 from .template_updater import TemplateUpdateError, TemplateUpdateResult, TemplateUpdater
 from .template_versions import TemplateBackup, TemplateVersionService
 __all__ += ["TemplateBackup","TemplateUpdateError","TemplateUpdateResult","TemplateUpdater","TemplateVersionService"]
+
+
+from .template_integrity import TemplateIntegrityService
+
+__all__ += [
+    "TemplateIntegrityService",
+]

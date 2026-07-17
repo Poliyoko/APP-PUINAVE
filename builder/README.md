@@ -181,3 +181,16 @@ sgoda template versions <nombre> --workspace <proyecto>
 ```
 
 Actualización atómica, backup y rollback automático; downgrade solo con autorización explícita.
+
+
+### Integridad avanzada de plantillas
+
+```powershell
+sgoda template verify <nombre> --workspace <proyecto>
+sgoda template verify <nombre> --workspace <proyecto> --format json
+sgoda template verify <nombre> --workspace <proyecto> --refresh
+```
+
+La verificación compara la instalación con su línea base SHA-256, detectando
+archivos modificados, faltantes y agregados. `template doctor` incorpora el
+detalle de las alteraciones. `--refresh` acepta explícitamente el estado actual.

@@ -62,6 +62,11 @@ y el proyecto utiliza Versionado Semántico.
 - Actualización atómica de plantillas con backup y rollback.
 - Bloqueo de downgrade y consulta `template versions`.
 - Eventos `template_updated` y `template_update_failed`.
+- Verificación avanzada de integridad de plantillas.
+- Comando `template verify` con salida texto y JSON.
+- Detección de archivos modificados, faltantes y agregados.
+- Actualización explícita de línea base mediante `--refresh`.
+- Eventos `template_integrity_checked` y `template_integrity_failed`.
 
 ## [1.7.0] - 2026-07-16
 

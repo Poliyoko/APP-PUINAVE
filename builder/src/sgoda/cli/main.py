@@ -18,6 +18,7 @@ from .commands import (
     command_extension_validate,
     command_template_render,
     command_template_doctor,
+    command_template_integrity,
     command_template_state,
     command_template_validate_advanced,
     command_template_update,
@@ -296,6 +297,21 @@ def build_parser() -> argparse.ArgumentParser:
                 dest="output_format",
             )
 
+            verify_command = actions.add_parser("verify")
+            verify_command.add_argument("name")
+            verify_command.add_argument("--workspace", default=".")
+            verify_command.add_argument(
+                "--refresh",
+                action="store_true",
+                help="Recalcula y acepta la línea base actual.",
+            )
+            verify_command.add_argument(
+                "--format",
+                choices=("text", "json"),
+                default="text",
+                dest="output_format",
+            )
+
             advanced_validate = actions.add_parser("inspect")
             advanced_validate.add_argument("source")
             advanced_validate.add_argument(
@@ -489,6 +505,13 @@ def main(argv: Sequence[str] | None = None) -> int:
         if extension_type == "template" and action == "doctor":
             return command_template_doctor(
                 Path(args.workspace).resolve(),
+                output_format=args.output_format,
+            )
+        if extension_type == "template" and action == "verify":
+            return command_template_integrity(
+                Path(args.workspace).resolve(),
+                args.name,
+                refresh=args.refresh,
                 output_format=args.output_format,
             )
         if extension_type == "template" and action == "inspect":
