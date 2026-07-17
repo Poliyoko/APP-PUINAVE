@@ -53,6 +53,12 @@ class ExtensionManager:
     ) -> InstallResult:
         source_path = Path(source).expanduser().resolve()
         manifest = load_manifest(source_path)
+        if expected_type == "template":
+            from .template_validator import TemplateValidator
+            TemplateValidator().validate(
+                source_path,
+                strict_variables=False,
+            )
         if manifest.type != expected_type:
             raise ExtensionManagerError(
                 f"Se esperaba {expected_type}, se recibió {manifest.type}."
@@ -143,6 +149,10 @@ class ExtensionManager:
         force: bool = False,
     ) -> RenderResult:
         record = self.info("template", name)
+        if not record.enabled:
+            raise ExtensionManagerError(
+                f"La plantilla {name} está deshabilitada."
+            )
         installed = Path(record.installed_path)
         manifest = load_manifest(installed)
         destination_path = Path(destination).expanduser().resolve()

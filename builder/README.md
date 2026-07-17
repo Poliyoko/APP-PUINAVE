@@ -156,3 +156,28 @@ La instalación y actualización registran SHA-256 por archivo, checksum global 
 `manifest_hash`. La verificación detecta archivos modificados, eliminados y
 añadidos. `--refresh` acepta explícitamente el estado actual como nueva línea
 base.
+
+
+## Ecosistema avanzado de plantillas
+
+```powershell
+sgoda template inspect <ruta>
+sgoda template enable <nombre> --workspace <proyecto>
+sgoda template disable <nombre> --workspace <proyecto>
+sgoda template doctor <proyecto>
+sgoda template doctor <proyecto> --format json
+```
+
+Los manifiestos avanzados admiten `render_root` y variables declaradas. El
+Builder impide renderizar plantillas deshabilitadas y diagnostica
+compatibilidad, estructura e integridad.
+
+
+### Actualización y versionado de plantillas
+
+```powershell
+sgoda template update <nombre> <ruta> --workspace <proyecto>
+sgoda template versions <nombre> --workspace <proyecto>
+```
+
+Actualización atómica, backup y rollback automático; downgrade solo con autorización explícita.

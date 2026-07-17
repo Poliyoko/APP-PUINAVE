@@ -50,6 +50,19 @@ y el proyecto utiliza Versionado Semántico.
 - Puntuación de calidad.
 - Reglas de dependencias entre componentes.
 
+## [1.8.0] - 2026-07-16
+
+### Añadido
+
+- Modelos especializados de metadatos y variables de plantillas.
+- Validación avanzada de `render_root`, variables y placeholders.
+- Habilitación y deshabilitación de plantillas.
+- Diagnóstico `template doctor` en texto y JSON.
+- Instrumentación de eventos del ecosistema de plantillas.
+- Actualización atómica de plantillas con backup y rollback.
+- Bloqueo de downgrade y consulta `template versions`.
+- Eventos `template_updated` y `template_update_failed`.
+
 ## [1.7.0] - 2026-07-16
 
 ### Añadido

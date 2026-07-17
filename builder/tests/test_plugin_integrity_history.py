@@ -16,7 +16,7 @@ def make_plugin(root: Path) -> Path:
             "type": "plugin",
             "name": "history-integrity",
             "version": "1.0.0",
-            "builder_requires": ">=1.6.0,<2.0.0",
+            "builder_requires": ">=1.8.0,<2.0.0",
             "entry_point": "plugin:register",
             "dependencies": {},
         }),

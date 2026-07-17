@@ -25,7 +25,7 @@ def test_html_converts_inline_markdown(tmp_path, capsys) -> None:
     content = (reports / "executive-report.html").read_text(encoding="utf-8")
 
     assert "<strong>Proyecto:</strong> HTML Semántico" in content
-    assert "<strong>Builder:</strong> 1.7.0" in content
+    assert "<strong>Builder:</strong> 1.8.0" in content
     assert "<strong>Estado general:</strong> <strong>HEALTHY</strong>" in content
     assert "<strong>LOW — INFORMATION_FINDINGS:</strong>" in content
     assert "**Proyecto:**" not in content

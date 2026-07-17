@@ -86,3 +86,36 @@ __all__ += [
     "sha256_file",
     "verify_integrity",
 ]
+
+
+from .template_doctor import (
+    TemplateDiagnostic,
+    TemplateDoctor,
+    TemplateDoctorReport,
+)
+from .template_models import (
+    TemplateMetadata,
+    TemplateStateResult,
+    TemplateVariable,
+)
+from .template_state import TemplateStateService
+from .template_validator import (
+    TemplateValidationError,
+    TemplateValidator,
+)
+
+__all__ += [
+    "TemplateDiagnostic",
+    "TemplateDoctor",
+    "TemplateDoctorReport",
+    "TemplateMetadata",
+    "TemplateStateResult",
+    "TemplateStateService",
+    "TemplateValidationError",
+    "TemplateValidator",
+    "TemplateVariable",
+]
+
+from .template_updater import TemplateUpdateError, TemplateUpdateResult, TemplateUpdater
+from .template_versions import TemplateBackup, TemplateVersionService
+__all__ += ["TemplateBackup","TemplateUpdateError","TemplateUpdateResult","TemplateUpdater","TemplateVersionService"]

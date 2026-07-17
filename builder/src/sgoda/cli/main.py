@@ -17,6 +17,11 @@ from .commands import (
     command_extension_remove,
     command_extension_validate,
     command_template_render,
+    command_template_doctor,
+    command_template_state,
+    command_template_validate_advanced,
+    command_template_update,
+    command_template_versions,
     command_init,
     command_quality,
     command_plugin_doctor,
@@ -271,6 +276,48 @@ def build_parser() -> argparse.ArgumentParser:
             )
 
         if extension_type == "template":
+            for state_action in ("enable", "disable"):
+                state_command = actions.add_parser(state_action)
+                state_command.add_argument("name")
+                state_command.add_argument("--workspace", default=".")
+                state_command.add_argument(
+                    "--format",
+                    choices=("text", "json"),
+                    default="text",
+                    dest="output_format",
+                )
+
+            doctor_command = actions.add_parser("doctor")
+            doctor_command.add_argument("workspace", nargs="?", default=".")
+            doctor_command.add_argument(
+                "--format",
+                choices=("text", "json"),
+                default="text",
+                dest="output_format",
+            )
+
+            advanced_validate = actions.add_parser("inspect")
+            advanced_validate.add_argument("source")
+            advanced_validate.add_argument(
+                "--format",
+                choices=("text", "json"),
+                default="text",
+                dest="output_format",
+            )
+
+            update_command = actions.add_parser("update")
+            update_command.add_argument("name")
+            update_command.add_argument("source")
+            update_command.add_argument("--workspace", default=".")
+            update_command.add_argument("--no-backup", action="store_true")
+            update_command.add_argument("--allow-downgrade", action="store_true")
+            update_command.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+            versions_command = actions.add_parser("versions")
+            versions_command.add_argument("name")
+            versions_command.add_argument("--workspace", default=".")
+            versions_command.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
             render_command = actions.add_parser("render")
             render_command.add_argument("name")
             render_command.add_argument("destination")
@@ -432,6 +479,27 @@ def main(argv: Sequence[str] | None = None) -> int:
                 allow_downgrade=args.allow_downgrade,
                 output_format=args.output_format,
             )
+        if extension_type == "template" and action in {"enable", "disable"}:
+            return command_template_state(
+                Path(args.workspace).resolve(),
+                args.name,
+                enabled=action == "enable",
+                output_format=args.output_format,
+            )
+        if extension_type == "template" and action == "doctor":
+            return command_template_doctor(
+                Path(args.workspace).resolve(),
+                output_format=args.output_format,
+            )
+        if extension_type == "template" and action == "inspect":
+            return command_template_validate_advanced(
+                Path(args.source),
+                output_format=args.output_format,
+            )
+        if extension_type == "template" and action == "update":
+            return command_template_update(Path(args.workspace).resolve(), args.name, Path(args.source), backup=not args.no_backup, allow_downgrade=args.allow_downgrade, output_format=args.output_format)
+        if extension_type == "template" and action == "versions":
+            return command_template_versions(Path(args.workspace).resolve(), args.name, output_format=args.output_format)
         if extension_type == "template" and action == "render":
             return command_template_render(
                 Path(args.workspace).resolve(),

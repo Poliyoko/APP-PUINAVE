@@ -15,6 +15,13 @@ from sgoda.extensions import (
     PluginIntegrityService,
     PluginUpdateError,
     PluginUpdater,
+    TemplateDoctor,
+    TemplateStateService,
+    TemplateValidationError,
+    TemplateValidator,
+    TemplateUpdateError,
+    TemplateUpdater,
+    TemplateVersionService,
 )
 from sgoda.operations import (
     HistoryService,
@@ -774,3 +781,106 @@ def command_plugin_integrity(
         details=result.to_dict(),
     )
     return 0 if result.status == "HEALTHY" else 1
+
+
+
+def command_template_state(
+    workspace: Path,
+    name: str,
+    *,
+    enabled: bool,
+    output_format: str = "text",
+) -> int:
+    try:
+        result = TemplateStateService(workspace).set_enabled(name, enabled)
+    except ExtensionManagerError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        import json
+        print(json.dumps(result.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        action = "habilitada" if result.enabled else "deshabilitada"
+        suffix = "" if result.changed else " (sin cambios)"
+        print(f"Plantilla {result.name} {action}{suffix}.")
+
+    if result.changed:
+        record_event_safely(
+            workspace,
+            "template_enabled" if enabled else "template_disabled",
+            details={
+                "name": result.name,
+                "status": result.status,
+            },
+        )
+    return 0
+
+
+def command_template_doctor(
+    workspace: Path,
+    *,
+    output_format: str = "text",
+) -> int:
+    report = TemplateDoctor(workspace).run()
+    print(report.to_json() if output_format == "json" else report.to_text())
+    record_event_safely(
+        workspace,
+        "template_ecosystem_diagnosed",
+        details={
+            "status": report.status,
+            "installed": report.installed,
+            "invalid": report.invalid,
+            "incompatible": report.incompatible,
+            "integrity_failures": report.integrity_failures,
+        },
+    )
+    return 0 if report.status == "HEALTHY" else 1
+
+
+def command_template_validate_advanced(
+    source: Path,
+    *,
+    output_format: str = "text",
+) -> int:
+    try:
+        metadata = TemplateValidator().validate(source)
+    except TemplateValidationError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        import json
+        print(json.dumps(metadata.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(f"[OK] template:{metadata.name} {metadata.version}")
+        print(f"Render root: {metadata.render_root}")
+        print(f"Variables: {len(metadata.variables)}")
+    return 0
+
+
+def command_template_update(workspace: Path,name: str,source: Path,*,backup: bool=True,allow_downgrade: bool=False,output_format: str='text')->int:
+    try:
+        result=TemplateUpdater(workspace).update(name,source,backup=backup,allow_downgrade=allow_downgrade)
+    except TemplateUpdateError as exc:
+        print(f'[ERROR] {exc}')
+        record_event_safely(workspace,'template_update_failed',details={'name':name,'source':str(source),'reason':str(exc)})
+        return 1
+    if output_format=='json':
+        import json; print(json.dumps(result.to_dict(),ensure_ascii=False,indent=2))
+    else:
+        print(f'Plantilla actualizada: {result.name} {result.previous_version} -> {result.version}')
+        print(f'Ruta: {result.installed_path}')
+        if result.backup_path: print(f'Respaldo: {result.backup_path}')
+    record_event_safely(workspace,'template_updated',details=result.to_dict())
+    return 0
+
+def command_template_versions(workspace: Path,name: str,*,output_format: str='text')->int:
+    backups=TemplateVersionService(workspace).list_backups(name)
+    if output_format=='json':
+        import json; print(json.dumps({'name':name,'count':len(backups),'backups':[x.to_dict() for x in backups]},ensure_ascii=False,indent=2))
+    else:
+        print('Versiones de Plantilla'); print('-'*60); print(f'Plantilla: {name}')
+        for item in backups: print(f'- {item.version}: {item.path}')
+        print('-'*60); print(f'Respaldos: {len(backups)}')
+    return 0
