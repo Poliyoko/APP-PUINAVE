@@ -28,4 +28,4 @@ def test_json_report_is_valid(tmp_path) -> None:
     )
 
     assert payload["project"]["name"] == "Puinave"
-    assert payload["builder_version"] == "1.11.0"
+    assert payload["builder_version"] == "1.12.0"

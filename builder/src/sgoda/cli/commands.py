@@ -33,6 +33,7 @@ from sgoda.extensions import (
     TemplateUpdater,
     TemplateVersionService,
 )
+from sgoda.repositories import RepositoryService, RepositoryServiceError, RepositoryValidationError
 from sgoda.operations import (
     HistoryService,
     HistoryStoreError,
@@ -1247,5 +1248,134 @@ def command_report_consolidated(
     record_event_safely(
         workspace, "report_consolidated_generated",
         details={"format": output_format, "output": str(saved) if saved else None}
+    )
+    return 0
+
+
+
+def _repository_payload(repository) -> dict:
+    return repository.to_dict()
+
+
+def command_repo_add(
+    workspace: Path,
+    name: str,
+    url: str,
+    *,
+    priority: int = 100,
+    trusted: bool = False,
+    disabled: bool = False,
+    force: bool = False,
+    output_format: str = "text",
+) -> int:
+    import json
+    try:
+        repository = RepositoryService(workspace).add(
+            name,
+            url,
+            priority=priority,
+            trusted=trusted,
+            enabled=not disabled,
+            force=force,
+        )
+    except (RepositoryServiceError, RepositoryValidationError) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    payload = _repository_payload(repository)
+    print(
+        json.dumps(payload, ensure_ascii=False, indent=2)
+        if output_format == "json"
+        else (
+            f"Repositorio registrado: {repository.name}\n"
+            f"URL: {repository.url}\n"
+            f"Prioridad: {repository.priority}\n"
+            f"Habilitado: {'sí' if repository.enabled else 'no'}\n"
+            f"Confiable: {'sí' if repository.trusted else 'no'}"
+        )
+    )
+    record_event_safely(
+        workspace,
+        "repository_updated" if force else "repository_added",
+        details=payload,
+    )
+    return 0
+
+
+def command_repo_remove(workspace: Path, name: str) -> int:
+    try:
+        repository = RepositoryService(workspace).remove(name)
+    except (RepositoryServiceError, RepositoryValidationError) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    record_event_safely(
+        workspace, "repository_removed", details=_repository_payload(repository)
+    )
+    print(f"Repositorio eliminado: {repository.name}")
+    return 0
+
+
+def command_repo_list(
+    workspace: Path,
+    *,
+    enabled_only: bool = False,
+    output_format: str = "text",
+) -> int:
+    import json
+    repositories = RepositoryService(workspace).list(enabled_only=enabled_only)
+    if output_format == "json":
+        print(json.dumps([item.to_dict() for item in repositories], ensure_ascii=False, indent=2))
+    elif not repositories:
+        print("No hay repositorios registrados.")
+    else:
+        for item in repositories:
+            state = "enabled" if item.enabled else "disabled"
+            trust = "trusted" if item.trusted else "untrusted"
+            print(f"{item.name}\t{item.priority}\t{state}\t{trust}\t{item.url}")
+    return 0
+
+
+def command_repo_info(
+    workspace: Path,
+    name: str,
+    *,
+    output_format: str = "text",
+) -> int:
+    import json
+    try:
+        repository = RepositoryService(workspace).info(name)
+    except (RepositoryServiceError, RepositoryValidationError) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    if output_format == "json":
+        print(json.dumps(repository.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(
+            f"Nombre: {repository.name}\n"
+            f"URL: {repository.url}\n"
+            f"Prioridad: {repository.priority}\n"
+            f"Habilitado: {'sí' if repository.enabled else 'no'}\n"
+            f"Confiable: {'sí' if repository.trusted else 'no'}\n"
+            f"Creado: {repository.created_at}\n"
+            f"Actualizado: {repository.updated_at}"
+        )
+    return 0
+
+
+def command_repo_set_enabled(
+    workspace: Path,
+    name: str,
+    *,
+    enabled: bool,
+) -> int:
+    try:
+        repository = RepositoryService(workspace).set_enabled(name, enabled)
+    except (RepositoryServiceError, RepositoryValidationError) as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    event = "repository_enabled" if enabled else "repository_disabled"
+    record_event_safely(workspace, event, details=_repository_payload(repository))
+    print(
+        f"Repositorio {'habilitado' if enabled else 'deshabilitado'}: "
+        f"{repository.name}"
     )
     return 0

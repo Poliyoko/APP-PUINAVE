@@ -24,6 +24,11 @@ from .commands import (
     command_import_package,
     command_import_verify,
     command_report_consolidated,
+    command_repo_add,
+    command_repo_info,
+    command_repo_list,
+    command_repo_remove,
+    command_repo_set_enabled,
     command_extension_info,
     command_extension_install,
     command_extension_list,
@@ -160,6 +165,38 @@ def build_parser() -> argparse.ArgumentParser:
         dest="output_format",
     )
     history.add_argument("--record-status", action="store_true")
+
+    repo = subparsers.add_parser("repo", help="Administra repositorios remotos.")
+    repo_actions = repo.add_subparsers(dest="repo_action")
+
+    repo_add = repo_actions.add_parser("add")
+    repo_add.add_argument("name")
+    repo_add.add_argument("url")
+    repo_add.add_argument("--workspace", default=".")
+    repo_add.add_argument("--priority", type=int, default=100)
+    repo_add.add_argument("--trusted", action="store_true")
+    repo_add.add_argument("--disabled", action="store_true")
+    repo_add.add_argument("--force", action="store_true")
+    repo_add.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    repo_remove = repo_actions.add_parser("remove")
+    repo_remove.add_argument("name")
+    repo_remove.add_argument("--workspace", default=".")
+
+    repo_list = repo_actions.add_parser("list")
+    repo_list.add_argument("--workspace", default=".")
+    repo_list.add_argument("--enabled-only", action="store_true")
+    repo_list.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    repo_info = repo_actions.add_parser("info")
+    repo_info.add_argument("name")
+    repo_info.add_argument("--workspace", default=".")
+    repo_info.add_argument("--format", choices=("text", "json"), default="text", dest="output_format")
+
+    for repo_action in ("enable", "disable"):
+        repo_state = repo_actions.add_parser(repo_action)
+        repo_state.add_argument("name")
+        repo_state.add_argument("--workspace", default=".")
 
     export = subparsers.add_parser("export", help="Exporta el ecosistema SGODA.")
     export_actions = export.add_subparsers(dest="export_action")
@@ -485,6 +522,38 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: Sequence[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
+
+    if args.command == "repo":
+        workspace = Path(getattr(args, "workspace", ".")).resolve()
+        if args.repo_action == "add":
+            return command_repo_add(
+                workspace,
+                args.name,
+                args.url,
+                priority=args.priority,
+                trusted=args.trusted,
+                disabled=args.disabled,
+                force=args.force,
+                output_format=args.output_format,
+            )
+        if args.repo_action == "remove":
+            return command_repo_remove(workspace, args.name)
+        if args.repo_action == "list":
+            return command_repo_list(
+                workspace,
+                enabled_only=args.enabled_only,
+                output_format=args.output_format,
+            )
+        if args.repo_action == "info":
+            return command_repo_info(
+                workspace, args.name, output_format=args.output_format
+            )
+        if args.repo_action in {"enable", "disable"}:
+            return command_repo_set_enabled(
+                workspace, args.name, enabled=args.repo_action == "enable"
+            )
+        parser.print_help()
+        return 2
 
     if args.command == "export":
         if args.export_action == "create":

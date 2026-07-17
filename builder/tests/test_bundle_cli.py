@@ -13,7 +13,7 @@ def make_plugin(root: Path) -> Path:
         "type": "plugin",
         "name": "cli-bundle-plugin",
         "version": "1.0.0",
-        "builder_requires": ">=1.11.0,<2.0.0",
+        "builder_requires": ">=1.12.0,<2.0.0",
         "entry_point": "plugin:register",
         "dependencies": {},
     }), encoding="utf-8")

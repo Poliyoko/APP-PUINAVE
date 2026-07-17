@@ -21,7 +21,7 @@ def make_template(root: Path, *, undeclared: bool = False) -> Path:
             "type": "template",
             "name": "advanced-template",
             "version": "1.0.0",
-            "builder_requires": ">=1.11.0,<2.0.0",
+            "builder_requires": ">=1.12.0,<2.0.0",
             "description": "Plantilla avanzada",
             "render_root": "template",
             "variables": {

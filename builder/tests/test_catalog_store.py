@@ -12,7 +12,7 @@ def test_catalog_store_roundtrip(tmp_path) -> None:
                 name="alpha",
                 version="1.0.0",
                 description="A",
-                builder_requires=">=1.11.0",
+                builder_requires=">=1.12.0",
                 enabled=True,
                 status="compatible",
                 location="/tmp/alpha",

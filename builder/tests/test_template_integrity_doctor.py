@@ -16,7 +16,7 @@ def make_template(root: Path) -> Path:
             "type": "template",
             "name": "doctor-template-integrity",
             "version": "1.0.0",
-            "builder_requires": ">=1.11.0,<2.0.0",
+            "builder_requires": ">=1.12.0,<2.0.0",
             "render_root": "template",
             "variables": {},
             "files": ["template/README.md"],

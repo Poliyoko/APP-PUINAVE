@@ -10,7 +10,7 @@ def make_plugin(root: Path, name: str = "portable") -> Path:
     (source / "plugin.py").write_text("def register(): return None\n", encoding="utf-8")
     (source / "sgoda.plugin.json").write_text(json.dumps({
         "schema_version": "1.0", "type": "plugin", "name": name,
-        "version": "1.0.0", "builder_requires": ">=1.11.0,<2.0.0",
+        "version": "1.0.0", "builder_requires": ">=1.12.0,<2.0.0",
         "entry_point": "plugin:register", "dependencies": {},
     }), encoding="utf-8")
     return source

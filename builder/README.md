@@ -237,3 +237,20 @@ python -m sgoda import package .\ecosistema.sgoda --workspace .\destino
 python -m sgoda import package .\ecosistema.sgoda --workspace .\destino --replace
 python -m sgoda ecosystem-report .\destino --format markdown --output .\reporte
 ```
+
+
+## Repositorios remotos
+
+```powershell
+python -m sgoda repo add official https://repo.example.org --trusted --priority 200
+python -m sgoda repo list
+python -m sgoda repo info official --format json
+python -m sgoda repo disable official
+python -m sgoda repo enable official
+python -m sgoda repo add official https://mirror.example.org --force
+python -m sgoda repo remove official
+```
+
+El registro se almacena atómicamente en
+`.sgoda/repositories/repositories.json`. Este bloque administra las fuentes;
+la sincronización y descarga de índices se implementará en SPB-002.9-B.

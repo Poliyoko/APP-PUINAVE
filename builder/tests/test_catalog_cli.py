@@ -14,7 +14,7 @@ def make_plugin(root: Path) -> Path:
             "type": "plugin",
             "name": "catalog-plugin",
             "version": "1.0.0",
-            "builder_requires": ">=1.11.0,<2.0.0",
+            "builder_requires": ">=1.12.0,<2.0.0",
             "description": "Plugin del catálogo",
             "entry_point": "plugin:register",
             "dependencies": {},

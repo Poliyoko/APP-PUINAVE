@@ -19,7 +19,7 @@ def make_plugin(root: Path, name: str = "integrity-plugin") -> Path:
             "type": "plugin",
             "name": name,
             "version": "1.0.0",
-            "builder_requires": ">=1.11.0,<2.0.0",
+            "builder_requires": ">=1.12.0,<2.0.0",
             "entry_point": "plugin:register",
             "dependencies": {},
         }),
