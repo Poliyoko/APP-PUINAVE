@@ -30,7 +30,7 @@ def test_collector_reads_project_and_extensions(tmp_path) -> None:
 
     assert status.project.name == "Observado"
     assert status.project.schema_version == "1.3"
-    assert status.builder_version == "1.8.0"
+    assert status.builder_version == "1.10.0"
     assert status.extensions.plugins == 1
     assert status.extensions.templates == 1
     assert status.audit.score == 100

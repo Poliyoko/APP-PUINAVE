@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "extensions": {
+    "plugin:plugin-base": {
+      "type": "plugin",
+      "name": "plugin-base",
+      "version": "1.0.0",
+      "installed_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder\\proyecto_catalogo\\.sgoda\\extensions\\plugins\\plugin-base",
+      "installed_at": "2026-07-17T03:07:28.865418+00:00",
+      "description": "Plugin base para catálogo",
+      "enabled": true,
+      "status": "compatible",
+      "builder_requires": ">=1.8.0,<2.0.0",
+      "dependencies": {},
+      "checksum": "c8fef77b9615a0c8780b3b0e59e0de8a5f6822a885422a0c658cbd39904f1b5b",
+      "manifest_hash": "8d529debf16001bcb84f9e69f40287ed61948b49dcb1a306b207b82d0257afd9",
+      "file_hashes": {
+        "plugin.py": "e355243191b661c106e64c24d2d232f522f62590edf220f8ae0e29888b818ce5",
+        "sgoda.plugin.json": "8d529debf16001bcb84f9e69f40287ed61948b49dcb1a306b207b82d0257afd9"
+      },
+      "integrity_checked_at": "2026-07-17T03:07:28.865452+00:00"
+    },
+    "template:template-base": {
+      "type": "template",
+      "name": "template-base",
+      "version": "1.0.0",
+      "installed_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder\\proyecto_catalogo\\.sgoda\\extensions\\templates\\template-base",
+      "installed_at": "2026-07-17T03:07:29.696740+00:00",
+      "description": "Plantilla base para catálogo",
+      "enabled": true,
+      "status": "compatible",
+      "builder_requires": ">=1.8.0,<2.0.0",
+      "dependencies": {},
+      "checksum": "932caadd3d134d0f11bde961230867ac0230b47f606506642f758dfa83f5cbd7",
+      "manifest_hash": "abf961c7b76f1d129702486f2bbaeab4ce81b75ae8f6c3ce9f1faab320c13f59",
+      "file_hashes": {
+        "sgoda.template.json": "abf961c7b76f1d129702486f2bbaeab4ce81b75ae8f6c3ce9f1faab320c13f59",
+        "template/README.md": "11a70f4cbdfdece5a728cbb3b30772a455d3dd3927b2207d4250535128ccdf64"
+      },
+      "integrity_checked_at": "2026-07-17T03:07:29.696783+00:00"
+    }
+  }
+}

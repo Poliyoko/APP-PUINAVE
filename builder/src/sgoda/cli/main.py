@@ -8,6 +8,14 @@ from sgoda.generators import ComponentGenerator
 
 from .commands import (
     command_audit,
+    command_bundle_create,
+    command_bundle_execute,
+    command_bundle_info,
+    command_bundle_list,
+    command_catalog_info,
+    command_catalog_list,
+    command_catalog_rebuild,
+    command_catalog_search,
     command_doctor,
     command_generate,
     command_history,
@@ -147,6 +155,97 @@ def build_parser() -> argparse.ArgumentParser:
         dest="output_format",
     )
     history.add_argument("--record-status", action="store_true")
+
+    bundle = subparsers.add_parser(
+        "bundle",
+        help="Administra bundles de extensiones.",
+    )
+    bundle_actions = bundle.add_subparsers(dest="bundle_action")
+
+    bundle_create = bundle_actions.add_parser("create")
+    bundle_create.add_argument("name")
+    bundle_create.add_argument("selectors", nargs="*")
+    bundle_create.add_argument("--all", action="store_true", dest="include_all")
+    bundle_create.add_argument("--description", default="")
+    bundle_create.add_argument("--force", action="store_true")
+    bundle_create.add_argument("--workspace", default=".")
+    bundle_create.add_argument(
+        "--format", choices=("text", "json"), default="text", dest="output_format"
+    )
+
+    for bundle_action in ("list",):
+        bundle_command = bundle_actions.add_parser(bundle_action)
+        bundle_command.add_argument("--workspace", default=".")
+        bundle_command.add_argument(
+            "--format", choices=("text", "json"), default="text", dest="output_format"
+        )
+
+    bundle_info = bundle_actions.add_parser("info")
+    bundle_info.add_argument("name")
+    bundle_info.add_argument("--workspace", default=".")
+    bundle_info.add_argument(
+        "--format", choices=("text", "json"), default="text", dest="output_format"
+    )
+
+    for operation in ("install", "update", "uninstall", "enable", "disable"):
+        bundle_operation = bundle_actions.add_parser(operation)
+        bundle_operation.add_argument("name")
+        bundle_operation.add_argument("--workspace", default=".")
+        bundle_operation.add_argument("--dry-run", action="store_true")
+        bundle_operation.add_argument(
+            "--format", choices=("text", "json"), default="text", dest="output_format"
+        )
+
+    catalog = subparsers.add_parser(
+        "catalog",
+        help="Administra el catálogo local unificado.",
+    )
+    catalog_actions = catalog.add_subparsers(dest="catalog_action")
+
+    for action_name in ("rebuild", "list"):
+        action = catalog_actions.add_parser(action_name)
+        action.add_argument("--workspace", default=".")
+        action.add_argument(
+            "--type",
+            choices=("plugin", "template"),
+            dest="extension_type",
+        )
+        action.add_argument(
+            "--format",
+            choices=("text", "json"),
+            default="text",
+            dest="output_format",
+        )
+
+    search = catalog_actions.add_parser("search")
+    search.add_argument("query")
+    search.add_argument("--workspace", default=".")
+    search.add_argument(
+        "--type",
+        choices=("plugin", "template"),
+        dest="extension_type",
+    )
+    search.add_argument(
+        "--format",
+        choices=("text", "json"),
+        default="text",
+        dest="output_format",
+    )
+
+    info = catalog_actions.add_parser("info")
+    info.add_argument("name")
+    info.add_argument("--workspace", default=".")
+    info.add_argument(
+        "--type",
+        choices=("plugin", "template"),
+        dest="extension_type",
+    )
+    info.add_argument(
+        "--format",
+        choices=("text", "json"),
+        default="text",
+        dest="output_format",
+    )
 
     report = subparsers.add_parser(
         "report",
@@ -353,6 +452,68 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
+    if args.command == "bundle":
+        action = args.bundle_action
+        if action == "create":
+            return command_bundle_create(
+                Path(args.workspace).resolve(),
+                args.name,
+                args.selectors,
+                include_all=args.include_all,
+                description=args.description,
+                force=args.force,
+                output_format=args.output_format,
+            )
+        if action == "list":
+            return command_bundle_list(
+                Path(args.workspace).resolve(),
+                output_format=args.output_format,
+            )
+        if action == "info":
+            return command_bundle_info(
+                Path(args.workspace).resolve(),
+                args.name,
+                output_format=args.output_format,
+            )
+        if action in {"install", "update", "uninstall", "enable", "disable"}:
+            return command_bundle_execute(
+                Path(args.workspace).resolve(),
+                args.name,
+                action,
+                dry_run=args.dry_run,
+                output_format=args.output_format,
+            )
+        parser.print_help()
+        return 2
+    if args.command == "catalog":
+        action = args.catalog_action
+        if action == "rebuild":
+            return command_catalog_rebuild(
+                Path(args.workspace).resolve(),
+                output_format=args.output_format,
+            )
+        if action == "list":
+            return command_catalog_list(
+                Path(args.workspace).resolve(),
+                extension_type=args.extension_type,
+                output_format=args.output_format,
+            )
+        if action == "search":
+            return command_catalog_search(
+                Path(args.workspace).resolve(),
+                args.query,
+                extension_type=args.extension_type,
+                output_format=args.output_format,
+            )
+        if action == "info":
+            return command_catalog_info(
+                Path(args.workspace).resolve(),
+                args.name,
+                extension_type=args.extension_type,
+                output_format=args.output_format,
+            )
+        parser.print_help()
+        return 2
     if args.command == "version":
         return command_version()
     if args.command == "doctor":

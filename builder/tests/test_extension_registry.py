@@ -10,7 +10,7 @@ from sgoda.extensions import (
 )
 
 
-def record(root: Path, version: str = "1.8.0") -> ExtensionRecord:
+def record(root: Path, version: str = "1.10.0") -> ExtensionRecord:
     manifest = ExtensionManifest(
         schema_version="1.0",
         type="plugin",
@@ -27,7 +27,7 @@ def test_registry_persists_records(tmp_path) -> None:
     assert registry.register(record(tmp_path)) == "REGISTERED"
 
     reloaded = ExtensionRegistry(tmp_path)
-    assert reloaded.get("plugin:ejemplo").version == "1.8.0"
+    assert reloaded.get("plugin:ejemplo").version == "1.10.0"
 
 
 def test_same_version_is_idempotent(tmp_path) -> None:

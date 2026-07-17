@@ -126,3 +126,45 @@ from .template_integrity import TemplateIntegrityService
 __all__ += [
     "TemplateIntegrityService",
 ]
+
+
+from .catalog_builder import CatalogBuilder
+from .catalog_models import CatalogEntry, CatalogSnapshot
+from .catalog_service import CatalogService, CatalogServiceError
+from .catalog_store import CatalogStore, CatalogStoreError
+
+__all__ += [
+    "CatalogBuilder",
+    "CatalogEntry",
+    "CatalogService",
+    "CatalogServiceError",
+    "CatalogSnapshot",
+    "CatalogStore",
+    "CatalogStoreError",
+]
+
+
+from .bundle_executor import BundleExecutionError, BundleExecutor
+from .bundle_models import (
+    BundleExecutionResult,
+    BundleItem,
+    BundleOperation,
+    ExtensionBundle,
+)
+from .bundle_planner import BundlePlanner
+from .bundle_service import BundleService, BundleServiceError
+from .bundle_store import BundleStore, BundleStoreError
+
+__all__ += [
+    "BundleExecutionError",
+    "BundleExecutionResult",
+    "BundleExecutor",
+    "BundleItem",
+    "BundleOperation",
+    "BundlePlanner",
+    "BundleService",
+    "BundleServiceError",
+    "BundleStore",
+    "BundleStoreError",
+    "ExtensionBundle",
+]

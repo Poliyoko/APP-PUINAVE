@@ -14,7 +14,7 @@ def make_plugin(root: Path, name: str) -> Path:
             "type": "plugin",
             "name": name,
             "version": "1.0.0",
-            "builder_requires": ">=1.8.0,<2.0.0",
+            "builder_requires": ">=1.10.0,<2.0.0",
             "entry_point": "plugin:register",
         }),
         encoding="utf-8",

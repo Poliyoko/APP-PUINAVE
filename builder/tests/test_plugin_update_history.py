@@ -15,7 +15,7 @@ def make_plugin(root: Path, version: str) -> Path:
             "type": "plugin",
             "name": "history-plugin",
             "version": version,
-            "builder_requires": ">=1.8.0,<2.0.0",
+            "builder_requires": ">=1.10.0,<2.0.0",
             "entry_point": "plugin:register",
             "dependencies": {},
         }),

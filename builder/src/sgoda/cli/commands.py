@@ -7,6 +7,10 @@ from sgoda.audit import AuditEngine, AuditExportError, render_report, save_repor
 from sgoda.core import APP_NAME, BuilderConfig, ProjectBuilder
 from sgoda.generators import ComponentGenerator
 from sgoda.extensions import (
+    BundleService,
+    BundleServiceError,
+    CatalogService,
+    CatalogServiceError,
     ExtensionManager,
     ExtensionManagerError,
     ExtensionValidationError,
@@ -926,3 +930,211 @@ def command_template_integrity(
         details=result.to_dict(),
     )
     return 0 if result.status == "HEALTHY" else 1
+
+
+
+def command_catalog_rebuild(
+    workspace: Path,
+    *,
+    output_format: str = "text",
+) -> int:
+    from sgoda.extensions.catalog_serializers import snapshot_to_json
+
+    snapshot = CatalogService(workspace).rebuild()
+    if output_format == "json":
+        print(snapshot_to_json(snapshot))
+    else:
+        stats = snapshot.statistics()
+        print("Catálogo SGODA reconstruido")
+        print(f"Elementos: {stats['total']}")
+        print(f"Plugins: {stats['plugins']}")
+        print(f"Plantillas: {stats['templates']}")
+        print(f"Errores: {stats['errors']}")
+    record_event_safely(
+        workspace,
+        "catalog_rebuilt",
+        details=snapshot.statistics(),
+    )
+    return 0 if not snapshot.errors else 1
+
+
+def command_catalog_list(
+    workspace: Path,
+    *,
+    extension_type: str | None = None,
+    output_format: str = "text",
+) -> int:
+    from sgoda.extensions.catalog_serializers import entries_to_json, entries_to_text
+
+    entries = CatalogService(workspace).list(extension_type)
+    print(entries_to_json(entries) if output_format == "json" else entries_to_text(entries))
+    return 0
+
+
+def command_catalog_search(
+    workspace: Path,
+    query: str,
+    *,
+    extension_type: str | None = None,
+    output_format: str = "text",
+) -> int:
+    from sgoda.extensions.catalog_serializers import entries_to_json, entries_to_text
+
+    entries = CatalogService(workspace).search(query, extension_type=extension_type)
+    print(entries_to_json(entries) if output_format == "json" else entries_to_text(entries))
+    record_event_safely(
+        workspace,
+        "catalog_searched",
+        details={
+            "query": query,
+            "type": extension_type,
+            "results": len(entries),
+        },
+    )
+    return 0
+
+
+def command_catalog_info(
+    workspace: Path,
+    name: str,
+    *,
+    extension_type: str | None = None,
+    output_format: str = "text",
+) -> int:
+    try:
+        entry = CatalogService(workspace).info(
+            name,
+            extension_type=extension_type,
+        )
+    except CatalogServiceError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+
+    if output_format == "json":
+        import json
+        print(json.dumps(entry.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(f"{entry.type}:{entry.name}")
+        print(f"Versión: {entry.version}")
+        print(f"Estado: {entry.status}")
+        print(f"Habilitado: {entry.enabled}")
+        print(f"Ruta: {entry.location}")
+    record_event_safely(
+        workspace,
+        "catalog_info",
+        details={"name": name, "type": extension_type},
+    )
+    return 0
+
+
+
+def command_bundle_create(
+    workspace: Path,
+    name: str,
+    selectors: list[str],
+    *,
+    include_all: bool = False,
+    description: str = "",
+    force: bool = False,
+    output_format: str = "text",
+) -> int:
+    import json
+    try:
+        bundle = BundleService(workspace).create(
+            name,
+            selectors,
+            include_all=include_all,
+            description=description,
+            force=force,
+        )
+    except BundleServiceError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    if output_format == "json":
+        print(json.dumps(bundle.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(f"Bundle creado: {bundle.name}")
+        print(f"Extensiones: {len(bundle.items)}")
+    record_event_safely(
+        workspace,
+        "bundle_created",
+        details={"bundle": bundle.name, "items": len(bundle.items)},
+    )
+    return 0
+
+
+def command_bundle_list(
+    workspace: Path,
+    *,
+    output_format: str = "text",
+) -> int:
+    from sgoda.extensions.bundle_serializers import bundles_to_json, bundles_to_text
+    bundles = BundleService(workspace).list()
+    print(bundles_to_json(bundles) if output_format == "json" else bundles_to_text(bundles))
+    return 0
+
+
+def command_bundle_info(
+    workspace: Path,
+    name: str,
+    *,
+    output_format: str = "text",
+) -> int:
+    import json
+    try:
+        bundle = BundleService(workspace).info(name)
+    except BundleServiceError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    if output_format == "json":
+        print(json.dumps(bundle.to_dict(), ensure_ascii=False, indent=2))
+    else:
+        print(f"Bundle: {bundle.name}")
+        print(f"Descripción: {bundle.description}")
+        print(f"Extensiones: {len(bundle.items)}")
+        for item in bundle.items:
+            print(f"- {item.key} {item.version}")
+    return 0
+
+
+def command_bundle_execute(
+    workspace: Path,
+    name: str,
+    action: str,
+    *,
+    dry_run: bool = False,
+    output_format: str = "text",
+) -> int:
+    from sgoda.extensions.bundle_serializers import result_to_json, result_to_text
+    try:
+        result = BundleService(workspace).execute(
+            name,
+            action,
+            dry_run=dry_run,
+        )
+    except BundleServiceError as exc:
+        print(f"[ERROR] {exc}")
+        return 1
+    print(result_to_json(result) if output_format == "json" else result_to_text(result))
+    event = "bundle_planned" if dry_run else f"bundle_{action}d"
+    if action == "enable":
+        event = "bundle_enabled"
+    elif action == "disable":
+        event = "bundle_disabled"
+    elif action == "install":
+        event = "bundle_installed"
+    elif action == "update":
+        event = "bundle_updated"
+    elif action == "uninstall":
+        event = "bundle_uninstalled"
+    record_event_safely(
+        workspace,
+        event,
+        details={
+            "bundle": name,
+            "status": result.status,
+            "rolled_back": result.rolled_back,
+            "operations": len(result.operations),
+        },
+    )
+    return 0 if result.status in {"COMPLETED", "PLANNED"} else 1

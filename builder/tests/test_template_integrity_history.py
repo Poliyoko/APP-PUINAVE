@@ -17,7 +17,7 @@ def make_template(root: Path) -> Path:
             "type": "template",
             "name": "history-template-integrity",
             "version": "1.0.0",
-            "builder_requires": ">=1.7.0,<2.0.0",
+            "builder_requires": ">=1.10.0,<2.0.0",
             "render_root": "template",
             "variables": {},
             "files": ["template/README.md"],

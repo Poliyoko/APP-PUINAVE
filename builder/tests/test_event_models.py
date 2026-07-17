@@ -6,7 +6,7 @@ def test_event_roundtrip() -> None:
         event_type="status_collected",
         occurred_at="2026-07-15T00:00:00+00:00",
         actor="SGODA Project Builder",
-        builder_version="1.8.0",
+        builder_version="1.10.0",
         project_name="Proyecto",
         schema_version="1.3",
         health="HEALTHY",

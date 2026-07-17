@@ -194,3 +194,34 @@ sgoda template verify <nombre> --workspace <proyecto> --refresh
 La verificación compara la instalación con su línea base SHA-256, detectando
 archivos modificados, faltantes y agregados. `template doctor` incorpora el
 detalle de las alteraciones. `--refresh` acepta explícitamente el estado actual.
+
+
+## Catálogo local unificado
+
+```powershell
+sgoda catalog rebuild --workspace <proyecto>
+sgoda catalog list --workspace <proyecto>
+sgoda catalog search <consulta> --workspace <proyecto>
+sgoda catalog info <nombre> --workspace <proyecto>
+```
+
+El catálogo indexa plugins y plantillas instalados en un único archivo
+`.sgoda/extensions/catalog.json`.
+
+
+## Bundles y operaciones masivas
+
+```powershell
+sgoda bundle create core plugin:auth template:api --workspace <proyecto>
+sgoda bundle create completo --all --workspace <proyecto>
+sgoda bundle list --workspace <proyecto>
+sgoda bundle info core --workspace <proyecto>
+sgoda bundle uninstall core --workspace <proyecto> --dry-run
+sgoda bundle install core --workspace <proyecto>
+sgoda bundle update core --workspace <proyecto>
+sgoda bundle enable core --workspace <proyecto>
+sgoda bundle disable core --workspace <proyecto>
+```
+
+Los bundles guardan una copia reproducible de sus extensiones en
+`.sgoda/extensions/bundles/assets/` y ejecutan cambios masivos con rollback.
