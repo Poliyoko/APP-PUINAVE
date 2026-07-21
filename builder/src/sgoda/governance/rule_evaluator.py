@@ -1,4 +1,4 @@
-﻿"""Evaluación determinista de reglas individuales de gobernanza."""
+"""Evaluación determinista de reglas individuales de gobernanza."""
 
 from __future__ import annotations
 
@@ -458,4 +458,3 @@ def evaluate_rule(
 __all__ = [
     "evaluate_rule",
 ]
-
