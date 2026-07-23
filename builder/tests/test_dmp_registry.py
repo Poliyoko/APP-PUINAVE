@@ -15,14 +15,23 @@ def test_register_and_complete_record_emits_events() -> None:
     project = Project(identifier="PRJ-SGODA", name="SGODA-PUINAVE")
 
     service.register(project)
-    completed = service.update_status("prj-sgoda", WorkStatus.COMPLETED)
+    in_progress = service.update_status(
+        "prj-sgoda",
+        WorkStatus.IN_PROGRESS,
+    )
+    completed = service.update_status(
+        in_progress.identifier,
+        WorkStatus.COMPLETED,
+    )
 
     assert completed.status is WorkStatus.COMPLETED
     assert [event.event_type for event in events] == [
         "dmp.record.created",
         "dmp.record.status_changed",
+        "dmp.record.status_changed",
     ]
     assert events[1].payload["previous_status"] == "planned"
+    assert events[2].payload["previous_status"] == "in_progress"
 
 
 def test_duplicate_identifier_is_rejected() -> None:

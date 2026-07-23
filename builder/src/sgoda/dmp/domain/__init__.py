@@ -1,6 +1,13 @@
 """API pública del modelo de dominio DMP."""
 
-from .enums import ChangeStatus, EvidenceType, RiskLevel, WorkStatus
+from .enums import (
+    ALLOWED_WORK_STATUS_TRANSITIONS,
+    ChangeStatus,
+    EvidenceType,
+    RiskLevel,
+    WorkStatus,
+)
+from .exceptions import DmpDomainError, InvalidStateTransition
 from .identifiers import normalize_identifier
 from .models import (
     Change,
@@ -20,13 +27,16 @@ from .models import (
 )
 
 __all__ = [
+    "ALLOWED_WORK_STATUS_TRANSITIONS",
     "Change",
     "ChangeStatus",
     "Deliverable",
+    "DmpDomainError",
     "DmpEntity",
     "DmpRecord",
     "Evidence",
     "EvidenceType",
+    "InvalidStateTransition",
     "Milestone",
     "ProductVersion",
     "Project",

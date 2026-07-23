@@ -13,6 +13,33 @@ class WorkStatus(StrEnum):
     CANCELLED = "cancelled"
 
 
+ALLOWED_WORK_STATUS_TRANSITIONS: dict[
+    WorkStatus, frozenset[WorkStatus]
+] = {
+    WorkStatus.PLANNED: frozenset(
+        {
+            WorkStatus.IN_PROGRESS,
+            WorkStatus.CANCELLED,
+        }
+    ),
+    WorkStatus.IN_PROGRESS: frozenset(
+        {
+            WorkStatus.BLOCKED,
+            WorkStatus.COMPLETED,
+            WorkStatus.CANCELLED,
+        }
+    ),
+    WorkStatus.BLOCKED: frozenset(
+        {
+            WorkStatus.IN_PROGRESS,
+            WorkStatus.CANCELLED,
+        }
+    ),
+    WorkStatus.COMPLETED: frozenset(),
+    WorkStatus.CANCELLED: frozenset(),
+}
+
+
 class EvidenceType(StrEnum):
     COMMIT = "commit"
     TEST = "test"

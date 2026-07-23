@@ -32,7 +32,7 @@ class DmpRegistryService:
 
     def update_status(self, identifier: str, status: WorkStatus) -> DmpEntity:
         record = self.require(identifier)
-        updated = record.with_changes(status=status)
+        updated = record.transition_to(status)
         self._repository.save(updated)
         self._emit(
             "dmp.record.status_changed",

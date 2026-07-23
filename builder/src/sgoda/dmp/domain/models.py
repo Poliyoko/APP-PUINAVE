@@ -6,7 +6,14 @@ from dataclasses import asdict, dataclass, field, replace
 from datetime import UTC, date, datetime
 from typing import Any, Self
 
-from .enums import ChangeStatus, EvidenceType, RiskLevel, WorkStatus
+from .enums import (
+    ALLOWED_WORK_STATUS_TRANSITIONS,
+    ChangeStatus,
+    EvidenceType,
+    RiskLevel,
+    WorkStatus,
+)
+from .exceptions import InvalidStateTransition
 from .identifiers import normalize_identifier
 
 
@@ -45,6 +52,23 @@ class DmpEntity:
 
     def with_changes(self, **changes: Any) -> Self:
         return replace(self, updated_at=utc_now(), **changes)
+
+    def transition_to(self, new_status: WorkStatus) -> Self:
+        """Devuelve una nueva entidad tras validar la transición de estado."""
+        allowed_statuses = ALLOWED_WORK_STATUS_TRANSITIONS[self.status]
+
+        if new_status not in allowed_statuses:
+            raise InvalidStateTransition(
+                "No se permite la transición de estado "
+                f"{self.status.value} -> {new_status.value} "
+                f"para el registro {self.identifier}"
+            )
+
+        return replace(
+            self,
+            status=new_status,
+            updated_at=utc_now(),
+        )
 
 
 @dataclass(frozen=True, slots=True, kw_only=True)
