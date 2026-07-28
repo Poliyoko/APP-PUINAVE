@@ -13,3 +13,22 @@ build/
 dist/
 coverage.xml
 htmlcov/
+# SPB-003.2 - exclusiones de cierre
+*.backup.ps1
+*.backup
+*.backup-*
+*.bak
+*.tmp
+*.pyc
+*.b1.4-prev
+
+# Evidencias locales e históricas no versionables
+artifacts/development/
+artifacts/backups/
+
+# Entornos y cachés Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/

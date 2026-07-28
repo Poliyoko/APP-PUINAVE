@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0.0",
+  "generated_on": "2026-07-23",
+  "project": {
+    "identifier": "SGODA-PUINAVE",
+    "name": "SGODA-PUINAVE",
+    "purpose": "Construir una plataforma integral, trazable y gobernable para el proyecto SGODA-PUINAVE.",
+    "status": "in_progress",
+    "repository_url": "https://github.com/Poliyoko/APP-PUINAVE",
+    "director": "Dirección del Proyecto",
+    "current_hito": "SPB-003.2 – Plataforma de Gobierno Documental y PMO Digital",
+    "last_known_commit": "eff59b7",
+    "last_known_tests": "595 passed",
+    "baseline_document": "docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md"
+  },
+  "deliverables": [
+    {
+      "code": "SPB-001",
+      "name": "Arquitectura Base del Proyecto",
+      "executive_name": "Arquitectura Base",
+      "purpose": "Definir la estructura inicial que permite desarrollar el sistema de manera ordenada.",
+      "benefit": "Reduce improvisación, facilita crecimiento y permite controlar mejor los cambios.",
+      "status": "completed_declared",
+      "progress": 100,
+      "evidence": "Cierre informado por la Dirección; expediente detallado pendiente de vinculación en repositorio.",
+      "products": [
+        "Estructura inicial",
+        "Lineamientos base",
+        "Documentación fundacional"
+      ]
+    },
+    {
+      "code": "SPB-002",
+      "name": "SGODA Project Builder",
+      "executive_name": "Plataforma de Automatización del Desarrollo",
+      "purpose": "Automatizar la construcción, validación, documentación y operación inicial del proyecto.",
+      "benefit": "Incrementa productividad, reduce errores manuales y estandariza los entregables técnicos.",
+      "status": "completed_verified",
+      "progress": 100,
+      "evidence": "SPB-002.1 a SPB-002.9 verificados con commits, tags, pruebas y actas.",
+      "products": [
+        "Builder ejecutable",
+        "Generadores",
+        "Auditoría",
+        "CI",
+        "Plugins",
+        "Reportes",
+        "Repositorios remotos"
+      ]
+    },
+    {
+      "code": "SPB-003",
+      "name": "DMP y PMO Digital",
+      "executive_name": "Oficina Digital de Gestión del Proyecto",
+      "purpose": "Centralizar el seguimiento, la trazabilidad, la documentación y la comunicación ejecutiva del proyecto.",
+      "benefit": "Permite conocer el estado del proyecto, generar informes y mantener una única fuente de verdad.",
+      "status": "in_progress",
+      "progress": 70,
+      "evidence": "SPB-003.0 y SPB-003.1 cerrados; SPB-003.2 en implementación.",
+      "products": [
+        "Subsistema DMP",
+        "Lifecycle DMP",
+        "Matriz Maestra",
+        "PMO Digital",
+        "Dashboard Ejecutivo"
+      ]
+    },
+    {
+      "code": "SPB-004",
+      "name": "Gestión Documental",
+      "executive_name": "Gestión Documental",
+      "purpose": "Organizar, versionar y controlar documentos del proyecto y del sistema.",
+      "benefit": "Mejora control documental, búsqueda, auditoría y conservación de evidencias.",
+      "status": "completed_declared",
+      "progress": 100,
+      "evidence": "Cierre informado; expediente detallado por vincular.",
+      "products": [
+        "Documentos controlados",
+        "Procedimientos",
+        "Evidencias documentales"
+      ]
+    },
+    {
+      "code": "SPB-005",
+      "name": "Seguridad y Auditoría",
+      "executive_name": "Seguridad y Auditoría",
+      "purpose": "Proteger la información y establecer mecanismos de auditoría y control.",
+      "benefit": "Aumenta confiabilidad, cumplimiento y control del sistema.",
+      "status": "completed_declared",
+      "progress": 100,
+      "evidence": "Cierre informado; expediente detallado por vincular.",
+      "products": [
+        "Controles",
+        "Auditoría",
+        "Reglas de calidad"
+      ]
+    },
+    {
+      "code": "SPB-006",
+      "name": "Inteligencia y Automatización",
+      "executive_name": "Inteligencia y Automatización",
+      "purpose": "Incorporar capacidades de automatización avanzada e inteligencia del proyecto.",
+      "benefit": "Reduce carga operativa y mejora la capacidad de análisis.",
+      "status": "completed_declared",
+      "progress": 100,
+      "evidence": "Cierre informado; expediente detallado por vincular.",
+      "products": [
+        "Automatizaciones",
+        "Flujos inteligentes",
+        "Apoyo analítico"
+      ]
+    },
+    {
+      "code": "SPB-007",
+      "name": "Integración y Operación",
+      "executive_name": "Integración y Operación",
+      "purpose": "Conectar componentes del sistema y apoyar su operación controlada.",
+      "benefit": "Facilita continuidad operativa y reduce riesgos de integración.",
+      "status": "completed_declared",
+      "progress": 100,
+      "evidence": "Cierre informado; expediente detallado por vincular.",
+      "products": [
+        "Integraciones",
+        "Operación",
+        "Seguimiento"
+      ]
+    },
+    {
+      "code": "SPB-008",
+      "name": "Reportes y Analítica",
+      "executive_name": "Reportes y Analítica",
+      "purpose": "Producir reportes y analítica para seguimiento técnico y administrativo.",
+      "benefit": "Apoya decisiones con datos consolidados y evidencia verificable.",
+      "status": "completed_declared",
+      "progress": 100,
+      "evidence": "Cierre informado; expediente detallado por vincular.",
+      "products": [
+        "Reportes",
+        "Indicadores",
+        "Análisis"
+      ]
+    },
+    {
+      "code": "SPB-009",
+      "name": "Despliegue y Operación Final",
+      "executive_name": "Despliegue y Operación",
+      "purpose": "Preparar la puesta en operación y control de versiones finales.",
+      "benefit": "Permite entrega ordenada, controlada y auditable.",
+      "status": "completed_declared",
+      "progress": 100,
+      "evidence": "Cierre informado; expediente detallado por vincular.",
+      "products": [
+        "Versiones",
+        "Despliegue",
+        "Operación final"
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "code": "RSK-001",
+      "name": "Desactualización documental",
+      "level": "medium",
+      "probability": 0.4,
+      "impact": 0.8,
+      "mitigation": "Generar documentos desde el modelo único del PMO antes de cada cierre."
+    },
+    {
+      "code": "RSK-002",
+      "name": "Evidencia histórica incompleta en expedientes SPB-001/SPB-004 a SPB-009",
+      "level": "medium",
+      "probability": 0.5,
+      "impact": 0.6,
+      "mitigation": "Vincular expedientes completos y registrar fuente de cada evidencia."
+    },
+    {
+      "code": "RSK-003",
+      "name": "Duplicidad entre DMP y documentos ejecutivos",
+      "level": "low",
+      "probability": 0.3,
+      "impact": 0.5,
+      "mitigation": "Usar una única fuente de datos y generadores automatizados."
+    }
+  ],
+  "kpis": [
+    {
+      "code": "KPI-001",
+      "name": "Entregables principales cerrados",
+      "value": 8,
+      "target": 9,
+      "unit": "SPB",
+      "state": "on_track"
+    },
+    {
+      "code": "KPI-002",
+      "name": "Pruebas conocidas aprobadas",
+      "value": 595,
+      "target": 595,
+      "unit": "tests",
+      "state": "on_track"
+    },
+    {
+      "code": "KPI-003",
+      "name": "Subsistemas DMP/PMO incorporados",
+      "value": 2,
+      "target": 2,
+      "unit": "subsistemas",
+      "state": "on_track"
+    },
+    {
+      "code": "KPI-004",
+      "name": "Documentación maestra versionada",
+      "value": 1,
+      "target": 1,
+      "unit": "baseline",
+      "state": "on_track"
+    }
+  ],
+  "milestones": [
+    {
+      "code": "H-001",
+      "name": "Cierre SPB-002",
+      "status": "completed",
+      "description": "Builder y arquitectura base verificables."
+    },
+    {
+      "code": "H-002",
+      "name": "Cierre SPB-003.0",
+      "status": "completed",
+      "description": "Fundación del DMP."
+    },
+    {
+      "code": "H-003",
+      "name": "Cierre SPB-003.1",
+      "status": "completed",
+      "description": "Lifecycle DMP validado con 595 pruebas."
+    },
+    {
+      "code": "H-004",
+      "name": "Implementación SPB-003.2",
+      "status": "in_progress",
+      "description": "PMO Digital y plataforma de gobierno documental."
+    }
+  ]
+}
