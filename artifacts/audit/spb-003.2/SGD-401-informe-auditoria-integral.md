@@ -3,10 +3,10 @@
 - **Proyecto:** SGODA-PUINAVE
 - **Alcance:** SPB-003.2 - Auditoría modular de cierre
 - **Rama:** `feature/SPB-003.2-PGD-PMO-Auditor`
-- **Commit:** `eff59b730241badfec7dc420050a1fd0e60624fb`
-- **Cumplimiento:** 90.32 %
-- **Hallazgos bloqueantes:** 1
-- **Dictamen:** **NOT_APPROVED**
+- **Commit:** `12f4e8ccddea45daf0f752a8d2917680b560977e`
+- **Cumplimiento:** 93.55 %
+- **Hallazgos bloqueantes:** 0
+- **Dictamen:** **APPROVED_WITH_ACTIONS**
 
 ## Controles
 
@@ -20,7 +20,7 @@
 | AIR-STR-006 | STRUCTURE | Elemento requerido: tests | HIGH | PASS | NO | C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests |  |
 | AIR-STR-007 | STRUCTURE | Elemento requerido: README.md | HIGH | PASS | NO | C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\README.md |  |
 | AIR-GIT-001 | GIT | Repositorio Git válido | CRITICAL | PASS | NO | true | Ejecutar desde la raíz oficial. |
-| AIR-GIT-002 | GIT | Árbol Git limpio | HIGH | FAIL | SÍ | M builder/tests/test_cli.py  M docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md ?? .github/workflows/spb-003-2-closure-audit.yml ?? .github/workflows/spb-003.2-closure.yml ?? APLICAR_SPB-003.2_PGD_PMO.ps1 ?? Apply-SPB0032-B1.3.ps1 ?? Apply-SPB0032-B1.4.ps1 ?? Collect-SPB0032-B1.3A-Baseline.ps1 ?? INSTRUCCIONES-SPB0032-Auditor.md ?? Install-SPB0032RepositoryAuditor.ps1 ?? README.md ?? README_INSTALACION_SPB-003.2_PGD_PMO.md ?? Refactor-SPB0032-ModularRepositoryAuditor.ps1 ?? Rollback-SPB0032-B1.3.ps1 ?? Stage-SPB0032-B1.4.ps1 ?? Start-SPB0032-Closure.backup.ps1 ?? Start-SPB0032-Closure.ps1 ?? Upgrade-SPB0032-NativeAuditor-AutoClosure.ps1 ?? Verify-SPB0032-B1.3.ps1 ?? Verify-SPB0032-B1.4.ps1 ?? artifacts/ ?? docs/00_DMP/ ?? docs/01_Gobierno/ ?? docs/01_PMO/ ?? docs/04_GOBIERNO/ ?? docs/05_Auditoria/ ?? docs/08_Entregables/Catalogo_Ejecutivo_Entregables.md ?? docs/Dashboard/ ?? docs/Presentaciones/ ?? docs/Reportes/ ?? knowledge/ ?? scripts/ ?? src/ ?? tests/ | Confirmar o descartar cambios. |
+| AIR-GIT-002 | GIT | Árbol Git limpio | HIGH | PASS | NO | Limpio | Confirmar o descartar cambios. |
 | AIR-GIT-003 | GIT | Remoto oficial configurado | HIGH | PASS | NO | origin	https://github.com/Poliyoko/APP-PUINAVE.git (fetch) origin	https://github.com/Poliyoko/APP-PUINAVE.git (push) | Configurar GitHub. |
 | AIR-GIT-004 | GIT | Tag de cierre | MEDIUM | WARN | NO | SGODA-BUILDER-1.0.0-FINAL, SGODA-BUILDER-1.3.0-FINAL, SGODA-BUILDER-1.6.0-FINAL, SPB-002.1-F001, SPB-002.2, SPB-002.3-A, SPB-002.3-B, SPB-002.3-C, SPB-002.4-A, SPB-002.4-B, SPB-002.4-C, SPB-002.5-A, SPB-002.5-B, SPB-002.5-C, SPB-002.6-A, SPB-002.6-B, SPB-002.6-C, SPB-002.7-A, SPB-002.7-B, SPB-002.7-C, SPB-002.7-C-B1, SPB-002.7-C-B2.1, SPB-002.8-A, SPB-002.8-A-B1, SPB-002.8-A-B2, SPB-002.8-A-B3, SPB-002.8-B, SPB-002.8-B-B2, SPB-002.8-B-B3, SPB-002.8-C-B1, SPB-002.8-C-B2, SPB-002.8-C-B3, SPB-002.9-A, SPB-002.9-B, v1.0.0 | Crear el tag solo después del dictamen APPROVED. |
 | AIR-DOC-001 | DOCUMENTATION | Documento: DMP | HIGH | PASS | NO | docs\00_DMP\DMP_v2.0.docx; docs\00_DMP\DMP_v2.0.md |  |
