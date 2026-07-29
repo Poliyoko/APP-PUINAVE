@@ -1,12 +1,6 @@
-﻿from fastapi import FastAPI
+﻿"""Punto de entrada del runtime SGODA-PUINAVE."""
 
-from sgoda.api.routes import router
-from sgoda.core.config import settings
+from sgoda.kernel.application import create_application
 
-app = FastAPI(
-    title=settings.app_name,
-    version=settings.app_version,
-    description="Backend base del ecosistema SGODA-PUINAVE.",
-)
 
-app.include_router(router)
+app = create_application()
