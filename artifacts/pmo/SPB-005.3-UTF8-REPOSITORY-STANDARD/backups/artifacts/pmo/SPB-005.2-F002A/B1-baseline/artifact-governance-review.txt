@@ -1,0 +1,26 @@
+﻿SPB-005.2-F002A — Revisión de gobierno de artifacts
+Fecha: 2026-07-29 22:56:05 -05:00
+
+Resultado git check-ignore:
+- artifacts: no ignorado
+- artifacts/pmo: no ignorado
+- baseline-identity.txt: no ignorado
+
+Artefactos históricos versionados:
+- artifacts/audit/SGD-402-inventario-repositorio.csv
+- artifacts/audit/spb-003.2/ACT-003.2-acta-tecnica-cierre.md
+- artifacts/audit/spb-003.2/SGD-401-informe-auditoria-integral.json
+- artifacts/audit/spb-003.2/SGD-401-informe-auditoria-integral.md
+- artifacts/inventario-pre-cierre-spb-003.2.txt
+
+Hallazgos de .gitignore:
+- Regla .venv/ duplicada
+- Reglas de caché repetidas
+- Comentarios con mojibake
+- artifacts/development/ ignorado
+- artifacts/backups/ ignorado
+
+Decisión:
+- artifacts/pmo/ será evidencia versionable
+- no se modificará todavía .gitignore
+- la normalización de .gitignore se realizará en el bloque de gobierno

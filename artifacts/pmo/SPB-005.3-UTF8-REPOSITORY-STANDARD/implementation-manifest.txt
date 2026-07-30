@@ -1,0 +1,16 @@
+BACKUP	src\sgoda\pmo\utf8\__init__.py
+WRITE	src\sgoda\pmo\utf8\__init__.py
+BACKUP	.editorconfig
+WRITE	.editorconfig
+BACKUP	docs\standards\UTF8-Repository-Standard.md
+WRITE	docs\standards\UTF8-Repository-Standard.md
+BACKUP	.github\workflows\utf8-repository-compliance.yml
+WRITE	.github\workflows\utf8-repository-compliance.yml
+BACKUP	docs\03_ADR\ADR-009-UTF8-Repository-Standard.md
+WRITE	docs\03_ADR\ADR-009-UTF8-Repository-Standard.md
+BACKUP	src\sgoda\pmo\utf8\repository_utf8.py
+WRITE	src\sgoda\pmo\utf8\repository_utf8.py
+BACKUP	tests\pmo\utf8\test_repository_utf8.py
+WRITE	tests\pmo\utf8\test_repository_utf8.py
+BACKUP	.gitattributes
+WRITE	.gitattributes

@@ -1,0 +1,56 @@
+from pathlib import Path
+
+from sgoda.pmo.utf8.repository_utf8 import (
+    detect_newline_style,
+    repair_mojibake,
+    scan_file,
+)
+
+
+def test_detects_utf8_file(tmp_path: Path) -> None:
+    path = tmp_path / "sample.md"
+    correct = "Auditor\u00eda Puinave"
+    path.write_text(correct, encoding="utf-8")
+
+    result = scan_file(path, tmp_path)
+
+    assert result.utf8_valid is True
+    assert result.bom is False
+    assert result.mojibake is False
+    assert result.status == "COMPLIANT"
+
+
+def test_detects_utf8_bom(tmp_path: Path) -> None:
+    path = tmp_path / "sample.txt"
+    path.write_bytes(b"\xef\xbb\xbfTexto")
+
+    result = scan_file(path, tmp_path)
+
+    assert result.bom is True
+    assert result.status == "NON_COMPLIANT"
+
+
+def test_detects_mojibake(tmp_path: Path) -> None:
+    path = tmp_path / "sample.md"
+    correct = "Auditor\u00eda"
+    corrupted = correct.encode("utf-8").decode("cp1252")
+    path.write_text(corrupted, encoding="utf-8")
+
+    result = scan_file(path, tmp_path)
+
+    assert result.mojibake is True
+    assert result.status == "NON_COMPLIANT"
+
+
+def test_repairs_reversible_mojibake() -> None:
+    correct = "Auditor\u00eda"
+    corrupted = correct.encode("utf-8").decode("cp1252")
+
+    repaired, changed = repair_mojibake(corrupted)
+
+    assert changed is True
+    assert repaired == correct
+
+
+def test_detects_mixed_newlines() -> None:
+    assert detect_newline_style(b"a\r\nb\nc") == "MIXED"

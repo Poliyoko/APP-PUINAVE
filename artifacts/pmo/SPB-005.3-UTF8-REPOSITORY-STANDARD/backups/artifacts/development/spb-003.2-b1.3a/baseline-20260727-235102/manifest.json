@@ -1,0 +1,14 @@
+﻿{
+    "scope":  "SPB-003.2-B1.3A",
+    "generated_at":  "2026-07-27T23:51:03.3832609-05:00",
+    "repository_root":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+    "current_branch":  "feature/SPB-003.2-PGD-PMO-Auditor",
+    "purpose":  "Captura segura de la implementaciÃ³n existente antes del refactor",
+    "excludes":  [
+                     "__pycache__",
+                     ".pytest_cache",
+                     ".venv",
+                     "*.pyc",
+                     "*.backup-*"
+                 ]
+}

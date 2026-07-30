@@ -1,0 +1,31 @@
+MMGR-001A â€” Modelo de dominio
+Fecha: 2026-07-29 23:27:17 -05:00
+Rama: feature/SPB-005.2-F002A-repository-governance
+Commit base: 6cd76239a0c43b87dc30ebd0dc97355a6d92b17b
+
+Archivos creados:
+- src/sgoda/pmo/repository/mmgr/__init__.py
+- src/sgoda/pmo/repository/mmgr/models.py
+- tests/pmo/repository/mmgr/test_models.py
+
+Entidades implementadas:
+- Asset
+- Traceability
+- Domain
+- AssetStatus
+- GitPolicy
+- RiskLevel
+
+Controles incluidos:
+- Identificadores MMGR-000001
+- Rutas relativas y normalizadas
+- Inmutabilidad
+- Dependencias vÃ¡lidas
+- ProhibiciÃ³n de autorreferencia
+- Unicidad de dependencias, etiquetas y trazabilidad
+- ConversiÃ³n desde/hacia diccionarios JSON-compatible
+
+Archivos protegidos no modificados:
+- src/sgoda/pmo/repository/json_repository.py
+- src/sgoda/pmo/repository/__init__.py
+- src/sgoda/pmo/__init__.py

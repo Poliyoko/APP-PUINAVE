@@ -1,0 +1,10 @@
+﻿{
+  "schema_version": "1.0",
+  "type": "plugin",
+  "name": "plugin-base",
+  "version": "1.0.0",
+  "builder_requires": ">=1.8.0,<2.0.0",
+  "description": "Plugin base para catálogo",
+  "entry_point": "plugin:register",
+  "dependencies": {}
+}

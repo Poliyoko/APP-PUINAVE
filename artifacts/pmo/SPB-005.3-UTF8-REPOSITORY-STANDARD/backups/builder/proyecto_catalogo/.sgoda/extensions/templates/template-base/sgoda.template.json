@@ -1,0 +1,14 @@
+﻿{
+  "schema_version": "1.0",
+  "type": "template",
+  "name": "template-base",
+  "version": "1.0.0",
+  "builder_requires": ">=1.8.0,<2.0.0",
+  "description": "Plantilla base para catálogo",
+  "render_root": "template",
+  "variables": {},
+  "files": [
+    "template/README.md"
+  ],
+  "dependencies": {}
+}

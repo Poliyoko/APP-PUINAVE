@@ -1,0 +1,13 @@
+{
+  "identifier": "SPB-005.3-UTF8-REPOSITORY-STANDARD",
+  "version": "1.4",
+  "generated_at": "2026-07-30T05:45:36.238113+00:00",
+  "root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "apply_normalization": false,
+  "files_scanned": 445,
+  "files_compliant": 445,
+  "files_non_compliant": 0,
+  "files_normalized": 0,
+  "mojibake_repaired": 0,
+  "compliance_percent": 100.0
+}

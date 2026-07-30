@@ -1,0 +1,10 @@
+﻿eff59b7 (HEAD -> feature/SPB-003.2-PGD-PMO-Auditor, origin/feature/SPB-003.1-DMP-Lifecycle, feature/SPB-003.1-DMP-Lifecycle, backup/SPB-003.2-antes-cierre) docs(dmp): add master project tracking baseline
+8b8054b feat(dmp): enforce formal record lifecycle
+8afc533 (origin/feature/SPB-003.0-DMP-Foundation, feature/SPB-003.0-DMP-Foundation) feat(dmp): add DMP foundation and registry service
+4534c1f (origin/feature/SPB-002.9-C, feature/SPB-002.9-C) style(governance): remove trailing blank line
+170d154 feat(governance): complete governance services and validation
+e5b0225 feat(audit): add AuditService facade
+b927a58 feat: add governance policy engine foundation
+7f5c10c (tag: SPB-002.9-B, origin/feature/SPB-002.8, feature/SPB-002.8) docs: update CHANGELOG for SPB-002.9-B
+1b1827f feat: complete SPB-002.9-B repository index synchronization
+76bd7da (tag: SPB-002.9-A) feat: implementar SPB-002.9-A gestion de repositorios remotos
