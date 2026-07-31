@@ -1,4 +1,4 @@
-﻿"""Excepciones públicas del subsistema de gobernanza."""
+"""Excepciones públicas del subsistema de gobernanza."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-﻿"""Carga segura de políticas de gobernanza desde archivos JSON."""
+"""Carga segura de políticas de gobernanza desde archivos JSON."""
 
 from __future__ import annotations
 

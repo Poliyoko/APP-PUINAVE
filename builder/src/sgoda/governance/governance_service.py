@@ -1,4 +1,4 @@
-﻿"""Fachada de aplicación para el subsistema de gobernanza."""
+"""Fachada de aplicación para el subsistema de gobernanza."""
 
 from __future__ import annotations
 

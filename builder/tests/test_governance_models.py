@@ -1,4 +1,4 @@
-﻿"""Pruebas de los modelos de dominio de gobernanza."""
+"""Pruebas de los modelos de dominio de gobernanza."""
 
 from dataclasses import FrozenInstanceError
 from types import MappingProxyType

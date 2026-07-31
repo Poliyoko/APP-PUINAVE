@@ -1,4 +1,4 @@
-﻿"""Pruebas del repositorio de políticas de gobernanza."""
+"""Pruebas del repositorio de políticas de gobernanza."""
 
 from __future__ import annotations
 

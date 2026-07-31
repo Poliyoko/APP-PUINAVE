@@ -1,4 +1,4 @@
-﻿"""Serialización determinista de políticas de gobernanza."""
+"""Serialización determinista de políticas de gobernanza."""
 
 from __future__ import annotations
 

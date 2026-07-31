@@ -1,4 +1,4 @@
-﻿"""Modelos internos del SGODA Platform Kernel."""
+"""Modelos internos del SGODA Platform Kernel."""
 
 from dataclasses import asdict, dataclass, field
 from typing import Any

@@ -1,4 +1,4 @@
-﻿"""Repositorio determinista en memoria para políticas de gobernanza."""
+"""Repositorio determinista en memoria para políticas de gobernanza."""
 
 from __future__ import annotations
 

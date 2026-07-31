@@ -1,1 +1,1 @@
-﻿"""Paquete SGODA-PUINAVE."""
+"""Paquete SGODA-PUINAVE."""

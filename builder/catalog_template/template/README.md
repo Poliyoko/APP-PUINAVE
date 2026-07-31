@@ -1,1 +1,1 @@
-﻿# Plantilla base
+# Plantilla base

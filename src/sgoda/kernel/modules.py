@@ -1,4 +1,4 @@
-﻿"""Registro de módulos oficiales de SGODA-PUINAVE."""
+"""Registro de módulos oficiales de SGODA-PUINAVE."""
 
 from __future__ import annotations
 

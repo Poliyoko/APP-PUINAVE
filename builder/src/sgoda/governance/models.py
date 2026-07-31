@@ -1,4 +1,4 @@
-﻿"""Modelos de dominio inmutables para políticas de gobernanza."""
+"""Modelos de dominio inmutables para políticas de gobernanza."""
 
 from __future__ import annotations
 

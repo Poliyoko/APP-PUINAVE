@@ -1,4 +1,4 @@
-﻿"""Pruebas de la interfaz de línea de comandos."""
+"""Pruebas de la interfaz de línea de comandos."""
 from sgoda.cli.main import main
 
 def test_version_command(capsys):

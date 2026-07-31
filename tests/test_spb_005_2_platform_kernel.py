@@ -1,4 +1,4 @@
-﻿"""Pruebas de SPB-005.2 - SGODA Platform Kernel."""
+"""Pruebas de SPB-005.2 - SGODA Platform Kernel."""
 
 from fastapi.testclient import TestClient
 

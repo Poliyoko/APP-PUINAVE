@@ -1,4 +1,4 @@
-﻿"""Resultados inmutables de evaluación de políticas de gobernanza."""
+"""Resultados inmutables de evaluación de políticas de gobernanza."""
 
 from __future__ import annotations
 

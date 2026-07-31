@@ -1,4 +1,4 @@
-﻿# SGD-100 — Norma Institucional de Nomenclatura
+# SGD-100 — Norma Institucional de Nomenclatura
 
 | Prefijo | Significado oficial |
 |---|---|

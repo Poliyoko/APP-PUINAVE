@@ -72,7 +72,7 @@ def test_asset_normalizes_windows_path_and_text() -> None:
     ],
 )
 def test_asset_rejects_invalid_identifier(asset_id: str) -> None:
-    with pytest.raises(ValueError, match="Identificador MMGR invÃ¡lido"):
+    with pytest.raises(ValueError, match="Identificador MMGR inválido"):
         make_asset(asset_id=asset_id)
 
 
@@ -87,7 +87,7 @@ def test_asset_rejects_parent_path_escape() -> None:
 
 
 def test_asset_rejects_self_dependency() -> None:
-    with pytest.raises(ValueError, match="depender de sÃ­ mismo"):
+    with pytest.raises(ValueError, match="depender de sí mismo"):
         make_asset(dependencies=("MMGR-000001",))
 
 

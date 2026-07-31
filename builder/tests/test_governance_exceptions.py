@@ -1,4 +1,4 @@
-﻿"""Pruebas del contrato de excepciones de gobernanza."""
+"""Pruebas del contrato de excepciones de gobernanza."""
 
 from types import MappingProxyType
 

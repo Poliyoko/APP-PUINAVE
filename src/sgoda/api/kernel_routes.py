@@ -1,4 +1,4 @@
-﻿"""Rutas REST del SGODA Platform Kernel."""
+"""Rutas REST del SGODA Platform Kernel."""
 
 from fastapi import APIRouter
 

@@ -1,4 +1,4 @@
-﻿"""Pruebas del motor de políticas de gobernanza."""
+"""Pruebas del motor de políticas de gobernanza."""
 
 from __future__ import annotations
 

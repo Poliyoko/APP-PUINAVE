@@ -1,7 +1,7 @@
 """Modelo de dominio para la Matriz Maestra de Gobierno del Repositorio.
 
-Este mÃ³dulo define entidades inmutables y serializables para representar
-los activos gobernados por la MMGR, sus dominios, estados, polÃ­ticas Git,
+Este módulo define entidades inmutables y serializables para representar
+los activos gobernados por la MMGR, sus dominios, estados, políticas Git,
 riesgos y relaciones de trazabilidad.
 """
 
@@ -17,7 +17,7 @@ _ASSET_ID_PATTERN = re.compile(r"^MMGR-\d{6}$")
 
 
 class StringEnum(str, Enum):
-    """EnumeraciÃ³n basada en texto, compatible con serializaciÃ³n JSON."""
+    """Enumeración basada en texto, compatible con serialización JSON."""
 
 
 class Domain(StringEnum):
@@ -50,7 +50,7 @@ class AssetStatus(StringEnum):
 
 
 class GitPolicy(StringEnum):
-    """PolÃ­tica de gestiÃ³n del activo dentro de Git."""
+    """Política de gestión del activo dentro de Git."""
 
     VERSIONED = "versioned"
     NOT_VERSIONED = "not_versioned"
@@ -59,7 +59,7 @@ class GitPolicy(StringEnum):
 
 
 class RiskLevel(StringEnum):
-    """Nivel de riesgo tÃ©cnico o de gobierno del activo."""
+    """Nivel de riesgo técnico o de gobierno del activo."""
 
     LOW = "low"
     MEDIUM = "medium"
@@ -90,12 +90,12 @@ class Traceability:
             values = tuple(getattr(self, field_name))
             if any(not isinstance(value, str) or not value.strip() for value in values):
                 raise ValueError(
-                    f"La colecciÃ³n de trazabilidad '{field_name}' "
-                    "solo puede contener textos no vacÃ­os."
+                    f"La colección de trazabilidad '{field_name}' "
+                    "solo puede contener textos no vacíos."
                 )
             if len(values) != len(set(values)):
                 raise ValueError(
-                    f"La colecciÃ³n de trazabilidad '{field_name}' "
+                    f"La colección de trazabilidad '{field_name}' "
                     "no puede contener valores duplicados."
                 )
             object.__setattr__(self, field_name, values)
@@ -118,7 +118,7 @@ class Traceability:
         )
 
     def to_dict(self) -> dict[str, list[str]]:
-        """Devuelve una representaciÃ³n JSON-compatible."""
+        """Devuelve una representación JSON-compatible."""
 
         return {
             "spb": list(self.spb),
@@ -150,44 +150,44 @@ class Asset:
     def __post_init__(self) -> None:
         if not _ASSET_ID_PATTERN.fullmatch(self.asset_id):
             raise ValueError(
-                f"Identificador MMGR invÃ¡lido: {self.asset_id!r}. "
+                f"Identificador MMGR inválido: {self.asset_id!r}. "
                 "Se esperaba el formato MMGR-000001."
             )
 
         normalized_name = self.name.strip()
         if not normalized_name:
-            raise ValueError("El nombre del activo no puede estar vacÃ­o.")
+            raise ValueError("El nombre del activo no puede estar vacío.")
 
         normalized_owner = self.owner.strip()
         if not normalized_owner:
-            raise ValueError("El propietario del activo no puede estar vacÃ­o.")
+            raise ValueError("El propietario del activo no puede estar vacío.")
 
         normalized_path = self.path.replace("\\", "/").strip()
         path_parts = PurePosixPath(normalized_path).parts
         if not normalized_path:
-            raise ValueError("La ruta del activo no puede estar vacÃ­a.")
+            raise ValueError("La ruta del activo no puede estar vacía.")
         if normalized_path.startswith("/"):
             raise ValueError(
-                "La ruta del activo debe ser relativa a la raÃ­z del repositorio."
+                "La ruta del activo debe ser relativa a la raíz del repositorio."
             )
         if ".." in path_parts:
             raise ValueError(
-                "La ruta del activo no puede escapar de la raÃ­z del repositorio."
+                "La ruta del activo no puede escapar de la raíz del repositorio."
             )
 
         dependencies = tuple(self.dependencies)
         if any(not _ASSET_ID_PATTERN.fullmatch(item) for item in dependencies):
             raise ValueError(
-                "Todas las dependencias deben utilizar identificadores MMGR vÃ¡lidos."
+                "Todas las dependencias deben utilizar identificadores MMGR válidos."
             )
         if self.asset_id in dependencies:
-            raise ValueError("Un activo no puede depender de sÃ­ mismo.")
+            raise ValueError("Un activo no puede depender de sí mismo.")
         if len(dependencies) != len(set(dependencies)):
             raise ValueError("Las dependencias no pueden estar duplicadas.")
 
         tags = tuple(tag.strip() for tag in self.tags)
         if any(not tag for tag in tags):
-            raise ValueError("Las etiquetas no pueden contener valores vacÃ­os.")
+            raise ValueError("Las etiquetas no pueden contener valores vacíos.")
         if len(tags) != len(set(tags)):
             raise ValueError("Las etiquetas no pueden estar duplicadas.")
 
@@ -218,7 +218,7 @@ class Asset:
         )
 
     def to_dict(self) -> dict[str, Any]:
-        """Devuelve una representaciÃ³n JSON-compatible del activo."""
+        """Devuelve una representación JSON-compatible del activo."""
 
         payload = asdict(self)
         payload["domain"] = self.domain.value

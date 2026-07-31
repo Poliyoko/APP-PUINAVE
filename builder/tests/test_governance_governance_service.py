@@ -1,4 +1,4 @@
-﻿"""Pruebas de la fachada del subsistema de gobernanza."""
+"""Pruebas de la fachada del subsistema de gobernanza."""
 
 from __future__ import annotations
 

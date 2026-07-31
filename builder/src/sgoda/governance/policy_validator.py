@@ -1,4 +1,4 @@
-﻿"""Validación semántica de políticas de gobernanza."""
+"""Validación semántica de políticas de gobernanza."""
 
 from __future__ import annotations
 

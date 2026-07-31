@@ -1,4 +1,4 @@
-﻿"""Fábrica principal de la aplicación SGODA-PUINAVE."""
+"""Fábrica principal de la aplicación SGODA-PUINAVE."""
 
 from fastapi import FastAPI
 

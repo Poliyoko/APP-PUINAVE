@@ -1,4 +1,4 @@
-﻿"""SGODA Platform Kernel."""
+"""SGODA Platform Kernel."""
 
 from sgoda.kernel.application import create_application
 from sgoda.kernel.registry import module_registry

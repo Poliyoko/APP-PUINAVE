@@ -1,2 +1,2 @@
-﻿def register():
+def register():
     return {"status": "ok"}

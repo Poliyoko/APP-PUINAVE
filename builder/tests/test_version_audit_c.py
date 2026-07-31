@@ -1,4 +1,4 @@
-﻿from sgoda.cli.main import main
+from sgoda.cli.main import main
 
 
 def test_version(capsys) -> None:

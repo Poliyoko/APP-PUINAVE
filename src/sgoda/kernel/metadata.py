@@ -1,4 +1,4 @@
-﻿"""Metadatos técnicos de la plataforma SGODA-PUINAVE."""
+"""Metadatos técnicos de la plataforma SGODA-PUINAVE."""
 
 from __future__ import annotations
 

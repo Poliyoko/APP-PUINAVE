@@ -1,4 +1,4 @@
-﻿"""Pruebas del validador semántico de políticas."""
+"""Pruebas del validador semántico de políticas."""
 
 from __future__ import annotations
 

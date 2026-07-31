@@ -1,4 +1,4 @@
-﻿"""Coordinación determinista de evaluaciones de políticas de gobernanza."""
+"""Coordinación determinista de evaluaciones de políticas de gobernanza."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-﻿"""Auditoría técnica básica del repositorio."""
+"""Auditoría técnica básica del repositorio."""
 
 from __future__ import annotations
 

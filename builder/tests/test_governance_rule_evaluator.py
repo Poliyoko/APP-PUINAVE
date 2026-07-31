@@ -1,4 +1,4 @@
-﻿"""Pruebas del evaluador de reglas de gobernanza."""
+"""Pruebas del evaluador de reglas de gobernanza."""
 
 from __future__ import annotations
 

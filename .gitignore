@@ -34,3 +34,18 @@ __pycache__/
 *.egg-info/
 # Entorno virtual Python del proyecto
 .venv/
+
+# =========================================================
+# SGODA Evidence Governance - Opcion B
+# Evidencias voluminosas conservadas fuera del repositorio
+# =========================================================
+artifacts/**/backups/
+artifacts/**/patch-backups/
+artifacts/**/obsolete-installers/
+artifacts/**/baseline*/
+artifacts/**/baselines/
+artifacts/**/restore*/
+artifacts/**/restoration*/
+artifacts/**/snapshot*/
+artifacts/**/_diagnostics/
+*.audit-archive.zip

@@ -1,4 +1,4 @@
-﻿# Auditor Nativo del Repositorio
+# Auditor Nativo del Repositorio
 
 Ejecutar desde la raíz:
 
