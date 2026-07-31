@@ -1,0 +1,15 @@
+{
+  "package": "SPB-006",
+  "status": "CLOSED",
+  "evidence": {
+    "git_published": true,
+    "remote_synchronized": true,
+    "tests": {
+      "executed": 9,
+      "passed": 9
+    },
+    "audit": "APPROVED",
+    "documentation": "COMPLETE",
+    "traceability": "UPDATED"
+  }
+}

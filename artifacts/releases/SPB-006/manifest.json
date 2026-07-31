@@ -1,0 +1,28 @@
+{
+  "schema": "PIC-1.0",
+  "project": "SGODA-PUINAVE",
+  "repository": "APP-PUINAVE",
+  "package": {
+    "id": "SPB-006",
+    "version": "1.0",
+    "status": "CLOSED"
+  },
+  "closure_date": "2026-07-30",
+  "git": {
+    "branch": "feature/SPB-005.2-F002A-repository-governance",
+    "commit": "8849baf9b7625d32dfe73eb486e86491af8f5469"
+  },
+  "quality": {
+    "tests_executed": 9,
+    "tests_passed": 9
+  },
+  "audit": {
+    "status": "APPROVED"
+  },
+  "documents": {
+    "report": "docs/10_GOBERNANZA/SGD-610-SPB-006-Informe-Cierre.md",
+    "act": "docs/07_ACTAS/ACT-006-Cierre-SPB-006.md",
+    "release_notes": "docs/06_RELEASES/RELEASE-SPB-006-v1.0.md",
+    "master_matrix": "docs/09_TRAZABILIDAD/MATRIZ-MAESTRA.md"
+  }
+}

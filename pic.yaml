@@ -1,0 +1,25 @@
+schema: PIC-1.0
+project:
+  code: SGODA-PUINAVE
+  repository: APP-PUINAVE
+package:
+  id: SPB-006
+  version: "1.0"
+  state: CLOSED
+closure:
+  date: "2026-07-30"
+git:
+  branch: feature/SPB-005.2-F002A-repository-governance
+  commit: 8849baf9b7625d32dfe73eb486e86491af8f5469
+quality:
+  tests:
+    executed: 9
+    passed: 9
+audit:
+  status: APPROVED
+documents:
+  report: SGD-610
+  act: ACT-006
+  release_notes: RELEASE-SPB-006-v1.0
+traceability:
+  matrix_updated: true
