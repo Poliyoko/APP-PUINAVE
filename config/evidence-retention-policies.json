@@ -1,0 +1,95 @@
+{
+    "schema":  "sgoda.sems.retention-policy-set/v1",
+    "version":  "1.0.0",
+    "policies":  [
+                     {
+                         "policy_id":  "RET-PERMANENT-GOVERNANCE",
+                         "version":  "1.0",
+                         "description":  "ADR, actas, normas, auditorÃ­as y manifiestos de cierre.",
+                         "duration_days":  null,
+                         "action_on_expiry":  "keep",
+                         "permanent":  true,
+                         "priority":  10,
+                         "match":  {
+                                       "evidence_type":  [
+                                                             "audit",
+                                                             "manifest"
+                                                         ],
+                                       "deliverable_prefix":  [
+                                                                  "ADR",
+                                                                  "ACT",
+                                                                  "SGD",
+                                                                  "SPB"
+                                                              ]
+                                   }
+                     },
+                     {
+                         "policy_id":  "RET-RELEASE-PERMANENT",
+                         "version":  "1.0",
+                         "description":  "Evidencia vinculada con tags de release.",
+                         "duration_days":  null,
+                         "action_on_expiry":  "keep",
+                         "permanent":  true,
+                         "priority":  20,
+                         "match":  {
+                                       "requires_tag":  true
+                                   }
+                     },
+                     {
+                         "policy_id":  "RET-TEST-5Y",
+                         "version":  "1.0",
+                         "description":  "Resultados de prueba conservados durante cinco aÃ±os.",
+                         "duration_days":  1825,
+                         "action_on_expiry":  "review",
+                         "permanent":  false,
+                         "priority":  30,
+                         "match":  {
+                                       "evidence_type":  [
+                                                             "test-result"
+                                                         ]
+                                   }
+                     },
+                     {
+                         "policy_id":  "RET-ARCHIVE-2Y",
+                         "version":  "1.0",
+                         "description":  "Archivos tÃ©cnicos y respaldos consolidados por dos aÃ±os.",
+                         "duration_days":  730,
+                         "action_on_expiry":  "review",
+                         "permanent":  false,
+                         "priority":  40,
+                         "match":  {
+                                       "evidence_type":  [
+                                                             "archive"
+                                                         ]
+                                   }
+                     },
+                     {
+                         "policy_id":  "RET-TEMP-90D",
+                         "version":  "1.0",
+                         "description":  "Evidencia temporal candidata a revisiÃ³n despuÃ©s de 90 dÃ­as.",
+                         "duration_days":  90,
+                         "action_on_expiry":  "delete-candidate",
+                         "permanent":  false,
+                         "priority":  50,
+                         "match":  {
+                                       "name_suffix":  [
+                                                           ".tmp",
+                                                           ".bak",
+                                                           ".log"
+                                                       ]
+                                   }
+                     },
+                     {
+                         "policy_id":  "RET-DEFAULT-REVIEW",
+                         "version":  "1.0",
+                         "description":  "PolÃ­tica predeterminada: revisiÃ³n anual.",
+                         "duration_days":  365,
+                         "action_on_expiry":  "review",
+                         "permanent":  false,
+                         "priority":  999,
+                         "match":  {
+
+                                   }
+                     }
+                 ]
+}

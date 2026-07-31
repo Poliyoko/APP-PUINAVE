@@ -1,0 +1,9 @@
+{
+  "schema": "sgoda.spb.implementation/v1",
+  "deliverable": "SPB-006.1",
+  "name": "SEMS Core",
+  "version": "0.1.0",
+  "status": "implemented",
+  "capabilities": ["register","list","status","verify","archive","sha256","manifest","json-registry"],
+  "deferred": ["retention","restore","external-storage","encryption","authorized-delete"]
+}

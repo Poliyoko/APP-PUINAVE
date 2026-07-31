@@ -1,0 +1,27 @@
+{
+  "schema": "sgoda.sems.registry/v1",
+  "records": [
+    {
+      "evidence_id": "EVD-SPB0053-TRANSITION",
+      "name": "evidence-transition-manifest.json",
+      "source_path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/evidence-transition-manifest.json",
+      "evidence_type": "manifest",
+      "status": "archived",
+      "sha256": "982aaed589be37b2a51ce1231f63838609d82b4ae20304c29ae11ffd38a07fe6",
+      "size_bytes": 1663,
+      "created_at_utc": "2026-07-30T05:57:37.892533+00:00",
+      "registered_at_utc": "2026-07-31T01:05:42.190764+00:00",
+      "deliverable_id": "SPB-005.3",
+      "commit": "ce11985f51bd79b8fc9040d386f2014e7867a6dc",
+      "tag": "SPB-005.3-v1.4",
+      "archive_path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/artifacts/pmo/SPB-006-SEMS/archives/EVD-SPB0053-TRANSITION-evidence-transition-manifest.json.zip",
+      "metadata": {},
+      "retention_policy": "RET-PERMANENT-GOVERNANCE",
+      "retention_policy_version": "1.0",
+      "retention_until_utc": "",
+      "retention_action": "keep",
+      "retention_evaluated_at_utc": "2026-07-31T02:57:46.947990+00:00",
+      "legal_hold": false
+    }
+  ]
+}

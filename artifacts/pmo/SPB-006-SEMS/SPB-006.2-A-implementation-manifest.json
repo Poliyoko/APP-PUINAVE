@@ -1,0 +1,20 @@
+{
+  "schema": "sgoda.spb.implementation/v1",
+  "deliverable": "SPB-006.2-A",
+  "name": "Motor Institucional de Gobierno del Ciclo de Vida de Evidencias",
+  "version": "0.2.0",
+  "status": "implemented",
+  "capabilities": [
+    "versioned-retention-policies",
+    "retention-decision-engine",
+    "dry-run",
+    "apply-decision",
+    "legal-hold",
+    "retention-audit",
+    "retention-report"
+  ],
+  "safety": {
+    "automatic_delete": false,
+    "delete_candidate_requires_review": true
+  }
+}
