@@ -405,5 +405,39 @@
       "artifacts/pmo/SPT-004A/implementation-evidence.json",
       "artifacts/pmo/SPT-004A/traceability-SPT-004A.json"
     ]
+  },
+  {
+    "code": "SPT-005",
+    "name": "Sistema de Identidad Cultural Configurable",
+    "version": "0.1.0",
+    "status": "technically_completed",
+    "component_type": "cultural_identity_management",
+    "config_path": "config/identity/SPT-005-component.json",
+    "source_paths": [
+      "src/sgoda/identity/cli.py",
+      "src/sgoda/identity/exporter.py",
+      "src/sgoda/identity/models.py",
+      "src/sgoda/identity/repository.py",
+      "src/sgoda/identity/service.py"
+    ],
+    "test_paths": [
+      "tests/identity/test_SPT_005_configurable_cultural_identity.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md",
+      "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+      "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md"
+    ],
+    "release_paths": [
+      "releases/SPT-005-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/identity/SPT-005/exports/api-identity.json",
+      "artifacts/identity/SPT-005/exports/flutter-identity.json",
+      "artifacts/identity/SPT-005/exports/web-identity.json",
+      "artifacts/pmo/SPT-005/SPT-005-quality-gate.json",
+      "artifacts/pmo/SPT-005/implementation-evidence.json",
+      "artifacts/pmo/SPT-005/traceability-SPT-005.json"
+    ]
   }
 ]

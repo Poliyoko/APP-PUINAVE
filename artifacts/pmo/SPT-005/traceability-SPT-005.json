@@ -1,0 +1,14 @@
+{
+    "increment_code":  "SPT-005",
+    "source":  [
+                   "src/sgoda/identity/"
+               ],
+    "tests":  [
+                  "tests/identity/test_SPT_005_configurable_cultural_identity.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+                          "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+                          "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md"
+                      ]
+}

@@ -54,7 +54,7 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **13**.
+Total identificado automáticamente: **14**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-v2** — institutional_repository_governance (v2.0.0; institutionally_closed)
@@ -69,6 +69,7 @@ Total identificado automáticamente: **13**.
 - **SPT-003B** — ai_multimedia_adapters (v0.1.0; technically_completed)
 - **SPT-003C** — Piloto Controlado de Proveedores Reales (v0.1.0; technically_completed)
 - **SPT-004A** — Fundación del Asistente Inteligente Institucional (v0.1.0; technically_completed)
+- **SPT-005** — Sistema de Identidad Cultural Configurable (v0.1.0; technically_completed)
 
 ## 14. Política de actualización
 

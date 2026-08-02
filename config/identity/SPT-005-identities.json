@@ -1,0 +1,34 @@
+{
+  "technical_identity": "SGODA-PUINAVE",
+  "active_identity_id": "sgoda-puinave-baseline",
+  "profiles": [
+    {
+      "identity_id": "sgoda-puinave-baseline",
+      "technical_name": "SGODA-PUINAVE",
+      "public_name": "SGODA-PUINAVE",
+      "app_name": "SGODA-PUINAVE",
+      "assistant_name": "Asistente Virtual SGODA",
+      "puinave_name": null,
+      "spanish_name": "Plataforma Digital Puinave",
+      "english_name": "Puinave Digital Platform",
+      "slogan": "Tecnología para preservar la memoria del pueblo Puinave.",
+      "locale_default": "es",
+      "logo_path": null,
+      "icon_path": null,
+      "active": true,
+      "version": "1.0.0",
+      "approval": {
+        "status": "baseline",
+        "approved_by": null,
+        "approval_date": null,
+        "approval_document": null,
+        "community_scope": null,
+        "notes": "Identidad temporal hasta la aprobación cultural."
+      },
+      "metadata": {
+        "technical_namespace": "sgoda",
+        "repository_name": "SGODA-PUINAVE"
+      }
+    }
+  ]
+}

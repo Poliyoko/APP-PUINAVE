@@ -1,0 +1,25 @@
+{
+  "increment_code": "SPT-005",
+  "version": "0.1.0",
+  "policy_name": "Sistema de Identidad Cultural Configurable",
+  "technical_identity": "SGODA-PUINAVE",
+  "technical_identity_mutable": false,
+  "public_identity_configurable": true,
+  "puinave_name_requires_community_approval": true,
+  "approval_document_required": true,
+  "approval_authority_required": true,
+  "approval_date_required": true,
+  "identity_history_required": true,
+  "rollback_supported": true,
+  "client_exports": [
+    "flutter",
+    "web",
+    "api"
+  ],
+  "governed_by": [
+    "SGD-114-v2.0.1",
+    "SGD-115-v1.0.1",
+    "SPB-007",
+    "SIB-001"
+  ]
+}

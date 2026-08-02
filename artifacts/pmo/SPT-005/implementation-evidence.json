@@ -1,0 +1,16 @@
+{
+    "increment_code":  "SPT-005",
+    "version":  "0.1.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T10:58:33.0804664Z",
+    "technical_identity":  "SGODA-PUINAVE",
+    "public_identity_configurable":  true,
+    "active_identity":  "sgoda-puinave-baseline",
+    "puinave_name":  null,
+    "puinave_name_status":  "pending_community_approval",
+    "supported_clients":  [
+                              "flutter",
+                              "web",
+                              "api"
+                          ]
+}

@@ -1,0 +1,94 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SPT-005",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T10:59:11.923306+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/identity/SPT-005-component.json",
+        "config/identity/SPT-005-identities.json",
+        "config/identity/SPT-005-identity-baseline.json",
+        "config/identity/SPT-005-identity-policy.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/identity/test_SPT_005_configurable_cultural_identity.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/identity/SPT-005/exports/api-identity.json",
+        "artifacts/identity/SPT-005/exports/flutter-identity.json",
+        "artifacts/identity/SPT-005/exports/web-identity.json",
+        "artifacts/pmo/SPT-005/implementation-evidence.json",
+        "artifacts/pmo/SPT-005/traceability-SPT-005.json",
+        "releases/SPT-005-v0.1.0/SPT-005-Guia-Cambio-Nombre-Visible.md",
+        "releases/SPT-005-v0.1.0/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+        "releases/SPT-005-v0.1.0/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+        "releases/SPT-005-v0.1.0/SPT-005-component.json",
+        "releases/SPT-005-v0.1.0/SPT-005-identity-baseline.json",
+        "releases/SPT-005-v0.1.0/SPT-005-identity-policy.json",
+        "releases/SPT-005-v0.1.0/api-identity.json",
+        "releases/SPT-005-v0.1.0/flutter-identity.json",
+        "releases/SPT-005-v0.1.0/web-identity.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPT-005/traceability-SPT-005.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}

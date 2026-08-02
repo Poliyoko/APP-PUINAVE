@@ -1,0 +1,29 @@
+{
+  "increment_code": "SPT-005",
+  "name": "Sistema de Identidad Cultural Configurable",
+  "component_type": "cultural_identity_management",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.identity.cli",
+  "source": [
+    "src/sgoda/identity/models.py",
+    "src/sgoda/identity/repository.py",
+    "src/sgoda/identity/service.py",
+    "src/sgoda/identity/exporter.py",
+    "src/sgoda/identity/cli.py"
+  ],
+  "tests": [
+    "tests/identity/test_SPT_005_configurable_cultural_identity.py"
+  ],
+  "documentation": [
+    "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+    "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+    "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md"
+  ],
+  "governed_by": [
+    "SGD-114-v2.0.1",
+    "SGD-115-v1.0.1",
+    "SPB-007",
+    "SIB-001"
+  ]
+}

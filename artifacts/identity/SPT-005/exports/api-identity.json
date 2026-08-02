@@ -1,0 +1,10 @@
+{
+  "identity_id": "sgoda-puinave-baseline",
+  "technical_name": "SGODA-PUINAVE",
+  "public_name": "SGODA-PUINAVE",
+  "app_name": "SGODA-PUINAVE",
+  "assistant_name": "Asistente Virtual SGODA",
+  "puinave_name": null,
+  "approval_status": "baseline",
+  "version": "1.0.0"
+}
