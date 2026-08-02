@@ -222,7 +222,7 @@
     "status": "implemented",
     "version": "1.0.1",
     "release": "releases/SGD-114D-v1.0.0",
-    "last_git_date": null
+    "last_git_date": "2026-08-02T17:28:31-05:00"
   },
   {
     "code": "SGD-115A",
@@ -230,8 +230,17 @@
     "phase": "Gobierno Digital",
     "status": "implemented",
     "version": "1.0.0",
-    "release": null,
-    "last_git_date": null
+    "release": "releases/SGD-115A-v1.0.0",
+    "last_git_date": "2026-08-02T17:28:31-05:00"
+  },
+  {
+    "code": "SPT-011A",
+    "name": "Institutional Evidence Closure",
+    "phase": "Fase Tecnológica III",
+    "status": "implemented",
+    "version": "1.0.2",
+    "release": "releases/SPT-011A-v1.0.1",
+    "last_git_date": "2026-08-02T17:28:31-05:00"
   },
   {
     "code": "SPT-011",
@@ -243,12 +252,12 @@
     "last_git_date": null
   },
   {
-    "code": "SPT-011A",
-    "name": "Institutional Evidence Closure",
+    "code": "SPT-012",
+    "name": "Plataforma de Aprendizaje SGODA-PUINAVE",
     "phase": "Fase Tecnológica III",
     "status": "implemented",
-    "version": "1.0.2",
-    "release": "releases/SPT-011A-v1.0.1",
+    "version": "1.0.0",
+    "release": "releases/SPT-012-v1.0.0",
     "last_git_date": null
   }
 ]

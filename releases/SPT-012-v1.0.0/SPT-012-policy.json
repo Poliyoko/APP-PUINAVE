@@ -1,0 +1,23 @@
+{
+  "component": "SPT-012",
+  "version": "1.0.0",
+  "validated_dictionary_only": true,
+  "validated_media_only": true,
+  "no_invention": true,
+  "supported_languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ],
+  "integrations": [
+    "SPT-007A",
+    "SPT-007B",
+    "SPT-007C",
+    "SPT-007D",
+    "SPT-008",
+    "SPT-009",
+    "SPT-011"
+  ],
+  "local_first": true
+}

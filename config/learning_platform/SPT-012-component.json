@@ -1,0 +1,42 @@
+{
+  "increment_code": "SPT-012",
+  "name": "Plataforma de Aprendizaje SGODA-PUINAVE",
+  "component_type": "integrated_learning_platform",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica III",
+  "dependencies": [
+    "SPT-007A",
+    "SPT-007B",
+    "SPT-007C",
+    "SPT-007D",
+    "SPT-008",
+    "SPT-009",
+    "SPT-011",
+    "SGD-114D",
+    "SGD-115A",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/learning_platform/models.py",
+    "src/sgoda/learning_platform/digital_dictionary.py",
+    "src/sgoda/learning_platform/media_library.py",
+    "src/sgoda/learning_platform/oda_factory.py",
+    "src/sgoda/learning_platform/curriculum.py",
+    "src/sgoda/learning_platform/progress.py",
+    "src/sgoda/learning_platform/integration_bridge.py",
+    "src/sgoda/learning_platform/service.py",
+    "src/sgoda/learning_platform/api.py",
+    "src/sgoda/learning_platform/cli.py"
+  ],
+  "tests": [
+    "tests/learning_platform/test_SPT_012_sgoda_learning_platform.py"
+  ],
+  "documentation": [
+    "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Arquitectura.md",
+    "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Diccionario-Digital.md",
+    "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Integracion-Motores.md",
+    "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Multimedia-y-ODA.md",
+    "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Rutas-Progreso-Evaluacion.md"
+  ]
+}

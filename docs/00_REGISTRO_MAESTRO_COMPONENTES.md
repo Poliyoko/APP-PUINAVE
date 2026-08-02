@@ -10,8 +10,8 @@
 | SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 3 | 1 | 3 |
 | SGD-114D | Adaptive Institutional Policy Engine | 1.0.0 | implemented | `config/governance/SGD-114D-component.json` | 6 | 1 | 3 | 1 | 6 |
 | SGD-114D-v1.0.1 | Adaptive Release Canonical Resolver | 1.0.1 | implemented | `config/governance/SGD-114D-v1.0.1-component.json` | 1 | 1 | 1 | 0 | 1 |
-| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 0 | 8 |
-| SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 0 | 2 |
+| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 1 | 9 |
+| SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 1 | 3 |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 47 |
 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | 2.0.0 | technically_completed | `config/roadmap/SGD-116B-component.json` | 4 | 1 | 3 | 1 | 29 |
 | SIB-001 | SGODA Installer Builder | 0.1.0 | technically_completed | `config/installer_builder/SIB-001-component.json` | 1 | 1 | 2 | 1 | 12 |
@@ -36,6 +36,7 @@
 | SPT-010 | Plataforma Digital Integrada | 1.0.0 | implemented | `config/platform/SPT-010-component.json` | 7 | 1 | 7 | 1 | 8 |
 | SPT-011 | Plataforma Operativa SGODA-PUINAVE | 1.0.0 | implemented | `config/operational_platform/SPT-011-component.json` | 10 | 1 | 7 | 2 | 16 |
 | SPT-011A | Institutional Evidence Closure | 1.0.2 | implemented | `config/operational_platform/SPT-011A-component.json` | 1 | 1 | 1 | 1 | 10 |
+| SPT-012 | Plataforma de Aprendizaje SGODA-PUINAVE | 1.0.0 | implemented | `config/learning_platform/SPT-012-component.json` | 10 | 1 | 5 | 1 | 7 |
 
 ## Detalle por componente
 
@@ -120,8 +121,8 @@
 - **Código:** `src/sgoda/documentation/master_docs.py`
 - **Pruebas:** `tests/documentation/test_SGD_115_master_documentation.py`
 - **Documentación:** `docs/00_ARQUITECTURA_MAESTRA.md`, `docs/00_INDICE_MAESTRO.md`, `docs/00_REGISTRO_MAESTRO_COMPONENTES.md`, `docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md`, `docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md`
-- **Releases:** No identificados.
-- **Evidencias:** 8 archivo(s) identificado(s).
+- **Releases:** `releases/SGD-115A-v1.0.0`
+- **Evidencias:** 9 archivo(s) identificado(s).
 
 ### SGD-115A — Documentation Canonical Component Resolver
 
@@ -132,8 +133,8 @@
 - **Código:** `src/sgoda/documentation/canonical_component_resolver.py`
 - **Pruebas:** `tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py`
 - **Documentación:** `docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md`
-- **Releases:** No identificados.
-- **Evidencias:** 2 archivo(s) identificado(s).
+- **Releases:** `releases/SGD-115A-v1.0.0`
+- **Evidencias:** 3 archivo(s) identificado(s).
 
 ### SGD-116 — Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE
 
@@ -422,4 +423,16 @@
 - **Documentación:** `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md`
 - **Releases:** `releases/SPT-011A-v1.0.1`
 - **Evidencias:** 10 archivo(s) identificado(s).
+
+### SPT-012 — Plataforma de Aprendizaje SGODA-PUINAVE
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** integrated_learning_platform
+- **Configuración:** `config/learning_platform/SPT-012-component.json`
+- **Código:** `src/sgoda/learning_platform/api.py`, `src/sgoda/learning_platform/cli.py`, `src/sgoda/learning_platform/curriculum.py`, `src/sgoda/learning_platform/digital_dictionary.py`, `src/sgoda/learning_platform/integration_bridge.py`, `src/sgoda/learning_platform/media_library.py`, `src/sgoda/learning_platform/models.py`, `src/sgoda/learning_platform/oda_factory.py`, `src/sgoda/learning_platform/progress.py`, `src/sgoda/learning_platform/service.py`
+- **Pruebas:** `tests/learning_platform/test_SPT_012_sgoda_learning_platform.py`
+- **Documentación:** `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Arquitectura.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Diccionario-Digital.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Integracion-Motores.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Multimedia-y-ODA.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Rutas-Progreso-Evaluacion.md`
+- **Releases:** `releases/SPT-012-v1.0.0`
+- **Evidencias:** 7 archivo(s) identificado(s).
 

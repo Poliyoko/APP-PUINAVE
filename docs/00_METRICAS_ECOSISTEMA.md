@@ -2,12 +2,12 @@
 
 > Documento generado automáticamente por SGD-116.
 
-- Componentes: **28**
-- Implementados: **25**
+- Componentes: **29**
+- Implementados: **26**
 - Pendientes: **3**
-- Releases: **26**
-- Archivos de prueba: **48**
-- Documentos: **137**
-- Avance: **89.29%**
-- Cobertura documental: **71.43%**
-- Cobertura declarada de pruebas: **96.43%**
+- Releases: **28**
+- Archivos de prueba: **49**
+- Documentos: **142**
+- Avance: **89.66%**
+- Cobertura documental: **72.41%**
+- Cobertura declarada de pruebas: **96.55%**

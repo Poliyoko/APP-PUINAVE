@@ -1,0 +1,9 @@
+{
+  "dictionary_source": "artifacts/learning_platform/SPT-012/demo-dictionary.json",
+  "media_source": "artifacts/learning_platform/SPT-012/demo-media.json",
+  "default_language": "es",
+  "default_level": "initial",
+  "progress_mode": "local_memory",
+  "api_enabled": true,
+  "no_invention": true
+}

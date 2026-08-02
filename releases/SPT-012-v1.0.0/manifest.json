@@ -1,0 +1,33 @@
+{
+    "increment_code":  "SPT-012",
+    "version":  "1.0.0",
+    "status":  "implemented_and_tested",
+    "files":  [
+                  "api.py",
+                  "cli.py",
+                  "curriculum.py",
+                  "demo-dictionary.json",
+                  "demo-learning-result.json",
+                  "demo-media.json",
+                  "demo-request.json",
+                  "digital_dictionary.py",
+                  "integration_bridge.py",
+                  "Invoke-SPT012-LearningPlatform.ps1",
+                  "media_library.py",
+                  "models.py",
+                  "oda_factory.py",
+                  "progress.py",
+                  "service.py",
+                  "SPT-012-Arquitectura.md",
+                  "SPT-012-component.json",
+                  "SPT-012-Diccionario-Digital.md",
+                  "SPT-012-implementation-evidence.json",
+                  "SPT-012-Integracion-Motores.md",
+                  "SPT-012-Multimedia-y-ODA.md",
+                  "SPT-012-policy.json",
+                  "SPT-012-runtime.json",
+                  "SPT-012-Rutas-Progreso-Evaluacion.md",
+                  "test_SPT_012_sgoda_learning_platform.py",
+                  "__init__.py"
+              ]
+}

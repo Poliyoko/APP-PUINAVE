@@ -1,0 +1,9 @@
+{
+    "operation":  "get_oda",
+    "learner_id":  "DEMO-LEARNER-001",
+    "language":  "es",
+    "entry_id":  "LEX-001",
+    "payload":  {
+
+                }
+}

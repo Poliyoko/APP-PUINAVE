@@ -113,3 +113,13 @@
 | SPT-011A | SGD-115 | Interna |
 | SPT-011A | SGD-116 | Interna |
 | SPT-011A | SPT-011 | Interna |
+| SPT-012 | SGD-114D | Interna |
+| SPT-012 | SGD-115A | Interna |
+| SPT-012 | SGD-116 | Interna |
+| SPT-012 | SPT-007A | Interna |
+| SPT-012 | SPT-007B | Interna |
+| SPT-012 | SPT-007C | Interna |
+| SPT-012 | SPT-007D | Interna |
+| SPT-012 | SPT-008 | Interna |
+| SPT-012 | SPT-009 | Interna |
+| SPT-012 | SPT-011 | Interna |

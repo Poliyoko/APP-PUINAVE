@@ -1,0 +1,53 @@
+{
+  "operation": "get_oda",
+  "status": "ok",
+  "data": {
+    "odaId": "ODA-LEX-001",
+    "entryId": "LEX-001",
+    "title": "AMDA",
+    "languages": {
+      "pu": "AMDA",
+      "es": "casa",
+      "en-US": "house",
+      "it": "casa"
+    },
+    "category": "sustantivo",
+    "media": [
+      {
+        "type": "image",
+        "uri": "media/images/LEX-001.webp",
+        "autoplay": true
+      },
+      {
+        "type": "audio_puinave",
+        "uri": "media/audio/LEX-001-pu.wav",
+        "autoplay": true
+      }
+    ],
+    "activities": [
+      {
+        "type": "listen",
+        "instruction": "Escucha la pronunciación Puinave."
+      },
+      {
+        "type": "recognize",
+        "instruction": "Relaciona la palabra con su imagen."
+      },
+      {
+        "type": "translate",
+        "instruction": "Identifica su significado."
+      },
+      {
+        "type": "repeat",
+        "instruction": "Repite la palabra en Puinave."
+      }
+    ],
+    "validated": true,
+    "noInvention": true
+  },
+  "sources": [
+    "RLB:LEX-001"
+  ],
+  "warnings": [],
+  "no_invention": true
+}
