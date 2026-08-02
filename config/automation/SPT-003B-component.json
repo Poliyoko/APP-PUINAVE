@@ -1,0 +1,11 @@
+{
+  "increment_code": "SPT-003B",
+  "component_type": "ai_multimedia_adapters",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.automation.adapters.processor",
+  "tests": [
+    "tests/automation/test_SPT_003B_ai_multimedia_adapters.py"
+  ],
+  "governed_by": "SGD-114-v2.0.1"
+}

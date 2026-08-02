@@ -1,0 +1,15 @@
+{
+  "resource_id": "RMR-0E28EB22BDE66CA4894C8C88",
+  "sha256": "8d60d7e8b1571b23237a10282522b26c79f84e2922f2d023242c1cb1452f7d90",
+  "size_bytes": 81,
+  "media_type": "audio/wav",
+  "stored_at_utc": "2026-08-02T09:20:14.299621+00:00",
+  "metadata": {
+    "simulated": true,
+    "job_type": "record_native_audio",
+    "language": "pui",
+    "provider": "mock-provider",
+    "external_id": "MOCK-EBC10756F7E0B004627B",
+    "job_id": "JOB-970F281AA3284ABE2EAF5110"
+  }
+}

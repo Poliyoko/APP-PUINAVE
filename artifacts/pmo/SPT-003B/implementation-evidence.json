@@ -1,0 +1,21 @@
+{
+    "increment_code":  "SPT-003B",
+    "version":  "0.1.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T09:19:40.9952315Z",
+    "external_calls":  false,
+    "provider_for_tests":  "mock",
+    "components":  [
+                       "src/sgoda/automation/adapters/contracts.py",
+                       "src/sgoda/automation/adapters/providers.py",
+                       "src/sgoda/automation/adapters/storage.py",
+                       "src/sgoda/automation/adapters/n8n.py",
+                       "src/sgoda/automation/adapters/processor.py",
+                       "tests/automation/test_SPT_003B_ai_multimedia_adapters.py",
+                       "config/automation/SPT-003B-policy.json",
+                       "config/automation/SPT-003B-providers.example.json",
+                       "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Adaptadores-IA-Multimedia.md",
+                       "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Seguridad-Credenciales-Proveedores.md",
+                       "scripts/Invoke-SPT003B-AdapterValidation.ps1"
+                   ]
+}

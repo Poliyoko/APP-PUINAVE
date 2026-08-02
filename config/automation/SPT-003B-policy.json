@@ -1,0 +1,26 @@
+{
+  "increment_code": "SPT-003B",
+  "version": "0.1.0",
+  "external_calls_enabled": false,
+  "default_provider": "mock",
+  "supported_adapters": [
+    "image_generation",
+    "tts_es",
+    "tts_en",
+    "native_puinave_recording",
+    "rmr_storage",
+    "n8n_events"
+  ],
+  "credential_policy": {
+    "storage": "environment_variables_only",
+    "commit_secrets": false,
+    "log_secrets": false
+  },
+  "human_review_required": true,
+  "providers_prepared": [
+    "openai-image",
+    "google-tts",
+    "azure-speech"
+  ],
+  "governed_by": "SGD-114-v2.0.1"
+}

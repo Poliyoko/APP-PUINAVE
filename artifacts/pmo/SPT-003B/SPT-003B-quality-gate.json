@@ -1,0 +1,96 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SPT-003B",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T09:20:15.245168+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/automation/SPT-003B-component.json",
+        "config/automation/SPT-003B-policy.json",
+        "config/automation/SPT-003B-providers.example.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/automation/test_SPT_003B_ai_multimedia_adapters.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Adaptadores-IA-Multimedia.md",
+        "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Seguridad-Credenciales-Proveedores.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/automation/SPT-003B/media/RM/RMR-0AAEBE2CE279F1A900B11562.wav",
+        "artifacts/automation/SPT-003B/media/RM/RMR-0AAEBE2CE279F1A900B11562.wav.metadata.json",
+        "artifacts/automation/SPT-003B/media/RM/RMR-0E28EB22BDE66CA4894C8C88.wav",
+        "artifacts/automation/SPT-003B/media/RM/RMR-0E28EB22BDE66CA4894C8C88.wav.metadata.json",
+        "artifacts/automation/SPT-003B/media/RM/RMR-0FF5062178A1F646D95DE05B.wav",
+        "artifacts/automation/SPT-003B/media/RM/RMR-0FF5062178A1F646D95DE05B.wav.metadata.json",
+        "artifacts/automation/SPT-003B/media/RM/RMR-14D71E46AED41B607BBABE17.wav",
+        "artifacts/automation/SPT-003B/media/RM/RMR-14D71E46AED41B607BBABE17.wav.metadata.json",
+        "artifacts/automation/SPT-003B/multimedia-events.jsonl",
+        "artifacts/automation/SPT-003B/processing-summary.json",
+        "artifacts/pmo/SPT-003B/implementation-evidence.json",
+        "artifacts/pmo/SPT-003B/traceability-SPT-003B.json",
+        "releases/SPT-003B-v0.1.0/SPT-003B-Adaptadores-IA-Multimedia.md",
+        "releases/SPT-003B-v0.1.0/SPT-003B-Seguridad-Credenciales-Proveedores.md",
+        "releases/SPT-003B-v0.1.0/SPT-003B-policy.json",
+        "releases/SPT-003B-v0.1.0/SPT-003B-providers.example.json",
+        "releases/SPT-003B-v0.1.0/multimedia-events.jsonl",
+        "releases/SPT-003B-v0.1.0/processing-summary.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPT-003B/traceability-SPT-003B.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}

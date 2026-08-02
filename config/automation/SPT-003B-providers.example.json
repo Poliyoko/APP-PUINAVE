@@ -1,0 +1,21 @@
+{
+  "active_provider": "mock",
+  "providers": {
+    "mock": {
+      "enabled": true,
+      "external_calls": false
+    },
+    "openai-image": {
+      "enabled": false,
+      "environment_variable": "OPENAI_API_KEY"
+    },
+    "google-tts": {
+      "enabled": false,
+      "environment_variable": "GOOGLE_APPLICATION_CREDENTIALS"
+    },
+    "azure-speech": {
+      "enabled": false,
+      "environment_variable": "AZURE_SPEECH_KEY"
+    }
+  }
+}

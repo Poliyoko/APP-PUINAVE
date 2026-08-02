@@ -1,0 +1,17 @@
+{
+    "increment_code":  "SPT-003B",
+    "generated_at_utc":  "2026-08-02T09:19:40.9952315Z",
+    "source":  [
+                   "src/sgoda/automation/adapters/"
+               ],
+    "tests":  [
+                  "tests/automation/test_SPT_003B_ai_multimedia_adapters.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Adaptadores-IA-Multimedia.md",
+                          "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Seguridad-Credenciales-Proveedores.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SPT-003B/implementation-evidence.json"
+                 ]
+}
