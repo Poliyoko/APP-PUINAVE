@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T10:49:44.380004+00:00",
+  "generated_at_utc": "2026-08-02T11:01:28.648660+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 984,
+  "total_files": 1016,
   "totals_by_category": {
-    "other": 376,
-    "evidence": 256,
-    "configuration": 34,
-    "dashboard": 12,
-    "documentation": 72,
-    "release": 62,
-    "automation": 21,
-    "source": 121,
-    "tests": 30
+    "other": 377,
+    "evidence": 262,
+    "configuration": 38,
+    "dashboard": 13,
+    "documentation": 75,
+    "release": 71,
+    "automation": 22,
+    "source": 127,
+    "tests": 31
   },
   "files": [
     {
@@ -254,6 +254,12 @@
       "path": "Install-SPT004A-Institutional-Assistant-Foundation.ps1",
       "sha256": "8b694952ec00aa0ca629a60278addafdc712809499fae021e9df2a781daafeb8",
       "size_bytes": 45850,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT005-Configurable-Cultural-Identity.ps1",
+      "sha256": "92cb0bd74ec6b7e7c4bcd64c09134b540bf7ab7ed4bae6f2c9e23de5a6dc96f5",
+      "size_bytes": 39914,
       "category": "other"
     },
     {
@@ -834,20 +840,38 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "e7bdeb3da66312e136cc1571fa857b9cf006c0cf24cb2e8d0faff533955e2f4e",
-      "size_bytes": 16744,
+      "sha256": "16b2b8f2a5ab5e60e7c46190485f23b362f8399a43736d9b64f8a5b34b8f7f65",
+      "size_bytes": 18117,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "459fd470cc97a64a2d8db1f76cddc5f7be8db7d2536ef89480f19d4cf1d6e51d",
+      "sha256": "3aedada79992e4a64c9dd63a043e4f893ab41ac0d78925e9e4f0bb08a9677b44",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "44ece7014957cd8aaf6969695f4a4f2cf1badef6164e5bf98a1f2fe748039025",
+      "sha256": "a38778c7af23aa8505a2c304307943ad12c4dbc5605e4463fa4678579bf7cef5",
       "size_bytes": 231,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/identity/SPT-005/exports/api-identity.json",
+      "sha256": "b676a5492ee928e9cee8eff5d86fdaa47148101a829eb3831481dd9aee0c3703",
+      "size_bytes": 284,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/identity/SPT-005/exports/flutter-identity.json",
+      "sha256": "bf26625861790465f5fb8b3d7fa2535d98cc37b035088e2d3a61ead621f5c528",
+      "size_bytes": 316,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/identity/SPT-005/exports/web-identity.json",
+      "sha256": "ee492639bd2d4ba8a9f549b9fe2182626dec08c3d5c7d4581fdfd4d4a34965a3",
+      "size_bytes": 291,
       "category": "evidence"
     },
     {
@@ -1008,20 +1032,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "5b959511d8ef241407de6f843db285d50eeb729bd7247b48d9eacb09efa6efe6",
+      "sha256": "e0213756df6a98a1bbddddc78209a58b798223acbcffaa3a4c33b82be3a0a230",
       "size_bytes": 1432,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "cdebddb898f361edfcee56f58e78c851785d4c6de309985dc97bcc785daebd5e",
+      "sha256": "9276bc45bf943a13946b33688ce7801ba911905f6677a4e9fdc10a2903757f09",
       "size_bytes": 642,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "555e575ac1613e40083eae161ae9ccb633df367ea370ad0293240ab8a3f0959e",
-      "size_bytes": 215821,
+      "sha256": "47184cfc772a95ed1354f6b2efb4432eaad8b377970f0b8a5011ee0393cc46db",
+      "size_bytes": 222936,
       "category": "evidence"
     },
     {
@@ -1788,8 +1812,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "29c7a64b7cafd82b39a62871194e835fc487a0e90ad38818b6f4ef4e1f741720",
-      "size_bytes": 4324,
+      "sha256": "122cfb4394ad754db5119a9bb2234aed5abfbf665d0951a0e36cb0db9380a23b",
+      "size_bytes": 4233,
       "category": "evidence"
     },
     {
@@ -1970,6 +1994,24 @@
       "path": "artifacts/pmo/SPT-004A/traceability-SPT-004A.json",
       "sha256": "650a014c110be57758152be74f863dab586c964dbf856095b9d0cc5f92254166",
       "size_bytes": 778,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-005/SPT-005-quality-gate.json",
+      "sha256": "67147b14e3fd53ea234d5e6ae5214305981013eb3b955af8c2801bda9f8ce58e",
+      "size_bytes": 3329,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-005/implementation-evidence.json",
+      "sha256": "ffe67f7e6a4c7e14809c769882bec3151c4067b4a8ff67068f446a5df1652e8d",
+      "size_bytes": 558,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-005/traceability-SPT-005.json",
+      "sha256": "d421703546d6c7c761fa16c68c765e32d7025636705713e0283391cc626bf2d3",
+      "size_bytes": 612,
       "category": "evidence"
     },
     {
@@ -3905,6 +3947,30 @@
       "category": "configuration"
     },
     {
+      "path": "config/identity/SPT-005-component.json",
+      "sha256": "a4bec3c7ae41233bc447cdc907d371d6debc4c76120d78695cc9eb89ba328740",
+      "size_bytes": 904,
+      "category": "configuration"
+    },
+    {
+      "path": "config/identity/SPT-005-identities.json",
+      "sha256": "9c38b607e9c8726410f3cfc2c1e943659a6a325b8cf0a2a37ee00b34612864eb",
+      "size_bytes": 1040,
+      "category": "configuration"
+    },
+    {
+      "path": "config/identity/SPT-005-identity-baseline.json",
+      "sha256": "9c38b607e9c8726410f3cfc2c1e943659a6a325b8cf0a2a37ee00b34612864eb",
+      "size_bytes": 1040,
+      "category": "configuration"
+    },
+    {
+      "path": "config/identity/SPT-005-identity-policy.json",
+      "sha256": "366d13dc42f54637f4daa5a2fc909a6998adc393e7a7d75ba020581e999f971a",
+      "size_bytes": 628,
+      "category": "configuration"
+    },
+    {
       "path": "config/installer_builder/SIB-001-component.json",
       "sha256": "bc091e7ea0c531ead72d40651ef45ca282d970d4712a4b1b429cff75dd9a06f2",
       "size_bytes": 599,
@@ -4067,8 +4133,14 @@
       "category": "dashboard"
     },
     {
+      "path": "dashboard/SPT-005-dashboard.json",
+      "sha256": "a22bfa412050329daa184cddaa4b2a6dfdc90e1cddc64195c8b999b90f79bd6a",
+      "size_bytes": 512,
+      "category": "dashboard"
+    },
+    {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "95f773384719b7ab738f95886d7688160b365daa5e31adabab195951de38a9de",
+      "sha256": "e0cea714ff71304ef9c208df0374d81a801275b3e7fd8676d1efc9d3910878f3",
       "size_bytes": 2799,
       "category": "documentation"
     },
@@ -4080,14 +4152,14 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "c988053b7cbd3d56c3524e50e81f09406bb10236938c11f513612c5bc53d3ae2",
-      "size_bytes": 2375,
+      "sha256": "1cb51c06d89e2096d5030bb05a20860a8ee1d9827b9804e97a8d87729276aa23",
+      "size_bytes": 2469,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "1896f0271944e18e45eafc8f9233ed58cef87a9c13672b1db2552a751ce5d76d",
-      "size_bytes": 10565,
+      "sha256": "cb46a3647d5c455def62f9009bc4b332240f36ffda511123793907f8686b2fa0",
+      "size_bytes": 11565,
       "category": "documentation"
     },
     {
@@ -4424,6 +4496,24 @@
       "path": "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
       "sha256": "6652459c6f1c02479d96d727cb991da1213cb2e631b5fec159712bea08929d75",
       "size_bytes": 673,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md",
+      "sha256": "16db2495a13cfc27e90c1aef550136fecbd9cd777b2318c798f97462a370dbbe",
+      "size_bytes": 543,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+      "sha256": "6776586f9cc14d638d1e7d7205b7ebc074926677664fd3e831a3bbbcac2dbc62",
+      "size_bytes": 555,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+      "sha256": "70a011d580340ffaa48a338084adabef497ad7f529b1681e52ae058948d64cf3",
+      "size_bytes": 689,
       "category": "documentation"
     },
     {
@@ -4889,6 +4979,60 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-Guia-Cambio-Nombre-Visible.md",
+      "sha256": "16db2495a13cfc27e90c1aef550136fecbd9cd777b2318c798f97462a370dbbe",
+      "size_bytes": 543,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+      "sha256": "6776586f9cc14d638d1e7d7205b7ebc074926677664fd3e831a3bbbcac2dbc62",
+      "size_bytes": 555,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+      "sha256": "70a011d580340ffaa48a338084adabef497ad7f529b1681e52ae058948d64cf3",
+      "size_bytes": 689,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-component.json",
+      "sha256": "a4bec3c7ae41233bc447cdc907d371d6debc4c76120d78695cc9eb89ba328740",
+      "size_bytes": 904,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-identity-baseline.json",
+      "sha256": "9c38b607e9c8726410f3cfc2c1e943659a6a325b8cf0a2a37ee00b34612864eb",
+      "size_bytes": 1040,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-identity-policy.json",
+      "sha256": "366d13dc42f54637f4daa5a2fc909a6998adc393e7a7d75ba020581e999f971a",
+      "size_bytes": 628,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/api-identity.json",
+      "sha256": "b676a5492ee928e9cee8eff5d86fdaa47148101a829eb3831481dd9aee0c3703",
+      "size_bytes": 284,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/flutter-identity.json",
+      "sha256": "bf26625861790465f5fb8b3d7fa2535d98cc37b035088e2d3a61ead621f5c528",
+      "size_bytes": 316,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/web-identity.json",
+      "sha256": "ee492639bd2d4ba8a9f549b9fe2182626dec08c3d5c7d4581fdfd4d4a34965a3",
+      "size_bytes": 291,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -4982,6 +5126,12 @@
       "path": "scripts/Invoke-SPT004A-AssistantDemo.ps1",
       "sha256": "96438318a8370adb90a2ae8ecfc9dac37098cb05165c7a4d0ac0f1af20aeeca0",
       "size_bytes": 377,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT005-IdentityManagement.ps1",
+      "sha256": "00ba26a78d2a09afa3d435d3185ae5241c9b4d82d64a52dada4613f8a8ff73cb",
+      "size_bytes": 1224,
       "category": "automation"
     },
     {
@@ -5222,6 +5372,42 @@
       "path": "src/sgoda/governance/repository_governance.py",
       "sha256": "e82b5623229eaeb9f0c4a9cabbe55ee2e8ad749b22b7028b7707aa677062eec1",
       "size_bytes": 14385,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/identity/__init__.py",
+      "sha256": "e6d4e8abe06e356ac60fd1bfcdd8d2123fd0fd28ec74cfb0451f38573b86144b",
+      "size_bytes": 910,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/identity/cli.py",
+      "sha256": "3e154a4deb3ac4bdeff2f956a502c21bca02b1ae17c816cf51138d2f78dcf140",
+      "size_bytes": 2617,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/identity/exporter.py",
+      "sha256": "0218da3f92821f74858bbd89b41f72166fec9b1f09e5b69d6d546e70223e3b6b",
+      "size_bytes": 2193,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/identity/models.py",
+      "sha256": "02f9141e1b0ee62d9f64e8ad9b799b97966ec53ac679fdcbabb354af6278a93d",
+      "size_bytes": 1155,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/identity/repository.py",
+      "sha256": "887dc5a8da2ccb6bd4ebd4b83108daa211e7ec150e4631465cef22c4d184b901",
+      "size_bytes": 3867,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/identity/service.py",
+      "sha256": "b65c216247a6aa0e3bc0c9e245134927fade0b26224884d9d75bdd39498b108b",
+      "size_bytes": 5071,
       "category": "source"
     },
     {
@@ -5780,6 +5966,12 @@
       "path": "tests/governance/test_sgd_114_evidence_policy.py",
       "sha256": "627ffe99213fcd82547501a3bb7aa0e4b3fa3f2ced077765b4610b1e2141fa06",
       "size_bytes": 5925,
+      "category": "tests"
+    },
+    {
+      "path": "tests/identity/test_SPT_005_configurable_cultural_identity.py",
+      "sha256": "fbf2c4ad5b9bc4a5ae6d470a7e6d14bbdecc65df8916125e41eef612e8ce9c59",
+      "size_bytes": 6079,
       "category": "tests"
     },
     {
