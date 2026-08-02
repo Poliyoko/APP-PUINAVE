@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T09:23:41.641439+00:00",
+  "generated_at_utc": "2026-08-02T09:39:05.471735+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 878,
+  "total_files": 896,
   "totals_by_category": {
-    "other": 371,
-    "evidence": 230,
-    "configuration": 22,
+    "other": 373,
+    "evidence": 236,
+    "configuration": 24,
     "dashboard": 10,
-    "documentation": 61,
+    "documentation": 65,
     "release": 40,
-    "automation": 17,
-    "source": 101,
-    "tests": 26
+    "automation": 18,
+    "source": 103,
+    "tests": 27
   },
   "files": [
     {
@@ -167,6 +167,12 @@
       "category": "other"
     },
     {
+      "path": "Install-SGD115-Master-Documentation-System.ps1",
+      "sha256": "0c7e7d82908f0e41841b63b15fa508a9ca4bf97edb6c7f06ce863cba17570466",
+      "size_bytes": 41622,
+      "category": "other"
+    },
+    {
       "path": "Install-SPB0032RepositoryAuditor.ps1",
       "sha256": "a30a5d7224bdd9ecd32733eef94878889dc55cb0c186d86aab9d421d6c3cbbf5",
       "size_bytes": 11417,
@@ -254,6 +260,12 @@
       "path": "Repair-SGD114-v2.0.1-Windows-Test.ps1",
       "sha256": "f29b1ebe4d03070e417926e7cc76cedef63cd5b4540314d5c577a9e69a7d490d",
       "size_bytes": 10333,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SGD115-v1.0.1-Path-Validation.ps1",
+      "sha256": "37c26501c1b8e7bf05fb5818cc64e2efe39e2ad62195710a20d68a4aa6857903",
+      "size_bytes": 9669,
       "category": "other"
     },
     {
@@ -791,6 +803,24 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/documentation/SGD-115/component-inventory.json",
+      "sha256": "10fc038de9fac2277f66b01f225b864970df57143401bacf26e04fb526f7c972",
+      "size_bytes": 12503,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
+      "sha256": "4253c79570866423297d76f4864f544255397414c16d22752c10b806b3cec465",
+      "size_bytes": 229,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
+      "sha256": "7e087699c88c7eaa5982aa3c20ea3e7e4e8c14424fbf9cde09a2ce1b3dedb445",
+      "size_bytes": 231,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/media/ADR-010/rmr-baseline-manifest.json",
       "sha256": "30790302a767357bb16ddafcfde7a9875e458b86a705d5a679bb9ff465094fff",
       "size_bytes": 1290,
@@ -894,20 +924,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "cfd9e6af869e1ea07f5046b1a3aea51f8e3792cd8a7dedb64f21a82b594cfb29",
+      "sha256": "a76dbc2b18a8fca0a146a712f90145dcbcb770c8db17264f9233d6235a7c6157",
       "size_bytes": 1431,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "7376d67fcd5272eca2aab0ec6001d1575f1b5b23cf5c8f8e8f70f75030754563",
-      "size_bytes": 640,
+      "sha256": "4254e091435aaef20dce3301375c0bfab2c3c1ca3ee38873ca463e121700e647",
+      "size_bytes": 642,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "c5bff55ae138b040ae0f10131e69a99994d7ccb3514351cbc9081a33d6681814",
-      "size_bytes": 192125,
+      "sha256": "c9e3615a8b682cf849674e0fc523f95359ebbf016dc701a90127f724f488fee4",
+      "size_bytes": 199012,
       "category": "evidence"
     },
     {
@@ -938,6 +968,24 @@
       "path": "artifacts/pmo/SGD-114/traceability-SGD-114.json",
       "sha256": "6c341e8bb94e4b9e2c9ecbe67274f1d9d4401b0a38a680cc82adcf21e7686c71",
       "size_bytes": 939,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-115/SGD-115-v1.0.1-corrective-evidence.json",
+      "sha256": "9909eb9c612debcbc3373df60e3fd5a7fa8e3ec370debe8a1dc1da562a675a41",
+      "size_bytes": 737,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-115/implementation-evidence.json",
+      "sha256": "060b3165e2bddd5b98e5893a6666646fc1d9bd3c0075c900dafb77340ac8b5bb",
+      "size_bytes": 619,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-115/traceability-SGD-115.json",
+      "sha256": "4317ec9a1f6450bab9d20b00f907f2094ea6982739cbcb4a230c9af823483e25",
+      "size_bytes": 1170,
       "category": "evidence"
     },
     {
@@ -1638,8 +1686,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "45c23e1c039e85123fed68d58235b9f037f29a2b8867d42085464310638c7287",
-      "size_bytes": 4608,
+      "sha256": "d19c6ec47d0fdabc14a7b58b000da828b238cc43f5fc340cb28e2c872081a943",
+      "size_bytes": 3201,
       "category": "evidence"
     },
     {
@@ -3647,6 +3695,18 @@
       "category": "configuration"
     },
     {
+      "path": "config/governance/SGD-115-component.json",
+      "sha256": "6a4d0a528db11061ee17b1e3b3a58e6b7a05de8788439e044d2a5fbf4d3e94ed",
+      "size_bytes": 643,
+      "category": "configuration"
+    },
+    {
+      "path": "config/governance/SGD-115-master-documentation-policy.json",
+      "sha256": "9f65317e6b1d304d4711cd744c85b2e4729db96fb05bdb8cd893ca1fde221b92",
+      "size_bytes": 709,
+      "category": "configuration"
+    },
+    {
       "path": "config/governance/sgd-114-policy.json",
       "sha256": "21c260f7dd967f9a74a868f97e25c9a81cfa7ff4e334d3d6b4b8a07c0e5adeb4",
       "size_bytes": 1359,
@@ -3797,9 +3857,27 @@
       "category": "dashboard"
     },
     {
+      "path": "docs/00_ARQUITECTURA_MAESTRA.md",
+      "sha256": "b0677eac4e40cee66de8bb1323662a32a5947ba3580906d0f8f9f4172e2e02ac",
+      "size_bytes": 2799,
+      "category": "documentation"
+    },
+    {
       "path": "docs/00_DMP/DMP_v2.0.md",
       "sha256": "43d53f5ac84191194c6ef0bfb7132747e373deba946cb84372ac06245f321cd0",
       "size_bytes": 4975,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/00_INDICE_MAESTRO.md",
+      "sha256": "c2443efcf668bdc181e2386e64881f9b0694b3201c71a03c18cbe50fc9719b6e",
+      "size_bytes": 2105,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+      "sha256": "72ea382fbfad15d764d7cae8e2d52d555728657a9cbb259a99240f5e64391d5a",
+      "size_bytes": 7779,
       "category": "documentation"
     },
     {
@@ -3866,6 +3944,12 @@
       "path": "docs/01_Gobierno/SGD-114-v2.0-Politica-Repositorio-Institucional.md",
       "sha256": "2654447e9b4e8e0a86140a740aae68a13c743bfd6b4290f01c19adb7262b6aa8",
       "size_bytes": 1628,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md",
+      "sha256": "ae89d0eb0fa6fd385f23601cb6cc639c422701ef05750a3cb52814625ec3c1cd",
+      "size_bytes": 885,
       "category": "documentation"
     },
     {
@@ -4445,6 +4529,12 @@
       "category": "automation"
     },
     {
+      "path": "scripts/Invoke-SGD115-MasterDocumentation.ps1",
+      "sha256": "6aa8de826f7d0c6b60379dede2b978d188f8b988b40c918b6a86b2849bd8ae83",
+      "size_bytes": 530,
+      "category": "automation"
+    },
+    {
       "path": "scripts/Invoke-SPB0032-ModularAudit.ps1",
       "sha256": "51853bd19e567cc3fcbe1412b3f22c11ed4b0b9ee668f7433c0866b3db762c99",
       "size_bytes": 783,
@@ -4622,6 +4712,18 @@
       "path": "src/sgoda/core/config.py",
       "sha256": "ff027ce81ff2a42e0d3beff1cffad2ac8e858b052a30a450f4a2e30b6261ebbb",
       "size_bytes": 769,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/documentation/__init__.py",
+      "sha256": "2e2719f9311dd9ed54e513e4771b23b2cb4fac7d74d7f58fbf9030172d712fa1",
+      "size_bytes": 656,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/documentation/master_docs.py",
+      "sha256": "12fbd010ef59f3ae40fb7d90439c6b83bc6e7992130cc79fc6b7e823dd35664f",
+      "size_bytes": 21832,
       "category": "source"
     },
     {
@@ -5138,6 +5240,12 @@
       "path": "tests/automation/test_SPT_003B_ai_multimedia_adapters.py",
       "sha256": "0dc513fa53a5f56dc3787cd6c590b9163e6c42e25538295ab8ee26e01417d294",
       "size_bytes": 6340,
+      "category": "tests"
+    },
+    {
+      "path": "tests/documentation/test_SGD_115_master_documentation.py",
+      "sha256": "055b35d79c2342f4cf1bbccdbf03d56003eae81893913cf4f124119599d2dc89",
+      "size_bytes": 4575,
       "category": "tests"
     },
     {
