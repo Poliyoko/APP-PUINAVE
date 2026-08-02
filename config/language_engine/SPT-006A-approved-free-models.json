@@ -1,0 +1,14 @@
+{
+  "policy": {
+    "unknown_license": "block",
+    "requires_payment": "block",
+    "requires_api_key": "block",
+    "cloud_only": "block"
+  },
+  "models": [],
+  "notes": [
+    "La lista comienza vacía de forma intencional.",
+    "Cada modelo Argos o Piper debe agregarse únicamente después de verificar su licencia y ficha del modelo.",
+    "eSpeak NG y las voces locales del sistema se inventarían mediante diagnóstico separado."
+  ]
+}

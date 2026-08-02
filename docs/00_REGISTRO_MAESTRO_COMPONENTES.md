@@ -18,7 +18,8 @@
 | SPT-003C | Piloto Controlado de Proveedores Reales | 0.1.0 | technically_completed | `config/automation/SPT-003C-component.json` | 5 | 1 | 2 | 1 | 4 |
 | SPT-004A | Fundación del Asistente Inteligente Institucional | 0.1.0 | technically_completed | `config/assistant/SPT-004A-component.json` | 6 | 1 | 3 | 1 | 4 |
 | SPT-005 | Sistema de Identidad Cultural Configurable | 0.1.0 | technically_completed | `config/identity/SPT-005-component.json` | 5 | 1 | 3 | 1 | 6 |
-| SPT-006 | Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe | 0.1.0 | technically_completed | `config/enrichment/SPT-006-component.json` | 6 | 1 | 3 | 1 | 105 |
+| SPT-006 | Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe | 0.1.0 | technically_completed | `config/enrichment/SPT-006-component.json` | 6 | 1 | 6 | 2 | 109 |
+| SPT-006A | Motor Multilingüe Local, Gratuito y con Licencias Verificadas | 0.2.0 | technically_completed | `config/language_engine/SPT-006A-component.json` | 7 | 1 | 3 | 1 | 4 |
 
 ## Detalle por componente
 
@@ -198,7 +199,19 @@
 - **Configuración:** `config/enrichment/SPT-006-component.json`
 - **Código:** `src/sgoda/enrichment/cli.py`, `src/sgoda/enrichment/models.py`, `src/sgoda/enrichment/pipeline.py`, `src/sgoda/enrichment/planner.py`, `src/sgoda/enrichment/playback.py`, `src/sgoda/enrichment/providers.py`
 - **Pruebas:** `tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py`
-- **Documentación:** `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md`
-- **Releases:** `releases/SPT-006-v0.1.0`
-- **Evidencias:** 105 archivo(s) identificado(s).
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Motor-Multilingue-Local-Gratuito.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Operacion-Offline.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Politica-Modelos-Licencias.md`
+- **Releases:** `releases/SPT-006-v0.1.0`, `releases/SPT-006A-v0.2.0`
+- **Evidencias:** 109 archivo(s) identificado(s).
+
+### SPT-006A — Motor Multilingüe Local, Gratuito y con Licencias Verificadas
+
+- **Versión:** 0.2.0
+- **Estado:** technically_completed
+- **Tipo:** free_local_multilingual_language_engine
+- **Configuración:** `config/language_engine/SPT-006A-component.json`
+- **Código:** `src/sgoda/language_engine/cli.py`, `src/sgoda/language_engine/diagnostic.py`, `src/sgoda/language_engine/engine.py`, `src/sgoda/language_engine/licensing.py`, `src/sgoda/language_engine/models.py`, `src/sgoda/language_engine/translation.py`, `src/sgoda/language_engine/tts.py`
+- **Pruebas:** `tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Motor-Multilingue-Local-Gratuito.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Operacion-Offline.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Politica-Modelos-Licencias.md`
+- **Releases:** `releases/SPT-006A-v0.2.0`
+- **Evidencias:** 4 archivo(s) identificado(s).
 

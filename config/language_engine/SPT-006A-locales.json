@@ -1,0 +1,22 @@
+{
+  "source_language": {
+    "language": "Spanish",
+    "locale": "es-CO"
+  },
+  "targets": [
+    {
+      "language": "English",
+      "locale": "en-US",
+      "variant": "American English",
+      "translation_code": "en",
+      "espeak_voice": "en-us"
+    },
+    {
+      "language": "Italian",
+      "locale": "it-IT",
+      "variant": "Italiano de Italia",
+      "translation_code": "it",
+      "espeak_voice": "it"
+    }
+  ]
+}

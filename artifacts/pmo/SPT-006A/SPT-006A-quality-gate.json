@@ -1,0 +1,91 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SPT-006A",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T11:41:38.671568+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/language_engine/SPT-006A-approved-free-models.json",
+        "config/language_engine/SPT-006A-component.json",
+        "config/language_engine/SPT-006A-free-local-policy.json",
+        "config/language_engine/SPT-006A-locales.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Operacion-Offline.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Politica-Modelos-Licencias.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/language_engine/SPT-006A/diagnostic.json",
+        "artifacts/pmo/SPT-006A/implementation-evidence.json",
+        "artifacts/pmo/SPT-006A/traceability-SPT-006A.json",
+        "releases/SPT-006A-v0.2.0/SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+        "releases/SPT-006A-v0.2.0/SPT-006A-Operacion-Offline.md",
+        "releases/SPT-006A-v0.2.0/SPT-006A-Politica-Modelos-Licencias.md",
+        "releases/SPT-006A-v0.2.0/SPT-006A-approved-free-models.json",
+        "releases/SPT-006A-v0.2.0/SPT-006A-component.json",
+        "releases/SPT-006A-v0.2.0/SPT-006A-free-local-policy.json",
+        "releases/SPT-006A-v0.2.0/SPT-006A-locales.json",
+        "releases/SPT-006A-v0.2.0/diagnostic.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPT-006A/traceability-SPT-006A.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}

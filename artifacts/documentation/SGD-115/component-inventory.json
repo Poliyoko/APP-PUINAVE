@@ -461,10 +461,14 @@
     "documentation_paths": [
       "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
       "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md",
-      "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md"
+      "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+      "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+      "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Operacion-Offline.md",
+      "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Politica-Modelos-Licencias.md"
     ],
     "release_paths": [
-      "releases/SPT-006-v0.1.0"
+      "releases/SPT-006-v0.1.0",
+      "releases/SPT-006A-v0.2.0"
     ],
     "evidence_paths": [
       "artifacts/enrichment/SPT-006/enrichment-jobs.sqlite3",
@@ -569,9 +573,47 @@
       "artifacts/enrichment/SPT-006/playback-manifests/0018.json",
       "artifacts/enrichment/SPT-006/playback-manifests/0019.json",
       "artifacts/enrichment/SPT-006/playback-manifests/0020.json",
+      "artifacts/language_engine/SPT-006A/diagnostic.json",
       "artifacts/pmo/SPT-006/SPT-006-quality-gate.json",
       "artifacts/pmo/SPT-006/implementation-evidence.json",
-      "artifacts/pmo/SPT-006/traceability-SPT-006.json"
+      "artifacts/pmo/SPT-006/traceability-SPT-006.json",
+      "artifacts/pmo/SPT-006A/SPT-006A-quality-gate.json",
+      "artifacts/pmo/SPT-006A/implementation-evidence.json",
+      "artifacts/pmo/SPT-006A/traceability-SPT-006A.json"
+    ]
+  },
+  {
+    "code": "SPT-006A",
+    "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+    "version": "0.2.0",
+    "status": "technically_completed",
+    "component_type": "free_local_multilingual_language_engine",
+    "config_path": "config/language_engine/SPT-006A-component.json",
+    "source_paths": [
+      "src/sgoda/language_engine/cli.py",
+      "src/sgoda/language_engine/diagnostic.py",
+      "src/sgoda/language_engine/engine.py",
+      "src/sgoda/language_engine/licensing.py",
+      "src/sgoda/language_engine/models.py",
+      "src/sgoda/language_engine/translation.py",
+      "src/sgoda/language_engine/tts.py"
+    ],
+    "test_paths": [
+      "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+      "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Operacion-Offline.md",
+      "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Politica-Modelos-Licencias.md"
+    ],
+    "release_paths": [
+      "releases/SPT-006A-v0.2.0"
+    ],
+    "evidence_paths": [
+      "artifacts/language_engine/SPT-006A/diagnostic.json",
+      "artifacts/pmo/SPT-006A/SPT-006A-quality-gate.json",
+      "artifacts/pmo/SPT-006A/implementation-evidence.json",
+      "artifacts/pmo/SPT-006A/traceability-SPT-006A.json"
     ]
   }
 ]

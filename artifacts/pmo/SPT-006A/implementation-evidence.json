@@ -1,0 +1,17 @@
+{
+    "increment_code":  "SPT-006A",
+    "version":  "0.2.0",
+    "status":  "implemented",
+    "architecture":  "free_local_multilingual",
+    "languages":  [
+                      "es-CO",
+                      "en-US",
+                      "it-IT"
+                  ],
+    "paid_services_allowed":  false,
+    "api_keys_required":  false,
+    "automatic_downloads":  false,
+    "unknown_license_policy":  "block",
+    "external_calls_during_installation":  0,
+    "cost_during_installation_usd":  0
+}

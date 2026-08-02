@@ -1,0 +1,37 @@
+{
+  "increment_code": "SPT-006A",
+  "version": "0.2.0",
+  "policy_name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+  "offline_only": true,
+  "paid_services_allowed": false,
+  "trial_services_allowed": false,
+  "api_keys_required": false,
+  "cloud_only_models_allowed": false,
+  "unknown_license_policy": "block",
+  "automatic_model_download": false,
+  "translation_engine": "argos-translate",
+  "tts_priority": ["piper", "espeak-ng", "windows-local"],
+  "languages": [
+    {
+      "language": "Spanish",
+      "locale": "es-CO"
+    },
+    {
+      "language": "English",
+      "locale": "en-US",
+      "regional_variant": "American English"
+    },
+    {
+      "language": "Italian",
+      "locale": "it-IT",
+      "regional_variant": "Italiano de Italia"
+    }
+  ],
+  "translation_pairs": [
+    "es-en",
+    "es-it"
+  ],
+  "human_validation_required": true,
+  "pronunciation_review_required": true,
+  "checksum": "sha256"
+}

@@ -1,0 +1,14 @@
+{
+    "increment_code":  "SPT-006A",
+    "source":  [
+                   "src/sgoda/language_engine/"
+               ],
+    "tests":  [
+                  "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+                          "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Politica-Modelos-Licencias.md",
+                          "docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Operacion-Offline.md"
+                      ]
+}

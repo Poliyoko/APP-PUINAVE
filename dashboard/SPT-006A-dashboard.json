@@ -1,0 +1,22 @@
+{
+    "increment_code":  "SPT-006A",
+    "version":  "0.2.0",
+    "status":  "technically_completed",
+    "languages":  [
+                      "es-CO",
+                      "en-US",
+                      "it-IT"
+                  ],
+    "translation_engine":  "argos-translate",
+    "tts_priority":  [
+                         "piper",
+                         "espeak-ng",
+                         "windows-local"
+                     ],
+    "paid_services_allowed":  false,
+    "api_keys_required":  false,
+    "unknown_license_policy":  "block",
+    "specific_tests":  12,
+    "quality_gate":  "approved",
+    "release":  "SPT-006A-v0.2.0"
+}

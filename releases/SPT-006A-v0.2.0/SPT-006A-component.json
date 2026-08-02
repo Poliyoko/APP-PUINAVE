@@ -1,0 +1,20 @@
+{
+  "increment_code": "SPT-006A",
+  "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+  "component_type": "free_local_multilingual_language_engine",
+  "version": "0.2.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.language_engine.cli",
+  "source": [
+    "src/sgoda/language_engine/models.py",
+    "src/sgoda/language_engine/licensing.py",
+    "src/sgoda/language_engine/diagnostic.py",
+    "src/sgoda/language_engine/translation.py",
+    "src/sgoda/language_engine/tts.py",
+    "src/sgoda/language_engine/engine.py",
+    "src/sgoda/language_engine/cli.py"
+  ],
+  "tests": [
+    "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py"
+  ]
+}

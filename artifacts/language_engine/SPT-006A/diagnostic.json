@@ -1,0 +1,35 @@
+{
+  "diagnostic": {
+    "argos_translate_python": false,
+    "piper_command": false,
+    "espeak_ng_command": false,
+    "windows_powershell": true,
+    "models_root_exists": false,
+    "internet_required_for_runtime": false,
+    "api_keys_required": false,
+    "paid_services_enabled": false,
+    "espeak_voice_inventory_ok": false,
+    "approved_translation_models": 0,
+    "approved_tts_models_en_us": 0,
+    "approved_tts_models_it_it": 0
+  },
+  "translation_inventory": {
+    "installed_pairs": [],
+    "required_pairs": [
+      {
+        "source": "es",
+        "target": "en"
+      },
+      {
+        "source": "es",
+        "target": "it"
+      }
+    ]
+  },
+  "policy": {
+    "offline_only": true,
+    "paid_services_allowed": false,
+    "api_keys_required": false,
+    "unknown_license_policy": "block"
+  }
+}
