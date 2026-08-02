@@ -1,0 +1,139 @@
+{
+  "policy_code": "SGD-114C",
+  "policy_version": "1.0.0",
+  "increment": "SPT-010",
+  "approved": true,
+  "exit_code": 0,
+  "generated_at_utc": "2026-08-02T21:15:02.012214+00:00",
+  "blocking_rules": [],
+  "failed_rules": [],
+  "results": [
+    {
+      "rule": "SGD114C-R001",
+      "name": "Repositorio institucional",
+      "category": "repository",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Repositorio Git detectado.",
+      "evidence": [
+        ".git/"
+      ],
+      "remediation": "",
+      "details": {}
+    },
+    {
+      "rule": "SGD114C-R002",
+      "name": "Descriptor del componente",
+      "category": "traceability",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Descriptor institucional encontrado.",
+      "evidence": [
+        "config/platform/SPT-010-component.json"
+      ],
+      "remediation": "",
+      "details": {}
+    },
+    {
+      "rule": "SGD114C-R003",
+      "name": "Release técnico",
+      "category": "release",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Release técnico versionado encontrado.",
+      "evidence": [
+        "releases/SPT-010-v1.0.1"
+      ],
+      "remediation": "",
+      "details": {}
+    },
+    {
+      "rule": "SGD114C-R004",
+      "name": "Roadmap Maestro",
+      "category": "roadmap",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Roadmap Maestro aprobado y sin errores estructurales.",
+      "evidence": [
+        "artifacts/roadmap/SGD-116/validation.json"
+      ],
+      "remediation": "",
+      "details": {}
+    },
+    {
+      "rule": "SGD114C-R005",
+      "name": "Documentación maestra",
+      "category": "documentation",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Documentos maestros presentes.",
+      "evidence": [
+        "docs/00_INDICE_MAESTRO.md",
+        "docs/00_ARQUITECTURA_MAESTRA.md",
+        "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "docs/00_ROADMAP_MAESTRO.md",
+        "docs/00_DEPENDENCIAS_MAESTRAS.md",
+        "docs/00_TIMELINE_MAESTRO.md",
+        "docs/00_METRICAS_ECOSISTEMA.md"
+      ],
+      "remediation": "",
+      "details": {}
+    },
+    {
+      "rule": "SGD114C-R006",
+      "name": "Infraestructura de pruebas",
+      "category": "quality",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Infraestructura de pruebas disponible: 44 archivos.",
+      "evidence": [
+        "tests/",
+        "pytest.ini"
+      ],
+      "remediation": "",
+      "details": {}
+    },
+    {
+      "rule": "SGD114C-R007",
+      "name": "Evidencia institucional",
+      "category": "evidence",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Evidencias encontradas: 2.",
+      "evidence": [
+        "artifacts/pmo/SPT-010/"
+      ],
+      "remediation": "",
+      "details": {}
+    },
+    {
+      "rule": "SGD114C-R008",
+      "name": "Compatibilidad SGD-114",
+      "category": "compatibility",
+      "severity": "BLOCKER",
+      "status": "PASSED",
+      "passed": true,
+      "blocking": false,
+      "message": "Política heredada disponible para compatibilidad.",
+      "evidence": [
+        "config/governance/sgd-114-policy.json"
+      ],
+      "remediation": "",
+      "details": {}
+    }
+  ]
+}

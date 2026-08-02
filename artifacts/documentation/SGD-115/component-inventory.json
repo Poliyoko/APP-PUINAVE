@@ -1010,5 +1010,46 @@
       "artifacts/pmo/SPT-009/SPT-009-policy-result.md",
       "artifacts/pmo/SPT-009/SPT-009-pre-gate-evidence.json"
     ]
+  },
+  {
+    "code": "SPT-010",
+    "name": "Plataforma Digital Integrada",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "integrated_digital_platform",
+    "config_path": "config/platform/SPT-010-component.json",
+    "source_paths": [
+      "src/sgoda/platform/api.py",
+      "src/sgoda/platform/cli.py",
+      "src/sgoda/platform/facade.py",
+      "src/sgoda/platform/health.py",
+      "src/sgoda/platform/models.py",
+      "src/sgoda/platform/registry.py",
+      "src/sgoda/platform/runtime.py"
+    ],
+    "test_paths": [
+      "tests/platform/test_SPT_010_integrated_digital_platform.py"
+    ],
+    "documentation_paths": [
+      "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md",
+      "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md",
+      "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md",
+      "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
+      "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md",
+      "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md",
+      "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Solucion-Errores-Demostracion-Integrada.md"
+    ],
+    "release_paths": [
+      "releases/SPT-010-v1.0.1"
+    ],
+    "evidence_paths": [
+      "artifacts/platform/SPT-010/demo-platform-graph.json",
+      "artifacts/platform/SPT-010/demo-platform-payload.json",
+      "artifacts/platform/SPT-010/demo-platform-result-v1.0.1.json",
+      "artifacts/pmo/SPT-010/SPT-010-v1.0.1-policy-result.json",
+      "artifacts/pmo/SPT-010/SPT-010-v1.0.1-policy-result.md",
+      "artifacts/pmo/SPT-010/backups/pre-SPT010-v1.0.1-20260802-161430/src__sgoda__platform__cli.py",
+      "artifacts/pmo/SPT-010/cli-backup-20260802-160212.py"
+    ]
   }
 ]

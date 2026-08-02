@@ -82,3 +82,14 @@
 | SPT-009 | SPT-007C | Interna |
 | SPT-009 | SPT-007D | Interna |
 | SPT-009 | SPT-008 | Interna |
+| SPT-010 | SGD-114C | Interna |
+| SPT-010 | SGD-115 | Interna |
+| SPT-010 | SGD-116 | Interna |
+| SPT-010 | SPT-005 | Interna |
+| SPT-010 | SPT-006A | Interna |
+| SPT-010 | SPT-007A | Interna |
+| SPT-010 | SPT-007B | Interna |
+| SPT-010 | SPT-007C | Interna |
+| SPT-010 | SPT-007D | Interna |
+| SPT-010 | SPT-008 | Interna |
+| SPT-010 | SPT-009 | Interna |

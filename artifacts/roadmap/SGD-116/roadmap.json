@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-02T20:29:24.113896+00:00",
+  "generated_at_utc": "2026-08-02T21:15:01.710195+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -733,7 +733,7 @@
         "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
         "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md"
       ],
-      "release_path": null,
+      "release_path": "releases/SPT-007D-v1.0.0",
       "config_path": "config/reasoning_engine/SPT-007D-component.json",
       "metadata": {
         "discovery_source": "descriptor",
@@ -772,7 +772,7 @@
         "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
         "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md"
       ],
-      "release_path": null,
+      "release_path": "releases/SPT-008-v1.0.0",
       "config_path": "config/tutor/SPT-008-component.json",
       "metadata": {
         "discovery_source": "descriptor",
@@ -812,12 +812,61 @@
         "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
         "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md"
       ],
-      "release_path": null,
+      "release_path": "releases/SPT-009-v1.0.0",
       "config_path": "config/conversation/SPT-009-component.json",
       "metadata": {
         "discovery_source": "descriptor",
         "raw_code": "SPT-009",
         "canonical_code": "SPT-009",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-010",
+      "name": "Plataforma Digital Integrada",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "integrated_digital_platform",
+      "phase": "Fase Tecnológica II",
+      "dependencies": [
+        "SPT-005",
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/platform/models.py",
+        "src/sgoda/platform/registry.py",
+        "src/sgoda/platform/health.py",
+        "src/sgoda/platform/facade.py",
+        "src/sgoda/platform/runtime.py",
+        "src/sgoda/platform/api.py",
+        "src/sgoda/platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/platform/test_SPT_010_integrated_digital_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md"
+      ],
+      "release_path": null,
+      "config_path": "config/platform/SPT-010-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-010",
+        "canonical_code": "SPT-010",
         "alias_applied": false
       }
     }
@@ -826,6 +875,7 @@
     "Asistente e integraciones",
     "Automatización multimedia",
     "Fase Tecnológica",
+    "Fase Tecnológica II",
     "Gobierno y arquitectura",
     "Identidad cultural",
     "Motor multilingüe y multimedia",

@@ -1,0 +1,28 @@
+{
+  "component": "SPT-010",
+  "version": "1.0.0",
+  "name": "Plataforma Digital Integrada",
+  "phase": "Fase Tecnológica II",
+  "local_first": true,
+  "no_invention": true,
+  "paid_services_required": false,
+  "configurable_identity": true,
+  "community_approval_required": true,
+  "supported_languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ],
+  "interfaces": [
+    "application_facade",
+    "cli",
+    "fastapi"
+  ],
+  "governance": [
+    "SGD-114C",
+    "SGD-115",
+    "SGD-116",
+    "SPB-007"
+  ]
+}

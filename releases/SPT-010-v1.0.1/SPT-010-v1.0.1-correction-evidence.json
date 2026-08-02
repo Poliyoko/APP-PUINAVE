@@ -1,0 +1,22 @@
+{
+    "increment_code":  "SPT-010",
+    "correction_version":  "1.0.1",
+    "correction_code":  "SPT-010-COR-JSON-PAYLOAD",
+    "status":  "corrected_and_validated",
+    "generated_at_utc":  "2026-08-02T21:15:13.6690148Z",
+    "root_cause":  "JSON payload altered by PowerShell argument transport",
+    "corrected_file":  "src/sgoda/platform/cli.py",
+    "compatibility_test_file":  "tests/platform/test_SPT_010_payload_compatibility.py",
+    "payload_file":  "artifacts/platform/SPT-010/demo-platform-payload.json",
+    "demo_result":  "artifacts/platform/SPT-010/demo-platform-result-v1.0.1.json",
+    "correction_tests":  12,
+    "full_suite_executed":  true,
+    "demo_status":  "ok",
+    "demo_intent":  "tutor",
+    "no_invention":  true,
+    "roadmap_approved":  true,
+    "policy_approved":  true,
+    "policy_exit_code":  0,
+    "documentation_in_repository":  true,
+    "backup":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-010\\backups\\pre-SPT010-v1.0.1-20260802-161430"
+}

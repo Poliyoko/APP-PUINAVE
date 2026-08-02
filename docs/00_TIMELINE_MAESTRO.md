@@ -24,6 +24,7 @@
 | 2026-08-02T14:42:06-05:00 | SPT-007A | Fundación del Motor Léxico Inteligente | implemented | releases/SPT-007A-v0.1.0 |
 | 2026-08-02T14:58:34-05:00 | SPT-007B | Motor Léxico Inteligente Semántico | implemented | releases/SPT-007B-v1.0.0 |
 | 2026-08-02T15:17:52-05:00 | SPT-007C | Motor de Conocimiento Lingüístico y Cultural | implemented | releases/SPT-007C-v1.0.0 |
-| No determinada | SPT-007D | Motor de Razonamiento Lingüístico | implemented | Pendiente |
-| No determinada | SPT-008 | Tutor Inteligente Puinave | implemented | Pendiente |
-| No determinada | SPT-009 | Ecosistema Conversacional | implemented | Pendiente |
+| 2026-08-02T15:29:57-05:00 | SPT-007D | Motor de Razonamiento Lingüístico | implemented | releases/SPT-007D-v1.0.0 |
+| 2026-08-02T15:29:57-05:00 | SPT-008 | Tutor Inteligente Puinave | implemented | releases/SPT-008-v1.0.0 |
+| 2026-08-02T15:29:57-05:00 | SPT-009 | Ecosistema Conversacional | implemented | releases/SPT-009-v1.0.0 |
+| No determinada | SPT-010 | Plataforma Digital Integrada | implemented | Pendiente |

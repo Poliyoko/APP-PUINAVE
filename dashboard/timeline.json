@@ -185,8 +185,8 @@
     "phase": "Fase Tecnológica",
     "status": "implemented",
     "version": "1.0.0",
-    "release": null,
-    "last_git_date": null
+    "release": "releases/SPT-007D-v1.0.0",
+    "last_git_date": "2026-08-02T15:29:57-05:00"
   },
   {
     "code": "SPT-008",
@@ -194,13 +194,22 @@
     "phase": "Fase Tecnológica",
     "status": "implemented",
     "version": "1.0.0",
-    "release": null,
-    "last_git_date": null
+    "release": "releases/SPT-008-v1.0.0",
+    "last_git_date": "2026-08-02T15:29:57-05:00"
   },
   {
     "code": "SPT-009",
     "name": "Ecosistema Conversacional",
     "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-009-v1.0.0",
+    "last_git_date": "2026-08-02T15:29:57-05:00"
+  },
+  {
+    "code": "SPT-010",
+    "name": "Plataforma Digital Integrada",
+    "phase": "Fase Tecnológica II",
     "status": "implemented",
     "version": "1.0.0",
     "release": null,

@@ -1,0 +1,34 @@
+{
+  "operation": "conversation",
+  "status": "ok",
+  "data": {
+    "session_id": "DEMO-SPT010-v1.0.1",
+    "text": "Escucha, observa y reconoce el término AMDA.",
+    "language": "es",
+    "intent": "tutor",
+    "audio_text": "Escucha, observa y reconoce el término AMDA.",
+    "unresolved": false
+  },
+  "sources": [
+    "LEX-001"
+  ],
+  "warnings": [],
+  "no_invention": true,
+  "health": {
+    "healthy": true,
+    "modules": {
+      "identity": true,
+      "language_engine": true,
+      "lexical_engine": true,
+      "knowledge_engine": true,
+      "reasoning_engine": true,
+      "tutor": true,
+      "conversation": true
+    },
+    "paths": {
+      "pytest": true,
+      "governance_policy": true,
+      "roadmap_validation": true
+    }
+  }
+}

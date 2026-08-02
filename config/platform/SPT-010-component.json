@@ -1,0 +1,41 @@
+{
+  "increment_code": "SPT-010",
+  "name": "Plataforma Digital Integrada",
+  "component_type": "integrated_digital_platform",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica II",
+  "dependencies": [
+    "SPT-005",
+    "SPT-006A",
+    "SPT-007A",
+    "SPT-007B",
+    "SPT-007C",
+    "SPT-007D",
+    "SPT-008",
+    "SPT-009",
+    "SGD-114C",
+    "SGD-115",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/platform/models.py",
+    "src/sgoda/platform/registry.py",
+    "src/sgoda/platform/health.py",
+    "src/sgoda/platform/facade.py",
+    "src/sgoda/platform/runtime.py",
+    "src/sgoda/platform/api.py",
+    "src/sgoda/platform/cli.py"
+  ],
+  "tests": [
+    "tests/platform/test_SPT_010_integrated_digital_platform.py"
+  ],
+  "documentation": [
+    "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md",
+    "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md",
+    "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md",
+    "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md",
+    "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
+    "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "capabilities": [
+    {
+      "code": "SPT-005",
+      "operation": "identity",
+      "status": "integrated"
+    },
+    {
+      "code": "SPT-006A",
+      "operations": ["translate", "tts"],
+      "status": "registered_adapter_pending"
+    },
+    {
+      "code": "SPT-007A",
+      "operation": "lexical_search",
+      "status": "registered_adapter_pending"
+    },
+    {
+      "code": "SPT-007B",
+      "operation": "semantic_search",
+      "status": "registered_adapter_pending"
+    },
+    {
+      "code": "SPT-007C",
+      "operation": "knowledge",
+      "status": "integrated"
+    },
+    {
+      "code": "SPT-007D",
+      "operation": "reasoning",
+      "status": "integrated"
+    },
+    {
+      "code": "SPT-008",
+      "operations": ["learning_path", "evaluate_activity"],
+      "status": "integrated"
+    },
+    {
+      "code": "SPT-009",
+      "operation": "conversation",
+      "status": "integrated"
+    }
+  ]
+}

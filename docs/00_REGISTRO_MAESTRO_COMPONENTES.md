@@ -30,6 +30,7 @@
 | SPT-007D | Motor de Razonamiento Lingüístico | 1.0.0 | implemented | `config/reasoning_engine/SPT-007D-component.json` | 4 | 1 | 2 | 1 | 4 |
 | SPT-008 | Tutor Inteligente Puinave | 1.0.0 | implemented | `config/tutor/SPT-008-component.json` | 4 | 1 | 2 | 1 | 4 |
 | SPT-009 | Ecosistema Conversacional | 1.0.0 | implemented | `config/conversation/SPT-009-component.json` | 5 | 1 | 2 | 1 | 4 |
+| SPT-010 | Plataforma Digital Integrada | 1.0.0 | implemented | `config/platform/SPT-010-component.json` | 7 | 1 | 7 | 1 | 7 |
 
 ## Detalle por componente
 
@@ -344,4 +345,16 @@
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md`, `docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md`
 - **Releases:** `releases/SPT-009-v1.0.0`
 - **Evidencias:** 4 archivo(s) identificado(s).
+
+### SPT-010 — Plataforma Digital Integrada
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** integrated_digital_platform
+- **Configuración:** `config/platform/SPT-010-component.json`
+- **Código:** `src/sgoda/platform/api.py`, `src/sgoda/platform/cli.py`, `src/sgoda/platform/facade.py`, `src/sgoda/platform/health.py`, `src/sgoda/platform/models.py`, `src/sgoda/platform/registry.py`, `src/sgoda/platform/runtime.py`
+- **Pruebas:** `tests/platform/test_SPT_010_integrated_digital_platform.py`
+- **Documentación:** `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Solucion-Errores-Demostracion-Integrada.md`
+- **Releases:** `releases/SPT-010-v1.0.1`
+- **Evidencias:** 7 archivo(s) identificado(s).
 

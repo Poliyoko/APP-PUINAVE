@@ -22,7 +22,8 @@
     "SPT-007C",
     "SPT-007D",
     "SPT-008",
-    "SPT-009"
+    "SPT-009",
+    "SPT-010"
   ],
   "edges": [
     {
@@ -336,6 +337,50 @@
     {
       "source": "SPT-009",
       "target": "SPT-008"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SGD-114C"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-005"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-006A"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007A"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007B"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007C"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007D"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-008"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-009"
     }
   ],
   "resolved_aliases": [
@@ -815,6 +860,61 @@
     {
       "source": "SPT-009",
       "target": "SPT-008",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SGD-114C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-005",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-006A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007B",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-007D",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-008",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-010",
+      "target": "SPT-009",
       "status": "FOUND"
     }
   ]
