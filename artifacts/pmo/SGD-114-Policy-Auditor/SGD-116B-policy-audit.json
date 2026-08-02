@@ -1,0 +1,35 @@
+{
+  "increment": "SGD-116B",
+  "passed": false,
+  "finding_count": 3,
+  "blocking_count": 3,
+  "findings": [
+    {
+      "severity": "blocking",
+      "code": "BOOLEAN_RULE_FAILED",
+      "path": "$.passed",
+      "message": "La regla booleana institucional no fue aprobada.",
+      "value": false,
+      "recommendation": "Revise la regla, la evidencia asociada y el estado institucional del incremento."
+    },
+    {
+      "severity": "blocking",
+      "code": "BOOLEAN_RULE_FAILED",
+      "path": "$.categories[4].passed",
+      "message": "La regla booleana institucional no fue aprobada.",
+      "value": false,
+      "recommendation": "Revise la regla, la evidencia asociada y el estado institucional del incremento."
+    },
+    {
+      "severity": "blocking",
+      "code": "NON_EMPTY_FAILURE_LIST",
+      "path": "$.missing_categories",
+      "message": "La colección de incumplimientos no está vacía.",
+      "value": [
+        "traceability"
+      ],
+      "recommendation": "Resuelva cada elemento listado y regenere la evidencia."
+    }
+  ],
+  "generated_at_utc": "2026-08-02T18:54:07.514427+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "phases": [
+    {
+      "id": "governance",
+      "name": "Gobierno y arquitectura",
+      "prefixes": ["SGD-", "ADR-"]
+    },
+    {
+      "id": "platform",
+      "name": "Plataforma y construcción",
+      "prefixes": ["SPB-", "SIB-", "MMGR-"]
+    },
+    {
+      "id": "rlb",
+      "name": "Repositorio Léxico Base",
+      "prefixes": ["SPT-001"]
+    },
+    {
+      "id": "oda",
+      "name": "Objetos Digitales de Aprendizaje",
+      "prefixes": ["SPT-002"]
+    },
+    {
+      "id": "automation",
+      "name": "Automatización multimedia",
+      "prefixes": ["SPT-003"]
+    },
+    {
+      "id": "assistant",
+      "name": "Asistente e integraciones",
+      "prefixes": ["SPT-004"]
+    },
+    {
+      "id": "identity",
+      "name": "Identidad cultural",
+      "prefixes": ["SPT-005"]
+    },
+    {
+      "id": "language",
+      "name": "Motor multilingüe y multimedia",
+      "prefixes": ["SPT-006"]
+    }
+  ]
+}

@@ -37,6 +37,25 @@
     ]
   },
   {
+    "code": "SGD-114-PA",
+    "name": "SGD-114 Policy Auditor",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "governance_policy_auditor",
+    "config_path": "config/governance/SGD-114-policy-auditor-component.json",
+    "source_paths": [
+      "src/sgoda/governance/policy_auditor.py"
+    ],
+    "test_paths": [
+      "tests/governance/test_SGD_114_policy_auditor.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114-Policy-Auditor.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": []
+  },
+  {
     "code": "SGD-114-v2",
     "name": "institutional_repository_governance",
     "version": "2.0.0",
@@ -67,6 +86,36 @@
     ]
   },
   {
+    "code": "SGD-114C",
+    "name": "Policy Governance Core",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "institutional_policy_engine",
+    "config_path": "config/governance/SGD-114C-component.json",
+    "source_paths": [
+      "src/sgoda/governance/policy_cli.py",
+      "src/sgoda/governance/policy_context.py",
+      "src/sgoda/governance/policy_engine.py",
+      "src/sgoda/governance/policy_models.py",
+      "src/sgoda/governance/policy_registry.py",
+      "src/sgoda/governance/policy_report.py",
+      "src/sgoda/governance/policy_rules.py"
+    ],
+    "test_paths": [
+      "tests/governance/test_SGD_114C_policy_governance_core.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md",
+      "docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114C/SGD-114C-implementation-evidence.json",
+      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.json",
+      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.md"
+    ]
+  },
+  {
     "code": "SGD-115",
     "name": "Sistema Maestro de Documentación del Proyecto",
     "version": "1.0.0",
@@ -93,6 +142,143 @@
       "artifacts/pmo/SGD-115/SGD-115-v1.0.1-corrective-evidence.json",
       "artifacts/pmo/SGD-115/implementation-evidence.json",
       "artifacts/pmo/SGD-115/traceability-SGD-115.json"
+    ]
+  },
+  {
+    "code": "SGD-116",
+    "name": "Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE",
+    "version": "1.0.0",
+    "status": "technically_completed",
+    "component_type": "living_master_ecosystem_roadmap",
+    "config_path": "config/roadmap/SGD-116-component.json",
+    "source_paths": [
+      "src/sgoda/roadmap/cli.py",
+      "src/sgoda/roadmap/dependency_graph.py",
+      "src/sgoda/roadmap/discovery.py",
+      "src/sgoda/roadmap/generator.py",
+      "src/sgoda/roadmap/metrics.py",
+      "src/sgoda/roadmap/models.py",
+      "src/sgoda/roadmap/timeline.py",
+      "src/sgoda/roadmap/validator.py"
+    ],
+    "test_paths": [
+      "tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Arquitectura-Descubrimiento.md",
+      "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Operacion-y-Regeneracion.md",
+      "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Roadmap-Maestro-Vivo.md",
+      "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
+      "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md",
+      "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md"
+    ],
+    "release_paths": [
+      "releases/SGD-116B-v3.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-policy-audit.json",
+      "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-policy-audit.md",
+      "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-quality-gate.json",
+      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.json",
+      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.md",
+      "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/dependency_graph.py",
+      "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/discovery.py",
+      "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/test_SGD_116_master_ecosystem_roadmap.py",
+      "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/cli.py",
+      "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/dependency_graph.py",
+      "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/discovery.py",
+      "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/generator.py",
+      "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/models.py",
+      "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/test_SGD_116_master_ecosystem_roadmap.py",
+      "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/validator.py",
+      "artifacts/pmo/SGD-116/implementation-evidence.json",
+      "artifacts/pmo/SGD-116/traceability-SGD-116.json",
+      "artifacts/pmo/SGD-116B/SGD-116B-implementation-evidence.json",
+      "artifacts/pmo/SGD-116B/SGD-116B-traceability.json",
+      "artifacts/pmo/SGD-116B/SGD-116B-v3.0.0-definitive-closure.json",
+      "artifacts/pmo/SGD-116B/SGD-116B-v3.0.0-quality-gate.json",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/__init__.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/cli.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/dependency_graph.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/discovery.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/generator.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/models.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/validator.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/dependency_graph.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/discovery.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/models.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116B_institutional_roadmap_closure.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116_master_ecosystem_roadmap.py",
+      "artifacts/pmo/SGD-116B/external-preflight-backups/Install-SGD116B-original-20260802-123806.ps1",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/__init__.py",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/dependency_graph.py",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/discovery.py",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/models.py",
+      "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-Institutional-Roadmap-Closure-20260802-123201.ps1",
+      "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-before-v2.0.2-20260802-123530.ps1",
+      "artifacts/pmo/SGD-116B/test_SGD_116B_institutional_roadmap_closure.backup.py",
+      "artifacts/roadmap/SGD-116/dependency-graph.json",
+      "artifacts/roadmap/SGD-116/executive-summary.json",
+      "artifacts/roadmap/SGD-116/metrics.json",
+      "artifacts/roadmap/SGD-116/roadmap.json",
+      "artifacts/roadmap/SGD-116/timeline.json",
+      "artifacts/roadmap/SGD-116/validation.json"
+    ]
+  },
+  {
+    "code": "SGD-116B",
+    "name": "Correctivo Institucional Único del Roadmap Maestro Vivo",
+    "version": "2.0.0",
+    "status": "technically_completed",
+    "component_type": "institutional_roadmap_closure",
+    "config_path": "config/roadmap/SGD-116B-component.json",
+    "source_paths": [
+      "src/sgoda/roadmap/aliases.py",
+      "src/sgoda/roadmap/dependency_graph.py",
+      "src/sgoda/roadmap/discovery.py",
+      "src/sgoda/roadmap/validator.py"
+    ],
+    "test_paths": [
+      "tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
+      "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md",
+      "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md"
+    ],
+    "release_paths": [
+      "releases/SGD-116B-v3.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-policy-audit.json",
+      "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-policy-audit.md",
+      "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-quality-gate.json",
+      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.json",
+      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.md",
+      "artifacts/pmo/SGD-116B/SGD-116B-implementation-evidence.json",
+      "artifacts/pmo/SGD-116B/SGD-116B-traceability.json",
+      "artifacts/pmo/SGD-116B/SGD-116B-v3.0.0-definitive-closure.json",
+      "artifacts/pmo/SGD-116B/SGD-116B-v3.0.0-quality-gate.json",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/__init__.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/cli.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/dependency_graph.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/discovery.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/generator.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/models.py",
+      "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/validator.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/dependency_graph.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/discovery.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/models.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116B_institutional_roadmap_closure.py",
+      "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116_master_ecosystem_roadmap.py",
+      "artifacts/pmo/SGD-116B/external-preflight-backups/Install-SGD116B-original-20260802-123806.ps1",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/__init__.py",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/dependency_graph.py",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/discovery.py",
+      "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/models.py",
+      "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-Institutional-Roadmap-Closure-20260802-123201.ps1",
+      "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-before-v2.0.2-20260802-123530.ps1",
+      "artifacts/pmo/SGD-116B/test_SGD_116B_institutional_roadmap_closure.backup.py"
     ]
   },
   {

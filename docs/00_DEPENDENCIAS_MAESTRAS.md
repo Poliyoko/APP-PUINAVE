@@ -1,0 +1,37 @@
+# Dependencias Maestras
+
+> Documento generado automáticamente por SGD-116.
+
+| Componente | Depende de | Clasificación |
+|---|---|---|
+| ADR-010 | SGD-114 | Interna |
+| SGD-115 | SGD-114 | Interna |
+| SGD-116 | SGD-114 | Interna |
+| SGD-116 | SGD-115 | Interna |
+| SGD-116 | SIB-001 | Interna |
+| SGD-116 | SPB-007 | Interna |
+| SGD-116B | SGD-114 | Interna |
+| SGD-116B | SGD-115 | Interna |
+| SGD-116B | SIB-001 | Interna |
+| SGD-116B | SPB-007 | Interna |
+| SIB-001 | SGD-114 | Interna |
+| SIB-001 | SGD-115 | Interna |
+| SIB-001 | SPB-007 | Interna |
+| SPB-007 | SGD-114 | Interna |
+| SPT-002 | SGD-114 | Interna |
+| SPT-003A | SGD-114 | Interna |
+| SPT-003B | SGD-114 | Interna |
+| SPT-003C | SGD-114 | Interna |
+| SPT-004A | SGD-114 | Interna |
+| SPT-004A | SGD-115 | Interna |
+| SPT-005 | SGD-114 | Interna |
+| SPT-005 | SGD-115 | Interna |
+| SPT-005 | SIB-001 | Interna |
+| SPT-005 | SPB-007 | Interna |
+| SPT-006 | ADR-010 | Interna |
+| SPT-006 | SGD-114 | Interna |
+| SPT-006 | SGD-115 | Interna |
+| SPT-006 | SIB-001 | Interna |
+| SPT-006 | SPT-003A | Interna |
+| SPT-006 | SPT-003B | Interna |
+| SPT-006 | SPT-003C | Interna |

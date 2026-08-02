@@ -5,8 +5,12 @@
 | Código | Nombre/Tipo | Versión | Estado | Configuración | Código | Pruebas | Documentación | Release | Evidencias |
 |---|---|---:|---|---|---:|---:|---:|---:|---:|
 | ADR-010 | relational_media_repository | 1.0.0 | institutionally_closed | `config/media/ADR-010-component.json` | 4 | 1 | 3 | 1 | 10 |
+| SGD-114-PA | SGD-114 Policy Auditor | 1.0.0 | implemented | `config/governance/SGD-114-policy-auditor-component.json` | 1 | 1 | 1 | 0 | 0 |
 | SGD-114-v2 | institutional_repository_governance | 2.0.0 | institutionally_closed | `config/governance/SGD-114-v2-component.json` | 1 | 1 | 2 | 1 | 7 |
+| SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 2 | 0 | 3 |
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 4 | 0 | 6 |
+| SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 47 |
+| SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | 2.0.0 | technically_completed | `config/roadmap/SGD-116B-component.json` | 4 | 1 | 3 | 1 | 29 |
 | SIB-001 | SGODA Installer Builder | 0.1.0 | technically_completed | `config/installer_builder/SIB-001-component.json` | 1 | 1 | 2 | 1 | 12 |
 | SPB-007 | institutional_repository_publisher | 1.0.0 | technically_completed | `config/repository/SPB-007-component.json` | 1 | 1 | 2 | 1 | 5 |
 | SPT-001B-P06 | rlb_pipeline | 1.3.0 | technically_completed | `config/rlb/SPT-001B-P06-component.json` | 0 | 0 | 1 | 0 | 10 |
@@ -35,6 +39,18 @@
 - **Releases:** `releases/ADR-010-v1.0.0`
 - **Evidencias:** 10 archivo(s) identificado(s).
 
+### SGD-114-PA — SGD-114 Policy Auditor
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** governance_policy_auditor
+- **Configuración:** `config/governance/SGD-114-policy-auditor-component.json`
+- **Código:** `src/sgoda/governance/policy_auditor.py`
+- **Pruebas:** `tests/governance/test_SGD_114_policy_auditor.py`
+- **Documentación:** `docs/01_Gobierno/SGD-114-Policy-Auditor.md`
+- **Releases:** No identificados.
+- **Evidencias:** No identificadas.
+
 ### SGD-114-v2 — institutional_repository_governance
 
 - **Versión:** 2.0.0
@@ -47,6 +63,18 @@
 - **Releases:** `releases/SGD-114-v2.0.1`
 - **Evidencias:** 7 archivo(s) identificado(s).
 
+### SGD-114C — Policy Governance Core
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** institutional_policy_engine
+- **Configuración:** `config/governance/SGD-114C-component.json`
+- **Código:** `src/sgoda/governance/policy_cli.py`, `src/sgoda/governance/policy_context.py`, `src/sgoda/governance/policy_engine.py`, `src/sgoda/governance/policy_models.py`, `src/sgoda/governance/policy_registry.py`, `src/sgoda/governance/policy_report.py`, `src/sgoda/governance/policy_rules.py`
+- **Pruebas:** `tests/governance/test_SGD_114C_policy_governance_core.py`
+- **Documentación:** `docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md`, `docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md`
+- **Releases:** No identificados.
+- **Evidencias:** 3 archivo(s) identificado(s).
+
 ### SGD-115 — Sistema Maestro de Documentación del Proyecto
 
 - **Versión:** 1.0.0
@@ -58,6 +86,30 @@
 - **Documentación:** `docs/00_ARQUITECTURA_MAESTRA.md`, `docs/00_INDICE_MAESTRO.md`, `docs/00_REGISTRO_MAESTRO_COMPONENTES.md`, `docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md`
 - **Releases:** No identificados.
 - **Evidencias:** 6 archivo(s) identificado(s).
+
+### SGD-116 — Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE
+
+- **Versión:** 1.0.0
+- **Estado:** technically_completed
+- **Tipo:** living_master_ecosystem_roadmap
+- **Configuración:** `config/roadmap/SGD-116-component.json`
+- **Código:** `src/sgoda/roadmap/cli.py`, `src/sgoda/roadmap/dependency_graph.py`, `src/sgoda/roadmap/discovery.py`, `src/sgoda/roadmap/generator.py`, `src/sgoda/roadmap/metrics.py`, `src/sgoda/roadmap/models.py`, `src/sgoda/roadmap/timeline.py`, `src/sgoda/roadmap/validator.py`
+- **Pruebas:** `tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SGD-116/SGD-116-Arquitectura-Descubrimiento.md`, `docs/05_Fase_Tecnologica/SGD-116/SGD-116-Operacion-y-Regeneracion.md`, `docs/05_Fase_Tecnologica/SGD-116/SGD-116-Roadmap-Maestro-Vivo.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md`
+- **Releases:** `releases/SGD-116B-v3.0.0`
+- **Evidencias:** 47 archivo(s) identificado(s).
+
+### SGD-116B — Correctivo Institucional Único del Roadmap Maestro Vivo
+
+- **Versión:** 2.0.0
+- **Estado:** technically_completed
+- **Tipo:** institutional_roadmap_closure
+- **Configuración:** `config/roadmap/SGD-116B-component.json`
+- **Código:** `src/sgoda/roadmap/aliases.py`, `src/sgoda/roadmap/dependency_graph.py`, `src/sgoda/roadmap/discovery.py`, `src/sgoda/roadmap/validator.py`
+- **Pruebas:** `tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md`
+- **Releases:** `releases/SGD-116B-v3.0.0`
+- **Evidencias:** 29 archivo(s) identificado(s).
 
 ### SIB-001 — SGODA Installer Builder
 

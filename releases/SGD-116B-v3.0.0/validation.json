@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "component_count": 15,
+  "duplicate_codes": [],
+  "broken_paths": [],
+  "missing_dependencies": [],
+  "resolved_aliases": [
+    {
+      "source": "SGD-115",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SIB-001",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SIB-001",
+      "raw_target": "SGD-115-v1.0.1",
+      "target": "SGD-115",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPB-007",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-003A",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-003B",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-003C",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-004A",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-004A",
+      "raw_target": "SGD-115-v1.0.1",
+      "target": "SGD-115",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-005",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-005",
+      "raw_target": "SGD-115-v1.0.1",
+      "target": "SGD-115",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-006",
+      "raw_target": "SGD-114-v2.0.1",
+      "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SPT-006",
+      "raw_target": "SGD-115-v1.0.1",
+      "target": "SGD-115",
+      "status": "ALIASED"
+    }
+  ],
+  "historical_dependencies": [],
+  "dependency_cycles": [],
+  "missing_master_documents": [],
+  "generated_at_utc": "2026-08-02T18:46:55.768912+00:00"
+}

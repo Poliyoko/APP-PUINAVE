@@ -1,0 +1,129 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SGD-116B",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T18:54:07.360758+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": false,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/roadmap/SGD-116B-component.json",
+        "config/roadmap/SGD-116B-policy.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-policy-audit.json",
+        "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-policy-audit.md",
+        "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-quality-gate.json",
+        "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/dependency_graph.py",
+        "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/discovery.py",
+        "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/test_SGD_116_master_ecosystem_roadmap.py",
+        "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/cli.py",
+        "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/dependency_graph.py",
+        "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/discovery.py",
+        "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/generator.py",
+        "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/models.py",
+        "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/test_SGD_116_master_ecosystem_roadmap.py",
+        "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/validator.py",
+        "artifacts/pmo/SGD-116B/SGD-116B-implementation-evidence.json",
+        "artifacts/pmo/SGD-116B/SGD-116B-traceability.json",
+        "artifacts/pmo/SGD-116B/SGD-116B-v3.0.0-definitive-closure.json",
+        "artifacts/pmo/SGD-116B/SGD-116B-v3.0.0-quality-gate.json",
+        "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/__init__.py",
+        "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/cli.py",
+        "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/dependency_graph.py",
+        "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/discovery.py",
+        "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/generator.py",
+        "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/models.py",
+        "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/validator.py",
+        "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/dependency_graph.py",
+        "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/discovery.py",
+        "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/models.py",
+        "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116B_institutional_roadmap_closure.py",
+        "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116_master_ecosystem_roadmap.py",
+        "artifacts/pmo/SGD-116B/external-preflight-backups/Install-SGD116B-original-20260802-123806.ps1",
+        "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/__init__.py",
+        "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/dependency_graph.py",
+        "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/discovery.py",
+        "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/models.py",
+        "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-Institutional-Roadmap-Closure-20260802-123201.ps1",
+        "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-before-v2.0.2-20260802-123530.ps1",
+        "artifacts/pmo/SGD-116B/test_SGD_116B_institutional_roadmap_closure.backup.py",
+        "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-116B-policy-audit.json",
+        "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-116B-policy-audit.md",
+        "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-116B-quality-gate.json",
+        "releases/SGD-116B-v3.0.0/SGD-116B-v3.0.0-definitive-closure.json",
+        "releases/SGD-116B-v3.0.0/dependency-graph.json",
+        "releases/SGD-116B-v3.0.0/dependency_graph.py",
+        "releases/SGD-116B-v3.0.0/discovery.py",
+        "releases/SGD-116B-v3.0.0/executive-summary.json",
+        "releases/SGD-116B-v3.0.0/metrics.json",
+        "releases/SGD-116B-v3.0.0/models.py",
+        "releases/SGD-116B-v3.0.0/roadmap.json",
+        "releases/SGD-116B-v3.0.0/test_SGD_116B_institutional_roadmap_closure.py",
+        "releases/SGD-116B-v3.0.0/test_SGD_116_master_ecosystem_roadmap.py",
+        "releases/SGD-116B-v3.0.0/timeline.json",
+        "releases/SGD-116B-v3.0.0/validation.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": false,
+      "matched_files": [],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [
+    "traceability"
+  ],
+  "observations": [
+    "Faltan categorías obligatorias: traceability"
+  ]
+}

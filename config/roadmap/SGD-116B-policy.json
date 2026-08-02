@@ -1,0 +1,17 @@
+{
+  "increment_code": "SGD-116B",
+  "version": "2.0.0",
+  "name": "Correctivo Institucional Único del Roadmap Maestro Vivo",
+  "repository_source_of_truth": true,
+  "canonical_alias_resolver": true,
+  "hybrid_discovery": true,
+  "historical_components_preserved": true,
+  "missing_dependencies_blocked": true,
+  "dependency_cycles_blocked": true,
+  "broken_paths_blocked": true,
+  "duplicate_codes_blocked": true,
+  "master_documents_required": true,
+  "quality_gate_required": true,
+  "update_sgd_115": true,
+  "publication_via_spb_007": true
+}

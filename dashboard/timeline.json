@@ -1,0 +1,137 @@
+[
+  {
+    "code": "ADR-010",
+    "name": "ADR-010",
+    "phase": "Gobierno y arquitectura",
+    "status": "institutionally_closed",
+    "version": "1.0.0",
+    "release": "releases/ADR-010-v1.0.0",
+    "last_git_date": "2026-08-02T03:47:58-05:00"
+  },
+  {
+    "code": "SGD-114",
+    "name": "SGD-114",
+    "phase": "Gobierno y arquitectura",
+    "status": "institutionally_closed",
+    "version": "2.0.0",
+    "release": "releases/SGD-114-v2.0.1",
+    "last_git_date": "2026-08-02T03:47:58-05:00"
+  },
+  {
+    "code": "SPB-007",
+    "name": "SPB-007",
+    "phase": "Plataforma y construcción",
+    "status": "technically_completed",
+    "version": "1.0.0",
+    "release": "releases/SPB-007-v1.0.0",
+    "last_git_date": "2026-08-02T03:47:58-05:00"
+  },
+  {
+    "code": "SPT-002",
+    "name": "SPT-002",
+    "phase": "Objetos Digitales de Aprendizaje",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-002-v0.1.0",
+    "last_git_date": "2026-08-02T03:47:58-05:00"
+  },
+  {
+    "code": "SPT-003A",
+    "name": "SPT-003A",
+    "phase": "Automatización multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-003A-v0.1.0",
+    "last_git_date": "2026-08-02T04:12:03-05:00"
+  },
+  {
+    "code": "SPT-003B",
+    "name": "SPT-003B",
+    "phase": "Automatización multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-003B-v0.1.0",
+    "last_git_date": "2026-08-02T04:23:36-05:00"
+  },
+  {
+    "code": "SGD-115",
+    "name": "Sistema Maestro de Documentación del Proyecto",
+    "phase": "Gobierno y arquitectura",
+    "status": "technically_completed",
+    "version": "1.0.0",
+    "release": null,
+    "last_git_date": "2026-08-02T04:39:00-05:00"
+  },
+  {
+    "code": "SPT-003C",
+    "name": "Piloto Controlado de Proveedores Reales",
+    "phase": "Automatización multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-003C-v0.1.0",
+    "last_git_date": "2026-08-02T04:48:46-05:00"
+  },
+  {
+    "code": "SPT-004A",
+    "name": "Fundación del Asistente Inteligente Institucional",
+    "phase": "Asistente e integraciones",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-004A-v0.1.0",
+    "last_git_date": "2026-08-02T05:07:43-05:00"
+  },
+  {
+    "code": "SIB-001",
+    "name": "SGODA Installer Builder",
+    "phase": "Plataforma y construcción",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SIB-001-v0.1.0",
+    "last_git_date": "2026-08-02T05:49:39-05:00"
+  },
+  {
+    "code": "SPT-005",
+    "name": "Sistema de Identidad Cultural Configurable",
+    "phase": "Identidad cultural",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-005-v0.1.0",
+    "last_git_date": "2026-08-02T06:01:23-05:00"
+  },
+  {
+    "code": "SPT-006",
+    "name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
+    "phase": "Motor multilingüe y multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-006-v0.1.0",
+    "last_git_date": "2026-08-02T06:17:30-05:00"
+  },
+  {
+    "code": "SPT-006A",
+    "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+    "phase": "Motor multilingüe y multimedia",
+    "status": "technically_completed",
+    "version": "0.2.0",
+    "release": "releases/SPT-006A-v0.2.0",
+    "last_git_date": "2026-08-02T06:44:41-05:00"
+  },
+  {
+    "code": "SGD-116",
+    "name": "Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE",
+    "phase": "Gobierno y arquitectura",
+    "status": "technically_completed",
+    "version": "1.0.0",
+    "release": null,
+    "last_git_date": null
+  },
+  {
+    "code": "SGD-116B",
+    "name": "Correctivo Institucional Único del Roadmap Maestro Vivo",
+    "phase": "Gobierno y arquitectura",
+    "status": "technically_completed",
+    "version": "2.0.0",
+    "release": null,
+    "last_git_date": null
+  }
+]

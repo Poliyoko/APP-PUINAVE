@@ -1,0 +1,15 @@
+{
+    "increment_code":  "SGD-116B",
+    "source":  [
+                   "src/sgoda/roadmap/aliases.py",
+                   "src/sgoda/roadmap/discovery.py",
+                   "src/sgoda/roadmap/dependency_graph.py",
+                   "src/sgoda/roadmap/validator.py"
+               ],
+    "tests":  [
+                  "tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SGD-116B/"
+                      ]
+}

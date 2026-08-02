@@ -1,0 +1,30 @@
+{
+  "policy_code": "SGD-114C",
+  "version": "1.0.0",
+  "name": "Policy Governance Core",
+  "legacy_policy": "SGD-114 v1.1.0",
+  "default_severity": "BLOCKER",
+  "exit_codes": {
+    "approved": 0,
+    "not_approved": 2
+  },
+  "required_master_documents": [
+    "docs/00_INDICE_MAESTRO.md",
+    "docs/00_ARQUITECTURA_MAESTRA.md",
+    "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+    "docs/00_ROADMAP_MAESTRO.md",
+    "docs/00_DEPENDENCIAS_MAESTRAS.md",
+    "docs/00_TIMELINE_MAESTRO.md",
+    "docs/00_METRICAS_ECOSISTEMA.md"
+  ],
+  "rules": [
+    "SGD114C-R001",
+    "SGD114C-R002",
+    "SGD114C-R003",
+    "SGD114C-R004",
+    "SGD114C-R005",
+    "SGD114C-R006",
+    "SGD114C-R007",
+    "SGD114C-R008"
+  ]
+}

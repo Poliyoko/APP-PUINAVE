@@ -1,0 +1,29 @@
+{
+  "increment_code": "SGD-114C",
+  "name": "Policy Governance Core",
+  "component_type": "institutional_policy_engine",
+  "version": "1.0.0",
+  "status": "implemented",
+  "dependencies": [
+    "SGD-114",
+    "SGD-115",
+    "SGD-116B",
+    "SPB-007"
+  ],
+  "source": [
+    "src/sgoda/governance/policy_models.py",
+    "src/sgoda/governance/policy_context.py",
+    "src/sgoda/governance/policy_rules.py",
+    "src/sgoda/governance/policy_registry.py",
+    "src/sgoda/governance/policy_engine.py",
+    "src/sgoda/governance/policy_report.py",
+    "src/sgoda/governance/policy_cli.py"
+  ],
+  "tests": [
+    "tests/governance/test_SGD_114C_policy_governance_core.py"
+  ],
+  "documentation": [
+    "docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md",
+    "docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md"
+  ]
+}

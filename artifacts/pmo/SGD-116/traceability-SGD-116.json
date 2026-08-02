@@ -1,0 +1,14 @@
+{
+    "increment_code":  "SGD-116",
+    "source":  [
+                   "src/sgoda/roadmap/"
+               ],
+    "tests":  [
+                  "tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py"
+              ],
+    "configuration":  [
+                          "config/roadmap/SGD-116-roadmap-policy.json",
+                          "config/roadmap/SGD-116-phases.json",
+                          "config/roadmap/SGD-116-component.json"
+                      ]
+}

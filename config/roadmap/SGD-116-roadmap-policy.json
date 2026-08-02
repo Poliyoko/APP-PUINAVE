@@ -1,0 +1,29 @@
+{
+  "increment_code": "SGD-116",
+  "version": "1.0.0",
+  "policy_name": "Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE",
+  "repository_is_source_of_truth": true,
+  "automatic_discovery": true,
+  "generate_master_documents": true,
+  "generate_dashboards": true,
+  "validate_dependencies": true,
+  "block_dependency_cycles": true,
+  "block_missing_dependencies": true,
+  "block_broken_paths": true,
+  "update_sgd_115": true,
+  "quality_gate_required": true,
+  "publication_via_spb_007": true,
+  "master_documents": [
+    "docs/00_ROADMAP_MAESTRO.md",
+    "docs/00_DEPENDENCIAS_MAESTRAS.md",
+    "docs/00_TIMELINE_MAESTRO.md",
+    "docs/00_METRICAS_ECOSISTEMA.md"
+  ],
+  "dashboards": [
+    "dashboard/ecosystem-roadmap.json",
+    "dashboard/ecosystem-metrics.json",
+    "dashboard/dependency-graph.json",
+    "dashboard/timeline.json",
+    "dashboard/executive-summary.json"
+  ]
+}

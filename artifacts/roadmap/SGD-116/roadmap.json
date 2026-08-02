@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.1",
+  "generated_at_utc": "2026-08-02T18:46:55.759367+00:00",
+  "components": [
+    {
+      "code": "ADR-010",
+      "name": "ADR-010",
+      "version": "1.0.0",
+      "status": "institutionally_closed",
+      "component_type": "relational_media_repository",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [
+        "SGD-114"
+      ],
+      "source_paths": [
+        "src/sgoda/media/models.py",
+        "src/sgoda/media/repository.py",
+        "src/sgoda/media/migration.py",
+        "src/sgoda/media/cli.py"
+      ],
+      "test_paths": [
+        "tests/media/test_ADR_010_rmr_repository.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/ADR-010-v1.0.0",
+      "config_path": "config/media/ADR-010-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "ADR-010",
+        "canonical_code": "ADR-010",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SGD-114",
+      "name": "SGD-114",
+      "version": "2.0.0",
+      "status": "institutionally_closed",
+      "component_type": "institutional_repository_governance",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [
+        "SGD-114-v1.1"
+      ],
+      "source_paths": [
+        "src/sgoda/governance/repository_governance.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114_v2_repository_governance.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/SGD-114-v2.0.1",
+      "config_path": "config/governance/SGD-114-v2-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-114-v2",
+        "canonical_code": "SGD-114",
+        "alias_applied": true
+      }
+    },
+    {
+      "code": "SGD-115",
+      "name": "Sistema Maestro de Documentación del Proyecto",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "component_type": "master_documentation_system",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [
+        "SGD-114-v2.0.1"
+      ],
+      "source_paths": [
+        "src/sgoda/documentation/master_docs.py"
+      ],
+      "test_paths": [
+        "tests/documentation/test_SGD_115_master_documentation.py"
+      ],
+      "documentation_paths": [
+        "docs/00_INDICE_MAESTRO.md",
+        "docs/00_ARQUITECTURA_MAESTRA.md",
+        "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md"
+      ],
+      "release_path": null,
+      "config_path": "config/governance/SGD-115-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-115",
+        "canonical_code": "SGD-115",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SGD-116",
+      "name": "Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "component_type": "living_master_ecosystem_roadmap",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SPB-007",
+        "SIB-001"
+      ],
+      "source_paths": [
+        "src/sgoda/roadmap/models.py",
+        "src/sgoda/roadmap/discovery.py",
+        "src/sgoda/roadmap/dependency_graph.py",
+        "src/sgoda/roadmap/metrics.py",
+        "src/sgoda/roadmap/timeline.py",
+        "src/sgoda/roadmap/generator.py",
+        "src/sgoda/roadmap/validator.py",
+        "src/sgoda/roadmap/cli.py"
+      ],
+      "test_paths": [
+        "tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Roadmap-Maestro-Vivo.md",
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Arquitectura-Descubrimiento.md",
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Operacion-y-Regeneracion.md"
+      ],
+      "release_path": null,
+      "config_path": "config/roadmap/SGD-116-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-116",
+        "canonical_code": "SGD-116",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SGD-116B",
+      "name": "Correctivo Institucional Único del Roadmap Maestro Vivo",
+      "version": "2.0.0",
+      "status": "technically_completed",
+      "component_type": "institutional_roadmap_closure",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SPB-007",
+        "SIB-001"
+      ],
+      "source_paths": [
+        "src/sgoda/roadmap/aliases.py",
+        "src/sgoda/roadmap/discovery.py",
+        "src/sgoda/roadmap/dependency_graph.py",
+        "src/sgoda/roadmap/validator.py"
+      ],
+      "test_paths": [
+        "tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md"
+      ],
+      "release_path": null,
+      "config_path": "config/roadmap/SGD-116B-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-116B",
+        "canonical_code": "SGD-116B",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SIB-001",
+      "name": "SGODA Installer Builder",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "institutional_installer_generator",
+      "phase": "Plataforma y construcción",
+      "dependencies": [
+        "SGD-114-v2.0.1",
+        "SGD-115-v1.0.1",
+        "SPB-007"
+      ],
+      "source_paths": [
+        "src/sgoda/installer_builder/"
+      ],
+      "test_paths": [
+        "tests/installer_builder/test_SIB_001_installer_builder.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md",
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md"
+      ],
+      "release_path": "releases/SIB-001-v0.1.0",
+      "config_path": "config/installer_builder/SIB-001-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SIB-001",
+        "canonical_code": "SIB-001",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPB-007",
+      "name": "SPB-007",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "component_type": "institutional_repository_publisher",
+      "phase": "Plataforma y construcción",
+      "dependencies": [
+        "SGD-114-v2.0.1"
+      ],
+      "source_paths": [
+        "src/sgoda/publisher/institutional_publisher.py"
+      ],
+      "test_paths": [
+        "tests/publisher/test_SPB_007_institutional_publisher.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/SPB-007-v1.0.0",
+      "config_path": "config/repository/SPB-007-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPB-007",
+        "canonical_code": "SPB-007",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-002",
+      "name": "SPT-002",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "oda_functional_engine",
+      "phase": "Objetos Digitales de Aprendizaje",
+      "dependencies": [
+        "SGD-114"
+      ],
+      "source_paths": [
+        "src/sgoda/oda/models.py",
+        "src/sgoda/oda/engine.py",
+        "src/sgoda/oda/cli.py"
+      ],
+      "test_paths": [
+        "tests/oda/test_SPT_002_oda_engine.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-002-v0.1.0",
+      "config_path": "config/oda/SPT-002-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-002",
+        "canonical_code": "SPT-002",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-003A",
+      "name": "SPT-003A",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "ai_multimedia_orchestrator",
+      "phase": "Automatización multimedia",
+      "dependencies": [
+        "SGD-114-v2.0.1"
+      ],
+      "source_paths": [
+        "src/sgoda/automation/models.py",
+        "src/sgoda/automation/job_queue.py",
+        "src/sgoda/automation/planner.py",
+        "src/sgoda/automation/cli.py"
+      ],
+      "test_paths": [
+        "tests/automation/test_SPT_003A_multimedia_orchestrator.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-003A-v0.1.0",
+      "config_path": "config/automation/SPT-003A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-003A",
+        "canonical_code": "SPT-003A",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-003B",
+      "name": "SPT-003B",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "ai_multimedia_adapters",
+      "phase": "Automatización multimedia",
+      "dependencies": [
+        "SGD-114-v2.0.1"
+      ],
+      "source_paths": [],
+      "test_paths": [
+        "tests/automation/test_SPT_003B_ai_multimedia_adapters.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-003B-v0.1.0",
+      "config_path": "config/automation/SPT-003B-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-003B",
+        "canonical_code": "SPT-003B",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-003C",
+      "name": "Piloto Controlado de Proveedores Reales",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "controlled_provider_pilot",
+      "phase": "Automatización multimedia",
+      "dependencies": [
+        "SGD-114-v2.0.1"
+      ],
+      "source_paths": [
+        "src/sgoda/automation/pilot/models.py",
+        "src/sgoda/automation/pilot/governance.py",
+        "src/sgoda/automation/pilot/budget.py",
+        "src/sgoda/automation/pilot/circuit_breaker.py",
+        "src/sgoda/automation/pilot/runner.py"
+      ],
+      "test_paths": [
+        "tests/automation/test_SPT_003C_controlled_provider_pilot.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-003C-v0.1.0",
+      "config_path": "config/automation/SPT-003C-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-003C",
+        "canonical_code": "SPT-003C",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-004A",
+      "name": "Fundación del Asistente Inteligente Institucional",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "institutional_intelligent_assistant",
+      "phase": "Asistente e integraciones",
+      "dependencies": [
+        "SGD-114-v2.0.1",
+        "SGD-115-v1.0.1"
+      ],
+      "source_paths": [
+        "src/sgoda/assistant/models.py",
+        "src/sgoda/assistant/intent_classifier.py",
+        "src/sgoda/assistant/knowledge_repository.py",
+        "src/sgoda/assistant/faq.py",
+        "src/sgoda/assistant/service.py",
+        "src/sgoda/assistant/cli.py"
+      ],
+      "test_paths": [
+        "tests/assistant/test_SPT_004A_institutional_assistant.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md"
+      ],
+      "release_path": "releases/SPT-004A-v0.1.0",
+      "config_path": "config/assistant/SPT-004A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-004A",
+        "canonical_code": "SPT-004A",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-005",
+      "name": "Sistema de Identidad Cultural Configurable",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "cultural_identity_management",
+      "phase": "Identidad cultural",
+      "dependencies": [
+        "SGD-114-v2.0.1",
+        "SGD-115-v1.0.1",
+        "SPB-007",
+        "SIB-001"
+      ],
+      "source_paths": [
+        "src/sgoda/identity/models.py",
+        "src/sgoda/identity/repository.py",
+        "src/sgoda/identity/service.py",
+        "src/sgoda/identity/exporter.py",
+        "src/sgoda/identity/cli.py"
+      ],
+      "test_paths": [
+        "tests/identity/test_SPT_005_configurable_cultural_identity.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md"
+      ],
+      "release_path": "releases/SPT-005-v0.1.0",
+      "config_path": "config/identity/SPT-005-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-005",
+        "canonical_code": "SPT-005",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-006",
+      "name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "component_type": "multilingual_multimedia_enrichment_pipeline",
+      "phase": "Motor multilingüe y multimedia",
+      "dependencies": [
+        "ADR-010",
+        "SPT-003A",
+        "SPT-003B",
+        "SPT-003C",
+        "SGD-114-v2.0.1",
+        "SGD-115-v1.0.1",
+        "SIB-001"
+      ],
+      "source_paths": [
+        "src/sgoda/enrichment/models.py",
+        "src/sgoda/enrichment/planner.py",
+        "src/sgoda/enrichment/providers.py",
+        "src/sgoda/enrichment/playback.py",
+        "src/sgoda/enrichment/pipeline.py",
+        "src/sgoda/enrichment/cli.py"
+      ],
+      "test_paths": [
+        "tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md"
+      ],
+      "release_path": "releases/SPT-006-v0.1.0",
+      "config_path": "config/enrichment/SPT-006-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-006",
+        "canonical_code": "SPT-006",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-006A",
+      "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+      "version": "0.2.0",
+      "status": "technically_completed",
+      "component_type": "free_local_multilingual_language_engine",
+      "phase": "Motor multilingüe y multimedia",
+      "dependencies": [],
+      "source_paths": [
+        "src/sgoda/language_engine/models.py",
+        "src/sgoda/language_engine/licensing.py",
+        "src/sgoda/language_engine/diagnostic.py",
+        "src/sgoda/language_engine/translation.py",
+        "src/sgoda/language_engine/tts.py",
+        "src/sgoda/language_engine/engine.py",
+        "src/sgoda/language_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py"
+      ],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-006A-v0.2.0",
+      "config_path": "config/language_engine/SPT-006A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-006A",
+        "canonical_code": "SPT-006A",
+        "alias_applied": false
+      }
+    }
+  ],
+  "phases": [
+    "Asistente e integraciones",
+    "Automatización multimedia",
+    "Gobierno y arquitectura",
+    "Identidad cultural",
+    "Motor multilingüe y multimedia",
+    "Objetos Digitales de Aprendizaje",
+    "Plataforma y construcción"
+  ]
+}

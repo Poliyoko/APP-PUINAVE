@@ -54,11 +54,15 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **16**.
+Total identificado automáticamente: **20**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
+- **SGD-114-PA** — SGD-114 Policy Auditor (v1.0.0; implemented)
 - **SGD-114-v2** — institutional_repository_governance (v2.0.0; institutionally_closed)
+- **SGD-114C** — Policy Governance Core (v1.0.0; implemented)
 - **SGD-115** — Sistema Maestro de Documentación del Proyecto (v1.0.0; technically_completed)
+- **SGD-116** — Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE (v1.0.0; technically_completed)
+- **SGD-116B** — Correctivo Institucional Único del Roadmap Maestro Vivo (v2.0.0; technically_completed)
 - **SIB-001** — SGODA Installer Builder (v0.1.0; technically_completed)
 - **SPB-007** — institutional_repository_publisher (v1.0.0; technically_completed)
 - **SPT-001B-P06** — rlb_pipeline (v1.3.0; technically_completed)
