@@ -1,0 +1,27 @@
+{
+  "increment_code": "SGD-114E",
+  "name": "Native Ecosystem Architecture Policy",
+  "component_type": "native_ecosystem_architecture_policy",
+  "version": "1.0.1",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "dependencies": [
+    "SGD-114D",
+    "SGD-115A",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/governance/native_ecosystem_models.py",
+    "src/sgoda/governance/native_ecosystem_policy.py",
+    "src/sgoda/governance/native_ecosystem_validator.py",
+    "src/sgoda/governance/native_ecosystem_cli.py",
+    "src/sgoda/governance/native_ecosystem.py"
+  ],
+  "tests": [
+    "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+  ],
+  "documentation": [
+    "docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md",
+    "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md"
+  ]
+}

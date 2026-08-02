@@ -1,0 +1,16 @@
+{
+    "increment_code":  "SGD-114E-C1",
+    "version":  "1.0.0",
+    "status":  "implemented_and_validated",
+    "files":  [
+                  "manifest.json",
+                  "native_ecosystem_policy.py",
+                  "native_ecosystem_validator.py",
+                  "SGD-114E-C1-component.json",
+                  "SGD-114E-C1-implementation-evidence.json",
+                  "SGD-114E-C1-implementation-evidence.md",
+                  "SGD-114E-C1-Native-Ecosystem-Validator-Fix.md",
+                  "SGD-114E-C1-repository-evaluation.json",
+                  "SGD-114E-C1-repository-evaluation.md"
+              ]
+}

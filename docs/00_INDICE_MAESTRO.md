@@ -54,7 +54,7 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **33**.
+Total identificado automáticamente: **35**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-PA** — SGD-114 Policy Auditor (v1.0.0; implemented)
@@ -62,6 +62,8 @@ Total identificado automáticamente: **33**.
 - **SGD-114C** — Policy Governance Core (v1.0.0; implemented)
 - **SGD-114D** — Adaptive Institutional Policy Engine (v1.0.0; implemented)
 - **SGD-114D-v1.0.1** — Adaptive Release Canonical Resolver (v1.0.1; implemented)
+- **SGD-114E** — Native Ecosystem Architecture Policy (v1.0.2; implemented)
+- **SGD-114E-C1** — Native Ecosystem Validator Fix (v1.0.0; implemented)
 - **SGD-115** — Sistema Maestro de Documentación del Proyecto (v1.0.0; technically_completed)
 - **SGD-115A** — Documentation Canonical Component Resolver (v1.0.0; implemented)
 - **SGD-116** — Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE (v1.0.0; technically_completed)

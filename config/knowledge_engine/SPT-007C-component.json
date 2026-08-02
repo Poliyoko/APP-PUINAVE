@@ -1,40 +1,47 @@
 {
-  "increment_code": "SPT-007C",
-  "name": "Motor de Conocimiento Lingüístico y Cultural",
-  "component_type": "linguistic_cultural_knowledge_engine",
-  "version": "1.0.0",
-  "status": "implemented",
-  "phase": "Fase Tecnológica",
-  "dependencies": [
-    "SPT-007A",
-    "SPT-007B",
-    "SPT-006",
-    "SPT-004A",
-    "SPT-002",
-    "SGD-114C",
-    "SGD-115",
-    "SGD-116"
-  ],
-  "source": [
-    "src/sgoda/knowledge_engine/models.py",
-    "src/sgoda/knowledge_engine/ontology.py",
-    "src/sgoda/knowledge_engine/graph.py",
-    "src/sgoda/knowledge_engine/inference.py",
-    "src/sgoda/knowledge_engine/navigation.py",
-    "src/sgoda/knowledge_engine/oda_bridge.py",
-    "src/sgoda/knowledge_engine/service.py",
-    "src/sgoda/knowledge_engine/cli.py"
-  ],
-  "tests": [
-    "tests/knowledge_engine/test_SPT_007C_knowledge_engine.py"
-  ],
-  "documentation": [
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md"
-  ]
+    "increment_code":  "SPT-007C",
+    "name":  "Motor de Conocimiento Lingüístico y Cultural",
+    "component_type":  "linguistic_cultural_knowledge_engine",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "phase":  "Fase Tecnológica",
+    "dependencies":  [
+                         "SPT-007A",
+                         "SPT-007B",
+                         "SPT-006",
+                         "SPT-004A",
+                         "SPT-002",
+                         "SGD-114C",
+                         "SGD-115",
+                         "SGD-116"
+                     ],
+    "source":  [
+                   "src/sgoda/knowledge_engine/models.py",
+                   "src/sgoda/knowledge_engine/ontology.py",
+                   "src/sgoda/knowledge_engine/graph.py",
+                   "src/sgoda/knowledge_engine/inference.py",
+                   "src/sgoda/knowledge_engine/navigation.py",
+                   "src/sgoda/knowledge_engine/oda_bridge.py",
+                   "src/sgoda/knowledge_engine/service.py",
+                   "src/sgoda/knowledge_engine/cli.py"
+               ],
+    "tests":  [
+                  "tests/knowledge_engine/test_SPT_007C_knowledge_engine.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md"
+                      ],
+    "native_ecosystem":  true,
+    "ecosystem_role":  "native_component",
+    "technology_policy":  "free_open_optional_proprietary",
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "institutional_terminology":  "integrado nativamente al ecosistema SGODA-PUINAVE"
 }

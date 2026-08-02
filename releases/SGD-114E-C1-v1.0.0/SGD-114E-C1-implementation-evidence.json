@@ -1,0 +1,32 @@
+{
+    "increment_code":  "SGD-114E-C1",
+    "canonical_code":  "SGD-114E",
+    "version":  "1.0.0",
+    "status":  "implemented_and_approved",
+    "generated_at_utc":  "2026-08-02T23:51:08.2325740Z",
+    "corrected_files":  [
+                            "src/sgoda/governance/native_ecosystem_policy.py",
+                            "src/sgoda/governance/native_ecosystem_validator.py"
+                        ],
+    "installer_v1_0_2_preserved":  true,
+    "installer_v1_0_2_sha256":  "74cdf3a968a9c52fd6ca5f811e63f2bae900c6ba9a02c9db48fcb61659ba419b",
+    "specific_tests":  {
+                           "expected":  12,
+                           "status":  "passed",
+                           "started_at_utc":  "2026-08-02T23:50:00.2533521Z",
+                           "finished_at_utc":  "2026-08-02T23:50:01.0091614Z"
+                       },
+    "full_suite":  {
+                       "executed":  true,
+                       "status":  "passed",
+                       "started_at_utc":  "2026-08-02T23:50:01.0091614Z",
+                       "finished_at_utc":  "2026-08-02T23:50:22.7420297Z"
+                   },
+    "repository_policy_approved":  true,
+    "forbidden_term_count":  0,
+    "proprietary_dependency_count":  0,
+    "documentation_approved":  true,
+    "roadmap_approved":  true,
+    "publication_requested":  true,
+    "backup":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114E-C1\\backups\\pre-SGD114E-C1-20260802-184959"
+}

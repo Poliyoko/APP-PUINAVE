@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Instala SPT-012 v1.0.0 — Plataforma de Aprendizaje SGODA-PUINAVE.
 
@@ -1880,12 +1880,12 @@ Write-Host "SPT-012 v1.0.0 implementado." -ForegroundColor Green
 Write-Host "Plataforma de Aprendizaje SGODA-PUINAVE: OPERATIVA." `
     -ForegroundColor Green
 Write-Host "Diccionario digital: INTEGRADO." -ForegroundColor Green
-Write-Host "Motores SPT-007A/B/C/D: INTEGRADOS POR CONTRATO." `
+Write-Host "Motores SPT-007A/B/C/D: INTEGRADOS NATIVAMENTE." `
     -ForegroundColor Green
-Write-Host "Tutor SPT-008: INTEGRADO POR CONTRATO." -ForegroundColor Green
-Write-Host "Conversación SPT-009: INTEGRADA POR CONTRATO." `
+Write-Host "Tutor SPT-008: INTEGRADO NATIVAMENTE." -ForegroundColor Green
+Write-Host "Conversación SPT-009: INTEGRADA NATIVAMENTE." `
     -ForegroundColor Green
-Write-Host "Plataforma SPT-011: INTEGRADA POR CONTRATO." `
+Write-Host "Plataforma SPT-011: INTEGRADA NATIVAMENTE." `
     -ForegroundColor Green
 Write-Host "Multimedia y ODA: INTEGRADOS." -ForegroundColor Green
 Write-Host "Pruebas específicas: 14 APROBADAS." -ForegroundColor Green

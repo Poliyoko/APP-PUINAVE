@@ -175,6 +175,90 @@
     ]
   },
   {
+    "code": "SGD-114E",
+    "name": "Native Ecosystem Architecture Policy",
+    "version": "1.0.2",
+    "status": "implemented",
+    "component_type": "native_ecosystem_architecture_policy",
+    "config_path": "config/governance/SGD-114E-component.json",
+    "source_paths": [
+      "src/sgoda/governance/native_ecosystem.py",
+      "src/sgoda/governance/native_ecosystem_cli.py",
+      "src/sgoda/governance/native_ecosystem_models.py",
+      "src/sgoda/governance/native_ecosystem_policy.py",
+      "src/sgoda/governance/native_ecosystem_validator.py"
+    ],
+    "test_paths": [
+      "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md",
+      "docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md",
+      "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-C1-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-C1/SGD-114E-C1-repository-evaluation.json",
+      "artifacts/pmo/SGD-114E-C1/SGD-114E-C1-repository-evaluation.md",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184601/src__sgoda__governance__native_ecosystem_policy.py",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184601/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/config__governance__SGD-114E-C1-component.json",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/docs__01_Gobierno__SGD-114E-C1-Native-Ecosystem-Validator-Fix.md",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_policy.py",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.md",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181535/Install-SPT012-v1.0.0-SGODA-Learning-Platform.ps1",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/Install-SPT012-v1.0.0-SGODA-Learning-Platform.ps1",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/config__governance__SGD-114E-component.json",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/config__governance__SGD-114E-native-ecosystem-policy.json",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/docs__01_Gobierno__SGD-114E-Native-Ecosystem-Architecture-Policy.md",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/docs__01_Gobierno__SGD-114E-Terminologia-Institucional.md",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/scripts__Invoke-SGD114E-NativeEcosystemPolicy.ps1",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem.py",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_policy.py",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/tests__governance__test_SGD_114E_native_ecosystem_architecture_policy.py"
+    ]
+  },
+  {
+    "code": "SGD-114E-C1",
+    "name": "Native Ecosystem Validator Fix",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "institutional_corrective",
+    "config_path": "config/governance/SGD-114E-C1-component.json",
+    "source_paths": [
+      "src/sgoda/governance/native_ecosystem_policy.py",
+      "src/sgoda/governance/native_ecosystem_validator.py"
+    ],
+    "test_paths": [
+      "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-C1-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-C1/SGD-114E-C1-repository-evaluation.json",
+      "artifacts/pmo/SGD-114E-C1/SGD-114E-C1-repository-evaluation.md",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184601/src__sgoda__governance__native_ecosystem_policy.py",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184601/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/config__governance__SGD-114E-C1-component.json",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/docs__01_Gobierno__SGD-114E-C1-Native-Ecosystem-Validator-Fix.md",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_policy.py",
+      "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.md"
+    ]
+  },
+  {
     "code": "SGD-115",
     "name": "Sistema Maestro de Documentación del Proyecto",
     "version": "1.0.0",

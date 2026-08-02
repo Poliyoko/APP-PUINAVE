@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **29**  
-Avance institucional: **89.66%**
+Componentes registrados: **30**  
+Avance institucional: **90.0%**
 
 ## Asistente e integraciones
 
@@ -49,6 +49,7 @@ Avance institucional: **89.66%**
 | Código | Componente | Estado | Versión | Release |
 |---|---|---|---|---|
 | SGD-114D | Adaptive Release Canonical Resolver | implemented | 1.0.1 | releases/SGD-114D-v1.0.0 |
+| SGD-114E | Native Ecosystem Architecture Policy | implemented | 1.0.2 | Pendiente |
 | SGD-115A | Documentation Canonical Component Resolver | implemented | 1.0.0 | releases/SGD-115A-v1.0.0 |
 
 ## Gobierno y arquitectura

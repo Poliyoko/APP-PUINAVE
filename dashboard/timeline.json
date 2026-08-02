@@ -243,21 +243,30 @@
     "last_git_date": "2026-08-02T17:28:31-05:00"
   },
   {
-    "code": "SPT-011",
-    "name": "Plataforma Operativa SGODA-PUINAVE",
-    "phase": "Fase Tecnológica III",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-011-v1.0.0",
-    "last_git_date": null
-  },
-  {
     "code": "SPT-012",
     "name": "Plataforma de Aprendizaje SGODA-PUINAVE",
     "phase": "Fase Tecnológica III",
     "status": "implemented",
     "version": "1.0.0",
     "release": "releases/SPT-012-v1.0.0",
+    "last_git_date": "2026-08-02T18:00:24-05:00"
+  },
+  {
+    "code": "SGD-114E",
+    "name": "Native Ecosystem Architecture Policy",
+    "phase": "Gobierno Digital",
+    "status": "implemented",
+    "version": "1.0.2",
+    "release": null,
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-011",
+    "name": "Plataforma Operativa SGODA-PUINAVE",
+    "phase": "Fase Tecnológica III",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-011-v1.0.0",
     "last_git_date": null
   }
 ]

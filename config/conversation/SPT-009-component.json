@@ -1,32 +1,39 @@
 {
-  "increment_code": "SPT-009",
-  "name": "Ecosistema Conversacional",
-  "component_type": "conversational_ecosystem",
-  "version": "1.0.0",
-  "status": "implemented",
-  "phase": "Fase Tecnológica",
-  "dependencies": [
-    "SPT-004A",
-    "SPT-006A",
-    "SPT-007C",
-    "SPT-007D",
-    "SPT-008",
-    "SGD-114C",
-    "SGD-115",
-    "SGD-116"
-  ],
-  "source": [
-    "src/sgoda/conversation/models.py",
-    "src/sgoda/conversation/router.py",
-    "src/sgoda/conversation/memory.py",
-    "src/sgoda/conversation/service.py",
-    "src/sgoda/conversation/cli.py"
-  ],
-  "tests": [
-    "tests/conversation/test_SPT_009_conversational_ecosystem.py"
-  ],
-  "documentation": [
-    "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
-    "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md"
-  ]
+    "increment_code":  "SPT-009",
+    "name":  "Ecosistema Conversacional",
+    "component_type":  "conversational_ecosystem",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "phase":  "Fase Tecnológica",
+    "dependencies":  [
+                         "SPT-004A",
+                         "SPT-006A",
+                         "SPT-007C",
+                         "SPT-007D",
+                         "SPT-008",
+                         "SGD-114C",
+                         "SGD-115",
+                         "SGD-116"
+                     ],
+    "source":  [
+                   "src/sgoda/conversation/models.py",
+                   "src/sgoda/conversation/router.py",
+                   "src/sgoda/conversation/memory.py",
+                   "src/sgoda/conversation/service.py",
+                   "src/sgoda/conversation/cli.py"
+               ],
+    "tests":  [
+                  "tests/conversation/test_SPT_009_conversational_ecosystem.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
+                          "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md"
+                      ],
+    "native_ecosystem":  true,
+    "ecosystem_role":  "native_component",
+    "technology_policy":  "free_open_optional_proprietary",
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "institutional_terminology":  "integrado nativamente al ecosistema SGODA-PUINAVE"
 }

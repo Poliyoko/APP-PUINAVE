@@ -1,23 +1,30 @@
 {
-  "increment_code": "SPT-011A",
-  "name": "Institutional Evidence Closure",
-  "component_type": "institutional_evidence_closure",
-  "version": "1.0.2",
-  "status": "implemented",
-  "phase": "Fase Tecnológica III",
-  "dependencies": [
-    "SPT-011",
-    "SGD-114C",
-    "SGD-115",
-    "SGD-116"
-  ],
-  "source": [
-    "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1"
-  ],
-  "tests": [
-    "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
-  ],
-  "documentation": [
-    "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md"
-  ]
+    "increment_code":  "SPT-011A",
+    "name":  "Institutional Evidence Closure",
+    "component_type":  "institutional_evidence_closure",
+    "version":  "1.0.2",
+    "status":  "implemented",
+    "phase":  "Fase Tecnológica III",
+    "dependencies":  [
+                         "SPT-011",
+                         "SGD-114C",
+                         "SGD-115",
+                         "SGD-116"
+                     ],
+    "source":  [
+                   "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1"
+               ],
+    "tests":  [
+                  "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+              ],
+    "documentation":  [
+                          "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md"
+                      ],
+    "native_ecosystem":  true,
+    "ecosystem_role":  "native_component",
+    "technology_policy":  "free_open_optional_proprietary",
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "institutional_terminology":  "integrado nativamente al ecosistema SGODA-PUINAVE"
 }

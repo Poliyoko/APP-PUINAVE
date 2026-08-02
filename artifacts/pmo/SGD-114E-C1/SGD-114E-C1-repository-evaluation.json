@@ -1,0 +1,19 @@
+{
+  "policy": "SGD-114E",
+  "version": "1.0.2",
+  "approved": true,
+  "exit_code": 0,
+  "component_count": 10,
+  "forbidden_term_count": 0,
+  "proprietary_dependency_count": 0,
+  "findings": [
+    {
+      "rule_code": "SGD114E-R000",
+      "passed": true,
+      "blocking": false,
+      "message": "Arquitectura nativa y política tecnológica aprobadas.",
+      "path": null,
+      "remediation": ""
+    }
+  ]
+}

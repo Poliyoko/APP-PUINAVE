@@ -1,0 +1,24 @@
+{
+  "component": "SGD-114E",
+  "version": "1.0.1",
+  "name": "Native Ecosystem Architecture Policy",
+  "scope": "SPT-007 and later",
+  "native_ecosystem_required": true,
+  "mandatory_proprietary_dependencies_allowed": false,
+  "technology_principles": [
+    "free",
+    "open_source",
+    "open_standards",
+    "local_first",
+    "optional_proprietary_only"
+  ],
+  "forbidden_terms": [
+    "integrado por contrato",
+    "integrada por contrato",
+    "integrados por contrato",
+    "integradas por contrato",
+    "contract integration",
+    "contract-based integration"
+  ],
+  "preferred_term": "integrado nativamente al ecosistema SGODA-PUINAVE"
+}

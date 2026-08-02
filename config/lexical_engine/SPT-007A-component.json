@@ -1,36 +1,43 @@
 {
-  "increment_code": "SPT-007A",
-  "name": "Fundación del Motor Léxico Inteligente",
-  "component_type": "intelligent_lexical_engine",
-  "version": "0.1.0",
-  "status": "implemented",
-  "phase": "Fase Tecnológica",
-  "dependencies": [
-    "SPT-001B",
-    "SPT-003A",
-    "SPT-004A",
-    "SPT-006",
-    "SPT-006A",
-    "SGD-114C",
-    "SGD-115",
-    "SGD-116"
-  ],
-  "source": [
-    "src/sgoda/lexical_engine/models.py",
-    "src/sgoda/lexical_engine/normalizer.py",
-    "src/sgoda/lexical_engine/repository.py",
-    "src/sgoda/lexical_engine/search.py",
-    "src/sgoda/lexical_engine/ranking.py",
-    "src/sgoda/lexical_engine/multimedia.py",
-    "src/sgoda/lexical_engine/service.py",
-    "src/sgoda/lexical_engine/cli.py"
-  ],
-  "tests": [
-    "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py"
-  ],
-  "documentation": [
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
-    "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md"
-  ]
+    "increment_code":  "SPT-007A",
+    "name":  "Fundación del Motor Léxico Inteligente",
+    "component_type":  "intelligent_lexical_engine",
+    "version":  "0.1.0",
+    "status":  "implemented",
+    "phase":  "Fase Tecnológica",
+    "dependencies":  [
+                         "SPT-001B",
+                         "SPT-003A",
+                         "SPT-004A",
+                         "SPT-006",
+                         "SPT-006A",
+                         "SGD-114C",
+                         "SGD-115",
+                         "SGD-116"
+                     ],
+    "source":  [
+                   "src/sgoda/lexical_engine/models.py",
+                   "src/sgoda/lexical_engine/normalizer.py",
+                   "src/sgoda/lexical_engine/repository.py",
+                   "src/sgoda/lexical_engine/search.py",
+                   "src/sgoda/lexical_engine/ranking.py",
+                   "src/sgoda/lexical_engine/multimedia.py",
+                   "src/sgoda/lexical_engine/service.py",
+                   "src/sgoda/lexical_engine/cli.py"
+               ],
+    "tests":  [
+                  "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
+                          "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md"
+                      ],
+    "native_ecosystem":  true,
+    "ecosystem_role":  "native_component",
+    "technology_policy":  "free_open_optional_proprietary",
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "institutional_terminology":  "integrado nativamente al ecosistema SGODA-PUINAVE"
 }

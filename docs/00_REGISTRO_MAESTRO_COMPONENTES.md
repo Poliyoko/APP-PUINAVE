@@ -10,6 +10,8 @@
 | SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 3 | 1 | 3 |
 | SGD-114D | Adaptive Institutional Policy Engine | 1.0.0 | implemented | `config/governance/SGD-114D-component.json` | 6 | 1 | 3 | 1 | 6 |
 | SGD-114D-v1.0.1 | Adaptive Release Canonical Resolver | 1.0.1 | implemented | `config/governance/SGD-114D-v1.0.1-component.json` | 1 | 1 | 1 | 0 | 1 |
+| SGD-114E | Native Ecosystem Architecture Policy | 1.0.2 | implemented | `config/governance/SGD-114E-component.json` | 5 | 1 | 3 | 1 | 23 |
+| SGD-114E-C1 | Native Ecosystem Validator Fix | 1.0.0 | implemented | `config/governance/SGD-114E-C1-component.json` | 2 | 1 | 1 | 1 | 10 |
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 1 | 9 |
 | SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 1 | 3 |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 47 |
@@ -111,6 +113,30 @@
 - **Documentación:** `docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md`
 - **Releases:** No identificados.
 - **Evidencias:** 1 archivo(s) identificado(s).
+
+### SGD-114E — Native Ecosystem Architecture Policy
+
+- **Versión:** 1.0.2
+- **Estado:** implemented
+- **Tipo:** native_ecosystem_architecture_policy
+- **Configuración:** `config/governance/SGD-114E-component.json`
+- **Código:** `src/sgoda/governance/native_ecosystem.py`, `src/sgoda/governance/native_ecosystem_cli.py`, `src/sgoda/governance/native_ecosystem_models.py`, `src/sgoda/governance/native_ecosystem_policy.py`, `src/sgoda/governance/native_ecosystem_validator.py`
+- **Pruebas:** `tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py`
+- **Documentación:** `docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md`, `docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md`, `docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md`
+- **Releases:** `releases/SGD-114E-C1-v1.0.0`
+- **Evidencias:** 23 archivo(s) identificado(s).
+
+### SGD-114E-C1 — Native Ecosystem Validator Fix
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** institutional_corrective
+- **Configuración:** `config/governance/SGD-114E-C1-component.json`
+- **Código:** `src/sgoda/governance/native_ecosystem_policy.py`, `src/sgoda/governance/native_ecosystem_validator.py`
+- **Pruebas:** `tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py`
+- **Documentación:** `docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md`
+- **Releases:** `releases/SGD-114E-C1-v1.0.0`
+- **Evidencias:** 10 archivo(s) identificado(s).
 
 ### SGD-115 — Sistema Maestro de Documentación del Proyecto
 
