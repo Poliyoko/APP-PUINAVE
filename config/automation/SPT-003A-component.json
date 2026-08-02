@@ -1,0 +1,17 @@
+{
+  "increment_code": "SPT-003A",
+  "component_type": "ai_multimedia_orchestrator",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.automation.cli",
+  "source": [
+    "src/sgoda/automation/models.py",
+    "src/sgoda/automation/job_queue.py",
+    "src/sgoda/automation/planner.py",
+    "src/sgoda/automation/cli.py"
+  ],
+  "tests": [
+    "tests/automation/test_SPT_003A_multimedia_orchestrator.py"
+  ],
+  "governed_by": "SGD-114-v2.0.1"
+}

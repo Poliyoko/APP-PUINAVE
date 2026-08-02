@@ -1,0 +1,12 @@
+{
+  "resources_seen": 80,
+  "jobs_planned": 80,
+  "jobs_inserted": 80,
+  "jobs_existing": 0,
+  "by_type": {
+    "generate_tts": 40,
+    "record_native_audio": 20,
+    "generate_image": 20
+  },
+  "unsupported_resources": 0
+}

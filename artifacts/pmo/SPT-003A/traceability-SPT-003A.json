@@ -1,0 +1,20 @@
+{
+    "increment_code":  "SPT-003A",
+    "generated_at_utc":  "2026-08-02T09:10:27.1814306Z",
+    "source":  [
+                   "src/sgoda/automation/models.py",
+                   "src/sgoda/automation/job_queue.py",
+                   "src/sgoda/automation/planner.py",
+                   "src/sgoda/automation/cli.py"
+               ],
+    "tests":  [
+                  "tests/automation/test_SPT_003A_multimedia_orchestrator.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Orquestador-IA-Multimedia.md",
+                          "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Arquitectura-Colas-Eventos.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SPT-003A/implementation-evidence.json"
+                 ]
+}

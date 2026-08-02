@@ -1,0 +1,10 @@
+{
+  "increment": "SPT-003A",
+  "passed": true,
+  "checks": {
+    "jobs_present": true,
+    "idempotent_total": true,
+    "supported_resources_only": true,
+    "four_baseline_job_groups": true
+  }
+}

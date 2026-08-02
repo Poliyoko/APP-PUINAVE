@@ -1,0 +1,11 @@
+{
+  "total_jobs": 80,
+  "by_status": {
+    "pending": 80
+  },
+  "by_type": {
+    "generate_image": 20,
+    "generate_tts": 40,
+    "record_native_audio": 20
+  }
+}

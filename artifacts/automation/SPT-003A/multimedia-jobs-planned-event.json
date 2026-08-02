@@ -1,0 +1,14 @@
+{
+  "event_type": "MultimediaJobsPlanned",
+  "occurred_at_utc": "2026-08-02T09:10:55.841232+00:00",
+  "source": "sgoda.automation",
+  "increment": "SPT-003A",
+  "jobs_planned": 80,
+  "jobs_inserted": 80,
+  "jobs_existing": 0,
+  "n8n_contract": {
+    "trigger": "queue_poll_or_event",
+    "completion_event": "MultimediaJobCompleted",
+    "failure_event": "MultimediaJobFailed"
+  }
+}

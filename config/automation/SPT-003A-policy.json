@@ -1,0 +1,27 @@
+{
+  "increment_code": "SPT-003A",
+  "version": "0.1.0",
+  "capacity_target_jobs": 120000,
+  "supported_job_types": [
+    "generate_image",
+    "record_native_audio",
+    "generate_tts"
+  ],
+  "supported_resource_types": [
+    "imagen_ilustrativa",
+    "audio_puinave",
+    "audio_espanol",
+    "audio_ingles"
+  ],
+  "human_review_required": true,
+  "external_api_calls_enabled": false,
+  "max_attempts_default": 3,
+  "lease_seconds_default": 300,
+  "n8n_ready": true,
+  "events": [
+    "MultimediaJobsPlanned",
+    "MultimediaJobCompleted",
+    "MultimediaJobFailed"
+  ],
+  "governed_by": "SGD-114-v2.0.1"
+}

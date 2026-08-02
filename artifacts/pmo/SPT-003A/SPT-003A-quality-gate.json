@@ -1,0 +1,88 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SPT-003A",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T09:10:57.267891+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/automation/SPT-003A-component.json",
+        "config/automation/SPT-003A-policy.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/automation/test_SPT_003A_multimedia_orchestrator.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Arquitectura-Colas-Eventos.md",
+        "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Orquestador-IA-Multimedia.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/automation/SPT-003A/job-statistics.json",
+        "artifacts/automation/SPT-003A/multimedia-jobs-planned-event.json",
+        "artifacts/automation/SPT-003A/multimedia-jobs.sqlite3",
+        "artifacts/automation/SPT-003A/orchestrator-validation.json",
+        "artifacts/automation/SPT-003A/planning-summary.json",
+        "artifacts/pmo/SPT-003A/implementation-evidence.json",
+        "artifacts/pmo/SPT-003A/traceability-SPT-003A.json",
+        "releases/SPT-003A-v0.1.0/job-statistics.json",
+        "releases/SPT-003A-v0.1.0/multimedia-jobs-planned-event.json",
+        "releases/SPT-003A-v0.1.0/orchestrator-validation.json",
+        "releases/SPT-003A-v0.1.0/planning-summary.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPT-003A/traceability-SPT-003A.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}
