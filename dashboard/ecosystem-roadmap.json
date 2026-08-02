@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-02T18:46:55.759367+00:00",
+  "generated_at_utc": "2026-08-02T19:39:22.485428+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -55,6 +55,44 @@
         "raw_code": "SGD-114-v2",
         "canonical_code": "SGD-114",
         "alias_applied": true
+      }
+    },
+    {
+      "code": "SGD-114C",
+      "name": "Policy Governance Core",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "institutional_policy_engine",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SGD-116B",
+        "SPB-007"
+      ],
+      "source_paths": [
+        "src/sgoda/governance/policy_models.py",
+        "src/sgoda/governance/policy_context.py",
+        "src/sgoda/governance/policy_rules.py",
+        "src/sgoda/governance/policy_registry.py",
+        "src/sgoda/governance/policy_engine.py",
+        "src/sgoda/governance/policy_report.py",
+        "src/sgoda/governance/policy_cli.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114C_policy_governance_core.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md",
+        "docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md"
+      ],
+      "release_path": "releases/SGD-114C-v1.0.0",
+      "config_path": "config/governance/SGD-114C-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-114C",
+        "canonical_code": "SGD-114C",
+        "alias_applied": false
       }
     },
     {
@@ -155,7 +193,7 @@
         "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
         "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md"
       ],
-      "release_path": null,
+      "release_path": "releases/SGD-116B-v3.0.0",
       "config_path": "config/roadmap/SGD-116B-component.json",
       "metadata": {
         "discovery_source": "descriptor",
@@ -219,6 +257,64 @@
         "raw_code": "SPB-007",
         "canonical_code": "SPB-007",
         "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-001B",
+      "name": "Componente institucional histórico SPT-001B",
+      "version": "historical",
+      "status": "historically_implemented",
+      "component_type": "historical_component",
+      "phase": "Repositorio Léxico Base",
+      "dependencies": [],
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [
+        "docs/01_Gobierno/SPT-001B-Acta-Cierre-Institucional.md",
+        "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P04-Prueba-Lector-Excel.md",
+        "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P05-Exportacion-JSON-Perfil.md",
+        "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P06-Pipeline-Institucional-RLB.md",
+        "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P07-Normalizacion-Encabezados.md",
+        "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P08-Consolidacion-Cierre.md",
+        "docs/15_Historial/SPT-001B-Registro-Historico-Cierre.md"
+      ],
+      "release_path": "releases/SPT-001B-v1.0.0",
+      "config_path": null,
+      "metadata": {
+        "discovery_source": "institutional_evidence",
+        "synthetic_canonical_anchor": true,
+        "evidence_count": 29,
+        "evidence": [
+          "artifacts/pmo/SPT-001B",
+          "artifacts/pmo/SPT-001B-P06",
+          "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-data-quality-report.json",
+          "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-quality-gate.json",
+          "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-v1.2-excel-path-evidence.json",
+          "artifacts/pmo/SPT-001B-P06/traceability-SPT-001B-P06.json",
+          "artifacts/pmo/SPT-001B-P07",
+          "artifacts/pmo/SPT-001B-P07/SPT-001B-P07-quality-gate.json",
+          "artifacts/pmo/SPT-001B-P07/SPT-001B-P07-v1.1-similarity-evidence.json",
+          "artifacts/pmo/SPT-001B-P07/traceability-SPT-001B-P07.json",
+          "artifacts/pmo/SPT-001B-P08",
+          "artifacts/pmo/SPT-001B-P08/SPT-001B-P08-quality-gate.json",
+          "artifacts/pmo/SPT-001B-P08/traceability-SPT-001B-P08.json",
+          "artifacts/pmo/SPT-001B/SPT-001B-final-quality-gate.json",
+          "config/rlb/SPT-001B-P06-component.json",
+          "config/rlb/SPT-001B-P07-component.json",
+          "config/rlb/SPT-001B-P07-header-mapping.json",
+          "config/rlb/SPT-001B-P08-component.json",
+          "dashboard/SPT-001B-P06-dashboard.json",
+          "dashboard/SPT-001B-P07-dashboard.json",
+          "dashboard/SPT-001B-dashboard.json",
+          "docs/01_Gobierno/SPT-001B-Acta-Cierre-Institucional.md",
+          "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P04-Prueba-Lector-Excel.md",
+          "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P05-Exportacion-JSON-Perfil.md",
+          "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P06-Pipeline-Institucional-RLB.md",
+          "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P07-Normalizacion-Encabezados.md",
+          "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P08-Consolidacion-Cierre.md",
+          "docs/15_Historial/SPT-001B-Registro-Historico-Cierre.md",
+          "releases/SPT-001B-v1.0.0"
+        ]
       }
     },
     {
@@ -475,15 +571,61 @@
         "canonical_code": "SPT-006A",
         "alias_applied": false
       }
+    },
+    {
+      "code": "SPT-007A",
+      "name": "Fundación del Motor Léxico Inteligente",
+      "version": "0.1.0",
+      "status": "implemented",
+      "component_type": "intelligent_lexical_engine",
+      "phase": "Fase Tecnológica",
+      "dependencies": [
+        "SPT-001B",
+        "SPT-003A",
+        "SPT-004A",
+        "SPT-006",
+        "SPT-006A",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/lexical_engine/models.py",
+        "src/sgoda/lexical_engine/normalizer.py",
+        "src/sgoda/lexical_engine/repository.py",
+        "src/sgoda/lexical_engine/search.py",
+        "src/sgoda/lexical_engine/ranking.py",
+        "src/sgoda/lexical_engine/multimedia.py",
+        "src/sgoda/lexical_engine/service.py",
+        "src/sgoda/lexical_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md"
+      ],
+      "release_path": null,
+      "config_path": "config/lexical_engine/SPT-007A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-007A",
+        "canonical_code": "SPT-007A",
+        "alias_applied": false
+      }
     }
   ],
   "phases": [
     "Asistente e integraciones",
     "Automatización multimedia",
+    "Fase Tecnológica",
     "Gobierno y arquitectura",
     "Identidad cultural",
     "Motor multilingüe y multimedia",
     "Objetos Digitales de Aprendizaje",
-    "Plataforma y construcción"
+    "Plataforma y construcción",
+    "Repositorio Léxico Base"
   ]
 }

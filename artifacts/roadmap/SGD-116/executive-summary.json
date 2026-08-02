@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-08-02T18:46:55.759367+00:00",
+  "generated_at_utc": "2026-08-02T19:39:22.485428+00:00",
   "status": "approved",
   "metrics": {
-    "total_components": 15,
-    "implemented_components": 13,
-    "pending_components": 2,
-    "released_components": 12,
-    "documented_components": 7,
-    "tested_components": 15,
-    "total_test_files": 34,
-    "total_documents": 97,
-    "total_releases": 13,
-    "completion_percent": 86.67,
-    "documentation_percent": 46.67,
-    "test_coverage_percent": 100.0
+    "total_components": 18,
+    "implemented_components": 15,
+    "pending_components": 3,
+    "released_components": 15,
+    "documented_components": 10,
+    "tested_components": 17,
+    "total_test_files": 37,
+    "total_documents": 103,
+    "total_releases": 16,
+    "completion_percent": 83.33,
+    "documentation_percent": 55.56,
+    "test_coverage_percent": 94.44
   },
   "validation": {
     "passed": true,
-    "component_count": 15,
+    "component_count": 18,
     "duplicate_codes": [],
     "broken_paths": [],
     "missing_dependencies": [],
@@ -101,9 +101,14 @@
         "status": "ALIASED"
       }
     ],
-    "historical_dependencies": [],
+    "historical_dependencies": [
+      {
+        "source": "SPT-007A",
+        "target": "SPT-001B"
+      }
+    ],
     "dependency_cycles": [],
     "missing_master_documents": [],
-    "generated_at_utc": "2026-08-02T18:46:55.768912+00:00"
+    "generated_at_utc": "2026-08-02T19:39:22.491809+00:00"
   }
 }

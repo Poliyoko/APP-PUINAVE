@@ -1,0 +1,44 @@
+{
+  "query": "AMDA",
+  "languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ],
+  "total": 1,
+  "no_invention": true,
+  "results": [
+    {
+      "entry_id": "LEX-001",
+      "score": 116.5,
+      "match_type": "exact",
+      "matched_language": "pu",
+      "matched_text": "AMDA",
+      "puinave": "AMDA",
+      "spanish": "casa",
+      "english_us": "house",
+      "italian": "casa",
+      "category": "sustantivo",
+      "validated": true,
+      "cultural_status": "pending",
+      "playback": {
+        "entry_id": "LEX-001",
+        "autoplay_audio": [
+          {
+            "language": "es",
+            "path": "media/audio/es/LEX-001.wav",
+            "validated": true
+          }
+        ],
+        "images": [
+          {
+            "path": "media/images/LEX-001.webp",
+            "validated": true
+          }
+        ],
+        "videos": []
+      }
+    }
+  ]
+}

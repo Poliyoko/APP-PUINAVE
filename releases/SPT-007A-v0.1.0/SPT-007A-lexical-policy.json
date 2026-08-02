@@ -1,0 +1,27 @@
+{
+  "component": "SPT-007A",
+  "version": "0.1.0",
+  "name": "Fundación del Motor Léxico Inteligente",
+  "supported_languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ],
+  "search_modes": [
+    "exact",
+    "prefix",
+    "token",
+    "contains",
+    "fuzzy"
+  ],
+  "fuzzy_threshold": 0.72,
+  "default_limit": 20,
+  "maximum_limit": 100,
+  "no_invention": true,
+  "puinave_generation": false,
+  "requires_cultural_validation": true,
+  "video_autoplay": false,
+  "local_first": true,
+  "paid_services_required": false
+}

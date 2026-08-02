@@ -2,11 +2,13 @@
   "nodes": [
     "ADR-010",
     "SGD-114",
+    "SGD-114C",
     "SGD-115",
     "SGD-116",
     "SGD-116B",
     "SIB-001",
     "SPB-007",
+    "SPT-001B",
     "SPT-002",
     "SPT-003A",
     "SPT-003B",
@@ -14,12 +16,29 @@
     "SPT-004A",
     "SPT-005",
     "SPT-006",
-    "SPT-006A"
+    "SPT-006A",
+    "SPT-007A"
   ],
   "edges": [
     {
       "source": "ADR-010",
       "target": "SGD-114"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SGD-114"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SGD-116B"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SPB-007"
     },
     {
       "source": "SGD-115",
@@ -140,6 +159,38 @@
     {
       "source": "SPT-006",
       "target": "SPT-003C"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SGD-114C"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-001B"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-003A"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-004A"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-006"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-006A"
     }
   ],
   "resolved_aliases": [
@@ -222,13 +273,38 @@
       "status": "ALIASED"
     }
   ],
-  "historical_dependencies": [],
+  "historical_dependencies": [
+    {
+      "source": "SPT-007A",
+      "target": "SPT-001B"
+    }
+  ],
   "missing_dependencies": [],
   "cycles": [],
   "edge_states": [
     {
       "source": "ADR-010",
       "target": "SGD-114",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SGD-114",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SGD-116B",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-114C",
+      "target": "SPB-007",
       "status": "FOUND"
     },
     {
@@ -379,6 +455,46 @@
     {
       "source": "SPT-006",
       "target": "SPT-003C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SGD-114C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-001B",
+      "status": "HISTORICAL"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-003A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-004A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-006",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007A",
+      "target": "SPT-006A",
       "status": "FOUND"
     }
   ]

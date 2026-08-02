@@ -1,0 +1,27 @@
+{
+    "entries":  [
+                    {
+                        "id":  "LEX-001",
+                        "puinave":  "AMDA",
+                        "spanish":  "casa",
+                        "english_us":  "house",
+                        "italian":  "casa",
+                        "validated":  true,
+                        "category":  "sustantivo",
+                        "multimedia":  [
+                                           {
+                                               "type":  "audio",
+                                               "language":  "es",
+                                               "path":  "media/audio/es/LEX-001.wav",
+                                               "validated":  true,
+                                               "autoplay":  true
+                                           },
+                                           {
+                                               "type":  "image",
+                                               "path":  "media/images/LEX-001.webp",
+                                               "validated":  true
+                                           }
+                                       ]
+                    }
+                ]
+}

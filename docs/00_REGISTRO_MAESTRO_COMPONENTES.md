@@ -7,7 +7,7 @@
 | ADR-010 | relational_media_repository | 1.0.0 | institutionally_closed | `config/media/ADR-010-component.json` | 4 | 1 | 3 | 1 | 10 |
 | SGD-114-PA | SGD-114 Policy Auditor | 1.0.0 | implemented | `config/governance/SGD-114-policy-auditor-component.json` | 1 | 1 | 1 | 0 | 0 |
 | SGD-114-v2 | institutional_repository_governance | 2.0.0 | institutionally_closed | `config/governance/SGD-114-v2-component.json` | 1 | 1 | 2 | 1 | 7 |
-| SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 2 | 0 | 3 |
+| SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 2 | 1 | 3 |
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 4 | 0 | 6 |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 47 |
 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | 2.0.0 | technically_completed | `config/roadmap/SGD-116B-component.json` | 4 | 1 | 3 | 1 | 29 |
@@ -24,6 +24,7 @@
 | SPT-005 | Sistema de Identidad Cultural Configurable | 0.1.0 | technically_completed | `config/identity/SPT-005-component.json` | 5 | 1 | 3 | 1 | 6 |
 | SPT-006 | Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe | 0.1.0 | technically_completed | `config/enrichment/SPT-006-component.json` | 6 | 1 | 6 | 2 | 109 |
 | SPT-006A | Motor Multilingüe Local, Gratuito y con Licencias Verificadas | 0.2.0 | technically_completed | `config/language_engine/SPT-006A-component.json` | 7 | 1 | 3 | 1 | 4 |
+| SPT-007A | Fundación del Motor Léxico Inteligente | 0.1.0 | implemented | `config/lexical_engine/SPT-007A-component.json` | 8 | 1 | 3 | 1 | 5 |
 
 ## Detalle por componente
 
@@ -72,7 +73,7 @@
 - **Código:** `src/sgoda/governance/policy_cli.py`, `src/sgoda/governance/policy_context.py`, `src/sgoda/governance/policy_engine.py`, `src/sgoda/governance/policy_models.py`, `src/sgoda/governance/policy_registry.py`, `src/sgoda/governance/policy_report.py`, `src/sgoda/governance/policy_rules.py`
 - **Pruebas:** `tests/governance/test_SGD_114C_policy_governance_core.py`
 - **Documentación:** `docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md`, `docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md`
-- **Releases:** No identificados.
+- **Releases:** `releases/SGD-114C-v1.0.0`
 - **Evidencias:** 3 archivo(s) identificado(s).
 
 ### SGD-115 — Sistema Maestro de Documentación del Proyecto
@@ -266,4 +267,16 @@
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Motor-Multilingue-Local-Gratuito.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Operacion-Offline.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006A-Politica-Modelos-Licencias.md`
 - **Releases:** `releases/SPT-006A-v0.2.0`
 - **Evidencias:** 4 archivo(s) identificado(s).
+
+### SPT-007A — Fundación del Motor Léxico Inteligente
+
+- **Versión:** 0.1.0
+- **Estado:** implemented
+- **Tipo:** intelligent_lexical_engine
+- **Configuración:** `config/lexical_engine/SPT-007A-component.json`
+- **Código:** `src/sgoda/lexical_engine/cli.py`, `src/sgoda/lexical_engine/models.py`, `src/sgoda/lexical_engine/multimedia.py`, `src/sgoda/lexical_engine/normalizer.py`, `src/sgoda/lexical_engine/ranking.py`, `src/sgoda/lexical_engine/repository.py`, `src/sgoda/lexical_engine/search.py`, `src/sgoda/lexical_engine/service.py`
+- **Pruebas:** `tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md`
+- **Releases:** `releases/SPT-007A-v0.1.0`
+- **Evidencias:** 5 archivo(s) identificado(s).
 

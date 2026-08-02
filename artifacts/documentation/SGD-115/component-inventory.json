@@ -108,7 +108,9 @@
       "docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md",
       "docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md"
     ],
-    "release_paths": [],
+    "release_paths": [
+      "releases/SGD-114C-v1.0.0"
+    ],
     "evidence_paths": [
       "artifacts/pmo/SGD-114C/SGD-114C-implementation-evidence.json",
       "artifacts/pmo/SGD-114C/SGD-116B-policy-result.json",
@@ -800,6 +802,42 @@
       "artifacts/pmo/SPT-006A/SPT-006A-quality-gate.json",
       "artifacts/pmo/SPT-006A/implementation-evidence.json",
       "artifacts/pmo/SPT-006A/traceability-SPT-006A.json"
+    ]
+  },
+  {
+    "code": "SPT-007A",
+    "name": "Fundación del Motor Léxico Inteligente",
+    "version": "0.1.0",
+    "status": "implemented",
+    "component_type": "intelligent_lexical_engine",
+    "config_path": "config/lexical_engine/SPT-007A-component.json",
+    "source_paths": [
+      "src/sgoda/lexical_engine/cli.py",
+      "src/sgoda/lexical_engine/models.py",
+      "src/sgoda/lexical_engine/multimedia.py",
+      "src/sgoda/lexical_engine/normalizer.py",
+      "src/sgoda/lexical_engine/ranking.py",
+      "src/sgoda/lexical_engine/repository.py",
+      "src/sgoda/lexical_engine/search.py",
+      "src/sgoda/lexical_engine/service.py"
+    ],
+    "test_paths": [
+      "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md"
+    ],
+    "release_paths": [
+      "releases/SPT-007A-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/lexical_engine/SPT-007A/demo-rlb.json",
+      "artifacts/lexical_engine/SPT-007A/demo-search.json",
+      "artifacts/pmo/SPT-007A/SPT-007A-policy-result.json",
+      "artifacts/pmo/SPT-007A/SPT-007A-policy-result.md",
+      "artifacts/pmo/SPT-007A/SPT-007A-pre-gate-evidence.json"
     ]
   }
 ]

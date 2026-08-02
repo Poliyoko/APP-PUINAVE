@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **15**  
-Avance institucional: **86.67%**
+Componentes registrados: **18**  
+Avance institucional: **83.33%**
 
 ## Asistente e integraciones
 
@@ -19,15 +19,22 @@ Avance institucional: **86.67%**
 | SPT-003B | SPT-003B | technically_completed | 0.1.0 | releases/SPT-003B-v0.1.0 |
 | SPT-003C | Piloto Controlado de Proveedores Reales | technically_completed | 0.1.0 | releases/SPT-003C-v0.1.0 |
 
+## Fase Tecnológica
+
+| Código | Componente | Estado | Versión | Release |
+|---|---|---|---|---|
+| SPT-007A | Fundación del Motor Léxico Inteligente | implemented | 0.1.0 | Pendiente |
+
 ## Gobierno y arquitectura
 
 | Código | Componente | Estado | Versión | Release |
 |---|---|---|---|---|
 | ADR-010 | ADR-010 | institutionally_closed | 1.0.0 | releases/ADR-010-v1.0.0 |
 | SGD-114 | SGD-114 | institutionally_closed | 2.0.0 | releases/SGD-114-v2.0.1 |
+| SGD-114C | Policy Governance Core | implemented | 1.0.0 | releases/SGD-114C-v1.0.0 |
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | technically_completed | 1.0.0 | Pendiente |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | technically_completed | 1.0.0 | Pendiente |
-| SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | technically_completed | 2.0.0 | Pendiente |
+| SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | technically_completed | 2.0.0 | releases/SGD-116B-v3.0.0 |
 
 ## Identidad cultural
 
@@ -54,3 +61,9 @@ Avance institucional: **86.67%**
 |---|---|---|---|---|
 | SIB-001 | SGODA Installer Builder | technically_completed | 0.1.0 | releases/SIB-001-v0.1.0 |
 | SPB-007 | SPB-007 | technically_completed | 1.0.0 | releases/SPB-007-v1.0.0 |
+
+## Repositorio Léxico Base
+
+| Código | Componente | Estado | Versión | Release |
+|---|---|---|---|---|
+| SPT-001B | Componente institucional histórico SPT-001B | historically_implemented | historical | releases/SPT-001B-v1.0.0 |

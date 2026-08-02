@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "component_count": 15,
+  "component_count": 18,
   "duplicate_codes": [],
   "broken_paths": [],
   "missing_dependencies": [],
@@ -84,8 +84,13 @@
       "status": "ALIASED"
     }
   ],
-  "historical_dependencies": [],
+  "historical_dependencies": [
+    {
+      "source": "SPT-007A",
+      "target": "SPT-001B"
+    }
+  ],
   "dependency_cycles": [],
   "missing_master_documents": [],
-  "generated_at_utc": "2026-08-02T18:46:55.768912+00:00"
+  "generated_at_utc": "2026-08-02T19:39:22.491809+00:00"
 }

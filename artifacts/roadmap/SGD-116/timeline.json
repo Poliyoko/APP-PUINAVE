@@ -27,6 +27,15 @@
     "last_git_date": "2026-08-02T03:47:58-05:00"
   },
   {
+    "code": "SPT-001B",
+    "name": "Componente institucional histórico SPT-001B",
+    "phase": "Repositorio Léxico Base",
+    "status": "historically_implemented",
+    "version": "historical",
+    "release": "releases/SPT-001B-v1.0.0",
+    "last_git_date": "2026-08-02T03:47:58-05:00"
+  },
+  {
     "code": "SPT-002",
     "name": "SPT-002",
     "phase": "Objetos Digitales de Aprendizaje",
@@ -117,13 +126,22 @@
     "last_git_date": "2026-08-02T06:44:41-05:00"
   },
   {
+    "code": "SGD-114C",
+    "name": "Policy Governance Core",
+    "phase": "Gobierno y arquitectura",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SGD-114C-v1.0.0",
+    "last_git_date": "2026-08-02T14:10:35-05:00"
+  },
+  {
     "code": "SGD-116",
     "name": "Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE",
     "phase": "Gobierno y arquitectura",
     "status": "technically_completed",
     "version": "1.0.0",
     "release": null,
-    "last_git_date": null
+    "last_git_date": "2026-08-02T14:10:35-05:00"
   },
   {
     "code": "SGD-116B",
@@ -131,6 +149,15 @@
     "phase": "Gobierno y arquitectura",
     "status": "technically_completed",
     "version": "2.0.0",
+    "release": "releases/SGD-116B-v3.0.0",
+    "last_git_date": "2026-08-02T14:10:35-05:00"
+  },
+  {
+    "code": "SPT-007A",
+    "name": "Fundación del Motor Léxico Inteligente",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "0.1.0",
     "release": null,
     "last_git_date": null
   }

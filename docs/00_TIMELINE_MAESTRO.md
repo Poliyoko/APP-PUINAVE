@@ -7,6 +7,7 @@
 | 2026-08-02T03:47:58-05:00 | ADR-010 | ADR-010 | institutionally_closed | releases/ADR-010-v1.0.0 |
 | 2026-08-02T03:47:58-05:00 | SGD-114 | SGD-114 | institutionally_closed | releases/SGD-114-v2.0.1 |
 | 2026-08-02T03:47:58-05:00 | SPB-007 | SPB-007 | technically_completed | releases/SPB-007-v1.0.0 |
+| 2026-08-02T03:47:58-05:00 | SPT-001B | Componente institucional histórico SPT-001B | historically_implemented | releases/SPT-001B-v1.0.0 |
 | 2026-08-02T03:47:58-05:00 | SPT-002 | SPT-002 | technically_completed | releases/SPT-002-v0.1.0 |
 | 2026-08-02T04:12:03-05:00 | SPT-003A | SPT-003A | technically_completed | releases/SPT-003A-v0.1.0 |
 | 2026-08-02T04:23:36-05:00 | SPT-003B | SPT-003B | technically_completed | releases/SPT-003B-v0.1.0 |
@@ -17,5 +18,7 @@
 | 2026-08-02T06:01:23-05:00 | SPT-005 | Sistema de Identidad Cultural Configurable | technically_completed | releases/SPT-005-v0.1.0 |
 | 2026-08-02T06:17:30-05:00 | SPT-006 | Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe | technically_completed | releases/SPT-006-v0.1.0 |
 | 2026-08-02T06:44:41-05:00 | SPT-006A | Motor Multilingüe Local, Gratuito y con Licencias Verificadas | technically_completed | releases/SPT-006A-v0.2.0 |
-| No determinada | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | technically_completed | Pendiente |
-| No determinada | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | technically_completed | Pendiente |
+| 2026-08-02T14:10:35-05:00 | SGD-114C | Policy Governance Core | implemented | releases/SGD-114C-v1.0.0 |
+| 2026-08-02T14:10:35-05:00 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | technically_completed | Pendiente |
+| 2026-08-02T14:10:35-05:00 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | technically_completed | releases/SGD-116B-v3.0.0 |
+| No determinada | SPT-007A | Fundación del Motor Léxico Inteligente | implemented | Pendiente |

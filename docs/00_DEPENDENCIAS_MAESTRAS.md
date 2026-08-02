@@ -5,6 +5,10 @@
 | Componente | Depende de | Clasificación |
 |---|---|---|
 | ADR-010 | SGD-114 | Interna |
+| SGD-114C | SGD-114 | Interna |
+| SGD-114C | SGD-115 | Interna |
+| SGD-114C | SGD-116B | Interna |
+| SGD-114C | SPB-007 | Interna |
 | SGD-115 | SGD-114 | Interna |
 | SGD-116 | SGD-114 | Interna |
 | SGD-116 | SGD-115 | Interna |
@@ -35,3 +39,11 @@
 | SPT-006 | SPT-003A | Interna |
 | SPT-006 | SPT-003B | Interna |
 | SPT-006 | SPT-003C | Interna |
+| SPT-007A | SGD-114C | Interna |
+| SPT-007A | SGD-115 | Interna |
+| SPT-007A | SGD-116 | Interna |
+| SPT-007A | SPT-001B | Histórica resuelta |
+| SPT-007A | SPT-003A | Interna |
+| SPT-007A | SPT-004A | Interna |
+| SPT-007A | SPT-006 | Interna |
+| SPT-007A | SPT-006A | Interna |
