@@ -1,0 +1,18 @@
+{
+  "canonical_id": "0014",
+  "sequence": [
+    "image",
+    "audio_es",
+    "audio_en"
+  ],
+  "autoplay_enabled": true,
+  "autoplay_video": false,
+  "stop_on_error": false,
+  "resources": {
+    "image": "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-IMAGE-9C9142D36BA8C4A9.mock-image",
+    "audio_puinave": null,
+    "audio_es": "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-AUDIO-ES-8B8F562D1D0E9A60.mock-audio",
+    "audio_en": "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-AUDIO-EN-D4CDE5727EDFE452.mock-audio",
+    "video": "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-VIDEO-512338A0A3E55B74.mock-video-plan"
+  }
+}

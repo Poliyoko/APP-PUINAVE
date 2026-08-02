@@ -1,0 +1,39 @@
+{
+  "increment_code": "SPT-006",
+  "version": "0.1.0",
+  "policy_name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
+  "languages": ["pui", "es", "en"],
+  "required_resources": [
+    "audio_es",
+    "audio_en",
+    "image"
+  ],
+  "optional_resources": ["video"],
+  "translation_en_requires_validation": true,
+  "image_requires_cultural_review": true,
+  "video_requires_review": true,
+  "autoplay": {
+    "enabled": true,
+    "audio_puinave": true,
+    "audio_es": true,
+    "audio_en": true,
+    "image": true,
+    "video": false,
+    "user_configurable": true
+  },
+  "external_providers_enabled": false,
+  "mock_provider_enabled": true,
+  "batch_processing": true,
+  "idempotent": true,
+  "resume_supported": true,
+  "target_capacity_jobs": 120000,
+  "governed_by": [
+    "ADR-010",
+    "SPT-003A",
+    "SPT-003B",
+    "SPT-003C",
+    "SGD-114-v2.0.1",
+    "SGD-115-v1.0.1",
+    "SIB-001"
+  ]
+}

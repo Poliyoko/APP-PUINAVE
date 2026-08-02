@@ -1,0 +1,18 @@
+{
+    "increment_code":  "SPT-006",
+    "version":  "0.1.0",
+    "status":  "technically_completed",
+    "generated_at_utc":  "2026-08-02T11:15:53.6087390Z",
+    "records_processed":  20,
+    "jobs_planned":  80,
+    "resources_generated_mock":  80,
+    "playback_manifests":  20,
+    "external_calls":  0,
+    "cost_usd":  0,
+    "autoplay_audio":  true,
+    "autoplay_video":  false,
+    "specific_tests":  14,
+    "target_capacity_jobs":  120000,
+    "quality_gate":  "approved",
+    "release":  "SPT-006-v0.1.0"
+}

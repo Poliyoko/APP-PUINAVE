@@ -18,6 +18,7 @@
 | SPT-003C | Piloto Controlado de Proveedores Reales | 0.1.0 | technically_completed | `config/automation/SPT-003C-component.json` | 5 | 1 | 2 | 1 | 4 |
 | SPT-004A | Fundación del Asistente Inteligente Institucional | 0.1.0 | technically_completed | `config/assistant/SPT-004A-component.json` | 6 | 1 | 3 | 1 | 4 |
 | SPT-005 | Sistema de Identidad Cultural Configurable | 0.1.0 | technically_completed | `config/identity/SPT-005-component.json` | 5 | 1 | 3 | 1 | 6 |
+| SPT-006 | Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe | 0.1.0 | technically_completed | `config/enrichment/SPT-006-component.json` | 6 | 1 | 3 | 1 | 105 |
 
 ## Detalle por componente
 
@@ -188,4 +189,16 @@
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md`, `docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md`, `docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md`
 - **Releases:** `releases/SPT-005-v0.1.0`
 - **Evidencias:** 6 archivo(s) identificado(s).
+
+### SPT-006 — Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe
+
+- **Versión:** 0.1.0
+- **Estado:** technically_completed
+- **Tipo:** multilingual_multimedia_enrichment_pipeline
+- **Configuración:** `config/enrichment/SPT-006-component.json`
+- **Código:** `src/sgoda/enrichment/cli.py`, `src/sgoda/enrichment/models.py`, `src/sgoda/enrichment/pipeline.py`, `src/sgoda/enrichment/planner.py`, `src/sgoda/enrichment/playback.py`, `src/sgoda/enrichment/providers.py`
+- **Pruebas:** `tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md`, `docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md`
+- **Releases:** `releases/SPT-006-v0.1.0`
+- **Evidencias:** 105 archivo(s) identificado(s).
 

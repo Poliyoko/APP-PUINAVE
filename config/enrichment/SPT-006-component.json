@@ -1,0 +1,33 @@
+{
+  "increment_code": "SPT-006",
+  "name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
+  "component_type": "multilingual_multimedia_enrichment_pipeline",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.enrichment.cli",
+  "source": [
+    "src/sgoda/enrichment/models.py",
+    "src/sgoda/enrichment/planner.py",
+    "src/sgoda/enrichment/providers.py",
+    "src/sgoda/enrichment/playback.py",
+    "src/sgoda/enrichment/pipeline.py",
+    "src/sgoda/enrichment/cli.py"
+  ],
+  "tests": [
+    "tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py"
+  ],
+  "documentation": [
+    "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+    "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+    "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md"
+  ],
+  "governed_by": [
+    "ADR-010",
+    "SPT-003A",
+    "SPT-003B",
+    "SPT-003C",
+    "SGD-114-v2.0.1",
+    "SGD-115-v1.0.1",
+    "SIB-001"
+  ]
+}

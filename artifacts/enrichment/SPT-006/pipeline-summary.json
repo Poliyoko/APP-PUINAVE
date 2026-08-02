@@ -1,0 +1,12 @@
+{
+  "records_processed": 20,
+  "jobs_planned": 80,
+  "jobs_inserted": 80,
+  "resources_generated_mock": 80,
+  "playback_manifests": 20,
+  "external_calls": 0,
+  "cost_usd": 0.0,
+  "provider": "mock",
+  "autoplay_audio": true,
+  "autoplay_video": false
+}

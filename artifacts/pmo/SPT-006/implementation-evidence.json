@@ -1,0 +1,19 @@
+{
+    "increment_code":  "SPT-006",
+    "version":  "0.1.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T11:14:56.4312357Z",
+    "pipeline_mode":  "mock_controlled",
+    "external_calls":  0,
+    "estimated_cost_usd":  0,
+    "resource_types":  [
+                           "translation_en",
+                           "audio_es",
+                           "audio_en",
+                           "image",
+                           "video"
+                       ],
+    "autoplay_audio":  true,
+    "autoplay_video":  false,
+    "target_capacity_jobs":  120000
+}

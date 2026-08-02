@@ -1,0 +1,19 @@
+{
+  "sequence": [
+    "image",
+    "audio_puinave",
+    "audio_es",
+    "audio_en",
+    "video"
+  ],
+  "autoplay_enabled_default": true,
+  "autoplay_audio_puinave": true,
+  "autoplay_audio_spanish": true,
+  "autoplay_audio_english": true,
+  "autoplay_video_default": false,
+  "video_requires_user_action": true,
+  "respect_device_mute": true,
+  "respect_accessibility_preferences": true,
+  "allow_user_disable_autoplay": true,
+  "stop_on_error": false
+}

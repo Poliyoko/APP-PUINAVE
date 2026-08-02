@@ -1,0 +1,14 @@
+{
+    "increment_code":  "SPT-006",
+    "source":  [
+                   "src/sgoda/enrichment/"
+               ],
+    "tests":  [
+                  "tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+                          "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+                          "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md"
+                      ]
+}
