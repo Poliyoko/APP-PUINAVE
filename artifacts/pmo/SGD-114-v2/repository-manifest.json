@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T09:12:07.034436+00:00",
+  "generated_at_utc": "2026-08-02T09:23:41.641439+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 848,
+  "total_files": 878,
   "totals_by_category": {
-    "other": 370,
-    "evidence": 221,
-    "configuration": 19,
-    "dashboard": 9,
-    "documentation": 59,
-    "release": 34,
-    "automation": 16,
-    "source": 95,
-    "tests": 25
+    "other": 371,
+    "evidence": 230,
+    "configuration": 22,
+    "dashboard": 10,
+    "documentation": 61,
+    "release": 40,
+    "automation": 17,
+    "source": 101,
+    "tests": 26
   },
   "files": [
     {
@@ -224,6 +224,12 @@
       "path": "Install-SPT003A-AI-Multimedia-Orchestrator.ps1",
       "sha256": "45992335ed6e9227c396553a57a62cb373238653f67631dfb3dcc7972f371734",
       "size_bytes": 46685,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT003B-AI-Multimedia-Adapters.ps1",
+      "sha256": "2a6eedcfc40f81b288931d678463c3e6211cc4eb8879bc24e89a3f95ad0a548e",
+      "size_bytes": 39158,
       "category": "other"
     },
     {
@@ -545,6 +551,42 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/automation/SPT-003B/media/RM/RMR-0AAEBE2CE279F1A900B11562.wav.metadata.json",
+      "sha256": "49dfdb80bbf326131d2940b185750d7c0f7175b0a21cad7330277e09211884f8",
+      "size_bytes": 483,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003B/media/RM/RMR-0E28EB22BDE66CA4894C8C88.wav.metadata.json",
+      "sha256": "dd9af999e932c903fe94d6050abf2e4dc65e129949a1e034bf2d438af808ad10",
+      "size_bytes": 483,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003B/media/RM/RMR-0FF5062178A1F646D95DE05B.wav.metadata.json",
+      "sha256": "1c073f11912cba32ffe1b36755e1b0cb820d6948e738fd4de53ba33481ef7deb",
+      "size_bytes": 483,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003B/media/RM/RMR-14D71E46AED41B607BBABE17.wav.metadata.json",
+      "sha256": "a493515e2cc082ccc6e2632a978bfb39f9953ff036839d53df8c66971de6f7b3",
+      "size_bytes": 483,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003B/multimedia-events.jsonl",
+      "sha256": "c44a4055901743751055293c5f3a7786178ba4595cb6271a219c52f326928634",
+      "size_bytes": 3032,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003B/processing-summary.json",
+      "sha256": "2ad1b5606ab2c76fb7b9058ec5f2cb82f656a9b3845b0e74d67b9daa38532996",
+      "size_bytes": 73,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/development/spb-003.2-b1.3/manifest.json",
       "sha256": "08e051dbefb8b148f2a5d93571ed897873446d9ed412cf91e7f4a656c7574d80",
       "size_bytes": 1019,
@@ -852,20 +894,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "86945419c03bfac289ffeb0b80767550bef310f6a50c8ba24e55289b0a6c10e2",
-      "size_bytes": 1429,
+      "sha256": "cfd9e6af869e1ea07f5046b1a3aea51f8e3792cd8a7dedb64f21a82b594cfb29",
+      "size_bytes": 1431,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "37b62a2120e3664da97d0d41e3c485ab71cc3cdee867dd68741a4e649d5732b0",
+      "sha256": "7376d67fcd5272eca2aab0ec6001d1575f1b5b23cf5c8f8e8f70f75030754563",
       "size_bytes": 640,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "1d399359067b23168fbe1ade19e4f7891a45d1e755e27af0fc2529b9bfbe14ee",
-      "size_bytes": 186561,
+      "sha256": "c5bff55ae138b040ae0f10131e69a99994d7ccb3514351cbc9081a33d6681814",
+      "size_bytes": 192125,
       "category": "evidence"
     },
     {
@@ -1596,8 +1638,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "d71a3389cfcc089d04fe9531f27b585353c5c8c490af1e0878a8ec2e4ab20919",
-      "size_bytes": 3764,
+      "sha256": "45c23e1c039e85123fed68d58235b9f037f29a2b8867d42085464310638c7287",
+      "size_bytes": 4608,
       "category": "evidence"
     },
     {
@@ -1724,6 +1766,24 @@
       "path": "artifacts/pmo/SPT-003A/traceability-SPT-003A.json",
       "sha256": "9f3249e8c29cd5580d1596c211fe3f60d2c47423eeceab49de03a521032ff122",
       "size_bytes": 836,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003B/SPT-003B-quality-gate.json",
+      "sha256": "98df2628c8a277eacaeda46a591176b58cee06c0d6bdea83c045cbbd42edde99",
+      "size_bytes": 3650,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003B/implementation-evidence.json",
+      "sha256": "5564a5344b34a7d4b0ab5d9ccd2094e9c36e00adb8b818ff2e73f38c2dfbe26d",
+      "size_bytes": 1113,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003B/traceability-SPT-003B.json",
+      "sha256": "85acb2d8e28ccbc63df5d4710a2983c85faa65916d3c101623b98edf51833636",
+      "size_bytes": 680,
       "category": "evidence"
     },
     {
@@ -3557,6 +3617,24 @@
       "category": "configuration"
     },
     {
+      "path": "config/automation/SPT-003B-component.json",
+      "sha256": "bb098db6ab8c77dc167a072a07f5cd3836d7b2b3b775be6fbdabd5d9c226157a",
+      "size_bytes": 310,
+      "category": "configuration"
+    },
+    {
+      "path": "config/automation/SPT-003B-policy.json",
+      "sha256": "dbe88333596518bc9f0de123c0fd83fb3c78ce85542c6d8861623ae020f128b0",
+      "size_bytes": 557,
+      "category": "configuration"
+    },
+    {
+      "path": "config/automation/SPT-003B-providers.example.json",
+      "sha256": "468918e05256af8c9d99d1a28588bcdf28f03fb38b7f55b1fe161010d72991e5",
+      "size_bytes": 442,
+      "category": "configuration"
+    },
+    {
       "path": "config/evidence-retention-policies.json",
       "sha256": "4949c490877c07876ea87b05784c8c0f54918e7793ccac141309e137cc3c76df",
       "size_bytes": 4756,
@@ -3710,6 +3788,12 @@
       "path": "dashboard/SPT-003A-dashboard.json",
       "sha256": "6ac3352a322f71ee44610279c504fd82ce7d911607537e2c91a7c624bbbd934a",
       "size_bytes": 576,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SPT-003B-dashboard.json",
+      "sha256": "dcfb0d3c76bc92411885059ad5909d6a6d07cd834ef56a97af8d0d893d63e1d1",
+      "size_bytes": 606,
       "category": "dashboard"
     },
     {
@@ -3992,6 +4076,18 @@
       "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Orquestador-IA-Multimedia.md",
       "sha256": "a879074135dee36845dd16c81c106b5140dae2e1408cbeeb78bcfc3c1d92c634",
       "size_bytes": 835,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Adaptadores-IA-Multimedia.md",
+      "sha256": "56532f7008e09b2d0f2a1a37b59df4925c25742d14b1e2d4099189b6b0d6abb6",
+      "size_bytes": 827,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Seguridad-Credenciales-Proveedores.md",
+      "sha256": "fca08f2888da2efbd6dff1391f57fbe75b3f4c25eec3d635a9f6be37a9e9709b",
+      "size_bytes": 485,
       "category": "documentation"
     },
     {
@@ -4289,6 +4385,42 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-Adaptadores-IA-Multimedia.md",
+      "sha256": "56532f7008e09b2d0f2a1a37b59df4925c25742d14b1e2d4099189b6b0d6abb6",
+      "size_bytes": 827,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-Seguridad-Credenciales-Proveedores.md",
+      "sha256": "fca08f2888da2efbd6dff1391f57fbe75b3f4c25eec3d635a9f6be37a9e9709b",
+      "size_bytes": 485,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-policy.json",
+      "sha256": "dbe88333596518bc9f0de123c0fd83fb3c78ce85542c6d8861623ae020f128b0",
+      "size_bytes": 557,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-providers.example.json",
+      "sha256": "468918e05256af8c9d99d1a28588bcdf28f03fb38b7f55b1fe161010d72991e5",
+      "size_bytes": 442,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/multimedia-events.jsonl",
+      "sha256": "c44a4055901743751055293c5f3a7786178ba4595cb6271a219c52f326928634",
+      "size_bytes": 3032,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/processing-summary.json",
+      "sha256": "2ad1b5606ab2c76fb7b9058ec5f2cb82f656a9b3845b0e74d67b9daa38532996",
+      "size_bytes": 73,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -4361,6 +4493,12 @@
       "category": "automation"
     },
     {
+      "path": "scripts/Invoke-SPT003B-AdapterValidation.ps1",
+      "sha256": "2be6bb2ee218860185ce7dccaf502b8828fd574ab66a3cc24f75ad5c19b11126",
+      "size_bytes": 741,
+      "category": "automation"
+    },
+    {
       "path": "scripts/Start-SGODA.ps1",
       "sha256": "5f4e1a2351d5b0a77e6e8968080214b898246184e992977ae514732421788f7b",
       "size_bytes": 482,
@@ -4412,6 +4550,42 @@
       "path": "src/sgoda/automation/__init__.py",
       "sha256": "cc491f395707980a5e22d02cb1dd9097f17a44b7ab16e89e34f7f3da1d785a67",
       "size_bytes": 605,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/adapters/__init__.py",
+      "sha256": "c32da8ffd139e41c1bcf1588c13333eb34f7988cac4ab6f864b77dae087f7bc1",
+      "size_bytes": 1434,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/adapters/contracts.py",
+      "sha256": "3a9875a5ca0d31c272711d320bf28089c9b6fa052ca3f6b63c2606fbf77aaa1c",
+      "size_bytes": 1479,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/adapters/n8n.py",
+      "sha256": "cafd7b2d6b3186defe94baa73b81939e32263aae6ec3c8fe197c1e9b87a3b9fe",
+      "size_bytes": 1114,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/adapters/processor.py",
+      "sha256": "c37731be73c3ebd7c1f33feecf50f8404fae62fc70c8a3bef1bc3dc2ce8481f9",
+      "size_bytes": 5935,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/adapters/providers.py",
+      "sha256": "e0062540a849bee44f3012afb18d8c6de35024fd88e2d3ab438ae7fa3f1fa63e",
+      "size_bytes": 3770,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/adapters/storage.py",
+      "sha256": "3e0f3e0e7376f2594bb97ab0706d13c7ef919d9df55dc26bef0dee411c40ad38",
+      "size_bytes": 4060,
       "category": "source"
     },
     {
@@ -4958,6 +5132,12 @@
       "path": "tests/automation/test_SPT_003A_multimedia_orchestrator.py",
       "sha256": "5a636fdf116a6d915ea9c31c81c5f8910206aa1d64ed71b15b646f0d80e8c525",
       "size_bytes": 6698,
+      "category": "tests"
+    },
+    {
+      "path": "tests/automation/test_SPT_003B_ai_multimedia_adapters.py",
+      "sha256": "0dc513fa53a5f56dc3787cd6c590b9163e6c42e25538295ab8ee26e01417d294",
+      "size_bytes": 6340,
       "category": "tests"
     },
     {
