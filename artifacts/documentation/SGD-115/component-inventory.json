@@ -873,9 +873,50 @@
       "artifacts/lexical_engine/SPT-007B/demo-relations.json",
       "artifacts/lexical_engine/SPT-007B/demo-semantic-rlb.json",
       "artifacts/lexical_engine/SPT-007B/demo-semantic-search.json",
+      "artifacts/pmo/SPT-007B/SPT-007B-implementation-evidence.json",
       "artifacts/pmo/SPT-007B/SPT-007B-policy-result.json",
       "artifacts/pmo/SPT-007B/SPT-007B-policy-result.md",
       "artifacts/pmo/SPT-007B/SPT-007B-pre-gate-evidence.json"
+    ]
+  },
+  {
+    "code": "SPT-007C",
+    "name": "Motor de Conocimiento Lingüístico y Cultural",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "linguistic_cultural_knowledge_engine",
+    "config_path": "config/knowledge_engine/SPT-007C-component.json",
+    "source_paths": [
+      "src/sgoda/knowledge_engine/cli.py",
+      "src/sgoda/knowledge_engine/graph.py",
+      "src/sgoda/knowledge_engine/inference.py",
+      "src/sgoda/knowledge_engine/models.py",
+      "src/sgoda/knowledge_engine/navigation.py",
+      "src/sgoda/knowledge_engine/oda_bridge.py",
+      "src/sgoda/knowledge_engine/ontology.py",
+      "src/sgoda/knowledge_engine/service.py"
+    ],
+    "test_paths": [
+      "tests/knowledge_engine/test_SPT_007C_knowledge_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md"
+    ],
+    "release_paths": [
+      "releases/SPT-007C-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/knowledge_engine/SPT-007C/demo-knowledge-graph.json",
+      "artifacts/knowledge_engine/SPT-007C/demo-knowledge-query.json",
+      "artifacts/pmo/SPT-007C/SPT-007C-policy-result.json",
+      "artifacts/pmo/SPT-007C/SPT-007C-policy-result.md",
+      "artifacts/pmo/SPT-007C/SPT-007C-pre-gate-evidence.json"
     ]
   }
 ]

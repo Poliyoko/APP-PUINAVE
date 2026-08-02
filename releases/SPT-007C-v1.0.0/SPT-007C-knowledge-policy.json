@@ -1,0 +1,26 @@
+{
+  "component": "SPT-007C",
+  "version": "1.0.0",
+  "name": "Motor de Conocimiento Lingüístico y Cultural",
+  "local_first": true,
+  "paid_services_required": false,
+  "generative_models_required": false,
+  "no_invention": true,
+  "validated_edges_only": true,
+  "cultural_validation_required": true,
+  "inference": {
+    "enabled": true,
+    "explainable": true,
+    "maximum_depth": 3,
+    "allowed_rules": [
+      "SPT007C-RULE-TRANSITIVE"
+    ]
+  },
+  "integrations": [
+    "SPT-002",
+    "SPT-006",
+    "SPT-007A",
+    "SPT-007B",
+    "SPT-004A"
+  ]
+}

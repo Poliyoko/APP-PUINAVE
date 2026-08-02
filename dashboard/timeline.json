@@ -167,6 +167,15 @@
     "phase": "Fase Tecnológica",
     "status": "implemented",
     "version": "1.0.0",
+    "release": "releases/SPT-007B-v1.0.0",
+    "last_git_date": "2026-08-02T14:58:34-05:00"
+  },
+  {
+    "code": "SPT-007C",
+    "name": "Motor de Conocimiento Lingüístico y Cultural",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
     "release": null,
     "last_git_date": null
   }

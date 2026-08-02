@@ -1,0 +1,107 @@
+{
+  "query_node_id": "LEX-001",
+  "no_invention": true,
+  "nodes": [
+    {
+      "node_id": "CON-001",
+      "node_type": "concept",
+      "label": "Casa",
+      "language": "es",
+      "validated": true,
+      "cultural_status": "pending",
+      "source_ref": null,
+      "metadata": {}
+    },
+    {
+      "node_id": "CON-002",
+      "node_type": "concept",
+      "label": "Vivienda",
+      "language": "es",
+      "validated": true,
+      "cultural_status": "pending",
+      "source_ref": null,
+      "metadata": {}
+    },
+    {
+      "node_id": "LEX-001",
+      "node_type": "lexical_entry",
+      "label": "AMDA",
+      "language": "pu",
+      "validated": true,
+      "cultural_status": "pending",
+      "source_ref": "RLB:LEX-001",
+      "metadata": {}
+    },
+    {
+      "node_id": "ODA-001",
+      "node_type": "oda",
+      "label": "Aprender AMDA",
+      "language": null,
+      "validated": true,
+      "cultural_status": "pending",
+      "source_ref": "ODA:ODA-001",
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "CON-001",
+      "target_id": "CON-002",
+      "relation_type": "is_a",
+      "weight": 1.0,
+      "validated": true,
+      "cultural": false,
+      "source_ref": null,
+      "metadata": {}
+    },
+    {
+      "source_id": "CON-001",
+      "target_id": "LEX-001",
+      "relation_type": "related_to",
+      "weight": 1.0,
+      "validated": true,
+      "cultural": false,
+      "source_ref": null,
+      "metadata": {
+        "generated_reverse": true
+      }
+    },
+    {
+      "source_id": "LEX-001",
+      "target_id": "CON-001",
+      "relation_type": "related_to",
+      "weight": 1.0,
+      "validated": true,
+      "cultural": false,
+      "source_ref": null,
+      "metadata": {}
+    },
+    {
+      "source_id": "LEX-001",
+      "target_id": "ODA-001",
+      "relation_type": "has_oda",
+      "weight": 1.0,
+      "validated": true,
+      "cultural": false,
+      "source_ref": null,
+      "metadata": {}
+    }
+  ],
+  "inference": [],
+  "recommendations": [
+    "CON-001",
+    "ODA-001"
+  ],
+  "learning_resources": {
+    "node_id": "LEX-001",
+    "media": [],
+    "odas": [
+      {
+        "node_id": "ODA-001",
+        "label": "Aprender AMDA",
+        "source_ref": "ODA:ODA-001",
+        "metadata": {}
+      }
+    ]
+  }
+}

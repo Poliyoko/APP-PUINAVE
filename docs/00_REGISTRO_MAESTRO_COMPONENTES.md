@@ -25,7 +25,8 @@
 | SPT-006 | Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe | 0.1.0 | technically_completed | `config/enrichment/SPT-006-component.json` | 6 | 1 | 6 | 2 | 109 |
 | SPT-006A | Motor Multilingüe Local, Gratuito y con Licencias Verificadas | 0.2.0 | technically_completed | `config/language_engine/SPT-006A-component.json` | 7 | 1 | 3 | 1 | 4 |
 | SPT-007A | Fundación del Motor Léxico Inteligente | 0.1.0 | implemented | `config/lexical_engine/SPT-007A-component.json` | 8 | 1 | 3 | 1 | 6 |
-| SPT-007B | Motor Léxico Inteligente Semántico | 1.0.0 | implemented | `config/lexical_engine/SPT-007B-component.json` | 8 | 1 | 3 | 1 | 6 |
+| SPT-007B | Motor Léxico Inteligente Semántico | 1.0.0 | implemented | `config/lexical_engine/SPT-007B-component.json` | 8 | 1 | 3 | 1 | 7 |
+| SPT-007C | Motor de Conocimiento Lingüístico y Cultural | 1.0.0 | implemented | `config/knowledge_engine/SPT-007C-component.json` | 8 | 1 | 7 | 1 | 5 |
 
 ## Detalle por componente
 
@@ -291,5 +292,17 @@
 - **Pruebas:** `tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py`
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md`
 - **Releases:** `releases/SPT-007B-v1.0.0`
-- **Evidencias:** 6 archivo(s) identificado(s).
+- **Evidencias:** 7 archivo(s) identificado(s).
+
+### SPT-007C — Motor de Conocimiento Lingüístico y Cultural
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** linguistic_cultural_knowledge_engine
+- **Configuración:** `config/knowledge_engine/SPT-007C-component.json`
+- **Código:** `src/sgoda/knowledge_engine/cli.py`, `src/sgoda/knowledge_engine/graph.py`, `src/sgoda/knowledge_engine/inference.py`, `src/sgoda/knowledge_engine/models.py`, `src/sgoda/knowledge_engine/navigation.py`, `src/sgoda/knowledge_engine/oda_bridge.py`, `src/sgoda/knowledge_engine/ontology.py`, `src/sgoda/knowledge_engine/service.py`
+- **Pruebas:** `tests/knowledge_engine/test_SPT_007C_knowledge_engine.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md`
+- **Releases:** `releases/SPT-007C-v1.0.0`
+- **Evidencias:** 5 archivo(s) identificado(s).
 

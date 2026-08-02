@@ -1,0 +1,33 @@
+{
+  "node_types": [
+    "lexical_entry",
+    "concept",
+    "cultural_practice",
+    "place",
+    "person",
+    "animal",
+    "plant",
+    "object",
+    "story",
+    "media",
+    "oda",
+    "category"
+  ],
+  "relation_types": [
+    "is_a",
+    "part_of",
+    "related_to",
+    "synonym_of",
+    "variant_of",
+    "family_of",
+    "used_in",
+    "located_in",
+    "appears_in",
+    "has_media",
+    "has_oda",
+    "teaches",
+    "broader_than",
+    "narrower_than",
+    "cultural_relation"
+  ]
+}

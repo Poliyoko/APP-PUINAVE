@@ -1,0 +1,69 @@
+{
+    "nodes":  [
+                  {
+                      "node_id":  "LEX-001",
+                      "node_type":  "lexical_entry",
+                      "label":  "AMDA",
+                      "language":  "pu",
+                      "validated":  true,
+                      "source_ref":  "RLB:LEX-001"
+                  },
+                  {
+                      "node_id":  "CON-001",
+                      "node_type":  "concept",
+                      "label":  "Casa",
+                      "language":  "es",
+                      "validated":  true
+                  },
+                  {
+                      "node_id":  "CON-002",
+                      "node_type":  "concept",
+                      "label":  "Vivienda",
+                      "language":  "es",
+                      "validated":  true
+                  },
+                  {
+                      "node_id":  "CAT-001",
+                      "node_type":  "category",
+                      "label":  "Construcciones",
+                      "validated":  true
+                  },
+                  {
+                      "node_id":  "ODA-001",
+                      "node_type":  "oda",
+                      "label":  "Aprender AMDA",
+                      "validated":  true,
+                      "source_ref":  "ODA:ODA-001"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "source_id":  "LEX-001",
+                      "target_id":  "CON-001",
+                      "relation_type":  "related_to",
+                      "validated":  true,
+                      "weight":  1
+                  },
+                  {
+                      "source_id":  "CON-001",
+                      "target_id":  "CON-002",
+                      "relation_type":  "is_a",
+                      "validated":  true,
+                      "weight":  1
+                  },
+                  {
+                      "source_id":  "CON-002",
+                      "target_id":  "CAT-001",
+                      "relation_type":  "is_a",
+                      "validated":  true,
+                      "weight":  1
+                  },
+                  {
+                      "source_id":  "LEX-001",
+                      "target_id":  "ODA-001",
+                      "relation_type":  "has_oda",
+                      "validated":  true,
+                      "weight":  1
+                  }
+              ]
+}
