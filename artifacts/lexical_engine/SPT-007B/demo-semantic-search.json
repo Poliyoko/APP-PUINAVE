@@ -1,0 +1,51 @@
+{
+  "query": "casa",
+  "normalized_query": "casa",
+  "total": 2,
+  "suggestions": [],
+  "no_invention": true,
+  "results": [
+    {
+      "entry_id": "LEX-001",
+      "final_score": 90.25,
+      "lexical_score": 115.0,
+      "semantic_score": 100.0,
+      "relation_score": 0.0,
+      "matched_terms": [
+        "casa"
+      ],
+      "relation_types": [],
+      "explanation": [
+        "coincidencia:exact"
+      ],
+      "puinave": "AMDA",
+      "spanish": "casa",
+      "english_us": "house",
+      "italian": "casa",
+      "category": "sustantivo",
+      "validated": true,
+      "cultural_status": "pending"
+    },
+    {
+      "entry_id": "LEX-002",
+      "final_score": 27.0,
+      "lexical_score": 0.0,
+      "semantic_score": 20.0,
+      "relation_score": 100.0,
+      "matched_terms": [],
+      "relation_types": [
+        "synonym"
+      ],
+      "explanation": [
+        "relaciones:synonym"
+      ],
+      "puinave": "AMDA-KU",
+      "spanish": "hogar",
+      "english_us": "home",
+      "italian": "dimora",
+      "category": "sustantivo",
+      "validated": true,
+      "cultural_status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "relations":  [
+                      {
+                          "source_id":  "LEX-001",
+                          "target_id":  "LEX-002",
+                          "relation_type":  "synonym",
+                          "weight":  1,
+                          "validated":  true,
+                          "cultural":  false
+                      }
+                  ]
+}

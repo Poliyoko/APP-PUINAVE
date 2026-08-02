@@ -835,9 +835,47 @@
     "evidence_paths": [
       "artifacts/lexical_engine/SPT-007A/demo-rlb.json",
       "artifacts/lexical_engine/SPT-007A/demo-search.json",
+      "artifacts/pmo/SPT-007A/SPT-007A-implementation-evidence.json",
       "artifacts/pmo/SPT-007A/SPT-007A-policy-result.json",
       "artifacts/pmo/SPT-007A/SPT-007A-policy-result.md",
       "artifacts/pmo/SPT-007A/SPT-007A-pre-gate-evidence.json"
+    ]
+  },
+  {
+    "code": "SPT-007B",
+    "name": "Motor Léxico Inteligente Semántico",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "semantic_lexical_engine",
+    "config_path": "config/lexical_engine/SPT-007B-component.json",
+    "source_paths": [
+      "src/sgoda/lexical_engine/query_expansion.py",
+      "src/sgoda/lexical_engine/relations.py",
+      "src/sgoda/lexical_engine/semantic_cli.py",
+      "src/sgoda/lexical_engine/semantic_index.py",
+      "src/sgoda/lexical_engine/semantic_models.py",
+      "src/sgoda/lexical_engine/semantic_ranking.py",
+      "src/sgoda/lexical_engine/semantic_service.py",
+      "src/sgoda/lexical_engine/suggestions.py"
+    ],
+    "test_paths": [
+      "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md"
+    ],
+    "release_paths": [
+      "releases/SPT-007B-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/lexical_engine/SPT-007B/demo-relations.json",
+      "artifacts/lexical_engine/SPT-007B/demo-semantic-rlb.json",
+      "artifacts/lexical_engine/SPT-007B/demo-semantic-search.json",
+      "artifacts/pmo/SPT-007B/SPT-007B-policy-result.json",
+      "artifacts/pmo/SPT-007B/SPT-007B-policy-result.md",
+      "artifacts/pmo/SPT-007B/SPT-007B-pre-gate-evidence.json"
     ]
   }
 ]

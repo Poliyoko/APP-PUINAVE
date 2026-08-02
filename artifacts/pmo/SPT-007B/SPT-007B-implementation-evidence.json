@@ -1,0 +1,31 @@
+{
+    "increment_code":  "SPT-007B",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "phase":  "Fase Tecnológica",
+    "generated_at_utc":  "2026-08-02T19:56:47.6184099Z",
+    "capabilities":  [
+                         "multilingual_inverted_index",
+                         "explicit_variants",
+                         "validated_relations",
+                         "lexical_families",
+                         "semantic_expansion",
+                         "hybrid_ranking",
+                         "safe_suggestions",
+                         "assistant_contract",
+                         "no_invention"
+                     ],
+    "supported_languages":  [
+                                "pu",
+                                "es",
+                                "en-US",
+                                "it"
+                            ],
+    "specific_tests":  12,
+    "full_suite_executed":  true,
+    "policy_approved":  true,
+    "policy_exit_code":  0,
+    "roadmap_approved":  true,
+    "demo":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\lexical_engine\\SPT-007B\\demo-semantic-search.json",
+    "backup":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-007B\\backups\\pre-SPT007B-20260802-195614"
+}

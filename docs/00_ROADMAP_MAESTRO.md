@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **18**  
-Avance institucional: **83.33%**
+Componentes registrados: **19**  
+Avance institucional: **84.21%**
 
 ## Asistente e integraciones
 
@@ -23,7 +23,8 @@ Avance institucional: **83.33%**
 
 | Código | Componente | Estado | Versión | Release |
 |---|---|---|---|---|
-| SPT-007A | Fundación del Motor Léxico Inteligente | implemented | 0.1.0 | Pendiente |
+| SPT-007A | Fundación del Motor Léxico Inteligente | implemented | 0.1.0 | releases/SPT-007A-v0.1.0 |
+| SPT-007B | Motor Léxico Inteligente Semántico | implemented | 1.0.0 | Pendiente |
 
 ## Gobierno y arquitectura
 

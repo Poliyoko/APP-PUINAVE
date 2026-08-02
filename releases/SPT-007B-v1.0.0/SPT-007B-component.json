@@ -1,0 +1,35 @@
+{
+  "increment_code": "SPT-007B",
+  "name": "Motor Léxico Inteligente Semántico",
+  "component_type": "semantic_lexical_engine",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica",
+  "dependencies": [
+    "SPT-007A",
+    "SPT-006",
+    "SPT-006A",
+    "SPT-004A",
+    "SGD-114C",
+    "SGD-115",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/lexical_engine/semantic_models.py",
+    "src/sgoda/lexical_engine/semantic_index.py",
+    "src/sgoda/lexical_engine/relations.py",
+    "src/sgoda/lexical_engine/query_expansion.py",
+    "src/sgoda/lexical_engine/semantic_ranking.py",
+    "src/sgoda/lexical_engine/suggestions.py",
+    "src/sgoda/lexical_engine/semantic_service.py",
+    "src/sgoda/lexical_engine/semantic_cli.py"
+  ],
+  "tests": [
+    "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py"
+  ],
+  "documentation": [
+    "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+    "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md",
+    "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md"
+  ]
+}

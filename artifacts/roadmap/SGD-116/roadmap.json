@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-02T19:39:22.485428+00:00",
+  "generated_at_utc": "2026-08-02T19:56:37.048428+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -607,12 +607,55 @@
         "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
         "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md"
       ],
-      "release_path": null,
+      "release_path": "releases/SPT-007A-v0.1.0",
       "config_path": "config/lexical_engine/SPT-007A-component.json",
       "metadata": {
         "discovery_source": "descriptor",
         "raw_code": "SPT-007A",
         "canonical_code": "SPT-007A",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-007B",
+      "name": "Motor Léxico Inteligente Semántico",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "semantic_lexical_engine",
+      "phase": "Fase Tecnológica",
+      "dependencies": [
+        "SPT-007A",
+        "SPT-006",
+        "SPT-006A",
+        "SPT-004A",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/lexical_engine/semantic_models.py",
+        "src/sgoda/lexical_engine/semantic_index.py",
+        "src/sgoda/lexical_engine/relations.py",
+        "src/sgoda/lexical_engine/query_expansion.py",
+        "src/sgoda/lexical_engine/semantic_ranking.py",
+        "src/sgoda/lexical_engine/suggestions.py",
+        "src/sgoda/lexical_engine/semantic_service.py",
+        "src/sgoda/lexical_engine/semantic_cli.py"
+      ],
+      "test_paths": [
+        "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md"
+      ],
+      "release_path": null,
+      "config_path": "config/lexical_engine/SPT-007B-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-007B",
+        "canonical_code": "SPT-007B",
         "alias_applied": false
       }
     }

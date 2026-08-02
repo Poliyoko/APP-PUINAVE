@@ -158,6 +158,15 @@
     "phase": "Fase Tecnológica",
     "status": "implemented",
     "version": "0.1.0",
+    "release": "releases/SPT-007A-v0.1.0",
+    "last_git_date": "2026-08-02T14:42:06-05:00"
+  },
+  {
+    "code": "SPT-007B",
+    "name": "Motor Léxico Inteligente Semántico",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
     "release": null,
     "last_git_date": null
   }

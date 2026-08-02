@@ -1,0 +1,32 @@
+{
+  "component": "SPT-007B",
+  "version": "1.0.0",
+  "name": "Motor Léxico Inteligente Semántico",
+  "local_first": true,
+  "paid_services_required": false,
+  "generative_models_required": false,
+  "no_invention": true,
+  "validated_relations_only": true,
+  "allowed_relation_types": [
+    "synonym",
+    "related",
+    "family",
+    "variant",
+    "broader",
+    "narrower",
+    "cultural",
+    "antonym"
+  ],
+  "supported_languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ],
+  "ranking": {
+    "lexical_weight": 0.55,
+    "semantic_weight": 0.25,
+    "relation_weight": 0.20
+  },
+  "cultural_validation_required": true
+}

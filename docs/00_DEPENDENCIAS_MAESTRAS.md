@@ -47,3 +47,10 @@
 | SPT-007A | SPT-004A | Interna |
 | SPT-007A | SPT-006 | Interna |
 | SPT-007A | SPT-006A | Interna |
+| SPT-007B | SGD-114C | Interna |
+| SPT-007B | SGD-115 | Interna |
+| SPT-007B | SGD-116 | Interna |
+| SPT-007B | SPT-004A | Interna |
+| SPT-007B | SPT-006 | Interna |
+| SPT-007B | SPT-006A | Interna |
+| SPT-007B | SPT-007A | Interna |

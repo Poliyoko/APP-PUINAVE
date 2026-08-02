@@ -24,7 +24,8 @@
 | SPT-005 | Sistema de Identidad Cultural Configurable | 0.1.0 | technically_completed | `config/identity/SPT-005-component.json` | 5 | 1 | 3 | 1 | 6 |
 | SPT-006 | Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe | 0.1.0 | technically_completed | `config/enrichment/SPT-006-component.json` | 6 | 1 | 6 | 2 | 109 |
 | SPT-006A | Motor Multilingüe Local, Gratuito y con Licencias Verificadas | 0.2.0 | technically_completed | `config/language_engine/SPT-006A-component.json` | 7 | 1 | 3 | 1 | 4 |
-| SPT-007A | Fundación del Motor Léxico Inteligente | 0.1.0 | implemented | `config/lexical_engine/SPT-007A-component.json` | 8 | 1 | 3 | 1 | 5 |
+| SPT-007A | Fundación del Motor Léxico Inteligente | 0.1.0 | implemented | `config/lexical_engine/SPT-007A-component.json` | 8 | 1 | 3 | 1 | 6 |
+| SPT-007B | Motor Léxico Inteligente Semántico | 1.0.0 | implemented | `config/lexical_engine/SPT-007B-component.json` | 8 | 1 | 3 | 1 | 6 |
 
 ## Detalle por componente
 
@@ -278,5 +279,17 @@
 - **Pruebas:** `tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py`
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md`
 - **Releases:** `releases/SPT-007A-v0.1.0`
-- **Evidencias:** 5 archivo(s) identificado(s).
+- **Evidencias:** 6 archivo(s) identificado(s).
+
+### SPT-007B — Motor Léxico Inteligente Semántico
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** semantic_lexical_engine
+- **Configuración:** `config/lexical_engine/SPT-007B-component.json`
+- **Código:** `src/sgoda/lexical_engine/query_expansion.py`, `src/sgoda/lexical_engine/relations.py`, `src/sgoda/lexical_engine/semantic_cli.py`, `src/sgoda/lexical_engine/semantic_index.py`, `src/sgoda/lexical_engine/semantic_models.py`, `src/sgoda/lexical_engine/semantic_ranking.py`, `src/sgoda/lexical_engine/semantic_service.py`, `src/sgoda/lexical_engine/suggestions.py`
+- **Pruebas:** `tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md`
+- **Releases:** `releases/SPT-007B-v1.0.0`
+- **Evidencias:** 6 archivo(s) identificado(s).
 

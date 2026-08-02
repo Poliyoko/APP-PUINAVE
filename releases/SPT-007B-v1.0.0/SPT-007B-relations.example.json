@@ -1,0 +1,13 @@
+{
+  "relations": [
+    {
+      "source_id": "LEX-001",
+      "target_id": "LEX-002",
+      "relation_type": "related",
+      "weight": 0.8,
+      "validated": false,
+      "cultural": false,
+      "review_required": true
+    }
+  ]
+}

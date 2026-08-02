@@ -1,0 +1,25 @@
+{
+    "entries":  [
+                    {
+                        "id":  "LEX-001",
+                        "puinave":  "AMDA",
+                        "spanish":  "casa",
+                        "english_us":  "house",
+                        "italian":  "casa",
+                        "validated":  true,
+                        "category":  "sustantivo",
+                        "variants":  [
+                                         "amdaa"
+                                     ]
+                    },
+                    {
+                        "id":  "LEX-002",
+                        "puinave":  "AMDA-KU",
+                        "spanish":  "hogar",
+                        "english_us":  "home",
+                        "italian":  "dimora",
+                        "validated":  true,
+                        "category":  "sustantivo"
+                    }
+                ]
+}
