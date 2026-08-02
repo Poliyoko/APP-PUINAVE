@@ -1,0 +1,18 @@
+{
+    "increment_code":  "SPT-004A",
+    "generated_at_utc":  "2026-08-02T10:05:38.2979386Z",
+    "source":  [
+                   "src/sgoda/assistant/"
+               ],
+    "tests":  [
+                  "tests/assistant/test_SPT_004A_institutional_assistant.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+                          "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+                          "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SPT-004A/implementation-evidence.json"
+                 ]
+}

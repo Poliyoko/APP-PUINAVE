@@ -1,0 +1,13 @@
+{
+  "technical_id": "SPT-004",
+  "internal_name": "InstitutionalIntelligentAssistant",
+  "temporary_display_name": "Asistente Virtual SGODA",
+  "official_puinave_name": null,
+  "official_name_status": "pending_linguistic_and_cultural_validation",
+  "naming_principles": [
+    "do_not_invent_puinave_terms",
+    "community_validation_required",
+    "preserve_technical_traceability",
+    "update_visible_identity_without_changing_technical_id"
+  ]
+}

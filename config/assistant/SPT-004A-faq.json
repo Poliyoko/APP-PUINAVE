@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "FAQ-PLATFORM-001",
+      "keywords": ["como buscar", "buscar palabra", "encontrar palabra"],
+      "answer": "Usa el buscador principal, escribe una palabra en Puinave, español o inglés y selecciona una entrada para consultar su ficha.",
+      "suggestions": ["Buscar una palabra", "Escuchar pronunciación"]
+    },
+    {
+      "id": "FAQ-PLATFORM-002",
+      "keywords": ["como escuchar", "escuchar audio", "pronunciacion"],
+      "answer": "Abre la ficha de la palabra y selecciona el botón de audio correspondiente al idioma disponible.",
+      "suggestions": ["Buscar una palabra"]
+    },
+    {
+      "id": "FAQ-PROJECT-001",
+      "keywords": ["que es sgoda", "proyecto puinave", "objetivo del proyecto"],
+      "answer": "SGODA-PUINAVE es un ecosistema digital orientado a preservar, documentar y apoyar la enseñanza de la lengua Puinave mediante datos léxicos, audios, imágenes y objetos digitales de aprendizaje.",
+      "suggestions": ["Conocer el diccionario", "Buscar una palabra"]
+    },
+    {
+      "id": "FAQ-CULTURE-001",
+      "keywords": ["nombre del robot", "nombre del asistente"],
+      "answer": "El asistente conserva temporalmente un nombre técnico. Su nombre oficial será una palabra en Puinave validada lingüística y culturalmente por la comunidad.",
+      "suggestions": ["Conocer el proyecto"]
+    }
+  ]
+}

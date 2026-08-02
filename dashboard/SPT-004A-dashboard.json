@@ -1,0 +1,25 @@
+{
+    "increment_code":  "SPT-004A",
+    "technical_id":  "SPT-004",
+    "version":  "0.1.0",
+    "status":  "technically_completed",
+    "generated_at_utc":  "2026-08-02T10:06:02.7656740Z",
+    "temporary_display_name":  "Asistente Virtual SGODA",
+    "cultural_name":  "pending_puinave_validation",
+    "generative_ai_enabled":  false,
+    "validated_sources_only":  true,
+    "supported_intents":  6,
+    "initial_languages":  [
+                              "es"
+                          ],
+    "future_languages":  [
+                             "en",
+                             "pui"
+                         ],
+    "specific_tests":  10,
+    "expected_total_tests":  149,
+    "demo_validated":  true,
+    "demo_sources":  1,
+    "quality_gate":  "approved",
+    "release":  "SPT-004A-v0.1.0"
+}

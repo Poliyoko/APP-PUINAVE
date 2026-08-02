@@ -1,0 +1,22 @@
+{
+  "answer": "SGODA-PUINAVE es un ecosistema digital orientado a preservar, documentar y apoyar la enseñanza de la lengua Puinave mediante datos léxicos, audios, imágenes y objetos digitales de aprendizaje.",
+  "intent": "project_information",
+  "confidence": 0.92,
+  "validated": true,
+  "found": true,
+  "sources": [
+    {
+      "source_type": "institutional_faq",
+      "source_id": "FAQ-PROJECT-001",
+      "label": "Preguntas frecuentes institucionales",
+      "path": "config/assistant/SPT-004A-faq.json",
+      "validated": true
+    }
+  ],
+  "suggestions": [
+    "Conocer el diccionario",
+    "Buscar una palabra"
+  ],
+  "data": {},
+  "requires_human_review": false
+}

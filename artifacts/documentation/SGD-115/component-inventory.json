@@ -337,5 +337,38 @@
       "artifacts/pmo/SPT-003C/implementation-evidence.json",
       "artifacts/pmo/SPT-003C/traceability-SPT-003C.json"
     ]
+  },
+  {
+    "code": "SPT-004A",
+    "name": "Fundación del Asistente Inteligente Institucional",
+    "version": "0.1.0",
+    "status": "technically_completed",
+    "component_type": "institutional_intelligent_assistant",
+    "config_path": "config/assistant/SPT-004A-component.json",
+    "source_paths": [
+      "src/sgoda/assistant/cli.py",
+      "src/sgoda/assistant/faq.py",
+      "src/sgoda/assistant/intent_classifier.py",
+      "src/sgoda/assistant/knowledge_repository.py",
+      "src/sgoda/assistant/models.py",
+      "src/sgoda/assistant/service.py"
+    ],
+    "test_paths": [
+      "tests/assistant/test_SPT_004A_institutional_assistant.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+      "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md",
+      "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md"
+    ],
+    "release_paths": [
+      "releases/SPT-004A-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/assistant/SPT-004A/demo-response.json",
+      "artifacts/pmo/SPT-004A/SPT-004A-quality-gate.json",
+      "artifacts/pmo/SPT-004A/implementation-evidence.json",
+      "artifacts/pmo/SPT-004A/traceability-SPT-004A.json"
+    ]
   }
 ]

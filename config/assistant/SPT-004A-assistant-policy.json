@@ -1,0 +1,26 @@
+{
+  "increment_code": "SPT-004A",
+  "version": "0.1.0",
+  "policy_name": "Fundación del Asistente Inteligente Institucional",
+  "technical_id": "SPT-004",
+  "display_name": "Asistente Virtual SGODA",
+  "cultural_name_status": "pending_puinave_validation",
+  "generative_ai_enabled": false,
+  "validated_sources_only": true,
+  "invent_puinave_words": false,
+  "unresolved_questions_require_human_review": true,
+  "supported_intents": [
+    "platform_help",
+    "project_information",
+    "lexical_search",
+    "category_search",
+    "learning_activity",
+    "unknown"
+  ],
+  "supported_languages_initial": ["es"],
+  "future_languages": ["en", "pui"],
+  "governed_by": [
+    "SGD-114-v2.0.1",
+    "SGD-115-v1.0.1"
+  ]
+}

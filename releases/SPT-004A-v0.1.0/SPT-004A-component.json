@@ -1,0 +1,28 @@
+{
+  "increment_code": "SPT-004A",
+  "name": "Fundación del Asistente Inteligente Institucional",
+  "component_type": "institutional_intelligent_assistant",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.assistant.cli",
+  "source": [
+    "src/sgoda/assistant/models.py",
+    "src/sgoda/assistant/intent_classifier.py",
+    "src/sgoda/assistant/knowledge_repository.py",
+    "src/sgoda/assistant/faq.py",
+    "src/sgoda/assistant/service.py",
+    "src/sgoda/assistant/cli.py"
+  ],
+  "tests": [
+    "tests/assistant/test_SPT_004A_institutional_assistant.py"
+  ],
+  "documentation": [
+    "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+    "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+    "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md"
+  ],
+  "governed_by": [
+    "SGD-114-v2.0.1",
+    "SGD-115-v1.0.1"
+  ]
+}

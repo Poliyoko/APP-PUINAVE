@@ -1,0 +1,16 @@
+{
+    "increment_code":  "SPT-004A",
+    "technical_id":  "SPT-004",
+    "version":  "0.1.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T10:05:38.2979386Z",
+    "temporary_display_name":  "Asistente Virtual SGODA",
+    "official_puinave_name":  null,
+    "cultural_name_status":  "pending_validation",
+    "generative_ai_enabled":  false,
+    "validated_sources_only":  true,
+    "source_repositories":  [
+                                "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+                                "artifacts/oda/SPT-002/oda-repository-v0.1.0.json"
+                            ]
+}

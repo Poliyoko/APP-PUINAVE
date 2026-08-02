@@ -15,6 +15,7 @@
 | SPT-003A | ai_multimedia_orchestrator | 0.1.0 | technically_completed | `config/automation/SPT-003A-component.json` | 4 | 1 | 2 | 1 | 8 |
 | SPT-003B | ai_multimedia_adapters | 0.1.0 | technically_completed | `config/automation/SPT-003B-component.json` | 0 | 1 | 2 | 1 | 13 |
 | SPT-003C | Piloto Controlado de Proveedores Reales | 0.1.0 | technically_completed | `config/automation/SPT-003C-component.json` | 5 | 1 | 2 | 1 | 4 |
+| SPT-004A | Fundación del Asistente Inteligente Institucional | 0.1.0 | technically_completed | `config/assistant/SPT-004A-component.json` | 6 | 1 | 3 | 1 | 4 |
 
 ## Detalle por componente
 
@@ -148,5 +149,17 @@
 - **Pruebas:** `tests/automation/test_SPT_003C_controlled_provider_pilot.py`
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Piloto-Controlado-Proveedores.md`, `docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md`
 - **Releases:** `releases/SPT-003C-v0.1.0`
+- **Evidencias:** 4 archivo(s) identificado(s).
+
+### SPT-004A — Fundación del Asistente Inteligente Institucional
+
+- **Versión:** 0.1.0
+- **Estado:** technically_completed
+- **Tipo:** institutional_intelligent_assistant
+- **Configuración:** `config/assistant/SPT-004A-component.json`
+- **Código:** `src/sgoda/assistant/cli.py`, `src/sgoda/assistant/faq.py`, `src/sgoda/assistant/intent_classifier.py`, `src/sgoda/assistant/knowledge_repository.py`, `src/sgoda/assistant/models.py`, `src/sgoda/assistant/service.py`
+- **Pruebas:** `tests/assistant/test_SPT_004A_institutional_assistant.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md`, `docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md`, `docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md`
+- **Releases:** `releases/SPT-004A-v0.1.0`
 - **Evidencias:** 4 archivo(s) identificado(s).
 

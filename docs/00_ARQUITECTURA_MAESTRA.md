@@ -105,7 +105,7 @@ Eventos principales:
 
 ## 7. Componentes inventariados
 
-El registro automático identifica **11** componentes institucionales.
+El registro automático identifica **12** componentes institucionales.
 
 ## 8. Evolución prevista
 
