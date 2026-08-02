@@ -1,0 +1,1594 @@
+{
+  "metadata": {
+    "sistema": "SGODA-PUINAVE",
+    "entregable": "SPT-002",
+    "version_motor": "0.1.0",
+    "generated_at_utc": "2026-08-02T07:22:46.701019+00:00",
+    "source_release": "SPT-001B-v1.0.0",
+    "source_repository": "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+    "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+    "total_oda": 20
+  },
+  "objetos_digitales_aprendizaje": [
+    {
+      "oda_id": "ODA-0001",
+      "canonical_id": "0001",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0001.mp3",
+      "traduccion_espanol": "0001.mp3",
+      "traduccion_ingles": "0001.mp3",
+      "categoria_gramatical": "SOCIEDAD",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0001.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0001",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0002",
+      "canonical_id": "0002",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0002.mp3",
+      "traduccion_espanol": "0002.mp3",
+      "traduccion_ingles": "0002.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0002.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0002",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0003",
+      "canonical_id": "0003",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0003.mp3",
+      "traduccion_espanol": "0003.mp3",
+      "traduccion_ingles": "0003.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0003.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0003",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0004",
+      "canonical_id": "0004",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0004.mp3",
+      "traduccion_espanol": "0004.mp3",
+      "traduccion_ingles": "0004.mp3",
+      "categoria_gramatical": "FAMILIA",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0004.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0004",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0005",
+      "canonical_id": "0005",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0005.mp3",
+      "traduccion_espanol": "0005.mp3",
+      "traduccion_ingles": "0005.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0005.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0005",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0006",
+      "canonical_id": "0006",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0006.mp3",
+      "traduccion_espanol": "0006.mp3",
+      "traduccion_ingles": "0006.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0006.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0006",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0007",
+      "canonical_id": "0007",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0007.mp3",
+      "traduccion_espanol": "0007.mp3",
+      "traduccion_ingles": "0007.mp3",
+      "categoria_gramatical": "ACCION",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0007.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0007",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0008",
+      "canonical_id": "0008",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0008.mp3",
+      "traduccion_espanol": "0008.mp3",
+      "traduccion_ingles": "0008.mp3",
+      "categoria_gramatical": "ACCION",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0008.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0008",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0009",
+      "canonical_id": "0009",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0009.mp3",
+      "traduccion_espanol": "0009.mp3",
+      "traduccion_ingles": "0009.mp3",
+      "categoria_gramatical": "ACCION",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0009.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0009",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0010",
+      "canonical_id": "0010",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0010.mp3",
+      "traduccion_espanol": "0010.mp3",
+      "traduccion_ingles": "0010.mp3",
+      "categoria_gramatical": "ACCION",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0010.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0010",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0011",
+      "canonical_id": "0011",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0011.mp3",
+      "traduccion_espanol": "0011.mp3",
+      "traduccion_ingles": "0011.mp3",
+      "categoria_gramatical": "TRANSPORTE",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0011.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0011",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0012",
+      "canonical_id": "0012",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0012.mp3",
+      "traduccion_espanol": "0012.mp3",
+      "traduccion_ingles": "0012.mp3",
+      "categoria_gramatical": "ACCION",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0012.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0012",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0013",
+      "canonical_id": "0013",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0013.mp3",
+      "traduccion_espanol": "0013.mp3",
+      "traduccion_ingles": "0013.mp3",
+      "categoria_gramatical": "ACCION",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0013.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0013",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0014",
+      "canonical_id": "0014",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0014.mp3",
+      "traduccion_espanol": "0014.mp3",
+      "traduccion_ingles": "0014.mp3",
+      "categoria_gramatical": "TRANSPORTE",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0014.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0014",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0015",
+      "canonical_id": "0015",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0015.mp3",
+      "traduccion_espanol": "0015.mp3",
+      "traduccion_ingles": "0015.mp3",
+      "categoria_gramatical": "ANIMALES",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0015.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0015",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0016",
+      "canonical_id": "0016",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0016.mp3",
+      "traduccion_espanol": "0016.mp3",
+      "traduccion_ingles": "0016.mp3",
+      "categoria_gramatical": "ANIMALES",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0016.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0016",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0017",
+      "canonical_id": "0017",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0017.mp3",
+      "traduccion_espanol": "0017.mp3",
+      "traduccion_ingles": "0017.mp3",
+      "categoria_gramatical": "VERBOS",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0017.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0017",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0018",
+      "canonical_id": "0018",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0018.mp3",
+      "traduccion_espanol": "0018.mp3",
+      "traduccion_ingles": "0018.mp3",
+      "categoria_gramatical": "COLORES",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0018.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0018",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0019",
+      "canonical_id": "0019",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0019.mp3",
+      "traduccion_espanol": "0019.mp3",
+      "traduccion_ingles": "0019.mp3",
+      "categoria_gramatical": "COLORES",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0019.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0019",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    },
+    {
+      "oda_id": "ODA-0020",
+      "canonical_id": "0020",
+      "version": "1.0.0",
+      "estado": "borrador_valido",
+      "palabra_puinave": "0020.mp3",
+      "traduccion_espanol": "0020.mp3",
+      "traduccion_ingles": "0020.mp3",
+      "categoria_gramatical": "COLORES",
+      "tema_cultural": null,
+      "contexto_etnografico": null,
+      "definicion": null,
+      "ejemplo_uso": null,
+      "recursos": [
+        {
+          "tipo": "imagen_ilustrativa",
+          "estado": "pendiente_generacion_ia",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_puinave",
+          "estado": "pendiente_grabacion_nativa",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_espanol",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        },
+        {
+          "tipo": "audio_ingles",
+          "estado": "pendiente_tts",
+          "uri": null,
+          "proveedor": null,
+          "checksum_sha256": null,
+          "metadatos": {}
+        }
+      ],
+      "campos_extensibles": {
+        "categoria_tematica": null,
+        "descripcion_cultural": null,
+        "contexto_uso": null,
+        "comunidad": null,
+        "territorio": null,
+        "imagen": "0020.jpg",
+        "audio_puinave": null,
+        "audio_espanol": null,
+        "audio_ingles": null,
+        "video": null,
+        "nivel_acceso": "pendiente_clasificacion",
+        "autorizacion_publicacion": false,
+        "estado_validacion": "pendiente",
+        "extensiones": {},
+        "campos_desconocidos": [
+          {
+            "columna_original": "OBSERVACIONES",
+            "valor": null
+          }
+        ]
+      },
+      "trazabilidad": {
+        "canonical_id": "0020",
+        "source_release": "SPT-001B-v1.0.0",
+        "source_schema": "config/rlb/schema-v1.1.json",
+        "source_repository_sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+        "generator": "sgoda.oda.engine",
+        "generator_version": "0.1.0"
+      },
+      "validaciones": []
+    }
+  ]
+}

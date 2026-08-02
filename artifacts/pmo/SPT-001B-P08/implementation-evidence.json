@@ -1,0 +1,16 @@
+{
+    "increment_code":  "SPT-001B-P08",
+    "parent_deliverable":  "SPT-001B",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T07:12:53.8665897Z",
+    "components":  [
+                       "src/sgoda/rlb/canonical_consolidator.py",
+                       "tests/rlb/test_SPT_001B_P08_canonical_closure.py",
+                       "config/rlb/SPT-001B-P08-component.json",
+                       "config/rlb/schema-v1.1.json",
+                       "config/rlb/active-schema.json",
+                       "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P08-Consolidacion-Cierre.md",
+                       "docs/01_Gobierno/SPT-001B-Acta-Cierre-Institucional.md"
+                   ]
+}

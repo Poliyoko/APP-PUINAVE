@@ -1,0 +1,4736 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "2.0.0",
+  "generated_at_utc": "2026-08-02T07:56:12.234719+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "total_files": 786,
+  "totals_by_category": {
+    "other": 363,
+    "evidence": 205,
+    "configuration": 15,
+    "dashboard": 6,
+    "documentation": 55,
+    "release": 17,
+    "automation": 14,
+    "source": 88,
+    "tests": 23
+  },
+  "files": [
+    {
+      "path": ".github/workflows/builder-ci.yml",
+      "sha256": "974b98fd7fd0fa776d83b86455956f7f0390251072abd6560cb62bd6a774ac22",
+      "size_bytes": 2585,
+      "category": "other"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "2d8c8bc3e979bafd33f8a18f438708f6db888d8b501755a9b2ce27d5afcd0623",
+      "size_bytes": 3109,
+      "category": "other"
+    },
+    {
+      "path": ".github/workflows/spb-003-2-closure-audit.yml",
+      "sha256": "7670b60f47a4839e99e6b87e29aa5aea9b423a8fa8e0e6eba70904401169ae7d",
+      "size_bytes": 1978,
+      "category": "other"
+    },
+    {
+      "path": ".github/workflows/spb-003.2-closure.yml",
+      "sha256": "41990a43f414c3a94a36ace46fa4f2ef78f1cc25c168cdb67922e3289845fa90",
+      "size_bytes": 807,
+      "category": "other"
+    },
+    {
+      "path": ".github/workflows/utf8-repository-compliance.yml",
+      "sha256": "c2290ce092f3fb1f3d25848c5ff40003b7133528f1220ed286eadfce5e0e45c3",
+      "size_bytes": 452,
+      "category": "other"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "sha256": "ec69176448bac4eeaa88a91f07293bfdce1fbf9a654946783bec8ea457aa1055",
+      "size_bytes": 224,
+      "category": "other"
+    },
+    {
+      "path": "APLICAR_SPB-003.2_PGD_PMO.ps1",
+      "sha256": "cdb48b9f080d0413b14d7e097b6c55a856b279049c521461cdfcd9da7742ab5b",
+      "size_bytes": 825,
+      "category": "other"
+    },
+    {
+      "path": "Apply-MMGR001.ps1",
+      "sha256": "67ef2be1c00654b6e7b6b3b6f4b1d0daa0087a85ede4f4d20c573153e66119ed",
+      "size_bytes": 27662,
+      "category": "other"
+    },
+    {
+      "path": "Apply-MMGR001A.ps1",
+      "sha256": "03ba0e481d9b26f2c9488280f61c25ed215238e577e6b0700503f2392f3e035c",
+      "size_bytes": 15061,
+      "category": "other"
+    },
+    {
+      "path": "Apply-SPB0032-B1.3.ps1",
+      "sha256": "4b13693ce39f2fb52b1c63942f0d1c83357d5df3e024ef36916d28df6cd43546",
+      "size_bytes": 45262,
+      "category": "other"
+    },
+    {
+      "path": "Apply-SPB0032-B1.4.ps1",
+      "sha256": "482818a8c8e61136024587711b535bdb5ae230651019bc8443cb29fd1d938033",
+      "size_bytes": 8763,
+      "category": "other"
+    },
+    {
+      "path": "Apply-SPB0052-TestSuiteAudit.ps1",
+      "sha256": "d879ebf983f2ec84ddb3e53dc7899de0fecf7b8ee9fc36c7238b530519e3d333",
+      "size_bytes": 15124,
+      "category": "other"
+    },
+    {
+      "path": "Apply-SPB0053-UTF8RepositoryStandard-v1.4.ps1",
+      "sha256": "a2aff1e84b269ad733790cd0ea89c4d2ac1b850c57bc3e210b14b5cdc04f5857",
+      "size_bytes": 11632,
+      "category": "other"
+    },
+    {
+      "path": "Apply-SPB006-EvidenceGovernance.ps1",
+      "sha256": "fe762a438ff4555ce2317241a29045ed8a9cb06b68ce39e12a18b3951cb5cd16",
+      "size_bytes": 17558,
+      "category": "other"
+    },
+    {
+      "path": "Apply-SPB0061-SEMS-Core.ps1",
+      "sha256": "c6f7d89871e5c20fabac34dd4bc6101c0338c3b1c402f11ea281a880e239ad9b",
+      "size_bytes": 21345,
+      "category": "other"
+    },
+    {
+      "path": "Apply-SPB0062A-Retention-Governance.ps1",
+      "sha256": "77d8361e2d3ad79a8824ea02174c850c1a2dc9cc1dcdd898b67d859ab27c72d9",
+      "size_bytes": 28882,
+      "category": "other"
+    },
+    {
+      "path": "Audit-SPB0062A-CommitReadiness.ps1",
+      "sha256": "e02936f08856d1e5078ca7c0ddf71fc12f37b53871dd16594fd6b9d1e287205f",
+      "size_bytes": 12014,
+      "category": "other"
+    },
+    {
+      "path": "CHANGELOG-SGD-114.md",
+      "sha256": "a30ec773ebae53140065f7c36286b29bb14c11025a4a94422143e22eef198eff",
+      "size_bytes": 479,
+      "category": "other"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5def96aa0b0cf88d86d773942df5bca9e5b6cc4f87ed7273f86b90404fae1f9a",
+      "size_bytes": 7012,
+      "category": "other"
+    },
+    {
+      "path": "Collect-SPB0032-B1.3A-Baseline.ps1",
+      "sha256": "7cee53493fe642ca4fa6965e56f1413f334d133dc3dd519b904c8e6221b43672",
+      "size_bytes": 3671,
+      "category": "other"
+    },
+    {
+      "path": "INSTRUCCIONES-SPB0032-Auditor.md",
+      "sha256": "bb7f6e2073338f7f7a31fd432fa9a6183fe263b94dc65af968fb5e3ec39033a1",
+      "size_bytes": 820,
+      "category": "other"
+    },
+    {
+      "path": "Install-ADR010-RMR-Scalable-Media-Repository.ps1",
+      "sha256": "786d36fe76bf90e6b4ba471090229d93f939e8dc5809a873881b294491e1199c",
+      "size_bytes": 55010,
+      "category": "other"
+    },
+    {
+      "path": "Install-SGD114-Evidence-Traceability-Policy.ps1",
+      "sha256": "68863048715703c3cdf4854940f59c5d98ea830b90ce7cd6187fc32f93852b19",
+      "size_bytes": 27283,
+      "category": "other"
+    },
+    {
+      "path": "Install-SGD114-v1.1-Complete.ps1",
+      "sha256": "b27495f12ecf079831ed6b823d36d51ebc569a08f42b4e88c857e8fee6ffc794",
+      "size_bytes": 33568,
+      "category": "other"
+    },
+    {
+      "path": "Install-SGD114-v2.0-Institutional-Repository-Governance.ps1",
+      "sha256": "a780f0beb3c57839a67227a0cba3403a270e9ca6ee03ebe1f13fba020c9cfbcb",
+      "size_bytes": 38438,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPB0032RepositoryAuditor.ps1",
+      "sha256": "a30a5d7224bdd9ecd32733eef94878889dc55cb0c186d86aab9d421d6c3cbbf5",
+      "size_bytes": 11417,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT001B-P01-P03.ps1",
+      "sha256": "6a18d0afc1d21383782097a5567cac4c8ffda48b791baa685e26309cba73d514",
+      "size_bytes": 18029,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT001B-P04.ps1",
+      "sha256": "67894015729ae700f23fc430bdc12243a3c03a9ee8ff649909f38f9b96038de3",
+      "size_bytes": 8870,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT001B-P05.ps1",
+      "sha256": "d27195411945ed3f9649ed9635ff841df84a11e47464a1cb21db27e647774e58",
+      "size_bytes": 12546,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT001B-P06-Institutional.ps1",
+      "sha256": "ae05d554dc38003ea12d99b1e7772f3eae358264452522f1cc15ecd65a40c16a",
+      "size_bytes": 23952,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT001B-P07-Institutional.ps1",
+      "sha256": "7b2d7e6ee9a4aaf1d55f74f034350574b5944219713d466b1129939d438b98ef",
+      "size_bytes": 27431,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT001B-P08-Canonical-Closure.ps1",
+      "sha256": "7ef757fff04f1cd5ae24561c6fbb7d93d8b08a492db0d5325f711b80cb9635bc",
+      "size_bytes": 34935,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT002-ODA-Engine-Institutional.ps1",
+      "sha256": "7bc26b18aa16b1c65565cbf26ae9079636db5892790d832b0103bdaba1e0910f",
+      "size_bytes": 38914,
+      "category": "other"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2e16ebe7735b27e8afac4b4c2bd35b183548f2599c85385b9f6f302c33efeef9",
+      "size_bytes": 2502,
+      "category": "other"
+    },
+    {
+      "path": "README_INSTALACION_SPB-003.2_PGD_PMO.md",
+      "sha256": "2ebc2373671f5670a3f32c5ab9ec4669b98be3e3101ce941bb1d3231c1d815d6",
+      "size_bytes": 1252,
+      "category": "other"
+    },
+    {
+      "path": "Refactor-SPB0032-ModularRepositoryAuditor.ps1",
+      "sha256": "51c7f0cdb9bf340de3668097a382b8a679167150d0ddd96552a543f80a579f5c",
+      "size_bytes": 21812,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SGD114-v2.0.1-Windows-Test.ps1",
+      "sha256": "f29b1ebe4d03070e417926e7cc76cedef63cd5b4540314d5c577a9e69a7d490d",
+      "size_bytes": 10333,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPT001B-P06-v1.1.ps1",
+      "sha256": "dad09113f6e86611f466292df68304f6a5aec744fd1b9b9b9ebd92be6817bfef",
+      "size_bytes": 9255,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPT001B-P06-v1.2-ExcelPath.ps1",
+      "sha256": "3a0221bb910b3af822b31d07a77aa78343e03010f170100ce5c18602781f2841",
+      "size_bytes": 7563,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPT001B-P06-v1.3-QualityGate.ps1",
+      "sha256": "ee7aa2a7e37c8505d5f21c91515af5a72d501b4d300cc24069e4cb1c9eff18ed",
+      "size_bytes": 10257,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPT001B-P07-v1.1-Similarity.ps1",
+      "sha256": "fcb35091a42e9b0b2b5ca8b940b205642cb058e39d89824e33d007dd78f46801",
+      "size_bytes": 19167,
+      "category": "other"
+    },
+    {
+      "path": "Rollback-SPB0032-B1.3.ps1",
+      "sha256": "518dfc3157152e432bd2ea1fac8d088b1edcc9f3d372e76abbbd00cee4ae1b04",
+      "size_bytes": 973,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/README.md",
+      "sha256": "ef5e9b6d0ab443af7cadaa3918d56b13b5e4f573b35dde7dcc5fef023582b87e",
+      "size_bytes": 277,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/pyproject.toml",
+      "sha256": "77bc1f3dc3d2a36aed7b2324c12bd54f5a51a1f2f8ee6f3404876600909b5f98",
+      "size_bytes": 905,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/__init__.py",
+      "sha256": "d7938938c9bcf315d8860b137136abd30c4788a25015bad4a11a2ab1cb398dc9",
+      "size_bytes": 77,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/__main__.py",
+      "sha256": "a016d34f6339f9bd2b30695afdbcde8745f2c2644a4c2e3102d5804f1dd5c508",
+      "size_bytes": 93,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/cli/__init__.py",
+      "sha256": "ba00e6f7ec175959ab5429d2a7061c2f597711b256c7265d67684397a64ac54e",
+      "size_bytes": 44,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/cli/commands.py",
+      "sha256": "43416d652460c21121e2e1c8e4af5dc8232eef73653ec9cfda049f0304f01c46",
+      "size_bytes": 1126,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/cli/main.py",
+      "sha256": "159b610a562a7d96224ae450c03143ad6f5fadd22b02daa68cbf9c6e0e6db80a",
+      "size_bytes": 1182,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/core/__init__.py",
+      "sha256": "6006ffd888ee48e313280148bbc958527fe592ee0c69ec171c40230bc19c9fde",
+      "size_bytes": 224,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/core/config.py",
+      "sha256": "1495b4c0641ff3fe3853f040c1cc650c48b32987107e737002eed3fd0be5c43a",
+      "size_bytes": 407,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/core/constants.py",
+      "sha256": "5f35dde1eeac940bf05ac5456d1dcdf12966db878743a1d95eb79666f039095b",
+      "size_bytes": 516,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/core/project.py",
+      "sha256": "f17c230df83ee5c317f13fadce2cb3327135f9e6dbd10a5f8e00e61cd7fac2e8",
+      "size_bytes": 790,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/generators/__init__.py",
+      "sha256": "f6e15905158f2fc178dc0e3a0303df0aef7c3615029d37431d64c6997e0ed7c3",
+      "size_bytes": 71,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/generators/folders.py",
+      "sha256": "acfbb9e90fc9a0d34c27f9369800916867cfa5dc6e5aab4e59a26c39c5c6bd4a",
+      "size_bytes": 557,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/validators/__init__.py",
+      "sha256": "45e7993a137ea22a0861e9792037631c7cc906468f2280bc411ed101f3e38751",
+      "size_bytes": 143,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/validators/doctor.py",
+      "sha256": "b3e8b10158cafb53c9d2a544b07a3ffab7c61a299e335b0fb519d32dc037a1fa",
+      "size_bytes": 783,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/src/sgoda/validators/project.py",
+      "sha256": "1b4a0799885dbf356a5730abf86d5d67b442094868be99993b71ebbf7d0eceee",
+      "size_bytes": 196,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/tests/test_cli.py",
+      "sha256": "ebff93fb61e58c399ab01bec6b93fc026d1b4328cd8245a9431396277bae07cd",
+      "size_bytes": 322,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/tests/test_core.py",
+      "sha256": "bc3da79db302d990758bd8e233a885f41ac7573b7996c6270e32418bcf9877b9",
+      "size_bytes": 244,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-001-Repositorio-GitHub.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-002-Uso-de-PostgreSQL.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-003-Uso-de-FastAPI.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-004-Uso-de-Flutter.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-005-Uso-de-JSON.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-006-RLB-como-fuente-de-datos.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-007-Uso-de-n8n.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SGODA-PUINAVE/docs/03_ADR/ADR-008-Modelo-ODA.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "Stage-SPB0032-B1.4.ps1",
+      "sha256": "b941fc84d2d8bff0788ac7c970c77f1371403942d3e6e40074ab24d8eb90af57",
+      "size_bytes": 2617,
+      "category": "other"
+    },
+    {
+      "path": "Start-SPB0032-Closure.backup.ps1",
+      "sha256": "e2fd2d4397114ff47a6f2f329c7ff5fabe4fae369f4a86cbd72a1682185d087b",
+      "size_bytes": 11334,
+      "category": "other"
+    },
+    {
+      "path": "Start-SPB0032-Closure.ps1",
+      "sha256": "e2fd2d4397114ff47a6f2f329c7ff5fabe4fae369f4a86cbd72a1682185d087b",
+      "size_bytes": 11334,
+      "category": "other"
+    },
+    {
+      "path": "Upgrade-SPB0032-NativeAuditor-AutoClosure.ps1",
+      "sha256": "e4ddc46ad613e253de106219d549500dcb11fff34c917b2342a8a9df36b9a384",
+      "size_bytes": 15996,
+      "category": "other"
+    },
+    {
+      "path": "Verify-SPB0032-B1.3.ps1",
+      "sha256": "75f6187d0c3904c138538792b69934dcad536c878611964c6358ac3e0ad63270",
+      "size_bytes": 2196,
+      "category": "other"
+    },
+    {
+      "path": "Verify-SPB0032-B1.4.ps1",
+      "sha256": "6d55c3825dd558220b799e9200cc659aacb6ddcdbf7b22ab1ca159e29401f5ce",
+      "size_bytes": 2882,
+      "category": "other"
+    },
+    {
+      "path": "artifacts/audit/spb-003.2/ACT-003.2-acta-tecnica-cierre.md",
+      "sha256": "c99f6c09ac0a3947e97d793d674dfa8eb5b917f5e9fbdb2e7432731efe7ac286",
+      "size_bytes": 350,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/audit/spb-003.2/SGD-401-informe-auditoria-integral.json",
+      "sha256": "67cb5d61d3420cea36b89c199247940855b289120fc52621da884f406af0ebd3",
+      "size_bytes": 27980,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/audit/spb-003.2/SGD-401-informe-auditoria-integral.md",
+      "sha256": "136f5e969a981ca9e528ce63f2783ad6ed797b672ecf215f9660cee28b09c141",
+      "size_bytes": 10678,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3/manifest.json",
+      "sha256": "08e051dbefb8b148f2a5d93571ed897873446d9ed412cf91e7f4a656c7574d80",
+      "size_bytes": 1019,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/.github/workflows/spb-003-2-closure-audit.yml",
+      "sha256": "0e368005fc423e43b99aa37895f1843931c03f91f5deabed27534ce586b71fa0",
+      "size_bytes": 1206,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/.github/workflows/spb-003.2-closure.yml",
+      "sha256": "41990a43f414c3a94a36ace46fa4f2ef78f1cc25c168cdb67922e3289845fa90",
+      "size_bytes": 807,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Install-SPB0032RepositoryAuditor.ps1",
+      "sha256": "a30a5d7224bdd9ecd32733eef94878889dc55cb0c186d86aab9d421d6c3cbbf5",
+      "size_bytes": 11417,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Refactor-SPB0032-ModularRepositoryAuditor.ps1",
+      "sha256": "51c7f0cdb9bf340de3668097a382b8a679167150d0ddd96552a543f80a579f5c",
+      "size_bytes": 21812,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Start-SPB0032-Closure.ps1",
+      "sha256": "e2fd2d4397114ff47a6f2f329c7ff5fabe4fae369f4a86cbd72a1682185d087b",
+      "size_bytes": 11334,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Upgrade-SPB0032-NativeAuditor-AutoClosure.ps1",
+      "sha256": "e4ddc46ad613e253de106219d549500dcb11fff34c917b2342a8a9df36b9a384",
+      "size_bytes": 15996,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/builder/pyproject.toml",
+      "sha256": "c5d0bfdb4d9a8a2073b458dca9ab804112f4d992eeef1b60982f5fb703a50b81",
+      "size_bytes": 1889,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/manifest.json",
+      "sha256": "c6f0a4a515e7f6698bcf8a2d02dda6778ccb04e0ac3987dc8790615a1284e02e",
+      "size_bytes": 567,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/__init__.py",
+      "sha256": "394e9c315116f0dba116c9a091fc14b3cf0cecb48db5801dd608d9191dce58f3",
+      "size_bytes": 200,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/__init__.py",
+      "sha256": "0b43853d4a32d2c257f0dce5aa1c78c9796f571482114abe7e2f9c02cea0572a",
+      "size_bytes": 267,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/base.py",
+      "sha256": "dc5f9fc3030bee28af2f21adb535294c7186c7e30220a724160f5f3616ee6f1d",
+      "size_bytes": 207,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/documentation.py",
+      "sha256": "5e90f268010086d3380207462b065c71ac0c65c3d85ea2818a867a96a882e498",
+      "size_bytes": 1131,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/git_repository.py",
+      "sha256": "864ccbc779516ad85dbcdb728315a609b23f1940509293beaa14971231c7d264",
+      "size_bytes": 1718,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/nomenclature.py",
+      "sha256": "9d8563329a2c11589086e42fb9eac92b8a8787be78366c3f0a5d9f796a824543",
+      "size_bytes": 1507,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/structure.py",
+      "sha256": "d948a8fed27845f80137ae93e5b7f0180e0bb315f060144005c8e59be541faa7",
+      "size_bytes": 892,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/tests_inventory.py",
+      "sha256": "e582ff0d8a36c028766e81a20c3936a2a2ab0fd91c6ef41b7cd874aaec99535f",
+      "size_bytes": 1171,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/traceability.py",
+      "sha256": "5690c8293f68d4e39699e544e48a338d42f8cd25ed26c4854528e2281add4bd1",
+      "size_bytes": 836,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/cli.py",
+      "sha256": "4a37d72a119a0ba5f81e2576fd53a1d0d3c1be3c258eea68453535abe569e3e0",
+      "size_bytes": 602,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/context.py",
+      "sha256": "0d87beaf61fae510b4ba97f33234f463af41bae66c8fc3c12b679bb5d2204dde",
+      "size_bytes": 612,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/models.py",
+      "sha256": "1fdd1c5932998bbfeeb63ed79a4a6ca5f680d6ceb437761647afbbdbd76db995",
+      "size_bytes": 2150,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/native_repository_auditor.py",
+      "sha256": "e8beeb3f63b033da3247593cba568d1d2f85a569db6c18269f05b6ccac1018b5",
+      "size_bytes": 10387,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/orchestrator.py",
+      "sha256": "735a4891b66aea56150a8cdfc88f97377fda87bff7ec299adc7c6619927717f3",
+      "size_bytes": 957,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/reporting/__init__.py",
+      "sha256": "d51ad61b5fd830dec8010eaa7fb8f94039e2346d44a6d656ae3aac8bf74f62bb",
+      "size_bytes": 68,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/reporting/reporters.py",
+      "sha256": "c60afbbaba0d7664f3647a623c5d9a5ba5c7b148c24a249046ab96ff6cde31b8",
+      "size_bytes": 2064,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/service.py",
+      "sha256": "3db8f13791544c50ce8f727b1e99dab348909382edc656a680102cbb52b21472",
+      "size_bytes": 638,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/closure/__init__.py",
+      "sha256": "c524342672682282f8ad5fb1c6b5333374aa74b3e895ae27b654f881c4a89ee9",
+      "size_bytes": 119,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/closure/closure_orchestrator.py",
+      "sha256": "72cc2627c98ccbb7957af235451c6a60a520667d789323240acce204737fdf43",
+      "size_bytes": 7189,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/conftest.py",
+      "sha256": "9adde3812491b9f97cbd6b4682e255b0452e474778e7d6e7259687b750aaab7f",
+      "size_bytes": 111,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/test_modular_auditor.py",
+      "sha256": "e3eed2b1b44a849452430e1922086e39a7fdda5144733f7f5e514614a6cbe95a",
+      "size_bytes": 1016,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/test_native_repository_auditor.py",
+      "sha256": "9b650e855a28f196bcfde40f504a7db487ce58d5898c9470fb1cb7e7c628a173",
+      "size_bytes": 298,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/test_pmo_governance_platform.py",
+      "sha256": "6f21dcab8dbab7cecc2add85a673441249e0224abdfa0b35c8a10f14ae97863e",
+      "size_bytes": 1787,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/test_spb_003_2_closure.py",
+      "sha256": "fb553509e3ac8dec375f0e00dfc36754d0f68251da64a99230d09d20e03cd5b4",
+      "size_bytes": 508,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.4/mojibake-normalization-report.json",
+      "sha256": "ec2f048ffbc3153327bf236a76a493ca068265bfa650fb067e5c5f6a54336127",
+      "size_bytes": 5754,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-baseline-manifest.json",
+      "sha256": "30790302a767357bb16ddafcfde7a9875e458b86a705d5a679bb9ff465094fff",
+      "size_bytes": 1290,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-initialized-event.json",
+      "sha256": "40c0e452712dbae5f0276b96fd8caf8d90bd5774dd45e2db4cce34dfa95a915f",
+      "size_bytes": 450,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-migration-result.json",
+      "sha256": "fbac4c5de8f11169503980e084c103dbb0065a67bc094020c89c8f87190464a2",
+      "size_bytes": 104,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-resources.jsonl",
+      "sha256": "fe5f1b8f97836d66d2779f003bfebf07c49721ed32ea8b36384e263b47bca57a",
+      "size_bytes": 35440,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-statistics.json",
+      "sha256": "134b2e8e145fb6debe73fa3bbb83bf9ef3ffb898da30644310b8038fc3a1cb97",
+      "size_bytes": 336,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-validation.json",
+      "sha256": "48926e9578d5daebe4d2cbe5ce592954abcbca434f8ab427d7fc3bdd4c20f40c",
+      "size_bytes": 498,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-baseline-manifest.json",
+      "sha256": "614f003e82f5c63f7e1379448dcd2d5f2e9e07ffae62c61e47b5652fb98541ac",
+      "size_bytes": 874,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-generation-event.json",
+      "sha256": "feaf20ed39d8004dc01c5110caa9ad21c3bfe26af64c6a8cc494526fb934ac8d",
+      "size_bytes": 471,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+      "sha256": "ca8e9836e63cecd6b0df654027eb5ec630a40fd729a382e772bbc3ffd5d3f107",
+      "size_bytes": 48209,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-statistics.json",
+      "sha256": "4f073650fb754c2a2e3a52d7b7645db121137de8ecea36c425fea679a88fab13",
+      "size_bytes": 319,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-validation.json",
+      "sha256": "2180e299956f7351a299922d077bfbccc0196da6e05c4541d6839ad6cbda6f0d",
+      "size_bytes": 488,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/ADR-010/ADR-010-quality-gate.json",
+      "sha256": "979c54f93772dc0bc3c6189a1b4b8cafb561f492531f627ab7ff40aab54cbd4f",
+      "size_bytes": 3082,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/ADR-010/implementation-evidence.json",
+      "sha256": "f2f24e53a0f22fa83a7e4c6bd8784169d1a53f4f98c0c27496723a95f9a98995",
+      "size_bytes": 940,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/ADR-010/traceability-ADR-010.json",
+      "sha256": "d0bc1afc59ae27c4e696499118b4ce080e15363f2c6af3be46865a6393a05c0b",
+      "size_bytes": 1375,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114-v2/implementation-evidence.json",
+      "sha256": "cf755068b60f00df9de396d0a78ca611aec55ff33744906251a35083188ff492",
+      "size_bytes": 810,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
+      "sha256": "e13c82907126e97e233624fd9850f5e4b70f8b50a3d07a0278bad9cea2942878",
+      "size_bytes": 4944,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114-v2/traceability-SGD-114-v2.json",
+      "sha256": "022128a084634f775f30906f9d94698c6d262ed47e1baf8069e95b95f90caffe",
+      "size_bytes": 831,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114/SGD-114-final-quality-gate.json",
+      "sha256": "6d888b15cf0e81219dd80faf78822c05f1a86b9f4ce2569869c08f59b1b0a4d6",
+      "size_bytes": 2751,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114/SGD-114-quality-gate.json",
+      "sha256": "8d1bc71c7df726443b3e1d588bd57cbe18fa95287c47d34d47ad27e003177bf5",
+      "size_bytes": 1935,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114/implementation-evidence.json",
+      "sha256": "28940cdab226bb3243b2956ab2cacbcfa05e7f59e888d24dfaf7dabd0a8c3a1d",
+      "size_bytes": 635,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114/traceability-SGD-114.json",
+      "sha256": "6c341e8bb94e4b9e2c9ecbe67274f1d9d4401b0a38a680cc82adcf21e7686c71",
+      "size_bytes": 939,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.2-F002A/B1-baseline/artifact-governance-policy.md",
+      "sha256": "a4d7c49fb1228c73d8e1fc651c02b133265d6627828a0a6582575d9eb3bbd7ed",
+      "size_bytes": 1105,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.2-TEST-SUITE-AUDIT/audit-report.md",
+      "sha256": "e2c775642ab1cc281132bdc773ed2738c2d03d9d4dd44d7523b42d82cd553e9b",
+      "size_bytes": 1191,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.2-TEST-SUITE-AUDIT/audit-summary.json",
+      "sha256": "b03b2a72d5d4249adb89575d6bc227afea2d4f39fc03cf67b10e4b0fc393ae4b",
+      "size_bytes": 2406,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.2-TEST-SUITE-AUDIT/recommended-test-commands.ps1",
+      "sha256": "6b0874e879518d479ad7b0f639657956302a6cdee8d2e04f406cffa38fe52a46",
+      "size_bytes": 5982,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/EXTERNAL-EVIDENCE-REFERENCE.md",
+      "sha256": "dac37a3085c397e568727d7a228547bab97f2800988eb8fa965ea442704e3d57",
+      "size_bytes": 1062,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/.github/workflows/utf8-repository-compliance.yml",
+      "sha256": "c2290ce092f3fb1f3d25848c5ff40003b7133528f1220ed286eadfce5e0e45c3",
+      "size_bytes": 452,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0032-B1.4.ps1",
+      "sha256": "9ec52e958d10497fd71beefb6904ea551068e527bc2a4089c50c2b60b6708a75",
+      "size_bytes": 8766,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0053-UTF8RepositoryStandard-v1.1.ps1",
+      "sha256": "88c0cab490cae23916c074ec418abff0800f55d7b3cf7530bc89139f41675135",
+      "size_bytes": 9867,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0053-UTF8RepositoryStandard-v1.3.ps1",
+      "sha256": "399512de1494ccfc286154014d6d50295dec697a8fec43ec097310ba16216ca5",
+      "size_bytes": 11485,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0053-UTF8RepositoryStandard.ps1",
+      "sha256": "9b36c03fd93921baf5aa603462a86ed1dbfee5b8e7f5158272b3e748b572bfdf",
+      "size_bytes": 16483,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Stage-SPB0032-B1.4.ps1",
+      "sha256": "dc0c24406cb7813d9404b11613f0f9be4119e2334495cbcfc9945e2566034525",
+      "size_bytes": 2620,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Start-SPB0032-Closure.backup.ps1",
+      "sha256": "4eb5396fcd1f004df24c0725cbff6d8980ca1e01685dad6a77fee00690225fb8",
+      "size_bytes": 11337,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Start-SPB0032-Closure.ps1",
+      "sha256": "4eb5396fcd1f004df24c0725cbff6d8980ca1e01685dad6a77fee00690225fb8",
+      "size_bytes": 11337,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Verify-SPB0032-B1.4.ps1",
+      "sha256": "5440a88cc0949830f9920ea21c3192a7ada9a3e61d0e2f61f823d9ce38d94ee6",
+      "size_bytes": 2885,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3/manifest.json",
+      "sha256": "063508f9936b616b0dc861f4df85102c6575183e6952bf6ca6ad83e5e4a3cdbc",
+      "size_bytes": 1022,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Start-SPB0032-Closure.ps1",
+      "sha256": "4eb5396fcd1f004df24c0725cbff6d8980ca1e01685dad6a77fee00690225fb8",
+      "size_bytes": 11337,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/manifest.json",
+      "sha256": "d40bac7d198c1382df19c9bf514e52e30aa7e81bb1c08d4ce4860e4844b78c26",
+      "size_bytes": 570,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/native_repository_auditor.py",
+      "sha256": "595f6ec397f5d814107cef8e77f52ba36b3bcd8a68b709a4955396670eb0b741",
+      "size_bytes": 10390,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/test_native_repository_auditor.py",
+      "sha256": "efcb9218d0fa39752924f4f1d9e4e0ebb0208eaf30d9839def5cf076230bdf6d",
+      "size_bytes": 301,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/pmo/SPB-005.2-F002A/B1-baseline/artifact-governance-policy.md",
+      "sha256": "eb3f124ad7acb7dc26770885a3296da72149e07858ae542d7622da951704c1c9",
+      "size_bytes": 1108,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/docs/standards/UTF8-Repository-Standard.md",
+      "sha256": "3a4493687cc0e458931253039b6ef2aed0b5e0cbefada28801571016d2de8dd7",
+      "size_bytes": 1629,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/utf8/repository_utf8.py",
+      "sha256": "3c8888d5fbc6db95d85e419ae1ce1282594ce93e3fef452e37f99eba5e0047fc",
+      "size_bytes": 7125,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/utf8/test_repository_utf8.py",
+      "sha256": "6afdeaebaae2d4373675e3c416f1ab2bdec1ced3f7d853351879688cb0161426",
+      "size_bytes": 1012,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/catalog_plugin/plugin.py",
+      "sha256": "e355243191b661c106e64c24d2d232f522f62590edf220f8ae0e29888b818ce5",
+      "size_bytes": 48,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/catalog_plugin/sgoda.plugin.json",
+      "sha256": "8d529debf16001bcb84f9e69f40287ed61948b49dcb1a306b207b82d0257afd9",
+      "size_bytes": 246,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/catalog_template/sgoda.template.json",
+      "sha256": "abf961c7b76f1d129702486f2bbaeab4ce81b75ae8f6c3ce9f1faab320c13f59",
+      "size_bytes": 308,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/catalog_template/template/README.md",
+      "sha256": "11a70f4cbdfdece5a728cbb3b30772a455d3dd3927b2207d4250535128ccdf64",
+      "size_bytes": 21,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py",
+      "sha256": "e355243191b661c106e64c24d2d232f522f62590edf220f8ae0e29888b818ce5",
+      "size_bytes": 48,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json",
+      "sha256": "8d529debf16001bcb84f9e69f40287ed61948b49dcb1a306b207b82d0257afd9",
+      "size_bytes": 246,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/sgoda.template.json",
+      "sha256": "abf961c7b76f1d129702486f2bbaeab4ce81b75ae8f6c3ce9f1faab320c13f59",
+      "size_bytes": 308,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/template/README.md",
+      "sha256": "11a70f4cbdfdece5a728cbb3b30772a455d3dd3927b2207d4250535128ccdf64",
+      "size_bytes": 21,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py",
+      "sha256": "e355243191b661c106e64c24d2d232f522f62590edf220f8ae0e29888b818ce5",
+      "size_bytes": 48,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json",
+      "sha256": "8d529debf16001bcb84f9e69f40287ed61948b49dcb1a306b207b82d0257afd9",
+      "size_bytes": 246,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/sgoda.template.json",
+      "sha256": "abf961c7b76f1d129702486f2bbaeab4ce81b75ae8f6c3ce9f1faab320c13f59",
+      "size_bytes": 308,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/template/README.md",
+      "sha256": "11a70f4cbdfdece5a728cbb3b30772a455d3dd3927b2207d4250535128ccdf64",
+      "size_bytes": 21,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/exceptions.py",
+      "sha256": "f1dd90ef9b47db7e2b73150e4883c8c4facb1fa59ac29bbb3d1bd1e5786f4715",
+      "size_bytes": 4489,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/governance_service.py",
+      "sha256": "97fd47011988a08cdbf9ed489fcfda9f5d257eb3a74d12b939d6b52ed12b4a9c",
+      "size_bytes": 6786,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/models.py",
+      "sha256": "a5e0ddb215b3df25670a6d7bc07e87af149e2ad948e004b5ce6954248d70dfac",
+      "size_bytes": 10827,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_engine.py",
+      "sha256": "5b3dceeb362088a5b5ef94bdd8d783888d85de1f0734ccb0d5e9b18cc767b336",
+      "size_bytes": 4904,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_loader.py",
+      "sha256": "3698b8f948ef561b24bfc48aecdcd812af12f1b0f6dd182f80ba8689c59c2ef3",
+      "size_bytes": 4328,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_repository.py",
+      "sha256": "8ca0e3729ac432982700d9ec787d44132fd80e115e7f3da24231a762cd7809d6",
+      "size_bytes": 7498,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_validator.py",
+      "sha256": "1f010675cf64a460acbe617a41fc01cf8403aa659e29959b19008803c14c9e7f",
+      "size_bytes": 19905,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/results.py",
+      "sha256": "60d2ff203046513c4ab89de17a29584e2e1cd2c2c90d0ddbd19322589d28b71c",
+      "size_bytes": 18602,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/serializers.py",
+      "sha256": "560489fccb7b8f4fc47a17c742013cb21cf5478848a1ee15b9b1403f4894d3aa",
+      "size_bytes": 10307,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_cli.py",
+      "sha256": "d40cee87a257fca847e8a8fa9682535f73c712409489fa82f5c03a6b7a94b91a",
+      "size_bytes": 515,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_export_integrity.py",
+      "sha256": "c2a7ef2d082e24b1a4cddff3305f2c7c4bce183934557b973072cd1332f363cd",
+      "size_bytes": 1911,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_exceptions.py",
+      "sha256": "2712e39f304bffbdd9ecbefa1781a7738143010bd0b5788fe3a29d21a9eac604",
+      "size_bytes": 2133,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_governance_service.py",
+      "sha256": "e0b099fcefd64a70fc11ffca6ce5e296421e22f644acb2d941a7840dc68fbf1b",
+      "size_bytes": 18742,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_models.py",
+      "sha256": "1e77a4de0d74647c683e33901816151cfca363b02c6c6180dfa8ecadb255a416",
+      "size_bytes": 4909,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_engine.py",
+      "sha256": "ef5fe69ecf5e521317f8b34d510a7a78383362e363234edf3943e40d352f796d",
+      "size_bytes": 13930,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_loader.py",
+      "sha256": "9608f0e5e46ee252b6beaea5311bd39a98bccc793fa39b133682efd21784ef88",
+      "size_bytes": 5527,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_repository.py",
+      "sha256": "4b3f0229aec381801b2b80e060d214a1d189ca9380e96a6dbde22116dd6a74fa",
+      "size_bytes": 13946,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_validator.py",
+      "sha256": "9e3393668875382ce02599ef0dc7976e566acc2e7a5918d61f9e5027c68a19ed",
+      "size_bytes": 13549,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_results.py",
+      "sha256": "449b04dcd3787bc066525bf021dc21b55c71b138a513be465ae5671d8dc9492c",
+      "size_bytes": 14559,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_rule_evaluator.py",
+      "sha256": "97aa93aa8c21a2cd15389c49210784273f6ca3d24976c9bdc501b7caff99785f",
+      "size_bytes": 16003,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_version_audit_c.py",
+      "sha256": "85b9707ee1105b5423db3e03bf2eb9b8fd6d29add77c1a226a43525a81793d8d",
+      "size_bytes": 163,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder_backup_20260713_175707/src/sgoda/core/__init__.py",
+      "sha256": "c4d319991d51ff64314afe06785a5376b0c79e7e0cedff51df01b9c473b28c25",
+      "size_bytes": 370,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder_backup_20260713_175707/src/sgoda/core/config.py",
+      "sha256": "d8d3d3885708d24634a0a9cbccf2579bbc45edffca68e1a75170af0025cf84dd",
+      "size_bytes": 442,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/docs/01_Gobierno/Auditor-Nativo-Repositorio.md",
+      "sha256": "466b69e2bd21fea475959e58d5c93513644d199210743868b932eba02b6024b1",
+      "size_bytes": 271,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md",
+      "sha256": "48a18a387251f8ac99e642a7943dba423b3a10d8bdba41e034710042a8661310",
+      "size_bytes": 640,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/docs/03_ADR/ADR-009-UTF8-Repository-Standard.md",
+      "sha256": "5355ef084836c17958fdb6ad3decc8a37fab2ec0eb3eb8cc44a3af2587a547b0",
+      "size_bytes": 798,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/docs/standards/UTF8-Repository-Standard.md",
+      "sha256": "3a4493687cc0e458931253039b6ef2aed0b5e0cbefada28801571016d2de8dd7",
+      "size_bytes": 1629,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/scripts/Start-SGODA.ps1",
+      "sha256": "8d355abfcd6013a200fdc440f17c8e25854a9edac7976e34f91b6dd4a15c41c1",
+      "size_bytes": 485,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/scripts/Test-SPB0051-F001.ps1",
+      "sha256": "a2da541568124e4ba9dc442f5bc82585c15e6ba08c4bc9e5cb435d6034a54cc1",
+      "size_bytes": 443,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/scripts/audit_spb_003_2.py",
+      "sha256": "780dce4fdc5996d0ccfddf41ddcbbad7110b5154e40415c83c5ab75ac98d1b20",
+      "size_bytes": 119,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/__init__.py",
+      "sha256": "30b2b049df00674ed2d14d7075b2ee1c4e1d01ed911487b6c53a87076476c389",
+      "size_bytes": 33,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/api/__init__.py",
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "size_bytes": 5,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/api/kernel_routes.py",
+      "sha256": "5a218cbabced2e650cce475bb1c22372159803c75decda088a3adfed1886b6f3",
+      "size_bytes": 1301,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/api/routes.py",
+      "sha256": "fbc0b2df0dd4d52f3229a0f7a8fbe33e53e953d095046594e574bb00934488d1",
+      "size_bytes": 515,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/core/__init__.py",
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "size_bytes": 5,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/core/config.py",
+      "sha256": "dc9e4372fcd275aaadf97e4695b015153a9a716409012bf75ea440a632210c8c",
+      "size_bytes": 772,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/__init__.py",
+      "sha256": "16b93af99c45785e822fe604c5f028941e055b9d2fe3eeaf32f0a9a92fbae507",
+      "size_bytes": 193,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/application.py",
+      "sha256": "723bd18d7cde6ae102c8726ff26b6f8dc3f81f266ba9fc4c406502065a08e21f",
+      "size_bytes": 1099,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/audit.py",
+      "sha256": "d31547bfef78e5158d95a62edaa54fa18ed217176293e766b1be285e70ad6f2a",
+      "size_bytes": 1885,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/metadata.py",
+      "sha256": "592520d3fab515dcbfd16dcb53f211a89b08b87a67337616d16c177178a5c09d",
+      "size_bytes": 1648,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/models.py",
+      "sha256": "64a69dcd8e0b1b6dd12448696214350b194d86eabcffe1f43a1b03bd6077804e",
+      "size_bytes": 696,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/modules.py",
+      "sha256": "3283d31eaf75219e711cda1bae93b6fb7e879e51ed001e2299a01c508974f629",
+      "size_bytes": 3759,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/registry.py",
+      "sha256": "6adc28767db725c3b48a9d5a4c72a8f6ee4702092e2648e4cc4bbb28a6bf2158",
+      "size_bytes": 2013,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/main.py",
+      "sha256": "e1396e645cb89e97249b17b78625b803c3b2dd5622c6c0f8aef0c81c0c86cc09",
+      "size_bytes": 140,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/audit/native_repository_auditor.py",
+      "sha256": "38e1d380c1202df64899adf208068121196c553b0e9fb9c0cf21d394397eff68",
+      "size_bytes": 10336,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/repository/mmgr/models.py",
+      "sha256": "e4bc73e071b0b4f99d7e2707529d5f5193c3aa5fe58cd3dfc04c39a7246009d0",
+      "size_bytes": 7817,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/utf8/__init__.py",
+      "sha256": "882bd79a7de8fceef93f9261c96e3368f31788a05994bc90240905fcf1ada9d9",
+      "size_bytes": 73,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/utf8/repository_utf8.py",
+      "sha256": "3c8888d5fbc6db95d85e419ae1ce1282594ce93e3fef452e37f99eba5e0047fc",
+      "size_bytes": 7125,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/audit/test_native_repository_auditor.py",
+      "sha256": "efcb9218d0fa39752924f4f1d9e4e0ebb0208eaf30d9839def5cf076230bdf6d",
+      "size_bytes": 301,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/repository/mmgr/test_models.py",
+      "sha256": "93fb94950daf2952c058e4121c459bf145f16309384cf05ae423911c2e9d9851",
+      "size_bytes": 3879,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/utf8/test_repository_utf8.py",
+      "sha256": "6afdeaebaae2d4373675e3c416f1ab2bdec1ced3f7d853351879688cb0161426",
+      "size_bytes": 1012,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/test_spb_005_1_foundation_runtime.py",
+      "sha256": "e24916637a07059d6bc7313c94442935005400d4773027ad472ee872b8752382",
+      "size_bytes": 593,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/test_spb_005_2_platform_kernel.py",
+      "sha256": "61682f83736c86811dc10868b8af78751a9a535c7453896f51fc95f1b41baf06",
+      "size_bytes": 1773,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/evidence-transition-manifest.json",
+      "sha256": "a3777a5f140f00837a1a0d9d6a2b7f499137eb8939dfa6c1be568c3e9fa2c17f",
+      "size_bytes": 974,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard-v1.1.ps1",
+      "sha256": "88c0cab490cae23916c074ec418abff0800f55d7b3cf7530bc89139f41675135",
+      "size_bytes": 9867,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard-v1.2.ps1",
+      "sha256": "3c370f0c41018fe4642690511f3a5cfbb57e21d8bff72621652af7768d8642bf",
+      "size_bytes": 3335,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard-v1.3.ps1",
+      "sha256": "399512de1494ccfc286154014d6d50295dec697a8fec43ec097310ba16216ca5",
+      "size_bytes": 11485,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard.ps1",
+      "sha256": "9b36c03fd93921baf5aa603462a86ed1dbfee5b8e7f5158272b3e748b572bfdf",
+      "size_bytes": 16483,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/recommended-commands.ps1",
+      "sha256": "fce780e007f20ff606c0273b22e280f2cc10d51569223bbe580c9e54e3bdd63c",
+      "size_bytes": 331,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/utf8-report.md",
+      "sha256": "6197e51208c8d6e270ff05cfe2a4cc25ca0c38ce995fd71b1f7e8e34f60f99d3",
+      "size_bytes": 243,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/utf8-summary.json",
+      "sha256": "98b1b64b53a7f1abc63088e7cf25a4331f953c062eff8b8be160e70aafe0abc5",
+      "size_bytes": 425,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/README.md",
+      "sha256": "b2dd015c78844029c85e03a3b721cc5a655278d9519f7b1cf9a37c0c0c33679e",
+      "size_bytes": 179,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/SPB-006.2-A-implementation-manifest.json",
+      "sha256": "36908417fffd328e170728a4e828f634215df6154f5269c5d45e985e9c3d4fb0",
+      "size_bytes": 493,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-222600/AUDIT-SUMMARY.md",
+      "sha256": "15bd94cbbbb504e14172d4964d33a546eeced2b813e6a8e5cc4a281ae87c8ad1",
+      "size_bytes": 763,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-222600/Proposed-Stage-SPB0062A.ps1",
+      "sha256": "fcc70082c2176f65aaafa6c32408458c8d27792f68860b4530cac48faab2dfa0",
+      "size_bytes": 1829,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-222600/commit-readiness-report.json",
+      "sha256": "4a8a1574b9e31afcfe9d655fbd146164e23d8d34c58c05744340c530370a23e6",
+      "size_bytes": 5248,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-223638/AUDIT-SUMMARY.md",
+      "sha256": "a6310397e8bc3f7746ea3c5fcfc286a21c7a4c0908e18ef5de9ad3329288c606",
+      "size_bytes": 745,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-223638/Proposed-Stage-SPB0062A.ps1",
+      "sha256": "fcc70082c2176f65aaafa6c32408458c8d27792f68860b4530cac48faab2dfa0",
+      "size_bytes": 1829,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-223638/commit-readiness-report.json",
+      "sha256": "3148e9f89d64d9d59d1c603df4eeca755f121fbe95e006a7af843efd6fd42dca",
+      "size_bytes": 5229,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-225712/AUDIT-SUMMARY.md",
+      "sha256": "1ef34fa19752445402dfef12f16b53346c8e1089155ab32b7bd92f5a98cc0cf7",
+      "size_bytes": 701,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-225712/Proposed-Stage-SPB0062A.ps1",
+      "sha256": "fcc70082c2176f65aaafa6c32408458c8d27792f68860b4530cac48faab2dfa0",
+      "size_bytes": 1829,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-225712/commit-readiness-report.json",
+      "sha256": "cd03e2cfbcf0d3b58fe18f0c8159c3effe8fb330c0442a271a7466f5493705d5",
+      "size_bytes": 5137,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/implementation-manifest.json",
+      "sha256": "05d0f33505da54ebf5be3cab2da276a652c5c8d56762628ef3f24c8ad83dacdc",
+      "size_bytes": 341,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/__init__.py",
+      "sha256": "98779b72a29213ebea8c77cb307a9c3399dc2fd179768d1682e238aa27365bd2",
+      "size_bytes": 284,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/cli.py",
+      "sha256": "895b06bd04b3025248c3b8a0b99a62b3241e1e8b915dbfe5a8d44663557a37c7",
+      "size_bytes": 2440,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/manager.py",
+      "sha256": "bc9a75ef3c2398874e1da26e802cd298e4c645682b52de64f0187e50f38e3e01",
+      "size_bytes": 3059,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/models.py",
+      "sha256": "34bb9a5a71a3107aaaec1dea31a69075f227fa5462ec5aaeb33bc88433b4e74a",
+      "size_bytes": 2390,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-006-SEMS/registry/evidence-registry.json",
+      "sha256": "0f9c6d9ecab36529526a24f719088ae11b82537424748992940d31006dd215e2",
+      "size_bytes": 1279,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-data-quality-report.json",
+      "sha256": "32d9187fa87829046f9ff834d686fb31a4d6d5e11ad4f9925eef04fd9e113b46",
+      "size_bytes": 787,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-quality-gate.json",
+      "sha256": "67e605021fa79df6b5d62074b8e848403200da6afb1ef2f032b604095d93631f",
+      "size_bytes": 2772,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-v1.2-excel-path-evidence.json",
+      "sha256": "a1b1f7f4a11c3d984af079ff6dc105b6f20b19a428a7f2cebed3704b029b8df6",
+      "size_bytes": 1020,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P06/implementation-evidence.json",
+      "sha256": "0219460d2b08b18f423ad22ba3a3fc900d90f8e71abe444b59bf0d3976831f5d",
+      "size_bytes": 549,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P06/repository-events.jsonl",
+      "sha256": "d5bdb38fc9c5be990f5bfea3a05e1a0a56a58697dc7a880b895a2994d6eb5a8a",
+      "size_bytes": 468,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P06/traceability-SPT-001B-P06.json",
+      "sha256": "5a5761693e0452380aa4361ecec75f6cff2c4c8e73428fb0292980bccd6ea563",
+      "size_bytes": 1185,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P07/SPT-001B-P07-quality-gate.json",
+      "sha256": "1d1adc79644bf6e006288c707ba6cbc491a39c213037ecfa049452e5667670ba",
+      "size_bytes": 2750,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P07/SPT-001B-P07-v1.1-similarity-evidence.json",
+      "sha256": "d0541f6dda834cfa879c9fdd246c50c8ad8f2e2a10b1c24a58f90f57237d6323",
+      "size_bytes": 718,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P07/implementation-evidence.json",
+      "sha256": "1c1e122131c721857936afd44a6cd8696ad2d62f104f620a579039d5ca7f9d01",
+      "size_bytes": 639,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P07/traceability-SPT-001B-P07.json",
+      "sha256": "7e3dadb8a2d9787fc4419a5fea4e145352146c932a290ed0a1128eea786dd66a",
+      "size_bytes": 640,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P08/SPT-001B-P08-quality-gate.json",
+      "sha256": "20c54a39a7cef68830283206a5d73ca73b76559293d79ffa68ae3d9c96757319",
+      "size_bytes": 2447,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P08/implementation-evidence.json",
+      "sha256": "4e3b7b15b6451b5ebc6cae5d77a449b54388b7dedd49bc70de61cd839eeec1dd",
+      "size_bytes": 744,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B-P08/traceability-SPT-001B-P08.json",
+      "sha256": "aa4cb17128193f1f42aa668b8c3f5d3aa054fa1a4e35533ef3a4b8335366cc8b",
+      "size_bytes": 1279,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-001B/SPT-001B-final-quality-gate.json",
+      "sha256": "872eb9be83e43ea5860923300734c56508fab3ccdfe80cd3b08bb4f0dddbe7e0",
+      "size_bytes": 5202,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-002/SPT-002-quality-gate.json",
+      "sha256": "5306d356a09c4f637f9d8670815329a75efaf657ab8c003168785b37fc549f69",
+      "size_bytes": 2799,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-002/implementation-evidence.json",
+      "sha256": "df90f9fcadf5076bf058689c69a4588a95cc20c2371a2a445bf0ad421a3cb21e",
+      "size_bytes": 824,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-002/traceability-SPT-002.json",
+      "sha256": "1d50eeb1decf8a0d8b4094a6c215e80fa8f44cef7c185e1f2ce57649913c5531",
+      "size_bytes": 1239,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/releases/SPB-006/closure.json",
+      "sha256": "4921e59c76fb9c711408f2b76eae20b024e16a099ba197f861da239400bc8206",
+      "size_bytes": 146,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/releases/SPB-006/evidence.json",
+      "sha256": "dbafa11f546d7174e425804a731a2ffd8846ac76859c8a9887781a48003c9dfe",
+      "size_bytes": 279,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/releases/SPB-006/manifest.json",
+      "sha256": "bfb6d51026400aff64f96dda370dc1358cb3d928cfb656c27f84873738051750",
+      "size_bytes": 724,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P06/errores-importacion.json",
+      "sha256": "dddf3a474e8b7d0db65ce28ce347a8d1dd1f1ab6b670199efa5ae329fe680fcd",
+      "size_bytes": 2931,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P06/palabras-canonicas.json",
+      "sha256": "c43a4b731d9a95f0e289187faadd751f815e57a0ce4d13046cbba45c1360aa40",
+      "size_bytes": 36839,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P06/perfil-rlb.json",
+      "sha256": "9cb4b903a4ed0e7d994a9ea868b35444249b4d69df81edf5b4491aa859ad8398",
+      "size_bytes": 1291,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P06/resumen-ejecucion.json",
+      "sha256": "e01caba261615a235d2db9b48ac557631ac59ac46385e98c56fcbbe621797914",
+      "size_bytes": 1820,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/header-mapping-analysis.json",
+      "sha256": "1f9ee72f47a1f13960aa687c395308e5e235ff73c24cee522843a063184e220b",
+      "size_bytes": 3583,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/normalization-summary.json",
+      "sha256": "b2823cc7055292361837adc1f5785270d313abbbb79e01d308f8a598056f6912",
+      "size_bytes": 353,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/reprocessed/errores-importacion.json",
+      "sha256": "c3ef957061c30d716def033d25bb23e3d45e3bf9e44d5147cde3bc57a2336a51",
+      "size_bytes": 255,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/reprocessed/palabras-canonicas.json",
+      "sha256": "547faf163653dfba4469335459f790d84bc6a493d5250a066268a8303ba9fe22",
+      "size_bytes": 20739,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/reprocessed/perfil-rlb.json",
+      "sha256": "d584d838da4afbf9d9e308eabb87b2806949ff356642e8411c56f5b9286ef5b3",
+      "size_bytes": 1306,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/schema-p07-normalized.json",
+      "sha256": "9623346e60fa8d2d78f4b5a09cb8cd0c0ac7e3a72a2828f665de63b2b3dfea86",
+      "size_bytes": 3079,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P08/canonical-baseline-manifest.json",
+      "sha256": "dac68dfd4c222c4ed4f10562e723cf0c49f29e3299d620f4f0e4114002a1594d",
+      "size_bytes": 1295,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+      "sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+      "size_bytes": 24166,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P08/canonical-statistics.json",
+      "sha256": "ebf3f0573af05a50eaf7881fbe591e6dd9e5167ab7a1f4deaae5e7bbb4bb668e",
+      "size_bytes": 336,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P08/canonical-validation.json",
+      "sha256": "c7086d3636ad24283acc5131282739cfd4891de37933d5f48998876f3a75e958",
+      "size_bytes": 338,
+      "category": "evidence"
+    },
+    {
+      "path": "builder/README.md",
+      "sha256": "e9c137a85fad7af936fa04e0443a8adac8d61f0c2d5d0e34d64a25e8cb7a053f",
+      "size_bytes": 7709,
+      "category": "other"
+    },
+    {
+      "path": "builder/catalog_plugin/plugin.py",
+      "sha256": "b2dd435cbb8f1d4ff1401aaef957c2b11faed996178fe8dbe5c81d0e61352233",
+      "size_bytes": 45,
+      "category": "other"
+    },
+    {
+      "path": "builder/catalog_plugin/sgoda.plugin.json",
+      "sha256": "0ad7ab6bc3b64686c697d2c5fd61c92d418a42b2754edb89a69f8248b2df6c7f",
+      "size_bytes": 243,
+      "category": "other"
+    },
+    {
+      "path": "builder/catalog_template/sgoda.template.json",
+      "sha256": "7e0f68d22046d1549d25c7a3fe8995eddad8c6bd556fa800e32ce9e75703cde3",
+      "size_bytes": 305,
+      "category": "other"
+    },
+    {
+      "path": "builder/catalog_template/template/README.md",
+      "sha256": "d044bf15baf8a68ac382d2dd1edf1165cbec153accf329d90776dccdda9f783a",
+      "size_bytes": 18,
+      "category": "other"
+    },
+    {
+      "path": "builder/docs/releases/0.10.0.md",
+      "sha256": "c538c421a137cc73584115c8a405550e60e0be3689899ede9f248c8a93641428",
+      "size_bytes": 181,
+      "category": "other"
+    },
+    {
+      "path": "builder/docs/releases/0.9.0.md",
+      "sha256": "ed04a59311f9d9b22bdcfa3cf8fe5a69d3b95410403c7319faa64dd0fac6fb99",
+      "size_bytes": 180,
+      "category": "other"
+    },
+    {
+      "path": "builder/docs/releases/1.0.0.md",
+      "sha256": "8f7cc5b270897d2da5345b0f7f9d72b4fa2aa79fdb195cf9998f30ea94e1def6",
+      "size_bytes": 688,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_catalogo/.sgoda/extensions/catalog.json",
+      "sha256": "39618d7d808989c839b76820e51b3e2eaf34a6b8d8245b329ee620ab88fa29ea",
+      "size_bytes": 1793,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py",
+      "sha256": "b2dd435cbb8f1d4ff1401aaef957c2b11faed996178fe8dbe5c81d0e61352233",
+      "size_bytes": 45,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json",
+      "sha256": "0ad7ab6bc3b64686c697d2c5fd61c92d418a42b2754edb89a69f8248b2df6c7f",
+      "size_bytes": 243,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_catalogo/.sgoda/extensions/registry.json",
+      "sha256": "27e14d2b993c9120b4733a8e7de30ebb2418fba7ca58f3473063f0ec30b35afa",
+      "size_bytes": 2081,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/sgoda.template.json",
+      "sha256": "7e0f68d22046d1549d25c7a3fe8995eddad8c6bd556fa800e32ce9e75703cde3",
+      "size_bytes": 305,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/template/README.md",
+      "sha256": "d044bf15baf8a68ac382d2dd1edf1165cbec153accf329d90776dccdda9f783a",
+      "size_bytes": 18,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_restaurado/.sgoda/extensions/catalog.json",
+      "sha256": "bef3982783aebb0a7f4e777892483a0fa2cd6217f423185c87971fb368bb227a",
+      "size_bytes": 1793,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py",
+      "sha256": "b2dd435cbb8f1d4ff1401aaef957c2b11faed996178fe8dbe5c81d0e61352233",
+      "size_bytes": 45,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json",
+      "sha256": "0ad7ab6bc3b64686c697d2c5fd61c92d418a42b2754edb89a69f8248b2df6c7f",
+      "size_bytes": 243,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_restaurado/.sgoda/extensions/registry.json",
+      "sha256": "27e14d2b993c9120b4733a8e7de30ebb2418fba7ca58f3473063f0ec30b35afa",
+      "size_bytes": 2081,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/sgoda.template.json",
+      "sha256": "7e0f68d22046d1549d25c7a3fe8995eddad8c6bd556fa800e32ce9e75703cde3",
+      "size_bytes": 305,
+      "category": "other"
+    },
+    {
+      "path": "builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/template/README.md",
+      "sha256": "d044bf15baf8a68ac382d2dd1edf1165cbec153accf329d90776dccdda9f783a",
+      "size_bytes": 18,
+      "category": "other"
+    },
+    {
+      "path": "builder/pyproject.toml",
+      "sha256": "c5d0bfdb4d9a8a2073b458dca9ab804112f4d992eeef1b60982f5fb703a50b81",
+      "size_bytes": 1889,
+      "category": "other"
+    },
+    {
+      "path": "builder/reporte_consolidado.md",
+      "sha256": "36e94c599c18473bb673a220977fd1955e28ef16c4b92a9bf5c2c9da2e0563e4",
+      "size_bytes": 597,
+      "category": "other"
+    },
+    {
+      "path": "builder/scripts/ci_smoke_test.py",
+      "sha256": "4dd542e1ba85e84cd2cc952dae5d83cfaf54572e8cfe7d968a52806e29b67580",
+      "size_bytes": 3479,
+      "category": "other"
+    },
+    {
+      "path": "builder/scripts/package_smoke_test.py",
+      "sha256": "372f027539b43057d40766f233554d1e74988d1d621e4e9ea7725e971885349a",
+      "size_bytes": 1568,
+      "category": "other"
+    },
+    {
+      "path": "builder/scripts/validate_release.py",
+      "sha256": "1b520d0297cb8a54d2352933982c2f4d5a1849e4f9defc2987183accec35603b",
+      "size_bytes": 2723,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/__init__.py",
+      "sha256": "31bdc3059cc008bde1d59c7aa398ac3f41d7b68a8af3ab50033e315a2962aaf5",
+      "size_bytes": 74,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/__main__.py",
+      "sha256": "8efa22e1ba43392d8a7e69e7cc895e4b3607fac2b15854af5426cb8174743aed",
+      "size_bytes": 138,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/__init__.py",
+      "sha256": "999a1cfba0b0cd2eedb4bd2d74805bf1b7375c84513a362dd6c15850684a331a",
+      "size_bytes": 412,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/audit_service.py",
+      "sha256": "66edec1c122001c111c316aac21541d4e3a6758fb18b99ca675c72898403cfc7",
+      "size_bytes": 3055,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/dependency_rules.py",
+      "sha256": "4bff7169eceafd1113ab94a037be4d8d6bcc1c08977ebf96b3c29c0af495c02f",
+      "size_bytes": 2362,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/engine.py",
+      "sha256": "c5947de6b3bbd8b6dd8e0b6adf6e2f453ba14c90dac3ea564edb07cd611f11d8",
+      "size_bytes": 1305,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/exporter.py",
+      "sha256": "de860ae66e045b37c5dec4ecf5b2d4c1d72710923e7e213981e73ce9c8d87d2e",
+      "size_bytes": 1221,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/governance_rules.py",
+      "sha256": "d36fe72799edcb90ab91800e3a26f54af01059d5c8fd2742bce062d4c6778459",
+      "size_bytes": 7180,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/models.py",
+      "sha256": "c81fd84d6fa174e0c4208266177e2df88a5c7f798deada6c3f36030297bfcdee",
+      "size_bytes": 917,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/quality_rules.py",
+      "sha256": "9baa953de34f527303cfb3e35b59499a8adc414d3f89399627659a160c836eb0",
+      "size_bytes": 5134,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/report.py",
+      "sha256": "6a78ae36db49a711db1dc320ce575ba20bc3fe6d539e42663355f9bd3e79a5e8",
+      "size_bytes": 5221,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/audit/rules.py",
+      "sha256": "b04ed85b5197f4d96d532f9c6d2c2158c5f8f502a0d27d24f97cfdc12f71c32d",
+      "size_bytes": 8518,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/cli/__init__.py",
+      "sha256": "f44571985896b00a2a589e9baf56dcdc1c6503bd49c8e40fdbc7d41e15f693b1",
+      "size_bytes": 43,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/cli/commands.py",
+      "sha256": "c3a0dab7bca28f7b8f4702964508eb0479148c247ed1a4e2f95f78c26fa4254c",
+      "size_bytes": 43216,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/cli/main.py",
+      "sha256": "44a56803af5d07fbafc9ca36daf57947af49172ffe7af96073ab08afebc21796",
+      "size_bytes": 33494,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/core/__init__.py",
+      "sha256": "f9b2b70929841892d1207b9ae7175019c86be66a20aec194b2dcb9b4551d57a0",
+      "size_bytes": 189,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/core/config.py",
+      "sha256": "4c18664e42598bc9996fdfedf90d19348277a65d09ebeb6b9c0483e2037f6531",
+      "size_bytes": 621,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/core/constants.py",
+      "sha256": "5f7b1de4043448d995ab99d04ffe8a1414b76836854e0f842d04028735f85015",
+      "size_bytes": 563,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/core/initializer.py",
+      "sha256": "3dd775cc11dc0195faa9d713e540d285265b5d03d3698351f0cc5c434d1dee8e",
+      "size_bytes": 1771,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/core/project.py",
+      "sha256": "54e988a3d5af2bbd97388a7ead3e282cd99f33302333e58e110313f10d54c055",
+      "size_bytes": 1011,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/core/templates.py",
+      "sha256": "1f6346c85d219f30f6edd8d2bac525d410198d264a6c8f4b5f5b76b9d5cb3b12",
+      "size_bytes": 2867,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/__init__.py",
+      "sha256": "0415d009b013d4bc3ff91ee39568153c6e70800e2be721bef9ed6e19119d27a2",
+      "size_bytes": 1057,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/domain/__init__.py",
+      "sha256": "c2a0e1127dd920fc19d644543da143ab0b7bb41c7c9bf665309d4e9715d09a3b",
+      "size_bytes": 950,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/domain/enums.py",
+      "sha256": "5b1b57af7fef0bfe0db6ff75c4efaf1f21b14bb140313971d754065cf22fd0fd",
+      "size_bytes": 1302,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/domain/exceptions.py",
+      "sha256": "8e718d83435050405c044d27021c18b63bd01f1851ca1896d9317efdde4dd22a",
+      "size_bytes": 265,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/domain/identifiers.py",
+      "sha256": "0dec2c66fac6fa36b5e426966ff2d596df605d99c8054d2a54b0f6efab8f2167",
+      "size_bytes": 602,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/domain/models.py",
+      "sha256": "567226f9aea2b94d2256dd443cf0758b0fa9112f5f7e5430c56f3995a38f5234",
+      "size_bytes": 7917,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/events/__init__.py",
+      "sha256": "deb0ea4e0387aeacd2413964d7f25be970e703924d59efd0890a019c0b01395c",
+      "size_bytes": 103,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/events/models.py",
+      "sha256": "d316307a96a278bab5ac197212d1719f9a78c24635cd9dafc94ec4dff7969bad",
+      "size_bytes": 910,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/repositories/__init__.py",
+      "sha256": "6ae51869459d71f202c436d77b767655543dd6d37f4d4922a2047d6af0045042",
+      "size_bytes": 174,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/repositories/base.py",
+      "sha256": "7ed32c7d3f370f6d7d1ecac201b879d4a6e8e4e1fae480c265909396103f9f72",
+      "size_bytes": 491,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/repositories/memory.py",
+      "sha256": "a87a146144684b89a147b893c02c8ec3af3c0bfab5c12b68cb45a91f921d9879",
+      "size_bytes": 1193,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/services/__init__.py",
+      "sha256": "9cbc3241a141432d44a18ed6adbda435e09585e7e5f1cc060fcbca9a8d0c0f7f",
+      "size_bytes": 157,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/dmp/services/registry.py",
+      "sha256": "aa7d8c5dea383c9923a802534b9165e1fd27be117502784d0d40c308c47b2ddf",
+      "size_bytes": 2998,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/__init__.py",
+      "sha256": "6828f4a4c2e2e811d64903ee8359e6c68a2751b6bf8eb59912e341f8f67fc520",
+      "size_bytes": 4561,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/archive_service.py",
+      "sha256": "dbc3f9bb05e465cd0fab9b94687aef83e2373caa6db1780df5232c241f339fdf",
+      "size_bytes": 4510,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/bundle_executor.py",
+      "sha256": "03e2b0b5eedc0a60d0a93c4cbc248328bb45be694a4b54da829e125ca7292a48",
+      "size_bytes": 3406,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/bundle_models.py",
+      "sha256": "4dcdddd247a25f355142eaecc0bcc85cc623b13797cc5c528220f7beac7f7b82",
+      "size_bytes": 1831,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/bundle_planner.py",
+      "sha256": "c9fc3d9b07a450e13c49853371b56455ee4f10118a118f7fa95a9ad5f69641f6",
+      "size_bytes": 1607,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/bundle_serializers.py",
+      "sha256": "2e2b8fa88170bab809c5421570931c16886b9198cd656a960db017e0310d8337",
+      "size_bytes": 1309,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/bundle_service.py",
+      "sha256": "fb1ddad5acc97c4c602268bd0c25a1d93c7dc4d0ba74ecc706279db0de31e8eb",
+      "size_bytes": 4126,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/bundle_store.py",
+      "sha256": "5ee6354ffdd50f618afc7f6dd376504bce7ea02cd3c3d7dc1374a072e656239f",
+      "size_bytes": 2853,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/catalog_builder.py",
+      "sha256": "7cf7df2d14ea991f1cdf6fbcdfc11cf9a4ad851fca536b58b5fea1d34c96bfc9",
+      "size_bytes": 2408,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/catalog_models.py",
+      "sha256": "8fcf710d2bd5af7083c6ea2fed1ade3d8b4db0949a712cf408cfea8084fbbfa8",
+      "size_bytes": 1913,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/catalog_serializers.py",
+      "sha256": "50f37bf74ed83faa5157a8ebe4944c13e627d6c2dea1fafa137cac3bc0f822ec",
+      "size_bytes": 920,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/catalog_service.py",
+      "sha256": "9d498d17967ebe27ce3e78a2e2e7d0cbaea4408cace9d7f28e5f0d293f35ec9d",
+      "size_bytes": 2274,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/catalog_store.py",
+      "sha256": "8def17f5c77fa4d5f88b0d81289a2dc8ecfd3d87b111df4aea7c5d105cfe0c1c",
+      "size_bytes": 2084,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/compatibility.py",
+      "sha256": "a9483905db6caf991c4695892c4d3b80421a7a086ac96e18519daa2388c19b1b",
+      "size_bytes": 1804,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/consolidated_report.py",
+      "sha256": "1b2ca4908b4addb040675ed593cd4f6d777e18cf2b6ae45c6f66bafec70011bb",
+      "size_bytes": 4869,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/dependency_resolver.py",
+      "sha256": "73e2d96e85fae5798cd4d048617e8996f6194a52c1b394487bc2a3899eac7168",
+      "size_bytes": 3974,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/export_service.py",
+      "sha256": "b43f8aed2eaaa5f02a1abced13495c8458c04e0733068254344734e8e15a83e9",
+      "size_bytes": 3044,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/import_service.py",
+      "sha256": "147dbbbfc0358a547ae98ef05df1e75dbb5525455b63f99c0410e0b5ca409cfc",
+      "size_bytes": 3055,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/integrity.py",
+      "sha256": "908352ac530376f87c49e0c2f2acbb1529762d6c6c70412600d8b92041173ecf",
+      "size_bytes": 5677,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/manager.py",
+      "sha256": "b21bb08c27bf2801fbf8a8e5cb5ba388f79cba0333b4c994726074fccffd2cdd",
+      "size_bytes": 6713,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/models.py",
+      "sha256": "e7f2ac86d329f18aa6ae7ede8da8ee226be2661a94a3c3d43dd60b1bedd9580e",
+      "size_bytes": 2382,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/package_manifest.py",
+      "sha256": "fc2e1611cbea0325621d5352a59888b970c0d7087beea0f5abede954aa81ebb5",
+      "size_bytes": 933,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/plugin_doctor.py",
+      "sha256": "3281d146f8b6ee09b90d1f79964513773e04c825d596bf1ad51501b98e370e6e",
+      "size_bytes": 4229,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/plugin_integrity.py",
+      "sha256": "83ecd39297ada9b2a7dc1a5f55e4b88948c34fd95f27ba146fb8c6950acbda2a",
+      "size_bytes": 2020,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/plugin_state.py",
+      "sha256": "c3e5a12ebb5fa9c357122d9b2b76cbf87aa44a9c6e5575d69e398e7b974e93d5",
+      "size_bytes": 2632,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/plugin_updater.py",
+      "sha256": "4a5f61d18b0bba2aaa6c5d9b4359dd0a8ee656995a587b497cb8b3b2dceddc47",
+      "size_bytes": 7496,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/registry.py",
+      "sha256": "a6f18955f4cb10dfd97e8d501867c9cdb82f43e321319539521afc95b3ea234a",
+      "size_bytes": 3796,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/template_doctor.py",
+      "sha256": "f0f06aaefa19a4dc2424faa2ee5145778d3018c559ae0fbc84a9480a8ae4ee35",
+      "size_bytes": 5044,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/template_integrity.py",
+      "sha256": "91f1b0e384c22acb4d1313a96166354ace78ff1cc5118fab7baaff43d71c153a",
+      "size_bytes": 2106,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/template_models.py",
+      "sha256": "8863a1446dd1e766defabdb6d99ccb546bfbf4cd16941ce0023966b45d0b9074",
+      "size_bytes": 1272,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/template_state.py",
+      "sha256": "8f638e93b8f119f55d6e8ab1552bea5a1388f8598444276c9d3e04d1ff731b2c",
+      "size_bytes": 1305,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/template_updater.py",
+      "sha256": "0e9fcd2a18b0fc9d4613b37d9cd1d6630e04e9c88d0b3adfae9d8d778cf72d47",
+      "size_bytes": 5129,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/template_validator.py",
+      "sha256": "fd0fbb30e3be9d52b5223d0c0e5231f919932cf3bfde09253ef807c9d77b55e6",
+      "size_bytes": 6040,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/template_versions.py",
+      "sha256": "aa83fce2061b72f8e1a6b10aacf01194a07490e4d9dd8f6819ee7d9abc31ecb4",
+      "size_bytes": 862,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/extensions/validator.py",
+      "sha256": "091e126884d4cec1036d87c6899c9c2d7f4c8b01cc2c5c41ad1b50a24695c5e0",
+      "size_bytes": 6353,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/generators/__init__.py",
+      "sha256": "5b6a98d73e44016526307b323e579d206558ae6dc4b511fbf1aacf7f98a62aa1",
+      "size_bytes": 183,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/generators/components.py",
+      "sha256": "0e4325572c5659b0fe5ac73c3fcac54ed50893b3adb942b1170003b72f90a4cd",
+      "size_bytes": 3158,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/generators/files.py",
+      "sha256": "2c2397144f8976efa869fb26cb533a238b5400df616c448e2bba05e8645ba0d0",
+      "size_bytes": 746,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/generators/folders.py",
+      "sha256": "12f60c341f6f1196f5042d55e921127d67e8c8a588fa7b2e5286c28c5df18eb6",
+      "size_bytes": 736,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/generators/registry.py",
+      "sha256": "3468d48e4250b0ba74a0ac7e831d518c7b01ef4dc8a2687915c0158eaf59abdf",
+      "size_bytes": 874,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/exceptions.py",
+      "sha256": "983c37589ae16efd8582eb355d6bd4a60ec65965ed338372bf3f1a4af0953d87",
+      "size_bytes": 4486,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/governance_service.py",
+      "sha256": "4de94b1c232a0fec1b9bea9ef301e0b64361200ff1740456276a74a21b312fb0",
+      "size_bytes": 6783,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/models.py",
+      "sha256": "3844c5c312e154ad60d81b0619a29e4ad7ad311bc61c8b90b8883d282e278152",
+      "size_bytes": 10824,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/policy_engine.py",
+      "sha256": "2864798be2357b275f35d6b45cf54c9a8fa57b2e043594bb06134925e6092814",
+      "size_bytes": 4901,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/policy_loader.py",
+      "sha256": "db61898af23127e79e551486c6c970cfb76a7a1c711413df523d65d28b0f3eff",
+      "size_bytes": 4325,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/policy_repository.py",
+      "sha256": "cccda2a511e8642605dc5cdbd1955af29158d189a71a1df496f587149e4aab6a",
+      "size_bytes": 7495,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/policy_validator.py",
+      "sha256": "64d9efd59914ec71593771e1e322653c459e3a35dc7a873122b4c6cd94421cb9",
+      "size_bytes": 19902,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/results.py",
+      "sha256": "c7e1c83a6deb8868fd8bc9c21d0909aa2dcd5460d1d87169375722f12e0deab7",
+      "size_bytes": 18599,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/rule_evaluator.py",
+      "sha256": "988ca20330ca7ea552144bb1eb43901c43723c4c7cddf85a47caf57532bf9e27",
+      "size_bytes": 11857,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/governance/serializers.py",
+      "sha256": "69b8a7a24c7877b64009cef452dee5110b5c546bfa0d4fcb6dc69a8fb1018929",
+      "size_bytes": 10304,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/lifecycle/__init__.py",
+      "sha256": "9af7375ae6f5ba6f62a5ebc6f04fccd3fdd4dcc06a3146317bfc33535ae69bb0",
+      "size_bytes": 461,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/lifecycle/backup.py",
+      "sha256": "91afad13aa34f37d5cd817611058e0389b2495a97c5e85e46d95c49ae4ba7e86",
+      "size_bytes": 673,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/lifecycle/migrations.py",
+      "sha256": "a20905b3b2e2ac2c6a31e896fdeb57de9233f450acab2acd17cc4ade9ee659c0",
+      "size_bytes": 2689,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/lifecycle/migrator.py",
+      "sha256": "aff26c06ac03c27714a42e42682a5f3edc9486320257d4ed596daa64c820f608",
+      "size_bytes": 3754,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/lifecycle/models.py",
+      "sha256": "b28b4e741d2c4d8ad393eeb92cd3db03b50ab6a5754c7f08c08b490be442c227",
+      "size_bytes": 2017,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/lifecycle/repair.py",
+      "sha256": "c11a0bebe3f4850d74e073460b80a5ec2ba26c88fc9200c972964e8785405653",
+      "size_bytes": 3375,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/__init__.py",
+      "sha256": "6a7e5273dccbed8422859be4388f2767f66b415b67427d8c7736f4a333e59679",
+      "size_bytes": 1985,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/collector.py",
+      "sha256": "cfe83aa88969dbcadf7bc1f3a413bae4cfe5e843199d14936bed36bac8115014",
+      "size_bytes": 6369,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/health.py",
+      "sha256": "f46bd2ba18c1c060390c2a163714d708ed8bcae1389e765100b3f8b02218b678",
+      "size_bytes": 322,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/history.py",
+      "sha256": "bf6272cdd5c4c376b9a3066413a0853d5950fa78c6d9a0eb39e810c3565ae2c9",
+      "size_bytes": 1544,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/history_models.py",
+      "sha256": "98034bf9b1951807a9319d98877aa5d86d77f601cef4bbfc688ccf43d0145b7d",
+      "size_bytes": 1775,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/history_serializers.py",
+      "sha256": "6eabd28adf1f76db434b74c012438e7f7f1a22c63ff89ec282b0b597b5e566dd",
+      "size_bytes": 1019,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/history_store.py",
+      "sha256": "1f3c58dfd4996797695ffe6e67821a45037adc080b1e1d5636728980dcb240c0",
+      "size_bytes": 3282,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/instrumentation.py",
+      "sha256": "60cc80d0abfdb5e6ba25bb7875f31e1d632cfec7fd91c81326f68633c2bd5b1e",
+      "size_bytes": 979,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/models.py",
+      "sha256": "bdd05426f5e321dac8ac1ecd292fb4118150563cc8b4ac90459e674303351f04",
+      "size_bytes": 2679,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/report_builder.py",
+      "sha256": "0e48522f0f8f9fd4d02ec26365ea09aa8623c85b2b17b6e198d5908495c4b294",
+      "size_bytes": 5303,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/report_models.py",
+      "sha256": "919e2817b87f48ba3e321f40896ffc6f8c85d0dde5e396a16913ce12886c0284",
+      "size_bytes": 2306,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/report_profiles.py",
+      "sha256": "8703f05ff35d9088af95e63237e892aada6d95e1013a760a0a0328dc97ccb211",
+      "size_bytes": 1445,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/report_serializers.py",
+      "sha256": "67134f6221220ca7b80c048d16a2f2a8c7aba0089ad0bbb628617836deb691e5",
+      "size_bytes": 7516,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/report_service.py",
+      "sha256": "7bc79d1418ba1093a79dd80797261f395c8e6b50d739698a0ee239b15e812c99",
+      "size_bytes": 2011,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/serializers.py",
+      "sha256": "8740b1c9cd59c3ceed2206522fab95fc8362dfabc8c54fbb60e623a554f17d58",
+      "size_bytes": 2286,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/operations/status.py",
+      "sha256": "5f6e5fd68a9f3cb19796a27a54d618a3ab065b5445d16a5e8719569d0bf1618b",
+      "size_bytes": 611,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/__init__.py",
+      "sha256": "20f620ed21ac7ba466537a3dbab09d12087ba19ec6860399eb0a7272f0402614",
+      "size_bytes": 1555,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/index_models.py",
+      "sha256": "d109232a68ccac89e32065da0d3e24a0570635ee80c32d791506e1c436e9c81e",
+      "size_bytes": 1404,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/index_serializers.py",
+      "sha256": "42c72bc0b4802a6c4fb30fc84f6ce5c4a2b6fbd21389832614d84e91e32c8b44",
+      "size_bytes": 1746,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/index_store.py",
+      "sha256": "eda65595f71ceb31ac4f56b9a8a3a4cd837aa7bc8318443aef8af6541eb9b093",
+      "size_bytes": 3811,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/index_validator.py",
+      "sha256": "179bcfc634dcdc06d2f8821f593e6c6c555cfc533e8863296d46a2fac582b0af",
+      "size_bytes": 2727,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/models.py",
+      "sha256": "5c51b9c9ca247f19aef1f657bb32ead442f4f2c1d68556602d804984dcf409d4",
+      "size_bytes": 1227,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/serializers.py",
+      "sha256": "09aac1ca5e66f077647b1f816df65f9866e90d100d4b326d9f3e5c91cb83a978",
+      "size_bytes": 1171,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/service.py",
+      "sha256": "504ca1438d2910acbda9557386db4af6d1cffcc807e28fc6a1b0bf68f1aa4cc5",
+      "size_bytes": 3640,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/store.py",
+      "sha256": "16718982a4b6c3e2bcab8e65119d0a86920c7d2127882fe3f930a1894d9d2714",
+      "size_bytes": 2138,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/sync_client.py",
+      "sha256": "533362ab39714008ea0fa14daac854b1dcf9a2af195951b0c5665ad0b8437cf7",
+      "size_bytes": 2713,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/sync_service.py",
+      "sha256": "e63507be16e5058e53bc5ea2bc8ce5dab5b8e1b3d7e33d8be8ced0b0ac5d0db9",
+      "size_bytes": 5886,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/repositories/validator.py",
+      "sha256": "517e51f1fb04bc58a6d54824d44aa269a807e4c2a55498d683b64be0401fe679",
+      "size_bytes": 1378,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/__init__.py",
+      "sha256": "6f298f84f4a93eab9a4fa617dd67702c9878774857819d84400444245dfc531f",
+      "size_bytes": 585,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/api.py",
+      "sha256": "6cd20b81f8e2620557f0607c8f9a8a573a459499bb9489ac37d1d05aee5ee871",
+      "size_bytes": 1597,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/backend.py",
+      "sha256": "caa5520f184175e0e367941b0dfaf0899a6528f28a2d9079f8e9a6665183cbb9",
+      "size_bytes": 1224,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/database.py",
+      "sha256": "74c391a55f5233ecb966dc90df81d6066585ab391df446691243ed32472d8310",
+      "size_bytes": 95,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/docs.py",
+      "sha256": "ad79b594c46e15c95e6f64108bb50ef7fa6146551c10e571d88c6877758ba652",
+      "size_bytes": 828,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/frontend.py",
+      "sha256": "22a1b7b29d15b679ce2feb0eb72ad55fced86e20e997ff772ad36058211a9f62",
+      "size_bytes": 105,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/module.py",
+      "sha256": "34e82c7dd16f261a7fe1b4e79c300bec63ffc6943dd2d2457cd3231c92daad75",
+      "size_bytes": 511,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/templates/workflow.py",
+      "sha256": "5bdd6b4acbf50e70848941b37602a0243e456163ff13529d379edc82ccfaecca",
+      "size_bytes": 1170,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/validators/__init__.py",
+      "sha256": "ea895c515c2ec3f71066c3a9f4a065e35dcc445942f8c268ec2a4be8edca70ce",
+      "size_bytes": 176,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/validators/doctor.py",
+      "sha256": "b245f75b322c425c09081c4debf2ca565b065cc5593dc0947911a601d5e4fbeb",
+      "size_bytes": 295,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/validators/manifest.py",
+      "sha256": "1e11dd0c64d5e6bc9b604244e868e4da3130923d3d2693adbb02a9c1049a666f",
+      "size_bytes": 402,
+      "category": "other"
+    },
+    {
+      "path": "builder/src/sgoda/validators/project.py",
+      "sha256": "a39df571d2192608410cd0dd25a613e55e237e680accaa432ed829e3c90b5f15",
+      "size_bytes": 219,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_audit.py",
+      "sha256": "e5a44f876a7d1f0a8aa8c465f5dbd4fe78a39465936b4e701830bcce238a7be2",
+      "size_bytes": 1957,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_audit_reports.py",
+      "sha256": "ccfacd2a044e0c51b6b7f760f8277ebf45b99e8846073e6b62648521734a7618",
+      "size_bytes": 1320,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_bundle_cli.py",
+      "sha256": "1bcd9154286f48d2a2ea81ba9a944a94c3df2a3dda9c2ef63fd98929948df91b",
+      "size_bytes": 1556,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_bundle_executor.py",
+      "sha256": "2010e893a513af4c6ddcc9e5772d896ada0b9e602f79406546f85c12ca5bff8f",
+      "size_bytes": 1808,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_bundle_history.py",
+      "sha256": "31922e3dc7d3e6953c1fd3d860b77d824ad9856fe198e2a0157574c5ed307c6e",
+      "size_bytes": 1526,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_bundle_rollback.py",
+      "sha256": "261f09ace014f59dfa41e270eab83b98f7defbe085b86f3ef1dae0f9a63c6559",
+      "size_bytes": 824,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_bundle_service.py",
+      "sha256": "9befb343335fe8132bd103229f98c4441e822b7a941cba7594d2cbde709b1d94",
+      "size_bytes": 1149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_bundle_store.py",
+      "sha256": "7c21222ea8819d73b9f7f28013b7e64fa5304a312e5703db45e6401a0630c410",
+      "size_bytes": 590,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_catalog_cli.py",
+      "sha256": "522c67f595cffd3692f6043031356411b2e5e3f167051ff32e7cf78c12ebf1cd",
+      "size_bytes": 1423,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_catalog_history.py",
+      "sha256": "f96ce12811f0bf7c4a0178ed299cc1ded94bf5e93b2cf2074f2cff439a6c88c6",
+      "size_bytes": 1510,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_catalog_service.py",
+      "sha256": "b9d7cc68dfeade43947bb7758491e560af4031abdbd9206ab45f18fbd00a4145",
+      "size_bytes": 1714,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_catalog_store.py",
+      "sha256": "2d6fc0de801bdb91a00fbd40ead07abc57d7eb44b39b3ae4ef8889f522ed016a",
+      "size_bytes": 825,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_ci_configuration.py",
+      "sha256": "25edbdcb83c352cb8c64d185b503c2edca6baea0c78f043acfe552e8619c8519",
+      "size_bytes": 1785,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_cli.py",
+      "sha256": "e57c23f4ceb5a9b6e563a6eefe9d93cbe8943900ea6af9b5eb8aecdc57c679dd",
+      "size_bytes": 512,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_component_dependencies.py",
+      "sha256": "a5c29160175b49d7864345932cfb44fa282801ccbe2a8fe02b51ff9df1ed4e5e",
+      "size_bytes": 1443,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_component_generator.py",
+      "sha256": "d2338877f74138c6ff3bf5fa58fc905c9a5c4b360f2db3ef0e3835bedee88a4f",
+      "size_bytes": 1370,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_consolidated_report.py",
+      "sha256": "ca8f6130d1dbe7fbdd709ae41a106769af28a9d74e7b87762f2ecb3ca45b1c76",
+      "size_bytes": 1199,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_core.py",
+      "sha256": "9c1a37e2735ae6d5217ae3ec5f64b44b06bd112d6d2fd7df602a038a0ecfe25a",
+      "size_bytes": 233,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_delivery_b.py",
+      "sha256": "f97331201e4484720b732b3f5e211edb31a7eb786e5ae64a55871c1b28120bec",
+      "size_bytes": 1614,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_delivery_c.py",
+      "sha256": "f47cc1c981c051dac7ddae506a0b707a1d074d8fc585b8a17a0f062dfffb9ade",
+      "size_bytes": 2082,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_dmp_domain.py",
+      "sha256": "accf695b4046b1aa6a0fa86f3d2b23c9302895d39c495abd9598a047003d7121",
+      "size_bytes": 1834,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_dmp_lifecycle.py",
+      "sha256": "71e228557d111c3437c5c0fb276eab11b5716bc676283b82309f6ce8cffb3842",
+      "size_bytes": 3830,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_dmp_registry.py",
+      "sha256": "f7403aab85270be33d32d815722f4272e6fadfde65b76494e54a35992314f663",
+      "size_bytes": 2123,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_event_models.py",
+      "sha256": "405eb5f8ad21fafc6571440d0a113cafe58776ec879bd49fbb4c1244471d3868",
+      "size_bytes": 518,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_export_import.py",
+      "sha256": "eba41124309b4b07047b0690c1042b44ede6f3acdb4a950c2d1375f2a3634daa",
+      "size_bytes": 1851,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_export_import_cli.py",
+      "sha256": "ed7d8d944fdd589b584e9cb4c983409173dd6554cd0a3af629cf54a6be023ace",
+      "size_bytes": 1455,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_export_integrity.py",
+      "sha256": "84ffc917db5018304d2e6c278d4b3fc66bb74cc1368c789a697c849b1ca19fb7",
+      "size_bytes": 1908,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_extension_registry.py",
+      "sha256": "24d729d49b295a365c00b5080e2c8bf98d3cb4db7b7d5e50290ac0a004ae0433",
+      "size_bytes": 1335,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_extension_validator.py",
+      "sha256": "fff9d2c181b8b012d1922acb4c439c77ec8030d8adf8d53be3b5dd636242473b",
+      "size_bytes": 1376,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_fair_care_rules.py",
+      "sha256": "554ca2baf54063d0fbb41fed9953f32b189110eb77fbbb3c301fb5f3868f9e40",
+      "size_bytes": 1397,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_exceptions.py",
+      "sha256": "72e75a18f8fb97bc781c7e268c1d18f7f6166e98710a8952c3e058a7b6b1a585",
+      "size_bytes": 2130,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_governance_service.py",
+      "sha256": "b16f743a7e2f702c1b9aaa8ade4a1de953efb1d32c477e655e37de3cc464d7a9",
+      "size_bytes": 18739,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_models.py",
+      "sha256": "0362750376f048c6afbe87479c8c4e7c5d4aa994763f528e5c3d0c79840681a3",
+      "size_bytes": 4906,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_policy_engine.py",
+      "sha256": "f170c062e56f35e56f285c9fb41ed7f8aff27c08cf5f511f2dd73eb327b8be1a",
+      "size_bytes": 13927,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_policy_loader.py",
+      "sha256": "3bc49dcf6e3e40e8c91fbe02a052616464ce98cc9c501f069db4e6fb27a025bf",
+      "size_bytes": 5524,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_policy_repository.py",
+      "sha256": "59af7dbba01fb73b204df564f2a28dcb0315f58ff6523858fdb239351dbd2549",
+      "size_bytes": 13943,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_policy_validator.py",
+      "sha256": "a149dba4763454e03cbc5feb139da40b4fb78e595aaddc6d167e153605955bec",
+      "size_bytes": 13546,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_results.py",
+      "sha256": "27d206bf33298d81277b146392c484414a8f34a52516c51bbf494d4637f9b5fb",
+      "size_bytes": 14556,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_rule_evaluator.py",
+      "sha256": "785a5a2f543890cb1be9e944ad072f8195104b9f9a3651b3e30a63e3ab0ba979",
+      "size_bytes": 16000,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_rules.py",
+      "sha256": "a68a9902b9b247a0b186ca78bf95958ca840c7ee7e6d132faecf9034f9f3f1fb",
+      "size_bytes": 1614,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_governance_serializers.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_history_cli.py",
+      "sha256": "9423c2000fd011a82cea0e25df00f0cf49db13fad8021fdf936bc158b957dc82",
+      "size_bytes": 1067,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_history_instrumentation.py",
+      "sha256": "f31c5d7bc1349edfc83b9d9f201ae2e650a38d7b4895a85c9b261f0aa295a876",
+      "size_bytes": 2986,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_history_serializers.py",
+      "sha256": "1db0cbd507d7fb56308663806a43fe8c24d97531743bafa4b1cf28882986360b",
+      "size_bytes": 816,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_history_store.py",
+      "sha256": "e336fcff26153a6740cc80e6bda3629739c582cad4e90dd83fd78c1b0b2e4a84",
+      "size_bytes": 1585,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_index_cli.py",
+      "sha256": "675fd296bb7488c89f608d02e9c0812b6642ece95d53915371df440187713211",
+      "size_bytes": 1289,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_index_models_serializers.py",
+      "sha256": "2650eb4e70a8ee7981b651a21a022bca0c232a655be8b7895da98f3f0a1e98d8",
+      "size_bytes": 633,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_index_store.py",
+      "sha256": "500bd9c5332c1d97430e36b6e9b4eca6b708250eb925ae3a5a3e0d09f165f8e1",
+      "size_bytes": 1028,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_index_validator.py",
+      "sha256": "1279669f4750b77e97d46baad34a65180b5ee2a67ad1cc03bdc5ec7189cb5687",
+      "size_bytes": 1155,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_initializer.py",
+      "sha256": "c3d4ce7eeb4944eacad797c88de0b42f2d5609508391444d6a9d7c0e78d9cf1d",
+      "size_bytes": 1347,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_lifecycle_backup.py",
+      "sha256": "7edf2a84adf119935cb57dba68f1be17971651b801648728faad355adb6b1683",
+      "size_bytes": 520,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_lifecycle_cli.py",
+      "sha256": "7e52c46ee0ba514750f365344194f650b2b0f428cede7a4111a3e89349ddb13f",
+      "size_bytes": 1436,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_lifecycle_migration.py",
+      "sha256": "18c289a476e4915a9d6d304684cafe3805d42fedb59a3bb62a9d631959a1e62b",
+      "size_bytes": 1978,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_operation_collector.py",
+      "sha256": "d0174f214c88267a423e0c601293ac2e8d7f8e82092778a1216fef3c381a7b51",
+      "size_bytes": 1412,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_operation_health.py",
+      "sha256": "3d00aa783e13d4a0a0df0ca86ad796dbcf2ffbf5a9670a0f5f09ebb98314872c",
+      "size_bytes": 269,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_operation_serializers.py",
+      "sha256": "07d6195e75dc46c6a0b0022d4faed6dc0d36d261c5089321342f9f31266ecee5",
+      "size_bytes": 659,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_package_metadata.py",
+      "sha256": "523f3da440d531eb79a38fda785713f9cce91718149a19b74a23632b0a7a8efe",
+      "size_bytes": 649,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_compatibility.py",
+      "sha256": "014a0f4640c281cd9b0b3bb227f051de027c18c8d62cdefa128ce58175c862c4",
+      "size_bytes": 394,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_dependencies.py",
+      "sha256": "b373bff53d7c2247f632b6e4d79a3b2f86c0ed1546b11b5479771603df20a6a5",
+      "size_bytes": 1123,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_doctor.py",
+      "sha256": "9780b255e0b08e8443a33ea65b609b597547170696d9a045c6e66cdf6749231d",
+      "size_bytes": 1304,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_integrity.py",
+      "sha256": "021623633369017437584349476f59700f045963c727e5da9c5a68598fb38770",
+      "size_bytes": 3443,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_integrity_doctor.py",
+      "sha256": "7996fb37e7cd67a9f64d5e02c7620b051337d51fc7bc47acf8a1c2dfbc798919",
+      "size_bytes": 1981,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_integrity_history.py",
+      "sha256": "df23294e2981a098ab6da2cfbb96faaf3e10f50fce233f0500c132c864b75cf7",
+      "size_bytes": 1806,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_state.py",
+      "sha256": "0d1831379eb936efa96d3a9a9afb6a80c3e83dc21202aa0a6d437e969ceefca3",
+      "size_bytes": 2011,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_template_cli.py",
+      "sha256": "09b5c9354ffb89802e37d4b91950f5274abb493415853c6d41754edc56ecb8ad",
+      "size_bytes": 2904,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_update.py",
+      "sha256": "6b4cb28d469024e416d069de39c2ed89dcdb5257e2a6d81b096641624ae0f671",
+      "size_bytes": 3272,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_update_history.py",
+      "sha256": "5f2cbb9fb36ae96ae0dd5212338c159bc95331b9af5bc46b24c0847d3df83d1d",
+      "size_bytes": 1646,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_plugin_update_rollback.py",
+      "sha256": "bd7a69c53ea5baab5ac64bbfefc267ef5cfbf908d1f2f7a5bcfae718e5315c6e",
+      "size_bytes": 1734,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_quality_rules.py",
+      "sha256": "c645cd40fd692511c223d291951bfd219e1adb4d276f2d85eae6f7f18a3a23cf",
+      "size_bytes": 1743,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_release_configuration.py",
+      "sha256": "ba564de8709bd356e2395165027b5f1cfeedd52837f6edd7d3be4490fa91faeb",
+      "size_bytes": 1304,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_repair.py",
+      "sha256": "d04954d5af54d4b74a055b03c0e850bfc6280015a23eaf5f7527814f11bff96c",
+      "size_bytes": 1498,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_report_cli.py",
+      "sha256": "16cc88cf00e0d4ff2aa9f2d4b66513fbb68d1679530734c28426d1d510f9f81b",
+      "size_bytes": 1670,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_report_html.py",
+      "sha256": "047792f1642e9eb28fcdc76ee69ea14113aede8d3a4409e15c2a5cc29e7b692c",
+      "size_bytes": 1148,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_report_html_markdown.py",
+      "sha256": "7d5a55234265fc8d3e4d5dd4e24bf67bc016a62a22993585d7e3862fe8478383",
+      "size_bytes": 1502,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_report_models.py",
+      "sha256": "21cc16c8c7fb147f11cb120ea8d163545c1bf2e2ef3f8ba770dddb700c4f1a37",
+      "size_bytes": 519,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_report_profiles.py",
+      "sha256": "f02a4e0762702ee7804f7783d91f473cc76396fe26df872c494316eb0e3a5b6c",
+      "size_bytes": 604,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_report_serializers.py",
+      "sha256": "c89d0ea03330650c89dea77c48f01f76a98f0eb821ee6de5ec0efd1daa91d841",
+      "size_bytes": 949,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_repository_cli.py",
+      "sha256": "eec452d01da01e8842e1d0907c49ed8c9ceb29f68c49f1581cba717ba80535c7",
+      "size_bytes": 1098,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_repository_history.py",
+      "sha256": "de9e8818cb38f7f171c5de58897a65a42a1e8ef74ad012d33deff78f17322591",
+      "size_bytes": 690,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_repository_service.py",
+      "sha256": "06e5e9f8d54dbdf896f663652b1782f11ad0490dab83b51a245f9532803bd992",
+      "size_bytes": 1125,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_repository_store.py",
+      "sha256": "55b973fa95a15770f824258101566f886458a97489935a49be52c192e156c1e0",
+      "size_bytes": 512,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_repository_validator.py",
+      "sha256": "8e5ee54d3468f39039b4397fdb07302de5e36792a4a6ee97b4ddfe3ac47587cc",
+      "size_bytes": 606,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_semver_release.py",
+      "sha256": "7d7f1a9c3af6e21ce738c6a7e8a791c5d4d1582fa1845ea1331f00ec41ea2433",
+      "size_bytes": 783,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_status_cli.py",
+      "sha256": "6d98ea849dd1dcbb0dc1d4f2ecf6b28b45e43c5ad269d476067ba4ea8843ad28",
+      "size_bytes": 999,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_strict_quality.py",
+      "sha256": "356c54e0f88ea03930fc18ee91b4e57b26375320988eaad2380daa8264dd5604",
+      "size_bytes": 1452,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_sync_client.py",
+      "sha256": "a460fbb0680a64b7f558691ddea340c7380810fd8e30aa6bdc70e8854b71e53d",
+      "size_bytes": 306,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_sync_service.py",
+      "sha256": "0231202e148a6f3c4a2d7d07d03baefe7923bb8a7be72821e16ffed62c107dd0",
+      "size_bytes": 2176,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_advanced_validator.py",
+      "sha256": "b7fe9db5e8a7acedb7cac7d9168fe58d7ffd2fdb9e1ac1cd8f5d7e21f31b94f5",
+      "size_bytes": 1685,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_doctor.py",
+      "sha256": "c876ed8eddbe541c46284bcd4592ad284853be4a569789b02dd9cb5f12bf0795",
+      "size_bytes": 1456,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_history.py",
+      "sha256": "54923205a1fcecc87d244fe6620deee350d18fe7b8351574b07e7df22f55a8b7",
+      "size_bytes": 1808,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_integrity.py",
+      "sha256": "8ffb2b7a98c9f48c76fc8e8a4fed67b5ddc6c69cf5a8b9636217f05d6c0b05bc",
+      "size_bytes": 3680,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_integrity_doctor.py",
+      "sha256": "1f9877721954e34f31a98a0f753daaf91a4a7425895a16c5e442fbb9071bb787",
+      "size_bytes": 1745,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_integrity_history.py",
+      "sha256": "63c001404872478099759edbb4e8784518c34fa24bdaac6b03224d2471de195a",
+      "size_bytes": 2015,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_state.py",
+      "sha256": "d6dc4ac3b22a12bd109020c5ae0c7483d2a798e2ec7151ce8ae50d2ae0ed712b",
+      "size_bytes": 1811,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_update.py",
+      "sha256": "c756975852a638ba9b20869026b5f24d3e6b1e004fa709d23b8691ec94e94188",
+      "size_bytes": 1798,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_update_history.py",
+      "sha256": "7167eff93a3950bb0cc49c6d32f67b84f66c74d4547ead998ce6970f88436f37",
+      "size_bytes": 1255,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_update_rollback.py",
+      "sha256": "3b194bf5ebccf88fe384e22bb4a917c0fbdcde0454bd16b8908004368831d83c",
+      "size_bytes": 1305,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_template_versions.py",
+      "sha256": "616c2a67d3b9d301a7a9f5d3cb7e2c3c190a782e6066d6c685804749f31b7581",
+      "size_bytes": 1089,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_audit_c.py",
+      "sha256": "4753d4bea0d66ee9da88b3626511606cc8ba17c7ac151fc3acff3d2a7352c077",
+      "size_bytes": 160,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_bundles.py",
+      "sha256": "8762a6cad0d83b1a8c7414c5d3a9d4de40ed54a538e6ca3fc485c27e3914b33d",
+      "size_bytes": 157,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_catalog.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_export_import.py",
+      "sha256": "4e84fd53815253d0c6de2985a342700e4866e5b486e33f537edcdb41d771eca9",
+      "size_bytes": 162,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_extensions.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_history.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_lifecycle.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_observability.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_package.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_plugin_ecosystem.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_repair.py",
+      "sha256": "6d60f27dda0799333e64e20d1c5e44125ae5a9a976b0772114f8c64640f2ea49",
+      "size_bytes": 128,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_reports.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_repositories.py",
+      "sha256": "3c54de6523169f8bc197461d38a72885fe62b79f3b8b53af3f3ca6cba56ab0e1",
+      "size_bytes": 162,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_sync.py",
+      "sha256": "90bec33b969c81d44c6f03a93e2e784eb275cd8911291a9a15afaab928a62da5",
+      "size_bytes": 154,
+      "category": "other"
+    },
+    {
+      "path": "builder/tests/test_version_template_ecosystem.py",
+      "sha256": "14ec6b7f90174965d9dcf84c80a51d3ea0a334962f82d8a7e22067e0ef64a538",
+      "size_bytes": 149,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup/pyproject.toml",
+      "sha256": "ff90090480e40ea8882c468188dd4b2365428777b92ae4a4c14ec3eaf0a6d166",
+      "size_bytes": 982,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/README.md",
+      "sha256": "9958028bb0eba433950b9e2fcc5610a32ee1dcf63d137998c9e9d57e46b48451",
+      "size_bytes": 236,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/builder.py",
+      "sha256": "b4d7347c69063337c2ee566589fc057067063527e9c17c93bd5c3f393cf9ddf7",
+      "size_bytes": 719,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/cli/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/core/config.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/core/constants.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/core/project.py",
+      "sha256": "cee58a67182f681595bd3f42fa91f7d54ba8f70f806243ec62d178f23223bb3a",
+      "size_bytes": 754,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/generators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/pyproject.toml",
+      "sha256": "e1722a4dda5cfed3262cb4da3dff4cbd6cf96ed29d3d5d9cabcefdb40f6e4699",
+      "size_bytes": 658,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/src/sgoda/__init__.py",
+      "sha256": "0191ec315326dc12e9bc567128b4dc4bb09258a74f9df835ed69f4ab1c1fc560",
+      "size_bytes": 397,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/src/sgoda/cli/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/src/sgoda/core/__init__.py",
+      "sha256": "af34f2d8829e9f8a78042e1feb5871ca7ede8a15e465786364a1cef0fd2347d9",
+      "size_bytes": 367,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/src/sgoda/core/config.py",
+      "sha256": "521732b09b3ead6ba2ab8e7ba193c37f5ecfe4f44ceadc358dc138740204d7d1",
+      "size_bytes": 439,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/src/sgoda/core/constants.py",
+      "sha256": "3b7609c20a592a68603190c86f9f9f5cff01d969734c455496373184bd3218e9",
+      "size_bytes": 800,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/src/sgoda/generators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "builder_backup_20260713_175707/validators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "config/evidence-retention-policies.json",
+      "sha256": "4949c490877c07876ea87b05784c8c0f54918e7793ccac141309e137cc3c76df",
+      "size_bytes": 4756,
+      "category": "configuration"
+    },
+    {
+      "path": "config/governance/SGD-114-v2-component.json",
+      "sha256": "5a27594042bd44e070de092c73335f8f1d329da0985953e0222cb0e6a241595a",
+      "size_bytes": 429,
+      "category": "configuration"
+    },
+    {
+      "path": "config/governance/sgd-114-policy.json",
+      "sha256": "21c260f7dd967f9a74a868f97e25c9a81cfa7ff4e334d3d6b4b8a07c0e5adeb4",
+      "size_bytes": 1359,
+      "category": "configuration"
+    },
+    {
+      "path": "config/governance/sgd-114-v2-repository-policy.json",
+      "sha256": "e277abd50e62def7179499fb7731cb23c790873eb907c199db61f106403a1fb9",
+      "size_bytes": 1279,
+      "category": "configuration"
+    },
+    {
+      "path": "config/media/ADR-010-component.json",
+      "sha256": "fb6ff3b30891750d24677524e8ab9741fd2687b14acbf3393108a4e5baf4b382",
+      "size_bytes": 564,
+      "category": "configuration"
+    },
+    {
+      "path": "config/media/rmr-policy.json",
+      "sha256": "0b06479b1e3a473a606c1011d9f8baa218d93652188428a5b831d177f09e3b98",
+      "size_bytes": 642,
+      "category": "configuration"
+    },
+    {
+      "path": "config/oda/SPT-002-component.json",
+      "sha256": "e531501eec90f4ac361fa86e247a82ed849b3c3b778b761a75bc6b867347079c",
+      "size_bytes": 453,
+      "category": "configuration"
+    },
+    {
+      "path": "config/oda/oda-generation-policy.json",
+      "sha256": "0785315987f62dc937bef6867cefe109dbccb84e3e1bc53f355a22bd172b656c",
+      "size_bytes": 464,
+      "category": "configuration"
+    },
+    {
+      "path": "config/rlb/SPT-001B-P06-component.json",
+      "sha256": "86d569f5d4f78bde0aaa7d0585b3fa57cd6fb8c3c8a28effa3218768380f4076",
+      "size_bytes": 484,
+      "category": "configuration"
+    },
+    {
+      "path": "config/rlb/SPT-001B-P07-component.json",
+      "sha256": "41833de23af9732b3323a860861181cf89a0a2a5adde40a39d7027c6b9ea6941",
+      "size_bytes": 353,
+      "category": "configuration"
+    },
+    {
+      "path": "config/rlb/SPT-001B-P07-header-mapping.json",
+      "sha256": "82bd801b7d63e9c9ab84e694ad780a96685d825be20d63978d0de04c5dccb1bf",
+      "size_bytes": 379,
+      "category": "configuration"
+    },
+    {
+      "path": "config/rlb/SPT-001B-P08-component.json",
+      "sha256": "d69a70c3c218ecaabbe86e801f23901aad3d32e6d1be213a948d2e8b98b68df1",
+      "size_bytes": 404,
+      "category": "configuration"
+    },
+    {
+      "path": "config/rlb/active-schema.json",
+      "sha256": "0f8d67872df8c9ada69daa57179d186a5ced78b73d38abffa11509ec1811aedc",
+      "size_bytes": 235,
+      "category": "configuration"
+    },
+    {
+      "path": "config/rlb/schema-v1.1.json",
+      "sha256": "c04bb3e93f2156ef0d33f3639493d92a5efbcf463b47bc1bc5aec3b1efd5b049",
+      "size_bytes": 6633,
+      "category": "configuration"
+    },
+    {
+      "path": "config/rlb/schema-v1.json",
+      "sha256": "82d58c6e4a58db117498c645674956c0f57ef11400703713beef36ef0ed2f8d8",
+      "size_bytes": 2135,
+      "category": "configuration"
+    },
+    {
+      "path": "dashboard/ADR-010-RMR-dashboard.json",
+      "sha256": "7732717d1f43b29fb66a1cac176136044467313e656f11a38c1f5fba85134de7",
+      "size_bytes": 635,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SGD-114-dashboard.json",
+      "sha256": "63d1bbadadc020447456d268e0d6441bfe78858351c106b85bbc23019445ff17",
+      "size_bytes": 295,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SPT-001B-P06-dashboard.json",
+      "sha256": "7dd2c7431df3db2d7dbe1549db8d927be1efc62740e6cc8896cce950fbdd8388",
+      "size_bytes": 528,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SPT-001B-P07-dashboard.json",
+      "sha256": "33a3b604d0dbc33a1af67eed11d21d653ffcac2f7c5063c71d70181fa66682d9",
+      "size_bytes": 433,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SPT-001B-dashboard.json",
+      "sha256": "5df7675a796516bda7c214a6e75d5fc9852d7e542de768ccee1311133c8e289a",
+      "size_bytes": 613,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SPT-002-dashboard.json",
+      "sha256": "753d1f044893edf233e75c38936a00f295fd495550473bfdd7f263a79ec8891c",
+      "size_bytes": 626,
+      "category": "dashboard"
+    },
+    {
+      "path": "docs/00_DMP/DMP_v2.0.md",
+      "sha256": "43d53f5ac84191194c6ef0bfb7132747e373deba946cb84372ac06245f321cd0",
+      "size_bytes": 4975,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/Auditor-Nativo-Repositorio.md",
+      "sha256": "1c4e3e4394be5444ba0bd110adba7044c36e5ff4014f11b3efee7271994cf0cc",
+      "size_bytes": 268,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md",
+      "sha256": "1ec661603629037f656592f955b4e7e769d6a26894e826cb1e7b19a2a7e2f7fc",
+      "size_bytes": 637,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-110-Politica-Gestion-Evidencias.md",
+      "sha256": "cb338277b7c32e69c31773424c91b21f68c1363bb2221010345f747b106c2942",
+      "size_bytes": 4239,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-111-Ciclo-de-Vida-de-Evidencias.md",
+      "sha256": "508e1eab472ee1a16528d92a2155ac126fd8e9d64be69578841f7abb682df6ae",
+      "size_bytes": 350,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-113-Politica-Retencion-Evidencias.md",
+      "sha256": "278ed22579e0a4e5c09257cc50bae9593f19e8a0d2bd2a28a3916bd7df817cb6",
+      "size_bytes": 565,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-114-Acta-Cierre-v1.1.md",
+      "sha256": "27a0c83bf6c016b8230dea4734ae421d82032badbdb4554b58c562c868dff820",
+      "size_bytes": 532,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-114-Actualizacion-Linea-Base.md",
+      "sha256": "b85d6a0268f916df01b7462da80433a1b3081408a1c12d24c8b667b98e8eb10e",
+      "size_bytes": 309,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-114-Actualizacion-PME.md",
+      "sha256": "384ccba72c74f3b3aef6e835bb9d9389f1ba060274c538fa5665a64df983b49e",
+      "size_bytes": 308,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-114-Matriz-Trazabilidad.md",
+      "sha256": "52ed31d4e54b5daefa6185ae99af047006f6be693ea915eb949bdb0027a90eb4",
+      "size_bytes": 676,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-114-Politica-Evidencias-Desarrollo-Trazabilidad.md",
+      "sha256": "aab033adeff90908239a9227ec9b42983b57942d838bcc3ecd61d3e39da9b381",
+      "size_bytes": 1146,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SGD-114-v2.0-Politica-Repositorio-Institucional.md",
+      "sha256": "2654447e9b4e8e0a86140a740aae68a13c743bfd6b4290f01c19adb7262b6aa8",
+      "size_bytes": 1628,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SPT-001B-Acta-Cierre-Institucional.md",
+      "sha256": "67928eaee21359a018803d74579ef3a02855ffaf1e2fe37a8256dd77a80b0ff2",
+      "size_bytes": 944,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_PMO/Arquitectura_PGD_PMO.md",
+      "sha256": "6fe3102789846d90638cadca41a0709a5ceddd8db36547ac8fd3264a894a1c3c",
+      "size_bytes": 651,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_PMO/Automatizacion.md",
+      "sha256": "928f8a32d1e23caf1900f082813772f2e19955556ffe11d3e12a23a10ab94aa8",
+      "size_bytes": 386,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_PMO/Documento_Tecnico_PMO_Digital.md",
+      "sha256": "a200330a9a2e03c6833e4690ef361bc8cdeb0946d70c5a243c3e0e97ce880b5c",
+      "size_bytes": 1180,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_PMO/Gobierno.md",
+      "sha256": "3d1221ab50030ac5eecda057679fb10709b04af1beb47aa3ca596f0c297097da",
+      "size_bytes": 315,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_PMO/Manual_Operacion_PMO.md",
+      "sha256": "804b57b561d33647313889dfcbe1bb8feb83c0bac3565255b2df7ded29524180",
+      "size_bytes": 442,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_PMO/Modelo_Datos.md",
+      "sha256": "d4fb3c89bef62af214115ecc48856b770ae54b2a53f3e25e02e0c20d6f4cc060",
+      "size_bytes": 196,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-001-Repositorio-GitHub.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-002-Uso-de-PostgreSQL.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-003-Uso-de-FastAPI.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-004-Uso-de-Flutter.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-005-Uso-de-JSON.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-006-RLB-como-fuente-de-datos.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-007-Uso-de-n8n.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-008-Modelo-ODA.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-009-Arquitectura-Eventos-RLB-Extensible.md",
+      "sha256": "a457d51d494d12a972f94a5cb5a5c53750d61aa76c90a2feae82e7880086d86d",
+      "size_bytes": 1432,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-009-UTF8-Repository-Standard.md",
+      "sha256": "6a580374f93bf293606901e77fe95aae4cd12dca8885dee74fed5c11c8e20534",
+      "size_bytes": 1832,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-010-Arquitectura-Escalable-Repositorio-Multimedia-RMR.md",
+      "sha256": "e3b718ab2cd1f04837c95d78cbc7ff8bd79e165977bd00e8c7b89fe1cd02f0d2",
+      "size_bytes": 2243,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-010-Evidence-Management-System.md",
+      "sha256": "3be4a5832715d495be71e063256d8aae3ec520b0832d67f8f79f586c0861b88d",
+      "size_bytes": 458,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/03_ADR/ADR-011-Retention-Policy-Engine.md",
+      "sha256": "7112c903d5de5b683338f8b6e574aba6a10ef23b9da33a504148b1510bf5520e",
+      "size_bytes": 611,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/04_GOBIERNO/SPB-003.2/SPB-003.2.10-Orquestador-Cierre.md",
+      "sha256": "2d53ba36e40bc1dc9bd02209a7c05b62ccb1444ae84fe181111afa09225537f4",
+      "size_bytes": 458,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Auditoria/SGD-401-Arquitectura-Auditor-Modular.md",
+      "sha256": "9bb381fac64c2ad9718addbda52d1b732044ed48ea4dd4c2fc2c02f5c6b5fcc8",
+      "size_bytes": 536,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/ADR-010/ADR-010-Implementacion-RMR.md",
+      "sha256": "79c4c952a4b0ca1eaf33bf3192a7b246366aca3db9285f50431cddc2867c2cdf",
+      "size_bytes": 915,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SGD-114/SGD-114-v2.0-Implementacion-Tecnica.md",
+      "sha256": "d7497ffbba1dc9b641d81c34abd1422216841b80f35a83e190eff3648aeb46e2",
+      "size_bytes": 1038,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P04-Prueba-Lector-Excel.md",
+      "sha256": "67882308dff6fda6034b85bd2b5abc40e5ea3001f8117fa574f5d5f38d511e9a",
+      "size_bytes": 1385,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P05-Exportacion-JSON-Perfil.md",
+      "sha256": "9d1d10933ed2054c7e613d97a8ab03199849dbf7232721f9b56561b7fbbd81d8",
+      "size_bytes": 1779,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P06-Pipeline-Institucional-RLB.md",
+      "sha256": "47fb1639f4db6160619999a65b75717bc05b83376fe4cda7cc6e6f6cce1be305",
+      "size_bytes": 1397,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P07-Normalizacion-Encabezados.md",
+      "sha256": "908c7f010b16c2ca8960e676698fa68425d07e1c6d0dd429ddc71f2590007dc4",
+      "size_bytes": 1042,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P08-Consolidacion-Cierre.md",
+      "sha256": "1da7f0c2fd9e73d00cd0d6083a6cc62c44e0c979aa4e33fa56c4a88bfb7400dc",
+      "size_bytes": 938,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Arquitectura-ODA.md",
+      "sha256": "1befc6d6477160bde0825ede26ff9708a55c7e3a64635a564f6cb7fb0f8bbb38",
+      "size_bytes": 601,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Motor-Funcional-ODA.md",
+      "sha256": "2dd29f2e1849b6ab2ef31591914b6ee2c802c2b06dec7f9e3a655bb7e6a1ddcf",
+      "size_bytes": 1138,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_RELEASES/RELEASE-SPB-006-v1.0.md",
+      "sha256": "d9ca7fbc5445c8dd27c49255f5124463270cec1bbf200e9808b6eb00950c9b5e",
+      "size_bytes": 1393,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/07_ACTAS/ACT-006-Cierre-SPB-006.md",
+      "sha256": "a795588ee9bc03a5a7cec3bd5e9d3b10347b9098d5cd5d5098f3e5f8b1bcb0b4",
+      "size_bytes": 1488,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/08_Entregables/Catalogo_Ejecutivo_Entregables.md",
+      "sha256": "79439acdf20ab95e774b49e0a7013b6f4e6f8373c3fffef665a21ff9ee434d44",
+      "size_bytes": 3579,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+      "sha256": "c87047d0ddd88c6a16a9cd896e3ccdc8965d8b089d2b9198cfb5f9c87d1370df",
+      "size_bytes": 12225,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/09_TRAZABILIDAD/MATRIZ-MAESTRA.md",
+      "sha256": "5704cd0171a01b300453b90d0285aa4c8696dad0900c2635dea4379e8c4b88bf",
+      "size_bytes": 597,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/10_GOBERNANZA/SGD-610-SPB-006-Informe-Cierre.md",
+      "sha256": "80b6f7274c9d49ac12094e8aa5ca96a0fe499451076721db7d93a908d4ef97ee",
+      "size_bytes": 3228,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/15_Historial/SGD-114-Registro-Historico.md",
+      "sha256": "f9e7cb8b6441e4cac82a66483a6ad628eb94961f6412d844773733ded28c92bd",
+      "size_bytes": 422,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/15_Historial/SPT-001B-Registro-Historico-Cierre.md",
+      "sha256": "65aa457a85bc78a0c5f304b4072ebd0825800482ba59e0761f937aee03efc0f1",
+      "size_bytes": 567,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/Dashboard/Dashboard_Ejecutivo.md",
+      "sha256": "0a9cee89ad752b96b1e416762df10642da127723e57ef216233d2a84959cfc9a",
+      "size_bytes": 2531,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/Reportes/Informe_Ejecutivo_Direccion.md",
+      "sha256": "0d7e146b1c3429a57f2feba0983273c4167ec01512068f3f83f86164866630ae",
+      "size_bytes": 1260,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/standards/Evidence-Management-Standard.md",
+      "sha256": "2d0488ed6b67b73bc5466746538b547851b693812d6edb7057761ebd26077da1",
+      "size_bytes": 408,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/standards/UTF8-Repository-Standard.md",
+      "sha256": "60b5771dcf994b3388ffbd637217462e40325564106b4717b74483cd71d3263d",
+      "size_bytes": 2274,
+      "category": "documentation"
+    },
+    {
+      "path": "knowledge/project_model.json",
+      "sha256": "6216a9ea6c9d3c7a16e44793cb1f38c2584e5b2289b204779f85a8813be6ba6b",
+      "size_bytes": 8171,
+      "category": "other"
+    },
+    {
+      "path": "pic.yaml",
+      "sha256": "114c6b1fcab32973263c36491b1547f4a35acc8c8eb3cd8b2d5bb5209e0d1f56",
+      "size_bytes": 464,
+      "category": "other"
+    },
+    {
+      "path": "pytest.ini",
+      "sha256": "c81e60a8d378e9eaf5c4ee7bc0bae8d691794c97f6ef9e1a6df61f7cb47842b8",
+      "size_bytes": 228,
+      "category": "other"
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-baseline-manifest.json",
+      "sha256": "30790302a767357bb16ddafcfde7a9875e458b86a705d5a679bb9ff465094fff",
+      "size_bytes": 1290,
+      "category": "release"
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-initialized-event.json",
+      "sha256": "40c0e452712dbae5f0276b96fd8caf8d90bd5774dd45e2db4cce34dfa95a915f",
+      "size_bytes": 450,
+      "category": "release"
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-migration-result.json",
+      "sha256": "fbac4c5de8f11169503980e084c103dbb0065a67bc094020c89c8f87190464a2",
+      "size_bytes": 104,
+      "category": "release"
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-resources.jsonl",
+      "sha256": "fe5f1b8f97836d66d2779f003bfebf07c49721ed32ea8b36384e263b47bca57a",
+      "size_bytes": 35440,
+      "category": "release"
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-statistics.json",
+      "sha256": "134b2e8e145fb6debe73fa3bbb83bf9ef3ffb898da30644310b8038fc3a1cb97",
+      "size_bytes": 336,
+      "category": "release"
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-validation.json",
+      "sha256": "48926e9578d5daebe4d2cbe5ce592954abcbca434f8ab427d7fc3bdd4c20f40c",
+      "size_bytes": 498,
+      "category": "release"
+    },
+    {
+      "path": "releases/SGD-114-v1.1.0-release-manifest.json",
+      "sha256": "4b188d1ff0f1589e7a59c89305940b152749a80021e07745d2bbdf38bc558ee5",
+      "size_bytes": 449,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-baseline-manifest.json",
+      "sha256": "dac68dfd4c222c4ed4f10562e723cf0c49f29e3299d620f4f0e4114002a1594d",
+      "size_bytes": 1295,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-repository-v1.0.0.json",
+      "sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+      "size_bytes": 24166,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-statistics.json",
+      "sha256": "ebf3f0573af05a50eaf7881fbe591e6dd9e5167ab7a1f4deaae5e7bbb4bb668e",
+      "size_bytes": 336,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-validation.json",
+      "sha256": "c7086d3636ad24283acc5131282739cfd4891de37933d5f48998876f3a75e958",
+      "size_bytes": 338,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/schema-v1.1.json",
+      "sha256": "c04bb3e93f2156ef0d33f3639493d92a5efbcf463b47bc1bc5aec3b1efd5b049",
+      "size_bytes": 6633,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+      "sha256": "614f003e82f5c63f7e1379448dcd2d5f2e9e07ffae62c61e47b5652fb98541ac",
+      "size_bytes": 874,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-generation-event.json",
+      "sha256": "feaf20ed39d8004dc01c5110caa9ad21c3bfe26af64c6a8cc494526fb934ac8d",
+      "size_bytes": 471,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+      "sha256": "ca8e9836e63cecd6b0df654027eb5ec630a40fd729a382e772bbc3ffd5d3f107",
+      "size_bytes": 48209,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-statistics.json",
+      "sha256": "4f073650fb754c2a2e3a52d7b7645db121137de8ecea36c425fea679a88fab13",
+      "size_bytes": 319,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-validation.json",
+      "sha256": "2180e299956f7351a299922d077bfbccc0196da6e05c4541d6839ad6cbda6f0d",
+      "size_bytes": 488,
+      "category": "release"
+    },
+    {
+      "path": "scripts/Install-SPB0051-F001.ps1",
+      "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
+      "size_bytes": 5890,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-ADR010-RMR.ps1",
+      "sha256": "3dcf8743b436736aeda3a30a7a3cc8c0dce3d876e20bd25e39919b32c328dbf2",
+      "size_bytes": 476,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SGD114-QualityGate.ps1",
+      "sha256": "884ba6c6b66bc348bbc2b661e92afb042068e5c5e5cc885272a7856a67a4c928",
+      "size_bytes": 1286,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SGD114-v2-RepositoryAudit.ps1",
+      "sha256": "cd2969e42928487b52e98ee703fc5085cb7a34ee8bd3d6a406360fd4f614776a",
+      "size_bytes": 826,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPB0032-ModularAudit.ps1",
+      "sha256": "51853bd19e567cc3fcbe1412b3f22c11ed4b0b9ee668f7433c0866b3db762c99",
+      "size_bytes": 783,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPB0032ClosureGate.ps1",
+      "sha256": "62af7f44a3b10c481c066ad7c4d1d1e981ccc6a47bab7554d86da040a2765a35",
+      "size_bytes": 418,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT001B-P06.ps1",
+      "sha256": "1e75c9bc4f2e10ca6c77b8faf40c2eec9c94d8f7efa6e36c84e74d869d815b6c",
+      "size_bytes": 1011,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT001B-P07.ps1",
+      "sha256": "1ca3601ffa57dc1a88bd768e035dedbedb19e89a152421ce403e21ef303f8abf",
+      "size_bytes": 1003,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT001B-P08.ps1",
+      "sha256": "3028f2138f7daaa41c9386a67cec7941212fc1cd8b861a2d276ea8be02a4e530",
+      "size_bytes": 676,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT002-ODAEngine.ps1",
+      "sha256": "e637b0f4d62469883f4cd82cbec8c5d38f308d9771b05e1100bb72c9f683dab7",
+      "size_bytes": 473,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Start-SGODA.ps1",
+      "sha256": "5f4e1a2351d5b0a77e6e8968080214b898246184e992977ae514732421788f7b",
+      "size_bytes": 482,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Test-SPB0051-F001.ps1",
+      "sha256": "b7108ce1082232e7589f7d3d9951df16b23148300cf515602a2b0e5e7f64de5f",
+      "size_bytes": 440,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/audit_spb_003_2.py",
+      "sha256": "aaccf82a038b5a66b6621cbab982591b6a49cd650d974d222d87485b3096b9cf",
+      "size_bytes": 116,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/pmo/generate_governance_platform.py",
+      "sha256": "5a0fb02b4d997bb9293f4c23e83ab774094860e954985018b19ed12562f773c2",
+      "size_bytes": 1782,
+      "category": "automation"
+    },
+    {
+      "path": "src/sgoda/__init__.py",
+      "sha256": "67d7ba5f840ba461e1f84b5bb9619d7d2ef3d3864294c11c368ed0c104fb424c",
+      "size_bytes": 30,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/api/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size_bytes": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/api/kernel_routes.py",
+      "sha256": "67102e5f856c0d774c100d42e99dddb987fd6821e88957cf74fd937112f38ec3",
+      "size_bytes": 1298,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/api/routes.py",
+      "sha256": "7b884200f705f7ac126cb7e4292fe1194906b266fff235eb85548dbba78b10cf",
+      "size_bytes": 512,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/core/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size_bytes": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/core/config.py",
+      "sha256": "ff027ce81ff2a42e0d3beff1cffad2ac8e858b052a30a450f4a2e30b6261ebbb",
+      "size_bytes": 769,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/governance/__init__.py",
+      "sha256": "5a3e64494695db61c4a437a26cc195355d256a3f2f300a8d8d77d87313fc6fd6",
+      "size_bytes": 188,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/governance/evidence_policy.py",
+      "sha256": "2b4099c075de01161ef1297d8a4c031a661a13c087be4c8ff701c16275de34e3",
+      "size_bytes": 10512,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/governance/repository_governance.py",
+      "sha256": "e82b5623229eaeb9f0c4a9cabbe55ee2e8ad749b22b7028b7707aa677062eec1",
+      "size_bytes": 14385,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/kernel/__init__.py",
+      "sha256": "dbc398757aae67b0ceb576b3e8908c67246906c7b3fb23a2d6b30b76a3e9bd9b",
+      "size_bytes": 190,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/kernel/application.py",
+      "sha256": "6a325484d02509030cdc5fa0028097f51479641bdffd62c0b4297a66a9318fd3",
+      "size_bytes": 1096,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/kernel/audit.py",
+      "sha256": "220416c90c3478a637c50fd6196723a7c42bff084ca4e19b1eeab4d2c53576d0",
+      "size_bytes": 1882,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/kernel/metadata.py",
+      "sha256": "dd94c7be9598371f82326f30e9962975ca99b1280b86aac4997128543bb1175f",
+      "size_bytes": 1645,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/kernel/models.py",
+      "sha256": "d7042b1770a2a65a7a31b0e16531593a6af3ecc4ca197743c48ff02ba6859440",
+      "size_bytes": 693,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/kernel/modules.py",
+      "sha256": "3d5f6ce9a289544395f6578ecea18f3c2dd944b3c0db348740d8b1306fd8510e",
+      "size_bytes": 3756,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/kernel/registry.py",
+      "sha256": "78e5e84d0d56ba638486e944a7a40aa1e57ca147044e6876c3edf88b61820ddd",
+      "size_bytes": 2010,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/main.py",
+      "sha256": "697df817ca17b0ce03ac2b7565b7a6b4179b6749e88b6acca762da0241f4add6",
+      "size_bytes": 137,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/media/__init__.py",
+      "sha256": "d18f582d7a752584bc18edbd84e3ea63ee03cc05a3dc30376734cf6a88246967",
+      "size_bytes": 546,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/media/cli.py",
+      "sha256": "3ad818ab32eec17ce5eb2fa938b62833abea20b8ad5ecd4f5a28ebb75fe20106",
+      "size_bytes": 121,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/media/migration.py",
+      "sha256": "685d8482ab6911734f04da398d6f8a7ab90fd9c218e0c6aaa03b17201121864f",
+      "size_bytes": 9677,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/media/models.py",
+      "sha256": "bea0bd78f6ffa0cf03f2f2187345d4234208e913f6f87ff1d6ceb19ec60a3c78",
+      "size_bytes": 1311,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/media/repository.py",
+      "sha256": "dbdc2c4f6fb5fab41de0c97466a4ae470e50ced1450471943a3320a2fb0dca9e",
+      "size_bytes": 16812,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/oda/__init__.py",
+      "sha256": "d884bd6ecf0c97396448184ffc47d3077ffac8d21ee2d65aefbb56cd6005f96a",
+      "size_bytes": 552,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/oda/cli.py",
+      "sha256": "5b15db584c947241baa8491db90f320d37f619efe808ad6574833d133d42dee6",
+      "size_bytes": 114,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/oda/engine.py",
+      "sha256": "f55a0eac54869ef6c24251eb2c9344a8217f2a1a7da93acb321c17f28ea1dfca",
+      "size_bytes": 15763,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/oda/models.py",
+      "sha256": "270224bd70e9891dc3cbf538320a7a0e5b8113e9e246c4f55045dfe134b148cd",
+      "size_bytes": 1750,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/__init__.py",
+      "sha256": "c0085be185603aa54dd0ae0bb173b3029dbb7805b8d037861169d18f753b7fe7",
+      "size_bytes": 654,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/__init__.py",
+      "sha256": "394e9c315116f0dba116c9a091fc14b3cf0cecb48db5801dd608d9191dce58f3",
+      "size_bytes": 200,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/__init__.py",
+      "sha256": "45edab88405a0127d3fcb063bd583c29a0f7c74672b9d4b6f2bc32d330b9fd6e",
+      "size_bytes": 508,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/base.py",
+      "sha256": "dc5f9fc3030bee28af2f21adb535294c7186c7e30220a724160f5f3616ee6f1d",
+      "size_bytes": 207,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/documentation.py",
+      "sha256": "dfd5275588b9a26a649db0168108ce3b8b506ba84414b184d46b49c8a0e2eff3",
+      "size_bytes": 1736,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/git_repository.py",
+      "sha256": "bdef78c22cf12e3fdf45cf211d45a3f15ff98100908ef4f8c84fc7af5e802515",
+      "size_bytes": 1710,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/nomenclature.py",
+      "sha256": "9d8563329a2c11589086e42fb9eac92b8a8787be78366c3f0a5d9f796a824543",
+      "size_bytes": 1507,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/quality.py",
+      "sha256": "f89a6a59ea30da9ec6d4ec2142ccb5bdd77f9fb8ef33a6dd7d9be491a7d15b04",
+      "size_bytes": 4702,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/structure.py",
+      "sha256": "d948a8fed27845f80137ae93e5b7f0180e0bb315f060144005c8e59be541faa7",
+      "size_bytes": 892,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/tests_inventory.py",
+      "sha256": "9a0f735a09de14dee0ea3fb9d882aafcac5a076dac690f8cb28f0bac72fc4284",
+      "size_bytes": 2236,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/checks/traceability.py",
+      "sha256": "6b96400ef23d9678d5c4159f0244a521408ad33c3e043a9a82e9cf1a1bef673d",
+      "size_bytes": 834,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/cli.py",
+      "sha256": "4a37d72a119a0ba5f81e2576fd53a1d0d3c1be3c258eea68453535abe569e3e0",
+      "size_bytes": 602,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/context.py",
+      "sha256": "cc107f7b3d8bf6165ee1d5ed21d965d6372a2d2a55b7a047a0b0f2e4dfdaa76a",
+      "size_bytes": 610,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/models.py",
+      "sha256": "7090e60e394454afecce2b181f5908a15e84cf767f8efd8ca6fed2f19e2f49c2",
+      "size_bytes": 2748,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/native_repository_auditor.py",
+      "sha256": "18eee1ccc4112525031d8a0e4d27ad6c247590914544858c979d879614871271",
+      "size_bytes": 10333,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/orchestrator.py",
+      "sha256": "8730ccea0c370ab62cec6a89b43cd742f73d78703ffb602888ac46c3af4b403d",
+      "size_bytes": 1313,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/reporting/__init__.py",
+      "sha256": "d51ad61b5fd830dec8010eaa7fb8f94039e2346d44a6d656ae3aac8bf74f62bb",
+      "size_bytes": 68,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/reporting/reporters.py",
+      "sha256": "fe37dde4826bc2af4c8cef672d4d8a9e6d37aba146167a05d419895c416f9059",
+      "size_bytes": 2725,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/audit/service.py",
+      "sha256": "3db8f13791544c50ce8f727b1e99dab348909382edc656a680102cbb52b21472",
+      "size_bytes": 638,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/closure/__init__.py",
+      "sha256": "c524342672682282f8ad5fb1c6b5333374aa74b3e895ae27b654f881c4a89ee9",
+      "size_bytes": 119,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/closure/closure_orchestrator.py",
+      "sha256": "b864137971d3a880e3769c9d33bdffcfec80a5129db78a86db6a176a519f0dda",
+      "size_bytes": 11024,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/domain/__init__.py",
+      "sha256": "52f1bdd42ec48839d6c252056a4eff275a09fd624f4ae74dc15fe6500b176a18",
+      "size_bytes": 401,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/domain/enums.py",
+      "sha256": "fd1a3391aa17c8a25b7d0c76d95b441706039b31c05dc380d522a38804c2b22d",
+      "size_bytes": 895,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/domain/identifiers.py",
+      "sha256": "fb680c7925696d0ff8759915fc03c357c7ccd3c92033d6ced33e8bebdc31a4db",
+      "size_bytes": 282,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/domain/models.py",
+      "sha256": "b54200693f2bd3a64b0bbc28d8b6afae963fbd12d117e58ff11d89cc4b8a0d98",
+      "size_bytes": 6241,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/__init__.py",
+      "sha256": "bc38b116f41e83b8ac69a33cdc3af34eacc1ef1d55976daf7a2793f7873a0107",
+      "size_bytes": 613,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/__main__.py",
+      "sha256": "6fef69d60fb4a661e1ba5700d0661c2867bb9e49242bbeab56751ca058965d36",
+      "size_bytes": 77,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/archive.py",
+      "sha256": "800ebf93c0e561294366a6e480af6bd731b16b2fb688ab7beac5d3645779c291",
+      "size_bytes": 1138,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/cli.py",
+      "sha256": "75ec98447506978645a3ccc089f3bab165ac24d6badf50e01d3fea93e6b3bc13",
+      "size_bytes": 3847,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/exceptions.py",
+      "sha256": "57a566b7a705460fd1ee67ed0c058812907fa840fde9be67ca2b01df2b5a77e6",
+      "size_bytes": 235,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/hasher.py",
+      "sha256": "cffa1289908e9e28c1cb2a0bbef5a826634d31d30f82835283ce1edafee3ff79",
+      "size_bytes": 1283,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/manager.py",
+      "sha256": "7a737e1eac9e12a0249e8d95a6be9538125b6331547f66af6407b76e56684141",
+      "size_bytes": 3761,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/manifest.py",
+      "sha256": "b52bc89d2421c41bdb0641f2baf5bcef02d104938c00e394fb6ab10dfb828167",
+      "size_bytes": 1240,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/models.py",
+      "sha256": "b381ef6bc8ec981640e9f878190c0ff9b77d5bcf113ca80701e35cef2fcaf2c7",
+      "size_bytes": 3226,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/registry.py",
+      "sha256": "16ef8a2089fde3293d72f23a6fb73464b73af298298644519f80732d4ad67f03",
+      "size_bytes": 1899,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/retention.py",
+      "sha256": "2c96832eb2c94462cae657f25d55bd9bd30b652882c0c5b66affeffc467b7115",
+      "size_bytes": 4798,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/retention_audit.py",
+      "sha256": "10e3fcd86744c4ebecdad077b48d6b974ac81bd7d47b3ebcdebba2be0b4c2993",
+      "size_bytes": 914,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/retention_policy.py",
+      "sha256": "7e5342245607235c0e65c0c0904578ab6e6016efac4fc82447bad31843c0cf0b",
+      "size_bytes": 1500,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/evidence/verifier.py",
+      "sha256": "38ccd9ff88af5e537de8bfff0f643dc5e5be28c3ca380546e4a4915e39f6bf7b",
+      "size_bytes": 1221,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/generators/__init__.py",
+      "sha256": "1feb4f23c82a9cd6949ea1f9985dd6cdf3850ca191220795800b2a2a0284ba17",
+      "size_bytes": 397,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/generators/html.py",
+      "sha256": "a2678f60f2aeb4ae75add220cd7afa2ee83122bce6b2e05f70e65155d8c63c69",
+      "size_bytes": 2451,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/generators/markdown.py",
+      "sha256": "917500a94222d58f9fc104bd67c9671c79119110e8f309937416cdc662163598",
+      "size_bytes": 6604,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/governance/__init__.py",
+      "sha256": "d58fe472aab7888a15fc67e94376f1c5b0657a4836f6fc6dc1114e9b0abf5a61",
+      "size_bytes": 160,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/governance/validation.py",
+      "sha256": "8357dbaaf2928ccbe27b17c4d899dc4a0871b0c918aded1f30e79a6045f49c80",
+      "size_bytes": 853,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/repository/__init__.py",
+      "sha256": "d0433b7c41270a020e9242da3bc185adc0b1c5f11c5fcb3d8c84cbcdb5796cc0",
+      "size_bytes": 149,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/repository/json_repository.py",
+      "sha256": "9ed1e9d1fd66ab9ab6c4bbe95ce98285299295f998e8c69c6eef338ae61fcb16",
+      "size_bytes": 3322,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/repository/mmgr/__init__.py",
+      "sha256": "2f456e59f82eb2062984c8c03a31804eb453d2e667beb30c175de3a818999a78",
+      "size_bytes": 301,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/repository/mmgr/models.py",
+      "sha256": "e81378b877f95d074c03845874e8b6389cf2ae01fce4bdc443d6d4a43e430fa2",
+      "size_bytes": 7775,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/utf8/__init__.py",
+      "sha256": "90266e926cbe468db21b38b728c9da2845b84427baa456274eb5680444d345ab",
+      "size_bytes": 69,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/pmo/utf8/repository_utf8.py",
+      "sha256": "4ac0ca9d8642f9fdb84514f121abe7b47a2e39d2ded48b5c0ddfe30c30f34e7c",
+      "size_bytes": 7943,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/__init__.py",
+      "sha256": "927e9ce158616ce2519a811aa63bdce9945bc6371daf80d3b8b60a12909f5a4a",
+      "size_bytes": 1271,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/canonical_consolidator.py",
+      "sha256": "2b75815dd46bd198a73a6ef4d2ff5a7767d0fce7de73095fbee1cd8c5808cffc",
+      "size_bytes": 11260,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/cli.py",
+      "sha256": "fcfeca5d4643844aed6c91c5f3418c6e96cf0d93f277b0f68197a17214a3b937",
+      "size_bytes": 1699,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/events.py",
+      "sha256": "497aba4b93f710caa45e41b20d1c363c041ec17070efa80bfc55cc21e6895e0b",
+      "size_bytes": 2244,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/excel_reader.py",
+      "sha256": "219c3adec6241bc0e2ef777d5e49d056f52b4188b2b03d2c1f503a9adfe857fe",
+      "size_bytes": 9008,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/exporter.py",
+      "sha256": "f040671be903b36bb4507cb81b25afc0d101502e2bc845fa6bf9bebb6ccbde79",
+      "size_bytes": 2860,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/header_normalizer.py",
+      "sha256": "bdcf63867a8e762a8ad861adf6181bb7b148d79fadfb1245d301ae965b578075",
+      "size_bytes": 11075,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/models.py",
+      "sha256": "2c6985f543d89e234dc90aa618a049f1c3b07e787500fb33dec18dfa787e3bc4",
+      "size_bytes": 1972,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/pipeline.py",
+      "sha256": "8402e320bc76b8de8a6acd4699fe5aac3ad6bf1cc0628244d87ecc15d367c36e",
+      "size_bytes": 4274,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/profile_models.py",
+      "sha256": "4bcc54f2d0b7b22db14fc50c02e0d7ef907b601e6564313ad302d4be80508ea5",
+      "size_bytes": 1172,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/schema.py",
+      "sha256": "6090796c350804802d7af324e64b710a853d527302026a36be775da5ea104a96",
+      "size_bytes": 5331,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/rlb/schema_loader.py",
+      "sha256": "8f01acd1d4f662fd96b5d6ed33125dfe64dcf8840cefe8b86ae95b48e3a8594e",
+      "size_bytes": 2217,
+      "category": "source"
+    },
+    {
+      "path": "tests/governance/test_SGD_114_v2_repository_governance.py",
+      "sha256": "03bd654ad3a54966f1608cd797ec1aaa7bb8d990341d6916d5c272b44bab1f3c",
+      "size_bytes": 5791,
+      "category": "tests"
+    },
+    {
+      "path": "tests/governance/test_sgd_114_evidence_policy.py",
+      "sha256": "627ffe99213fcd82547501a3bb7aa0e4b3fa3f2ced077765b4610b1e2141fa06",
+      "size_bytes": 5925,
+      "category": "tests"
+    },
+    {
+      "path": "tests/media/test_ADR_010_rmr_repository.py",
+      "sha256": "c0d89f09941e7e295913090a9102b1f958295059229765c7334ebea60b83172e",
+      "size_bytes": 7419,
+      "category": "tests"
+    },
+    {
+      "path": "tests/oda/test_SPT_002_oda_engine.py",
+      "sha256": "517c78cd483c39f4c934074a7ce0d2b5dda30fd99a4e4479018ed09cae08036c",
+      "size_bytes": 5228,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/audit/conftest.py",
+      "sha256": "9adde3812491b9f97cbd6b4682e255b0452e474778e7d6e7259687b750aaab7f",
+      "size_bytes": 111,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/audit/test_b1_3_quality.py",
+      "sha256": "4510ada50fcbe581b44693c0d570f63ce2c1b82d3f7a1da47f5aa7c7e1614e28",
+      "size_bytes": 1706,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/audit/test_modular_auditor.py",
+      "sha256": "e3eed2b1b44a849452430e1922086e39a7fdda5144733f7f5e514614a6cbe95a",
+      "size_bytes": 1016,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/audit/test_native_repository_auditor.py",
+      "sha256": "9b650e855a28f196bcfde40f504a7db487ce58d5898c9470fb1cb7e7c628a173",
+      "size_bytes": 298,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/evidence/test_retention_manager.py",
+      "sha256": "e6650fd0714ccffdf24a2df16b7e047b47cd273564112a33b3f9e74241cd9b02",
+      "size_bytes": 3349,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/evidence/test_sems_core.py",
+      "sha256": "f3b67b7c998112badef6583fb9a8dff5c8bc0a3e3b83380352e51a422486f8b7",
+      "size_bytes": 1874,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/repository/mmgr/test_models.py",
+      "sha256": "7ed970bf3a67c2951a76894af2c4c4eddffb4ca6c77aa47eeed2b8e6ca2bc10c",
+      "size_bytes": 3875,
+      "category": "tests"
+    },
+    {
+      "path": "tests/pmo/utf8/test_repository_utf8.py",
+      "sha256": "32b024d14f4ac6ebe2905045c1a4c2c2fa90553cc03d989a75c1cb8ea9c94e6f",
+      "size_bytes": 1434,
+      "category": "tests"
+    },
+    {
+      "path": "tests/rlb/test_SPT_001B_P06_contract.py",
+      "sha256": "2b58015418dbba9ad2057c3b3f0f1a6a1dbf970f44478460d48831510ca72d6a",
+      "size_bytes": 1100,
+      "category": "tests"
+    },
+    {
+      "path": "tests/rlb/test_SPT_001B_P07_header_normalizer.py",
+      "sha256": "4685dad8be2dd0ca22148e2b2eb2fd896763ba991c9e04f81afaecaf26af9b0d",
+      "size_bytes": 2119,
+      "category": "tests"
+    },
+    {
+      "path": "tests/rlb/test_SPT_001B_P08_canonical_closure.py",
+      "sha256": "8a552e1a06a6833152be185415c6e7caf5eb40cde57067d813e607f8c13a28df",
+      "size_bytes": 5500,
+      "category": "tests"
+    },
+    {
+      "path": "tests/rlb/test_excel_reader.py",
+      "sha256": "db3906a92cc30b218b866c01cc78ce8d362bd65cd2c9a34336b14856344cd203",
+      "size_bytes": 2879,
+      "category": "tests"
+    },
+    {
+      "path": "tests/rlb/test_exporter.py",
+      "sha256": "05d298cb9c904e8e4164858d4e538c0f1f6f528e45e080e9966dafa7680c91aa",
+      "size_bytes": 2927,
+      "category": "tests"
+    },
+    {
+      "path": "tests/rlb/test_pipeline_p06.py",
+      "sha256": "75a83367ae7f0c7d110e8f32ae36e4bcf3ee74649cad6b56e3967ef3792604ed",
+      "size_bytes": 3186,
+      "category": "tests"
+    },
+    {
+      "path": "tests/rlb/test_schema.py",
+      "sha256": "a75ec2ff05a46d2de6c30b3b816f9054b34abe3289ba837a0fc15c2d30a02571",
+      "size_bytes": 2644,
+      "category": "tests"
+    },
+    {
+      "path": "tests/test_pmo_governance_platform.py",
+      "sha256": "6f21dcab8dbab7cecc2add85a673441249e0224abdfa0b35c8a10f14ae97863e",
+      "size_bytes": 1787,
+      "category": "tests"
+    },
+    {
+      "path": "tests/test_spb_003_2_closure.py",
+      "sha256": "fb553509e3ac8dec375f0e00dfc36754d0f68251da64a99230d09d20e03cd5b4",
+      "size_bytes": 508,
+      "category": "tests"
+    },
+    {
+      "path": "tests/test_spb_005_1_foundation_runtime.py",
+      "sha256": "a3bf37d1449b1250a0972abd1750aea37db72a82981a66b1c9de0a29c4f05a0d",
+      "size_bytes": 590,
+      "category": "tests"
+    },
+    {
+      "path": "tests/test_spb_005_2_platform_kernel.py",
+      "sha256": "62fb3d5e39b3aaa50a048edd88fc9fedc05bb039216c5a68d30adc62d758a42f",
+      "size_bytes": 1770,
+      "category": "tests"
+    }
+  ]
+}

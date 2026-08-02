@@ -1,0 +1,22 @@
+{
+    "increment_code":  "SGD-114",
+    "version":  "1.1.0",
+    "generated_at_utc":  "2026-08-02T06:37:03.7434846Z",
+    "source":  [
+                   "config/governance/sgd-114-policy.json",
+                   "src/sgoda/governance/evidence_policy.py"
+               ],
+    "tests":  [
+                  "tests/governance/test_sgd_114_evidence_policy.py"
+              ],
+    "documentation":  [
+                          "docs/01_Gobierno/SGD-114-Politica-Evidencias-Desarrollo-Trazabilidad.md",
+                          "docs/01_Gobierno/SGD-114-Matriz-Trazabilidad.md",
+                          "docs/01_Gobierno/SGD-114-Acta-Cierre-v1.1.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SGD-114/implementation-evidence.json",
+                     "dashboard/SGD-114-dashboard.json",
+                     "releases/SGD-114-v1.1.0-release-manifest.json"
+                 ]
+}

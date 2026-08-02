@@ -1,0 +1,20 @@
+{
+  "policy_code": "SPT-002-ODA-GENERATION",
+  "version": "0.1.0",
+  "oda_version": "1.0.0",
+  "required_fields": [
+    "canonical_id",
+    "palabra_puinave"
+  ],
+  "media_slots": [
+    "imagen_ilustrativa",
+    "audio_puinave",
+    "audio_espanol",
+    "audio_ingles"
+  ],
+  "default_status": "borrador_valido",
+  "invalid_status": "bloqueado_por_validacion",
+  "preserve_unknown_fields": true,
+  "deterministic_ids": true,
+  "source_release": "SPT-001B-v1.0.0"
+}

@@ -1,0 +1,8 @@
+tests\pmo\audit\conftest.py
+tests\pmo\audit\test_b1_3_quality.py
+tests\pmo\audit\test_modular_auditor.py
+tests\pmo\audit\test_native_repository_auditor.py
+tests\test_pmo_governance_platform.py
+tests\test_spb_003_2_closure.py
+tests\test_spb_005_1_foundation_runtime.py
+tests\test_spb_005_2_platform_kernel.py

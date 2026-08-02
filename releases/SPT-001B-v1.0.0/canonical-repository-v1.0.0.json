@@ -1,0 +1,756 @@
+{
+  "metadata": {
+    "sistema": "SGODA-PUINAVE",
+    "entregable": "SPT-001B-P08",
+    "release": "SPT-001B-v1.0.0",
+    "generated_at_utc": "2026-08-02T07:12:59.512057+00:00",
+    "schema_version": "1.1.0",
+    "total_records": 20,
+    "source_artifact": "artifacts/rlb/SPT-001B-P07/reprocessed/palabras-canonicas.json",
+    "source_sha256": "547faf163653dfba4469335459f790d84bc6a493d5250a066268a8303ba9fe22",
+    "profile_sha256": "d584d838da4afbf9d9e308eabb87b2806949ff356642e8411c56f5b9286ef5b3",
+    "schema_sha256": "c04bb3e93f2156ef0d33f3639493d92a5efbcf463b47bc1bc5aec3b1efd5b049"
+  },
+  "registros": [
+    {
+      "identificador": "0001",
+      "palabra_puinave": "0001.mp3",
+      "traduccion_espanol": "0001.mp3",
+      "traduccion_ingles": "0001.mp3",
+      "categoria_gramatical": "SOCIEDAD",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0001.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 2,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0001",
+      "canonical_position": 1,
+      "lexical_key_sha256": "4491dc5e002bc9b399edba185bfa59630d59d49dcca3662c3b71e4e0a4edad22"
+    },
+    {
+      "identificador": "0002",
+      "palabra_puinave": "0002.mp3",
+      "traduccion_espanol": "0002.mp3",
+      "traduccion_ingles": "0002.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0002.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 3,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0002",
+      "canonical_position": 2,
+      "lexical_key_sha256": "c3140e8ed8ce031f5dc20a67642493abe77cf64f5647dbe9803165d7e54a4d74"
+    },
+    {
+      "identificador": "0003",
+      "palabra_puinave": "0003.mp3",
+      "traduccion_espanol": "0003.mp3",
+      "traduccion_ingles": "0003.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0003.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 4,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0003",
+      "canonical_position": 3,
+      "lexical_key_sha256": "ab75d6a52b3ce8a3b0a0abfe6c2dfa80365942bc5ebb49ee0c0791f218728ac8"
+    },
+    {
+      "identificador": "0004",
+      "palabra_puinave": "0004.mp3",
+      "traduccion_espanol": "0004.mp3",
+      "traduccion_ingles": "0004.mp3",
+      "categoria_gramatical": "FAMILIA",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0004.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 5,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0004",
+      "canonical_position": 4,
+      "lexical_key_sha256": "88fced43be331a171199b1bd1806f70a21a3a5eb26909f01aef2674bcb6497ec"
+    },
+    {
+      "identificador": "0005",
+      "palabra_puinave": "0005.mp3",
+      "traduccion_espanol": "0005.mp3",
+      "traduccion_ingles": "0005.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0005.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 6,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0005",
+      "canonical_position": 5,
+      "lexical_key_sha256": "1e5ab537221ef3f2076d7933c6ce6f2064c0e1b96e880584b4de0245cfa6fbea"
+    },
+    {
+      "identificador": "0006",
+      "palabra_puinave": "0006.mp3",
+      "traduccion_espanol": "0006.mp3",
+      "traduccion_ingles": "0006.mp3",
+      "categoria_gramatical": "ALIMENTOS",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0006.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 7,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0006",
+      "canonical_position": 6,
+      "lexical_key_sha256": "f688a0a2c237f4b9d2126279c8e694e8c22b5cbdf17fb9c0cc0bc5e5665461cc"
+    },
+    {
+      "identificador": "0007",
+      "palabra_puinave": "0007.mp3",
+      "traduccion_espanol": "0007.mp3",
+      "traduccion_ingles": "0007.mp3",
+      "categoria_gramatical": "ACCION",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0007.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 8,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0007",
+      "canonical_position": 7,
+      "lexical_key_sha256": "d7aa850f7d34af1a7c6e7c81b5f5d19fe96441224f92bcb793d128591849ba31"
+    },
+    {
+      "identificador": "0008",
+      "palabra_puinave": "0008.mp3",
+      "traduccion_espanol": "0008.mp3",
+      "traduccion_ingles": "0008.mp3",
+      "categoria_gramatical": "ACCION",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0008.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 9,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0008",
+      "canonical_position": 8,
+      "lexical_key_sha256": "a31490fd7ec11d34181f86142f93ea553cfad34d9483dbd34e8b020408c3a004"
+    },
+    {
+      "identificador": "0009",
+      "palabra_puinave": "0009.mp3",
+      "traduccion_espanol": "0009.mp3",
+      "traduccion_ingles": "0009.mp3",
+      "categoria_gramatical": "ACCION",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0009.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 10,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0009",
+      "canonical_position": 9,
+      "lexical_key_sha256": "c75766d8d4ce8eb7610b257fb2a15eb4feb0e26ca0a8d2afb97b1aaafadea483"
+    },
+    {
+      "identificador": "0010",
+      "palabra_puinave": "0010.mp3",
+      "traduccion_espanol": "0010.mp3",
+      "traduccion_ingles": "0010.mp3",
+      "categoria_gramatical": "ACCION",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0010.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 11,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0010",
+      "canonical_position": 10,
+      "lexical_key_sha256": "41e3168410ed722595236213f7d5f44b182a7b8c01e02fb86676cd2905b445a7"
+    },
+    {
+      "identificador": "0011",
+      "palabra_puinave": "0011.mp3",
+      "traduccion_espanol": "0011.mp3",
+      "traduccion_ingles": "0011.mp3",
+      "categoria_gramatical": "TRANSPORTE",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0011.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 12,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0011",
+      "canonical_position": 11,
+      "lexical_key_sha256": "f8e6c8d3457bf9095ca6a46f33ae8fe2de94b9764e5852ace2b22c6ab782136a"
+    },
+    {
+      "identificador": "0012",
+      "palabra_puinave": "0012.mp3",
+      "traduccion_espanol": "0012.mp3",
+      "traduccion_ingles": "0012.mp3",
+      "categoria_gramatical": "ACCION",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0012.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 13,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0012",
+      "canonical_position": 12,
+      "lexical_key_sha256": "ddfbd2d183ae3349510e0d12a6efa53fa133eeb3feb88152d1682af1a248d8f6"
+    },
+    {
+      "identificador": "0013",
+      "palabra_puinave": "0013.mp3",
+      "traduccion_espanol": "0013.mp3",
+      "traduccion_ingles": "0013.mp3",
+      "categoria_gramatical": "ACCION",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0013.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 14,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0013",
+      "canonical_position": 13,
+      "lexical_key_sha256": "d84ad49f51a9cdddbbb76f45dad721927552948daacaa7c75576b9c020521570"
+    },
+    {
+      "identificador": "0014",
+      "palabra_puinave": "0014.mp3",
+      "traduccion_espanol": "0014.mp3",
+      "traduccion_ingles": "0014.mp3",
+      "categoria_gramatical": "TRANSPORTE",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0014.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 15,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0014",
+      "canonical_position": 14,
+      "lexical_key_sha256": "e967813fb7edae89a051c533502d0afe4a7a8bf63968b282b477a66b8f1aca54"
+    },
+    {
+      "identificador": "0015",
+      "palabra_puinave": "0015.mp3",
+      "traduccion_espanol": "0015.mp3",
+      "traduccion_ingles": "0015.mp3",
+      "categoria_gramatical": "ANIMALES",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0015.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 16,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0015",
+      "canonical_position": 15,
+      "lexical_key_sha256": "cd3ed484713a6a57f04f480ec19fdf1b79a7daece6911fbd3748919d0245712e"
+    },
+    {
+      "identificador": "0016",
+      "palabra_puinave": "0016.mp3",
+      "traduccion_espanol": "0016.mp3",
+      "traduccion_ingles": "0016.mp3",
+      "categoria_gramatical": "ANIMALES",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0016.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 17,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0016",
+      "canonical_position": 16,
+      "lexical_key_sha256": "c13788598b125d2a70c07ce3ecf4c051974ad807d310ba7d0d03714ff9051111"
+    },
+    {
+      "identificador": "0017",
+      "palabra_puinave": "0017.mp3",
+      "traduccion_espanol": "0017.mp3",
+      "traduccion_ingles": "0017.mp3",
+      "categoria_gramatical": "VERBOS",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0017.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 18,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0017",
+      "canonical_position": 17,
+      "lexical_key_sha256": "6b5faf6732db208511c570e0f8e46af2832dddabe48cb6fc4a0d651340156e06"
+    },
+    {
+      "identificador": "0018",
+      "palabra_puinave": "0018.mp3",
+      "traduccion_espanol": "0018.mp3",
+      "traduccion_ingles": "0018.mp3",
+      "categoria_gramatical": "COLORES",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0018.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 19,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0018",
+      "canonical_position": 18,
+      "lexical_key_sha256": "e83d6ba753a1f0abe2826f00fedac6adc63ac683f863580d3c1c34897087792c"
+    },
+    {
+      "identificador": "0019",
+      "palabra_puinave": "0019.mp3",
+      "traduccion_espanol": "0019.mp3",
+      "traduccion_ingles": "0019.mp3",
+      "categoria_gramatical": "COLORES",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0019.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 20,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0019",
+      "canonical_position": 19,
+      "lexical_key_sha256": "5534ea3b12b80548eb14b67ae08e0ea4cbc51db1f43043a2245d752f9fdd3a39"
+    },
+    {
+      "identificador": "0020",
+      "palabra_puinave": "0020.mp3",
+      "traduccion_espanol": "0020.mp3",
+      "traduccion_ingles": "0020.mp3",
+      "categoria_gramatical": "COLORES",
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0020.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 21,
+        "version_esquema": "1.0.0-p07-normalized"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ],
+      "canonical_id": "0020",
+      "canonical_position": 20,
+      "lexical_key_sha256": "4d33d6ac9d40b52eb02064b7239c373d9e15331830ad8291008dbfbba52427fc"
+    }
+  ]
+}

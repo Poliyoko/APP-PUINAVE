@@ -1,0 +1,85 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SPT-001B-P07",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T07:06:42.869870+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/rlb/SPT-001B-P07-component.json",
+        "config/rlb/SPT-001B-P07-header-mapping.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/rlb/test_SPT_001B_P07_header_normalizer.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P07-Normalizacion-Encabezados.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPT-001B-P07/SPT-001B-P07-v1.1-similarity-evidence.json",
+        "artifacts/pmo/SPT-001B-P07/implementation-evidence.json",
+        "artifacts/pmo/SPT-001B-P07/traceability-SPT-001B-P07.json",
+        "artifacts/rlb/SPT-001B-P07/header-mapping-analysis.json",
+        "artifacts/rlb/SPT-001B-P07/normalization-summary.json",
+        "artifacts/rlb/SPT-001B-P07/reprocessed/errores-importacion.json",
+        "artifacts/rlb/SPT-001B-P07/reprocessed/palabras-canonicas.json",
+        "artifacts/rlb/SPT-001B-P07/reprocessed/perfil-rlb.json",
+        "artifacts/rlb/SPT-001B-P07/schema-p07-normalized.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPT-001B-P07/traceability-SPT-001B-P07.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}

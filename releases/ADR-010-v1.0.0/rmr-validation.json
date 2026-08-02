@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "database_exists": true,
+    "resources_present": true,
+    "required_fields_complete": true,
+    "resource_ids_unique": true,
+    "required_indexes_present": true
+  },
+  "empty_required_fields": 0,
+  "duplicate_resource_ids": 0,
+  "indexes": [
+    "idx_rmr_canonical_id",
+    "idx_rmr_language",
+    "idx_rmr_oda_id",
+    "idx_rmr_oda_type_status",
+    "idx_rmr_status",
+    "idx_rmr_type",
+    "sqlite_autoindex_media_resources_1"
+  ]
+}

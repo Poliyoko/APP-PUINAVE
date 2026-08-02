@@ -1,0 +1,19 @@
+{
+    "deliverable":  "SPT-001B",
+    "release":  "SPT-001B-v1.0.0",
+    "status":  "institutionally_closed",
+    "generated_at_utc":  "2026-08-02T07:13:01.1473115Z",
+    "total_records":  20,
+    "valid_records":  20,
+    "invalid_records":  0,
+    "quality_percentage":  100.0,
+    "unique_canonical_ids":  20,
+    "duplicate_canonical_ids":  0,
+    "duplicate_lexical_keys":  0,
+    "schema_version":  "1.1.0",
+    "specific_tests":  "approved",
+    "full_suite":  "approved",
+    "p08_quality_gate":  "authorized",
+    "SPT_001B_closure_gate":  "authorized",
+    "next_phase":  "SPT-002"
+}

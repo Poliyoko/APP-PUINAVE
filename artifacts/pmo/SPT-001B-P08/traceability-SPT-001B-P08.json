@@ -1,0 +1,26 @@
+{
+    "increment_code":  "SPT-001B-P08",
+    "parent_deliverable":  "SPT-001B",
+    "generated_at_utc":  "2026-08-02T07:12:53.8665897Z",
+    "source":  [
+                   "src/sgoda/rlb/canonical_consolidator.py",
+                   "config/rlb/SPT-001B-P08-component.json",
+                   "config/rlb/schema-v1.1.json"
+               ],
+    "tests":  [
+                  "tests/rlb/test_SPT_001B_P08_canonical_closure.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P08-Consolidacion-Cierre.md",
+                          "docs/01_Gobierno/SPT-001B-Acta-Cierre-Institucional.md",
+                          "docs/15_Historial/SPT-001B-Registro-Historico-Cierre.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SPT-001B-P08/implementation-evidence.json",
+                     "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+                     "artifacts/rlb/SPT-001B-P08/canonical-statistics.json",
+                     "artifacts/rlb/SPT-001B-P08/canonical-validation.json",
+                     "artifacts/rlb/SPT-001B-P08/canonical-baseline-manifest.json",
+                     "releases/SPT-001B-v1.0.0/"
+                 ]
+}

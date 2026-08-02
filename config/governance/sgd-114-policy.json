@@ -1,0 +1,47 @@
+{
+  "policy_code": "SGD-114",
+  "policy_name": "Política Institucional de Evidencias, Desarrollo y Trazabilidad Tecnológica",
+  "version": "1.1.0",
+  "status": "implemented",
+  "required_categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "patterns": ["src/**/*", "config/**/*"]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "patterns": ["tests/**/*.py"]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "patterns": ["docs/**/*.md"]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "patterns": ["artifacts/**/*", "dashboard/**/*", "releases/**/*"]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "closure_rule": "all_required_categories_must_pass",
+  "allowed_statuses": [
+    "planned",
+    "in_progress",
+    "technically_completed",
+    "institutionally_closed",
+    "blocked"
+  ],
+  "institutional_closure_status": "institutionally_closed",
+  "code_matching": "normalized_alphanumeric",
+  "bootstrap_policy": "evidence_first_then_self_validate"
+}

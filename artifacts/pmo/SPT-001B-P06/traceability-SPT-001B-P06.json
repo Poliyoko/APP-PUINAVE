@@ -1,0 +1,26 @@
+{
+    "increment_code":  "SPT-001B-P06",
+    "correction_version":  "1.3.0",
+    "generated_at_utc":  "2026-08-02T06:58:43.8557517Z",
+    "source":  [
+                   "config/rlb/SPT-001B-P06-component.json",
+                   "src/sgoda/rlb/events.py",
+                   "src/sgoda/rlb/pipeline.py",
+                   "src/sgoda/rlb/cli.py"
+               ],
+    "tests":  [
+                  "tests/rlb/test_pipeline_p06.py",
+                  "tests/rlb/test_SPT_001B_P06_contract.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P06-Pipeline-Institucional-RLB.md"
+                      ],
+    "evidence":  [
+                     "artifacts/rlb/SPT-001B-P06/palabras-canonicas.json",
+                     "artifacts/rlb/SPT-001B-P06/perfil-rlb.json",
+                     "artifacts/rlb/SPT-001B-P06/errores-importacion.json",
+                     "artifacts/rlb/SPT-001B-P06/resumen-ejecucion.json",
+                     "artifacts/pmo/SPT-001B-P06/repository-events.jsonl",
+                     "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-data-quality-report.json"
+                 ]
+}

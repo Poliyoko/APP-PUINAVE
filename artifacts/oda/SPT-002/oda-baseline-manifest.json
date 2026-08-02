@@ -1,0 +1,26 @@
+{
+  "release": "SPT-002-v0.1.0",
+  "generated_at_utc": "2026-08-02T07:22:46.701019+00:00",
+  "artifacts": [
+    {
+      "path": "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+      "sha256": "ca8e9836e63cecd6b0df654027eb5ec630a40fd729a382e772bbc3ffd5d3f107",
+      "size_bytes": 48209
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-statistics.json",
+      "sha256": "4f073650fb754c2a2e3a52d7b7645db121137de8ecea36c425fea679a88fab13",
+      "size_bytes": 319
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-validation.json",
+      "sha256": "2180e299956f7351a299922d077bfbccc0196da6e05c4541d6839ad6cbda6f0d",
+      "size_bytes": 488
+    },
+    {
+      "path": "artifacts/oda/SPT-002/oda-generation-event.json",
+      "sha256": "feaf20ed39d8004dc01c5110caa9ad21c3bfe26af64c6a8cc494526fb934ac8d",
+      "size_bytes": 471
+    }
+  ]
+}

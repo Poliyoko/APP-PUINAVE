@@ -1,0 +1,16 @@
+{
+    "increment_code":  "SPT-001B-P06",
+    "generated_at_utc":  "2026-08-02T06:58:43.8492377Z",
+    "source_file":  "Repositorio LExico Base (Excel)-1.xlsx",
+    "source_sha256":  "459c6c23c34cebc70f8ce6ad296103112c06ab1f30a035896ec1b23e2b8f0bcd",
+    "total_records":  20,
+    "valid_records":  0,
+    "invalid_records":  20,
+    "quality_percentage":  0,
+    "quality_status":  "requiere_normalizacion_total",
+    "errors_preserved":  true,
+    "publication_authorized":  false,
+    "next_action":  "execute_header_mapping_and_data_normalization",
+    "error_report":  "artifacts/rlb/SPT-001B-P06/errores-importacion.json",
+    "institutional_note":  "El procesamiento técnico fue exitoso. Los errores de datos no se eliminan ni se consideran fallo del pipeline."
+}

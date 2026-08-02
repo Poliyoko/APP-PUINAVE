@@ -1,0 +1,13 @@
+{
+    "increment_code":  "SPT-001B-P06",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T06:50:18.7049402Z",
+    "components":  [
+                       "src/sgoda/rlb/events.py",
+                       "src/sgoda/rlb/pipeline.py",
+                       "src/sgoda/rlb/cli.py",
+                       "tests/rlb/test_pipeline_p06.py",
+                       "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P06-Pipeline-Institucional-RLB.md",
+                       "scripts/Invoke-SPT001B-P06.ps1"
+                   ]
+}

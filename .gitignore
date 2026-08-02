@@ -1,51 +1,31 @@
-�ndice propuesto del documento SGD.docx
-.vscode/
-*.zip
-builder_backup/
-builder_backup_*/
+# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
 .pytest_cache/
-.ruff_cache/
-.venv/
-build/
-dist/
-coverage.xml
+.coverage
 htmlcov/
-# SPB-003.2 - exclusiones de cierre
-*.backup.ps1
-*.backup
-*.backup-*
-*.bak
-*.tmp
-*.pyc
-*.b1.4-prev
 
-# Evidencias locales e históricas no versionables
-artifacts/development/
-artifacts/backups/
-
-# Entornos y cachés Python
+# Entornos virtuales
 .venv/
 venv/
-__pycache__/
-.pytest_cache/
-*.egg-info/
-# Entorno virtual Python del proyecto
-.venv/
+env/
 
-# =========================================================
-# SGODA Evidence Governance - Opcion B
-# Evidencias voluminosas conservadas fuera del repositorio
-# =========================================================
-artifacts/**/backups/
-artifacts/**/patch-backups/
-artifacts/**/obsolete-installers/
-artifacts/**/baseline*/
-artifacts/**/baselines/
-artifacts/**/restore*/
-artifacts/**/restoration*/
-artifacts/**/snapshot*/
-artifacts/**/_diagnostics/
-*.audit-archive.zip
+# IDE y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.before-compatibility-fix
+~$*
+
+# SQLite temporales
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Logs locales no gobernados
+*.log

@@ -1,0 +1,82 @@
+{
+    "schema":  "sgoda.commit-readiness-audit/v1",
+    "auditor_version":  "1.2",
+    "deliverable":  "SPB-006.2-A",
+    "generated_at":  "2026-07-31T03:57:13.7452696Z",
+    "repository_root":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+    "ready_for_selective_staging":  true,
+    "totals":  {
+                   "all_changes":  239,
+                   "spb006_changes":  42,
+                   "other_changes":  197,
+                   "staged_spb006":  1,
+                   "unstaged_or_untracked_spb006":  41,
+                   "required_missing":  0,
+                   "backup_like_in_scope":  0
+               },
+    "policy_validation":  {
+                              "ok":  true,
+                              "message":  "RET-LEGAL-HOLD no esta en el conjunto automatico."
+                          },
+    "installer_validation":  {
+                                 "ok":  true,
+                                 "message":  "El instalador no contiene una definicion automatica de RET-LEGAL-HOLD."
+                             },
+    "required_missing":  [
+
+                         ],
+    "blockers":  [
+
+                 ],
+    "proposed_stage_paths":  [
+                                 "Apply-SPB0061-SEMS-Core.ps1",
+                                 "Apply-SPB0062A-Retention-Governance.ps1",
+                                 "artifacts/pmo/SPB-006-SEMS/implementation-manifest.json",
+                                 "artifacts/pmo/SPB-006-SEMS/README.md",
+                                 "artifacts/pmo/SPB-006-SEMS/registry/evidence-registry.json",
+                                 "artifacts/pmo/SPB-006-SEMS/SPB-006.2-A-implementation-manifest.json",
+                                 "config/evidence-retention-policies.json",
+                                 "docs/01_Gobierno/SGD-110-Politica-Gestion-Evidencias.md",
+                                 "docs/01_Gobierno/SGD-111-Ciclo-de-Vida-de-Evidencias.md",
+                                 "docs/01_Gobierno/SGD-113-Politica-Retencion-Evidencias.md",
+                                 "docs/03_ADR/ADR-010-Evidence-Management-System.md",
+                                 "docs/03_ADR/ADR-011-Retention-Policy-Engine.md",
+                                 "docs/standards/Evidence-Management-Standard.md",
+                                 "src/sgoda/pmo/evidence/__init__.py",
+                                 "src/sgoda/pmo/evidence/__main__.py",
+                                 "src/sgoda/pmo/evidence/archive.py",
+                                 "src/sgoda/pmo/evidence/cli.py",
+                                 "src/sgoda/pmo/evidence/exceptions.py",
+                                 "src/sgoda/pmo/evidence/hasher.py",
+                                 "src/sgoda/pmo/evidence/manager.py",
+                                 "src/sgoda/pmo/evidence/manifest.py",
+                                 "src/sgoda/pmo/evidence/models.py",
+                                 "src/sgoda/pmo/evidence/registry.py",
+                                 "src/sgoda/pmo/evidence/retention.py",
+                                 "src/sgoda/pmo/evidence/retention_audit.py",
+                                 "src/sgoda/pmo/evidence/retention_policy.py",
+                                 "src/sgoda/pmo/evidence/verifier.py",
+                                 "tests/pmo/evidence/test_retention_manager.py",
+                                 "tests/pmo/evidence/test_sems_core.py"
+                             ],
+    "checks":  [
+                   {
+                       "label":  "pytest evidence",
+                       "ok":  true,
+                       "exit_code":  0,
+                       "output":  ".........                                                                [100%]\r\n9 passed in 0.28s"
+                   },
+                   {
+                       "label":  "retention dry-run",
+                       "ok":  true,
+                       "exit_code":  0,
+                       "output":  "{\r\n  \"schema\": \"sgoda.sems.retention-report/v1\",\r\n  \"mode\": \"dry-run\",\r\n  \"records\": 1,\r\n  \"by_action\": {\r\n    \"keep\": 1\r\n  },\r\n  \"by_policy\": {\r\n    \"RET-PERMANENT-GOVERNANCE\": 1\r\n  },\r\n  \"decisions\": [\r\n    {\r\n      \"evidence_id\": \"EVD-SPB0053-TRANSITION\",\r\n      \"policy_id\": \"RET-PERMANENT-GOVERNANCE\",\r\n      \"policy_version\": \"1.0\",\r\n      \"action\": \"keep\",\r\n      \"permanent\": true,\r\n      \"retention_until_utc\": \"\",\r\n      \"evaluated_at_utc\": \"2026-07-31T03:57:13.566231+00:00\",\r\n      \"reason\": \"permanent-policy\",\r\n      \"legal_hold\": false\r\n    }\r\n  ]\r\n}"
+                   },
+                   {
+                       "label":  "retention audit",
+                       "ok":  true,
+                       "exit_code":  0,
+                       "output":  "{\r\n  \"schema\": \"sgoda.sems.retention-audit/v1\",\r\n  \"records\": 1,\r\n  \"findings\": [],\r\n  \"compliant\": true\r\n}"
+                   }
+               ]
+}

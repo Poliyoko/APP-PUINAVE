@@ -1,0 +1,20 @@
+{
+  "increment_code": "ADR-010",
+  "decision": "Arquitectura Escalable del Repositorio Multimedia",
+  "component_type": "relational_media_repository",
+  "version": "1.0.0",
+  "status": "institutionally_closed",
+  "entrypoint": "sgoda.media.cli",
+  "capacity_target_resources": 120000,
+  "storage_engine": "SQLite",
+  "source": [
+    "src/sgoda/media/models.py",
+    "src/sgoda/media/repository.py",
+    "src/sgoda/media/migration.py",
+    "src/sgoda/media/cli.py"
+  ],
+  "tests": [
+    "tests/media/test_ADR_010_rmr_repository.py"
+  ],
+  "governed_by": "SGD-114"
+}

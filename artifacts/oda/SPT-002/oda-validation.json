@@ -1,0 +1,19 @@
+{
+  "increment": "SPT-002",
+  "generated_at_utc": "2026-08-02T07:22:46.701019+00:00",
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "MULTIMEDIA_PENDING",
+      "message": "Los ODA son válidos, pero sus recursos multimedia aún están pendientes."
+    }
+  ],
+  "checks": {
+    "objects_present": true,
+    "zero_validation_errors": true,
+    "unique_oda_ids": true,
+    "all_have_four_media_slots": true,
+    "all_have_traceability": true
+  }
+}

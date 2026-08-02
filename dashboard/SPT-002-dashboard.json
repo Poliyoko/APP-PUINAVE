@@ -1,0 +1,20 @@
+{
+    "increment_code":  "SPT-002",
+    "version":  "0.1.0",
+    "status":  "technically_completed",
+    "generated_at_utc":  "2026-08-02T07:22:47.6388209Z",
+    "source_release":  "SPT-001B-v1.0.0",
+    "total_oda":  20,
+    "oda_validos":  20,
+    "oda_bloqueados":  0,
+    "quality_percentage":  100.0,
+    "media_slots_total":  80,
+    "imagenes_pendientes":  20,
+    "audios_puinave_pendientes":  20,
+    "audios_espanol_pendientes":  20,
+    "audios_ingles_pendientes":  20,
+    "tests":  "approved",
+    "validation":  "approved",
+    "quality_gate":  "approved",
+    "release":  "SPT-002-v0.1.0"
+}

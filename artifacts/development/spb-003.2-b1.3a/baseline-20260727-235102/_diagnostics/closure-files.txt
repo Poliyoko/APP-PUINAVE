@@ -1,0 +1,10 @@
+
+FullName                                                                                                              
+--------                                                                                                              
+C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\src\sgoda\pmo\closure\closure_orchestrator.py
+C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\src\sgoda\pmo\closure\__init__.py            
+C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\src\sgoda\pmo\closure\__pycache__\closure_...
+C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\src\sgoda\pmo\closure\__pycache__\__init__...
+
+
+

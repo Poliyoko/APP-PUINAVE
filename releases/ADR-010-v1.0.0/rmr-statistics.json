@@ -1,0 +1,16 @@
+{
+  "total_resources": 80,
+  "unique_oda": 20,
+  "unique_resource_types": 4,
+  "by_type": {
+    "audio_espanol": 20,
+    "audio_ingles": 20,
+    "audio_puinave": 20,
+    "imagen_ilustrativa": 20
+  },
+  "by_status": {
+    "pendiente_generacion_ia": 20,
+    "pendiente_grabacion_nativa": 20,
+    "pendiente_tts": 40
+  }
+}

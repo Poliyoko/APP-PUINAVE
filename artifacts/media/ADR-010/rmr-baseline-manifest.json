@@ -1,0 +1,37 @@
+{
+  "release": "ADR-010-v1.0.0",
+  "generated_at_utc": "2026-08-02T07:40:31.428070+00:00",
+  "capacity_target_resources": 120000,
+  "artifacts": [
+    {
+      "path": "artifacts/media/ADR-010/rmr.sqlite3",
+      "sha256": "ca413faa0fd1dcc6d530b704649a8b01af4c6191160c68694b92a484b9aa283a",
+      "size_bytes": 61440
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-migration-result.json",
+      "sha256": "fbac4c5de8f11169503980e084c103dbb0065a67bc094020c89c8f87190464a2",
+      "size_bytes": 104
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-statistics.json",
+      "sha256": "134b2e8e145fb6debe73fa3bbb83bf9ef3ffb898da30644310b8038fc3a1cb97",
+      "size_bytes": 336
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-validation.json",
+      "sha256": "48926e9578d5daebe4d2cbe5ce592954abcbca434f8ab427d7fc3bdd4c20f40c",
+      "size_bytes": 498
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-resources.jsonl",
+      "sha256": "fe5f1b8f97836d66d2779f003bfebf07c49721ed32ea8b36384e263b47bca57a",
+      "size_bytes": 35440
+    },
+    {
+      "path": "artifacts/media/ADR-010/rmr-initialized-event.json",
+      "sha256": "40c0e452712dbae5f0276b96fd8caf8d90bd5774dd45e2db4cce34dfa95a915f",
+      "size_bytes": 450
+    }
+  ]
+}

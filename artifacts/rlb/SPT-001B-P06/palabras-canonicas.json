@@ -1,0 +1,1335 @@
+{
+  "metadata": {
+    "sistema": "SGODA-PUINAVE",
+    "entregable": "SPT-001B-P05",
+    "generado_en_utc": "2026-08-02T06:55:12.925533+00:00",
+    "archivo_origen": "Repositorio LExico Base (Excel)-1.xlsx",
+    "version_esquema": "1.0.0",
+    "total_hojas": 1,
+    "total_registros": 20,
+    "total_registros_validos": 0,
+    "total_registros_con_errores": 20
+  },
+  "registros": [
+    {
+      "identificador": "0001",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0001.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 2,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AMDA"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Huérfana"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(´amda) "
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0001.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0001.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "SOCIEDAD"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Orphan"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0001.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0002",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0002.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 3,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AMJURE "
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Abejar, enjambre"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": " (´amjure) "
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0002.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0002.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ALIMENTOS"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Bee, swarm"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0002.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0003",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0003.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 4,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AMPOG"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Miel de abeja"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": " (ampoc)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0003.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0003.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ALIMENTOS"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Bee honey"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0003.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0004",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0004.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 5,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ANA"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Abuela"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(ána)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0004.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0004.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "FAMILIA"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Grandmother"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0004.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0005",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0005.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 6,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ANDAM"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Casabe recien hecho"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(andam)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0005.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0005.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ALIMENTOS"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Freshly made cassava"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0005.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0006",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0006.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 7,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ANSIJUM"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Casabe mojoso"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(ansijú)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0006.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0006.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ALIMENTOS"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Soaked Cassava"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0006.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0007",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0007.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 8,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ASI"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Voy a"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(asi) "
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0007.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0007.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ACCION"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "I'm going to"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0007.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0008",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0008.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 9,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ASINUG"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Voy a ir"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(asinúc)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0008.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0008.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ACCION"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "I'm going to go"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0008.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0009",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0009.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 10,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ASIBOG"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Voy  a  caminar"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(asibog)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0009.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0009.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ACCION"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "I'm going to walk"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0009.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0010",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0010.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 11,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ASIQUIG"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Voy a llorar"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(asiquig)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0010.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0010.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ACCION"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "I'm going to cry"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0010.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0011",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0011.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 12,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ASURINA"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Gasolina"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(asurína)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0011.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0011.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "TRANSPORTE"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Gasoline"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0011.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0012",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0012.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 13,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AT"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Me"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(át)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0012.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0012.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ACCION"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "I"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0012.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0013",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0013.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 14,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": " ATCUI"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Me mandan"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(atcuí)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0013.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0013.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ACCION"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "They send me"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0013.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0014",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0014.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 15,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AUÑUN"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Avión "
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(auñún)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0014.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0014.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "TRANSPORTE"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Aircraft"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0014.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0015",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0015.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 16,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AYAYA"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Pato colorado"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(allallá)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0015.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0015.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ANIMALES"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Red-crested duck"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0015.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0016",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0016.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 17,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AU"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Bachaco"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(´au) "
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0016.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0016.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "ANIMALES"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Bachaco"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0016.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0017",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0017.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 18,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "AU "
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Cantar "
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(áu)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0017.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0017.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "VERBOS"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Sing"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0017.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0018",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0018.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 19,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ÃG"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Verde"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": " (ãc)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0018.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0018.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "COLORES"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Green"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0018.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0019",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0019.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 20,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "IÃG"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Color verde"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(i ãc)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0019.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0019.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "COLORES"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Color: Green"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0019.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    },
+    {
+      "identificador": "0020",
+      "palabra_puinave": "",
+      "traduccion_espanol": null,
+      "traduccion_ingles": null,
+      "categoria_gramatical": null,
+      "categoria_tematica": null,
+      "tema_cultural": null,
+      "descripcion_cultural": null,
+      "contexto_uso": null,
+      "comunidad": null,
+      "territorio": null,
+      "imagen": "0020.jpg",
+      "audio_puinave": null,
+      "audio_espanol": null,
+      "audio_ingles": null,
+      "video": null,
+      "nivel_acceso": "pendiente_clasificacion",
+      "autorizacion_publicacion": false,
+      "estado_validacion": "pendiente",
+      "origen": {
+        "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+        "hoja": "Hoja1",
+        "fila": 21,
+        "version_esquema": "1.0.0"
+      },
+      "extensiones": {},
+      "campos_desconocidos": [
+        {
+          "columna_original": "PALABRA EN PUINAVE",
+          "valor": "ÃCARIG"
+        },
+        {
+          "columna_original": "PALABRA EN ESPAÑOL",
+          "valor": "Morado para persona, animal o cosa"
+        },
+        {
+          "columna_original": "ESCRITURA EN PUINAVE",
+          "valor": "(ãkaríc)"
+        },
+        {
+          "columna_original": "AUDIO EN ESPAÑOL",
+          "valor": "0020.mp3"
+        },
+        {
+          "columna_original": "AUDIO EN PUINAVE",
+          "valor": "0020.mp3"
+        },
+        {
+          "columna_original": "CATEGORIA",
+          "valor": "COLORES"
+        },
+        {
+          "columna_original": "PALABRA EN INGLES",
+          "valor": "Purple for person, animal, or thing"
+        },
+        {
+          "columna_original": "AUDIO EN INGLES",
+          "valor": "0020.mp3"
+        },
+        {
+          "columna_original": "OBSERVACIONES",
+          "valor": null
+        }
+      ]
+    }
+  ]
+}

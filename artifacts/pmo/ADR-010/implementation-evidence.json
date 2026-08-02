@@ -1,0 +1,20 @@
+{
+    "increment_code":  "ADR-010",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T07:40:21.7849088Z",
+    "capacity_target_resources":  120000,
+    "source_oda_release":  "SPT-002-v0.1.0",
+    "components":  [
+                       "src/sgoda/media/models.py",
+                       "src/sgoda/media/repository.py",
+                       "src/sgoda/media/migration.py",
+                       "src/sgoda/media/cli.py",
+                       "tests/media/test_ADR_010_rmr_repository.py",
+                       "config/media/ADR-010-component.json",
+                       "config/media/rmr-policy.json",
+                       "docs/03_ADR/ADR-010-Arquitectura-Escalable-Repositorio-Multimedia-RMR.md",
+                       "docs/05_Fase_Tecnologica/ADR-010/ADR-010-Implementacion-RMR.md",
+                       "scripts/Invoke-ADR010-RMR.ps1"
+                   ]
+}

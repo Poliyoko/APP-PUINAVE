@@ -1,0 +1,7 @@
+{
+    "active_schema":  "config/rlb/schema-v1.1.json",
+    "version":  "1.1.0",
+    "previous_schema":  "config/rlb/schema-v1.json",
+    "activated_by":  "SPT-001B-P08",
+    "activated_at_utc":  "2026-08-02T07:12:53.8630371Z"
+}

@@ -1,0 +1,14 @@
+{
+    "increment_code":  "SPT-001B-P07",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T07:04:08.0199514Z",
+    "components":  [
+                       "src/sgoda/rlb/header_normalizer.py",
+                       "tests/rlb/test_SPT_001B_P07_header_normalizer.py",
+                       "config/rlb/SPT-001B-P07-header-mapping.json",
+                       "config/rlb/SPT-001B-P07-component.json",
+                       "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P07-Normalizacion-Encabezados.md",
+                       "scripts/Invoke-SPT001B-P07.ps1"
+                   ]
+}

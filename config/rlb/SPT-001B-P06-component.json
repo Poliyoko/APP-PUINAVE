@@ -1,0 +1,18 @@
+{
+  "increment_code": "SPT-001B-P06",
+  "component_type": "rlb_pipeline",
+  "version": "1.3.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.rlb.cli",
+  "implementation_modules": [
+    "src/sgoda/rlb/events.py",
+    "src/sgoda/rlb/pipeline.py",
+    "src/sgoda/rlb/cli.py"
+  ],
+  "test_modules": [
+    "tests/rlb/test_pipeline_p06.py",
+    "tests/rlb/test_SPT_001B_P06_contract.py"
+  ],
+  "governed_by": "SGD-114",
+  "data_quality_policy": "preserve_errors_and_report"
+}

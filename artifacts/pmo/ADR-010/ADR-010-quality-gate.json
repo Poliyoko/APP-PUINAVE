@@ -1,0 +1,93 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "ADR-010",
+  "requested_status": "institutionally_closed",
+  "evaluated_at_utc": "2026-08-02T07:40:32.629479+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": true,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/media/ADR-010-component.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/media/test_ADR_010_rmr_repository.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/03_ADR/ADR-010-Arquitectura-Escalable-Repositorio-Multimedia-RMR.md",
+        "docs/03_ADR/ADR-010-Evidence-Management-System.md",
+        "docs/05_Fase_Tecnologica/ADR-010/ADR-010-Implementacion-RMR.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/media/ADR-010/rmr-baseline-manifest.json",
+        "artifacts/media/ADR-010/rmr-initialized-event.json",
+        "artifacts/media/ADR-010/rmr-migration-result.json",
+        "artifacts/media/ADR-010/rmr-resources.jsonl",
+        "artifacts/media/ADR-010/rmr-statistics.json",
+        "artifacts/media/ADR-010/rmr-validation.json",
+        "artifacts/media/ADR-010/rmr.sqlite3",
+        "artifacts/pmo/ADR-010/implementation-evidence.json",
+        "artifacts/pmo/ADR-010/traceability-ADR-010.json",
+        "releases/ADR-010-v1.0.0/rmr-baseline-manifest.json",
+        "releases/ADR-010-v1.0.0/rmr-initialized-event.json",
+        "releases/ADR-010-v1.0.0/rmr-migration-result.json",
+        "releases/ADR-010-v1.0.0/rmr-resources.jsonl",
+        "releases/ADR-010-v1.0.0/rmr-statistics.json",
+        "releases/ADR-010-v1.0.0/rmr-validation.json",
+        "releases/ADR-010-v1.0.0/rmr.sqlite3"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/ADR-010/traceability-ADR-010.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cierre institucional autorizado por SGD-114."
+  ]
+}

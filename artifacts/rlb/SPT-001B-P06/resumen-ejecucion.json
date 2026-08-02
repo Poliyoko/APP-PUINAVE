@@ -1,0 +1,52 @@
+{
+  "sistema": "SGODA-PUINAVE",
+  "incremento": "SPT-001B-P06",
+  "generado_en_utc": "2026-08-02T06:55:12.930919+00:00",
+  "archivo_origen": {
+    "nombre": "Repositorio LExico Base (Excel)-1.xlsx",
+    "ruta": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\Repositorio LExico Base (Excel)-1.xlsx",
+    "sha256": "459c6c23c34cebc70f8ce6ad296103112c06ab1f30a035896ec1b23e2b8f0bcd",
+    "tamano_bytes": 11813
+  },
+  "resultado": {
+    "total_hojas": 1,
+    "total_registros": 20,
+    "registros_validos": 0,
+    "registros_con_errores": 20
+  },
+  "artefactos": {
+    "canonico": {
+      "ruta": "artifacts\\rlb\\SPT-001B-P06\\palabras-canonicas.json",
+      "sha256": "c43a4b731d9a95f0e289187faadd751f815e57a0ce4d13046cbba45c1360aa40",
+      "tamano_bytes": 36839
+    },
+    "perfil": {
+      "ruta": "artifacts\\rlb\\SPT-001B-P06\\perfil-rlb.json",
+      "sha256": "9cb4b903a4ed0e7d994a9ea868b35444249b4d69df81edf5b4491aa859ad8398",
+      "tamano_bytes": 1291
+    },
+    "errores": {
+      "ruta": "artifacts\\rlb\\SPT-001B-P06\\errores-importacion.json",
+      "sha256": "dddf3a474e8b7d0db65ce28ce347a8d1dd1f1ab6b670199efa5ae329fe680fcd",
+      "tamano_bytes": 2931
+    }
+  },
+  "evento": {
+    "event_id": "828896d3-6eed-4e0f-a49a-a083c3b6cfb1",
+    "event_type": "RepositoryImported",
+    "occurred_at_utc": "2026-08-02T06:55:12.929374+00:00",
+    "source": "sgoda.rlb",
+    "sprint": "SPT-001B-P06",
+    "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+    "version_esquema": "1.0.0",
+    "total_hojas": 1,
+    "total_registros": 20,
+    "registros_validos": 0,
+    "registros_con_errores": 20,
+    "artefactos_generados": [
+      "errores-importacion.json",
+      "palabras-canonicas.json",
+      "perfil-rlb.json"
+    ]
+  }
+}

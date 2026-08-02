@@ -1,0 +1,21 @@
+﻿{
+    "identifier":  "SPB-006-EVIDENCE-GOVERNANCE",
+    "transition":  "OPTION-B-EXTERNAL-EVIDENCE",
+    "generated_at_utc":  "2026-07-30T05:57:37.8896550+00:00",
+    "repository_branch":  "feature/SPB-005.2-F002A-repository-governance",
+    "source_commit":  "ce11985f51bd79b8fc9040d386f2014e7867a6dc",
+    "protected_closure_commit":  "ce11985",
+    "protected_tag":  "SPB-005.3-v1.4",
+    "external_archive_name":  "SPB-005.3-v1.4-audit-archive.zip",
+    "external_archive_sha256":  "7953e436b4968a6be3c96bea2ee2bfdc226ad12f0b23fff24c0cd44c29da08d3",
+    "archived_files":  109,
+    "archived_bytes":  521758,
+    "externalized_directories":  [
+                                     "backups",
+                                     "patch-backups",
+                                     "obsolete-installers"
+                                 ],
+    "history_rewritten":  false,
+    "force_push_required":  false,
+    "local_files_preserved":  true
+}

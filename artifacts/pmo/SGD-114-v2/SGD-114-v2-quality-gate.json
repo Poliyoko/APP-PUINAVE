@@ -1,0 +1,89 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SGD-114-v2",
+  "requested_status": "institutionally_closed",
+  "evaluated_at_utc": "2026-08-02T07:56:12.762916+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": true,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/governance/SGD-114-v2-component.json",
+        "config/governance/sgd-114-v2-repository-policy.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/governance/test_SGD_114_v2_repository_governance.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/01_Gobierno/SGD-114-v2.0-Politica-Repositorio-Institucional.md",
+        "docs/05_Fase_Tecnologica/SGD-114/SGD-114-v2.0-Implementacion-Tecnica.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SGD-114-v2/SGD-114-v2.0.1-windows-test-evidence.json",
+        "artifacts/pmo/SGD-114-v2/implementation-evidence.json",
+        "artifacts/pmo/SGD-114-v2/repository-audit.json",
+        "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
+        "artifacts/pmo/SGD-114-v2/repository-manifest.json",
+        "artifacts/pmo/SGD-114-v2/traceability-SGD-114-v2.json",
+        "releases/SGD-114-v2.0.1/SGD-114-v2.0.1-windows-test-evidence.json",
+        "releases/SGD-114-v2.0.1/repository-audit.json",
+        "releases/SGD-114-v2.0.1/repository-governance-event.json",
+        "releases/SGD-114-v2.0.1/repository-manifest.json",
+        "releases/SGD-114-v2.0.1/sgd-114-v2-repository-policy.json",
+        "releases/SGD-114-v2.0.1/test_SGD_114_v2_repository_governance.py"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SGD-114-v2/traceability-SGD-114-v2.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cierre institucional autorizado por SGD-114."
+  ]
+}

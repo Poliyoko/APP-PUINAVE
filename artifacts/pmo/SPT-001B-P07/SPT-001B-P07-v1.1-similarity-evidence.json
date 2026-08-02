@@ -1,0 +1,17 @@
+{
+    "increment_code":  "SPT-001B-P07",
+    "correction_version":  "1.1.0",
+    "generated_at_utc":  "2026-08-02T07:06:42.2091260Z",
+    "correction":  "token_boundary_similarity",
+    "false_positive_case":  {
+                                "header":  "Columna desconocida",
+                                "alias":  "id",
+                                "approved":  false
+                            },
+    "specific_tests":  "approved",
+    "full_suite":  "approved",
+    "official_excel":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\Repositorio LExico Base (Excel)-1.xlsx",
+    "valid_records":  20,
+    "invalid_records":  0,
+    "approved_aliases":  10
+}

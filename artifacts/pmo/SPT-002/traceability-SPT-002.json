@@ -1,0 +1,27 @@
+{
+    "increment_code":  "SPT-002",
+    "generated_at_utc":  "2026-08-02T07:22:41.2937007Z",
+    "source":  [
+                   "src/sgoda/oda/models.py",
+                   "src/sgoda/oda/engine.py",
+                   "src/sgoda/oda/cli.py",
+                   "config/oda/SPT-002-component.json",
+                   "config/oda/oda-generation-policy.json"
+               ],
+    "tests":  [
+                  "tests/oda/test_SPT_002_oda_engine.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Motor-Funcional-ODA.md",
+                          "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Arquitectura-ODA.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SPT-002/implementation-evidence.json",
+                     "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+                     "artifacts/oda/SPT-002/oda-statistics.json",
+                     "artifacts/oda/SPT-002/oda-validation.json",
+                     "artifacts/oda/SPT-002/oda-generation-event.json",
+                     "artifacts/oda/SPT-002/oda-baseline-manifest.json",
+                     "releases/SPT-002-v0.1.0/"
+                 ]
+}

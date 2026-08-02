@@ -1,0 +1,61 @@
+{
+    "audit_id":  "SPB-005.2-TEST-SUITE-AUDIT",
+    "generated_at":  "2026-07-30T00:06:52-05:00",
+    "repository_root":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+    "branch":  "feature/SPB-005.2-F002A-repository-governance",
+    "commit":  "6cd76239a0c43b87dc30ebd0dc97355a6d92b17b",
+    "test_files_total":  129,
+    "active_test_files":  129,
+    "blocked_test_files":  0,
+    "unresolved_module_count":  0,
+    "search_roots":  [
+                         "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\src",
+                         "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder\\src",
+                         "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\builder",
+                         "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE"
+                     ],
+    "domains":  [
+                    {
+                        "domain":  "builder",
+                        "total":  117,
+                        "active":  117,
+                        "blocked":  0
+                    },
+                    {
+                        "domain":  "foundation-runtime",
+                        "total":  1,
+                        "active":  1,
+                        "blocked":  0
+                    },
+                    {
+                        "domain":  "general",
+                        "total":  2,
+                        "active":  2,
+                        "blocked":  0
+                    },
+                    {
+                        "domain":  "governance",
+                        "total":  2,
+                        "active":  2,
+                        "blocked":  0
+                    },
+                    {
+                        "domain":  "platform-kernel",
+                        "total":  1,
+                        "active":  1,
+                        "blocked":  0
+                    },
+                    {
+                        "domain":  "pmo",
+                        "total":  6,
+                        "active":  6,
+                        "blocked":  0
+                    }
+                ],
+    "missing_modules":  [
+
+                        ],
+    "collection_checks":  [
+
+                          ]
+}

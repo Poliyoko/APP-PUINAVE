@@ -1,0 +1,17 @@
+{
+  "increment_code": "SPT-002",
+  "component_type": "oda_functional_engine",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.oda.cli",
+  "source_repository": "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+  "source": [
+    "src/sgoda/oda/models.py",
+    "src/sgoda/oda/engine.py",
+    "src/sgoda/oda/cli.py"
+  ],
+  "tests": [
+    "tests/oda/test_SPT_002_oda_engine.py"
+  ],
+  "governed_by": "SGD-114"
+}

@@ -1,0 +1,52 @@
+{
+  "archivo": "Repositorio LExico Base (Excel)-1.xlsx",
+  "version_esquema": "1.0.0",
+  "total_hojas": 1,
+  "total_registros": 20,
+  "total_registros_validos": 0,
+  "total_registros_con_errores": 20,
+  "hojas": [
+    {
+      "nombre": "Hoja1",
+      "fila_encabezado": 1,
+      "total_filas_fisicas": 21,
+      "total_columnas_fisicas": 11,
+      "total_registros": 20,
+      "total_registros_validos": 0,
+      "total_registros_con_errores": 20,
+      "columnas": [
+        "ID",
+        "PALABRA EN PUINAVE",
+        "PALABRA EN ESPAÑOL",
+        "ESCRITURA EN PUINAVE",
+        "AUDIO EN ESPAÑOL",
+        "AUDIO EN PUINAVE",
+        "IMAGEN",
+        "CATEGORIA",
+        "PALABRA EN INGLES",
+        "AUDIO EN INGLES",
+        "OBSERVACIONES"
+      ],
+      "columnas_reconocidas": [
+        "ID",
+        "IMAGEN"
+      ],
+      "columnas_desconocidas": [
+        "AUDIO EN ESPAÑOL",
+        "AUDIO EN INGLES",
+        "AUDIO EN PUINAVE",
+        "CATEGORIA",
+        "ESCRITURA EN PUINAVE",
+        "OBSERVACIONES",
+        "PALABRA EN ESPAÑOL",
+        "PALABRA EN INGLES",
+        "PALABRA EN PUINAVE"
+      ],
+      "columnas_vacias": [
+        "OBSERVACIONES"
+      ],
+      "errores": []
+    }
+  ],
+  "advertencias": []
+}

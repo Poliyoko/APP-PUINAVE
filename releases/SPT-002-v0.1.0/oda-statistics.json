@@ -1,0 +1,13 @@
+{
+  "total_oda": 20,
+  "oda_validos": 20,
+  "oda_bloqueados": 0,
+  "oda_id_unicos": 20,
+  "media_slots_total": 80,
+  "imagenes_pendientes": 20,
+  "audios_puinave_pendientes": 20,
+  "audios_espanol_pendientes": 20,
+  "audios_ingles_pendientes": 20,
+  "quality_percentage": 100.0,
+  "duplicate_oda_ids": 0
+}

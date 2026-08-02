@@ -1,0 +1,779 @@
+﻿diff --git a/.gitignore b/.gitignore
+index 338d1a1..b36dda6 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -34,3 +34,18 @@ __pycache__/
+ *.egg-info/
+ # Entorno virtual Python del proyecto
+ .venv/
++
++# =========================================================
++# SGODA Evidence Governance - Opcion B
++# Evidencias voluminosas conservadas fuera del repositorio
++# =========================================================
++artifacts/**/backups/
++artifacts/**/patch-backups/
++artifacts/**/obsolete-installers/
++artifacts/**/baseline*/
++artifacts/**/baselines/
++artifacts/**/restore*/
++artifacts/**/restoration*/
++artifacts/**/snapshot*/
++artifacts/**/_diagnostics/
++*.audit-archive.zip
+diff --git a/Apply-SPB0032-B1.4.ps1 b/Apply-SPB0032-B1.4.ps1
+index 2a477eb..7cc0921 100644
+--- a/Apply-SPB0032-B1.4.ps1
++++ b/Apply-SPB0032-B1.4.ps1
+@@ -1,4 +1,4 @@
+-﻿[CmdletBinding(SupportsShouldProcess = $true)]
++[CmdletBinding(SupportsShouldProcess = $true)]
+ param(
+     [Parameter(Mandatory = $false)]
+     [string]$RepositoryRoot = (Get-Location).Path,
+diff --git a/Stage-SPB0032-B1.4.ps1 b/Stage-SPB0032-B1.4.ps1
+index 27d5995..a6b3a47 100644
+--- a/Stage-SPB0032-B1.4.ps1
++++ b/Stage-SPB0032-B1.4.ps1
+@@ -1,4 +1,4 @@
+-﻿[CmdletBinding()]
++[CmdletBinding()]
+ param(
+     [Parameter(Mandatory = $false)]
+     [string]$RepositoryRoot = (Get-Location).Path,
+diff --git a/Start-SPB0032-Closure.ps1 b/Start-SPB0032-Closure.ps1
+index e15d091..f4ceb93 100644
+--- a/Start-SPB0032-Closure.ps1
++++ b/Start-SPB0032-Closure.ps1
+@@ -1,4 +1,4 @@
+-﻿[CmdletBinding()]
++[CmdletBinding()]
+ param(
+     [string]$RepositoryRoot = (Get-Location).Path,
+     [switch]$Force
+diff --git a/Verify-SPB0032-B1.4.ps1 b/Verify-SPB0032-B1.4.ps1
+index 5aadcd1..c135043 100644
+--- a/Verify-SPB0032-B1.4.ps1
++++ b/Verify-SPB0032-B1.4.ps1
+@@ -1,4 +1,4 @@
+-﻿[CmdletBinding()]
++[CmdletBinding()]
+ param(
+     [Parameter(Mandatory = $false)]
+     [string]$RepositoryRoot = (Get-Location).Path
+diff --git a/artifacts/audit/SGD-402-inventario-repositorio.csv b/artifacts/audit/SGD-402-inventario-repositorio.csv
+index 90f7c44..7c61d57 100644
+--- a/artifacts/audit/SGD-402-inventario-repositorio.csv
++++ b/artifacts/audit/SGD-402-inventario-repositorio.csv
+@@ -1,4 +1,4 @@
+-﻿"FullName","Length","LastWriteTime"
++"FullName","Length","LastWriteTime"
+ "C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\src\sgoda\__init__.py","33","26/07/2026 1:30:52 a. m."
+ "C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\src\sgoda\pmo\__init__.py","654","24/07/2026 1:04:41 a. m."
+ "C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\src\sgoda\pmo\audit\native_repository_auditor.py","10390","26/07/2026 1:40:40 a. m."
+diff --git a/artifacts/inventario-pre-cierre-spb-003.2.txt b/artifacts/inventario-pre-cierre-spb-003.2.txt
+index cf58d70..218d2a1 100644
+--- a/artifacts/inventario-pre-cierre-spb-003.2.txt
++++ b/artifacts/inventario-pre-cierre-spb-003.2.txt
+@@ -1,4 +1,4 @@
+-﻿
++
+ FullName                                                                                                               
+ --------                                                                                                               
+ C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\.gitignore                                    
+diff --git a/builder/catalog_plugin/plugin.py b/builder/catalog_plugin/plugin.py
+index d374b38..ae850ca 100644
+--- a/builder/catalog_plugin/plugin.py
++++ b/builder/catalog_plugin/plugin.py
+@@ -1,2 +1,2 @@
+-﻿def register():
++def register():
+     return {"status": "ok"}
+diff --git a/builder/catalog_plugin/sgoda.plugin.json b/builder/catalog_plugin/sgoda.plugin.json
+index ba2efb2..23a9c4e 100644
+--- a/builder/catalog_plugin/sgoda.plugin.json
++++ b/builder/catalog_plugin/sgoda.plugin.json
+@@ -1,4 +1,4 @@
+-﻿{
++{
+   "schema_version": "1.0",
+   "type": "plugin",
+   "name": "plugin-base",
+diff --git a/builder/catalog_template/sgoda.template.json b/builder/catalog_template/sgoda.template.json
+index 1263890..3ac695c 100644
+--- a/builder/catalog_template/sgoda.template.json
++++ b/builder/catalog_template/sgoda.template.json
+@@ -1,4 +1,4 @@
+-﻿{
++{
+   "schema_version": "1.0",
+   "type": "template",
+   "name": "template-base",
+diff --git a/builder/catalog_template/template/README.md b/builder/catalog_template/template/README.md
+index f3b242f..e231251 100644
+--- a/builder/catalog_template/template/README.md
++++ b/builder/catalog_template/template/README.md
+@@ -1 +1 @@
+-﻿# Plantilla base
++# Plantilla base
+diff --git a/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py b/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py
+index d374b38..ae850ca 100644
+--- a/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py
++++ b/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py
+@@ -1,2 +1,2 @@
+-﻿def register():
++def register():
+     return {"status": "ok"}
+diff --git a/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json b/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json
+index ba2efb2..23a9c4e 100644
+--- a/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json
++++ b/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json
+@@ -1,4 +1,4 @@
+-﻿{
++{
+   "schema_version": "1.0",
+   "type": "plugin",
+   "name": "plugin-base",
+diff --git a/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/sgoda.template.json b/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/sgoda.template.json
+index 1263890..3ac695c 100644
+--- a/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/sgoda.template.json
++++ b/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/sgoda.template.json
+@@ -1,4 +1,4 @@
+-﻿{
++{
+   "schema_version": "1.0",
+   "type": "template",
+   "name": "template-base",
+diff --git a/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/template/README.md b/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/template/README.md
+index f3b242f..e231251 100644
+--- a/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/template/README.md
++++ b/builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/template/README.md
+@@ -1 +1 @@
+-﻿# Plantilla base
++# Plantilla base
+diff --git a/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py b/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py
+index d374b38..ae850ca 100644
+--- a/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py
++++ b/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py
+@@ -1,2 +1,2 @@
+-﻿def register():
++def register():
+     return {"status": "ok"}
+diff --git a/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json b/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json
+index ba2efb2..23a9c4e 100644
+--- a/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json
++++ b/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json
+@@ -1,4 +1,4 @@
+-﻿{
++{
+   "schema_version": "1.0",
+   "type": "plugin",
+   "name": "plugin-base",
+diff --git a/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/sgoda.template.json b/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/sgoda.template.json
+index 1263890..3ac695c 100644
+--- a/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/sgoda.template.json
++++ b/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/sgoda.template.json
+@@ -1,4 +1,4 @@
+-﻿{
++{
+   "schema_version": "1.0",
+   "type": "template",
+   "name": "template-base",
+diff --git a/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/template/README.md b/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/template/README.md
+index f3b242f..e231251 100644
+--- a/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/template/README.md
++++ b/builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/template/README.md
+@@ -1 +1 @@
+-﻿# Plantilla base
++# Plantilla base
+diff --git a/builder/src/sgoda/governance/exceptions.py b/builder/src/sgoda/governance/exceptions.py
+index 592ba50..9dc6b7b 100644
+--- a/builder/src/sgoda/governance/exceptions.py
++++ b/builder/src/sgoda/governance/exceptions.py
+@@ -1,4 +1,4 @@
+-﻿"""Excepciones públicas del subsistema de gobernanza."""
++"""Excepciones públicas del subsistema de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/governance_service.py b/builder/src/sgoda/governance/governance_service.py
+index fc8e6fe..0b6b18c 100644
+--- a/builder/src/sgoda/governance/governance_service.py
++++ b/builder/src/sgoda/governance/governance_service.py
+@@ -1,4 +1,4 @@
+-﻿"""Fachada de aplicación para el subsistema de gobernanza."""
++"""Fachada de aplicación para el subsistema de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/models.py b/builder/src/sgoda/governance/models.py
+index a4fda26..231ce9e 100644
+--- a/builder/src/sgoda/governance/models.py
++++ b/builder/src/sgoda/governance/models.py
+@@ -1,4 +1,4 @@
+-﻿"""Modelos de dominio inmutables para políticas de gobernanza."""
++"""Modelos de dominio inmutables para políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/policy_engine.py b/builder/src/sgoda/governance/policy_engine.py
+index b204b8c..2dd22d9 100644
+--- a/builder/src/sgoda/governance/policy_engine.py
++++ b/builder/src/sgoda/governance/policy_engine.py
+@@ -1,4 +1,4 @@
+-﻿"""Coordinación determinista de evaluaciones de políticas de gobernanza."""
++"""Coordinación determinista de evaluaciones de políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/policy_loader.py b/builder/src/sgoda/governance/policy_loader.py
+index 8ef3fb9..378a2be 100644
+--- a/builder/src/sgoda/governance/policy_loader.py
++++ b/builder/src/sgoda/governance/policy_loader.py
+@@ -1,4 +1,4 @@
+-﻿"""Carga segura de políticas de gobernanza desde archivos JSON."""
++"""Carga segura de políticas de gobernanza desde archivos JSON."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/policy_repository.py b/builder/src/sgoda/governance/policy_repository.py
+index e86517d..387a93e 100644
+--- a/builder/src/sgoda/governance/policy_repository.py
++++ b/builder/src/sgoda/governance/policy_repository.py
+@@ -1,4 +1,4 @@
+-﻿"""Repositorio determinista en memoria para políticas de gobernanza."""
++"""Repositorio determinista en memoria para políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/policy_validator.py b/builder/src/sgoda/governance/policy_validator.py
+index 9e7b43e..6019641 100644
+--- a/builder/src/sgoda/governance/policy_validator.py
++++ b/builder/src/sgoda/governance/policy_validator.py
+@@ -1,4 +1,4 @@
+-﻿"""Validación semántica de políticas de gobernanza."""
++"""Validación semántica de políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/results.py b/builder/src/sgoda/governance/results.py
+index 0723c00..1f743ab 100644
+--- a/builder/src/sgoda/governance/results.py
++++ b/builder/src/sgoda/governance/results.py
+@@ -1,4 +1,4 @@
+-﻿"""Resultados inmutables de evaluación de políticas de gobernanza."""
++"""Resultados inmutables de evaluación de políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/src/sgoda/governance/serializers.py b/builder/src/sgoda/governance/serializers.py
+index 3d90dd0..c3fe8a2 100644
+--- a/builder/src/sgoda/governance/serializers.py
++++ b/builder/src/sgoda/governance/serializers.py
+@@ -1,4 +1,4 @@
+-﻿"""Serialización determinista de políticas de gobernanza."""
++"""Serialización determinista de políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_cli.py b/builder/tests/test_cli.py
+index b51640c..95492fc 100644
+--- a/builder/tests/test_cli.py
++++ b/builder/tests/test_cli.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas de la interfaz de línea de comandos."""
++"""Pruebas de la interfaz de línea de comandos."""
+ from sgoda.cli.main import main
+ 
+ def test_version_command(capsys):
+diff --git a/builder/tests/test_export_integrity.py b/builder/tests/test_export_integrity.py
+index 6d08f71..2916248 100644
+--- a/builder/tests/test_export_integrity.py
++++ b/builder/tests/test_export_integrity.py
+@@ -1,4 +1,4 @@
+-﻿import json
++import json
+ import zipfile
+ from pathlib import Path
+ 
+diff --git a/builder/tests/test_governance_exceptions.py b/builder/tests/test_governance_exceptions.py
+index 253be65..bf7b183 100644
+--- a/builder/tests/test_governance_exceptions.py
++++ b/builder/tests/test_governance_exceptions.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas del contrato de excepciones de gobernanza."""
++"""Pruebas del contrato de excepciones de gobernanza."""
+ 
+ from types import MappingProxyType
+ 
+diff --git a/builder/tests/test_governance_governance_service.py b/builder/tests/test_governance_governance_service.py
+index a3725e0..5f13915 100644
+--- a/builder/tests/test_governance_governance_service.py
++++ b/builder/tests/test_governance_governance_service.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas de la fachada del subsistema de gobernanza."""
++"""Pruebas de la fachada del subsistema de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_governance_models.py b/builder/tests/test_governance_models.py
+index cac546e..24c849d 100644
+--- a/builder/tests/test_governance_models.py
++++ b/builder/tests/test_governance_models.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas de los modelos de dominio de gobernanza."""
++"""Pruebas de los modelos de dominio de gobernanza."""
+ 
+ from dataclasses import FrozenInstanceError
+ from types import MappingProxyType
+diff --git a/builder/tests/test_governance_policy_engine.py b/builder/tests/test_governance_policy_engine.py
+index d961869..39f94ab 100644
+--- a/builder/tests/test_governance_policy_engine.py
++++ b/builder/tests/test_governance_policy_engine.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas del motor de políticas de gobernanza."""
++"""Pruebas del motor de políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_governance_policy_loader.py b/builder/tests/test_governance_policy_loader.py
+index 19d14c5..ee6e6b4 100644
+--- a/builder/tests/test_governance_policy_loader.py
++++ b/builder/tests/test_governance_policy_loader.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas del cargador de políticas de gobernanza."""
++"""Pruebas del cargador de políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_governance_policy_repository.py b/builder/tests/test_governance_policy_repository.py
+index a261863..9929c5c 100644
+--- a/builder/tests/test_governance_policy_repository.py
++++ b/builder/tests/test_governance_policy_repository.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas del repositorio de políticas de gobernanza."""
++"""Pruebas del repositorio de políticas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_governance_policy_validator.py b/builder/tests/test_governance_policy_validator.py
+index 0a7569a..3b78c53 100644
+--- a/builder/tests/test_governance_policy_validator.py
++++ b/builder/tests/test_governance_policy_validator.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas del validador semántico de políticas."""
++"""Pruebas del validador semántico de políticas."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_governance_results.py b/builder/tests/test_governance_results.py
+index e30be8a..6b727b9 100644
+--- a/builder/tests/test_governance_results.py
++++ b/builder/tests/test_governance_results.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas de los resultados de gobernanza."""
++"""Pruebas de los resultados de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_governance_rule_evaluator.py b/builder/tests/test_governance_rule_evaluator.py
+index e0cb9e5..6ca83b8 100644
+--- a/builder/tests/test_governance_rule_evaluator.py
++++ b/builder/tests/test_governance_rule_evaluator.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas del evaluador de reglas de gobernanza."""
++"""Pruebas del evaluador de reglas de gobernanza."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/builder/tests/test_version_audit_c.py b/builder/tests/test_version_audit_c.py
+index 858ea3f..b65012c 100644
+--- a/builder/tests/test_version_audit_c.py
++++ b/builder/tests/test_version_audit_c.py
+@@ -1,4 +1,4 @@
+-﻿from sgoda.cli.main import main
++from sgoda.cli.main import main
+ 
+ 
+ def test_version(capsys) -> None:
+diff --git a/docs/01_Gobierno/Auditor-Nativo-Repositorio.md b/docs/01_Gobierno/Auditor-Nativo-Repositorio.md
+index 4518fed..9778e61 100644
+--- a/docs/01_Gobierno/Auditor-Nativo-Repositorio.md
++++ b/docs/01_Gobierno/Auditor-Nativo-Repositorio.md
+@@ -1,4 +1,4 @@
+-﻿# Auditor Nativo del Repositorio
++# Auditor Nativo del Repositorio
+ 
+ Ejecutar desde la raíz:
+ 
+diff --git a/docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md b/docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md
+index a26c941..131344f 100644
+--- a/docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md
++++ b/docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md
+@@ -1,4 +1,4 @@
+-﻿# SGD-100 — Norma Institucional de Nomenclatura
++# SGD-100 — Norma Institucional de Nomenclatura
+ 
+ | Prefijo | Significado oficial |
+ |---|---|
+diff --git a/requirements.txt b/requirements.txt
+index f3c219e..0109adb 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1,4 +1,4 @@
+-﻿fastapi>=0.116,<1.0
++fastapi>=0.116,<1.0
+ uvicorn[standard]>=0.35,<1.0
+ pydantic>=2.11,<3.0
+ httpx>=0.28,<1.0
+diff --git a/scripts/Start-SGODA.ps1 b/scripts/Start-SGODA.ps1
+index ba458fc..255d71c 100644
+--- a/scripts/Start-SGODA.ps1
++++ b/scripts/Start-SGODA.ps1
+@@ -1,4 +1,4 @@
+-﻿[CmdletBinding()]
++[CmdletBinding()]
+ param(
+     [string]$HostAddress = "127.0.0.1",
+     [int]$Port = 8000
+diff --git a/scripts/Test-SPB0051-F001.ps1 b/scripts/Test-SPB0051-F001.ps1
+index 9374f1d..a5c19c7 100644
+--- a/scripts/Test-SPB0051-F001.ps1
++++ b/scripts/Test-SPB0051-F001.ps1
+@@ -1,4 +1,4 @@
+-﻿$ErrorActionPreference = "Stop"
++$ErrorActionPreference = "Stop"
+ $Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
+ $VenvPython = Join-Path $Root ".venv\Scripts\python.exe"
+ 
+diff --git a/scripts/audit_spb_003_2.py b/scripts/audit_spb_003_2.py
+index 934fc68..70af92e 100644
+--- a/scripts/audit_spb_003_2.py
++++ b/scripts/audit_spb_003_2.py
+@@ -1,3 +1,3 @@
+-﻿from sgoda.pmo.audit.native_repository_auditor import main
++from sgoda.pmo.audit.native_repository_auditor import main
+ if __name__ == "__main__":
+     raise SystemExit(main())
+diff --git a/src/sgoda/__init__.py b/src/sgoda/__init__.py
+index fb43cc2..f019864 100644
+--- a/src/sgoda/__init__.py
++++ b/src/sgoda/__init__.py
+@@ -1 +1 @@
+-﻿"""Paquete SGODA-PUINAVE."""
++"""Paquete SGODA-PUINAVE."""
+diff --git a/src/sgoda/api/__init__.py b/src/sgoda/api/__init__.py
+index e02abfc..8b13789 100644
+--- a/src/sgoda/api/__init__.py
++++ b/src/sgoda/api/__init__.py
+@@ -1 +1 @@
+-﻿
++
+diff --git a/src/sgoda/api/kernel_routes.py b/src/sgoda/api/kernel_routes.py
+index 9d43afc..1b6cbae 100644
+--- a/src/sgoda/api/kernel_routes.py
++++ b/src/sgoda/api/kernel_routes.py
+@@ -1,4 +1,4 @@
+-﻿"""Rutas REST del SGODA Platform Kernel."""
++"""Rutas REST del SGODA Platform Kernel."""
+ 
+ from fastapi import APIRouter
+ 
+diff --git a/src/sgoda/api/routes.py b/src/sgoda/api/routes.py
+index d47874d..1ac393e 100644
+--- a/src/sgoda/api/routes.py
++++ b/src/sgoda/api/routes.py
+@@ -1,4 +1,4 @@
+-﻿from fastapi import APIRouter
++from fastapi import APIRouter
+ 
+ from sgoda.core.config import settings
+ 
+diff --git a/src/sgoda/core/__init__.py b/src/sgoda/core/__init__.py
+index e02abfc..8b13789 100644
+--- a/src/sgoda/core/__init__.py
++++ b/src/sgoda/core/__init__.py
+@@ -1 +1 @@
+-﻿
++
+diff --git a/src/sgoda/core/config.py b/src/sgoda/core/config.py
+index 925c2ea..3226b82 100644
+--- a/src/sgoda/core/config.py
++++ b/src/sgoda/core/config.py
+@@ -1,4 +1,4 @@
+-﻿from functools import lru_cache
++from functools import lru_cache
+ import os
+ 
+ from pydantic import BaseModel
+diff --git a/src/sgoda/kernel/__init__.py b/src/sgoda/kernel/__init__.py
+index 7545b9d..39d12f9 100644
+--- a/src/sgoda/kernel/__init__.py
++++ b/src/sgoda/kernel/__init__.py
+@@ -1,4 +1,4 @@
+-﻿"""SGODA Platform Kernel."""
++"""SGODA Platform Kernel."""
+ 
+ from sgoda.kernel.application import create_application
+ from sgoda.kernel.registry import module_registry
+diff --git a/src/sgoda/kernel/application.py b/src/sgoda/kernel/application.py
+index ffae290..737f2b7 100644
+--- a/src/sgoda/kernel/application.py
++++ b/src/sgoda/kernel/application.py
+@@ -1,4 +1,4 @@
+-﻿"""Fábrica principal de la aplicación SGODA-PUINAVE."""
++"""Fábrica principal de la aplicación SGODA-PUINAVE."""
+ 
+ from fastapi import FastAPI
+ 
+diff --git a/src/sgoda/kernel/audit.py b/src/sgoda/kernel/audit.py
+index df0ca62..5f6ab29 100644
+--- a/src/sgoda/kernel/audit.py
++++ b/src/sgoda/kernel/audit.py
+@@ -1,4 +1,4 @@
+-﻿"""Auditoría técnica básica del repositorio."""
++"""Auditoría técnica básica del repositorio."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/src/sgoda/kernel/metadata.py b/src/sgoda/kernel/metadata.py
+index 2e539ac..3fa5335 100644
+--- a/src/sgoda/kernel/metadata.py
++++ b/src/sgoda/kernel/metadata.py
+@@ -1,4 +1,4 @@
+-﻿"""Metadatos técnicos de la plataforma SGODA-PUINAVE."""
++"""Metadatos técnicos de la plataforma SGODA-PUINAVE."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/src/sgoda/kernel/models.py b/src/sgoda/kernel/models.py
+index ba669e2..2a852ea 100644
+--- a/src/sgoda/kernel/models.py
++++ b/src/sgoda/kernel/models.py
+@@ -1,4 +1,4 @@
+-﻿"""Modelos internos del SGODA Platform Kernel."""
++"""Modelos internos del SGODA Platform Kernel."""
+ 
+ from dataclasses import asdict, dataclass, field
+ from typing import Any
+diff --git a/src/sgoda/kernel/modules.py b/src/sgoda/kernel/modules.py
+index e9bdab1..e3a66fd 100644
+--- a/src/sgoda/kernel/modules.py
++++ b/src/sgoda/kernel/modules.py
+@@ -1,4 +1,4 @@
+-﻿"""Registro de módulos oficiales de SGODA-PUINAVE."""
++"""Registro de módulos oficiales de SGODA-PUINAVE."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/src/sgoda/kernel/registry.py b/src/sgoda/kernel/registry.py
+index 5cd1b71..b01a28e 100644
+--- a/src/sgoda/kernel/registry.py
++++ b/src/sgoda/kernel/registry.py
+@@ -1,4 +1,4 @@
+-﻿"""Registro central de módulos de SGODA-PUINAVE."""
++"""Registro central de módulos de SGODA-PUINAVE."""
+ 
+ from __future__ import annotations
+ 
+diff --git a/src/sgoda/main.py b/src/sgoda/main.py
+index 3ad52fa..c0bb2bc 100644
+--- a/src/sgoda/main.py
++++ b/src/sgoda/main.py
+@@ -1,4 +1,4 @@
+-﻿"""Punto de entrada del runtime SGODA-PUINAVE."""
++"""Punto de entrada del runtime SGODA-PUINAVE."""
+ 
+ from sgoda.kernel.application import create_application
+ 
+diff --git a/src/sgoda/pmo/audit/native_repository_auditor.py b/src/sgoda/pmo/audit/native_repository_auditor.py
+index c7a9489..9d5522c 100644
+--- a/src/sgoda/pmo/audit/native_repository_auditor.py
++++ b/src/sgoda/pmo/audit/native_repository_auditor.py
+@@ -1,4 +1,4 @@
+-﻿from __future__ import annotations
++from __future__ import annotations
+ 
+ import argparse
+ import hashlib
+diff --git a/src/sgoda/pmo/repository/mmgr/models.py b/src/sgoda/pmo/repository/mmgr/models.py
+index e1c8dc9..6fde28a 100644
+--- a/src/sgoda/pmo/repository/mmgr/models.py
++++ b/src/sgoda/pmo/repository/mmgr/models.py
+@@ -1,7 +1,7 @@
+ """Modelo de dominio para la Matriz Maestra de Gobierno del Repositorio.
+ 
+-Este mÃ³dulo define entidades inmutables y serializables para representar
+-los activos gobernados por la MMGR, sus dominios, estados, polÃ­ticas Git,
++Este módulo define entidades inmutables y serializables para representar
++los activos gobernados por la MMGR, sus dominios, estados, políticas Git,
+ riesgos y relaciones de trazabilidad.
+ """
+ 
+@@ -17,7 +17,7 @@ _ASSET_ID_PATTERN = re.compile(r"^MMGR-\d{6}$")
+ 
+ 
+ class StringEnum(str, Enum):
+-    """EnumeraciÃ³n basada en texto, compatible con serializaciÃ³n JSON."""
++    """Enumeración basada en texto, compatible con serialización JSON."""
+ 
+ 
+ class Domain(StringEnum):
+@@ -50,7 +50,7 @@ class AssetStatus(StringEnum):
+ 
+ 
+ class GitPolicy(StringEnum):
+-    """PolÃ­tica de gestiÃ³n del activo dentro de Git."""
++    """Política de gestión del activo dentro de Git."""
+ 
+     VERSIONED = "versioned"
+     NOT_VERSIONED = "not_versioned"
+@@ -59,7 +59,7 @@ class GitPolicy(StringEnum):
+ 
+ 
+ class RiskLevel(StringEnum):
+-    """Nivel de riesgo tÃ©cnico o de gobierno del activo."""
++    """Nivel de riesgo técnico o de gobierno del activo."""
+ 
+     LOW = "low"
+     MEDIUM = "medium"
+@@ -90,12 +90,12 @@ class Traceability:
+             values = tuple(getattr(self, field_name))
+             if any(not isinstance(value, str) or not value.strip() for value in values):
+                 raise ValueError(
+-                    f"La colecciÃ³n de trazabilidad '{field_name}' "
+-                    "solo puede contener textos no vacÃ­os."
++                    f"La colección de trazabilidad '{field_name}' "
++                    "solo puede contener textos no vacíos."
+                 )
+             if len(values) != len(set(values)):
+                 raise ValueError(
+-                    f"La colecciÃ³n de trazabilidad '{field_name}' "
++                    f"La colección de trazabilidad '{field_name}' "
+                     "no puede contener valores duplicados."
+                 )
+             object.__setattr__(self, field_name, values)
+@@ -118,7 +118,7 @@ class Traceability:
+         )
+ 
+     def to_dict(self) -> dict[str, list[str]]:
+-        """Devuelve una representaciÃ³n JSON-compatible."""
++        """Devuelve una representación JSON-compatible."""
+ 
+         return {
+             "spb": list(self.spb),
+@@ -150,44 +150,44 @@ class Asset:
+     def __post_init__(self) -> None:
+         if not _ASSET_ID_PATTERN.fullmatch(self.asset_id):
+             raise ValueError(
+-                f"Identificador MMGR invÃ¡lido: {self.asset_id!r}. "
++                f"Identificador MMGR inválido: {self.asset_id!r}. "
+                 "Se esperaba el formato MMGR-000001."
+             )
+ 
+         normalized_name = self.name.strip()
+         if not normalized_name:
+-            raise ValueError("El nombre del activo no puede estar vacÃ­o.")
++            raise ValueError("El nombre del activo no puede estar vacío.")
+ 
+         normalized_owner = self.owner.strip()
+         if not normalized_owner:
+-            raise ValueError("El propietario del activo no puede estar vacÃ­o.")
++            raise ValueError("El propietario del activo no puede estar vacío.")
+ 
+         normalized_path = self.path.replace("\\", "/").strip()
+         path_parts = PurePosixPath(normalized_path).parts
+         if not normalized_path:
+-            raise ValueError("La ruta del activo no puede estar vacÃ­a.")
++            raise ValueError("La ruta del activo no puede estar vacía.")
+         if normalized_path.startswith("/"):
+             raise ValueError(
+-                "La ruta del activo debe ser relativa a la raÃ­z del repositorio."
++                "La ruta del activo debe ser relativa a la raíz del repositorio."
+             )
+         if ".." in path_parts:
+             raise ValueError(
+-                "La ruta del activo no puede escapar de la raÃ­z del repositorio."
++                "La ruta del activo no puede escapar de la raíz del repositorio."
+             )
+ 
+         dependencies = tuple(self.dependencies)
+         if any(not _ASSET_ID_PATTERN.fullmatch(item) for item in dependencies):
+             raise ValueError(
+-                "Todas las dependencias deben utilizar identificadores MMGR vÃ¡lidos."
++                "Todas las dependencias deben utilizar identificadores MMGR válidos."
+             )
+         if self.asset_id in dependencies:
+-            raise ValueError("Un activo no puede depender de sÃ­ mismo.")
++            raise ValueError("Un activo no puede depender de sí mismo.")
+         if len(dependencies) != len(set(dependencies)):
+             raise ValueError("Las dependencias no pueden estar duplicadas.")
+ 
+         tags = tuple(tag.strip() for tag in self.tags)
+         if any(not tag for tag in tags):
+-            raise ValueError("Las etiquetas no pueden contener valores vacÃ­os.")
++            raise ValueError("Las etiquetas no pueden contener valores vacíos.")
+         if len(tags) != len(set(tags)):
+             raise ValueError("Las etiquetas no pueden estar duplicadas.")
+ 
+@@ -218,7 +218,7 @@ class Asset:
+         )
+ 
+     def to_dict(self) -> dict[str, Any]:
+-        """Devuelve una representaciÃ³n JSON-compatible del activo."""
++        """Devuelve una representación JSON-compatible del activo."""
+ 
+         payload = asdict(self)
+         payload["domain"] = self.domain.value
+diff --git a/tests/pmo/audit/test_native_repository_auditor.py b/tests/pmo/audit/test_native_repository_auditor.py
+index 55e79de..79a0cda 100644
+--- a/tests/pmo/audit/test_native_repository_auditor.py
++++ b/tests/pmo/audit/test_native_repository_auditor.py
+@@ -1,4 +1,4 @@
+-﻿from pathlib import Path
++from pathlib import Path
+ from sgoda.pmo.audit.native_repository_auditor import NativeRepositoryAuditor
+ 
+ 
+diff --git a/tests/pmo/repository/mmgr/test_models.py b/tests/pmo/repository/mmgr/test_models.py
+index 82ce5cb..fcfeb02 100644
+--- a/tests/pmo/repository/mmgr/test_models.py
++++ b/tests/pmo/repository/mmgr/test_models.py
+@@ -72,7 +72,7 @@ def test_asset_normalizes_windows_path_and_text() -> None:
+     ],
+ )
+ def test_asset_rejects_invalid_identifier(asset_id: str) -> None:
+-    with pytest.raises(ValueError, match="Identificador MMGR invÃ¡lido"):
++    with pytest.raises(ValueError, match="Identificador MMGR inválido"):
+         make_asset(asset_id=asset_id)
+ 
+ 
+@@ -87,7 +87,7 @@ def test_asset_rejects_parent_path_escape() -> None:
+ 
+ 
+ def test_asset_rejects_self_dependency() -> None:
+-    with pytest.raises(ValueError, match="depender de sÃ­ mismo"):
++    with pytest.raises(ValueError, match="depender de sí mismo"):
+         make_asset(dependencies=("MMGR-000001",))
+ 
+ 
+diff --git a/tests/test_spb_005_1_foundation_runtime.py b/tests/test_spb_005_1_foundation_runtime.py
+index 07168c0..d2211bf 100644
+--- a/tests/test_spb_005_1_foundation_runtime.py
++++ b/tests/test_spb_005_1_foundation_runtime.py
+@@ -1,4 +1,4 @@
+-﻿from fastapi.testclient import TestClient
++from fastapi.testclient import TestClient
+ 
+ from sgoda.main import app
+ 
+diff --git a/tests/test_spb_005_2_platform_kernel.py b/tests/test_spb_005_2_platform_kernel.py
+index 628bf75..49a91cc 100644
+--- a/tests/test_spb_005_2_platform_kernel.py
++++ b/tests/test_spb_005_2_platform_kernel.py
+@@ -1,4 +1,4 @@
+-﻿"""Pruebas de SPB-005.2 - SGODA Platform Kernel."""
++"""Pruebas de SPB-005.2 - SGODA Platform Kernel."""
+ 
+ from fastapi.testclient import TestClient
+ 

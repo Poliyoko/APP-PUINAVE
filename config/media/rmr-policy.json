@@ -1,0 +1,23 @@
+{
+  "policy_code": "ADR-010-RMR",
+  "version": "1.0.0",
+  "capacity_target_resources": 120000,
+  "design_limit": "unbounded_by_resource_type",
+  "storage_model": "one_row_per_media_resource",
+  "dynamic_resource_types": true,
+  "preserve_unknown_resource_types": true,
+  "deterministic_resource_ids": true,
+  "pagination_required": true,
+  "bulk_operations_required": true,
+  "streaming_export_required": true,
+  "required_indexes": [
+    "oda_id",
+    "canonical_id",
+    "resource_type",
+    "language",
+    "status",
+    "oda_id_resource_type_status"
+  ],
+  "lifecycle_statuses_extensible": true,
+  "source_oda_release": "SPT-002-v0.1.0"
+}

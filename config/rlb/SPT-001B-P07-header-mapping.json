@@ -1,0 +1,11 @@
+{
+  "increment_code": "SPT-001B-P07",
+  "version": "1.0.0",
+  "strategy": "normalized_similarity_with_high_confidence_auto_approval",
+  "automatic_threshold": 0.90,
+  "review_threshold": 0.55,
+  "preserve_original_excel": true,
+  "modify_original_schema": false,
+  "output_schema": "artifacts/rlb/SPT-001B-P07/schema-p07-normalized.json",
+  "manual_review_required_below": 0.90
+}

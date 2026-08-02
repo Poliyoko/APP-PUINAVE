@@ -1,0 +1,14 @@
+{
+    "policy_code":  "SGD-114",
+    "policy_version":  "1.1.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T06:37:03.7434846Z",
+    "components":  [
+                       "config/governance/sgd-114-policy.json",
+                       "src/sgoda/governance/evidence_policy.py",
+                       "src/sgoda/governance/__init__.py",
+                       "tests/governance/test_sgd_114_evidence_policy.py",
+                       "docs/01_Gobierno/SGD-114-Politica-Evidencias-Desarrollo-Trazabilidad.md",
+                       "scripts/Invoke-SGD114-QualityGate.ps1"
+                   ]
+}

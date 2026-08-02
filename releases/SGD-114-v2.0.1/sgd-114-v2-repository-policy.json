@@ -1,0 +1,55 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "2.0.0",
+  "policy_name": "Política Institucional de Repositorio, Evidencias y Trazabilidad",
+  "single_source_of_truth": "official_git_repository",
+  "status": "implemented",
+  "required_directories": [
+    "src",
+    "tests",
+    "docs",
+    "config",
+    "scripts",
+    "artifacts",
+    "dashboard",
+    "releases"
+  ],
+  "required_repository_files": [
+    "pytest.ini"
+  ],
+  "ignored_directories": [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".pytest_cache",
+    "node_modules"
+  ],
+  "manifest_extensions": [
+    ".py",
+    ".ps1",
+    ".md",
+    ".json",
+    ".jsonl",
+    ".ini",
+    ".yaml",
+    ".yml",
+    ".toml",
+    ".sql"
+  ],
+  "maximum_manifest_file_size_bytes": 20971520,
+  "git_clean_required_for_installation": false,
+  "git_clean_required_for_release": true,
+  "institutional_rules": {
+    "code_must_be_versioned": true,
+    "tests_must_be_versioned": true,
+    "documentation_must_be_versioned": true,
+    "evidence_must_be_versioned": true,
+    "traceability_must_be_versioned": true,
+    "release_must_be_reproducible": true,
+    "sha256_manifest_required": true,
+    "pmo_event_required": true,
+    "dashboard_update_required": true
+  },
+  "governed_by": "SGD-114-v1.1-quality-gate"
+}

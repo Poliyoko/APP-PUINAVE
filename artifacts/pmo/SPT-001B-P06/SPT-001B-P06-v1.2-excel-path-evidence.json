@@ -1,0 +1,17 @@
+{
+    "increment_code":  "SPT-001B-P06",
+    "correction_version":  "1.2",
+    "generated_at_utc":  "2026-08-02T06:55:13.0217241Z",
+    "correction":  "relative_excel_path_resolved_against_project_root",
+    "project_root":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+    "official_excel":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\Repositorio LExico Base (Excel)-1.xlsx",
+    "full_suite":  "approved",
+    "pipeline_execution":  "approved",
+    "generated_artifacts":  [
+                                "artifacts/rlb/SPT-001B-P06/palabras-canonicas.json",
+                                "artifacts/rlb/SPT-001B-P06/perfil-rlb.json",
+                                "artifacts/rlb/SPT-001B-P06/errores-importacion.json",
+                                "artifacts/rlb/SPT-001B-P06/resumen-ejecucion.json",
+                                "artifacts/pmo/SPT-001B-P06/repository-events.jsonl"
+                            ]
+}

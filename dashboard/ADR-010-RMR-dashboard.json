@@ -1,0 +1,19 @@
+{
+    "decision":  "ADR-010",
+    "version":  "1.0.0",
+    "status":  "institutionally_closed",
+    "generated_at_utc":  "2026-08-02T07:40:32.6713526Z",
+    "current_resources":  80,
+    "current_oda":  20,
+    "current_resource_types":  4,
+    "capacity_target_resources":  120000,
+    "capacity_test":  "approved_120000",
+    "dynamic_resource_types":  true,
+    "bulk_operations":  "implemented",
+    "pagination":  "implemented",
+    "streaming_jsonl":  "implemented",
+    "indexed_repository":  "implemented",
+    "validation":  "approved",
+    "quality_gate":  "authorized",
+    "release":  "ADR-010-v1.0.0"
+}

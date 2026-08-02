@@ -1,0 +1,73 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.0.0",
+  "increment_code": "SGD-114",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T06:26:29.551647+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": false,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/governance/sgd-114-policy.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": false,
+      "matched_files": [],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/01_Gobierno/SGD-114-Politica-Evidencias-Desarrollo-Trazabilidad.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SGD-114/implementation-evidence.json"
+      ],
+      "patterns": [
+        "artifacts/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "docs/01_Gobierno/SGD-114-Politica-Evidencias-Desarrollo-Trazabilidad.md"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [
+    "tests"
+  ],
+  "observations": [
+    "Faltan categorías obligatorias: tests"
+  ]
+}

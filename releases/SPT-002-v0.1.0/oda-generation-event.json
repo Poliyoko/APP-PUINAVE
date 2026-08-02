@@ -1,0 +1,12 @@
+{
+  "event_id": "0698f3c4e09a2dc3417beef4b3d043385489c2a7f05b89e6ee3e75f5f72c7a27",
+  "event_type": "OdaRepositoryGenerated",
+  "occurred_at_utc": "2026-08-02T07:22:46.701019+00:00",
+  "source": "sgoda.oda.engine",
+  "increment": "SPT-002",
+  "total_oda": 20,
+  "valid_oda": 20,
+  "blocked_oda": 0,
+  "repository": "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+  "repository_sha256": "ca8e9836e63cecd6b0df654027eb5ec630a40fd729a382e772bbc3ffd5d3f107"
+}

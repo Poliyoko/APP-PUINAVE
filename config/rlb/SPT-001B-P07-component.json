@@ -1,0 +1,14 @@
+{
+  "increment_code": "SPT-001B-P07",
+  "component_type": "rlb_header_normalization",
+  "version": "1.0.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.rlb.header_normalizer",
+  "source": [
+    "src/sgoda/rlb/header_normalizer.py"
+  ],
+  "tests": [
+    "tests/rlb/test_SPT_001B_P07_header_normalizer.py"
+  ],
+  "governed_by": "SGD-114"
+}

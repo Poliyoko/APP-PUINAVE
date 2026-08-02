@@ -1,0 +1,124 @@
+{
+  "increment": "SPT-001B-P07",
+  "version": "1.1.0",
+  "detected": {
+    "Hoja1": {
+      "header_row": 1,
+      "headers": [
+        "ID",
+        "PALABRA EN PUINAVE",
+        "PALABRA EN ESPAÑOL",
+        "ESCRITURA EN PUINAVE",
+        "AUDIO EN ESPAÑOL",
+        "AUDIO EN PUINAVE",
+        "IMAGEN",
+        "CATEGORIA",
+        "PALABRA EN INGLES",
+        "AUDIO EN INGLES",
+        "OBSERVACIONES"
+      ]
+    }
+  },
+  "suggestions": [
+    {
+      "original": "ID",
+      "normalizado": "id",
+      "campo_canonico": "identificador",
+      "alias_recomendado": "id",
+      "confianza": 1.0,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "PALABRA EN PUINAVE",
+      "normalizado": "palabra en puinave",
+      "campo_canonico": "palabra_puinave",
+      "alias_recomendado": "palabra_puinave",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "PALABRA EN ESPAÑOL",
+      "normalizado": "palabra en espanol",
+      "campo_canonico": "traduccion_espanol",
+      "alias_recomendado": "español",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "ESCRITURA EN PUINAVE",
+      "normalizado": "escritura en puinave",
+      "campo_canonico": "palabra_puinave",
+      "alias_recomendado": "puinave",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "AUDIO EN ESPAÑOL",
+      "normalizado": "audio en espanol",
+      "campo_canonico": "traduccion_espanol",
+      "alias_recomendado": "español",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "AUDIO EN PUINAVE",
+      "normalizado": "audio en puinave",
+      "campo_canonico": "palabra_puinave",
+      "alias_recomendado": "puinave",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "IMAGEN",
+      "normalizado": "imagen",
+      "campo_canonico": "imagen",
+      "alias_recomendado": "imagen",
+      "confianza": 1.0,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "CATEGORIA",
+      "normalizado": "categoria",
+      "campo_canonico": "categoria_gramatical",
+      "alias_recomendado": "categoria_gramatical",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "PALABRA EN INGLES",
+      "normalizado": "palabra en ingles",
+      "campo_canonico": "traduccion_ingles",
+      "alias_recomendado": "inglés",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "AUDIO EN INGLES",
+      "normalizado": "audio en ingles",
+      "campo_canonico": "traduccion_ingles",
+      "alias_recomendado": "inglés",
+      "confianza": 0.92,
+      "decision": "automatico_alta_confianza"
+    },
+    {
+      "original": "OBSERVACIONES",
+      "normalizado": "observaciones",
+      "campo_canonico": null,
+      "alias_recomendado": null,
+      "confianza": 0.5333,
+      "decision": "sin_correspondencia"
+    }
+  ],
+  "approved_aliases": {
+    "ID": "id",
+    "PALABRA EN PUINAVE": "palabra_puinave",
+    "PALABRA EN ESPAÑOL": "español",
+    "ESCRITURA EN PUINAVE": "puinave",
+    "AUDIO EN ESPAÑOL": "español",
+    "AUDIO EN PUINAVE": "puinave",
+    "IMAGEN": "imagen",
+    "CATEGORIA": "categoria_gramatical",
+    "PALABRA EN INGLES": "inglés",
+    "AUDIO EN INGLES": "inglés"
+  }
+}

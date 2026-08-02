@@ -1,0 +1,87 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SPB-007",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T08:35:56.930668+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/repository/SPB-007-component.json",
+        "config/repository/SPB-007-publication-policy.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/publisher/test_SPB_007_institutional_publisher.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/01_Gobierno/SPB-007-Politica-Publicacion-Repositorio.md",
+        "docs/05_Fase_Tecnologica/SPB-007/SPB-007-Publicacion-Institucional.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPB-007/implementation-evidence.json",
+        "artifacts/pmo/SPB-007/prepublication-audit.json",
+        "artifacts/pmo/SPB-007/traceability-SPB-007.json",
+        "releases/SPB-007-v1.0.0/SPB-007-Politica-Publicacion-Repositorio.md",
+        "releases/SPB-007-v1.0.0/SPB-007-Publicacion-Institucional.md",
+        "releases/SPB-007-v1.0.0/SPB-007-component.json",
+        "releases/SPB-007-v1.0.0/SPB-007-publication-policy.json",
+        "releases/SPB-007-v1.0.0/implementation-evidence.json",
+        "releases/SPB-007-v1.0.0/prepublication-audit.json",
+        "releases/SPB-007-v1.0.0/traceability-SPB-007.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPB-007/traceability-SPB-007.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}

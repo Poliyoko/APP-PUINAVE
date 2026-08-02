@@ -1,0 +1,15 @@
+{
+  "increment_code": "SPT-001B-P08",
+  "parent_deliverable": "SPT-001B",
+  "component_type": "canonical_repository_closure",
+  "version": "1.0.0",
+  "status": "institutionally_closed",
+  "entrypoint": "sgoda.rlb.canonical_consolidator",
+  "source": [
+    "src/sgoda/rlb/canonical_consolidator.py"
+  ],
+  "tests": [
+    "tests/rlb/test_SPT_001B_P08_canonical_closure.py"
+  ],
+  "governed_by": "SGD-114"
+}

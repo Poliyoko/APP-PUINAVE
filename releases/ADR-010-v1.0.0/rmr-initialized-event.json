@@ -1,0 +1,11 @@
+{
+  "event_type": "MediaRepositoryInitialized",
+  "occurred_at_utc": "2026-08-02T07:40:31.428070+00:00",
+  "source": "sgoda.media",
+  "architecture_decision": "ADR-010",
+  "database": "artifacts/media/ADR-010/rmr.sqlite3",
+  "total_resources": 80,
+  "unique_oda": 20,
+  "source_oda_repository": "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+  "source_oda_sha256": "ca8e9836e63cecd6b0df654027eb5ec630a40fd729a382e772bbc3ffd5d3f107"
+}

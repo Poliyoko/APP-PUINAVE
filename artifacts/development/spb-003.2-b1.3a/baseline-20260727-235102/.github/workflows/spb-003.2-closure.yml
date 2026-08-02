@@ -1,0 +1,27 @@
+name: SPB-003.2 Closure Gate
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main, master, develop]
+  push:
+    branches: [main, master, develop]
+permissions:
+  contents: read
+jobs:
+  closure-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install pytest
+      - run: python -m pytest -q
+        env: {PYTHONPATH: src}
+      - run: python -m sgoda.pmo.closure.closure_orchestrator --root . --output artifacts/closure/spb-003.2 --full-tests
+        env: {PYTHONPATH: src}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spb-003.2-closure-evidence
+          path: artifacts/closure/spb-003.2/

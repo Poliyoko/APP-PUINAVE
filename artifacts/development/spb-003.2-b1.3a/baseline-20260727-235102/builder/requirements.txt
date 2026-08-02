@@ -1,0 +1,5 @@
+setuptools>=70
+wheel
+black>=24.0
+pytest>=8.0
+ruff>=0.6

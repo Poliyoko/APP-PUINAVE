@@ -1,0 +1,15 @@
+{
+    "increment_code":  "SGD-114-v2",
+    "correction_version":  "2.0.1",
+    "generated_at_utc":  "2026-08-02T07:56:12.3761912Z",
+    "platform":  "Windows",
+    "corrected_test":  "test_SGD_114_v2_detecta_directorio_faltante",
+    "root_cause":  "Path.rmdir requires an empty directory",
+    "correction":  "shutil.rmtree removes the fixture directory recursively",
+    "failed_test_reexecuted":  "approved",
+    "specific_tests":  "6 approved",
+    "full_suite":  "approved",
+    "audit":  "approved",
+    "git_clean":  false,
+    "manifest_total_files":  786
+}

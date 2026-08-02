@@ -1,0 +1,139 @@
+{
+  "project": "SGODA-PUINAVE",
+  "increment": "SPB-003.2-B1.4",
+  "generated_at": "2026-07-28T05:42:15.886455+00:00",
+  "repository": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "mode": "apply",
+  "files_scanned": 415,
+  "files_changed": [
+    {
+      "file": "scripts/Invoke-SPB0032-ModularAudit.ps1",
+      "before_score": 2,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "tests/pmo/audit/test_b1_3_quality.py",
+      "before_score": 1,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "src/sgoda/pmo/audit/context.py",
+      "before_score": 1,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "src/sgoda/pmo/audit/native_repository_auditor.py",
+      "before_score": 25,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "src/sgoda/pmo/audit/checks/git_repository.py",
+      "before_score": 4,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "src/sgoda/pmo/audit/checks/quality.py",
+      "before_score": 9,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "src/sgoda/pmo/audit/checks/traceability.py",
+      "before_score": 1,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "docs/01_Gobierno/Auditor-Nativo-Repositorio.md",
+      "before_score": 1,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md",
+      "before_score": 6,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "docs/05_Auditoria/SGD-401-Arquitectura-Auditor-Modular.md",
+      "before_score": 5,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+      "before_score": 122,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "docs/04_GOBIERNO/SPB-003.2/SPB-003.2.10-Orquestador-Cierre.md",
+      "before_score": 6,
+      "after_score": 0,
+      "applied": true
+    },
+    {
+      "file": "builder/tests/test_cli.py",
+      "before_score": 1,
+      "after_score": 0,
+      "applied": true
+    }
+  ],
+  "files_unresolved": [],
+  "backup_files_detected": [
+    "scripts/audit_spb_003_2.py.backup-20260726-014040",
+    "tests/pmo/audit/test_native_repository_auditor.py.backup-20260726-014040",
+    "src/sgoda/pmo/audit/native_repository_auditor.py.backup-20260726-014040",
+    "src/sgoda/pmo/audit/__init__.py.backup-20260726-014040",
+    "docs/01_Gobierno/Auditor-Nativo-Repositorio.md.backup-20260726-014040",
+    "docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md.backup-20260726-014040"
+  ],
+  "moved_backups": [
+    {
+      "source": "scripts/audit_spb_003_2.py.backup-20260726-014040",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\repository-backups\\scripts\\audit_spb_003_2.py.backup-20260726-014040"
+    },
+    {
+      "source": "tests/pmo/audit/test_native_repository_auditor.py.backup-20260726-014040",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\repository-backups\\tests\\pmo\\audit\\test_native_repository_auditor.py.backup-20260726-014040"
+    },
+    {
+      "source": "src/sgoda/pmo/audit/native_repository_auditor.py.backup-20260726-014040",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\repository-backups\\src\\sgoda\\pmo\\audit\\native_repository_auditor.py.backup-20260726-014040"
+    },
+    {
+      "source": "src/sgoda/pmo/audit/__init__.py.backup-20260726-014040",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\repository-backups\\src\\sgoda\\pmo\\audit\\__init__.py.backup-20260726-014040"
+    },
+    {
+      "source": "docs/01_Gobierno/Auditor-Nativo-Repositorio.md.backup-20260726-014040",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\repository-backups\\docs\\01_Gobierno\\Auditor-Nativo-Repositorio.md.backup-20260726-014040"
+    },
+    {
+      "source": "docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md.backup-20260726-014040",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\repository-backups\\docs\\01_Gobierno\\SGD-100-Norma-Institucional-Nomenclatura.md.backup-20260726-014040"
+    }
+  ],
+  "moved_directories": [
+    {
+      "source": "artifacts/backups",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\historical-artifacts\\artifacts\\backups"
+    },
+    {
+      "source": "artifacts/closure",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\historical-artifacts\\artifacts\\closure"
+    },
+    {
+      "source": "artifacts/spb-003.2",
+      "destination": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215\\historical-artifacts\\artifacts\\spb-003.2"
+    }
+  ],
+  "active_audit_removed": true,
+  "external_archive": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE-ARCHIVE-SPB-003.2-B1.4-20260728-004215"
+}

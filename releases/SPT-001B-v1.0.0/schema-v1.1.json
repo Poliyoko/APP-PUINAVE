@@ -1,0 +1,160 @@
+{
+    "$schema":  "https://json-schema.org/draft/2020-12/schema",
+    "title":  "Esquema RLB SGODA-PUINAVE",
+    "version":  "1.1.0",
+    "additionalFieldsPolicy":  "preserve-and-report",
+    "required":  [
+                     "palabra_puinave"
+                 ],
+    "fields":  [
+                   {
+                       "name":  "identificador",
+                       "aliases":  [
+                                       "id",
+                                       "codigo",
+                                       "cÃ³digo",
+                                       "codigo institucional",
+                                       "ID"
+                                   ]
+                   },
+                   {
+                       "name":  "palabra_puinave",
+                       "aliases":  [
+                                       "puinave",
+                                       "palabra puinave",
+                                       "lengua puinave",
+                                       "PALABRA EN PUINAVE",
+                                       "ESCRITURA EN PUINAVE",
+                                       "AUDIO EN PUINAVE"
+                                   ],
+                       "required":  true
+                   },
+                   {
+                       "name":  "traduccion_espanol",
+                       "aliases":  [
+                                       "espaÃ±ol",
+                                       "castellano",
+                                       "traduccion espaÃ±ol",
+                                       "PALABRA EN ESPAÃ‘OL",
+                                       "AUDIO EN ESPAÃ‘OL"
+                                   ]
+                   },
+                   {
+                       "name":  "traduccion_ingles",
+                       "aliases":  [
+                                       "inglÃ©s",
+                                       "ingles",
+                                       "english",
+                                       "PALABRA EN INGLES",
+                                       "AUDIO EN INGLES"
+                                   ]
+                   },
+                   {
+                       "name":  "categoria_gramatical",
+                       "aliases":  [
+                                       "categorÃ­a gramatical",
+                                       "clase gramatical",
+                                       "CATEGORIA"
+                                   ]
+                   },
+                   {
+                       "name":  "categoria_tematica",
+                       "aliases":  [
+                                       "categorÃ­a temÃ¡tica",
+                                       "tema"
+                                   ]
+                   },
+                   {
+                       "name":  "tema_cultural",
+                       "aliases":  [
+                                       "tema cultural",
+                                       "Ã¡mbito cultural"
+                                   ]
+                   },
+                   {
+                       "name":  "descripcion_cultural",
+                       "aliases":  [
+                                       "descripciÃ³n cultural",
+                                       "informaciÃ³n cultural"
+                                   ]
+                   },
+                   {
+                       "name":  "contexto_uso",
+                       "aliases":  [
+                                       "contexto de uso",
+                                       "ejemplo de uso"
+                                   ]
+                   },
+                   {
+                       "name":  "comunidad",
+                       "aliases":  [
+                                       "comunidad puinave"
+                                   ]
+                   },
+                   {
+                       "name":  "territorio",
+                       "aliases":  [
+                                       "zona",
+                                       "lugar relacionado"
+                                   ]
+                   },
+                   {
+                       "name":  "imagen",
+                       "aliases":  [
+                                       "ruta imagen",
+                                       "archivo imagen",
+                                       "IMAGEN"
+                                   ]
+                   },
+                   {
+                       "name":  "audio_puinave",
+                       "aliases":  [
+                                       "audio puinave",
+                                       "pronunciaciÃ³n puinave"
+                                   ]
+                   },
+                   {
+                       "name":  "audio_espanol",
+                       "aliases":  [
+                                       "audio espaÃ±ol"
+                                   ]
+                   },
+                   {
+                       "name":  "audio_ingles",
+                       "aliases":  [
+                                       "audio inglÃ©s",
+                                       "audio ingles"
+                                   ]
+                   },
+                   {
+                       "name":  "video",
+                       "aliases":  [
+                                       "ruta video"
+                                   ]
+                   },
+                   {
+                       "name":  "nivel_acceso",
+                       "aliases":  [
+                                       "acceso",
+                                       "clasificaciÃ³n cultural"
+                                   ]
+                   },
+                   {
+                       "name":  "autorizacion_publicacion",
+                       "aliases":  [
+                                       "autorizado para publicar",
+                                       "publicable"
+                                   ]
+                   },
+                   {
+                       "name":  "estado_validacion",
+                       "aliases":  [
+                                       "estado",
+                                       "validaciÃ³n"
+                                   ]
+                   }
+               ],
+    "generated_by":  "SPT-001B-P07-v1.1",
+    "promoted_by":  "SPT-001B-P08",
+    "promoted_at_utc":  "2026-08-02T07:12:53.8591075Z"
+}

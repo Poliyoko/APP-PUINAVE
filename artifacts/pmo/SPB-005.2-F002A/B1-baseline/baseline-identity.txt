@@ -1,0 +1,8 @@
+SPB-005.2-F002A-B1 — Captura de línea base
+Fecha: 2026-07-29 22:46:27 -05:00
+Repositorio: SGODA-PUINAVE
+Rama: feature/SPB-005.2-F002A-repository-governance
+Commit: 6cd76239a0c43b87dc30ebd0dc97355a6d92b17b
+Tag: v0.5.2-f002
+Python: Python 3.14.6
+Git: git version 2.55.0.windows.2

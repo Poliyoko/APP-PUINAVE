@@ -1,0 +1,17 @@
+{
+    "policy":  "SGD-114",
+    "version":  "2.0.1",
+    "status":  "institutionally_closed",
+    "generated_at_utc":  "2026-08-02T07:56:12.8027630Z",
+    "windows_test_fix":  "approved",
+    "specific_tests":  6,
+    "full_suite":  "approved",
+    "audit_passed":  true,
+    "git_clean":  false,
+    "git_branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "git_head":  "7a945a744aa563492d9156718678a831600f7994",
+    "tracked_files":  595,
+    "manifest_files":  786,
+    "quality_gate":  "authorized",
+    "release":  "SGD-114-v2.0.1"
+}

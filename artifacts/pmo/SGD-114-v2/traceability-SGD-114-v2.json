@@ -1,0 +1,19 @@
+{
+    "increment_code":  "SGD-114-v2",
+    "generated_at_utc":  "2026-08-02T07:53:24.3149570Z",
+    "source":  [
+                   "src/sgoda/governance/repository_governance.py",
+                   "config/governance/sgd-114-v2-repository-policy.json",
+                   "config/governance/SGD-114-v2-component.json"
+               ],
+    "tests":  [
+                  "tests/governance/test_SGD_114_v2_repository_governance.py"
+              ],
+    "documentation":  [
+                          "docs/01_Gobierno/SGD-114-v2.0-Politica-Repositorio-Institucional.md",
+                          "docs/05_Fase_Tecnologica/SGD-114/SGD-114-v2.0-Implementacion-Tecnica.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SGD-114-v2/implementation-evidence.json"
+                 ]
+}

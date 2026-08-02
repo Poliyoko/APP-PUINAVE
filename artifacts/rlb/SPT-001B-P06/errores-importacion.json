@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "sistema": "SGODA-PUINAVE",
+    "entregable": "SPT-001B-P05",
+    "generado_en_utc": "2026-08-02T06:55:12.925533+00:00",
+    "archivo_origen": "Repositorio LExico Base (Excel)-1.xlsx",
+    "total": 20
+  },
+  "errores": [
+    {
+      "hoja": "Hoja1",
+      "fila": 2,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 3,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 4,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 5,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 6,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 7,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 8,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 9,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 10,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 11,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 12,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 13,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 14,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 15,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 16,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 17,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 18,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 19,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 20,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    },
+    {
+      "hoja": "Hoja1",
+      "fila": 21,
+      "mensajes": [
+        "La palabra Puinave es obligatoria."
+      ]
+    }
+  ]
+}

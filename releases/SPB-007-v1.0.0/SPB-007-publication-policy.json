@@ -1,0 +1,41 @@
+{
+  "increment_code": "SPB-007",
+  "version": "1.0.0",
+  "policy_name": "Publicación Institucional Automatizada del Repositorio",
+  "default_remote": "origin",
+  "require_tests": true,
+  "require_repository_audit": true,
+  "require_manifest": true,
+  "require_clean_after_push": true,
+  "create_upstream_when_missing": true,
+  "line_endings": {
+    "default": "auto",
+    "python": "lf",
+    "powershell": "crlf",
+    "documentation": "lf",
+    "json": "lf"
+  },
+  "excluded_from_staging": [
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".pytest_cache",
+    "node_modules"
+  ],
+  "publish_steps": [
+    "validate_repository",
+    "ensure_attributes",
+    "renormalize_index",
+    "stage_changes",
+    "validate_staged_changes",
+    "commit",
+    "configure_upstream",
+    "push_branch",
+    "create_tag_optional",
+    "push_tag_optional",
+    "strict_repository_audit",
+    "verify_clean_worktree",
+    "generate_evidence"
+  ],
+  "governed_by": "SGD-114-v2.0.1"
+}

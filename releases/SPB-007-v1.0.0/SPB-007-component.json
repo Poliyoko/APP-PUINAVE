@@ -1,0 +1,14 @@
+{
+  "increment_code": "SPB-007",
+  "component_type": "institutional_repository_publisher",
+  "version": "1.0.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.publisher.institutional_publisher",
+  "source": [
+    "src/sgoda/publisher/institutional_publisher.py"
+  ],
+  "tests": [
+    "tests/publisher/test_SPB_007_institutional_publisher.py"
+  ],
+  "governed_by": "SGD-114-v2.0.1"
+}

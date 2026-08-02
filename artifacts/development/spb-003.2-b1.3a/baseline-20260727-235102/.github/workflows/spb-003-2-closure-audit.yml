@@ -1,0 +1,43 @@
+name: SPB-003.2 Modular Closure Audit
+on:
+  push:
+    branches: [main, "feature/SPB-003.2-*"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  pmo-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip pytest
+      - name: Test modular auditor
+        env:
+          PYTHONPATH: src
+        run: python -m pytest -q tests/pmo/audit
+      - name: Run closure audit
+        env:
+          PYTHONPATH: src
+        run: python -m sgoda.pmo.audit.cli --repository . --output artifacts/audit/spb-003.2
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spb-003-2-audit-evidence
+          path: artifacts/audit/spb-003.2
+
+  builder:
+    runs-on: ubuntu-latest
+    if: ${{ hashFiles('builder/pyproject.toml') != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - working-directory: builder
+        run: python -m pip install -e . pytest
+      - working-directory: builder
+        run: python -m pytest -q

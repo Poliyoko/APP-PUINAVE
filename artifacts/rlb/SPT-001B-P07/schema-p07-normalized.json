@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Esquema RLB SGODA-PUINAVE",
+  "version": "1.0.0-p07-normalized",
+  "additionalFieldsPolicy": "preserve-and-report",
+  "required": [
+    "palabra_puinave"
+  ],
+  "fields": [
+    {
+      "name": "identificador",
+      "aliases": [
+        "id",
+        "codigo",
+        "código",
+        "codigo institucional",
+        "ID"
+      ]
+    },
+    {
+      "name": "palabra_puinave",
+      "aliases": [
+        "puinave",
+        "palabra puinave",
+        "lengua puinave",
+        "PALABRA EN PUINAVE",
+        "ESCRITURA EN PUINAVE",
+        "AUDIO EN PUINAVE"
+      ],
+      "required": true
+    },
+    {
+      "name": "traduccion_espanol",
+      "aliases": [
+        "español",
+        "castellano",
+        "traduccion español",
+        "PALABRA EN ESPAÑOL",
+        "AUDIO EN ESPAÑOL"
+      ]
+    },
+    {
+      "name": "traduccion_ingles",
+      "aliases": [
+        "inglés",
+        "ingles",
+        "english",
+        "PALABRA EN INGLES",
+        "AUDIO EN INGLES"
+      ]
+    },
+    {
+      "name": "categoria_gramatical",
+      "aliases": [
+        "categoría gramatical",
+        "clase gramatical",
+        "CATEGORIA"
+      ]
+    },
+    {
+      "name": "categoria_tematica",
+      "aliases": [
+        "categoría temática",
+        "tema"
+      ]
+    },
+    {
+      "name": "tema_cultural",
+      "aliases": [
+        "tema cultural",
+        "ámbito cultural"
+      ]
+    },
+    {
+      "name": "descripcion_cultural",
+      "aliases": [
+        "descripción cultural",
+        "información cultural"
+      ]
+    },
+    {
+      "name": "contexto_uso",
+      "aliases": [
+        "contexto de uso",
+        "ejemplo de uso"
+      ]
+    },
+    {
+      "name": "comunidad",
+      "aliases": [
+        "comunidad puinave"
+      ]
+    },
+    {
+      "name": "territorio",
+      "aliases": [
+        "zona",
+        "lugar relacionado"
+      ]
+    },
+    {
+      "name": "imagen",
+      "aliases": [
+        "ruta imagen",
+        "archivo imagen",
+        "IMAGEN"
+      ]
+    },
+    {
+      "name": "audio_puinave",
+      "aliases": [
+        "audio puinave",
+        "pronunciación puinave"
+      ]
+    },
+    {
+      "name": "audio_espanol",
+      "aliases": [
+        "audio español"
+      ]
+    },
+    {
+      "name": "audio_ingles",
+      "aliases": [
+        "audio inglés",
+        "audio ingles"
+      ]
+    },
+    {
+      "name": "video",
+      "aliases": [
+        "ruta video"
+      ]
+    },
+    {
+      "name": "nivel_acceso",
+      "aliases": [
+        "acceso",
+        "clasificación cultural"
+      ]
+    },
+    {
+      "name": "autorizacion_publicacion",
+      "aliases": [
+        "autorizado para publicar",
+        "publicable"
+      ]
+    },
+    {
+      "name": "estado_validacion",
+      "aliases": [
+        "estado",
+        "validación"
+      ]
+    }
+  ],
+  "generated_by": "SPT-001B-P07-v1.1"
+}

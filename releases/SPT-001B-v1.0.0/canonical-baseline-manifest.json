@@ -1,0 +1,36 @@
+{
+  "release": "SPT-001B-v1.0.0",
+  "generated_at_utc": "2026-08-02T07:12:59.512057+00:00",
+  "artifacts": [
+    {
+      "path": "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+      "sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+      "size_bytes": 24166
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P08/canonical-statistics.json",
+      "sha256": "ebf3f0573af05a50eaf7881fbe591e6dd9e5167ab7a1f4deaae5e7bbb4bb668e",
+      "size_bytes": 336
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P08/canonical-validation.json",
+      "sha256": "c7086d3636ad24283acc5131282739cfd4891de37933d5f48998876f3a75e958",
+      "size_bytes": 338
+    },
+    {
+      "path": "config/rlb/schema-v1.1.json",
+      "sha256": "c04bb3e93f2156ef0d33f3639493d92a5efbcf463b47bc1bc5aec3b1efd5b049",
+      "size_bytes": 6633
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/reprocessed/perfil-rlb.json",
+      "sha256": "d584d838da4afbf9d9e308eabb87b2806949ff356642e8411c56f5b9286ef5b3",
+      "size_bytes": 1306
+    },
+    {
+      "path": "artifacts/rlb/SPT-001B-P07/reprocessed/errores-importacion.json",
+      "sha256": "c3ef957061c30d716def033d25bb23e3d45e3bf9e44d5147cde3bc57a2336a51",
+      "size_bytes": 255
+    }
+  ]
+}

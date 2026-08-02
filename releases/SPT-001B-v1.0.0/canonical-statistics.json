@@ -1,0 +1,12 @@
+{
+  "increment": "SPT-001B-P08",
+  "generated_at_utc": "2026-08-02T07:12:59.512057+00:00",
+  "total_records": 20,
+  "valid_records": 20,
+  "invalid_records": 0,
+  "unique_canonical_ids": 20,
+  "duplicate_canonical_ids": 0,
+  "duplicate_lexical_keys": 0,
+  "duplicate_lexical_key_values": [],
+  "quality_percentage": 100.0
+}
