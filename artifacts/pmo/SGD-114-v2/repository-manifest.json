@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T20:17:58.375448+00:00",
+  "generated_at_utc": "2026-08-02T20:30:02.888454+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 1383,
+  "total_files": 1439,
   "totals_by_category": {
-    "other": 394,
-    "evidence": 357,
-    "configuration": 61,
+    "other": 395,
+    "evidence": 371,
+    "configuration": 67,
     "dashboard": 20,
-    "documentation": 107,
-    "release": 187,
-    "automation": 31,
-    "source": 186,
-    "tests": 40
+    "documentation": 113,
+    "release": 196,
+    "automation": 32,
+    "source": 202,
+    "tests": 43
   },
   "files": [
     {
@@ -320,6 +320,12 @@
       "path": "Install-SPT007C-v1.0.0-Linguistic-Cultural-Knowledge-Engine.ps1",
       "sha256": "e6ec5ac58025729860101a37529697cc0b116218decdb36f9e50a7fcb024158a",
       "size_bytes": 49835,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT007D-SPT008-SPT009-Integrated-Intelligence-Suite.ps1",
+      "sha256": "32327173838f9dc2de0e388bbc45a28e6c3d2c0a5e0f3674395faa0923f9048b",
+      "size_bytes": 52474,
       "category": "other"
     },
     {
@@ -942,19 +948,19 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "b7e9c3ca0c139f80634afe59b823d435477499053934b1b1a5f262f42b2b3876",
-      "size_bytes": 45857,
+      "sha256": "4c4bda0fe3085ecd85ccd4eff2281f376c04b1cbb96b8e6a2c5228f9388b68fc",
+      "size_bytes": 49249,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "0b9bfd186416cead0ae5d340db5e2aa37383dc5142a3a7f579ab6bd8fc289dcf",
+      "sha256": "321c5a73f46e57655faf67d65431a02b6ca6f748e7cbc17a69111195f43e68ec",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "952d64717ad6ed9b92b68a52f01be1db5f4ae3893ccacb03197ebb85e37742c9",
+      "sha256": "2c9cb7e4b437258dba2eb37f883e2af2b5e6e5e63adcde26ff382506a3628b4a",
       "size_bytes": 231,
       "category": "evidence"
     },
@@ -1157,6 +1163,18 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/integrated_intelligence/demo-conversation.json",
+      "sha256": "cc3e8bbd51ce5ea82f33c9b09e34a6848dca88d2b2c032d26b03a87d8b207841",
+      "size_bytes": 285,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/integrated_intelligence/demo-integrated-graph.json",
+      "sha256": "2261a6fc18e60ff2d37bcfb6570596b9a10af2ba9cc53367395d2ab19702d960",
+      "size_bytes": 887,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/knowledge_engine/SPT-007C/demo-knowledge-graph.json",
       "sha256": "1b5a81090e8953236eda4bd17437473d6d35df8ab1613238a6f367fe6c11d029",
       "size_bytes": 2508,
@@ -1326,20 +1344,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "c662e9a2a7083dc5948c48f439bd79b43e5cc6c242183a2678ca84e133510745",
+      "sha256": "e09c619393f0a394b94e5d2bc22f5c974c79106692eff433c1d7135becd36832",
       "size_bytes": 1434,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "f192949ee03fa2c65d7c5e0bf4b7999da42f6d785bfa5ba34dde89761484b342",
+      "sha256": "67c50b04e1b2627867636378b56e53dea3bd4f22b1d522e9b21bd47ede8af46a",
       "size_bytes": 645,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "e15cec2ef96493b11e82c3631b8dec086beb0529ccf7e9635063dd9dfce456fe",
-      "size_bytes": 301394,
+      "sha256": "fe842e191af2502f9b26fee24d9c56030ca144807b36d3434c03262b597ea336",
+      "size_bytes": 313470,
       "category": "evidence"
     },
     {
@@ -2340,8 +2358,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "2f8a4659aaaeea52272a19ed5a05db86fb82d835f530a4e061e1979b475ee8e5",
-      "size_bytes": 5934,
+      "sha256": "7bcb2c6c6ba1917f7db527e567c8feefa1a33ce5f6723b9bf6395dafa089c22c",
+      "size_bytes": 5860,
       "category": "evidence"
     },
     {
@@ -2651,6 +2669,78 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/pmo/SPT-007D/SPT-007D-implementation-evidence.json",
+      "sha256": "8d3acca2756f025faa73937cad222b7af8cb02ed2f6676c32f397539245c47a0",
+      "size_bytes": 511,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007D/SPT-007D-policy-result.json",
+      "sha256": "c7a3196ea90bfafa50d0a032af7da66a601ae2309ba580f0f2a5ca3688a2ef94",
+      "size_bytes": 3765,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007D/SPT-007D-policy-result.md",
+      "sha256": "253655ff7eb5cd19772aa6b84ed21699ea5719c2a4f47c1dd2977b6ef3316a9f",
+      "size_bytes": 2179,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007D/SPT-007D-pre-gate-evidence.json",
+      "sha256": "2915ab125e5bd377ade04ad6d7171479df7894c7921fb38b3955e37b57548f68",
+      "size_bytes": 462,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-008/SPT-008-implementation-evidence.json",
+      "sha256": "5c7ad394447a04cb3b152d292cd9cd09527aa19b2ab814cbab288c9825110a70",
+      "size_bytes": 510,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+      "sha256": "9da91381be40931d32b8894fbb8a6394a2824d299fdf1e2bff3111e4ac877125",
+      "size_bytes": 3750,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-008/SPT-008-policy-result.md",
+      "sha256": "e81651ccc72eac14bc90fa187255d61e4ee38da82fdabd5b77bc7d8b1e3b1626",
+      "size_bytes": 2164,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-008/SPT-008-pre-gate-evidence.json",
+      "sha256": "b6ebd1988eb9a204ebc2e5a908bf4b898097ad4ff784a9d78f0bb6b65f53c85f",
+      "size_bytes": 461,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-009/SPT-009-implementation-evidence.json",
+      "sha256": "22a22e388925ba323e917c7d46c73c685820cd8b38c8f6c56a2c759c02ee55f2",
+      "size_bytes": 510,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-009/SPT-009-policy-result.json",
+      "sha256": "d41981e42c122a74d8e8c91c7ab373df03c25cd2813c44d9e62f05af36ab8e91",
+      "size_bytes": 3757,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-009/SPT-009-policy-result.md",
+      "sha256": "5474f60f43ada4c38ac44eb19239f01a244c9b1cffbea71b9d09cb83ee5c2d35",
+      "size_bytes": 2171,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-009/SPT-009-pre-gate-evidence.json",
+      "sha256": "268f5144aebb809f6ebe6211b719ef31df2e11c1af2384b9b90f3e1b8a25b9b1",
+      "size_bytes": 461,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/releases/SPB-006/closure.json",
       "sha256": "4921e59c76fb9c711408f2b76eae20b024e16a099ba197f861da239400bc8206",
       "size_bytes": 146,
@@ -2754,37 +2844,37 @@
     },
     {
       "path": "artifacts/roadmap/SGD-116/dependency-graph.json",
-      "sha256": "ab259d55ad89a3c8e2fe7386920e77a02976c7604d7b62775008c7cabe19a83d",
-      "size_bytes": 12111,
+      "sha256": "2c2e04127918130bbf3979cd1c72766519e0266f12e4ce253b73c6b9ab6b6064",
+      "size_bytes": 15514,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/executive-summary.json",
-      "sha256": "cf29b40fc53e4fc86b1a1028b05e8079b611761d980987f178599bb8250bd5c0",
-      "size_bytes": 2874,
+      "sha256": "1a05ccdbbcbc43052d725df3701a11092c3398312ed408e6c300b0ed005211ac",
+      "size_bytes": 2877,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/metrics.json",
-      "sha256": "04d5ae5a58b21221a12fa843c92f30e5d69ce3af7092eea102992b2e5abe2592",
-      "size_bytes": 361,
+      "sha256": "93e2a7fc6ca7a2edf33438d0db3026c405bfad230448ca23d57fbe743d94f579",
+      "size_bytes": 364,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/roadmap.json",
-      "sha256": "ff3b33a9190dcb91cbae91ee9074125306ade7779049e1418ea5dfecf8f2cf66",
-      "size_bytes": 26314,
+      "sha256": "f81dd38f26744ee94dd3c14ab4846be109886d4c1ce77e22011b8f195d7139b6",
+      "size_bytes": 29984,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/timeline.json",
-      "sha256": "edb7fbbec58ce746a4a0b0eec05141e283dcb6fcd2a7d8c65cdef828a0a91e13",
-      "size_bytes": 5613,
+      "sha256": "803c25e556264796d2f735e980804487ca8aa2a37a24b091788f75f9a36f26c3",
+      "size_bytes": 6317,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/validation.json",
-      "sha256": "876f21e26b57182156340be3828117e827b8cbe80aac1eef5a0f2185e576b929",
+      "sha256": "39ba4331de2c5d3ee84ddd7c163d9e2426bed92838fb8ed401de8add596d0709",
       "size_bytes": 2177,
       "category": "evidence"
     },
@@ -4583,6 +4673,18 @@
       "category": "configuration"
     },
     {
+      "path": "config/conversation/SPT-009-component.json",
+      "sha256": "6a8050d32d52a87bb7a379b6b4479bf7c0d2f282e3df07d7b1e0d79ab9371665",
+      "size_bytes": 825,
+      "category": "configuration"
+    },
+    {
+      "path": "config/conversation/SPT-009-policy.json",
+      "sha256": "9ed2a33569dadcec77d8443f856885826951b0211a3e60deefde4b9d5228c8fb",
+      "size_bytes": 312,
+      "category": "configuration"
+    },
+    {
       "path": "config/enrichment/SPT-006-component.json",
       "sha256": "b6eb6160656a5f15f86751eab2eda0a1330338a45638be1f87c62d0063cb38fd",
       "size_bytes": 1046,
@@ -4787,6 +4889,18 @@
       "category": "configuration"
     },
     {
+      "path": "config/reasoning_engine/SPT-007D-component.json",
+      "sha256": "e1d8ab6d15d481083bca635bb42cedc8bdd0c4d9a37e08759d35541dff8d3dd5",
+      "size_bytes": 770,
+      "category": "configuration"
+    },
+    {
+      "path": "config/reasoning_engine/SPT-007D-policy.json",
+      "sha256": "ccc11891b153807486c3e99178f0648905c934afbb49a6beeaadead609e1c4bc",
+      "size_bytes": 259,
+      "category": "configuration"
+    },
+    {
       "path": "config/repository/SPB-007-component.json",
       "sha256": "5afebc378f690d7be957f8795d3b9087593b3489479ea8b5cf0631d2bc5a4e5f",
       "size_bytes": 396,
@@ -4868,6 +4982,18 @@
       "path": "config/roadmap/SGD-116B-policy.json",
       "sha256": "232efc217b47e1220acb9614a7e53ad6474b5f6a03e21b7ef791e9d5cb1ee8c5",
       "size_bytes": 546,
+      "category": "configuration"
+    },
+    {
+      "path": "config/tutor/SPT-008-component.json",
+      "sha256": "a6adaed7e0d1eb9bb42fecbf3242bf6104a5ea301dff189eccff717f702ab3c5",
+      "size_bytes": 757,
+      "category": "configuration"
+    },
+    {
+      "path": "config/tutor/SPT-008-policy.json",
+      "sha256": "e89871ccc7bcb76f5928bebf362d844a5abb8b25771e4424d23cf8e383b0a4fc",
+      "size_bytes": 313,
       "category": "configuration"
     },
     {
@@ -4962,44 +5088,44 @@
     },
     {
       "path": "dashboard/dependency-graph.json",
-      "sha256": "ab259d55ad89a3c8e2fe7386920e77a02976c7604d7b62775008c7cabe19a83d",
-      "size_bytes": 12111,
+      "sha256": "2c2e04127918130bbf3979cd1c72766519e0266f12e4ce253b73c6b9ab6b6064",
+      "size_bytes": 15514,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-metrics.json",
-      "sha256": "04d5ae5a58b21221a12fa843c92f30e5d69ce3af7092eea102992b2e5abe2592",
-      "size_bytes": 361,
+      "sha256": "93e2a7fc6ca7a2edf33438d0db3026c405bfad230448ca23d57fbe743d94f579",
+      "size_bytes": 364,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-roadmap.json",
-      "sha256": "ff3b33a9190dcb91cbae91ee9074125306ade7779049e1418ea5dfecf8f2cf66",
-      "size_bytes": 26314,
+      "sha256": "f81dd38f26744ee94dd3c14ab4846be109886d4c1ce77e22011b8f195d7139b6",
+      "size_bytes": 29984,
       "category": "dashboard"
     },
     {
       "path": "dashboard/executive-summary.json",
-      "sha256": "cf29b40fc53e4fc86b1a1028b05e8079b611761d980987f178599bb8250bd5c0",
-      "size_bytes": 2874,
+      "sha256": "1a05ccdbbcbc43052d725df3701a11092c3398312ed408e6c300b0ed005211ac",
+      "size_bytes": 2877,
       "category": "dashboard"
     },
     {
       "path": "dashboard/timeline.json",
-      "sha256": "edb7fbbec58ce746a4a0b0eec05141e283dcb6fcd2a7d8c65cdef828a0a91e13",
-      "size_bytes": 5613,
+      "sha256": "803c25e556264796d2f735e980804487ca8aa2a37a24b091788f75f9a36f26c3",
+      "size_bytes": 6317,
       "category": "dashboard"
     },
     {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "ac19c969fa2d3cc6fc7bbb48aa58a1e096e5091ff3ed124b049e295d26a9952e",
+      "sha256": "89daa15514ff38069310f9f18ebd7e243e99a91cb01c2ecc972f57250c8ecd2f",
       "size_bytes": 2799,
       "category": "documentation"
     },
     {
       "path": "docs/00_DEPENDENCIAS_MAESTRAS.md",
-      "sha256": "df3a5ebf4593d51b13520f0aa0dd4344f1a0b9ca974e7ce77e00ad4434a0b9d2",
-      "size_bytes": 2121,
+      "sha256": "29b47d526735c718ce7c9531092019cf15838bd9700c127ff4a37732e84bd19b",
+      "size_bytes": 2798,
       "category": "documentation"
     },
     {
@@ -5010,32 +5136,32 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "81aa164f2d4ce0df8fb240bdba6ffc3392dc0860b4fb1b0df9054dfb1b4559d8",
-      "size_bytes": 3293,
+      "sha256": "a513b5a1a8a0d9d2f0458e318126ff0a5f5fa459da51d87c331439aaa5a1cb25",
+      "size_bytes": 3505,
       "category": "documentation"
     },
     {
       "path": "docs/00_METRICAS_ECOSISTEMA.md",
-      "sha256": "1b74c76918e47ea3b87f950603d0f420782a3942c18c78122cd1bdd7f6e9bd8a",
-      "size_bytes": 327,
+      "sha256": "6f7410ed6bc0482e60e43653d8ee8dac40fb02801867212fa142444f3ace1c27",
+      "size_bytes": 330,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "862869f82b489e7b60bd95d0e207e619a6ea0bb1b0854d49dc61506dd583cfea",
-      "size_bytes": 21764,
+      "sha256": "b39ee89b30e1b6ca6fb53bf9450109589f909a99d5f3222de15a1895ff49dcc1",
+      "size_bytes": 24299,
       "category": "documentation"
     },
     {
       "path": "docs/00_ROADMAP_MAESTRO.md",
-      "sha256": "8813665d87302eb22683b802a0b24b687948d9d968a0f4db10c78af3ff295ac3",
-      "size_bytes": 3278,
+      "sha256": "d1b1c642dcca580f823ea50b18fc98f95acf678f905d2317c66241135732eb0c",
+      "size_bytes": 3530,
       "category": "documentation"
     },
     {
       "path": "docs/00_TIMELINE_MAESTRO.md",
-      "sha256": "3d50fac59a9cb0450343fe32c1c8bf74b7564d96bb4d212b6d3ed18fa3a4de02",
-      "size_bytes": 2632,
+      "sha256": "93ac8d46822b28237ebd03950a767ac0661717eefefd8a69e41334ce51fd88d1",
+      "size_bytes": 2921,
       "category": "documentation"
     },
     {
@@ -5558,6 +5684,42 @@
       "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
       "sha256": "7b87fa2a97b0636ffdb4006add65567d2b90e9ddf36bfd345e1d5e23d4340587",
       "size_bytes": 351,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
+      "sha256": "ac940cd587b9b269d4332ca449e62742b42df73b3da6045801836dd7f47adad8",
+      "size_bytes": 193,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md",
+      "sha256": "3b38b972fca4589303f2b44e4897104553521af356362b1453c6d6a502ae4c4f",
+      "size_bytes": 204,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md",
+      "sha256": "86a07e7957c24e18b2f7c784dc670630101da4d8fab1a60cac77de2f09bd55eb",
+      "size_bytes": 177,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
+      "sha256": "7604a0f5f26e23f72da460a99a26ec15654b0f721b5e5085c979cc7d1ce3acc8",
+      "size_bytes": 159,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
+      "sha256": "b46a1eb22827780258ba5f4846dd8b89e2c5ab4ab5efcea1f0ff8d320d71c1f5",
+      "size_bytes": 184,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md",
+      "sha256": "4b256a71a6cdb6253fcd5a8247373e655cebc867393ba3e62681a5b00842151b",
+      "size_bytes": 161,
       "category": "documentation"
     },
     {
@@ -6773,6 +6935,60 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-007D-v1.0.0/SPT-007D-component.json",
+      "sha256": "e1d8ab6d15d481083bca635bb42cedc8bdd0c4d9a37e08759d35541dff8d3dd5",
+      "size_bytes": 770,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007D-v1.0.0/SPT-007D-policy-result.json",
+      "sha256": "c7a3196ea90bfafa50d0a032af7da66a601ae2309ba580f0f2a5ca3688a2ef94",
+      "size_bytes": 3765,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007D-v1.0.0/SPT-007D-policy-result.md",
+      "sha256": "253655ff7eb5cd19772aa6b84ed21699ea5719c2a4f47c1dd2977b6ef3316a9f",
+      "size_bytes": 2179,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-008-v1.0.0/SPT-008-component.json",
+      "sha256": "a6adaed7e0d1eb9bb42fecbf3242bf6104a5ea301dff189eccff717f702ab3c5",
+      "size_bytes": 757,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-008-v1.0.0/SPT-008-policy-result.json",
+      "sha256": "9da91381be40931d32b8894fbb8a6394a2824d299fdf1e2bff3111e4ac877125",
+      "size_bytes": 3750,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-008-v1.0.0/SPT-008-policy-result.md",
+      "sha256": "e81651ccc72eac14bc90fa187255d61e4ee38da82fdabd5b77bc7d8b1e3b1626",
+      "size_bytes": 2164,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-009-v1.0.0/SPT-009-component.json",
+      "sha256": "6a8050d32d52a87bb7a379b6b4479bf7c0d2f282e3df07d7b1e0d79ab9371665",
+      "size_bytes": 825,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-009-v1.0.0/SPT-009-policy-result.json",
+      "sha256": "d41981e42c122a74d8e8c91c7ab373df03c25cd2813c44d9e62f05af36ab8e91",
+      "size_bytes": 3757,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-009-v1.0.0/SPT-009-policy-result.md",
+      "sha256": "5474f60f43ada4c38ac44eb19239f01a244c9b1cffbea71b9d09cb83ee5c2d35",
+      "size_bytes": 2171,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -6926,6 +7142,12 @@
       "path": "scripts/Invoke-SPT007C-KnowledgeEngine.ps1",
       "sha256": "a448d3cdc56ce40c21a7d7cdbc97e15eeb1c1db3062fe24c70b831a6a6b34fc1",
       "size_bytes": 516,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT009-ConversationalEcosystem.ps1",
+      "sha256": "c115add8938d28a03087ce2832611d9fa27650052c86132f8de4492dae68474c",
+      "size_bytes": 600,
       "category": "automation"
     },
     {
@@ -7124,6 +7346,42 @@
       "path": "src/sgoda/automation/planner.py",
       "sha256": "29e1b7a7b11fffd4f4b0d5d8356702cc680f61851d7f31c94cb0c9d137ede6fd",
       "size_bytes": 9129,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/conversation/__init__.py",
+      "sha256": "b9368197032ec5c3ae0010e10591c5891d429a01e82dea39f6684c10c1c8e229",
+      "size_bytes": 436,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/conversation/cli.py",
+      "sha256": "a92400606d7e41ae716e3cf892b1dd968ef76902a7fb6d01292926e3ef31bd1e",
+      "size_bytes": 2074,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/conversation/memory.py",
+      "sha256": "87bf4e595ce7e95abb03bd2c4ed1407472071c278ee5502758beed0d2fd1c86a",
+      "size_bytes": 711,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/conversation/models.py",
+      "sha256": "7f901919fc72b6ee168d2f0d1ed3ca7b0d24727d1f78a6da4b934356093acc12",
+      "size_bytes": 717,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/conversation/router.py",
+      "sha256": "0dcb412ca0a46fdc1b42d2cc31845793c42bbb06ae0ff2ef5652b8bd28ac53f5",
+      "size_bytes": 611,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/conversation/service.py",
+      "sha256": "dcfe920596705e7e601e85d79ff43f3dc9c9d2a91f91fcc2bd72dc6f580637c9",
+      "size_bytes": 4239,
       "category": "source"
     },
     {
@@ -7943,6 +8201,36 @@
       "category": "source"
     },
     {
+      "path": "src/sgoda/reasoning_engine/__init__.py",
+      "sha256": "60ef4d5c7c06eaf43f62719a3058825accfc4d5724a64b831f28111607e23b8b",
+      "size_bytes": 335,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/reasoning_engine/models.py",
+      "sha256": "783ead4130f52b77e41c09a193a0eb1d707b970df80ac01302a1ba54d9b03150",
+      "size_bytes": 709,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/reasoning_engine/reasoner.py",
+      "sha256": "2834975b4c2591955aba117248109f91bf1d60216839f5f57c43dece07961e26",
+      "size_bytes": 3825,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/reasoning_engine/rules.py",
+      "sha256": "65118fc27af21cb1022cd9d032fdac63670923edac1641389194f86fa0cc4ba1",
+      "size_bytes": 956,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/reasoning_engine/service.py",
+      "sha256": "08e9059a78ac5a42c6720abaab9a5466909aba1cf6017f441ec953e4e1b70579",
+      "size_bytes": 1411,
+      "category": "source"
+    },
+    {
       "path": "src/sgoda/rlb/__init__.py",
       "sha256": "927e9ce158616ce2519a811aa63bdce9945bc6371daf80d3b8b60a12909f5a4a",
       "size_bytes": 1271,
@@ -8075,6 +8363,36 @@
       "category": "source"
     },
     {
+      "path": "src/sgoda/tutor/__init__.py",
+      "sha256": "95a2a8c4d8fe9d077090b941d7d36f7c6119aa5c06c58b144bcbdd480c20afcf",
+      "size_bytes": 444,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/tutor/exercises.py",
+      "sha256": "72b692fc88caa61116f25860303d7727b6e895b2f60ac0e6d9cebf746ce8c8fb",
+      "size_bytes": 1505,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/tutor/models.py",
+      "sha256": "edddec6530d2b5d76c78b396b8e3414f04f29e6f8e394ee81405685018aba9c8",
+      "size_bytes": 850,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/tutor/planner.py",
+      "sha256": "2e5ae80a4eaa5b8a73228e790ab875fcc5f600ba27eee2af13872325fecc6d6c",
+      "size_bytes": 2020,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/tutor/service.py",
+      "sha256": "54ec5c899d2948b11422b648621e2e0fd073fbfed5e3a29ae3204707e839583e",
+      "size_bytes": 2307,
+      "category": "source"
+    },
+    {
       "path": "tests/assistant/test_SPT_004A_institutional_assistant.py",
       "sha256": "506d43c9039b778cf191c9c4b6dcdec553769611eb1e5d54aa8f886a527515ae",
       "size_bytes": 6209,
@@ -8096,6 +8414,12 @@
       "path": "tests/automation/test_SPT_003C_controlled_provider_pilot.py",
       "sha256": "9fcc3da901040269ffd8c2a4a047f67f0dd2f8f8a7f71efc478959c91d24c6a1",
       "size_bytes": 5239,
+      "category": "tests"
+    },
+    {
+      "path": "tests/conversation/test_SPT_009_conversational_ecosystem.py",
+      "sha256": "7fd7b2eeada1686143d018384e19842396a73421fbd7e00fa9e652e715f3ce22",
+      "size_bytes": 3446,
       "category": "tests"
     },
     {
@@ -8237,6 +8561,12 @@
       "category": "tests"
     },
     {
+      "path": "tests/reasoning_engine/test_SPT_007D_reasoning_engine.py",
+      "sha256": "a3e258d76fd703a572ebae1e48b0dd0631ff02759e9a044fc5284d3a6f392073",
+      "size_bytes": 2571,
+      "category": "tests"
+    },
+    {
       "path": "tests/rlb/test_SPT_001B_P06_contract.py",
       "sha256": "2b58015418dbba9ad2057c3b3f0f1a6a1dbf970f44478460d48831510ca72d6a",
       "size_bytes": 1100,
@@ -8312,6 +8642,12 @@
       "path": "tests/test_spb_005_2_platform_kernel.py",
       "sha256": "62fb3d5e39b3aaa50a048edd88fc9fedc05bb039216c5a68d30adc62d758a42f",
       "size_bytes": 1770,
+      "category": "tests"
+    },
+    {
+      "path": "tests/tutor/test_SPT_008_intelligent_tutor.py",
+      "sha256": "5cfbb24813c37dd61f1743d89839ac0adad527e5f16ff97f4cff861ee0d828e3",
+      "size_bytes": 2235,
       "category": "tests"
     }
   ]
