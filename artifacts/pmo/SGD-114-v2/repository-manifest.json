@@ -1,11 +1,11 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T08:48:06.073059+00:00",
+  "generated_at_utc": "2026-08-02T08:53:31.148521+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 822,
+  "total_files": 823,
   "totals_by_category": {
-    "other": 367,
+    "other": 368,
     "evidence": 214,
     "configuration": 17,
     "dashboard": 8,
@@ -260,6 +260,12 @@
       "path": "Repair-SPB007-v1.0.3-Native-PowerShell-Validation.ps1",
       "sha256": "0abc2450df0cee43aee6b01cfd7d21dad63e966549112936f3464c76b42c3623",
       "size_bytes": 4302,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPB007-v1.0.4-Two-Phase-Publication.ps1",
+      "sha256": "8a627fbc21948fe9177a0f89b3652e00329ac6896b876dc932ebc2d60e177a43",
+      "size_bytes": 9785,
       "category": "other"
     },
     {
@@ -810,20 +816,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "616688999dd3446dcd96a3ff35a974d24cf22800a2b65db9336f28564a1df119",
-      "size_bytes": 1431,
+      "sha256": "1d3cf9d2f12dd3e591f41a32600ee8f22a1b363ed8ba941c5efe1f7239e75bea",
+      "size_bytes": 1429,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "14ef63a7915946fdb7cdd6ca8e418812a047b7dddab078325f5ca232c48083a5",
-      "size_bytes": 640,
+      "sha256": "5b85b3c2d8b7d18a65af7e15cee55a6851899cebc30b2e864602a9ea0e4c6845",
+      "size_bytes": 641,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "bfd7d1c2e6b5fa7a7597c1dff44c66f577855ca2a1275c910376072d0d87405f",
-      "size_bytes": 178202,
+      "sha256": "a07b8d4fd68ffe52eaeab84e1255365f2f004b1151d1165e5c2b641e8e26551f",
+      "size_bytes": 186344,
       "category": "evidence"
     },
     {
@@ -1548,14 +1554,14 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/prepublication-audit.json",
-      "sha256": "5682649da5a79573d295449b201bbb77efed271476987e35bbba2e7b038a0fa7",
-      "size_bytes": 4798,
+      "sha256": "91ac10420196d4f15994449565d6283d393e9a84823a2db52f5e741ddecce9cd",
+      "size_bytes": 800,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "70daf2ae8ac85c4659efd95359766471f426ce265488a3a02826def4bd995e23",
-      "size_bytes": 27816,
+      "sha256": "bea93828491212fc4dd49d762ebe7e11efe57fa7c03a8f0541ce23eb17b12872",
+      "size_bytes": 2098,
       "category": "evidence"
     },
     {
@@ -4212,8 +4218,8 @@
     },
     {
       "path": "scripts/Invoke-SPB007-InstitutionalPublish.ps1",
-      "sha256": "00d9b6b4096713338581a71b731b567ada836ad6a2d855ad2fbcce479900ea68",
-      "size_bytes": 1147,
+      "sha256": "190cbe4a4fa5037f007c02a5ebdcc7b65f284adb9838c06226b3de971ceff26a",
+      "size_bytes": 4951,
       "category": "automation"
     },
     {

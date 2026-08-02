@@ -2,8 +2,8 @@
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "generated_at_utc": "2026-08-02T08:48:04.393457+00:00",
-  "passed": false,
+  "generated_at_utc": "2026-08-02T08:53:29.296203+00:00",
+  "passed": true,
   "checks": {
     "required_directories_present": true,
     "required_files_present": true,
@@ -15,7 +15,7 @@
     "dashboard_present": true,
     "release_present": true,
     "git_repository_available": true,
-    "git_clean_when_required": false
+    "git_clean_when_required": true
   },
   "metrics": {
     "source_files": 90,
@@ -33,10 +33,10 @@
     "inside_work_tree": true,
     "clean": false,
     "branch": "feature/SPT-001A-rlb-schema-foundation",
-    "head": "f5050a1bf1716b2fbcd494b17b5b6f970f7276fc",
-    "tracked_files": 917,
+    "head": "9bd5cf3496b37001d2d454f2ca3f4c33fc554eb8",
+    "tracked_files": 919,
     "modified_or_untracked": [
-      "?? artifacts/pmo/SPB-007/publication-result.json"
+      " M artifacts/pmo/SPB-007/publication-result.json"
     ],
     "error": null
   },
