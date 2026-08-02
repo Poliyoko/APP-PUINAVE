@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T09:48:50.880121+00:00",
+  "generated_at_utc": "2026-08-02T10:07:49.228529+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 923,
+  "total_files": 953,
   "totals_by_category": {
-    "other": 374,
-    "evidence": 240,
-    "configuration": 28,
-    "dashboard": 11,
-    "documentation": 67,
-    "release": 47,
-    "automation": 19,
-    "source": 109,
-    "tests": 28
+    "other": 375,
+    "evidence": 244,
+    "configuration": 32,
+    "dashboard": 12,
+    "documentation": 70,
+    "release": 55,
+    "automation": 20,
+    "source": 116,
+    "tests": 29
   },
   "files": [
     {
@@ -242,6 +242,12 @@
       "path": "Install-SPT003C-Controlled-Provider-Pilot.ps1",
       "sha256": "24ae47cfb92c2c4bc40795fcbc344215c39179e8e5559dbc7d47cc66cc4f4caa",
       "size_bytes": 39470,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT004A-Institutional-Assistant-Foundation.ps1",
+      "sha256": "8b694952ec00aa0ca629a60278addafdc712809499fae021e9df2a781daafeb8",
+      "size_bytes": 45850,
       "category": "other"
     },
     {
@@ -525,6 +531,12 @@
       "sha256": "6d55c3825dd558220b799e9200cc659aacb6ddcdbf7b22ab1ca159e29401f5ce",
       "size_bytes": 2882,
       "category": "other"
+    },
+    {
+      "path": "artifacts/assistant/SPT-004A/demo-response.json",
+      "sha256": "1073f24da31718d8417d96dfcc7dcea41d53d6c7591fd21411338bfa6cea284d",
+      "size_bytes": 701,
+      "category": "evidence"
     },
     {
       "path": "artifacts/audit/spb-003.2/ACT-003.2-acta-tecnica-cierre.md",
@@ -816,19 +828,19 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "b6ca999f13ad8d346c5aeaef4d3ccb77f35a5a9773bb83986556aca9ec0b0a1c",
-      "size_bytes": 13770,
+      "sha256": "b5c8885a200f6f845c3df00aec7bd60cd25d97c72aa5fc7ece1cec43c006082d",
+      "size_bytes": 15082,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "5cd046d7b9eff011feea5ad1bc2ff6e6abdd861a440fe364d4241901882b3b4b",
+      "sha256": "f5732fd68cccdb3a9221fe3f637d06fc3896ec3ef1254c633523f7bbfe1914c3",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "945193a2d314f20d6970f30319107294803951a48aad3cfe725def0ffcbc391b",
+      "sha256": "a86726f9fab6b7cb94a7bfe3cbfddd04cedb5ff072d00b4be7d834e6905f4eda",
       "size_bytes": 231,
       "category": "evidence"
     },
@@ -936,20 +948,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "2c6a4ec09af45a55ece1001b5ad79561f53f89002a1ed8a54cc0a1a163788133",
+      "sha256": "d38ff6b387afcffc90dda8dd7117d11fac815460d819a99b638910a807d27b2c",
       "size_bytes": 1432,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "9c3c2bce804d7a963c117202c1d5d18bead87b72159bfbd411c859d96723e2e7",
+      "sha256": "685d5f097434704ee7cf7fe97562dbf025cede629c6c73be697e0caa92cf77a4",
       "size_bytes": 642,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "8fddcd80354b3542c365d93042822a0ec75d15db16a5d3cf806ed5bf629f9761",
-      "size_bytes": 203056,
+      "sha256": "bda1a0d6f57ad6095b05cdad495eaa16023273c2ea9f24f9b49cd46e5d954cc3",
+      "size_bytes": 209121,
       "category": "evidence"
     },
     {
@@ -1698,8 +1710,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "42b8ee07e480488ace92cdd2235e16f0302d3c4d7f7ac297fdde9252ad0a5803",
-      "size_bytes": 3894,
+      "sha256": "24c889054274273e49dc4f4ed62702416959d6c333fc68528e1e4aa10d3d2780",
+      "size_bytes": 4081,
       "category": "evidence"
     },
     {
@@ -1862,6 +1874,24 @@
       "path": "artifacts/pmo/SPT-003C/traceability-SPT-003C.json",
       "sha256": "d17fcc0873532477bf4bd66d915146d7699f1be1bdfeb7e8f6e7aff25241c65c",
       "size_bytes": 679,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-004A/SPT-004A-quality-gate.json",
+      "sha256": "8b9687edb282c12a87301af2893225a5da228127bf45f0950e9396d3b1924cc2",
+      "size_bytes": 3118,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-004A/implementation-evidence.json",
+      "sha256": "309222e3acd45fc1d675238e315c6e950627c853cf8bcc0ae6e66f7016807285",
+      "size_bytes": 656,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-004A/traceability-SPT-004A.json",
+      "sha256": "650a014c110be57758152be74f863dab586c964dbf856095b9d0cc5f92254166",
+      "size_bytes": 778,
       "category": "evidence"
     },
     {
@@ -3683,6 +3713,30 @@
       "category": "other"
     },
     {
+      "path": "config/assistant/SPT-004A-assistant-policy.json",
+      "sha256": "950ad76935170a3065aa63704e7bf359e51a820f7c3214f8f94ecbb644060253",
+      "size_bytes": 718,
+      "category": "configuration"
+    },
+    {
+      "path": "config/assistant/SPT-004A-component.json",
+      "sha256": "69e94733df80dcfd92cb97c4d4d302b2082e166f1d48282047cbac8e715232e6",
+      "size_bytes": 938,
+      "category": "configuration"
+    },
+    {
+      "path": "config/assistant/SPT-004A-faq.json",
+      "sha256": "55d5e24e777e35ab5267f3686cfaa00222d9977d17e89d63c6d754d03c489382",
+      "size_bytes": 1376,
+      "category": "configuration"
+    },
+    {
+      "path": "config/assistant/SPT-004A-identity.json",
+      "sha256": "24658251099b2cbf76fa5b0d1d0c983976701aee20f534752f0f3e606b74d427",
+      "size_bytes": 448,
+      "category": "configuration"
+    },
+    {
       "path": "config/automation/SPT-003A-component.json",
       "sha256": "e770d826af243a086f1b9545ebff4558c889449cc8d1133b78d8ec5b52d9ee35",
       "size_bytes": 471,
@@ -3917,8 +3971,14 @@
       "category": "dashboard"
     },
     {
+      "path": "dashboard/SPT-004A-dashboard.json",
+      "sha256": "f56b5740d4a313cffa22ef316a40951c2b54a3b9bece4de94d1013eefa1edca9",
+      "size_bytes": 829,
+      "category": "dashboard"
+    },
+    {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "63ba6bebbe4e408d32cd294269d3acbd1eaae188a36d65b716fc5908d671562f",
+      "sha256": "bcb984f24fe2c930a479888dc13655f7c47c5d05516e40aefad00420998e12cf",
       "size_bytes": 2799,
       "category": "documentation"
     },
@@ -3930,14 +3990,14 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "0ffba3fdcbb99ebe13e9a68401930fea5608157aec54fa4f5b805c9d572877c1",
-      "size_bytes": 2197,
+      "sha256": "1968fbb64edea65207893afbcb7b0166ec025df9a1345f300e0f7223623e0e45",
+      "size_bytes": 2300,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "6526423c2c51612bb3c5a05aa244cb96e5fb225c97e586e0e70b6059e0a862cb",
-      "size_bytes": 8738,
+      "sha256": "2455661870df85706ffc9106d74b93bab23d2208243a7793937126750c65cc1a",
+      "size_bytes": 9811,
       "category": "documentation"
     },
     {
@@ -4244,6 +4304,24 @@
       "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md",
       "sha256": "f38969caad23b5c5831465a61650016252821f035491974ac23e3c867b932a5b",
       "size_bytes": 495,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+      "sha256": "6881021215a4784f9dfc641e69444cc2319082a3ad18b5a99ee0d7580a9c4586",
+      "size_bytes": 1020,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md",
+      "sha256": "940c08947e8caea9940f03ec3f961fcd4c25eb866f043d83a3971192466f9be2",
+      "size_bytes": 600,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+      "sha256": "6652459c6f1c02479d96d727cb991da1213cb2e631b5fec159712bea08929d75",
+      "size_bytes": 673,
       "category": "documentation"
     },
     {
@@ -4619,6 +4697,54 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-Fundacion-Asistente-Institucional.md",
+      "sha256": "6881021215a4784f9dfc641e69444cc2319082a3ad18b5a99ee0d7580a9c4586",
+      "size_bytes": 1020,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-Identidad-Cultural-Pendiente.md",
+      "sha256": "940c08947e8caea9940f03ec3f961fcd4c25eb866f043d83a3971192466f9be2",
+      "size_bytes": 600,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-Seguridad-Linguistica-Cultural.md",
+      "sha256": "6652459c6f1c02479d96d727cb991da1213cb2e631b5fec159712bea08929d75",
+      "size_bytes": 673,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-assistant-policy.json",
+      "sha256": "950ad76935170a3065aa63704e7bf359e51a820f7c3214f8f94ecbb644060253",
+      "size_bytes": 718,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-component.json",
+      "sha256": "69e94733df80dcfd92cb97c4d4d302b2082e166f1d48282047cbac8e715232e6",
+      "size_bytes": 938,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-faq.json",
+      "sha256": "55d5e24e777e35ab5267f3686cfaa00222d9977d17e89d63c6d754d03c489382",
+      "size_bytes": 1376,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-identity.json",
+      "sha256": "24658251099b2cbf76fa5b0d1d0c983976701aee20f534752f0f3e606b74d427",
+      "size_bytes": 448,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/demo-response.json",
+      "sha256": "1073f24da31718d8417d96dfcc7dcea41d53d6c7591fd21411338bfa6cea284d",
+      "size_bytes": 701,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -4709,6 +4835,12 @@
       "category": "automation"
     },
     {
+      "path": "scripts/Invoke-SPT004A-AssistantDemo.ps1",
+      "sha256": "96438318a8370adb90a2ae8ecfc9dac37098cb05165c7a4d0ac0f1af20aeeca0",
+      "size_bytes": 377,
+      "category": "automation"
+    },
+    {
       "path": "scripts/Start-SGODA.ps1",
       "sha256": "5f4e1a2351d5b0a77e6e8968080214b898246184e992977ae514732421788f7b",
       "size_bytes": 482,
@@ -4754,6 +4886,48 @@
       "path": "src/sgoda/api/routes.py",
       "sha256": "7b884200f705f7ac126cb7e4292fe1194906b266fff235eb85548dbba78b10cf",
       "size_bytes": 512,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/assistant/__init__.py",
+      "sha256": "0e54ac57a746e8af2bc9baa181f8e0d55ac5af70bb8c63ac3dfa2762308e055c",
+      "size_bytes": 960,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/assistant/cli.py",
+      "sha256": "fb4c85026ec6c0b8d70fbfe20d4f59e3c9a97eefd1d9c04b61f3c4ce1b0a18e0",
+      "size_bytes": 2059,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/assistant/faq.py",
+      "sha256": "5faecff2fe28b8c90cb0ff12bba8a72bee749caeae571cae95f64c61f1c1ea6d",
+      "size_bytes": 1054,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/assistant/intent_classifier.py",
+      "sha256": "331d9a2d1c69380d1d8e9b22fc9e94c3ef344108eb4f55c84993ec93bee340a4",
+      "size_bytes": 1861,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/assistant/knowledge_repository.py",
+      "sha256": "364a10b2672ecaa46c156ab8721f02b9e20414e10fe26172c83fb5fd4d5cbf7f",
+      "size_bytes": 5485,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/assistant/models.py",
+      "sha256": "6dd385afce6b676c4c164e910d2349336cc1cdba58daad38b214b55ec351e80f",
+      "size_bytes": 838,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/assistant/service.py",
+      "sha256": "361a581554a63eba4fe19df9ff05151f17bcde2cb3a7978be6b0ae7f5357de82",
+      "size_bytes": 7460,
       "category": "source"
     },
     {
@@ -5385,6 +5559,12 @@
       "sha256": "8f01acd1d4f662fd96b5d6ed33125dfe64dcf8840cefe8b86ae95b48e3a8594e",
       "size_bytes": 2217,
       "category": "source"
+    },
+    {
+      "path": "tests/assistant/test_SPT_004A_institutional_assistant.py",
+      "sha256": "506d43c9039b778cf191c9c4b6dcdec553769611eb1e5d54aa8f886a527515ae",
+      "size_bytes": 6209,
+      "category": "tests"
     },
     {
       "path": "tests/automation/test_SPT_003A_multimedia_orchestrator.py",
