@@ -1,0 +1,24 @@
+{
+    "increment_code":  "SGD-115",
+    "generated_at_utc":  "2026-08-02T09:35:00.0933415Z",
+    "source":  [
+                   "src/sgoda/documentation/master_docs.py",
+                   "config/governance/SGD-115-master-documentation-policy.json",
+                   "config/governance/SGD-115-component.json"
+               ],
+    "tests":  [
+                  "tests/documentation/test_SGD_115_master_documentation.py"
+              ],
+    "documentation":  [
+                          "docs/00_INDICE_MAESTRO.md",
+                          "docs/00_ARQUITECTURA_MAESTRA.md",
+                          "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+                          "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md"
+                      ],
+    "evidence":  [
+                     "artifacts/documentation/SGD-115/component-inventory.json",
+                     "artifacts/documentation/SGD-115/master-documentation-validation.json",
+                     "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
+                     "artifacts/pmo/SGD-115/implementation-evidence.json"
+                 ]
+}

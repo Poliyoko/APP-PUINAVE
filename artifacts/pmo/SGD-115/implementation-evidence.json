@@ -1,0 +1,17 @@
+{
+    "increment_code":  "SGD-115",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "generated_at_utc":  "2026-08-02T09:35:00.0933415Z",
+    "master_documents":  [
+                             "docs/00_INDICE_MAESTRO.md",
+                             "docs/00_ARQUITECTURA_MAESTRA.md",
+                             "docs/00_REGISTRO_MAESTRO_COMPONENTES.md"
+                         ],
+    "source":  [
+                   "src/sgoda/documentation/master_docs.py"
+               ],
+    "tests":  [
+                  "tests/documentation/test_SGD_115_master_documentation.py"
+              ]
+}

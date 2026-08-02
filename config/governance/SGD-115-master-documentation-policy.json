@@ -1,0 +1,27 @@
+{
+  "increment_code": "SGD-115",
+  "version": "1.0.0",
+  "policy_name": "Sistema Maestro de Documentación del Proyecto",
+  "mandatory_documents": [
+    "docs/00_INDICE_MAESTRO.md",
+    "docs/00_ARQUITECTURA_MAESTRA.md",
+    "docs/00_REGISTRO_MAESTRO_COMPONENTES.md"
+  ],
+  "required_registry_sources": [
+    "config/**/*component*.json",
+    "docs/**/*.md",
+    "src/**/*",
+    "tests/**/*",
+    "artifacts/**/*",
+    "releases/**/*"
+  ],
+  "validation_rules": {
+    "utf8": true,
+    "required_sections": true,
+    "broken_paths": false,
+    "duplicate_component_codes": false,
+    "component_inventory_required": true
+  },
+  "update_event": "MasterDocumentationUpdated",
+  "governed_by": "SGD-114-v2.0.1"
+}

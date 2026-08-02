@@ -1,0 +1,20 @@
+{
+    "increment_code":  "SGD-115",
+    "corrective_version":  "1.0.1",
+    "generated_at_utc":  "2026-08-02T09:37:55.6957645Z",
+    "correction":  [
+                       "navigation_directories_excluded_from_file_validation",
+                       "lazy_package_imports"
+                   ],
+    "specific_tests":  8,
+    "expected_total_tests":  129,
+    "validation_passed":  true,
+    "component_count":  10,
+    "broken_paths":  0,
+    "duplicate_codes":  0,
+    "master_documents":  [
+                             "docs/00_INDICE_MAESTRO.md",
+                             "docs/00_ARQUITECTURA_MAESTRA.md",
+                             "docs/00_REGISTRO_MAESTRO_COMPONENTES.md"
+                         ]
+}

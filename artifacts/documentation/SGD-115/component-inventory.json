@@ -1,0 +1,309 @@
+[
+  {
+    "code": "ADR-010",
+    "name": "relational_media_repository",
+    "version": "1.0.0",
+    "status": "institutionally_closed",
+    "component_type": "relational_media_repository",
+    "config_path": "config/media/ADR-010-component.json",
+    "source_paths": [
+      "src/sgoda/media/cli.py",
+      "src/sgoda/media/migration.py",
+      "src/sgoda/media/models.py",
+      "src/sgoda/media/repository.py"
+    ],
+    "test_paths": [
+      "tests/media/test_ADR_010_rmr_repository.py"
+    ],
+    "documentation_paths": [
+      "docs/03_ADR/ADR-010-Arquitectura-Escalable-Repositorio-Multimedia-RMR.md",
+      "docs/03_ADR/ADR-010-Evidence-Management-System.md",
+      "docs/05_Fase_Tecnologica/ADR-010/ADR-010-Implementacion-RMR.md"
+    ],
+    "release_paths": [
+      "releases/ADR-010-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/media/ADR-010/rmr-baseline-manifest.json",
+      "artifacts/media/ADR-010/rmr-initialized-event.json",
+      "artifacts/media/ADR-010/rmr-migration-result.json",
+      "artifacts/media/ADR-010/rmr-resources.jsonl",
+      "artifacts/media/ADR-010/rmr-statistics.json",
+      "artifacts/media/ADR-010/rmr-validation.json",
+      "artifacts/media/ADR-010/rmr.sqlite3",
+      "artifacts/pmo/ADR-010/ADR-010-quality-gate.json",
+      "artifacts/pmo/ADR-010/implementation-evidence.json",
+      "artifacts/pmo/ADR-010/traceability-ADR-010.json"
+    ]
+  },
+  {
+    "code": "SGD-114-v2",
+    "name": "institutional_repository_governance",
+    "version": "2.0.0",
+    "status": "institutionally_closed",
+    "component_type": "institutional_repository_governance",
+    "config_path": "config/governance/SGD-114-v2-component.json",
+    "source_paths": [
+      "src/sgoda/governance/repository_governance.py"
+    ],
+    "test_paths": [
+      "tests/governance/test_SGD_114_v2_repository_governance.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114-v2.0-Politica-Repositorio-Institucional.md",
+      "docs/05_Fase_Tecnologica/SGD-114/SGD-114-v2.0-Implementacion-Tecnica.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114-v2.0.1"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114-v2/SGD-114-v2-quality-gate.json",
+      "artifacts/pmo/SGD-114-v2/SGD-114-v2.0.1-windows-test-evidence.json",
+      "artifacts/pmo/SGD-114-v2/implementation-evidence.json",
+      "artifacts/pmo/SGD-114-v2/repository-audit.json",
+      "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
+      "artifacts/pmo/SGD-114-v2/repository-manifest.json",
+      "artifacts/pmo/SGD-114-v2/traceability-SGD-114-v2.json"
+    ]
+  },
+  {
+    "code": "SGD-115",
+    "name": "Sistema Maestro de Documentación del Proyecto",
+    "version": "1.0.0",
+    "status": "technically_completed",
+    "component_type": "master_documentation_system",
+    "config_path": "config/governance/SGD-115-component.json",
+    "source_paths": [
+      "src/sgoda/documentation/master_docs.py"
+    ],
+    "test_paths": [
+      "tests/documentation/test_SGD_115_master_documentation.py"
+    ],
+    "documentation_paths": [
+      "docs/00_ARQUITECTURA_MAESTRA.md",
+      "docs/00_INDICE_MAESTRO.md",
+      "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+      "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": [
+      "artifacts/documentation/SGD-115/component-inventory.json",
+      "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
+      "artifacts/documentation/SGD-115/master-documentation-validation.json",
+      "artifacts/pmo/SGD-115/implementation-evidence.json",
+      "artifacts/pmo/SGD-115/traceability-SGD-115.json"
+    ]
+  },
+  {
+    "code": "SPB-007",
+    "name": "institutional_repository_publisher",
+    "version": "1.0.0",
+    "status": "technically_completed",
+    "component_type": "institutional_repository_publisher",
+    "config_path": "config/repository/SPB-007-component.json",
+    "source_paths": [
+      "src/sgoda/publisher/institutional_publisher.py"
+    ],
+    "test_paths": [
+      "tests/publisher/test_SPB_007_institutional_publisher.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SPB-007-Politica-Publicacion-Repositorio.md",
+      "docs/05_Fase_Tecnologica/SPB-007/SPB-007-Publicacion-Institucional.md"
+    ],
+    "release_paths": [
+      "releases/SPB-007-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SPB-007/SPB-007-quality-gate.json",
+      "artifacts/pmo/SPB-007/implementation-evidence.json",
+      "artifacts/pmo/SPB-007/prepublication-audit.json",
+      "artifacts/pmo/SPB-007/publication-result.json",
+      "artifacts/pmo/SPB-007/traceability-SPB-007.json"
+    ]
+  },
+  {
+    "code": "SPT-001B-P06",
+    "name": "rlb_pipeline",
+    "version": "1.3.0",
+    "status": "technically_completed",
+    "component_type": "rlb_pipeline",
+    "config_path": "config/rlb/SPT-001B-P06-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P06-Pipeline-Institucional-RLB.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-data-quality-report.json",
+      "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-quality-gate.json",
+      "artifacts/pmo/SPT-001B-P06/SPT-001B-P06-v1.2-excel-path-evidence.json",
+      "artifacts/pmo/SPT-001B-P06/implementation-evidence.json",
+      "artifacts/pmo/SPT-001B-P06/repository-events.jsonl",
+      "artifacts/pmo/SPT-001B-P06/traceability-SPT-001B-P06.json",
+      "artifacts/rlb/SPT-001B-P06/errores-importacion.json",
+      "artifacts/rlb/SPT-001B-P06/palabras-canonicas.json",
+      "artifacts/rlb/SPT-001B-P06/perfil-rlb.json",
+      "artifacts/rlb/SPT-001B-P06/resumen-ejecucion.json"
+    ]
+  },
+  {
+    "code": "SPT-001B-P07",
+    "name": "rlb_header_normalization",
+    "version": "1.0.0",
+    "status": "technically_completed",
+    "component_type": "rlb_header_normalization",
+    "config_path": "config/rlb/SPT-001B-P07-component.json",
+    "source_paths": [
+      "src/sgoda/rlb/header_normalizer.py"
+    ],
+    "test_paths": [
+      "tests/rlb/test_SPT_001B_P07_header_normalizer.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P07-Normalizacion-Encabezados.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-001B-P07/SPT-001B-P07-quality-gate.json",
+      "artifacts/pmo/SPT-001B-P07/SPT-001B-P07-v1.1-similarity-evidence.json",
+      "artifacts/pmo/SPT-001B-P07/implementation-evidence.json",
+      "artifacts/pmo/SPT-001B-P07/traceability-SPT-001B-P07.json",
+      "artifacts/rlb/SPT-001B-P07/header-mapping-analysis.json",
+      "artifacts/rlb/SPT-001B-P07/normalization-summary.json",
+      "artifacts/rlb/SPT-001B-P07/reprocessed/errores-importacion.json",
+      "artifacts/rlb/SPT-001B-P07/reprocessed/palabras-canonicas.json",
+      "artifacts/rlb/SPT-001B-P07/reprocessed/perfil-rlb.json",
+      "artifacts/rlb/SPT-001B-P07/schema-p07-normalized.json"
+    ]
+  },
+  {
+    "code": "SPT-001B-P08",
+    "name": "canonical_repository_closure",
+    "version": "1.0.0",
+    "status": "institutionally_closed",
+    "component_type": "canonical_repository_closure",
+    "config_path": "config/rlb/SPT-001B-P08-component.json",
+    "source_paths": [
+      "src/sgoda/rlb/canonical_consolidator.py"
+    ],
+    "test_paths": [
+      "tests/rlb/test_SPT_001B_P08_canonical_closure.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P08-Consolidacion-Cierre.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-001B-P08/SPT-001B-P08-quality-gate.json",
+      "artifacts/pmo/SPT-001B-P08/implementation-evidence.json",
+      "artifacts/pmo/SPT-001B-P08/traceability-SPT-001B-P08.json",
+      "artifacts/rlb/SPT-001B-P08/canonical-baseline-manifest.json",
+      "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+      "artifacts/rlb/SPT-001B-P08/canonical-statistics.json",
+      "artifacts/rlb/SPT-001B-P08/canonical-validation.json"
+    ]
+  },
+  {
+    "code": "SPT-002",
+    "name": "oda_functional_engine",
+    "version": "0.1.0",
+    "status": "technically_completed",
+    "component_type": "oda_functional_engine",
+    "config_path": "config/oda/SPT-002-component.json",
+    "source_paths": [
+      "src/sgoda/oda/cli.py",
+      "src/sgoda/oda/engine.py",
+      "src/sgoda/oda/models.py"
+    ],
+    "test_paths": [
+      "tests/oda/test_SPT_002_oda_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Arquitectura-ODA.md",
+      "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Motor-Funcional-ODA.md"
+    ],
+    "release_paths": [
+      "releases/SPT-002-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/oda/SPT-002/oda-baseline-manifest.json",
+      "artifacts/oda/SPT-002/oda-generation-event.json",
+      "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+      "artifacts/oda/SPT-002/oda-statistics.json",
+      "artifacts/oda/SPT-002/oda-validation.json",
+      "artifacts/pmo/SPT-002/SPT-002-quality-gate.json",
+      "artifacts/pmo/SPT-002/implementation-evidence.json",
+      "artifacts/pmo/SPT-002/traceability-SPT-002.json"
+    ]
+  },
+  {
+    "code": "SPT-003A",
+    "name": "ai_multimedia_orchestrator",
+    "version": "0.1.0",
+    "status": "technically_completed",
+    "component_type": "ai_multimedia_orchestrator",
+    "config_path": "config/automation/SPT-003A-component.json",
+    "source_paths": [
+      "src/sgoda/automation/cli.py",
+      "src/sgoda/automation/job_queue.py",
+      "src/sgoda/automation/models.py",
+      "src/sgoda/automation/planner.py"
+    ],
+    "test_paths": [
+      "tests/automation/test_SPT_003A_multimedia_orchestrator.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Arquitectura-Colas-Eventos.md",
+      "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Orquestador-IA-Multimedia.md"
+    ],
+    "release_paths": [
+      "releases/SPT-003A-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/automation/SPT-003A/job-statistics.json",
+      "artifacts/automation/SPT-003A/multimedia-jobs-planned-event.json",
+      "artifacts/automation/SPT-003A/multimedia-jobs.sqlite3",
+      "artifacts/automation/SPT-003A/orchestrator-validation.json",
+      "artifacts/automation/SPT-003A/planning-summary.json",
+      "artifacts/pmo/SPT-003A/SPT-003A-quality-gate.json",
+      "artifacts/pmo/SPT-003A/implementation-evidence.json",
+      "artifacts/pmo/SPT-003A/traceability-SPT-003A.json"
+    ]
+  },
+  {
+    "code": "SPT-003B",
+    "name": "ai_multimedia_adapters",
+    "version": "0.1.0",
+    "status": "technically_completed",
+    "component_type": "ai_multimedia_adapters",
+    "config_path": "config/automation/SPT-003B-component.json",
+    "source_paths": [],
+    "test_paths": [
+      "tests/automation/test_SPT_003B_ai_multimedia_adapters.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Adaptadores-IA-Multimedia.md",
+      "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Seguridad-Credenciales-Proveedores.md"
+    ],
+    "release_paths": [
+      "releases/SPT-003B-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/automation/SPT-003B/media/RM/RMR-0AAEBE2CE279F1A900B11562.wav",
+      "artifacts/automation/SPT-003B/media/RM/RMR-0AAEBE2CE279F1A900B11562.wav.metadata.json",
+      "artifacts/automation/SPT-003B/media/RM/RMR-0E28EB22BDE66CA4894C8C88.wav",
+      "artifacts/automation/SPT-003B/media/RM/RMR-0E28EB22BDE66CA4894C8C88.wav.metadata.json",
+      "artifacts/automation/SPT-003B/media/RM/RMR-0FF5062178A1F646D95DE05B.wav",
+      "artifacts/automation/SPT-003B/media/RM/RMR-0FF5062178A1F646D95DE05B.wav.metadata.json",
+      "artifacts/automation/SPT-003B/media/RM/RMR-14D71E46AED41B607BBABE17.wav",
+      "artifacts/automation/SPT-003B/media/RM/RMR-14D71E46AED41B607BBABE17.wav.metadata.json",
+      "artifacts/automation/SPT-003B/multimedia-events.jsonl",
+      "artifacts/automation/SPT-003B/processing-summary.json",
+      "artifacts/pmo/SPT-003B/SPT-003B-quality-gate.json",
+      "artifacts/pmo/SPT-003B/implementation-evidence.json",
+      "artifacts/pmo/SPT-003B/traceability-SPT-003B.json"
+    ]
+  }
+]
