@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-02T20:17:16.310850+00:00",
+  "generated_at_utc": "2026-08-02T20:29:24.113896+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -698,12 +698,126 @@
         "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
         "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md"
       ],
-      "release_path": null,
+      "release_path": "releases/SPT-007C-v1.0.0",
       "config_path": "config/knowledge_engine/SPT-007C-component.json",
       "metadata": {
         "discovery_source": "descriptor",
         "raw_code": "SPT-007C",
         "canonical_code": "SPT-007C",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-007D",
+      "name": "Motor de Razonamiento Lingüístico",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "linguistic_reasoning_engine",
+      "phase": "Fase Tecnológica",
+      "dependencies": [
+        "SPT-007C",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/reasoning_engine/models.py",
+        "src/sgoda/reasoning_engine/rules.py",
+        "src/sgoda/reasoning_engine/reasoner.py",
+        "src/sgoda/reasoning_engine/service.py"
+      ],
+      "test_paths": [
+        "tests/reasoning_engine/test_SPT_007D_reasoning_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md"
+      ],
+      "release_path": null,
+      "config_path": "config/reasoning_engine/SPT-007D-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-007D",
+        "canonical_code": "SPT-007D",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-008",
+      "name": "Tutor Inteligente Puinave",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "intelligent_tutor",
+      "phase": "Fase Tecnológica",
+      "dependencies": [
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/tutor/models.py",
+        "src/sgoda/tutor/planner.py",
+        "src/sgoda/tutor/exercises.py",
+        "src/sgoda/tutor/service.py"
+      ],
+      "test_paths": [
+        "tests/tutor/test_SPT_008_intelligent_tutor.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
+        "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md"
+      ],
+      "release_path": null,
+      "config_path": "config/tutor/SPT-008-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-008",
+        "canonical_code": "SPT-008",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-009",
+      "name": "Ecosistema Conversacional",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "conversational_ecosystem",
+      "phase": "Fase Tecnológica",
+      "dependencies": [
+        "SPT-004A",
+        "SPT-006A",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/conversation/models.py",
+        "src/sgoda/conversation/router.py",
+        "src/sgoda/conversation/memory.py",
+        "src/sgoda/conversation/service.py",
+        "src/sgoda/conversation/cli.py"
+      ],
+      "test_paths": [
+        "tests/conversation/test_SPT_009_conversational_ecosystem.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
+        "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md"
+      ],
+      "release_path": null,
+      "config_path": "config/conversation/SPT-009-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-009",
+        "canonical_code": "SPT-009",
         "alias_applied": false
       }
     }

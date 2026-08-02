@@ -19,7 +19,10 @@
     "SPT-006A",
     "SPT-007A",
     "SPT-007B",
-    "SPT-007C"
+    "SPT-007C",
+    "SPT-007D",
+    "SPT-008",
+    "SPT-009"
   ],
   "edges": [
     {
@@ -253,6 +256,86 @@
     {
       "source": "SPT-007C",
       "target": "SPT-007B"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SGD-114C"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SPT-007C"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SGD-114C"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-006A"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007A"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007B"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007C"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007D"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SGD-114C"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-004A"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-006A"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-007C"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-007D"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-008"
     }
   ],
   "resolved_aliases": [
@@ -632,6 +715,106 @@
     {
       "source": "SPT-007C",
       "target": "SPT-007B",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SGD-114C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-007D",
+      "target": "SPT-007C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SGD-114C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-006A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007B",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-008",
+      "target": "SPT-007D",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SGD-114C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-004A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-006A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-007C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-007D",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-009",
+      "target": "SPT-008",
       "status": "FOUND"
     }
   ]

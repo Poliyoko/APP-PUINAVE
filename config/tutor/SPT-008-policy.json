@@ -1,0 +1,15 @@
+{
+  "component": "SPT-008",
+  "version": "1.0.0",
+  "name": "Tutor Inteligente Puinave",
+  "local_first": true,
+  "no_invention": true,
+  "validated_content_only": true,
+  "feedback_enabled": true,
+  "supported_levels": [
+    "beginner",
+    "intermediate",
+    "advanced"
+  ],
+  "paid_services_required": false
+}

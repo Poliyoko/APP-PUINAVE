@@ -1,0 +1,31 @@
+{
+  "increment_code": "SPT-008",
+  "name": "Tutor Inteligente Puinave",
+  "component_type": "intelligent_tutor",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica",
+  "dependencies": [
+    "SPT-006A",
+    "SPT-007A",
+    "SPT-007B",
+    "SPT-007C",
+    "SPT-007D",
+    "SGD-114C",
+    "SGD-115",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/tutor/models.py",
+    "src/sgoda/tutor/planner.py",
+    "src/sgoda/tutor/exercises.py",
+    "src/sgoda/tutor/service.py"
+  ],
+  "tests": [
+    "tests/tutor/test_SPT_008_intelligent_tutor.py"
+  ],
+  "documentation": [
+    "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
+    "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md"
+  ]
+}

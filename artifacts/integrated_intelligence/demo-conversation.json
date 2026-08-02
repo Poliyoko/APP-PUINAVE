@@ -1,0 +1,12 @@
+{
+  "session_id": "demo",
+  "text": "Escucha, observa y reconoce el término AMDA.",
+  "language": "es",
+  "intent": "tutor",
+  "sources": [
+    "LEX-001"
+  ],
+  "audio_text": "Escucha, observa y reconoce el término AMDA.",
+  "unresolved": false,
+  "no_invention": true
+}

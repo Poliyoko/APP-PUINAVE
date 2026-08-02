@@ -1,0 +1,27 @@
+{
+    "nodes":  [
+                  {
+                      "node_id":  "LEX-001",
+                      "node_type":  "lexical_entry",
+                      "label":  "AMDA",
+                      "language":  "pu",
+                      "validated":  true,
+                      "source_ref":  "RLB:LEX-001"
+                  },
+                  {
+                      "node_id":  "CON-001",
+                      "node_type":  "concept",
+                      "label":  "Casa",
+                      "validated":  true
+                  }
+              ],
+    "edges":  [
+                  {
+                      "source_id":  "LEX-001",
+                      "target_id":  "CON-001",
+                      "relation_type":  "related_to",
+                      "validated":  true,
+                      "weight":  1
+                  }
+              ]
+}

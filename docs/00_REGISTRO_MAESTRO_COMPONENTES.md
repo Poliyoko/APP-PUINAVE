@@ -26,7 +26,10 @@
 | SPT-006A | Motor Multilingüe Local, Gratuito y con Licencias Verificadas | 0.2.0 | technically_completed | `config/language_engine/SPT-006A-component.json` | 7 | 1 | 3 | 1 | 4 |
 | SPT-007A | Fundación del Motor Léxico Inteligente | 0.1.0 | implemented | `config/lexical_engine/SPT-007A-component.json` | 8 | 1 | 3 | 1 | 6 |
 | SPT-007B | Motor Léxico Inteligente Semántico | 1.0.0 | implemented | `config/lexical_engine/SPT-007B-component.json` | 8 | 1 | 3 | 1 | 7 |
-| SPT-007C | Motor de Conocimiento Lingüístico y Cultural | 1.0.0 | implemented | `config/knowledge_engine/SPT-007C-component.json` | 8 | 1 | 7 | 1 | 5 |
+| SPT-007C | Motor de Conocimiento Lingüístico y Cultural | 1.0.0 | implemented | `config/knowledge_engine/SPT-007C-component.json` | 8 | 1 | 7 | 1 | 6 |
+| SPT-007D | Motor de Razonamiento Lingüístico | 1.0.0 | implemented | `config/reasoning_engine/SPT-007D-component.json` | 4 | 1 | 2 | 1 | 4 |
+| SPT-008 | Tutor Inteligente Puinave | 1.0.0 | implemented | `config/tutor/SPT-008-component.json` | 4 | 1 | 2 | 1 | 4 |
+| SPT-009 | Ecosistema Conversacional | 1.0.0 | implemented | `config/conversation/SPT-009-component.json` | 5 | 1 | 2 | 1 | 4 |
 
 ## Detalle por componente
 
@@ -304,5 +307,41 @@
 - **Pruebas:** `tests/knowledge_engine/test_SPT_007C_knowledge_engine.py`
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md`
 - **Releases:** `releases/SPT-007C-v1.0.0`
-- **Evidencias:** 5 archivo(s) identificado(s).
+- **Evidencias:** 6 archivo(s) identificado(s).
+
+### SPT-007D — Motor de Razonamiento Lingüístico
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** linguistic_reasoning_engine
+- **Configuración:** `config/reasoning_engine/SPT-007D-component.json`
+- **Código:** `src/sgoda/reasoning_engine/models.py`, `src/sgoda/reasoning_engine/reasoner.py`, `src/sgoda/reasoning_engine/rules.py`, `src/sgoda/reasoning_engine/service.py`
+- **Pruebas:** `tests/reasoning_engine/test_SPT_007D_reasoning_engine.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md`, `docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md`
+- **Releases:** `releases/SPT-007D-v1.0.0`
+- **Evidencias:** 4 archivo(s) identificado(s).
+
+### SPT-008 — Tutor Inteligente Puinave
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** intelligent_tutor
+- **Configuración:** `config/tutor/SPT-008-component.json`
+- **Código:** `src/sgoda/tutor/exercises.py`, `src/sgoda/tutor/models.py`, `src/sgoda/tutor/planner.py`, `src/sgoda/tutor/service.py`
+- **Pruebas:** `tests/tutor/test_SPT_008_intelligent_tutor.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md`, `docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md`
+- **Releases:** `releases/SPT-008-v1.0.0`
+- **Evidencias:** 4 archivo(s) identificado(s).
+
+### SPT-009 — Ecosistema Conversacional
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** conversational_ecosystem
+- **Configuración:** `config/conversation/SPT-009-component.json`
+- **Código:** `src/sgoda/conversation/cli.py`, `src/sgoda/conversation/memory.py`, `src/sgoda/conversation/models.py`, `src/sgoda/conversation/router.py`, `src/sgoda/conversation/service.py`
+- **Pruebas:** `tests/conversation/test_SPT_009_conversational_ecosystem.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md`, `docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md`
+- **Releases:** `releases/SPT-009-v1.0.0`
+- **Evidencias:** 4 archivo(s) identificado(s).
 

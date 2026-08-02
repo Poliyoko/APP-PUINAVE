@@ -1,0 +1,16 @@
+{
+  "component": "SPT-009",
+  "version": "1.0.0",
+  "name": "Ecosistema Conversacional",
+  "local_first": true,
+  "no_invention": true,
+  "text_enabled": true,
+  "voice_contract_enabled": true,
+  "external_paid_services_required": false,
+  "supported_languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ]
+}

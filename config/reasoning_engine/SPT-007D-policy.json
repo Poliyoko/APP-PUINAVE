@@ -1,0 +1,11 @@
+{
+  "component": "SPT-007D",
+  "version": "1.0.0",
+  "name": "Motor de Razonamiento Lingüístico",
+  "local_first": true,
+  "no_invention": true,
+  "explainable": true,
+  "validated_edges_only": true,
+  "maximum_depth": 3,
+  "paid_services_required": false
+}

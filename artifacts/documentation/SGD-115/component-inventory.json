@@ -914,9 +914,101 @@
     "evidence_paths": [
       "artifacts/knowledge_engine/SPT-007C/demo-knowledge-graph.json",
       "artifacts/knowledge_engine/SPT-007C/demo-knowledge-query.json",
+      "artifacts/pmo/SPT-007C/SPT-007C-implementation-evidence.json",
       "artifacts/pmo/SPT-007C/SPT-007C-policy-result.json",
       "artifacts/pmo/SPT-007C/SPT-007C-policy-result.md",
       "artifacts/pmo/SPT-007C/SPT-007C-pre-gate-evidence.json"
+    ]
+  },
+  {
+    "code": "SPT-007D",
+    "name": "Motor de Razonamiento Lingüístico",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "linguistic_reasoning_engine",
+    "config_path": "config/reasoning_engine/SPT-007D-component.json",
+    "source_paths": [
+      "src/sgoda/reasoning_engine/models.py",
+      "src/sgoda/reasoning_engine/reasoner.py",
+      "src/sgoda/reasoning_engine/rules.py",
+      "src/sgoda/reasoning_engine/service.py"
+    ],
+    "test_paths": [
+      "tests/reasoning_engine/test_SPT_007D_reasoning_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
+      "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md"
+    ],
+    "release_paths": [
+      "releases/SPT-007D-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-007D/SPT-007D-implementation-evidence.json",
+      "artifacts/pmo/SPT-007D/SPT-007D-policy-result.json",
+      "artifacts/pmo/SPT-007D/SPT-007D-policy-result.md",
+      "artifacts/pmo/SPT-007D/SPT-007D-pre-gate-evidence.json"
+    ]
+  },
+  {
+    "code": "SPT-008",
+    "name": "Tutor Inteligente Puinave",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "intelligent_tutor",
+    "config_path": "config/tutor/SPT-008-component.json",
+    "source_paths": [
+      "src/sgoda/tutor/exercises.py",
+      "src/sgoda/tutor/models.py",
+      "src/sgoda/tutor/planner.py",
+      "src/sgoda/tutor/service.py"
+    ],
+    "test_paths": [
+      "tests/tutor/test_SPT_008_intelligent_tutor.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md",
+      "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md"
+    ],
+    "release_paths": [
+      "releases/SPT-008-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-008/SPT-008-implementation-evidence.json",
+      "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+      "artifacts/pmo/SPT-008/SPT-008-policy-result.md",
+      "artifacts/pmo/SPT-008/SPT-008-pre-gate-evidence.json"
+    ]
+  },
+  {
+    "code": "SPT-009",
+    "name": "Ecosistema Conversacional",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "conversational_ecosystem",
+    "config_path": "config/conversation/SPT-009-component.json",
+    "source_paths": [
+      "src/sgoda/conversation/cli.py",
+      "src/sgoda/conversation/memory.py",
+      "src/sgoda/conversation/models.py",
+      "src/sgoda/conversation/router.py",
+      "src/sgoda/conversation/service.py"
+    ],
+    "test_paths": [
+      "tests/conversation/test_SPT_009_conversational_ecosystem.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
+      "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md"
+    ],
+    "release_paths": [
+      "releases/SPT-009-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-009/SPT-009-implementation-evidence.json",
+      "artifacts/pmo/SPT-009/SPT-009-policy-result.json",
+      "artifacts/pmo/SPT-009/SPT-009-policy-result.md",
+      "artifacts/pmo/SPT-009/SPT-009-pre-gate-evidence.json"
     ]
   }
 ]

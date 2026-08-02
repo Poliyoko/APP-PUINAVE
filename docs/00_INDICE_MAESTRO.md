@@ -54,7 +54,7 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **23**.
+Total identificado automáticamente: **26**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-PA** — SGD-114 Policy Auditor (v1.0.0; implemented)
@@ -79,6 +79,9 @@ Total identificado automáticamente: **23**.
 - **SPT-007A** — Fundación del Motor Léxico Inteligente (v0.1.0; implemented)
 - **SPT-007B** — Motor Léxico Inteligente Semántico (v1.0.0; implemented)
 - **SPT-007C** — Motor de Conocimiento Lingüístico y Cultural (v1.0.0; implemented)
+- **SPT-007D** — Motor de Razonamiento Lingüístico (v1.0.0; implemented)
+- **SPT-008** — Tutor Inteligente Puinave (v1.0.0; implemented)
+- **SPT-009** — Ecosistema Conversacional (v1.0.0; implemented)
 
 ## 14. Política de actualización
 

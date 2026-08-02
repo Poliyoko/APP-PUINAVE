@@ -23,4 +23,7 @@
 | 2026-08-02T14:10:35-05:00 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | technically_completed | releases/SGD-116B-v3.0.0 |
 | 2026-08-02T14:42:06-05:00 | SPT-007A | Fundación del Motor Léxico Inteligente | implemented | releases/SPT-007A-v0.1.0 |
 | 2026-08-02T14:58:34-05:00 | SPT-007B | Motor Léxico Inteligente Semántico | implemented | releases/SPT-007B-v1.0.0 |
-| No determinada | SPT-007C | Motor de Conocimiento Lingüístico y Cultural | implemented | Pendiente |
+| 2026-08-02T15:17:52-05:00 | SPT-007C | Motor de Conocimiento Lingüístico y Cultural | implemented | releases/SPT-007C-v1.0.0 |
+| No determinada | SPT-007D | Motor de Razonamiento Lingüístico | implemented | Pendiente |
+| No determinada | SPT-008 | Tutor Inteligente Puinave | implemented | Pendiente |
+| No determinada | SPT-009 | Ecosistema Conversacional | implemented | Pendiente |

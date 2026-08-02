@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **20**  
-Avance institucional: **85.0%**
+Componentes registrados: **23**  
+Avance institucional: **86.96%**
 
 ## Asistente e integraciones
 
@@ -25,7 +25,10 @@ Avance institucional: **85.0%**
 |---|---|---|---|---|
 | SPT-007A | Fundación del Motor Léxico Inteligente | implemented | 0.1.0 | releases/SPT-007A-v0.1.0 |
 | SPT-007B | Motor Léxico Inteligente Semántico | implemented | 1.0.0 | releases/SPT-007B-v1.0.0 |
-| SPT-007C | Motor de Conocimiento Lingüístico y Cultural | implemented | 1.0.0 | Pendiente |
+| SPT-007C | Motor de Conocimiento Lingüístico y Cultural | implemented | 1.0.0 | releases/SPT-007C-v1.0.0 |
+| SPT-007D | Motor de Razonamiento Lingüístico | implemented | 1.0.0 | Pendiente |
+| SPT-008 | Tutor Inteligente Puinave | implemented | 1.0.0 | Pendiente |
+| SPT-009 | Ecosistema Conversacional | implemented | 1.0.0 | Pendiente |
 
 ## Gobierno y arquitectura
 

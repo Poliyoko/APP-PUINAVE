@@ -1,9 +1,9 @@
 {
   "passed": true,
   "master_documents_present": true,
-  "component_count": 23,
+  "component_count": 26,
   "broken_paths": [],
   "duplicate_codes": [],
   "missing_required_sections": {},
-  "generated_at_utc": "2026-08-02T20:17:24.257769+00:00"
+  "generated_at_utc": "2026-08-02T20:29:33.377540+00:00"
 }

@@ -1,0 +1,27 @@
+{
+  "increment_code": "SPT-007D",
+  "name": "Motor de Razonamiento Lingüístico",
+  "component_type": "linguistic_reasoning_engine",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica",
+  "dependencies": [
+    "SPT-007C",
+    "SGD-114C",
+    "SGD-115",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/reasoning_engine/models.py",
+    "src/sgoda/reasoning_engine/rules.py",
+    "src/sgoda/reasoning_engine/reasoner.py",
+    "src/sgoda/reasoning_engine/service.py"
+  ],
+  "tests": [
+    "tests/reasoning_engine/test_SPT_007D_reasoning_engine.py"
+  ],
+  "documentation": [
+    "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
+    "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md"
+  ]
+}
