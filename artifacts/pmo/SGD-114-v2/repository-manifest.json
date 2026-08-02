@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T09:39:05.471735+00:00",
+  "generated_at_utc": "2026-08-02T09:48:50.880121+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 896,
+  "total_files": 923,
   "totals_by_category": {
-    "other": 373,
-    "evidence": 236,
-    "configuration": 24,
-    "dashboard": 10,
-    "documentation": 65,
-    "release": 40,
-    "automation": 18,
-    "source": 103,
-    "tests": 27
+    "other": 374,
+    "evidence": 240,
+    "configuration": 28,
+    "dashboard": 11,
+    "documentation": 67,
+    "release": 47,
+    "automation": 19,
+    "source": 109,
+    "tests": 28
   },
   "files": [
     {
@@ -236,6 +236,12 @@
       "path": "Install-SPT003B-AI-Multimedia-Adapters.ps1",
       "sha256": "2a6eedcfc40f81b288931d678463c3e6211cc4eb8879bc24e89a3f95ad0a548e",
       "size_bytes": 39158,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT003C-Controlled-Provider-Pilot.ps1",
+      "sha256": "24ae47cfb92c2c4bc40795fcbc344215c39179e8e5559dbc7d47cc66cc4f4caa",
+      "size_bytes": 39470,
       "category": "other"
     },
     {
@@ -599,6 +605,12 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/automation/SPT-003C/pilot-summary.json",
+      "sha256": "61acb32741acb28e7929d5d25195768d54e447e6bd57ab29a1bdf5be677b747a",
+      "size_bytes": 236,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/development/spb-003.2-b1.3/manifest.json",
       "sha256": "08e051dbefb8b148f2a5d93571ed897873446d9ed412cf91e7f4a656c7574d80",
       "size_bytes": 1019,
@@ -804,19 +816,19 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "10fc038de9fac2277f66b01f225b864970df57143401bacf26e04fb526f7c972",
-      "size_bytes": 12503,
+      "sha256": "b6ca999f13ad8d346c5aeaef4d3ccb77f35a5a9773bb83986556aca9ec0b0a1c",
+      "size_bytes": 13770,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "4253c79570866423297d76f4864f544255397414c16d22752c10b806b3cec465",
+      "sha256": "5cd046d7b9eff011feea5ad1bc2ff6e6abdd861a440fe364d4241901882b3b4b",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "7e087699c88c7eaa5982aa3c20ea3e7e4e8c14424fbf9cde09a2ce1b3dedb445",
+      "sha256": "945193a2d314f20d6970f30319107294803951a48aad3cfe725def0ffcbc391b",
       "size_bytes": 231,
       "category": "evidence"
     },
@@ -924,20 +936,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "a76dbc2b18a8fca0a146a712f90145dcbcb770c8db17264f9233d6235a7c6157",
-      "size_bytes": 1431,
+      "sha256": "2c6a4ec09af45a55ece1001b5ad79561f53f89002a1ed8a54cc0a1a163788133",
+      "size_bytes": 1432,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "4254e091435aaef20dce3301375c0bfab2c3c1ca3ee38873ca463e121700e647",
+      "sha256": "9c3c2bce804d7a963c117202c1d5d18bead87b72159bfbd411c859d96723e2e7",
       "size_bytes": 642,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "c9e3615a8b682cf849674e0fc523f95359ebbf016dc701a90127f724f488fee4",
-      "size_bytes": 199012,
+      "sha256": "8fddcd80354b3542c365d93042822a0ec75d15db16a5d3cf806ed5bf629f9761",
+      "size_bytes": 203056,
       "category": "evidence"
     },
     {
@@ -1686,8 +1698,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "d19c6ec47d0fdabc14a7b58b000da828b238cc43f5fc340cb28e2c872081a943",
-      "size_bytes": 3201,
+      "sha256": "42b8ee07e480488ace92cdd2235e16f0302d3c4d7f7ac297fdde9252ad0a5803",
+      "size_bytes": 3894,
       "category": "evidence"
     },
     {
@@ -1832,6 +1844,24 @@
       "path": "artifacts/pmo/SPT-003B/traceability-SPT-003B.json",
       "sha256": "85acb2d8e28ccbc63df5d4710a2983c85faa65916d3c101623b98edf51833636",
       "size_bytes": 680,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003C/SPT-003C-quality-gate.json",
+      "sha256": "a924c5323ec253cc70d59a43b23236ec87be20f2a697ba8fda8b89ef1a12d92c",
+      "size_bytes": 2988,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003C/implementation-evidence.json",
+      "sha256": "9dfa617d056c615fce55b4532bb69fec2930afe913ead0c3966d6e1981cc978a",
+      "size_bytes": 609,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003C/traceability-SPT-003C.json",
+      "sha256": "d17fcc0873532477bf4bd66d915146d7699f1be1bdfeb7e8f6e7aff25241c65c",
+      "size_bytes": 679,
       "category": "evidence"
     },
     {
@@ -3683,6 +3713,30 @@
       "category": "configuration"
     },
     {
+      "path": "config/automation/SPT-003C-approval-template.json",
+      "sha256": "a1e1030b3317eba413cb503607b497c61ec26746bcafe21676fd223fe11900cc",
+      "size_bytes": 375,
+      "category": "configuration"
+    },
+    {
+      "path": "config/automation/SPT-003C-component.json",
+      "sha256": "5c299ba723dd131e9e76a57125bb826a0f256e2cf332b185d49681bb38b2d96b",
+      "size_bytes": 614,
+      "category": "configuration"
+    },
+    {
+      "path": "config/automation/SPT-003C-pilot-policy.json",
+      "sha256": "897075e5f1b9ea12e49f6888722680729803cc13b0bf68aa7310c17cd94f75ef",
+      "size_bytes": 595,
+      "category": "configuration"
+    },
+    {
+      "path": "config/automation/SPT-003C-pricing-template.json",
+      "sha256": "1757e44aaf7abe3830efcc9fec9562e9202f1cc337e72dc372c57c4c40856bfa",
+      "size_bytes": 249,
+      "category": "configuration"
+    },
+    {
       "path": "config/evidence-retention-policies.json",
       "sha256": "4949c490877c07876ea87b05784c8c0f54918e7793ccac141309e137cc3c76df",
       "size_bytes": 4756,
@@ -3857,8 +3911,14 @@
       "category": "dashboard"
     },
     {
+      "path": "dashboard/SPT-003C-dashboard.json",
+      "sha256": "285b8bf4b54acd38229bbfa1a754eaf2a2bb8072811d280fb050d5ccf8096acb",
+      "size_bytes": 685,
+      "category": "dashboard"
+    },
+    {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "b0677eac4e40cee66de8bb1323662a32a5947ba3580906d0f8f9f4172e2e02ac",
+      "sha256": "63ba6bebbe4e408d32cd294269d3acbd1eaae188a36d65b716fc5908d671562f",
       "size_bytes": 2799,
       "category": "documentation"
     },
@@ -3870,14 +3930,14 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "c2443efcf668bdc181e2386e64881f9b0694b3201c71a03c18cbe50fc9719b6e",
-      "size_bytes": 2105,
+      "sha256": "0ffba3fdcbb99ebe13e9a68401930fea5608157aec54fa4f5b805c9d572877c1",
+      "size_bytes": 2197,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "72ea382fbfad15d764d7cae8e2d52d555728657a9cbb259a99240f5e64391d5a",
-      "size_bytes": 7779,
+      "sha256": "6526423c2c51612bb3c5a05aa244cb96e5fb225c97e586e0e70b6059e0a862cb",
+      "size_bytes": 8738,
       "category": "documentation"
     },
     {
@@ -4172,6 +4232,18 @@
       "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Seguridad-Credenciales-Proveedores.md",
       "sha256": "fca08f2888da2efbd6dff1391f57fbe75b3f4c25eec3d635a9f6be37a9e9709b",
       "size_bytes": 485,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Piloto-Controlado-Proveedores.md",
+      "sha256": "32cf5d7f5155ed1a96a33af67c3ca8e1868fbfd660bb19dcb80ed6b1c3a10d53",
+      "size_bytes": 798,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md",
+      "sha256": "f38969caad23b5c5831465a61650016252821f035491974ac23e3c867b932a5b",
+      "size_bytes": 495,
       "category": "documentation"
     },
     {
@@ -4505,6 +4577,48 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-Piloto-Controlado-Proveedores.md",
+      "sha256": "32cf5d7f5155ed1a96a33af67c3ca8e1868fbfd660bb19dcb80ed6b1c3a10d53",
+      "size_bytes": 798,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-Protocolo-Aprobacion-Cultural.md",
+      "sha256": "f38969caad23b5c5831465a61650016252821f035491974ac23e3c867b932a5b",
+      "size_bytes": 495,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-approval-template.json",
+      "sha256": "a1e1030b3317eba413cb503607b497c61ec26746bcafe21676fd223fe11900cc",
+      "size_bytes": 375,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-component.json",
+      "sha256": "5c299ba723dd131e9e76a57125bb826a0f256e2cf332b185d49681bb38b2d96b",
+      "size_bytes": 614,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-pilot-policy.json",
+      "sha256": "897075e5f1b9ea12e49f6888722680729803cc13b0bf68aa7310c17cd94f75ef",
+      "size_bytes": 595,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-pricing-template.json",
+      "sha256": "1757e44aaf7abe3830efcc9fec9562e9202f1cc337e72dc372c57c4c40856bfa",
+      "size_bytes": 249,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/pilot-summary.json",
+      "sha256": "61acb32741acb28e7929d5d25195768d54e447e6bd57ab29a1bdf5be677b747a",
+      "size_bytes": 236,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -4586,6 +4700,12 @@
       "path": "scripts/Invoke-SPT003B-AdapterValidation.ps1",
       "sha256": "2be6bb2ee218860185ce7dccaf502b8828fd574ab66a3cc24f75ad5c19b11126",
       "size_bytes": 741,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT003C-ControlledPilot.ps1",
+      "sha256": "7f6ce23471510a5f55006ca9abe55f4951d25661f9fccedc5a572b99676a7e61",
+      "size_bytes": 750,
       "category": "automation"
     },
     {
@@ -4694,6 +4814,42 @@
       "path": "src/sgoda/automation/models.py",
       "sha256": "f89a74488aaf8d55b6bf08e4e3ab91b55909e2c943b68cca18364f8543b58602",
       "size_bytes": 959,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/pilot/__init__.py",
+      "sha256": "ff0b20940973ad7e4d391e464863460b6fc698ad0bec3f953573dcc97ca38360",
+      "size_bytes": 1132,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/pilot/budget.py",
+      "sha256": "c5a2f7c6fdedfdd9b49d5d9e2baa4fa6013eec7af9d1ac31b10d6c714d7f95e3",
+      "size_bytes": 1355,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/pilot/circuit_breaker.py",
+      "sha256": "99f47a1abea5684ab9b6c53019e9b6f1965379ef88c4ed6111373fc7fe0d83eb",
+      "size_bytes": 2085,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/pilot/governance.py",
+      "sha256": "3cb1085df8fa3cc2924fa72f29518f0b34579b5be8ff58e37ecad8d03e0dbddb",
+      "size_bytes": 3904,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/pilot/models.py",
+      "sha256": "2057cb517e1366c5129be1b2a2fbb4c0b1478d507c398abe71baf2e065183f80",
+      "size_bytes": 1169,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/pilot/runner.py",
+      "sha256": "73a2f0b5238273050bc169be3b6cd3f13d9ad800c491da86ed14ff0583d91375",
+      "size_bytes": 7471,
       "category": "source"
     },
     {
@@ -5240,6 +5396,12 @@
       "path": "tests/automation/test_SPT_003B_ai_multimedia_adapters.py",
       "sha256": "0dc513fa53a5f56dc3787cd6c590b9163e6c42e25538295ab8ee26e01417d294",
       "size_bytes": 6340,
+      "category": "tests"
+    },
+    {
+      "path": "tests/automation/test_SPT_003C_controlled_provider_pilot.py",
+      "sha256": "9fcc3da901040269ffd8c2a4a047f67f0dd2f8f8a7f71efc478959c91d24c6a1",
+      "size_bytes": 5239,
       "category": "tests"
     },
     {

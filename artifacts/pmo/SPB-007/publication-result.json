@@ -1,16 +1,16 @@
 {
   "increment": "SPB-007",
   "version": "1.0.0",
-  "generated_at_utc": "2026-08-02T09:39:03.519853+00:00",
+  "generated_at_utc": "2026-08-02T09:48:49.177655+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
   "result": {
     "branch": "feature/SPT-001A-rlb-schema-foundation",
     "remote": "origin",
     "upstream_before": "origin/feature/SPT-001A-rlb-schema-foundation",
     "upstream_after": "origin/feature/SPT-001A-rlb-schema-foundation",
-    "staged_files": 18,
+    "staged_files": 33,
     "commit_created": true,
-    "commit_sha": "98b773ce05743b46ceb268be950fe65f30024662",
+    "commit_sha": "a5837d881312e1d332cb4cd2880093bb0bbbf00c",
     "tag_created": false,
     "pushed": true,
     "clean_after_publish": true,
@@ -45,10 +45,10 @@
           "git",
           "commit",
           "-m",
-          "fix(documentation): complete SGD-115 path validation"
+          "feat(automation): implement SPT-003C controlled provider pilot"
         ],
         "returncode": 0,
-        "stdout": "[feature/SPT-001A-rlb-schema-foundation 98b773c] fix(documentation): complete SGD-115 path validation\n 18 files changed, 3547 insertions(+)\n create mode 100644 Install-SGD115-Master-Documentation-System.ps1\n create mode 100644 Repair-SGD115-v1.0.1-Path-Validation.ps1\n create mode 100644 artifacts/documentation/SGD-115/component-inventory.json\n create mode 100644 artifacts/documentation/SGD-115/master-documentation-updated-event.json\n create mode 100644 artifacts/documentation/SGD-115/master-documentation-validation.json\n create mode 100644 artifacts/pmo/SGD-115/SGD-115-v1.0.1-corrective-evidence.json\n create mode 100644 artifacts/pmo/SGD-115/implementation-evidence.json\n create mode 100644 artifacts/pmo/SGD-115/traceability-SGD-115.json\n create mode 100644 config/governance/SGD-115-component.json\n create mode 100644 config/governance/SGD-115-master-documentation-policy.json\n create mode 100644 docs/00_ARQUITECTURA_MAESTRA.md\n create mode 100644 docs/00_INDICE_MAESTRO.md\n create mode 100644 docs/00_REGISTRO_MAESTRO_COMPONENTES.md\n create mode 100644 docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md\n create mode 100644 scripts/Invoke-SGD115-MasterDocumentation.ps1\n create mode 100644 src/sgoda/documentation/__init__.py\n create mode 100644 src/sgoda/documentation/master_docs.py\n create mode 100644 tests/documentation/test_SGD_115_master_documentation.py",
+        "stdout": "[feature/SPT-001A-rlb-schema-foundation a5837d8] feat(automation): implement SPT-003C controlled provider pilot\n 33 files changed, 2724 insertions(+), 8 deletions(-)\n create mode 100644 Install-SPT003C-Controlled-Provider-Pilot.ps1\n create mode 100644 artifacts/automation/SPT-003C/pilot-summary.json\n create mode 100644 artifacts/pmo/SPT-003C/SPT-003C-quality-gate.json\n create mode 100644 artifacts/pmo/SPT-003C/implementation-evidence.json\n create mode 100644 artifacts/pmo/SPT-003C/traceability-SPT-003C.json\n create mode 100644 config/automation/SPT-003C-approval-template.json\n create mode 100644 config/automation/SPT-003C-component.json\n create mode 100644 config/automation/SPT-003C-pilot-policy.json\n create mode 100644 config/automation/SPT-003C-pricing-template.json\n create mode 100644 dashboard/SPT-003C-dashboard.json\n create mode 100644 docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Piloto-Controlado-Proveedores.md\n create mode 100644 docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md\n create mode 100644 releases/SPT-003C-v0.1.0/SPT-003C-Piloto-Controlado-Proveedores.md\n create mode 100644 releases/SPT-003C-v0.1.0/SPT-003C-Protocolo-Aprobacion-Cultural.md\n create mode 100644 releases/SPT-003C-v0.1.0/SPT-003C-approval-template.json\n create mode 100644 releases/SPT-003C-v0.1.0/SPT-003C-component.json\n create mode 100644 releases/SPT-003C-v0.1.0/SPT-003C-pilot-policy.json\n create mode 100644 releases/SPT-003C-v0.1.0/SPT-003C-pricing-template.json\n create mode 100644 releases/SPT-003C-v0.1.0/pilot-summary.json\n create mode 100644 scripts/Invoke-SPT003C-ControlledPilot.ps1\n create mode 100644 src/sgoda/automation/pilot/__init__.py\n create mode 100644 src/sgoda/automation/pilot/budget.py\n create mode 100644 src/sgoda/automation/pilot/circuit_breaker.py\n create mode 100644 src/sgoda/automation/pilot/governance.py\n create mode 100644 src/sgoda/automation/pilot/models.py\n create mode 100644 src/sgoda/automation/pilot/runner.py\n create mode 100644 tests/automation/test_SPT_003C_controlled_provider_pilot.py",
         "stderr": ""
       },
       {
@@ -60,7 +60,7 @@
         ],
         "returncode": 0,
         "stdout": "",
-        "stderr": "To https://github.com/Poliyoko/APP-PUINAVE.git\n   f2b9a89..98b773c  feature/SPT-001A-rlb-schema-foundation -> feature/SPT-001A-rlb-schema-foundation"
+        "stderr": "To https://github.com/Poliyoko/APP-PUINAVE.git\n   5db8234..a5837d8  feature/SPT-001A-rlb-schema-foundation -> feature/SPT-001A-rlb-schema-foundation"
       }
     ]
   }
