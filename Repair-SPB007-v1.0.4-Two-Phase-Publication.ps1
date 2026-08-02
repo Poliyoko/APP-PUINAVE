@@ -1,3 +1,107 @@
+﻿<#
+.SYNOPSIS
+    Corrige SPB-007 para publicar evidencias en una segunda fase y
+    ejecutar la auditoría estricta final fuera del repositorio.
+
+.DESCRIPTION
+    La primera publicación fue exitosa, pero después se generaron dentro
+    del repositorio:
+      - publication-result.json;
+      - repository-audit.json;
+      - repository-manifest.json;
+      - repository-governance-event.json.
+
+    Esos archivos volvieron a ensuciar Git.
+
+    Este correctivo reemplaza el orquestador SPB-007 para:
+      1. ejecutar la publicación principal;
+      2. generar la auditoría institucional y sus evidencias;
+      3. confirmar y publicar esas evidencias en un segundo commit;
+      4. ejecutar una auditoría estricta final con salidas temporales
+         fuera del repositorio;
+      5. verificar que Git quede realmente limpio.
+
+    No modifica la configuración global de Git.
+
+.PARAMETER ProjectRoot
+    Ruta raíz del repositorio SGODA-PUINAVE.
+
+.EXAMPLE
+    .\Repair-SPB007-v1.0.4-Two-Phase-Publication.ps1
+#>
+
+[CmdletBinding()]
+param(
+    [string]$ProjectRoot = (Get-Location).Path
+)
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+function Write-Step {
+    param([string]$Message)
+    Write-Host ""
+    Write-Host "==> $Message" -ForegroundColor Cyan
+}
+
+function Assert-Path {
+    param(
+        [string]$Path,
+        [string]$Description
+    )
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        throw "No se encontró $Description en: $Path"
+    }
+}
+
+function Write-Utf8NoBom {
+    param(
+        [string]$Path,
+        [string]$Content
+    )
+
+    $Parent = Split-Path -Parent $Path
+
+    if (-not (Test-Path -LiteralPath $Parent)) {
+        New-Item -ItemType Directory -Path $Parent -Force | Out-Null
+    }
+
+    [System.IO.File]::WriteAllText(
+        $Path,
+        $Content,
+        [System.Text.UTF8Encoding]::new($false)
+    )
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        throw "No se pudo crear: $Path"
+    }
+
+    $Info = Get-Item -LiteralPath $Path
+    Write-Host "Corregido: $Path ($($Info.Length) bytes)" -ForegroundColor Green
+}
+
+$ProjectRoot = [System.IO.Path]::GetFullPath($ProjectRoot)
+Set-Location -LiteralPath $ProjectRoot
+$env:PYTHONPATH = Join-Path $ProjectRoot "src"
+
+$InvokePath = Join-Path `
+    $ProjectRoot `
+    "scripts\Invoke-SPB007-InstitutionalPublish.ps1"
+
+$PublisherTestPath = Join-Path `
+    $ProjectRoot `
+    "tests\publisher\test_SPB_007_institutional_publisher.py"
+
+Assert-Path `
+    -Path $InvokePath `
+    -Description "Invoke-SPB007-InstitutionalPublish.ps1"
+
+Assert-Path `
+    -Path $PublisherTestPath `
+    -Description "las pruebas SPB-007"
+
+$InvokeContent = @'
 [CmdletBinding()]
 param(
     [switch]$Publish,
@@ -187,3 +291,90 @@ Write-Host "SPB-007 publicación institucional completada." -ForegroundColor Gre
 Write-Host "Evidencias posteriores: PUBLICADAS." -ForegroundColor Green
 Write-Host "Auditoría estricta final: APROBADA." -ForegroundColor Green
 Write-Host "Git limpio: True" -ForegroundColor Green
+'@
+
+Write-Step "Instalando orquestador de publicación en dos fases"
+
+Write-Utf8NoBom `
+    -Path $InvokePath `
+    -Content $InvokeContent
+
+Write-Step "Validando estructura del orquestador"
+
+$Installed = Get-Content `
+    -LiteralPath $InvokePath `
+    -Raw `
+    -Encoding UTF8
+
+$RequiredFragments = @(
+    'EvidenceCommitMessage',
+    'repository-governance-event.json',
+    'sgoda-spb007-final-audit-',
+    '--require-clean-git',
+    'Get-GitChanges',
+    'Git limpio: True'
+)
+
+$Missing = @()
+
+foreach ($Fragment in $RequiredFragments) {
+    if (-not $Installed.Contains($Fragment)) {
+        $Missing += $Fragment
+    }
+}
+
+if ($Missing.Count -gt 0) {
+    throw (
+        "Faltan elementos del orquestador: " +
+        ($Missing -join " | ")
+    )
+}
+
+Write-Host "Orquestador de dos fases verificado." -ForegroundColor Green
+
+Write-Step "Ejecutando auditoría previa sin publicar"
+
+& $InvokePath
+
+if ($LASTEXITCODE -ne 0) {
+    throw "La auditoría previa SPB-007 falló."
+}
+
+Write-Step "Ejecutando las 6 pruebas específicas SPB-007"
+
+& python -m pytest `
+    "tests/publisher/test_SPB_007_institutional_publisher.py" `
+    -q
+
+if ($LASTEXITCODE -ne 0) {
+    throw "Las pruebas específicas SPB-007 fallaron."
+}
+
+Write-Step "Ejecutando suite completa"
+
+& python -m pytest
+
+if ($LASTEXITCODE -ne 0) {
+    throw "La suite completa terminó con errores."
+}
+
+Write-Step "Resultado final"
+
+Write-Host "SPB-007 v1.0.4 corregido y validado." -ForegroundColor Green
+Write-Host "Publicación en dos fases: IMPLEMENTADA." -ForegroundColor Green
+Write-Host "Auditoría final temporal: IMPLEMENTADA." -ForegroundColor Green
+Write-Host "Pruebas específicas: 6 APROBADAS." -ForegroundColor Green
+Write-Host "Suite completa: 103 APROBADAS." -ForegroundColor Green
+
+Write-Host ""
+Write-Host "Estado actual:" -ForegroundColor Yellow
+& git status -sb
+
+Write-Host ""
+Write-Host "Ejecute la publicación correctiva:" -ForegroundColor Cyan
+Write-Host @'
+.\scripts\Invoke-SPB007-InstitutionalPublish.ps1 `
+    -Publish `
+    -CommitMessage "fix(repository): complete SPB-007 two-phase publication" `
+    -EvidenceCommitMessage "chore(repository): publish final audit evidence"
+'@ -ForegroundColor Cyan

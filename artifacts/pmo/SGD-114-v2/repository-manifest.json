@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T07:56:12.234719+00:00",
+  "generated_at_utc": "2026-08-02T08:48:06.073059+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 786,
+  "total_files": 822,
   "totals_by_category": {
-    "other": 363,
-    "evidence": 205,
-    "configuration": 15,
-    "dashboard": 6,
-    "documentation": 55,
-    "release": 17,
-    "automation": 14,
-    "source": 88,
-    "tests": 23
+    "other": 367,
+    "evidence": 214,
+    "configuration": 17,
+    "dashboard": 8,
+    "documentation": 57,
+    "release": 30,
+    "automation": 15,
+    "source": 90,
+    "tests": 24
   },
   "files": [
     {
@@ -173,6 +173,12 @@
       "category": "other"
     },
     {
+      "path": "Install-SPB007-Institutional-Repository-Publisher.ps1",
+      "sha256": "5afc60ed640223d8285d5ebe954faa996ce4f3fe3b641054c01221e5afd0476d",
+      "size_bytes": 32627,
+      "category": "other"
+    },
+    {
       "path": "Install-SPT001B-P01-P03.ps1",
       "sha256": "6a18d0afc1d21383782097a5567cac4c8ffda48b791baa685e26309cba73d514",
       "size_bytes": 18029,
@@ -236,6 +242,24 @@
       "path": "Repair-SGD114-v2.0.1-Windows-Test.ps1",
       "sha256": "f29b1ebe4d03070e417926e7cc76cedef63cd5b4540314d5c577a9e69a7d490d",
       "size_bytes": 10333,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPB007-v1.0.1-Optional-Tag.ps1",
+      "sha256": "b8c18591a56a71eabe439013178d573fd973f3e88c670056a3c36ed62118276d",
+      "size_bytes": 4720,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPB007-v1.0.2-Validation-Escaping.ps1",
+      "sha256": "3ba210be065a2683a4c1bf56c12050d19565da0f0c7ec4c7e157a54fe9b11535",
+      "size_bytes": 3483,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPB007-v1.0.3-Native-PowerShell-Validation.ps1",
+      "sha256": "0abc2450df0cee43aee6b01cfd7d21dad63e966549112936f3464c76b42c3623",
+      "size_bytes": 4302,
       "category": "other"
     },
     {
@@ -767,6 +791,18 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/pmo/SGD-114-v2/SGD-114-v2-quality-gate.json",
+      "sha256": "b4ec219b0b8f722f21f15ec8dfdf7f8ec088378291bb0d9a1b3927e6429e6f56",
+      "size_bytes": 3004,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114-v2/SGD-114-v2.0.1-windows-test-evidence.json",
+      "sha256": "49aa96365b85d7aca21b5c98f4eef5cb418c7797af755ff3fd087a9a3241ab76",
+      "size_bytes": 581,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/pmo/SGD-114-v2/implementation-evidence.json",
       "sha256": "cf755068b60f00df9de396d0a78ca611aec55ff33744906251a35083188ff492",
       "size_bytes": 810,
@@ -774,8 +810,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "e13c82907126e97e233624fd9850f5e4b70f8b50a3d07a0278bad9cea2942878",
-      "size_bytes": 4944,
+      "sha256": "616688999dd3446dcd96a3ff35a974d24cf22800a2b65db9336f28564a1df119",
+      "size_bytes": 1431,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
+      "sha256": "14ef63a7915946fdb7cdd6ca8e418812a047b7dddab078325f5ca232c48083a5",
+      "size_bytes": 640,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
+      "sha256": "bfd7d1c2e6b5fa7a7597c1dff44c66f577855ca2a1275c910376072d0d87405f",
+      "size_bytes": 178202,
       "category": "evidence"
     },
     {
@@ -1484,6 +1532,36 @@
       "path": "artifacts/pmo/SPB-006-SEMS/registry/evidence-registry.json",
       "sha256": "0f9c6d9ecab36529526a24f719088ae11b82537424748992940d31006dd215e2",
       "size_bytes": 1279,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-007/SPB-007-quality-gate.json",
+      "sha256": "b80897da363f5d2ce61f7769dd5d40f29d0734d91b7cd575f4409a0720e69566",
+      "size_bytes": 2832,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-007/implementation-evidence.json",
+      "sha256": "eba1aa6a7276c7b5d5a8a7d262a73fd6df4d20329de2010af60217ab1abe5147",
+      "size_bytes": 899,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-007/prepublication-audit.json",
+      "sha256": "5682649da5a79573d295449b201bbb77efed271476987e35bbba2e7b038a0fa7",
+      "size_bytes": 4798,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-007/publication-result.json",
+      "sha256": "70daf2ae8ac85c4659efd95359766471f426ce265488a3a02826def4bd995e23",
+      "size_bytes": 27816,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPB-007/traceability-SPB-007.json",
+      "sha256": "fea7e7a14c6c70363b4c8c0495c13f7582ef2b1dbe63d735e6eaa2aff268042a",
+      "size_bytes": 933,
       "category": "evidence"
     },
     {
@@ -3455,6 +3533,18 @@
       "category": "configuration"
     },
     {
+      "path": "config/repository/SPB-007-component.json",
+      "sha256": "5afebc378f690d7be957f8795d3b9087593b3489479ea8b5cf0631d2bc5a4e5f",
+      "size_bytes": 396,
+      "category": "configuration"
+    },
+    {
+      "path": "config/repository/SPB-007-publication-policy.json",
+      "sha256": "128d3eb988b7ce3d6d1516b91d48055bbbf3f148b732c8a0e9bf88bc2e6c7bae",
+      "size_bytes": 967,
+      "category": "configuration"
+    },
+    {
       "path": "config/rlb/SPT-001B-P06-component.json",
       "sha256": "86d569f5d4f78bde0aaa7d0585b3fa57cd6fb8c3c8a28effa3218768380f4076",
       "size_bytes": 484,
@@ -3506,6 +3596,18 @@
       "path": "dashboard/SGD-114-dashboard.json",
       "sha256": "63d1bbadadc020447456d268e0d6441bfe78858351c106b85bbc23019445ff17",
       "size_bytes": 295,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SGD-114-v2-dashboard.json",
+      "sha256": "de1beee71994af0ed0b082a81f144cd5e9a2060b96583c661afefdef883b37e1",
+      "size_bytes": 561,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SPB-007-dashboard.json",
+      "sha256": "0009f0ae69e2f11b8a13a8fd403b988b2320eaceed58c10425023ab8df7aa27f",
+      "size_bytes": 529,
       "category": "dashboard"
     },
     {
@@ -3602,6 +3704,12 @@
       "path": "docs/01_Gobierno/SGD-114-v2.0-Politica-Repositorio-Institucional.md",
       "sha256": "2654447e9b4e8e0a86140a740aae68a13c743bfd6b4290f01c19adb7262b6aa8",
       "size_bytes": 1628,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/01_Gobierno/SPB-007-Politica-Publicacion-Repositorio.md",
+      "sha256": "d928b9a99209f6cbcb2a5b2796090598242517aa7179f977ee1341dc31d5921c",
+      "size_bytes": 577,
       "category": "documentation"
     },
     {
@@ -3746,6 +3854,12 @@
       "path": "docs/05_Fase_Tecnologica/SGD-114/SGD-114-v2.0-Implementacion-Tecnica.md",
       "sha256": "d7497ffbba1dc9b641d81c34abd1422216841b80f35a83e190eff3648aeb46e2",
       "size_bytes": 1038,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPB-007/SPB-007-Publicacion-Institucional.md",
+      "sha256": "05936a4b6b7753a9611c15709fc9b8dc3a16c47c76d301b2e445bdce0edf6371",
+      "size_bytes": 1194,
       "category": "documentation"
     },
     {
@@ -3923,6 +4037,84 @@
       "category": "release"
     },
     {
+      "path": "releases/SGD-114-v2.0.1/SGD-114-v2.0.1-windows-test-evidence.json",
+      "sha256": "49aa96365b85d7aca21b5c98f4eef5cb418c7797af755ff3fd087a9a3241ab76",
+      "size_bytes": 581,
+      "category": "release"
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/repository-audit.json",
+      "sha256": "e13c82907126e97e233624fd9850f5e4b70f8b50a3d07a0278bad9cea2942878",
+      "size_bytes": 4944,
+      "category": "release"
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/repository-governance-event.json",
+      "sha256": "14ef63a7915946fdb7cdd6ca8e418812a047b7dddab078325f5ca232c48083a5",
+      "size_bytes": 640,
+      "category": "release"
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/repository-manifest.json",
+      "sha256": "bfd7d1c2e6b5fa7a7597c1dff44c66f577855ca2a1275c910376072d0d87405f",
+      "size_bytes": 178202,
+      "category": "release"
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/sgd-114-v2-repository-policy.json",
+      "sha256": "e277abd50e62def7179499fb7731cb23c790873eb907c199db61f106403a1fb9",
+      "size_bytes": 1279,
+      "category": "release"
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/test_SGD_114_v2_repository_governance.py",
+      "sha256": "03bd654ad3a54966f1608cd797ec1aaa7bb8d990341d6916d5c272b44bab1f3c",
+      "size_bytes": 5791,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-Politica-Publicacion-Repositorio.md",
+      "sha256": "d928b9a99209f6cbcb2a5b2796090598242517aa7179f977ee1341dc31d5921c",
+      "size_bytes": 577,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-Publicacion-Institucional.md",
+      "sha256": "05936a4b6b7753a9611c15709fc9b8dc3a16c47c76d301b2e445bdce0edf6371",
+      "size_bytes": 1194,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-component.json",
+      "sha256": "5afebc378f690d7be957f8795d3b9087593b3489479ea8b5cf0631d2bc5a4e5f",
+      "size_bytes": 396,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-publication-policy.json",
+      "sha256": "128d3eb988b7ce3d6d1516b91d48055bbbf3f148b732c8a0e9bf88bc2e6c7bae",
+      "size_bytes": 967,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/implementation-evidence.json",
+      "sha256": "eba1aa6a7276c7b5d5a8a7d262a73fd6df4d20329de2010af60217ab1abe5147",
+      "size_bytes": 899,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/prepublication-audit.json",
+      "sha256": "7faccf26d6851bf9b80beddc9488769c55216b82628647cca2337b4c60f5b496",
+      "size_bytes": 4628,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/traceability-SPB-007.json",
+      "sha256": "39489f87ba0c0a1531a1a39f25ad80ed43f3ecc44aa0d75b5e637352a88ab621",
+      "size_bytes": 810,
+      "category": "release"
+    },
+    {
       "path": "releases/SPT-001B-v1.0.0/canonical-baseline-manifest.json",
       "sha256": "dac68dfd4c222c4ed4f10562e723cf0c49f29e3299d620f4f0e4114002a1594d",
       "size_bytes": 1295,
@@ -4016,6 +4208,12 @@
       "path": "scripts/Invoke-SPB0032ClosureGate.ps1",
       "sha256": "62af7f44a3b10c481c066ad7c4d1d1e981ccc6a47bab7554d86da040a2765a35",
       "size_bytes": 418,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPB007-InstitutionalPublish.ps1",
+      "sha256": "00d9b6b4096713338581a71b731b567ada836ad6a2d855ad2fbcce479900ea68",
+      "size_bytes": 1147,
       "category": "automation"
     },
     {
@@ -4523,6 +4721,18 @@
       "category": "source"
     },
     {
+      "path": "src/sgoda/publisher/__init__.py",
+      "sha256": "382c2541ac7011487231938cf3124cd3d64be457a5f96afe0826ad895824f886",
+      "size_bytes": 682,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/publisher/institutional_publisher.py",
+      "sha256": "7ff987289d0b59efc284b543810127d08d90a2d47d1fe9f6eeaa1971637a8035",
+      "size_bytes": 11165,
+      "category": "source"
+    },
+    {
       "path": "src/sgoda/rlb/__init__.py",
       "sha256": "927e9ce158616ce2519a811aa63bdce9945bc6371daf80d3b8b60a12909f5a4a",
       "size_bytes": 1271,
@@ -4664,6 +4874,12 @@
       "path": "tests/pmo/utf8/test_repository_utf8.py",
       "sha256": "32b024d14f4ac6ebe2905045c1a4c2c2fa90553cc03d989a75c1cb8ea9c94e6f",
       "size_bytes": 1434,
+      "category": "tests"
+    },
+    {
+      "path": "tests/publisher/test_SPB_007_institutional_publisher.py",
+      "sha256": "55b5729f942fe0da8ad9bf8c860f0ff473a95c5a3a3fbf65479550a2ee1cda25",
+      "size_bytes": 2869,
       "category": "tests"
     },
     {
