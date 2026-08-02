@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T19:58:41.070692+00:00",
+  "generated_at_utc": "2026-08-02T20:17:58.375448+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 1330,
+  "total_files": 1383,
   "totals_by_category": {
-    "other": 393,
-    "evidence": 351,
-    "configuration": 58,
+    "other": 394,
+    "evidence": 357,
+    "configuration": 61,
     "dashboard": 20,
-    "documentation": 100,
-    "release": 162,
-    "automation": 30,
-    "source": 177,
-    "tests": 39
+    "documentation": 107,
+    "release": 187,
+    "automation": 31,
+    "source": 186,
+    "tests": 40
   },
   "files": [
     {
@@ -314,6 +314,12 @@
       "path": "Install-SPT007B-v1.0.0-Semantic-Lexical-Engine.ps1",
       "sha256": "b4a9e0e2d9631edf6df42903ab3b6050e836eef8f06c9e4ec300b670fa6d8d81",
       "size_bytes": 44055,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT007C-v1.0.0-Linguistic-Cultural-Knowledge-Engine.ps1",
+      "sha256": "e6ec5ac58025729860101a37529697cc0b116218decdb36f9e50a7fcb024158a",
+      "size_bytes": 49835,
       "category": "other"
     },
     {
@@ -936,19 +942,19 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "258fbb115d9968fbfa7443f09eff2d3e6d6725346fb1a70e9e11bf35a39c3444",
-      "size_bytes": 43923,
+      "sha256": "b7e9c3ca0c139f80634afe59b823d435477499053934b1b1a5f262f42b2b3876",
+      "size_bytes": 45857,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "5bb1fe93ff5553df9facf5c6eb491520ed91172a8050639149baafe3d3526c08",
+      "sha256": "0b9bfd186416cead0ae5d340db5e2aa37383dc5142a3a7f579ab6bd8fc289dcf",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "676649dd4a21f3a6554cee4dede56f8066f6f8bf4a7702788df32854412f3c00",
+      "sha256": "952d64717ad6ed9b92b68a52f01be1db5f4ae3893ccacb03197ebb85e37742c9",
       "size_bytes": 231,
       "category": "evidence"
     },
@@ -1151,6 +1157,18 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/knowledge_engine/SPT-007C/demo-knowledge-graph.json",
+      "sha256": "1b5a81090e8953236eda4bd17437473d6d35df8ab1613238a6f367fe6c11d029",
+      "size_bytes": 2508,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/knowledge_engine/SPT-007C/demo-knowledge-query.json",
+      "sha256": "832f4e44e54adc77f54acbb1784027b183ff5e7642ff101306f5a61f3183dc5b",
+      "size_bytes": 2389,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/language_engine/SPT-006A/diagnostic.json",
       "sha256": "423ee4f905dee58e252a084121ad07f67eeccec18743224dc460a212785bce2a",
       "size_bytes": 853,
@@ -1308,20 +1326,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "509cfa67f1c7c210dbcdc36a16ffe8ad8f9334114a42ccced9f3392db7577178",
+      "sha256": "c662e9a2a7083dc5948c48f439bd79b43e5cc6c242183a2678ca84e133510745",
       "size_bytes": 1434,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "32cffef52733c3b2bdf789e82f86e9eb5024bc2ec769e484fc33a838ed250931",
-      "size_bytes": 644,
+      "sha256": "f192949ee03fa2c65d7c5e0bf4b7999da42f6d785bfa5ba34dde89761484b342",
+      "size_bytes": 645,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "8d0816089397c9270d599829499d8b11fc56ff4bbc275f62001670dc0698dce7",
-      "size_bytes": 291395,
+      "sha256": "e15cec2ef96493b11e82c3631b8dec086beb0529ccf7e9635063dd9dfce456fe",
+      "size_bytes": 301394,
       "category": "evidence"
     },
     {
@@ -2322,8 +2340,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "4f47c0c4541dd6b39f315a02c58eec26e21aa5b826613670b2a6dbc40751e387",
-      "size_bytes": 5219,
+      "sha256": "2f8a4659aaaeea52272a19ed5a05db86fb82d835f530a4e061e1979b475ee8e5",
+      "size_bytes": 5934,
       "category": "evidence"
     },
     {
@@ -2609,6 +2627,30 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/pmo/SPT-007C/SPT-007C-implementation-evidence.json",
+      "sha256": "c316e777c217b74a0cdbdd619ca2c54df2e2b69ef26ce25e38e3552afe7e4fd5",
+      "size_bytes": 1153,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007C/SPT-007C-policy-result.json",
+      "sha256": "4e39d585ebb6661acbc684080e08bdba410bae91ebf1aa0e1fa9f6bfa9147ab5",
+      "size_bytes": 3765,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007C/SPT-007C-policy-result.md",
+      "sha256": "a771034729254a47907d35b4086a57978233483cec89ed8e6bb0f9182ed0c839",
+      "size_bytes": 2179,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007C/SPT-007C-pre-gate-evidence.json",
+      "sha256": "823c405386e1fde089496d6376446c795d6dafe651488ea47073def96fb7fa6a",
+      "size_bytes": 330,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/releases/SPB-006/closure.json",
       "sha256": "4921e59c76fb9c711408f2b76eae20b024e16a099ba197f861da239400bc8206",
       "size_bytes": 146,
@@ -2712,37 +2754,37 @@
     },
     {
       "path": "artifacts/roadmap/SGD-116/dependency-graph.json",
-      "sha256": "4d9e28c5bd97314923a645bc736aab96a9fe5f1617ce686a1dcc3bef565b15d5",
-      "size_bytes": 10742,
+      "sha256": "ab259d55ad89a3c8e2fe7386920e77a02976c7604d7b62775008c7cabe19a83d",
+      "size_bytes": 12111,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/executive-summary.json",
-      "sha256": "5e24cc5a3dce09b3f773bb520a328637b70b9ec45af4479f96e1a943bf4580d7",
-      "size_bytes": 2877,
+      "sha256": "cf29b40fc53e4fc86b1a1028b05e8079b611761d980987f178599bb8250bd5c0",
+      "size_bytes": 2874,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/metrics.json",
-      "sha256": "1515b741d00ee172a3a3bdbe47dfe0ee29bce9bf1acd5268ac52a6b42ee6e959",
-      "size_bytes": 364,
+      "sha256": "04d5ae5a58b21221a12fa843c92f30e5d69ce3af7092eea102992b2e5abe2592",
+      "size_bytes": 361,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/roadmap.json",
-      "sha256": "db77b79e7df3327bf65ae42b2c6dcf2aec32ee34ad93b7b39c5cf00696ef2a44",
-      "size_bytes": 24354,
+      "sha256": "ff3b33a9190dcb91cbae91ee9074125306ade7779049e1418ea5dfecf8f2cf66",
+      "size_bytes": 26314,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/timeline.json",
-      "sha256": "f269a6f5e42c4dcc83b471b085bec6508ad9c224adab9dff5cfe2b50605dede8",
-      "size_bytes": 5330,
+      "sha256": "edb7fbbec58ce746a4a0b0eec05141e283dcb6fcd2a7d8c65cdef828a0a91e13",
+      "size_bytes": 5613,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/validation.json",
-      "sha256": "59008241cab74ce62352bcd91db6410bc30ca67419c35ff7041f0ac2823c9074",
+      "sha256": "876f21e26b57182156340be3828117e827b8cbe80aac1eef5a0f2185e576b929",
       "size_bytes": 2177,
       "category": "evidence"
     },
@@ -4649,6 +4691,24 @@
       "category": "configuration"
     },
     {
+      "path": "config/knowledge_engine/SPT-007C-component.json",
+      "sha256": "00102977ec1baafaf723ab404a84dcf5952b8d8aa0fea1aee98f4b0787eacdf2",
+      "size_bytes": 1449,
+      "category": "configuration"
+    },
+    {
+      "path": "config/knowledge_engine/SPT-007C-knowledge-policy.json",
+      "sha256": "1a46d5c6c79c3a775a55760791ee156292115bb7780dba3277cb2075cee58087",
+      "size_bytes": 559,
+      "category": "configuration"
+    },
+    {
+      "path": "config/knowledge_engine/SPT-007C-ontology.json",
+      "sha256": "87b647067541e57901a585d2b3df4d3a5de21fc7193d28c5e02a94c29aef51a2",
+      "size_bytes": 494,
+      "category": "configuration"
+    },
+    {
       "path": "config/language_engine/SPT-006A-approved-free-models.json",
       "sha256": "115e1f7fec73f980896f22ef6a824ef996a1a7a0a98df2ea0cd5494f79db136c",
       "size_bytes": 443,
@@ -4902,44 +4962,44 @@
     },
     {
       "path": "dashboard/dependency-graph.json",
-      "sha256": "4d9e28c5bd97314923a645bc736aab96a9fe5f1617ce686a1dcc3bef565b15d5",
-      "size_bytes": 10742,
+      "sha256": "ab259d55ad89a3c8e2fe7386920e77a02976c7604d7b62775008c7cabe19a83d",
+      "size_bytes": 12111,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-metrics.json",
-      "sha256": "1515b741d00ee172a3a3bdbe47dfe0ee29bce9bf1acd5268ac52a6b42ee6e959",
-      "size_bytes": 364,
+      "sha256": "04d5ae5a58b21221a12fa843c92f30e5d69ce3af7092eea102992b2e5abe2592",
+      "size_bytes": 361,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-roadmap.json",
-      "sha256": "db77b79e7df3327bf65ae42b2c6dcf2aec32ee34ad93b7b39c5cf00696ef2a44",
-      "size_bytes": 24354,
+      "sha256": "ff3b33a9190dcb91cbae91ee9074125306ade7779049e1418ea5dfecf8f2cf66",
+      "size_bytes": 26314,
       "category": "dashboard"
     },
     {
       "path": "dashboard/executive-summary.json",
-      "sha256": "5e24cc5a3dce09b3f773bb520a328637b70b9ec45af4479f96e1a943bf4580d7",
-      "size_bytes": 2877,
+      "sha256": "cf29b40fc53e4fc86b1a1028b05e8079b611761d980987f178599bb8250bd5c0",
+      "size_bytes": 2874,
       "category": "dashboard"
     },
     {
       "path": "dashboard/timeline.json",
-      "sha256": "f269a6f5e42c4dcc83b471b085bec6508ad9c224adab9dff5cfe2b50605dede8",
-      "size_bytes": 5330,
+      "sha256": "edb7fbbec58ce746a4a0b0eec05141e283dcb6fcd2a7d8c65cdef828a0a91e13",
+      "size_bytes": 5613,
       "category": "dashboard"
     },
     {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "981d122d8389f699acf462b4ab84e00732a0d71ba60377a7dcdc6264b92d5ea2",
+      "sha256": "ac19c969fa2d3cc6fc7bbb48aa58a1e096e5091ff3ed124b049e295d26a9952e",
       "size_bytes": 2799,
       "category": "documentation"
     },
     {
       "path": "docs/00_DEPENDENCIAS_MAESTRAS.md",
-      "sha256": "a6449cac9ba30ec556e5048a7d37e1d100718952a6d1f9abd766387c866faa09",
-      "size_bytes": 1845,
+      "sha256": "df3a5ebf4593d51b13520f0aa0dd4344f1a0b9ca974e7ce77e00ad4434a0b9d2",
+      "size_bytes": 2121,
       "category": "documentation"
     },
     {
@@ -4950,32 +5010,32 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "e07134ad3f85a8defcd9161834e05aedb9a8b097997015d0d26c3e7908f06f98",
-      "size_bytes": 3204,
+      "sha256": "81aa164f2d4ce0df8fb240bdba6ffc3392dc0860b4fb1b0df9054dfb1b4559d8",
+      "size_bytes": 3293,
       "category": "documentation"
     },
     {
       "path": "docs/00_METRICAS_ECOSISTEMA.md",
-      "sha256": "2bd2551800f6759b7801551db717c8e51f5d2a68bfe247dd2c4f967dcb933655",
-      "size_bytes": 330,
+      "sha256": "1b74c76918e47ea3b87f950603d0f420782a3942c18c78122cd1bdd7f6e9bd8a",
+      "size_bytes": 327,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "d19001a0791d17f080455e673c503d263965cf3f26affaba6d8dd4d0656bdda2",
-      "size_bytes": 20278,
+      "sha256": "862869f82b489e7b60bd95d0e207e619a6ea0bb1b0854d49dc61506dd583cfea",
+      "size_bytes": 21764,
       "category": "documentation"
     },
     {
       "path": "docs/00_ROADMAP_MAESTRO.md",
-      "sha256": "79071a0035a8ba331581cb1fd2fd388c06c2a904b637fa3468fc0f1751050864",
-      "size_bytes": 3167,
+      "sha256": "8813665d87302eb22683b802a0b24b687948d9d968a0f4db10c78af3ff295ac3",
+      "size_bytes": 3278,
       "category": "documentation"
     },
     {
       "path": "docs/00_TIMELINE_MAESTRO.md",
-      "sha256": "be79862473c8d3f66e47ade44c477b58b8b63e950d4609dda513541de199dc83",
-      "size_bytes": 2500,
+      "sha256": "3d50fac59a9cb0450343fe32c1c8bf74b7564d96bb4d212b6d3ed18fa3a4de02",
+      "size_bytes": 2632,
       "category": "documentation"
     },
     {
@@ -5456,6 +5516,48 @@
       "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
       "sha256": "84e22cc6c29166adb72a7f3c7fde9af0ab23593e6923803d6afed7dc25bc1bbb",
       "size_bytes": 280,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+      "sha256": "5967ef766ba0307fac9e51bf772459f3f55532bcf59585bff26937bd944e8112",
+      "size_bytes": 359,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md",
+      "sha256": "b3967f9290e4463aa185b3b1dd062c5ab8b9d75200a79d38f19b2d25cb24fead",
+      "size_bytes": 346,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md",
+      "sha256": "17c9121a75666cd1436ae2d6f4128288d9de1cdfdbd0b518aefd67bbfeaf1a35",
+      "size_bytes": 282,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+      "sha256": "2736b0ff76896ec00c65d127b52a50d16641dcdb017f9281c3ddca3557194872",
+      "size_bytes": 271,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md",
+      "sha256": "800b5863f0e649741471e6a3c5932ded66007313df18dd763409b175e2404563",
+      "size_bytes": 286,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md",
+      "sha256": "2e184def44fe9b7dee550d1bb049fc8d378c9d0aeab7895317f4c4e02ef96f40",
+      "size_bytes": 286,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
+      "sha256": "7b87fa2a97b0636ffdb4006add65567d2b90e9ddf36bfd345e1d5e23d4340587",
+      "size_bytes": 351,
       "category": "documentation"
     },
     {
@@ -6521,6 +6623,156 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-007C-v1.0.0/Invoke-SPT007C-KnowledgeEngine.ps1",
+      "sha256": "a448d3cdc56ce40c21a7d7cdbc97e15eeb1c1db3062fe24c70b831a6a6b34fc1",
+      "size_bytes": 516,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+      "sha256": "5967ef766ba0307fac9e51bf772459f3f55532bcf59585bff26937bd944e8112",
+      "size_bytes": 359,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Inferencia-Controlada-Explicable.md",
+      "sha256": "b3967f9290e4463aa185b3b1dd062c5ab8b9d75200a79d38f19b2d25cb24fead",
+      "size_bytes": 346,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Integracion-ODA-Multimedia.md",
+      "sha256": "17c9121a75666cd1436ae2d6f4128288d9de1cdfdbd0b518aefd67bbfeaf1a35",
+      "size_bytes": 282,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+      "sha256": "2736b0ff76896ec00c65d127b52a50d16641dcdb017f9281c3ddca3557194872",
+      "size_bytes": 271,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Ontologia-Linguistica-Cultural.md",
+      "sha256": "800b5863f0e649741471e6a3c5932ded66007313df18dd763409b175e2404563",
+      "size_bytes": 286,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Operacion-Mantenimiento.md",
+      "sha256": "2e184def44fe9b7dee550d1bb049fc8d378c9d0aeab7895317f4c4e02ef96f40",
+      "size_bytes": 286,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Pruebas-Criterios-Aceptacion.md",
+      "sha256": "7b87fa2a97b0636ffdb4006add65567d2b90e9ddf36bfd345e1d5e23d4340587",
+      "size_bytes": 351,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-component.json",
+      "sha256": "00102977ec1baafaf723ab404a84dcf5952b8d8aa0fea1aee98f4b0787eacdf2",
+      "size_bytes": 1449,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-implementation-evidence.json",
+      "sha256": "c316e777c217b74a0cdbdd619ca2c54df2e2b69ef26ce25e38e3552afe7e4fd5",
+      "size_bytes": 1153,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-knowledge-policy.json",
+      "sha256": "1a46d5c6c79c3a775a55760791ee156292115bb7780dba3277cb2075cee58087",
+      "size_bytes": 559,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-ontology.json",
+      "sha256": "87b647067541e57901a585d2b3df4d3a5de21fc7193d28c5e02a94c29aef51a2",
+      "size_bytes": 494,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-policy-result.json",
+      "sha256": "4e39d585ebb6661acbc684080e08bdba410bae91ebf1aa0e1fa9f6bfa9147ab5",
+      "size_bytes": 3765,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-policy-result.md",
+      "sha256": "a771034729254a47907d35b4086a57978233483cec89ed8e6bb0f9182ed0c839",
+      "size_bytes": 2179,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/__init__.py",
+      "sha256": "838173e72a38d34c6355e30d5b4ba49729c6ca679a33ce3b2eb67a33cde39132",
+      "size_bytes": 690,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/cli.py",
+      "sha256": "62adba8feb402aa9e91db21e14ad711443da676cbb5779e6869741efdbd4f47e",
+      "size_bytes": 964,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/demo-knowledge-query.json",
+      "sha256": "832f4e44e54adc77f54acbb1784027b183ff5e7642ff101306f5a61f3183dc5b",
+      "size_bytes": 2389,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/graph.py",
+      "sha256": "785e4e60744f691c629ee42ab406d26028d800f200c64266472c386f31ba1896",
+      "size_bytes": 8146,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/inference.py",
+      "sha256": "ea4950b07f878b3d930184ef5a96ee0c628706be0f4143423a12de9bd6fd0fc3",
+      "size_bytes": 2793,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/models.py",
+      "sha256": "5b401bc501e38af346aa3bae2f619b961e05c7b0746da593cf8a0c6666da48f6",
+      "size_bytes": 1137,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/navigation.py",
+      "sha256": "15042bbefec37ec626a91fc1e7b634cb9993c68423fe732b105d0c19838e42f3",
+      "size_bytes": 1541,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/oda_bridge.py",
+      "sha256": "7bb8ed43d85097bbbeaefb0ad7339f1312978e6737495af26e2869fd6fa4559d",
+      "size_bytes": 1220,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/ontology.py",
+      "sha256": "c553f969a7dda0322fc52599fcf189e792c573fdc502eb0fb9b5cff7cd55be0f",
+      "size_bytes": 1022,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/service.py",
+      "sha256": "55278ca9602613971b6934bfce531acc226c69949be5a51e9e87f4d94d87e745",
+      "size_bytes": 4138,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/test_SPT_007C_knowledge_engine.py",
+      "sha256": "9efb53efc0f1b2b3bb51bf7c388859d1ec6034f3b94a12ffc7a470c1052d9cae",
+      "size_bytes": 6946,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -6668,6 +6920,12 @@
       "path": "scripts/Invoke-SPT007B-SemanticLexicalEngine.ps1",
       "sha256": "4689cabd0504d3d7c1bd6d9e7525897ebaaeb1ffedd7bbedbbaa4888e06cd479",
       "size_bytes": 652,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT007C-KnowledgeEngine.ps1",
+      "sha256": "a448d3cdc56ce40c21a7d7cdbc97e15eeb1c1db3062fe24c70b831a6a6b34fc1",
+      "size_bytes": 516,
       "category": "automation"
     },
     {
@@ -7106,6 +7364,60 @@
       "path": "src/sgoda/kernel/registry.py",
       "sha256": "78e5e84d0d56ba638486e944a7a40aa1e57ca147044e6876c3edf88b61820ddd",
       "size_bytes": 2010,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/__init__.py",
+      "sha256": "838173e72a38d34c6355e30d5b4ba49729c6ca679a33ce3b2eb67a33cde39132",
+      "size_bytes": 690,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/cli.py",
+      "sha256": "62adba8feb402aa9e91db21e14ad711443da676cbb5779e6869741efdbd4f47e",
+      "size_bytes": 964,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/graph.py",
+      "sha256": "785e4e60744f691c629ee42ab406d26028d800f200c64266472c386f31ba1896",
+      "size_bytes": 8146,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/inference.py",
+      "sha256": "ea4950b07f878b3d930184ef5a96ee0c628706be0f4143423a12de9bd6fd0fc3",
+      "size_bytes": 2793,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/models.py",
+      "sha256": "5b401bc501e38af346aa3bae2f619b961e05c7b0746da593cf8a0c6666da48f6",
+      "size_bytes": 1137,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/navigation.py",
+      "sha256": "15042bbefec37ec626a91fc1e7b634cb9993c68423fe732b105d0c19838e42f3",
+      "size_bytes": 1541,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/oda_bridge.py",
+      "sha256": "7bb8ed43d85097bbbeaefb0ad7339f1312978e6737495af26e2869fd6fa4559d",
+      "size_bytes": 1220,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/ontology.py",
+      "sha256": "c553f969a7dda0322fc52599fcf189e792c573fdc502eb0fb9b5cff7cd55be0f",
+      "size_bytes": 1022,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/knowledge_engine/service.py",
+      "sha256": "55278ca9602613971b6934bfce531acc226c69949be5a51e9e87f4d94d87e745",
+      "size_bytes": 4138,
       "category": "source"
     },
     {
@@ -7832,6 +8144,12 @@
       "path": "tests/installer_builder/test_SIB_001_installer_builder.py",
       "sha256": "01bd443c630ad7b36f3c1a2bcff95cd583a833fd7a4de805f44fee37795096f3",
       "size_bytes": 3419,
+      "category": "tests"
+    },
+    {
+      "path": "tests/knowledge_engine/test_SPT_007C_knowledge_engine.py",
+      "sha256": "9efb53efc0f1b2b3bb51bf7c388859d1ec6034f3b94a12ffc7a470c1052d9cae",
+      "size_bytes": 6946,
       "category": "tests"
     },
     {
