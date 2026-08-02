@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T10:07:49.228529+00:00",
+  "generated_at_utc": "2026-08-02T10:49:44.380004+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 953,
+  "total_files": 984,
   "totals_by_category": {
-    "other": 375,
-    "evidence": 244,
-    "configuration": 32,
+    "other": 376,
+    "evidence": 256,
+    "configuration": 34,
     "dashboard": 12,
-    "documentation": 70,
-    "release": 55,
-    "automation": 20,
-    "source": 116,
-    "tests": 29
+    "documentation": 72,
+    "release": 62,
+    "automation": 21,
+    "source": 121,
+    "tests": 30
   },
   "files": [
     {
@@ -170,6 +170,12 @@
       "path": "Install-SGD115-Master-Documentation-System.ps1",
       "sha256": "0c7e7d82908f0e41841b63b15fa508a9ca4bf97edb6c7f06ce863cba17570466",
       "size_bytes": 41622,
+      "category": "other"
+    },
+    {
+      "path": "Install-SIB001-SGODA-Installer-Builder.ps1",
+      "sha256": "d2f3ab285092b191da0a85c3697a71d5224a67ca81669ebafe42373102d8e524",
+      "size_bytes": 28331,
       "category": "other"
     },
     {
@@ -828,20 +834,74 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "b5c8885a200f6f845c3df00aec7bd60cd25d97c72aa5fc7ece1cec43c006082d",
-      "size_bytes": 15082,
+      "sha256": "e7bdeb3da66312e136cc1571fa857b9cf006c0cf24cb2e8d0faff533955e2f4e",
+      "size_bytes": 16744,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "f5732fd68cccdb3a9221fe3f637d06fc3896ec3ef1254c633523f7bbfe1914c3",
+      "sha256": "459fd470cc97a64a2d8db1f76cddc5f7be8db7d2536ef89480f19d4cf1d6e51d",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "a86726f9fab6b7cb94a7bfe3cbfddd04cedb5ff072d00b4be7d834e6905f4eda",
+      "sha256": "44ece7014957cd8aaf6969695f4a4f2cf1badef6164e5bf98a1f2fe748039025",
       "size_bytes": 231,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/demo-generation.json",
+      "sha256": "cb2a79293bc81be6d7413bbc9be8879a960b5a4231c3a99fd0c562a5eaff71c2",
+      "size_bytes": 1646,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/PUBLICATION-COMMANDS.ps1",
+      "sha256": "e8523d5f09ab903d582047306e6bd49eeb496186e7623d27c1aba6ab480b283f",
+      "size_bytes": 230,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/README.md",
+      "sha256": "cc02465ca963ea97f7296a27e02c14eace56949dfe27b5ed9f9909c0c741a3e7",
+      "size_bytes": 240,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/component.json",
+      "sha256": "ada8ff63f31c45e4129d558355f952cd322fb0f4bd9933741527c6d52ed00669",
+      "size_bytes": 320,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/installer.ps1",
+      "sha256": "efa4fe808e6e0cb28acaac1478448994c29e89b7dac53ada836ef22b2b49932e",
+      "size_bytes": 1527,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/manifest.json",
+      "sha256": "4a9f34f01521a9ce7c7674514f8f1b9bfad9ad7fe115d3dbee32e7bb78e38539",
+      "size_bytes": 1487,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/policy.json",
+      "sha256": "f75cf42eb3464eef9c398fb7203269c735d4a60408d31b2a180e21b76ceb71dc",
+      "size_bytes": 252,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/repair-template.ps1",
+      "sha256": "381f16fa4aa219b908936a2ed1a75c1320d6cd71e5152da3d89a3bd2a26ed151",
+      "size_bytes": 1329,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/test_increment.py",
+      "sha256": "2a3768b055d3d692d31e9ef30e703eebd86ec997d1b1c283c3876de73bf0f530",
+      "size_bytes": 116,
       "category": "evidence"
     },
     {
@@ -948,20 +1008,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "d38ff6b387afcffc90dda8dd7117d11fac815460d819a99b638910a807d27b2c",
+      "sha256": "5b959511d8ef241407de6f843db285d50eeb729bd7247b48d9eacb09efa6efe6",
       "size_bytes": 1432,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "685d5f097434704ee7cf7fe97562dbf025cede629c6c73be697e0caa92cf77a4",
+      "sha256": "cdebddb898f361edfcee56f58e78c851785d4c6de309985dc97bcc785daebd5e",
       "size_bytes": 642,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "bda1a0d6f57ad6095b05cdad495eaa16023273c2ea9f24f9b49cd46e5d954cc3",
-      "size_bytes": 209121,
+      "sha256": "555e575ac1613e40083eae161ae9ccb633df367ea370ad0293240ab8a3f0959e",
+      "size_bytes": 215821,
       "category": "evidence"
     },
     {
@@ -1010,6 +1070,24 @@
       "path": "artifacts/pmo/SGD-115/traceability-SGD-115.json",
       "sha256": "4317ec9a1f6450bab9d20b00f907f2094ea6982739cbcb4a230c9af823483e25",
       "size_bytes": 1170,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SIB-001/SIB-001-quality-gate.json",
+      "sha256": "c9bc92deb4fa5ba79d0e573c61bb08c80c5fa3574e208aba8163e3a418cefd30",
+      "size_bytes": 3508,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SIB-001/implementation-evidence.json",
+      "sha256": "f2dff3f36129d8484b3691ad5b882b425a31199693f2dee0e11748d9323c050e",
+      "size_bytes": 289,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SIB-001/traceability-SIB-001.json",
+      "sha256": "44adf2af3a355c7325be283cae2fdd651eb5c1527d0a3e4d021e79cb30bcfaac",
+      "size_bytes": 493,
       "category": "evidence"
     },
     {
@@ -1710,8 +1788,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "24c889054274273e49dc4f4ed62702416959d6c333fc68528e1e4aa10d3d2780",
-      "size_bytes": 4081,
+      "sha256": "29c7a64b7cafd82b39a62871194e835fc487a0e90ad38818b6f4ef4e1f741720",
+      "size_bytes": 4324,
       "category": "evidence"
     },
     {
@@ -3827,6 +3905,18 @@
       "category": "configuration"
     },
     {
+      "path": "config/installer_builder/SIB-001-component.json",
+      "sha256": "bc091e7ea0c531ead72d40651ef45ca282d970d4712a4b1b429cff75dd9a06f2",
+      "size_bytes": 599,
+      "category": "configuration"
+    },
+    {
+      "path": "config/installer_builder/SIB-001-policy.json",
+      "sha256": "d6e47553b3e5066e99db9d0daa392a0ecfeb43b7eeb25c3a7f9e0ec4b90a22e2",
+      "size_bytes": 439,
+      "category": "configuration"
+    },
+    {
       "path": "config/media/ADR-010-component.json",
       "sha256": "fb6ff3b30891750d24677524e8ab9741fd2687b14acbf3393108a4e5baf4b382",
       "size_bytes": 564,
@@ -3978,7 +4068,7 @@
     },
     {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "bcb984f24fe2c930a479888dc13655f7c47c5d05516e40aefad00420998e12cf",
+      "sha256": "95f773384719b7ab738f95886d7688160b365daa5e31adabab195951de38a9de",
       "size_bytes": 2799,
       "category": "documentation"
     },
@@ -3990,14 +4080,14 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "1968fbb64edea65207893afbcb7b0166ec025df9a1345f300e0f7223623e0e45",
-      "size_bytes": 2300,
+      "sha256": "c988053b7cbd3d56c3524e50e81f09406bb10236938c11f513612c5bc53d3ae2",
+      "size_bytes": 2375,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "2455661870df85706ffc9106d74b93bab23d2208243a7793937126750c65cc1a",
-      "size_bytes": 9811,
+      "sha256": "1896f0271944e18e45eafc8f9233ed58cef87a9c13672b1db2552a751ce5d76d",
+      "size_bytes": 10565,
       "category": "documentation"
     },
     {
@@ -4220,6 +4310,18 @@
       "path": "docs/05_Fase_Tecnologica/SGD-114/SGD-114-v2.0-Implementacion-Tecnica.md",
       "sha256": "d7497ffbba1dc9b641d81c34abd1422216841b80f35a83e190eff3648aeb46e2",
       "size_bytes": 1038,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md",
+      "sha256": "fc0b0f8fa58288563f5132132cb539a9738f327e69fe46bd66b9bacfb01016ee",
+      "size_bytes": 436,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md",
+      "sha256": "b7d901a1ad110b0bebc32c4de367c3d008076ad70770ea38393dd2ffc40417ab",
+      "size_bytes": 297,
       "category": "documentation"
     },
     {
@@ -4490,6 +4592,48 @@
       "path": "releases/SGD-114-v2.0.1/test_SGD_114_v2_repository_governance.py",
       "sha256": "03bd654ad3a54966f1608cd797ec1aaa7bb8d990341d6916d5c272b44bab1f3c",
       "size_bytes": 5791,
+      "category": "release"
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-Protocolo-Correccion-Errores.md",
+      "sha256": "fc0b0f8fa58288563f5132132cb539a9738f327e69fe46bd66b9bacfb01016ee",
+      "size_bytes": 436,
+      "category": "release"
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-SGODA-Installer-Builder.md",
+      "sha256": "b7d901a1ad110b0bebc32c4de367c3d008076ad70770ea38393dd2ffc40417ab",
+      "size_bytes": 297,
+      "category": "release"
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-component.json",
+      "sha256": "bc091e7ea0c531ead72d40651ef45ca282d970d4712a4b1b429cff75dd9a06f2",
+      "size_bytes": 599,
+      "category": "release"
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-policy.json",
+      "sha256": "d6e47553b3e5066e99db9d0daa392a0ecfeb43b7eeb25c3a7f9e0ec4b90a22e2",
+      "size_bytes": 439,
+      "category": "release"
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/installer.ps1",
+      "sha256": "efa4fe808e6e0cb28acaac1478448994c29e89b7dac53ada836ef22b2b49932e",
+      "size_bytes": 1527,
+      "category": "release"
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/manifest.json",
+      "sha256": "4a9f34f01521a9ce7c7674514f8f1b9bfad9ad7fe115d3dbee32e7bb78e38539",
+      "size_bytes": 1487,
+      "category": "release"
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/repair-template.ps1",
+      "sha256": "381f16fa4aa219b908936a2ed1a75c1320d6cd71e5152da3d89a3bd2a26ed151",
+      "size_bytes": 1329,
       "category": "release"
     },
     {
@@ -4841,6 +4985,12 @@
       "category": "automation"
     },
     {
+      "path": "scripts/New-SGODAIncrement.ps1",
+      "sha256": "810f81f6f3b027219e43a95eda672a3f5657a4e7d3328640d96ef4e4d793bdb3",
+      "size_bytes": 910,
+      "category": "automation"
+    },
+    {
       "path": "scripts/Start-SGODA.ps1",
       "sha256": "5f4e1a2351d5b0a77e6e8968080214b898246184e992977ae514732421788f7b",
       "size_bytes": 482,
@@ -5072,6 +5222,36 @@
       "path": "src/sgoda/governance/repository_governance.py",
       "sha256": "e82b5623229eaeb9f0c4a9cabbe55ee2e8ad749b22b7028b7707aa677062eec1",
       "size_bytes": 14385,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/installer_builder/__init__.py",
+      "sha256": "47a028ba9c1e2153723750eb809796067a684b4f6b01f9ef5dad0b9cacb39d3d",
+      "size_bytes": 634,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/installer_builder/cli.py",
+      "sha256": "e5614569dd02bb969878c8515293867651ef52c2b2b1aff90b21db5dacc515d2",
+      "size_bytes": 1733,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/installer_builder/generator.py",
+      "sha256": "705809960adf7cdf43dd51aa42d1528b5aad2a1d74a7b876b9a11eead2fb6122",
+      "size_bytes": 7539,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/installer_builder/models.py",
+      "sha256": "ed0c30259761ccaa20e96e36e448dec535813a3da996ff26036f0eb800c0e701",
+      "size_bytes": 697,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/installer_builder/validator.py",
+      "sha256": "32d62a0d519448279e70ab66af69429e39bbdab8fa32d0c5dc3eee56a73d2c45",
+      "size_bytes": 1452,
       "category": "source"
     },
     {
@@ -5600,6 +5780,12 @@
       "path": "tests/governance/test_sgd_114_evidence_policy.py",
       "sha256": "627ffe99213fcd82547501a3bb7aa0e4b3fa3f2ced077765b4610b1e2141fa06",
       "size_bytes": 5925,
+      "category": "tests"
+    },
+    {
+      "path": "tests/installer_builder/test_SIB_001_installer_builder.py",
+      "sha256": "01bd443c630ad7b36f3c1a2bcff95cd583a833fd7a4de805f44fee37795096f3",
+      "size_bytes": 3419,
       "category": "tests"
     },
     {
