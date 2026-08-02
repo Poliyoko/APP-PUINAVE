@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T11:01:28.648660+00:00",
+  "generated_at_utc": "2026-08-02T11:17:36.951785+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 1016,
+  "total_files": 1064,
   "totals_by_category": {
-    "other": 377,
-    "evidence": 262,
-    "configuration": 38,
-    "dashboard": 13,
-    "documentation": 75,
-    "release": 71,
-    "automation": 22,
-    "source": 127,
-    "tests": 31
+    "other": 378,
+    "evidence": 286,
+    "configuration": 41,
+    "dashboard": 14,
+    "documentation": 78,
+    "release": 78,
+    "automation": 23,
+    "source": 134,
+    "tests": 32
   },
   "files": [
     {
@@ -260,6 +260,12 @@
       "path": "Install-SPT005-Configurable-Cultural-Identity.ps1",
       "sha256": "92cb0bd74ec6b7e7c4bcd64c09134b540bf7ab7ed4bae6f2c9e23de5a6dc96f5",
       "size_bytes": 39914,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT006-Automated-Multilingual-Multimedia-Pipeline.ps1",
+      "sha256": "19dcd6fa57b7d192db336061fe3ae44b69c0614a081880d817d2130658ee6bb9",
+      "size_bytes": 44372,
       "category": "other"
     },
     {
@@ -840,20 +846,146 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "16b2b8f2a5ab5e60e7c46190485f23b362f8399a43736d9b64f8a5b34b8f7f65",
-      "size_bytes": 18117,
+      "sha256": "f88040ea74776910c55f224bb96b90f8d9f98474e9983d2751303d53da31439d",
+      "size_bytes": 28858,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "3aedada79992e4a64c9dd63a043e4f893ab41ac0d78925e9e4f0bb08a9677b44",
+      "sha256": "00a1f99c13c2ddab8c6327d6ac3e3e5bdfe125ebbaf6848e6b6d9d97d35479f8",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "a38778c7af23aa8505a2c304307943ad12c4dbc5605e4463fa4678579bf7cef5",
+      "sha256": "817791c4506b9532a4865b5c5c670f5dd976fcebb3a96fb8936f42a6130b07ef",
       "size_bytes": 231,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/pipeline-summary.json",
+      "sha256": "a81afac9f7bda1e47b723d1982b2a8dc2caeb164a0bb329bd1d60ab70135e72b",
+      "size_bytes": 266,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0001.json",
+      "sha256": "22031af289c51ec753bbb6b85c29ab11b7b8860c47d4157ed120586a0d300b6b",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0002.json",
+      "sha256": "a116be5aa8b1a82c081d237a8e731bc06fc97b46aed4bb4963308333c27cb7a1",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0003.json",
+      "sha256": "392e4f49d8c0cc003fd9156341387852da37caf67cf0c0ecdda2bba045528fe2",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0004.json",
+      "sha256": "0a1dab4d7afe64724c6bac85bcfc286fc408de7dc2206d69167caaf605dfd9b3",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0005.json",
+      "sha256": "b63345dbd2c390c7a042b180b430f6c4e3365e4695c1b058167a8731b483da3b",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0006.json",
+      "sha256": "6c56a19f63dfa29062a809d6bae8c1f7367d211886174a2927442fe844576783",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0007.json",
+      "sha256": "5bcf20e59c22a558ce39f56ed193b395e5d30af0008c216c44305a6c8c2036ef",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0008.json",
+      "sha256": "42ff08598e8083862a27ad2d40d317cd2a56607cb2e1fffce78013ffb79d203c",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0009.json",
+      "sha256": "89d394a7ad10c76d06778c0dec477166776f6e14588fe6d42e38609e299c34c9",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0010.json",
+      "sha256": "d62d4d1a8178cce59094d830e43406019c33d2fbd77b961f554471439d86ccf8",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0011.json",
+      "sha256": "c7a3d736777ae7c7d5dba65d0d3385004678ef76322c77331c9e2ce11e251b29",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0012.json",
+      "sha256": "374934843289b49cd7917fad407effbfdc950b2565820408bd4515a912a62c27",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0013.json",
+      "sha256": "6bb0a63f897c76e596cee3ad366a4b979c9b98adc0c36bdbaba2936c8e1e67bb",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0014.json",
+      "sha256": "d459adb8013733b1e1a03d88f268f22bb5fe21713c6bb71ef43501211ce38edc",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0015.json",
+      "sha256": "7f12b6d3b32e010f7c3b7d226b15194d4011dbc19a91775e8aa75faaa1d66dd9",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0016.json",
+      "sha256": "8594ceaa8aeda33eb7c36bc95ce180f8cc35e7d905e90ccc9efbe046181de88e",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0017.json",
+      "sha256": "7dfe3845622e1680b22a6aa674b5546754345242c5dd3554a9a93a5b527edb42",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0018.json",
+      "sha256": "21813eb193b691d0ac1eb130e84f330723ea44b9f5bd1d30066c0a2a8a0e1230",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0019.json",
+      "sha256": "4d3c5a1b00503936b5cce6c0bd2eb449a94f765527864a2754aec3054254c24c",
+      "size_bytes": 670,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/enrichment/SPT-006/playback-manifests/0020.json",
+      "sha256": "fbb56c573250b4a3a31f975e9598b04f6dab1a7a1ea1f055d2ebaef06b9170a4",
+      "size_bytes": 670,
       "category": "evidence"
     },
     {
@@ -1032,20 +1164,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "e0213756df6a98a1bbddddc78209a58b798223acbcffaa3a4c33b82be3a0a230",
+      "sha256": "2de86beaff23b84eb88e0023e04e3aa383a3633b648e5e018bbd4f307fe9a072",
       "size_bytes": 1432,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "9276bc45bf943a13946b33688ce7801ba911905f6677a4e9fdc10a2903757f09",
-      "size_bytes": 642,
+      "sha256": "018b32e49b7d19f2e9a1da13ef599797d42219aa29b04a2a997e7c257cb43bb9",
+      "size_bytes": 643,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "47184cfc772a95ed1354f6b2efb4432eaad8b377970f0b8a5011ee0393cc46db",
-      "size_bytes": 222936,
+      "sha256": "9e7fe3a85673bc06c796ad2399473a08743db43168aa5f484227f81c308d5e98",
+      "size_bytes": 230108,
       "category": "evidence"
     },
     {
@@ -1812,8 +1944,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "122cfb4394ad754db5119a9bb2234aed5abfbf665d0951a0e36cb0db9380a23b",
-      "size_bytes": 4233,
+      "sha256": "5150b3135fa07e6d4e627703711e67d1a0d4cc1cd5cfd9ebc47b512bfec36faf",
+      "size_bytes": 14507,
       "category": "evidence"
     },
     {
@@ -2012,6 +2144,24 @@
       "path": "artifacts/pmo/SPT-005/traceability-SPT-005.json",
       "sha256": "d421703546d6c7c761fa16c68c765e32d7025636705713e0283391cc626bf2d3",
       "size_bytes": 612,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-006/SPT-006-quality-gate.json",
+      "sha256": "e13037c9fc070ab2e7b181305f62f4d9a95b07841ddeffb3f13ca3529426a24d",
+      "size_bytes": 12652,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-006/implementation-evidence.json",
+      "sha256": "6e73fc64cfbc50fb3be0eef63114e76c69d4ce42196b819c99f44d383d91cfff",
+      "size_bytes": 606,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-006/traceability-SPT-006.json",
+      "sha256": "ae2dfd0be591771ff474da763730c5f7baf99311272bed86f8281ca10fd83b47",
+      "size_bytes": 620,
       "category": "evidence"
     },
     {
@@ -3911,6 +4061,24 @@
       "category": "configuration"
     },
     {
+      "path": "config/enrichment/SPT-006-component.json",
+      "sha256": "b6eb6160656a5f15f86751eab2eda0a1330338a45638be1f87c62d0063cb38fd",
+      "size_bytes": 1046,
+      "category": "configuration"
+    },
+    {
+      "path": "config/enrichment/SPT-006-enrichment-policy.json",
+      "sha256": "89abd58701477bff39f1724fdc1b10b17f0b39e2a7c1b0d7437867b71491fd0c",
+      "size_bytes": 918,
+      "category": "configuration"
+    },
+    {
+      "path": "config/enrichment/SPT-006-playback-policy.json",
+      "sha256": "f0d1b530f4c45ffb9254ce3473a9631c51c4e204f1568479d019fff691f96dd2",
+      "size_bytes": 453,
+      "category": "configuration"
+    },
+    {
       "path": "config/evidence-retention-policies.json",
       "sha256": "4949c490877c07876ea87b05784c8c0f54918e7793ccac141309e137cc3c76df",
       "size_bytes": 4756,
@@ -4139,8 +4307,14 @@
       "category": "dashboard"
     },
     {
+      "path": "dashboard/SPT-006-dashboard.json",
+      "sha256": "083910ad326753b26cc3f3176a3d0639b680bccd12a6dfea17a0dceadba9d220",
+      "size_bytes": 536,
+      "category": "dashboard"
+    },
+    {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "e0cea714ff71304ef9c208df0374d81a801275b3e7fd8676d1efc9d3910878f3",
+      "sha256": "e99a44679f98e86c19e9fd3e0e4670b1e5a3a9450370b2e8549e9904edd8253a",
       "size_bytes": 2799,
       "category": "documentation"
     },
@@ -4152,14 +4326,14 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "1cb51c06d89e2096d5030bb05a20860a8ee1d9827b9804e97a8d87729276aa23",
-      "size_bytes": 2469,
+      "sha256": "7752f17e4bb5d5a559621093c4aaec9a2f01f188bb8ee04bfe8146c6fd19deda",
+      "size_bytes": 2585,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "cb46a3647d5c455def62f9009bc4b332240f36ffda511123793907f8686b2fa0",
-      "size_bytes": 11565,
+      "sha256": "b991549ce3ef6442461160c060355ee0efcdf491f81bbd4636eac7ea33a5a380",
+      "size_bytes": 12683,
       "category": "documentation"
     },
     {
@@ -4514,6 +4688,24 @@
       "path": "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
       "sha256": "70a011d580340ffaa48a338084adabef497ad7f529b1681e52ae058948d64cf3",
       "size_bytes": 689,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+      "sha256": "39ace09fd0166b970f430e93e49b8e2c7dd8476c696a4e3f4f2923a5bbaeb2a5",
+      "size_bytes": 799,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md",
+      "sha256": "75a4b8088dd0bb4e5f2aa3aad10d3b29a711d49eb6228f645b8d1cfc0a0912d5",
+      "size_bytes": 448,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+      "sha256": "37068ff456c82291a8caf9da51e85bfdf189c46ca919ffff041e3a700f6fcb9f",
+      "size_bytes": 475,
       "category": "documentation"
     },
     {
@@ -5033,6 +5225,48 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+      "sha256": "39ace09fd0166b970f430e93e49b8e2c7dd8476c696a4e3f4f2923a5bbaeb2a5",
+      "size_bytes": 799,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-Reproduccion-Automatica-Configurable.md",
+      "sha256": "75a4b8088dd0bb4e5f2aa3aad10d3b29a711d49eb6228f645b8d1cfc0a0912d5",
+      "size_bytes": 448,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-Validacion-Linguistica-Cultural.md",
+      "sha256": "37068ff456c82291a8caf9da51e85bfdf189c46ca919ffff041e3a700f6fcb9f",
+      "size_bytes": 475,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-component.json",
+      "sha256": "b6eb6160656a5f15f86751eab2eda0a1330338a45638be1f87c62d0063cb38fd",
+      "size_bytes": 1046,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-enrichment-policy.json",
+      "sha256": "89abd58701477bff39f1724fdc1b10b17f0b39e2a7c1b0d7437867b71491fd0c",
+      "size_bytes": 918,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-playback-policy.json",
+      "sha256": "f0d1b530f4c45ffb9254ce3473a9631c51c4e204f1568479d019fff691f96dd2",
+      "size_bytes": 453,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/pipeline-summary.json",
+      "sha256": "a81afac9f7bda1e47b723d1982b2a8dc2caeb164a0bb329bd1d60ab70135e72b",
+      "size_bytes": 266,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -5132,6 +5366,12 @@
       "path": "scripts/Invoke-SPT005-IdentityManagement.ps1",
       "sha256": "00ba26a78d2a09afa3d435d3185ae5241c9b4d82d64a52dada4613f8a8ff73cb",
       "size_bytes": 1224,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT006-EnrichmentPipeline.ps1",
+      "sha256": "b59b6452dd08927d465778da6c1911c732b9d7c2312169a7cc8b6214c55d7e56",
+      "size_bytes": 375,
       "category": "automation"
     },
     {
@@ -5354,6 +5594,48 @@
       "path": "src/sgoda/documentation/master_docs.py",
       "sha256": "12fbd010ef59f3ae40fb7d90439c6b83bc6e7992130cc79fc6b7e823dd35664f",
       "size_bytes": 21832,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/enrichment/__init__.py",
+      "sha256": "d00fb5ccc6e87a47dfa174a1789ba89f7ac975938560359cdf9ba0d228ac34aa",
+      "size_bytes": 1085,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/enrichment/cli.py",
+      "sha256": "f2a19f1ba447c5005bdd51f7fdec1a5652a19ed5f84dff46bd8fcdf359c17107",
+      "size_bytes": 1965,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/enrichment/models.py",
+      "sha256": "caa685aaf5b44174096fd2a5d5fb2887eec889be8213f1a8209616fa2ad2a158",
+      "size_bytes": 1228,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/enrichment/pipeline.py",
+      "sha256": "336bc20d06486e94ddf55cf44012ba3623f9bdc6de0a67cf16f1f189a47dcd74",
+      "size_bytes": 6442,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/enrichment/planner.py",
+      "sha256": "2587e46aa9119c547e1fb76cca89dd031f2f882bb2739157a8babd3c316034f3",
+      "size_bytes": 5232,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/enrichment/playback.py",
+      "sha256": "59d0bd3e785ba36a58241b37f1b32ab6caf8a4519b822e617421489594e6ab0c",
+      "size_bytes": 1227,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/enrichment/providers.py",
+      "sha256": "538c36d3a1035df17c4d03cc498ed4fff2a60b9ce7a18704da8e3d1c7b0cd616",
+      "size_bytes": 2262,
       "category": "source"
     },
     {
@@ -5954,6 +6236,12 @@
       "path": "tests/documentation/test_SGD_115_master_documentation.py",
       "sha256": "055b35d79c2342f4cf1bbccdbf03d56003eae81893913cf4f124119599d2dc89",
       "size_bytes": 4575,
+      "category": "tests"
+    },
+    {
+      "path": "tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py",
+      "sha256": "a48fb9ac67c9fb9b3b3b67c56c57d96ad31c1b7352d91da9cdf187618c35f2c5",
+      "size_bytes": 6741,
       "category": "tests"
     },
     {
