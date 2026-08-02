@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T08:57:11.206908+00:00",
+  "generated_at_utc": "2026-08-02T09:12:07.034436+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 823,
+  "total_files": 848,
   "totals_by_category": {
-    "other": 368,
-    "evidence": 214,
-    "configuration": 17,
-    "dashboard": 8,
-    "documentation": 57,
-    "release": 30,
-    "automation": 15,
-    "source": 90,
-    "tests": 24
+    "other": 370,
+    "evidence": 221,
+    "configuration": 19,
+    "dashboard": 9,
+    "documentation": 59,
+    "release": 34,
+    "automation": 16,
+    "source": 95,
+    "tests": 25
   },
   "files": [
     {
@@ -221,6 +221,12 @@
       "category": "other"
     },
     {
+      "path": "Install-SPT003A-AI-Multimedia-Orchestrator.ps1",
+      "sha256": "45992335ed6e9227c396553a57a62cb373238653f67631dfb3dcc7972f371734",
+      "size_bytes": 46685,
+      "category": "other"
+    },
+    {
       "path": "README.md",
       "sha256": "2e16ebe7735b27e8afac4b4c2bd35b183548f2599c85385b9f6f302c33efeef9",
       "size_bytes": 2502,
@@ -290,6 +296,12 @@
       "path": "Repair-SPT001B-P07-v1.1-Similarity.ps1",
       "sha256": "fcb35091a42e9b0b2b5ca8b940b205642cb058e39d89824e33d007dd78f46801",
       "size_bytes": 19167,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPT003A-v0.1.1-Clean-Baseline-Preflight.ps1",
+      "sha256": "80248025b533b857ea2a81af53300c8501d656176f8f4bc24bed5ea43f1a54ed",
+      "size_bytes": 4739,
       "category": "other"
     },
     {
@@ -506,6 +518,30 @@
       "path": "artifacts/audit/spb-003.2/SGD-401-informe-auditoria-integral.md",
       "sha256": "136f5e969a981ca9e528ce63f2783ad6ed797b672ecf215f9660cee28b09c141",
       "size_bytes": 10678,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003A/job-statistics.json",
+      "sha256": "96a688bb183f6dac0379a37f2a9464697261f2228f6662221fce5ec67b4dfa18",
+      "size_bytes": 174,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003A/multimedia-jobs-planned-event.json",
+      "sha256": "6348c4e86395233c839843388208049731a3f04a7e64c66185ab09789949fc78",
+      "size_bytes": 397,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003A/orchestrator-validation.json",
+      "sha256": "1bff58c9be293c0561a18d974f03ac338c175f32a2b67678f1c9ebaea87dc575",
+      "size_bytes": 208,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/automation/SPT-003A/planning-summary.json",
+      "sha256": "c2767531bd28a1b70a6c4dcc896dca0016e56065c21adc328fa15b9c9c6d2df2",
+      "size_bytes": 236,
       "category": "evidence"
     },
     {
@@ -816,19 +852,19 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "f7681362f2c820d7106297e9ffcc9dceae684e6e35c7a807f75f695fde98ded9",
+      "sha256": "86945419c03bfac289ffeb0b80767550bef310f6a50c8ba24e55289b0a6c10e2",
       "size_bytes": 1429,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "d5ddaa82b4bc2f71277c7a8624229268322aa75c26dc814af7b50cdc929de876",
+      "sha256": "37b62a2120e3664da97d0d41e3c485ab71cc3cdee867dd68741a4e649d5732b0",
       "size_bytes": 640,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "3dc6851754eec0e0f2bee4cd3444e0d1111976f2d7b1c68e818e64fbce2f45d7",
+      "sha256": "1d399359067b23168fbe1ade19e4f7891a45d1e755e27af0fc2529b9bfbe14ee",
       "size_bytes": 186561,
       "category": "evidence"
     },
@@ -1560,8 +1596,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "5f690420c946ca3ffe143c6989564dd45188ee4380df8ccc2a21d5d5fc0ad812",
-      "size_bytes": 1952,
+      "sha256": "d71a3389cfcc089d04fe9531f27b585353c5c8c490af1e0878a8ec2e4ab20919",
+      "size_bytes": 3764,
       "category": "evidence"
     },
     {
@@ -1670,6 +1706,24 @@
       "path": "artifacts/pmo/SPT-002/traceability-SPT-002.json",
       "sha256": "1d50eeb1decf8a0d8b4094a6c215e80fa8f44cef7c185e1f2ce57649913c5531",
       "size_bytes": 1239,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003A/SPT-003A-quality-gate.json",
+      "sha256": "a2d294d0094f376d43caed958419dcb0cc9d4c460630d3c0ea7fce5413c3e4d7",
+      "size_bytes": 2907,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003A/implementation-evidence.json",
+      "sha256": "6c1a90cc6031ce7cfeacb6e8eaeab0525da3b0f465540c36ceb067075a199e10",
+      "size_bytes": 965,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-003A/traceability-SPT-003A.json",
+      "sha256": "9f3249e8c29cd5580d1596c211fe3f60d2c47423eeceab49de03a521032ff122",
+      "size_bytes": 836,
       "category": "evidence"
     },
     {
@@ -3491,6 +3545,18 @@
       "category": "other"
     },
     {
+      "path": "config/automation/SPT-003A-component.json",
+      "sha256": "e770d826af243a086f1b9545ebff4558c889449cc8d1133b78d8ec5b52d9ee35",
+      "size_bytes": 471,
+      "category": "configuration"
+    },
+    {
+      "path": "config/automation/SPT-003A-policy.json",
+      "sha256": "feee94b478b4c2166c3f0fd008ad0432ab6a2826a7ee3853f885dd373c8bb743",
+      "size_bytes": 607,
+      "category": "configuration"
+    },
+    {
       "path": "config/evidence-retention-policies.json",
       "sha256": "4949c490877c07876ea87b05784c8c0f54918e7793ccac141309e137cc3c76df",
       "size_bytes": 4756,
@@ -3638,6 +3704,12 @@
       "path": "dashboard/SPT-002-dashboard.json",
       "sha256": "753d1f044893edf233e75c38936a00f295fd495550473bfdd7f263a79ec8891c",
       "size_bytes": 626,
+      "category": "dashboard"
+    },
+    {
+      "path": "dashboard/SPT-003A-dashboard.json",
+      "sha256": "6ac3352a322f71ee44610279c504fd82ce7d911607537e2c91a7c624bbbd934a",
+      "size_bytes": 576,
       "category": "dashboard"
     },
     {
@@ -3911,6 +3983,18 @@
       "category": "documentation"
     },
     {
+      "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Arquitectura-Colas-Eventos.md",
+      "sha256": "0e0d655e812a0a16f86ed12813791cfdb9d38bca07fe67a2a0b56ea980288aef",
+      "size_bytes": 489,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-003/SPT-003A-Orquestador-IA-Multimedia.md",
+      "sha256": "a879074135dee36845dd16c81c106b5140dae2e1408cbeeb78bcfc3c1d92c634",
+      "size_bytes": 835,
+      "category": "documentation"
+    },
+    {
       "path": "docs/06_RELEASES/RELEASE-SPB-006-v1.0.md",
       "sha256": "d9ca7fbc5445c8dd27c49255f5124463270cec1bbf200e9808b6eb00950c9b5e",
       "size_bytes": 1393,
@@ -4181,6 +4265,30 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-003A-v0.1.0/job-statistics.json",
+      "sha256": "96a688bb183f6dac0379a37f2a9464697261f2228f6662221fce5ec67b4dfa18",
+      "size_bytes": 174,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/multimedia-jobs-planned-event.json",
+      "sha256": "6348c4e86395233c839843388208049731a3f04a7e64c66185ab09789949fc78",
+      "size_bytes": 397,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/orchestrator-validation.json",
+      "sha256": "1bff58c9be293c0561a18d974f03ac338c175f32a2b67678f1c9ebaea87dc575",
+      "size_bytes": 208,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/planning-summary.json",
+      "sha256": "c2767531bd28a1b70a6c4dcc896dca0016e56065c21adc328fa15b9c9c6d2df2",
+      "size_bytes": 236,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -4247,6 +4355,12 @@
       "category": "automation"
     },
     {
+      "path": "scripts/Invoke-SPT003A-MultimediaOrchestrator.ps1",
+      "sha256": "75718d0f3f6a998c30cbb67cda2c596ddd6117071ca27109085f20a6251d93e8",
+      "size_bytes": 539,
+      "category": "automation"
+    },
+    {
       "path": "scripts/Start-SGODA.ps1",
       "sha256": "5f4e1a2351d5b0a77e6e8968080214b898246184e992977ae514732421788f7b",
       "size_bytes": 482,
@@ -4292,6 +4406,36 @@
       "path": "src/sgoda/api/routes.py",
       "sha256": "7b884200f705f7ac126cb7e4292fe1194906b266fff235eb85548dbba78b10cf",
       "size_bytes": 512,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/__init__.py",
+      "sha256": "cc491f395707980a5e22d02cb1dd9097f17a44b7ab16e89e34f7f3da1d785a67",
+      "size_bytes": 605,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/cli.py",
+      "sha256": "782ef915efdcce73e3cb29cb956ecd52546f324af3b3091b558e3280ba01ece6",
+      "size_bytes": 115,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/job_queue.py",
+      "sha256": "56cdd4226352051a6ac228321789338c4d2be7f31d605c770d66c631d8bd3d21",
+      "size_bytes": 12936,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/models.py",
+      "sha256": "f89a74488aaf8d55b6bf08e4e3ab91b55909e2c943b68cca18364f8543b58602",
+      "size_bytes": 959,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/automation/planner.py",
+      "sha256": "29e1b7a7b11fffd4f4b0d5d8356702cc680f61851d7f31c94cb0c9d137ede6fd",
+      "size_bytes": 9129,
       "category": "source"
     },
     {
@@ -4809,6 +4953,12 @@
       "sha256": "8f01acd1d4f662fd96b5d6ed33125dfe64dcf8840cefe8b86ae95b48e3a8594e",
       "size_bytes": 2217,
       "category": "source"
+    },
+    {
+      "path": "tests/automation/test_SPT_003A_multimedia_orchestrator.py",
+      "sha256": "5a636fdf116a6d915ea9c31c81c5f8910206aa1d64ed71b15b646f0d80e8c525",
+      "size_bytes": 6698,
+      "category": "tests"
     },
     {
       "path": "tests/governance/test_SGD_114_v2_repository_governance.py",
