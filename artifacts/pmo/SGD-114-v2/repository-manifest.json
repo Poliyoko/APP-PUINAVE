@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T19:42:12.192066+00:00",
+  "generated_at_utc": "2026-08-02T19:58:41.070692+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 1286,
+  "total_files": 1330,
   "totals_by_category": {
-    "other": 392,
-    "evidence": 344,
-    "configuration": 55,
+    "other": 393,
+    "evidence": 351,
+    "configuration": 58,
     "dashboard": 20,
-    "documentation": 97,
-    "release": 142,
-    "automation": 29,
-    "source": 169,
-    "tests": 38
+    "documentation": 100,
+    "release": 162,
+    "automation": 30,
+    "source": 177,
+    "tests": 39
   },
   "files": [
     {
@@ -308,6 +308,12 @@
       "path": "Install-SPT007A-v0.1.0-Intelligent-Lexical-Engine.ps1",
       "sha256": "9a5e61166e4dc1eb7e16bdddd59e9106fc52dbf1247bcfb8be7b87e4d9ee1089",
       "size_bytes": 44623,
+      "category": "other"
+    },
+    {
+      "path": "Install-SPT007B-v1.0.0-Semantic-Lexical-Engine.ps1",
+      "sha256": "b4a9e0e2d9631edf6df42903ab3b6050e836eef8f06c9e4ec300b670fa6d8d81",
+      "size_bytes": 44055,
       "category": "other"
     },
     {
@@ -930,19 +936,19 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "33b585908b4f80e2f712969a22ba293fa02adf03a9176f8229a0349131e6ad11",
-      "size_bytes": 42261,
+      "sha256": "258fbb115d9968fbfa7443f09eff2d3e6d6725346fb1a70e9e11bf35a39c3444",
+      "size_bytes": 43923,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "588344c98552c1e34a5a102136afbbbf20992cc7d37cae432de0376d41d83ff7",
+      "sha256": "5bb1fe93ff5553df9facf5c6eb491520ed91172a8050639149baafe3d3526c08",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "0f6ea81c281ab1089e9836cdde8feee52e037e235167fffbbdae8ec89594dfbd",
+      "sha256": "676649dd4a21f3a6554cee4dede56f8066f6f8bf4a7702788df32854412f3c00",
       "size_bytes": 231,
       "category": "evidence"
     },
@@ -1163,6 +1169,24 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/lexical_engine/SPT-007B/demo-relations.json",
+      "sha256": "32c3ccfc5c3b77065fa213a20bade00a03e9e5b93bc155f9472758226451ac0e",
+      "size_bytes": 392,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/lexical_engine/SPT-007B/demo-semantic-rlb.json",
+      "sha256": "6eca7d631b5e18a90f6eecbe48d266ac6d793bbe426f70f036e94eab817142f3",
+      "size_bytes": 919,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/lexical_engine/SPT-007B/demo-semantic-search.json",
+      "sha256": "992aef597e243ea4b4352696619b3b0620166701189c9385d3de2bc5622f4b4b",
+      "size_bytes": 1175,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/media/ADR-010/rmr-baseline-manifest.json",
       "sha256": "30790302a767357bb16ddafcfde7a9875e458b86a705d5a679bb9ff465094fff",
       "size_bytes": 1290,
@@ -1284,20 +1308,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "7e4b32e0e6c9a349b4fb0008872c3e8fcd9ac86a6c00365f490950c5c309bae6",
-      "size_bytes": 1433,
+      "sha256": "509cfa67f1c7c210dbcdc36a16ffe8ad8f9334114a42ccced9f3392db7577178",
+      "size_bytes": 1434,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "36a6b71f9445225d8903e7f012173d41d9383a821310e9672bd50c05eace0aae",
+      "sha256": "32cffef52733c3b2bdf789e82f86e9eb5024bc2ec769e484fc33a838ed250931",
       "size_bytes": 644,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "69af57e2e911087a73be361f5c1170c2cd84dacd4850172e2186d3b2479672c8",
-      "size_bytes": 281797,
+      "sha256": "8d0816089397c9270d599829499d8b11fc56ff4bbc275f62001670dc0698dce7",
+      "size_bytes": 291395,
       "category": "evidence"
     },
     {
@@ -2298,8 +2322,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "6ac88baaf320de4e9d6c43f9a4647ebe0e38b631ba67c90395066068dc45d906",
-      "size_bytes": 4983,
+      "sha256": "4f47c0c4541dd6b39f315a02c58eec26e21aa5b826613670b2a6dbc40751e387",
+      "size_bytes": 5219,
       "category": "evidence"
     },
     {
@@ -2561,6 +2585,30 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/pmo/SPT-007B/SPT-007B-implementation-evidence.json",
+      "sha256": "41fafbd0474967b7d7dbbaeb49b81beead015a972f2398c23bf7bfb6b32d4deb",
+      "size_bytes": 1363,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007B/SPT-007B-policy-result.json",
+      "sha256": "103d4fcef3e0d283117637a09c6c00a9d41d0ca3dbddbbc3f73460bd7b930314",
+      "size_bytes": 3763,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007B/SPT-007B-policy-result.md",
+      "sha256": "260a1f3dae029460399e822b05b5795f0fef07e2f2ef3a3d8bf40f3b792c7c33",
+      "size_bytes": 2177,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-007B/SPT-007B-pre-gate-evidence.json",
+      "sha256": "97db40f74a8d30699a5a34320c1f572b19cd9db1d66a0abe7646a57850e5c16c",
+      "size_bytes": 329,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/releases/SPB-006/closure.json",
       "sha256": "4921e59c76fb9c711408f2b76eae20b024e16a099ba197f861da239400bc8206",
       "size_bytes": 146,
@@ -2664,37 +2712,37 @@
     },
     {
       "path": "artifacts/roadmap/SGD-116/dependency-graph.json",
-      "sha256": "20b399f78af5a874a8362beea8e6f6ca843af9d63f9086bacf5781a552e9d88b",
-      "size_bytes": 9541,
+      "sha256": "4d9e28c5bd97314923a645bc736aab96a9fe5f1617ce686a1dcc3bef565b15d5",
+      "size_bytes": 10742,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/executive-summary.json",
-      "sha256": "8ca82d24cb38c46b0f4f5f400cb5ffb92f395738fa5d9f409d739acb3b01e941",
+      "sha256": "5e24cc5a3dce09b3f773bb520a328637b70b9ec45af4479f96e1a943bf4580d7",
       "size_bytes": 2877,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/metrics.json",
-      "sha256": "498dc45045a11ba1604417af198385050cf36c00d66f438bf77f1c46a31ea6ae",
+      "sha256": "1515b741d00ee172a3a3bdbe47dfe0ee29bce9bf1acd5268ac52a6b42ee6e959",
       "size_bytes": 364,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/roadmap.json",
-      "sha256": "fae0447b3a36ca3eee7afc5c827688912f53d06d2c6b96fb052750d2a11e33e2",
-      "size_bytes": 22751,
+      "sha256": "db77b79e7df3327bf65ae42b2c6dcf2aec32ee34ad93b7b39c5cf00696ef2a44",
+      "size_bytes": 24354,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/timeline.json",
-      "sha256": "fbc896dccd95c7dd948faea02f54a4903b8e921144dee8260d3fbf47040e8b9a",
-      "size_bytes": 5057,
+      "sha256": "f269a6f5e42c4dcc83b471b085bec6508ad9c224adab9dff5cfe2b50605dede8",
+      "size_bytes": 5330,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/validation.json",
-      "sha256": "c9f008552b86b5b69f4840459f2bf8478643faa93532237dcedaf98cf7362075",
+      "sha256": "59008241cab74ce62352bcd91db6410bc30ca67419c35ff7041f0ac2823c9074",
       "size_bytes": 2177,
       "category": "evidence"
     },
@@ -4637,6 +4685,24 @@
       "category": "configuration"
     },
     {
+      "path": "config/lexical_engine/SPT-007B-component.json",
+      "sha256": "e48bc3f7f8349ac3257fc31b00c49129a542dcdc701945087e0c741df3116742",
+      "size_bytes": 1119,
+      "category": "configuration"
+    },
+    {
+      "path": "config/lexical_engine/SPT-007B-relations.example.json",
+      "sha256": "4ab7966c292dd567bf0c5f09164edf02e5690017a69b914e1e28f6767b525440",
+      "size_bytes": 232,
+      "category": "configuration"
+    },
+    {
+      "path": "config/lexical_engine/SPT-007B-semantic-policy.json",
+      "sha256": "ffd623b10f70586bb5b4a40af0f2c3e247f94eb188719a24956fc417cf8eca77",
+      "size_bytes": 632,
+      "category": "configuration"
+    },
+    {
       "path": "config/media/ADR-010-component.json",
       "sha256": "fb6ff3b30891750d24677524e8ab9741fd2687b14acbf3393108a4e5baf4b382",
       "size_bytes": 564,
@@ -4836,44 +4902,44 @@
     },
     {
       "path": "dashboard/dependency-graph.json",
-      "sha256": "20b399f78af5a874a8362beea8e6f6ca843af9d63f9086bacf5781a552e9d88b",
-      "size_bytes": 9541,
+      "sha256": "4d9e28c5bd97314923a645bc736aab96a9fe5f1617ce686a1dcc3bef565b15d5",
+      "size_bytes": 10742,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-metrics.json",
-      "sha256": "498dc45045a11ba1604417af198385050cf36c00d66f438bf77f1c46a31ea6ae",
+      "sha256": "1515b741d00ee172a3a3bdbe47dfe0ee29bce9bf1acd5268ac52a6b42ee6e959",
       "size_bytes": 364,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-roadmap.json",
-      "sha256": "fae0447b3a36ca3eee7afc5c827688912f53d06d2c6b96fb052750d2a11e33e2",
-      "size_bytes": 22751,
+      "sha256": "db77b79e7df3327bf65ae42b2c6dcf2aec32ee34ad93b7b39c5cf00696ef2a44",
+      "size_bytes": 24354,
       "category": "dashboard"
     },
     {
       "path": "dashboard/executive-summary.json",
-      "sha256": "8ca82d24cb38c46b0f4f5f400cb5ffb92f395738fa5d9f409d739acb3b01e941",
+      "sha256": "5e24cc5a3dce09b3f773bb520a328637b70b9ec45af4479f96e1a943bf4580d7",
       "size_bytes": 2877,
       "category": "dashboard"
     },
     {
       "path": "dashboard/timeline.json",
-      "sha256": "fbc896dccd95c7dd948faea02f54a4903b8e921144dee8260d3fbf47040e8b9a",
-      "size_bytes": 5057,
+      "sha256": "f269a6f5e42c4dcc83b471b085bec6508ad9c224adab9dff5cfe2b50605dede8",
+      "size_bytes": 5330,
       "category": "dashboard"
     },
     {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "73fe151622f304a136e8454799415881f897af5e09ca8d1fa86675ca09cfe753",
+      "sha256": "981d122d8389f699acf462b4ab84e00732a0d71ba60377a7dcdc6264b92d5ea2",
       "size_bytes": 2799,
       "category": "documentation"
     },
     {
       "path": "docs/00_DEPENDENCIAS_MAESTRAS.md",
-      "sha256": "ead50ec56a36186d1b73bb8fd9c29b690c07618f19e07015648983e5df226bea",
-      "size_bytes": 1603,
+      "sha256": "a6449cac9ba30ec556e5048a7d37e1d100718952a6d1f9abd766387c866faa09",
+      "size_bytes": 1845,
       "category": "documentation"
     },
     {
@@ -4884,32 +4950,32 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "59bf7174d452a8bbb519fec2fdcada716df0e669aa5dbb63d2e1913b5031da1e",
-      "size_bytes": 3125,
+      "sha256": "e07134ad3f85a8defcd9161834e05aedb9a8b097997015d0d26c3e7908f06f98",
+      "size_bytes": 3204,
       "category": "documentation"
     },
     {
       "path": "docs/00_METRICAS_ECOSISTEMA.md",
-      "sha256": "29206c20e3ff2111e8cbfca21240b16fda284baea4f8e8dccc60285c0051d995",
+      "sha256": "2bd2551800f6759b7801551db717c8e51f5d2a68bfe247dd2c4f967dcb933655",
       "size_bytes": 330,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "d6bd051189db5d58964103911e1763f151e100c58a61335f60edb4ef577ceb8e",
-      "size_bytes": 19105,
+      "sha256": "d19001a0791d17f080455e673c503d263965cf3f26affaba6d8dd4d0656bdda2",
+      "size_bytes": 20278,
       "category": "documentation"
     },
     {
       "path": "docs/00_ROADMAP_MAESTRO.md",
-      "sha256": "ad2b8db4c88d8325a43969d32404f24f5496ca507dc36cf7e34e429d576044ff",
-      "size_bytes": 3065,
+      "sha256": "79071a0035a8ba331581cb1fd2fd388c06c2a904b637fa3468fc0f1751050864",
+      "size_bytes": 3167,
       "category": "documentation"
     },
     {
       "path": "docs/00_TIMELINE_MAESTRO.md",
-      "sha256": "946ff93b37c26af00fe53e6495f485f5c715081a3e75af06fdd952180f8a8f6c",
-      "size_bytes": 2378,
+      "sha256": "be79862473c8d3f66e47ade44c477b58b8b63e950d4609dda513541de199dc83",
+      "size_bytes": 2500,
       "category": "documentation"
     },
     {
@@ -5372,6 +5438,24 @@
       "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md",
       "sha256": "792ca842702f05bf32beca23185b83afef7954b9227cfab63c4c53550b297458",
       "size_bytes": 327,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md",
+      "sha256": "10f5c3d43361702ad45bb976b3ec984f395e2a89566f91be1d15a4ae22e28428",
+      "size_bytes": 367,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md",
+      "sha256": "d306efd12402937996dc868e307cbb8c65904cff3eb59d2a7a70618e4a5b2cc2",
+      "size_bytes": 310,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+      "sha256": "84e22cc6c29166adb72a7f3c7fde9af0ab23593e6923803d6afed7dc25bc1bbb",
+      "size_bytes": 280,
       "category": "documentation"
     },
     {
@@ -6317,6 +6401,126 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-007B-v1.0.0/Invoke-SPT007B-SemanticLexicalEngine.ps1",
+      "sha256": "4689cabd0504d3d7c1bd6d9e7525897ebaaeb1ffedd7bbedbbaa4888e06cd479",
+      "size_bytes": 652,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-Arquitectura-Indice-Semantico.md",
+      "sha256": "10f5c3d43361702ad45bb976b3ec984f395e2a89566f91be1d15a4ae22e28428",
+      "size_bytes": 367,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-Gobierno-Relaciones-Lexicas.md",
+      "sha256": "d306efd12402937996dc868e307cbb8c65904cff3eb59d2a7a70618e4a5b2cc2",
+      "size_bytes": 310,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+      "sha256": "84e22cc6c29166adb72a7f3c7fde9af0ab23593e6923803d6afed7dc25bc1bbb",
+      "size_bytes": 280,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-component.json",
+      "sha256": "e48bc3f7f8349ac3257fc31b00c49129a542dcdc701945087e0c741df3116742",
+      "size_bytes": 1119,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-implementation-evidence.json",
+      "sha256": "41fafbd0474967b7d7dbbaeb49b81beead015a972f2398c23bf7bfb6b32d4deb",
+      "size_bytes": 1363,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-policy-result.json",
+      "sha256": "103d4fcef3e0d283117637a09c6c00a9d41d0ca3dbddbbc3f73460bd7b930314",
+      "size_bytes": 3763,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-policy-result.md",
+      "sha256": "260a1f3dae029460399e822b05b5795f0fef07e2f2ef3a3d8bf40f3b792c7c33",
+      "size_bytes": 2177,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-relations.example.json",
+      "sha256": "4ab7966c292dd567bf0c5f09164edf02e5690017a69b914e1e28f6767b525440",
+      "size_bytes": 232,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-semantic-policy.json",
+      "sha256": "ffd623b10f70586bb5b4a40af0f2c3e247f94eb188719a24956fc417cf8eca77",
+      "size_bytes": 632,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/demo-semantic-search.json",
+      "sha256": "992aef597e243ea4b4352696619b3b0620166701189c9385d3de2bc5622f4b4b",
+      "size_bytes": 1175,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/query_expansion.py",
+      "sha256": "7976196758734693c9331afce5704a89f5e4a61d672a487f1ddd1ed29241b8d8",
+      "size_bytes": 1238,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/relations.py",
+      "sha256": "158e85bb3b21a68ca5072ff29176ae80f992b3f982a3705be8c3e22367358450",
+      "size_bytes": 3974,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_cli.py",
+      "sha256": "34ce665de5c45a2773d80d6d5c298fd1aa71489cb2b391b6c561147cdb350031",
+      "size_bytes": 1757,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_index.py",
+      "sha256": "3c0da70633f2c16b30f2aeaf7b82270d2bd82b43206f72b895484d968a9e42c7",
+      "size_bytes": 2716,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_models.py",
+      "sha256": "3f816e78a028d5e9a61001184c97e74c39e3397dff88caa750f5787cf4457076",
+      "size_bytes": 1094,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_ranking.py",
+      "sha256": "f53e7f38bd98db5d46cd298e46e17e756a4259ecf6a21a301e76f1fee17e4fef",
+      "size_bytes": 689,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_service.py",
+      "sha256": "ab627104b4b19d800ff0869196f652de5e4f35b201650262dccc540180fcd998",
+      "size_bytes": 6679,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/suggestions.py",
+      "sha256": "18dac81557133822f6bf292b91ba0ca8839e1cb9f1f6a5ff85e0d648f0b29a56",
+      "size_bytes": 777,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/test_SPT_007B_semantic_lexical_engine.py",
+      "sha256": "2a7629c10c5b0263c60ee80b74a37b4fb093a67d2f4ddba12daefb22b5e237d1",
+      "size_bytes": 6617,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -6458,6 +6662,12 @@
       "path": "scripts/Invoke-SPT007A-LexicalEngine.ps1",
       "sha256": "5c3b945e3fbd347f831d9d52d1302ceaa9d7c8dd48e935572d06d3b4d39689fe",
       "size_bytes": 554,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT007B-SemanticLexicalEngine.ps1",
+      "sha256": "4689cabd0504d3d7c1bd6d9e7525897ebaaeb1ffedd7bbedbbaa4888e06cd479",
+      "size_bytes": 652,
       "category": "automation"
     },
     {
@@ -6977,9 +7187,21 @@
       "category": "source"
     },
     {
+      "path": "src/sgoda/lexical_engine/query_expansion.py",
+      "sha256": "7976196758734693c9331afce5704a89f5e4a61d672a487f1ddd1ed29241b8d8",
+      "size_bytes": 1238,
+      "category": "source"
+    },
+    {
       "path": "src/sgoda/lexical_engine/ranking.py",
       "sha256": "f5cfe6891ea1b23819d6ba84a4ec87c19e963f915de71cb9ed7882129219c913",
       "size_bytes": 1075,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/lexical_engine/relations.py",
+      "sha256": "158e85bb3b21a68ca5072ff29176ae80f992b3f982a3705be8c3e22367358450",
+      "size_bytes": 3974,
       "category": "source"
     },
     {
@@ -6995,9 +7217,45 @@
       "category": "source"
     },
     {
+      "path": "src/sgoda/lexical_engine/semantic_cli.py",
+      "sha256": "34ce665de5c45a2773d80d6d5c298fd1aa71489cb2b391b6c561147cdb350031",
+      "size_bytes": 1757,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/lexical_engine/semantic_index.py",
+      "sha256": "3c0da70633f2c16b30f2aeaf7b82270d2bd82b43206f72b895484d968a9e42c7",
+      "size_bytes": 2716,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/lexical_engine/semantic_models.py",
+      "sha256": "3f816e78a028d5e9a61001184c97e74c39e3397dff88caa750f5787cf4457076",
+      "size_bytes": 1094,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/lexical_engine/semantic_ranking.py",
+      "sha256": "f53e7f38bd98db5d46cd298e46e17e756a4259ecf6a21a301e76f1fee17e4fef",
+      "size_bytes": 689,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/lexical_engine/semantic_service.py",
+      "sha256": "ab627104b4b19d800ff0869196f652de5e4f35b201650262dccc540180fcd998",
+      "size_bytes": 6679,
+      "category": "source"
+    },
+    {
       "path": "src/sgoda/lexical_engine/service.py",
       "sha256": "87083a9fa34051930e1cacaeb23184f15f40541161db08d38295c31dfb07f4af",
       "size_bytes": 2210,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/lexical_engine/suggestions.py",
+      "sha256": "18dac81557133822f6bf292b91ba0ca8839e1cb9f1f6a5ff85e0d648f0b29a56",
+      "size_bytes": 777,
       "category": "source"
     },
     {
@@ -7586,6 +7844,12 @@
       "path": "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py",
       "sha256": "2845ee2a7dabe3abbd5916b8f209c9f097d214305bf600fe52d32bf964b9592a",
       "size_bytes": 4394,
+      "category": "tests"
+    },
+    {
+      "path": "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py",
+      "sha256": "2a7629c10c5b0263c60ee80b74a37b4fb093a67d2f4ddba12daefb22b5e237d1",
+      "size_bytes": 6617,
       "category": "tests"
     },
     {

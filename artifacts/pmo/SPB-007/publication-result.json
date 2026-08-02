@@ -1,16 +1,16 @@
 {
   "increment": "SPB-007",
   "version": "1.0.0",
-  "generated_at_utc": "2026-08-02T19:42:09.854685+00:00",
+  "generated_at_utc": "2026-08-02T19:58:38.609823+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
   "result": {
     "branch": "feature/SPT-001A-rlb-schema-foundation",
     "remote": "origin",
     "upstream_before": "origin/feature/SPT-001A-rlb-schema-foundation",
     "upstream_after": "origin/feature/SPT-001A-rlb-schema-foundation",
-    "staged_files": 64,
+    "staged_files": 65,
     "commit_created": true,
-    "commit_sha": "c715d1e678742e360aab7fdf954542dedca9ffbf",
+    "commit_sha": "6388b06b6f0c47ca5459b53769a036f99da61bcd",
     "tag_created": false,
     "pushed": true,
     "clean_after_publish": true,
@@ -45,10 +45,10 @@
           "git",
           "commit",
           "-m",
-          "feat(lexical): implement SPT-007A intelligent lexical engine"
+          "feat(semantic): implement SPT-007B semantic lexical engine"
         ],
         "returncode": 0,
-        "stdout": "[feature/SPT-001A-rlb-schema-foundation c715d1e] feat(lexical): implement SPT-007A intelligent lexical engine\n 64 files changed, 5404 insertions(+), 94 deletions(-)\n create mode 100644 Install-SPT007A-v0.1.0-Intelligent-Lexical-Engine.ps1\n create mode 100644 artifacts/lexical_engine/SPT-007A/demo-rlb.json\n create mode 100644 artifacts/lexical_engine/SPT-007A/demo-search.json\n create mode 100644 artifacts/pmo/SPT-007A/SPT-007A-implementation-evidence.json\n create mode 100644 artifacts/pmo/SPT-007A/SPT-007A-policy-result.json\n create mode 100644 artifacts/pmo/SPT-007A/SPT-007A-policy-result.md\n create mode 100644 artifacts/pmo/SPT-007A/SPT-007A-pre-gate-evidence.json\n create mode 100644 config/lexical_engine/SPT-007A-component.json\n create mode 100644 config/lexical_engine/SPT-007A-lexical-policy.json\n create mode 100644 docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md\n create mode 100644 docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md\n create mode 100644 docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md\n create mode 100644 releases/SPT-007A-v0.1.0/Invoke-SPT007A-LexicalEngine.ps1\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-Arquitectura-Busqueda-Ranking.md\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-Seguridad-Linguistica-Cultural.md\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-component.json\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-implementation-evidence.json\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-lexical-policy.json\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-policy-result.json\n create mode 100644 releases/SPT-007A-v0.1.0/SPT-007A-policy-result.md\n create mode 100644 releases/SPT-007A-v0.1.0/__init__.py\n create mode 100644 releases/SPT-007A-v0.1.0/cli.py\n create mode 100644 releases/SPT-007A-v0.1.0/demo-search.json\n create mode 100644 releases/SPT-007A-v0.1.0/models.py\n create mode 100644 releases/SPT-007A-v0.1.0/multimedia.py\n create mode 100644 releases/SPT-007A-v0.1.0/normalizer.py\n create mode 100644 releases/SPT-007A-v0.1.0/ranking.py\n create mode 100644 releases/SPT-007A-v0.1.0/repository.py\n create mode 100644 releases/SPT-007A-v0.1.0/search.py\n create mode 100644 releases/SPT-007A-v0.1.0/service.py\n create mode 100644 releases/SPT-007A-v0.1.0/test_SPT_007A_intelligent_lexical_engine.py\n create mode 100644 scripts/Invoke-SPT007A-LexicalEngine.ps1\n create mode 100644 src/sgoda/lexical_engine/__init__.py\n create mode 100644 src/sgoda/lexical_engine/cli.py\n create mode 100644 src/sgoda/lexical_engine/models.py\n create mode 100644 src/sgoda/lexical_engine/multimedia.py\n create mode 100644 src/sgoda/lexical_engine/normalizer.py\n create mode 100644 src/sgoda/lexical_engine/ranking.py\n create mode 100644 src/sgoda/lexical_engine/repository.py\n create mode 100644 src/sgoda/lexical_engine/search.py\n create mode 100644 src/sgoda/lexical_engine/service.py\n create mode 100644 tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py",
+        "stdout": "[feature/SPT-001A-rlb-schema-foundation 6388b06] feat(semantic): implement SPT-007B semantic lexical engine\n 65 files changed, 4796 insertions(+), 78 deletions(-)\n create mode 100644 Install-SPT007B-v1.0.0-Semantic-Lexical-Engine.ps1\n create mode 100644 artifacts/lexical_engine/SPT-007B/demo-relations.json\n create mode 100644 artifacts/lexical_engine/SPT-007B/demo-semantic-rlb.json\n create mode 100644 artifacts/lexical_engine/SPT-007B/demo-semantic-search.json\n create mode 100644 artifacts/pmo/SPT-007B/SPT-007B-implementation-evidence.json\n create mode 100644 artifacts/pmo/SPT-007B/SPT-007B-policy-result.json\n create mode 100644 artifacts/pmo/SPT-007B/SPT-007B-policy-result.md\n create mode 100644 artifacts/pmo/SPT-007B/SPT-007B-pre-gate-evidence.json\n create mode 100644 config/lexical_engine/SPT-007B-component.json\n create mode 100644 config/lexical_engine/SPT-007B-relations.example.json\n create mode 100644 config/lexical_engine/SPT-007B-semantic-policy.json\n create mode 100644 docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md\n create mode 100644 docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md\n create mode 100644 docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md\n create mode 100644 releases/SPT-007B-v1.0.0/Invoke-SPT007B-SemanticLexicalEngine.ps1\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-Arquitectura-Indice-Semantico.md\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-Gobierno-Relaciones-Lexicas.md\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-Motor-Lexico-Inteligente-Semantico.md\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-component.json\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-implementation-evidence.json\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-policy-result.json\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-policy-result.md\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-relations.example.json\n create mode 100644 releases/SPT-007B-v1.0.0/SPT-007B-semantic-policy.json\n create mode 100644 releases/SPT-007B-v1.0.0/demo-semantic-search.json\n create mode 100644 releases/SPT-007B-v1.0.0/query_expansion.py\n create mode 100644 releases/SPT-007B-v1.0.0/relations.py\n create mode 100644 releases/SPT-007B-v1.0.0/semantic_cli.py\n create mode 100644 releases/SPT-007B-v1.0.0/semantic_index.py\n create mode 100644 releases/SPT-007B-v1.0.0/semantic_models.py\n create mode 100644 releases/SPT-007B-v1.0.0/semantic_ranking.py\n create mode 100644 releases/SPT-007B-v1.0.0/semantic_service.py\n create mode 100644 releases/SPT-007B-v1.0.0/suggestions.py\n create mode 100644 releases/SPT-007B-v1.0.0/test_SPT_007B_semantic_lexical_engine.py\n create mode 100644 scripts/Invoke-SPT007B-SemanticLexicalEngine.ps1\n create mode 100644 src/sgoda/lexical_engine/query_expansion.py\n create mode 100644 src/sgoda/lexical_engine/relations.py\n create mode 100644 src/sgoda/lexical_engine/semantic_cli.py\n create mode 100644 src/sgoda/lexical_engine/semantic_index.py\n create mode 100644 src/sgoda/lexical_engine/semantic_models.py\n create mode 100644 src/sgoda/lexical_engine/semantic_ranking.py\n create mode 100644 src/sgoda/lexical_engine/semantic_service.py\n create mode 100644 src/sgoda/lexical_engine/suggestions.py\n create mode 100644 tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py",
         "stderr": ""
       },
       {
@@ -60,7 +60,7 @@
         ],
         "returncode": 0,
         "stdout": "",
-        "stderr": "To https://github.com/Poliyoko/APP-PUINAVE.git\n   90d4a65..c715d1e  feature/SPT-001A-rlb-schema-foundation -> feature/SPT-001A-rlb-schema-foundation"
+        "stderr": "To https://github.com/Poliyoko/APP-PUINAVE.git\n   22c96ba..6388b06  feature/SPT-001A-rlb-schema-foundation -> feature/SPT-001A-rlb-schema-foundation"
       }
     ]
   }
