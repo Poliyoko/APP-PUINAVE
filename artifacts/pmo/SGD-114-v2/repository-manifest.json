@@ -1,19 +1,19 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-02T20:30:02.888454+00:00",
+  "generated_at_utc": "2026-08-02T21:17:03.627032+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 1439,
+  "total_files": 1480,
   "totals_by_category": {
-    "other": 395,
-    "evidence": 371,
-    "configuration": 67,
+    "other": 399,
+    "evidence": 379,
+    "configuration": 70,
     "dashboard": 20,
-    "documentation": 113,
-    "release": 196,
-    "automation": 32,
-    "source": 202,
-    "tests": 43
+    "documentation": 120,
+    "release": 204,
+    "automation": 33,
+    "source": 210,
+    "tests": 45
   },
   "files": [
     {
@@ -329,6 +329,12 @@
       "category": "other"
     },
     {
+      "path": "Install-SPT010-v1.0.0-Integrated-Digital-Platform.ps1",
+      "sha256": "0674b0542d4732950c364924a54b2487a97c278fbc33db585af9787aa6fed392",
+      "size_bytes": 42191,
+      "category": "other"
+    },
+    {
       "path": "README.md",
       "sha256": "2e16ebe7735b27e8afac4b4c2bd35b183548f2599c85385b9f6f302c33efeef9",
       "size_bytes": 2502,
@@ -446,6 +452,18 @@
       "path": "Repair-SPT003A-v0.1.1-Clean-Baseline-Preflight.ps1",
       "sha256": "80248025b533b857ea2a81af53300c8501d656176f8f4bc24bed5ea43f1a54ed",
       "size_bytes": 4739,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+      "sha256": "43b460d4cd82651980d12e6d9445693fc0e7a7efcbb5a1a2fcc3e0269d529730",
+      "size_bytes": 19422,
+      "category": "other"
+    },
+    {
+      "path": "Repair-SPT010-v1.0.2-WindowsPowerShell-Compatible-Closure.ps1",
+      "sha256": "df4a272217002db9b784419901919fe08f7b7a8620875e705e91d53717a725fe",
+      "size_bytes": 19550,
       "category": "other"
     },
     {
@@ -614,6 +632,12 @@
       "path": "SGODA-PUINAVE/docs/03_ADR/ADR-008-Modelo-ODA.md",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "size_bytes": 0,
+      "category": "other"
+    },
+    {
+      "path": "SPT-010-Solucion-Errores-Demostracion-Integrada.md",
+      "sha256": "9100001528699abc02ead94984e6f8942e3439ae54f0af60e4e4e1ca0e770d85",
+      "size_bytes": 10906,
       "category": "other"
     },
     {
@@ -948,19 +972,19 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "4c4bda0fe3085ecd85ccd4eff2281f376c04b1cbb96b8e6a2c5228f9388b68fc",
-      "size_bytes": 49249,
+      "sha256": "2b6b6b203be5c48662e314dc58e76ded77efde002d60506befa4343f73573026",
+      "size_bytes": 51113,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "321c5a73f46e57655faf67d65431a02b6ca6f748e7cbc17a69111195f43e68ec",
+      "sha256": "5e35f26f3ce1f77317bbe349467bb347fb9a6023cac568c6c2e3a4a239d34cb8",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "2c9cb7e4b437258dba2eb37f883e2af2b5e6e5e63adcde26ff382506a3628b4a",
+      "sha256": "f7395ec4c5483d685a220372e3e992600163de8d4a33d4895d1548ada5151a21",
       "size_bytes": 231,
       "category": "evidence"
     },
@@ -1289,6 +1313,24 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/platform/SPT-010/demo-platform-graph.json",
+      "sha256": "2261a6fc18e60ff2d37bcfb6570596b9a10af2ba9cc53367395d2ab19702d960",
+      "size_bytes": 887,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/platform/SPT-010/demo-platform-payload.json",
+      "sha256": "e3ad0bce6e0d78a0f9a035544f68e81fd3e0d6b18f2938a021b90f4183855286",
+      "size_bytes": 54,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/platform/SPT-010/demo-platform-result-v1.0.1.json",
+      "sha256": "3ecb2a9488fa8a5d89189d8368e1ebeb8a21599f6fb96e94e460552d63b7e29e",
+      "size_bytes": 786,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/pmo/ADR-010/ADR-010-quality-gate.json",
       "sha256": "979c54f93772dc0bc3c6189a1b4b8cafb561f492531f627ab7ff40aab54cbd4f",
       "size_bytes": 3082,
@@ -1344,20 +1386,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "e09c619393f0a394b94e5d2bc22f5c974c79106692eff433c1d7135becd36832",
+      "sha256": "ca9f069472bd3a105ad447dce876808043cc8cd63ba9e0ae696b242ba0e2a865",
       "size_bytes": 1434,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "67c50b04e1b2627867636378b56e53dea3bd4f22b1d522e9b21bd47ede8af46a",
+      "sha256": "4cc045a9d1e941fd44e18c461349587b00a9404c0458b51c058d8ebe80d195d5",
       "size_bytes": 645,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "fe842e191af2502f9b26fee24d9c56030ca144807b36d3434c03262b597ea336",
-      "size_bytes": 313470,
+      "sha256": "9e87acbf0f93794888f82fd552757b984ea545f8ded06b7091303e60a788cf7b",
+      "size_bytes": 325928,
       "category": "evidence"
     },
     {
@@ -2358,8 +2400,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "7bcb2c6c6ba1917f7db527e567c8feefa1a33ce5f6723b9bf6395dafa089c22c",
-      "size_bytes": 5860,
+      "sha256": "d27ae0f430a6246ccc40707f82b50b4c870efa4457eaaa798b5054b10e555044",
+      "size_bytes": 5056,
       "category": "evidence"
     },
     {
@@ -2741,6 +2783,36 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/pmo/SPT-010/SPT-010-v1.0.1-correction-evidence.json",
+      "sha256": "b372fca929b50812ba8e9d1585626a1fdf9bac7fe2829ea38adf0b887a3884c1",
+      "size_bytes": 1064,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-010/SPT-010-v1.0.1-policy-result.json",
+      "sha256": "d237c23a11ac8358c2873025b13b311640c211ca4de0810aeae74476653107f1",
+      "size_bytes": 3753,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-010/SPT-010-v1.0.1-policy-result.md",
+      "sha256": "84729b4caebd8f3e3c279ea1c5d58cf68f7d2e9a36d48d471eaa7fa9fc5f441c",
+      "size_bytes": 2167,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-010/backups/pre-SPT010-v1.0.1-20260802-161430/src__sgoda__platform__cli.py",
+      "sha256": "7d350ca9e4e22e22917577424d49fff0250d77b34258d14b02fe88be9b221e1d",
+      "size_bytes": 1756,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-010/cli-backup-20260802-160212.py",
+      "sha256": "7d350ca9e4e22e22917577424d49fff0250d77b34258d14b02fe88be9b221e1d",
+      "size_bytes": 1756,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/releases/SPB-006/closure.json",
       "sha256": "4921e59c76fb9c711408f2b76eae20b024e16a099ba197f861da239400bc8206",
       "size_bytes": 146,
@@ -2844,37 +2916,37 @@
     },
     {
       "path": "artifacts/roadmap/SGD-116/dependency-graph.json",
-      "sha256": "2c2e04127918130bbf3979cd1c72766519e0266f12e4ce253b73c6b9ab6b6064",
-      "size_bytes": 15514,
+      "sha256": "5d97b7242bfa0ea648451ff968f82a2c591af56803b99e90c643b8a307d5df64",
+      "size_bytes": 17368,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/executive-summary.json",
-      "sha256": "1a05ccdbbcbc43052d725df3701a11092c3398312ed408e6c300b0ed005211ac",
-      "size_bytes": 2877,
+      "sha256": "896aa64f34e1215752951b3516cc28378a72aa42088ce82f6bd9022c58c255b7",
+      "size_bytes": 2876,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/metrics.json",
-      "sha256": "93e2a7fc6ca7a2edf33438d0db3026c405bfad230448ca23d57fbe743d94f579",
-      "size_bytes": 364,
+      "sha256": "cfabaaa9ada172885d94e8a3d68340942bf10904e9673bc4748432311dd98eca",
+      "size_bytes": 363,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/roadmap.json",
-      "sha256": "f81dd38f26744ee94dd3c14ab4846be109886d4c1ce77e22011b8f195d7139b6",
-      "size_bytes": 29984,
+      "sha256": "485342fc83a8acbc7a29470aa50293c38ea9364a4f1b34bb0581bd9429307562",
+      "size_bytes": 31817,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/timeline.json",
-      "sha256": "803c25e556264796d2f735e980804487ca8aa2a37a24b091788f75f9a36f26c3",
-      "size_bytes": 6317,
+      "sha256": "46a419036ec17be63993608eca6e6976e4b31a54c887be364e51f982aaaf8345",
+      "size_bytes": 6672,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/validation.json",
-      "sha256": "39ba4331de2c5d3ee84ddd7c163d9e2426bed92838fb8ed401de8add596d0709",
+      "sha256": "862391981bfd92b9ec1e35a61ca2acac42556842a94dfacc6258c2c2d034d3b0",
       "size_bytes": 2177,
       "category": "evidence"
     },
@@ -4889,6 +4961,24 @@
       "category": "configuration"
     },
     {
+      "path": "config/platform/SPT-010-capabilities.json",
+      "sha256": "9b813975df4808d5d86be4c59b2f59493ba7b1834f3f9f9cfc5f4399d3695fd5",
+      "size_bytes": 922,
+      "category": "configuration"
+    },
+    {
+      "path": "config/platform/SPT-010-component.json",
+      "sha256": "da35eb6c892f89dd178aa98a766c0cc8c46abc3a0b3a3f459cae9e59d36f552d",
+      "size_bytes": 1257,
+      "category": "configuration"
+    },
+    {
+      "path": "config/platform/SPT-010-platform-policy.json",
+      "sha256": "70e9fd4db0dabc716c4b4a4b5b8383e6c4952aa9d6112baa90477336eb682e30",
+      "size_bytes": 512,
+      "category": "configuration"
+    },
+    {
       "path": "config/reasoning_engine/SPT-007D-component.json",
       "sha256": "e1d8ab6d15d481083bca635bb42cedc8bdd0c4d9a37e08759d35541dff8d3dd5",
       "size_bytes": 770,
@@ -5088,44 +5178,44 @@
     },
     {
       "path": "dashboard/dependency-graph.json",
-      "sha256": "2c2e04127918130bbf3979cd1c72766519e0266f12e4ce253b73c6b9ab6b6064",
-      "size_bytes": 15514,
+      "sha256": "5d97b7242bfa0ea648451ff968f82a2c591af56803b99e90c643b8a307d5df64",
+      "size_bytes": 17368,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-metrics.json",
-      "sha256": "93e2a7fc6ca7a2edf33438d0db3026c405bfad230448ca23d57fbe743d94f579",
-      "size_bytes": 364,
+      "sha256": "cfabaaa9ada172885d94e8a3d68340942bf10904e9673bc4748432311dd98eca",
+      "size_bytes": 363,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-roadmap.json",
-      "sha256": "f81dd38f26744ee94dd3c14ab4846be109886d4c1ce77e22011b8f195d7139b6",
-      "size_bytes": 29984,
+      "sha256": "485342fc83a8acbc7a29470aa50293c38ea9364a4f1b34bb0581bd9429307562",
+      "size_bytes": 31817,
       "category": "dashboard"
     },
     {
       "path": "dashboard/executive-summary.json",
-      "sha256": "1a05ccdbbcbc43052d725df3701a11092c3398312ed408e6c300b0ed005211ac",
-      "size_bytes": 2877,
+      "sha256": "896aa64f34e1215752951b3516cc28378a72aa42088ce82f6bd9022c58c255b7",
+      "size_bytes": 2876,
       "category": "dashboard"
     },
     {
       "path": "dashboard/timeline.json",
-      "sha256": "803c25e556264796d2f735e980804487ca8aa2a37a24b091788f75f9a36f26c3",
-      "size_bytes": 6317,
+      "sha256": "46a419036ec17be63993608eca6e6976e4b31a54c887be364e51f982aaaf8345",
+      "size_bytes": 6672,
       "category": "dashboard"
     },
     {
       "path": "docs/00_ARQUITECTURA_MAESTRA.md",
-      "sha256": "89daa15514ff38069310f9f18ebd7e243e99a91cb01c2ecc972f57250c8ecd2f",
+      "sha256": "514aa79c3282645972acbc8888b0dd81aa325089a41b13d426d677ba310360f1",
       "size_bytes": 2799,
       "category": "documentation"
     },
     {
       "path": "docs/00_DEPENDENCIAS_MAESTRAS.md",
-      "sha256": "29b47d526735c718ce7c9531092019cf15838bd9700c127ff4a37732e84bd19b",
-      "size_bytes": 2798,
+      "sha256": "cb03670fa37793fdd9f482fcb7adffd90f05ca7386d6aa6ff81d3a9e0a0e4e26",
+      "size_bytes": 3167,
       "category": "documentation"
     },
     {
@@ -5136,32 +5226,32 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "a513b5a1a8a0d9d2f0458e318126ff0a5f5fa459da51d87c331439aaa5a1cb25",
-      "size_bytes": 3505,
+      "sha256": "9aa46167d19b64cc591eef8f61887b6acaf4e068b27e5e69a73c196336f766a8",
+      "size_bytes": 3575,
       "category": "documentation"
     },
     {
       "path": "docs/00_METRICAS_ECOSISTEMA.md",
-      "sha256": "6f7410ed6bc0482e60e43653d8ee8dac40fb02801867212fa142444f3ace1c27",
-      "size_bytes": 330,
+      "sha256": "5207cf267282ed01b95ef0f0f1182fb3bf73d986cd7463d124f3e4aa571f9575",
+      "size_bytes": 329,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "b39ee89b30e1b6ca6fb53bf9450109589f909a99d5f3222de15a1895ff49dcc1",
-      "size_bytes": 24299,
+      "sha256": "9fd11a0c6c313a87060a1badbdf8013cc9f264105644e5a6c1d6c446b1082e72",
+      "size_bytes": 25603,
       "category": "documentation"
     },
     {
       "path": "docs/00_ROADMAP_MAESTRO.md",
-      "sha256": "d1b1c642dcca580f823ea50b18fc98f95acf678f905d2317c66241135732eb0c",
-      "size_bytes": 3530,
+      "sha256": "dbd93d0ac1a95de9092d7a9b0121896abf33c4aae1ec6e063914039cdac6e982",
+      "size_bytes": 3758,
       "category": "documentation"
     },
     {
       "path": "docs/00_TIMELINE_MAESTRO.md",
-      "sha256": "93ac8d46822b28237ebd03950a767ac0661717eefefd8a69e41334ce51fd88d1",
-      "size_bytes": 2921,
+      "sha256": "c53a567516d762df228ce1cc4d8f6e7ed7b6acdd5f7d439e9e388f2c66163e3e",
+      "size_bytes": 3084,
       "category": "documentation"
     },
     {
@@ -5720,6 +5810,48 @@
       "path": "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md",
       "sha256": "4b256a71a6cdb6253fcd5a8247373e655cebc867393ba3e62681a5b00842151b",
       "size_bytes": 161,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md",
+      "sha256": "695b8d2801f69d02ab294d1f0de0751f43bbc048a7b48d86b13e9ad35d925d16",
+      "size_bytes": 251,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md",
+      "sha256": "b2e2d02f1a62542cc46e431e3103b45874971025765c1d00fe8f43ef0ccb18f3",
+      "size_bytes": 277,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md",
+      "sha256": "081d61734094ce37095fca5ce057c8fca56f55a8a513bad8330ec95d44404f73",
+      "size_bytes": 275,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
+      "sha256": "cd099983c612acc84d5a74376f3d3bf21db5c32395e226186467d97401b679c1",
+      "size_bytes": 296,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md",
+      "sha256": "0467ad9ff133e72cb91820109706b5ff95dcc348d4977df46a914aa6c8101a77",
+      "size_bytes": 287,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md",
+      "sha256": "7e7fa544237f2e62ecf525c124d0923e9ecf26bf2e44c537bc4748bde45705c3",
+      "size_bytes": 223,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Solucion-Errores-Demostracion-Integrada.md",
+      "sha256": "9100001528699abc02ead94984e6f8942e3439ae54f0af60e4e4e1ca0e770d85",
+      "size_bytes": 10906,
       "category": "documentation"
     },
     {
@@ -6989,6 +7121,54 @@
       "category": "release"
     },
     {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-Solucion-Errores-Demostracion-Integrada.md",
+      "sha256": "9100001528699abc02ead94984e6f8942e3439ae54f0af60e4e4e1ca0e770d85",
+      "size_bytes": 10906,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-v1.0.1-correction-evidence.json",
+      "sha256": "b372fca929b50812ba8e9d1585626a1fdf9bac7fe2829ea38adf0b887a3884c1",
+      "size_bytes": 1064,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-v1.0.1-policy-result.json",
+      "sha256": "d237c23a11ac8358c2873025b13b311640c211ca4de0810aeae74476653107f1",
+      "size_bytes": 3753,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-v1.0.1-policy-result.md",
+      "sha256": "84729b4caebd8f3e3c279ea1c5d58cf68f7d2e9a36d48d471eaa7fa9fc5f441c",
+      "size_bytes": 2167,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/cli.py",
+      "sha256": "d22ca28fe4608870f1868020875b7faaea9cdbabd6de9ff27bcb10656a588125",
+      "size_bytes": 3347,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/demo-platform-payload.json",
+      "sha256": "e3ad0bce6e0d78a0f9a035544f68e81fd3e0d6b18f2938a021b90f4183855286",
+      "size_bytes": 54,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/demo-platform-result-v1.0.1.json",
+      "sha256": "3ecb2a9488fa8a5d89189d8368e1ebeb8a21599f6fb96e94e460552d63b7e29e",
+      "size_bytes": 786,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/test_SPT_010_payload_compatibility.py",
+      "sha256": "60afa870aa8fde760eab23fe5ac746ccc627539a601f6a92eaf2371c8a09d645",
+      "size_bytes": 2753,
+      "category": "release"
+    },
+    {
       "path": "scripts/Install-SPB0051-F001.ps1",
       "sha256": "cd8e767dfaeda32512e9ec3ca244fe2241ad741a45417108aa4ab92f8b4d9246",
       "size_bytes": 5890,
@@ -7148,6 +7328,12 @@
       "path": "scripts/Invoke-SPT009-ConversationalEcosystem.ps1",
       "sha256": "c115add8938d28a03087ce2832611d9fa27650052c86132f8de4492dae68474c",
       "size_bytes": 600,
+      "category": "automation"
+    },
+    {
+      "path": "scripts/Invoke-SPT010-IntegratedPlatform.ps1",
+      "sha256": "4cc239b6684d8d51a85dabdf5d18e674814b07e255e9a9d39f4812123e6e2982",
+      "size_bytes": 867,
       "category": "automation"
     },
     {
@@ -7889,6 +8075,54 @@
       "category": "source"
     },
     {
+      "path": "src/sgoda/platform/__init__.py",
+      "sha256": "8edfe4588801643d920fd9d1010be355970e9111751ca8c9d00dae95f1e6d79d",
+      "size_bytes": 535,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/platform/api.py",
+      "sha256": "b857327816feb2cfa03119d08a0a47cc5d7faf8c9d3319b0218caec62c13785b",
+      "size_bytes": 2274,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/platform/cli.py",
+      "sha256": "d22ca28fe4608870f1868020875b7faaea9cdbabd6de9ff27bcb10656a588125",
+      "size_bytes": 3347,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/platform/facade.py",
+      "sha256": "84bafd8316d385bf06d54203f077d5198bc72e82eee259595267300c18101305",
+      "size_bytes": 7296,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/platform/health.py",
+      "sha256": "a0b2eba9b0207df815fc2c5238281c37bcec11797aa71bf250bad64856c3b984",
+      "size_bytes": 1369,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/platform/models.py",
+      "sha256": "5dc993ad6d388471e2eebd4a24b2738213607eaa34c0c34829920bcea086266d",
+      "size_bytes": 786,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/platform/registry.py",
+      "sha256": "cc39f4adc9aa4b97c1b8a4676bd64d859862b8600159ec483f898331f6070b03",
+      "size_bytes": 2637,
+      "category": "source"
+    },
+    {
+      "path": "src/sgoda/platform/runtime.py",
+      "sha256": "361eb0345016d0144963e9ad71328fa73d8bbbf80624f58e64b13eed69b0aa20",
+      "size_bytes": 470,
+      "category": "source"
+    },
+    {
       "path": "src/sgoda/pmo/__init__.py",
       "sha256": "c0085be185603aa54dd0ae0bb173b3029dbb7805b8d037861169d18f753b7fe7",
       "size_bytes": 654,
@@ -8504,6 +8738,18 @@
       "path": "tests/oda/test_SPT_002_oda_engine.py",
       "sha256": "517c78cd483c39f4c934074a7ce0d2b5dda30fd99a4e4479018ed09cae08036c",
       "size_bytes": 5228,
+      "category": "tests"
+    },
+    {
+      "path": "tests/platform/test_SPT_010_integrated_digital_platform.py",
+      "sha256": "26ab0af1cf12e6871e80dc6200e10fa0f7b3b72f2a56a8f59797de577990f60e",
+      "size_bytes": 5176,
+      "category": "tests"
+    },
+    {
+      "path": "tests/platform/test_SPT_010_payload_compatibility.py",
+      "sha256": "60afa870aa8fde760eab23fe5ac746ccc627539a601f6a92eaf2371c8a09d645",
+      "size_bytes": 2753,
       "category": "tests"
     },
     {
