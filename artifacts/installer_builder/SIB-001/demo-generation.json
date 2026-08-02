@@ -1,0 +1,11 @@
+{
+  "root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A",
+  "installer_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\installer.ps1",
+  "repair_template_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\repair-template.ps1",
+  "component_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\component.json",
+  "policy_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\policy.json",
+  "documentation_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\README.md",
+  "test_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\test_increment.py",
+  "manifest_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\manifest.json",
+  "publication_commands_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\installer_builder\\SIB-001\\generated-demo\\SPT-999A\\PUBLICATION-COMMANDS.ps1"
+}

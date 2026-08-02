@@ -1,0 +1,53 @@
+{
+  "generator": "SIB-001",
+  "generated_at_utc": "2026-08-02T10:47:45.062319+00:00",
+  "specification": {
+    "code": "SPT-999A",
+    "name": "Incremento Institucional Demostrativo",
+    "component_type": "demonstration_component",
+    "version": "0.1.0",
+    "description": "",
+    "governed_by": [
+      "SGD-114-v2.0.1",
+      "SGD-115-v1.0.1",
+      "SPB-007"
+    ]
+  },
+  "files": [
+    {
+      "path": "installer.ps1",
+      "size": 1527,
+      "sha256": "efa4fe808e6e0cb28acaac1478448994c29e89b7dac53ada836ef22b2b49932e"
+    },
+    {
+      "path": "repair-template.ps1",
+      "size": 1329,
+      "sha256": "381f16fa4aa219b908936a2ed1a75c1320d6cd71e5152da3d89a3bd2a26ed151"
+    },
+    {
+      "path": "component.json",
+      "size": 320,
+      "sha256": "ada8ff63f31c45e4129d558355f952cd322fb0f4bd9933741527c6d52ed00669"
+    },
+    {
+      "path": "policy.json",
+      "size": 252,
+      "sha256": "f75cf42eb3464eef9c398fb7203269c735d4a60408d31b2a180e21b76ceb71dc"
+    },
+    {
+      "path": "README.md",
+      "size": 240,
+      "sha256": "cc02465ca963ea97f7296a27e02c14eace56949dfe27b5ed9f9909c0c741a3e7"
+    },
+    {
+      "path": "test_increment.py",
+      "size": 116,
+      "sha256": "2a3768b055d3d692d31e9ef30e703eebd86ec997d1b1c283c3876de73bf0f530"
+    },
+    {
+      "path": "PUBLICATION-COMMANDS.ps1",
+      "size": 230,
+      "sha256": "e8523d5f09ab903d582047306e6bd49eeb496186e7623d27c1aba6ab480b283f"
+    }
+  ]
+}

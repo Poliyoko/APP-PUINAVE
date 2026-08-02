@@ -54,11 +54,12 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **12**.
+Total identificado automáticamente: **13**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-v2** — institutional_repository_governance (v2.0.0; institutionally_closed)
 - **SGD-115** — Sistema Maestro de Documentación del Proyecto (v1.0.0; technically_completed)
+- **SIB-001** — SGODA Installer Builder (v0.1.0; technically_completed)
 - **SPB-007** — institutional_repository_publisher (v1.0.0; technically_completed)
 - **SPT-001B-P06** — rlb_pipeline (v1.3.0; technically_completed)
 - **SPT-001B-P07** — rlb_header_normalization (v1.0.0; technically_completed)

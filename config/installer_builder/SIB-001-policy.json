@@ -1,0 +1,15 @@
+{
+  "increment_code": "SIB-001",
+  "version": "0.1.0",
+  "policy_name": "SGODA Installer Builder",
+  "fail_fast": true,
+  "absolute_paths_required": true,
+  "overwrite_default": false,
+  "backup_before_force": true,
+  "repair_scripts_versioned": true,
+  "specific_tests_required": true,
+  "full_suite_required": true,
+  "quality_gate_required": true,
+  "master_documentation_update_required": true,
+  "remote_publication": "SPB-007_only"
+}

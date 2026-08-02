@@ -1,0 +1,10 @@
+{
+  "increment_code": "SPT-999A",
+  "version": "0.1.0",
+  "fail_fast": true,
+  "backup_before_repair": true,
+  "specific_tests_required": true,
+  "full_suite_required": true,
+  "quality_gate_required": true,
+  "publication": "SPB-007_only"
+}

@@ -96,6 +96,41 @@
     ]
   },
   {
+    "code": "SIB-001",
+    "name": "SGODA Installer Builder",
+    "version": "0.1.0",
+    "status": "technically_completed",
+    "component_type": "institutional_installer_generator",
+    "config_path": "config/installer_builder/SIB-001-component.json",
+    "source_paths": [
+      "src/sgoda/installer_builder/"
+    ],
+    "test_paths": [
+      "tests/installer_builder/test_SIB_001_installer_builder.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md",
+      "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md"
+    ],
+    "release_paths": [
+      "releases/SIB-001-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/installer_builder/SIB-001/demo-generation.json",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/PUBLICATION-COMMANDS.ps1",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/README.md",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/component.json",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/installer.ps1",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/manifest.json",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/policy.json",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/repair-template.ps1",
+      "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/test_increment.py",
+      "artifacts/pmo/SIB-001/SIB-001-quality-gate.json",
+      "artifacts/pmo/SIB-001/implementation-evidence.json",
+      "artifacts/pmo/SIB-001/traceability-SIB-001.json"
+    ]
+  },
+  {
     "code": "SPB-007",
     "name": "institutional_repository_publisher",
     "version": "1.0.0",

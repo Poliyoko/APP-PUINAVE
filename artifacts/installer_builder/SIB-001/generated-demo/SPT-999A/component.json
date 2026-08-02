@@ -1,0 +1,13 @@
+{
+  "increment_code": "SPT-999A",
+  "name": "Incremento Institucional Demostrativo",
+  "component_type": "demonstration_component",
+  "version": "0.1.0",
+  "status": "generated_not_implemented",
+  "generated_by": "SIB-001",
+  "governed_by": [
+    "SGD-114-v2.0.1",
+    "SGD-115-v1.0.1",
+    "SPB-007"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SIB-001",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T10:47:46.396069+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/installer_builder/SIB-001-component.json",
+        "config/installer_builder/SIB-001-policy.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/installer_builder/test_SIB_001_installer_builder.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md",
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/installer_builder/SIB-001/demo-generation.json",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/PUBLICATION-COMMANDS.ps1",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/README.md",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/component.json",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/installer.ps1",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/manifest.json",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/policy.json",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/repair-template.ps1",
+        "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/test_increment.py",
+        "artifacts/pmo/SIB-001/implementation-evidence.json",
+        "artifacts/pmo/SIB-001/traceability-SIB-001.json",
+        "releases/SIB-001-v0.1.0/SIB-001-Protocolo-Correccion-Errores.md",
+        "releases/SIB-001-v0.1.0/SIB-001-SGODA-Installer-Builder.md",
+        "releases/SIB-001-v0.1.0/SIB-001-component.json",
+        "releases/SIB-001-v0.1.0/SIB-001-policy.json",
+        "releases/SIB-001-v0.1.0/installer.ps1",
+        "releases/SIB-001-v0.1.0/manifest.json",
+        "releases/SIB-001-v0.1.0/repair-template.ps1"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SIB-001/traceability-SIB-001.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}

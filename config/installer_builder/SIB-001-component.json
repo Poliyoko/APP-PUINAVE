@@ -1,0 +1,15 @@
+{
+  "increment_code": "SIB-001",
+  "name": "SGODA Installer Builder",
+  "component_type": "institutional_installer_generator",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.installer_builder.cli",
+  "source": ["src/sgoda/installer_builder/"],
+  "tests": ["tests/installer_builder/test_SIB_001_installer_builder.py"],
+  "documentation": [
+    "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md",
+    "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md"
+  ],
+  "governed_by": ["SGD-114-v2.0.1", "SGD-115-v1.0.1", "SPB-007"]
+}

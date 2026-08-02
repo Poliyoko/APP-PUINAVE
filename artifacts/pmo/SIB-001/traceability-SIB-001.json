@@ -1,0 +1,13 @@
+{
+    "increment_code":  "SIB-001",
+    "source":  [
+                   "src/sgoda/installer_builder/"
+               ],
+    "tests":  [
+                  "tests/installer_builder/test_SIB_001_installer_builder.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md",
+                          "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md"
+                      ]
+}
