@@ -1,0 +1,18 @@
+{
+    "resources":  [
+                      {
+                          "entry_id":  "LEX-001",
+                          "media_type":  "audio_puinave",
+                          "uri":  "media/audio/LEX-001-pu.wav",
+                          "validated":  true,
+                          "autoplay":  true
+                      },
+                      {
+                          "entry_id":  "LEX-001",
+                          "media_type":  "image",
+                          "uri":  "media/images/LEX-001.webp",
+                          "validated":  true,
+                          "autoplay":  true
+                      }
+                  ]
+}

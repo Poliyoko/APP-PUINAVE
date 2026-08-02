@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **24**  
-Avance institucional: **87.5%**
+Componentes registrados: **28**  
+Avance institucional: **89.29%**
 
 ## Asistente e integraciones
 
@@ -34,7 +34,21 @@ Avance institucional: **87.5%**
 
 | Código | Componente | Estado | Versión | Release |
 |---|---|---|---|---|
-| SPT-010 | Plataforma Digital Integrada | implemented | 1.0.0 | Pendiente |
+| SPT-010 | Plataforma Digital Integrada | implemented | 1.0.0 | releases/SPT-010-v1.0.1 |
+
+## Fase Tecnológica III
+
+| Código | Componente | Estado | Versión | Release |
+|---|---|---|---|---|
+| SPT-011 | Plataforma Operativa SGODA-PUINAVE | implemented | 1.0.0 | releases/SPT-011-v1.0.0 |
+| SPT-011A | Institutional Evidence Closure | implemented | 1.0.2 | releases/SPT-011A-v1.0.1 |
+
+## Gobierno Digital
+
+| Código | Componente | Estado | Versión | Release |
+|---|---|---|---|---|
+| SGD-114D | Adaptive Release Canonical Resolver | implemented | 1.0.1 | releases/SGD-114D-v1.0.0 |
+| SGD-115A | Documentation Canonical Component Resolver | implemented | 1.0.0 | Pendiente |
 
 ## Gobierno y arquitectura
 

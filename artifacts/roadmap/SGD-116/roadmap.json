@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-02T21:15:01.710195+00:00",
+  "generated_at_utc": "2026-08-02T22:26:20.148975+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -96,6 +96,36 @@
       }
     },
     {
+      "code": "SGD-114D",
+      "name": "Adaptive Release Canonical Resolver",
+      "version": "1.0.1",
+      "status": "implemented",
+      "component_type": "adaptive_release_resolver",
+      "phase": "Gobierno Digital",
+      "dependencies": [
+        "SGD-114D-v1.0.0",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/governance/adaptive_policy_resolver.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114D_release_canonical_resolver.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md"
+      ],
+      "release_path": "releases/SGD-114D-v1.0.0",
+      "config_path": "config/governance/SGD-114D-v1.0.1-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-114D-v1.0.1",
+        "canonical_code": "SGD-114D",
+        "alias_applied": true
+      }
+    },
+    {
       "code": "SGD-115",
       "name": "Sistema Maestro de Documentación del Proyecto",
       "version": "1.0.0",
@@ -123,6 +153,36 @@
         "discovery_source": "descriptor",
         "raw_code": "SGD-115",
         "canonical_code": "SGD-115",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SGD-115A",
+      "name": "Documentation Canonical Component Resolver",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "documentation_canonical_resolver",
+      "phase": "Gobierno Digital",
+      "dependencies": [
+        "SGD-115",
+        "SGD-114D-v1.0.1",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/documentation/canonical_component_resolver.py"
+      ],
+      "test_paths": [
+        "tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md"
+      ],
+      "release_path": null,
+      "config_path": "config/documentation/SGD-115A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-115A",
+        "canonical_code": "SGD-115A",
         "alias_applied": false
       }
     },
@@ -861,12 +921,95 @@
         "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
         "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md"
       ],
-      "release_path": null,
+      "release_path": "releases/SPT-010-v1.0.1",
       "config_path": "config/platform/SPT-010-component.json",
       "metadata": {
         "discovery_source": "descriptor",
         "raw_code": "SPT-010",
         "canonical_code": "SPT-010",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-011",
+      "name": "Plataforma Operativa SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "operational_digital_platform",
+      "phase": "Fase Tecnológica III",
+      "dependencies": [
+        "SPT-010",
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/operational_platform/models.py",
+        "src/sgoda/operational_platform/settings.py",
+        "src/sgoda/operational_platform/database.py",
+        "src/sgoda/operational_platform/rlb_adapter.py",
+        "src/sgoda/operational_platform/media_adapter.py",
+        "src/sgoda/operational_platform/n8n_contracts.py",
+        "src/sgoda/operational_platform/flutter_contracts.py",
+        "src/sgoda/operational_platform/service.py",
+        "src/sgoda/operational_platform/api.py",
+        "src/sgoda/operational_platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Arquitectura-Plataforma-Operativa.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Integracion-FastAPI-PostgreSQL.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Contrato-Flutter.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Automatizacion-n8n.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Operacion-RLB-Multimedia.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Pruebas-Criterios-Aceptacion.md"
+      ],
+      "release_path": "releases/SPT-011-v1.0.0",
+      "config_path": "config/operational_platform/SPT-011-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-011",
+        "canonical_code": "SPT-011",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-011A",
+      "name": "Institutional Evidence Closure",
+      "version": "1.0.2",
+      "status": "implemented",
+      "component_type": "institutional_evidence_closure",
+      "phase": "Fase Tecnológica III",
+      "dependencies": [
+        "SPT-011",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1"
+      ],
+      "test_paths": [
+        "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md"
+      ],
+      "release_path": "releases/SPT-011A-v1.0.1",
+      "config_path": "config/operational_platform/SPT-011A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-011A",
+        "canonical_code": "SPT-011A",
         "alias_applied": false
       }
     }
@@ -876,6 +1019,8 @@
     "Automatización multimedia",
     "Fase Tecnológica",
     "Fase Tecnológica II",
+    "Fase Tecnológica III",
+    "Gobierno Digital",
     "Gobierno y arquitectura",
     "Identidad cultural",
     "Motor multilingüe y multimedia",

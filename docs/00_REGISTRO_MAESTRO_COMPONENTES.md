@@ -7,8 +7,11 @@
 | ADR-010 | relational_media_repository | 1.0.0 | institutionally_closed | `config/media/ADR-010-component.json` | 4 | 1 | 3 | 1 | 10 |
 | SGD-114-PA | SGD-114 Policy Auditor | 1.0.0 | implemented | `config/governance/SGD-114-policy-auditor-component.json` | 1 | 1 | 1 | 0 | 0 |
 | SGD-114-v2 | institutional_repository_governance | 2.0.0 | institutionally_closed | `config/governance/SGD-114-v2-component.json` | 1 | 1 | 2 | 1 | 7 |
-| SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 2 | 1 | 3 |
-| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 4 | 0 | 6 |
+| SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 3 | 1 | 3 |
+| SGD-114D | Adaptive Institutional Policy Engine | 1.0.0 | implemented | `config/governance/SGD-114D-component.json` | 6 | 1 | 3 | 1 | 6 |
+| SGD-114D-v1.0.1 | Adaptive Release Canonical Resolver | 1.0.1 | implemented | `config/governance/SGD-114D-v1.0.1-component.json` | 1 | 1 | 1 | 0 | 1 |
+| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 0 | 8 |
+| SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 0 | 2 |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 47 |
 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | 2.0.0 | technically_completed | `config/roadmap/SGD-116B-component.json` | 4 | 1 | 3 | 1 | 29 |
 | SIB-001 | SGODA Installer Builder | 0.1.0 | technically_completed | `config/installer_builder/SIB-001-component.json` | 1 | 1 | 2 | 1 | 12 |
@@ -30,7 +33,9 @@
 | SPT-007D | Motor de Razonamiento Lingüístico | 1.0.0 | implemented | `config/reasoning_engine/SPT-007D-component.json` | 4 | 1 | 2 | 1 | 4 |
 | SPT-008 | Tutor Inteligente Puinave | 1.0.0 | implemented | `config/tutor/SPT-008-component.json` | 4 | 1 | 2 | 1 | 4 |
 | SPT-009 | Ecosistema Conversacional | 1.0.0 | implemented | `config/conversation/SPT-009-component.json` | 5 | 1 | 2 | 1 | 4 |
-| SPT-010 | Plataforma Digital Integrada | 1.0.0 | implemented | `config/platform/SPT-010-component.json` | 7 | 1 | 7 | 1 | 7 |
+| SPT-010 | Plataforma Digital Integrada | 1.0.0 | implemented | `config/platform/SPT-010-component.json` | 7 | 1 | 7 | 1 | 8 |
+| SPT-011 | Plataforma Operativa SGODA-PUINAVE | 1.0.0 | implemented | `config/operational_platform/SPT-011-component.json` | 10 | 1 | 7 | 2 | 16 |
+| SPT-011A | Institutional Evidence Closure | 1.0.2 | implemented | `config/operational_platform/SPT-011A-component.json` | 1 | 1 | 1 | 1 | 10 |
 
 ## Detalle por componente
 
@@ -78,9 +83,33 @@
 - **Configuración:** `config/governance/SGD-114C-component.json`
 - **Código:** `src/sgoda/governance/policy_cli.py`, `src/sgoda/governance/policy_context.py`, `src/sgoda/governance/policy_engine.py`, `src/sgoda/governance/policy_models.py`, `src/sgoda/governance/policy_registry.py`, `src/sgoda/governance/policy_report.py`, `src/sgoda/governance/policy_rules.py`
 - **Pruebas:** `tests/governance/test_SGD_114C_policy_governance_core.py`
-- **Documentación:** `docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md`, `docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md`
+- **Documentación:** `docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md`, `docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md`, `docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md`
 - **Releases:** `releases/SGD-114C-v1.0.0`
 - **Evidencias:** 3 archivo(s) identificado(s).
+
+### SGD-114D — Adaptive Institutional Policy Engine
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** adaptive_policy_engine
+- **Configuración:** `config/governance/SGD-114D-component.json`
+- **Código:** `src/sgoda/governance/adaptive_policy.py`, `src/sgoda/governance/adaptive_policy_cli.py`, `src/sgoda/governance/adaptive_policy_engine.py`, `src/sgoda/governance/adaptive_policy_models.py`, `src/sgoda/governance/adaptive_policy_resolver.py`, `src/sgoda/governance/adaptive_policy_rules.py`
+- **Pruebas:** `tests/governance/test_SGD_114D_adaptive_institutional_policy_engine.py`
+- **Documentación:** `docs/01_Gobierno/SGD-114D-Adaptive-Institutional-Policy-Engine.md`, `docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md`, `docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md`
+- **Releases:** `releases/SGD-114D-v1.0.0`
+- **Evidencias:** 6 archivo(s) identificado(s).
+
+### SGD-114D-v1.0.1 — Adaptive Release Canonical Resolver
+
+- **Versión:** 1.0.1
+- **Estado:** implemented
+- **Tipo:** adaptive_release_resolver
+- **Configuración:** `config/governance/SGD-114D-v1.0.1-component.json`
+- **Código:** `src/sgoda/governance/adaptive_policy_resolver.py`
+- **Pruebas:** `tests/governance/test_SGD_114D_release_canonical_resolver.py`
+- **Documentación:** `docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md`
+- **Releases:** No identificados.
+- **Evidencias:** 1 archivo(s) identificado(s).
 
 ### SGD-115 — Sistema Maestro de Documentación del Proyecto
 
@@ -90,9 +119,21 @@
 - **Configuración:** `config/governance/SGD-115-component.json`
 - **Código:** `src/sgoda/documentation/master_docs.py`
 - **Pruebas:** `tests/documentation/test_SGD_115_master_documentation.py`
-- **Documentación:** `docs/00_ARQUITECTURA_MAESTRA.md`, `docs/00_INDICE_MAESTRO.md`, `docs/00_REGISTRO_MAESTRO_COMPONENTES.md`, `docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md`
+- **Documentación:** `docs/00_ARQUITECTURA_MAESTRA.md`, `docs/00_INDICE_MAESTRO.md`, `docs/00_REGISTRO_MAESTRO_COMPONENTES.md`, `docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md`, `docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md`
 - **Releases:** No identificados.
-- **Evidencias:** 6 archivo(s) identificado(s).
+- **Evidencias:** 8 archivo(s) identificado(s).
+
+### SGD-115A — Documentation Canonical Component Resolver
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** documentation_canonical_resolver
+- **Configuración:** `config/documentation/SGD-115A-component.json`
+- **Código:** `src/sgoda/documentation/canonical_component_resolver.py`
+- **Pruebas:** `tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py`
+- **Documentación:** `docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md`
+- **Releases:** No identificados.
+- **Evidencias:** 2 archivo(s) identificado(s).
 
 ### SGD-116 — Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE
 
@@ -356,5 +397,29 @@
 - **Pruebas:** `tests/platform/test_SPT_010_integrated_digital_platform.py`
 - **Documentación:** `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md`, `docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Solucion-Errores-Demostracion-Integrada.md`
 - **Releases:** `releases/SPT-010-v1.0.1`
-- **Evidencias:** 7 archivo(s) identificado(s).
+- **Evidencias:** 8 archivo(s) identificado(s).
+
+### SPT-011 — Plataforma Operativa SGODA-PUINAVE
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** operational_digital_platform
+- **Configuración:** `config/operational_platform/SPT-011-component.json`
+- **Código:** `src/sgoda/operational_platform/api.py`, `src/sgoda/operational_platform/cli.py`, `src/sgoda/operational_platform/database.py`, `src/sgoda/operational_platform/flutter_contracts.py`, `src/sgoda/operational_platform/media_adapter.py`, `src/sgoda/operational_platform/models.py`, `src/sgoda/operational_platform/n8n_contracts.py`, `src/sgoda/operational_platform/rlb_adapter.py`, `src/sgoda/operational_platform/service.py`, `src/sgoda/operational_platform/settings.py`
+- **Pruebas:** `tests/operational_platform/test_SPT_011_operational_sgoda_platform.py`
+- **Documentación:** `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Arquitectura-Plataforma-Operativa.md`, `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Automatizacion-n8n.md`, `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Contrato-Flutter.md`, `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Integracion-FastAPI-PostgreSQL.md`, `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Operacion-RLB-Multimedia.md`, `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Pruebas-Criterios-Aceptacion.md`, `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md`
+- **Releases:** `releases/SPT-011-v1.0.0`, `releases/SPT-011A-v1.0.1`
+- **Evidencias:** 16 archivo(s) identificado(s).
+
+### SPT-011A — Institutional Evidence Closure
+
+- **Versión:** 1.0.2
+- **Estado:** implemented
+- **Tipo:** institutional_evidence_closure
+- **Configuración:** `config/operational_platform/SPT-011A-component.json`
+- **Código:** `Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1`
+- **Pruebas:** `tests/operational_platform/test_SPT_011_operational_sgoda_platform.py`
+- **Documentación:** `docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md`
+- **Releases:** `releases/SPT-011A-v1.0.1`
+- **Evidencias:** 10 archivo(s) identificado(s).
 

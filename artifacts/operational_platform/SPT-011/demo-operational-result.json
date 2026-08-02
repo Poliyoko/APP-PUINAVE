@@ -1,0 +1,35 @@
+{
+  "operation": "get_lexical_card",
+  "status": "ok",
+  "data": {
+    "entryId": "LEX-001",
+    "languages": {
+      "pu": "AMDA",
+      "es": "casa",
+      "en-US": "house",
+      "it": "casa"
+    },
+    "category": "sustantivo",
+    "validated": true,
+    "media": [
+      {
+        "type": "audio_puinave",
+        "uri": "media/audio/LEX-001-pu.wav",
+        "validated": true,
+        "autoplay": true
+      },
+      {
+        "type": "image",
+        "uri": "media/images/LEX-001.webp",
+        "validated": true,
+        "autoplay": true
+      }
+    ],
+    "noInvention": true
+  },
+  "sources": [
+    "RLB:LEX-001"
+  ],
+  "warnings": [],
+  "no_invention": true
+}

@@ -1,0 +1,22 @@
+{
+  "increment_code": "SGD-114D",
+  "name": "Adaptive Release Canonical Resolver",
+  "component_type": "adaptive_release_resolver",
+  "version": "1.0.1",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "dependencies": [
+    "SGD-114D-v1.0.0",
+    "SGD-115",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/governance/adaptive_policy_resolver.py"
+  ],
+  "tests": [
+    "tests/governance/test_SGD_114D_release_canonical_resolver.py"
+  ],
+  "documentation": [
+    "docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md"
+  ]
+}

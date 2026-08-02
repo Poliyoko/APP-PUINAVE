@@ -1,0 +1,15 @@
+{
+    "increment_code":  "SGD-115A",
+    "version":  "1.0.0",
+    "status":  "implemented_and_validated",
+    "files":  [
+                  "canonical_component_resolver.py",
+                  "master-documentation-validation.json",
+                  "SGD-114D-v1.0.1-component.json",
+                  "SGD-115A-component.json",
+                  "SGD-115A-Documentation-Canonical-Component-Resolver.md",
+                  "SGD-115A-implementation-evidence.json",
+                  "SGD-115A-policy.json",
+                  "test_SGD_115A_documentation_canonical_component_resolver.py"
+              ]
+}

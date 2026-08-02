@@ -1,0 +1,19 @@
+{
+    "increment_code":  "SGD-114D",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "files":  [
+                  "adaptive_policy.py",
+                  "adaptive_policy_cli.py",
+                  "adaptive_policy_engine.py",
+                  "adaptive_policy_models.py",
+                  "adaptive_policy_resolver.py",
+                  "adaptive_policy_rules.py",
+                  "Invoke-SGD114D-AdaptivePolicy.ps1",
+                  "SGD-114D-Adaptive-Institutional-Policy-Engine.md",
+                  "SGD-114D-adaptive-policy.json",
+                  "SGD-114D-component.json",
+                  "SGD-114D-Migracion-SGD-114C.md",
+                  "test_SGD_114D_adaptive_institutional_policy_engine.py"
+              ]
+}

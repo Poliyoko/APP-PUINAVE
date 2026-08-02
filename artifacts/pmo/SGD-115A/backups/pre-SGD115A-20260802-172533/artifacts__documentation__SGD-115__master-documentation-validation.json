@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "master_documents_present": true,
+  "component_count": 31,
+  "broken_paths": [],
+  "duplicate_codes": [
+    "SGD-114D"
+  ],
+  "missing_required_sections": {},
+  "generated_at_utc": "2026-08-02T22:19:36.955224+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "increment_code": "SGD-115A",
+  "name": "Documentation Canonical Component Resolver",
+  "component_type": "documentation_canonical_resolver",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "dependencies": [
+    "SGD-115",
+    "SGD-114D-v1.0.1",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/documentation/canonical_component_resolver.py"
+  ],
+  "tests": [
+    "tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py"
+  ],
+  "documentation": [
+    "docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md"
+  ]
+}

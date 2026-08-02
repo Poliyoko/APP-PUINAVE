@@ -1,0 +1,16 @@
+{
+    "increment_code":  "SPT-011A",
+    "parent_increment":  "SPT-011",
+    "evidence_type":  "operational_demo",
+    "generated_at_utc":  "2026-08-02T21:46:57.8751160Z",
+    "status":  "ok",
+    "operation":  "get_lexical_card",
+    "entry_id":  "LEX-001",
+    "puinave":  "AMDA",
+    "spanish":  "casa",
+    "english_us":  "house",
+    "italian":  "casa",
+    "media_count":  2,
+    "no_invention":  true,
+    "result_path":  "artifacts/operational_platform/SPT-011/demo-operational-result-v1.0.1.json"
+}

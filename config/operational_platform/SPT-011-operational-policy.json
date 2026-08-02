@@ -1,0 +1,28 @@
+{
+  "component": "SPT-011",
+  "version": "1.0.0",
+  "name": "Plataforma Operativa SGODA-PUINAVE",
+  "phase": "Fase Tecnológica III",
+  "local_first": true,
+  "no_invention": true,
+  "paid_services_required": false,
+  "validated_entries_only": true,
+  "supported_languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ],
+  "operational_integrations": [
+    "FastAPI",
+    "PostgreSQL",
+    "Flutter",
+    "n8n",
+    "RLB",
+    "Multimedia"
+  ],
+  "database": {
+    "production_target": "PostgreSQL",
+    "test_mode": "local_memory"
+  }
+}

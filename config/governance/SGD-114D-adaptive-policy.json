@@ -1,0 +1,21 @@
+{
+  "component": "SGD-114D",
+  "version": "1.0.0",
+  "name": "Adaptive Institutional Policy Engine",
+  "extends": "SGD-114C",
+  "adaptive_rules": [
+    "SGD114D-R003",
+    "SGD114D-R007"
+  ],
+  "evidence_resolution": {
+    "canonical": "artifacts/pmo/{increment}/evidence",
+    "compatible_parent": true,
+    "require_non_empty_files": true
+  },
+  "release_resolution": {
+    "canonical": "releases/{increment}-v*",
+    "compatible_parent": true,
+    "require_non_empty_files": true
+  },
+  "false_positive_prevention": true
+}

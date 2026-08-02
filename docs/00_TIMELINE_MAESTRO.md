@@ -27,4 +27,8 @@
 | 2026-08-02T15:29:57-05:00 | SPT-007D | Motor de Razonamiento Lingüístico | implemented | releases/SPT-007D-v1.0.0 |
 | 2026-08-02T15:29:57-05:00 | SPT-008 | Tutor Inteligente Puinave | implemented | releases/SPT-008-v1.0.0 |
 | 2026-08-02T15:29:57-05:00 | SPT-009 | Ecosistema Conversacional | implemented | releases/SPT-009-v1.0.0 |
-| No determinada | SPT-010 | Plataforma Digital Integrada | implemented | Pendiente |
+| 2026-08-02T16:16:57-05:00 | SPT-010 | Plataforma Digital Integrada | implemented | releases/SPT-010-v1.0.1 |
+| No determinada | SGD-114D | Adaptive Release Canonical Resolver | implemented | releases/SGD-114D-v1.0.0 |
+| No determinada | SGD-115A | Documentation Canonical Component Resolver | implemented | Pendiente |
+| No determinada | SPT-011 | Plataforma Operativa SGODA-PUINAVE | implemented | releases/SPT-011-v1.0.0 |
+| No determinada | SPT-011A | Institutional Evidence Closure | implemented | releases/SPT-011A-v1.0.1 |

@@ -1,0 +1,13 @@
+{
+    "entries":  [
+                    {
+                        "entry_id":  "LEX-001",
+                        "puinave":  "AMDA",
+                        "spanish":  "casa",
+                        "english_us":  "house",
+                        "italian":  "casa",
+                        "validated":  true,
+                        "category":  "sustantivo"
+                    }
+                ]
+}

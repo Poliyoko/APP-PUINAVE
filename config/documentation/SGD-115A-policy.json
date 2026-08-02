@@ -1,0 +1,10 @@
+{
+  "component": "SGD-115A",
+  "version": "1.0.0",
+  "canonical_code_field": "canonical_code",
+  "version_field": "version",
+  "active_version_strategy": "highest_semantic_version",
+  "history_preservation": true,
+  "duplicate_policy": "same canonical code with different versions is history",
+  "exact_duplicate_policy": "block"
+}

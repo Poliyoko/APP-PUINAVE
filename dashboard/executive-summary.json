@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-08-02T21:15:01.710195+00:00",
+  "generated_at_utc": "2026-08-02T22:26:20.148975+00:00",
   "status": "approved",
   "metrics": {
-    "total_components": 24,
-    "implemented_components": 21,
+    "total_components": 28,
+    "implemented_components": 25,
     "pending_components": 3,
-    "released_components": 21,
-    "documented_components": 16,
-    "tested_components": 23,
-    "total_test_files": 44,
-    "total_documents": 126,
-    "total_releases": 22,
-    "completion_percent": 87.5,
-    "documentation_percent": 66.67,
-    "test_coverage_percent": 95.83
+    "released_components": 25,
+    "documented_components": 20,
+    "tested_components": 27,
+    "total_test_files": 48,
+    "total_documents": 137,
+    "total_releases": 26,
+    "completion_percent": 89.29,
+    "documentation_percent": 71.43,
+    "test_coverage_percent": 96.43
   },
   "validation": {
     "passed": true,
-    "component_count": 24,
+    "component_count": 28,
     "duplicate_codes": [],
     "broken_paths": [],
     "missing_dependencies": [],
@@ -26,6 +26,12 @@
         "source": "SGD-115",
         "raw_target": "SGD-114-v2.0.1",
         "target": "SGD-114",
+        "status": "ALIASED"
+      },
+      {
+        "source": "SGD-115A",
+        "raw_target": "SGD-114D-v1.0.1",
+        "target": "SGD-114D",
         "status": "ALIASED"
       },
       {
@@ -109,6 +115,6 @@
     ],
     "dependency_cycles": [],
     "missing_master_documents": [],
-    "generated_at_utc": "2026-08-02T21:15:01.717969+00:00"
+    "generated_at_utc": "2026-08-02T22:26:20.162499+00:00"
   }
 }

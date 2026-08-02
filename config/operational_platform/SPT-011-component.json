@@ -1,0 +1,44 @@
+{
+  "increment_code": "SPT-011",
+  "name": "Plataforma Operativa SGODA-PUINAVE",
+  "component_type": "operational_digital_platform",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica III",
+  "dependencies": [
+    "SPT-010",
+    "SPT-006A",
+    "SPT-007A",
+    "SPT-007B",
+    "SPT-007C",
+    "SPT-007D",
+    "SPT-008",
+    "SPT-009",
+    "SGD-114C",
+    "SGD-115",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/operational_platform/models.py",
+    "src/sgoda/operational_platform/settings.py",
+    "src/sgoda/operational_platform/database.py",
+    "src/sgoda/operational_platform/rlb_adapter.py",
+    "src/sgoda/operational_platform/media_adapter.py",
+    "src/sgoda/operational_platform/n8n_contracts.py",
+    "src/sgoda/operational_platform/flutter_contracts.py",
+    "src/sgoda/operational_platform/service.py",
+    "src/sgoda/operational_platform/api.py",
+    "src/sgoda/operational_platform/cli.py"
+  ],
+  "tests": [
+    "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+  ],
+  "documentation": [
+    "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Arquitectura-Plataforma-Operativa.md",
+    "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Integracion-FastAPI-PostgreSQL.md",
+    "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Contrato-Flutter.md",
+    "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Automatizacion-n8n.md",
+    "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Operacion-RLB-Multimedia.md",
+    "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Pruebas-Criterios-Aceptacion.md"
+  ]
+}

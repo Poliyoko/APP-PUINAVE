@@ -1,0 +1,20 @@
+{
+    "increment_code":  "SPT-011A",
+    "parent_increment":  "SPT-011",
+    "evidence_type":  "test_execution",
+    "generated_at_utc":  "2026-08-02T21:46:57.8751160Z",
+    "syntax_validation":  "passed",
+    "specific_tests":  {
+                           "file":  "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py",
+                           "expected_count":  14,
+                           "status":  "passed",
+                           "started_at_utc":  "2026-08-02T21:46:35.3258146Z",
+                           "finished_at_utc":  "2026-08-02T21:46:37.0909038Z"
+                       },
+    "full_suite":  {
+                       "executed":  true,
+                       "status":  "passed",
+                       "started_at_utc":  "2026-08-02T21:46:37.0909038Z",
+                       "finished_at_utc":  "2026-08-02T21:46:57.7179722Z"
+                   }
+}

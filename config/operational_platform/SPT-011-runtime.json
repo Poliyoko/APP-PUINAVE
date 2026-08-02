@@ -1,0 +1,11 @@
+{
+  "database_url": "postgresql://sgoda:change-me@127.0.0.1:5432/sgoda",
+  "database_mode": "local",
+  "api_host": "127.0.0.1",
+  "api_port": 8000,
+  "n8n_enabled": false,
+  "n8n_base_url": "http://127.0.0.1:5678",
+  "flutter_contract_enabled": true,
+  "require_validated_entries": true,
+  "no_invention": true
+}

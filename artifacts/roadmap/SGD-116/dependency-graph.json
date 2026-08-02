@@ -3,7 +3,9 @@
     "ADR-010",
     "SGD-114",
     "SGD-114C",
+    "SGD-114D",
     "SGD-115",
+    "SGD-115A",
     "SGD-116",
     "SGD-116B",
     "SIB-001",
@@ -23,7 +25,9 @@
     "SPT-007D",
     "SPT-008",
     "SPT-009",
-    "SPT-010"
+    "SPT-010",
+    "SPT-011",
+    "SPT-011A"
   ],
   "edges": [
     {
@@ -47,8 +51,28 @@
       "target": "SPB-007"
     },
     {
+      "source": "SGD-114D",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SGD-114D",
+      "target": "SGD-116"
+    },
+    {
       "source": "SGD-115",
       "target": "SGD-114"
+    },
+    {
+      "source": "SGD-115A",
+      "target": "SGD-114D"
+    },
+    {
+      "source": "SGD-115A",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SGD-115A",
+      "target": "SGD-116"
     },
     {
       "source": "SGD-116",
@@ -381,6 +405,66 @@
     {
       "source": "SPT-010",
       "target": "SPT-009"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SGD-114C"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-006A"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007A"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007B"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007C"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007D"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-008"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-009"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-010"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SGD-114C"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SPT-011"
     }
   ],
   "resolved_aliases": [
@@ -388,6 +472,12 @@
       "source": "SGD-115",
       "raw_target": "SGD-114-v2.0.1",
       "target": "SGD-114",
+      "status": "ALIASED"
+    },
+    {
+      "source": "SGD-115A",
+      "raw_target": "SGD-114D-v1.0.1",
+      "target": "SGD-114D",
       "status": "ALIASED"
     },
     {
@@ -498,8 +588,33 @@
       "status": "FOUND"
     },
     {
+      "source": "SGD-114D",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-114D",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
       "source": "SGD-115",
       "target": "SGD-114",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-115A",
+      "target": "SGD-114D",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-115A",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SGD-115A",
+      "target": "SGD-116",
       "status": "FOUND"
     },
     {
@@ -915,6 +1030,81 @@
     {
       "source": "SPT-010",
       "target": "SPT-009",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SGD-114C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-006A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007A",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007B",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-007D",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-008",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-009",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011",
+      "target": "SPT-010",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SGD-114C",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-011A",
+      "target": "SPT-011",
       "status": "FOUND"
     }
   ]

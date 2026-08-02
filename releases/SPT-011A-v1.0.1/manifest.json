@@ -1,0 +1,19 @@
+{
+    "increment_code":  "SPT-011A",
+    "version":  "1.0.1",
+    "parent_increment":  "SPT-011",
+    "release_type":  "corrective",
+    "status":  "technically_validated",
+    "generated_at_utc":  "2026-08-02T22:15:05.5327436Z",
+    "source_evidence_directory":  "artifacts/pmo/SPT-011/evidence",
+    "no_invention":  true,
+    "files":  [
+                  "demo-operational-result-v1.0.1.json",
+                  "SPT-011A-component.json",
+                  "SPT-011A-Institutional-Evidence-Closure.md",
+                  "SPT-011A-v1.0.2-demo-evidence.json",
+                  "SPT-011A-v1.0.2-pre-gate-evidence.json",
+                  "SPT-011A-v1.0.2-pre-gate-evidence.md",
+                  "SPT-011A-v1.0.2-test-evidence.json"
+              ]
+}
