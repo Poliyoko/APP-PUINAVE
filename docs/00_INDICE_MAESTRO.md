@@ -54,7 +54,7 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **10**.
+Total identificado automáticamente: **11**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-v2** — institutional_repository_governance (v2.0.0; institutionally_closed)
@@ -66,6 +66,7 @@ Total identificado automáticamente: **10**.
 - **SPT-002** — oda_functional_engine (v0.1.0; technically_completed)
 - **SPT-003A** — ai_multimedia_orchestrator (v0.1.0; technically_completed)
 - **SPT-003B** — ai_multimedia_adapters (v0.1.0; technically_completed)
+- **SPT-003C** — Piloto Controlado de Proveedores Reales (v0.1.0; technically_completed)
 
 ## 14. Política de actualización
 

@@ -1,0 +1,11 @@
+{
+  "provider": "openai-image",
+  "mode": "dry-run",
+  "requested_jobs": 2,
+  "authorized_jobs": 2,
+  "executed_jobs": 0,
+  "blocked_jobs": 0,
+  "estimated_cost_usd": 0.0,
+  "circuit_state": "closed",
+  "approval_id": null
+}

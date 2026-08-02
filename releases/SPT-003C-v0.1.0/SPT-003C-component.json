@@ -1,0 +1,19 @@
+{
+  "increment_code": "SPT-003C",
+  "name": "Piloto Controlado de Proveedores Reales",
+  "component_type": "controlled_provider_pilot",
+  "version": "0.1.0",
+  "status": "technically_completed",
+  "entrypoint": "sgoda.automation.pilot.runner",
+  "source": [
+    "src/sgoda/automation/pilot/models.py",
+    "src/sgoda/automation/pilot/governance.py",
+    "src/sgoda/automation/pilot/budget.py",
+    "src/sgoda/automation/pilot/circuit_breaker.py",
+    "src/sgoda/automation/pilot/runner.py"
+  ],
+  "tests": [
+    "tests/automation/test_SPT_003C_controlled_provider_pilot.py"
+  ],
+  "governed_by": "SGD-114-v2.0.1"
+}

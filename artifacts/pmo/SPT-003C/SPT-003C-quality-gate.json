@@ -1,0 +1,89 @@
+{
+  "policy_code": "SGD-114",
+  "policy_version": "1.1.0",
+  "increment_code": "SPT-003C",
+  "requested_status": "technically_completed",
+  "evaluated_at_utc": "2026-08-02T09:47:37.881606+00:00",
+  "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
+  "passed": true,
+  "closure_authorized": false,
+  "categories": [
+    {
+      "code": "source",
+      "description": "Código fuente o configuración funcional",
+      "passed": true,
+      "matched_files": [
+        "config/automation/SPT-003C-approval-template.json",
+        "config/automation/SPT-003C-component.json",
+        "config/automation/SPT-003C-pilot-policy.json",
+        "config/automation/SPT-003C-pricing-template.json"
+      ],
+      "patterns": [
+        "src/**/*",
+        "config/**/*"
+      ]
+    },
+    {
+      "code": "tests",
+      "description": "Pruebas automatizadas",
+      "passed": true,
+      "matched_files": [
+        "tests/automation/test_SPT_003C_controlled_provider_pilot.py"
+      ],
+      "patterns": [
+        "tests/**/*.py"
+      ]
+    },
+    {
+      "code": "documentation",
+      "description": "Documentación técnica e institucional",
+      "passed": true,
+      "matched_files": [
+        "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Piloto-Controlado-Proveedores.md",
+        "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md"
+      ],
+      "patterns": [
+        "docs/**/*.md"
+      ]
+    },
+    {
+      "code": "evidence",
+      "description": "Evidencias y reportes de ejecución",
+      "passed": true,
+      "matched_files": [
+        "artifacts/automation/SPT-003C/pilot-summary.json",
+        "artifacts/pmo/SPT-003C/implementation-evidence.json",
+        "artifacts/pmo/SPT-003C/traceability-SPT-003C.json",
+        "releases/SPT-003C-v0.1.0/SPT-003C-Piloto-Controlado-Proveedores.md",
+        "releases/SPT-003C-v0.1.0/SPT-003C-Protocolo-Aprobacion-Cultural.md",
+        "releases/SPT-003C-v0.1.0/SPT-003C-approval-template.json",
+        "releases/SPT-003C-v0.1.0/SPT-003C-component.json",
+        "releases/SPT-003C-v0.1.0/SPT-003C-pilot-policy.json",
+        "releases/SPT-003C-v0.1.0/SPT-003C-pricing-template.json",
+        "releases/SPT-003C-v0.1.0/pilot-summary.json"
+      ],
+      "patterns": [
+        "artifacts/**/*",
+        "dashboard/**/*",
+        "releases/**/*"
+      ]
+    },
+    {
+      "code": "traceability",
+      "description": "Registro de trazabilidad del incremento",
+      "passed": true,
+      "matched_files": [
+        "artifacts/pmo/SPT-003C/traceability-SPT-003C.json"
+      ],
+      "patterns": [
+        "artifacts/**/traceability*.json",
+        "docs/**/*Trazabilidad*.md"
+      ]
+    }
+  ],
+  "missing_categories": [],
+  "observations": [
+    "El incremento cumple todas las categorías obligatorias.",
+    "Cumplimiento aprobado sin solicitud de cierre institucional."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "increment_code":  "SPT-003C",
+    "generated_at_utc":  "2026-08-02T09:47:14.0028365Z",
+    "source":  [
+                   "src/sgoda/automation/pilot/"
+               ],
+    "tests":  [
+                  "tests/automation/test_SPT_003C_controlled_provider_pilot.py"
+              ],
+    "documentation":  [
+                          "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Piloto-Controlado-Proveedores.md",
+                          "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md"
+                      ],
+    "evidence":  [
+                     "artifacts/pmo/SPT-003C/implementation-evidence.json"
+                 ]
+}

@@ -1,0 +1,22 @@
+{
+  "increment_code": "SPT-003C",
+  "version": "0.1.0",
+  "policy_name": "Piloto Controlado de Proveedores Reales",
+  "default_mode": "dry-run",
+  "live_calls_default": false,
+  "mandatory_approvals": [
+    "administrative",
+    "cultural",
+    "privacy",
+    "budget",
+    "live_calls"
+  ],
+  "credential_storage": "environment_variables_only",
+  "human_review_required": true,
+  "cultural_review_required": true,
+  "budget_control_required": true,
+  "circuit_breaker_required": true,
+  "consumption_ledger_required": true,
+  "maximum_initial_pilot_jobs": 5,
+  "governed_by": "SGD-114-v2.0.1"
+}

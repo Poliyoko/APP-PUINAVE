@@ -1,0 +1,16 @@
+{
+  "mock": {
+    "generate_image": 0.0,
+    "generate_tts": 0.0,
+    "record_native_audio": 0.0
+  },
+  "openai-image": {
+    "generate_image": 0.0
+  },
+  "google-tts": {
+    "generate_tts": 0.0
+  },
+  "azure-speech": {
+    "generate_tts": 0.0
+  }
+}

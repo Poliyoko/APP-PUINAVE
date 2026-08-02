@@ -6,7 +6,7 @@
 |---|---|---:|---|---|---:|---:|---:|---:|---:|
 | ADR-010 | relational_media_repository | 1.0.0 | institutionally_closed | `config/media/ADR-010-component.json` | 4 | 1 | 3 | 1 | 10 |
 | SGD-114-v2 | institutional_repository_governance | 2.0.0 | institutionally_closed | `config/governance/SGD-114-v2-component.json` | 1 | 1 | 2 | 1 | 7 |
-| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 4 | 0 | 5 |
+| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 4 | 0 | 6 |
 | SPB-007 | institutional_repository_publisher | 1.0.0 | technically_completed | `config/repository/SPB-007-component.json` | 1 | 1 | 2 | 1 | 5 |
 | SPT-001B-P06 | rlb_pipeline | 1.3.0 | technically_completed | `config/rlb/SPT-001B-P06-component.json` | 0 | 0 | 1 | 0 | 10 |
 | SPT-001B-P07 | rlb_header_normalization | 1.0.0 | technically_completed | `config/rlb/SPT-001B-P07-component.json` | 1 | 1 | 1 | 0 | 10 |
@@ -14,6 +14,7 @@
 | SPT-002 | oda_functional_engine | 0.1.0 | technically_completed | `config/oda/SPT-002-component.json` | 3 | 1 | 2 | 1 | 8 |
 | SPT-003A | ai_multimedia_orchestrator | 0.1.0 | technically_completed | `config/automation/SPT-003A-component.json` | 4 | 1 | 2 | 1 | 8 |
 | SPT-003B | ai_multimedia_adapters | 0.1.0 | technically_completed | `config/automation/SPT-003B-component.json` | 0 | 1 | 2 | 1 | 13 |
+| SPT-003C | Piloto Controlado de Proveedores Reales | 0.1.0 | technically_completed | `config/automation/SPT-003C-component.json` | 5 | 1 | 2 | 1 | 4 |
 
 ## Detalle por componente
 
@@ -51,7 +52,7 @@
 - **Pruebas:** `tests/documentation/test_SGD_115_master_documentation.py`
 - **Documentación:** `docs/00_ARQUITECTURA_MAESTRA.md`, `docs/00_INDICE_MAESTRO.md`, `docs/00_REGISTRO_MAESTRO_COMPONENTES.md`, `docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md`
 - **Releases:** No identificados.
-- **Evidencias:** 5 archivo(s) identificado(s).
+- **Evidencias:** 6 archivo(s) identificado(s).
 
 ### SPB-007 — institutional_repository_publisher
 
@@ -136,4 +137,16 @@
 - **Documentación:** `docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Adaptadores-IA-Multimedia.md`, `docs/05_Fase_Tecnologica/SPT-003/SPT-003B-Seguridad-Credenciales-Proveedores.md`
 - **Releases:** `releases/SPT-003B-v0.1.0`
 - **Evidencias:** 13 archivo(s) identificado(s).
+
+### SPT-003C — Piloto Controlado de Proveedores Reales
+
+- **Versión:** 0.1.0
+- **Estado:** technically_completed
+- **Tipo:** controlled_provider_pilot
+- **Configuración:** `config/automation/SPT-003C-component.json`
+- **Código:** `src/sgoda/automation/pilot/budget.py`, `src/sgoda/automation/pilot/circuit_breaker.py`, `src/sgoda/automation/pilot/governance.py`, `src/sgoda/automation/pilot/models.py`, `src/sgoda/automation/pilot/runner.py`
+- **Pruebas:** `tests/automation/test_SPT_003C_controlled_provider_pilot.py`
+- **Documentación:** `docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Piloto-Controlado-Proveedores.md`, `docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md`
+- **Releases:** `releases/SPT-003C-v0.1.0`
+- **Evidencias:** 4 archivo(s) identificado(s).
 

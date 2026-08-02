@@ -1,0 +1,15 @@
+{
+  "approval_id": "PENDING",
+  "provider": "openai-image",
+  "approved_by": "PENDING",
+  "approved_at_utc": "PENDING",
+  "expires_at_utc": "PENDING",
+  "administrative_approved": false,
+  "cultural_approved": false,
+  "privacy_approved": false,
+  "budget_approved": false,
+  "live_calls_authorized": false,
+  "allowed_job_types": [],
+  "max_jobs": 0,
+  "max_cost_usd": 0.0
+}

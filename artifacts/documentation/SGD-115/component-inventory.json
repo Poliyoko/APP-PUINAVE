@@ -90,6 +90,7 @@
       "artifacts/documentation/SGD-115/component-inventory.json",
       "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
       "artifacts/documentation/SGD-115/master-documentation-validation.json",
+      "artifacts/pmo/SGD-115/SGD-115-v1.0.1-corrective-evidence.json",
       "artifacts/pmo/SGD-115/implementation-evidence.json",
       "artifacts/pmo/SGD-115/traceability-SGD-115.json"
     ]
@@ -304,6 +305,37 @@
       "artifacts/pmo/SPT-003B/SPT-003B-quality-gate.json",
       "artifacts/pmo/SPT-003B/implementation-evidence.json",
       "artifacts/pmo/SPT-003B/traceability-SPT-003B.json"
+    ]
+  },
+  {
+    "code": "SPT-003C",
+    "name": "Piloto Controlado de Proveedores Reales",
+    "version": "0.1.0",
+    "status": "technically_completed",
+    "component_type": "controlled_provider_pilot",
+    "config_path": "config/automation/SPT-003C-component.json",
+    "source_paths": [
+      "src/sgoda/automation/pilot/budget.py",
+      "src/sgoda/automation/pilot/circuit_breaker.py",
+      "src/sgoda/automation/pilot/governance.py",
+      "src/sgoda/automation/pilot/models.py",
+      "src/sgoda/automation/pilot/runner.py"
+    ],
+    "test_paths": [
+      "tests/automation/test_SPT_003C_controlled_provider_pilot.py"
+    ],
+    "documentation_paths": [
+      "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Piloto-Controlado-Proveedores.md",
+      "docs/05_Fase_Tecnologica/SPT-003/SPT-003C-Protocolo-Aprobacion-Cultural.md"
+    ],
+    "release_paths": [
+      "releases/SPT-003C-v0.1.0"
+    ],
+    "evidence_paths": [
+      "artifacts/automation/SPT-003C/pilot-summary.json",
+      "artifacts/pmo/SPT-003C/SPT-003C-quality-gate.json",
+      "artifacts/pmo/SPT-003C/implementation-evidence.json",
+      "artifacts/pmo/SPT-003C/traceability-SPT-003C.json"
     ]
   }
 ]
