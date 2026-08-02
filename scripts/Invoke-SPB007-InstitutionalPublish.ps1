@@ -78,7 +78,7 @@ if ($LASTEXITCODE -ne 0) {
     throw "La auditoría institucional versionable no fue aprobada."
 }
 
-$EvidenceChanges = Get-GitChanges
+$EvidenceChanges = @(Get-GitChanges)
 
 if ($EvidenceChanges.Count -gt 0) {
     Write-Host ""
@@ -173,7 +173,7 @@ finally {
     }
 }
 
-$FinalChanges = Get-GitChanges
+$FinalChanges = @(Get-GitChanges)
 
 if ($FinalChanges.Count -gt 0) {
     throw (
