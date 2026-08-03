@@ -1,21 +1,21 @@
 {
   "event_type": "InstitutionalRepositoryAudited",
-  "occurred_at_utc": "2026-08-02T23:51:17.064906+00:00",
+  "occurred_at_utc": "2026-08-03T02:21:02.283111+00:00",
   "source": "sgoda.governance.repository_governance",
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
   "audit_passed": true,
-  "manifest_total_files": 1686,
+  "manifest_total_files": 1712,
   "git_clean": false,
   "git_branch": "feature/SPT-001A-rlb-schema-foundation",
-  "git_head": "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c",
+  "git_head": "609d3d833f9bf2a99b3ce02a02a7e6eb6db01709",
   "metrics": {
-    "source_files": 244,
-    "test_files": 50,
-    "documentation_files": 139,
-    "configuration_files": 85,
-    "evidence_files": 602,
+    "source_files": 249,
+    "test_files": 51,
+    "documentation_files": 141,
+    "configuration_files": 88,
+    "evidence_files": 610,
     "dashboard_files": 20,
-    "release_files": 271
+    "release_files": 276
   }
 }
