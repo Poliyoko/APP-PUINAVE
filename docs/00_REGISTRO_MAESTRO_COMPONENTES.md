@@ -21,7 +21,7 @@
 | SGD-114E-v2.0.0-R1 | Canonical Contract Closure | 2.0.0-R1 | implemented | `config/governance/SGD-114E-v2.0.0-R1-component.json` | 0 | 0 | 1 | 1 | 12 |
 | SGD-114E-v2.0.0-R2.1 | Self Validation Closure | 2.0.0-R2.1 | implemented | `config/governance/SGD-114E-v2.0.0-R2.1-component.json` | 0 | 0 | 1 | 1 | 42 |
 | SGD-114F | Institutional Test Evidence Synchronizer | 1.0.0 | implemented | `config/governance/SGD-114F-component.json` | 4 | 1 | 2 | 1 | 28 |
-| SGD-114G-v1.0.0 | Institutional Release Management Service | 1.0.0 | implemented | `config/governance/SGD-114G-v1.0.0-component.json` | 0 | 0 | 1 | 1 | 6 |
+| SGD-114G-v1.0.0 | Institutional Release Management Service | 1.0.0 | implemented | `config/governance/SGD-114G-v1.0.0-component.json` | 0 | 0 | 1 | 1 | 7 |
 | SGD-114G-v1.0.1 | Legacy Manifest Migration and Canonical Closure | 1.0.1 | implemented | `config/governance/SGD-114G-v1.0.1-component.json` | 0 | 0 | 1 | 1 | 9 |
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 1 | 11 |
 | SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 1 | 4 |
@@ -54,7 +54,7 @@
 | SPT-013B | Gestor Institucional del Diccionario Digital | 1.0.0 | implemented | `config/dictionary_manager/SPT-013B-component.json` | 6 | 1 | 3 | 1 | 19 |
 | SPT-014 | Motor Multimedia Inteligente | 1.0.0 | implemented | `config/multimedia_engine/SPT-014-component.json` | 7 | 1 | 3 | 1 | 20 |
 | SPT-015 | Motor de Evaluación Adaptativa | 1.0.0 | implemented | `config/adaptive_assessment/SPT-015-component.json` | 8 | 1 | 3 | 1 | 12 |
-| SPT-016 | Motor de Analítica del Aprendizaje | 1.0.0 | implemented | `config/learning_analytics/SPT-016-component.json` | 8 | 1 | 4 | 1 | 22 |
+| SPT-016 | Motor de Analítica del Aprendizaje | 1.0.0 | implemented_tested_and_officially_closed | `config/learning_analytics/SPT-016-component.json` | 0 | 0 | 9 | 2 | 34 |
 | SPT-016A | Evidence Compatibility Patch | 1.0.1 | implemented | `config/learning_analytics/SPT-016A-component.json` | 0 | 0 | 1 | 1 | 13 |
 
 ## Detalle por componente
@@ -273,7 +273,7 @@
 - **Pruebas:** No declaradas.
 - **Documentación:** `docs/01_Gobierno/SGD-114G-v1.0.0-Institutional-Release-Management-Service.md`
 - **Releases:** `releases/SGD-114G-v1.0.0`
-- **Evidencias:** 6 archivo(s) identificado(s).
+- **Evidencias:** 7 archivo(s) identificado(s).
 
 ### SGD-114G-v1.0.1 — Legacy Manifest Migration and Canonical Closure
 
@@ -662,14 +662,14 @@
 ### SPT-016 — Motor de Analítica del Aprendizaje
 
 - **Versión:** 1.0.0
-- **Estado:** implemented
-- **Tipo:** learning_analytics_engine
+- **Estado:** implemented_tested_and_officially_closed
+- **Tipo:** no declarado
 - **Configuración:** `config/learning_analytics/SPT-016-component.json`
-- **Código:** `src/sgoda/learning_analytics/cli.py`, `src/sgoda/learning_analytics/exporter.py`, `src/sgoda/learning_analytics/metrics.py`, `src/sgoda/learning_analytics/models.py`, `src/sgoda/learning_analytics/recommendations.py`, `src/sgoda/learning_analytics/repository.py`, `src/sgoda/learning_analytics/service.py`, `src/sgoda/learning_analytics/trends.py`
-- **Pruebas:** `tests/learning_analytics/test_SPT_016_learning_analytics_engine.py`
-- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Eventos-SPA.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md`
-- **Releases:** `releases/SPT-016A-v1.0.1`
-- **Evidencias:** 22 archivo(s) identificado(s).
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-016/ACT-SPT-016-Cierre-Oficial.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Especificacion-Funcional.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Eventos-SPA.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Manual-Operativo.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Matriz-de-Trazabilidad.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Plan-y-Resultados-de-Pruebas.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md`
+- **Releases:** `releases/SPT-016-v1.0.0`, `releases/SPT-016A-v1.0.1`
+- **Evidencias:** 34 archivo(s) identificado(s).
 
 ### SPT-016A — Evidence Compatibility Patch
 

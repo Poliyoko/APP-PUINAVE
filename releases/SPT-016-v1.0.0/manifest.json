@@ -1,0 +1,113 @@
+{
+    "increment_code":  "SPT-016",
+    "version":  "1.0.0",
+    "release_name":  "SPT-016-v1.0.0",
+    "status":  "implemented_tested_and_officially_closed",
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "files":  [
+                  {
+                      "name":  "ACT-SPT-016-Cierre-Oficial.md",
+                      "bytes":  620,
+                      "sha256":  "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852"
+                  },
+                  {
+                      "name":  "full-suite-summary.json",
+                      "bytes":  368,
+                      "sha256":  "95dc1dc160fff5cb37b9af17cd53b4cab865578a1e3aa75f26d1f4568f427ed2"
+                  },
+                  {
+                      "name":  "full-suite-summary.md",
+                      "bytes":  345,
+                      "sha256":  "e577b8060c46351bd5d3d79d9efb9a1de74054e7ed0f4f601f7f5afe02df34d9"
+                  },
+                  {
+                      "name":  "full-suite.xml",
+                      "bytes":  77850,
+                      "sha256":  "ae2abd5e961f582d3c6b37fc7ea5365720aab7749099d2584e127bbe6b3d9ad5"
+                  },
+                  {
+                      "name":  "implementation-inventory.json",
+                      "bytes":  3283,
+                      "sha256":  "7bddb1b3435a4a87e559ae51397ddc0823b4e38f7988b60c54b1a6006da72991"
+                  },
+                  {
+                      "name":  "manifest.json",
+                      "bytes":  5219,
+                      "sha256":  "148f3e502ad505d980611ca08df6fa74371f4f2c430826a1f977f39a87edc841"
+                  },
+                  {
+                      "name":  "official-closure.json",
+                      "bytes":  2358,
+                      "sha256":  "25ac8e6f6472543e4d85df5c986837cba3cad606cbb3833e0aaf6d714274bab2"
+                  },
+                  {
+                      "name":  "official-closure.md",
+                      "bytes":  620,
+                      "sha256":  "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852"
+                  },
+                  {
+                      "name":  "release-validation.json",
+                      "bytes":  1495,
+                      "sha256":  "fd497c5bc0b0023b89e23aad3b0264d223b31875df0ae6fbb1eb31800ba744b1"
+                  },
+                  {
+                      "name":  "specific-summary.json",
+                      "bytes":  362,
+                      "sha256":  "5211c9b903b1e101ed9e42ae0a4d0ffbc5dff0f0012238388c1ca6af66f35af5"
+                  },
+                  {
+                      "name":  "specific-summary.md",
+                      "bytes":  339,
+                      "sha256":  "0024952b52a8cd73f8397c6156cb377b8a7fd1e0173f8ac3d0545f5c171f3e7d"
+                  },
+                  {
+                      "name":  "specific.xml",
+                      "bytes":  3145,
+                      "sha256":  "e98931b7485a11b0ecb3b172b34a3ede0fa4ea48b9e431f5a579fa5aac1e0e89"
+                  },
+                  {
+                      "name":  "SPT-016-Arquitectura.md",
+                      "bytes":  1002,
+                      "sha256":  "6688ecbc0e99e8353a1d41f1740c73451383d73c408cd9f8b9836021fee71dcf"
+                  },
+                  {
+                      "name":  "SPT-016-component.json",
+                      "bytes":  708,
+                      "sha256":  "4109b94cd070c64c99c1ca4fab4fbc92757ba4a1d88164a83423925d5788274d"
+                  },
+                  {
+                      "name":  "SPT-016-Especificacion-Funcional.md",
+                      "bytes":  790,
+                      "sha256":  "60c0b44e31b5034e0cf43843741f6397088585383681a583fd636c86cab09018"
+                  },
+                  {
+                      "name":  "SPT-016-Manual-Operativo.md",
+                      "bytes":  572,
+                      "sha256":  "262b6e7c2b33c3c334e6994906ca7305dae183609a9825a32b254f975dd3c1f0"
+                  },
+                  {
+                      "name":  "SPT-016-Matriz-de-Trazabilidad.md",
+                      "bytes":  880,
+                      "sha256":  "207ccac65b86abf5a7d5a1bbe723a9666cb3bd7602f89ed25fc472972acb01e2"
+                  },
+                  {
+                      "name":  "SPT-016-Plan-y-Resultados-de-Pruebas.md",
+                      "bytes":  411,
+                      "sha256":  "f31c04d4274bfde856374fab7ae86846948ac3a4aea4b15710dbc4be2c210467"
+                  },
+                  {
+                      "name":  "SPT-016-policy.json",
+                      "bytes":  520,
+                      "sha256":  "b1de2aa5c2323b09433d1a2efe75b562159bd731e9ab0135c56edd8c4ff1038d"
+                  },
+                  {
+                      "name":  "traceability-matrix.json",
+                      "bytes":  2009,
+                      "sha256":  "8d5c353458e6d77161c706339921345b9166a464a4fdf2ccffdbb4615d4978b0"
+                  }
+              ],
+    "generated_at_utc":  "2026-08-03T06:12:44.6428435Z"
+}

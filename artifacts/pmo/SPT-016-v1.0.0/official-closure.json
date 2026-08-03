@@ -1,0 +1,40 @@
+{
+    "increment_code":  "SPT-016",
+    "version":  "1.0.0",
+    "name":  "Motor de Analítica del Aprendizaje",
+    "closure_status":  "officially_closed",
+    "implementation_rewritten":  false,
+    "source_file_count":  9,
+    "specific_tests":  {
+                           "executed":  22,
+                           "passed":  22,
+                           "failures":  0,
+                           "errors":  0,
+                           "skipped":  0,
+                           "approved":  true
+                       },
+    "full_suite":  {
+                       "executed":  558,
+                       "passed":  558,
+                       "failures":  0,
+                       "errors":  0,
+                       "skipped":  0,
+                       "approved":  true
+                   },
+    "release_validation":  {
+                               "approved":  true,
+                               "exit_code":  0
+                           },
+    "documentation":  {
+                          "architecture":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\docs\\08_Fase_Tecnologica_IV\\SPT-016\\SPT-016-Arquitectura.md",
+                          "functional_specification":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\docs\\08_Fase_Tecnologica_IV\\SPT-016\\SPT-016-Especificacion-Funcional.md",
+                          "testing":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\docs\\08_Fase_Tecnologica_IV\\SPT-016\\SPT-016-Plan-y-Resultados-de-Pruebas.md",
+                          "operations":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\docs\\08_Fase_Tecnologica_IV\\SPT-016\\SPT-016-Manual-Operativo.md",
+                          "traceability":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\docs\\08_Fase_Tecnologica_IV\\SPT-016\\SPT-016-Matriz-de-Trazabilidad.md",
+                          "closure_act":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\docs\\08_Fase_Tecnologica_IV\\SPT-016\\ACT-SPT-016-Cierre-Oficial.md"
+                      },
+    "pending_deliverables":  [
+
+                             ],
+    "generated_at_utc":  "2026-08-03T06:12:44.4040624Z"
+}

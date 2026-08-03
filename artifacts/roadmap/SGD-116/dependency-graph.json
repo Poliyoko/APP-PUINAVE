@@ -670,19 +670,15 @@
     },
     {
       "source": "SPT-016",
-      "target": "SGD-114D"
-    },
-    {
-      "source": "SPT-016",
-      "target": "SGD-114E"
-    },
-    {
-      "source": "SPT-016",
       "target": "SGD-114F"
     },
     {
       "source": "SPT-016",
-      "target": "SGD-115A"
+      "target": "SGD-114G"
+    },
+    {
+      "source": "SPT-016",
+      "target": "SGD-115"
     },
     {
       "source": "SPT-016",
@@ -690,7 +686,7 @@
     },
     {
       "source": "SPT-016",
-      "target": "SPT-008"
+      "target": "SPB-007"
     },
     {
       "source": "SPT-016",
@@ -703,10 +699,6 @@
     {
       "source": "SPT-016",
       "target": "SPT-013B"
-    },
-    {
-      "source": "SPT-016",
-      "target": "SPT-014"
     },
     {
       "source": "SPT-016",
@@ -1623,22 +1615,17 @@
     },
     {
       "source": "SPT-016",
-      "target": "SGD-114D",
-      "status": "FOUND"
-    },
-    {
-      "source": "SPT-016",
-      "target": "SGD-114E",
-      "status": "FOUND"
-    },
-    {
-      "source": "SPT-016",
       "target": "SGD-114F",
       "status": "FOUND"
     },
     {
       "source": "SPT-016",
-      "target": "SGD-115A",
+      "target": "SGD-114G",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-016",
+      "target": "SGD-115",
       "status": "FOUND"
     },
     {
@@ -1648,7 +1635,7 @@
     },
     {
       "source": "SPT-016",
-      "target": "SPT-008",
+      "target": "SPB-007",
       "status": "FOUND"
     },
     {
@@ -1664,11 +1651,6 @@
     {
       "source": "SPT-016",
       "target": "SPT-013B",
-      "status": "FOUND"
-    },
-    {
-      "source": "SPT-016",
-      "target": "SPT-014",
       "status": "FOUND"
     },
     {

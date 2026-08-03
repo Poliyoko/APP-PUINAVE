@@ -717,6 +717,7 @@
       "releases/SGD-114G-v1.0.0"
     ],
     "evidence_paths": [
+      "artifacts/pmo/SGD-114G-v1.0.0/prepublish-validation.json",
       "artifacts/pmo/SGD-114G-v1.0.0/release-discovery.json",
       "artifacts/pmo/SGD-114G-v1.0.0/release-normalization.json",
       "artifacts/pmo/SGD-114G-v1.0.0/release-validation.json",
@@ -2033,34 +2034,41 @@
     "code": "SPT-016",
     "name": "Motor de Analítica del Aprendizaje",
     "version": "1.0.0",
-    "status": "implemented",
-    "component_type": "learning_analytics_engine",
+    "status": "implemented_tested_and_officially_closed",
+    "component_type": "no declarado",
     "config_path": "config/learning_analytics/SPT-016-component.json",
-    "source_paths": [
-      "src/sgoda/learning_analytics/cli.py",
-      "src/sgoda/learning_analytics/exporter.py",
-      "src/sgoda/learning_analytics/metrics.py",
-      "src/sgoda/learning_analytics/models.py",
-      "src/sgoda/learning_analytics/recommendations.py",
-      "src/sgoda/learning_analytics/repository.py",
-      "src/sgoda/learning_analytics/service.py",
-      "src/sgoda/learning_analytics/trends.py"
-    ],
-    "test_paths": [
-      "tests/learning_analytics/test_SPT_016_learning_analytics_engine.py"
-    ],
+    "source_paths": [],
+    "test_paths": [],
     "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-016/ACT-SPT-016-Cierre-Oficial.md",
       "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Especificacion-Funcional.md",
       "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Eventos-SPA.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Manual-Operativo.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Matriz-de-Trazabilidad.md",
       "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Plan-y-Resultados-de-Pruebas.md",
       "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md"
     ],
     "release_paths": [
+      "releases/SPT-016-v1.0.0",
       "releases/SPT-016A-v1.0.1"
     ],
     "evidence_paths": [
       "artifacts/learning_analytics/SPT-016/demo-output.json",
       "artifacts/learning_analytics/SPT-016/demo-request.json",
+      "artifacts/pmo/SPT-016-v1.0.0/final-release-validation.json",
+      "artifacts/pmo/SPT-016-v1.0.0/implementation-inventory.json",
+      "artifacts/pmo/SPT-016-v1.0.0/official-closure.json",
+      "artifacts/pmo/SPT-016-v1.0.0/official-closure.md",
+      "artifacts/pmo/SPT-016-v1.0.0/release-validation.json",
+      "artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite.xml",
+      "artifacts/pmo/SPT-016-v1.0.0/test-reports/specific-summary.json",
+      "artifacts/pmo/SPT-016-v1.0.0/test-reports/specific-summary.md",
+      "artifacts/pmo/SPT-016-v1.0.0/test-reports/specific.xml",
+      "artifacts/pmo/SPT-016-v1.0.0/traceability-matrix.json",
       "artifacts/pmo/SPT-016/SPT-016-implementation-evidence.json",
       "artifacts/pmo/SPT-016/test-reports/SPT-016-full-suite-summary.json",
       "artifacts/pmo/SPT-016/test-reports/SPT-016-full-suite-summary.md",

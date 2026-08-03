@@ -1,0 +1,61 @@
+{
+    "increment_code":  "SPT-016",
+    "version":  "1.0.0",
+    "name":  "Motor de Analítica del Aprendizaje",
+    "implementation_status":  "existing",
+    "source_directory":  "src/sgoda/learning_analytics",
+    "source_file_count":  9,
+    "source_files":  [
+                         {
+                             "path":  "src/sgoda/learning_analytics/cli.py",
+                             "bytes":  1680,
+                             "sha256":  "507e78bde3383113664a75b9eede3bcc8153cae86329f855c4f7f82dc5fee6cf"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/exporter.py",
+                             "bytes":  470,
+                             "sha256":  "416fd5dad8b83964ebd0c2d027685763e9ccdf898ed7a7bf7ef5ccfe35dbbd56"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/metrics.py",
+                             "bytes":  1334,
+                             "sha256":  "0864c6910ed043aa820cfdf272d395635e4e3f14043d9de12f6ab15bf6d17299"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/models.py",
+                             "bytes":  817,
+                             "sha256":  "e58251424e669afccc28bdef3dddad4cb7c8dd51d8024bfc435dbf5eb8b8af2c"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/recommendations.py",
+                             "bytes":  849,
+                             "sha256":  "23f3986473885a8a6ebc03dc4c61da21dfef409d39ca3c83d4eb89a239101adc"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/repository.py",
+                             "bytes":  1425,
+                             "sha256":  "e77b7261b43d01d87b0e66e84f190df99191b607fa0c379ebde7378de835538e"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/service.py",
+                             "bytes":  9023,
+                             "sha256":  "47655937322c36a7521ba364be751f0cc5eb5cc0286af70c3dc21e399c78ea8d"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/trends.py",
+                             "bytes":  1329,
+                             "sha256":  "19e3624c22fd27fdcfbabbbc1b5b36d675fa52ac4229fa496ea51f0a5cee52b4"
+                         },
+                         {
+                             "path":  "src/sgoda/learning_analytics/__init__.py",
+                             "bytes":  608,
+                             "sha256":  "3cdeeadbb12aec2f20466e632ce92a8d063bec49a9eaff56e3b732ad1b9eb7dd"
+                         }
+                     ],
+    "test_file":  {
+                      "path":  "tests/learning_analytics/test_SPT_016_learning_analytics_engine.py",
+                      "bytes":  7158,
+                      "sha256":  "f256af22ed5a7a2480055f65fb3695e9cd5df1caa12e73966d74200dca3fdb7b"
+                  },
+    "inventoried_at_utc":  "2026-08-03T06:11:58.9189712Z"
+}

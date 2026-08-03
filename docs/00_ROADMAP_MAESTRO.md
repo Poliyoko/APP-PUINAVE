@@ -3,7 +3,7 @@
 > Documento generado automáticamente por SGD-116.
 
 Componentes registrados: **38**  
-Avance institucional: **92.11%**
+Avance institucional: **89.47%**
 
 ## Asistente e integraciones
 
@@ -52,7 +52,7 @@ Avance institucional: **92.11%**
 | SPT-013B | Gestor Institucional del Diccionario Digital | implemented | 1.0.0 | releases/SPT-013B-v1.0.0 |
 | SPT-014 | Motor Multimedia Inteligente | implemented | 1.0.0 | releases/SPT-014-v1.0.0 |
 | SPT-015 | Motor de Evaluación Adaptativa | implemented | 1.0.0 | releases/SPT-015-v1.0.0 |
-| SPT-016 | Motor de Analítica del Aprendizaje | implemented | 1.0.0 | Pendiente |
+| SPT-016 | Motor de Analítica del Aprendizaje | implemented_tested_and_officially_closed | 1.0.0 | releases/SPT-016-v1.0.0 |
 | SPT-016A | Evidence Compatibility Patch | implemented | 1.0.1 | releases/SPT-016A-v1.0.1 |
 
 ## Gobierno Digital

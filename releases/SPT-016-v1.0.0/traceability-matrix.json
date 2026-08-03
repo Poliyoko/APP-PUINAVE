@@ -1,0 +1,43 @@
+{
+    "increment_code":  "SPT-016",
+    "version":  "1.0.0",
+    "rows":  [
+                 {
+                     "requirement":  "SPT016-REQ-001",
+                     "description":  "Registrar y consolidar eventos de aprendizaje",
+                     "implementation":  "src/sgoda/learning_analytics",
+                     "tests":  "tests/learning_analytics/test_SPT_016_learning_analytics_engine.py",
+                     "status":  "verified"
+                 },
+                 {
+                     "requirement":  "SPT016-REQ-002",
+                     "description":  "Calcular indicadores de avance y desempeño",
+                     "implementation":  "src/sgoda/learning_analytics",
+                     "tests":  "specific and full suite",
+                     "status":  "verified"
+                 },
+                 {
+                     "requirement":  "SPT016-REQ-003",
+                     "description":  "Integración nativa sin dependencia propietaria obligatoria",
+                     "implementation":  "config/learning_analytics/SPT-016-component.json",
+                     "tests":  "SGD-114E and full suite",
+                     "status":  "verified"
+                 },
+                 {
+                     "requirement":  "SPT016-REQ-004",
+                     "description":  "Evidencias institucionales versionables",
+                     "implementation":  "artifacts/pmo/SPT-016-v1.0.0",
+                     "tests":  "SGD-114F",
+                     "status":  "verified"
+                 },
+                 {
+                     "requirement":  "SPT016-REQ-005",
+                     "description":  "Release canónico y publicación gobernada",
+                     "implementation":  "releases/SPT-016-v1.0.0",
+                     "tests":  "SGD-114G and SPB-007 canonical gate",
+                     "status":  "verified"
+                 }
+             ],
+    "verified_count":  5,
+    "pending_count":  0
+}
