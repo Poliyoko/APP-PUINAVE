@@ -1,16 +1,16 @@
 {
   "policy_code": "SGD-114",
   "policy_version": "2.0.0",
-  "generated_at_utc": "2026-08-03T05:55:43.690805+00:00",
+  "generated_at_utc": "2026-08-03T06:14:22.297832+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
-  "total_files": 2178,
+  "total_files": 2214,
   "totals_by_category": {
-    "other": 431,
-    "evidence": 608,
+    "other": 434,
+    "evidence": 618,
     "configuration": 114,
     "dashboard": 20,
-    "documentation": 166,
-    "release": 438,
+    "documentation": 171,
+    "release": 456,
     "automation": 44,
     "source": 292,
     "tests": 65
@@ -128,6 +128,24 @@
       "path": "CHANGELOG.md",
       "sha256": "5def96aa0b0cf88d86d773942df5bca9e5b6cc4f87ed7273f86b90404fae1f9a",
       "size_bytes": 7012,
+      "category": "other"
+    },
+    {
+      "path": "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+      "sha256": "c48dcd9b8626a125ae03e878174b5d34557b076f8be3f219011d69cb8cc372c2",
+      "size_bytes": 21249,
+      "category": "other"
+    },
+    {
+      "path": "Close-SPT016-v1.0.0-R1-WindowsPowerShell-Compatible.ps1",
+      "sha256": "10b3a6cc76bb01cbf189e28114a5a144b2663768858f4135d4baef334a4146c5",
+      "size_bytes": 21259,
+      "category": "other"
+    },
+    {
+      "path": "Close-SPT016-v1.0.0-R2-Robust-Markdown-Closure.ps1",
+      "sha256": "e02f97359c6c358d7c2bad5265b425a663f2cc9239bff2cd9e85348424cdd1ef",
+      "size_bytes": 21919,
       "category": "other"
     },
     {
@@ -1188,19 +1206,19 @@
     },
     {
       "path": "artifacts/documentation/SGD-115/component-inventory.json",
-      "sha256": "7ebd10b87ad2ade9a17ac0c0e6cc7e4a24c2759283ae60375157a470b95aa243",
-      "size_bytes": 116214,
+      "sha256": "144d18fc0df28149b7b6c154fd2de8256f5b014f81e5de74b2b72895cb6e9641",
+      "size_bytes": 117049,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
-      "sha256": "18def8e573d362d48e12c41c4f1fb5dbe9789213eb951d30cff1f3d94625d61c",
+      "sha256": "801dcc094cbe82a574525eb8a0f1d37bf4706986e730b65a9ee12800928f3719",
       "size_bytes": 229,
       "category": "evidence"
     },
     {
       "path": "artifacts/documentation/SGD-115/master-documentation-validation.json",
-      "sha256": "beeed9a2ac4468f9914945753df3020ecf359306a8aa8a27eb87229494f1ace9",
+      "sha256": "145c515d33b6f39fff2e9e945f3736273af94d321940d98991cbcb5aed4a0a3d",
       "size_bytes": 231,
       "category": "evidence"
     },
@@ -1692,20 +1710,20 @@
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-audit.json",
-      "sha256": "566d64da206cce1141623d0ebc3b9fde38c2d2a78a1f282d88dde0178ada6234",
+      "sha256": "851ee13ce77e4219bd6f96e8d5348503af6f93c1ac8ce75c47e270c53c84eba0",
       "size_bytes": 1435,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
-      "sha256": "4a2863545d556b93855fde07810d05f0be4ffd434eb45ac37e92dd47d3381460",
+      "sha256": "02531e2c8b3635a752d10b5213c0b80423dd057f8df33e5e866923e68fc34ce3",
       "size_bytes": 646,
       "category": "evidence"
     },
     {
       "path": "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "sha256": "382573dfc11aaa31772092cf9b0c64b68a90b3dbb2338999f70bb058327d8f78",
-      "size_bytes": 440691,
+      "sha256": "ab64270f7a557eb7dafb155bfcf04a379b7a3f818eb92bec56ef778866b3de32",
+      "size_bytes": 500539,
       "category": "evidence"
     },
     {
@@ -2478,8 +2496,8 @@
     },
     {
       "path": "artifacts/pmo/SGD-114G-v1.0.0/prepublish-validation.json",
-      "sha256": "70268cdf98a389cb8679796090f78f2d06d8e3c6b781306d4afc3546cb071ae9",
-      "size_bytes": 1238,
+      "sha256": "8ca519d2e9afcb92b30f49341b697603853b0bdbda689085f332b582e80a03d2",
+      "size_bytes": 1261,
       "category": "evidence"
     },
     {
@@ -3522,8 +3540,8 @@
     },
     {
       "path": "artifacts/pmo/SPB-007/publication-result.json",
-      "sha256": "e61d482b1fe282f3f53a9006f8fa90a4862ef273b97780077e3c308eeb1c91fc",
-      "size_bytes": 25729,
+      "sha256": "21e7015668f394b96c61f7d63f9009f234c619b6670b5ddb0d452924c1096940",
+      "size_bytes": 4982,
       "category": "evidence"
     },
     {
@@ -4283,6 +4301,66 @@
       "category": "evidence"
     },
     {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/final-release-validation.json",
+      "sha256": "fd497c5bc0b0023b89e23aad3b0264d223b31875df0ae6fbb1eb31800ba744b1",
+      "size_bytes": 1495,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/implementation-inventory.json",
+      "sha256": "7bddb1b3435a4a87e559ae51397ddc0823b4e38f7988b60c54b1a6006da72991",
+      "size_bytes": 3283,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/official-closure.json",
+      "sha256": "25ac8e6f6472543e4d85df5c986837cba3cad606cbb3833e0aaf6d714274bab2",
+      "size_bytes": 2358,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/official-closure.md",
+      "sha256": "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852",
+      "size_bytes": 620,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/release-validation.json",
+      "sha256": "fd497c5bc0b0023b89e23aad3b0264d223b31875df0ae6fbb1eb31800ba744b1",
+      "size_bytes": 1495,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite-summary.json",
+      "sha256": "95dc1dc160fff5cb37b9af17cd53b4cab865578a1e3aa75f26d1f4568f427ed2",
+      "size_bytes": 368,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite-summary.md",
+      "sha256": "e577b8060c46351bd5d3d79d9efb9a1de74054e7ed0f4f601f7f5afe02df34d9",
+      "size_bytes": 345,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/test-reports/specific-summary.json",
+      "sha256": "5211c9b903b1e101ed9e42ae0a4d0ffbc5dff0f0012238388c1ca6af66f35af5",
+      "size_bytes": 362,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/test-reports/specific-summary.md",
+      "sha256": "0024952b52a8cd73f8397c6156cb377b8a7fd1e0173f8ac3d0545f5c171f3e7d",
+      "size_bytes": 339,
+      "category": "evidence"
+    },
+    {
+      "path": "artifacts/pmo/SPT-016-v1.0.0/traceability-matrix.json",
+      "sha256": "8d5c353458e6d77161c706339921345b9166a464a4fdf2ccffdbb4615d4978b0",
+      "size_bytes": 2009,
+      "category": "evidence"
+    },
+    {
       "path": "artifacts/pmo/SPT-016/SPT-016-implementation-evidence.json",
       "sha256": "e2b4b20706a1bc5178ece74bf37d956362691c75ac1a843f0fec5b59834fb6ab",
       "size_bytes": 3495,
@@ -4482,37 +4560,37 @@
     },
     {
       "path": "artifacts/roadmap/SGD-116/dependency-graph.json",
-      "sha256": "865e30c7c518c3069cb82312ef741b9c136bcfac00ec87358619d90e9f19d522",
-      "size_bytes": 32183,
+      "sha256": "8fce8f4bfd5a8b213ea7387d4d72de473edc34c3705af8bec83e895dde1e6144",
+      "size_bytes": 31847,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/executive-summary.json",
-      "sha256": "b22c507d19dd40ed437697a66341cc672ae3f10d38a99298265da87e94568ba3",
+      "sha256": "0da3c1b75ab54bf55d6ea9bfc74273b6c0c20957b5ab33cdd988ad2dfa2356fb",
       "size_bytes": 3029,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/metrics.json",
-      "sha256": "63c10d18989588bb99788097507c2b8671fd80034bb1a7309d70d2555435960b",
+      "sha256": "b2c2a5d2394186f5a69072512dc260b24b285c52a23d9935918209126af802de",
       "size_bytes": 364,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/roadmap.json",
-      "sha256": "202ecb60151cf85782748e76679c5f1b132a1a18cf5bc71afb6822e27e6d6a5b",
-      "size_bytes": 49873,
+      "sha256": "4011fa295a9dbaf792ef27bfe5c61f228776b47f8e72a9540b46ea4d5fd52254",
+      "size_bytes": 49134,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/timeline.json",
-      "sha256": "0628527142acafa851958c95a49ce984d454ff5a3b317a9956400b9543dad041",
-      "size_bytes": 10422,
+      "sha256": "5220fb1c26fd177ebdbff259a278e20137c744a5be90d87fe509f39be043e8fd",
+      "size_bytes": 10564,
       "category": "evidence"
     },
     {
       "path": "artifacts/roadmap/SGD-116/validation.json",
-      "sha256": "ac40864c6aba0f7c55069523a8d6e0ad95420f39ce689d5e0fc7c2e003baa607",
+      "sha256": "f4dd66777167345ea324a20bcbd6adb7ffe42fd8885c95ccca582859212170a9",
       "size_bytes": 2317,
       "category": "evidence"
     },
@@ -6636,8 +6714,8 @@
     },
     {
       "path": "config/learning_analytics/SPT-016-component.json",
-      "sha256": "f809875681315cc7db705f0eb3946f68fff6e0f04c396c92af1d4922d9868e5a",
-      "size_bytes": 1194,
+      "sha256": "4109b94cd070c64c99c1ca4fab4fbc92757ba4a1d88164a83423925d5788274d",
+      "size_bytes": 708,
       "category": "configuration"
     },
     {
@@ -6648,8 +6726,8 @@
     },
     {
       "path": "config/learning_analytics/SPT-016-policy.json",
-      "sha256": "4f2182dfa1b970faf2b3c0f7a973da60c5cd39d1222338d7c9c7434243c221c6",
-      "size_bytes": 563,
+      "sha256": "b1de2aa5c2323b09433d1a2efe75b562159bd731e9ab0135c56edd8c4ff1038d",
+      "size_bytes": 520,
       "category": "configuration"
     },
     {
@@ -7008,32 +7086,32 @@
     },
     {
       "path": "dashboard/dependency-graph.json",
-      "sha256": "865e30c7c518c3069cb82312ef741b9c136bcfac00ec87358619d90e9f19d522",
-      "size_bytes": 32183,
+      "sha256": "8fce8f4bfd5a8b213ea7387d4d72de473edc34c3705af8bec83e895dde1e6144",
+      "size_bytes": 31847,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-metrics.json",
-      "sha256": "63c10d18989588bb99788097507c2b8671fd80034bb1a7309d70d2555435960b",
+      "sha256": "b2c2a5d2394186f5a69072512dc260b24b285c52a23d9935918209126af802de",
       "size_bytes": 364,
       "category": "dashboard"
     },
     {
       "path": "dashboard/ecosystem-roadmap.json",
-      "sha256": "202ecb60151cf85782748e76679c5f1b132a1a18cf5bc71afb6822e27e6d6a5b",
-      "size_bytes": 49873,
+      "sha256": "4011fa295a9dbaf792ef27bfe5c61f228776b47f8e72a9540b46ea4d5fd52254",
+      "size_bytes": 49134,
       "category": "dashboard"
     },
     {
       "path": "dashboard/executive-summary.json",
-      "sha256": "b22c507d19dd40ed437697a66341cc672ae3f10d38a99298265da87e94568ba3",
+      "sha256": "0da3c1b75ab54bf55d6ea9bfc74273b6c0c20957b5ab33cdd988ad2dfa2356fb",
       "size_bytes": 3029,
       "category": "dashboard"
     },
     {
       "path": "dashboard/timeline.json",
-      "sha256": "0628527142acafa851958c95a49ce984d454ff5a3b317a9956400b9543dad041",
-      "size_bytes": 10422,
+      "sha256": "5220fb1c26fd177ebdbff259a278e20137c744a5be90d87fe509f39be043e8fd",
+      "size_bytes": 10564,
       "category": "dashboard"
     },
     {
@@ -7044,8 +7122,8 @@
     },
     {
       "path": "docs/00_DEPENDENCIAS_MAESTRAS.md",
-      "sha256": "b7ba37f386e42fe881e1fa8aa4f3e780785563cadc8ac1240c84d039b55a76de",
-      "size_bytes": 6088,
+      "sha256": "82316b4e2e9f8046904fdca74e093b992aafade8f65cde6b4b285cb3404bbe63",
+      "size_bytes": 6020,
       "category": "documentation"
     },
     {
@@ -7056,32 +7134,32 @@
     },
     {
       "path": "docs/00_INDICE_MAESTRO.md",
-      "sha256": "b404e8f3355020a7db6f9eae334d7aff27ca859c052b2f9764821b716b65a797",
-      "size_bytes": 5602,
+      "sha256": "61d1ce4bde1ebe5f4a7c664540307ee99dcc979ca5d65915df41af81e3295d63",
+      "size_bytes": 5631,
       "category": "documentation"
     },
     {
       "path": "docs/00_METRICAS_ECOSISTEMA.md",
-      "sha256": "2a11ed2a085b8fc3d7cac86c3689f07ff94cceb516f004e70a28d83ff870fb83",
+      "sha256": "0096c59cfa016a9720801ef242abcc1a2bc8fadb75c25d843ac3678032e14e7c",
       "size_bytes": 330,
       "category": "documentation"
     },
     {
       "path": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-      "sha256": "9d32c2b8ed39b93d4e2926b73574378357125614d427e998a9272bef5019d375",
-      "size_bytes": 48091,
+      "sha256": "eb947f345d89736dc8b9df3109b20beee5066ddb57b2e1e6c73d64fa8ac4d960",
+      "size_bytes": 48137,
       "category": "documentation"
     },
     {
       "path": "docs/00_ROADMAP_MAESTRO.md",
-      "sha256": "382deaf5f7d63952bbcf981814ce4067ee5c7bd896fa38d9006158d1a199b298",
-      "size_bytes": 5489,
+      "sha256": "c84b691a1a30cbe16224b1829bd46dcb80bac778c84be9117d8e379720323c19",
+      "size_bytes": 5532,
       "category": "documentation"
     },
     {
       "path": "docs/00_TIMELINE_MAESTRO.md",
-      "sha256": "18476d530d42eb5022dd668745fd657318d66d736a41bd0fa6cf340ca48d795c",
-      "size_bytes": 4724,
+      "sha256": "401db3dc97e9552fe696705569f07c420bd033165b292785724f0bb8c414d68d",
+      "size_bytes": 4811,
       "category": "documentation"
     },
     {
@@ -7961,9 +8039,21 @@
       "category": "documentation"
     },
     {
+      "path": "docs/08_Fase_Tecnologica_IV/SPT-016/ACT-SPT-016-Cierre-Oficial.md",
+      "sha256": "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852",
+      "size_bytes": 620,
+      "category": "documentation"
+    },
+    {
       "path": "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md",
-      "sha256": "9a3cf74b3b53ced8d63eb23ced1e2c3cbc46ae7a706ba4852dd87494771ae7f3",
-      "size_bytes": 196,
+      "sha256": "6688ecbc0e99e8353a1d41f1740c73451383d73c408cd9f8b9836021fee71dcf",
+      "size_bytes": 1002,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Especificacion-Funcional.md",
+      "sha256": "60c0b44e31b5034e0cf43843741f6397088585383681a583fd636c86cab09018",
+      "size_bytes": 790,
       "category": "documentation"
     },
     {
@@ -7973,9 +8063,27 @@
       "category": "documentation"
     },
     {
+      "path": "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Manual-Operativo.md",
+      "sha256": "262b6e7c2b33c3c334e6994906ca7305dae183609a9825a32b254f975dd3c1f0",
+      "size_bytes": 572,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Matriz-de-Trazabilidad.md",
+      "sha256": "207ccac65b86abf5a7d5a1bbe723a9666cb3bd7602f89ed25fc472972acb01e2",
+      "size_bytes": 880,
+      "category": "documentation"
+    },
+    {
       "path": "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md",
       "sha256": "9b981ea2ddadc4f9b837204728e240cc28894018be5e731f05a0b09d71aca7ca",
       "size_bytes": 214,
+      "category": "documentation"
+    },
+    {
+      "path": "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Plan-y-Resultados-de-Pruebas.md",
+      "sha256": "f31c04d4274bfde856374fab7ae86846948ac3a4aea4b15710dbc4be2c210467",
+      "size_bytes": 411,
       "category": "documentation"
     },
     {
@@ -10550,6 +10658,114 @@
       "path": "releases/SPT-015-v1.0.0/test_SPT_015_adaptive_assessment_engine.py",
       "sha256": "779284b1f589151b4ae4b22ed6a351a5abcb00472b864aa2086ade7a1480c376",
       "size_bytes": 7794,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/ACT-SPT-016-Cierre-Oficial.md",
+      "sha256": "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852",
+      "size_bytes": 620,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Arquitectura.md",
+      "sha256": "6688ecbc0e99e8353a1d41f1740c73451383d73c408cd9f8b9836021fee71dcf",
+      "size_bytes": 1002,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Especificacion-Funcional.md",
+      "sha256": "60c0b44e31b5034e0cf43843741f6397088585383681a583fd636c86cab09018",
+      "size_bytes": 790,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Manual-Operativo.md",
+      "sha256": "262b6e7c2b33c3c334e6994906ca7305dae183609a9825a32b254f975dd3c1f0",
+      "size_bytes": 572,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Matriz-de-Trazabilidad.md",
+      "sha256": "207ccac65b86abf5a7d5a1bbe723a9666cb3bd7602f89ed25fc472972acb01e2",
+      "size_bytes": 880,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Plan-y-Resultados-de-Pruebas.md",
+      "sha256": "f31c04d4274bfde856374fab7ae86846948ac3a4aea4b15710dbc4be2c210467",
+      "size_bytes": 411,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-component.json",
+      "sha256": "4109b94cd070c64c99c1ca4fab4fbc92757ba4a1d88164a83423925d5788274d",
+      "size_bytes": 708,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-policy.json",
+      "sha256": "b1de2aa5c2323b09433d1a2efe75b562159bd731e9ab0135c56edd8c4ff1038d",
+      "size_bytes": 520,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/full-suite-summary.json",
+      "sha256": "95dc1dc160fff5cb37b9af17cd53b4cab865578a1e3aa75f26d1f4568f427ed2",
+      "size_bytes": 368,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/full-suite-summary.md",
+      "sha256": "e577b8060c46351bd5d3d79d9efb9a1de74054e7ed0f4f601f7f5afe02df34d9",
+      "size_bytes": 345,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/implementation-inventory.json",
+      "sha256": "7bddb1b3435a4a87e559ae51397ddc0823b4e38f7988b60c54b1a6006da72991",
+      "size_bytes": 3283,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/manifest.json",
+      "sha256": "bab678f220c8ef3feeb805afed791e2a5446ed7fdfcebe5b8e66f4efed47c2d7",
+      "size_bytes": 5220,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/official-closure.json",
+      "sha256": "25ac8e6f6472543e4d85df5c986837cba3cad606cbb3833e0aaf6d714274bab2",
+      "size_bytes": 2358,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/official-closure.md",
+      "sha256": "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852",
+      "size_bytes": 620,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/release-validation.json",
+      "sha256": "fd497c5bc0b0023b89e23aad3b0264d223b31875df0ae6fbb1eb31800ba744b1",
+      "size_bytes": 1495,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/specific-summary.json",
+      "sha256": "5211c9b903b1e101ed9e42ae0a4d0ffbc5dff0f0012238388c1ca6af66f35af5",
+      "size_bytes": 362,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/specific-summary.md",
+      "sha256": "0024952b52a8cd73f8397c6156cb377b8a7fd1e0173f8ac3d0545f5c171f3e7d",
+      "size_bytes": 339,
+      "category": "release"
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/traceability-matrix.json",
+      "sha256": "8d5c353458e6d77161c706339921345b9166a464a4fdf2ccffdbb4615d4978b0",
+      "size_bytes": 2009,
       "category": "release"
     },
     {
