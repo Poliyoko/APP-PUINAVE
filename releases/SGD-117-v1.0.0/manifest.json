@@ -1,0 +1,35 @@
+{
+    "increment_code":  "SGD-117",
+    "version":  "1.0.0",
+    "release_name":  "SGD-117-v1.0.0",
+    "status":  "implemented_tested_and_officially_closed",
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "files":  [
+                  "cli.py",
+                  "full-suite-summary.json",
+                  "full-suite-summary.md",
+                  "full-suite.xml",
+                  "implementation-evidence.json",
+                  "implementation-evidence.md",
+                  "institutional-repository-report.json",
+                  "manager.py",
+                  "manifest.json",
+                  "master-documents-post-audit.json",
+                  "master-documents-pre-audit.json",
+                  "models.py",
+                  "repository-inventory.json",
+                  "repository-validation.json",
+                  "SGD-117-Arquitectura.md",
+                  "SGD-117-component.json",
+                  "SGD-117-Manual-Operativo.md",
+                  "SGD-117-policy.json",
+                  "specific-summary.json",
+                  "specific-summary.md",
+                  "specific.xml",
+                  "test_SGD_117_repository_manager.py",
+                  "__init__.py"
+              ]
+}

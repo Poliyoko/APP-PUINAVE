@@ -1,0 +1,36 @@
+{
+  "increment_code": "SGD-117",
+  "name": "Institutional Repository Manager",
+  "version": "1.0.0",
+  "status": "implemented_tested_and_officially_closed",
+  "component_type": "governance",
+  "phase": "Gobierno y arquitectura",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SGD-114",
+    "SGD-114F",
+    "SGD-114G",
+    "SGD-115",
+    "SGD-116",
+    "SPB-007"
+  ],
+  "source": [
+    "src/sgoda/governance/repository_manager/"
+  ],
+  "tests": [
+    "tests/governance/repository_manager/"
+  ],
+  "documentation": [
+    "docs/01_Gobierno/SGD-117/"
+  ],
+  "capabilities": [
+    "master document audit",
+    "repository asset inventory",
+    "SHA-256 integrity catalog",
+    "repository structure validation",
+    "invalid configuration detection",
+    "large asset detection",
+    "institutional repository reporting"
+  ]
+}

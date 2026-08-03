@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-03T06:14:11.222613+00:00",
+  "generated_at_utc": "2026-08-03T12:41:39.629157+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -335,6 +335,39 @@
         "discovery_source": "descriptor",
         "raw_code": "SGD-116B",
         "canonical_code": "SGD-116B",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SGD-117",
+      "name": "Institutional Repository Manager",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_officially_closed",
+      "component_type": "governance",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [
+        "SGD-114",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "source_paths": [
+        "src/sgoda/governance/repository_manager/"
+      ],
+      "test_paths": [
+        "tests/governance/repository_manager/"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-117/"
+      ],
+      "release_path": "releases/SGD-117-v1.0.0",
+      "config_path": "config/governance/SGD-117-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-117",
+        "canonical_code": "SGD-117",
         "alias_applied": false
       }
     },

@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **38**  
-Avance institucional: **89.47%**
+Componentes registrados: **39**  
+Avance institucional: **87.18%**
 
 ## Asistente e integraciones
 
@@ -75,6 +75,7 @@ Avance institucional: **89.47%**
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | technically_completed | 1.0.0 | Pendiente |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | technically_completed | 1.0.0 | Pendiente |
 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | technically_completed | 2.0.0 | releases/SGD-116B-v3.0.0 |
+| SGD-117 | Institutional Repository Manager | implemented_tested_and_officially_closed | 1.0.0 | releases/SGD-117-v1.0.0 |
 
 ## Identidad cultural
 

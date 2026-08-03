@@ -27,6 +27,7 @@
 | SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 1 | 4 |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 49 |
 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | 2.0.0 | technically_completed | `config/roadmap/SGD-116B-component.json` | 4 | 1 | 3 | 1 | 30 |
+| SGD-117 | Institutional Repository Manager | 1.0.0 | implemented_tested_and_officially_closed | `config/governance/SGD-117-component.json` | 1 | 1 | 3 | 1 | 14 |
 | SIB-001 | SGODA Installer Builder | 0.1.0 | technically_completed | `config/installer_builder/SIB-001-component.json` | 1 | 1 | 2 | 1 | 12 |
 | SPB-007 | institutional_repository_publisher | 1.0.0 | technically_completed | `config/repository/SPB-007-component.json` | 1 | 1 | 2 | 1 | 6 |
 | SPT-001B-P06 | rlb_pipeline | 1.3.0 | technically_completed | `config/rlb/SPT-001B-P06-component.json` | 0 | 0 | 1 | 0 | 10 |
@@ -334,6 +335,18 @@
 - **Documentación:** `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md`
 - **Releases:** `releases/SGD-116B-v3.0.0`
 - **Evidencias:** 30 archivo(s) identificado(s).
+
+### SGD-117 — Institutional Repository Manager
+
+- **Versión:** 1.0.0
+- **Estado:** implemented_tested_and_officially_closed
+- **Tipo:** governance
+- **Configuración:** `config/governance/SGD-117-component.json`
+- **Código:** `src/sgoda/governance/repository_manager/`
+- **Pruebas:** `tests/governance/repository_manager/`
+- **Documentación:** `docs/01_Gobierno/SGD-117/`, `docs/01_Gobierno/SGD-117/SGD-117-Arquitectura.md`, `docs/01_Gobierno/SGD-117/SGD-117-Manual-Operativo.md`
+- **Releases:** `releases/SGD-117-v1.0.0`
+- **Evidencias:** 14 archivo(s) identificado(s).
 
 ### SIB-001 — SGODA Installer Builder
 

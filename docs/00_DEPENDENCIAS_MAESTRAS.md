@@ -28,6 +28,12 @@
 | SGD-116B | SGD-115 | Interna |
 | SGD-116B | SIB-001 | Interna |
 | SGD-116B | SPB-007 | Interna |
+| SGD-117 | SGD-114 | Interna |
+| SGD-117 | SGD-114F | Interna |
+| SGD-117 | SGD-114G | Interna |
+| SGD-117 | SGD-115 | Interna |
+| SGD-117 | SGD-116 | Interna |
+| SGD-117 | SPB-007 | Interna |
 | SIB-001 | SGD-114 | Interna |
 | SIB-001 | SGD-115 | Interna |
 | SIB-001 | SPB-007 | Interna |

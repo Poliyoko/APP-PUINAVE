@@ -1,0 +1,21 @@
+{
+  "policy_id": "SGD-117-POLICY-v1.0.0",
+  "component": "SGD-117",
+  "version": "1.0.0",
+  "required_roots": [
+    "src",
+    "tests",
+    "docs",
+    "config",
+    "artifacts",
+    "releases",
+    "scripts"
+  ],
+  "required_master_documents": [
+    "docs/00_INDICE_MAESTRO.md",
+    "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+    "docs/00_ARQUITECTURA_MAESTRA.md"
+  ],
+  "integrity_algorithm": "SHA-256",
+  "large_asset_threshold_bytes": 26214400
+}

@@ -957,6 +957,44 @@
     ]
   },
   {
+    "code": "SGD-117",
+    "name": "Institutional Repository Manager",
+    "version": "1.0.0",
+    "status": "implemented_tested_and_officially_closed",
+    "component_type": "governance",
+    "config_path": "config/governance/SGD-117-component.json",
+    "source_paths": [
+      "src/sgoda/governance/repository_manager/"
+    ],
+    "test_paths": [
+      "tests/governance/repository_manager/"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-117/",
+      "docs/01_Gobierno/SGD-117/SGD-117-Arquitectura.md",
+      "docs/01_Gobierno/SGD-117/SGD-117-Manual-Operativo.md"
+    ],
+    "release_paths": [
+      "releases/SGD-117-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-117-v1.0.0/implementation-evidence.json",
+      "artifacts/pmo/SGD-117-v1.0.0/implementation-evidence.md",
+      "artifacts/pmo/SGD-117-v1.0.0/institutional-repository-report.json",
+      "artifacts/pmo/SGD-117-v1.0.0/master-documents-post-audit.json",
+      "artifacts/pmo/SGD-117-v1.0.0/master-documents-pre-audit.json",
+      "artifacts/pmo/SGD-117-v1.0.0/release-validation.json",
+      "artifacts/pmo/SGD-117-v1.0.0/repository-inventory.json",
+      "artifacts/pmo/SGD-117-v1.0.0/repository-validation.json",
+      "artifacts/pmo/SGD-117-v1.0.0/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-117-v1.0.0/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-117-v1.0.0/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-117-v1.0.0/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-117-v1.0.0/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-117-v1.0.0/test-reports/specific.xml"
+    ]
+  },
+  {
     "code": "SIB-001",
     "name": "SGODA Installer Builder",
     "version": "0.1.0",

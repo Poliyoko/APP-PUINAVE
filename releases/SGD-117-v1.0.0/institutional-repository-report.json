@@ -1,0 +1,35 @@
+{
+  "component": "SGD-117",
+  "version": "1.0.0",
+  "master_document_audit": {
+    "index_exists": true,
+    "registry_exists": true,
+    "index_mentions_component": true,
+    "registry_mentions_component": true,
+    "config_declares_component": true,
+    "release_exists": true,
+    "component_preexisted": true
+  },
+  "repository_validation": {
+    "approved": true,
+    "exit_code": 0,
+    "missing_directories": [],
+    "missing_files": [],
+    "invalid_json": []
+  },
+  "asset_count": 2021,
+  "total_bytes": 8354280,
+  "category_counts": {
+    "source": 296,
+    "tests": 66,
+    "documentation": 179,
+    "configuration": 116,
+    "evidence": 809,
+    "release": 491,
+    "automation": 44,
+    "dashboard": 20
+  },
+  "large_assets": [],
+  "approved": true,
+  "exit_code": 0
+}

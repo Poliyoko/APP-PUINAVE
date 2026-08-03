@@ -1,0 +1,12 @@
+{
+  "component": "SGD-117-v1.0.0",
+  "scope": "specific",
+  "executed": 7,
+  "passed": 7,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 0.145,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-117-v1.0.0\\test-reports\\specific.xml"
+}

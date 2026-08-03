@@ -1,0 +1,11 @@
+{
+  "index_exists": true,
+  "registry_exists": true,
+  "index_mentions_component": true,
+  "registry_mentions_component": true,
+  "config_declares_component": true,
+  "release_exists": true,
+  "component_preexisted": true,
+  "approved": true,
+  "exit_code": 0
+}
