@@ -1,16 +1,16 @@
 {
   "increment": "SPB-007",
   "version": "1.0.0",
-  "generated_at_utc": "2026-08-03T06:14:18.189190+00:00",
+  "generated_at_utc": "2026-08-03T12:41:44.666368+00:00",
   "repository_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE",
   "result": {
     "branch": "feature/SPT-001A-rlb-schema-foundation",
     "remote": "origin",
     "upstream_before": "origin/feature/SPT-001A-rlb-schema-foundation",
     "upstream_after": "origin/feature/SPT-001A-rlb-schema-foundation",
-    "staged_files": 64,
+    "staged_files": 69,
     "commit_created": true,
-    "commit_sha": "ee978ff160a8b26bb3cf1ce102ced1d27ee0e5ed",
+    "commit_sha": "32ff98950553f70cbc4dd9579675caf5a93186e5",
     "tag_created": false,
     "pushed": true,
     "clean_after_publish": true,
@@ -45,10 +45,10 @@
           "git",
           "commit",
           "-m",
-          "feat(analytics): close SPT-016 learning analytics engine"
+          "feat(governance): implement SGD-117 repository manager"
         ],
         "returncode": 0,
-        "stdout": "[feature/SPT-001A-rlb-schema-foundation ee978ff] feat(analytics): close SPT-016 learning analytics engine\n 64 files changed, 3857 insertions(+), 619 deletions(-)\n create mode 100644 Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1\n create mode 100644 Close-SPT016-v1.0.0-R1-WindowsPowerShell-Compatible.ps1\n create mode 100644 Close-SPT016-v1.0.0-R2-Robust-Markdown-Closure.ps1\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/final-release-validation.json\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/implementation-inventory.json\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/official-closure.json\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/official-closure.md\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/release-validation.json\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite-summary.json\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite-summary.md\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/test-reports/full-suite.xml\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/test-reports/specific-summary.json\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/test-reports/specific-summary.md\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/test-reports/specific.xml\n create mode 100644 artifacts/pmo/SPT-016-v1.0.0/traceability-matrix.json\n create mode 100644 docs/08_Fase_Tecnologica_IV/SPT-016/ACT-SPT-016-Cierre-Oficial.md\n create mode 100644 docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Especificacion-Funcional.md\n create mode 100644 docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Manual-Operativo.md\n create mode 100644 docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Matriz-de-Trazabilidad.md\n create mode 100644 docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Plan-y-Resultados-de-Pruebas.md\n create mode 100644 releases/SPT-016-v1.0.0/ACT-SPT-016-Cierre-Oficial.md\n create mode 100644 releases/SPT-016-v1.0.0/SPT-016-Arquitectura.md\n create mode 100644 releases/SPT-016-v1.0.0/SPT-016-Especificacion-Funcional.md\n create mode 100644 releases/SPT-016-v1.0.0/SPT-016-Manual-Operativo.md\n create mode 100644 releases/SPT-016-v1.0.0/SPT-016-Matriz-de-Trazabilidad.md\n create mode 100644 releases/SPT-016-v1.0.0/SPT-016-Plan-y-Resultados-de-Pruebas.md\n create mode 100644 releases/SPT-016-v1.0.0/SPT-016-component.json\n create mode 100644 releases/SPT-016-v1.0.0/SPT-016-policy.json\n create mode 100644 releases/SPT-016-v1.0.0/full-suite-summary.json\n create mode 100644 releases/SPT-016-v1.0.0/full-suite-summary.md\n create mode 100644 releases/SPT-016-v1.0.0/full-suite.xml\n create mode 100644 releases/SPT-016-v1.0.0/implementation-inventory.json\n create mode 100644 releases/SPT-016-v1.0.0/manifest.json\n create mode 100644 releases/SPT-016-v1.0.0/official-closure.json\n create mode 100644 releases/SPT-016-v1.0.0/official-closure.md\n create mode 100644 releases/SPT-016-v1.0.0/release-validation.json\n create mode 100644 releases/SPT-016-v1.0.0/specific-summary.json\n create mode 100644 releases/SPT-016-v1.0.0/specific-summary.md\n create mode 100644 releases/SPT-016-v1.0.0/specific.xml\n create mode 100644 releases/SPT-016-v1.0.0/traceability-matrix.json",
+        "stdout": "[feature/SPT-001A-rlb-schema-foundation 32ff989] feat(governance): implement SGD-117 repository manager\n 69 files changed, 27212 insertions(+), 71 deletions(-)\n create mode 100644 Install-SGD117-v1.0.0-Institutional-Repository-Manager.ps1\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/implementation-evidence.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/implementation-evidence.md\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/institutional-repository-report.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/master-documents-post-audit.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/master-documents-pre-audit.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/release-validation.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/repository-inventory.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/repository-validation.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/test-reports/full-suite-summary.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/test-reports/full-suite-summary.md\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/test-reports/full-suite.xml\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/test-reports/specific-summary.json\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/test-reports/specific-summary.md\n create mode 100644 artifacts/pmo/SGD-117-v1.0.0/test-reports/specific.xml\n create mode 100644 config/governance/SGD-117-component.json\n create mode 100644 config/governance/SGD-117-policy.json\n create mode 100644 docs/01_Gobierno/SGD-117/SGD-117-Arquitectura.md\n create mode 100644 docs/01_Gobierno/SGD-117/SGD-117-Manual-Operativo.md\n create mode 100644 releases/SGD-117-v1.0.0/SGD-117-Arquitectura.md\n create mode 100644 releases/SGD-117-v1.0.0/SGD-117-Manual-Operativo.md\n create mode 100644 releases/SGD-117-v1.0.0/SGD-117-component.json\n create mode 100644 releases/SGD-117-v1.0.0/SGD-117-policy.json\n create mode 100644 releases/SGD-117-v1.0.0/__init__.py\n create mode 100644 releases/SGD-117-v1.0.0/cli.py\n create mode 100644 releases/SGD-117-v1.0.0/full-suite-summary.json\n create mode 100644 releases/SGD-117-v1.0.0/full-suite-summary.md\n create mode 100644 releases/SGD-117-v1.0.0/full-suite.xml\n create mode 100644 releases/SGD-117-v1.0.0/implementation-evidence.json\n create mode 100644 releases/SGD-117-v1.0.0/implementation-evidence.md\n create mode 100644 releases/SGD-117-v1.0.0/institutional-repository-report.json\n create mode 100644 releases/SGD-117-v1.0.0/manager.py\n create mode 100644 releases/SGD-117-v1.0.0/manifest.json\n create mode 100644 releases/SGD-117-v1.0.0/master-documents-post-audit.json\n create mode 100644 releases/SGD-117-v1.0.0/master-documents-pre-audit.json\n create mode 100644 releases/SGD-117-v1.0.0/models.py\n create mode 100644 releases/SGD-117-v1.0.0/repository-inventory.json\n create mode 100644 releases/SGD-117-v1.0.0/repository-validation.json\n create mode 100644 releases/SGD-117-v1.0.0/specific-summary.json\n create mode 100644 releases/SGD-117-v1.0.0/specific-summary.md\n create mode 100644 releases/SGD-117-v1.0.0/specific.xml\n create mode 100644 releases/SGD-117-v1.0.0/test_SGD_117_repository_manager.py\n create mode 100644 src/sgoda/governance/repository_manager/__init__.py\n create mode 100644 src/sgoda/governance/repository_manager/cli.py\n create mode 100644 src/sgoda/governance/repository_manager/manager.py\n create mode 100644 src/sgoda/governance/repository_manager/models.py\n create mode 100644 tests/governance/repository_manager/test_SGD_117_repository_manager.py",
         "stderr": ""
       },
       {
@@ -60,7 +60,7 @@
         ],
         "returncode": 0,
         "stdout": "",
-        "stderr": "To https://github.com/Poliyoko/APP-PUINAVE.git\n   3508543..ee978ff  feature/SPT-001A-rlb-schema-foundation -> feature/SPT-001A-rlb-schema-foundation"
+        "stderr": "To https://github.com/Poliyoko/APP-PUINAVE.git\n   3fb9ed1..32ff989  feature/SPT-001A-rlb-schema-foundation -> feature/SPT-001A-rlb-schema-foundation"
       }
     ]
   }
