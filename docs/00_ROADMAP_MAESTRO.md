@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **30**  
-Avance institucional: **90.0%**
+Componentes registrados: **31**  
+Avance institucional: **90.32%**
 
 ## Asistente e integraciones
 
@@ -43,6 +43,12 @@ Avance institucional: **90.0%**
 | SPT-011 | Plataforma Operativa SGODA-PUINAVE | implemented | 1.0.0 | releases/SPT-011-v1.0.0 |
 | SPT-011A | Institutional Evidence Closure | implemented | 1.0.2 | releases/SPT-011A-v1.0.1 |
 | SPT-012 | Plataforma de Aprendizaje SGODA-PUINAVE | implemented | 1.0.0 | releases/SPT-012-v1.0.0 |
+
+## Fase Tecnológica IV
+
+| Código | Componente | Estado | Versión | Release |
+|---|---|---|---|---|
+| SPT-013A | Learning Ecosystem Foundation | implemented | 1.0.0 | releases/SPT-013A-v1.0.1 |
 
 ## Gobierno Digital
 

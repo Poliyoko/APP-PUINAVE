@@ -1,0 +1,9 @@
+{
+  "component": "SPT-013A",
+  "version": "1.0.0",
+  "native_ecosystem": true,
+  "local_first": true,
+  "no_invention": true,
+  "free_open_technology": true,
+  "mandatory_proprietary_dependencies": []
+}

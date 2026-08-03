@@ -39,6 +39,7 @@
 | SPT-011 | Plataforma Operativa SGODA-PUINAVE | 1.0.0 | implemented | `config/operational_platform/SPT-011-component.json` | 10 | 1 | 7 | 2 | 16 |
 | SPT-011A | Institutional Evidence Closure | 1.0.2 | implemented | `config/operational_platform/SPT-011A-component.json` | 1 | 1 | 1 | 1 | 10 |
 | SPT-012 | Plataforma de Aprendizaje SGODA-PUINAVE | 1.0.0 | implemented | `config/learning_platform/SPT-012-component.json` | 10 | 1 | 5 | 1 | 7 |
+| SPT-013A | Learning Ecosystem Foundation | 1.0.0 | implemented | `config/learning_foundation/SPT-013A-component.json` | 4 | 1 | 2 | 1 | 8 |
 
 ## Detalle por componente
 
@@ -461,4 +462,16 @@
 - **Documentación:** `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Arquitectura.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Diccionario-Digital.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Integracion-Motores.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Multimedia-y-ODA.md`, `docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Rutas-Progreso-Evaluacion.md`
 - **Releases:** `releases/SPT-012-v1.0.0`
 - **Evidencias:** 7 archivo(s) identificado(s).
+
+### SPT-013A — Learning Ecosystem Foundation
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** learning_ecosystem_foundation
+- **Configuración:** `config/learning_foundation/SPT-013A-component.json`
+- **Código:** `src/sgoda/learning_foundation/cli.py`, `src/sgoda/learning_foundation/models.py`, `src/sgoda/learning_foundation/registry.py`, `src/sgoda/learning_foundation/service.py`
+- **Pruebas:** `tests/learning_foundation/test_SPT_013A_learning_ecosystem_foundation.py`
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md`
+- **Releases:** `releases/SPT-013A-v1.0.1`
+- **Evidencias:** 8 archivo(s) identificado(s).
 

@@ -1,0 +1,11 @@
+{
+  "operation": "validate",
+  "status": "ok",
+  "data": {
+    "approved": true,
+    "dependencyGaps": [],
+    "nativeOnly": true
+  },
+  "warnings": [],
+  "no_invention": true
+}

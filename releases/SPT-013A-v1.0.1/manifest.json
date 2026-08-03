@@ -1,0 +1,12 @@
+{
+    "increment_code":  "SPT-013A",
+    "version":  "1.0.1",
+    "status":  "implemented_and_tested",
+    "files":  [
+                  "foundation-demo-v1.0.1.json",
+                  "manifest.json",
+                  "registry.py",
+                  "SPT-013A-v1.0.1-implementation-evidence.json",
+                  "test_SPT_013A_learning_ecosystem_foundation.py"
+              ]
+}

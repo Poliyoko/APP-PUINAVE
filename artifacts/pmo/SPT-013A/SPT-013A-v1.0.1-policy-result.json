@@ -1,0 +1,52 @@
+{
+  "policy": "SGD-114D",
+  "version": "1.0.0",
+  "increment_code": "SPT-013A",
+  "approved": true,
+  "exit_code": 0,
+  "evidence_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-013A",
+  "release_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SPT-013A-v1.0.1",
+  "results": [
+    {
+      "rule_code": "SGD114D-R003",
+      "name": "Release técnico adaptativo",
+      "passed": true,
+      "blocking": true,
+      "message": "Release detectado: C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SPT-013A-v1.0.1",
+      "remediation": "",
+      "evidence": [
+        "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SPT-013A-v1.0.1"
+      ],
+      "metadata": {
+        "strategy": "canonical_versioned",
+        "candidates": [
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SPT-013A-v1.0.1"
+        ]
+      }
+    },
+    {
+      "rule_code": "SGD114D-R007",
+      "name": "Evidencia institucional adaptativa",
+      "passed": true,
+      "blocking": true,
+      "message": "Evidencia detectada: C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-013A",
+      "remediation": "",
+      "evidence": [
+        "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-013A"
+      ],
+      "metadata": {
+        "strategy": "canonical",
+        "candidates": [
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-013A\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-013A",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SPT-013A\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SPT-013A",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-013\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-013",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SPT-013\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SPT-013"
+        ]
+      }
+    }
+  ]
+}

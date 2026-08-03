@@ -1,0 +1,33 @@
+{
+  "increment_code": "SPT-013A",
+  "name": "Learning Ecosystem Foundation",
+  "component_type": "learning_ecosystem_foundation",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica IV",
+  "native_ecosystem": true,
+  "ecosystem_role": "native_component",
+  "technology_policy": "free_open_optional_proprietary",
+  "mandatory_proprietary_dependencies": [],
+  "institutional_terminology": "integrado nativamente al ecosistema SGODA-PUINAVE",
+  "dependencies": [
+    "SPT-012",
+    "SGD-114D",
+    "SGD-114E",
+    "SGD-115A",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/learning_foundation/models.py",
+    "src/sgoda/learning_foundation/registry.py",
+    "src/sgoda/learning_foundation/service.py",
+    "src/sgoda/learning_foundation/cli.py"
+  ],
+  "tests": [
+    "tests/learning_foundation/test_SPT_013A_learning_ecosystem_foundation.py"
+  ],
+  "documentation": [
+    "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md"
+  ]
+}

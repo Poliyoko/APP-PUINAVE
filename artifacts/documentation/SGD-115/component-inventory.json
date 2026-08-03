@@ -1352,5 +1352,39 @@
       "artifacts/pmo/SPT-012/SPT-012-policy-result.json",
       "artifacts/pmo/SPT-012/SPT-012-policy-result.md"
     ]
+  },
+  {
+    "code": "SPT-013A",
+    "name": "Learning Ecosystem Foundation",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "learning_ecosystem_foundation",
+    "config_path": "config/learning_foundation/SPT-013A-component.json",
+    "source_paths": [
+      "src/sgoda/learning_foundation/cli.py",
+      "src/sgoda/learning_foundation/models.py",
+      "src/sgoda/learning_foundation/registry.py",
+      "src/sgoda/learning_foundation/service.py"
+    ],
+    "test_paths": [
+      "tests/learning_foundation/test_SPT_013A_learning_ecosystem_foundation.py"
+    ],
+    "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md"
+    ],
+    "release_paths": [
+      "releases/SPT-013A-v1.0.1"
+    ],
+    "evidence_paths": [
+      "artifacts/learning_foundation/SPT-013A/foundation-demo-v1.0.1.json",
+      "artifacts/pmo/SPT-013A/SPT-013A-v1.0.1-implementation-evidence.json",
+      "artifacts/pmo/SPT-013A/SPT-013A-v1.0.1-native-result.json",
+      "artifacts/pmo/SPT-013A/SPT-013A-v1.0.1-native-result.md",
+      "artifacts/pmo/SPT-013A/SPT-013A-v1.0.1-policy-result.json",
+      "artifacts/pmo/SPT-013A/SPT-013A-v1.0.1-policy-result.md",
+      "artifacts/pmo/SPT-013A/backups/pre-SPT013A-v1.0.1-20260802-211727/registry.py",
+      "artifacts/pmo/SPT-013A/backups/pre-SPT013A-v1.0.1-20260802-211918/registry.py"
+    ]
   }
 ]

@@ -32,5 +32,6 @@
 | 2026-08-02T17:28:31-05:00 | SGD-115A | Documentation Canonical Component Resolver | implemented | releases/SGD-115A-v1.0.0 |
 | 2026-08-02T17:28:31-05:00 | SPT-011A | Institutional Evidence Closure | implemented | releases/SPT-011A-v1.0.1 |
 | 2026-08-02T18:00:24-05:00 | SPT-012 | Plataforma de Aprendizaje SGODA-PUINAVE | implemented | releases/SPT-012-v1.0.0 |
-| No determinada | SGD-114E | Native Ecosystem Architecture Policy | implemented | Pendiente |
+| 2026-08-02T18:51:09-05:00 | SGD-114E | Native Ecosystem Architecture Policy | implemented | Pendiente |
 | No determinada | SPT-011 | Plataforma Operativa SGODA-PUINAVE | implemented | releases/SPT-011-v1.0.0 |
+| No determinada | SPT-013A | Learning Ecosystem Foundation | implemented | releases/SPT-013A-v1.0.1 |

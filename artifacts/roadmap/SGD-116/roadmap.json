@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-02T23:51:08.150379+00:00",
+  "generated_at_utc": "2026-08-03T02:20:27.979188+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -1097,6 +1097,42 @@
         "canonical_code": "SPT-012",
         "alias_applied": false
       }
+    },
+    {
+      "code": "SPT-013A",
+      "name": "Learning Ecosystem Foundation",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "learning_ecosystem_foundation",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-012",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/learning_foundation/models.py",
+        "src/sgoda/learning_foundation/registry.py",
+        "src/sgoda/learning_foundation/service.py",
+        "src/sgoda/learning_foundation/cli.py"
+      ],
+      "test_paths": [
+        "tests/learning_foundation/test_SPT_013A_learning_ecosystem_foundation.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md"
+      ],
+      "release_path": "releases/SPT-013A-v1.0.1",
+      "config_path": "config/learning_foundation/SPT-013A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-013A",
+        "canonical_code": "SPT-013A",
+        "alias_applied": false
+      }
     }
   ],
   "phases": [
@@ -1105,6 +1141,7 @@
     "Fase Tecnológica",
     "Fase Tecnológica II",
     "Fase Tecnológica III",
+    "Fase Tecnológica IV",
     "Gobierno Digital",
     "Gobierno y arquitectura",
     "Identidad cultural",
