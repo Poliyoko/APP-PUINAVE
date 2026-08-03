@@ -1,0 +1,30 @@
+{
+  "schema": "SPT-017-knowledge-center-v1",
+  "records": [
+    {
+      "record_id": "lex:AMDA",
+      "title": "AMDA",
+      "record_type": "lexical_entry",
+      "language": "pui",
+      "summary": "Entrada léxica demostrativa.",
+      "source_component": "SPT-013B",
+      "cultural_domain": "language",
+      "tags": [
+        "diccionario",
+        "demostración"
+      ],
+      "related_ids": [],
+      "media_ids": [],
+      "oda_ids": [],
+      "version": "1.0.0",
+      "status": "active",
+      "provenance": {
+        "source_component": "SPT-013B",
+        "source_id": "AMDA",
+        "actor": "SGODA-PUINAVE",
+        "license": "institutional",
+        "recorded_at_utc": "2026-08-03T13:25:36.218896+00:00"
+      }
+    }
+  ]
+}

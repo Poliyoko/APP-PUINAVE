@@ -348,6 +348,15 @@
     "status": "implemented_tested_and_officially_closed",
     "version": "1.0.0",
     "release": "releases/SGD-117-v1.0.0",
+    "last_git_date": "2026-08-03T07:41:41-05:00"
+  },
+  {
+    "code": "SPT-017",
+    "name": "Centro de Conocimiento Puinave",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "version": "1.0.0",
+    "release": "releases/SPT-017-v1.0.0",
     "last_git_date": null
   }
 ]

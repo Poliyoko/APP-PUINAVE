@@ -42,4 +42,5 @@
 | 2026-08-03T00:55:12-05:00 | SPT-011 | Plataforma Operativa SGODA-PUINAVE | implemented | releases/SPT-011-v1.0.0 |
 | 2026-08-03T00:55:12-05:00 | SPT-016A | Evidence Compatibility Patch | implemented | releases/SPT-016A-v1.0.1 |
 | 2026-08-03T01:14:14-05:00 | SPT-016 | Motor de Analítica del Aprendizaje | implemented_tested_and_officially_closed | releases/SPT-016-v1.0.0 |
-| No determinada | SGD-117 | Institutional Repository Manager | implemented_tested_and_officially_closed | releases/SGD-117-v1.0.0 |
+| 2026-08-03T07:41:41-05:00 | SGD-117 | Institutional Repository Manager | implemented_tested_and_officially_closed | releases/SGD-117-v1.0.0 |
+| No determinada | SPT-017 | Centro de Conocimiento Puinave | implemented_tested_and_candidate_for_closure | releases/SPT-017-v1.0.0 |

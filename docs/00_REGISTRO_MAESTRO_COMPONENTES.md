@@ -57,6 +57,7 @@
 | SPT-015 | Motor de Evaluación Adaptativa | 1.0.0 | implemented | `config/adaptive_assessment/SPT-015-component.json` | 8 | 1 | 3 | 1 | 12 |
 | SPT-016 | Motor de Analítica del Aprendizaje | 1.0.0 | implemented_tested_and_officially_closed | `config/learning_analytics/SPT-016-component.json` | 0 | 0 | 9 | 2 | 34 |
 | SPT-016A | Evidence Compatibility Patch | 1.0.1 | implemented | `config/learning_analytics/SPT-016A-component.json` | 0 | 0 | 1 | 1 | 13 |
+| SPT-017 | Centro de Conocimiento Puinave | 1.0.0 | implemented_tested_and_candidate_for_closure | `config/puinave_knowledge_center/SPT-017-component.json` | 0 | 0 | 2 | 1 | 11 |
 
 ## Detalle por componente
 
@@ -695,4 +696,16 @@
 - **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md`
 - **Releases:** `releases/SPT-016A-v1.0.1`
 - **Evidencias:** 13 archivo(s) identificado(s).
+
+### SPT-017 — Centro de Conocimiento Puinave
+
+- **Versión:** 1.0.0
+- **Estado:** implemented_tested_and_candidate_for_closure
+- **Tipo:** no declarado
+- **Configuración:** `config/puinave_knowledge_center/SPT-017-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-017/SPT-017-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-017/SPT-017-Manual-Operativo.md`
+- **Releases:** `releases/SPT-017-v1.0.0`
+- **Evidencias:** 11 archivo(s) identificado(s).
 

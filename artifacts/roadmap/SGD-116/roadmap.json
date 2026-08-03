@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-03T12:41:39.629157+00:00",
+  "generated_at_utc": "2026-08-03T13:26:25.075676+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -1396,6 +1396,38 @@
         "discovery_source": "descriptor",
         "raw_code": "SPT-016A",
         "canonical_code": "SPT-016A",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-017",
+      "name": "Centro de Conocimiento Puinave",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "component_type": "unspecified",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-007C",
+        "SPT-013B",
+        "SPT-014",
+        "SPT-015",
+        "SPT-016",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-017-v1.0.0",
+      "config_path": "config/puinave_knowledge_center/SPT-017-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-017",
+        "canonical_code": "SPT-017",
         "alias_applied": false
       }
     }

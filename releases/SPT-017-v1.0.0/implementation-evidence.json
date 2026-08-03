@@ -1,0 +1,18 @@
+{
+    "specific_tests":  {
+                           "passed":  82,
+                           "approved":  true,
+                           "executed":  82
+                       },
+    "version":  "1.0.0",
+    "increment_code":  "SPT-017",
+    "prevalidated_package":  "............                                                             [100%]\n12 passed in 0.11s",
+    "generated_at_utc":  "2026-08-03T13:26:25.3537035Z",
+    "status":  "implemented_tested_and_candidate_for_closure",
+    "base_component":  "SPT-007C",
+    "full_suite":  {
+                       "passed":  577,
+                       "approved":  true,
+                       "executed":  577
+                   }
+}

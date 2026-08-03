@@ -54,7 +54,7 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **53**.
+Total identificado automáticamente: **54**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-PA** — SGD-114 Policy Auditor (v1.0.0; implemented)
@@ -109,6 +109,7 @@ Total identificado automáticamente: **53**.
 - **SPT-015** — Motor de Evaluación Adaptativa (v1.0.0; implemented)
 - **SPT-016** — Motor de Analítica del Aprendizaje (v1.0.0; implemented_tested_and_officially_closed)
 - **SPT-016A** — Evidence Compatibility Patch (v1.0.1; implemented)
+- **SPT-017** — Centro de Conocimiento Puinave (v1.0.0; implemented_tested_and_candidate_for_closure)
 
 ## 14. Política de actualización
 

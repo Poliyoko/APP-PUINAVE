@@ -1,0 +1,11 @@
+{
+  "component": "SPT-017",
+  "version": "1.0.0",
+  "status": "operational",
+  "record_count": 1,
+  "source_components": [
+    "SPT-013B"
+  ],
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": []
+}

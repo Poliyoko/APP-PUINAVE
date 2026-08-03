@@ -1,0 +1,12 @@
+{
+  "component": "SGODA-PUINAVE",
+  "scope": "full_suite",
+  "executed": 577,
+  "passed": 577,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 19.328,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-017-v1.0.0\\test-reports\\full-suite.xml"
+}

@@ -1,0 +1,36 @@
+{
+    "version":  "1.0.0",
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "increment_code":  "SPT-017",
+    "files":  [
+                  "amda-demonstration.json",
+                  "cli.py",
+                  "full-suite-summary.json",
+                  "full-suite-summary.md",
+                  "full-suite.xml",
+                  "health.json",
+                  "implementation-evidence.json",
+                  "index.py",
+                  "integrations.py",
+                  "manifest.json",
+                  "models.py",
+                  "provenance.py",
+                  "repository.py",
+                  "service.py",
+                  "specific-summary.json",
+                  "specific-summary.md",
+                  "specific.xml",
+                  "SPT-017-Arquitectura.md",
+                  "SPT-017-component.json",
+                  "SPT-017-Manual-Operativo.md",
+                  "SPT-017-policy.json",
+                  "test_SPT_017_puinave_knowledge_center.py",
+                  "__init__.py"
+              ],
+    "release_name":  "SPT-017-v1.0.0",
+    "status":  "implemented_tested_and_candidate_for_closure",
+    "base_component":  "SPT-007C",
+    "native_ecosystem":  true
+}

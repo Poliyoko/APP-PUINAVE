@@ -1,0 +1,15 @@
+{
+    "policy_id":  "SPT-017-POLICY-v1.0.0",
+    "principles":  [
+                       "community provenance",
+                       "cultural authority",
+                       "data minimization",
+                       "explainable retrieval",
+                       "native open ecosystem"
+                   ],
+    "languages":  [
+                      "pui",
+                      "es",
+                      "en"
+                  ]
+}

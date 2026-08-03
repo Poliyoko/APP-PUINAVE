@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **39**  
-Avance institucional: **87.18%**
+Componentes registrados: **40**  
+Avance institucional: **85.0%**
 
 ## Asistente e integraciones
 
@@ -54,6 +54,7 @@ Avance institucional: **87.18%**
 | SPT-015 | Motor de Evaluación Adaptativa | implemented | 1.0.0 | releases/SPT-015-v1.0.0 |
 | SPT-016 | Motor de Analítica del Aprendizaje | implemented_tested_and_officially_closed | 1.0.0 | releases/SPT-016-v1.0.0 |
 | SPT-016A | Evidence Compatibility Patch | implemented | 1.0.1 | releases/SPT-016A-v1.0.1 |
+| SPT-017 | Centro de Conocimiento Puinave | implemented_tested_and_candidate_for_closure | 1.0.0 | releases/SPT-017-v1.0.0 |
 
 ## Gobierno Digital
 
