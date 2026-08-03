@@ -1,0 +1,39 @@
+{
+  "increment_code": "SPT-013B",
+  "name": "Gestor Institucional del Diccionario Digital",
+  "component_type": "institutional_dictionary_manager",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica IV",
+  "native_ecosystem": true,
+  "ecosystem_role": "native_component",
+  "technology_policy": "free_open_optional_proprietary",
+  "mandatory_proprietary_dependencies": [],
+  "institutional_terminology": "integrado nativamente al ecosistema SGODA-PUINAVE",
+  "dependencies": [
+    "SPT-013A",
+    "SPT-012",
+    "SPT-007A",
+    "SPT-007B",
+    "SGD-114D",
+    "SGD-114E",
+    "SGD-115A",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/dictionary_manager/models.py",
+    "src/sgoda/dictionary_manager/validation.py",
+    "src/sgoda/dictionary_manager/repository.py",
+    "src/sgoda/dictionary_manager/import_export.py",
+    "src/sgoda/dictionary_manager/service.py",
+    "src/sgoda/dictionary_manager/cli.py"
+  ],
+  "tests": [
+    "tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py"
+  ],
+  "documentation": [
+    "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "component": "SPT-013B",
+  "version": "1.0.0",
+  "validated_entries_only_for_publication": true,
+  "cultural_validation_required": true,
+  "no_invention": true,
+  "local_first": true,
+  "free_open_technology": true,
+  "mandatory_proprietary_dependencies": [],
+  "supported_languages": [
+    "pu",
+    "es",
+    "en-US",
+    "it"
+  ]
+}

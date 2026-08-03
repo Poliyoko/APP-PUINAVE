@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-03T02:20:27.979188+00:00",
+  "generated_at_utc": "2026-08-03T02:46:51.998459+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -1131,6 +1131,48 @@
         "discovery_source": "descriptor",
         "raw_code": "SPT-013A",
         "canonical_code": "SPT-013A",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-013B",
+      "name": "Gestor Institucional del Diccionario Digital",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "institutional_dictionary_manager",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-013A",
+        "SPT-012",
+        "SPT-007A",
+        "SPT-007B",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/dictionary_manager/models.py",
+        "src/sgoda/dictionary_manager/validation.py",
+        "src/sgoda/dictionary_manager/repository.py",
+        "src/sgoda/dictionary_manager/import_export.py",
+        "src/sgoda/dictionary_manager/service.py",
+        "src/sgoda/dictionary_manager/cli.py"
+      ],
+      "test_paths": [
+        "tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md"
+      ],
+      "release_path": "releases/SPT-013B-v1.0.0",
+      "config_path": "config/dictionary_manager/SPT-013B-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-013B",
+        "canonical_code": "SPT-013B",
         "alias_applied": false
       }
     }

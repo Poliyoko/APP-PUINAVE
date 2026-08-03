@@ -1,0 +1,26 @@
+{
+    "increment_code":  "SPT-013B",
+    "version":  "1.0.0",
+    "status":  "implemented_and_tested",
+    "files":  [
+                  "cli.py",
+                  "demo-input.json",
+                  "demo-output.json",
+                  "import_export.py",
+                  "Invoke-SPT013B-DictionaryManager.ps1",
+                  "manifest.json",
+                  "models.py",
+                  "repository.py",
+                  "service.py",
+                  "SPT-013B-Arquitectura.md",
+                  "SPT-013B-component.json",
+                  "SPT-013B-entry-schema.json",
+                  "SPT-013B-implementation-evidence.json",
+                  "SPT-013B-Importacion-Exportacion.md",
+                  "SPT-013B-Modelo-Lexico.md",
+                  "SPT-013B-policy.json",
+                  "test_SPT_013B_institutional_digital_dictionary_manager.py",
+                  "validation.py",
+                  "__init__.py"
+              ]
+}

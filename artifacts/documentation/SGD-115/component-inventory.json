@@ -1386,5 +1386,53 @@
       "artifacts/pmo/SPT-013A/backups/pre-SPT013A-v1.0.1-20260802-211727/registry.py",
       "artifacts/pmo/SPT-013A/backups/pre-SPT013A-v1.0.1-20260802-211918/registry.py"
     ]
+  },
+  {
+    "code": "SPT-013B",
+    "name": "Gestor Institucional del Diccionario Digital",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "institutional_dictionary_manager",
+    "config_path": "config/dictionary_manager/SPT-013B-component.json",
+    "source_paths": [
+      "src/sgoda/dictionary_manager/cli.py",
+      "src/sgoda/dictionary_manager/import_export.py",
+      "src/sgoda/dictionary_manager/models.py",
+      "src/sgoda/dictionary_manager/repository.py",
+      "src/sgoda/dictionary_manager/service.py",
+      "src/sgoda/dictionary_manager/validation.py"
+    ],
+    "test_paths": [
+      "tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py"
+    ],
+    "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md"
+    ],
+    "release_paths": [
+      "releases/SPT-013B-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/dictionary_manager/SPT-013B/demo-input.json",
+      "artifacts/dictionary_manager/SPT-013B/demo-output.json",
+      "artifacts/pmo/SPT-013B/SPT-013B-implementation-evidence.json",
+      "artifacts/pmo/SPT-013B/SPT-013B-native-result.json",
+      "artifacts/pmo/SPT-013B/SPT-013B-native-result.md",
+      "artifacts/pmo/SPT-013B/SPT-013B-policy-result.json",
+      "artifacts/pmo/SPT-013B/SPT-013B-policy-result.md",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/config__dictionary_manager__SPT-013B-component.json",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/config__dictionary_manager__SPT-013B-entry-schema.json",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/config__dictionary_manager__SPT-013B-policy.json",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/scripts__Invoke-SPT013B-DictionaryManager.ps1",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager____init__.py",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__cli.py",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__import_export.py",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__models.py",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__repository.py",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__service.py",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__validation.py",
+      "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/tests__dictionary_manager__test_SPT_013B_institutional_digital_dictionary_manager.py"
+    ]
   }
 ]

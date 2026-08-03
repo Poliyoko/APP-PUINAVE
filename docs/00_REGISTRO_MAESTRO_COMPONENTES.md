@@ -40,6 +40,7 @@
 | SPT-011A | Institutional Evidence Closure | 1.0.2 | implemented | `config/operational_platform/SPT-011A-component.json` | 1 | 1 | 1 | 1 | 10 |
 | SPT-012 | Plataforma de Aprendizaje SGODA-PUINAVE | 1.0.0 | implemented | `config/learning_platform/SPT-012-component.json` | 10 | 1 | 5 | 1 | 7 |
 | SPT-013A | Learning Ecosystem Foundation | 1.0.0 | implemented | `config/learning_foundation/SPT-013A-component.json` | 4 | 1 | 2 | 1 | 8 |
+| SPT-013B | Gestor Institucional del Diccionario Digital | 1.0.0 | implemented | `config/dictionary_manager/SPT-013B-component.json` | 6 | 1 | 3 | 1 | 19 |
 
 ## Detalle por componente
 
@@ -474,4 +475,16 @@
 - **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md`
 - **Releases:** `releases/SPT-013A-v1.0.1`
 - **Evidencias:** 8 archivo(s) identificado(s).
+
+### SPT-013B — Gestor Institucional del Diccionario Digital
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** institutional_dictionary_manager
+- **Configuración:** `config/dictionary_manager/SPT-013B-component.json`
+- **Código:** `src/sgoda/dictionary_manager/cli.py`, `src/sgoda/dictionary_manager/import_export.py`, `src/sgoda/dictionary_manager/models.py`, `src/sgoda/dictionary_manager/repository.py`, `src/sgoda/dictionary_manager/service.py`, `src/sgoda/dictionary_manager/validation.py`
+- **Pruebas:** `tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py`
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md`, `docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md`
+- **Releases:** `releases/SPT-013B-v1.0.0`
+- **Evidencias:** 19 archivo(s) identificado(s).
 

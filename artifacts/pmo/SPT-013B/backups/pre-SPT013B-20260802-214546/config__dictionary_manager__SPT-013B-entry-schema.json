@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SPT-013B Lexical Entry",
+  "type": "object",
+  "required": [
+    "entry_id",
+    "puinave",
+    "spanish"
+  ],
+  "properties": {
+    "entry_id": {
+      "type": "string",
+      "pattern": "^LEX-[0-9]{3,}$"
+    },
+    "puinave": {
+      "type": "string",
+      "minLength": 1
+    },
+    "spanish": {
+      "type": "string",
+      "minLength": 1
+    },
+    "english_us": {
+      "type": "string"
+    },
+    "italian": {
+      "type": "string"
+    },
+    "validated": {
+      "type": "boolean"
+    }
+  }
+}

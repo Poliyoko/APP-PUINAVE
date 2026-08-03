@@ -1,0 +1,29 @@
+{
+    "operation":  "create",
+    "payload":  {
+                    "entry_id":  "LEX-001",
+                    "puinave":  "AMDA",
+                    "spanish":  "casa",
+                    "english_us":  "house",
+                    "italian":  "casa",
+                    "grammatical_category":  "sustantivo",
+                    "lexical_family":  "vivienda",
+                    "dialectal_variants":  [
+                                               "amda"
+                                           ],
+                    "synonyms":  [
+                                     "hogar"
+                                 ],
+                    "antonyms":  [
+
+                                 ],
+                    "examples":  [
+                                     {
+                                         "language":  "pu",
+                                         "text":  "AMDA",
+                                         "translation":  "casa"
+                                     }
+                                 ],
+                    "validated":  true
+                }
+}
