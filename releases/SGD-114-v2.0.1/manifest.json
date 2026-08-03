@@ -1,0 +1,16 @@
+{
+  "increment_code": "SGD-114",
+  "version": "2.0.1",
+  "release_name": "SGD-114-v2.0.1",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SGD-114-v2.0.1-windows-test-evidence.json",
+    "repository-audit.json",
+    "repository-governance-event.json",
+    "repository-manifest.json",
+    "sgd-114-v2-repository-policy.json",
+    "test_SGD_114_v2_repository_governance.py"
+  ]
+}

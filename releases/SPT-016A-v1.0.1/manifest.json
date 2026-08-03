@@ -1,0 +1,30 @@
+{
+    "increment_code":  "SPT-016A",
+    "target_increment":  "SPT-016",
+    "version":  "1.0.1",
+    "status":  "implemented_tested_and_approved",
+    "files":  [
+                  "cli.py",
+                  "demo-output.json",
+                  "demo-request.json",
+                  "exporter.py",
+                  "metrics.py",
+                  "models.py",
+                  "recommendations.py",
+                  "repository.py",
+                  "service.py",
+                  "SPT-016-full-suite-summary.json",
+                  "SPT-016-full-suite-summary.md",
+                  "SPT-016-full-suite.xml",
+                  "SPT-016-specific-summary.json",
+                  "SPT-016-specific-summary.md",
+                  "SPT-016-specific.xml",
+                  "SPT-016A-component.json",
+                  "SPT-016A-Evidence-Compatibility-Patch.md",
+                  "SPT-016A-implementation-evidence.json",
+                  "SPT-016A-implementation-evidence.md",
+                  "test_SPT_016_learning_analytics_engine.py",
+                  "trends.py",
+                  "__init__.py"
+              ]
+}

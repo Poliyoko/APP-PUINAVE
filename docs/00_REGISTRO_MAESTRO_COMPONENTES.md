@@ -6,19 +6,29 @@
 |---|---|---:|---|---|---:|---:|---:|---:|---:|
 | ADR-010 | relational_media_repository | 1.0.0 | institutionally_closed | `config/media/ADR-010-component.json` | 4 | 1 | 3 | 1 | 10 |
 | SGD-114-PA | SGD-114 Policy Auditor | 1.0.0 | implemented | `config/governance/SGD-114-policy-auditor-component.json` | 1 | 1 | 1 | 0 | 0 |
-| SGD-114-v2 | institutional_repository_governance | 2.0.0 | institutionally_closed | `config/governance/SGD-114-v2-component.json` | 1 | 1 | 2 | 1 | 7 |
-| SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 3 | 1 | 3 |
-| SGD-114D | Adaptive Institutional Policy Engine | 1.0.0 | implemented | `config/governance/SGD-114D-component.json` | 6 | 1 | 3 | 1 | 6 |
-| SGD-114D-v1.0.1 | Adaptive Release Canonical Resolver | 1.0.1 | implemented | `config/governance/SGD-114D-v1.0.1-component.json` | 1 | 1 | 1 | 0 | 1 |
-| SGD-114E | Native Ecosystem Architecture Policy | 1.0.2 | implemented | `config/governance/SGD-114E-component.json` | 5 | 1 | 3 | 1 | 23 |
-| SGD-114E-C1 | Native Ecosystem Validator Fix | 1.0.0 | implemented | `config/governance/SGD-114E-C1-component.json` | 2 | 1 | 1 | 1 | 10 |
+| SGD-114-v2 | institutional_repository_governance | 2.0.0 | institutionally_closed | `config/governance/SGD-114-v2-component.json` | 1 | 1 | 2 | 1 | 8 |
+| SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 3 | 1 | 4 |
+| SGD-114D | Adaptive Institutional Policy Engine | 1.0.0 | implemented | `config/governance/SGD-114D-component.json` | 6 | 1 | 3 | 1 | 8 |
+| SGD-114D-v1.0.1 | Adaptive Release Canonical Resolver | 1.0.1 | implemented | `config/governance/SGD-114D-v1.0.1-component.json` | 1 | 1 | 1 | 0 | 2 |
+| SGD-114E | Native Ecosystem Architecture Policy | 1.0.2 | implemented | `config/governance/SGD-114E-component.json` | 5 | 1 | 11 | 10 | 105 |
+| SGD-114E-C1 | Native Ecosystem Validator Fix | 1.0.0 | implemented | `config/governance/SGD-114E-C1-component.json` | 2 | 1 | 1 | 1 | 11 |
+| SGD-114E-v1.0.3 | Native Ecosystem Approval Logic Fix | 1.0.3 | implemented | `config/governance/SGD-114E-v1.0.3-component.json` | 0 | 0 | 1 | 1 | 3 |
+| SGD-114E-v1.0.4 | Multi-Test-Path Invocation Fix | 1.0.4 | implemented | `config/governance/SGD-114E-v1.0.4-component.json` | 0 | 0 | 1 | 1 | 2 |
+| SGD-114E-v1.0.5 | Backward Compatibility Result Model | 1.0.5 | implemented | `config/governance/SGD-114E-v1.0.5-component.json` | 0 | 0 | 1 | 1 | 4 |
+| SGD-114E-v1.0.6 | Definitive Contract Restoration | 1.0.6 | implemented | `config/governance/SGD-114E-v1.0.6-component.json` | 0 | 0 | 1 | 1 | 4 |
+| SGD-114E-v1.0.7 | Definitive Prevalidated Contract Closure | 1.0.7 | implemented | `config/governance/SGD-114E-v1.0.7-component.json` | 0 | 0 | 1 | 1 | 6 |
+| SGD-114E-v2.0.0 | Definitive Native Ecosystem Validator | 2.0.0 | implemented | `config/governance/SGD-114E-v2.0.0-component.json` | 0 | 0 | 3 | 4 | 62 |
+| SGD-114E-v2.0.0-R1 | Canonical Contract Closure | 2.0.0-R1 | implemented | `config/governance/SGD-114E-v2.0.0-R1-component.json` | 0 | 0 | 1 | 1 | 12 |
+| SGD-114E-v2.0.0-R2.1 | Self Validation Closure | 2.0.0-R2.1 | implemented | `config/governance/SGD-114E-v2.0.0-R2.1-component.json` | 0 | 0 | 1 | 1 | 42 |
 | SGD-114F | Institutional Test Evidence Synchronizer | 1.0.0 | implemented | `config/governance/SGD-114F-component.json` | 4 | 1 | 2 | 1 | 28 |
-| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 1 | 9 |
-| SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 1 | 3 |
-| SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 47 |
-| SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | 2.0.0 | technically_completed | `config/roadmap/SGD-116B-component.json` | 4 | 1 | 3 | 1 | 29 |
+| SGD-114G-v1.0.0 | Institutional Release Management Service | 1.0.0 | implemented | `config/governance/SGD-114G-v1.0.0-component.json` | 0 | 0 | 1 | 1 | 6 |
+| SGD-114G-v1.0.1 | Legacy Manifest Migration and Canonical Closure | 1.0.1 | implemented | `config/governance/SGD-114G-v1.0.1-component.json` | 0 | 0 | 1 | 1 | 9 |
+| SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 1 | 11 |
+| SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 1 | 4 |
+| SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 49 |
+| SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | 2.0.0 | technically_completed | `config/roadmap/SGD-116B-component.json` | 4 | 1 | 3 | 1 | 30 |
 | SIB-001 | SGODA Installer Builder | 0.1.0 | technically_completed | `config/installer_builder/SIB-001-component.json` | 1 | 1 | 2 | 1 | 12 |
-| SPB-007 | institutional_repository_publisher | 1.0.0 | technically_completed | `config/repository/SPB-007-component.json` | 1 | 1 | 2 | 1 | 5 |
+| SPB-007 | institutional_repository_publisher | 1.0.0 | technically_completed | `config/repository/SPB-007-component.json` | 1 | 1 | 2 | 1 | 6 |
 | SPT-001B-P06 | rlb_pipeline | 1.3.0 | technically_completed | `config/rlb/SPT-001B-P06-component.json` | 0 | 0 | 1 | 0 | 10 |
 | SPT-001B-P07 | rlb_header_normalization | 1.0.0 | technically_completed | `config/rlb/SPT-001B-P07-component.json` | 1 | 1 | 1 | 0 | 10 |
 | SPT-001B-P08 | canonical_repository_closure | 1.0.0 | institutionally_closed | `config/rlb/SPT-001B-P08-component.json` | 1 | 1 | 1 | 0 | 7 |
@@ -44,6 +54,8 @@
 | SPT-013B | Gestor Institucional del Diccionario Digital | 1.0.0 | implemented | `config/dictionary_manager/SPT-013B-component.json` | 6 | 1 | 3 | 1 | 19 |
 | SPT-014 | Motor Multimedia Inteligente | 1.0.0 | implemented | `config/multimedia_engine/SPT-014-component.json` | 7 | 1 | 3 | 1 | 20 |
 | SPT-015 | Motor de Evaluación Adaptativa | 1.0.0 | implemented | `config/adaptive_assessment/SPT-015-component.json` | 8 | 1 | 3 | 1 | 12 |
+| SPT-016 | Motor de Analítica del Aprendizaje | 1.0.0 | implemented | `config/learning_analytics/SPT-016-component.json` | 8 | 1 | 4 | 1 | 22 |
+| SPT-016A | Evidence Compatibility Patch | 1.0.1 | implemented | `config/learning_analytics/SPT-016A-component.json` | 0 | 0 | 1 | 1 | 13 |
 
 ## Detalle por componente
 
@@ -81,7 +93,7 @@
 - **Pruebas:** `tests/governance/test_SGD_114_v2_repository_governance.py`
 - **Documentación:** `docs/01_Gobierno/SGD-114-v2.0-Politica-Repositorio-Institucional.md`, `docs/05_Fase_Tecnologica/SGD-114/SGD-114-v2.0-Implementacion-Tecnica.md`
 - **Releases:** `releases/SGD-114-v2.0.1`
-- **Evidencias:** 7 archivo(s) identificado(s).
+- **Evidencias:** 8 archivo(s) identificado(s).
 
 ### SGD-114C — Policy Governance Core
 
@@ -93,7 +105,7 @@
 - **Pruebas:** `tests/governance/test_SGD_114C_policy_governance_core.py`
 - **Documentación:** `docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md`, `docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md`, `docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md`
 - **Releases:** `releases/SGD-114C-v1.0.0`
-- **Evidencias:** 3 archivo(s) identificado(s).
+- **Evidencias:** 4 archivo(s) identificado(s).
 
 ### SGD-114D — Adaptive Institutional Policy Engine
 
@@ -105,7 +117,7 @@
 - **Pruebas:** `tests/governance/test_SGD_114D_adaptive_institutional_policy_engine.py`
 - **Documentación:** `docs/01_Gobierno/SGD-114D-Adaptive-Institutional-Policy-Engine.md`, `docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md`, `docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md`
 - **Releases:** `releases/SGD-114D-v1.0.0`
-- **Evidencias:** 6 archivo(s) identificado(s).
+- **Evidencias:** 8 archivo(s) identificado(s).
 
 ### SGD-114D-v1.0.1 — Adaptive Release Canonical Resolver
 
@@ -117,7 +129,7 @@
 - **Pruebas:** `tests/governance/test_SGD_114D_release_canonical_resolver.py`
 - **Documentación:** `docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md`
 - **Releases:** No identificados.
-- **Evidencias:** 1 archivo(s) identificado(s).
+- **Evidencias:** 2 archivo(s) identificado(s).
 
 ### SGD-114E — Native Ecosystem Architecture Policy
 
@@ -127,9 +139,9 @@
 - **Configuración:** `config/governance/SGD-114E-component.json`
 - **Código:** `src/sgoda/governance/native_ecosystem.py`, `src/sgoda/governance/native_ecosystem_cli.py`, `src/sgoda/governance/native_ecosystem_models.py`, `src/sgoda/governance/native_ecosystem_policy.py`, `src/sgoda/governance/native_ecosystem_validator.py`
 - **Pruebas:** `tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py`
-- **Documentación:** `docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md`, `docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md`, `docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md`
-- **Releases:** `releases/SGD-114E-C1-v1.0.0`
-- **Evidencias:** 23 archivo(s) identificado(s).
+- **Documentación:** `docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md`, `docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md`, `docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md`, `docs/01_Gobierno/SGD-114E-v1.0.3-Native-Ecosystem-Approval-Logic-Fix.md`, `docs/01_Gobierno/SGD-114E-v1.0.4-Multi-Test-Path-Invocation-Fix.md`, `docs/01_Gobierno/SGD-114E-v1.0.5-Backward-Compatibility-Result-Model.md`, `docs/01_Gobierno/SGD-114E-v1.0.6-Definitive-Contract-Restoration.md`, `docs/01_Gobierno/SGD-114E-v1.0.7-Definitive-Prevalidated-Contract-Closure.md`, `docs/01_Gobierno/SGD-114E-v2.0.0-Definitive-Native-Ecosystem-Validator.md`, `docs/01_Gobierno/SGD-114E-v2.0.0-R1-Canonical-Contract-Closure.md`, `docs/01_Gobierno/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md`
+- **Releases:** `releases/SGD-114E-C1-v1.0.0`, `releases/SGD-114E-v1.0.3`, `releases/SGD-114E-v1.0.4`, `releases/SGD-114E-v1.0.5`, `releases/SGD-114E-v1.0.6`, `releases/SGD-114E-v1.0.7`, `releases/SGD-114E-v2.0.0`, `releases/SGD-114E-v2.0.0-R1`, `releases/SGD-114E-v2.0.0-R2.1`, `releases/SGD-114E-v2.0.0-R2.2`
+- **Evidencias:** 105 archivo(s) identificado(s).
 
 ### SGD-114E-C1 — Native Ecosystem Validator Fix
 
@@ -141,7 +153,103 @@
 - **Pruebas:** `tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py`
 - **Documentación:** `docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md`
 - **Releases:** `releases/SGD-114E-C1-v1.0.0`
-- **Evidencias:** 10 archivo(s) identificado(s).
+- **Evidencias:** 11 archivo(s) identificado(s).
+
+### SGD-114E-v1.0.3 — Native Ecosystem Approval Logic Fix
+
+- **Versión:** 1.0.3
+- **Estado:** implemented
+- **Tipo:** governance_logic_patch
+- **Configuración:** `config/governance/SGD-114E-v1.0.3-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v1.0.3-Native-Ecosystem-Approval-Logic-Fix.md`
+- **Releases:** `releases/SGD-114E-v1.0.3`
+- **Evidencias:** 3 archivo(s) identificado(s).
+
+### SGD-114E-v1.0.4 — Multi-Test-Path Invocation Fix
+
+- **Versión:** 1.0.4
+- **Estado:** implemented
+- **Tipo:** governance_execution_patch
+- **Configuración:** `config/governance/SGD-114E-v1.0.4-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v1.0.4-Multi-Test-Path-Invocation-Fix.md`
+- **Releases:** `releases/SGD-114E-v1.0.4`
+- **Evidencias:** 2 archivo(s) identificado(s).
+
+### SGD-114E-v1.0.5 — Backward Compatibility Result Model
+
+- **Versión:** 1.0.5
+- **Estado:** implemented
+- **Tipo:** governance_compatibility_patch
+- **Configuración:** `config/governance/SGD-114E-v1.0.5-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v1.0.5-Backward-Compatibility-Result-Model.md`
+- **Releases:** `releases/SGD-114E-v1.0.5`
+- **Evidencias:** 4 archivo(s) identificado(s).
+
+### SGD-114E-v1.0.6 — Definitive Contract Restoration
+
+- **Versión:** 1.0.6
+- **Estado:** implemented
+- **Tipo:** governance_contract_closure
+- **Configuración:** `config/governance/SGD-114E-v1.0.6-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v1.0.6-Definitive-Contract-Restoration.md`
+- **Releases:** `releases/SGD-114E-v1.0.6`
+- **Evidencias:** 4 archivo(s) identificado(s).
+
+### SGD-114E-v1.0.7 — Definitive Prevalidated Contract Closure
+
+- **Versión:** 1.0.7
+- **Estado:** implemented
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/SGD-114E-v1.0.7-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v1.0.7-Definitive-Prevalidated-Contract-Closure.md`
+- **Releases:** `releases/SGD-114E-v1.0.7`
+- **Evidencias:** 6 archivo(s) identificado(s).
+
+### SGD-114E-v2.0.0 — Definitive Native Ecosystem Validator
+
+- **Versión:** 2.0.0
+- **Estado:** implemented
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/SGD-114E-v2.0.0-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v2.0.0-Definitive-Native-Ecosystem-Validator.md`, `docs/01_Gobierno/SGD-114E-v2.0.0-R1-Canonical-Contract-Closure.md`, `docs/01_Gobierno/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md`
+- **Releases:** `releases/SGD-114E-v2.0.0`, `releases/SGD-114E-v2.0.0-R1`, `releases/SGD-114E-v2.0.0-R2.1`, `releases/SGD-114E-v2.0.0-R2.2`
+- **Evidencias:** 62 archivo(s) identificado(s).
+
+### SGD-114E-v2.0.0-R1 — Canonical Contract Closure
+
+- **Versión:** 2.0.0-R1
+- **Estado:** implemented
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/SGD-114E-v2.0.0-R1-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v2.0.0-R1-Canonical-Contract-Closure.md`
+- **Releases:** `releases/SGD-114E-v2.0.0-R1`
+- **Evidencias:** 12 archivo(s) identificado(s).
+
+### SGD-114E-v2.0.0-R2.1 — Self Validation Closure
+
+- **Versión:** 2.0.0-R2.1
+- **Estado:** implemented
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/SGD-114E-v2.0.0-R2.1-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md`
+- **Releases:** `releases/SGD-114E-v2.0.0-R2.1`
+- **Evidencias:** 42 archivo(s) identificado(s).
 
 ### SGD-114F — Institutional Test Evidence Synchronizer
 
@@ -155,6 +263,30 @@
 - **Releases:** `releases/SGD-114F-v1.0.0`
 - **Evidencias:** 28 archivo(s) identificado(s).
 
+### SGD-114G-v1.0.0 — Institutional Release Management Service
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/SGD-114G-v1.0.0-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114G-v1.0.0-Institutional-Release-Management-Service.md`
+- **Releases:** `releases/SGD-114G-v1.0.0`
+- **Evidencias:** 6 archivo(s) identificado(s).
+
+### SGD-114G-v1.0.1 — Legacy Manifest Migration and Canonical Closure
+
+- **Versión:** 1.0.1
+- **Estado:** implemented
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/SGD-114G-v1.0.1-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/01_Gobierno/SGD-114G-v1.0.1-Legacy-Manifest-Migration.md`
+- **Releases:** `releases/SGD-114G-v1.0.1`
+- **Evidencias:** 9 archivo(s) identificado(s).
+
 ### SGD-115 — Sistema Maestro de Documentación del Proyecto
 
 - **Versión:** 1.0.0
@@ -165,7 +297,7 @@
 - **Pruebas:** `tests/documentation/test_SGD_115_master_documentation.py`
 - **Documentación:** `docs/00_ARQUITECTURA_MAESTRA.md`, `docs/00_INDICE_MAESTRO.md`, `docs/00_REGISTRO_MAESTRO_COMPONENTES.md`, `docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md`, `docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md`
 - **Releases:** `releases/SGD-115A-v1.0.0`
-- **Evidencias:** 9 archivo(s) identificado(s).
+- **Evidencias:** 11 archivo(s) identificado(s).
 
 ### SGD-115A — Documentation Canonical Component Resolver
 
@@ -177,7 +309,7 @@
 - **Pruebas:** `tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py`
 - **Documentación:** `docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md`
 - **Releases:** `releases/SGD-115A-v1.0.0`
-- **Evidencias:** 3 archivo(s) identificado(s).
+- **Evidencias:** 4 archivo(s) identificado(s).
 
 ### SGD-116 — Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE
 
@@ -189,7 +321,7 @@
 - **Pruebas:** `tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py`
 - **Documentación:** `docs/05_Fase_Tecnologica/SGD-116/SGD-116-Arquitectura-Descubrimiento.md`, `docs/05_Fase_Tecnologica/SGD-116/SGD-116-Operacion-y-Regeneracion.md`, `docs/05_Fase_Tecnologica/SGD-116/SGD-116-Roadmap-Maestro-Vivo.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md`
 - **Releases:** `releases/SGD-116B-v3.0.0`
-- **Evidencias:** 47 archivo(s) identificado(s).
+- **Evidencias:** 49 archivo(s) identificado(s).
 
 ### SGD-116B — Correctivo Institucional Único del Roadmap Maestro Vivo
 
@@ -201,7 +333,7 @@
 - **Pruebas:** `tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py`
 - **Documentación:** `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md`, `docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md`
 - **Releases:** `releases/SGD-116B-v3.0.0`
-- **Evidencias:** 29 archivo(s) identificado(s).
+- **Evidencias:** 30 archivo(s) identificado(s).
 
 ### SIB-001 — SGODA Installer Builder
 
@@ -225,7 +357,7 @@
 - **Pruebas:** `tests/publisher/test_SPB_007_institutional_publisher.py`
 - **Documentación:** `docs/01_Gobierno/SPB-007-Politica-Publicacion-Repositorio.md`, `docs/05_Fase_Tecnologica/SPB-007/SPB-007-Publicacion-Institucional.md`
 - **Releases:** `releases/SPB-007-v1.0.0`
-- **Evidencias:** 5 archivo(s) identificado(s).
+- **Evidencias:** 6 archivo(s) identificado(s).
 
 ### SPT-001B-P06 — rlb_pipeline
 
@@ -526,4 +658,28 @@
 - **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md`, `docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md`
 - **Releases:** `releases/SPT-015-v1.0.0`
 - **Evidencias:** 12 archivo(s) identificado(s).
+
+### SPT-016 — Motor de Analítica del Aprendizaje
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** learning_analytics_engine
+- **Configuración:** `config/learning_analytics/SPT-016-component.json`
+- **Código:** `src/sgoda/learning_analytics/cli.py`, `src/sgoda/learning_analytics/exporter.py`, `src/sgoda/learning_analytics/metrics.py`, `src/sgoda/learning_analytics/models.py`, `src/sgoda/learning_analytics/recommendations.py`, `src/sgoda/learning_analytics/repository.py`, `src/sgoda/learning_analytics/service.py`, `src/sgoda/learning_analytics/trends.py`
+- **Pruebas:** `tests/learning_analytics/test_SPT_016_learning_analytics_engine.py`
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Eventos-SPA.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md`, `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md`
+- **Releases:** `releases/SPT-016A-v1.0.1`
+- **Evidencias:** 22 archivo(s) identificado(s).
+
+### SPT-016A — Evidence Compatibility Patch
+
+- **Versión:** 1.0.1
+- **Estado:** implemented
+- **Tipo:** institutional_maintenance_patch
+- **Configuración:** `config/learning_analytics/SPT-016A-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md`
+- **Releases:** `releases/SPT-016A-v1.0.1`
+- **Evidencias:** 13 archivo(s) identificado(s).
 

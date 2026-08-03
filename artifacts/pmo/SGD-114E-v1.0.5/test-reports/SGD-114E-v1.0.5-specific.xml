@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="6" skipped="0" tests="32" time="0.388" timestamp="2026-08-02T23:41:44.282772-05:00" hostname="LAPTOP-9I20DTU7"><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_identifies_SPT_007_as_native" time="0.000" /><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_identifies_later_SPT_as_native" time="0.000" /><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_excludes_earlier_SPT" time="0.001" /><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_normalizes_native_metadata" time="0.001" /><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_approves_native_component" time="0.019"><failure message="AttributeError: component_count">self = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': True, 'result': 'APROBADO', 'criteria': {'has_native_components...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}
+name = 'component_count'
+
+    def __getattr__(self, name: str) -&gt; Any:
+        try:
+&gt;           return self[name]
+                   ^^^^^^^^^^
+E           KeyError: 'component_count'
+
+src\sgoda\governance\native_ecosystem_models.py:33: KeyError
+
+The above exception was the direct cause of the following exception:
+
+tmp_path = WindowsPath('C:/Users/Lida Silva Acevedo/AppData/Local/Temp/pytest-of-Lida Silva Acevedo/pytest-291/test_SGD_114E_approves_native_0')
+
+    def test_SGD_114E_approves_native_component(
+        tmp_path: Path,
+    ) -&gt; None:
+        _write_json(
+            tmp_path / "config/x/SPT-012-component.json",
+            {
+                "increment_code": "SPT-012",
+                "version": "1.0.2",
+                "native_ecosystem": True,
+                "ecosystem_role": "native_component",
+                "mandatory_proprietary_dependencies": [],
+            },
+        )
+    
+        result = evaluate_native_ecosystem(tmp_path)
+    
+        assert result.approved is True
+&gt;       assert result.component_count == 1
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+tests\governance\test_SGD_114E_native_ecosystem_architecture_policy.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': True, 'result': 'APROBADO', 'criteria': {'has_native_components...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}
+name = 'component_count'
+
+    def __getattr__(self, name: str) -&gt; Any:
+        try:
+            return self[name]
+        except KeyError as error:
+&gt;           raise AttributeError(name) from error
+E           AttributeError: component_count
+
+src\sgoda\governance\native_ecosystem_models.py:35: AttributeError</failure></testcase><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_blocks_missing_native_declaration" time="0.007"><failure message="AttributeError: findings">self = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}
+name = 'findings'
+
+    def __getattr__(self, name: str) -&gt; Any:
+        try:
+&gt;           return self[name]
+                   ^^^^^^^^^^
+E           KeyError: 'findings'
+
+src\sgoda\governance\native_ecosystem_models.py:33: KeyError
+
+The above exception was the direct cause of the following exception:
+
+tmp_path = WindowsPath('C:/Users/Lida Silva Acevedo/AppData/Local/Temp/pytest-of-Lida Silva Acevedo/pytest-291/test_SGD_114E_blocks_missing_n0')
+
+    def test_SGD_114E_blocks_missing_native_declaration(
+        tmp_path: Path,
+    ) -&gt; None:
+        _write_json(
+            tmp_path / "config/x/SPT-012-component.json",
+            {
+                "increment_code": "SPT-012",
+                "version": "1.0.2",
+            },
+        )
+    
+        result = evaluate_native_ecosystem(tmp_path)
+    
+        assert result.approved is False
+        assert any(
+            item.rule_code == "SGD114E-R002"
+&gt;           for item in result.findings
+                        ^^^^^^^^^^^^^^^
+        )
+
+tests\governance\test_SGD_114E_native_ecosystem_architecture_policy.py:83: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}
+name = 'findings'
+
+    def __getattr__(self, name: str) -&gt; Any:
+        try:
+            return self[name]
+        except KeyError as error:
+&gt;           raise AttributeError(name) from error
+E           AttributeError: findings
+
+src\sgoda\governance\native_ecosystem_models.py:35: AttributeError</failure></testcase><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_blocks_mandatory_proprietary_dependency" time="0.005"><failure message="AttributeError: proprietary_dependency_count">self = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}
+name = 'proprietary_dependency_count'
+
+    def __getattr__(self, name: str) -&gt; Any:
+        try:
+&gt;           return self[name]
+                   ^^^^^^^^^^
+E           KeyError: 'proprietary_dependency_count'
+
+src\sgoda\governance\native_ecosystem_models.py:33: KeyError
+
+The above exception was the direct cause of the following exception:
+
+tmp_path = WindowsPath('C:/Users/Lida Silva Acevedo/AppData/Local/Temp/pytest-of-Lida Silva Acevedo/pytest-291/test_SGD_114E_blocks_mandatory0')
+
+    def test_SGD_114E_blocks_mandatory_proprietary_dependency(
+        tmp_path: Path,
+    ) -&gt; None:
+        _write_json(
+            tmp_path / "config/x/SPT-012-component.json",
+            {
+                "increment_code": "SPT-012",
+                "native_ecosystem": True,
+                "ecosystem_role": "native_component",
+                "mandatory_proprietary_dependencies": [
+                    "PaidVendorOnly"
+                ],
+            },
+        )
+    
+        result = evaluate_native_ecosystem(tmp_path)
+    
+        assert result.approved is False
+&gt;       assert result.proprietary_dependency_count == 1
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\governance\test_SGD_114E_native_ecosystem_architecture_policy.py:105: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}
+name = 'proprietary_dependency_count'
+
+    def __getattr__(self, name: str) -&gt; Any:
+        try:
+            return self[name]
+        except KeyError as error:
+&gt;           raise AttributeError(name) from error
+E           AttributeError: proprietary_dependency_count
+
+src\sgoda\governance\native_ecosystem_models.py:35: AttributeError</failure></testcase><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_blocks_forbidden_terminology" time="0.008" /><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_accepts_native_terminology" time="0.009" /><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_ignores_non_native_components" time="0.007"><failure message="AssertionError: assert False is True&#10; +  where False = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}.approved">tmp_path = WindowsPath('C:/Users/Lida Silva Acevedo/AppData/Local/Temp/pytest-of-Lida Silva Acevedo/pytest-291/test_SGD_114E_ignores_non_nati0')
+
+    def test_SGD_114E_ignores_non_native_components(
+        tmp_path: Path,
+    ) -&gt; None:
+        _write_json(
+            tmp_path / "config/x/SPT-006A-component.json",
+            {
+                "increment_code": "SPT-006A",
+            },
+        )
+    
+        result = evaluate_native_ecosystem(tmp_path)
+    
+&gt;       assert result.approved is True
+E       AssertionError: assert False is True
+E        +  where False = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}.approved
+
+tests\governance\test_SGD_114E_native_ecosystem_architecture_policy.py:167: AssertionError</failure></testcase><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_is_deterministic" time="0.009" /><testcase classname="tests.governance.test_SGD_114E_native_ecosystem_architecture_policy" name="test_SGD_114E_exit_code_is_zero_when_approved" time="0.002"><failure message="AssertionError: assert False is True&#10; +  where False = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}.approved">tmp_path = WindowsPath('C:/Users/Lida Silva Acevedo/AppData/Local/Temp/pytest-of-Lida Silva Acevedo/pytest-291/test_SGD_114E_exit_code_is_zer0')
+
+    def test_SGD_114E_exit_code_is_zero_when_approved(
+        tmp_path: Path,
+    ) -&gt; None:
+        result = evaluate_native_ecosystem(tmp_path)
+    
+&gt;       assert result.approved is True
+E       AssertionError: assert False is True
+E        +  where False = {'policy': 'SGD-114E', 'version': '1.0.5', 'approved': False, 'result': 'NO APROBADO', 'criteria': {'has_native_compon...encies AND no_structural_errors', 'compatibility': {'attribute_access': True, 'mapping_access': True, 'to_dict': True}}.approved
+
+tests\governance\test_SGD_114E_native_ecosystem_architecture_policy.py:195: AssertionError</failure></testcase><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_approves_valid_native_ecosystem" time="0.006" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_rejects_without_native_components" time="0.006" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_rejects_proprietary_dependency" time="0.005" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_rejects_forbidden_term" time="0.008" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_rejects_invalid_json" time="0.004" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_decision_rule_uses_all_criteria" time="0.006" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_counts_native_components" time="0.007" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_returns_version_1_0_3" time="0.006"><failure message="AssertionError: assert '1.0.5' == '1.0.3'&#10;  &#10;  #x1B[0m#x1B[91m- 1.0.3#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?     ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ 1.0.5#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?     ^#x1B[90m#x1B[39;49;00m">tmp_path = WindowsPath('C:/Users/Lida Silva Acevedo/AppData/Local/Temp/pytest-of-Lida Silva Acevedo/pytest-291/test_returns_version_1_0_30')
+
+    def test_returns_version_1_0_3(
+        tmp_path: Path,
+    ) -&gt; None:
+        _write_component(tmp_path)
+    
+        result = evaluate_native_ecosystem(tmp_path)
+    
+&gt;       assert result["version"] == "1.0.3"
+E       AssertionError: assert '1.0.5' == '1.0.3'
+E         
+E         #x1B[0m#x1B[91m- 1.0.3#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?     ^#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ 1.0.5#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?     ^#x1B[90m#x1B[39;49;00m
+
+tests\governance\test_SGD_114E_v1_0_3_approval_logic_fix.py:147: AssertionError</failure></testcase><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_empty_dependency_list_is_valid" time="0.007" /><testcase classname="tests.governance.test_SGD_114E_v1_0_3_approval_logic_fix" name="test_none_dependency_list_is_valid" time="0.006" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_result_supports_attribute_access" time="0.006" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_result_supports_mapping_access" time="0.006" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_result_supports_to_dict" time="0.007" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_result_is_dict_subclass" time="0.006" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_attribute_and_mapping_values_match" time="0.008" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_copy_preserves_result_model" time="0.005" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_missing_attribute_raises_attribute_error" time="0.000" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_set_attribute_updates_mapping" time="0.000" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_to_dict_returns_independent_copy" time="0.000" /><testcase classname="tests.governance.test_SGD_114E_v1_0_5_backward_compatibility_result_model" name="test_version_is_1_0_5" time="0.007" /></testsuite></testsuites>

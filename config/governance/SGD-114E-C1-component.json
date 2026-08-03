@@ -1,24 +1,28 @@
 {
-  "increment_code": "SGD-114E-C1",
-  "canonical_code": "SGD-114E",
-  "name": "Native Ecosystem Validator Fix",
-  "component_type": "institutional_corrective",
-  "version": "1.0.0",
-  "status": "implemented",
-  "phase": "Gobierno Digital",
-  "dependencies": [
-    "SGD-114E-v1.0.2",
-    "SGD-115A",
-    "SGD-116"
-  ],
-  "source": [
-    "src/sgoda/governance/native_ecosystem_policy.py",
-    "src/sgoda/governance/native_ecosystem_validator.py"
-  ],
-  "tests": [
-    "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
-  ],
-  "documentation": [
-    "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md"
-  ]
+    "increment_code":  "SGD-114E-C1",
+    "canonical_code":  "SGD-114E",
+    "name":  "Native Ecosystem Validator Fix",
+    "component_type":  "institutional_corrective",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "phase":  "Gobierno Digital",
+    "dependencies":  [
+                         "SGD-114E-v1.0.2",
+                         "SGD-115A",
+                         "SGD-116"
+                     ],
+    "source":  [
+                   "src/sgoda/governance/native_ecosystem_policy.py",
+                   "src/sgoda/governance/native_ecosystem_validator.py"
+               ],
+    "tests":  [
+                  "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+              ],
+    "documentation":  [
+                          "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md"
+                      ],
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ]
 }

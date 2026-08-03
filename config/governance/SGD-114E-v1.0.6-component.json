@@ -1,0 +1,28 @@
+{
+  "increment_code": "SGD-114E-v1.0.6",
+  "name": "Definitive Contract Restoration",
+  "component_type": "governance_contract_closure",
+  "version": "1.0.6",
+  "contract_version": "1.0.3",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SGD-114E-v1.0.3",
+    "SGD-114E-v1.0.4",
+    "SGD-114E-v1.0.5",
+    "SGD-114F",
+    "SGD-115A",
+    "SGD-116",
+    "SPB-007"
+  ],
+  "compatibility_contract": [
+    "result.approved",
+    "result.component_count",
+    "result.findings",
+    "result.proprietary_dependency_count",
+    "result[approved]",
+    "result.to_dict()"
+  ]
+}

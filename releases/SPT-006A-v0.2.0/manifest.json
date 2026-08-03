@@ -1,0 +1,18 @@
+{
+  "increment_code": "SPT-006A",
+  "version": "0.2.0",
+  "release_name": "SPT-006A-v0.2.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+    "SPT-006A-Operacion-Offline.md",
+    "SPT-006A-Politica-Modelos-Licencias.md",
+    "SPT-006A-approved-free-models.json",
+    "SPT-006A-component.json",
+    "SPT-006A-free-local-policy.json",
+    "SPT-006A-locales.json",
+    "diagnostic.json"
+  ]
+}

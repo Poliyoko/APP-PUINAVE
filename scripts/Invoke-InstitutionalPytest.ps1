@@ -4,7 +4,7 @@ param(
     [string]$Component,
 
     [Parameter(Mandatory = $true)]
-    [string]$TestPath,
+    [string[]]$TestPath,
 
     [Parameter(Mandatory = $true)]
     [string]$ReportPath,
@@ -29,21 +29,39 @@ $Root = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $Root
 $env:PYTHONPATH = Join-Path $Root "src"
 
+if (@($TestPath).Count -eq 0) {
+    throw "Debe proporcionar al menos una ruta de prueba."
+}
+
+foreach ($Path in $TestPath) {
+    if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) {
+        throw "No existe la ruta de prueba: $Path"
+    }
+}
+
 $ReportParent = Split-Path -Parent $ReportPath
 if ($ReportParent) {
     New-Item -ItemType Directory -Path $ReportParent -Force | Out-Null
 }
 
-& python -m pytest `
-    "$TestPath" `
-    --junitxml="$ReportPath" `
-    -q
+$PytestArguments = @(
+    "-m",
+    "pytest"
+)
+
+$PytestArguments += @($TestPath)
+$PytestArguments += @(
+    "--junitxml=$ReportPath",
+    "-q"
+)
+
+& python @PytestArguments
 
 if ($LASTEXITCODE -ne 0) {
     throw "pytest terminó con errores. Código: $LASTEXITCODE"
 }
 
-$Arguments = @(
+$SummaryArguments = @(
     "-m",
     "sgoda.governance.test_evidence.cli",
     "--junit",
@@ -61,12 +79,12 @@ $Arguments = @(
 )
 
 if ($EvidencePath) {
-    $Arguments += @(
+    $SummaryArguments += @(
         "--evidence",
         $EvidencePath
     )
 }
 
-& python @Arguments
+& python @SummaryArguments
 
 exit $LASTEXITCODE

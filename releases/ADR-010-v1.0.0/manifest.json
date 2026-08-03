@@ -1,0 +1,17 @@
+{
+  "increment_code": "ADR-010",
+  "version": "1.0.0",
+  "release_name": "ADR-010-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "rmr-baseline-manifest.json",
+    "rmr-initialized-event.json",
+    "rmr-migration-result.json",
+    "rmr-resources.jsonl",
+    "rmr-statistics.json",
+    "rmr-validation.json",
+    "rmr.sqlite3"
+  ]
+}

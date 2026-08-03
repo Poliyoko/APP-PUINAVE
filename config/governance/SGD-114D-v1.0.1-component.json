@@ -21,5 +21,9 @@
                       ],
     "canonical_code":  "SGD-114D",
     "record_role":  "active_version",
-    "supersedes":  "SGD-114D-v1.0.0"
+    "supersedes":  "SGD-114D-v1.0.0",
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ]
 }

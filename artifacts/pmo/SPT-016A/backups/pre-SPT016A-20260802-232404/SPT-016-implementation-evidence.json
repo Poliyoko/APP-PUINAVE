@@ -1,0 +1,28 @@
+{
+  "specific_tests": {
+    "executed": 22,
+    "passed": 22,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 0.087,
+    "approved": true,
+    "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-016\\test-reports\\SPT-016-specific.xml"
+  },
+  "specific_tests_count": 22,
+  "specific_tests_passed": 22,
+  "specific_tests_synchronized": true,
+  "full_suite": {
+    "executed": 495,
+    "passed": 495,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 28.479,
+    "approved": true,
+    "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-016\\test-reports\\SPT-016-full-suite.xml"
+  },
+  "full_suite_count": 495,
+  "full_suite_passed": 495,
+  "full_suite_synchronized": true
+}

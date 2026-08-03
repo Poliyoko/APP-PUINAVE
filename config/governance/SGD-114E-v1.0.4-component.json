@@ -1,0 +1,22 @@
+{
+  "increment_code": "SGD-114E-v1.0.4",
+  "name": "Multi-Test-Path Invocation Fix",
+  "component_type": "governance_execution_patch",
+  "version": "1.0.4",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SGD-114E-v1.0.3",
+    "SGD-114F",
+    "SGD-115A",
+    "SGD-116",
+    "SPB-007"
+  ],
+  "scope": [
+    "multiple pytest path invocation",
+    "reusable institutional runner",
+    "SPT-016A revalidation"
+  ]
+}

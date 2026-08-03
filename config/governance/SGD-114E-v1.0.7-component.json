@@ -1,0 +1,12 @@
+{
+  "increment_code": "SGD-114E-v1.0.7",
+  "name": "Definitive Prevalidated Contract Closure",
+  "version": "1.0.7",
+  "contract_mapping_version": "1.0.3",
+  "contract_attribute_version": "1.0.5",
+  "status": "implemented",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "historical_tests_modified": false,
+  "transitional_test_v1_0_6_corrected": true
+}

@@ -1,21 +1,25 @@
 {
-  "increment_code": "SGD-115",
-  "name": "Sistema Maestro de Documentación del Proyecto",
-  "component_type": "master_documentation_system",
-  "version": "1.0.0",
-  "status": "technically_completed",
-  "entrypoint": "sgoda.documentation.master_docs",
-  "source": [
-    "src/sgoda/documentation/master_docs.py"
-  ],
-  "tests": [
-    "tests/documentation/test_SGD_115_master_documentation.py"
-  ],
-  "documentation": [
-    "docs/00_INDICE_MAESTRO.md",
-    "docs/00_ARQUITECTURA_MAESTRA.md",
-    "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
-    "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md"
-  ],
-  "governed_by": "SGD-114-v2.0.1"
+    "increment_code":  "SGD-115",
+    "name":  "Sistema Maestro de Documentación del Proyecto",
+    "component_type":  "master_documentation_system",
+    "version":  "1.0.0",
+    "status":  "technically_completed",
+    "entrypoint":  "sgoda.documentation.master_docs",
+    "source":  [
+                   "src/sgoda/documentation/master_docs.py"
+               ],
+    "tests":  [
+                  "tests/documentation/test_SGD_115_master_documentation.py"
+              ],
+    "documentation":  [
+                          "docs/00_INDICE_MAESTRO.md",
+                          "docs/00_ARQUITECTURA_MAESTRA.md",
+                          "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+                          "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md"
+                      ],
+    "governed_by":  "SGD-114-v2.0.1",
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ]
 }

@@ -1,0 +1,41 @@
+{
+  "increment_code": "SPT-016",
+  "name": "Motor de Analítica del Aprendizaje",
+  "component_type": "learning_analytics_engine",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica IV",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SPT-013A",
+    "SPT-013B",
+    "SPT-014",
+    "SPT-015",
+    "SPT-008",
+    "SPT-012",
+    "SGD-114F",
+    "SGD-114D",
+    "SGD-114E",
+    "SGD-115A",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/learning_analytics/models.py",
+    "src/sgoda/learning_analytics/repository.py",
+    "src/sgoda/learning_analytics/metrics.py",
+    "src/sgoda/learning_analytics/trends.py",
+    "src/sgoda/learning_analytics/recommendations.py",
+    "src/sgoda/learning_analytics/exporter.py",
+    "src/sgoda/learning_analytics/service.py",
+    "src/sgoda/learning_analytics/cli.py"
+  ],
+  "tests": [
+    "tests/learning_analytics/test_SPT_016_learning_analytics_engine.py"
+  ],
+  "documentation": [
+    "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Eventos-SPA.md"
+  ]
+}

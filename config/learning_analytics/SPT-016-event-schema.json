@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SPT-016 Learning Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "learner_id",
+    "event_type"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^EVT-"
+    },
+    "learner_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "score": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

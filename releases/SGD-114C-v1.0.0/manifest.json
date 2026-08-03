@@ -1,0 +1,26 @@
+{
+  "increment_code": "SGD-114C",
+  "version": "1.0.0",
+  "release_name": "SGD-114C-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "Invoke-SGD114C-PolicyGovernance.ps1",
+    "SGD-114C-Migracion-SGD-114.md",
+    "SGD-114C-Policy-Governance-Core.md",
+    "SGD-114C-component.json",
+    "SGD-114C-implementation-evidence.json",
+    "SGD-114C-policy.json",
+    "SGD-116B-policy-result.json",
+    "SGD-116B-policy-result.md",
+    "policy_cli.py",
+    "policy_context.py",
+    "policy_engine.py",
+    "policy_models.py",
+    "policy_registry.py",
+    "policy_report.py",
+    "policy_rules.py",
+    "test_SGD_114C_policy_governance_core.py"
+  ]
+}

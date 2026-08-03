@@ -1,0 +1,17 @@
+{
+  "increment_code": "SPB-007",
+  "version": "1.0.0",
+  "release_name": "SPB-007-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPB-007-Politica-Publicacion-Repositorio.md",
+    "SPB-007-Publicacion-Institucional.md",
+    "SPB-007-component.json",
+    "SPB-007-publication-policy.json",
+    "implementation-evidence.json",
+    "prepublication-audit.json",
+    "traceability-SPB-007.json"
+  ]
+}

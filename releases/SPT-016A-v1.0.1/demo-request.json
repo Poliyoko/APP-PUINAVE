@@ -1,0 +1,38 @@
+{
+    "events":  [
+                   {
+                       "event_id":  "EVT-001",
+                       "learner_id":  "LEARNER-001",
+                       "event_type":  "resource_viewed",
+                       "entry_id":  "LEX-001",
+                       "competency":  "vocabulary",
+                       "duration_seconds":  45,
+                       "resource_id":  "MED-001",
+                       "timestamp":  "2026-08-02T22:00:00-05:00"
+                   },
+                   {
+                       "event_id":  "EVT-002",
+                       "learner_id":  "LEARNER-001",
+                       "event_type":  "assessment_completed",
+                       "entry_id":  "LEX-001",
+                       "competency":  "vocabulary",
+                       "score":  0.5,
+                       "duration_seconds":  20,
+                       "timestamp":  "2026-08-02T22:05:00-05:00"
+                   },
+                   {
+                       "event_id":  "EVT-003",
+                       "learner_id":  "LEARNER-001",
+                       "event_type":  "assessment_completed",
+                       "entry_id":  "LEX-001",
+                       "competency":  "vocabulary",
+                       "score":  1,
+                       "duration_seconds":  15,
+                       "timestamp":  "2026-08-02T22:10:00-05:00"
+                   }
+               ],
+    "operation":  "learner_dashboard",
+    "payload":  {
+                    "learner_id":  "LEARNER-001"
+                }
+}

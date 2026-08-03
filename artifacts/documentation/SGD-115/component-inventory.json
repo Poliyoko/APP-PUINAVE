@@ -82,7 +82,8 @@
       "artifacts/pmo/SGD-114-v2/repository-audit.json",
       "artifacts/pmo/SGD-114-v2/repository-governance-event.json",
       "artifacts/pmo/SGD-114-v2/repository-manifest.json",
-      "artifacts/pmo/SGD-114-v2/traceability-SGD-114-v2.json"
+      "artifacts/pmo/SGD-114-v2/traceability-SGD-114-v2.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114-v2-component.json"
     ]
   },
   {
@@ -115,7 +116,8 @@
     "evidence_paths": [
       "artifacts/pmo/SGD-114C/SGD-114C-implementation-evidence.json",
       "artifacts/pmo/SGD-114C/SGD-116B-policy-result.json",
-      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.md"
+      "artifacts/pmo/SGD-114C/SGD-116B-policy-result.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114C-component.json"
     ]
   },
   {
@@ -150,6 +152,8 @@
       "artifacts/pmo/SGD-114D/SPT-011A-v1.0.1-adaptive-policy-result.json",
       "artifacts/pmo/SGD-114D/SPT-011A-v1.0.1-adaptive-policy-result.md",
       "artifacts/pmo/SGD-114D/backups/pre-SGD114D-v1.0.1-20260802-171505/src__sgoda__governance__adaptive_policy_resolver.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-v1.0.1-component.json",
       "artifacts/pmo/SGD-115A/backups/pre-SGD115A-20260802-172533/config__governance__SGD-114D-v1.0.1-component.json"
     ]
   },
@@ -171,6 +175,7 @@
     ],
     "release_paths": [],
     "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-v1.0.1-component.json",
       "artifacts/pmo/SGD-115A/backups/pre-SGD115A-20260802-172533/config__governance__SGD-114D-v1.0.1-component.json"
     ]
   },
@@ -194,12 +199,31 @@
     "documentation_paths": [
       "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md",
       "docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md",
-      "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md"
+      "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "docs/01_Gobierno/SGD-114E-v1.0.3-Native-Ecosystem-Approval-Logic-Fix.md",
+      "docs/01_Gobierno/SGD-114E-v1.0.4-Multi-Test-Path-Invocation-Fix.md",
+      "docs/01_Gobierno/SGD-114E-v1.0.5-Backward-Compatibility-Result-Model.md",
+      "docs/01_Gobierno/SGD-114E-v1.0.6-Definitive-Contract-Restoration.md",
+      "docs/01_Gobierno/SGD-114E-v1.0.7-Definitive-Prevalidated-Contract-Closure.md",
+      "docs/01_Gobierno/SGD-114E-v2.0.0-Definitive-Native-Ecosystem-Validator.md",
+      "docs/01_Gobierno/SGD-114E-v2.0.0-R1-Canonical-Contract-Closure.md",
+      "docs/01_Gobierno/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md"
     ],
     "release_paths": [
-      "releases/SGD-114E-C1-v1.0.0"
+      "releases/SGD-114E-C1-v1.0.0",
+      "releases/SGD-114E-v1.0.3",
+      "releases/SGD-114E-v1.0.4",
+      "releases/SGD-114E-v1.0.5",
+      "releases/SGD-114E-v1.0.6",
+      "releases/SGD-114E-v1.0.7",
+      "releases/SGD-114E-v2.0.0",
+      "releases/SGD-114E-v2.0.0-R1",
+      "releases/SGD-114E-v2.0.0-R2.1",
+      "releases/SGD-114E-v2.0.0-R2.2"
     ],
     "evidence_paths": [
+      "artifacts/governance/SGD-114E/legacy-tests/SGD-114E-v1.0.7-test-retirement.json",
+      "artifacts/governance/SGD-114E/legacy-tests/test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
       "artifacts/pmo/SGD-114E-C1/SGD-114E-C1-repository-evaluation.json",
       "artifacts/pmo/SGD-114E-C1/SGD-114E-C1-repository-evaluation.md",
       "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184601/src__sgoda__governance__native_ecosystem_policy.py",
@@ -210,6 +234,86 @@
       "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_validator.py",
       "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.json",
       "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v1.0.3/backups/pre-SGD114E-v1.0.3-20260802-233040/src__sgoda__governance__native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.3/backups/pre-SGD114E-v1.0.3-20260802-233040/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.3/test-reports/SGD-114E-v1.0.3-specific.xml",
+      "artifacts/pmo/SGD-114E-v1.0.4/backups/pre-SGD114E-v1.0.4-20260802-233421/Invoke-InstitutionalPytest.ps1",
+      "artifacts/pmo/SGD-114E-v1.0.4/test-reports/SGD-114E-v1.0.4-specific.xml",
+      "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.5/test-reports/SGD-114E-v1.0.5-specific.xml",
+      "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.6/test-reports/SGD-114E-v1.0.6-specific.xml",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/test_SGD_114E_v1_0_6_definitive_contract_restoration.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/test-reports/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__documentation__SGD-115A-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114-policy-auditor-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114-v2-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114C-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-v1.0.1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114E-C1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114E-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-115-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__repository__SPB-007-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116B-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/component-normalization.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/component-normalization.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/manifest.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/test_SGD_114E_v2_0_0_R2_self_validation_closure.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/test_SGD_114E_v1_0_6_definitive_contract_restoration.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/specific.xml",
       "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181535/Install-SPT012-v1.0.0-SGODA-Learning-Platform.ps1",
       "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/Install-SPT012-v1.0.0-SGODA-Learning-Platform.ps1",
       "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/config__governance__SGD-114E-component.json",
@@ -255,7 +359,292 @@
       "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_policy.py",
       "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_validator.py",
       "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.json",
-      "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.md"
+      "artifacts/pmo/SGD-114E-C1/evidence/SGD-114E-C1-implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114E-C1-component.json"
+    ]
+  },
+  {
+    "code": "SGD-114E-v1.0.3",
+    "name": "Native Ecosystem Approval Logic Fix",
+    "version": "1.0.3",
+    "status": "implemented",
+    "component_type": "governance_logic_patch",
+    "config_path": "config/governance/SGD-114E-v1.0.3-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v1.0.3-Native-Ecosystem-Approval-Logic-Fix.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v1.0.3"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v1.0.3/backups/pre-SGD114E-v1.0.3-20260802-233040/src__sgoda__governance__native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.3/backups/pre-SGD114E-v1.0.3-20260802-233040/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.3/test-reports/SGD-114E-v1.0.3-specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114E-v1.0.4",
+    "name": "Multi-Test-Path Invocation Fix",
+    "version": "1.0.4",
+    "status": "implemented",
+    "component_type": "governance_execution_patch",
+    "config_path": "config/governance/SGD-114E-v1.0.4-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v1.0.4-Multi-Test-Path-Invocation-Fix.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v1.0.4"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v1.0.4/backups/pre-SGD114E-v1.0.4-20260802-233421/Invoke-InstitutionalPytest.ps1",
+      "artifacts/pmo/SGD-114E-v1.0.4/test-reports/SGD-114E-v1.0.4-specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114E-v1.0.5",
+    "name": "Backward Compatibility Result Model",
+    "version": "1.0.5",
+    "status": "implemented",
+    "component_type": "governance_compatibility_patch",
+    "config_path": "config/governance/SGD-114E-v1.0.5-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v1.0.5-Backward-Compatibility-Result-Model.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v1.0.5"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.5/test-reports/SGD-114E-v1.0.5-specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114E-v1.0.6",
+    "name": "Definitive Contract Restoration",
+    "version": "1.0.6",
+    "status": "implemented",
+    "component_type": "governance_contract_closure",
+    "config_path": "config/governance/SGD-114E-v1.0.6-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v1.0.6-Definitive-Contract-Restoration.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v1.0.6"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.6/test-reports/SGD-114E-v1.0.6-specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114E-v1.0.7",
+    "name": "Definitive Prevalidated Contract Closure",
+    "version": "1.0.7",
+    "status": "implemented",
+    "component_type": "no declarado",
+    "config_path": "config/governance/SGD-114E-v1.0.7-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v1.0.7-Definitive-Prevalidated-Contract-Closure.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v1.0.7"
+    ],
+    "evidence_paths": [
+      "artifacts/governance/SGD-114E/legacy-tests/SGD-114E-v1.0.7-test-retirement.json",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/test_SGD_114E_v1_0_6_definitive_contract_restoration.py",
+      "artifacts/pmo/SGD-114E-v1.0.7/test-reports/specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114E-v2.0.0",
+    "name": "Definitive Native Ecosystem Validator",
+    "version": "2.0.0",
+    "status": "implemented",
+    "component_type": "no declarado",
+    "config_path": "config/governance/SGD-114E-v2.0.0-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v2.0.0-Definitive-Native-Ecosystem-Validator.md",
+      "docs/01_Gobierno/SGD-114E-v2.0.0-R1-Canonical-Contract-Closure.md",
+      "docs/01_Gobierno/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v2.0.0",
+      "releases/SGD-114E-v2.0.0-R1",
+      "releases/SGD-114E-v2.0.0-R2.1",
+      "releases/SGD-114E-v2.0.0-R2.2"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__documentation__SGD-115A-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114-policy-auditor-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114-v2-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114C-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-v1.0.1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114E-C1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114E-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-115-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__repository__SPB-007-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116B-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/component-normalization.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/component-normalization.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/manifest.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/test_SGD_114E_v2_0_0_R2_self_validation_closure.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/test_SGD_114E_v1_0_6_definitive_contract_restoration.py",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0/test-reports/specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114E-v2.0.0-R1",
+    "name": "Canonical Contract Closure",
+    "version": "2.0.0-R1",
+    "status": "implemented",
+    "component_type": "no declarado",
+    "config_path": "config/governance/SGD-114E-v2.0.0-R1-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v2.0.0-R1-Canonical-Contract-Closure.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v2.0.0-R1"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R1/test-reports/specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114E-v2.0.0-R2.1",
+    "name": "Self Validation Closure",
+    "version": "2.0.0-R2.1",
+    "status": "implemented",
+    "component_type": "no declarado",
+    "config_path": "config/governance/SGD-114E-v2.0.0-R2.1-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114E-v2.0.0-R2.1"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__documentation__SGD-115A-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114-policy-auditor-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114-v2-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114C-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114D-v1.0.1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114E-C1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-114E-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-115-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__repository__SPB-007-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116B-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/src__sgoda__governance__native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/component-normalization.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/test-reports/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/component-normalization.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/full-suite.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/implementation-evidence.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/implementation-evidence.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/manifest.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_cli.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_models.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_validator.py",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/self-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/self-validation.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific-summary.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific-summary.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/specific.xml",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/test_SGD_114E_v2_0_0_R2_self_validation_closure.py"
     ]
   },
   {
@@ -313,6 +702,57 @@
     ]
   },
   {
+    "code": "SGD-114G-v1.0.0",
+    "name": "Institutional Release Management Service",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "no declarado",
+    "config_path": "config/governance/SGD-114G-v1.0.0-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114G-v1.0.0-Institutional-Release-Management-Service.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114G-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114G-v1.0.0/release-discovery.json",
+      "artifacts/pmo/SGD-114G-v1.0.0/release-normalization.json",
+      "artifacts/pmo/SGD-114G-v1.0.0/release-validation.json",
+      "artifacts/pmo/SGD-114G-v1.0.0/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114G-v1.0.0/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114G-v1.0.0/test-reports/specific.xml"
+    ]
+  },
+  {
+    "code": "SGD-114G-v1.0.1",
+    "name": "Legacy Manifest Migration and Canonical Closure",
+    "version": "1.0.1",
+    "status": "implemented",
+    "component_type": "no declarado",
+    "config_path": "config/governance/SGD-114G-v1.0.1-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114G-v1.0.1-Legacy-Manifest-Migration.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114G-v1.0.1"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114G-v1.0.1/implementation-evidence.json",
+      "artifacts/pmo/SGD-114G-v1.0.1/implementation-evidence.md",
+      "artifacts/pmo/SGD-114G-v1.0.1/release-closure.json",
+      "artifacts/pmo/SGD-114G-v1.0.1/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SGD-114G-v1.0.1/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SGD-114G-v1.0.1/test-reports/full-suite.xml",
+      "artifacts/pmo/SGD-114G-v1.0.1/test-reports/specific-summary.json",
+      "artifacts/pmo/SGD-114G-v1.0.1/test-reports/specific-summary.md",
+      "artifacts/pmo/SGD-114G-v1.0.1/test-reports/specific.xml"
+    ]
+  },
+  {
     "code": "SGD-115",
     "name": "Sistema Maestro de Documentación del Proyecto",
     "version": "1.0.0",
@@ -339,6 +779,8 @@
       "artifacts/documentation/SGD-115/component-inventory.json",
       "artifacts/documentation/SGD-115/master-documentation-updated-event.json",
       "artifacts/documentation/SGD-115/master-documentation-validation.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__documentation__SGD-115A-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__governance__SGD-115-component.json",
       "artifacts/pmo/SGD-115/SGD-115-v1.0.1-corrective-evidence.json",
       "artifacts/pmo/SGD-115/implementation-evidence.json",
       "artifacts/pmo/SGD-115/traceability-SGD-115.json",
@@ -367,6 +809,7 @@
       "releases/SGD-115A-v1.0.0"
     ],
     "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__documentation__SGD-115A-component.json",
       "artifacts/pmo/SGD-115A/SGD-115A-implementation-evidence.json",
       "artifacts/pmo/SGD-115A/backups/pre-SGD115A-20260802-172533/artifacts__documentation__SGD-115__master-documentation-validation.json",
       "artifacts/pmo/SGD-115A/backups/pre-SGD115A-20260802-172533/config__governance__SGD-114D-v1.0.1-component.json"
@@ -409,6 +852,8 @@
       "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-quality-gate.json",
       "artifacts/pmo/SGD-114C/SGD-116B-policy-result.json",
       "artifacts/pmo/SGD-114C/SGD-116B-policy-result.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116-component.json",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116B-component.json",
       "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/dependency_graph.py",
       "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/discovery.py",
       "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/test_SGD_116_master_ecosystem_roadmap.py",
@@ -483,6 +928,7 @@
       "artifacts/pmo/SGD-114-Policy-Auditor/SGD-116B-quality-gate.json",
       "artifacts/pmo/SGD-114C/SGD-116B-policy-result.json",
       "artifacts/pmo/SGD-114C/SGD-116B-policy-result.md",
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__roadmap__SGD-116B-component.json",
       "artifacts/pmo/SGD-116B/SGD-116B-implementation-evidence.json",
       "artifacts/pmo/SGD-116B/SGD-116B-traceability.json",
       "artifacts/pmo/SGD-116B/SGD-116B-v3.0.0-definitive-closure.json",
@@ -565,6 +1011,7 @@
       "releases/SPB-007-v1.0.0"
     ],
     "evidence_paths": [
+      "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/config__repository__SPB-007-component.json",
       "artifacts/pmo/SPB-007/SPB-007-quality-gate.json",
       "artifacts/pmo/SPB-007/implementation-evidence.json",
       "artifacts/pmo/SPB-007/prepublication-audit.json",
@@ -1580,6 +2027,91 @@
       "artifacts/pmo/SPT-015/SPT-015-native-result.md",
       "artifacts/pmo/SPT-015/SPT-015-policy-result.json",
       "artifacts/pmo/SPT-015/SPT-015-policy-result.md"
+    ]
+  },
+  {
+    "code": "SPT-016",
+    "name": "Motor de Analítica del Aprendizaje",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "learning_analytics_engine",
+    "config_path": "config/learning_analytics/SPT-016-component.json",
+    "source_paths": [
+      "src/sgoda/learning_analytics/cli.py",
+      "src/sgoda/learning_analytics/exporter.py",
+      "src/sgoda/learning_analytics/metrics.py",
+      "src/sgoda/learning_analytics/models.py",
+      "src/sgoda/learning_analytics/recommendations.py",
+      "src/sgoda/learning_analytics/repository.py",
+      "src/sgoda/learning_analytics/service.py",
+      "src/sgoda/learning_analytics/trends.py"
+    ],
+    "test_paths": [
+      "tests/learning_analytics/test_SPT_016_learning_analytics_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Eventos-SPA.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md"
+    ],
+    "release_paths": [
+      "releases/SPT-016A-v1.0.1"
+    ],
+    "evidence_paths": [
+      "artifacts/learning_analytics/SPT-016/demo-output.json",
+      "artifacts/learning_analytics/SPT-016/demo-request.json",
+      "artifacts/pmo/SPT-016/SPT-016-implementation-evidence.json",
+      "artifacts/pmo/SPT-016/test-reports/SPT-016-full-suite-summary.json",
+      "artifacts/pmo/SPT-016/test-reports/SPT-016-full-suite-summary.md",
+      "artifacts/pmo/SPT-016/test-reports/SPT-016-full-suite.xml",
+      "artifacts/pmo/SPT-016/test-reports/SPT-016-specific-summary.json",
+      "artifacts/pmo/SPT-016/test-reports/SPT-016-specific-summary.md",
+      "artifacts/pmo/SPT-016/test-reports/SPT-016-specific.xml",
+      "artifacts/pmo/SPT-016A/SPT-016A-implementation-evidence.json",
+      "artifacts/pmo/SPT-016A/SPT-016A-implementation-evidence.md",
+      "artifacts/pmo/SPT-016A/SPT-016A-native-result.json",
+      "artifacts/pmo/SPT-016A/SPT-016A-native-result.md",
+      "artifacts/pmo/SPT-016A/SPT-016A-policy-result.json",
+      "artifacts/pmo/SPT-016A/SPT-016A-policy-result.md",
+      "artifacts/pmo/SPT-016A/backups/pre-SPT016A-20260802-232404/SPT-016-implementation-evidence.json",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-full-suite-summary.json",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-full-suite-summary.md",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-full-suite.xml",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-specific-summary.json",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-specific-summary.md",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-specific.xml"
+    ]
+  },
+  {
+    "code": "SPT-016A",
+    "name": "Evidence Compatibility Patch",
+    "version": "1.0.1",
+    "status": "implemented",
+    "component_type": "institutional_maintenance_patch",
+    "config_path": "config/learning_analytics/SPT-016A-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016A-Evidence-Compatibility-Patch.md"
+    ],
+    "release_paths": [
+      "releases/SPT-016A-v1.0.1"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-016A/SPT-016A-implementation-evidence.json",
+      "artifacts/pmo/SPT-016A/SPT-016A-implementation-evidence.md",
+      "artifacts/pmo/SPT-016A/SPT-016A-native-result.json",
+      "artifacts/pmo/SPT-016A/SPT-016A-native-result.md",
+      "artifacts/pmo/SPT-016A/SPT-016A-policy-result.json",
+      "artifacts/pmo/SPT-016A/SPT-016A-policy-result.md",
+      "artifacts/pmo/SPT-016A/backups/pre-SPT016A-20260802-232404/SPT-016-implementation-evidence.json",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-full-suite-summary.json",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-full-suite-summary.md",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-full-suite.xml",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-specific-summary.json",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-specific-summary.md",
+      "artifacts/pmo/SPT-016A/test-reports/SPT-016-specific.xml"
     ]
   }
 ]

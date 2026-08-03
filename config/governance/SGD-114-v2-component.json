@@ -1,15 +1,19 @@
 {
-  "increment_code": "SGD-114-v2",
-  "parent_policy": "SGD-114",
-  "component_type": "institutional_repository_governance",
-  "version": "2.0.0",
-  "status": "institutionally_closed",
-  "entrypoint": "sgoda.governance.repository_governance",
-  "source": [
-    "src/sgoda/governance/repository_governance.py"
-  ],
-  "tests": [
-    "tests/governance/test_SGD_114_v2_repository_governance.py"
-  ],
-  "governed_by": "SGD-114-v1.1"
+    "increment_code":  "SGD-114-v2",
+    "parent_policy":  "SGD-114",
+    "component_type":  "institutional_repository_governance",
+    "version":  "2.0.0",
+    "status":  "institutionally_closed",
+    "entrypoint":  "sgoda.governance.repository_governance",
+    "source":  [
+                   "src/sgoda/governance/repository_governance.py"
+               ],
+    "tests":  [
+                  "tests/governance/test_SGD_114_v2_repository_governance.py"
+              ],
+    "governed_by":  "SGD-114-v1.1",
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ]
 }

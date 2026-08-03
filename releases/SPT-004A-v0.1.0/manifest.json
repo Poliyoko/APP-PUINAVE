@@ -1,0 +1,18 @@
+{
+  "increment_code": "SPT-004A",
+  "version": "0.1.0",
+  "release_name": "SPT-004A-v0.1.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-004A-Fundacion-Asistente-Institucional.md",
+    "SPT-004A-Identidad-Cultural-Pendiente.md",
+    "SPT-004A-Seguridad-Linguistica-Cultural.md",
+    "SPT-004A-assistant-policy.json",
+    "SPT-004A-component.json",
+    "SPT-004A-faq.json",
+    "SPT-004A-identity.json",
+    "demo-response.json"
+  ]
+}

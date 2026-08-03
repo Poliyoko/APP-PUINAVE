@@ -1,0 +1,22 @@
+{
+  "increment_code": "SGD-116B",
+  "version": "3.0.0",
+  "release_name": "SGD-116B-v3.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SGD-116B-v3.0.0-definitive-closure.json",
+    "dependency-graph.json",
+    "dependency_graph.py",
+    "discovery.py",
+    "executive-summary.json",
+    "metrics.json",
+    "models.py",
+    "roadmap.json",
+    "test_SGD_116B_institutional_roadmap_closure.py",
+    "test_SGD_116_master_ecosystem_roadmap.py",
+    "timeline.json",
+    "validation.json"
+  ]
+}

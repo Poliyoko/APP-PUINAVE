@@ -1,0 +1,23 @@
+{
+    "increment_code":  "SGD-114G",
+    "version":  "1.0.1",
+    "release_name":  "SGD-114G-v1.0.1",
+    "status":  "implemented_tested_and_approved",
+    "files":  [
+                  "cli.py",
+                  "full-suite-summary.json",
+                  "full-suite-summary.md",
+                  "full-suite.xml",
+                  "implementation-evidence.json",
+                  "implementation-evidence.md",
+                  "manifest.json",
+                  "release-closure.json",
+                  "service.py",
+                  "SGD-114G-v1.0.1-component.json",
+                  "SGD-114G-v1.0.1-Legacy-Manifest-Migration.md",
+                  "specific-summary.json",
+                  "specific-summary.md",
+                  "specific.xml",
+                  "test_SGD_114G_v1_0_1_manifest_migration.py"
+              ]
+}

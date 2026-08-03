@@ -1,0 +1,10 @@
+{
+    "test_id":  "SGD-114E-v1.0.7",
+    "original_path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\tests\\governance\\test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
+    "archived_path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\governance\\SGD-114E\\legacy-tests\\test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
+    "sha256":  "1F84380A7A1035C1131F0F60CDCE99568F044EB08699B3BD1ADDE764D2C916FB",
+    "retired_from_active_suite":  true,
+    "retirement_reason":  "La prueba transitoria exigía implementation_version 1.0.7 dentro de la implementación canónica 2.0.0.",
+    "historical_evidence_preserved":  true,
+    "retired_at_utc":  "2026-08-03T05:08:48.8605874Z"
+}

@@ -1,0 +1,18 @@
+{
+  "increment_code": "SGD-114-Policy-Auditor",
+  "version": "1.0.0",
+  "release_name": "SGD-114-Policy-Auditor-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "Invoke-SGD114-PolicyAuditor.ps1",
+    "SGD-114-Policy-Auditor.md",
+    "SGD-114-policy-auditor-component.json",
+    "SGD-116B-policy-audit.json",
+    "SGD-116B-policy-audit.md",
+    "SGD-116B-quality-gate.json",
+    "policy_auditor.py",
+    "test_SGD_114_policy_auditor.py"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "increment_code": "SPT-010",
+  "version": "1.0.1",
+  "release_name": "SPT-010-v1.0.1",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-010-Solucion-Errores-Demostracion-Integrada.md",
+    "SPT-010-v1.0.1-correction-evidence.json",
+    "SPT-010-v1.0.1-policy-result.json",
+    "SPT-010-v1.0.1-policy-result.md",
+    "cli.py",
+    "demo-platform-payload.json",
+    "demo-platform-result-v1.0.1.json",
+    "test_SPT_010_payload_compatibility.py"
+  ]
+}

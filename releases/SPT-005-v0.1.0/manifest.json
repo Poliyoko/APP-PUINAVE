@@ -1,0 +1,19 @@
+{
+  "increment_code": "SPT-005",
+  "version": "0.1.0",
+  "release_name": "SPT-005-v0.1.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-005-Guia-Cambio-Nombre-Visible.md",
+    "SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+    "SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+    "SPT-005-component.json",
+    "SPT-005-identity-baseline.json",
+    "SPT-005-identity-policy.json",
+    "api-identity.json",
+    "flutter-identity.json",
+    "web-identity.json"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "increment_code": "SPT-016A",
+  "name": "Evidence Compatibility Patch",
+  "component_type": "institutional_maintenance_patch",
+  "version": "1.0.1",
+  "status": "implemented",
+  "phase": "Fase Tecnológica IV",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SPT-016",
+    "SGD-114F",
+    "SGD-114D",
+    "SGD-114E",
+    "SGD-115A",
+    "SGD-116",
+    "SPB-007"
+  ],
+  "scope": [
+    "evidence reconstruction",
+    "JUnit synchronization",
+    "release regeneration",
+    "institutional closure"
+  ]
+}

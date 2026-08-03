@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-03T03:33:41.657735+00:00",
+  "generated_at_utc": "2026-08-03T05:55:09.966108+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -127,37 +127,22 @@
     },
     {
       "code": "SGD-114E",
-      "name": "Native Ecosystem Architecture Policy",
-      "version": "1.0.2",
+      "name": "Self Validation Closure",
+      "version": "2.0.0-R2.1",
       "status": "implemented",
-      "component_type": "native_ecosystem_architecture_policy",
-      "phase": "Gobierno Digital",
-      "dependencies": [
-        "SGD-114D",
-        "SGD-115A",
-        "SGD-116"
-      ],
-      "source_paths": [
-        "src/sgoda/governance/native_ecosystem_models.py",
-        "src/sgoda/governance/native_ecosystem_policy.py",
-        "src/sgoda/governance/native_ecosystem_validator.py",
-        "src/sgoda/governance/native_ecosystem_cli.py",
-        "src/sgoda/governance/native_ecosystem.py"
-      ],
-      "test_paths": [
-        "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
-      ],
-      "documentation_paths": [
-        "docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md",
-        "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md"
-      ],
-      "release_path": null,
-      "config_path": "config/governance/SGD-114E-component.json",
+      "component_type": "unspecified",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [],
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "release_path": "releases/SGD-114E-v2.0.0-R2.2",
+      "config_path": "config/governance/SGD-114E-v2.0.0-R2.1-component.json",
       "metadata": {
         "discovery_source": "descriptor",
-        "raw_code": "SGD-114E",
+        "raw_code": "SGD-114E-v2.0.0-R2.1",
         "canonical_code": "SGD-114E",
-        "alias_applied": false
+        "alias_applied": true
       }
     },
     {
@@ -194,6 +179,26 @@
         "raw_code": "SGD-114F",
         "canonical_code": "SGD-114F",
         "alias_applied": false
+      }
+    },
+    {
+      "code": "SGD-114G",
+      "name": "Legacy Manifest Migration and Canonical Closure",
+      "version": "1.0.1",
+      "status": "implemented",
+      "component_type": "unspecified",
+      "phase": "Gobierno y arquitectura",
+      "dependencies": [],
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "release_path": "releases/SGD-114G-v1.0.1",
+      "config_path": "config/governance/SGD-114G-v1.0.1-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-114G-v1.0.1",
+        "canonical_code": "SGD-114G",
+        "alias_applied": true
       }
     },
     {
@@ -1300,6 +1305,81 @@
         "discovery_source": "descriptor",
         "raw_code": "SPT-015",
         "canonical_code": "SPT-015",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-016",
+      "name": "Motor de Analítica del Aprendizaje",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "learning_analytics_engine",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-014",
+        "SPT-015",
+        "SPT-008",
+        "SPT-012",
+        "SGD-114F",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/learning_analytics/models.py",
+        "src/sgoda/learning_analytics/repository.py",
+        "src/sgoda/learning_analytics/metrics.py",
+        "src/sgoda/learning_analytics/trends.py",
+        "src/sgoda/learning_analytics/recommendations.py",
+        "src/sgoda/learning_analytics/exporter.py",
+        "src/sgoda/learning_analytics/service.py",
+        "src/sgoda/learning_analytics/cli.py"
+      ],
+      "test_paths": [
+        "tests/learning_analytics/test_SPT_016_learning_analytics_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Metricas.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-016/SPT-016-Eventos-SPA.md"
+      ],
+      "release_path": null,
+      "config_path": "config/learning_analytics/SPT-016-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-016",
+        "canonical_code": "SPT-016",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-016A",
+      "name": "Evidence Compatibility Patch",
+      "version": "1.0.1",
+      "status": "implemented",
+      "component_type": "institutional_maintenance_patch",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-016",
+        "SGD-114F",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-016A-v1.0.1",
+      "config_path": "config/learning_analytics/SPT-016A-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-016A",
+        "canonical_code": "SPT-016A",
         "alias_applied": false
       }
     }

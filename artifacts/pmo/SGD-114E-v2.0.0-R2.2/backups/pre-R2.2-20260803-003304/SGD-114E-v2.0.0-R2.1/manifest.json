@@ -1,0 +1,23 @@
+{
+    "increment_code":  "SGD-114E-v2.0.0-R2.1",
+    "status":  "implemented_tested_and_approved",
+    "files":  [
+                  "component-normalization.json",
+                  "full-suite-summary.json",
+                  "full-suite-summary.md",
+                  "full-suite.xml",
+                  "implementation-evidence.json",
+                  "implementation-evidence.md",
+                  "native_ecosystem_cli.py",
+                  "native_ecosystem_models.py",
+                  "native_ecosystem_validator.py",
+                  "self-validation.json",
+                  "self-validation.md",
+                  "SGD-114E-v2.0.0-R2.1-component.json",
+                  "SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md",
+                  "specific-summary.json",
+                  "specific-summary.md",
+                  "specific.xml",
+                  "test_SGD_114E_v2_0_0_R2_self_validation_closure.py"
+              ]
+}

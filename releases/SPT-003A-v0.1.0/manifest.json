@@ -1,0 +1,14 @@
+{
+  "increment_code": "SPT-003A",
+  "version": "0.1.0",
+  "release_name": "SPT-003A-v0.1.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "job-statistics.json",
+    "multimedia-jobs-planned-event.json",
+    "orchestrator-validation.json",
+    "planning-summary.json"
+  ]
+}

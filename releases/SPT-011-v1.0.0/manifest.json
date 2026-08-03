@@ -1,0 +1,9 @@
+{
+  "increment_code": "SPT-011",
+  "version": "1.0.0",
+  "release_name": "SPT-011-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": []
+}

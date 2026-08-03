@@ -1,21 +1,25 @@
 {
-  "increment_code": "SGD-114-PA",
-  "name": "SGD-114 Policy Auditor",
-  "component_type": "governance_policy_auditor",
-  "version": "1.0.0",
-  "status": "implemented",
-  "dependencies": [
-    "SGD-114",
-    "SGD-115",
-    "SGD-116B"
-  ],
-  "source": [
-    "src/sgoda/governance/policy_auditor.py"
-  ],
-  "tests": [
-    "tests/governance/test_SGD_114_policy_auditor.py"
-  ],
-  "documentation": [
-    "docs/01_Gobierno/SGD-114-Policy-Auditor.md"
-  ]
+    "increment_code":  "SGD-114-PA",
+    "name":  "SGD-114 Policy Auditor",
+    "component_type":  "governance_policy_auditor",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "dependencies":  [
+                         "SGD-114",
+                         "SGD-115",
+                         "SGD-116B"
+                     ],
+    "source":  [
+                   "src/sgoda/governance/policy_auditor.py"
+               ],
+    "tests":  [
+                  "tests/governance/test_SGD_114_policy_auditor.py"
+              ],
+    "documentation":  [
+                          "docs/01_Gobierno/SGD-114-Policy-Auditor.md"
+                      ],
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ]
 }

@@ -1,0 +1,16 @@
+{
+  "increment_code": "SPT-003B",
+  "version": "0.1.0",
+  "release_name": "SPT-003B-v0.1.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-003B-Adaptadores-IA-Multimedia.md",
+    "SPT-003B-Seguridad-Credenciales-Proveedores.md",
+    "SPT-003B-policy.json",
+    "SPT-003B-providers.example.json",
+    "multimedia-events.jsonl",
+    "processing-summary.json"
+  ]
+}

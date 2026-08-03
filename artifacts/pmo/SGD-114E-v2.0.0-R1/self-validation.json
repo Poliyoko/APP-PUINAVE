@@ -1,0 +1,346 @@
+{
+  "policy": "SGD-114E",
+  "version": "1.0.3",
+  "attribute_version": "1.0.5",
+  "implementation_version": "2.0.0",
+  "approved": false,
+  "exit_code": 2,
+  "result": "NO APROBADO",
+  "repository_is_empty": false,
+  "governed_component_count": 36,
+  "criteria": {
+    "has_native_components": true,
+    "all_governed_components_are_native": false,
+    "no_forbidden_terms": false,
+    "no_mandatory_proprietary_dependencies": true,
+    "no_structural_errors": true,
+    "empty_repository_allowed": true
+  },
+  "native_component_count": 24,
+  "component_count": 24,
+  "native_components": [
+    "SGD-114E-v1.0.3",
+    "SGD-114E-v1.0.4",
+    "SGD-114E-v1.0.5",
+    "SGD-114E-v1.0.6",
+    "SGD-114E-v1.0.7",
+    "SGD-114E-v2.0.0",
+    "SGD-114E-v2.0.0-R1",
+    "SGD-114F",
+    "SPT-007A",
+    "SPT-007B",
+    "SPT-007C",
+    "SPT-007D",
+    "SPT-008",
+    "SPT-009",
+    "SPT-010",
+    "SPT-011",
+    "SPT-011A",
+    "SPT-012",
+    "SPT-013A",
+    "SPT-013B",
+    "SPT-014",
+    "SPT-015",
+    "SPT-016",
+    "SPT-016A"
+  ],
+  "forbidden_term_count": 12,
+  "forbidden_terms": [
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integrado por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integrada por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integrados por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integradas por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "contract-based integration",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "contract integration",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integrado por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integrada por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integrados por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integradas por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "contract-based integration",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "contract integration",
+      "severity": "error"
+    }
+  ],
+  "mandatory_proprietary_dependency_count": 0,
+  "proprietary_dependency_count": 0,
+  "mandatory_proprietary_dependencies": [],
+  "structural_error_count": 0,
+  "structural_errors": [],
+  "findings": [
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/documentation/SGD-115A-component.json",
+      "component": "SGD-115A",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-114-policy-auditor-component.json",
+      "component": "SGD-114-PA",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-114-v2-component.json",
+      "component": "SGD-114-v2",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-114C-component.json",
+      "component": "SGD-114C",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-114D-component.json",
+      "component": "SGD-114D",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-114D-v1.0.1-component.json",
+      "component": "SGD-114D-v1.0.1",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-114E-C1-component.json",
+      "component": "SGD-114E-C1",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-114E-component.json",
+      "component": "SGD-114E",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/governance/SGD-115-component.json",
+      "component": "SGD-115",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/repository/SPB-007-component.json",
+      "component": "SPB-007",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/roadmap/SGD-116-component.json",
+      "component": "SGD-116",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "message": "El componente gobernado debe declararse como nativo.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/config/roadmap/SGD-116B-component.json",
+      "component": "SGD-116B",
+      "value": "",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integrado por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integrada por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integrados por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "integradas por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "contract-based integration",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+      "component": "",
+      "value": "contract integration",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integrado por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integrada por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integrados por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "integradas por contrato",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "contract-based integration",
+      "severity": "error"
+    },
+    {
+      "rule_code": "SGD114E-R003",
+      "message": "Se detectó terminología institucional prohibida.",
+      "path": "C:/Users/Lida Silva Acevedo/Documents/PROYECTO MTM UD 2026/SGODA-PUINAVE/src/sgoda/governance/native_ecosystem_validator.py",
+      "component": "",
+      "value": "contract integration",
+      "severity": "error"
+    }
+  ],
+  "decision_rule": "approved = no institutional findings"
+}

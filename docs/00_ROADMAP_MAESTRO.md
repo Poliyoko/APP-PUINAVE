@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **35**  
-Avance institucional: **91.43%**
+Componentes registrados: **38**  
+Avance institucional: **92.11%**
 
 ## Asistente e integraciones
 
@@ -52,13 +52,14 @@ Avance institucional: **91.43%**
 | SPT-013B | Gestor Institucional del Diccionario Digital | implemented | 1.0.0 | releases/SPT-013B-v1.0.0 |
 | SPT-014 | Motor Multimedia Inteligente | implemented | 1.0.0 | releases/SPT-014-v1.0.0 |
 | SPT-015 | Motor de Evaluación Adaptativa | implemented | 1.0.0 | releases/SPT-015-v1.0.0 |
+| SPT-016 | Motor de Analítica del Aprendizaje | implemented | 1.0.0 | Pendiente |
+| SPT-016A | Evidence Compatibility Patch | implemented | 1.0.1 | releases/SPT-016A-v1.0.1 |
 
 ## Gobierno Digital
 
 | Código | Componente | Estado | Versión | Release |
 |---|---|---|---|---|
 | SGD-114D | Adaptive Release Canonical Resolver | implemented | 1.0.1 | releases/SGD-114D-v1.0.0 |
-| SGD-114E | Native Ecosystem Architecture Policy | implemented | 1.0.2 | Pendiente |
 | SGD-114F | Institutional Test Evidence Synchronizer | implemented | 1.0.0 | releases/SGD-114F-v1.0.0 |
 | SGD-115A | Documentation Canonical Component Resolver | implemented | 1.0.0 | releases/SGD-115A-v1.0.0 |
 
@@ -69,6 +70,8 @@ Avance institucional: **91.43%**
 | ADR-010 | ADR-010 | institutionally_closed | 1.0.0 | releases/ADR-010-v1.0.0 |
 | SGD-114 | SGD-114 | institutionally_closed | 2.0.0 | releases/SGD-114-v2.0.1 |
 | SGD-114C | Policy Governance Core | implemented | 1.0.0 | releases/SGD-114C-v1.0.0 |
+| SGD-114E | Self Validation Closure | implemented | 2.0.0-R2.1 | releases/SGD-114E-v2.0.0-R2.2 |
+| SGD-114G | Legacy Manifest Migration and Canonical Closure | implemented | 1.0.1 | releases/SGD-114G-v1.0.1 |
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | technically_completed | 1.0.0 | Pendiente |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | technically_completed | 1.0.0 | Pendiente |
 | SGD-116B | Correctivo Institucional Único del Roadmap Maestro Vivo | technically_completed | 2.0.0 | releases/SGD-116B-v3.0.0 |

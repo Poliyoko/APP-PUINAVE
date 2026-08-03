@@ -54,7 +54,7 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **40**.
+Total identificado automáticamente: **52**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-PA** — SGD-114 Policy Auditor (v1.0.0; implemented)
@@ -64,7 +64,17 @@ Total identificado automáticamente: **40**.
 - **SGD-114D-v1.0.1** — Adaptive Release Canonical Resolver (v1.0.1; implemented)
 - **SGD-114E** — Native Ecosystem Architecture Policy (v1.0.2; implemented)
 - **SGD-114E-C1** — Native Ecosystem Validator Fix (v1.0.0; implemented)
+- **SGD-114E-v1.0.3** — Native Ecosystem Approval Logic Fix (v1.0.3; implemented)
+- **SGD-114E-v1.0.4** — Multi-Test-Path Invocation Fix (v1.0.4; implemented)
+- **SGD-114E-v1.0.5** — Backward Compatibility Result Model (v1.0.5; implemented)
+- **SGD-114E-v1.0.6** — Definitive Contract Restoration (v1.0.6; implemented)
+- **SGD-114E-v1.0.7** — Definitive Prevalidated Contract Closure (v1.0.7; implemented)
+- **SGD-114E-v2.0.0** — Definitive Native Ecosystem Validator (v2.0.0; implemented)
+- **SGD-114E-v2.0.0-R1** — Canonical Contract Closure (v2.0.0-R1; implemented)
+- **SGD-114E-v2.0.0-R2.1** — Self Validation Closure (v2.0.0-R2.1; implemented)
 - **SGD-114F** — Institutional Test Evidence Synchronizer (v1.0.0; implemented)
+- **SGD-114G-v1.0.0** — Institutional Release Management Service (v1.0.0; implemented)
+- **SGD-114G-v1.0.1** — Legacy Manifest Migration and Canonical Closure (v1.0.1; implemented)
 - **SGD-115** — Sistema Maestro de Documentación del Proyecto (v1.0.0; technically_completed)
 - **SGD-115A** — Documentation Canonical Component Resolver (v1.0.0; implemented)
 - **SGD-116** — Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE (v1.0.0; technically_completed)
@@ -96,6 +106,8 @@ Total identificado automáticamente: **40**.
 - **SPT-013B** — Gestor Institucional del Diccionario Digital (v1.0.0; implemented)
 - **SPT-014** — Motor Multimedia Inteligente (v1.0.0; implemented)
 - **SPT-015** — Motor de Evaluación Adaptativa (v1.0.0; implemented)
+- **SPT-016** — Motor de Analítica del Aprendizaje (v1.0.0; implemented)
+- **SPT-016A** — Evidence Compatibility Patch (v1.0.1; implemented)
 
 ## 14. Política de actualización
 

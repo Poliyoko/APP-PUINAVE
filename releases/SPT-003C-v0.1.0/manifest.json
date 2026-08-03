@@ -1,0 +1,17 @@
+{
+  "increment_code": "SPT-003C",
+  "version": "0.1.0",
+  "release_name": "SPT-003C-v0.1.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-003C-Piloto-Controlado-Proveedores.md",
+    "SPT-003C-Protocolo-Aprobacion-Cultural.md",
+    "SPT-003C-approval-template.json",
+    "SPT-003C-component.json",
+    "SPT-003C-pilot-policy.json",
+    "SPT-003C-pricing-template.json",
+    "pilot-summary.json"
+  ]
+}

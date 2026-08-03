@@ -1,0 +1,17 @@
+{
+  "increment_code": "SPT-006",
+  "version": "0.1.0",
+  "release_name": "SPT-006-v0.1.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+    "SPT-006-Reproduccion-Automatica-Configurable.md",
+    "SPT-006-Validacion-Linguistica-Cultural.md",
+    "SPT-006-component.json",
+    "SPT-006-enrichment-policy.json",
+    "SPT-006-playback-policy.json",
+    "pipeline-summary.json"
+  ]
+}

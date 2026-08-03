@@ -1,0 +1,17 @@
+{
+  "increment_code": "SGD-114G-v1.0.0",
+  "name": "Institutional Release Management Service",
+  "version": "1.0.0",
+  "status": "implemented",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "capabilities": [
+    "canonical release resolution",
+    "duplicate release migration",
+    "transactional normalization",
+    "backup and rollback",
+    "manifest validation",
+    "safe reference updates",
+    "SPB-007 publication gate"
+  ]
+}

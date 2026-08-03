@@ -1,0 +1,12 @@
+{
+  "component": "SPT-016",
+  "scope": "specific",
+  "executed": 22,
+  "passed": 22,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 0.114,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-016A\\test-reports\\SPT-016-specific.xml"
+}

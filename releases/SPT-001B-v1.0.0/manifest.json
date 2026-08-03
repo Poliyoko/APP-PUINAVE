@@ -1,0 +1,15 @@
+{
+  "increment_code": "SPT-001B",
+  "version": "1.0.0",
+  "release_name": "SPT-001B-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "canonical-baseline-manifest.json",
+    "canonical-repository-v1.0.0.json",
+    "canonical-statistics.json",
+    "canonical-validation.json",
+    "schema-v1.1.json"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "component": "SPT-016",
+  "version": "1.0.0",
+  "source_of_test_truth": "SGD-114F",
+  "no_manual_test_counts": true,
+  "no_invention": true,
+  "local_first": true,
+  "free_open_technology": true,
+  "mandatory_proprietary_dependencies": [],
+  "event_types": [
+    "resource_viewed",
+    "assessment_completed",
+    "word_practiced",
+    "lesson_completed",
+    "conversation_completed"
+  ],
+  "spa_ready_events": [
+    "analytics.event.recorded",
+    "analytics.progress.updated",
+    "analytics.alert.generated",
+    "analytics.recommendation.generated"
+  ]
+}

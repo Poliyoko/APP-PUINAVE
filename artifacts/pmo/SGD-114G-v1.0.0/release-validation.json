@@ -1,0 +1,150 @@
+{
+  "approved": false,
+  "exit_code": 2,
+  "duplicates": [],
+  "validated_manifests": [
+    "SGD-114D-v1.0.0",
+    "SGD-114E-C1-v1.0.0",
+    "SGD-114E-v2.0.0-R2.1",
+    "SGD-114F-v1.0.0",
+    "SGD-115A-v1.0.0",
+    "SIB-001-v0.1.0",
+    "SPT-011A-v1.0.1",
+    "SPT-012-v1.0.0",
+    "SPT-013A-v1.0.1",
+    "SPT-013B-v1.0.0",
+    "SPT-014-v1.0.0",
+    "SPT-015-v1.0.0",
+    "SPT-016A-v1.0.1"
+  ],
+  "findings": [
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "ADR-010-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114-Policy-Auditor-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114-v2.0.1"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114C-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v1.0.3"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v1.0.4"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v1.0.5"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v1.0.6"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v1.0.7"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v2.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v2.0.0-R1"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114E-v2.0.0-R2.2"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-114G-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SGD-116B-v3.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPB-007-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-001B-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-002-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-003A-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-003B-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-003C-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-004A-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-005-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-006-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-006A-v0.2.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-007A-v0.1.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-007B-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-007C-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-007D-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-008-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-009-v1.0.0"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-010-v1.0.1"
+    },
+    {
+      "code": "MANIFEST_MISSING",
+      "release": "SPT-011-v1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "increment_code": "SGD-114G-v1.0.1",
+  "name": "Legacy Manifest Migration and Canonical Closure",
+  "version": "1.0.1",
+  "status": "implemented",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "capabilities": [
+    "legacy manifest migration",
+    "canonical release normalization",
+    "release validation",
+    "publication gate"
+  ]
+}

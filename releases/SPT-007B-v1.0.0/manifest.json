@@ -1,0 +1,30 @@
+{
+  "increment_code": "SPT-007B",
+  "version": "1.0.0",
+  "release_name": "SPT-007B-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "Invoke-SPT007B-SemanticLexicalEngine.ps1",
+    "SPT-007B-Arquitectura-Indice-Semantico.md",
+    "SPT-007B-Gobierno-Relaciones-Lexicas.md",
+    "SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+    "SPT-007B-component.json",
+    "SPT-007B-implementation-evidence.json",
+    "SPT-007B-policy-result.json",
+    "SPT-007B-policy-result.md",
+    "SPT-007B-relations.example.json",
+    "SPT-007B-semantic-policy.json",
+    "demo-semantic-search.json",
+    "query_expansion.py",
+    "relations.py",
+    "semantic_cli.py",
+    "semantic_index.py",
+    "semantic_models.py",
+    "semantic_ranking.py",
+    "semantic_service.py",
+    "suggestions.py",
+    "test_SPT_007B_semantic_lexical_engine.py"
+  ]
+}

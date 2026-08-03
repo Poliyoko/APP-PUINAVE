@@ -1,28 +1,32 @@
 {
-  "increment_code": "SGD-114D",
-  "name": "Adaptive Institutional Policy Engine",
-  "component_type": "adaptive_policy_engine",
-  "version": "1.0.0",
-  "status": "implemented",
-  "phase": "Gobierno Digital",
-  "dependencies": [
-    "SGD-114C",
-    "SGD-115",
-    "SGD-116"
-  ],
-  "source": [
-    "src/sgoda/governance/adaptive_policy_models.py",
-    "src/sgoda/governance/adaptive_policy_resolver.py",
-    "src/sgoda/governance/adaptive_policy_rules.py",
-    "src/sgoda/governance/adaptive_policy_engine.py",
-    "src/sgoda/governance/adaptive_policy_cli.py",
-    "src/sgoda/governance/adaptive_policy.py"
-  ],
-  "tests": [
-    "tests/governance/test_SGD_114D_adaptive_institutional_policy_engine.py"
-  ],
-  "documentation": [
-    "docs/01_Gobierno/SGD-114D-Adaptive-Institutional-Policy-Engine.md",
-    "docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md"
-  ]
+    "increment_code":  "SGD-114D",
+    "name":  "Adaptive Institutional Policy Engine",
+    "component_type":  "adaptive_policy_engine",
+    "version":  "1.0.0",
+    "status":  "implemented",
+    "phase":  "Gobierno Digital",
+    "dependencies":  [
+                         "SGD-114C",
+                         "SGD-115",
+                         "SGD-116"
+                     ],
+    "source":  [
+                   "src/sgoda/governance/adaptive_policy_models.py",
+                   "src/sgoda/governance/adaptive_policy_resolver.py",
+                   "src/sgoda/governance/adaptive_policy_rules.py",
+                   "src/sgoda/governance/adaptive_policy_engine.py",
+                   "src/sgoda/governance/adaptive_policy_cli.py",
+                   "src/sgoda/governance/adaptive_policy.py"
+               ],
+    "tests":  [
+                  "tests/governance/test_SGD_114D_adaptive_institutional_policy_engine.py"
+              ],
+    "documentation":  [
+                          "docs/01_Gobierno/SGD-114D-Adaptive-Institutional-Policy-Engine.md",
+                          "docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md"
+                      ],
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ]
 }

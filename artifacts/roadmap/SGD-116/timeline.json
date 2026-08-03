@@ -252,15 +252,6 @@
     "last_git_date": "2026-08-02T18:00:24-05:00"
   },
   {
-    "code": "SGD-114E",
-    "name": "Native Ecosystem Architecture Policy",
-    "phase": "Gobierno Digital",
-    "status": "implemented",
-    "version": "1.0.2",
-    "release": null,
-    "last_git_date": "2026-08-02T18:51:09-05:00"
-  },
-  {
     "code": "SPT-013A",
     "name": "Learning Ecosystem Foundation",
     "phase": "Fase Tecnológica IV",
@@ -294,6 +285,33 @@
     "status": "implemented",
     "version": "1.0.0",
     "release": "releases/SGD-114F-v1.0.0",
+    "last_git_date": "2026-08-02T22:33:43-05:00"
+  },
+  {
+    "code": "SPT-015",
+    "name": "Motor de Evaluación Adaptativa",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-015-v1.0.0",
+    "last_git_date": "2026-08-02T22:33:43-05:00"
+  },
+  {
+    "code": "SGD-114E",
+    "name": "Self Validation Closure",
+    "phase": "Gobierno y arquitectura",
+    "status": "implemented",
+    "version": "2.0.0-R2.1",
+    "release": "releases/SGD-114E-v2.0.0-R2.2",
+    "last_git_date": null
+  },
+  {
+    "code": "SGD-114G",
+    "name": "Legacy Manifest Migration and Canonical Closure",
+    "phase": "Gobierno y arquitectura",
+    "status": "implemented",
+    "version": "1.0.1",
+    "release": "releases/SGD-114G-v1.0.1",
     "last_git_date": null
   },
   {
@@ -306,12 +324,21 @@
     "last_git_date": null
   },
   {
-    "code": "SPT-015",
-    "name": "Motor de Evaluación Adaptativa",
+    "code": "SPT-016",
+    "name": "Motor de Analítica del Aprendizaje",
     "phase": "Fase Tecnológica IV",
     "status": "implemented",
     "version": "1.0.0",
-    "release": "releases/SPT-015-v1.0.0",
+    "release": null,
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-016A",
+    "name": "Evidence Compatibility Patch",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.1",
+    "release": "releases/SPT-016A-v1.0.1",
     "last_git_date": null
   }
 ]

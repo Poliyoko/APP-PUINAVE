@@ -1,0 +1,13 @@
+{
+  "increment_code": "SPT-009",
+  "version": "1.0.0",
+  "release_name": "SPT-009-v1.0.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "SPT-009-component.json",
+    "SPT-009-policy-result.json",
+    "SPT-009-policy-result.md"
+  ]
+}

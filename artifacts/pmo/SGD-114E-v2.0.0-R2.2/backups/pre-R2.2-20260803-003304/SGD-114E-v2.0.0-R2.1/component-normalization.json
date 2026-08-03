@@ -1,0 +1,191 @@
+{
+    "generated_at_utc":  "2026-08-03T05:27:04.7068624Z",
+    "components":  [
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\adaptive_assessment\\SPT-015-component.json",
+                           "component":  "SPT-015",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\conversation\\SPT-009-component.json",
+                           "component":  "SPT-009",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\dictionary_manager\\SPT-013B-component.json",
+                           "component":  "SPT-013B",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\documentation\\SGD-115A-component.json",
+                           "component":  "SGD-115A",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114-policy-auditor-component.json",
+                           "component":  "SGD-114-PA",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114-v2-component.json",
+                           "component":  "SGD-114-v2",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114C-component.json",
+                           "component":  "SGD-114C",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114D-component.json",
+                           "component":  "SGD-114D",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114D-v1.0.1-component.json",
+                           "component":  "SGD-114D-v1.0.1",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-C1-component.json",
+                           "component":  "SGD-114E-C1",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-component.json",
+                           "component":  "SGD-114E",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v1.0.3-component.json",
+                           "component":  "SGD-114E-v1.0.3",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v1.0.4-component.json",
+                           "component":  "SGD-114E-v1.0.4",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v1.0.5-component.json",
+                           "component":  "SGD-114E-v1.0.5",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v1.0.6-component.json",
+                           "component":  "SGD-114E-v1.0.6",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v1.0.7-component.json",
+                           "component":  "SGD-114E-v1.0.7",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v2.0.0-component.json",
+                           "component":  "SGD-114E-v2.0.0",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v2.0.0-R1-component.json",
+                           "component":  "SGD-114E-v2.0.0-R1",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114E-v2.0.0-R2.1-component.json",
+                           "component":  "SGD-114E-v2.0.0-R2.1",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-114F-component.json",
+                           "component":  "SGD-114F",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\governance\\SGD-115-component.json",
+                           "component":  "SGD-115",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\knowledge_engine\\SPT-007C-component.json",
+                           "component":  "SPT-007C",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\learning_analytics\\SPT-016-component.json",
+                           "component":  "SPT-016",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\learning_analytics\\SPT-016A-component.json",
+                           "component":  "SPT-016A",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\learning_foundation\\SPT-013A-component.json",
+                           "component":  "SPT-013A",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\learning_platform\\SPT-012-component.json",
+                           "component":  "SPT-012",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\lexical_engine\\SPT-007A-component.json",
+                           "component":  "SPT-007A",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\lexical_engine\\SPT-007B-component.json",
+                           "component":  "SPT-007B",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\multimedia_engine\\SPT-014-component.json",
+                           "component":  "SPT-014",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\operational_platform\\SPT-011-component.json",
+                           "component":  "SPT-011",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\operational_platform\\SPT-011A-component.json",
+                           "component":  "SPT-011A",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\platform\\SPT-010-component.json",
+                           "component":  "SPT-010",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\reasoning_engine\\SPT-007D-component.json",
+                           "component":  "SPT-007D",
+                           "changed":  false
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\repository\\SPB-007-component.json",
+                           "component":  "SPB-007",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\roadmap\\SGD-116-component.json",
+                           "component":  "SGD-116",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\roadmap\\SGD-116B-component.json",
+                           "component":  "SGD-116B",
+                           "changed":  true
+                       },
+                       {
+                           "path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\tutor\\SPT-008-component.json",
+                           "component":  "SPT-008",
+                           "changed":  false
+                       }
+                   ],
+    "changed_count":  12
+}

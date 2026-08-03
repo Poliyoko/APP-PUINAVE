@@ -1,0 +1,27 @@
+{
+  "policy": "SGD-114E",
+  "version": "1.0.2",
+  "approved": false,
+  "exit_code": 2,
+  "component_count": 16,
+  "forbidden_term_count": 0,
+  "proprietary_dependency_count": 0,
+  "findings": [
+    {
+      "rule_code": "SGD114E-R002",
+      "passed": false,
+      "blocking": true,
+      "message": "SPT-016 no está declarado como componente nativo.",
+      "path": "config/learning_analytics/SPT-016-component.json",
+      "remediation": "Agregue native_ecosystem=true y ecosystem_role=native_component."
+    },
+    {
+      "rule_code": "SGD114E-R002",
+      "passed": false,
+      "blocking": true,
+      "message": "SPT-016A no está declarado como componente nativo.",
+      "path": "config/learning_analytics/SPT-016A-component.json",
+      "remediation": "Agregue native_ecosystem=true y ecosystem_role=native_component."
+    }
+  ]
+}

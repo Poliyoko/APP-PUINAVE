@@ -1,0 +1,30 @@
+{
+  "increment_code": "SPT-007A",
+  "version": "0.1.0",
+  "release_name": "SPT-007A-v0.1.0",
+  "status": "legacy_migrated",
+  "legacy": true,
+  "manifest_generated_by": "SGD-114G-v1.0.1",
+  "files": [
+    "Invoke-SPT007A-LexicalEngine.ps1",
+    "SPT-007A-Arquitectura-Busqueda-Ranking.md",
+    "SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+    "SPT-007A-Seguridad-Linguistica-Cultural.md",
+    "SPT-007A-component.json",
+    "SPT-007A-implementation-evidence.json",
+    "SPT-007A-lexical-policy.json",
+    "SPT-007A-policy-result.json",
+    "SPT-007A-policy-result.md",
+    "__init__.py",
+    "cli.py",
+    "demo-search.json",
+    "models.py",
+    "multimedia.py",
+    "normalizer.py",
+    "ranking.py",
+    "repository.py",
+    "search.py",
+    "service.py",
+    "test_SPT_007A_intelligent_lexical_engine.py"
+  ]
+}

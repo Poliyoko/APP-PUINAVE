@@ -1,0 +1,11 @@
+{
+  "increment_code": "SGD-114E-v2.0.0-R1",
+  "name": "Canonical Contract Closure",
+  "version": "2.0.0-R1",
+  "status": "implemented",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "canonical_implementation_version": "2.0.0",
+  "legacy_test_preserved": true,
+  "legacy_test_retired_from_active_suite": true
+}

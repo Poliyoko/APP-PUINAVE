@@ -1,0 +1,23 @@
+{
+  "increment_code": "SGD-114E-v1.0.5",
+  "name": "Backward Compatibility Result Model",
+  "component_type": "governance_compatibility_patch",
+  "version": "1.0.5",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SGD-114E-v1.0.3",
+    "SGD-114E-v1.0.4",
+    "SGD-114F",
+    "SGD-115A",
+    "SGD-116",
+    "SPB-007"
+  ],
+  "compatibility_contract": [
+    "result.approved",
+    "result[approved]",
+    "result.to_dict()"
+  ]
+}

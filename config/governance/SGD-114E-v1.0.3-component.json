@@ -1,0 +1,23 @@
+{
+  "increment_code": "SGD-114E-v1.0.3",
+  "name": "Native Ecosystem Approval Logic Fix",
+  "component_type": "governance_logic_patch",
+  "version": "1.0.3",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SGD-114E",
+    "SGD-114F",
+    "SGD-115A",
+    "SGD-116",
+    "SPB-007"
+  ],
+  "scope": [
+    "approval decision logic",
+    "criteria transparency",
+    "structural validation",
+    "SPT-016A revalidation"
+  ]
+}

@@ -32,10 +32,13 @@
 | 2026-08-02T17:28:31-05:00 | SGD-115A | Documentation Canonical Component Resolver | implemented | releases/SGD-115A-v1.0.0 |
 | 2026-08-02T17:28:31-05:00 | SPT-011A | Institutional Evidence Closure | implemented | releases/SPT-011A-v1.0.1 |
 | 2026-08-02T18:00:24-05:00 | SPT-012 | Plataforma de Aprendizaje SGODA-PUINAVE | implemented | releases/SPT-012-v1.0.0 |
-| 2026-08-02T18:51:09-05:00 | SGD-114E | Native Ecosystem Architecture Policy | implemented | Pendiente |
 | 2026-08-02T21:20:30-05:00 | SPT-013A | Learning Ecosystem Foundation | implemented | releases/SPT-013A-v1.0.1 |
 | 2026-08-02T21:46:53-05:00 | SPT-013B | Gestor Institucional del Diccionario Digital | implemented | releases/SPT-013B-v1.0.0 |
 | 2026-08-02T22:03:49-05:00 | SPT-014 | Motor Multimedia Inteligente | implemented | releases/SPT-014-v1.0.0 |
-| No determinada | SGD-114F | Institutional Test Evidence Synchronizer | implemented | releases/SGD-114F-v1.0.0 |
+| 2026-08-02T22:33:43-05:00 | SGD-114F | Institutional Test Evidence Synchronizer | implemented | releases/SGD-114F-v1.0.0 |
+| 2026-08-02T22:33:43-05:00 | SPT-015 | Motor de Evaluación Adaptativa | implemented | releases/SPT-015-v1.0.0 |
+| No determinada | SGD-114E | Self Validation Closure | implemented | releases/SGD-114E-v2.0.0-R2.2 |
+| No determinada | SGD-114G | Legacy Manifest Migration and Canonical Closure | implemented | releases/SGD-114G-v1.0.1 |
 | No determinada | SPT-011 | Plataforma Operativa SGODA-PUINAVE | implemented | releases/SPT-011-v1.0.0 |
-| No determinada | SPT-015 | Motor de Evaluación Adaptativa | implemented | releases/SPT-015-v1.0.0 |
+| No determinada | SPT-016 | Motor de Analítica del Aprendizaje | implemented | Pendiente |
+| No determinada | SPT-016A | Evidence Compatibility Patch | implemented | releases/SPT-016A-v1.0.1 |

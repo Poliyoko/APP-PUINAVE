@@ -1,0 +1,20 @@
+{
+  "increment_code": "SGD-114E-v2.0.0-R2.1",
+  "name": "Self Validation Closure",
+  "version": "2.0.0-R2.1",
+  "status": "implemented",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "scope": [
+    "active configuration",
+    "active documentation"
+  ],
+  "excluded_scope": [
+    "source code",
+    "policy definitions",
+    "artifacts",
+    "releases",
+    "backups",
+    "historical evidence"
+  ]
+}

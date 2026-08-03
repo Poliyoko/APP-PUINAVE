@@ -1,0 +1,12 @@
+{
+  "increment_code": "SGD-114E-v2.0.0",
+  "name": "Definitive Native Ecosystem Validator",
+  "version": "2.0.0",
+  "status": "implemented",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "mapping_contract_version": "1.0.3",
+  "attribute_contract_version": "1.0.5",
+  "historical_tests_modified": false,
+  "transitional_test_corrected": true
+}
