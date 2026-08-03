@@ -54,7 +54,7 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **37**.
+Total identificado automáticamente: **38**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
 - **SGD-114-PA** — SGD-114 Policy Auditor (v1.0.0; implemented)
@@ -93,6 +93,7 @@ Total identificado automáticamente: **37**.
 - **SPT-012** — Plataforma de Aprendizaje SGODA-PUINAVE (v1.0.0; implemented)
 - **SPT-013A** — Learning Ecosystem Foundation (v1.0.0; implemented)
 - **SPT-013B** — Gestor Institucional del Diccionario Digital (v1.0.0; implemented)
+- **SPT-014** — Motor Multimedia Inteligente (v1.0.0; implemented)
 
 ## 14. Política de actualización
 

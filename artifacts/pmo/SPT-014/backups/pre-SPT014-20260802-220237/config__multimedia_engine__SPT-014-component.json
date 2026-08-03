@@ -1,0 +1,43 @@
+{
+  "increment_code": "SPT-014",
+  "name": "Motor Multimedia Inteligente",
+  "component_type": "intelligent_multimedia_engine",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica IV",
+  "native_ecosystem": true,
+  "ecosystem_role": "native_component",
+  "technology_policy": "free_open_optional_proprietary",
+  "mandatory_proprietary_dependencies": [],
+  "institutional_terminology": "integrado nativamente al ecosistema SGODA-PUINAVE",
+  "dependencies": [
+    "SPT-013A",
+    "SPT-013B",
+    "SPT-012",
+    "SPT-002",
+    "SPT-003A",
+    "SPT-003B",
+    "SPT-003C",
+    "SGD-114D",
+    "SGD-114E",
+    "SGD-115A",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/multimedia_engine/models.py",
+    "src/sgoda/multimedia_engine/validation.py",
+    "src/sgoda/multimedia_engine/repository.py",
+    "src/sgoda/multimedia_engine/manifest.py",
+    "src/sgoda/multimedia_engine/oda.py",
+    "src/sgoda/multimedia_engine/service.py",
+    "src/sgoda/multimedia_engine/cli.py"
+  ],
+  "tests": [
+    "tests/multimedia_engine/test_SPT_014_intelligent_multimedia_engine.py"
+  ],
+  "documentation": [
+    "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md"
+  ]
+}

@@ -41,6 +41,7 @@
 | SPT-012 | Plataforma de Aprendizaje SGODA-PUINAVE | 1.0.0 | implemented | `config/learning_platform/SPT-012-component.json` | 10 | 1 | 5 | 1 | 7 |
 | SPT-013A | Learning Ecosystem Foundation | 1.0.0 | implemented | `config/learning_foundation/SPT-013A-component.json` | 4 | 1 | 2 | 1 | 8 |
 | SPT-013B | Gestor Institucional del Diccionario Digital | 1.0.0 | implemented | `config/dictionary_manager/SPT-013B-component.json` | 6 | 1 | 3 | 1 | 19 |
+| SPT-014 | Motor Multimedia Inteligente | 1.0.0 | implemented | `config/multimedia_engine/SPT-014-component.json` | 7 | 1 | 3 | 1 | 20 |
 
 ## Detalle por componente
 
@@ -487,4 +488,16 @@
 - **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md`, `docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md`
 - **Releases:** `releases/SPT-013B-v1.0.0`
 - **Evidencias:** 19 archivo(s) identificado(s).
+
+### SPT-014 — Motor Multimedia Inteligente
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** intelligent_multimedia_engine
+- **Configuración:** `config/multimedia_engine/SPT-014-component.json`
+- **Código:** `src/sgoda/multimedia_engine/cli.py`, `src/sgoda/multimedia_engine/manifest.py`, `src/sgoda/multimedia_engine/models.py`, `src/sgoda/multimedia_engine/oda.py`, `src/sgoda/multimedia_engine/repository.py`, `src/sgoda/multimedia_engine/service.py`, `src/sgoda/multimedia_engine/validation.py`
+- **Pruebas:** `tests/multimedia_engine/test_SPT_014_intelligent_multimedia_engine.py`
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md`, `docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md`
+- **Releases:** `releases/SPT-014-v1.0.0`
+- **Evidencias:** 20 archivo(s) identificado(s).
 

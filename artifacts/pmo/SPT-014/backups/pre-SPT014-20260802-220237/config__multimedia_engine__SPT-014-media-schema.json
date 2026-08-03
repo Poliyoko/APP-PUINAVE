@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SPT-014 Media Resource",
+  "type": "object",
+  "required": [
+    "resource_id",
+    "entry_id",
+    "media_type",
+    "uri",
+    "format"
+  ],
+  "properties": {
+    "resource_id": {
+      "type": "string",
+      "pattern": "^MED-"
+    },
+    "entry_id": {
+      "type": "string",
+      "pattern": "^LEX-"
+    },
+    "media_type": {
+      "enum": [
+        "image",
+        "audio_puinave",
+        "audio_spanish",
+        "audio_english_us",
+        "audio_italian",
+        "video"
+      ]
+    },
+    "uri": {
+      "type": "string",
+      "minLength": 1
+    },
+    "format": {
+      "type": "string"
+    },
+    "validated": {
+      "type": "boolean"
+    }
+  }
+}

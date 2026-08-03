@@ -1434,5 +1434,55 @@
       "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__validation.py",
       "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/tests__dictionary_manager__test_SPT_013B_institutional_digital_dictionary_manager.py"
     ]
+  },
+  {
+    "code": "SPT-014",
+    "name": "Motor Multimedia Inteligente",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "intelligent_multimedia_engine",
+    "config_path": "config/multimedia_engine/SPT-014-component.json",
+    "source_paths": [
+      "src/sgoda/multimedia_engine/cli.py",
+      "src/sgoda/multimedia_engine/manifest.py",
+      "src/sgoda/multimedia_engine/models.py",
+      "src/sgoda/multimedia_engine/oda.py",
+      "src/sgoda/multimedia_engine/repository.py",
+      "src/sgoda/multimedia_engine/service.py",
+      "src/sgoda/multimedia_engine/validation.py"
+    ],
+    "test_paths": [
+      "tests/multimedia_engine/test_SPT_014_intelligent_multimedia_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md"
+    ],
+    "release_paths": [
+      "releases/SPT-014-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/multimedia_engine/SPT-014/demo-output.json",
+      "artifacts/multimedia_engine/SPT-014/demo-request.json",
+      "artifacts/pmo/SPT-014/SPT-014-implementation-evidence.json",
+      "artifacts/pmo/SPT-014/SPT-014-native-result.json",
+      "artifacts/pmo/SPT-014/SPT-014-native-result.md",
+      "artifacts/pmo/SPT-014/SPT-014-policy-result.json",
+      "artifacts/pmo/SPT-014/SPT-014-policy-result.md",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/config__multimedia_engine__SPT-014-component.json",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/config__multimedia_engine__SPT-014-media-schema.json",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/config__multimedia_engine__SPT-014-policy.json",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/scripts__Invoke-SPT014-MultimediaEngine.ps1",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine____init__.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__cli.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__manifest.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__models.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__oda.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__repository.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__service.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__validation.py",
+      "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/tests__multimedia_engine__test_SPT_014_intelligent_multimedia_engine.py"
+    ]
   }
 ]

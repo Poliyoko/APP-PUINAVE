@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **32**  
-Avance institucional: **90.62%**
+Componentes registrados: **33**  
+Avance institucional: **90.91%**
 
 ## Asistente e integraciones
 
@@ -50,6 +50,7 @@ Avance institucional: **90.62%**
 |---|---|---|---|---|
 | SPT-013A | Learning Ecosystem Foundation | implemented | 1.0.0 | releases/SPT-013A-v1.0.1 |
 | SPT-013B | Gestor Institucional del Diccionario Digital | implemented | 1.0.0 | releases/SPT-013B-v1.0.0 |
+| SPT-014 | Motor Multimedia Inteligente | implemented | 1.0.0 | releases/SPT-014-v1.0.0 |
 
 ## Gobierno Digital
 

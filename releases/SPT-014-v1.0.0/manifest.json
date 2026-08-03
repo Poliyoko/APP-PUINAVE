@@ -1,0 +1,27 @@
+{
+    "increment_code":  "SPT-014",
+    "version":  "1.0.0",
+    "status":  "implemented_and_tested",
+    "files":  [
+                  "cli.py",
+                  "demo-output.json",
+                  "demo-request.json",
+                  "Invoke-SPT014-MultimediaEngine.ps1",
+                  "manifest.json",
+                  "manifest.py",
+                  "models.py",
+                  "oda.py",
+                  "repository.py",
+                  "service.py",
+                  "SPT-014-Arquitectura.md",
+                  "SPT-014-component.json",
+                  "SPT-014-implementation-evidence.json",
+                  "SPT-014-media-schema.json",
+                  "SPT-014-ODA-Multimedia.md",
+                  "SPT-014-policy.json",
+                  "SPT-014-Politica-Multimedia.md",
+                  "test_SPT_014_intelligent_multimedia_engine.py",
+                  "validation.py",
+                  "__init__.py"
+              ]
+}

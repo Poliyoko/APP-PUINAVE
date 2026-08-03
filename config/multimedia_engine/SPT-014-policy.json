@@ -1,0 +1,16 @@
+{
+  "component": "SPT-014",
+  "version": "1.0.0",
+  "validated_media_only_for_oda": true,
+  "relative_repository_uris_only": true,
+  "no_invention": true,
+  "local_first": true,
+  "free_open_technology": true,
+  "mandatory_proprietary_dependencies": [],
+  "required_oda_media": [
+    "image",
+    "audio_puinave",
+    "audio_spanish",
+    "audio_english_us"
+  ]
+}

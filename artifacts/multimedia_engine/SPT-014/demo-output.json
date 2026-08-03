@@ -1,0 +1,74 @@
+{
+  "operation": "build_oda",
+  "status": "ok",
+  "data": {
+    "oda_id": "ODA-MEDIA-LEX-001",
+    "entry_id": "LEX-001",
+    "resources": [
+      {
+        "resource_id": "MED-001",
+        "entry_id": "LEX-001",
+        "media_type": "image",
+        "language": "und",
+        "uri": "media/images/LEX-001.webp",
+        "format": "webp",
+        "validated": true,
+        "autoplay": false,
+        "duration_seconds": null,
+        "checksum": "",
+        "metadata": {}
+      },
+      {
+        "resource_id": "MED-002",
+        "entry_id": "LEX-001",
+        "media_type": "audio_puinave",
+        "language": "pu",
+        "uri": "media/audio/LEX-001-pu.wav",
+        "format": "wav",
+        "validated": true,
+        "autoplay": false,
+        "duration_seconds": null,
+        "checksum": "",
+        "metadata": {}
+      },
+      {
+        "resource_id": "MED-003",
+        "entry_id": "LEX-001",
+        "media_type": "audio_spanish",
+        "language": "es",
+        "uri": "media/audio/LEX-001-es.wav",
+        "format": "wav",
+        "validated": true,
+        "autoplay": false,
+        "duration_seconds": null,
+        "checksum": "",
+        "metadata": {}
+      },
+      {
+        "resource_id": "MED-004",
+        "entry_id": "LEX-001",
+        "media_type": "audio_english_us",
+        "language": "en-US",
+        "uri": "media/audio/LEX-001-en.wav",
+        "format": "wav",
+        "validated": true,
+        "autoplay": false,
+        "duration_seconds": null,
+        "checksum": "",
+        "metadata": {}
+      }
+    ],
+    "required_types": [
+      "audio_english_us",
+      "audio_puinave",
+      "audio_spanish",
+      "image"
+    ],
+    "missing_types": [],
+    "complete": true,
+    "validated_only": true,
+    "no_invention": true
+  },
+  "warnings": [],
+  "no_invention": true
+}

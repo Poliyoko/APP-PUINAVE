@@ -1,0 +1,17 @@
+{
+    "increment_code":  "SPT-014",
+    "version":  "1.0.0",
+    "status":  "implemented_and_tested",
+    "generated_at_utc":  "2026-08-03T03:03:18.7658679Z",
+    "specific_tests":  18,
+    "full_suite_executed":  true,
+    "demo_status":  "ok",
+    "demo_entry_id":  "LEX-001",
+    "demo_oda_complete":  true,
+    "demo_resource_count":  4,
+    "missing_types":  [
+
+                      ],
+    "no_invention":  true,
+    "backup":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-014\\backups\\pre-SPT014-20260802-220237"
+}

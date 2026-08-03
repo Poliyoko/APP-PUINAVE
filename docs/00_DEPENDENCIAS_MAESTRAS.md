@@ -139,3 +139,14 @@
 | SPT-013B | SPT-007B | Interna |
 | SPT-013B | SPT-012 | Interna |
 | SPT-013B | SPT-013A | Interna |
+| SPT-014 | SGD-114D | Interna |
+| SPT-014 | SGD-114E | Interna |
+| SPT-014 | SGD-115A | Interna |
+| SPT-014 | SGD-116 | Interna |
+| SPT-014 | SPT-002 | Interna |
+| SPT-014 | SPT-003A | Interna |
+| SPT-014 | SPT-003B | Interna |
+| SPT-014 | SPT-003C | Interna |
+| SPT-014 | SPT-012 | Interna |
+| SPT-014 | SPT-013A | Interna |
+| SPT-014 | SPT-013B | Interna |

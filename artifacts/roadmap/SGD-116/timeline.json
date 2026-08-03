@@ -270,6 +270,15 @@
     "last_git_date": "2026-08-02T21:20:30-05:00"
   },
   {
+    "code": "SPT-013B",
+    "name": "Gestor Institucional del Diccionario Digital",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-013B-v1.0.0",
+    "last_git_date": "2026-08-02T21:46:53-05:00"
+  },
+  {
     "code": "SPT-011",
     "name": "Plataforma Operativa SGODA-PUINAVE",
     "phase": "Fase Tecnológica III",
@@ -279,12 +288,12 @@
     "last_git_date": null
   },
   {
-    "code": "SPT-013B",
-    "name": "Gestor Institucional del Diccionario Digital",
+    "code": "SPT-014",
+    "name": "Motor Multimedia Inteligente",
     "phase": "Fase Tecnológica IV",
     "status": "implemented",
     "version": "1.0.0",
-    "release": "releases/SPT-013B-v1.0.0",
+    "release": "releases/SPT-014-v1.0.0",
     "last_git_date": null
   }
 ]

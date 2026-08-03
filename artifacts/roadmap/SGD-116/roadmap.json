@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-03T02:46:51.998459+00:00",
+  "generated_at_utc": "2026-08-03T03:03:47.617404+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -1173,6 +1173,52 @@
         "discovery_source": "descriptor",
         "raw_code": "SPT-013B",
         "canonical_code": "SPT-013B",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-014",
+      "name": "Motor Multimedia Inteligente",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "intelligent_multimedia_engine",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-012",
+        "SPT-002",
+        "SPT-003A",
+        "SPT-003B",
+        "SPT-003C",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/multimedia_engine/models.py",
+        "src/sgoda/multimedia_engine/validation.py",
+        "src/sgoda/multimedia_engine/repository.py",
+        "src/sgoda/multimedia_engine/manifest.py",
+        "src/sgoda/multimedia_engine/oda.py",
+        "src/sgoda/multimedia_engine/service.py",
+        "src/sgoda/multimedia_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/multimedia_engine/test_SPT_014_intelligent_multimedia_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md"
+      ],
+      "release_path": "releases/SPT-014-v1.0.0",
+      "config_path": "config/multimedia_engine/SPT-014-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-014",
+        "canonical_code": "SPT-014",
         "alias_applied": false
       }
     }

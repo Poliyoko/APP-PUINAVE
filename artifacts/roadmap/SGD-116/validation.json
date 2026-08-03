@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "component_count": 32,
+  "component_count": 33,
   "duplicate_codes": [],
   "broken_paths": [],
   "missing_dependencies": [],
@@ -98,5 +98,5 @@
   ],
   "dependency_cycles": [],
   "missing_master_documents": [],
-  "generated_at_utc": "2026-08-03T02:46:52.008507+00:00"
+  "generated_at_utc": "2026-08-03T03:03:47.630126+00:00"
 }
