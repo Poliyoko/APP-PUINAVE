@@ -194,3 +194,13 @@
 | SPT-017 | SPT-014 | Interna |
 | SPT-017 | SPT-015 | Interna |
 | SPT-017 | SPT-016 | Interna |
+| SPT-018 | SGD-114F | Interna |
+| SPT-018 | SGD-114G | Interna |
+| SPT-018 | SGD-115 | Interna |
+| SPT-018 | SGD-116 | Interna |
+| SPT-018 | SGD-117 | Interna |
+| SPT-018 | SPB-007 | Interna |
+| SPT-018 | SPT-008 | Interna |
+| SPT-018 | SPT-015 | Interna |
+| SPT-018 | SPT-016 | Interna |
+| SPT-018 | SPT-017 | Interna |

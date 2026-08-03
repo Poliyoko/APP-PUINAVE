@@ -1,0 +1,44 @@
+{
+  "recommendation_id": "rec:577c2af2b0ae0e58",
+  "learner_id": "demo",
+  "objective": "Aprender la palabra AMDA",
+  "strategy": "contextual_lexical_practice",
+  "difficulty": "guided",
+  "content_ids": [
+    "lex:AMDA"
+  ],
+  "explanation": "Se seleccionó la estrategia contextual_lexical_practice con dificultad guided para apoyar el objetivo: Aprender la palabra AMDA.",
+  "evidence": [
+    "SPT-017 knowledge retrieval",
+    "SPT-016 learning analytics profile",
+    "SPT-015 adaptive assessment signals"
+  ],
+  "safeguards": [
+    "cultural_authority_required_for_sensitive_content",
+    "no_identity_inference",
+    "no_replacement_of_community_teachers",
+    "explainable_recommendations",
+    "human_review_available"
+  ],
+  "confidence": 0.95,
+  "status": "proposed",
+  "metadata": {
+    "decision_evidence": {
+      "learner_id": "demo",
+      "source_components": [
+        "SPT-017",
+        "SPT-016",
+        "SPT-015"
+      ],
+      "rationale": [
+        "SPT-017 knowledge retrieval",
+        "SPT-016 learning analytics profile",
+        "SPT-015 adaptive assessment signals"
+      ],
+      "generated_at_utc": "2026-08-03T18:38:14.552160+00:00",
+      "explainable": true
+    },
+    "native_ecosystem": true,
+    "mandatory_proprietary_dependencies": []
+  }
+}

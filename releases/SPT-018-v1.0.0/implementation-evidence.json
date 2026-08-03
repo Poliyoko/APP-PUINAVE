@@ -1,0 +1,84 @@
+{
+    "increment_code":  "SPT-018",
+    "version":  "1.0.0",
+    "status":  "implemented_tested_and_candidate_for_closure",
+    "prevalidated_package":  "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                             [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m12 passed\u001b[0m\u001b[32m in 0.12s\u001b[0m\u001b[0m",
+    "specific_and_integration_tests":  {
+                                           "executed":  73,
+                                           "passed":  73,
+                                           "failures":  0,
+                                           "errors":  0,
+                                           "skipped":  0,
+                                           "approved":  true
+                                       },
+    "full_suite":  {
+                       "executed":  589,
+                       "passed":  589,
+                       "failures":  0,
+                       "errors":  0,
+                       "skipped":  0,
+                       "approved":  true
+                   },
+    "demonstration":  {
+                          "recommendation_id":  "rec:577c2af2b0ae0e58",
+                          "learner_id":  "demo",
+                          "objective":  "Aprender la palabra AMDA",
+                          "strategy":  "contextual_lexical_practice",
+                          "difficulty":  "guided",
+                          "content_ids":  [
+                                              "lex:AMDA"
+                                          ],
+                          "explanation":  "Se seleccionó la estrategia contextual_lexical_practice con dificultad guided para apoyar el objetivo: Aprender la palabra AMDA.",
+                          "evidence":  [
+                                           "SPT-017 knowledge retrieval",
+                                           "SPT-016 learning analytics profile",
+                                           "SPT-015 adaptive assessment signals"
+                                       ],
+                          "safeguards":  [
+                                             "cultural_authority_required_for_sensitive_content",
+                                             "no_identity_inference",
+                                             "no_replacement_of_community_teachers",
+                                             "explainable_recommendations",
+                                             "human_review_available"
+                                         ],
+                          "confidence":  0.95,
+                          "status":  "proposed",
+                          "metadata":  {
+                                           "decision_evidence":  {
+                                                                     "learner_id":  "demo",
+                                                                     "source_components":  [
+                                                                                               "SPT-017",
+                                                                                               "SPT-016",
+                                                                                               "SPT-015"
+                                                                                           ],
+                                                                     "rationale":  [
+                                                                                       "SPT-017 knowledge retrieval",
+                                                                                       "SPT-016 learning analytics profile",
+                                                                                       "SPT-015 adaptive assessment signals"
+                                                                                   ],
+                                                                     "generated_at_utc":  "2026-08-03T18:38:14.552160+00:00",
+                                                                     "explainable":  true
+                                                                 },
+                                           "native_ecosystem":  true,
+                                           "mandatory_proprietary_dependencies":  [
+
+                                                                                  ]
+                                       }
+                      },
+    "health":  {
+                   "component":  "SPT-018",
+                   "version":  "1.0.0",
+                   "status":  "operational",
+                   "native_ecosystem":  true,
+                   "mandatory_proprietary_dependencies":  [
+
+                                                          ],
+                   "knowledge_source":  "SPT-017",
+                   "adaptive_sources":  [
+                                            "SPT-015",
+                                            "SPT-016"
+                                        ],
+                   "tutor_integration":  "SPT-008"
+               },
+    "generated_at_utc":  "2026-08-03T18:39:13.9545760Z"
+}

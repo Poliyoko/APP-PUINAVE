@@ -1,0 +1,20 @@
+{
+  "policy_id": "SPT-018-POLICY-v1.0.0",
+  "component": "SPT-018",
+  "principles": [
+    "community cultural authority",
+    "human review available",
+    "explainable recommendations",
+    "no identity inference",
+    "data minimization",
+    "native open ecosystem",
+    "no mandatory proprietary dependencies"
+  ],
+  "sensitive_domains": [
+    "sacred",
+    "restricted",
+    "ceremonial",
+    "community_sensitive"
+  ],
+  "authorization_token": "community_authorized"
+}

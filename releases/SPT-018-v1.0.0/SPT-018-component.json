@@ -1,0 +1,30 @@
+{
+  "increment_code": "SPT-018",
+  "name": "IA Pedagógica SGODA",
+  "version": "1.0.0",
+  "status": "implemented_tested_and_candidate_for_closure",
+  "phase": "Fase Tecnológica IV",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SPT-008",
+    "SPT-015",
+    "SPT-016",
+    "SPT-017",
+    "SGD-114F",
+    "SGD-114G",
+    "SGD-115",
+    "SGD-116",
+    "SGD-117",
+    "SPB-007"
+  ],
+  "capabilities": [
+    "adaptive pedagogical recommendations",
+    "knowledge-grounded content selection",
+    "explainable decisions",
+    "cultural safeguards",
+    "learning profile adaptation",
+    "assessment-aware difficulty",
+    "human review routing"
+  ]
+}

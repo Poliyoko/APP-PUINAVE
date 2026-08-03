@@ -2189,5 +2189,37 @@
       "artifacts/pmo/SPT-017-v1.0.0/test-reports/specific-summary.md",
       "artifacts/pmo/SPT-017-v1.0.0/test-reports/specific.xml"
     ]
+  },
+  {
+    "code": "SPT-018",
+    "name": "IA Pedagógica SGODA",
+    "version": "1.0.0",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "component_type": "no declarado",
+    "config_path": "config/pedagogical_ai/SPT-018-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-018/SPT-018-Arquitectura.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-018/SPT-018-Especificacion-Funcional.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-018/SPT-018-Manual-Operativo.md"
+    ],
+    "release_paths": [
+      "releases/SPT-018-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SPT-018-v1.0.0/amda-pedagogical-demonstration.json",
+      "artifacts/pmo/SPT-018-v1.0.0/health.json",
+      "artifacts/pmo/SPT-018-v1.0.0/implementation-evidence.json",
+      "artifacts/pmo/SPT-018-v1.0.0/implementation-evidence.md",
+      "artifacts/pmo/SPT-018-v1.0.0/release-validation.json",
+      "artifacts/pmo/SPT-018-v1.0.0/repository-validation.json",
+      "artifacts/pmo/SPT-018-v1.0.0/test-reports/full-suite-summary.json",
+      "artifacts/pmo/SPT-018-v1.0.0/test-reports/full-suite-summary.md",
+      "artifacts/pmo/SPT-018-v1.0.0/test-reports/full-suite.xml",
+      "artifacts/pmo/SPT-018-v1.0.0/test-reports/specific-summary.json",
+      "artifacts/pmo/SPT-018-v1.0.0/test-reports/specific-summary.md",
+      "artifacts/pmo/SPT-018-v1.0.0/test-reports/specific.xml"
+    ]
   }
 ]

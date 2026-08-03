@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-03T13:26:25.075676+00:00",
+  "generated_at_utc": "2026-08-03T18:41:05.840265+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -1428,6 +1428,37 @@
         "discovery_source": "descriptor",
         "raw_code": "SPT-017",
         "canonical_code": "SPT-017",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-018",
+      "name": "IA Pedagógica SGODA",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "component_type": "unspecified",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-008",
+        "SPT-015",
+        "SPT-016",
+        "SPT-017",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "release_path": "releases/SPT-018-v1.0.0",
+      "config_path": "config/pedagogical_ai/SPT-018-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-018",
+        "canonical_code": "SPT-018",
         "alias_applied": false
       }
     }

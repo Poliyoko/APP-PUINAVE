@@ -357,6 +357,15 @@
     "status": "implemented_tested_and_candidate_for_closure",
     "version": "1.0.0",
     "release": "releases/SPT-017-v1.0.0",
+    "last_git_date": "2026-08-03T08:26:27-05:00"
+  },
+  {
+    "code": "SPT-018",
+    "name": "IA Pedagógica SGODA",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "version": "1.0.0",
+    "release": "releases/SPT-018-v1.0.0",
     "last_git_date": null
   }
 ]

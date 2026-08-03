@@ -58,6 +58,7 @@
 | SPT-016 | Motor de Analítica del Aprendizaje | 1.0.0 | implemented_tested_and_officially_closed | `config/learning_analytics/SPT-016-component.json` | 0 | 0 | 9 | 2 | 34 |
 | SPT-016A | Evidence Compatibility Patch | 1.0.1 | implemented | `config/learning_analytics/SPT-016A-component.json` | 0 | 0 | 1 | 1 | 13 |
 | SPT-017 | Centro de Conocimiento Puinave | 1.0.0 | implemented_tested_and_candidate_for_closure | `config/puinave_knowledge_center/SPT-017-component.json` | 0 | 0 | 2 | 1 | 11 |
+| SPT-018 | IA Pedagógica SGODA | 1.0.0 | implemented_tested_and_candidate_for_closure | `config/pedagogical_ai/SPT-018-component.json` | 0 | 0 | 3 | 1 | 12 |
 
 ## Detalle por componente
 
@@ -708,4 +709,16 @@
 - **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-017/SPT-017-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-017/SPT-017-Manual-Operativo.md`
 - **Releases:** `releases/SPT-017-v1.0.0`
 - **Evidencias:** 11 archivo(s) identificado(s).
+
+### SPT-018 — IA Pedagógica SGODA
+
+- **Versión:** 1.0.0
+- **Estado:** implemented_tested_and_candidate_for_closure
+- **Tipo:** no declarado
+- **Configuración:** `config/pedagogical_ai/SPT-018-component.json`
+- **Código:** No declarado.
+- **Pruebas:** No declaradas.
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-018/SPT-018-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-018/SPT-018-Especificacion-Funcional.md`, `docs/08_Fase_Tecnologica_IV/SPT-018/SPT-018-Manual-Operativo.md`
+- **Releases:** `releases/SPT-018-v1.0.0`
+- **Evidencias:** 12 archivo(s) identificado(s).
 

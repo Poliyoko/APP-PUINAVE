@@ -1,0 +1,12 @@
+{
+  "component": "SPT-018-v1.0.0",
+  "scope": "specific_and_integration",
+  "executed": 73,
+  "passed": 73,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 1.013,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-018-v1.0.0\\test-reports\\specific.xml"
+}

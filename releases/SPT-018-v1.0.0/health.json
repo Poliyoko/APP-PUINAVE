@@ -1,0 +1,13 @@
+{
+  "component": "SPT-018",
+  "version": "1.0.0",
+  "status": "operational",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "knowledge_source": "SPT-017",
+  "adaptive_sources": [
+    "SPT-015",
+    "SPT-016"
+  ],
+  "tutor_integration": "SPT-008"
+}

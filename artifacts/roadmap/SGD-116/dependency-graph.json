@@ -39,7 +39,8 @@
     "SPT-015",
     "SPT-016",
     "SPT-016A",
-    "SPT-017"
+    "SPT-017",
+    "SPT-018"
   ],
   "edges": [
     {
@@ -801,6 +802,46 @@
     {
       "source": "SPT-017",
       "target": "SPT-016"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-114F"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-114G"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-115"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-116"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-117"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPB-007"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-008"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-015"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-016"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-017"
     }
   ],
   "resolved_aliases": [
@@ -1846,6 +1887,56 @@
     {
       "source": "SPT-017",
       "target": "SPT-016",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-114F",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-114G",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-115",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-116",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SGD-117",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPB-007",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-008",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-015",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-016",
+      "status": "FOUND"
+    },
+    {
+      "source": "SPT-018",
+      "target": "SPT-017",
       "status": "FOUND"
     }
   ]
