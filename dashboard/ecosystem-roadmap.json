@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at_utc": "2026-08-03T03:03:47.617404+00:00",
+  "generated_at_utc": "2026-08-03T03:33:41.657735+00:00",
   "components": [
     {
       "code": "ADR-010",
@@ -157,6 +157,42 @@
         "discovery_source": "descriptor",
         "raw_code": "SGD-114E",
         "canonical_code": "SGD-114E",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SGD-114F",
+      "name": "Institutional Test Evidence Synchronizer",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "institutional_test_evidence_synchronizer",
+      "phase": "Gobierno Digital",
+      "dependencies": [
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "source_paths": [
+        "src/sgoda/governance/test_evidence/models.py",
+        "src/sgoda/governance/test_evidence/junit_parser.py",
+        "src/sgoda/governance/test_evidence/synchronizer.py",
+        "src/sgoda/governance/test_evidence/cli.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114F_institutional_test_evidence_synchronizer.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+        "docs/01_Gobierno/SGD-114F-Migracion-Instaladores.md"
+      ],
+      "release_path": "releases/SGD-114F-v1.0.0",
+      "config_path": "config/governance/SGD-114F-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SGD-114F",
+        "canonical_code": "SGD-114F",
         "alias_applied": false
       }
     },
@@ -1219,6 +1255,51 @@
         "discovery_source": "descriptor",
         "raw_code": "SPT-014",
         "canonical_code": "SPT-014",
+        "alias_applied": false
+      }
+    },
+    {
+      "code": "SPT-015",
+      "name": "Motor de Evaluación Adaptativa",
+      "version": "1.0.0",
+      "status": "implemented",
+      "component_type": "adaptive_assessment_engine",
+      "phase": "Fase Tecnológica IV",
+      "dependencies": [
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-014",
+        "SPT-012",
+        "SPT-008",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "source_paths": [
+        "src/sgoda/adaptive_assessment/models.py",
+        "src/sgoda/adaptive_assessment/repository.py",
+        "src/sgoda/adaptive_assessment/scoring.py",
+        "src/sgoda/adaptive_assessment/adaptation.py",
+        "src/sgoda/adaptive_assessment/feedback.py",
+        "src/sgoda/adaptive_assessment/exporter.py",
+        "src/sgoda/adaptive_assessment/service.py",
+        "src/sgoda/adaptive_assessment/cli.py"
+      ],
+      "test_paths": [
+        "tests/adaptive_assessment/test_SPT_015_adaptive_assessment_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md"
+      ],
+      "release_path": "releases/SPT-015-v1.0.0",
+      "config_path": "config/adaptive_assessment/SPT-015-component.json",
+      "metadata": {
+        "discovery_source": "descriptor",
+        "raw_code": "SPT-015",
+        "canonical_code": "SPT-015",
         "alias_applied": false
       }
     }

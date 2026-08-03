@@ -279,6 +279,24 @@
     "last_git_date": "2026-08-02T21:46:53-05:00"
   },
   {
+    "code": "SPT-014",
+    "name": "Motor Multimedia Inteligente",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-014-v1.0.0",
+    "last_git_date": "2026-08-02T22:03:49-05:00"
+  },
+  {
+    "code": "SGD-114F",
+    "name": "Institutional Test Evidence Synchronizer",
+    "phase": "Gobierno Digital",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SGD-114F-v1.0.0",
+    "last_git_date": null
+  },
+  {
     "code": "SPT-011",
     "name": "Plataforma Operativa SGODA-PUINAVE",
     "phase": "Fase Tecnológica III",
@@ -288,12 +306,12 @@
     "last_git_date": null
   },
   {
-    "code": "SPT-014",
-    "name": "Motor Multimedia Inteligente",
+    "code": "SPT-015",
+    "name": "Motor de Evaluación Adaptativa",
     "phase": "Fase Tecnológica IV",
     "status": "implemented",
     "version": "1.0.0",
-    "release": "releases/SPT-014-v1.0.0",
+    "release": "releases/SPT-015-v1.0.0",
     "last_git_date": null
   }
 ]

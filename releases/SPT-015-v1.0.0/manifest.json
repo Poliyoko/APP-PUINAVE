@@ -1,0 +1,28 @@
+{
+    "increment_code":  "SPT-015",
+    "version":  "1.0.0",
+    "status":  "implemented_and_tested",
+    "files":  [
+                  "adaptation.py",
+                  "cli.py",
+                  "demo-output.json",
+                  "demo-request.json",
+                  "exporter.py",
+                  "feedback.py",
+                  "Invoke-SPT015-AdaptiveAssessment.ps1",
+                  "models.py",
+                  "repository.py",
+                  "scoring.py",
+                  "service.py",
+                  "SPT-015-Arquitectura.md",
+                  "SPT-015-assessment-schema.json",
+                  "SPT-015-component.json",
+                  "SPT-015-implementation-evidence.json",
+                  "SPT-015-Modelo-Adaptativo.md",
+                  "SPT-015-policy.json",
+                  "SPT-015-Rubricas.md",
+                  "SPT-015-rubrics.json",
+                  "test_SPT_015_adaptive_assessment_engine.py",
+                  "__init__.py"
+              ]
+}

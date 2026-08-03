@@ -1,0 +1,13 @@
+{
+  "operation": "mastery",
+  "status": "ok",
+  "data": {
+    "learner_id": "LEARNER-001",
+    "competency": "vocabulary",
+    "attempts": 1,
+    "mastery": 1.0,
+    "recommended_difficulty": 3
+  },
+  "warnings": [],
+  "no_invention": true
+}

@@ -2,8 +2,8 @@
 
 > Documento generado automáticamente por SGD-116.
 
-Componentes registrados: **33**  
-Avance institucional: **90.91%**
+Componentes registrados: **35**  
+Avance institucional: **91.43%**
 
 ## Asistente e integraciones
 
@@ -51,6 +51,7 @@ Avance institucional: **90.91%**
 | SPT-013A | Learning Ecosystem Foundation | implemented | 1.0.0 | releases/SPT-013A-v1.0.1 |
 | SPT-013B | Gestor Institucional del Diccionario Digital | implemented | 1.0.0 | releases/SPT-013B-v1.0.0 |
 | SPT-014 | Motor Multimedia Inteligente | implemented | 1.0.0 | releases/SPT-014-v1.0.0 |
+| SPT-015 | Motor de Evaluación Adaptativa | implemented | 1.0.0 | releases/SPT-015-v1.0.0 |
 
 ## Gobierno Digital
 
@@ -58,6 +59,7 @@ Avance institucional: **90.91%**
 |---|---|---|---|---|
 | SGD-114D | Adaptive Release Canonical Resolver | implemented | 1.0.1 | releases/SGD-114D-v1.0.0 |
 | SGD-114E | Native Ecosystem Architecture Policy | implemented | 1.0.2 | Pendiente |
+| SGD-114F | Institutional Test Evidence Synchronizer | implemented | 1.0.0 | releases/SGD-114F-v1.0.0 |
 | SGD-115A | Documentation Canonical Component Resolver | implemented | 1.0.0 | releases/SGD-115A-v1.0.0 |
 
 ## Gobierno y arquitectura

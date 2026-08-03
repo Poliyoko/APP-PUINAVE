@@ -1,0 +1,18 @@
+{
+  "component": "SPT-015",
+  "version": "1.0.0",
+  "mastery_thresholds": {
+    "reinforcement": 0.0,
+    "intermediate": 0.55,
+    "advanced": 0.85
+  },
+  "score": {
+    "correct": 1.0,
+    "incorrect": 0.0
+  },
+  "difficulty_weights": {
+    "1": 1,
+    "2": 2,
+    "3": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "component": "SGD-114F",
+  "version": "1.0.0",
+  "source_of_truth": "pytest_junit_xml",
+  "manual_test_counts_forbidden": true,
+  "required_metrics": [
+    "executed",
+    "passed",
+    "failures",
+    "errors",
+    "skipped",
+    "duration_seconds",
+    "approved"
+  ],
+  "publication_requires_approved_tests": true,
+  "mandatory_proprietary_dependencies": []
+}

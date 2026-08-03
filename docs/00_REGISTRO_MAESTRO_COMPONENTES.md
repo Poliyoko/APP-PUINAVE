@@ -12,6 +12,7 @@
 | SGD-114D-v1.0.1 | Adaptive Release Canonical Resolver | 1.0.1 | implemented | `config/governance/SGD-114D-v1.0.1-component.json` | 1 | 1 | 1 | 0 | 1 |
 | SGD-114E | Native Ecosystem Architecture Policy | 1.0.2 | implemented | `config/governance/SGD-114E-component.json` | 5 | 1 | 3 | 1 | 23 |
 | SGD-114E-C1 | Native Ecosystem Validator Fix | 1.0.0 | implemented | `config/governance/SGD-114E-C1-component.json` | 2 | 1 | 1 | 1 | 10 |
+| SGD-114F | Institutional Test Evidence Synchronizer | 1.0.0 | implemented | `config/governance/SGD-114F-component.json` | 4 | 1 | 2 | 1 | 28 |
 | SGD-115 | Sistema Maestro de Documentación del Proyecto | 1.0.0 | technically_completed | `config/governance/SGD-115-component.json` | 1 | 1 | 5 | 1 | 9 |
 | SGD-115A | Documentation Canonical Component Resolver | 1.0.0 | implemented | `config/documentation/SGD-115A-component.json` | 1 | 1 | 1 | 1 | 3 |
 | SGD-116 | Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE | 1.0.0 | technically_completed | `config/roadmap/SGD-116-component.json` | 8 | 1 | 6 | 1 | 47 |
@@ -42,6 +43,7 @@
 | SPT-013A | Learning Ecosystem Foundation | 1.0.0 | implemented | `config/learning_foundation/SPT-013A-component.json` | 4 | 1 | 2 | 1 | 8 |
 | SPT-013B | Gestor Institucional del Diccionario Digital | 1.0.0 | implemented | `config/dictionary_manager/SPT-013B-component.json` | 6 | 1 | 3 | 1 | 19 |
 | SPT-014 | Motor Multimedia Inteligente | 1.0.0 | implemented | `config/multimedia_engine/SPT-014-component.json` | 7 | 1 | 3 | 1 | 20 |
+| SPT-015 | Motor de Evaluación Adaptativa | 1.0.0 | implemented | `config/adaptive_assessment/SPT-015-component.json` | 8 | 1 | 3 | 1 | 12 |
 
 ## Detalle por componente
 
@@ -140,6 +142,18 @@
 - **Documentación:** `docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md`
 - **Releases:** `releases/SGD-114E-C1-v1.0.0`
 - **Evidencias:** 10 archivo(s) identificado(s).
+
+### SGD-114F — Institutional Test Evidence Synchronizer
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** institutional_test_evidence_synchronizer
+- **Configuración:** `config/governance/SGD-114F-component.json`
+- **Código:** `src/sgoda/governance/test_evidence/cli.py`, `src/sgoda/governance/test_evidence/junit_parser.py`, `src/sgoda/governance/test_evidence/models.py`, `src/sgoda/governance/test_evidence/synchronizer.py`
+- **Pruebas:** `tests/governance/test_SGD_114F_institutional_test_evidence_synchronizer.py`
+- **Documentación:** `docs/01_Gobierno/SGD-114F-Institutional-Test-Evidence-Synchronizer.md`, `docs/01_Gobierno/SGD-114F-Migracion-Instaladores.md`
+- **Releases:** `releases/SGD-114F-v1.0.0`
+- **Evidencias:** 28 archivo(s) identificado(s).
 
 ### SGD-115 — Sistema Maestro de Documentación del Proyecto
 
@@ -500,4 +514,16 @@
 - **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md`, `docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md`
 - **Releases:** `releases/SPT-014-v1.0.0`
 - **Evidencias:** 20 archivo(s) identificado(s).
+
+### SPT-015 — Motor de Evaluación Adaptativa
+
+- **Versión:** 1.0.0
+- **Estado:** implemented
+- **Tipo:** adaptive_assessment_engine
+- **Configuración:** `config/adaptive_assessment/SPT-015-component.json`
+- **Código:** `src/sgoda/adaptive_assessment/adaptation.py`, `src/sgoda/adaptive_assessment/cli.py`, `src/sgoda/adaptive_assessment/exporter.py`, `src/sgoda/adaptive_assessment/feedback.py`, `src/sgoda/adaptive_assessment/models.py`, `src/sgoda/adaptive_assessment/repository.py`, `src/sgoda/adaptive_assessment/scoring.py`, `src/sgoda/adaptive_assessment/service.py`
+- **Pruebas:** `tests/adaptive_assessment/test_SPT_015_adaptive_assessment_engine.py`
+- **Documentación:** `docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md`, `docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md`, `docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md`
+- **Releases:** `releases/SPT-015-v1.0.0`
+- **Evidencias:** 12 archivo(s) identificado(s).
 

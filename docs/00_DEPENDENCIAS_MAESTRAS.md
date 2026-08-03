@@ -14,6 +14,11 @@
 | SGD-114E | SGD-114D | Interna |
 | SGD-114E | SGD-115A | Interna |
 | SGD-114E | SGD-116 | Interna |
+| SGD-114F | SGD-114D | Interna |
+| SGD-114F | SGD-114E | Interna |
+| SGD-114F | SGD-115A | Interna |
+| SGD-114F | SGD-116 | Interna |
+| SGD-114F | SPB-007 | Interna |
 | SGD-115 | SGD-114 | Interna |
 | SGD-115A | SGD-114D | Interna |
 | SGD-115A | SGD-115 | Interna |
@@ -150,3 +155,12 @@
 | SPT-014 | SPT-012 | Interna |
 | SPT-014 | SPT-013A | Interna |
 | SPT-014 | SPT-013B | Interna |
+| SPT-015 | SGD-114D | Interna |
+| SPT-015 | SGD-114E | Interna |
+| SPT-015 | SGD-115A | Interna |
+| SPT-015 | SGD-116 | Interna |
+| SPT-015 | SPT-008 | Interna |
+| SPT-015 | SPT-012 | Interna |
+| SPT-015 | SPT-013A | Interna |
+| SPT-015 | SPT-013B | Interna |
+| SPT-015 | SPT-014 | Interna |

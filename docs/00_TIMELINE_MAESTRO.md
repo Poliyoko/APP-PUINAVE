@@ -35,5 +35,7 @@
 | 2026-08-02T18:51:09-05:00 | SGD-114E | Native Ecosystem Architecture Policy | implemented | Pendiente |
 | 2026-08-02T21:20:30-05:00 | SPT-013A | Learning Ecosystem Foundation | implemented | releases/SPT-013A-v1.0.1 |
 | 2026-08-02T21:46:53-05:00 | SPT-013B | Gestor Institucional del Diccionario Digital | implemented | releases/SPT-013B-v1.0.0 |
+| 2026-08-02T22:03:49-05:00 | SPT-014 | Motor Multimedia Inteligente | implemented | releases/SPT-014-v1.0.0 |
+| No determinada | SGD-114F | Institutional Test Evidence Synchronizer | implemented | releases/SGD-114F-v1.0.0 |
 | No determinada | SPT-011 | Plataforma Operativa SGODA-PUINAVE | implemented | releases/SPT-011-v1.0.0 |
-| No determinada | SPT-014 | Motor Multimedia Inteligente | implemented | releases/SPT-014-v1.0.0 |
+| No determinada | SPT-015 | Motor de Evaluación Adaptativa | implemented | releases/SPT-015-v1.0.0 |

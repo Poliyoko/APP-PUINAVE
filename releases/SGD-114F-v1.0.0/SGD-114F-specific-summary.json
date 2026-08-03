@@ -1,0 +1,12 @@
+{
+  "component": "SGD-114F",
+  "scope": "specific",
+  "executed": 12,
+  "passed": 12,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 0.157,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F\\test-reports\\SGD-114F-specific.xml"
+}

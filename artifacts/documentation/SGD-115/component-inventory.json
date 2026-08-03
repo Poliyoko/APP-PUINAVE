@@ -259,6 +259,60 @@
     ]
   },
   {
+    "code": "SGD-114F",
+    "name": "Institutional Test Evidence Synchronizer",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "institutional_test_evidence_synchronizer",
+    "config_path": "config/governance/SGD-114F-component.json",
+    "source_paths": [
+      "src/sgoda/governance/test_evidence/cli.py",
+      "src/sgoda/governance/test_evidence/junit_parser.py",
+      "src/sgoda/governance/test_evidence/models.py",
+      "src/sgoda/governance/test_evidence/synchronizer.py"
+    ],
+    "test_paths": [
+      "tests/governance/test_SGD_114F_institutional_test_evidence_synchronizer.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+      "docs/01_Gobierno/SGD-114F-Migracion-Instaladores.md"
+    ],
+    "release_paths": [
+      "releases/SGD-114F-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/pmo/SGD-114F/SGD-114F-implementation-evidence.json",
+      "artifacts/pmo/SGD-114F/SGD-114F-native-result.json",
+      "artifacts/pmo/SGD-114F/SGD-114F-native-result.md",
+      "artifacts/pmo/SGD-114F/SGD-114F-policy-result.json",
+      "artifacts/pmo/SGD-114F/SGD-114F-policy-result.md",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223109/artifacts__pmo__SPT-015__SPT-015-implementation-evidence.json",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/artifacts__pmo__SPT-015__SPT-015-implementation-evidence.json",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/config__governance__SGD-114F-component.json",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/config__governance__SGD-114F-policy.json",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/docs__01_Gobierno__SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/docs__01_Gobierno__SGD-114F-Migracion-Instaladores.md",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/scripts__Invoke-InstitutionalPytest.ps1",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/scripts__Invoke-SGD114F-TestEvidenceSynchronizer.ps1",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence____init__.py",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__cli.py",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__junit_parser.py",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__models.py",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__synchronizer.py",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/tests__governance__test_SGD_114F_institutional_test_evidence_synchronizer.py",
+      "artifacts/pmo/SGD-114F/test-reports/SGD-114F-full-suite-summary.json",
+      "artifacts/pmo/SGD-114F/test-reports/SGD-114F-full-suite-summary.md",
+      "artifacts/pmo/SGD-114F/test-reports/SGD-114F-full-suite.xml",
+      "artifacts/pmo/SGD-114F/test-reports/SGD-114F-specific-summary.json",
+      "artifacts/pmo/SGD-114F/test-reports/SGD-114F-specific-summary.md",
+      "artifacts/pmo/SGD-114F/test-reports/SGD-114F-specific.xml",
+      "artifacts/pmo/SGD-114F/test-reports/SPT-015-specific-summary.json",
+      "artifacts/pmo/SGD-114F/test-reports/SPT-015-specific-summary.md",
+      "artifacts/pmo/SGD-114F/test-reports/SPT-015-specific.xml"
+    ]
+  },
+  {
     "code": "SGD-115",
     "name": "Sistema Maestro de Documentación del Proyecto",
     "version": "1.0.0",
@@ -1483,6 +1537,49 @@
       "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__service.py",
       "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__validation.py",
       "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/tests__multimedia_engine__test_SPT_014_intelligent_multimedia_engine.py"
+    ]
+  },
+  {
+    "code": "SPT-015",
+    "name": "Motor de Evaluación Adaptativa",
+    "version": "1.0.0",
+    "status": "implemented",
+    "component_type": "adaptive_assessment_engine",
+    "config_path": "config/adaptive_assessment/SPT-015-component.json",
+    "source_paths": [
+      "src/sgoda/adaptive_assessment/adaptation.py",
+      "src/sgoda/adaptive_assessment/cli.py",
+      "src/sgoda/adaptive_assessment/exporter.py",
+      "src/sgoda/adaptive_assessment/feedback.py",
+      "src/sgoda/adaptive_assessment/models.py",
+      "src/sgoda/adaptive_assessment/repository.py",
+      "src/sgoda/adaptive_assessment/scoring.py",
+      "src/sgoda/adaptive_assessment/service.py"
+    ],
+    "test_paths": [
+      "tests/adaptive_assessment/test_SPT_015_adaptive_assessment_engine.py"
+    ],
+    "documentation_paths": [
+      "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md",
+      "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md"
+    ],
+    "release_paths": [
+      "releases/SPT-015-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/adaptive_assessment/SPT-015/demo-output.json",
+      "artifacts/adaptive_assessment/SPT-015/demo-request.json",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223109/artifacts__pmo__SPT-015__SPT-015-implementation-evidence.json",
+      "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/artifacts__pmo__SPT-015__SPT-015-implementation-evidence.json",
+      "artifacts/pmo/SGD-114F/test-reports/SPT-015-specific-summary.json",
+      "artifacts/pmo/SGD-114F/test-reports/SPT-015-specific-summary.md",
+      "artifacts/pmo/SGD-114F/test-reports/SPT-015-specific.xml",
+      "artifacts/pmo/SPT-015/SPT-015-implementation-evidence.json",
+      "artifacts/pmo/SPT-015/SPT-015-native-result.json",
+      "artifacts/pmo/SPT-015/SPT-015-native-result.md",
+      "artifacts/pmo/SPT-015/SPT-015-policy-result.json",
+      "artifacts/pmo/SPT-015/SPT-015-policy-result.md"
     ]
   }
 ]

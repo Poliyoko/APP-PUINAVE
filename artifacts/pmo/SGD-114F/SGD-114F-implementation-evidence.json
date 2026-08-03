@@ -1,0 +1,41 @@
+{
+    "increment_code":  "SGD-114F",
+    "version":  "1.0.0",
+    "status":  "implemented_and_tested",
+    "generated_at_utc":  "2026-08-03T03:33:12.0533522Z",
+    "source_of_truth":  "pytest_junit_xml",
+    "specific_tests":  {
+                           "executed":  12,
+                           "passed":  12,
+                           "failures":  0,
+                           "errors":  0,
+                           "skipped":  0,
+                           "duration_seconds":  0.157,
+                           "approved":  true,
+                           "report":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F\\test-reports\\SGD-114F-specific.xml"
+                       },
+    "spt_015_correction":  {
+                               "executed":  21,
+                               "passed":  21,
+                               "failures":  0,
+                               "errors":  0,
+                               "skipped":  0,
+                               "duration_seconds":  0.062,
+                               "approved":  true,
+                               "evidence":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SPT-015\\SPT-015-implementation-evidence.json",
+                               "report":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F\\test-reports\\SPT-015-specific.xml"
+                           },
+    "full_suite":  {
+                       "executed":  473,
+                       "passed":  473,
+                       "failures":  0,
+                       "errors":  0,
+                       "skipped":  0,
+                       "duration_seconds":  25.767,
+                       "approved":  true,
+                       "report":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F\\test-reports\\SGD-114F-full-suite.xml"
+                   },
+    "manual_test_counts_forbidden":  true,
+    "reusable_runner":  "scripts/Invoke-InstitutionalPytest.ps1",
+    "backup":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F\\backups\\pre-SGD114F-20260802-223241"
+}

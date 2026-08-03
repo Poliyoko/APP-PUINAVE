@@ -1,0 +1,54 @@
+{
+  "policy": "SGD-114D",
+  "version": "1.0.0",
+  "increment_code": "SGD-114F",
+  "approved": true,
+  "exit_code": 0,
+  "evidence_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F",
+  "release_path": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SGD-114F-v1.0.0",
+  "results": [
+    {
+      "rule_code": "SGD114D-R003",
+      "name": "Release técnico adaptativo",
+      "passed": true,
+      "blocking": true,
+      "message": "Release detectado: C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SGD-114F-v1.0.0",
+      "remediation": "",
+      "evidence": [
+        "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SGD-114F-v1.0.0"
+      ],
+      "metadata": {
+        "strategy": "canonical_versioned",
+        "candidates": [
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SGD-114F-v1.0.0",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SGD-114-v1.1.0-release-manifest.json",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\releases\\SGD-114-v2.0.1"
+        ]
+      }
+    },
+    {
+      "rule_code": "SGD114D-R007",
+      "name": "Evidencia institucional adaptativa",
+      "passed": true,
+      "blocking": true,
+      "message": "Evidencia detectada: C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F",
+      "remediation": "",
+      "evidence": [
+        "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F"
+      ],
+      "metadata": {
+        "strategy": "canonical",
+        "candidates": [
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SGD-114F\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SGD-114F",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SGD-114\\evidence",
+          "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\SGD-114"
+        ]
+      }
+    }
+  ]
+}

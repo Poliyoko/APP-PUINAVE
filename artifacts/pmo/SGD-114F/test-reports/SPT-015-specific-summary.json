@@ -1,0 +1,12 @@
+{
+  "component": "SPT-015",
+  "scope": "specific",
+  "executed": 21,
+  "passed": 21,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 0.062,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\pmo\\SGD-114F\\test-reports\\SPT-015-specific.xml"
+}

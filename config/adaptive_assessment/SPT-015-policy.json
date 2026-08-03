@@ -1,0 +1,19 @@
+{
+  "component": "SPT-015",
+  "version": "1.0.0",
+  "validated_items_only": true,
+  "difficulty_levels": [
+    1,
+    2,
+    3
+  ],
+  "assessment_types": [
+    "diagnostic",
+    "formative",
+    "summative"
+  ],
+  "no_invention": true,
+  "local_first": true,
+  "free_open_technology": true,
+  "mandatory_proprietary_dependencies": []
+}

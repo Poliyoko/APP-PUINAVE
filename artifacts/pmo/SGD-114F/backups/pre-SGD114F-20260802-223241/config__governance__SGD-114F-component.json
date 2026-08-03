@@ -1,0 +1,32 @@
+{
+  "increment_code": "SGD-114F",
+  "name": "Institutional Test Evidence Synchronizer",
+  "component_type": "institutional_test_evidence_synchronizer",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Gobierno Digital",
+  "native_ecosystem": true,
+  "ecosystem_role": "native_component",
+  "technology_policy": "free_open_optional_proprietary",
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "SGD-114D",
+    "SGD-114E",
+    "SGD-115A",
+    "SGD-116",
+    "SPB-007"
+  ],
+  "source": [
+    "src/sgoda/governance/test_evidence/models.py",
+    "src/sgoda/governance/test_evidence/junit_parser.py",
+    "src/sgoda/governance/test_evidence/synchronizer.py",
+    "src/sgoda/governance/test_evidence/cli.py"
+  ],
+  "tests": [
+    "tests/governance/test_SGD_114F_institutional_test_evidence_synchronizer.py"
+  ],
+  "documentation": [
+    "docs/01_Gobierno/SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+    "docs/01_Gobierno/SGD-114F-Migracion-Instaladores.md"
+  ]
+}

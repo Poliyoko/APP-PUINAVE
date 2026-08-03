@@ -1,0 +1,42 @@
+{
+  "increment_code": "SPT-015",
+  "name": "Motor de Evaluación Adaptativa",
+  "component_type": "adaptive_assessment_engine",
+  "version": "1.0.0",
+  "status": "implemented",
+  "phase": "Fase Tecnológica IV",
+  "native_ecosystem": true,
+  "ecosystem_role": "native_component",
+  "technology_policy": "free_open_optional_proprietary",
+  "mandatory_proprietary_dependencies": [],
+  "institutional_terminology": "integrado nativamente al ecosistema SGODA-PUINAVE",
+  "dependencies": [
+    "SPT-013A",
+    "SPT-013B",
+    "SPT-014",
+    "SPT-012",
+    "SPT-008",
+    "SGD-114D",
+    "SGD-114E",
+    "SGD-115A",
+    "SGD-116"
+  ],
+  "source": [
+    "src/sgoda/adaptive_assessment/models.py",
+    "src/sgoda/adaptive_assessment/repository.py",
+    "src/sgoda/adaptive_assessment/scoring.py",
+    "src/sgoda/adaptive_assessment/adaptation.py",
+    "src/sgoda/adaptive_assessment/feedback.py",
+    "src/sgoda/adaptive_assessment/exporter.py",
+    "src/sgoda/adaptive_assessment/service.py",
+    "src/sgoda/adaptive_assessment/cli.py"
+  ],
+  "tests": [
+    "tests/adaptive_assessment/test_SPT_015_adaptive_assessment_engine.py"
+  ],
+  "documentation": [
+    "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md",
+    "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md"
+  ]
+}

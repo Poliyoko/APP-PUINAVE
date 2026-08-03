@@ -1,0 +1,53 @@
+{
+    "items":  [
+                  {
+                      "item_id":  "QST-001",
+                      "entry_id":  "LEX-001",
+                      "competency":  "vocabulary",
+                      "assessment_type":  "diagnostic",
+                      "difficulty":  1,
+                      "prompt":  "¿Qué significa AMDA?",
+                      "correct_answer":  "casa",
+                      "options":  [
+                                      "casa",
+                                      "río",
+                                      "fuego"
+                                  ],
+                      "media_resource_ids":  [
+                                                 "MED-001",
+                                                 "MED-002"
+                                             ],
+                      "validated":  true
+                  },
+                  {
+                      "item_id":  "QST-002",
+                      "entry_id":  "LEX-001",
+                      "competency":  "vocabulary",
+                      "assessment_type":  "formative",
+                      "difficulty":  2,
+                      "prompt":  "Seleccione la traducción correcta de AMDA.",
+                      "correct_answer":  "casa",
+                      "options":  [
+                                      "casa",
+                                      "agua",
+                                      "tierra"
+                                  ],
+                      "media_resource_ids":  [
+                                                 "MED-001"
+                                             ],
+                      "validated":  true
+                  }
+              ],
+    "attempts":  [
+                     {
+                         "learner_id":  "LEARNER-001",
+                         "item_id":  "QST-001",
+                         "answer":  "casa"
+                     }
+                 ],
+    "operation":  "mastery",
+    "payload":  {
+                    "learner_id":  "LEARNER-001",
+                    "competency":  "vocabulary"
+                }
+}
