@@ -1,0 +1,13 @@
+{
+  "canonical_components": 57,
+  "active_components": 46,
+  "historical_increments": 11,
+  "ignored_non_component_json": 67,
+  "complete_active_components": 0,
+  "registry_coverage_percent": 100.0,
+  "index_coverage_percent": 0.0,
+  "critical_findings": 0,
+  "warning_findings": 5,
+  "informational_findings": 47,
+  "institutional_consistency_score": 48.75
+}

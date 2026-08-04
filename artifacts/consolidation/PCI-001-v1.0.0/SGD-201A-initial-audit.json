@@ -1,0 +1,3690 @@
+{
+  "program": "PCI-SGODA-v1.0.0",
+  "increment_code": "PCI-001",
+  "deliverable": "SGD-201A",
+  "version": "1.0.0",
+  "approved": false,
+  "exit_code": 2,
+  "master_documents": {
+    "index": true,
+    "registry": true,
+    "architecture": true
+  },
+  "metrics": {
+    "component_descriptors": 69,
+    "complete_components": 21,
+    "registry_coverage_percent": 59.42,
+    "index_coverage_percent": 59.42,
+    "markdown_documents": 180,
+    "test_files": 68,
+    "releases": 51,
+    "critical_findings": 13,
+    "warning_findings": 207,
+    "informational_findings": 15
+  },
+  "components": [
+    {
+      "code": "SPT-015",
+      "name": "Motor de Evaluación Adaptativa",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/adaptive_assessment/SPT-015-component.json",
+      "source_paths": [
+        "src/sgoda/adaptive_assessment/models.py",
+        "src/sgoda/adaptive_assessment/repository.py",
+        "src/sgoda/adaptive_assessment/scoring.py",
+        "src/sgoda/adaptive_assessment/adaptation.py",
+        "src/sgoda/adaptive_assessment/feedback.py",
+        "src/sgoda/adaptive_assessment/exporter.py",
+        "src/sgoda/adaptive_assessment/service.py",
+        "src/sgoda/adaptive_assessment/cli.py"
+      ],
+      "test_paths": [
+        "tests/adaptive_assessment/test_SPT_015_adaptive_assessment_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md"
+      ],
+      "dependencies": [
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-014",
+        "SPT-012",
+        "SPT-008",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": "SPT-015-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-004A",
+      "name": "SPT-004A",
+      "version": "0.1.0",
+      "status": "unknown",
+      "descriptor_path": "config/assistant/SPT-004A-assistant-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-004A-v0.1.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-004A",
+      "name": "Fundación del Asistente Inteligente Institucional",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/assistant/SPT-004A-component.json",
+      "source_paths": [
+        "src/sgoda/assistant/models.py",
+        "src/sgoda/assistant/intent_classifier.py",
+        "src/sgoda/assistant/knowledge_repository.py",
+        "src/sgoda/assistant/faq.py",
+        "src/sgoda/assistant/service.py",
+        "src/sgoda/assistant/cli.py"
+      ],
+      "test_paths": [
+        "tests/assistant/test_SPT_004A_institutional_assistant.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md"
+      ],
+      "dependencies": [],
+      "release_name": "SPT-004A-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-003A",
+      "name": "SPT-003A",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/automation/SPT-003A-component.json",
+      "source_paths": [
+        "src/sgoda/automation/models.py",
+        "src/sgoda/automation/job_queue.py",
+        "src/sgoda/automation/planner.py",
+        "src/sgoda/automation/cli.py"
+      ],
+      "test_paths": [
+        "tests/automation/test_SPT_003A_multimedia_orchestrator.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-003A-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-003A",
+      "name": "SPT-003A",
+      "version": "0.1.0",
+      "status": "unknown",
+      "descriptor_path": "config/automation/SPT-003A-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-003A-v0.1.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-003B",
+      "name": "SPT-003B",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/automation/SPT-003B-component.json",
+      "source_paths": [],
+      "test_paths": [
+        "tests/automation/test_SPT_003B_ai_multimedia_adapters.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-003B-v0.1.0",
+      "source_exists": false,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 60.0
+    },
+    {
+      "code": "SPT-003B",
+      "name": "SPT-003B",
+      "version": "0.1.0",
+      "status": "unknown",
+      "descriptor_path": "config/automation/SPT-003B-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-003B-v0.1.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-003C",
+      "name": "Piloto Controlado de Proveedores Reales",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/automation/SPT-003C-component.json",
+      "source_paths": [
+        "src/sgoda/automation/pilot/models.py",
+        "src/sgoda/automation/pilot/governance.py",
+        "src/sgoda/automation/pilot/budget.py",
+        "src/sgoda/automation/pilot/circuit_breaker.py",
+        "src/sgoda/automation/pilot/runner.py"
+      ],
+      "test_paths": [
+        "tests/automation/test_SPT_003C_controlled_provider_pilot.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-003C-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-003C",
+      "name": "SPT-003C",
+      "version": "0.1.0",
+      "status": "unknown",
+      "descriptor_path": "config/automation/SPT-003C-pilot-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-003C-v0.1.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-009",
+      "name": "Ecosistema Conversacional",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/conversation/SPT-009-component.json",
+      "source_paths": [
+        "src/sgoda/conversation/models.py",
+        "src/sgoda/conversation/router.py",
+        "src/sgoda/conversation/memory.py",
+        "src/sgoda/conversation/service.py",
+        "src/sgoda/conversation/cli.py"
+      ],
+      "test_paths": [
+        "tests/conversation/test_SPT_009_conversational_ecosystem.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
+        "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md"
+      ],
+      "dependencies": [
+        "SPT-004A",
+        "SPT-006A",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-009-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-013B",
+      "name": "Gestor Institucional del Diccionario Digital",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/dictionary_manager/SPT-013B-component.json",
+      "source_paths": [
+        "src/sgoda/dictionary_manager/models.py",
+        "src/sgoda/dictionary_manager/validation.py",
+        "src/sgoda/dictionary_manager/repository.py",
+        "src/sgoda/dictionary_manager/import_export.py",
+        "src/sgoda/dictionary_manager/service.py",
+        "src/sgoda/dictionary_manager/cli.py"
+      ],
+      "test_paths": [
+        "tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md"
+      ],
+      "dependencies": [
+        "SPT-013A",
+        "SPT-012",
+        "SPT-007A",
+        "SPT-007B",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": "SPT-013B-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SGD-115A",
+      "name": "Documentation Canonical Component Resolver",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/documentation/SGD-115A-component.json",
+      "source_paths": [
+        "src/sgoda/documentation/canonical_component_resolver.py"
+      ],
+      "test_paths": [
+        "tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md"
+      ],
+      "dependencies": [
+        "SGD-115",
+        "SGD-114D-v1.0.1",
+        "SGD-116"
+      ],
+      "release_name": "SGD-115A-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-006",
+      "name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/enrichment/SPT-006-component.json",
+      "source_paths": [
+        "src/sgoda/enrichment/models.py",
+        "src/sgoda/enrichment/planner.py",
+        "src/sgoda/enrichment/providers.py",
+        "src/sgoda/enrichment/playback.py",
+        "src/sgoda/enrichment/pipeline.py",
+        "src/sgoda/enrichment/cli.py"
+      ],
+      "test_paths": [
+        "tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md"
+      ],
+      "dependencies": [],
+      "release_name": "SPT-006-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-006",
+      "name": "SPT-006",
+      "version": "0.1.0",
+      "status": "unknown",
+      "descriptor_path": "config/enrichment/SPT-006-enrichment-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-006-v0.1.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "PCI-001",
+      "name": "Auditoría del Índice Maestro",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/governance/PCI-001-component.json",
+      "source_paths": [
+        "src/sgoda/governance/master_index_audit"
+      ],
+      "test_paths": [
+        "tests/governance/master_index_audit"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/PCI-001"
+      ],
+      "dependencies": [
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": "PCI-001-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SGD-114-PA",
+      "name": "SGD-114 Policy Auditor",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114-policy-auditor-component.json",
+      "source_paths": [
+        "src/sgoda/governance/policy_auditor.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114_policy_auditor.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114-Policy-Auditor.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SGD-116B"
+      ],
+      "release_name": "SGD-114-PA-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SGD-114-v2",
+      "name": "SGD-114-v2",
+      "version": "2.0.0",
+      "status": "institutionally_closed",
+      "descriptor_path": "config/governance/SGD-114-v2-component.json",
+      "source_paths": [
+        "src/sgoda/governance/repository_governance.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114_v2_repository_governance.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-114-v2-v2.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 60.0
+    },
+    {
+      "code": "SGD-114C",
+      "name": "Policy Governance Core",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114C-component.json",
+      "source_paths": [
+        "src/sgoda/governance/policy_models.py",
+        "src/sgoda/governance/policy_context.py",
+        "src/sgoda/governance/policy_rules.py",
+        "src/sgoda/governance/policy_registry.py",
+        "src/sgoda/governance/policy_engine.py",
+        "src/sgoda/governance/policy_report.py",
+        "src/sgoda/governance/policy_cli.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114C_policy_governance_core.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md",
+        "docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SGD-116B",
+        "SPB-007"
+      ],
+      "release_name": "SGD-114C-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SGD-114D",
+      "name": "Adaptive Institutional Policy Engine",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114D-component.json",
+      "source_paths": [
+        "src/sgoda/governance/adaptive_policy_models.py",
+        "src/sgoda/governance/adaptive_policy_resolver.py",
+        "src/sgoda/governance/adaptive_policy_rules.py",
+        "src/sgoda/governance/adaptive_policy_engine.py",
+        "src/sgoda/governance/adaptive_policy_cli.py",
+        "src/sgoda/governance/adaptive_policy.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114D_adaptive_institutional_policy_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114D-Adaptive-Institutional-Policy-Engine.md",
+        "docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md"
+      ],
+      "dependencies": [
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SGD-114D-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SGD-114D-v1.0.1",
+      "name": "Adaptive Release Canonical Resolver",
+      "version": "1.0.1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114D-v1.0.1-component.json",
+      "source_paths": [
+        "src/sgoda/governance/adaptive_policy_resolver.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114D_release_canonical_resolver.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md"
+      ],
+      "dependencies": [
+        "SGD-114D-v1.0.0",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SGD-114D-v1.0.1-v1.0.1",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 60.0
+    },
+    {
+      "code": "SGD-114E-C1",
+      "name": "Native Ecosystem Validator Fix",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-C1-component.json",
+      "source_paths": [
+        "src/sgoda/governance/native_ecosystem_policy.py",
+        "src/sgoda/governance/native_ecosystem_validator.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md"
+      ],
+      "dependencies": [
+        "SGD-114E-v1.0.2",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": "SGD-114E-C1-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SGD-114E",
+      "name": "Native Ecosystem Architecture Policy",
+      "version": "1.0.2",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-component.json",
+      "source_paths": [
+        "src/sgoda/governance/native_ecosystem_models.py",
+        "src/sgoda/governance/native_ecosystem_policy.py",
+        "src/sgoda/governance/native_ecosystem_validator.py",
+        "src/sgoda/governance/native_ecosystem_cli.py",
+        "src/sgoda/governance/native_ecosystem.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md",
+        "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md"
+      ],
+      "dependencies": [
+        "SGD-114D",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": "SGD-114E-v1.0.2",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SGD-114E-v1.0.3",
+      "name": "Native Ecosystem Approval Logic Fix",
+      "version": "1.0.3",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.3-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SGD-114E-v1.0.3-v1.0.3",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-v1.0.4",
+      "name": "Multi-Test-Path Invocation Fix",
+      "version": "1.0.4",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.4-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E-v1.0.3",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SGD-114E-v1.0.4-v1.0.4",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-v1.0.5",
+      "name": "Backward Compatibility Result Model",
+      "version": "1.0.5",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.5-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E-v1.0.3",
+        "SGD-114E-v1.0.4",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SGD-114E-v1.0.5-v1.0.5",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-v1.0.6",
+      "name": "Definitive Contract Restoration",
+      "version": "1.0.6",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.6-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E-v1.0.3",
+        "SGD-114E-v1.0.4",
+        "SGD-114E-v1.0.5",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SGD-114E-v1.0.6-v1.0.6",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-v1.0.7",
+      "name": "Definitive Prevalidated Contract Closure",
+      "version": "1.0.7",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.7-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-114E-v1.0.7-v1.0.7",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-v2.0.0",
+      "name": "Definitive Native Ecosystem Validator",
+      "version": "2.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v2.0.0-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-114E-v2.0.0-v2.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-v2.0.0-R1",
+      "name": "Canonical Contract Closure",
+      "version": "2.0.0-R1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v2.0.0-R1-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-114E-v2.0.0-R1-v2.0.0-R1",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-v2.0.0-R2.1",
+      "name": "Self Validation Closure",
+      "version": "2.0.0-R2.1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v2.0.0-R2.1-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-114E-v2.0.0-R2.1-v2.0.0-R2.1",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114F",
+      "name": "Institutional Test Evidence Synchronizer",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114F-component.json",
+      "source_paths": [
+        "src/sgoda/governance/test_evidence/models.py",
+        "src/sgoda/governance/test_evidence/junit_parser.py",
+        "src/sgoda/governance/test_evidence/synchronizer.py",
+        "src/sgoda/governance/test_evidence/cli.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114F_institutional_test_evidence_synchronizer.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+        "docs/01_Gobierno/SGD-114F-Migracion-Instaladores.md"
+      ],
+      "dependencies": [
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SGD-114F-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SGD-114G-v1.0.0",
+      "name": "Institutional Release Management Service",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114G-v1.0.0-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-114G-v1.0.0-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114G-v1.0.1",
+      "name": "Legacy Manifest Migration and Canonical Closure",
+      "version": "1.0.1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114G-v1.0.1-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-114G-v1.0.1-v1.0.1",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-115",
+      "name": "Sistema Maestro de Documentación del Proyecto",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/governance/SGD-115-component.json",
+      "source_paths": [
+        "src/sgoda/documentation/master_docs.py"
+      ],
+      "test_paths": [
+        "tests/documentation/test_SGD_115_master_documentation.py"
+      ],
+      "documentation_paths": [
+        "docs/00_INDICE_MAESTRO.md",
+        "docs/00_ARQUITECTURA_MAESTRA.md",
+        "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md"
+      ],
+      "dependencies": [],
+      "release_name": "SGD-115-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SGD-115",
+      "name": "SGD-115",
+      "version": "1.0.0",
+      "status": "unknown",
+      "descriptor_path": "config/governance/SGD-115-master-documentation-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-115-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 20.0
+    },
+    {
+      "code": "SGD-117",
+      "name": "Institutional Repository Manager",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_officially_closed",
+      "descriptor_path": "config/governance/SGD-117-component.json",
+      "source_paths": [
+        "src/sgoda/governance/repository_manager/"
+      ],
+      "test_paths": [
+        "tests/governance/repository_manager/"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-117/"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SGD-117-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-005",
+      "name": "Sistema de Identidad Cultural Configurable",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/identity/SPT-005-component.json",
+      "source_paths": [
+        "src/sgoda/identity/models.py",
+        "src/sgoda/identity/repository.py",
+        "src/sgoda/identity/service.py",
+        "src/sgoda/identity/exporter.py",
+        "src/sgoda/identity/cli.py"
+      ],
+      "test_paths": [
+        "tests/identity/test_SPT_005_configurable_cultural_identity.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md"
+      ],
+      "dependencies": [],
+      "release_name": "SPT-005-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-005",
+      "name": "SPT-005",
+      "version": "0.1.0",
+      "status": "unknown",
+      "descriptor_path": "config/identity/SPT-005-identity-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-005-v0.1.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SIB-001",
+      "name": "SGODA Installer Builder",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/installer_builder/SIB-001-component.json",
+      "source_paths": [
+        "src/sgoda/installer_builder/"
+      ],
+      "test_paths": [
+        "tests/installer_builder/test_SIB_001_installer_builder.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md",
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md"
+      ],
+      "dependencies": [],
+      "release_name": "SIB-001-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SIB-001",
+      "name": "SIB-001",
+      "version": "0.1.0",
+      "status": "unknown",
+      "descriptor_path": "config/installer_builder/SIB-001-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SIB-001-v0.1.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-007C",
+      "name": "Motor de Conocimiento Lingüístico y Cultural",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/knowledge_engine/SPT-007C-component.json",
+      "source_paths": [
+        "src/sgoda/knowledge_engine/models.py",
+        "src/sgoda/knowledge_engine/ontology.py",
+        "src/sgoda/knowledge_engine/graph.py",
+        "src/sgoda/knowledge_engine/inference.py",
+        "src/sgoda/knowledge_engine/navigation.py",
+        "src/sgoda/knowledge_engine/oda_bridge.py",
+        "src/sgoda/knowledge_engine/service.py",
+        "src/sgoda/knowledge_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/knowledge_engine/test_SPT_007C_knowledge_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md"
+      ],
+      "dependencies": [
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-006",
+        "SPT-004A",
+        "SPT-002",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-007C-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-006A",
+      "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+      "version": "0.2.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/language_engine/SPT-006A-component.json",
+      "source_paths": [
+        "src/sgoda/language_engine/models.py",
+        "src/sgoda/language_engine/licensing.py",
+        "src/sgoda/language_engine/diagnostic.py",
+        "src/sgoda/language_engine/translation.py",
+        "src/sgoda/language_engine/tts.py",
+        "src/sgoda/language_engine/engine.py",
+        "src/sgoda/language_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-006A-v0.2.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-006A",
+      "name": "SPT-006A",
+      "version": "0.2.0",
+      "status": "unknown",
+      "descriptor_path": "config/language_engine/SPT-006A-free-local-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-006A-v0.2.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-016",
+      "name": "Motor de Analítica del Aprendizaje",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_officially_closed",
+      "descriptor_path": "config/learning_analytics/SPT-016-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-012",
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-015",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SPT-016-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-016A",
+      "name": "Evidence Compatibility Patch",
+      "version": "1.0.1",
+      "status": "implemented",
+      "descriptor_path": "config/learning_analytics/SPT-016A-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-016",
+        "SGD-114F",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": "SPT-016A-v1.0.1",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-013A",
+      "name": "Learning Ecosystem Foundation",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/learning_foundation/SPT-013A-component.json",
+      "source_paths": [
+        "src/sgoda/learning_foundation/models.py",
+        "src/sgoda/learning_foundation/registry.py",
+        "src/sgoda/learning_foundation/service.py",
+        "src/sgoda/learning_foundation/cli.py"
+      ],
+      "test_paths": [
+        "tests/learning_foundation/test_SPT_013A_learning_ecosystem_foundation.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md"
+      ],
+      "dependencies": [
+        "SPT-012",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": "SPT-013A-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-012",
+      "name": "Plataforma de Aprendizaje SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/learning_platform/SPT-012-component.json",
+      "source_paths": [
+        "src/sgoda/learning_platform/models.py",
+        "src/sgoda/learning_platform/digital_dictionary.py",
+        "src/sgoda/learning_platform/media_library.py",
+        "src/sgoda/learning_platform/oda_factory.py",
+        "src/sgoda/learning_platform/curriculum.py",
+        "src/sgoda/learning_platform/progress.py",
+        "src/sgoda/learning_platform/integration_bridge.py",
+        "src/sgoda/learning_platform/service.py",
+        "src/sgoda/learning_platform/api.py",
+        "src/sgoda/learning_platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/learning_platform/test_SPT_012_sgoda_learning_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Arquitectura.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Diccionario-Digital.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Integracion-Motores.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Multimedia-y-ODA.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Rutas-Progreso-Evaluacion.md"
+      ],
+      "dependencies": [
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SPT-011",
+        "SGD-114D",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": "SPT-012-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-007A",
+      "name": "Fundación del Motor Léxico Inteligente",
+      "version": "0.1.0",
+      "status": "implemented",
+      "descriptor_path": "config/lexical_engine/SPT-007A-component.json",
+      "source_paths": [
+        "src/sgoda/lexical_engine/models.py",
+        "src/sgoda/lexical_engine/normalizer.py",
+        "src/sgoda/lexical_engine/repository.py",
+        "src/sgoda/lexical_engine/search.py",
+        "src/sgoda/lexical_engine/ranking.py",
+        "src/sgoda/lexical_engine/multimedia.py",
+        "src/sgoda/lexical_engine/service.py",
+        "src/sgoda/lexical_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md"
+      ],
+      "dependencies": [
+        "SPT-001B",
+        "SPT-003A",
+        "SPT-004A",
+        "SPT-006",
+        "SPT-006A",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-007A-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-007B",
+      "name": "Motor Léxico Inteligente Semántico",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/lexical_engine/SPT-007B-component.json",
+      "source_paths": [
+        "src/sgoda/lexical_engine/semantic_models.py",
+        "src/sgoda/lexical_engine/semantic_index.py",
+        "src/sgoda/lexical_engine/relations.py",
+        "src/sgoda/lexical_engine/query_expansion.py",
+        "src/sgoda/lexical_engine/semantic_ranking.py",
+        "src/sgoda/lexical_engine/suggestions.py",
+        "src/sgoda/lexical_engine/semantic_service.py",
+        "src/sgoda/lexical_engine/semantic_cli.py"
+      ],
+      "test_paths": [
+        "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md"
+      ],
+      "dependencies": [
+        "SPT-007A",
+        "SPT-006",
+        "SPT-006A",
+        "SPT-004A",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-007B-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "ADR-010",
+      "name": "ADR-010",
+      "version": "1.0.0",
+      "status": "institutionally_closed",
+      "descriptor_path": "config/media/ADR-010-component.json",
+      "source_paths": [
+        "src/sgoda/media/models.py",
+        "src/sgoda/media/repository.py",
+        "src/sgoda/media/migration.py",
+        "src/sgoda/media/cli.py"
+      ],
+      "test_paths": [
+        "tests/media/test_ADR_010_rmr_repository.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "ADR-010-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-014",
+      "name": "Motor Multimedia Inteligente",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/multimedia_engine/SPT-014-component.json",
+      "source_paths": [
+        "src/sgoda/multimedia_engine/models.py",
+        "src/sgoda/multimedia_engine/validation.py",
+        "src/sgoda/multimedia_engine/repository.py",
+        "src/sgoda/multimedia_engine/manifest.py",
+        "src/sgoda/multimedia_engine/oda.py",
+        "src/sgoda/multimedia_engine/service.py",
+        "src/sgoda/multimedia_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/multimedia_engine/test_SPT_014_intelligent_multimedia_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md"
+      ],
+      "dependencies": [
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-012",
+        "SPT-002",
+        "SPT-003A",
+        "SPT-003B",
+        "SPT-003C",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": "SPT-014-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-002",
+      "name": "SPT-002",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/oda/SPT-002-component.json",
+      "source_paths": [
+        "src/sgoda/oda/models.py",
+        "src/sgoda/oda/engine.py",
+        "src/sgoda/oda/cli.py"
+      ],
+      "test_paths": [
+        "tests/oda/test_SPT_002_oda_engine.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-002-v0.1.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-011",
+      "name": "Plataforma Operativa SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/operational_platform/SPT-011-component.json",
+      "source_paths": [
+        "src/sgoda/operational_platform/models.py",
+        "src/sgoda/operational_platform/settings.py",
+        "src/sgoda/operational_platform/database.py",
+        "src/sgoda/operational_platform/rlb_adapter.py",
+        "src/sgoda/operational_platform/media_adapter.py",
+        "src/sgoda/operational_platform/n8n_contracts.py",
+        "src/sgoda/operational_platform/flutter_contracts.py",
+        "src/sgoda/operational_platform/service.py",
+        "src/sgoda/operational_platform/api.py",
+        "src/sgoda/operational_platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Arquitectura-Plataforma-Operativa.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Integracion-FastAPI-PostgreSQL.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Contrato-Flutter.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Automatizacion-n8n.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Operacion-RLB-Multimedia.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Pruebas-Criterios-Aceptacion.md"
+      ],
+      "dependencies": [
+        "SPT-010",
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-011-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPT-011A",
+      "name": "Institutional Evidence Closure",
+      "version": "1.0.2",
+      "status": "implemented",
+      "descriptor_path": "config/operational_platform/SPT-011A-component.json",
+      "source_paths": [
+        "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1"
+      ],
+      "test_paths": [
+        "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md"
+      ],
+      "dependencies": [
+        "SPT-011",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-011A-v1.0.2",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-018",
+      "name": "IA Pedagógica SGODA",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/pedagogical_ai/SPT-018-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-008",
+        "SPT-015",
+        "SPT-016",
+        "SPT-017",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": "SPT-018-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-010",
+      "name": "Plataforma Digital Integrada",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/platform/SPT-010-component.json",
+      "source_paths": [
+        "src/sgoda/platform/models.py",
+        "src/sgoda/platform/registry.py",
+        "src/sgoda/platform/health.py",
+        "src/sgoda/platform/facade.py",
+        "src/sgoda/platform/runtime.py",
+        "src/sgoda/platform/api.py",
+        "src/sgoda/platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/platform/test_SPT_010_integrated_digital_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md"
+      ],
+      "dependencies": [
+        "SPT-005",
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-010-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPT-017",
+      "name": "Centro de Conocimiento Puinave",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/puinave_knowledge_center/SPT-017-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-007C",
+        "SPT-013B",
+        "SPT-014",
+        "SPT-015",
+        "SPT-016",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": "SPT-017-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-007D",
+      "name": "Motor de Razonamiento Lingüístico",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/reasoning_engine/SPT-007D-component.json",
+      "source_paths": [
+        "src/sgoda/reasoning_engine/models.py",
+        "src/sgoda/reasoning_engine/rules.py",
+        "src/sgoda/reasoning_engine/reasoner.py",
+        "src/sgoda/reasoning_engine/service.py"
+      ],
+      "test_paths": [
+        "tests/reasoning_engine/test_SPT_007D_reasoning_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md"
+      ],
+      "dependencies": [
+        "SPT-007C",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-007D-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    },
+    {
+      "code": "SPB-007",
+      "name": "SPB-007",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/repository/SPB-007-component.json",
+      "source_paths": [
+        "src/sgoda/publisher/institutional_publisher.py"
+      ],
+      "test_paths": [
+        "tests/publisher/test_SPB_007_institutional_publisher.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPB-007-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SPB-007",
+      "name": "SPB-007",
+      "version": "1.0.0",
+      "status": "unknown",
+      "descriptor_path": "config/repository/SPB-007-publication-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPB-007-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-001B-P06",
+      "name": "SPT-001B-P06",
+      "version": "1.3.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/rlb/SPT-001B-P06-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-001B-P06-v1.3.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SPT-001B-P07",
+      "name": "SPT-001B-P07",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/rlb/SPT-001B-P07-component.json",
+      "source_paths": [
+        "src/sgoda/rlb/header_normalizer.py"
+      ],
+      "test_paths": [
+        "tests/rlb/test_SPT_001B_P07_header_normalizer.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-001B-P07-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SPT-001B-P07",
+      "name": "SPT-001B-P07",
+      "version": "1.0.0",
+      "status": "unknown",
+      "descriptor_path": "config/rlb/SPT-001B-P07-header-mapping.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-001B-P07-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SPT-001B-P08",
+      "name": "SPT-001B-P08",
+      "version": "1.0.0",
+      "status": "institutionally_closed",
+      "descriptor_path": "config/rlb/SPT-001B-P08-component.json",
+      "source_paths": [
+        "src/sgoda/rlb/canonical_consolidator.py"
+      ],
+      "test_paths": [
+        "tests/rlb/test_SPT_001B_P08_canonical_closure.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SPT-001B-P08-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": false,
+      "indexed": false,
+      "completion_percent": 40.0
+    },
+    {
+      "code": "SGD-116",
+      "name": "Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/roadmap/SGD-116-component.json",
+      "source_paths": [
+        "src/sgoda/roadmap/models.py",
+        "src/sgoda/roadmap/discovery.py",
+        "src/sgoda/roadmap/dependency_graph.py",
+        "src/sgoda/roadmap/metrics.py",
+        "src/sgoda/roadmap/timeline.py",
+        "src/sgoda/roadmap/generator.py",
+        "src/sgoda/roadmap/validator.py",
+        "src/sgoda/roadmap/cli.py"
+      ],
+      "test_paths": [
+        "tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Roadmap-Maestro-Vivo.md",
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Arquitectura-Descubrimiento.md",
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Operacion-y-Regeneracion.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SPB-007",
+        "SIB-001"
+      ],
+      "release_name": "SGD-116-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SGD-116",
+      "name": "SGD-116",
+      "version": "1.0.0",
+      "status": "unknown",
+      "descriptor_path": "config/roadmap/SGD-116-roadmap-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-116-v1.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 20.0
+    },
+    {
+      "code": "SGD-116B",
+      "name": "Correctivo Institucional Único del Roadmap Maestro Vivo",
+      "version": "2.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/roadmap/SGD-116B-component.json",
+      "source_paths": [
+        "src/sgoda/roadmap/aliases.py",
+        "src/sgoda/roadmap/discovery.py",
+        "src/sgoda/roadmap/dependency_graph.py",
+        "src/sgoda/roadmap/validator.py"
+      ],
+      "test_paths": [
+        "tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SPB-007",
+        "SIB-001"
+      ],
+      "release_name": "SGD-116B-v2.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 80.0
+    },
+    {
+      "code": "SGD-116B",
+      "name": "Correctivo Institucional Único del Roadmap Maestro Vivo",
+      "version": "2.0.0",
+      "status": "unknown",
+      "descriptor_path": "config/roadmap/SGD-116B-policy.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": "SGD-116B-v2.0.0",
+      "source_exists": false,
+      "tests_exist": false,
+      "documentation_exists": false,
+      "release_exists": false,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 20.0
+    },
+    {
+      "code": "SPT-008",
+      "name": "Tutor Inteligente Puinave",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/tutor/SPT-008-component.json",
+      "source_paths": [
+        "src/sgoda/tutor/models.py",
+        "src/sgoda/tutor/planner.py",
+        "src/sgoda/tutor/exercises.py",
+        "src/sgoda/tutor/service.py"
+      ],
+      "test_paths": [
+        "tests/tutor/test_SPT_008_intelligent_tutor.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
+        "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md"
+      ],
+      "dependencies": [
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": "SPT-008-v1.0.0",
+      "source_exists": true,
+      "tests_exist": true,
+      "documentation_exists": true,
+      "release_exists": true,
+      "registered": true,
+      "indexed": true,
+      "completion_percent": 100.0
+    }
+  ],
+  "findings": [
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-004A",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/assistant/SPT-004A-assistant-policy.json",
+        "config/assistant/SPT-004A-component.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-003A",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/automation/SPT-003A-component.json",
+        "config/automation/SPT-003A-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-003B",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/automation/SPT-003B-component.json",
+        "config/automation/SPT-003B-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-003C",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/automation/SPT-003C-component.json",
+        "config/automation/SPT-003C-pilot-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-006",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/enrichment/SPT-006-component.json",
+        "config/enrichment/SPT-006-enrichment-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SGD-115",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/governance/SGD-115-component.json",
+        "config/governance/SGD-115-master-documentation-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-005",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/identity/SPT-005-component.json",
+        "config/identity/SPT-005-identity-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SIB-001",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/installer_builder/SIB-001-component.json",
+        "config/installer_builder/SIB-001-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-006A",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/language_engine/SPT-006A-component.json",
+        "config/language_engine/SPT-006A-free-local-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPB-007",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/repository/SPB-007-component.json",
+        "config/repository/SPB-007-publication-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SPT-001B-P07",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/rlb/SPT-001B-P07-component.json",
+        "config/rlb/SPT-001B-P07-header-mapping.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SGD-116",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/roadmap/SGD-116-component.json",
+        "config/roadmap/SGD-116-roadmap-policy.json"
+      ]
+    },
+    {
+      "code": "DUPLICATE_COMPONENT_DESCRIPTOR",
+      "severity": "critical",
+      "subject": "SGD-116B",
+      "message": "Existen descriptores duplicados.",
+      "evidence": [
+        "config/roadmap/SGD-116B-component.json",
+        "config/roadmap/SGD-116B-policy.json"
+      ]
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "PCI-001",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114D-V1.0.1",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V1.0.3",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V1.0.4",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V1.0.5",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V1.0.6",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V1.0.7",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V2.0.0",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V2.0.0-R1",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114E-V2.0.0-R2.1",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114G-V1.0.0",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SGD-114G-V1.0.1",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SPT-001B-P06",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SPT-001B-P07",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_REGISTRY",
+      "severity": "warning",
+      "subject": "SPT-001B-P08",
+      "message": "Componente no explícito en el Registro Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "PCI-001",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114D-V1.0.1",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V1.0.3",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V1.0.4",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V1.0.5",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V1.0.6",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V1.0.7",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V2.0.0",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V2.0.0-R1",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114E-V2.0.0-R2.1",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114G-V1.0.0",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SGD-114G-V1.0.1",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SPT-001B-P06",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SPT-001B-P07",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "COMPONENT_NOT_IN_MASTER_INDEX",
+      "severity": "info",
+      "subject": "SPT-001B-P08",
+      "message": "Componente no explícito en el Índice Maestro.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "ADR-010-ARQUITECTURA-ESCALABLE-REPOSITORIO-MULTIMEDIA-RMR.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "ADR-010-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "ADR-010-EVIDENCE-MANAGEMENT-SYSTEM.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "ADR-010-IMPLEMENTACION-RMR.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "ADR-010-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114-POLICY-AUDITOR-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114-POLICY-AUDITOR.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114C-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114C-MIGRACION-SGD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114C-POLICY-GOVERNANCE-CORE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114C-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114D-ADAPTIVE-INSTITUTIONAL-POLICY-ENGINE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114D-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114D-MIGRACION-SGD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114D-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114E-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114E-NATIVE-ECOSYSTEM-ARCHITECTURE-POLICY.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114E-TERMINOLOGIA-INSTITUCIONAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114E-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114E-V2",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114F-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114F-INSTITUTIONAL-TEST-EVIDENCE-SYNCHRONIZER.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114F-MIGRACION-INSTALADORES.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114F-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-114G-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-115-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-115-SISTEMA-MAESTRO-DOCUMENTACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-115A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-115A-DOCUMENTATION-CANONICAL-COMPONENT-RESOLVER.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-115A-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116-ARQUITECTURA-DESCUBRIMIENTO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116-OPERACION-Y-REGENERACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116-ROADMAP-MAESTRO-VIVO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116B-ARQUITECTURA-RESOLUCION-CANONICA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116B-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116B-CORRECTIVO-INSTITUCIONAL-UNICO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116B-OPERACION-Y-CIERRE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-116B-V3",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-117-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-117-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-117-MANUAL-OPERATIVO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SGD-117-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SIB-001-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SIB-001-PROTOCOLO-CORRECCION-ERRORES.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SIB-001-SGODA-INSTALLER-BUILDER.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SIB-001-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPB-007-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPB-007-POLITICA-PUBLICACION-REPOSITORIO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPB-007-PUBLICACION-INSTITUCIONAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPB-007-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-001",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-001B",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-002-ARQUITECTURA-ODA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-002-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-002-MOTOR-FUNCIONAL-ODA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-002-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003A-ARQUITECTURA-COLAS-EVENTOS.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003A-ORQUESTADOR-IA-MULTIMEDIA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003A-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003B-ADAPTADORES-IA-MULTIMEDIA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003B-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003B-SEGURIDAD-CREDENCIALES-PROVEEDORES.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003B-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003C-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003C-PILOTO-CONTROLADO-PROVEEDORES.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003C-PROTOCOLO-APROBACION-CULTURAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-003C-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-004",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-004A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-004A-FUNDACION-ASISTENTE-INSTITUCIONAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-004A-IDENTIDAD-CULTURAL-PENDIENTE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-004A-SEGURIDAD-LINGUISTICA-CULTURAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-004A-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-005-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-005-GUIA-CAMBIO-NOMBRE-VISIBLE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-005-PROTOCOLO-APROBACION-NOMBRE-PUINAVE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-005-SISTEMA-IDENTIDAD-CULTURAL-CONFIGURABLE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-005-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006-PIPELINE-ENRIQUECIMIENTO-MULTIMEDIA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006-REPRODUCCION-AUTOMATICA-CONFIGURABLE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006-VALIDACION-LINGUISTICA-CULTURAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006A-MOTOR-MULTILINGUE-LOCAL-GRATUITO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006A-OPERACION-OFFLINE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006A-POLITICA-MODELOS-LICENCIAS.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-006A-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007A-ARQUITECTURA-BUSQUEDA-RANKING.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007A-FUNDACION-MOTOR-LEXICO-INTELIGENTE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007A-SEGURIDAD-LINGUISTICA-CULTURAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007A-V0",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007B-ARQUITECTURA-INDICE-SEMANTICO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007B-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007B-GOBIERNO-RELACIONES-LEXICAS.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007B-MOTOR-LEXICO-INTELIGENTE-SEMANTICO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007B-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-ARQUITECTURA-GRAFO-CONOCIMIENTO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-INFERENCIA-CONTROLADA-EXPLICABLE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-INTEGRACION-ODA-MULTIMEDIA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-MOTOR-CONOCIMIENTO-LINGUISTICO-CULTURAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-ONTOLOGIA-LINGUISTICA-CULTURAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-OPERACION-MANTENIMIENTO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-PRUEBAS-CRITERIOS-ACEPTACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007C-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007D-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007D-MOTOR-RAZONAMIENTO-LINGUISTICO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007D-REGLAS-INFERENCIA-EXPLICACIONES.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-007D-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-008-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-008-RUTAS-EJERCICIOS-RETROALIMENTACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-008-TUTOR-INTELIGENTE-PUINAVE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-008-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-009-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-009-ECOSISTEMA-CONVERSACIONAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-009-INTERACCION-TEXTO-VOZ.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-009-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-API-INSTITUCIONAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-ARQUITECTURA-PLATAFORMA-INTEGRADA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-INTEGRACION-MOTORES.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-OPERACION-DESPLIEGUE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-PRUEBAS-CRITERIOS-ACEPTACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-SEGURIDAD-LINGUISTICA-CULTURAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-SOLUCION-ERRORES-DEMOSTRACION-INTEGRADA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-010-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-ARQUITECTURA-PLATAFORMA-OPERATIVA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-AUTOMATIZACION",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-CONTRATO-FLUTTER.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-INTEGRACION-FASTAPI-POSTGRESQL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-OPERACION-RLB-MULTIMEDIA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-PRUEBAS-CRITERIOS-ACEPTACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011A-INSTITUTIONAL-EVIDENCE-CLOSURE.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-011A-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-012-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-012-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-012-DICCIONARIO-DIGITAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-012-INTEGRACION-MOTORES.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-012-MULTIMEDIA-Y-ODA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-012-RUTAS-PROGRESO-EVALUACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-012-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013A-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013A-ROADMAP.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013A-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013B-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013B-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013B-IMPORTACION-EXPORTACION.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013B-MODELO-LEXICO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-013B-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-014-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-014-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-014-ODA-MULTIMEDIA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-014-POLITICA-MULTIMEDIA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-014-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-015-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-015-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-015-MODELO-ADAPTATIVO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-015-RUBRICAS.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-015-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-CIERRE-OFICIAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-ESPECIFICACION-FUNCIONAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-EVENTOS-SPA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-MANUAL-OPERATIVO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-MATRIZ-DE-TRAZABILIDAD.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-METRICAS.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-PLAN-Y-RESULTADOS-DE-PRUEBAS.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016A-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016A-EVIDENCE-COMPATIBILITY-PATCH.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-016A-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-017-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-017-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-017-MANUAL-OPERATIVO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-017-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-018-ARQUITECTURA.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-018-COMPONENT.JSON",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-018-ESPECIFICACION-FUNCIONAL.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-018-MANUAL-OPERATIVO.MD",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    },
+    {
+      "code": "REGISTRY_CODE_WITHOUT_DESCRIPTOR",
+      "severity": "warning",
+      "subject": "SPT-018-V1",
+      "message": "Código del Registro sin descriptor localizado.",
+      "evidence": []
+    }
+  ]
+}

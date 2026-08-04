@@ -1,0 +1,38 @@
+{
+    "program":  "PCI-SGODA-v1.0.0",
+    "increment_code":  "PCI-001.1",
+    "deliverable":  "SGD-201A.1",
+    "version":  "1.0.0",
+    "release_name":  "PCI-001.1-v1.0.0-R3",
+    "status":  "implemented_tested_and_candidate_for_closure",
+    "native_ecosystem":  true,
+    "mandatory_proprietary_dependencies":  [
+
+                                           ],
+    "approval_rule":  "zero real critical findings",
+    "backward_compatible_with":  "PCI-001",
+    "files":  [
+                  "full-suite-summary.json",
+                  "full-suite-summary.md",
+                  "full-suite.xml",
+                  "implementation-evidence.json",
+                  "implementation-evidence.md",
+                  "manifest.json",
+                  "PCI-001.1-Arquitectura.md",
+                  "PCI-001.1-component.json",
+                  "PCI-001.1-Manual-Operativo.md",
+                  "PCI-001.1-policy.json",
+                  "SGD-201A.1-dashboard.html",
+                  "SGD-201A.1-intelligent-audit.json",
+                  "SGD-201A.1-intelligent-audit.md",
+                  "SGD-201A.1-metrics.json",
+                  "SGD-201A.1-pmo-digital.json",
+                  "SGD-201A.1-traceability-graph.json",
+                  "specific-summary.json",
+                  "specific-summary.md",
+                  "specific.xml",
+                  "test_PCI_001_1_intelligent_master_index_auditor.py",
+                  "__init__.py",
+                  "__main__.py"
+              ]
+}

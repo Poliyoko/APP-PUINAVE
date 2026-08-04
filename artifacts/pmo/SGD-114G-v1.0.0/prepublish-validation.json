@@ -4,6 +4,10 @@
   "duplicates": [],
   "validated_manifests": [
     "ADR-010-v1.0.0",
+    "PCI-001-v1.0.0",
+    "PCI-001.1-v1.0.0",
+    "PCI-001.1-v1.0.0-R2",
+    "PCI-001.1-v1.0.0-R3",
     "SGD-114-Policy-Auditor-v1.0.0",
     "SGD-114-v2.0.1",
     "SGD-114C-v1.0.0",

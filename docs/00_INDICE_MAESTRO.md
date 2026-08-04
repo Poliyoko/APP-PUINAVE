@@ -54,9 +54,11 @@
 
 ## 13. Componentes registrados
 
-Total identificado automáticamente: **55**.
+Total identificado automáticamente: **57**.
 
 - **ADR-010** — relational_media_repository (v1.0.0; institutionally_closed)
+- **PCI-001** — Auditoría del Índice Maestro (v1.0.0; implemented_tested_and_candidate_for_closure)
+- **PCI-001.1** — Auditor Inteligente del Índice Maestro (v1.0.0; implemented_tested_and_candidate_for_closure)
 - **SGD-114-PA** — SGD-114 Policy Auditor (v1.0.0; implemented)
 - **SGD-114-v2** — institutional_repository_governance (v2.0.0; institutionally_closed)
 - **SGD-114C** — Policy Governance Core (v1.0.0; implemented)

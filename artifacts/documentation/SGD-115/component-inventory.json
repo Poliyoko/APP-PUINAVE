@@ -37,6 +37,107 @@
     ]
   },
   {
+    "code": "PCI-001",
+    "name": "Auditoría del Índice Maestro",
+    "version": "1.0.0",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "component_type": "no declarado",
+    "config_path": "config/governance/PCI-001-component.json",
+    "source_paths": [
+      "src/sgoda/governance/master_index_audit"
+    ],
+    "test_paths": [
+      "tests/governance/master_index_audit"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/PCI-001",
+      "docs/01_Gobierno/PCI-001.1/PCI-001.1-Arquitectura.md",
+      "docs/01_Gobierno/PCI-001.1/PCI-001.1-Manual-Operativo.md",
+      "docs/01_Gobierno/PCI-001/PCI-001-Arquitectura.md",
+      "docs/01_Gobierno/PCI-001/PCI-001-Manual-Operativo.md"
+    ],
+    "release_paths": [
+      "releases/PCI-001-v1.0.0",
+      "releases/PCI-001.1-v1.0.0",
+      "releases/PCI-001.1-v1.0.0-R2",
+      "releases/PCI-001.1-v1.0.0-R3"
+    ],
+    "evidence_paths": [
+      "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-final-audit.html",
+      "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-final-audit.json",
+      "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-final-audit.md",
+      "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-initial-audit.html",
+      "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-initial-audit.json",
+      "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-initial-audit.md",
+      "artifacts/consolidation/PCI-001-v1.0.0/repository-validation.json",
+      "artifacts/consolidation/PCI-001-v1.0.0/test-reports/specific-summary.json",
+      "artifacts/consolidation/PCI-001-v1.0.0/test-reports/specific-summary.md",
+      "artifacts/consolidation/PCI-001-v1.0.0/test-reports/specific.xml",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R2/test-reports/specific.xml",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-dashboard.html",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-intelligent-audit.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-intelligent-audit.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-metrics.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-pmo-digital.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-traceability-graph.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/implementation-evidence.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/implementation-evidence.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/release-validation.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/repository-validation.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/full-suite-summary.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/full-suite-summary.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/full-suite.xml",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific-summary.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific-summary.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific.xml",
+      "artifacts/consolidation/PCI-001.1-v1.0.0/test-reports/specific.xml"
+    ]
+  },
+  {
+    "code": "PCI-001.1",
+    "name": "Auditor Inteligente del Índice Maestro",
+    "version": "1.0.0",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "component_type": "no declarado",
+    "config_path": "config/governance/PCI-001.1-component.json",
+    "source_paths": [
+      "src/sgoda/governance/master_index_audit"
+    ],
+    "test_paths": [
+      "tests/governance/master_index_audit/test_PCI_001_1_intelligent_master_index_auditor.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/PCI-001.1",
+      "docs/01_Gobierno/PCI-001.1/PCI-001.1-Arquitectura.md",
+      "docs/01_Gobierno/PCI-001.1/PCI-001.1-Manual-Operativo.md"
+    ],
+    "release_paths": [
+      "releases/PCI-001.1-v1.0.0",
+      "releases/PCI-001.1-v1.0.0-R2",
+      "releases/PCI-001.1-v1.0.0-R3"
+    ],
+    "evidence_paths": [
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R2/test-reports/specific.xml",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-dashboard.html",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-intelligent-audit.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-intelligent-audit.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-metrics.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-pmo-digital.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-traceability-graph.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/implementation-evidence.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/implementation-evidence.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/release-validation.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/repository-validation.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/full-suite-summary.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/full-suite-summary.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/full-suite.xml",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific-summary.json",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific-summary.md",
+      "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific.xml",
+      "artifacts/consolidation/PCI-001.1-v1.0.0/test-reports/specific.xml"
+    ]
+  },
+  {
     "code": "SGD-114-PA",
     "name": "SGD-114 Policy Auditor",
     "version": "1.0.0",

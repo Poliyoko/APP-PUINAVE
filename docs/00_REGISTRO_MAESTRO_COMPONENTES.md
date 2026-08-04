@@ -5,6 +5,8 @@
 | Código | Nombre/Tipo | Versión | Estado | Configuración | Código | Pruebas | Documentación | Release | Evidencias |
 |---|---|---:|---|---|---:|---:|---:|---:|---:|
 | ADR-010 | relational_media_repository | 1.0.0 | institutionally_closed | `config/media/ADR-010-component.json` | 4 | 1 | 3 | 1 | 10 |
+| PCI-001 | Auditoría del Índice Maestro | 1.0.0 | implemented_tested_and_candidate_for_closure | `config/governance/PCI-001-component.json` | 1 | 1 | 5 | 4 | 28 |
+| PCI-001.1 | Auditor Inteligente del Índice Maestro | 1.0.0 | implemented_tested_and_candidate_for_closure | `config/governance/PCI-001.1-component.json` | 1 | 1 | 3 | 3 | 18 |
 | SGD-114-PA | SGD-114 Policy Auditor | 1.0.0 | implemented | `config/governance/SGD-114-policy-auditor-component.json` | 1 | 1 | 1 | 0 | 0 |
 | SGD-114-v2 | institutional_repository_governance | 2.0.0 | institutionally_closed | `config/governance/SGD-114-v2-component.json` | 1 | 1 | 2 | 1 | 8 |
 | SGD-114C | Policy Governance Core | 1.0.0 | implemented | `config/governance/SGD-114C-component.json` | 7 | 1 | 3 | 1 | 4 |
@@ -73,6 +75,30 @@
 - **Documentación:** `docs/03_ADR/ADR-010-Arquitectura-Escalable-Repositorio-Multimedia-RMR.md`, `docs/03_ADR/ADR-010-Evidence-Management-System.md`, `docs/05_Fase_Tecnologica/ADR-010/ADR-010-Implementacion-RMR.md`
 - **Releases:** `releases/ADR-010-v1.0.0`
 - **Evidencias:** 10 archivo(s) identificado(s).
+
+### PCI-001 — Auditoría del Índice Maestro
+
+- **Versión:** 1.0.0
+- **Estado:** implemented_tested_and_candidate_for_closure
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/PCI-001-component.json`
+- **Código:** `src/sgoda/governance/master_index_audit`
+- **Pruebas:** `tests/governance/master_index_audit`
+- **Documentación:** `docs/01_Gobierno/PCI-001`, `docs/01_Gobierno/PCI-001.1/PCI-001.1-Arquitectura.md`, `docs/01_Gobierno/PCI-001.1/PCI-001.1-Manual-Operativo.md`, `docs/01_Gobierno/PCI-001/PCI-001-Arquitectura.md`, `docs/01_Gobierno/PCI-001/PCI-001-Manual-Operativo.md`
+- **Releases:** `releases/PCI-001-v1.0.0`, `releases/PCI-001.1-v1.0.0`, `releases/PCI-001.1-v1.0.0-R2`, `releases/PCI-001.1-v1.0.0-R3`
+- **Evidencias:** 28 archivo(s) identificado(s).
+
+### PCI-001.1 — Auditor Inteligente del Índice Maestro
+
+- **Versión:** 1.0.0
+- **Estado:** implemented_tested_and_candidate_for_closure
+- **Tipo:** no declarado
+- **Configuración:** `config/governance/PCI-001.1-component.json`
+- **Código:** `src/sgoda/governance/master_index_audit`
+- **Pruebas:** `tests/governance/master_index_audit/test_PCI_001_1_intelligent_master_index_auditor.py`
+- **Documentación:** `docs/01_Gobierno/PCI-001.1`, `docs/01_Gobierno/PCI-001.1/PCI-001.1-Arquitectura.md`, `docs/01_Gobierno/PCI-001.1/PCI-001.1-Manual-Operativo.md`
+- **Releases:** `releases/PCI-001.1-v1.0.0`, `releases/PCI-001.1-v1.0.0-R2`, `releases/PCI-001.1-v1.0.0-R3`
+- **Evidencias:** 18 archivo(s) identificado(s).
 
 ### SGD-114-PA — SGD-114 Policy Auditor
 

@@ -1,0 +1,1 @@
+{"policy_id":"PCI-001-POLICY-v1.0.0","component":"PCI-001","approval_rule":"zero critical findings","critical_controls":["master documents exist","configuration JSON is valid","component descriptors are unique","local links in master index resolve"],"non_blocking_controls":["registry coverage","index explicit component coverage","descriptor traceability completeness"]}
