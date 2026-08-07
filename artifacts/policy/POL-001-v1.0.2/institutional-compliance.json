@@ -1,0 +1,55 @@
+{
+  "policy": "POL-001",
+  "version": "1.0.2",
+  "registry": "config/policies/POL-001-technology-registry.json",
+  "findings": [
+    {
+      "source": "requirements.txt",
+      "technology": "fastapi",
+      "classification": "approved",
+      "reason": "Framework gratuito y de código abierto.",
+      "adr_required": false
+    },
+    {
+      "source": "requirements.txt",
+      "technology": "uvicorn",
+      "classification": "approved",
+      "reason": "Servidor ASGI gratuito y de código abierto.",
+      "adr_required": false
+    },
+    {
+      "source": "requirements.txt",
+      "technology": "pydantic",
+      "classification": "approved",
+      "reason": "Biblioteca gratuita y de código abierto para validación de datos.",
+      "adr_required": false
+    },
+    {
+      "source": "requirements.txt",
+      "technology": "httpx",
+      "classification": "approved",
+      "reason": "Cliente HTTP gratuito y de código abierto.",
+      "adr_required": false
+    },
+    {
+      "source": "requirements.txt",
+      "technology": "pytest",
+      "classification": "approved",
+      "reason": "Herramienta de pruebas gratuita y open source.",
+      "adr_required": false
+    },
+    {
+      "source": "requirements.txt",
+      "technology": "openpyxl",
+      "classification": "approved",
+      "reason": "Biblioteca gratuita y de código abierto para archivos Excel.",
+      "adr_required": false
+    }
+  ],
+  "counts": {
+    "approved": 6,
+    "review_required": 0,
+    "prohibited": 0
+  },
+  "approved": true
+}

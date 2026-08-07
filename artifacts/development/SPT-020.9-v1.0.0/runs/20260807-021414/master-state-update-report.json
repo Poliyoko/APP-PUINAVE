@@ -1,0 +1,32 @@
+{
+    "component":  "SPT-020.9",
+    "version":  "1.0.0",
+    "generated_at_utc":  "2026-08-07T02:14:14.2191750Z",
+    "run_id":  "20260807-021414",
+    "status":  "CLOSED",
+    "technical_errors":  0,
+    "source_of_truth":  {
+                            "closure_registry":  "config/platform/SPT-020-closure-registry.json",
+                            "zero_error_report":  "artifacts/closure/SPT-020.8-v1.0.1/runs/20260807-020321/zero-error-report.json",
+                            "release_manifest":  "releases/SPT-020-v1.0.0/manifest.json"
+                        },
+    "sgd_000":  {
+                    "path":  "docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+                    "updated":  true,
+                    "managed_block_count":  1,
+                    "sha256":  "838e32568d93ff4af75ebf78dc904956eb396dc1c0417708207d55cb356a33ff"
+                },
+    "master_traceability_matrix":  {
+                                       "path":  "docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+                                       "updated":  true,
+                                       "managed_block_count":  1,
+                                       "sha256":  "47c8c0c6aeb3670f12e9f8ea92b15ad0d8aee274985101474d5a778c4316565d"
+                                   },
+    "baseline_tests":  808,
+    "current_tests":  808,
+    "pytest_passed":  true,
+    "python_compile_exit_code":  0,
+    "spt_020_status":  "CLOSED",
+    "n8n_installed":  false,
+    "paid_services_required":  false
+}

@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-019.1",
+    "parent_component":  "SPT-019",
+    "version":  "1.0.1",
+    "name":  "Workflow Engine Core",
+    "status":  "candidate_for_integration",
+    "tests_approved":  true,
+    "workflow_registry_approved":  true,
+    "simulation_approved":  true,
+    "external_actions_executed":  false,
+    "paid_services_required":  false
+}

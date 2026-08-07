@@ -1,0 +1,8 @@
+{
+  "policy_id":"SPT-019.2-POLICY-v1.0.0",
+  "unique_workflow_id_required":true,
+  "unique_workflow_name_required":true,
+  "status_catalog":["draft","validated","released","retired"],
+  "registry_hash_required":true,
+  "external_actions_allowed":false
+}

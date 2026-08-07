@@ -1,0 +1,20 @@
+{
+    "component":  "SPT-019.0",
+    "version":  "1.1.0",
+    "generated_at_utc":  "2026-08-05T07:18:13.7465087Z",
+    "repository_is_source_of_truth":  true,
+    "duplicate_store_created":  false,
+    "duplicate_business_logic":  false,
+    "powershell_execution":  true,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "conformity_percent":  100,
+    "findings":  0,
+    "tests":  {
+                  "requested":  true,
+                  "executed":  true,
+                  "passed":  true,
+                  "exit_code":  0
+              },
+    "sgd_000":  "docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md"
+}

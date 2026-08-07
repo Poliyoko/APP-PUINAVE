@@ -1,0 +1,10 @@
+{
+  "policy_id": "POL-001-v1.0.1",
+  "mandatory": true,
+  "default_for_unknown_technology": "review_required",
+  "paid_mandatory_dependency": "prohibited",
+  "fair_code_dependency": "review_required",
+  "approved_adr_can_override": true,
+  "internet_required_for_execution": false,
+  "commercial_api_required": false
+}

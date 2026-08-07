@@ -1,0 +1,1 @@
+{"workflow_id": "SPT-019-WF-001", "workflow_version": "0.1.0", "simulation": true, "executed": false, "event": {"event": "policy.audit.requested", "component": "POL-001", "requested_by": "SPT-019.1"}, "trigger_types": ["n8n-nodes-base.webhook"], "result": "accepted_for_simulation"}

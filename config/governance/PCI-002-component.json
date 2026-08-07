@@ -1,0 +1,21 @@
+{
+  "increment_code": "PCI-002",
+  "name": "Institutional Consolidation Engine",
+  "version": "1.2.1",
+  "status": "implemented_tested_and_candidate_for_closure",
+  "program": "PCI-SGODA-v1.0.0",
+  "deliverable": "SGD-202A",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "PCI-001",
+    "PCI-001.1",
+    "PCI-001.2",
+    "SGD-114F",
+    "SGD-114G",
+    "SGD-115",
+    "SGD-116",
+    "SGD-117",
+    "SPB-007"
+  ]
+}

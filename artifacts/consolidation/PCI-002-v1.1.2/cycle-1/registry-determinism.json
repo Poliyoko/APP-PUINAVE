@@ -1,0 +1,15 @@
+{
+  "increment_code": "PCI-001.3",
+  "version": "1.0.0",
+  "components": 60,
+  "generations": 3,
+  "hashes": [
+    "4b7b28a99a3b387aeb15eec9e91eb7d9d832afdc14181d3b16acb19a330236ec",
+    "4b7b28a99a3b387aeb15eec9e91eb7d9d832afdc14181d3b16acb19a330236ec",
+    "4b7b28a99a3b387aeb15eec9e91eb7d9d832afdc14181d3b16acb19a330236ec"
+  ],
+  "canonical_sha256": "4b7b28a99a3b387aeb15eec9e91eb7d9d832afdc14181d3b16acb19a330236ec",
+  "deterministic": true,
+  "changed": true,
+  "approved": true
+}

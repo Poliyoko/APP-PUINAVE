@@ -1,0 +1,46 @@
+{
+  "component": "SPT-019.2",
+  "name": "Workflow Registry Manager",
+  "version": "1.0.0",
+  "generated_at_utc": "2026-08-05T05:57:29.706522+00:00",
+  "workflow_count": 2,
+  "active_count": 2,
+  "retired_count": 0,
+  "workflows": [
+    {
+      "workflow_id": "SPT-019-WF-001",
+      "name": "SPT-019 — Policy Audit Request",
+      "version": "0.1.0",
+      "status": "validated",
+      "category": "governance",
+      "file": "workflows/governance/SPT-019-WF-001-Policy-Audit-Request.json",
+      "dependencies": [
+        "POL-001",
+        "SGD-117"
+      ],
+      "trigger_types": [
+        "n8n-nodes-base.webhook"
+      ],
+      "sha256": "4e337a3c6c4c2c3d8603819524e943aed709a17ac0fd35b2cca3a99c8d70681f"
+    },
+    {
+      "workflow_id": "SPT-019-WF-002",
+      "name": "SPT-019 — PMO Event Gateway",
+      "version": "0.1.0",
+      "status": "validated",
+      "category": "pmo",
+      "file": "workflows/pmo/SPT-019-WF-002-PMO-Event-Gateway.json",
+      "dependencies": [
+        "PMO-DIGITAL",
+        "SGD-117"
+      ],
+      "trigger_types": [
+        "n8n-nodes-base.webhook"
+      ],
+      "sha256": "2af8fe1ebe40c3188646a6fdbacec1d3ccfc6893450adf0037362de71e002e41"
+    }
+  ],
+  "errors": [],
+  "approved": true,
+  "sha256": "3854c90f5e52f9aa3ae008b6e3eff8897b06cafd0be9d0de1c467e655909dcd9"
+}

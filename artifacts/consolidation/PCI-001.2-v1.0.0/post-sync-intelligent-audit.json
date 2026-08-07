@@ -1,0 +1,6374 @@
+{
+  "program": "PCI-SGODA-v1.0.0",
+  "increment_code": "PCI-001.1",
+  "deliverable": "SGD-201A.1",
+  "version": "1.0.0",
+  "approved": true,
+  "result": "APROBADO",
+  "exit_code": 0,
+  "master_documents": {
+    "index": true,
+    "registry": true,
+    "architecture": true
+  },
+  "repository_roots": {
+    "src": true,
+    "tests": true,
+    "docs": true,
+    "config": true,
+    "artifacts": true,
+    "releases": true,
+    "scripts": true
+  },
+  "git": {
+    "available": true,
+    "clean": false,
+    "branch": "feature/SPT-001A-rlb-schema-foundation",
+    "head": "4330a3b7e8f17579eda335c271638c00c6d53c35",
+    "tags": [
+      "SGODA-BUILDER-1.0.0-FINAL",
+      "SGODA-BUILDER-1.3.0-FINAL",
+      "SGODA-BUILDER-1.6.0-FINAL",
+      "SPB-002.1-F001",
+      "SPB-002.2",
+      "SPB-002.3-A",
+      "SPB-002.3-B",
+      "SPB-002.3-C",
+      "SPB-002.4-A",
+      "SPB-002.4-B",
+      "SPB-002.4-C",
+      "SPB-002.5-A",
+      "SPB-002.5-B",
+      "SPB-002.5-C",
+      "SPB-002.6-A",
+      "SPB-002.6-B",
+      "SPB-002.6-C",
+      "SPB-002.7-A",
+      "SPB-002.7-B",
+      "SPB-002.7-C",
+      "SPB-002.7-C-B1",
+      "SPB-002.7-C-B2.1",
+      "SPB-002.8-A",
+      "SPB-002.8-A-B1",
+      "SPB-002.8-A-B2",
+      "SPB-002.8-A-B3",
+      "SPB-002.8-B",
+      "SPB-002.8-B-B2",
+      "SPB-002.8-B-B3",
+      "SPB-002.8-C-B1",
+      "SPB-002.8-C-B2",
+      "SPB-002.8-C-B3",
+      "SPB-002.9-A",
+      "SPB-002.9-B",
+      "SPB-003.2-CIERRE",
+      "SPB-005.3-v1.4",
+      "v0.5.1-f001",
+      "v0.5.2-f002",
+      "v1.0.0"
+    ],
+    "remotes": [
+      "origin"
+    ]
+  },
+  "metrics": {
+    "canonical_components": 58,
+    "active_components": 47,
+    "historical_increments": 11,
+    "ignored_non_component_json": 68,
+    "complete_active_components": 0,
+    "registry_coverage_percent": 100.0,
+    "index_coverage_percent": 0.0,
+    "critical_findings": 0,
+    "warning_findings": 6,
+    "informational_findings": 48,
+    "institutional_consistency_score": 48.5
+  },
+  "components": [
+    {
+      "code": "SPT-015",
+      "name": "Motor de Evaluación Adaptativa",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/adaptive_assessment/SPT-015-component.json",
+      "source_paths": [
+        "src/sgoda/adaptive_assessment/models.py",
+        "src/sgoda/adaptive_assessment/repository.py",
+        "src/sgoda/adaptive_assessment/scoring.py",
+        "src/sgoda/adaptive_assessment/adaptation.py",
+        "src/sgoda/adaptive_assessment/feedback.py",
+        "src/sgoda/adaptive_assessment/exporter.py",
+        "src/sgoda/adaptive_assessment/service.py",
+        "src/sgoda/adaptive_assessment/cli.py"
+      ],
+      "test_paths": [
+        "tests/adaptive_assessment/test_SPT_015_adaptive_assessment_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md"
+      ],
+      "dependencies": [
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-014",
+        "SPT-012",
+        "SPT-008",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-015-v1.0.0",
+        "manifest": true,
+        "code": "SPT-015",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-004A",
+      "name": "Fundación del Asistente Inteligente Institucional",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/assistant/SPT-004A-component.json",
+      "source_paths": [
+        "src/sgoda/assistant/models.py",
+        "src/sgoda/assistant/intent_classifier.py",
+        "src/sgoda/assistant/knowledge_repository.py",
+        "src/sgoda/assistant/faq.py",
+        "src/sgoda/assistant/service.py",
+        "src/sgoda/assistant/cli.py"
+      ],
+      "test_paths": [
+        "tests/assistant/test_SPT_004A_institutional_assistant.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md"
+      ],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-004A-v0.1.0",
+        "manifest": true,
+        "code": "SPT-004A",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-003A",
+      "name": "SPT-003A",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/automation/SPT-003A-component.json",
+      "source_paths": [
+        "src/sgoda/automation/models.py",
+        "src/sgoda/automation/job_queue.py",
+        "src/sgoda/automation/planner.py",
+        "src/sgoda/automation/cli.py"
+      ],
+      "test_paths": [
+        "tests/automation/test_SPT_003A_multimedia_orchestrator.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-003A-v0.1.0",
+        "manifest": true,
+        "code": "SPT-003A",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SPT-003B",
+      "name": "SPT-003B",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/automation/SPT-003B-component.json",
+      "source_paths": [],
+      "test_paths": [
+        "tests/automation/test_SPT_003B_ai_multimedia_adapters.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-003B-v0.1.0",
+        "manifest": true,
+        "code": "SPT-003B",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": true,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 50.0
+    },
+    {
+      "code": "SPT-003C",
+      "name": "Piloto Controlado de Proveedores Reales",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/automation/SPT-003C-component.json",
+      "source_paths": [
+        "src/sgoda/automation/pilot/models.py",
+        "src/sgoda/automation/pilot/governance.py",
+        "src/sgoda/automation/pilot/budget.py",
+        "src/sgoda/automation/pilot/circuit_breaker.py",
+        "src/sgoda/automation/pilot/runner.py"
+      ],
+      "test_paths": [
+        "tests/automation/test_SPT_003C_controlled_provider_pilot.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-003C-v0.1.0",
+        "manifest": true,
+        "code": "SPT-003C",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SPT-009",
+      "name": "Ecosistema Conversacional",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/conversation/SPT-009-component.json",
+      "source_paths": [
+        "src/sgoda/conversation/models.py",
+        "src/sgoda/conversation/router.py",
+        "src/sgoda/conversation/memory.py",
+        "src/sgoda/conversation/service.py",
+        "src/sgoda/conversation/cli.py"
+      ],
+      "test_paths": [
+        "tests/conversation/test_SPT_009_conversational_ecosystem.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
+        "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md"
+      ],
+      "dependencies": [
+        "SPT-004A",
+        "SPT-006A",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-009-v1.0.0",
+        "manifest": true,
+        "code": "SPT-009",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-013B",
+      "name": "Gestor Institucional del Diccionario Digital",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/dictionary_manager/SPT-013B-component.json",
+      "source_paths": [
+        "src/sgoda/dictionary_manager/models.py",
+        "src/sgoda/dictionary_manager/validation.py",
+        "src/sgoda/dictionary_manager/repository.py",
+        "src/sgoda/dictionary_manager/import_export.py",
+        "src/sgoda/dictionary_manager/service.py",
+        "src/sgoda/dictionary_manager/cli.py"
+      ],
+      "test_paths": [
+        "tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md"
+      ],
+      "dependencies": [
+        "SPT-013A",
+        "SPT-012",
+        "SPT-007A",
+        "SPT-007B",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-013B-v1.0.0",
+        "manifest": true,
+        "code": "SPT-013B",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SGD-115A",
+      "name": "Documentation Canonical Component Resolver",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/documentation/SGD-115A-component.json",
+      "source_paths": [
+        "src/sgoda/documentation/canonical_component_resolver.py"
+      ],
+      "test_paths": [
+        "tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md"
+      ],
+      "dependencies": [
+        "SGD-115",
+        "SGD-114D-v1.0.1",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-115A-v1.0.0",
+        "manifest": true,
+        "code": "SGD-115A",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 1,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-006",
+      "name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/enrichment/SPT-006-component.json",
+      "source_paths": [
+        "src/sgoda/enrichment/models.py",
+        "src/sgoda/enrichment/planner.py",
+        "src/sgoda/enrichment/providers.py",
+        "src/sgoda/enrichment/playback.py",
+        "src/sgoda/enrichment/pipeline.py",
+        "src/sgoda/enrichment/cli.py"
+      ],
+      "test_paths": [
+        "tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md"
+      ],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-006-v0.1.0",
+        "manifest": true,
+        "code": "SPT-006",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "PCI-001",
+      "name": "Auditoría del Índice Maestro",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/governance/PCI-001-component.json",
+      "source_paths": [
+        "src/sgoda/governance/master_index_audit"
+      ],
+      "test_paths": [
+        "tests/governance/master_index_audit"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/PCI-001"
+      ],
+      "dependencies": [
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "PCI-001-v1.0.0",
+        "manifest": true,
+        "code": "PCI-001-V1.0.0",
+        "version": "legacy"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "PCI-001.1",
+      "name": "Auditor Inteligente del Índice Maestro",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/governance/PCI-001.1-component.json",
+      "source_paths": [
+        "src/sgoda/governance/master_index_audit"
+      ],
+      "test_paths": [
+        "tests/governance/master_index_audit/test_PCI_001_1_intelligent_master_index_auditor.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/PCI-001.1"
+      ],
+      "dependencies": [
+        "PCI-001",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "PCI-001.1-v1.0.0-R3",
+        "manifest": true,
+        "code": "PCI-001.1",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "PCI-001.2",
+      "name": "Institutional Master Index Synchronizer",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/governance/PCI-001.2-component.json",
+      "source_paths": [
+        "src/sgoda/governance/master_index_sync"
+      ],
+      "test_paths": [
+        "tests/governance/master_index_sync/test_PCI_001_2_master_index_synchronizer.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/PCI-001.2"
+      ],
+      "dependencies": [
+        "PCI-001",
+        "PCI-001.1",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "PCI-001.2-v1.0.0",
+        "manifest": false,
+        "code": "",
+        "version": ""
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SGD-114-PA",
+      "name": "SGD-114 Policy Auditor",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114-policy-auditor-component.json",
+      "source_paths": [
+        "src/sgoda/governance/policy_auditor.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114_policy_auditor.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114-Policy-Auditor.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SGD-116B"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": null,
+      "semantic": {
+        "documents_checked": 1,
+        "code_mentioned": false,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": false,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SGD-114-V2",
+      "name": "SGD-114-V2",
+      "version": "2.0.0",
+      "status": "institutionally_closed",
+      "descriptor_path": "config/governance/SGD-114-v2-component.json",
+      "source_paths": [
+        "src/sgoda/governance/repository_governance.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114_v2_repository_governance.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": false,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 50.0
+    },
+    {
+      "code": "SGD-114C",
+      "name": "Policy Governance Core",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114C-component.json",
+      "source_paths": [
+        "src/sgoda/governance/policy_models.py",
+        "src/sgoda/governance/policy_context.py",
+        "src/sgoda/governance/policy_rules.py",
+        "src/sgoda/governance/policy_registry.py",
+        "src/sgoda/governance/policy_engine.py",
+        "src/sgoda/governance/policy_report.py",
+        "src/sgoda/governance/policy_cli.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114C_policy_governance_core.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md",
+        "docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SGD-116B",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-114C-v1.0.0",
+        "manifest": true,
+        "code": "SGD-114C",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SGD-114D",
+      "name": "Adaptive Institutional Policy Engine",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114D-component.json",
+      "source_paths": [
+        "src/sgoda/governance/adaptive_policy_models.py",
+        "src/sgoda/governance/adaptive_policy_resolver.py",
+        "src/sgoda/governance/adaptive_policy_rules.py",
+        "src/sgoda/governance/adaptive_policy_engine.py",
+        "src/sgoda/governance/adaptive_policy_cli.py",
+        "src/sgoda/governance/adaptive_policy.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114D_adaptive_institutional_policy_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114D-Adaptive-Institutional-Policy-Engine.md",
+        "docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md"
+      ],
+      "dependencies": [
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-114D-v1.0.0",
+        "manifest": true,
+        "code": "SGD-114D",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SGD-114D-V1.0.1",
+      "name": "Adaptive Release Canonical Resolver",
+      "version": "1.0.1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114D-v1.0.1-component.json",
+      "source_paths": [
+        "src/sgoda/governance/adaptive_policy_resolver.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114D_release_canonical_resolver.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md"
+      ],
+      "dependencies": [
+        "SGD-114D-v1.0.0",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 1,
+        "code_mentioned": false,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 75.0
+    },
+    {
+      "code": "SGD-114E-C1",
+      "name": "Native Ecosystem Validator Fix",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-C1-component.json",
+      "source_paths": [
+        "src/sgoda/governance/native_ecosystem_policy.py",
+        "src/sgoda/governance/native_ecosystem_validator.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md"
+      ],
+      "dependencies": [
+        "SGD-114E-v1.0.2",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-114E-C1-v1.0.0",
+        "manifest": true,
+        "code": "SGD-114E-C1",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 1,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SGD-114E",
+      "name": "Native Ecosystem Architecture Policy",
+      "version": "1.0.2",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-component.json",
+      "source_paths": [
+        "src/sgoda/governance/native_ecosystem_models.py",
+        "src/sgoda/governance/native_ecosystem_policy.py",
+        "src/sgoda/governance/native_ecosystem_validator.py",
+        "src/sgoda/governance/native_ecosystem_cli.py",
+        "src/sgoda/governance/native_ecosystem.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md",
+        "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md"
+      ],
+      "dependencies": [
+        "SGD-114D",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-114E-v1.0.3",
+        "manifest": true,
+        "code": "SGD-114E",
+        "version": "1.0.3"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SGD-114E-V1.0.3",
+      "name": "Native Ecosystem Approval Logic Fix",
+      "version": "1.0.3",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.3-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-V1.0.4",
+      "name": "Multi-Test-Path Invocation Fix",
+      "version": "1.0.4",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.4-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E-v1.0.3",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-V1.0.5",
+      "name": "Backward Compatibility Result Model",
+      "version": "1.0.5",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.5-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E-v1.0.3",
+        "SGD-114E-v1.0.4",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-V1.0.6",
+      "name": "Definitive Contract Restoration",
+      "version": "1.0.6",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.6-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SGD-114E-v1.0.3",
+        "SGD-114E-v1.0.4",
+        "SGD-114E-v1.0.5",
+        "SGD-114F",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-V1.0.7",
+      "name": "Definitive Prevalidated Contract Closure",
+      "version": "1.0.7",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v1.0.7-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-V2.0.0",
+      "name": "Definitive Native Ecosystem Validator",
+      "version": "2.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v2.0.0-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-V2.0.0-R1",
+      "name": "Canonical Contract Closure",
+      "version": "2.0.0-R1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v2.0.0-R1-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114E-V2.0.0-R2.1",
+      "name": "Self Validation Closure",
+      "version": "2.0.0-R2.1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114E-v2.0.0-R2.1-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": true,
+      "release": {
+        "directory": "SGD-114E-v2.0.0-R2.1",
+        "manifest": true,
+        "code": "SGD-114E-V2.0.0-R2.1",
+        "version": ""
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": true,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 25.0
+    },
+    {
+      "code": "SGD-114F",
+      "name": "Institutional Test Evidence Synchronizer",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114F-component.json",
+      "source_paths": [
+        "src/sgoda/governance/test_evidence/models.py",
+        "src/sgoda/governance/test_evidence/junit_parser.py",
+        "src/sgoda/governance/test_evidence/synchronizer.py",
+        "src/sgoda/governance/test_evidence/cli.py"
+      ],
+      "test_paths": [
+        "tests/governance/test_SGD_114F_institutional_test_evidence_synchronizer.py"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+        "docs/01_Gobierno/SGD-114F-Migracion-Instaladores.md"
+      ],
+      "dependencies": [
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-114F-v1.0.0",
+        "manifest": true,
+        "code": "SGD-114F",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SGD-114G-V1.0.0",
+      "name": "Institutional Release Management Service",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114G-v1.0.0-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-114G-V1.0.1",
+      "name": "Legacy Manifest Migration and Canonical Closure",
+      "version": "1.0.1",
+      "status": "implemented",
+      "descriptor_path": "config/governance/SGD-114G-v1.0.1-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": true,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": false,
+        "index": false
+      },
+      "completion_percent": 0.0
+    },
+    {
+      "code": "SGD-115",
+      "name": "Sistema Maestro de Documentación del Proyecto",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/governance/SGD-115-component.json",
+      "source_paths": [
+        "src/sgoda/documentation/master_docs.py"
+      ],
+      "test_paths": [
+        "tests/documentation/test_SGD_115_master_documentation.py"
+      ],
+      "documentation_paths": [
+        "docs/00_INDICE_MAESTRO.md",
+        "docs/00_ARQUITECTURA_MAESTRA.md",
+        "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md"
+      ],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": null,
+      "semantic": {
+        "documents_checked": 4,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": false,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SGD-117",
+      "name": "Institutional Repository Manager",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_officially_closed",
+      "descriptor_path": "config/governance/SGD-117-component.json",
+      "source_paths": [
+        "src/sgoda/governance/repository_manager/"
+      ],
+      "test_paths": [
+        "tests/governance/repository_manager/"
+      ],
+      "documentation_paths": [
+        "docs/01_Gobierno/SGD-117/"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-117-v1.0.0",
+        "manifest": true,
+        "code": "SGD-117",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-005",
+      "name": "Sistema de Identidad Cultural Configurable",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/identity/SPT-005-component.json",
+      "source_paths": [
+        "src/sgoda/identity/models.py",
+        "src/sgoda/identity/repository.py",
+        "src/sgoda/identity/service.py",
+        "src/sgoda/identity/exporter.py",
+        "src/sgoda/identity/cli.py"
+      ],
+      "test_paths": [
+        "tests/identity/test_SPT_005_configurable_cultural_identity.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+        "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md"
+      ],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-005-v0.1.0",
+        "manifest": true,
+        "code": "SPT-005",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SIB-001",
+      "name": "SGODA Installer Builder",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/installer_builder/SIB-001-component.json",
+      "source_paths": [
+        "src/sgoda/installer_builder/"
+      ],
+      "test_paths": [
+        "tests/installer_builder/test_SIB_001_installer_builder.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md",
+        "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md"
+      ],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SIB-001-v0.1.0",
+        "manifest": true,
+        "code": "",
+        "version": ""
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-007C",
+      "name": "Motor de Conocimiento Lingüístico y Cultural",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/knowledge_engine/SPT-007C-component.json",
+      "source_paths": [
+        "src/sgoda/knowledge_engine/models.py",
+        "src/sgoda/knowledge_engine/ontology.py",
+        "src/sgoda/knowledge_engine/graph.py",
+        "src/sgoda/knowledge_engine/inference.py",
+        "src/sgoda/knowledge_engine/navigation.py",
+        "src/sgoda/knowledge_engine/oda_bridge.py",
+        "src/sgoda/knowledge_engine/service.py",
+        "src/sgoda/knowledge_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/knowledge_engine/test_SPT_007C_knowledge_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md"
+      ],
+      "dependencies": [
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-006",
+        "SPT-004A",
+        "SPT-002",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-007C-v1.0.0",
+        "manifest": true,
+        "code": "SPT-007C",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 7,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-006A",
+      "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+      "version": "0.2.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/language_engine/SPT-006A-component.json",
+      "source_paths": [
+        "src/sgoda/language_engine/models.py",
+        "src/sgoda/language_engine/licensing.py",
+        "src/sgoda/language_engine/diagnostic.py",
+        "src/sgoda/language_engine/translation.py",
+        "src/sgoda/language_engine/tts.py",
+        "src/sgoda/language_engine/engine.py",
+        "src/sgoda/language_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-006A-v0.2.0",
+        "manifest": true,
+        "code": "SPT-006A",
+        "version": "0.2.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SPT-016",
+      "name": "Motor de Analítica del Aprendizaje",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_officially_closed",
+      "descriptor_path": "config/learning_analytics/SPT-016-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-012",
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-015",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-016-v1.0.0",
+        "manifest": true,
+        "code": "SPT-016",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 33.33
+    },
+    {
+      "code": "SPT-016A",
+      "name": "Evidence Compatibility Patch",
+      "version": "1.0.1",
+      "status": "implemented",
+      "descriptor_path": "config/learning_analytics/SPT-016A-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-016",
+        "SGD-114F",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-016A-v1.0.1",
+        "manifest": true,
+        "code": "SPT-016A",
+        "version": "1.0.1"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 33.33
+    },
+    {
+      "code": "SPT-013A",
+      "name": "Learning Ecosystem Foundation",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/learning_foundation/SPT-013A-component.json",
+      "source_paths": [
+        "src/sgoda/learning_foundation/models.py",
+        "src/sgoda/learning_foundation/registry.py",
+        "src/sgoda/learning_foundation/service.py",
+        "src/sgoda/learning_foundation/cli.py"
+      ],
+      "test_paths": [
+        "tests/learning_foundation/test_SPT_013A_learning_ecosystem_foundation.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md"
+      ],
+      "dependencies": [
+        "SPT-012",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-013A-v1.0.1",
+        "manifest": true,
+        "code": "SPT-013A",
+        "version": "1.0.1"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-012",
+      "name": "Plataforma de Aprendizaje SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/learning_platform/SPT-012-component.json",
+      "source_paths": [
+        "src/sgoda/learning_platform/models.py",
+        "src/sgoda/learning_platform/digital_dictionary.py",
+        "src/sgoda/learning_platform/media_library.py",
+        "src/sgoda/learning_platform/oda_factory.py",
+        "src/sgoda/learning_platform/curriculum.py",
+        "src/sgoda/learning_platform/progress.py",
+        "src/sgoda/learning_platform/integration_bridge.py",
+        "src/sgoda/learning_platform/service.py",
+        "src/sgoda/learning_platform/api.py",
+        "src/sgoda/learning_platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/learning_platform/test_SPT_012_sgoda_learning_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Arquitectura.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Diccionario-Digital.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Integracion-Motores.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Multimedia-y-ODA.md",
+        "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Rutas-Progreso-Evaluacion.md"
+      ],
+      "dependencies": [
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SPT-011",
+        "SGD-114D",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-012-v1.0.0",
+        "manifest": true,
+        "code": "SPT-012",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 5,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-007A",
+      "name": "Fundación del Motor Léxico Inteligente",
+      "version": "0.1.0",
+      "status": "implemented",
+      "descriptor_path": "config/lexical_engine/SPT-007A-component.json",
+      "source_paths": [
+        "src/sgoda/lexical_engine/models.py",
+        "src/sgoda/lexical_engine/normalizer.py",
+        "src/sgoda/lexical_engine/repository.py",
+        "src/sgoda/lexical_engine/search.py",
+        "src/sgoda/lexical_engine/ranking.py",
+        "src/sgoda/lexical_engine/multimedia.py",
+        "src/sgoda/lexical_engine/service.py",
+        "src/sgoda/lexical_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md"
+      ],
+      "dependencies": [
+        "SPT-001B",
+        "SPT-003A",
+        "SPT-004A",
+        "SPT-006",
+        "SPT-006A",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-007A-v0.1.0",
+        "manifest": true,
+        "code": "SPT-007A",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-007B",
+      "name": "Motor Léxico Inteligente Semántico",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/lexical_engine/SPT-007B-component.json",
+      "source_paths": [
+        "src/sgoda/lexical_engine/semantic_models.py",
+        "src/sgoda/lexical_engine/semantic_index.py",
+        "src/sgoda/lexical_engine/relations.py",
+        "src/sgoda/lexical_engine/query_expansion.py",
+        "src/sgoda/lexical_engine/semantic_ranking.py",
+        "src/sgoda/lexical_engine/suggestions.py",
+        "src/sgoda/lexical_engine/semantic_service.py",
+        "src/sgoda/lexical_engine/semantic_cli.py"
+      ],
+      "test_paths": [
+        "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md"
+      ],
+      "dependencies": [
+        "SPT-007A",
+        "SPT-006",
+        "SPT-006A",
+        "SPT-004A",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-007B-v1.0.0",
+        "manifest": true,
+        "code": "SPT-007B",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "ADR-010",
+      "name": "ADR-010",
+      "version": "1.0.0",
+      "status": "institutionally_closed",
+      "descriptor_path": "config/media/ADR-010-component.json",
+      "source_paths": [
+        "src/sgoda/media/models.py",
+        "src/sgoda/media/repository.py",
+        "src/sgoda/media/migration.py",
+        "src/sgoda/media/cli.py"
+      ],
+      "test_paths": [
+        "tests/media/test_ADR_010_rmr_repository.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "ADR-010-v1.0.0",
+        "manifest": true,
+        "code": "ADR-010",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SPT-014",
+      "name": "Motor Multimedia Inteligente",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/multimedia_engine/SPT-014-component.json",
+      "source_paths": [
+        "src/sgoda/multimedia_engine/models.py",
+        "src/sgoda/multimedia_engine/validation.py",
+        "src/sgoda/multimedia_engine/repository.py",
+        "src/sgoda/multimedia_engine/manifest.py",
+        "src/sgoda/multimedia_engine/oda.py",
+        "src/sgoda/multimedia_engine/service.py",
+        "src/sgoda/multimedia_engine/cli.py"
+      ],
+      "test_paths": [
+        "tests/multimedia_engine/test_SPT_014_intelligent_multimedia_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md",
+        "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md"
+      ],
+      "dependencies": [
+        "SPT-013A",
+        "SPT-013B",
+        "SPT-012",
+        "SPT-002",
+        "SPT-003A",
+        "SPT-003B",
+        "SPT-003C",
+        "SGD-114D",
+        "SGD-114E",
+        "SGD-115A",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-014-v1.0.0",
+        "manifest": true,
+        "code": "SPT-014",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-002",
+      "name": "SPT-002",
+      "version": "0.1.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/oda/SPT-002-component.json",
+      "source_paths": [
+        "src/sgoda/oda/models.py",
+        "src/sgoda/oda/engine.py",
+        "src/sgoda/oda/cli.py"
+      ],
+      "test_paths": [
+        "tests/oda/test_SPT_002_oda_engine.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-002-v0.1.0",
+        "manifest": true,
+        "code": "SPT-002",
+        "version": "0.1.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SPT-011",
+      "name": "Plataforma Operativa SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/operational_platform/SPT-011-component.json",
+      "source_paths": [
+        "src/sgoda/operational_platform/models.py",
+        "src/sgoda/operational_platform/settings.py",
+        "src/sgoda/operational_platform/database.py",
+        "src/sgoda/operational_platform/rlb_adapter.py",
+        "src/sgoda/operational_platform/media_adapter.py",
+        "src/sgoda/operational_platform/n8n_contracts.py",
+        "src/sgoda/operational_platform/flutter_contracts.py",
+        "src/sgoda/operational_platform/service.py",
+        "src/sgoda/operational_platform/api.py",
+        "src/sgoda/operational_platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Arquitectura-Plataforma-Operativa.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Integracion-FastAPI-PostgreSQL.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Contrato-Flutter.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Automatizacion-n8n.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Operacion-RLB-Multimedia.md",
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Pruebas-Criterios-Aceptacion.md"
+      ],
+      "dependencies": [
+        "SPT-010",
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-011-v1.0.0",
+        "manifest": true,
+        "code": "SPT-011",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 6,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-011A",
+      "name": "Institutional Evidence Closure",
+      "version": "1.0.2",
+      "status": "implemented",
+      "descriptor_path": "config/operational_platform/SPT-011A-component.json",
+      "source_paths": [
+        "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1"
+      ],
+      "test_paths": [
+        "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md"
+      ],
+      "dependencies": [
+        "SPT-011",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-011A-v1.0.1",
+        "manifest": true,
+        "code": "SPT-011A",
+        "version": "1.0.1"
+      },
+      "semantic": {
+        "documents_checked": 1,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-018",
+      "name": "IA Pedagógica SGODA",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/pedagogical_ai/SPT-018-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-008",
+        "SPT-015",
+        "SPT-016",
+        "SPT-017",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-018-v1.0.0",
+        "manifest": true,
+        "code": "SPT-018",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 33.33
+    },
+    {
+      "code": "SPT-010",
+      "name": "Plataforma Digital Integrada",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/platform/SPT-010-component.json",
+      "source_paths": [
+        "src/sgoda/platform/models.py",
+        "src/sgoda/platform/registry.py",
+        "src/sgoda/platform/health.py",
+        "src/sgoda/platform/facade.py",
+        "src/sgoda/platform/runtime.py",
+        "src/sgoda/platform/api.py",
+        "src/sgoda/platform/cli.py"
+      ],
+      "test_paths": [
+        "tests/platform/test_SPT_010_integrated_digital_platform.py"
+      ],
+      "documentation_paths": [
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
+        "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md"
+      ],
+      "dependencies": [
+        "SPT-005",
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SPT-008",
+        "SPT-009",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-010-v1.0.1",
+        "manifest": true,
+        "code": "SPT-010",
+        "version": "1.0.1"
+      },
+      "semantic": {
+        "documents_checked": 6,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-017",
+      "name": "Centro de Conocimiento Puinave",
+      "version": "1.0.0",
+      "status": "implemented_tested_and_candidate_for_closure",
+      "descriptor_path": "config/puinave_knowledge_center/SPT-017-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [
+        "SPT-007C",
+        "SPT-013B",
+        "SPT-014",
+        "SPT-015",
+        "SPT-016",
+        "SGD-114F",
+        "SGD-114G",
+        "SGD-115",
+        "SGD-116",
+        "SGD-117",
+        "SPB-007"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-017-v1.0.0",
+        "manifest": true,
+        "code": "SPT-017",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 33.33
+    },
+    {
+      "code": "SPT-007D",
+      "name": "Motor de Razonamiento Lingüístico",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/reasoning_engine/SPT-007D-component.json",
+      "source_paths": [
+        "src/sgoda/reasoning_engine/models.py",
+        "src/sgoda/reasoning_engine/rules.py",
+        "src/sgoda/reasoning_engine/reasoner.py",
+        "src/sgoda/reasoning_engine/service.py"
+      ],
+      "test_paths": [
+        "tests/reasoning_engine/test_SPT_007D_reasoning_engine.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
+        "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md"
+      ],
+      "dependencies": [
+        "SPT-007C",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-007D-v1.0.0",
+        "manifest": true,
+        "code": "SPT-007D",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPB-007",
+      "name": "SPB-007",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/repository/SPB-007-component.json",
+      "source_paths": [
+        "src/sgoda/publisher/institutional_publisher.py"
+      ],
+      "test_paths": [
+        "tests/publisher/test_SPB_007_institutional_publisher.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPB-007-v1.0.0",
+        "manifest": true,
+        "code": "SPB-007",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SPT-001B-P06",
+      "name": "SPT-001B-P06",
+      "version": "1.3.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/rlb/SPT-001B-P06-component.json",
+      "source_paths": [],
+      "test_paths": [],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": false,
+        "tests": false,
+        "documentation": false,
+        "release": false,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 16.67
+    },
+    {
+      "code": "SPT-001B-P07",
+      "name": "SPT-001B-P07",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/rlb/SPT-001B-P07-component.json",
+      "source_paths": [
+        "src/sgoda/rlb/header_normalizer.py"
+      ],
+      "test_paths": [
+        "tests/rlb/test_SPT_001B_P07_header_normalizer.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": false,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 50.0
+    },
+    {
+      "code": "SPT-001B-P08",
+      "name": "SPT-001B-P08",
+      "version": "1.0.0",
+      "status": "institutionally_closed",
+      "descriptor_path": "config/rlb/SPT-001B-P08-component.json",
+      "source_paths": [
+        "src/sgoda/rlb/canonical_consolidator.py"
+      ],
+      "test_paths": [
+        "tests/rlb/test_SPT_001B_P08_canonical_closure.py"
+      ],
+      "documentation_paths": [],
+      "dependencies": [],
+      "release_name": null,
+      "historical_increment": false,
+      "release": null,
+      "semantic": {
+        "documents_checked": 0,
+        "code_mentioned": false,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": false,
+        "release": false,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 50.0
+    },
+    {
+      "code": "SGD-116",
+      "name": "Roadmap Maestro Vivo del Ecosistema SGODA-PUINAVE",
+      "version": "1.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/roadmap/SGD-116-component.json",
+      "source_paths": [
+        "src/sgoda/roadmap/models.py",
+        "src/sgoda/roadmap/discovery.py",
+        "src/sgoda/roadmap/dependency_graph.py",
+        "src/sgoda/roadmap/metrics.py",
+        "src/sgoda/roadmap/timeline.py",
+        "src/sgoda/roadmap/generator.py",
+        "src/sgoda/roadmap/validator.py",
+        "src/sgoda/roadmap/cli.py"
+      ],
+      "test_paths": [
+        "tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Roadmap-Maestro-Vivo.md",
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Arquitectura-Descubrimiento.md",
+        "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Operacion-y-Regeneracion.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SPB-007",
+        "SIB-001"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": null,
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": false,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 66.67
+    },
+    {
+      "code": "SGD-116B",
+      "name": "Correctivo Institucional Único del Roadmap Maestro Vivo",
+      "version": "2.0.0",
+      "status": "technically_completed",
+      "descriptor_path": "config/roadmap/SGD-116B-component.json",
+      "source_paths": [
+        "src/sgoda/roadmap/aliases.py",
+        "src/sgoda/roadmap/discovery.py",
+        "src/sgoda/roadmap/dependency_graph.py",
+        "src/sgoda/roadmap/validator.py"
+      ],
+      "test_paths": [
+        "tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
+        "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md"
+      ],
+      "dependencies": [
+        "SGD-114",
+        "SGD-115",
+        "SPB-007",
+        "SIB-001"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SGD-116B-v3.0.0",
+        "manifest": true,
+        "code": "SGD-116B",
+        "version": "3.0.0"
+      },
+      "semantic": {
+        "documents_checked": 3,
+        "code_mentioned": true,
+        "name_mentioned": false
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    },
+    {
+      "code": "SPT-008",
+      "name": "Tutor Inteligente Puinave",
+      "version": "1.0.0",
+      "status": "implemented",
+      "descriptor_path": "config/tutor/SPT-008-component.json",
+      "source_paths": [
+        "src/sgoda/tutor/models.py",
+        "src/sgoda/tutor/planner.py",
+        "src/sgoda/tutor/exercises.py",
+        "src/sgoda/tutor/service.py"
+      ],
+      "test_paths": [
+        "tests/tutor/test_SPT_008_intelligent_tutor.py"
+      ],
+      "documentation_paths": [
+        "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
+        "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md"
+      ],
+      "dependencies": [
+        "SPT-006A",
+        "SPT-007A",
+        "SPT-007B",
+        "SPT-007C",
+        "SPT-007D",
+        "SGD-114C",
+        "SGD-115",
+        "SGD-116"
+      ],
+      "release_name": null,
+      "historical_increment": false,
+      "release": {
+        "directory": "SPT-008-v1.0.0",
+        "manifest": true,
+        "code": "SPT-008",
+        "version": "1.0.0"
+      },
+      "semantic": {
+        "documents_checked": 2,
+        "code_mentioned": true,
+        "name_mentioned": true
+      },
+      "traceability": {
+        "source": true,
+        "tests": true,
+        "documentation": true,
+        "release": true,
+        "registry": true,
+        "index": false
+      },
+      "completion_percent": 83.33
+    }
+  ],
+  "findings": [
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-015",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/adaptive_assessment/SPT-015-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-004A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/assistant/SPT-004A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-003A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/automation/SPT-003A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-003B",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/automation/SPT-003B-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-003C",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/automation/SPT-003C-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-009",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/conversation/SPT-009-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-013B",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/dictionary_manager/SPT-013B-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-115A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/documentation/SGD-115A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-006",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/enrichment/SPT-006-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "PCI-001",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/PCI-001-component.json"
+      ]
+    },
+    {
+      "code": "DOCUMENT_SEMANTIC_CODE_GAP",
+      "severity": "warning",
+      "subject": "PCI-001",
+      "message": "Documentación sin mención del código.",
+      "evidence": [
+        "docs/01_Gobierno/PCI-001"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "PCI-001.1",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/PCI-001.1-component.json"
+      ]
+    },
+    {
+      "code": "DOCUMENT_SEMANTIC_CODE_GAP",
+      "severity": "warning",
+      "subject": "PCI-001.1",
+      "message": "Documentación sin mención del código.",
+      "evidence": [
+        "docs/01_Gobierno/PCI-001.1"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "PCI-001.2",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/PCI-001.2-component.json"
+      ]
+    },
+    {
+      "code": "DOCUMENT_SEMANTIC_CODE_GAP",
+      "severity": "warning",
+      "subject": "PCI-001.2",
+      "message": "Documentación sin mención del código.",
+      "evidence": [
+        "docs/01_Gobierno/PCI-001.2"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-114-PA",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-114-policy-auditor-component.json"
+      ]
+    },
+    {
+      "code": "DOCUMENT_SEMANTIC_CODE_GAP",
+      "severity": "warning",
+      "subject": "SGD-114-PA",
+      "message": "Documentación sin mención del código.",
+      "evidence": [
+        "docs/01_Gobierno/SGD-114-Policy-Auditor.md"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-114-V2",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-114-v2-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-114C",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-114C-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-114D",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-114D-component.json"
+      ]
+    },
+    {
+      "code": "DOCUMENT_SEMANTIC_CODE_GAP",
+      "severity": "warning",
+      "subject": "SGD-114D-V1.0.1",
+      "message": "Documentación sin mención del código.",
+      "evidence": [
+        "docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-114E-C1",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-114E-C1-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-114E",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-114E-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-114F",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-114F-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-115",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-115-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-117",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/governance/SGD-117-component.json"
+      ]
+    },
+    {
+      "code": "DOCUMENT_SEMANTIC_CODE_GAP",
+      "severity": "warning",
+      "subject": "SGD-117",
+      "message": "Documentación sin mención del código.",
+      "evidence": [
+        "docs/01_Gobierno/SGD-117/"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-005",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/identity/SPT-005-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SIB-001",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/installer_builder/SIB-001-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-007C",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/knowledge_engine/SPT-007C-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-006A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/language_engine/SPT-006A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-016",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/learning_analytics/SPT-016-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-016A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/learning_analytics/SPT-016A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-013A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/learning_foundation/SPT-013A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-012",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/learning_platform/SPT-012-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-007A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/lexical_engine/SPT-007A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-007B",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/lexical_engine/SPT-007B-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "ADR-010",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/media/ADR-010-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-014",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/multimedia_engine/SPT-014-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-002",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/oda/SPT-002-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-011",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/operational_platform/SPT-011-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-011A",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/operational_platform/SPT-011A-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-018",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/pedagogical_ai/SPT-018-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-010",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/platform/SPT-010-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-017",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/puinave_knowledge_center/SPT-017-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-007D",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/reasoning_engine/SPT-007D-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPB-007",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/repository/SPB-007-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-001B-P06",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/rlb/SPT-001B-P06-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-001B-P07",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/rlb/SPT-001B-P07-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-001B-P08",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/rlb/SPT-001B-P08-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-116",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/roadmap/SGD-116-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SGD-116B",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/roadmap/SGD-116B-component.json"
+      ]
+    },
+    {
+      "code": "ACTIVE_COMPONENT_NOT_INDEXED",
+      "severity": "info",
+      "subject": "SPT-008",
+      "message": "Componente activo no citado estructuralmente en el Índice.",
+      "evidence": [
+        "config/tutor/SPT-008-component.json"
+      ]
+    },
+    {
+      "code": "GIT_WORKTREE_NOT_CLEAN",
+      "severity": "info",
+      "subject": "git",
+      "message": "Árbol con cambios durante la instalación.",
+      "evidence": []
+    }
+  ],
+  "ignored_configuration_files": [
+    "config/adaptive_assessment/SPT-015-assessment-schema.json",
+    "config/adaptive_assessment/SPT-015-policy.json",
+    "config/adaptive_assessment/SPT-015-rubrics.json",
+    "config/assistant/SPT-004A-assistant-policy.json",
+    "config/assistant/SPT-004A-faq.json",
+    "config/assistant/SPT-004A-identity.json",
+    "config/automation/SPT-003A-policy.json",
+    "config/automation/SPT-003B-policy.json",
+    "config/automation/SPT-003B-providers.example.json",
+    "config/automation/SPT-003C-approval-template.json",
+    "config/automation/SPT-003C-pilot-policy.json",
+    "config/automation/SPT-003C-pricing-template.json",
+    "config/conversation/SPT-009-policy.json",
+    "config/dictionary_manager/SPT-013B-entry-schema.json",
+    "config/dictionary_manager/SPT-013B-policy.json",
+    "config/documentation/SGD-115A-policy.json",
+    "config/enrichment/SPT-006-enrichment-policy.json",
+    "config/enrichment/SPT-006-playback-policy.json",
+    "config/evidence-retention-policies.json",
+    "config/governance/PCI-001-policy.json",
+    "config/governance/PCI-001.1-policy.json",
+    "config/governance/PCI-001.2-policy.json",
+    "config/governance/sgd-114-policy.json",
+    "config/governance/sgd-114-v2-repository-policy.json",
+    "config/governance/SGD-114C-policy.json",
+    "config/governance/SGD-114D-adaptive-policy.json",
+    "config/governance/SGD-114E-native-ecosystem-policy.json",
+    "config/governance/SGD-114F-policy.json",
+    "config/governance/SGD-115-master-documentation-policy.json",
+    "config/governance/SGD-117-policy.json",
+    "config/identity/SPT-005-identities.json",
+    "config/identity/SPT-005-identity-baseline.json",
+    "config/identity/SPT-005-identity-policy.json",
+    "config/installer_builder/SIB-001-policy.json",
+    "config/knowledge_engine/SPT-007C-knowledge-policy.json",
+    "config/knowledge_engine/SPT-007C-ontology.json",
+    "config/language_engine/SPT-006A-approved-free-models.json",
+    "config/language_engine/SPT-006A-free-local-policy.json",
+    "config/language_engine/SPT-006A-locales.json",
+    "config/learning_analytics/SPT-016-event-schema.json",
+    "config/learning_analytics/SPT-016-policy.json",
+    "config/learning_foundation/SPT-013A-phase-IV.json",
+    "config/learning_foundation/SPT-013A-policy.json",
+    "config/learning_platform/SPT-012-policy.json",
+    "config/learning_platform/SPT-012-runtime.json",
+    "config/lexical_engine/SPT-007A-lexical-policy.json",
+    "config/lexical_engine/SPT-007B-relations.example.json",
+    "config/lexical_engine/SPT-007B-semantic-policy.json",
+    "config/media/rmr-policy.json",
+    "config/multimedia_engine/SPT-014-media-schema.json",
+    "config/multimedia_engine/SPT-014-policy.json",
+    "config/oda/oda-generation-policy.json",
+    "config/operational_platform/SPT-011-operational-policy.json",
+    "config/operational_platform/SPT-011-runtime.json",
+    "config/pedagogical_ai/SPT-018-policy.json",
+    "config/platform/SPT-010-capabilities.json",
+    "config/platform/SPT-010-platform-policy.json",
+    "config/puinave_knowledge_center/SPT-017-policy.json",
+    "config/reasoning_engine/SPT-007D-policy.json",
+    "config/repository/SPB-007-publication-policy.json",
+    "config/rlb/active-schema.json",
+    "config/rlb/schema-v1.1.json",
+    "config/rlb/schema-v1.json",
+    "config/rlb/SPT-001B-P07-header-mapping.json",
+    "config/roadmap/SGD-116-phases.json",
+    "config/roadmap/SGD-116-roadmap-policy.json",
+    "config/roadmap/SGD-116B-policy.json",
+    "config/tutor/SPT-008-policy.json"
+  ],
+  "traceability_graph": {
+    "nodes": [
+      {
+        "id": "SPT-015",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-004A",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-003A",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-003B",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-003C",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-009",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-013B",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-115A",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-006",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "PCI-001",
+        "type": "component",
+        "status": "implemented_tested_and_candidate_for_closure"
+      },
+      {
+        "id": "PCI-001.1",
+        "type": "component",
+        "status": "implemented_tested_and_candidate_for_closure"
+      },
+      {
+        "id": "PCI-001.2",
+        "type": "component",
+        "status": "implemented_tested_and_candidate_for_closure"
+      },
+      {
+        "id": "SGD-114-PA",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114-V2",
+        "type": "component",
+        "status": "institutionally_closed"
+      },
+      {
+        "id": "SGD-114C",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114D",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114D-V1.0.1",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-C1",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V1.0.3",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V1.0.4",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V1.0.5",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V1.0.6",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V1.0.7",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V2.0.0",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V2.0.0-R1",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114E-V2.0.0-R2.1",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114F",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114G-V1.0.0",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-114G-V1.0.1",
+        "type": "historical_increment",
+        "status": "implemented"
+      },
+      {
+        "id": "SGD-115",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SGD-117",
+        "type": "component",
+        "status": "implemented_tested_and_officially_closed"
+      },
+      {
+        "id": "SPT-005",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SIB-001",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-007C",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-006A",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-016",
+        "type": "component",
+        "status": "implemented_tested_and_officially_closed"
+      },
+      {
+        "id": "SPT-016A",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-013A",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-012",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-007A",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-007B",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "ADR-010",
+        "type": "component",
+        "status": "institutionally_closed"
+      },
+      {
+        "id": "SPT-014",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-002",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-011",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-011A",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-018",
+        "type": "component",
+        "status": "implemented_tested_and_candidate_for_closure"
+      },
+      {
+        "id": "SPT-010",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPT-017",
+        "type": "component",
+        "status": "implemented_tested_and_candidate_for_closure"
+      },
+      {
+        "id": "SPT-007D",
+        "type": "component",
+        "status": "implemented"
+      },
+      {
+        "id": "SPB-007",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-001B-P06",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-001B-P07",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-001B-P08",
+        "type": "component",
+        "status": "institutionally_closed"
+      },
+      {
+        "id": "SGD-116",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SGD-116B",
+        "type": "component",
+        "status": "technically_completed"
+      },
+      {
+        "id": "SPT-008",
+        "type": "component",
+        "status": "implemented"
+      }
+    ],
+    "edges": [
+      {
+        "source": "SPT-015",
+        "target": "SPT-013A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SPT-013B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SPT-014",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SPT-012",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SPT-008",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SGD-114E",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/repository.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/scoring.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/adaptation.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/feedback.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/exporter.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "src/sgoda/adaptive_assessment/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "tests/adaptive_assessment/test_SPT_015_adaptive_assessment_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Arquitectura.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Modelo-Adaptativo.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-015/SPT-015-Rubricas.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-015",
+        "target": "SPT-015-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "src/sgoda/assistant/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "src/sgoda/assistant/intent_classifier.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "src/sgoda/assistant/knowledge_repository.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "src/sgoda/assistant/faq.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "src/sgoda/assistant/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "src/sgoda/assistant/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "tests/assistant/test_SPT_004A_institutional_assistant.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-004A",
+        "target": "SPT-004A-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-003A",
+        "target": "src/sgoda/automation/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003A",
+        "target": "src/sgoda/automation/job_queue.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003A",
+        "target": "src/sgoda/automation/planner.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003A",
+        "target": "src/sgoda/automation/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003A",
+        "target": "tests/automation/test_SPT_003A_multimedia_orchestrator.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-003A",
+        "target": "SPT-003A-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-003B",
+        "target": "tests/automation/test_SPT_003B_ai_multimedia_adapters.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-003B",
+        "target": "SPT-003B-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-003C",
+        "target": "src/sgoda/automation/pilot/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003C",
+        "target": "src/sgoda/automation/pilot/governance.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003C",
+        "target": "src/sgoda/automation/pilot/budget.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003C",
+        "target": "src/sgoda/automation/pilot/circuit_breaker.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003C",
+        "target": "src/sgoda/automation/pilot/runner.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-003C",
+        "target": "tests/automation/test_SPT_003C_controlled_provider_pilot.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-003C",
+        "target": "SPT-003C-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SPT-004A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SPT-006A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SPT-007C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SPT-007D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SPT-008",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-009",
+        "target": "src/sgoda/conversation/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "src/sgoda/conversation/router.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "src/sgoda/conversation/memory.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "src/sgoda/conversation/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "src/sgoda/conversation/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "tests/conversation/test_SPT_009_conversational_ecosystem.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Ecosistema-Conversacional.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "docs/05_Fase_Tecnologica/SPT-009/SPT-009-Interaccion-Texto-Voz.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-009",
+        "target": "SPT-009-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SPT-013A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SPT-012",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SPT-007A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SPT-007B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SGD-114E",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "src/sgoda/dictionary_manager/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "src/sgoda/dictionary_manager/validation.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "src/sgoda/dictionary_manager/repository.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "src/sgoda/dictionary_manager/import_export.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "src/sgoda/dictionary_manager/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "src/sgoda/dictionary_manager/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Arquitectura.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Importacion-Exportacion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-013B",
+        "target": "SPT-013B-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-115A",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-115A",
+        "target": "SGD-114D-V1.0.1",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-115A",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-115A",
+        "target": "src/sgoda/documentation/canonical_component_resolver.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-115A",
+        "target": "tests/documentation/test_SGD_115A_documentation_canonical_component_resolver.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-115A",
+        "target": "docs/01_Gobierno/SGD-115A-Documentation-Canonical-Component-Resolver.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-115A",
+        "target": "SGD-115A-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-006",
+        "target": "src/sgoda/enrichment/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "src/sgoda/enrichment/planner.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "src/sgoda/enrichment/providers.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "src/sgoda/enrichment/playback.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "src/sgoda/enrichment/pipeline.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "src/sgoda/enrichment/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "tests/enrichment/test_SPT_006_multilingual_multimedia_pipeline.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Validacion-Linguistica-Cultural.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "docs/05_Fase_Tecnologica/SPT-006/SPT-006-Reproduccion-Automatica-Configurable.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-006",
+        "target": "SPT-006-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "PCI-001",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001",
+        "target": "SGD-114G",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001",
+        "target": "SGD-117",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001",
+        "target": "src/sgoda/governance/master_index_audit",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "PCI-001",
+        "target": "tests/governance/master_index_audit",
+        "relation": "verified_by"
+      },
+      {
+        "source": "PCI-001",
+        "target": "docs/01_Gobierno/PCI-001",
+        "relation": "documented_by"
+      },
+      {
+        "source": "PCI-001",
+        "target": "PCI-001-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "PCI-001",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "SGD-114G",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "SGD-117",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "src/sgoda/governance/master_index_audit",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "tests/governance/master_index_audit/test_PCI_001_1_intelligent_master_index_auditor.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "docs/01_Gobierno/PCI-001.1",
+        "relation": "documented_by"
+      },
+      {
+        "source": "PCI-001.1",
+        "target": "PCI-001.1-v1.0.0-R3",
+        "relation": "released_as"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "PCI-001",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "PCI-001.1",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "SGD-114G",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "SGD-117",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "src/sgoda/governance/master_index_sync",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "tests/governance/master_index_sync/test_PCI_001_2_master_index_synchronizer.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "docs/01_Gobierno/PCI-001.2",
+        "relation": "documented_by"
+      },
+      {
+        "source": "PCI-001.2",
+        "target": "PCI-001.2-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-114-PA",
+        "target": "SGD-114",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114-PA",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114-PA",
+        "target": "SGD-116B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114-PA",
+        "target": "src/sgoda/governance/policy_auditor.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114-PA",
+        "target": "tests/governance/test_SGD_114_policy_auditor.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114-PA",
+        "target": "docs/01_Gobierno/SGD-114-Policy-Auditor.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114-V2",
+        "target": "src/sgoda/governance/repository_governance.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114-V2",
+        "target": "tests/governance/test_SGD_114_v2_repository_governance.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "SGD-114",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "SGD-116B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "src/sgoda/governance/policy_models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "src/sgoda/governance/policy_context.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "src/sgoda/governance/policy_rules.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "src/sgoda/governance/policy_registry.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "src/sgoda/governance/policy_engine.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "src/sgoda/governance/policy_report.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "src/sgoda/governance/policy_cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "tests/governance/test_SGD_114C_policy_governance_core.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "docs/01_Gobierno/SGD-114C-Policy-Governance-Core.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "docs/01_Gobierno/SGD-114C-Migracion-SGD-114.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114C",
+        "target": "SGD-114C-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "src/sgoda/governance/adaptive_policy_models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "src/sgoda/governance/adaptive_policy_resolver.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "src/sgoda/governance/adaptive_policy_rules.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "src/sgoda/governance/adaptive_policy_engine.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "src/sgoda/governance/adaptive_policy_cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "src/sgoda/governance/adaptive_policy.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "tests/governance/test_SGD_114D_adaptive_institutional_policy_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "docs/01_Gobierno/SGD-114D-Adaptive-Institutional-Policy-Engine.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "docs/01_Gobierno/SGD-114D-Migracion-SGD-114C.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114D",
+        "target": "SGD-114D-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-114D-V1.0.1",
+        "target": "SGD-114D-V1.0.0",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114D-V1.0.1",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114D-V1.0.1",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114D-V1.0.1",
+        "target": "src/sgoda/governance/adaptive_policy_resolver.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114D-V1.0.1",
+        "target": "tests/governance/test_SGD_114D_release_canonical_resolver.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114D-V1.0.1",
+        "target": "docs/01_Gobierno/SGD-114D-v1.0.1-Adaptive-Release-Canonical-Resolver.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "SGD-114E-V1.0.2",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "src/sgoda/governance/native_ecosystem_policy.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "src/sgoda/governance/native_ecosystem_validator.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "docs/01_Gobierno/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114E-C1",
+        "target": "SGD-114E-C1-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "src/sgoda/governance/native_ecosystem_models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "src/sgoda/governance/native_ecosystem_policy.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "src/sgoda/governance/native_ecosystem_validator.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "src/sgoda/governance/native_ecosystem_cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "src/sgoda/governance/native_ecosystem.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "tests/governance/test_SGD_114E_native_ecosystem_architecture_policy.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "docs/01_Gobierno/SGD-114E-Native-Ecosystem-Architecture-Policy.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "docs/01_Gobierno/SGD-114E-Terminologia-Institucional.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114E",
+        "target": "SGD-114E-v1.0.3",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-114E-V1.0.3",
+        "target": "SGD-114E",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.3",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.3",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.3",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.3",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.4",
+        "target": "SGD-114E-V1.0.3",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.4",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.4",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.4",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.4",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.5",
+        "target": "SGD-114E-V1.0.3",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.5",
+        "target": "SGD-114E-V1.0.4",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.5",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.5",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.5",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.5",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.6",
+        "target": "SGD-114E-V1.0.3",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.6",
+        "target": "SGD-114E-V1.0.4",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.6",
+        "target": "SGD-114E-V1.0.5",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.6",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.6",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.6",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V1.0.6",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114E-V2.0.0-R2.1",
+        "target": "SGD-114E-v2.0.0-R2.1",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "SGD-114E",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "src/sgoda/governance/test_evidence/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "src/sgoda/governance/test_evidence/junit_parser.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "src/sgoda/governance/test_evidence/synchronizer.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "src/sgoda/governance/test_evidence/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "tests/governance/test_SGD_114F_institutional_test_evidence_synchronizer.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "docs/01_Gobierno/SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "docs/01_Gobierno/SGD-114F-Migracion-Instaladores.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-114F",
+        "target": "SGD-114F-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SGD-115",
+        "target": "src/sgoda/documentation/master_docs.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-115",
+        "target": "tests/documentation/test_SGD_115_master_documentation.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-115",
+        "target": "docs/00_INDICE_MAESTRO.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-115",
+        "target": "docs/00_ARQUITECTURA_MAESTRA.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-115",
+        "target": "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-115",
+        "target": "docs/01_Gobierno/SGD-115-Sistema-Maestro-Documentacion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-117",
+        "target": "SGD-114",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-117",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-117",
+        "target": "SGD-114G",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-117",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-117",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-117",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-117",
+        "target": "src/sgoda/governance/repository_manager/",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-117",
+        "target": "tests/governance/repository_manager/",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-117",
+        "target": "docs/01_Gobierno/SGD-117/",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-117",
+        "target": "SGD-117-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-005",
+        "target": "src/sgoda/identity/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "src/sgoda/identity/repository.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "src/sgoda/identity/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "src/sgoda/identity/exporter.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "src/sgoda/identity/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "tests/identity/test_SPT_005_configurable_cultural_identity.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "docs/05_Fase_Tecnologica/SPT-005/SPT-005-Guia-Cambio-Nombre-Visible.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-005",
+        "target": "SPT-005-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SIB-001",
+        "target": "src/sgoda/installer_builder/",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SIB-001",
+        "target": "tests/installer_builder/test_SIB_001_installer_builder.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SIB-001",
+        "target": "docs/05_Fase_Tecnologica/SIB-001/SIB-001-SGODA-Installer-Builder.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SIB-001",
+        "target": "docs/05_Fase_Tecnologica/SIB-001/SIB-001-Protocolo-Correccion-Errores.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SIB-001",
+        "target": "SIB-001-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SPT-007A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SPT-007B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SPT-006",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SPT-004A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SPT-002",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/ontology.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/graph.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/inference.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/navigation.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/oda_bridge.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "src/sgoda/knowledge_engine/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "tests/knowledge_engine/test_SPT_007C_knowledge_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Ontologia-Linguistica-Cultural.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Inferencia-Controlada-Explicable.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Integracion-ODA-Multimedia.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Pruebas-Criterios-Aceptacion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007C-Operacion-Mantenimiento.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007C",
+        "target": "SPT-007C-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "src/sgoda/language_engine/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "src/sgoda/language_engine/licensing.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "src/sgoda/language_engine/diagnostic.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "src/sgoda/language_engine/translation.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "src/sgoda/language_engine/tts.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "src/sgoda/language_engine/engine.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "src/sgoda/language_engine/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "tests/language_engine/test_SPT_006A_free_local_multilingual_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-006A",
+        "target": "SPT-006A-v0.2.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SPT-012",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SPT-013A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SPT-013B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SPT-015",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SGD-114G",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016",
+        "target": "SPT-016-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SPT-016",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SGD-114E",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-016A",
+        "target": "SPT-016A-v1.0.1",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "SPT-012",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "SGD-114E",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "src/sgoda/learning_foundation/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "src/sgoda/learning_foundation/registry.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "src/sgoda/learning_foundation/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "src/sgoda/learning_foundation/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "tests/learning_foundation/test_SPT_013A_learning_ecosystem_foundation.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Arquitectura.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-013A/SPT-013A-Roadmap.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-013A",
+        "target": "SPT-013A-v1.0.1",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-007A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-007B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-007C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-007D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-008",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-009",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-011",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/digital_dictionary.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/media_library.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/oda_factory.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/curriculum.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/progress.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/integration_bridge.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/api.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "src/sgoda/learning_platform/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "tests/learning_platform/test_SPT_012_sgoda_learning_platform.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Arquitectura.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Diccionario-Digital.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Integracion-Motores.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Multimedia-y-ODA.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Rutas-Progreso-Evaluacion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-012",
+        "target": "SPT-012-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SPT-001B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SPT-003A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SPT-004A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SPT-006",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SPT-006A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/normalizer.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/repository.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/search.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/ranking.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/multimedia.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "src/sgoda/lexical_engine/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Arquitectura-Busqueda-Ranking.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Seguridad-Linguistica-Cultural.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007A",
+        "target": "SPT-007A-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SPT-007A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SPT-006",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SPT-006A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SPT-004A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/semantic_models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/semantic_index.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/relations.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/query_expansion.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/semantic_ranking.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/suggestions.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/semantic_service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "src/sgoda/lexical_engine/semantic_cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Arquitectura-Indice-Semantico.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007B",
+        "target": "SPT-007B-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "ADR-010",
+        "target": "src/sgoda/media/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "ADR-010",
+        "target": "src/sgoda/media/repository.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "ADR-010",
+        "target": "src/sgoda/media/migration.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "ADR-010",
+        "target": "src/sgoda/media/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "ADR-010",
+        "target": "tests/media/test_ADR_010_rmr_repository.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "ADR-010",
+        "target": "ADR-010-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-013A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-013B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-012",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-002",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-003A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-003B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-003C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SGD-114D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SGD-114E",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SGD-115A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-014",
+        "target": "src/sgoda/multimedia_engine/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "src/sgoda/multimedia_engine/validation.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "src/sgoda/multimedia_engine/repository.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "src/sgoda/multimedia_engine/manifest.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "src/sgoda/multimedia_engine/oda.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "src/sgoda/multimedia_engine/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "src/sgoda/multimedia_engine/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "tests/multimedia_engine/test_SPT_014_intelligent_multimedia_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Arquitectura.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-Politica-Multimedia.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "docs/08_Fase_Tecnologica_IV/SPT-014/SPT-014-ODA-Multimedia.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-014",
+        "target": "SPT-014-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-002",
+        "target": "src/sgoda/oda/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-002",
+        "target": "src/sgoda/oda/engine.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-002",
+        "target": "src/sgoda/oda/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-002",
+        "target": "tests/oda/test_SPT_002_oda_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-002",
+        "target": "SPT-002-v0.1.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-010",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-006A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-007A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-007B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-007C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-007D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-008",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-009",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/settings.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/database.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/rlb_adapter.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/media_adapter.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/n8n_contracts.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/flutter_contracts.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/api.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "src/sgoda/operational_platform/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Arquitectura-Plataforma-Operativa.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Integracion-FastAPI-PostgreSQL.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Contrato-Flutter.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Automatizacion-n8n.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Operacion-RLB-Multimedia.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Pruebas-Criterios-Aceptacion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-011",
+        "target": "SPT-011-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "SPT-011",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "tests/operational_platform/test_SPT_011_operational_sgoda_platform.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011A-Institutional-Evidence-Closure.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-011A",
+        "target": "SPT-011A-v1.0.1",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SPT-008",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SPT-015",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SPT-016",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SPT-017",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SGD-114G",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SGD-117",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-018",
+        "target": "SPT-018-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-005",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-006A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-007A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-007B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-007C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-007D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-008",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-009",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-010",
+        "target": "src/sgoda/platform/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "src/sgoda/platform/registry.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "src/sgoda/platform/health.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "src/sgoda/platform/facade.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "src/sgoda/platform/runtime.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "src/sgoda/platform/api.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "src/sgoda/platform/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "tests/platform/test_SPT_010_integrated_digital_platform.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Arquitectura-Plataforma-Integrada.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-API-Institucional.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Integracion-Motores.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Seguridad-Linguistica-Cultural.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Operacion-Despliegue.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "docs/06_Fase_Tecnologica_II/SPT-010/SPT-010-Pruebas-Criterios-Aceptacion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-010",
+        "target": "SPT-010-v1.0.1",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SPT-007C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SPT-013B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SPT-014",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SPT-015",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SPT-016",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SGD-114F",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SGD-114G",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SGD-117",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-017",
+        "target": "SPT-017-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "SPT-007C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "src/sgoda/reasoning_engine/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "src/sgoda/reasoning_engine/rules.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "src/sgoda/reasoning_engine/reasoner.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "src/sgoda/reasoning_engine/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "tests/reasoning_engine/test_SPT_007D_reasoning_engine.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Motor-Razonamiento-Linguistico.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "docs/05_Fase_Tecnologica/SPT-007/SPT-007D-Reglas-Inferencia-Explicaciones.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-007D",
+        "target": "SPT-007D-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPB-007",
+        "target": "src/sgoda/publisher/institutional_publisher.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPB-007",
+        "target": "tests/publisher/test_SPB_007_institutional_publisher.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPB-007",
+        "target": "SPB-007-v1.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-001B-P07",
+        "target": "src/sgoda/rlb/header_normalizer.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-001B-P07",
+        "target": "tests/rlb/test_SPT_001B_P07_header_normalizer.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-001B-P08",
+        "target": "src/sgoda/rlb/canonical_consolidator.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-001B-P08",
+        "target": "tests/rlb/test_SPT_001B_P08_canonical_closure.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "SGD-114",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116",
+        "target": "SIB-001",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/discovery.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/dependency_graph.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/metrics.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/timeline.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/generator.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/validator.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "src/sgoda/roadmap/cli.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "tests/roadmap/test_SGD_116_master_ecosystem_roadmap.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Roadmap-Maestro-Vivo.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Arquitectura-Descubrimiento.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-116",
+        "target": "docs/05_Fase_Tecnologica/SGD-116/SGD-116-Operacion-y-Regeneracion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "SGD-114",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "SPB-007",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "SIB-001",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "src/sgoda/roadmap/aliases.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "src/sgoda/roadmap/discovery.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "src/sgoda/roadmap/dependency_graph.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "src/sgoda/roadmap/validator.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "tests/roadmap/test_SGD_116B_institutional_roadmap_closure.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Correctivo-Institucional-Unico.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Arquitectura-Resolucion-Canonica.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "docs/05_Fase_Tecnologica/SGD-116B/SGD-116B-Operacion-y-Cierre.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SGD-116B",
+        "target": "SGD-116B-v3.0.0",
+        "relation": "released_as"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SPT-006A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SPT-007A",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SPT-007B",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SPT-007C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SPT-007D",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SGD-114C",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SGD-115",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SGD-116",
+        "relation": "depends_on"
+      },
+      {
+        "source": "SPT-008",
+        "target": "src/sgoda/tutor/models.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-008",
+        "target": "src/sgoda/tutor/planner.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-008",
+        "target": "src/sgoda/tutor/exercises.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-008",
+        "target": "src/sgoda/tutor/service.py",
+        "relation": "implemented_by"
+      },
+      {
+        "source": "SPT-008",
+        "target": "tests/tutor/test_SPT_008_intelligent_tutor.py",
+        "relation": "verified_by"
+      },
+      {
+        "source": "SPT-008",
+        "target": "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-008",
+        "target": "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md",
+        "relation": "documented_by"
+      },
+      {
+        "source": "SPT-008",
+        "target": "SPT-008-v1.0.0",
+        "relation": "released_as"
+      }
+    ]
+  }
+}

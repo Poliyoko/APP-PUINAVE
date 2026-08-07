@@ -1,0 +1,50 @@
+{
+    "component":  "SPT-020.1",
+    "version":  "1.0.0",
+    "run_id":  "20260807-001341",
+    "generated_at_utc":  "2026-08-07T00:13:41.4667048Z",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "approved":  true,
+    "component_tests_passed":  true,
+    "python_compile_exit_code":  0,
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "full_suite_exit_code":  0,
+    "external_broker_required":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/platform/service_bus/contracts.py",
+                      "sha256":  "928c67abdde0a5929abb96d7992593998d06f11b961a98bd16a971fbd51b1aae"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_bus/health.py",
+                      "sha256":  "9291191222d831ae62553afa542e40968141287148a8c1398e3bf8e308f2ca76"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_bus/registry.py",
+                      "sha256":  "af2af52ede766997caff70faf59a8c3ed3486716218440fb93bb35345e9b7933"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_bus/service_bus.py",
+                      "sha256":  "d57483b7ffc9f882a3c8dd0162a10ded263549a9b5594f62e0c297b254d46965"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_bus/__init__.py",
+                      "sha256":  "8a8faf1f8899e4cdb6c11b227b893e02f95b27050497a6f279a07a149708dcd7"
+                  },
+                  {
+                      "path":  "tests/platform/service_bus/test_spt0201.py",
+                      "sha256":  "bf2efb0f9eef0cf6c70396d3bf5b9f9f280e54772f52642a56f4662ca63cc7a4"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-020.1/SGD-430-Institutional-Service-Bus.md",
+                      "sha256":  "9e5ed44b6831909eec87ad9bd81b10b5e07be03b43ebf26a0e686dbdf7b2ba35"
+                  },
+                  {
+                      "path":  "config/platform/SPT-020.1-component.json",
+                      "sha256":  "502c9ff3bf6f87e3824edf5498ba5ed6f885f1cd18ecdcb918c91682ee6e003a"
+                  }
+              ]
+}

@@ -1,0 +1,87 @@
+[
+    {
+        "domain":  "workflow_and_execution",
+        "expected_components":  [
+                                    "SPT-019.1",
+                                    "SPT-019.2",
+                                    "SPT-019.3",
+                                    "SPT-020.6"
+                                ],
+        "present_components":  [
+                                   "SPT-019.1",
+                                   "SPT-019.2",
+                                   "SPT-019.3",
+                                   "SPT-020.6"
+                               ],
+        "overlap_detected":  true,
+        "recommendation":  "REUSE_BEFORE_EXTEND"
+    },
+    {
+        "domain":  "registry_and_discovery",
+        "expected_components":  [
+                                    "SPT-019.2",
+                                    "SPT-020.3",
+                                    "SPT-020.5"
+                                ],
+        "present_components":  [
+                                   "SPT-019.2",
+                                   "SPT-020.3",
+                                   "SPT-020.5"
+                               ],
+        "overlap_detected":  true,
+        "recommendation":  "INTEGRATE"
+    },
+    {
+        "domain":  "events_and_orchestration",
+        "expected_components":  [
+                                    "SPT-003A",
+                                    "SPT-006",
+                                    "SPT-020.1",
+                                    "SPT-020.4",
+                                    "SPT-020.6"
+                                ],
+        "present_components":  [
+                                   "SPT-003A",
+                                   "SPT-006",
+                                   "SPT-020.1",
+                                   "SPT-020.4",
+                                   "SPT-020.6"
+                               ],
+        "overlap_detected":  true,
+        "recommendation":  "REUSE_BEFORE_EXTEND"
+    },
+    {
+        "domain":  "audit_traceability_release",
+        "expected_components":  [
+                                    "SGD-114",
+                                    "SGD-117",
+                                    "SPB-007",
+                                    "PCI-001",
+                                    "PCI-002"
+                                ],
+        "present_components":  [
+                                   "SGD-114",
+                                   "SGD-117",
+                                   "SPB-007",
+                                   "PCI-001",
+                                   "PCI-002"
+                               ],
+        "overlap_detected":  true,
+        "recommendation":  "DO_NOT_DUPLICATE"
+    },
+    {
+        "domain":  "documentation_and_roadmap",
+        "expected_components":  [
+                                    "SGD-115",
+                                    "SGD-116",
+                                    "SPT-020.9"
+                                ],
+        "present_components":  [
+                                   "SGD-115",
+                                   "SGD-116",
+                                   "SPT-020.9"
+                               ],
+        "overlap_detected":  true,
+        "recommendation":  "DO_NOT_DUPLICATE"
+    }
+]

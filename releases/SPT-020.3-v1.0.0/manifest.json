@@ -1,0 +1,10 @@
+{
+    "component":  "SPT-020.3",
+    "version":  "1.0.0",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "evidence":  "artifacts/development/SPT-020.3-v1.0.0/runs/20260807-004142/implementation-evidence.json",
+    "act":  "docs/06_Tecnologia/SPT-020.3/ACT-020.3-Component-Dependency-Manager.md",
+    "external_service_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

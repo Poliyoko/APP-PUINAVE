@@ -1,0 +1,87 @@
+{
+    "parent_component":  "SPT-020",
+    "final_status":  "CLOSED",
+    "updated_by":  "SPT-020.9",
+    "generated_at_utc":  "2026-08-07T02:14:14.2191750Z",
+    "components":  [
+                       {
+                           "component":  "SPT-020.1",
+                           "version":  "1.0.0",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/development/SPT-020.1-v1.0.0/runs/20260807-001341/implementation-evidence.json",
+                           "release_manifest":  "releases/SPT-020.1-v1.0.0/manifest.json"
+                       },
+                       {
+                           "component":  "SPT-020.2",
+                           "version":  "1.0.0",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/development/SPT-020.2-v1.0.0/runs/20260807-002939/implementation-evidence.json",
+                           "release_manifest":  "releases/SPT-020.2-v1.0.0/manifest.json"
+                       },
+                       {
+                           "component":  "SPT-020.3",
+                           "version":  "1.0.0",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/development/SPT-020.3-v1.0.0/runs/20260807-004142/implementation-evidence.json",
+                           "release_manifest":  "releases/SPT-020.3-v1.0.0/manifest.json"
+                       },
+                       {
+                           "component":  "SPT-020.4",
+                           "version":  "1.0.0",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/development/SPT-020.4-v1.0.0/runs/20260807-004635/implementation-evidence.json",
+                           "release_manifest":  "releases/SPT-020.4-v1.0.0/manifest.json"
+                       },
+                       {
+                           "component":  "SPT-020.5",
+                           "version":  "1.0.0",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/development/SPT-020.5-v1.0.0/runs/20260807-005609/implementation-evidence.json",
+                           "release_manifest":  "releases/SPT-020.5-v1.0.0/manifest.json"
+                       },
+                       {
+                           "component":  "SPT-020.6",
+                           "version":  "1.0.0",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/development/SPT-020.6-v1.0.0/runs/20260807-010252/implementation-evidence.json",
+                           "release_manifest":  "releases/SPT-020.6-v1.0.0/manifest.json"
+                       },
+                       {
+                           "component":  "SPT-020.7",
+                           "version":  "1.0.0",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/development/SPT-020.7-v1.0.0/runs/20260807-011814/implementation-evidence.json",
+                           "release_manifest":  "releases/SPT-020.7-v1.0.0/manifest.json"
+                       },
+                       {
+                           "component":  "SPT-020.8",
+                           "version":  "1.0.1",
+                           "final_status":  "CLOSED",
+                           "closed_by":  "SPT-020.8",
+                           "closure_run":  "20260807-020321",
+                           "evidence":  "artifacts/closure/SPT-020.8-v1.0.1/runs/20260807-020321/zero-error-report.json",
+                           "release_manifest":  "releases/SPT-020-v1.0.0/manifest.json"
+                       }
+                   ],
+    "sgd_000_sha256":  "838e32568d93ff4af75ebf78dc904956eb396dc1c0417708207d55cb356a33ff",
+    "matrix_sha256":  "47c8c0c6aeb3670f12e9f8ea92b15ad0d8aee274985101474d5a778c4316565d",
+    "tests":  {
+                  "baseline":  808,
+                  "current":  808,
+                  "passed":  true
+              }
+}

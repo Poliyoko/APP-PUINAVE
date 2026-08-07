@@ -1,0 +1,12 @@
+{
+  "increment_code": "POL-001",
+  "name": "Uso Preferente de Tecnologías Gratuitas y de Código Abierto",
+  "version": "1.0.1",
+  "status": "implemented_tested_and_candidate_for_closure",
+  "phase": "Gobierno Tecnológico",
+  "source": ["src/sgoda/governance/free_technology_policy"],
+  "tests": ["tests/governance/free_technology_policy"],
+  "documentation": ["docs/01_Gobierno/POL-001"],
+  "artifacts": ["artifacts/policy/POL-001-v1.0.1"],
+  "dependencies": ["SGD-117", "SPT-019", "PCI-001", "PCI-002"]
+}

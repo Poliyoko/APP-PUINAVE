@@ -1,0 +1,19 @@
+{
+  "increment_code": "SPT-019.1",
+  "parent_component": "SPT-019",
+  "name": "Workflow Engine Core",
+  "version": "1.0.1",
+  "status": "implemented_tested_and_candidate_for_integration",
+  "scope": [
+    "workflow loading",
+    "workflow validation",
+    "deterministic registry",
+    "controlled file-based simulation"
+  ],
+  "dependencies": [
+    "POL-001-v1.0.2"
+  ],
+  "paid_services_required": false,
+  "internet_required_for_tests": false,
+  "n8n_runtime_required_for_tests": false
+}

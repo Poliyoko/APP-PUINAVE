@@ -1,0 +1,18 @@
+{
+  "source": "PCI-001.1",
+  "approved": true,
+  "result": "APROBADO",
+  "metrics": {
+    "canonical_components": 60,
+    "active_components": 49,
+    "historical_increments": 11,
+    "ignored_non_component_json": 70,
+    "complete_active_components": 29,
+    "registry_coverage_percent": 100.0,
+    "index_coverage_percent": 100.0,
+    "critical_findings": 0,
+    "warning_findings": 7,
+    "informational_findings": 1,
+    "institutional_consistency_score": 98.25
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "component":  "SPT-020.5",
+    "version":  "1.0.0",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "evidence":  "artifacts/development/SPT-020.5-v1.0.0/runs/20260807-005609/implementation-evidence.json",
+    "act":  "docs/06_Tecnologia/SPT-020.5/ACT-020.5-Service-Discovery-Registry.md",
+    "external_infrastructure_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

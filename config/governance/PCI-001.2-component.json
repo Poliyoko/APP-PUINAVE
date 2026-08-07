@@ -1,0 +1,29 @@
+{
+  "increment_code": "PCI-001.2",
+  "name": "Institutional Master Index Synchronizer",
+  "version": "1.0.0",
+  "status": "implemented_tested_and_candidate_for_closure",
+  "program": "PCI-SGODA-v1.0.0",
+  "deliverable": "SGD-201A.2",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "source": [
+    "src/sgoda/governance/master_index_sync"
+  ],
+  "tests": [
+    "tests/governance/master_index_sync/test_PCI_001_2_master_index_synchronizer.py"
+  ],
+  "documentation": [
+    "docs/01_Gobierno/PCI-001.2"
+  ],
+  "dependencies": [
+    "PCI-001",
+    "PCI-001.1",
+    "SGD-114F",
+    "SGD-114G",
+    "SGD-115",
+    "SGD-116",
+    "SGD-117",
+    "SPB-007"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "policy_id": "PCI-002-POLICY-v1.0.0",
+  "component": "PCI-002",
+  "transactional": true,
+  "staging_required": true,
+  "rollback_required": true,
+  "convergence_cycles": 3,
+  "required_index_coverage_percent": 100,
+  "required_registry_coverage_percent": 100,
+  "required_critical_findings": 0,
+  "publication_requires_real_repository_revalidation": true
+}

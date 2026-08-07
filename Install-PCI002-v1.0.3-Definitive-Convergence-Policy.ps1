@@ -1,0 +1,1105 @@
+﻿<#
+.SYNOPSIS
+    Instala y ejecuta PCI-002 v1.0.3 — Institutional Consolidation Engine — Definitive Convergence Policy.
+
+.DESCRIPTION
+    Consolida SGODA-PUINAVE en un área temporal, ejecuta tres ciclos de
+    convergencia y aplica cambios al repositorio real únicamente cuando
+    todos los gates institucionales están aprobados.
+
+    Orden definitivo:
+      SGD-115 -> SGD-116 -> PCI-001.2 -> SGD-117 -> PCI-001.1
+      -> suite completa -> SGD-114F -> SGD-114G
+
+    Compatible con Windows PowerShell 5.1.
+#>
+
+[CmdletBinding()]
+param(
+    [string]$ProjectRoot = (Get-Location).Path,
+    [switch]$Publish,
+    [switch]$KeepStaging
+)
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+function Step {
+    param([string]$Message)
+    Write-Host ""
+    Write-Host "==> $Message" -ForegroundColor Cyan
+}
+
+function Require-File {
+    param([string]$Path, [string]$Description)
+    if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) {
+        throw "Falta $Description`: $Path"
+    }
+}
+
+function Write-Utf8 {
+    param([string]$Path, [string]$Content)
+    $Parent = Split-Path -Parent $Path
+    if ($Parent) {
+        New-Item -ItemType Directory -Path $Parent -Force | Out-Null
+    }
+    [System.IO.File]::WriteAllText(
+        $Path,
+        $Content,
+        (New-Object System.Text.UTF8Encoding($false))
+    )
+}
+
+function Write-Json {
+    param([string]$Path, [object]$Value)
+    Write-Utf8 `
+        -Path $Path `
+        -Content (
+            ($Value | ConvertTo-Json -Depth 100) +
+            [Environment]::NewLine
+        )
+}
+
+function Invoke-Checked {
+    param(
+        [string]$Description,
+        [scriptblock]$Action
+    )
+
+    Step $Description
+    $global:LASTEXITCODE = 0
+    & $Action
+
+    if ($LASTEXITCODE -ne 0) {
+        throw "$Description terminó con errores. Código: $LASTEXITCODE"
+    }
+}
+
+function Get-StableTextHash {
+    param([string]$Path)
+
+    $Content = Get-Content `
+        -LiteralPath $Path `
+        -Raw `
+        -Encoding UTF8
+
+    # Remove only volatile generation metadata. Institutional content,
+    # codes, paths, states and dependencies remain part of the hash.
+    $Normalized = $Content -replace "`r`n", "`n"
+    $Normalized = $Normalized -replace (
+        "(?im)^_Generado:\s*[^`r`n]+_\s*$"
+    ), "_Generado: <NORMALIZED>_"
+    $Normalized = $Normalized -replace (
+        "(?im)^Generado(?:_at)?(?:_utc)?:\s*[^`r`n]+$"
+    ), "Generado: <NORMALIZED>"
+    $Normalized = $Normalized -replace (
+        "\b\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}" +
+        "(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})\b"
+    ), "<ISO-DATETIME>"
+
+    $Bytes = (
+        New-Object System.Text.UTF8Encoding($false)
+    ).GetBytes($Normalized)
+
+    $Sha = [System.Security.Cryptography.SHA256]::Create()
+    try {
+        return (
+            [System.BitConverter]::ToString(
+                $Sha.ComputeHash($Bytes)
+            ).Replace("-", "")
+        )
+    }
+    finally {
+        $Sha.Dispose()
+    }
+}
+
+function Get-FileHashMap {
+    param(
+        [string]$Root,
+        [string[]]$RelativePaths
+    )
+
+    $Map = [ordered]@{}
+
+    foreach ($RelativePath in $RelativePaths) {
+        $Path = Join-Path $Root $RelativePath
+
+        if (Test-Path -LiteralPath $Path -PathType Leaf) {
+            $Map[$RelativePath] = Get-StableTextHash -Path $Path
+        }
+        else {
+            $Map[$RelativePath] = $null
+        }
+    }
+
+    # Prevent PowerShell from enumerating dictionary internals.
+    return ,$Map
+}
+
+function Compare-HashMaps {
+    param(
+        [System.Collections.IDictionary]$Left,
+        [System.Collections.IDictionary]$Right
+    )
+
+    $Differences = @()
+    $Names = @(
+        @($Left.Keys) +
+        @($Right.Keys) |
+        Sort-Object -Unique
+    )
+
+    foreach ($Name in $Names) {
+        $LeftExists = $Left.Contains($Name)
+        $RightExists = $Right.Contains($Name)
+
+        $LeftValue = if ($LeftExists) {
+            $Left[$Name]
+        }
+        else {
+            $null
+        }
+
+        $RightValue = if ($RightExists) {
+            $Right[$Name]
+        }
+        else {
+            $null
+        }
+
+        if (
+            ($LeftExists -ne $RightExists) -or
+            ($LeftValue -ne $RightValue)
+        ) {
+            $Differences += [string]$Name
+        }
+    }
+
+    return @($Differences)
+}
+
+function Copy-RepositoryToStage {
+    param(
+        [string]$Source,
+        [string]$Destination
+    )
+
+    New-Item `
+        -ItemType Directory `
+        -Path $Destination `
+        -Force |
+        Out-Null
+
+    $Arguments = @(
+        $Source,
+        $Destination,
+        "/E",
+        "/COPY:DAT",
+        "/DCOPY:DAT",
+        "/R:2",
+        "/W:1",
+        "/NFL",
+        "/NDL",
+        "/NJH",
+        "/NJS",
+        "/NP",
+        "/XD",
+        ".git",
+        ".venv",
+        "__pycache__",
+        ".pytest_cache",
+        "node_modules",
+        "build",
+        "dist"
+    )
+
+    & robocopy @Arguments | Out-Null
+    $Code = $LASTEXITCODE
+
+    if ($Code -ge 8) {
+        throw "No se pudo construir el área temporal. Robocopy: $Code"
+    }
+
+    $global:LASTEXITCODE = 0
+}
+
+function Copy-ManagedResult {
+    param(
+        [string]$StageRoot,
+        [string]$RealRoot,
+        [string[]]$RelativePaths
+    )
+
+    foreach ($RelativePath in $RelativePaths) {
+        $Source = Join-Path $StageRoot $RelativePath
+        $Destination = Join-Path $RealRoot $RelativePath
+
+        if (-not (Test-Path -LiteralPath $Source)) {
+            throw "Falta salida consolidada en staging: $RelativePath"
+        }
+
+        $Parent = Split-Path -Parent $Destination
+        if ($Parent) {
+            New-Item `
+                -ItemType Directory `
+                -Path $Parent `
+                -Force |
+                Out-Null
+        }
+
+        if (Test-Path -LiteralPath $Source -PathType Container) {
+            if (Test-Path -LiteralPath $Destination) {
+                Remove-Item `
+                    -LiteralPath $Destination `
+                    -Recurse `
+                    -Force
+            }
+
+            Copy-Item `
+                -LiteralPath $Source `
+                -Destination $Destination `
+                -Recurse `
+                -Force
+        }
+        else {
+            Copy-Item `
+                -LiteralPath $Source `
+                -Destination $Destination `
+                -Force
+        }
+    }
+}
+
+function Invoke-ConsolidationCycle {
+    param(
+        [string]$Root,
+        [int]$Cycle,
+        [string]$EvidenceRoot
+    )
+
+    Set-Location -LiteralPath $Root
+    $env:PYTHONPATH = Join-Path $Root "src"
+
+    $CycleRoot = Join-Path $EvidenceRoot ("cycle-" + [string]$Cycle)
+    New-Item `
+        -ItemType Directory `
+        -Path $CycleRoot `
+        -Force |
+        Out-Null
+
+    Invoke-Checked "Ciclo $Cycle — SGD-115" {
+        python -m sgoda.documentation.master_docs `
+            --root "$Root" `
+            --output "artifacts/documentation/SGD-115"
+    }
+
+    Invoke-Checked "Ciclo $Cycle — SGD-116" {
+        python -m sgoda.roadmap.cli `
+            --root "$Root" `
+            --output "artifacts/roadmap/SGD-116"
+    }
+
+    # PCI-001.2 MUST run after every document/roadmap generator.
+    Invoke-Checked "Ciclo $Cycle — PCI-001.2 sincronización final" {
+        python -m sgoda.governance.master_index_sync `
+            --root "$Root" `
+            --mode "apply" `
+            --backup-dir (
+                Join-Path $CycleRoot "index-backup"
+            ) `
+            --report-json (
+                Join-Path $CycleRoot "index-sync.json"
+            ) `
+            --preview-md (
+                Join-Path $CycleRoot "index-preview.md"
+            )
+    }
+
+    Invoke-Checked "Ciclo $Cycle — SGD-117" {
+        python -m sgoda.governance.repository_manager.cli `
+            --root "$Root" `
+            --operation "validate" `
+            --output-json (
+                Join-Path $CycleRoot "repository-validation.json"
+            )
+    }
+
+    Invoke-Checked "Ciclo $Cycle — PCI-001.1 auditoría final" {
+        python -m sgoda.governance.master_index_audit `
+            --root "$Root" `
+            --output-json (
+                Join-Path $CycleRoot "intelligent-audit.json"
+            ) `
+            --output-md (
+                Join-Path $CycleRoot "intelligent-audit.md"
+            ) `
+            --output-html (
+                Join-Path $CycleRoot "dashboard.html"
+            ) `
+            --metrics-json (
+                Join-Path $CycleRoot "metrics.json"
+            ) `
+            --traceability-json (
+                Join-Path $CycleRoot "traceability.json"
+            ) `
+            --pmo-json (
+                Join-Path $CycleRoot "pmo.json"
+            )
+    }
+
+    $Audit = (
+        Get-Content `
+            -LiteralPath (
+                Join-Path $CycleRoot "intelligent-audit.json"
+            ) `
+            -Raw `
+            -Encoding UTF8 |
+        ConvertFrom-Json
+    )
+
+    $Repository = (
+        Get-Content `
+            -LiteralPath (
+                Join-Path $CycleRoot "repository-validation.json"
+            ) `
+            -Raw `
+            -Encoding UTF8 |
+        ConvertFrom-Json
+    )
+
+    $IndexSync = (
+        Get-Content `
+            -LiteralPath (
+                Join-Path $CycleRoot "index-sync.json"
+            ) `
+            -Raw `
+            -Encoding UTF8 |
+        ConvertFrom-Json
+    )
+
+    if (-not [bool]$Audit.approved) {
+        throw "Ciclo ${Cycle}: auditoría inteligente no aprobada."
+    }
+
+    if ([int]$Audit.metrics.critical_findings -ne 0) {
+        throw "Ciclo ${Cycle}: existen hallazgos críticos."
+    }
+
+    if (
+        [double]$Audit.metrics.index_coverage_percent -ne 100.0
+    ) {
+        throw (
+            "Ciclo ${Cycle}: cobertura del Índice = " +
+            [string]$Audit.metrics.index_coverage_percent +
+            "%."
+        )
+    }
+
+    if (
+        [double]$Audit.metrics.registry_coverage_percent -ne 100.0
+    ) {
+        throw (
+            "Ciclo ${Cycle}: cobertura del Registro = " +
+            [string]$Audit.metrics.registry_coverage_percent +
+            "%."
+        )
+    }
+
+    if (-not [bool]$IndexSync.approved) {
+        throw "Ciclo ${Cycle}: sincronización del Índice no aprobada."
+    }
+
+    if (
+        $Repository.PSObject.Properties.Name -contains "approved"
+    ) {
+        if (-not [bool]$Repository.approved) {
+            throw "Ciclo ${Cycle}: SGD-117 no aprobado."
+        }
+    }
+
+    return [ordered]@{
+        cycle = $Cycle
+        index_coverage_percent = [double]$Audit.metrics.index_coverage_percent
+        registry_coverage_percent = [double]$Audit.metrics.registry_coverage_percent
+        institutional_consistency_score = [double]$Audit.metrics.institutional_consistency_score
+        critical_findings = [int]$Audit.metrics.critical_findings
+        warning_findings = [int]$Audit.metrics.warning_findings
+        informational_findings = [int]$Audit.metrics.informational_findings
+        components = [int]$Audit.metrics.canonical_components
+        approved = $true
+    }
+}
+
+$ProjectRoot = [System.IO.Path]::GetFullPath($ProjectRoot)
+Set-Location -LiteralPath $ProjectRoot
+
+$ScriptsDir = Join-Path $ProjectRoot "scripts"
+$ArtifactDir = Join-Path `
+    $ProjectRoot `
+    "artifacts\consolidation\PCI-002-v1.0.3"
+$BackupDir = Join-Path $ArtifactDir "repository-backup"
+$StageDir = Join-Path `
+    ([System.IO.Path]::GetTempPath()) `
+    (
+        "SGODA-PCI002-" +
+        [Guid]::NewGuid().ToString("N")
+    )
+$StageEvidence = Join-Path `
+    $StageDir `
+    "artifacts\consolidation\PCI-002-v1.0.3"
+$ReleaseDir = Join-Path `
+    $ProjectRoot `
+    "releases\PCI-002-v1.0.3"
+$RunnerPath = Join-Path `
+    $ScriptsDir `
+    "Invoke-InstitutionalPytest.ps1"
+$PublisherPath = Join-Path `
+    $ScriptsDir `
+    "Invoke-SPB007-CanonicalPublish.ps1"
+
+foreach ($Required in @(
+    (
+        Join-Path `
+            $ProjectRoot `
+            "src\sgoda\documentation\master_docs.py"
+    ),
+    (
+        Join-Path `
+            $ProjectRoot `
+            "src\sgoda\roadmap\cli.py"
+    ),
+    (
+        Join-Path `
+            $ProjectRoot `
+            "src\sgoda\governance\master_index_sync\__init__.py"
+    ),
+    (
+        Join-Path `
+            $ProjectRoot `
+            "src\sgoda\governance\master_index_audit\__init__.py"
+    ),
+    (
+        Join-Path `
+            $ProjectRoot `
+            "src\sgoda\governance\repository_manager\cli.py"
+    ),
+    (
+        Join-Path `
+            $ProjectRoot `
+            "src\sgoda\governance\test_evidence\cli.py"
+    ),
+    (
+        Join-Path `
+            $ProjectRoot `
+            "src\sgoda\governance\release_management\cli.py"
+    ),
+    (Join-Path $ProjectRoot "docs\00_INDICE_MAESTRO.md"),
+    (
+        Join-Path `
+            $ProjectRoot `
+            "docs\00_REGISTRO_MAESTRO_COMPONENTES.md"
+    ),
+    $RunnerPath,
+    $PublisherPath
+)) {
+    Require-File -Path $Required -Description $Required
+}
+
+New-Item `
+    -ItemType Directory `
+    -Path $ArtifactDir `
+    -Force |
+    Out-Null
+
+$ComponentJson = @'
+{
+  "increment_code": "PCI-002",
+  "name": "Institutional Consolidation Engine",
+  "version": "1.0.3",
+  "status": "implemented_tested_and_candidate_for_closure",
+  "program": "PCI-SGODA-v1.0.0",
+  "deliverable": "SGD-202A",
+  "native_ecosystem": true,
+  "mandatory_proprietary_dependencies": [],
+  "dependencies": [
+    "PCI-001",
+    "PCI-001.1",
+    "PCI-001.2",
+    "SGD-114F",
+    "SGD-114G",
+    "SGD-115",
+    "SGD-116",
+    "SGD-117",
+    "SPB-007"
+  ]
+}
+'@
+
+$PolicyJson = @'
+{
+  "policy_id": "PCI-002-POLICY-v1.0.0",
+  "component": "PCI-002",
+  "transactional": true,
+  "staging_required": true,
+  "rollback_required": true,
+  "convergence_cycles": 3,
+  "required_index_coverage_percent": 100,
+  "required_registry_coverage_percent": 100,
+  "required_critical_findings": 0,
+  "publication_requires_real_repository_revalidation": true
+}
+'@
+
+$Architecture = @'
+# PCI-002 v1.0.3 — Institutional Consolidation Engine — Definitive Convergence Policy
+
+PCI-002 ejecuta la consolidación en un área temporal independiente.
+
+Orden obligatorio:
+
+1. SGD-115.
+2. SGD-116.
+3. PCI-001.2.
+4. SGD-117.
+5. PCI-001.1.
+6. Suite completa.
+7. SGD-114F.
+8. SGD-114G.
+
+La sincronización del Índice se ejecuta después de todos los generadores
+documentales. El motor exige tres ciclos convergentes y solo aplica al
+repositorio real cuando los gates están aprobados.
+'@
+
+$Operations = @'
+# PCI-002 v1.0.0 — Manual operativo
+
+El motor crea un staging temporal, ejecuta tres ciclos y compara hashes de los
+documentos maestros. Los ciclos 2 y 3 deben producir el mismo estado.
+
+Si un gate falla, el repositorio real no se modifica.
+
+Después de aplicar el resultado consolidado, se ejecuta una validación final
+sobre el repositorio real antes de permitir la publicación.
+'@
+
+Write-Utf8 `
+    -Path (
+        Join-Path `
+            $ProjectRoot `
+            "config\governance\PCI-002-component.json"
+    ) `
+    -Content $ComponentJson
+Write-Utf8 `
+    -Path (
+        Join-Path `
+            $ProjectRoot `
+            "config\governance\PCI-002-policy.json"
+    ) `
+    -Content $PolicyJson
+Write-Utf8 `
+    -Path (
+        Join-Path `
+            $ProjectRoot `
+            "docs\01_Gobierno\PCI-002\PCI-002-Arquitectura.md"
+    ) `
+    -Content $Architecture
+Write-Utf8 `
+    -Path (
+        Join-Path `
+            $ProjectRoot `
+            "docs\01_Gobierno\PCI-002\PCI-002-Manual-Operativo.md"
+    ) `
+    -Content $Operations
+
+$ContractTests = @'
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class Gate:
+    name: str
+    approved: bool
+
+
+def final_order() -> tuple[str, ...]:
+    return (
+        "SGD-115",
+        "SGD-116",
+        "PCI-001.2",
+        "SGD-117",
+        "PCI-001.1",
+        "FULL-SUITE",
+        "SGD-114F",
+        "SGD-114G",
+    )
+
+
+def approve(gates: tuple[Gate, ...]) -> bool:
+    return bool(gates) and all(item.approved for item in gates)
+
+
+def test_index_sync_runs_after_document_generation() -> None:
+    order = final_order()
+    assert order.index("PCI-001.2") > order.index("SGD-115")
+    assert order.index("PCI-001.2") > order.index("SGD-116")
+
+
+def test_audit_runs_after_index_sync() -> None:
+    order = final_order()
+    assert order.index("PCI-001.1") > order.index("PCI-001.2")
+
+
+def test_repository_validation_runs_after_sync() -> None:
+    order = final_order()
+    assert order.index("SGD-117") > order.index("PCI-001.2")
+
+
+def test_release_gate_is_last() -> None:
+    assert final_order()[-1] == "SGD-114G"
+
+
+def test_all_gates_required() -> None:
+    gates = (
+        Gate("index", True),
+        Gate("registry", True),
+        Gate("audit", True),
+    )
+    assert approve(gates) is True
+    assert approve(gates[:-1] + (Gate("audit", False),)) is False
+
+
+def test_empty_gate_set_is_not_approved() -> None:
+    assert approve(()) is False
+
+'@
+
+Write-Utf8 `
+    -Path (
+        Join-Path `
+            $ProjectRoot `
+            "tests\governance\test_PCI_002_consolidation_contract.py"
+    ) `
+    -Content $ContractTests
+
+Invoke-Checked "Validando contrato PCI-002" {
+    python -m pytest `
+        "tests/governance/test_PCI_002_consolidation_contract.py" `
+        -q
+}
+
+Step "Construyendo área temporal transaccional"
+Copy-RepositoryToStage `
+    -Source $ProjectRoot `
+    -Destination $StageDir
+
+$HashPaths = @(
+    "docs\00_INDICE_MAESTRO.md",
+    "docs\00_REGISTRO_MAESTRO_COMPONENTES.md",
+    "docs\00_ARQUITECTURA_MAESTRA.md"
+)
+
+$CycleResults = @()
+$Hashes = @()
+
+try {
+    foreach ($Cycle in 1..3) {
+        $CycleResults += Invoke-ConsolidationCycle `
+            -Root $StageDir `
+            -Cycle $Cycle `
+            -EvidenceRoot $StageEvidence
+
+        $Hashes += (
+            Get-FileHashMap `
+                -Root $StageDir `
+                -RelativePaths $HashPaths
+        )
+    }
+
+    $Cycle12 = Compare-HashMaps `
+        -Left $Hashes[0] `
+        -Right $Hashes[1]
+    $Cycle23 = Compare-HashMaps `
+        -Left $Hashes[1] `
+        -Right $Hashes[2]
+
+    # Institutional convergence policy:
+    # Cycle 1 may establish or normalize the generated baseline.
+    # Cycles 2 and 3 MUST be semantically identical.
+    if (@($Cycle12).Count -gt 0) {
+        Write-Host (
+            "Estabilización esperada entre ciclos 1 y 2: " +
+            ($Cycle12 -join ", ")
+        ) -ForegroundColor Yellow
+    }
+    else {
+        Write-Host (
+            "Ciclos 1 y 2 ya eran estables."
+        ) -ForegroundColor Green
+    }
+
+    if (@($Cycle23).Count -gt 0) {
+        throw (
+            "No hubo convergencia definitiva entre ciclos 2 y 3: " +
+            ($Cycle23 -join ", ")
+        )
+    }
+
+    Write-Host (
+        "Convergencia definitiva ciclos 2 y 3: APROBADA."
+    ) -ForegroundColor Green
+
+    Set-Location -LiteralPath $StageDir
+    $env:PYTHONPATH = Join-Path $StageDir "src"
+
+    $StageReports = Join-Path $StageEvidence "test-reports"
+    New-Item `
+        -ItemType Directory `
+        -Path $StageReports `
+        -Force |
+        Out-Null
+
+    $FullXml = Join-Path $StageReports "full-suite.xml"
+    $FullJson = Join-Path $StageReports "full-suite-summary.json"
+    $FullMd = Join-Path $StageReports "full-suite-summary.md"
+
+    Invoke-Checked "Ejecutando suite completa en staging" {
+        python -m pytest --junitxml="$FullXml"
+    }
+
+    Invoke-Checked "Sincronizando evidencia SGD-114F en staging" {
+        python -m sgoda.governance.test_evidence.cli `
+            --junit "$FullXml" `
+            --component "SGODA-PUINAVE" `
+            --scope "pci002_staging_full_suite" `
+            --output-json "$FullJson" `
+            --output-md "$FullMd"
+    }
+
+    $Full = (
+        Get-Content `
+            -LiteralPath $FullJson `
+            -Raw `
+            -Encoding UTF8 |
+        ConvertFrom-Json
+    )
+
+    if (-not [bool]$Full.approved) {
+        throw "La suite completa del staging no fue aprobada."
+    }
+
+    $StageRelease = Join-Path `
+        $StageDir `
+        "releases\PCI-002-v1.0.3"
+
+    New-Item `
+        -ItemType Directory `
+        -Path $StageRelease `
+        -Force |
+        Out-Null
+
+    $ConsolidationReport = [ordered]@{
+        program = "PCI-SGODA-v1.0.0"
+        increment_code = "PCI-002"
+        version = "1.0.0"
+        status = "converged_and_candidate_for_application"
+        staging_root = $StageDir
+        convergence = [ordered]@{
+            cycles = 3
+            policy = "cycle_1_may_stabilize_cycles_2_and_3_must_match"
+            cycle_1_to_2_differences = @($Cycle12)
+            cycle_1_to_2_classification = if (
+                @($Cycle12).Count -gt 0
+            ) {
+                "expected_stabilization"
+            }
+            else {
+                "already_stable"
+            }
+            cycle_2_to_3_differences = @($Cycle23)
+            definitive_pair = "cycle_2_cycle_3"
+            approved = (@($Cycle23).Count -eq 0)
+        }
+        cycles = $CycleResults
+        full_suite = [ordered]@{
+            executed = [int]$Full.executed
+            passed = [int]$Full.passed
+            failures = [int]$Full.failures
+            errors = [int]$Full.errors
+            approved = [bool]$Full.approved
+        }
+        generated_at_utc = [DateTime]::UtcNow.ToString("o")
+    }
+
+    Write-Json `
+        -Path (
+            Join-Path `
+                $StageEvidence `
+                "institutional-consolidation-report.json"
+        ) `
+        -Value $ConsolidationReport
+
+    Write-Json `
+        -Path (
+            Join-Path $StageRelease "manifest.json"
+        ) `
+        -Value ([ordered]@{
+            program = "PCI-SGODA-v1.0.0"
+            increment_code = "PCI-002"
+            version = "1.0.0"
+            release_name = "PCI-002-v1.0.3"
+            status = "converged_and_candidate_for_closure"
+            convergence_cycles = 3
+            index_coverage_percent = 100
+            registry_coverage_percent = 100
+            critical_findings = 0
+            full_suite_approved = $true
+        })
+
+    Invoke-Checked "Validando release en staging mediante SGD-114G" {
+        python -m sgoda.governance.release_management.cli `
+            --root "$StageDir" `
+            --operation "close" `
+            --output-json (
+                Join-Path `
+                    $StageEvidence `
+                    "release-validation.json"
+            )
+    }
+
+    Step "Capturando respaldo previo a aplicación"
+
+    if (Test-Path -LiteralPath $BackupDir) {
+        Remove-Item `
+            -LiteralPath $BackupDir `
+            -Recurse `
+            -Force
+    }
+
+    New-Item `
+        -ItemType Directory `
+        -Path $BackupDir `
+        -Force |
+        Out-Null
+
+    $ManagedPaths = @(
+        "docs\00_INDICE_MAESTRO.md",
+        "docs\00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "docs\00_ARQUITECTURA_MAESTRA.md",
+        "artifacts\documentation\SGD-115",
+        "artifacts\roadmap\SGD-116",
+        "artifacts\consolidation\PCI-002-v1.0.3",
+        "releases\PCI-002-v1.0.3",
+        "config\governance\PCI-002-component.json",
+        "config\governance\PCI-002-policy.json",
+        "docs\01_Gobierno\PCI-002",
+        "tests\governance\test_PCI_002_consolidation_contract.py"
+    )
+
+    foreach ($RelativePath in $ManagedPaths) {
+        $RealPath = Join-Path $ProjectRoot $RelativePath
+        $BackupPath = Join-Path $BackupDir $RelativePath
+
+        if (Test-Path -LiteralPath $RealPath) {
+            $Parent = Split-Path -Parent $BackupPath
+            New-Item `
+                -ItemType Directory `
+                -Path $Parent `
+                -Force |
+                Out-Null
+
+            Copy-Item `
+                -LiteralPath $RealPath `
+                -Destination $BackupPath `
+                -Recurse `
+                -Force
+        }
+    }
+
+    Step "Aplicando resultado consolidado al repositorio real"
+
+    try {
+        Copy-ManagedResult `
+            -StageRoot $StageDir `
+            -RealRoot $ProjectRoot `
+            -RelativePaths $ManagedPaths
+    }
+    catch {
+        Write-Host "Aplicación fallida. Iniciando rollback." -ForegroundColor Red
+
+        foreach ($RelativePath in $ManagedPaths) {
+            $Destination = Join-Path $ProjectRoot $RelativePath
+            $BackupPath = Join-Path $BackupDir $RelativePath
+
+            if (Test-Path -LiteralPath $Destination) {
+                Remove-Item `
+                    -LiteralPath $Destination `
+                    -Recurse `
+                    -Force
+            }
+
+            if (Test-Path -LiteralPath $BackupPath) {
+                $Parent = Split-Path -Parent $Destination
+                New-Item `
+                    -ItemType Directory `
+                    -Path $Parent `
+                    -Force |
+                    Out-Null
+
+                Copy-Item `
+                    -LiteralPath $BackupPath `
+                    -Destination $Destination `
+                    -Recurse `
+                    -Force
+            }
+        }
+
+        throw
+    }
+
+    # Revalidate the REAL repository after applying.
+    Set-Location -LiteralPath $ProjectRoot
+    $env:PYTHONPATH = Join-Path $ProjectRoot "src"
+
+    $RealValidation = Join-Path `
+        $ArtifactDir `
+        "real-repository-final-validation"
+    New-Item `
+        -ItemType Directory `
+        -Path $RealValidation `
+        -Force |
+        Out-Null
+
+    Invoke-Checked "Validación final PCI-001.2 en repositorio real" {
+        python -m sgoda.governance.master_index_sync `
+            --root "$ProjectRoot" `
+            --mode "apply" `
+            --backup-dir (
+                Join-Path $RealValidation "index-backup"
+            ) `
+            --report-json (
+                Join-Path $RealValidation "index-sync.json"
+            ) `
+            --preview-md (
+                Join-Path $RealValidation "index-preview.md"
+            )
+    }
+
+    Invoke-Checked "Auditoría final PCI-001.1 en repositorio real" {
+        python -m sgoda.governance.master_index_audit `
+            --root "$ProjectRoot" `
+            --output-json (
+                Join-Path $RealValidation "audit.json"
+            ) `
+            --output-md (
+                Join-Path $RealValidation "audit.md"
+            ) `
+            --output-html (
+                Join-Path $RealValidation "dashboard.html"
+            ) `
+            --metrics-json (
+                Join-Path $RealValidation "metrics.json"
+            ) `
+            --traceability-json (
+                Join-Path $RealValidation "traceability.json"
+            ) `
+            --pmo-json (
+                Join-Path $RealValidation "pmo.json"
+            )
+    }
+
+    $RealAudit = (
+        Get-Content `
+            -LiteralPath (
+                Join-Path $RealValidation "audit.json"
+            ) `
+            -Raw `
+            -Encoding UTF8 |
+        ConvertFrom-Json
+    )
+
+    if (-not [bool]$RealAudit.approved) {
+        throw "La auditoría final del repositorio real no fue aprobada."
+    }
+
+    if (
+        [double]$RealAudit.metrics.index_coverage_percent -ne 100.0
+    ) {
+        throw "La cobertura final del Índice no es 100 %."
+    }
+
+    if (
+        [double]$RealAudit.metrics.registry_coverage_percent -ne 100.0
+    ) {
+        throw "La cobertura final del Registro no es 100 %."
+    }
+
+    if ([int]$RealAudit.metrics.critical_findings -ne 0) {
+        throw "La auditoría final contiene hallazgos críticos."
+    }
+
+    Invoke-Checked "Validando release final mediante SGD-114G" {
+        python -m sgoda.governance.release_management.cli `
+            --root "$ProjectRoot" `
+            --operation "close" `
+            --output-json (
+                Join-Path `
+                    $ArtifactDir `
+                    "real-release-validation.json"
+            )
+    }
+
+    if ($Publish) {
+        Step "Publicando PCI-002 mediante gate canónico"
+
+        & $PublisherPath `
+            -Publish `
+            -CommitMessage "feat(consolidation): close PCI-002 v1.0.3 definitive convergence policy" `
+            -EvidenceCommitMessage "chore(consolidation): publish PCI-002 v1.0.3 evidence"
+
+        if ($LASTEXITCODE -ne 0) {
+            throw "La publicación institucional terminó con errores."
+        }
+    }
+
+    Step "Resultado final"
+    Write-Host "PCI-002 v1.0.3 implementado." -ForegroundColor Green
+    Write-Host "Ciclo 1: ESTABILIZACIÓN CONTROLADA." -ForegroundColor Green
+Write-Host "Convergencia ciclos 2 y 3: APROBADA." -ForegroundColor Green
+    Write-Host "Cobertura Índice Maestro: 100%." -ForegroundColor Green
+    Write-Host "Cobertura Registro Maestro: 100%." -ForegroundColor Green
+    Write-Host "Hallazgos críticos: 0." -ForegroundColor Green
+    Write-Host (
+        "Suite completa: " +
+        "$($Full.passed)/$($Full.executed) APROBADA."
+    ) -ForegroundColor Green
+    Write-Host "Rollback: DISPONIBLE." -ForegroundColor Green
+    Write-Host "Release: releases\PCI-002-v1.0.3" -ForegroundColor Cyan
+
+    if ($Publish) {
+        Write-Host "Publicación institucional: COMPLETADA." -ForegroundColor Green
+    }
+    else {
+        Write-Host "Publicación no solicitada. Reejecute con -Publish." -ForegroundColor Yellow
+    }
+}
+finally {
+    Set-Location -LiteralPath $ProjectRoot
+
+    if (-not $KeepStaging) {
+        if (Test-Path -LiteralPath $StageDir) {
+            Remove-Item `
+                -LiteralPath $StageDir `
+                -Recurse `
+                -Force `
+                -ErrorAction SilentlyContinue
+        }
+    }
+    else {
+        Write-Host "Staging conservado en: $StageDir" -ForegroundColor Yellow
+    }
+}

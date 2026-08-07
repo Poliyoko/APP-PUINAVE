@@ -1,0 +1,60 @@
+{
+    "component":  "SPT-021",
+    "opened_by":  "SPT-021.0",
+    "generated_at_utc":  "2026-08-07T02:37:50.6006489Z",
+    "baseline":  "SPT-020 CLOSED",
+    "rule":  "No crear nuevos subcomponentes que dupliquen capacidades clasificadas EXISTING, REUSABLE o INTEGRATE.",
+    "authorized_new_components":  [
+
+                                  ],
+    "conditional_extension_candidates":  [
+                                             {
+                                                 "capability":  "institutional_execution_kernel",
+                                                 "related_existing_components":  [
+                                                                                     "SPT-019.1",
+                                                                                     "SPT-020.6"
+                                                                                 ],
+                                                 "decision":  "REVIEW_BEFORE_DESIGN"
+                                             },
+                                             {
+                                                 "capability":  "institutional_task_scheduler",
+                                                 "related_existing_components":  [
+                                                                                     "SPT-019.1",
+                                                                                     "SPT-019.3"
+                                                                                 ],
+                                                 "decision":  "REVIEW_BEFORE_DESIGN"
+                                             },
+                                             {
+                                                 "capability":  "institutional_job_queue",
+                                                 "related_existing_components":  [
+                                                                                     "SPT-020.1",
+                                                                                     "SPT-020.4"
+                                                                                 ],
+                                                 "decision":  "REVIEW_BEFORE_DESIGN"
+                                             },
+                                             {
+                                                 "capability":  "background_workers",
+                                                 "related_existing_components":  [
+                                                                                     "SPT-020.6"
+                                                                                 ],
+                                                 "decision":  "REVIEW_BEFORE_DESIGN"
+                                             },
+                                             {
+                                                 "capability":  "distributed_execution_controller",
+                                                 "related_existing_components":  [
+                                                                                     "SPT-019.3",
+                                                                                     "SPT-020.6"
+                                                                                 ],
+                                                 "decision":  "REVIEW_BEFORE_DESIGN"
+                                             },
+                                             {
+                                                 "capability":  "execution_resource_manager",
+                                                 "related_existing_components":  [
+                                                                                     "SPT-020.2",
+                                                                                     "SPT-020.3",
+                                                                                     "SPT-020.7"
+                                                                                 ],
+                                                 "decision":  "REVIEW_BEFORE_DESIGN"
+                                             }
+                                         ]
+}

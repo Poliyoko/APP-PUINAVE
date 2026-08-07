@@ -1,0 +1,55 @@
+{
+    "component":  "SPT-020.6",
+    "version":  "1.0.0",
+    "run_id":  "20260807-010252",
+    "generated_at_utc":  "2026-08-07T01:02:52.4938895Z",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "approved":  true,
+    "component_tests_passed":  true,
+    "python_compile_exit_code":  0,
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "full_suite_exit_code":  0,
+    "repository_is_source_of_truth":  true,
+    "external_infrastructure_required":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/platform/runtime_orchestrator/health.py",
+                      "sha256":  "5983d971211a6dec3f937785c205fabdd873594a5ad1ece6159d66f232f9d91b"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/runtime_orchestrator/models.py",
+                      "sha256":  "47a3a95f7911de8d0ab074e1a3866fc42ff951feb922993dbd94cc4baec389f7"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/runtime_orchestrator/orchestrator.py",
+                      "sha256":  "5afad6ba7f24d86fe6dcdcf00d2cf85d484e61c994195df72169bdadec96f481"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/runtime_orchestrator/planner.py",
+                      "sha256":  "0385e2e32ec2c73ac44a098b70df34ca5ed3ab2f0576f96957654f9d92e40e27"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/runtime_orchestrator/registry.py",
+                      "sha256":  "8156de9fb373bd9cd4967c6975f5247b7e9410025544c65609fe1a1cf435bdb8"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/runtime_orchestrator/__init__.py",
+                      "sha256":  "1758f186615cf09b4511f3ad24158970aa55739ef134f2e8031693641de90b2e"
+                  },
+                  {
+                      "path":  "tests/platform/runtime_orchestrator/test_spt0206.py",
+                      "sha256":  "bcb153037268dcd35462f20dfe877fd5b3f82f6956091d388dea2e145b49d1f9"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-020.6/SGD-435-Institutional-Runtime-Orchestrator.md",
+                      "sha256":  "2e265d5fe3af7c9d4cfe41e4e1e8702faa18cbe8ec6f0c475e319feef8d6fd6e"
+                  },
+                  {
+                      "path":  "config/platform/SPT-020.6-component.json",
+                      "sha256":  "c041428dc871a9ab1278cb074705731b133207c7cb8416e1f8bfdef08041161c"
+                  }
+              ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "SPT-019 — Policy Audit Request",
+  "nodes": [
+    {
+      "id": "trigger-policy-audit",
+      "name": "Webhook POL-001",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "sgoda/policy-audit",
+        "responseMode": "onReceived"
+      }
+    },
+    {
+      "id": "normalize-policy-audit",
+      "name": "Normalizar solicitud",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook POL-001": {
+      "main": [
+        [
+          {
+            "node": "Normalizar solicitud",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "workflow_id": "SPT-019-WF-001",
+    "version": "0.1.0",
+    "status": "validated",
+    "category": "governance",
+    "dependencies": [
+      "POL-001",
+      "SGD-117"
+    ]
+  }
+}

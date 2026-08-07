@@ -1,0 +1,14 @@
+{
+    "component":  "SPT-020.5",
+    "version":  "1.0.0",
+    "name":  "Institutional Service Discovery and Registry",
+    "parent_component":  "SPT-020",
+    "semantic_versioning":  true,
+    "capability_discovery":  true,
+    "heartbeat_support":  true,
+    "stale_service_expiration":  true,
+    "repository_is_source_of_truth":  true,
+    "external_infrastructure_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

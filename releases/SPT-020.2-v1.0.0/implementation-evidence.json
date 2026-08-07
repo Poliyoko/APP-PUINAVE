@@ -1,0 +1,55 @@
+{
+    "component":  "SPT-020.2",
+    "version":  "1.0.0",
+    "run_id":  "20260807-002939",
+    "generated_at_utc":  "2026-08-07T00:29:39.1932537Z",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "approved":  true,
+    "component_tests_passed":  true,
+    "python_compile_exit_code":  0,
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "full_suite_exit_code":  0,
+    "repository_is_source_of_truth":  true,
+    "external_service_required":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/platform/lifecycle/health.py",
+                      "sha256":  "1dd192483d79ad70f3b37ad74de15f1ca7e7bda79b9ce6373d00c145585a6a07"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/lifecycle/manager.py",
+                      "sha256":  "7bfdb47bcca5a70338cbe88331a7b5aa22dc78aec59fa0d49707bfdfc046ff53"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/lifecycle/models.py",
+                      "sha256":  "0ff57e41be3d04928b3c71261042cd8cffd152c85af87a43b9d2873c6b4fd290"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/lifecycle/registry.py",
+                      "sha256":  "818e4a686211e2a76917be490e7a71e148a8e83cadc185c39eedf1622f927a0b"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/lifecycle/states.py",
+                      "sha256":  "854e2c9345abf7c9ab1bc53a0b5cd00059c011a6570b4cf7382a367a2ac8f5ff"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/lifecycle/__init__.py",
+                      "sha256":  "82855d11180b5742cce70d76b6ec15193c1ca4fdfd8e6312052d5ff8372b4277"
+                  },
+                  {
+                      "path":  "tests/platform/lifecycle/test_spt0202.py",
+                      "sha256":  "d1cedc2382e33f57bafdd52f790591c614005626eaf3b4712910ab798dec225a"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-020.2/SGD-431-Component-Lifecycle-Manager.md",
+                      "sha256":  "21a32d19cc1652f91a5dcdc0b0226da8b13f0644eff1168e6be6e0904292cdc9"
+                  },
+                  {
+                      "path":  "config/platform/SPT-020.2-component.json",
+                      "sha256":  "4ba84d1ff94034d34933a94eafa2f3de8219b0358345e25e93519b71fef0c1cd"
+                  }
+              ]
+}

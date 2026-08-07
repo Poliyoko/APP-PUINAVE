@@ -1,0 +1,58 @@
+{
+  "name": "SPT-019 — PMO Event Gateway",
+  "nodes": [
+    {
+      "id": "trigger-pmo-event",
+      "name": "Webhook PMO",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "sgoda/pmo-event",
+        "responseMode": "onReceived"
+      }
+    },
+    {
+      "id": "normalize-pmo-event",
+      "name": "Normalizar evento PMO",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook PMO": {
+      "main": [
+        [
+          {
+            "node": "Normalizar evento PMO",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "workflow_id": "SPT-019-WF-002",
+    "version": "0.1.0",
+    "status": "validated",
+    "category": "pmo",
+    "dependencies": [
+      "PMO-DIGITAL",
+      "SGD-117"
+    ]
+  }
+}

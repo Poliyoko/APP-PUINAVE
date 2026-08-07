@@ -1,0 +1,9 @@
+{
+  "policy_id": "SPT-019.1-POLICY-v1.0.1",
+  "component": "SPT-019.1",
+  "inline_json_from_powershell_forbidden": true,
+  "simulation_event_transport": "UTF-8 JSON file",
+  "simulation_must_not_execute_external_actions": true,
+  "repository_workflows_must_be_inactive": true,
+  "workflow_registry_must_be_deterministic": true
+}

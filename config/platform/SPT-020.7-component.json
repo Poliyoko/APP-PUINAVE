@@ -1,0 +1,16 @@
+{
+    "component":  "SPT-020.7",
+    "version":  "1.0.0",
+    "name":  "Institutional Health Monitor",
+    "parent_component":  "SPT-020",
+    "aggregate_monitoring":  true,
+    "severity_model":  true,
+    "alerts":  true,
+    "snapshots":  true,
+    "threshold_adapters":  true,
+    "automatic_closure":  true,
+    "repository_is_source_of_truth":  true,
+    "external_infrastructure_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

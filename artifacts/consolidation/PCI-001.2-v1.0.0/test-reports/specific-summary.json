@@ -1,0 +1,12 @@
+{
+  "component": "PCI-001.2-v1.0.0",
+  "scope": "specific_historical_and_integration",
+  "executed": 71,
+  "passed": 71,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 5.715,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\artifacts\\consolidation\\PCI-001.2-v1.0.0\\test-reports\\specific.xml"
+}

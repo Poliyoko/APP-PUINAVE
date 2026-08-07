@@ -1,0 +1,10 @@
+{
+    "component":  "POL-001",
+    "version":  "1.0.0",
+    "status":  "implemented_with_policy_findings",
+    "approved_findings":  2,
+    "review_required":  4,
+    "prohibited":  0,
+    "internet_required":  false,
+    "paid_service_required":  false
+}

@@ -53,6 +53,10 @@
       "docs/01_Gobierno/PCI-001",
       "docs/01_Gobierno/PCI-001.1/PCI-001.1-Arquitectura.md",
       "docs/01_Gobierno/PCI-001.1/PCI-001.1-Manual-Operativo.md",
+      "docs/01_Gobierno/PCI-001.2/PCI-001.2-Arquitectura.md",
+      "docs/01_Gobierno/PCI-001.2/PCI-001.2-Manual-Operativo.md",
+      "docs/01_Gobierno/PCI-001.3/PCI-001.3-Arquitectura.md",
+      "docs/01_Gobierno/PCI-001.3/PCI-001.3-Manual-Operativo.md",
       "docs/01_Gobierno/PCI-001/PCI-001-Arquitectura.md",
       "docs/01_Gobierno/PCI-001/PCI-001-Manual-Operativo.md"
     ],
@@ -60,7 +64,8 @@
       "releases/PCI-001-v1.0.0",
       "releases/PCI-001.1-v1.0.0",
       "releases/PCI-001.1-v1.0.0-R2",
-      "releases/PCI-001.1-v1.0.0-R3"
+      "releases/PCI-001.1-v1.0.0-R3",
+      "releases/PCI-001.2-v1.0.0"
     ],
     "evidence_paths": [
       "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-final-audit.html",
@@ -90,7 +95,21 @@
       "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific-summary.json",
       "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific-summary.md",
       "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific.xml",
-      "artifacts/consolidation/PCI-001.1-v1.0.0/test-reports/specific.xml"
+      "artifacts/consolidation/PCI-001.1-v1.0.0/test-reports/specific.xml",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/00_INDICE_MAESTRO.preview.md",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/backup/00_INDICE_MAESTRO.md.bak",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-dashboard.html",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-intelligent-audit.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-intelligent-audit.md",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-metrics.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-pmo.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-traceability.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/repository-validation.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/synchronization-preview.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/synchronization-result.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/test-reports/specific-summary.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/test-reports/specific-summary.md",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/test-reports/specific.xml"
     ]
   },
   {
@@ -135,6 +154,106 @@
       "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific-summary.md",
       "artifacts/consolidation/PCI-001.1-v1.0.0-R3/test-reports/specific.xml",
       "artifacts/consolidation/PCI-001.1-v1.0.0/test-reports/specific.xml"
+    ]
+  },
+  {
+    "code": "PCI-001.2",
+    "name": "Institutional Master Index Synchronizer",
+    "version": "1.0.0",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "component_type": "no declarado",
+    "config_path": "config/governance/PCI-001.2-component.json",
+    "source_paths": [
+      "src/sgoda/governance/master_index_sync"
+    ],
+    "test_paths": [
+      "tests/governance/master_index_sync/test_PCI_001_2_master_index_synchronizer.py"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/PCI-001.2",
+      "docs/01_Gobierno/PCI-001.2/PCI-001.2-Arquitectura.md",
+      "docs/01_Gobierno/PCI-001.2/PCI-001.2-Manual-Operativo.md"
+    ],
+    "release_paths": [
+      "releases/PCI-001.2-v1.0.0"
+    ],
+    "evidence_paths": [
+      "artifacts/consolidation/PCI-001.2-v1.0.0/00_INDICE_MAESTRO.preview.md",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/backup/00_INDICE_MAESTRO.md.bak",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-dashboard.html",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-intelligent-audit.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-intelligent-audit.md",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-metrics.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-pmo.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-traceability.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/repository-validation.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/synchronization-preview.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/synchronization-result.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/test-reports/specific-summary.json",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/test-reports/specific-summary.md",
+      "artifacts/consolidation/PCI-001.2-v1.0.0/test-reports/specific.xml"
+    ]
+  },
+  {
+    "code": "PCI-001.3",
+    "name": "Institutional Registry Determinizer",
+    "version": "1.0.0",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "component_type": "no declarado",
+    "config_path": "config/governance/PCI-001.3-component.json",
+    "source_paths": [
+      "src/sgoda/governance/registry_determinizer"
+    ],
+    "test_paths": [
+      "tests/governance/registry_determinizer"
+    ],
+    "documentation_paths": [
+      "docs/01_Gobierno/PCI-001.3",
+      "docs/01_Gobierno/PCI-001.3/PCI-001.3-Arquitectura.md",
+      "docs/01_Gobierno/PCI-001.3/PCI-001.3-Manual-Operativo.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": []
+  },
+  {
+    "code": "PCI-002",
+    "name": "Institutional Consolidation Engine",
+    "version": "1.1.2",
+    "status": "implemented_tested_and_candidate_for_closure",
+    "component_type": "no declarado",
+    "config_path": "config/governance/PCI-002-component.json",
+    "source_paths": [],
+    "test_paths": [],
+    "documentation_paths": [
+      "docs/01_Gobierno/PCI-002/PCI-002-Arquitectura.md",
+      "docs/01_Gobierno/PCI-002/PCI-002-Manual-Operativo.md"
+    ],
+    "release_paths": [],
+    "evidence_paths": [
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/dashboard.html",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/index-backup/00_INDICE_MAESTRO.md.bak",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/index-preview.md",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/index-sync.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/intelligent-audit.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/intelligent-audit.md",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/metrics.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/pmo.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/registry-determinism.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/repository-validation.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/traceability.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/dashboard.html",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/index-backup/00_INDICE_MAESTRO.md.bak",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/index-preview.md",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/index-sync.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/intelligent-audit.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/intelligent-audit.md",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/metrics.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/pmo.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/registry-determinism.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/repository-validation.json",
+      "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/traceability.json"
     ]
   },
   {

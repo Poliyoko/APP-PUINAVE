@@ -1,0 +1,11 @@
+{
+    "component":  "SPT-020.1",
+    "version":  "1.0.0",
+    "name":  "Institutional Service Bus",
+    "parent_component":  "SPT-020",
+    "transport":  "in_process",
+    "repository_is_source_of_truth":  true,
+    "external_broker_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

@@ -1,0 +1,10 @@
+{
+  "increment_code":"SPT-019.2",
+  "name":"Workflow Registry Manager",
+  "version":"1.0.0",
+  "status":"implemented_tested_and_candidate_for_integration",
+  "parent":"SPT-019",
+  "depends_on":["SPT-019.1-v1.0.1","POL-001-v1.0.2"],
+  "paid_services_required":false,
+  "n8n_runtime_required":false
+}

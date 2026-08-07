@@ -1,0 +1,24 @@
+{
+    "component":  "SPT-019.3E",
+    "version":  "2.0.0",
+    "generated_at_utc":  "2026-08-06T11:35:19.8483089Z",
+    "run_id":  "20260806-113519",
+    "scripts":  [
+                    {
+                        "source":  "Install-SGD114D-v1.0.0-Adaptive-Institutional-Policy-Engine.ps1",
+                        "quarantine":  "scripts/installers/quarantine/SPT-019.3E-v2.0.0/20260806-113519/Install-SGD114D-v1.0.0-Adaptive-Institutional-Policy-Engine.ps1.failed.txt",
+                        "sha256":  "b2bd44d95a9986aec3cb6d877458ff79091c50e10c46786a1ef93e4d84669f49",
+                        "syntax_error_count":  1,
+                        "errors":  [
+                                       {
+                                           "line":  1247,
+                                           "column":  17,
+                                           "error_id":  "InvalidVariableReferenceWithDrive",
+                                           "message":  "La referencia de variable no es v?lida. El car?cter \u0027:\u0027 no va seguido de un car?cter de nombre de variable v?lido. Considere la posibilidad de usar ${} para delimitar el nombre."
+                                       }
+                                   ],
+                        "preserved":  true,
+                        "executable":  false
+                    }
+                ]
+}

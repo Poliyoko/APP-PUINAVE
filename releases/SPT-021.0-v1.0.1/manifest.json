@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-021.0",
+    "version":  "1.0.1",
+    "status":  "CLOSURE_BLOCKED",
+    "baseline":  "SPT-020 CLOSED",
+    "repository_reconciliation_status":  "RECONCILIATION_REQUIRED",
+    "technical_errors":  1,
+    "tests_passed":  808,
+    "publication_performed":  false,
+    "evidence":  "artifacts/development/SPT-021.0-v1.0.1/runs/20260807-023750/implementation-evidence.json",
+    "act":  "docs/06_Tecnologia/SPT-021.0/ACT-021.0-Apertura-Institucional-SPT-021.md",
+    "report":  "docs/06_Tecnologia/SPT-021.0/SGD-438-SPT-021.0-Baseline-Gap-Analyzer.md"
+}

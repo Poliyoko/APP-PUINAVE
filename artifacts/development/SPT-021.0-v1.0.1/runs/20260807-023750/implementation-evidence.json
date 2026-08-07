@@ -1,0 +1,28 @@
+{
+    "component":  "SPT-021.0",
+    "version":  "1.0.1",
+    "generated_at_utc":  "2026-08-07T02:37:50.6006489Z",
+    "run_id":  "20260807-023750",
+    "status":  "CLOSURE_BLOCKED",
+    "technical_errors":  1,
+    "baseline":  "SPT-020 CLOSED",
+    "remote_repository":  "Poliyoko/APP-PUINAVE",
+    "repository_reconciliation_status":  "RECONCILIATION_REQUIRED",
+    "publication_performed":  false,
+    "capability_registry_count":  172,
+    "gap_count":  0,
+    "integration_or_extension_count":  6,
+    "python_compile_exit_code":  0,
+    "pytest_passed":  true,
+    "tests_passed":  808,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "outputs":  {
+                    "technology_capability_registry":  "artifacts/development/SPT-021.0-v1.0.1/runs/20260807-023750/technology-capability-registry.json",
+                    "technology_gap_analysis":  "artifacts/development/SPT-021.0-v1.0.1/runs/20260807-023750/technology-gap-analysis.json",
+                    "technology_dependency_map":  "artifacts/development/SPT-021.0-v1.0.1/runs/20260807-023750/technology-dependency-map.json",
+                    "technology_overlap_report":  "artifacts/development/SPT-021.0-v1.0.1/runs/20260807-023750/technology-overlap-report.json",
+                    "remote_repository_reconciliation":  "artifacts/development/SPT-021.0-v1.0.1/runs/20260807-023750/remote-repository-reconciliation.json",
+                    "scope_definition":  "artifacts/development/SPT-021.0-v1.0.1/runs/20260807-023750/SPT-021-scope-definition.json"
+                }
+}

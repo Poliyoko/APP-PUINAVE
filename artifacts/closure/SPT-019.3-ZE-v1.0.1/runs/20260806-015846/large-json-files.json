@@ -1,0 +1,14 @@
+[
+    {
+        "path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+        "size_bytes":  450816104,
+        "validation":  "EXISTENCE_SIZE_SHA256",
+        "sha256":  "286795a4702ab8a0adba3a15b6f9ee0964edd97fa6b29b998715fb0753206d0d"
+    },
+    {
+        "path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+        "size_bytes":  450816104,
+        "validation":  "EXISTENCE_SIZE_SHA256",
+        "sha256":  "286795a4702ab8a0adba3a15b6f9ee0964edd97fa6b29b998715fb0753206d0d"
+    }
+]

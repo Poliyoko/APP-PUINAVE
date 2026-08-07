@@ -1,0 +1,51 @@
+{
+    "component":  "SPT-020.4",
+    "version":  "1.0.0",
+    "run_id":  "20260807-004635",
+    "generated_at_utc":  "2026-08-07T00:46:35.4142339Z",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "approved":  true,
+    "component_tests_passed":  true,
+    "python_compile_exit_code":  0,
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "full_suite_exit_code":  0,
+    "repository_is_source_of_truth":  true,
+    "external_broker_required":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/platform/event_bus/health.py",
+                      "sha256":  "323addfa7e310f2d025d748a111c0d800a597f5fc85c9e6d38dce45f9ef1bd4c"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/event_bus/models.py",
+                      "sha256":  "08447e9c557d7762334e5b0463b9dca3188e8ec494dc3db11d068747addde733"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/event_bus/registry.py",
+                      "sha256":  "df2e94301e29d1e0e6bf7be2360b9ac36b8ebc40e5d32a61e9bfa4b2f7cae78b"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/event_bus/service_bus.py",
+                      "sha256":  "ad9c2cb100b5526e0e860270ad30e9fbaa2c2acb7a7695fb3abeb2fc1d07e7a4"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/event_bus/__init__.py",
+                      "sha256":  "6a87aa081c3b34771132ad4aedeee4a2ef025febea121b5903bf97c306e781d3"
+                  },
+                  {
+                      "path":  "tests/platform/event_bus/test_spt0204.py",
+                      "sha256":  "ede75f885f83f66f0b03f8a726caead2be82e6f37d3c429ab3e65dd12a8d1e33"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-020.4/SGD-433-Institutional-Event-Bus.md",
+                      "sha256":  "ed0daa1ae19571c8251d8aee3c053e3a7939fbc76964bf9a6bc0fa5ef421f0f5"
+                  },
+                  {
+                      "path":  "config/platform/SPT-020.4-component.json",
+                      "sha256":  "37a0c34d3d69943edf8be19024f24bd98ec128069d7cd317b3778d0095a53f5f"
+                  }
+              ]
+}

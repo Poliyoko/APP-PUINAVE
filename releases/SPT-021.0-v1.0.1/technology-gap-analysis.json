@@ -1,0 +1,62 @@
+[
+    {
+        "capability":  "institutional_execution_kernel",
+        "related_existing_components":  [
+                                            "SPT-019.1",
+                                            "SPT-020.6"
+                                        ],
+        "classification":  "EXTEND_OR_INTEGRATE",
+        "rule":  "EXTEND_ONLY_IF_GAP_PROVEN",
+        "new_component_authorized":  false
+    },
+    {
+        "capability":  "institutional_task_scheduler",
+        "related_existing_components":  [
+                                            "SPT-019.1",
+                                            "SPT-019.3"
+                                        ],
+        "classification":  "EXTEND_OR_INTEGRATE",
+        "rule":  "ANALYZE",
+        "new_component_authorized":  false
+    },
+    {
+        "capability":  "institutional_job_queue",
+        "related_existing_components":  [
+                                            "SPT-020.1",
+                                            "SPT-020.4"
+                                        ],
+        "classification":  "EXTEND_OR_INTEGRATE",
+        "rule":  "ANALYZE",
+        "new_component_authorized":  false
+    },
+    {
+        "capability":  "background_workers",
+        "related_existing_components":  [
+                                            "SPT-020.6"
+                                        ],
+        "classification":  "EXTEND_OR_INTEGRATE",
+        "rule":  "ANALYZE",
+        "new_component_authorized":  false
+    },
+    {
+        "capability":  "distributed_execution_controller",
+        "related_existing_components":  [
+                                            "SPT-019.3",
+                                            "SPT-020.6"
+                                        ],
+        "classification":  "EXTEND_OR_INTEGRATE",
+        "rule":  "ANALYZE",
+        "new_component_authorized":  false
+    },
+    {
+        "capability":  "execution_resource_manager",
+        "related_existing_components":  [
+                                            "SPT-020.2",
+                                            "SPT-020.3",
+                                            "SPT-020.7"
+                                        ],
+        "classification":  "EXTEND_OR_INTEGRATE",
+        "rule":  "ANALYZE",
+        "new_component_authorized":  false
+    }
+]

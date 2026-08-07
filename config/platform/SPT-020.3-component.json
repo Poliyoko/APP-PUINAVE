@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-020.3",
+    "version":  "1.0.0",
+    "name":  "Institutional Component Dependency Manager",
+    "parent_component":  "SPT-020",
+    "semantic_versioning":  true,
+    "cycle_detection":  true,
+    "topological_order":  true,
+    "repository_is_source_of_truth":  true,
+    "external_service_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

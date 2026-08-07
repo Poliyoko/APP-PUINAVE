@@ -1,0 +1,55 @@
+{
+    "component":  "SPT-020.3",
+    "version":  "1.0.0",
+    "run_id":  "20260807-004142",
+    "generated_at_utc":  "2026-08-07T00:41:42.2827921Z",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "approved":  true,
+    "component_tests_passed":  true,
+    "python_compile_exit_code":  0,
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "full_suite_exit_code":  0,
+    "repository_is_source_of_truth":  true,
+    "external_service_required":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/platform/dependencies/health.py",
+                      "sha256":  "c88d5e18da5268885590d042b173495e5051a0f7701890f36a60439c2b9b07a2"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/dependencies/manager.py",
+                      "sha256":  "16a6c3fdf134d7c20e22ae209513bf952e0c42f264132c386009c8bdf18b4cb4"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/dependencies/models.py",
+                      "sha256":  "2fdfc4e080be38f2dce86f8a7f58d8e86475786a62c90e2532fd4c545c13e9dc"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/dependencies/registry.py",
+                      "sha256":  "c0b07584bc2d4d35d80a5a21d252010912ada037f61130ea1dfb71a772e4cf72"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/dependencies/versioning.py",
+                      "sha256":  "71a43e426875865c41bb2d1226f519879f9e0b8fbfa61a47abb95e972c9fe7df"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/dependencies/__init__.py",
+                      "sha256":  "164311e8a6ad3e2533cf7e1590cc996aedc1ee15200113d616038c645f2d62b3"
+                  },
+                  {
+                      "path":  "tests/platform/dependencies/test_spt0203.py",
+                      "sha256":  "9aebb9d4d5c8b99bfc57d9418ddd2cfe10f23f7fb2e04001ef1e6088c7ebf8d5"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-020.3/SGD-432-Component-Dependency-Manager.md",
+                      "sha256":  "72a1b3601dec7000b8bb8a3595b52c035531d611c4ee96b9800dbcef4d96af00"
+                  },
+                  {
+                      "path":  "config/platform/SPT-020.3-component.json",
+                      "sha256":  "93df01c8604e7015dc4f72c7fc2c3135ca87e687c5f0742b12e81ef63bca8c3b"
+                  }
+              ]
+}

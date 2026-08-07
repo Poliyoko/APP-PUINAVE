@@ -1,0 +1,10 @@
+{
+    "component":  "SPT-020.1",
+    "version":  "1.0.0",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "evidence":  "artifacts/development/SPT-020.1-v1.0.0/runs/20260807-001341/implementation-evidence.json",
+    "act":  "docs/06_Tecnologia/SPT-020.1/ACT-020.1-Institutional-Service-Bus.md",
+    "external_broker_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

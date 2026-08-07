@@ -1,0 +1,56 @@
+{
+    "component":  "SPT-020.7",
+    "version":  "1.0.0",
+    "run_id":  "20260807-011814",
+    "generated_at_utc":  "2026-08-07T01:18:14.0606379Z",
+    "status":  "CLOSED",
+    "closed":  true,
+    "component_tests_passed":  true,
+    "python_compile_exit_code":  0,
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "full_suite_exit_code":  0,
+    "technical_errors":  0,
+    "repository_is_source_of_truth":  true,
+    "external_infrastructure_required":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/platform/health_monitor/adapters.py",
+                      "sha256":  "0d750052e1b26f01e7077a2c4f9a0440c476dffbb1e52c1748a32ae3f0235415"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/health_monitor/models.py",
+                      "sha256":  "39581800389aee7937d0d844976c1ba391f8bfcea236468ab3c5ce88ad1f2795"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/health_monitor/monitor.py",
+                      "sha256":  "c733c62b4e258fe8b5daad28403beca465573a589b89b6dcf234e3a971c7c269"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/health_monitor/registry.py",
+                      "sha256":  "ea54948b8d04bad2be9c28acc226fe6e3caff92aecab9cf4e6c5b5140bcef3e6"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/health_monitor/reporter.py",
+                      "sha256":  "9cbc7b6d1149b2cb3ebc01da0858faa7031215e158acf1b1d223dbf6e250660e"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/health_monitor/__init__.py",
+                      "sha256":  "88279f48b5bd32b636fdbab6a11fc9e96af9c4c1610546f3111a1de846f5d9df"
+                  },
+                  {
+                      "path":  "tests/platform/health_monitor/test_spt0207.py",
+                      "sha256":  "e60f89d5eee9d32928bbb7d7c2e1ab02abb2ff8a7a6890fd157b12888596dbb9"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-020.7/SGD-436-Institutional-Health-Monitor.md",
+                      "sha256":  "24adb180eac78960b0d4457ec931191b5a5cc81495f79958fe4e0cf71bc2bdcc"
+                  },
+                  {
+                      "path":  "config/platform/SPT-020.7-component.json",
+                      "sha256":  "58f29a807992f388f62d603e32465cdb8e0b68296393348a1bb4df219e8370b0"
+                  }
+              ]
+}

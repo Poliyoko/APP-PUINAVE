@@ -1,0 +1,11 @@
+{
+    "component":  "SPT-019.2",
+    "name":  "Workflow Registry Manager",
+    "version":  "1.0.0",
+    "status":  "candidate_for_integration",
+    "workflow_count":  2,
+    "registry_approved":  true,
+    "registry_sha256":  "3854c90f5e52f9aa3ae008b6e3eff8897b06cafd0be9d0de1c467e655909dcd9",
+    "paid_services_required":  false,
+    "n8n_runtime_required":  false
+}

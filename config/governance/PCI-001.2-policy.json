@@ -1,0 +1,11 @@
+{
+  "policy_id": "PCI-001.2-POLICY-v1.0.0",
+  "component": "PCI-001.2",
+  "source_of_truth": "*-component.json",
+  "managed_block_start": "<!-- PCI-001.2:BEGIN MANAGED COMPONENT INDEX -->",
+  "managed_block_end": "<!-- PCI-001.2:END MANAGED COMPONENT INDEX -->",
+  "preserve_manual_content": true,
+  "backup_required": true,
+  "preview_required": true,
+  "approval_rule": "100 percent indexed canonical components"
+}

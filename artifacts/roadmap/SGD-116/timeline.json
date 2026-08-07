@@ -1,102 +1,12 @@
 [
   {
-    "code": "SIB-001",
-    "name": "SGODA Installer Builder",
-    "phase": "Plataforma y construcción",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SIB-001-v0.1.0",
-    "last_git_date": "2026-08-02T05:49:39-05:00"
-  },
-  {
-    "code": "SGD-114D",
-    "name": "Adaptive Release Canonical Resolver",
-    "phase": "Gobierno Digital",
-    "status": "implemented",
-    "version": "1.0.1",
-    "release": "releases/SGD-114D-v1.0.0",
-    "last_git_date": "2026-08-02T17:28:31-05:00"
-  },
-  {
-    "code": "SGD-115A",
-    "name": "Documentation Canonical Component Resolver",
-    "phase": "Gobierno Digital",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SGD-115A-v1.0.0",
-    "last_git_date": "2026-08-02T17:28:31-05:00"
-  },
-  {
-    "code": "SPT-011A",
-    "name": "Institutional Evidence Closure",
-    "phase": "Fase Tecnológica III",
-    "status": "implemented",
-    "version": "1.0.2",
-    "release": "releases/SPT-011A-v1.0.1",
-    "last_git_date": "2026-08-02T17:28:31-05:00"
-  },
-  {
-    "code": "SPT-012",
-    "name": "Plataforma de Aprendizaje SGODA-PUINAVE",
-    "phase": "Fase Tecnológica III",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-012-v1.0.0",
-    "last_git_date": "2026-08-02T18:00:24-05:00"
-  },
-  {
-    "code": "SPT-013A",
-    "name": "Learning Ecosystem Foundation",
-    "phase": "Fase Tecnológica IV",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-013A-v1.0.1",
-    "last_git_date": "2026-08-02T21:20:30-05:00"
-  },
-  {
-    "code": "SPT-013B",
-    "name": "Gestor Institucional del Diccionario Digital",
-    "phase": "Fase Tecnológica IV",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-013B-v1.0.0",
-    "last_git_date": "2026-08-02T21:46:53-05:00"
-  },
-  {
-    "code": "SPT-014",
-    "name": "Motor Multimedia Inteligente",
-    "phase": "Fase Tecnológica IV",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-014-v1.0.0",
-    "last_git_date": "2026-08-02T22:03:49-05:00"
-  },
-  {
-    "code": "SGD-114F",
-    "name": "Institutional Test Evidence Synchronizer",
-    "phase": "Gobierno Digital",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SGD-114F-v1.0.0",
-    "last_git_date": "2026-08-02T22:33:43-05:00"
-  },
-  {
-    "code": "SPT-015",
-    "name": "Motor de Evaluación Adaptativa",
-    "phase": "Fase Tecnológica IV",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-015-v1.0.0",
-    "last_git_date": "2026-08-02T22:33:43-05:00"
-  },
-  {
     "code": "ADR-010",
     "name": "ADR-010",
     "phase": "Gobierno y arquitectura",
     "status": "institutionally_closed",
     "version": "1.0.0",
     "release": "releases/ADR-010-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
+    "last_git_date": null
   },
   {
     "code": "SGD-114",
@@ -105,7 +15,7 @@
     "status": "institutionally_closed",
     "version": "2.0.0",
     "release": "releases/SGD-114-v2.0.1",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
+    "last_git_date": null
   },
   {
     "code": "SGD-114C",
@@ -114,7 +24,16 @@
     "status": "implemented",
     "version": "1.0.0",
     "release": "releases/SGD-114C-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
+    "last_git_date": null
+  },
+  {
+    "code": "SGD-114D",
+    "name": "Adaptive Release Canonical Resolver",
+    "phase": "Gobierno Digital",
+    "status": "implemented",
+    "version": "1.0.1",
+    "release": "releases/SGD-114D-v1.0.0",
+    "last_git_date": null
   },
   {
     "code": "SGD-114E",
@@ -123,7 +42,16 @@
     "status": "implemented",
     "version": "2.0.0-R2.1",
     "release": "releases/SGD-114E-v2.0.0-R2.2",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
+    "last_git_date": null
+  },
+  {
+    "code": "SGD-114F",
+    "name": "Institutional Test Evidence Synchronizer",
+    "phase": "Gobierno Digital",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SGD-114F-v1.0.0",
+    "last_git_date": null
   },
   {
     "code": "SGD-114G",
@@ -132,7 +60,7 @@
     "status": "implemented",
     "version": "1.0.1",
     "release": "releases/SGD-114G-v1.0.1",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
+    "last_git_date": null
   },
   {
     "code": "SGD-115",
@@ -141,7 +69,16 @@
     "status": "technically_completed",
     "version": "1.0.0",
     "release": null,
-    "last_git_date": "2026-08-03T00:55:12-05:00"
+    "last_git_date": null
+  },
+  {
+    "code": "SGD-115A",
+    "name": "Documentation Canonical Component Resolver",
+    "phase": "Gobierno Digital",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SGD-115A-v1.0.0",
+    "last_git_date": null
   },
   {
     "code": "SGD-116",
@@ -150,7 +87,7 @@
     "status": "technically_completed",
     "version": "1.0.0",
     "release": null,
-    "last_git_date": "2026-08-03T00:55:12-05:00"
+    "last_git_date": null
   },
   {
     "code": "SGD-116B",
@@ -159,187 +96,7 @@
     "status": "technically_completed",
     "version": "2.0.0",
     "release": "releases/SGD-116B-v3.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPB-007",
-    "name": "SPB-007",
-    "phase": "Plataforma y construcción",
-    "status": "technically_completed",
-    "version": "1.0.0",
-    "release": "releases/SPB-007-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-001B",
-    "name": "Componente institucional histórico SPT-001B",
-    "phase": "Repositorio Léxico Base",
-    "status": "historically_implemented",
-    "version": "historical",
-    "release": "releases/SPT-001B-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-002",
-    "name": "SPT-002",
-    "phase": "Objetos Digitales de Aprendizaje",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SPT-002-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-003A",
-    "name": "SPT-003A",
-    "phase": "Automatización multimedia",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SPT-003A-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-003B",
-    "name": "SPT-003B",
-    "phase": "Automatización multimedia",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SPT-003B-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-003C",
-    "name": "Piloto Controlado de Proveedores Reales",
-    "phase": "Automatización multimedia",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SPT-003C-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-004A",
-    "name": "Fundación del Asistente Inteligente Institucional",
-    "phase": "Asistente e integraciones",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SPT-004A-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-005",
-    "name": "Sistema de Identidad Cultural Configurable",
-    "phase": "Identidad cultural",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SPT-005-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-006",
-    "name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
-    "phase": "Motor multilingüe y multimedia",
-    "status": "technically_completed",
-    "version": "0.1.0",
-    "release": "releases/SPT-006-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-006A",
-    "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
-    "phase": "Motor multilingüe y multimedia",
-    "status": "technically_completed",
-    "version": "0.2.0",
-    "release": "releases/SPT-006A-v0.2.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-007A",
-    "name": "Fundación del Motor Léxico Inteligente",
-    "phase": "Fase Tecnológica",
-    "status": "implemented",
-    "version": "0.1.0",
-    "release": "releases/SPT-007A-v0.1.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-007B",
-    "name": "Motor Léxico Inteligente Semántico",
-    "phase": "Fase Tecnológica",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-007B-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-007C",
-    "name": "Motor de Conocimiento Lingüístico y Cultural",
-    "phase": "Fase Tecnológica",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-007C-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-007D",
-    "name": "Motor de Razonamiento Lingüístico",
-    "phase": "Fase Tecnológica",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-007D-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-008",
-    "name": "Tutor Inteligente Puinave",
-    "phase": "Fase Tecnológica",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-008-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-009",
-    "name": "Ecosistema Conversacional",
-    "phase": "Fase Tecnológica",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-009-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-010",
-    "name": "Plataforma Digital Integrada",
-    "phase": "Fase Tecnológica II",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-010-v1.0.1",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-011",
-    "name": "Plataforma Operativa SGODA-PUINAVE",
-    "phase": "Fase Tecnológica III",
-    "status": "implemented",
-    "version": "1.0.0",
-    "release": "releases/SPT-011-v1.0.0",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-016A",
-    "name": "Evidence Compatibility Patch",
-    "phase": "Fase Tecnológica IV",
-    "status": "implemented",
-    "version": "1.0.1",
-    "release": "releases/SPT-016A-v1.0.1",
-    "last_git_date": "2026-08-03T00:55:12-05:00"
-  },
-  {
-    "code": "SPT-016",
-    "name": "Motor de Analítica del Aprendizaje",
-    "phase": "Fase Tecnológica IV",
-    "status": "implemented_tested_and_officially_closed",
-    "version": "1.0.0",
-    "release": "releases/SPT-016-v1.0.0",
-    "last_git_date": "2026-08-03T01:14:14-05:00"
+    "last_git_date": null
   },
   {
     "code": "SGD-117",
@@ -348,7 +105,250 @@
     "status": "implemented_tested_and_officially_closed",
     "version": "1.0.0",
     "release": "releases/SGD-117-v1.0.0",
-    "last_git_date": "2026-08-03T07:41:41-05:00"
+    "last_git_date": null
+  },
+  {
+    "code": "SIB-001",
+    "name": "SGODA Installer Builder",
+    "phase": "Plataforma y construcción",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SIB-001-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPB-007",
+    "name": "SPB-007",
+    "phase": "Plataforma y construcción",
+    "status": "technically_completed",
+    "version": "1.0.0",
+    "release": "releases/SPB-007-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-001B",
+    "name": "Componente institucional histórico SPT-001B",
+    "phase": "Repositorio Léxico Base",
+    "status": "historically_implemented",
+    "version": "historical",
+    "release": "releases/SPT-001B-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-002",
+    "name": "SPT-002",
+    "phase": "Objetos Digitales de Aprendizaje",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-002-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-003A",
+    "name": "SPT-003A",
+    "phase": "Automatización multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-003A-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-003B",
+    "name": "SPT-003B",
+    "phase": "Automatización multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-003B-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-003C",
+    "name": "Piloto Controlado de Proveedores Reales",
+    "phase": "Automatización multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-003C-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-004A",
+    "name": "Fundación del Asistente Inteligente Institucional",
+    "phase": "Asistente e integraciones",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-004A-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-005",
+    "name": "Sistema de Identidad Cultural Configurable",
+    "phase": "Identidad cultural",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-005-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-006",
+    "name": "Pipeline Automatizado de Enriquecimiento Multimedia Multilingüe",
+    "phase": "Motor multilingüe y multimedia",
+    "status": "technically_completed",
+    "version": "0.1.0",
+    "release": "releases/SPT-006-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-006A",
+    "name": "Motor Multilingüe Local, Gratuito y con Licencias Verificadas",
+    "phase": "Motor multilingüe y multimedia",
+    "status": "technically_completed",
+    "version": "0.2.0",
+    "release": "releases/SPT-006A-v0.2.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-007A",
+    "name": "Fundación del Motor Léxico Inteligente",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "0.1.0",
+    "release": "releases/SPT-007A-v0.1.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-007B",
+    "name": "Motor Léxico Inteligente Semántico",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-007B-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-007C",
+    "name": "Motor de Conocimiento Lingüístico y Cultural",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-007C-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-007D",
+    "name": "Motor de Razonamiento Lingüístico",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-007D-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-008",
+    "name": "Tutor Inteligente Puinave",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-008-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-009",
+    "name": "Ecosistema Conversacional",
+    "phase": "Fase Tecnológica",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-009-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-010",
+    "name": "Plataforma Digital Integrada",
+    "phase": "Fase Tecnológica II",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-010-v1.0.1",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-011",
+    "name": "Plataforma Operativa SGODA-PUINAVE",
+    "phase": "Fase Tecnológica III",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-011-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-011A",
+    "name": "Institutional Evidence Closure",
+    "phase": "Fase Tecnológica III",
+    "status": "implemented",
+    "version": "1.0.2",
+    "release": "releases/SPT-011A-v1.0.1",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-012",
+    "name": "Plataforma de Aprendizaje SGODA-PUINAVE",
+    "phase": "Fase Tecnológica III",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-012-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-013A",
+    "name": "Learning Ecosystem Foundation",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-013A-v1.0.1",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-013B",
+    "name": "Gestor Institucional del Diccionario Digital",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-013B-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-014",
+    "name": "Motor Multimedia Inteligente",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-014-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-015",
+    "name": "Motor de Evaluación Adaptativa",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.0",
+    "release": "releases/SPT-015-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-016",
+    "name": "Motor de Analítica del Aprendizaje",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented_tested_and_officially_closed",
+    "version": "1.0.0",
+    "release": "releases/SPT-016-v1.0.0",
+    "last_git_date": null
+  },
+  {
+    "code": "SPT-016A",
+    "name": "Evidence Compatibility Patch",
+    "phase": "Fase Tecnológica IV",
+    "status": "implemented",
+    "version": "1.0.1",
+    "release": "releases/SPT-016A-v1.0.1",
+    "last_git_date": null
   },
   {
     "code": "SPT-017",
@@ -357,7 +357,7 @@
     "status": "implemented_tested_and_candidate_for_closure",
     "version": "1.0.0",
     "release": "releases/SPT-017-v1.0.0",
-    "last_git_date": "2026-08-03T08:26:27-05:00"
+    "last_git_date": null
   },
   {
     "code": "SPT-018",
@@ -366,6 +366,6 @@
     "status": "implemented_tested_and_candidate_for_closure",
     "version": "1.0.0",
     "release": "releases/SPT-018-v1.0.0",
-    "last_git_date": "2026-08-03T13:41:08-05:00"
+    "last_git_date": null
   }
 ]

@@ -1,0 +1,8 @@
+{
+    "component":  "SPT-019.3",
+    "version":  "1.0.1",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "evidence":  "artifacts/development/SPT-019.3-v1.0.1/runs/20260806-012702/implementation-evidence.json",
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

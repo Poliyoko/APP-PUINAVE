@@ -1,0 +1,55 @@
+{
+    "component":  "SPT-020.5",
+    "version":  "1.0.0",
+    "run_id":  "20260807-005609",
+    "generated_at_utc":  "2026-08-07T00:56:09.7054410Z",
+    "status":  "CANDIDATE_FOR_INSTITUTIONAL_CLOSURE",
+    "approved":  true,
+    "component_tests_passed":  true,
+    "python_compile_exit_code":  0,
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "full_suite_exit_code":  0,
+    "repository_is_source_of_truth":  true,
+    "external_infrastructure_required":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/platform/service_discovery/discovery.py",
+                      "sha256":  "b6287c5705b7f07d4190991e4ffba602b30feafffc80454549fe66ebadbd8f01"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_discovery/health.py",
+                      "sha256":  "688383ea48de7ba217d96cf26ca3c3b2314ebc92c167041448ee604f8145c2f6"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_discovery/models.py",
+                      "sha256":  "01f52f910ac4ef5d463400465bbfdd2d9a47cfaee874acb5131f51bf6c771b93"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_discovery/registry.py",
+                      "sha256":  "92f5ff03552e38d4e16a2bfe9bc4ac6c902cf4f24d90ba342960f7a25bf8988b"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_discovery/versioning.py",
+                      "sha256":  "f53bb93deb3f424b0083ada17a249f3c06d32a0dd8c5953a5ce20fdaffc5bd05"
+                  },
+                  {
+                      "path":  "src/sgoda/platform/service_discovery/__init__.py",
+                      "sha256":  "dffcad0b1855b48faff6d2bf01aefb8b84037ab3021f977b679285ec10c0b5eb"
+                  },
+                  {
+                      "path":  "tests/platform/service_discovery/test_spt0205.py",
+                      "sha256":  "34d27f49d63a3a044e378e283d8446ba6057dc7fa5478f4840a3edccdd8368e8"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-020.5/SGD-434-Service-Discovery-Registry.md",
+                      "sha256":  "c935ab8243c10223addb6ee88e2fa4575dc467bec25fd9482b8875e752851920"
+                  },
+                  {
+                      "path":  "config/platform/SPT-020.5-component.json",
+                      "sha256":  "c82b7010c711dac6c2f710b303f6099567995e94215defe683483344ce17992d"
+                  }
+              ]
+}

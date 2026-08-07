@@ -1,0 +1,1 @@
+{"policy_id":"PCI-001.3-POLICY-v1.0.0","component":"PCI-001.3","source_of_truth":"config/**/*-component.json","generations_required":3,"timestamps_forbidden":true,"approval_rule":"three byte-identical generations"}

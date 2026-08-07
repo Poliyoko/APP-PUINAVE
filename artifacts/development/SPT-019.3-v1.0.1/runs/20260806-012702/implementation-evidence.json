@@ -1,0 +1,82 @@
+{
+    "component":  "SPT-019.3",
+    "version":  "1.0.1",
+    "generated_at_utc":  "2026-08-06T01:27:02.9643791Z",
+    "run_id":  "20260806-012702",
+    "stages":  {
+                   "SPT-019.3A":  "APPROVED",
+                   "SPT-019.3B":  "APPROVED",
+                   "SPT-019.3C":  "APPROVED",
+                   "SPT-019.3D":  "APPROVED"
+               },
+    "full_suite_requested":  true,
+    "full_suite_passed":  true,
+    "powershell_execution":  true,
+    "repository_is_source_of_truth":  true,
+    "duplicate_store_created":  false,
+    "duplicate_business_logic":  false,
+    "n8n_installed":  false,
+    "paid_services_required":  false,
+    "files":  [
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/components.py",
+                      "sha256":  "0824da2e07237561e022cb10a1a31eb6897376e7a48532a647d103bbc11024e5"
+                  },
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/events.py",
+                      "sha256":  "f1846a57bddf834d5c1a6f11708d425c711d1f4c06b873fa8ea4947cad607a11"
+                  },
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/evidence.py",
+                      "sha256":  "a22df4b8d93e203b051b7ab005f11a493b44104da2b33620ffe8dc2fb6b3c8cf"
+                  },
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/institutional_integration.py",
+                      "sha256":  "ccd6dd2d43c4b8c5fa770be384db90fde8961d239dbda203d1425cf3aa18c78c"
+                  },
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/orchestrator.py",
+                      "sha256":  "e39d3b1bd8d1e7ab908c4a6972a1fb07decaee1fc28725274cf2b6643afcb110"
+                  },
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/quality.py",
+                      "sha256":  "3d7dfaf21d352b868793d51388486a48d31faf4cc9ec2601aacf9dc309d3b20b"
+                  },
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/traceability.py",
+                      "sha256":  "233db1e5e93fb6dc261dea5ef7c5edb598652880f558710335746ae7c16554e9"
+                  },
+                  {
+                      "path":  "src/sgoda/workflows/spt0193/__init__.py",
+                      "sha256":  "61f3bb2e1b9241426c68304a113e44ac2a874cc47d08ff48f1aa524aa127120c"
+                  },
+                  {
+                      "path":  "tests/workflows/spt0193/test_spt0193a.py",
+                      "sha256":  "c793d7698931bffcfb62074b2a80f7b1eb180bb93d176060eef735f7bcb1fd79"
+                  },
+                  {
+                      "path":  "tests/workflows/spt0193/test_spt0193b.py",
+                      "sha256":  "a2991dfe9105ebd9e36fbf5f1e1a0a5b75423cad480c330bd7171d8d34432a4d"
+                  },
+                  {
+                      "path":  "tests/workflows/spt0193/test_spt0193c.py",
+                      "sha256":  "0d2b93ebb8de8f848f9268c39eb5108b326076b78719b27978a2ebd9c65a8345"
+                  },
+                  {
+                      "path":  "tests/workflows/spt0193/test_spt0193d.py",
+                      "sha256":  "669e497dd9bc75df5cec7a973d25c7c8e512f6e38ba54595146ba68de30f3349"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-019.3/SGD-420-Arquitectura-Orquestador.md",
+                      "sha256":  "ca0905ba8644c545c07275fbae7bd92a016dd5fc8c07c07d7fd436dde04756d3"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-019.3/SGD-421-Integracion-Institucional.md",
+                      "sha256":  "a52a52f762af606f5569465fbd28e93422322c96f5b5636de74f7815e83be730"
+                  },
+                  {
+                      "path":  "docs/06_Tecnologia/SPT-019.3/SGD-422-Eventos-Trazabilidad-Evidencias.md",
+                      "sha256":  "8391f59488cddc811708639f67513f81537e65f78072e918a8987f470350c996"
+                  }
+              ]
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "Install-SPT021.0.1-v1.0.4-OneFile-PS51.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "Install-SGD114D-v1.0.0-Adaptive-Institutional-Policy-Engine.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    }
+]

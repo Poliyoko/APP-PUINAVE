@@ -1,0 +1,15 @@
+{
+    "component":  "SPT-019.1",
+    "version":  "1.0.1",
+    "python_syntax":  "approved",
+    "unit_tests":  "approved",
+    "workflow_registry":  "approved",
+    "workflow_count":  2,
+    "simulation":  "approved",
+    "external_actions_executed":  false,
+    "n8n_installed":  false,
+    "n8n_started":  false,
+    "paid_services_required":  false,
+    "candidate_for_integration":  true,
+    "generated_at_utc":  "2026-08-05T05:25:48.0666193Z"
+}

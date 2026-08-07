@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-019.2",
+    "version":  "1.0.0",
+    "status":  "implemented_tested_and_candidate_for_integration",
+    "syntax":  "approved",
+    "unit_tests":  "approved",
+    "workflow_count":  2,
+    "registry_sha256":  "3854c90f5e52f9aa3ae008b6e3eff8897b06cafd0be9d0de1c467e655909dcd9",
+    "external_actions_executed":  false,
+    "n8n_installed_or_started":  false,
+    "paid_services_required":  false,
+    "generated_at_utc":  "2026-08-05T05:57:29.7386936Z"
+}

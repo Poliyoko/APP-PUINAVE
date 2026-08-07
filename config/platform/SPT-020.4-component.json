@@ -1,0 +1,14 @@
+{
+    "component":  "SPT-020.4",
+    "version":  "1.0.0",
+    "name":  "Institutional Event Bus",
+    "parent_component":  "SPT-020",
+    "transport":  "in_process",
+    "priority_support":  true,
+    "retry_support":  true,
+    "dead_letter_queue":  true,
+    "repository_is_source_of_truth":  true,
+    "external_broker_required":  false,
+    "n8n_required":  false,
+    "paid_services_required":  false
+}

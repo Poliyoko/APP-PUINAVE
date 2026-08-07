@@ -1,0 +1,145 @@
+{
+  "policy": "POL-001",
+  "version": "1.0.2",
+  "classification_model": {
+    "approved": "Gratuita y compatible con el proyecto.",
+    "review_required": "Gratuita o comunitaria, pero con condiciones especiales.",
+    "prohibited": "Requiere pago obligatorio o no tiene autorización institucional."
+  },
+  "technologies": [
+    {
+      "name": "python",
+      "aliases": [
+        "Python"
+      ],
+      "classification": "approved",
+      "license": "Python Software Foundation License",
+      "cost_model": "free",
+      "reason": "Lenguaje gratuito y open source.",
+      "adr_required": false
+    },
+    {
+      "name": "fastapi",
+      "aliases": [
+        "FastAPI"
+      ],
+      "classification": "approved",
+      "license": "MIT",
+      "cost_model": "free",
+      "reason": "Framework gratuito y de código abierto.",
+      "adr_required": false
+    },
+    {
+      "name": "pytest",
+      "aliases": [],
+      "classification": "approved",
+      "license": "MIT",
+      "cost_model": "free",
+      "reason": "Herramienta de pruebas gratuita y open source.",
+      "adr_required": false
+    },
+    {
+      "name": "postgres",
+      "aliases": [
+        "postgresql"
+      ],
+      "classification": "approved",
+      "license": "PostgreSQL License",
+      "cost_model": "free",
+      "reason": "Base de datos open source con licencia permisiva.",
+      "adr_required": false
+    },
+    {
+      "name": "n8nio/n8n",
+      "aliases": [
+        "n8n"
+      ],
+      "classification": "review_required",
+      "license": "Sustainable Use License",
+      "cost_model": "free-community-self-hosted",
+      "reason": "Community Edition gratuita, pero con licencia fair-code y restricciones de uso.",
+      "adr_required": true
+    },
+    {
+      "name": "n8n-nodes-base.webhook",
+      "aliases": [
+        "n8n-nodes-base.set",
+        "n8n-nodes-base.respondToWebhook"
+      ],
+      "classification": "review_required",
+      "license": "Sustainable Use License",
+      "cost_model": "free-community-self-hosted",
+      "reason": "Nodo perteneciente a n8n Community; requiere aceptación institucional de su licencia.",
+      "adr_required": true
+    },
+    {
+      "name": "github-free",
+      "aliases": [
+        "github"
+      ],
+      "classification": "review_required",
+      "license": "proprietary-service-free-tier",
+      "cost_model": "free-tier",
+      "reason": "Servicio gratuito con límites; no debe ser la única copia institucional.",
+      "adr_required": true
+    },
+    {
+      "name": "docker-desktop",
+      "aliases": [],
+      "classification": "review_required",
+      "license": "Docker Subscription Service Agreement",
+      "cost_model": "conditional-free",
+      "reason": "La gratuidad depende del tipo de usuario y organización; preferir Docker Engine o Podman.",
+      "adr_required": true
+    },
+    {
+      "name": "docker-engine",
+      "aliases": [
+        "podman"
+      ],
+      "classification": "approved",
+      "license": "open-source",
+      "cost_model": "free",
+      "reason": "Alternativa gratuita para contenedores.",
+      "adr_required": false
+    },
+    {
+      "name": "uvicorn",
+      "aliases": [
+        "uvicorn[standard]"
+      ],
+      "classification": "approved",
+      "license": "BSD-3-Clause",
+      "cost_model": "free",
+      "reason": "Servidor ASGI gratuito y de código abierto.",
+      "adr_required": false
+    },
+    {
+      "name": "pydantic",
+      "aliases": [],
+      "classification": "approved",
+      "license": "MIT",
+      "cost_model": "free",
+      "reason": "Biblioteca gratuita y de código abierto para validación de datos.",
+      "adr_required": false
+    },
+    {
+      "name": "httpx",
+      "aliases": [],
+      "classification": "approved",
+      "license": "BSD-3-Clause",
+      "cost_model": "free",
+      "reason": "Cliente HTTP gratuito y de código abierto.",
+      "adr_required": false
+    },
+    {
+      "name": "openpyxl",
+      "aliases": [],
+      "classification": "approved",
+      "license": "MIT",
+      "cost_model": "free",
+      "reason": "Biblioteca gratuita y de código abierto para archivos Excel.",
+      "adr_required": false
+    }
+  ]
+}

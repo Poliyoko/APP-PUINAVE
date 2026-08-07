@@ -1,0 +1,12 @@
+{
+  "component": "SGODA-PUINAVE",
+  "scope": "pci002_staging_full_suite",
+  "executed": 641,
+  "passed": 641,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 38.328,
+  "approved": true,
+  "source_report": "C:\\Users\\Lida Silva Acevedo\\AppData\\Local\\Temp\\SGODA-PCI002-b1614992e32a461da5df40af2e2cf367\\artifacts\\consolidation\\PCI-002-v1.1.2\\test-reports\\full-suite.xml"
+}

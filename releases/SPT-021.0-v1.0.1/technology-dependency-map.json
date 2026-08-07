@@ -1,0 +1,30 @@
+{
+    "baseline":  "SPT-020",
+    "baseline_status":  "CLOSED",
+    "next_block":  "SPT-021",
+    "analyzer":  "SPT-021.0",
+    "dependencies":  [
+                         "SPT-019.0",
+                         "SPT-019.1",
+                         "SPT-019.2",
+                         "SPT-019.3",
+                         "SPT-020.1",
+                         "SPT-020.2",
+                         "SPT-020.3",
+                         "SPT-020.4",
+                         "SPT-020.5",
+                         "SPT-020.6",
+                         "SPT-020.7",
+                         "SPT-020.8",
+                         "SPT-020.9",
+                         "SGD-114",
+                         "SGD-115",
+                         "SGD-116",
+                         "SGD-117",
+                         "PCI-001",
+                         "PCI-002",
+                         "POL-001",
+                         "SPB-007",
+                         "SIB-001"
+                     ]
+}

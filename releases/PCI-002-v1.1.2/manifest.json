@@ -1,0 +1,12 @@
+{
+    "program":  "PCI-SGODA-v1.0.0",
+    "increment_code":  "PCI-002",
+    "version":  "1.0.0",
+    "release_name":  "PCI-002-v1.1.2",
+    "status":  "converged_and_candidate_for_closure",
+    "convergence_cycles":  3,
+    "index_coverage_percent":  100,
+    "registry_coverage_percent":  100,
+    "critical_findings":  0,
+    "full_suite_approved":  true
+}

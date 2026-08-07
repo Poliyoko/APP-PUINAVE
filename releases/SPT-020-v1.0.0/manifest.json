@@ -1,0 +1,15 @@
+{
+    "component":  "SPT-020",
+    "version":  "1.0.0",
+    "closure_component":  "SPT-020.8",
+    "closure_version":  "1.0.1",
+    "status":  "CLOSED",
+    "closed":  true,
+    "technical_errors":  0,
+    "zero_error_report":  "artifacts/closure/SPT-020.8-v1.0.1/runs/20260807-020321/zero-error-report.json",
+    "closure_act":  "docs/06_Tecnologia/SPT-020.8/ACT-020.8-Cierre-Institucional-Cero-Errores.md",
+    "closure_registry":  "config/platform/SPT-020-closure-registry.json",
+    "n8n_required":  false,
+    "paid_services_required":  false,
+    "external_infrastructure_required":  false
+}

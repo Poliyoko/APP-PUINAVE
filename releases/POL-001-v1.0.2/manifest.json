@@ -1,0 +1,10 @@
+{
+    "component":  "POL-001",
+    "version":  "1.0.2",
+    "status":  "candidate_for_closure",
+    "approved_findings":  6,
+    "review_required":  0,
+    "prohibited":  0,
+    "internet_required":  false,
+    "paid_service_required":  false
+}
