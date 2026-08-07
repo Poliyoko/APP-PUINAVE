@@ -1,0 +1,3842 @@
+[
+    {
+        "path":  "builder/src/sgoda/extensions/compatibility.py",
+        "length":  1804,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/catalog_store.py",
+        "length":  2084,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/catalog_service.py",
+        "length":  2274,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/export_service.py",
+        "length":  3044,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/dependency_resolver.py",
+        "length":  3974,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/consolidated_report.py",
+        "length":  4869,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/bundle_store.py",
+        "length":  2853,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/bundle_service.py",
+        "length":  4126,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/bundle_serializers.py",
+        "length":  1309,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/catalog_serializers.py",
+        "length":  920,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/catalog_models.py",
+        "length":  1913,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/catalog_builder.py",
+        "length":  2408,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/plugin_updater.py",
+        "length":  7496,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/plugin_state.py",
+        "length":  2632,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/plugin_integrity.py",
+        "length":  2020,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/template_integrity.py",
+        "length":  2106,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/template_doctor.py",
+        "length":  5044,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/registry.py",
+        "length":  3796,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/manager.py",
+        "length":  6713,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/integrity.py",
+        "length":  5677,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/import_service.py",
+        "length":  3055,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/plugin_doctor.py",
+        "length":  4229,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/package_manifest.py",
+        "length":  933,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/models.py",
+        "length":  2382,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/domain/enums.py",
+        "length":  1302,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/domain/__init__.py",
+        "length":  950,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/__init__.py",
+        "length":  1057,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/domain/models.py",
+        "length":  7917,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/domain/identifiers.py",
+        "length":  602,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/domain/exceptions.py",
+        "length":  265,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/core/constants.py",
+        "length":  563,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/core/config.py",
+        "length":  621,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/core/__init__.py",
+        "length":  189,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/core/templates.py",
+        "length":  2867,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/core/project.py",
+        "length":  1011,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/core/initializer.py",
+        "length":  1771,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/archive_service.py",
+        "length":  4510,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/__init__.py",
+        "length":  4561,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/services/registry.py",
+        "length":  2998,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/bundle_planner.py",
+        "length":  1607,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/bundle_models.py",
+        "length":  1831,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/bundle_executor.py",
+        "length":  3406,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/repositories/__init__.py",
+        "length":  174,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/events/models.py",
+        "length":  910,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/events/__init__.py",
+        "length":  103,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/services/__init__.py",
+        "length":  157,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/repositories/memory.py",
+        "length":  1193,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/dmp/repositories/base.py",
+        "length":  491,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/history_models.py",
+        "length":  1775,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/history.py",
+        "length":  1544,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/health.py",
+        "length":  322,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/instrumentation.py",
+        "length":  979,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/history_store.py",
+        "length":  3282,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/history_serializers.py",
+        "length":  1019,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/lifecycle/models.py",
+        "length":  2017,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/lifecycle/migrator.py",
+        "length":  3754,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/lifecycle/migrations.py",
+        "length":  2689,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/collector.py",
+        "length":  6369,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/__init__.py",
+        "length":  1985,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/lifecycle/repair.py",
+        "length":  3375,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/__init__.py",
+        "length":  1555,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/status.py",
+        "length":  611,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/serializers.py",
+        "length":  2286,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/index_store.py",
+        "length":  3811,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/index_serializers.py",
+        "length":  1746,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/index_models.py",
+        "length":  1404,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/report_models.py",
+        "length":  2306,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/report_builder.py",
+        "length":  5303,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/models.py",
+        "length":  2679,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/report_service.py",
+        "length":  2011,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/report_serializers.py",
+        "length":  7516,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/operations/report_profiles.py",
+        "length":  1445,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/generators/files.py",
+        "length":  746,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/generators/components.py",
+        "length":  3158,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/generators/__init__.py",
+        "length":  183,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/__init__.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/generators/registry.py",
+        "length":  874,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/generators/folders.py",
+        "length":  736,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/template_updater.py",
+        "length":  5129,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/template_state.py",
+        "length":  1305,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/template_models.py",
+        "length":  1272,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/validator.py",
+        "length":  6353,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/template_versions.py",
+        "length":  862,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/extensions/template_validator.py",
+        "length":  6040,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/rule_evaluator.py",
+        "length":  11857,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/results.py",
+        "length":  18599,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/policy_validator.py",
+        "length":  19902,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/lifecycle/backup.py",
+        "length":  673,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/lifecycle/__init__.py",
+        "length":  461,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/serializers.py",
+        "length":  10304,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/models.py",
+        "length":  10824,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/governance_service.py",
+        "length":  6783,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/exceptions.py",
+        "length":  4486,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/policy_repository.py",
+        "length":  7495,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/policy_loader.py",
+        "length":  4325,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/governance/policy_engine.py",
+        "length":  4901,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__import_export.py",
+        "length":  3806,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__cli.py",
+        "length":  1497,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager____init__.py",
+        "length":  636,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__service.py",
+        "length":  6398,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__repository.py",
+        "length":  2056,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__models.py",
+        "length":  1112,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-010/cli-backup-20260802-160212.py",
+        "length":  1756,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-010/backups/pre-SPT010-v1.0.1-20260802-161430/src__sgoda__platform__cli.py",
+        "length":  1756,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-001B-P06/repository-events.jsonl",
+        "length":  468,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/scripts__Invoke-SPT013B-DictionaryManager.ps1",
+        "length":  463,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013A/backups/pre-SPT013A-v1.0.1-20260802-211918/registry.py",
+        "length":  2079,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013A/backups/pre-SPT013A-v1.0.1-20260802-211727/registry.py",
+        "length":  1735,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__repository.py",
+        "length":  2045,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__oda.py",
+        "length":  1027,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__models.py",
+        "length":  835,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/tests__multimedia_engine__test_SPT_014_intelligent_multimedia_engine.py",
+        "length":  7817,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__validation.py",
+        "length":  2106,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__service.py",
+        "length":  7931,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/scripts__Invoke-SPT014-MultimediaEngine.ps1",
+        "length":  460,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/tests__dictionary_manager__test_SPT_013B_institutional_digital_dictionary_manager.py",
+        "length":  6394,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__validation.py",
+        "length":  1300,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__manifest.py",
+        "length":  2711,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine__cli.py",
+        "length":  1728,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-014/backups/pre-SPT014-20260802-220237/src__sgoda__multimedia_engine____init__.py",
+        "length":  628,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/patch-backups/repository_utf8.py.before-v1.4",
+        "length":  8218,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/patch-backups/repository_utf8.py.before-v1.3",
+        "length":  8576,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/patch-backups/repository_utf8.py.before-v1.1",
+        "length":  7125,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/patch-backups/test_repository_utf8.py.before-v1.4",
+        "length":  1453,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/patch-backups/test_repository_utf8.py.before-v1.3",
+        "length":  1255,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/patch-backups/test_repository_utf8.py.before-v1.2",
+        "length":  1006,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard.ps1",
+        "length":  16483,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Verify-SPB0032-B1.4.ps1",
+        "length":  2885,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/test_spb_005_2_platform_kernel.py",
+        "length":  1773,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard-v1.3.ps1",
+        "length":  11485,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard-v1.2.ps1",
+        "length":  3335,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/obsolete-installers/Apply-SPB0053-UTF8RepositoryStandard-v1.1.ps1",
+        "length":  9867,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/__init__.py",
+        "length":  284,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/installer-fix-backups/20260730-223340/Apply-SPB0062A-Retention-Governance.ps1.before-ret-legal-hold-fix",
+        "length":  29168,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/installer-fix-backups/20260730-222746/Apply-SPB0062A-Retention-Governance.ps1.before-ret-legal-hold-fix",
+        "length":  29168,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/models.py",
+        "length":  2390,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/manager.py",
+        "length":  3059,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/patch-backups/SPB-006.2-A-20260730-215212/src/sgoda/pmo/evidence/cli.py",
+        "length":  2440,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/auditor-patch-backups/20260730-224436/Audit-SPB0062A-CommitReadiness.ps1.before-institutional-backup-exclusion",
+        "length":  11863,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/archives/EVD-SPB0053-TRANSITION-evidence-transition-manifest.json.zip",
+        "length":  1663,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/recommended-commands.ps1",
+        "length":  331,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-225712/Proposed-Stage-SPB0062A.ps1",
+        "length":  1829,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-223638/Proposed-Stage-SPB0062A.ps1",
+        "length":  1829,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-006-SEMS/commit-readiness/20260730-222600/Proposed-Stage-SPB0062A.ps1",
+        "length":  1829,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/scripts/validate_release.py",
+        "length":  2723,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/scripts/package_smoke_test.py",
+        "length":  1568,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/scripts/ci_smoke_test.py",
+        "length":  3479,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/__init__.py",
+        "length":  412,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/__main__.py",
+        "length":  138,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/__init__.py",
+        "length":  74,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/README.md",
+        "length":  7709,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/pyproject.toml",
+        "length":  1889,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/template/README.md",
+        "length":  18,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/requirements.txt",
+        "length":  60,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/reporte_consolidado.md",
+        "length":  597,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/reporte_consolidado.html",
+        "length":  724,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/rules.py",
+        "length":  8518,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/report.py",
+        "length":  5221,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/quality_rules.py",
+        "length":  5134,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/cli/main.py",
+        "length":  33494,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/cli/commands.py",
+        "length":  43216,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/cli/__init__.py",
+        "length":  43,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/engine.py",
+        "length":  1305,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/dependency_rules.py",
+        "length":  2362,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/audit_service.py",
+        "length":  3055,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/models.py",
+        "length":  917,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/governance_rules.py",
+        "length":  7180,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/audit/exporter.py",
+        "length":  1221,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/docs/releases/0.9.0.md",
+        "length":  180,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/docs/releases/0.10.0.md",
+        "length":  181,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/catalog_template/template/README.md",
+        "length":  18,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/LICENSE",
+        "length":  58,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/ecosistema.sgoda",
+        "length":  3446,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/docs/releases/1.0.0.md",
+        "length":  688,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/.gitignore",
+        "length":  72,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/releases/SPB-006/checksums.sha256",
+        "length":  832,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+        "length":  450816104,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/catalog_template/sgoda.template.json",
+        "length":  305,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/catalog_plugin/sgoda.plugin.json",
+        "length":  243,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/catalog_plugin/plugin.py",
+        "length":  45,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py",
+        "length":  45,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_restaurado/.sgoda/extensions/catalog.json",
+        "length":  1793,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/template/README.md",
+        "length":  18,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_restaurado/.sgoda/extensions/templates/template-base/sgoda.template.json",
+        "length":  305,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_restaurado/.sgoda/extensions/registry.json",
+        "length":  2081,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json",
+        "length":  243,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py",
+        "length":  45,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_catalogo/.sgoda/extensions/catalog.json",
+        "length":  1793,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/MANIFEST.in",
+        "length":  152,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_catalogo/.sgoda/extensions/templates/template-base/sgoda.template.json",
+        "length":  305,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_catalogo/.sgoda/extensions/registry.json",
+        "length":  2081,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/sgoda.plugin.json",
+        "length":  243,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_repair.py",
+        "length":  128,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_plugin_ecosystem.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_package.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_sync.py",
+        "length":  154,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_repositories.py",
+        "length":  162,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_reports.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_extensions.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_export_import.py",
+        "length":  162,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_catalog.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_observability.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_lifecycle.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_history.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/generators/__init__.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/core/project.py",
+        "length":  754,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/core/constants.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/requirements.txt",
+        "length":  16,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/README.md",
+        "length":  236,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/pyproject.toml",
+        "length":  658,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/builder.py",
+        "length":  719,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup/pyproject.toml",
+        "length":  982,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_template_ecosystem.py",
+        "length":  149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/core/config.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/core/__init__.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/cli/__init__.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_strict_quality.py",
+        "length":  1452,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_status_cli.py",
+        "length":  999,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_semver_release.py",
+        "length":  783,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_advanced_validator.py",
+        "length":  1685,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_sync_service.py",
+        "length":  2176,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_sync_client.py",
+        "length":  306,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_repository_history.py",
+        "length":  690,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_repository_cli.py",
+        "length":  1098,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_report_serializers.py",
+        "length":  949,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_repository_validator.py",
+        "length":  606,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_repository_store.py",
+        "length":  512,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_repository_service.py",
+        "length":  1125,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_update_rollback.py",
+        "length":  1305,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_update_history.py",
+        "length":  1255,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_update.py",
+        "length":  1798,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_bundles.py",
+        "length":  157,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_version_audit_c.py",
+        "length":  160,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_versions.py",
+        "length":  1089,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_integrity.py",
+        "length":  3680,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_history.py",
+        "length":  1808,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_doctor.py",
+        "length":  1456,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_state.py",
+        "length":  1811,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_integrity_history.py",
+        "length":  2015,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_template_integrity_doctor.py",
+        "length":  1745,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/validators/doctor.py",
+        "length":  783,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/validators/__init__.py",
+        "length":  143,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/generators/folders.py",
+        "length":  557,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/tests/test_core.py",
+        "length":  244,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/tests/test_cli.py",
+        "length":  322,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/validators/project.py",
+        "length":  196,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/core/config.py",
+        "length":  407,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/core/__init__.py",
+        "length":  224,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/cli/main.py",
+        "length":  1182,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/generators/__init__.py",
+        "length":  71,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/core/project.py",
+        "length":  790,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/core/constants.py",
+        "length":  516,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/Repositorio LExico Base (Excel)-1.xlsx",
+        "length":  11813,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-008-Modelo-ODA.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-007-Uso-de-n8n.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "tools/institutional/Publish-SGODA-WithMasterBook.ps1",
+        "length":  3351,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "tools/institutional/Invoke-SGD002-AutoUpdate.ps1",
+        "length":  9710,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "tools/institutional/Install-SPT021.3-v1.0.0-OneFile-PS51.ps1",
+        "length":  45791,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-003-Uso-de-FastAPI.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-002-Uso-de-PostgreSQL.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-001-Repositorio-GitHub.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-006-RLB-como-fuente-de-datos.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-005-Uso-de-JSON.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-004-Uso-de-Flutter.md",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+        "length":  450816104,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder-spb-002.9-c.zip",
+        "length":  191959,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/validators/__init__.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+        "length":  13683528,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "releases/SPT-021.3-v1.0.0/institutional-detailed-records.json",
+        "length":  21445372,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "releases/SPT-021.3-v1.0.0/canonical-components.json",
+        "length":  14333000,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/src/sgoda/core/__init__.py",
+        "length":  367,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/src/sgoda/cli/__init__.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/src/sgoda/__init__.py",
+        "length":  397,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/src/sgoda/generators/__init__.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/src/sgoda/core/constants.py",
+        "length":  800,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder_backup_20260713_175707/src/sgoda/core/config.py",
+        "length":  439,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/__init__.py",
+        "length":  77,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/requirements.txt",
+        "length":  60,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/README.md",
+        "length":  277,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/cli/commands.py",
+        "length":  1126,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/cli/__init__.py",
+        "length":  44,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/src/sgoda/__main__.py",
+        "length":  93,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/~$Repositorio LExico Base (Excel)-1.xlsx",
+        "length":  165,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/.gitignore",
+        "length":  53,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-Builder-v2.zip",
+        "length":  20920,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/pyproject.toml",
+        "length":  905,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/LICENSE",
+        "length":  58,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "SGODA-PUINAVE/builder/.gitignore",
+        "length":  91,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_ci_configuration.py",
+        "length":  1785,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_catalog_store.py",
+        "length":  825,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_catalog_service.py",
+        "length":  1714,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_component_generator.py",
+        "length":  1370,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_component_dependencies.py",
+        "length":  1443,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_cli.py",
+        "length":  512,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_bundle_service.py",
+        "length":  1149,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_bundle_rollback.py",
+        "length":  824,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_bundle_history.py",
+        "length":  1526,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_catalog_history.py",
+        "length":  1510,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_catalog_cli.py",
+        "length":  1423,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_bundle_store.py",
+        "length":  590,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_export_import.py",
+        "length":  1851,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_event_models.py",
+        "length":  518,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_dmp_registry.py",
+        "length":  2123,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_extension_registry.py",
+        "length":  1335,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_export_integrity.py",
+        "length":  1908,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_export_import_cli.py",
+        "length":  1455,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_delivery_b.py",
+        "length":  1614,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_core.py",
+        "length":  233,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_consolidated_report.py",
+        "length":  1199,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_dmp_lifecycle.py",
+        "length":  3830,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_dmp_domain.py",
+        "length":  1834,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_delivery_c.py",
+        "length":  2082,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/__init__.py",
+        "length":  585,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/validator.py",
+        "length":  1378,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/sync_service.py",
+        "length":  5886,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/database.py",
+        "length":  95,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/backend.py",
+        "length":  1224,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/api.py",
+        "length":  1597,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/serializers.py",
+        "length":  1171,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/models.py",
+        "length":  1227,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/index_validator.py",
+        "length":  2727,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/sync_client.py",
+        "length":  2713,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/store.py",
+        "length":  2138,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/repositories/service.py",
+        "length":  3640,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_audit.py",
+        "length":  1957,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/validators/project.py",
+        "length":  219,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/validators/manifest.py",
+        "length":  402,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_bundle_executor.py",
+        "length":  1808,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_bundle_cli.py",
+        "length":  1556,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_audit_reports.py",
+        "length":  1320,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/module.py",
+        "length":  511,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/frontend.py",
+        "length":  105,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/docs.py",
+        "length":  828,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/validators/doctor.py",
+        "length":  295,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/validators/__init__.py",
+        "length":  176,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/src/sgoda/templates/workflow.py",
+        "length":  1170,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_integrity.py",
+        "length":  3443,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_doctor.py",
+        "length":  1304,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_dependencies.py",
+        "length":  1123,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_state.py",
+        "length":  2011,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_integrity_history.py",
+        "length":  1806,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_integrity_doctor.py",
+        "length":  1981,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_operation_health.py",
+        "length":  269,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_operation_collector.py",
+        "length":  1412,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_lifecycle_migration.py",
+        "length":  1978,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_compatibility.py",
+        "length":  394,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_package_metadata.py",
+        "length":  649,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_operation_serializers.py",
+        "length":  659,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_report_html.py",
+        "length":  1148,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_report_cli.py",
+        "length":  1670,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_repair.py",
+        "length":  1498,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_report_profiles.py",
+        "length":  604,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_report_models.py",
+        "length":  519,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_report_html_markdown.py",
+        "length":  1502,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_update_history.py",
+        "length":  1646,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_update.py",
+        "length":  3272,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_template_cli.py",
+        "length":  2904,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_release_configuration.py",
+        "length":  1304,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_quality_rules.py",
+        "length":  1743,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_plugin_update_rollback.py",
+        "length":  1734,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_policy_validator.py",
+        "length":  13546,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_policy_repository.py",
+        "length":  13943,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_policy_loader.py",
+        "length":  5524,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_rules.py",
+        "length":  1614,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_rule_evaluator.py",
+        "length":  16000,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_results.py",
+        "length":  14556,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_exceptions.py",
+        "length":  2130,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_fair_care_rules.py",
+        "length":  1397,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_extension_validator.py",
+        "length":  1376,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_policy_engine.py",
+        "length":  13927,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_models.py",
+        "length":  4906,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_governance_service.py",
+        "length":  18739,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_index_validator.py",
+        "length":  1155,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_index_store.py",
+        "length":  1028,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_index_models_serializers.py",
+        "length":  633,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_lifecycle_cli.py",
+        "length":  1436,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_lifecycle_backup.py",
+        "length":  520,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_initializer.py",
+        "length":  1347,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_history_instrumentation.py",
+        "length":  2986,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_history_cli.py",
+        "length":  1067,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_governance_serializers.py",
+        "length":  0,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_index_cli.py",
+        "length":  1289,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_history_store.py",
+        "length":  1585,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "builder/tests/test_history_serializers.py",
+        "length":  816,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/reporting/__init__.py",
+        "length":  68,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/orchestrator.py",
+        "length":  957,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/native_repository_auditor.py",
+        "length":  10387,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/closure/__init__.py",
+        "length":  119,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/service.py",
+        "length":  638,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/reporting/reporters.py",
+        "length":  2064,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/traceability.py",
+        "length":  836,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/tests_inventory.py",
+        "length":  1171,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/structure.py",
+        "length":  892,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/models.py",
+        "length":  2150,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/context.py",
+        "length":  612,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/cli.py",
+        "length":  602,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/SPB-003.2-B1.3A-baseline-20260727-235102.zip",
+        "length":  46057,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Upgrade-SPB0032-NativeAuditor-AutoClosure.ps1",
+        "length":  15996,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/test_spb_003_2_closure.py",
+        "length":  508,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-052448/canonical-components.json",
+        "length":  14271844,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+        "length":  12225,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+        "length":  3277,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/conftest.py",
+        "length":  111,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Start-SPB0032-Closure.ps1",
+        "length":  11334,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/closure/closure_orchestrator.py",
+        "length":  7189,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/test_pmo_governance_platform.py",
+        "length":  1787,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/test_native_repository_auditor.py",
+        "length":  298,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/test_modular_auditor.py",
+        "length":  1016,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/roadmap/SGD-116/roadmap.json",
+        "length":  51870,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/roadmap/SGD-116/metrics.json",
+        "length":  364,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/roadmap/SGD-116/executive-summary.json",
+        "length":  3029,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/docs/00_ARQUITECTURA_MAESTRA.md",
+        "length":  2799,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/roadmap/SGD-116/validation.json",
+        "length":  2317,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/roadmap/SGD-116/timeline.json",
+        "length":  10538,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/documentation/SGD-115/component-inventory.json",
+        "length":  133644,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/release-validation.json",
+        "length":  1967,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-release-validation.json",
+        "length":  1947,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/roadmap/SGD-116/dependency-graph.json",
+        "length":  36393,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/documentation/SGD-115/master-documentation-validation.json",
+        "length":  231,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/documentation/SGD-115/master-documentation-updated-event.json",
+        "length":  229,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/base.py",
+        "length":  207,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/__init__.py",
+        "length":  267,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/__init__.py",
+        "length":  200,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/nomenclature.py",
+        "length":  1507,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/git_repository.py",
+        "length":  1718,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/checks/documentation.py",
+        "length":  1131,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/.gitignore",
+        "length":  207,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  10918,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/docs/00_INDICE_MAESTRO.md",
+        "length":  15992,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Refactor-SPB0032-ModularRepositoryAuditor.ps1",
+        "length":  21812,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Install-SPB0032RepositoryAuditor.ps1",
+        "length":  11417,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/builder/pyproject.toml",
+        "length":  1889,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0007/RMR-AUDIO-EN-8DE014FA3511C2ED.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0006/RMR-VIDEO-CAD3F6F61D62C7CB.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0006/RMR-IMAGE-68A9351A3A154AEB.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0007/RMR-VIDEO-98BDA3E3EFFC295C.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0007/RMR-IMAGE-B28FD9DA2C958408.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0007/RMR-AUDIO-ES-8DB8A5F034479C5A.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0005/RMR-IMAGE-5DE709956DB21E2A.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0005/RMR-AUDIO-ES-40D82F8B2CF11F89.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0005/RMR-AUDIO-EN-790593FFCB1F6672.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0006/RMR-AUDIO-ES-E1177F1E57AA3E1A.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0006/RMR-AUDIO-EN-5161AF208F4CAB12.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0005/RMR-VIDEO-3375B1CAB1991071.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0010/RMR-AUDIO-EN-9891439702B9487D.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0009/RMR-VIDEO-52D0D92DBD2705CD.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0009/RMR-IMAGE-E5BF98AC4CE2C0EC.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0010/RMR-VIDEO-67EC0219707641B0.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0010/RMR-IMAGE-E732ED1496D171A0.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0010/RMR-AUDIO-ES-2260B98E21E23567.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0008/RMR-IMAGE-6EF88340FB50739B.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0008/RMR-AUDIO-ES-45CA42145A95BBA5.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0008/RMR-AUDIO-EN-5D8EF26F47E5092F.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0009/RMR-AUDIO-ES-5B1458BBABB92473.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0009/RMR-AUDIO-EN-3D91F98539E9FE59.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0008/RMR-VIDEO-34D633EC88133C08.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0001/RMR-AUDIO-EN-BA933A8780E0D6E9.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/enrichment-jobs.sqlite3",
+        "length":  53248,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-145852/institutional-detailed-records.json",
+        "length":  21445372,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0001/RMR-VIDEO-6A0C12047D65459A.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0001/RMR-IMAGE-FDE55CF7683B0999.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0001/RMR-AUDIO-ES-C84F81938D70905D.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-143030/institutional-detailed-records.json",
+        "length":  21387984,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-143030/canonical-components.json",
+        "length":  14298113,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-052448/institutional-detailed-records.json",
+        "length":  21344334,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-145852/canonical-components.json",
+        "length":  14333000,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-144107/institutional-detailed-records.json",
+        "length":  21412412,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260807-144107/canonical-components.json",
+        "length":  14312963,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0004/RMR-AUDIO-EN-52846D098EDB1951.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0003/RMR-VIDEO-79C3A990CAFF3F41.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0003/RMR-IMAGE-612767ECDF107A7D.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0004/RMR-VIDEO-A2BF2DA89917C6D9.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0004/RMR-IMAGE-49583E9CA76B9478.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0004/RMR-AUDIO-ES-C917D0D54CBF25AA.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0002/RMR-IMAGE-F1727265D42A3EC7.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0002/RMR-AUDIO-ES-2F36DD431A05073A.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0002/RMR-AUDIO-EN-32BD4DF10F87251C.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0003/RMR-AUDIO-ES-67A23AD603CA49EA.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0003/RMR-AUDIO-EN-8E91E85D46CB7F2E.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0002/RMR-VIDEO-528853EF6334BB3B.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/intelligent-audit.json",
+        "length":  174859,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/index-sync.json",
+        "length":  2013,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/index-preview.md",
+        "length":  15991,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/pmo.json",
+        "length":  490,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/metrics.json",
+        "length":  375,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/intelligent-audit.md",
+        "length":  1156,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/registry-determinism.json",
+        "length":  501,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54789,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/pmo.json",
+        "length":  490,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/dashboard.html",
+        "length":  1652,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/traceability.json",
+        "length":  83102,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/repository-validation.json",
+        "length":  122,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/intelligent-audit.md",
+        "length":  1156,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/intelligent-audit.json",
+        "length":  174859,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/index-sync.json",
+        "length":  2013,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54803,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/pmo.json",
+        "length":  490,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/metrics.json",
+        "length":  375,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/repository-validation.json",
+        "length":  122,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/registry-determinism.json",
+        "length":  501,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54803,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/index-preview.md",
+        "length":  15991,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/dashboard.html",
+        "length":  1652,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/traceability.json",
+        "length":  83102,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-001.2-v1.0.0/post-sync-dashboard.html",
+        "length":  8293,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-001.1-v1.0.0-R3/SGD-201A.1-dashboard.html",
+        "length":  8022,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/automation/SPT-003B/multimedia-events.jsonl",
+        "length":  3032,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/dashboard.html",
+        "length":  1652,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-initial-audit.html",
+        "length":  36727,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-001-v1.0.0/SGD-201A-final-audit.html",
+        "length":  37062,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/automation/SPT-003B/media/RM/RMR-0AAEBE2CE279F1A900B11562.wav",
+        "length":  81,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/automation/SPT-003A/multimedia-jobs.sqlite3",
+        "length":  94208,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "~$Repositorio LExico Base (Excel)-1.xlsx",
+        "length":  165,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/automation/SPT-003B/media/RM/RMR-14D71E46AED41B607BBABE17.wav",
+        "length":  81,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/automation/SPT-003B/media/RM/RMR-0FF5062178A1F646D95DE05B.wav",
+        "length":  81,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/automation/SPT-003B/media/RM/RMR-0E28EB22BDE66CA4894C8C88.wav",
+        "length":  81,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/index-sync.json",
+        "length":  2013,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/index-preview.md",
+        "length":  15991,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/dashboard.html",
+        "length":  1652,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/metrics.json",
+        "length":  375,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/intelligent-audit.md",
+        "length":  1156,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/intelligent-audit.json",
+        "length":  174859,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54803,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/cycle-2/dashboard.html",
+        "length":  1652,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/cycle-1/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54789,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/dashboard.html",
+        "length":  1652,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/cycle-3/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54803,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/cycle-3/dashboard.html",
+        "length":  1652,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54803,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/pmo.json",
+        "length":  490,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/metrics.json",
+        "length":  375,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/traceability.json",
+        "length":  83102,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/repository-validation.json",
+        "length":  122,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/registry-determinism.json",
+        "length":  501,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/index-preview.md",
+        "length":  15991,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/dashboard.html",
+        "length":  1652,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/traceability.json",
+        "length":  83102,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/intelligent-audit.md",
+        "length":  1156,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/intelligent-audit.json",
+        "length":  174859,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-2/index-sync.json",
+        "length":  2013,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/registry-determinism.json",
+        "length":  501,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54803,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/pmo.json",
+        "length":  490,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/institutional-consolidation-report.json",
+        "length":  425154,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/traceability.json",
+        "length":  83102,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/repository-validation.json",
+        "length":  122,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/index-sync.json",
+        "length":  2013,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/index-preview.md",
+        "length":  15991,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/dashboard.html",
+        "length":  1652,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/metrics.json",
+        "length":  375,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/intelligent-audit.md",
+        "length":  1156,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/intelligent-audit.json",
+        "length":  174859,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/index-preview.md",
+        "length":  15992,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/dashboard.html",
+        "length":  1652,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/audit.md",
+        "length":  1156,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/pmo.json",
+        "length":  490,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/metrics.json",
+        "length":  375,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/index-sync.json",
+        "length":  2023,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/traceability.json",
+        "length":  83102,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/repository-validation.json",
+        "length":  122,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-3/registry-determinism.json",
+        "length":  501,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/audit.json",
+        "length":  176116,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-release-validation.json",
+        "length":  1947,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/institutional-consolidation-report.json",
+        "length":  425154,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/pmo.json",
+        "length":  490,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/metrics.json",
+        "length":  375,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/intelligent-audit.md",
+        "length":  1156,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/repository-validation.json",
+        "length":  122,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/registry-determinism.json",
+        "length":  501,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/registry-backup/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "length":  54789,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/dashboard.html",
+        "length":  1652,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/release-validation.json",
+        "length":  1967,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/real-repository-final-validation/traceability.json",
+        "length":  83213,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/intelligent-audit.json",
+        "length":  174859,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/index-sync.json",
+        "length":  2013,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/repository-backup/artifacts/consolidation/PCI-002-v1.1.2/cycle-1/index-preview.md",
+        "length":  15991,
+        "classification":  "BACKUP_OR_LONG_PATH_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/.gitattributes",
+        "length":  907,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/.editorconfig",
+        "length":  234,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.2-TEST-SUITE-AUDIT/recommended-test-commands.ps1",
+        "length":  5982,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0053-UTF8RepositoryStandard-v1.1.ps1",
+        "length":  9867,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0053-UTF8RepositoryStandard.ps1",
+        "length":  16483,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0032-B1.4.ps1",
+        "length":  8766,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/models.py",
+        "length":  1721,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/discovery.py",
+        "length":  8897,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/dependency_graph.py",
+        "length":  3459,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/test_SGD_116B_institutional_roadmap_closure.backup.py",
+        "length":  7113,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-Institutional-Roadmap-Closure-20260802-123201.ps1",
+        "length":  46168,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/preflight-backups/Install-SGD116B-before-v2.0.2-20260802-123530.ps1",
+        "length":  46168,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_restaurado/.sgoda/extensions/plugins/plugin-base/plugin.py",
+        "length":  48,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/proyecto_catalogo/.sgoda/extensions/plugins/plugin-base/plugin.py",
+        "length":  48,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/catalog_plugin/plugin.py",
+        "length":  48,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/models.py",
+        "length":  10827,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/governance_service.py",
+        "length":  6786,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/exceptions.py",
+        "length":  4489,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/Start-SPB0032-Closure.ps1",
+        "length":  11337,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/src/sgoda/pmo/audit/native_repository_auditor.py",
+        "length":  10390,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Apply-SPB0053-UTF8RepositoryStandard-v1.3.ps1",
+        "length":  11485,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/utf8/test_repository_utf8.py",
+        "length":  1012,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/utf8/repository_utf8.py",
+        "length":  7125,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/tests/pmo/audit/test_native_repository_auditor.py",
+        "length":  301,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/test_SGD_116_master_ecosystem_roadmap.py",
+        "length":  7894,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/models.py",
+        "length":  1526,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/generator.py",
+        "length":  6349,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/cli.py",
+        "length":  1846,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/__init__.py",
+        "length":  536,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/validator.py",
+        "length":  2109,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/test_SGD_116_master_ecosystem_roadmap.py",
+        "length":  6830,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/discovery.py",
+        "length":  5269,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.0.1-20260802-121214/dependency_graph.py",
+        "length":  2302,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/discovery.py",
+        "length":  9201,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/dependency_graph.py",
+        "length":  2532,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116/backups/v1.1.0-20260802-122005/cli.py",
+        "length":  1016,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116_master_ecosystem_roadmap.py",
+        "length":  10415,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/models.py",
+        "length":  1789,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/discovery.py",
+        "length":  10778,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/manual-backup-20260802-112416/__init__.py",
+        "length":  832,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/external-preflight-backups/Install-SGD116B-original-20260802-123806.ps1",
+        "length":  46168,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/test_SGD_116B_institutional_roadmap_closure.py",
+        "length":  7113,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/generator.py",
+        "length":  7684,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/discovery.py",
+        "length":  9908,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/dependency_graph.py",
+        "length":  2795,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/v3.0.0-20260802-184627/dependency_graph.py",
+        "length":  3637,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/validator.py",
+        "length":  2391,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-116B/backups/pre-SGD116B-20260802-123808/models.py",
+        "length":  1628,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/metadata.py",
+        "length":  1648,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/audit.py",
+        "length":  1885,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/application.py",
+        "length":  1099,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/registry.py",
+        "length":  2013,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/modules.py",
+        "length":  3759,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/models.py",
+        "length":  696,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/api/routes.py",
+        "length":  515,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/api/kernel_routes.py",
+        "length":  1301,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/api/__init__.py",
+        "length":  5,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/kernel/__init__.py",
+        "length":  193,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/core/config.py",
+        "length":  772,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/core/__init__.py",
+        "length":  5,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/audit/test_native_repository_auditor.py",
+        "length":  301,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Start-SPB0032-Closure.ps1",
+        "length":  11337,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Start-SPB0032-Closure.backup.ps1",
+        "length":  11337,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/test_spb_005_1_foundation_runtime.py",
+        "length":  593,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/utf8/test_repository_utf8.py",
+        "length":  1012,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/tests/pmo/repository/mmgr/test_models.py",
+        "length":  3879,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/repository/mmgr/models.py",
+        "length":  7817,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/audit/native_repository_auditor.py",
+        "length":  10336,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/main.py",
+        "length":  140,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/Stage-SPB0032-B1.4.ps1",
+        "length":  2620,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/utf8/repository_utf8.py",
+        "length":  7125,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/pmo/utf8/__init__.py",
+        "length":  73,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_exceptions.py",
+        "length":  2133,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_export_integrity.py",
+        "length":  1911,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_cli.py",
+        "length":  515,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_engine.py",
+        "length":  13930,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_models.py",
+        "length":  4909,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_governance_service.py",
+        "length":  18742,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_repository.py",
+        "length":  7498,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_loader.py",
+        "length":  4328,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_engine.py",
+        "length":  4904,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/serializers.py",
+        "length":  10307,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/results.py",
+        "length":  18602,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/src/sgoda/governance/policy_validator.py",
+        "length":  19905,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/scripts/audit_spb_003_2.py",
+        "length":  119,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder_backup_20260713_175707/src/sgoda/core/config.py",
+        "length":  442,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder_backup_20260713_175707/src/sgoda/core/__init__.py",
+        "length":  370,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/src/sgoda/__init__.py",
+        "length":  33,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/scripts/Test-SPB0051-F001.ps1",
+        "length":  443,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/scripts/Start-SGODA.ps1",
+        "length":  485,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_validator.py",
+        "length":  13549,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_repository.py",
+        "length":  13946,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_policy_loader.py",
+        "length":  5527,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_version_audit_c.py",
+        "length":  163,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_rule_evaluator.py",
+        "length":  16003,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/builder/tests/test_governance_results.py",
+        "length":  14559,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0019/RMR-AUDIO-EN-EB289DEE4BB6DDBB.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0018/RMR-VIDEO-59BC94CD88D1BDFD.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0018/RMR-IMAGE-9EBEB5209E630AAE.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0019/RMR-VIDEO-C7DBF0F4F4429880.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0019/RMR-IMAGE-FA77BCC3FCBF7731.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0019/RMR-AUDIO-ES-4F9F238B230022C8.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0017/RMR-IMAGE-4E81025A5889C2DD.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0017/RMR-AUDIO-ES-0AC44D9EA825F7F8.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0017/RMR-AUDIO-EN-DD1951CDDADDFE55.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0018/RMR-AUDIO-ES-DBEC7D78B61DAB39.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0018/RMR-AUDIO-EN-9BE61E94C41DE3C3.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0017/RMR-VIDEO-114AD937BC9663A3.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/test_increment.py",
+        "length":  116,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/repair-template.ps1",
+        "length":  1329,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/PUBLICATION-COMMANDS.ps1",
+        "length":  230,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/LINE-ENDINGS-FIX/20260731-002719/worktree-before-normalization.patch",
+        "length":  32277,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/media/ADR-010/rmr-resources.jsonl",
+        "length":  35440,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/media/ADR-010/rmr.sqlite3",
+        "length":  65536,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0020/RMR-IMAGE-0DCBC9D9722D00D3.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0020/RMR-AUDIO-ES-F7608745FD9EA61B.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0020/RMR-AUDIO-EN-6CAA08621791DE1A.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/installer_builder/SIB-001/generated-demo/SPT-999A/installer.ps1",
+        "length":  1527,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/governance/SGD-114E/legacy-tests/test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
+        "length":  499,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0020/RMR-VIDEO-118DD6C1E0726A8A.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0013/RMR-AUDIO-EN-4A44D79C43006272.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0012/RMR-VIDEO-EA22E372EF1E1DAE.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0012/RMR-IMAGE-C4EFA39AF7CF7A3A.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0013/RMR-VIDEO-0ABAC584B2E01E96.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0013/RMR-IMAGE-A3F5F30B7BCBE8E4.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0013/RMR-AUDIO-ES-FF454CCD858F40B3.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0011/RMR-IMAGE-45552741D95A19C4.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0011/RMR-AUDIO-ES-8C012B56833794FF.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0011/RMR-AUDIO-EN-3ECD1898F64DB5EB.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0012/RMR-AUDIO-ES-9DB37DA8C9F1E729.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0012/RMR-AUDIO-EN-4BF081C6FE4B4A3D.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0011/RMR-VIDEO-87D3D3AC879864C6.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0016/RMR-AUDIO-EN-62221665351DEEED.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0015/RMR-VIDEO-04775297C1D26876.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0015/RMR-IMAGE-F5DC2DBEB44B328B.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0016/RMR-VIDEO-01E38698C49F9486.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0016/RMR-IMAGE-93C63B88B671994A.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0016/RMR-AUDIO-ES-4BDB7C20B2C84DEC.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-IMAGE-9C9142D36BA8C4A9.mock-image",
+        "length":  26,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-AUDIO-ES-8B8F562D1D0E9A60.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-AUDIO-EN-D4CDE5727EDFE452.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0015/RMR-AUDIO-ES-498196F054757E76.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0015/RMR-AUDIO-EN-1A6C7128C984E8E3.mock-audio",
+        "length":  24,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/enrichment/SPT-006/mock-resources/0014/RMR-VIDEO-512338A0A3E55B74.mock-video-plan",
+        "length":  31,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_models.py",
+        "length":  3935,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_cli.py",
+        "length":  1884,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/test_SGD_114E_v1_0_6_definitive_contract_restoration.py",
+        "length":  2967,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R2.1/backups/pre-R2-20260803-002704/src__sgoda__governance__native_ecosystem_validator.py",
+        "length":  8943,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/test_SGD_114E_v1_0_7_definitive_prevalidated_contract_closure.py",
+        "length":  499,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R1/backups/pre-R1-20260803-000848/native_ecosystem_validator.py",
+        "length":  8943,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/test_SGD_114E_v1_0_6_definitive_contract_restoration.py",
+        "length":  3475,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_validator.py",
+        "length":  9263,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_models.py",
+        "length":  3895,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_validator.py",
+        "length":  6271,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_models.py",
+        "length":  3277,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0/backups/pre-v2.0.0-20260802-235958/native_ecosystem_cli.py",
+        "length":  1810,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__junit_parser.py",
+        "length":  1937,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__cli.py",
+        "length":  1708,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence____init__.py",
+        "length":  348,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/tests__governance__test_SGD_114F_institutional_test_evidence_synchronizer.py",
+        "length":  5800,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__synchronizer.py",
+        "length":  2713,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/src__sgoda__governance__test_evidence__models.py",
+        "length":  476,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_validator.py",
+        "length":  10232,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_models.py",
+        "length":  3935,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/native_ecosystem_cli.py",
+        "length":  1884,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/scripts__Invoke-SGD114F-TestEvidenceSynchronizer.ps1",
+        "length":  975,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114F/backups/pre-SGD114F-20260802-223241/scripts__Invoke-InstitutionalPytest.ps1",
+        "length":  1352,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v2.0.0-R2.2/backups/pre-R2.2-20260803-003304/SGD-114E-v2.0.0-R2.1/test_SGD_114E_v2_0_0_R2_self_validation_closure.py",
+        "length":  2728,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_validator.py",
+        "length":  5972,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_policy.py",
+        "length":  1825,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_models.py",
+        "length":  786,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184601/src__sgoda__governance__native_ecosystem_validator.py",
+        "length":  5972,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184601/src__sgoda__governance__native_ecosystem_policy.py",
+        "length":  1831,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/tests__governance__test_SGD_114E_native_ecosystem_architecture_policy.py",
+        "length":  4954,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/Install-SPT012-v1.0.0-SGODA-Learning-Platform.ps1",
+        "length":  51351,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181535/Install-SPT012-v1.0.0-SGODA-Learning-Platform.ps1",
+        "length":  51351,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114D/backups/pre-SGD114D-v1.0.1-20260802-171505/src__sgoda__governance__adaptive_policy_resolver.py",
+        "length":  3515,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem_cli.py",
+        "length":  3193,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/src__sgoda__governance__native_ecosystem.py",
+        "length":  475,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E/backups/pre-SGD114E-20260802-181756/scripts__Invoke-SGD114E-NativeEcosystemPolicy.ps1",
+        "length":  559,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_cli.py",
+        "length":  3600,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_validator.py",
+        "length":  5222,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_models.py",
+        "length":  786,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.7/backups/pre-v1.0.7-20260802-235441/native_ecosystem_cli.py",
+        "length":  3139,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_validator.py",
+        "length":  5716,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.6/backups/pre-SGD114E-v1.0.6-20260802-234718/src__sgoda__governance__native_ecosystem_models.py",
+        "length":  2626,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.3/backups/pre-SGD114E-v1.0.3-20260802-233040/src__sgoda__governance__native_ecosystem_cli.py",
+        "length":  3193,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_validator.py",
+        "length":  6698,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-C1/backups/pre-SGD114E-C1-20260802-184959/src__sgoda__governance__native_ecosystem_policy.py",
+        "length":  2098,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.5/backups/pre-SGD114E-v1.0.5-20260802-234143/src__sgoda__governance__native_ecosystem_cli.py",
+        "length":  3265,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.4/backups/pre-SGD114E-v1.0.4-20260802-233421/Invoke-InstitutionalPytest.ps1",
+        "length":  1352,
+        "classification":  "POLICY_EXCLUDED"
+    },
+    {
+        "path":  "artifacts/pmo/SGD-114E-v1.0.3/backups/pre-SGD114E-v1.0.3-20260802-233040/src__sgoda__governance__native_ecosystem_validator.py",
+        "length":  6698,
+        "classification":  "POLICY_EXCLUDED"
+    }
+]

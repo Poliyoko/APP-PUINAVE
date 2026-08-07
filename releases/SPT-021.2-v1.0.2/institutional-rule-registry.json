@@ -1,0 +1,123 @@
+[
+    {
+        "rule_id":  "MASTER_STATE_UPDATE",
+        "sources":  46,
+        "implementations":  6,
+        "documentation":  6,
+        "tests":  0,
+        "canonical_implementation":  "Install-SPT020.9-v1.0.0-OneFile-PS51.ps1",
+        "duplicate_implementations":  5,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "OPEN_SOURCE_ONLY",
+        "sources":  158,
+        "implementations":  32,
+        "documentation":  35,
+        "tests":  0,
+        "canonical_implementation":  "src/sgoda/language_engine/__init__.py",
+        "duplicate_implementations":  31,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "PUBLICATION_REQUIRED",
+        "sources":  316,
+        "implementations":  131,
+        "documentation":  14,
+        "tests":  9,
+        "canonical_implementation":  "scripts/Invoke-SPB007-InstitutionalPublish.ps1",
+        "duplicate_implementations":  130,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "QUALITY_GATES_REQUIRED",
+        "sources":  785,
+        "implementations":  208,
+        "documentation":  78,
+        "tests":  47,
+        "canonical_implementation":  "Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1",
+        "duplicate_implementations":  207,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "REAL_REPOSITORY_REVALIDATION",
+        "sources":  31,
+        "implementations":  16,
+        "documentation":  6,
+        "tests":  0,
+        "canonical_implementation":  "Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1",
+        "duplicate_implementations":  15,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "REMOTE_SYNCHRONIZATION_REQUIRED",
+        "sources":  51,
+        "implementations":  14,
+        "documentation":  8,
+        "tests":  0,
+        "canonical_implementation":  "Install-SPB007-Institutional-Repository-Publisher.ps1",
+        "duplicate_implementations":  13,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "REUSE_BEFORE_BUILD",
+        "sources":  12,
+        "implementations":  7,
+        "documentation":  1,
+        "tests":  1,
+        "canonical_implementation":  "src/sgoda/rlb/canonical_consolidator.py",
+        "duplicate_implementations":  6,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "ROLLBACK_REQUIRED",
+        "sources":  58,
+        "implementations":  23,
+        "documentation":  3,
+        "tests":  0,
+        "canonical_implementation":  "Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1",
+        "duplicate_implementations":  22,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "STAGING_REQUIRED",
+        "sources":  14,
+        "implementations":  12,
+        "documentation":  1,
+        "tests":  0,
+        "canonical_implementation":  "Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1",
+        "duplicate_implementations":  11,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "TRACEABILITY_REQUIRED",
+        "sources":  971,
+        "implementations":  252,
+        "documentation":  91,
+        "tests":  21,
+        "canonical_implementation":  "scripts/Invoke-SPB007-InstitutionalPublish.ps1",
+        "duplicate_implementations":  251,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    },
+    {
+        "rule_id":  "ZERO_TECHNICAL_ERRORS",
+        "sources":  17,
+        "implementations":  10,
+        "documentation":  5,
+        "tests":  0,
+        "canonical_implementation":  "Install-SPT020.9-v1.0.0-OneFile-PS51.ps1",
+        "duplicate_implementations":  9,
+        "reuse_status":  "REUSE_EXISTING_IMPLEMENTATION",
+        "new_development_required":  false
+    }
+]

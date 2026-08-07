@@ -1,0 +1,11 @@
+{
+    "component":  "SPT-021.1",
+    "version":  "1.0.0",
+    "status":  "CLOSED",
+    "master_document":  "docs/00_Estado_Maestro/SGD-001-Mapa-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+    "inventory":  "artifacts/development/SPT-021.1-v1.0.0/runs/20260807-042802/institutional-master-map-inventory.json",
+    "evidence":  "artifacts/development/SPT-021.1-v1.0.0/runs/20260807-042802/implementation-evidence.json",
+    "act":  "docs/06_Tecnologia/SPT-021.1/ACT-021.1-Cierre-Institutional-Master-Map-Generator.md",
+    "tests_passed":  808,
+    "technical_errors":  0
+}

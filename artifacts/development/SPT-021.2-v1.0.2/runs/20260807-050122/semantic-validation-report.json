@@ -1,0 +1,36 @@
+{
+    "component":  "SPT-021.2",
+    "version":  "1.0.2",
+    "required_rules":  [
+                           "PUBLICATION_REQUIRED",
+                           "REMOTE_SYNCHRONIZATION_REQUIRED",
+                           "REUSE_BEFORE_BUILD",
+                           "QUALITY_GATES_REQUIRED",
+                           "STAGING_REQUIRED",
+                           "REAL_REPOSITORY_REVALIDATION",
+                           "ZERO_TECHNICAL_ERRORS",
+                           "MASTER_STATE_UPDATE",
+                           "TRACEABILITY_REQUIRED"
+                       ],
+    "detected_rules":  [
+                           "MASTER_STATE_UPDATE",
+                           "OPEN_SOURCE_ONLY",
+                           "PUBLICATION_REQUIRED",
+                           "QUALITY_GATES_REQUIRED",
+                           "REAL_REPOSITORY_REVALIDATION",
+                           "REMOTE_SYNCHRONIZATION_REQUIRED",
+                           "REUSE_BEFORE_BUILD",
+                           "ROLLBACK_REQUIRED",
+                           "STAGING_REQUIRED",
+                           "TRACEABILITY_REQUIRED",
+                           "ZERO_TECHNICAL_ERRORS"
+                       ],
+    "missing_required_rules":  [
+
+                               ],
+    "findings":  [
+
+                 ],
+    "semantic_errors":  0,
+    "status":  "APPROVED"
+}

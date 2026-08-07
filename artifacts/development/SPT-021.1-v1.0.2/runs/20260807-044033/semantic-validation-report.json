@@ -1,0 +1,59 @@
+{
+    "component":  "SPT-021.1",
+    "version":  "1.0.2",
+    "generated_at_utc":  "2026-08-07T04:40:33.1861628Z",
+    "canonical_components":  604,
+    "institutional_records":  2897,
+    "minimum_institutional_records":  800,
+    "detected_families":  [
+                              "ACT",
+                              "ADR",
+                              "ODA",
+                              "PCI",
+                              "POL",
+                              "SGD",
+                              "SIB",
+                              "SPB",
+                              "SPT"
+                          ],
+    "detected_family_count":  9,
+    "required_families":  [
+                              "POL",
+                              "SGD",
+                              "ADR",
+                              "SPB",
+                              "SPT",
+                              "PCI",
+                              "ACT"
+                          ],
+    "missing_required_families":  [
+
+                                  ],
+    "detected_phases":  [
+                            "Arquitectura y Decisiones",
+                            "Cierre y Gobierno Institucional",
+                            "Consolidacion Institucional",
+                            "Fase Tecnologica - Capacidades SGODA",
+                            "Fase Tecnologica - Consolidacion y Mapa Maestro",
+                            "Fase Tecnologica - Fundacion Tecnica",
+                            "Fase Tecnologica - Plataforma Tecnologica Institucional",
+                            "Fase Tecnologica - Workflow e Integracion",
+                            "Fundacion y Construccion",
+                            "Gobierno / Documentacion Institucional",
+                            "Gobierno Institucional",
+                            "Transversal / Por determinar"
+                        ],
+    "detected_phase_count":  12,
+    "detected_statuses":  [
+                              "CLOSED_OR_RELEASED",
+                              "DISCOVERED",
+                              "DOCUMENTED",
+                              "IMPLEMENTED"
+                          ],
+    "detected_status_count":  4,
+    "findings":  [
+
+                 ],
+    "semantic_errors":  0,
+    "status":  "APPROVED"
+}

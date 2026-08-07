@@ -1,0 +1,23 @@
+{
+    "component":  "SPT-021.3",
+    "version":  "1.1.2",
+    "persistent_auto_update":  true,
+    "long_paths_enabled_per_command":  true,
+    "historical_recursive_backups_excluded":  true,
+    "native_git_stderr_isolated":  true,
+    "powershell_child_exitcode_isolated":  true,
+    "interval_minutes":  15,
+    "task_name":  "SGODA-PUINAVE-SGD002-AutoUpdate",
+    "task_state":  "Ready",
+    "runner":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\tools\\institutional\\Invoke-SGD002-AutoUpdate.ps1",
+    "publication_wrapper":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\tools\\institutional\\Publish-SGODA-WithMasterBook.ps1",
+    "config":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\config\\institutional\\sgd002-auto-update.json",
+    "runner_syntax_errors":  0,
+    "wrapper_syntax_errors":  0,
+    "initial_validation_exit_code":  0,
+    "git_auto_commit":  false,
+    "git_auto_push":  false,
+    "publication_engine":  "SPT-021.0.1-v1.0.6",
+    "technical_errors":  0,
+    "status":  "CLOSED"
+}

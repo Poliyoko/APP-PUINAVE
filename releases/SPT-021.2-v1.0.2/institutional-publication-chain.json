@@ -1,0 +1,42 @@
+[
+    {
+        "order":  1,
+        "rule_id":  "REUSE_BEFORE_BUILD",
+        "canonical_implementation":  "src/sgoda/rlb/canonical_consolidator.py"
+    },
+    {
+        "order":  2,
+        "rule_id":  "QUALITY_GATES_REQUIRED",
+        "canonical_implementation":  "Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1"
+    },
+    {
+        "order":  3,
+        "rule_id":  "STAGING_REQUIRED",
+        "canonical_implementation":  "Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1"
+    },
+    {
+        "order":  4,
+        "rule_id":  "REAL_REPOSITORY_REVALIDATION",
+        "canonical_implementation":  "Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1"
+    },
+    {
+        "order":  5,
+        "rule_id":  "PUBLICATION_REQUIRED",
+        "canonical_implementation":  "scripts/Invoke-SPB007-InstitutionalPublish.ps1"
+    },
+    {
+        "order":  6,
+        "rule_id":  "REMOTE_SYNCHRONIZATION_REQUIRED",
+        "canonical_implementation":  "Install-SPB007-Institutional-Repository-Publisher.ps1"
+    },
+    {
+        "order":  7,
+        "rule_id":  "MASTER_STATE_UPDATE",
+        "canonical_implementation":  "Install-SPT020.9-v1.0.0-OneFile-PS51.ps1"
+    },
+    {
+        "order":  8,
+        "rule_id":  "TRACEABILITY_REQUIRED",
+        "canonical_implementation":  "scripts/Invoke-SPB007-InstitutionalPublish.ps1"
+    }
+]

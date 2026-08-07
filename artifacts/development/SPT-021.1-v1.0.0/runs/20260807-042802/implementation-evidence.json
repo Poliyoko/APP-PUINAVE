@@ -1,0 +1,25 @@
+{
+    "component":  "SPT-021.1",
+    "version":  "1.0.0",
+    "generated_at_utc":  "2026-08-07T04:28:02.6704452Z",
+    "run_id":  "20260807-042802",
+    "status":  "CLOSED",
+    "master_document":  "docs/00_Estado_Maestro/SGD-001-Mapa-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+    "records":  601,
+    "families":  1,
+    "phases":  1,
+    "repository_files_scanned":  3267,
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "commit":  "d82d9be97385920954a799ac7479222e015065a5",
+    "python_compile_exit_code":  0,
+    "pytest_passed":  true,
+    "tests_passed":  808,
+    "missing_required_sections":  [
+
+                                  ],
+    "technical_errors":  0,
+    "sgd_000_available":  true,
+    "spt_020_status":  "CLOSED",
+    "n8n_installed":  false,
+    "paid_services_required":  false
+}

@@ -1,0 +1,31 @@
+==> Actualizando Libro Maestro antes de publicar
+AUTO_UPDATE_SKIPPED: repository fingerprint unchanged.
+SGD-002 updater exit code: 0
+==> Ejecutando PREPARE institucional
+
+==> SPT-021.0.1 - Modo PREPARE
+Repositorio oficial: https://github.com/Poliyoko/APP-PUINAVE.git
+Linea base: SPT-020 CLOSED
+
+==> Actualizando referencias remotas de rama sin tocar tags
+
+==> Validando sintaxis PowerShell activa
+  PowerShell: 25/251
+  PowerShell: 50/251
+  PowerShell: 75/251
+  PowerShell: 100/251
+  PowerShell: 125/251
+  PowerShell: 150/251
+  PowerShell: 175/251
+  PowerShell: 200/251
+  PowerShell: 225/251
+  PowerShell: 250/251
+Se detectaron 46 errores PowerShell activos.
+En C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 
+2026\SGODA-PUINAVE\Install-SPT021.0.1-v1.0.6-OneFile-PS51.ps1: 850 Car�cter: 5
++     throw (
++     ~~~~~~~
+    + CategoryInfo          : OperationStopped: (Se detectaron 4...rShell activos.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Se detectaron 46 errores PowerShell activos.
+Publication engine exit code: 1
+

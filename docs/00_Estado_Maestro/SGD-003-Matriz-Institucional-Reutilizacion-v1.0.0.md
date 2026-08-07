@@ -1,0 +1,15 @@
+# SGD-003 - Matriz Institucional de Reutilizacion
+
+| Regla | Canonica | Estado | Nuevo desarrollo requerido | Decision |
+|---|---|---|---|---|
+| MASTER_STATE_UPDATE | Install-SPT020.9-v1.0.0-OneFile-PS51.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| OPEN_SOURCE_ONLY | src/sgoda/language_engine/__init__.py | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| PUBLICATION_REQUIRED | scripts/Invoke-SPB007-InstitutionalPublish.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| QUALITY_GATES_REQUIRED | Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| REAL_REPOSITORY_REVALIDATION | Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| REMOTE_SYNCHRONIZATION_REQUIRED | Install-SPB007-Institutional-Repository-Publisher.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| REUSE_BEFORE_BUILD | src/sgoda/rlb/canonical_consolidator.py | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| ROLLBACK_REQUIRED | Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| STAGING_REQUIRED | Install-PCI001.3-and-PCI002-v1.1.0-Definitive-Consolidation.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| TRACEABILITY_REQUIRED | scripts/Invoke-SPB007-InstitutionalPublish.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |
+| ZERO_TECHNICAL_ERRORS | Install-SPT020.9-v1.0.0-OneFile-PS51.ps1 | REUSE_EXISTING_IMPLEMENTATION | False | REUSE_CANONICAL |

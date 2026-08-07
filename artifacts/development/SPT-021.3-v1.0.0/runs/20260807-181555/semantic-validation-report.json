@@ -1,0 +1,20 @@
+{
+    "component":  "SPT-021.3",
+    "version":  "1.0.0",
+    "minimum_canonical_components":  500,
+    "actual_canonical_components":  3863,
+    "minimum_institutional_records":  800,
+    "actual_institutional_records":  62680,
+    "minimum_book_lines":  2500,
+    "actual_book_lines":  67728,
+    "minimum_book_words":  25000,
+    "actual_book_words":  1227434,
+    "missing_sections":  [
+
+                         ],
+    "findings":  [
+
+                 ],
+    "semantic_errors":  0,
+    "status":  "APPROVED"
+}

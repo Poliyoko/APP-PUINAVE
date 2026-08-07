@@ -1,0 +1,324 @@
+[
+    {
+        "path":  "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+        "line":  556,
+        "column":  41,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027`\"\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+        "line":  556,
+        "column":  41,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+        "line":  552,
+        "column":  37,
+        "error_id":  "MissingEndCurlyBrace",
+        "message":  "Falta la llave de cierre \"}\" en el bloque de instrucciones o la definición de tipo."
+    },
+    {
+        "path":  "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+        "line":  560,
+        "column":  5,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+        "line":  561,
+        "column":  1,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Install-SGD114D-v1.0.0-Adaptive-Institutional-Policy-Engine.ps1",
+        "line":  1247,
+        "column":  17,
+        "error_id":  "InvalidVariableReferenceWithDrive",
+        "message":  "La referencia de variable no es válida. El carácter \u0027:\u0027 no va seguido de un carácter de nombre de variable válido. Considere la posibilidad de usar ${} para delimitar el nombre."
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "line":  1171,
+        "column":  5,
+        "error_id":  "DuplicateKeyInHashLiteral",
+        "message":  "No se permiten claves duplicadas \u0027integrados por contrato\u0027 en los literales de hash."
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "line":  1172,
+        "column":  5,
+        "error_id":  "DuplicateKeyInHashLiteral",
+        "message":  "No se permiten claves duplicadas \u0027integradas por contrato\u0027 en los literales de hash."
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "line":  1173,
+        "column":  5,
+        "error_id":  "DuplicateKeyInHashLiteral",
+        "message":  "No se permiten claves duplicadas \u0027integrado por contrato\u0027 en los literales de hash."
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "line":  1174,
+        "column":  5,
+        "error_id":  "DuplicateKeyInHashLiteral",
+        "message":  "No se permiten claves duplicadas \u0027integrada por contrato\u0027 en los literales de hash."
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "line":  1177,
+        "column":  5,
+        "error_id":  "DuplicateKeyInHashLiteral",
+        "message":  "No se permiten claves duplicadas \u0027contract-based integration\u0027 en los literales de hash."
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "line":  1178,
+        "column":  5,
+        "error_id":  "DuplicateKeyInHashLiteral",
+        "message":  "No se permiten claves duplicadas \u0027contract integration\u0027 en los literales de hash."
+    },
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "line":  794,
+        "column":  36,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027??\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "line":  794,
+        "column":  35,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "line":  795,
+        "column":  31,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027??\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "line":  779,
+        "column":  20,
+        "error_id":  "MissingEndCurlyBrace",
+        "message":  "Falta la llave de cierre \"}\" en el bloque de instrucciones o la definición de tipo."
+    },
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "line":  797,
+        "column":  9,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "line":  855,
+        "column":  5,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "line":  134,
+        "column":  20,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "line":  132,
+        "column":  56,
+        "error_id":  "MissingEndCurlyBrace",
+        "message":  "Falta la llave de cierre \"}\" en el bloque de instrucciones o la definición de tipo."
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "line":  126,
+        "column":  22,
+        "error_id":  "MissingEndCurlyBrace",
+        "message":  "Falta la llave de cierre \"}\" en el bloque de instrucciones o la definición de tipo."
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "line":  139,
+        "column":  9,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "line":  145,
+        "column":  5,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "line":  146,
+        "column":  1,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  428,
+        "column":  18,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  429,
+        "column":  17,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027else\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  428,
+        "column":  18,
+        "error_id":  "IncompleteHashLiteral",
+        "message":  "El literal de hash estaba incompleto."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  429,
+        "column":  16,
+        "error_id":  "IncompleteHashLiteral",
+        "message":  "El literal de hash estaba incompleto."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  429,
+        "column":  16,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  432,
+        "column":  13,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  436,
+        "column":  18,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  440,
+        "column":  13,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  444,
+        "column":  18,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  448,
+        "column":  13,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  449,
+        "column":  9,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  450,
+        "column":  5,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  450,
+        "column":  6,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  628,
+        "column":  18,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  629,
+        "column":  17,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027else\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  628,
+        "column":  18,
+        "error_id":  "IncompleteHashLiteral",
+        "message":  "El literal de hash estaba incompleto."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  629,
+        "column":  16,
+        "error_id":  "MissingEndParenthesisInExpression",
+        "message":  "Falta el paréntesis de cierre \u0027)\u0027 en la expresión."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  542,
+        "column":  37,
+        "error_id":  "MissingEndCurlyBrace",
+        "message":  "Falta la llave de cierre \"}\" en el bloque de instrucciones o la definición de tipo."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  632,
+        "column":  13,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  643,
+        "column":  9,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  643,
+        "column":  10,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027)\u0027 inesperado en la expresión o la instrucción."
+    },
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "line":  693,
+        "column":  1,
+        "error_id":  "UnexpectedToken",
+        "message":  "Token \u0027}\u0027 inesperado en la expresión o la instrucción."
+    }
+]
