@@ -1,0 +1,37 @@
+{
+    "component":  "SPT-023.1",
+    "version":  "1.0.1",
+    "baseline":  "SPT-022.1 CLOSED",
+    "canonical_language":  "puinave",
+    "source_formats":  [
+                           "json",
+                           "csv",
+                           "xlsx",
+                           "xlsm"
+                       ],
+    "duplicate_policy":  "NORMALIZED_FORM_AND_SHA256",
+    "event_type":  "SPT0231.NEW_PUINAVE_WORD",
+    "downstream_audio_languages":  [
+                                       "puinave",
+                                       "es",
+                                       "en",
+                                       "it"
+                                   ],
+    "category_stage":  "SPT-023.3",
+    "image_stage":  "SPT-023.4",
+    "audio_stage":  "SPT-023.5",
+    "api_path_content_collision_fix":  true,
+    "fastapi_integration":  false,
+    "generated_powershell_syntax_errors":  0,
+    "invalid_json_files":  0,
+    "python_compile_exit_code":  0,
+    "specific_tests_passed":  10,
+    "institutional_tests_passed":  828,
+    "detection_status":  "NOT_REQUESTED",
+    "detection_output":  "",
+    "master_book_status":  "BUSY_NON_BLOCKING",
+    "prepare_status":  "NOT_REQUESTED",
+    "paid_services":  false,
+    "technical_errors":  0,
+    "institutional_status":  "IMPLEMENTED"
+}

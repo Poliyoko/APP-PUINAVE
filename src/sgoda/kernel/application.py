@@ -1,4 +1,5 @@
-"""FÃ¡brica principal de la aplicaciÃ³n SGODA-PUINAVE."""
+from sgoda.api.spt0231_routes import router as spt0231_router
+"""FÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡brica principal de la aplicaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n SGODA-PUINAVE."""
 
 from fastapi import FastAPI
 from sgoda.api.spt022_routes import router as spt022_router
@@ -20,7 +21,7 @@ from sgoda.kernel.registry import module_registry
 
 
 def create_application() -> FastAPI:
-    """Construye y configura la aplicaciÃ³n."""
+    """Construye y configura la aplicaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n."""
 
     register_platform_modules(module_registry)
 
@@ -29,7 +30,7 @@ def create_application() -> FastAPI:
         version=PLATFORM_VERSION,
         description=(
             "Plataforma digital para la "
-            "preservaciÃ³n y enseÃ±anza "
+            "preservaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n y enseÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â±anza "
             "de la lengua Puinave."
         ),
     )
@@ -51,4 +52,5 @@ def create_application() -> FastAPI:
         "operational"
     )
 
+    application.include_router(spt0231_router)
     return application

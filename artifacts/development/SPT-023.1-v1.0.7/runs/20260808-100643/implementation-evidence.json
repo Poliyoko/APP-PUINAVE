@@ -1,0 +1,33 @@
+{
+    "component":  "SPT-023.1",
+    "version":  "1.0.7",
+    "detector_rebuilt":  false,
+    "router_rebuilt":  false,
+    "fastapi_application":  "src/sgoda/kernel/application.py",
+    "router_prefix":  "/api/spt0231",
+    "router_routes":  [
+                          "/api/spt0231/health",
+                          "/api/spt0231/detect"
+                      ],
+    "router_prefix_validation":  "FULL_PATHS_CONFIRMED",
+    "router_path_gate_fix":  true,
+    "misplaced_include_removed":  true,
+    "include_inserted_before_return":  true,
+    "factory_indentation_confirmed":  true,
+    "canonical_health_route":  true,
+    "canonical_detect_route":  true,
+    "fastapi_version":  "0.140.13",
+    "starlette_version":  "1.3.1",
+    "integration_validation":  "OPENAPI_SCHEMA",
+    "application_routes_path_gate":  "DISABLED_FOR_FASTAPI_0_140_X",
+    "specific_tests_passed":  10,
+    "institutional_tests_passed":  828,
+    "master_book_status":  "UPDATED",
+    "sgd002_task_initial_state":  "Running",
+    "sgd002_task_final_policy":  "ENABLED",
+    "prepare_status":  "READY_FOR_PUBLICATION",
+    "publication_executed":  false,
+    "paid_services":  false,
+    "technical_errors":  0,
+    "institutional_status":  "PREPARED"
+}

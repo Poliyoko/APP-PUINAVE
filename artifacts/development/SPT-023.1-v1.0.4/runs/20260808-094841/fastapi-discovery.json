@@ -1,0 +1,29 @@
+{
+    "selected":  {
+                     "Path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\src\\sgoda\\kernel\\application.py",
+                     "AppVariable":  "application",
+                     "Score":  150
+                 },
+    "candidates":  [
+                       {
+                           "Path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\src\\sgoda\\kernel\\application.py",
+                           "AppVariable":  "application",
+                           "Score":  150
+                       },
+                       {
+                           "Path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\src\\sgoda\\learning_platform\\api.py",
+                           "AppVariable":  "app",
+                           "Score":  10
+                       },
+                       {
+                           "Path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\src\\sgoda\\operational_platform\\api.py",
+                           "AppVariable":  "app",
+                           "Score":  10
+                       },
+                       {
+                           "Path":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\src\\sgoda\\platform\\api.py",
+                           "AppVariable":  "app",
+                           "Score":  10
+                       }
+                   ]
+}

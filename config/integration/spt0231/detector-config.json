@@ -1,0 +1,24 @@
+{
+    "schema":  "spt0231.detector.config.v1",
+    "component":  "SPT-023.1",
+    "version":  "1.0.1",
+    "canonical_language":  "puinave",
+    "source_formats":  [
+                           "json",
+                           "csv",
+                           "xlsx",
+                           "xlsm"
+                       ],
+    "downstream_audio_languages":  [
+                                       "puinave",
+                                       "es",
+                                       "en",
+                                       "it"
+                                   ],
+    "duplicate_policy":  "NORMALIZED_FORM_AND_SHA256",
+    "category_stage":  "SPT-023.3",
+    "image_stage":  "SPT-023.4",
+    "audio_stage":  "SPT-023.5",
+    "human_validation":  "REQUIRED_FOR_NEW_WORDS",
+    "paid_services":  false
+}
