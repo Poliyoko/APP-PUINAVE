@@ -1,0 +1,40 @@
+{
+    "component":  "SPT-022",
+    "version":  "1.0.0",
+    "orchestrator":  "n8n",
+    "integration_mode":  "LOCAL_HTTP_FASTAPI",
+    "publish_policy":  "EXPLICIT_APPROVAL_REQUIRED",
+    "operations":  [
+                       {
+                           "id":  "data-intake",
+                           "trigger":  "webhook",
+                           "source":  "SPT-001B / sgoda.rlb.cli",
+                           "endpoint":  "/api/spt022/run/data-intake"
+                       },
+                       {
+                           "id":  "repository-audit",
+                           "trigger":  "webhook",
+                           "source":  "SPB-003.2",
+                           "endpoint":  "/api/spt022/run/repository-audit"
+                       },
+                       {
+                           "id":  "master-book-update",
+                           "trigger":  "webhook",
+                           "source":  "SPT-021.3",
+                           "endpoint":  "/api/spt022/run/master-book-update"
+                       },
+                       {
+                           "id":  "repository-prepare",
+                           "trigger":  "webhook",
+                           "source":  "SPT-021.0.1-v1.0.8",
+                           "endpoint":  "/api/spt022/run/repository-prepare"
+                       },
+                       {
+                           "id":  "repository-publish",
+                           "trigger":  "manual_approval",
+                           "source":  "SPT-021.0.1-v1.0.8",
+                           "endpoint":  "/api/spt022/run/repository-publish",
+                           "approval_required":  true
+                       }
+                   ]
+}

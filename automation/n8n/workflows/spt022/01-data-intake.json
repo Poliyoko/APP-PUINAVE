@@ -1,0 +1,63 @@
+{
+  "name": "SPT-022 - Data Intake",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "sgoda-spt022-data-intake",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "1514e6cb-2db3-4f01-a0d2-220001000001",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/api/spt022/run/data-intake",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json.body || {} }}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "id": "2514e6cb-2db3-4f01-a0d2-220001000001",
+      "name": "FastAPI SPT-022",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        320,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "FastAPI SPT-022",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "3514e6cb-2db3-4f01-a0d2-220001000001",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}

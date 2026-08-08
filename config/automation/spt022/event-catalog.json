@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-022",
+    "events":  [
+                   "RLB_DATA_RECEIVED",
+                   "RLB_PIPELINE_COMPLETED",
+                   "AUDIT_COMPLETED",
+                   "MASTER_BOOK_UPDATED",
+                   "PUBLICATION_PREPARED",
+                   "PUBLICATION_APPROVED",
+                   "PUBLICATION_COMPLETED",
+                   "WORKFLOW_FAILED"
+               ]
+}

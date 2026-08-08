@@ -1,0 +1,74 @@
+{
+    "component":  "SPT-022",
+    "version":  "1.0.4",
+    "status":  "IMPLEMENTED",
+    "repository":  "https://github.com/Poliyoko/APP-PUINAVE.git",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "baseline_commit":  "331f01df9fa8a65cf7fed662451a534dc21b9ab0",
+    "orchestrator":  "n8n",
+    "integration_mode":  "LOCAL_HTTP_FASTAPI",
+    "reuse_before_build":  true,
+    "reused_components":  [
+                              {
+                                  "path":  "src/sgoda/automation",
+                                  "exists":  true,
+                                  "policy":  "REUSE_BEFORE_BUILD"
+                              },
+                              {
+                                  "path":  "src/sgoda/automation/workflow_engine",
+                                  "exists":  true,
+                                  "policy":  "REUSE_BEFORE_BUILD"
+                              },
+                              {
+                                  "path":  "src/sgoda/automation/workflow_registry",
+                                  "exists":  true,
+                                  "policy":  "REUSE_BEFORE_BUILD"
+                              },
+                              {
+                                  "path":  "src/sgoda/rlb",
+                                  "exists":  true,
+                                  "policy":  "REUSE_BEFORE_BUILD"
+                              },
+                              {
+                                  "path":  "src/sgoda/pmo",
+                                  "exists":  true,
+                                  "policy":  "REUSE_BEFORE_BUILD"
+                              },
+                              {
+                                  "path":  "automation/n8n/workflows",
+                                  "exists":  true,
+                                  "policy":  "REUSE_BEFORE_BUILD"
+                              },
+                              {
+                                  "path":  "tools/institutional/Publish-SGODA-WithMasterBook.ps1",
+                                  "exists":  true,
+                                  "policy":  "REUSE_BEFORE_BUILD"
+                              }
+                          ],
+    "node_installed_by_this_run":  false,
+    "node_winget_package":  "OpenJS.NodeJS.LTS",
+    "n8n_pinned_version":  "2.33.6",
+    "n8n_detected":  true,
+    "n8n_version":  "2.33.6",
+    "n8n_installed_by_this_run":  false,
+    "n8n_workflows_imported":  true,
+    "rerun_safe_after_v1_0_2_partial_execution":  true,
+    "node_version":  "v24.19.0",
+    "node_compatible":  true,
+    "generated_workflows":  4,
+    "publication_workflow_requires_approval":  true,
+    "generated_powershell_syntax_errors":  0,
+    "invalid_json":  0,
+    "n8n_workflow_structure_errors":  0,
+    "n8n_importable_workflow_count":  4,
+    "n8n_publish_policy_imported":  false,
+    "python_compile_exit_code":  0,
+    "tests_passed":  818,
+    "full_pytest_exit_code":  0,
+    "master_book_updated":  true,
+    "master_book_status":  "UPDATED",
+    "master_book_attempts":  1,
+    "prepare_status":  "NOT_REQUESTED",
+    "version_traceability_errors":  0,
+    "technical_errors":  0
+}

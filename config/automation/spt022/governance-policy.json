@@ -1,0 +1,10 @@
+{
+    "local_only_gateway":  true,
+    "n8n_execute_command_node_required":  false,
+    "destructive_automatic_actions":  false,
+    "automatic_git_publish":  false,
+    "publication_requires_explicit_approval":  true,
+    "credentials_in_repository":  false,
+    "reuse_before_build":  true,
+    "master_book_auto_update":  true
+}

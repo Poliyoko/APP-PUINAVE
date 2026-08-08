@@ -5,9 +5,9 @@
     "repository_status":  "READY_FOR_PUBLICATION",
     "mode":  "PREPARE",
     "commit_hash":  "",
-    "tests_passed":  808,
+    "tests_passed":  818,
     "technical_errors":  0,
-    "publication_manifest":  "artifacts/publication/SPT-021.0.1-v1.0.8/runs/20260807-222403/publication-manifest.json",
-    "evidence":  "artifacts/publication/SPT-021.0.1-v1.0.8/runs/20260807-222403/implementation-evidence.json",
+    "publication_manifest":  "artifacts/publication/SPT-021.0.1-v1.0.8/runs/20260808-033902/publication-manifest.json",
+    "evidence":  "artifacts/publication/SPT-021.0.1-v1.0.8/runs/20260808-033902/implementation-evidence.json",
     "act":  "docs/06_Tecnologia/SPT-021.0.1/ACT-021.0.1-Reconciliation-Publication.md"
 }

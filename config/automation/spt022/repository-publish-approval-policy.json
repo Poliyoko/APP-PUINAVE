@@ -1,0 +1,12 @@
+{
+    "name":  "SPT-022 - Repository Publish - Approval Required",
+    "classification":  "INSTITUTIONAL_GOVERNANCE_POLICY",
+    "active":  false,
+    "institutional_status":  "MANUAL_APPROVAL_REQUIRED",
+    "endpoint":  "http://127.0.0.1:8000/api/spt022/run/repository-publish",
+    "required_payload":  {
+                             "approved":  true
+                         },
+    "import_into_n8n":  false,
+    "note":  "Publication is never exposed as an automatic webhook. Invoke only after explicit institutional approval."
+}

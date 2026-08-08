@@ -27,7 +27,7 @@ Los scripts clasificados como HISTORICAL_LEGACY_SCRIPT:
 
 ## Resultado del run
 
-- Active PowerShell files: 248
+- Active PowerShell files: 256
 - Active PowerShell syntax errors: 0
 - Historical legacy scripts detected: 6
 - Historical legacy syntax findings: 46
