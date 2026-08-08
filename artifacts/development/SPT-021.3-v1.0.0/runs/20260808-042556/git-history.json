@@ -1,0 +1,597 @@
+[
+    {
+        "commit":  "303c632b9cac57401c8545397c2238e9c103d8ec",
+        "date":  "2026-08-07T22:55:49-05:00",
+        "subject":  "chore(sgoda): reconcile institutional baseline through SPT-021.0.1"
+    },
+    {
+        "commit":  "331f01df9fa8a65cf7fed662451a534dc21b9ab0",
+        "date":  "2026-08-07T17:35:41-05:00",
+        "subject":  "chore(sgoda): reconcile institutional baseline through SPT-021.0.1"
+    },
+    {
+        "commit":  "d82d9be97385920954a799ac7479222e015065a5",
+        "date":  "2026-08-06T23:03:27-05:00",
+        "subject":  "chore(sgoda): reconcile institutional baseline through SPT-021.0.1"
+    },
+    {
+        "commit":  "4330a3b7e8f17579eda335c271638c00c6d53c35",
+        "date":  "2026-08-03T22:21:01-05:00",
+        "subject":  "chore(consolidation): publish PCI-001.1 R3 evidence"
+    },
+    {
+        "commit":  "69a39cabe7312a0456f2a9f220dd99e4a2e881d0",
+        "date":  "2026-08-03T22:20:19-05:00",
+        "subject":  "fix(consolidation): close PCI-001.1 R3 exact backward compatibility"
+    },
+    {
+        "commit":  "8b25e035caa699f76f3b6ab5620347c015d72cba",
+        "date":  "2026-08-03T13:41:39-05:00",
+        "subject":  "chore(pedagogy): publish SPT-018 evidence"
+    },
+    {
+        "commit":  "734e1fad79b27ee47ad7f09feda5b745a33d7691",
+        "date":  "2026-08-03T13:41:08-05:00",
+        "subject":  "feat(pedagogy): implement SPT-018 SGODA Pedagogical AI"
+    },
+    {
+        "commit":  "0eb9f9eecd5b376cb7b208acde538e1915cfc57d",
+        "date":  "2026-08-03T08:27:04-05:00",
+        "subject":  "chore(knowledge): publish SPT-017 evidence"
+    },
+    {
+        "commit":  "5908a27c7af21a57eea5271e70652b9fa741d4bf",
+        "date":  "2026-08-03T08:26:27-05:00",
+        "subject":  "feat(knowledge): implement SPT-017 Puinave Knowledge Center"
+    },
+    {
+        "commit":  "f71cdc8ed0233164adbe6fba991f90d34df00abf",
+        "date":  "2026-08-03T07:41:47-05:00",
+        "subject":  "chore(governance): publish SGD-117 evidence"
+    },
+    {
+        "commit":  "32ff98950553f70cbc4dd9579675caf5a93186e5",
+        "date":  "2026-08-03T07:41:41-05:00",
+        "subject":  "feat(governance): implement SGD-117 repository manager"
+    },
+    {
+        "commit":  "3fb9ed1e018e3a19bc19f7c2bbf0c248032b7c87",
+        "date":  "2026-08-03T01:14:22-05:00",
+        "subject":  "chore(analytics): publish SPT-016 closure evidence"
+    },
+    {
+        "commit":  "ee978ff160a8b26bb3cf1ce102ced1d27ee0e5ed",
+        "date":  "2026-08-03T01:14:14-05:00",
+        "subject":  "feat(analytics): close SPT-016 learning analytics engine"
+    },
+    {
+        "commit":  "35085439ab45e02ad9f431cc59ae3d17ae52573d",
+        "date":  "2026-08-03T00:55:44-05:00",
+        "subject":  "chore(governance): publish SGD-114G v1.0.1 evidence"
+    },
+    {
+        "commit":  "2eab73e4be54f41923b7076e0f3bfe46fc7922c1",
+        "date":  "2026-08-03T00:55:12-05:00",
+        "subject":  "fix(governance): migrate legacy release manifests"
+    },
+    {
+        "commit":  "2af0f980736f358e3ae8bc7c6eaee8831b997e43",
+        "date":  "2026-08-02T22:33:52-05:00",
+        "subject":  "chore(governance): publish SGD-114F synchronized evidence"
+    },
+    {
+        "commit":  "cdacc3667df9d67c2bf824e7c2d7484f724f0194",
+        "date":  "2026-08-02T22:33:43-05:00",
+        "subject":  "feat(governance): implement SGD-114F test evidence synchronizer"
+    },
+    {
+        "commit":  "89f90b581bd4193c8e91ea7a796015fe747a0deb",
+        "date":  "2026-08-02T22:03:58-05:00",
+        "subject":  "chore(multimedia): publish SPT-014 evidence"
+    },
+    {
+        "commit":  "e6e8ecc6f6caaa7c7a6e2aa6f03e48dd86da8551",
+        "date":  "2026-08-02T22:03:49-05:00",
+        "subject":  "feat(multimedia): implement SPT-014 intelligent multimedia engine"
+    },
+    {
+        "commit":  "d93f45b71f7e39b8c2fe55d340943ff4dc626efa",
+        "date":  "2026-08-02T21:47:01-05:00",
+        "subject":  "chore(dictionary): publish SPT-013B evidence"
+    },
+    {
+        "commit":  "a66b1cee5336f18f82733d07a5277ce14e60c5db",
+        "date":  "2026-08-02T21:46:53-05:00",
+        "subject":  "feat(dictionary): implement SPT-013B institutional dictionary manager"
+    },
+    {
+        "commit":  "1fbc381a142ac1f8b1b492df576cd3d1e433ecf3",
+        "date":  "2026-08-02T21:21:02-05:00",
+        "subject":  "chore(learning): publish SPT-013A v1.0.1 evidence"
+    },
+    {
+        "commit":  "609d3d833f9bf2a99b3ce02a02a7e6eb6db01709",
+        "date":  "2026-08-02T21:20:30-05:00",
+        "subject":  "fix(learning): resolve SPT-013A external baseline dependency"
+    },
+    {
+        "commit":  "df12382f69e87ffc4fe8b77f6838ac6408822883",
+        "date":  "2026-08-02T18:51:17-05:00",
+        "subject":  "chore(governance): publish SGD-114E-C1 evidence"
+    },
+    {
+        "commit":  "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c",
+        "date":  "2026-08-02T18:51:09-05:00",
+        "subject":  "fix(governance): implement SGD-114E-C1 validator fix"
+    },
+    {
+        "commit":  "c2ae3c9cf262f8d37c9881984e5c35aad980c831",
+        "date":  "2026-08-02T18:00:30-05:00",
+        "subject":  "chore(learning): publish SPT-012 evidence"
+    },
+    {
+        "commit":  "b768cc691896c8ffc349c6bcd4b9c3b5555a5023",
+        "date":  "2026-08-02T18:00:24-05:00",
+        "subject":  "feat(learning): implement SPT-012 SGODA learning platform"
+    },
+    {
+        "commit":  "c7fbd477eea8ca62a0defdf48c54bb28bccda97b",
+        "date":  "2026-08-02T17:28:40-05:00",
+        "subject":  "chore(documentation): publish SGD-115A evidence"
+    },
+    {
+        "commit":  "8359a24aa533c6cd02b84966ffc2affa64658625",
+        "date":  "2026-08-02T17:28:31-05:00",
+        "subject":  "fix(documentation): implement SGD-115A canonical component resolver"
+    },
+    {
+        "commit":  "07f909f01e928cc8d31429c16d23ae72438f397c",
+        "date":  "2026-08-02T16:17:03-05:00",
+        "subject":  "chore(platform): publish SPT-010 v1.0.2 evidence"
+    },
+    {
+        "commit":  "bb1fb4ab37b97f6152193eb8523fe641487442e5",
+        "date":  "2026-08-02T16:16:57-05:00",
+        "subject":  "fix(platform): implement SPT-010 v1.0.2 integrated platform correction"
+    },
+    {
+        "commit":  "a6bdccc25116c539aa147a057681feb3de45e996",
+        "date":  "2026-08-02T15:30:03-05:00",
+        "subject":  "chore(ai): publish integrated intelligence evidence"
+    },
+    {
+        "commit":  "8ebaa631494c3f85f8e5e965c45f331b7b7d83bb",
+        "date":  "2026-08-02T15:29:57-05:00",
+        "subject":  "feat(ai): implement SPT-007D SPT-008 SPT-009 integrated intelligence suite"
+    },
+    {
+        "commit":  "2889c3f2d02f2428015fbb59941a034ce6b64ce8",
+        "date":  "2026-08-02T15:17:58-05:00",
+        "subject":  "chore(knowledge): publish SPT-007C evidence"
+    },
+    {
+        "commit":  "abcc85253a42378a26e976eb45ba181269e6d045",
+        "date":  "2026-08-02T15:17:52-05:00",
+        "subject":  "feat(knowledge): implement SPT-007C linguistic cultural knowledge engine"
+    },
+    {
+        "commit":  "7d63b8e28b9ffac3c6d32c5236e734c10aede937",
+        "date":  "2026-08-02T14:58:41-05:00",
+        "subject":  "chore(semantic): publish SPT-007B evidence"
+    },
+    {
+        "commit":  "6388b06b6f0c47ca5459b53769a036f99da61bcd",
+        "date":  "2026-08-02T14:58:34-05:00",
+        "subject":  "feat(semantic): implement SPT-007B semantic lexical engine"
+    },
+    {
+        "commit":  "22c96bab9b2dc9ac5cc0c9e9be60aa31f75ecf46",
+        "date":  "2026-08-02T14:42:12-05:00",
+        "subject":  "chore(lexical): publish SPT-007A evidence"
+    },
+    {
+        "commit":  "c715d1e678742e360aab7fdf954542dedca9ffbf",
+        "date":  "2026-08-02T14:42:06-05:00",
+        "subject":  "feat(lexical): implement SPT-007A intelligent lexical engine"
+    },
+    {
+        "commit":  "90d4a6523ece9bb2d00227f2a66c6404bd1feb9a",
+        "date":  "2026-08-02T14:11:05-05:00",
+        "subject":  "chore(governance): publish SGD-114C evidence"
+    },
+    {
+        "commit":  "51a0594d1b1f2acddaf401867238be5edbf71fc6",
+        "date":  "2026-08-02T14:10:35-05:00",
+        "subject":  "feat(governance): implement SGD-114C Policy Governance Core"
+    },
+    {
+        "commit":  "8ce1ead868999a71530de63b8bcd6c3ac80897cd",
+        "date":  "2026-08-02T06:44:47-05:00",
+        "subject":  "chore(language): publish SPT-006A v0.2.0 evidence"
+    },
+    {
+        "commit":  "f3b3b2167ba40aaedc11b49f8d46d0fea5224567",
+        "date":  "2026-08-02T06:44:41-05:00",
+        "subject":  "feat(language): implement SPT-006A free local multilingual engine"
+    },
+    {
+        "commit":  "c445d748492260d73459bc00b04cb72c5870bd13",
+        "date":  "2026-08-02T06:17:37-05:00",
+        "subject":  "chore(enrichment): publish SPT-006 evidence"
+    },
+    {
+        "commit":  "63b08ddfd35baff88fc44a7199e0595776b3c8e5",
+        "date":  "2026-08-02T06:17:30-05:00",
+        "subject":  "feat(enrichment): implement SPT-006 multilingual multimedia pipeline"
+    },
+    {
+        "commit":  "b6b1c08de5365dc69c56ee3457aca106cc82bcb6",
+        "date":  "2026-08-02T06:01:28-05:00",
+        "subject":  "chore(identity): publish SPT-005 evidence"
+    },
+    {
+        "commit":  "58fbb38d04227a99e72d408d5001f7978421ec72",
+        "date":  "2026-08-02T06:01:23-05:00",
+        "subject":  "feat(identity): implement SPT-005 configurable cultural identity"
+    },
+    {
+        "commit":  "a60a78b5772696b68ccc5a5f8315c64cbfd03f4f",
+        "date":  "2026-08-02T05:49:44-05:00",
+        "subject":  "chore(builder): publish SIB-001 evidence"
+    },
+    {
+        "commit":  "614dc057dc4c9dac98bceb23925e5db0701bd38a",
+        "date":  "2026-08-02T05:49:39-05:00",
+        "subject":  "feat(builder): implement SIB-001 SGODA Installer Builder"
+    },
+    {
+        "commit":  "fdfd33b33b8d6220e4d7b4799ae7bb92ceb1254b",
+        "date":  "2026-08-02T05:07:49-05:00",
+        "subject":  "chore(assistant): publish SPT-004A evidence"
+    },
+    {
+        "commit":  "0819ef21e9a25e5b5e108e4313d2b42b3b46006a",
+        "date":  "2026-08-02T05:07:43-05:00",
+        "subject":  "feat(assistant): implement SPT-004A institutional assistant foundation"
+    },
+    {
+        "commit":  "a51255a076efd2b0cf6874cb504ecbabb940b492",
+        "date":  "2026-08-02T04:48:51-05:00",
+        "subject":  "chore(automation): publish SPT-003C evidence"
+    },
+    {
+        "commit":  "a5837d881312e1d332cb4cd2880093bb0bbbf00c",
+        "date":  "2026-08-02T04:48:46-05:00",
+        "subject":  "feat(automation): implement SPT-003C controlled provider pilot"
+    },
+    {
+        "commit":  "5db8234a152f7765cf4269f99a4aef2ae4a4a3df",
+        "date":  "2026-08-02T04:39:05-05:00",
+        "subject":  "chore(documentation): publish SGD-115 evidence"
+    },
+    {
+        "commit":  "98b773ce05743b46ceb268be950fe65f30024662",
+        "date":  "2026-08-02T04:39:00-05:00",
+        "subject":  "fix(documentation): complete SGD-115 path validation"
+    },
+    {
+        "commit":  "f2b9a89aed2be4a39c6f543fc596c5424cad7b9b",
+        "date":  "2026-08-02T04:23:41-05:00",
+        "subject":  "chore(automation): publish SPT-003B evidence"
+    },
+    {
+        "commit":  "2fbfa6378a8cb0dc66970c4d45e23deb3d453de2",
+        "date":  "2026-08-02T04:23:36-05:00",
+        "subject":  "feat(automation): implement SPT-003B AI multimedia adapters"
+    },
+    {
+        "commit":  "2560793e851e06420416d891763f736ff8995bbf",
+        "date":  "2026-08-02T04:12:07-05:00",
+        "subject":  "chore(automation): publish SPT-003A evidence"
+    },
+    {
+        "commit":  "49251df8fda69ac1359b1aa7105fab8e1d996aa9",
+        "date":  "2026-08-02T04:12:03-05:00",
+        "subject":  "feat(automation): implement SPT-003A multimedia orchestrator"
+    },
+    {
+        "commit":  "08be738f65261b3fde534f67819ae42ccf5ae5ec",
+        "date":  "2026-08-02T03:57:11-05:00",
+        "subject":  "chore(repository): publish final SPB-007 evidence"
+    },
+    {
+        "commit":  "208d0ec2001be004e0bb9cd4c9973d5c59da83bf",
+        "date":  "2026-08-02T03:57:06-05:00",
+        "subject":  "fix(repository): handle empty Git change collections"
+    },
+    {
+        "commit":  "8550cb3897519c0d2af6c9bedb4995a2ab5ea0de",
+        "date":  "2026-08-02T03:53:31-05:00",
+        "subject":  "chore(repository): publish final audit evidence"
+    },
+    {
+        "commit":  "9bd5cf3496b37001d2d454f2ca3f4c33fc554eb8",
+        "date":  "2026-08-02T03:53:26-05:00",
+        "subject":  "fix(repository): complete SPB-007 two-phase publication"
+    },
+    {
+        "commit":  "f5050a1bf1716b2fbcd494b17b5b6f970f7276fc",
+        "date":  "2026-08-02T03:47:58-05:00",
+        "subject":  "feat(repository): publish SGODA-PUINAVE institutional baseline"
+    },
+    {
+        "commit":  "7a945a744aa563492d9156718678a831600f7994",
+        "date":  "2026-07-31T01:16:38-05:00",
+        "subject":  "chore(repository): add encoding CI and pytest configuration"
+    },
+    {
+        "commit":  "b4855f5dffb012492ee8801490da41520601e9fe",
+        "date":  "2026-07-31T01:13:59-05:00",
+        "subject":  "chore(repository): consolidate UTF-8 governance and test baseline"
+    },
+    {
+        "commit":  "45c11bf2f268bdb7c40d2d69ecea4479435ca451",
+        "date":  "2026-07-31T00:20:14-05:00",
+        "subject":  "docs(pmo): close SPB-006 with institutional package"
+    },
+    {
+        "commit":  "8849baf9b7625d32dfe73eb486e86491af8f5469",
+        "date":  "2026-07-30T23:23:51-05:00",
+        "subject":  "feat(sems): consolidate core and retention governance"
+    },
+    {
+        "commit":  "ce11985f51bd79b8fc9040d386f2014e7867a6dc",
+        "date":  "2026-07-30T00:46:31-05:00",
+        "subject":  "feat(pmo): close SPB-005.3 UTF-8 repository standard"
+    },
+    {
+        "commit":  "6cd76239a0c43b87dc30ebd0dc97355a6d92b17b",
+        "date":  "2026-07-29T00:51:53-05:00",
+        "subject":  "SPB-005.2-F001-F002: implementar y validar Platform Kernel"
+    },
+    {
+        "commit":  "87fa02a6cb7990edecd018cd7d7055b450972b9b",
+        "date":  "2026-07-28T23:10:03-05:00",
+        "subject":  "SPB-005.1-F001: incorporar Foundation Runtime FastAPI"
+    },
+    {
+        "commit":  "92c777ef7cb76b03f7a63ac0486cdd906d1b7d8b",
+        "date":  "2026-07-28T20:42:34-05:00",
+        "subject":  "SPB-005.1-F001: incorporar instalador Foundation Runtime"
+    },
+    {
+        "commit":  "4d3cec9bf119d4b7db795542677486d8e3c52cb1",
+        "date":  "2026-07-28T20:16:22-05:00",
+        "subject":  "SPB-003.2: actualizar dictamen y evidencias de auditor├¡a"
+    },
+    {
+        "commit":  "12f4e8ccddea45daf0f752a8d2917680b560977e",
+        "date":  "2026-07-28T01:23:44-05:00",
+        "subject":  "feat(SPB-003.2): integrar PMO Digital y Auditor del Repositorio"
+    },
+    {
+        "commit":  "eff59b730241badfec7dc420050a1fd0e60624fb",
+        "date":  "2026-07-23T23:16:46-05:00",
+        "subject":  "docs(dmp): add master project tracking baseline"
+    },
+    {
+        "commit":  "8b8054bd81632033c49bf9fa71fc37ed2181fd50",
+        "date":  "2026-07-23T00:59:15-05:00",
+        "subject":  "feat(dmp): enforce formal record lifecycle"
+    },
+    {
+        "commit":  "8afc53367ae0e62f1a8b0a487591510e26664841",
+        "date":  "2026-07-22T23:40:51-05:00",
+        "subject":  "feat(dmp): add DMP foundation and registry service"
+    },
+    {
+        "commit":  "4534c1f8cfdbf7d64a95305a07ebf7687cb0322b",
+        "date":  "2026-07-20T22:25:13-05:00",
+        "subject":  "style(governance): remove trailing blank line"
+    },
+    {
+        "commit":  "170d1547f86aeb8b21ea75df854ae62621754000",
+        "date":  "2026-07-20T22:20:34-05:00",
+        "subject":  "feat(governance): complete governance services and validation"
+    },
+    {
+        "commit":  "e5b022560bdc8ae679371e9c4dd9b97e55d2a7ad",
+        "date":  "2026-07-20T21:15:03-05:00",
+        "subject":  "feat(audit): add AuditService facade"
+    },
+    {
+        "commit":  "b927a58be21c8f46ae84209d40cc4773e9abb386",
+        "date":  "2026-07-18T15:23:58-05:00",
+        "subject":  "feat: add governance policy engine foundation"
+    },
+    {
+        "commit":  "7f5c10c305899e9021387f630a26100244cfffd5",
+        "date":  "2026-07-17T08:02:28-05:00",
+        "subject":  "docs: update CHANGELOG for SPB-002.9-B"
+    },
+    {
+        "commit":  "1b1827ffa045f87a1bd20ba03730c2e1172cf169",
+        "date":  "2026-07-17T08:00:45-05:00",
+        "subject":  "feat: complete SPB-002.9-B repository index synchronization"
+    },
+    {
+        "commit":  "76bd7da7af494d6e0b848d2223a87731ef539a3b",
+        "date":  "2026-07-17T00:51:56-05:00",
+        "subject":  "feat: implementar SPB-002.9-A gestion de repositorios remotos"
+    },
+    {
+        "commit":  "d6d60629a0fce030b85fb0f74a65b1759ab57907",
+        "date":  "2026-07-17T00:21:45-05:00",
+        "subject":  "feat: implementar SPB-002.8-C-B3 exportacion importacion y reporte consolidado"
+    },
+    {
+        "commit":  "d58ffb1f8f23b769e7de4aa8c8240c4a5565cc7b",
+        "date":  "2026-07-16T23:36:19-05:00",
+        "subject":  "feat: implementar SPB-002.8-C-B2 bundles y operaciones masivas"
+    },
+    {
+        "commit":  "43e3fd1d1f8c07f5dc1063d833ee3080ed98cdeb",
+        "date":  "2026-07-16T21:25:20-05:00",
+        "subject":  "feat(builder): implementar SPB-002.8-B integridad y diagnostico avanzado de plantillas (bloque 3)"
+    },
+    {
+        "commit":  "7e1d2102bad593014c4e782ad0debb67f4764e89",
+        "date":  "2026-07-16T20:34:12-05:00",
+        "subject":  "feat(builder): implementar SPB-002.8-B gestion avanzada y versionado de plantillas (bloques 1 y 2)"
+    },
+    {
+        "commit":  "7190a26806bdb08d4034cc69684214269f1a4497",
+        "date":  "2026-07-16T01:40:17-05:00",
+        "subject":  "feat(builder): implementar SPB-002.8-A integridad y diagnostico ampliado (bloque 3)"
+    },
+    {
+        "commit":  "dcc502d78ed22254bb3fea06913c8005755123f2",
+        "date":  "2026-07-16T01:09:48-05:00",
+        "subject":  "feat(builder): implementar SPB-002.8-A actualizacion atomica de plugins (bloque 2)"
+    },
+    {
+        "commit":  "c51a85975742ad5ad2232b6ca41c77eb6a5491bb",
+        "date":  "2026-07-16T00:52:19-05:00",
+        "subject":  "feat(builder): implementar SPB-002.8-A gestion avanzada de plugins (bloque 1)"
+    },
+    {
+        "commit":  "4b0fa50849c42c564df98cde5c7382c436681a3e",
+        "date":  "2026-07-15T23:42:57-05:00",
+        "subject":  "feat(builder): completar SPB-002.7-C reportes ejecutivos avanzados y corregir HTML"
+    },
+    {
+        "commit":  "ea78942950c33572cbbe9bf4aff217dd6e654590",
+        "date":  "2026-07-14T23:32:15-05:00",
+        "subject":  "feat(builder): implementar SPB-002.7-C reportes ejecutivos (bloque 1)"
+    },
+    {
+        "commit":  "f10b272728e7260014f144f029107da84b4af26d",
+        "date":  "2026-07-14T22:49:07-05:00",
+        "subject":  "feat(builder): implementar SPB-002.7-B historial de eventos"
+    },
+    {
+        "commit":  "4b676dbc72af6397e6c74e8eaf6e8a9734439387",
+        "date":  "2026-07-14T21:46:47-05:00",
+        "subject":  "feat(builder): implementar SPB-002.7-A telemetria y estado operativo"
+    },
+    {
+        "commit":  "2ddee9e03cea909a220c4724090cb547b367cbcb",
+        "date":  "2026-07-14T07:11:33-05:00",
+        "subject":  "feat(builder): implementar SPB-002.6-C plugins y plantillas"
+    },
+    {
+        "commit":  "33e77c8246d712bfd9de92d515c2d418adc6399f",
+        "date":  "2026-07-14T06:43:52-05:00",
+        "subject":  "feat(builder): implementar SPB-002.6-B diagnostico y reparacion automatica"
+    },
+    {
+        "commit":  "594fbd6a08c5809940a52a6c3b725b6e1a69f2dd",
+        "date":  "2026-07-14T05:06:39-05:00",
+        "subject":  "feat(builder): implementar SPB-002.6-A actualizacion y migracion de proyectos"
+    },
+    {
+        "commit":  "4074383a43a0ac2e4e2a7483a6f90ee81c66f678",
+        "date":  "2026-07-14T03:50:34-05:00",
+        "subject":  "fix(release): actualizar pruebas a version 1.0.0"
+    },
+    {
+        "commit":  "4bb62311b4d835a359a99fad5153cc697647dc02",
+        "date":  "2026-07-14T03:40:38-05:00",
+        "subject":  "feat(builder): implementar SPB-002.5-C publicacion profesional"
+    },
+    {
+        "commit":  "a3f7618cfad2b5c34927a0fcb965a643ae10218b",
+        "date":  "2026-07-14T03:27:56-05:00",
+        "subject":  "fix(ci): actualizar pruebas a version 0.10.0"
+    },
+    {
+        "commit":  "85310fac7dd021fb86de29b6ce26f90a16a39241",
+        "date":  "2026-07-14T03:12:33-05:00",
+        "subject":  "feat(builder): implementar SPB-002.5-B integracion continua profesional"
+    },
+    {
+        "commit":  "677fe09f62df366e71d6b6a75f07ec7e1d2d30b4",
+        "date":  "2026-07-14T02:52:00-05:00",
+        "subject":  "feat(builder): implementar SPB-002.5-A empaquetado profesional"
+    },
+    {
+        "commit":  "a6dcd05effd2ce009f5bee9d7a92f9835f458b8c",
+        "date":  "2026-07-14T02:15:47-05:00",
+        "subject":  "Merge branch \u0027feature/SPB-002.4\u0027"
+    },
+    {
+        "commit":  "6c9de1cf765a2c9f7ec1156297f00a582db9d935",
+        "date":  "2026-07-14T02:13:15-05:00",
+        "subject":  "feat(builder): implementar SPB-002.4-C informes modo estricto e integracion continua"
+    },
+    {
+        "commit":  "45b3bd4ce9cf0586abc3149a0bc593e68796635b",
+        "date":  "2026-07-14T01:30:26-05:00",
+        "subject":  "feat(builder): implementar SPB-002.4-B reglas de calidad y gobierno"
+    },
+    {
+        "commit":  "eec7f0c9f89a01b88422c1daf06deee724d1a544",
+        "date":  "2026-07-14T01:09:58-05:00",
+        "subject":  "feat(builder): implementar SPB-002.4-A motor de auditoria base"
+    },
+    {
+        "commit":  "d9a0b63e830a1d9a0d7efee225bf9905007fd64a",
+        "date":  "2026-07-14T00:49:30-05:00",
+        "subject":  "Merge branch \u0027feature/SPB-002.3\u0027"
+    },
+    {
+        "commit":  "57d043cd569698918fd14ae55c57234c412a3258",
+        "date":  "2026-07-14T00:30:13-05:00",
+        "subject":  "feat(builder): implementar SPB-002.3 entrega C generadores api workflow docs"
+    },
+    {
+        "commit":  "c3cd8a4f89aecd80b3aa504218f98548a8b6ac47",
+        "date":  "2026-07-13T23:54:42-05:00",
+        "subject":  "feat(builder): implementar SPB-002.3 entrega B generadores frontend database module"
+    },
+    {
+        "commit":  "f655ee4301f2b7843318e40e10677e04e76e6491",
+        "date":  "2026-07-13T23:28:05-05:00",
+        "subject":  "feat(builder): implementar SPB-002.3 entrega A generador backend"
+    },
+    {
+        "commit":  "1d457cec9e43fe95fd4f955a521e891836433f35",
+        "date":  "2026-07-13T22:45:08-05:00",
+        "subject":  "feat(builder): implementar SPB-002.2 inicializador profesional"
+    },
+    {
+        "commit":  "a0ee52aebfb6eb61e03959cead068c08a29a0dd3",
+        "date":  "2026-07-13T19:23:35-05:00",
+        "subject":  "chore(git): ignorar respaldos y artefactos locales"
+    },
+    {
+        "commit":  "1c92494aaa8d003c68d2e4a788b76d4f54be6ef4",
+        "date":  "2026-07-13T19:22:22-05:00",
+        "subject":  "refactor(builder): mover Builder a ubicaci├│n definitiva"
+    },
+    {
+        "commit":  "d7bdfe8dfe105a307bd654dac9ecee06717132b0",
+        "date":  "2026-07-13T18:54:18-05:00",
+        "subject":  "feat(builder): cerrar SPB-002.1-F001 Builder ejecutable"
+    },
+    {
+        "commit":  "fdd3527e18390ef48c90c0d632acdfa765791728",
+        "date":  "2026-07-13T19:35:37-05:00",
+        "subject":  "chore(git): excluir documento local del repositorio"
+    },
+    {
+        "commit":  "d28f90a726fc25d2bdf27562fbc4dc6f511cd049",
+        "date":  "2026-07-13T19:28:25-05:00",
+        "subject":  "refactor(builder): consolidar SPB-002.1-F001 en ubicaci├│n definitiva"
+    },
+    {
+        "commit":  "f219826dbd6543e5f020efe273f7999a1af33866",
+        "date":  "2026-07-12T17:29:05-05:00",
+        "subject":  "proyecto MTM JGSA"
+    },
+    {
+        "commit":  "7e51ae48143e1f69db1b8aeb58fafaf77187c543",
+        "date":  "2026-07-12T17:32:49-05:00",
+        "subject":  "PROYECTO MTM UD 2026"
+    }
+]

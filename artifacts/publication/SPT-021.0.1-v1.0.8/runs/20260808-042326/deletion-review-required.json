@@ -1,0 +1,17 @@
+[
+    {
+        "path":  "SGODA-PUINAVE/1. Instalaci├│n de repositorio GitHu.txt",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "Install-SPT022.1-v1.0.1-Publish-OneFile-PS51.ps1",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    },
+    {
+        "path":  "1. Instalaci├│n de repositorio GitHu.txt",
+        "classification":  "DELETION_REVIEW_REQUIRED",
+        "auto_stage":  false
+    }
+]

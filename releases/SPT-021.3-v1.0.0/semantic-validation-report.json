@@ -2,13 +2,13 @@
     "component":  "SPT-021.3",
     "version":  "1.0.0",
     "minimum_canonical_components":  500,
-    "actual_canonical_components":  3879,
+    "actual_canonical_components":  3883,
     "minimum_institutional_records":  800,
-    "actual_institutional_records":  68519,
+    "actual_institutional_records":  70197,
     "minimum_book_lines":  2500,
-    "actual_book_lines":  73587,
+    "actual_book_lines":  75273,
     "minimum_book_words":  25000,
-    "actual_book_words":  1334130,
+    "actual_book_words":  1364836,
     "missing_sections":  [
 
                          ],

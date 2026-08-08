@@ -3,11 +3,11 @@
     "version":  "1.0.0",
     "status":  "BLOCKED",
     "book":  "docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
-    "evidence":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-033053/implementation-evidence.json",
+    "evidence":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-041556/implementation-evidence.json",
     "act":  "docs/06_Tecnologia/SPT-021.3/ACT-021.3-Cierre-Institutional-Master-Book-Generator.md",
-    "canonical_inventory":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-033053/canonical-components.json",
-    "detailed_inventory":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-033053/institutional-detailed-records.json",
-    "dashboard":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-033053/dashboard-summary.json",
+    "canonical_inventory":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-041556/canonical-components.json",
+    "detailed_inventory":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-041556/institutional-detailed-records.json",
+    "dashboard":  "artifacts/development/SPT-021.3-v1.0.0/runs/20260808-041556/dashboard-summary.json",
     "tests_passed":  0,
     "technical_errors":  2
 }
