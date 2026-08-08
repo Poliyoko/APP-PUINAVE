@@ -1,14 +1,14 @@
 {
-    "repository_files":  5089,
-    "textual_sources":  3485,
+    "repository_files":  5157,
+    "textual_sources":  3542,
     "canonical_components":  3883,
-    "institutional_records":  70197,
+    "institutional_records":  72635,
     "families":  12,
     "phases":  14,
     "statuses":  4,
-    "commits":  119,
+    "commits":  120,
     "tags":  39,
-    "tests_passed":  0,
-    "book_lines":  75273,
-    "book_words":  1364836
+    "tests_passed":  818,
+    "book_lines":  77713,
+    "book_words":  1409289
 }

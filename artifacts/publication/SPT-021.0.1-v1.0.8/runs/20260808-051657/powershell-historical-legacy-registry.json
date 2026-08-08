@@ -1,0 +1,50 @@
+[
+    {
+        "path":  "Repair-SPT011A-v1.0.1-Institutional-Evidence-Closure.ps1",
+        "classification":  "HISTORICAL_LEGACY_SCRIPT",
+        "preserved":  true,
+        "active_gate":  false,
+        "exists":  true,
+        "rationale":  "Historical closed-component installer/repair evidence; preserved for institutional traceability and excluded only from the active PowerShell syntax gate."
+    },
+    {
+        "path":  "Repair-SGD114E-v2.0.0-R2-Self-Validation-Closure.ps1",
+        "classification":  "HISTORICAL_LEGACY_SCRIPT",
+        "preserved":  true,
+        "active_gate":  false,
+        "exists":  true,
+        "rationale":  "Historical closed-component installer/repair evidence; preserved for institutional traceability and excluded only from the active PowerShell syntax gate."
+    },
+    {
+        "path":  "Repair-SPT010-v1.0.1-JSON-Payload-Institutional-Closure.ps1",
+        "classification":  "HISTORICAL_LEGACY_SCRIPT",
+        "preserved":  true,
+        "active_gate":  false,
+        "exists":  true,
+        "rationale":  "Historical closed-component installer/repair evidence; preserved for institutional traceability and excluded only from the active PowerShell syntax gate."
+    },
+    {
+        "path":  "Install-SGD114E-v1.0.0-Native-Ecosystem-Architecture-Policy.ps1",
+        "classification":  "HISTORICAL_LEGACY_SCRIPT",
+        "preserved":  true,
+        "active_gate":  false,
+        "exists":  true,
+        "rationale":  "Historical closed-component installer/repair evidence; preserved for institutional traceability and excluded only from the active PowerShell syntax gate."
+    },
+    {
+        "path":  "Close-SPT016-v1.0.0-Learning-Analytics-Official-Closure.ps1",
+        "classification":  "HISTORICAL_LEGACY_SCRIPT",
+        "preserved":  true,
+        "active_gate":  false,
+        "exists":  true,
+        "rationale":  "Historical closed-component installer/repair evidence; preserved for institutional traceability and excluded only from the active PowerShell syntax gate."
+    },
+    {
+        "path":  "Install-SGD114D-v1.0.0-Adaptive-Institutional-Policy-Engine.ps1",
+        "classification":  "HISTORICAL_LEGACY_SCRIPT",
+        "preserved":  true,
+        "active_gate":  false,
+        "exists":  true,
+        "rationale":  "Historical closed-component installer/repair evidence; preserved for institutional traceability and excluded only from the active PowerShell syntax gate."
+    }
+]
