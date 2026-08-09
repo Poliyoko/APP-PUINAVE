@@ -1,0 +1,15 @@
+{
+    "schema_version":  "2.0.0",
+    "generated_utc":  "2026-08-09T23:17:30.3471181Z",
+    "certified_head":  "889455a4328c84258cfa523977dfda7ba40b404d",
+    "audit_run":  "20260809-173436",
+    "audit_records":  1576,
+    "versioning_candidates":  386,
+    "ignore_candidates":  1160,
+    "backup_review":  27,
+    "oversized_100mb":  2,
+    "potential_secrets":  1,
+    "secret_content_exposed":  false,
+    "destructive_actions":  0,
+    "preflight":  "PASS"
+}

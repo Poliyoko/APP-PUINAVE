@@ -1,0 +1,84 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "audit":  "SGODA-Untracked-Institutional-Audit",
+    "generated_utc":  "2026-08-09T20:52:12.9968447Z",
+    "repository":  "https://github.com/Poliyoko/APP-PUINAVE.git",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "certified_head":  "889455a4328c84258cfa523977dfda7ba40b404d",
+    "untracked_detected":  1576,
+    "files_analyzed":  1576,
+    "categories":  [
+                       {
+                           "Category":  "RUNTIME_TRANSIENT",
+                           "Count":  1161
+                       },
+                       {
+                           "Category":  "DEVELOPMENT_EVIDENCE",
+                           "Count":  376
+                       },
+                       {
+                           "Category":  "BACKUP_REVIEW",
+                           "Count":  27
+                       },
+                       {
+                           "Category":  "CONSOLIDATION_EVIDENCE",
+                           "Count":  5
+                       },
+                       {
+                           "Category":  "RECONCILIATION_EVIDENCE",
+                           "Count":  3
+                       },
+                       {
+                           "Category":  "TOOL_CANDIDATE",
+                           "Count":  1
+                       },
+                       {
+                           "Category":  "RELEASE_CANDIDATE",
+                           "Count":  1
+                       },
+                       {
+                           "Category":  "PMO_EVIDENCE",
+                           "Count":  1
+                       },
+                       {
+                           "Category":  "PUBLICATION_EVIDENCE",
+                           "Count":  1
+                       }
+                   ],
+    "decisions":  [
+                      {
+                          "Decision":  "IGNORE_POLICY_CANDIDATE",
+                          "Count":  1160
+                      },
+                      {
+                          "Decision":  "PRESERVE_AND_REVIEW_FOR_VERSIONING",
+                          "Count":  386
+                      },
+                      {
+                          "Decision":  "MANUAL_CLASSIFICATION_REQUIRED",
+                          "Count":  27
+                      },
+                      {
+                          "Decision":  "PRESERVE_OUTSIDE_NORMAL_GIT",
+                          "Count":  2
+                      },
+                      {
+                          "Decision":  "HOLD_SECRET_REVIEW",
+                          "Count":  1
+                      }
+                  ],
+    "duplicate_hash_groups":  14,
+    "files_in_duplicate_groups":  61,
+    "tracked_duplicates":  0,
+    "oversized_100mb":  2,
+    "large_25_99mb":  57,
+    "potential_secrets":  1,
+    "validation_failures":  0,
+    "long_paths":  0,
+    "eol_mismatches":  358,
+    "destructive_actions":  0,
+    "git_add":  false,
+    "git_commit":  false,
+    "git_push":  false,
+    "files_deleted":  0
+}

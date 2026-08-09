@@ -1,0 +1,126 @@
+
+=================================== ERRORS ====================================
+__________ ERROR collecting tests/rlb/test_SPT_001B_P06_contract.py ___________
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\rlb\test_SPT_001B_P06_contract.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rlb\test_SPT_001B_P06_contract.py:6: in <module>
+    from sgoda.rlb.pipeline import ejecutar_pipeline
+src\sgoda\rlb\__init__.py:12: in <module>
+    from .excel_reader import (
+src\sgoda\rlb\excel_reader.py:9: in <module>
+    from openpyxl import load_workbook
+E   ModuleNotFoundError: No module named 'openpyxl'
+______ ERROR collecting tests/rlb/test_SPT_001B_P07_header_normalizer.py ______
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\rlb\test_SPT_001B_P07_header_normalizer.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rlb\test_SPT_001B_P07_header_normalizer.py:6: in <module>
+    from openpyxl import Workbook
+E   ModuleNotFoundError: No module named 'openpyxl'
+______ ERROR collecting tests/rlb/test_SPT_001B_P08_canonical_closure.py ______
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\rlb\test_SPT_001B_P08_canonical_closure.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rlb\test_SPT_001B_P08_canonical_closure.py:7: in <module>
+    from sgoda.rlb.canonical_consolidator import (
+src\sgoda\rlb\__init__.py:12: in <module>
+    from .excel_reader import (
+src\sgoda\rlb\excel_reader.py:9: in <module>
+    from openpyxl import load_workbook
+E   ModuleNotFoundError: No module named 'openpyxl'
+_______________ ERROR collecting tests/rlb/test_excel_reader.py _______________
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\rlb\test_excel_reader.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rlb\test_excel_reader.py:5: in <module>
+    from openpyxl import Workbook
+E   ModuleNotFoundError: No module named 'openpyxl'
+_________________ ERROR collecting tests/rlb/test_exporter.py _________________
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\rlb\test_exporter.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rlb\test_exporter.py:6: in <module>
+    from openpyxl import Workbook
+E   ModuleNotFoundError: No module named 'openpyxl'
+_______________ ERROR collecting tests/rlb/test_pipeline_p06.py _______________
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\rlb\test_pipeline_p06.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rlb\test_pipeline_p06.py:8: in <module>
+    from openpyxl import Workbook
+E   ModuleNotFoundError: No module named 'openpyxl'
+__________________ ERROR collecting tests/rlb/test_schema.py __________________
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\rlb\test_schema.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rlb\test_schema.py:1: in <module>
+    from sgoda.rlb import CampoEsquema, EsquemaRLB
+src\sgoda\rlb\__init__.py:12: in <module>
+    from .excel_reader import (
+src\sgoda\rlb\excel_reader.py:9: in <module>
+    from openpyxl import load_workbook
+E   ModuleNotFoundError: No module named 'openpyxl'
+_________ ERROR collecting tests/test_spb_005_1_foundation_runtime.py _________
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\test_spb_005_1_foundation_runtime.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_spb_005_1_foundation_runtime.py:1: in <module>
+    from fastapi.testclient import TestClient
+E   ModuleNotFoundError: No module named 'fastapi'
+__________ ERROR collecting tests/test_spb_005_2_platform_kernel.py ___________
+ImportError while importing test module 'C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\tests\test_spb_005_2_platform_kernel.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_spb_005_2_platform_kernel.py:3: in <module>
+    from fastapi.testclient import TestClient
+E   ModuleNotFoundError: No module named 'fastapi'
+============================== warnings summary ===============================
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\_pytest\cacheprovider.py:469
+  C:\Users\Lida Silva Acevedo\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\_pytest\cacheprovider.py:469: PytestCacheWarning: could not create cache path C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\.pytest_cache\v\cache\nodeids: [WinError 183] No se puede crear un archivo que ya existe: 'C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\_pytest\cacheprovider.py:423
+  C:\Users\Lida Silva Acevedo\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\_pytest\cacheprovider.py:423: PytestCacheWarning: could not create cache path C:\Users\Lida Silva Acevedo\Documents\PROYECTO MTM UD 2026\SGODA-PUINAVE\.pytest_cache\v\cache\lastfailed: [WinError 183] No se puede crear un archivo que ya existe: 'C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/lastfailed", self.lastfailed)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR tests/rlb/test_SPT_001B_P06_contract.py
+ERROR tests/rlb/test_SPT_001B_P07_header_normalizer.py
+ERROR tests/rlb/test_SPT_001B_P08_canonical_closure.py
+ERROR tests/rlb/test_excel_reader.py
+ERROR tests/rlb/test_exporter.py
+ERROR tests/rlb/test_pipeline_p06.py
+ERROR tests/rlb/test_schema.py
+ERROR tests/test_spb_005_1_foundation_runtime.py
+ERROR tests/test_spb_005_2_platform_kernel.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 9 errors during collection !!!!!!!!!!!!!!!!!!!
+2 warnings, 9 errors in 1.54s

@@ -28,4 +28,13 @@ Thumbs.db
 *.sqlite3-shm
 
 # Logs locales no gobernados
-*.log
+*.log# SGODA institutional runtime / generated local state
+.runtime/
+artifacts/runtime/
+**/__pycache__/
+**/.pytest_cache/
+**/.cache/
+# SGODA local recursive/temporary backup protection
+**/repository-backup/
+**/registry-backup/
+# SGODA institutional runtime / generated local state
