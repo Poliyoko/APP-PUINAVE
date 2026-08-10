@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "platform": "SPT-024",
+  "name": "Plataforma Institucional de Seguridad Informatica",
+  "acronym": "PISI",
+  "component": "SPT-024.1",
+  "layer": "1",
+  "purpose": "security_asset_inventory_and_attack_surface_baseline",
+  "excluded_directories": [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".pytest_cache",
+    "node_modules"
+  ],
+  "sensitive_extensions": [
+    ".env",
+    ".pem",
+    ".key",
+    ".pfx",
+    ".p12",
+    ".crt",
+    ".cer"
+  ],
+  "secret_name_tokens": [
+    "secret",
+    "token",
+    "password",
+    "passwd",
+    "credential",
+    "apikey",
+    "api_key",
+    "private_key"
+  ],
+  "public_surface_tokens": [
+    "fastapi",
+    "api",
+    "n8n",
+    "webhook",
+    "endpoint",
+    "route",
+    "router"
+  ],
+  "critical_path_tokens": [
+    "postgres",
+    "database",
+    "db",
+    "security",
+    "auth",
+    "audit",
+    "pmo",
+    "sgd-002",
+    "artifact"
+  ],
+  "read_only_inventory": true,
+  "secret_values_must_not_be_reported": true,
+  "mutation_of_closed_components": false,
+  "paid_api_allowed": false,
+  "next_component": "SPT-024.2"
+}

@@ -1,0 +1,72 @@
+{
+    "platform":  "SPT-024 PISI",
+    "component":  "SPT-024.1",
+    "layer":  "Capa 1",
+    "version":  "1.0.0",
+    "baseline":  "a4df5b03eab03dfaad691d444146884a41d4622c",
+    "targeted_tests":  30,
+    "institutional_tests":  1187,
+    "compileall":  "PASS",
+    "protected_files":  986,
+    "protected_changes":  0,
+    "security_inventory_status":  "ESTABLISHED",
+    "asset_count":  6044,
+    "attack_surface_count":  1208,
+    "findings_discovered":  1272,
+    "blocking_findings_discovered":  0,
+    "secret_candidates":  13,
+    "secret_values_exposed":  false,
+    "mutation_of_closed_components":  false,
+    "paid_api_used":  false,
+    "next_component":  "SPT-024.2",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0241/security-inventory-policy.json",
+                                "sha256":  "681AD3EDD3936A6122E39CF59640C1F28A91422155F92C1E9404EB6FC79D2AF7"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-024/SPT-024.1/SGD-SPT024.1-Capa1-Inventario-Superficie-Ataque.md",
+                                "sha256":  "E9536A86BAAE4DE07D0B88054C00F9682BC5AAB0ED7D63DF45AC75F6F26F1FC0"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/__init__.py",
+                                "sha256":  "430A29F7E6E0EB11446CBA4DC16CF2EF6D44BA39F45104CEDC23AEDFA7A74D65"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/classifier.py",
+                                "sha256":  "AAEFF87379C00DD3BD90193CA3019AF0284BA30B4C35674E19E274446DFD31A3"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/models.py",
+                                "sha256":  "B99B530F5D127AB66AEE9617D757EBC47709A3E7E0A13F6200E36303F5642E2B"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/policy.py",
+                                "sha256":  "61025C8B68905BE0B41B52BBC0A771554DBCEB1C3EEAF1C8075FFBD68F98ADA4"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/scanner.py",
+                                "sha256":  "9DBDA95C722A5BD4863F83FA8A9481A78732A6432340348D966FE15F560D8A84"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/secrets.py",
+                                "sha256":  "FF0A6B0EF1B089462EA73921EA98A85DFAF7BB3D211AB7456B9AAEA2940C0E4D"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/service.py",
+                                "sha256":  "1C92C1375EAA3B84AC271BF6545C187C00AF74CF9101BE326BB8C290DF991C25"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0241/surface.py",
+                                "sha256":  "B55A6226BEE072F71B4D72C72F832D843E605591070FEDC5B7C6A4FC9B723A3D"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0241_security_inventory_layer1.py",
+                                "sha256":  "E53B0523FF603433B62A5A720BDE534F948FBB67ABAB3AB518F575517B718360"
+                            },
+                            {
+                                "path":  "artifacts/development/SPT-024.1-Capa1-v1.0.0/security-inventory-baseline.json",
+                                "sha256":  "B0D947297232F6140D018248B9DB5311214CC01D5926A99E9195192012D75FA4"
+                            }
+                        ]
+}
