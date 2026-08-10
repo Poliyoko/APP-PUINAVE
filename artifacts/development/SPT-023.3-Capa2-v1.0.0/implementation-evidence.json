@@ -1,0 +1,45 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.3",
+    "layer":  "2",
+    "title":  "Inteligencia de Clasificacion y Reutilizacion",
+    "generated_utc":  "2026-08-10T01:47:02.1691629Z",
+    "certified_baseline":  "11918a9ed27dc2f7eb6edbe7fb255271ef136807",
+    "source_component":  "SPT-023.2",
+    "targeted_tests_passed":  12,
+    "institutional_tests_passed":  882,
+    "protected_files":  35,
+    "protected_files_changed":  0,
+    "category_reuse":  true,
+    "hierarchy_support":  true,
+    "subcategory_support":  true,
+    "controlled_proposals":  true,
+    "automatic_category_creation":  false,
+    "traceability":  true,
+    "generated_files":  [
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.3/SGD-SPT023.3-Capa2-Inteligencia-Clasificacion.md",
+                                "sha256":  "58BEDA5618055A5EE04F80E69FA65FDF2C8A90AC10ACF64F340ECE7BEF3F2694"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/hierarchy.py",
+                                "sha256":  "968232BB9F7D664CEC0D3DF9973954B337F639A3862E69410CF6C46772A262A5"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/layer2.py",
+                                "sha256":  "C15E83E7C8A4F337AC068B1E0D9E54F309FB0B323762B2410B87595B748C87CB"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/proposal.py",
+                                "sha256":  "070F0011E02473C4597193CFD2DD289DE5EE5D46A130650BC85D01412694360F"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/traceability.py",
+                                "sha256":  "E9F056559C7329E4B6972E3CD4DF5659D614743BBBA6057BE68C9CCD5D323FD5"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0233_category_engine_layer2.py",
+                                "sha256":  "2BC8FF53AE341FDBE038CBBA78DC3C2241E82EFEA88EA1379645B95EDF87A2F0"
+                            }
+                        ]
+}
