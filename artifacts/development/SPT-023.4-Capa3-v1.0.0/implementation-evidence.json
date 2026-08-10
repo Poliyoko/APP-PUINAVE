@@ -1,0 +1,49 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.4",
+    "layer":  "3",
+    "title":  "Gobernanza de Calidad Completitud y Cierre Multimedia",
+    "generated_utc":  "2026-08-10T02:27:31.0682738Z",
+    "certified_baseline":  "c9ee7996d0b979887ad788c4181c17b01f387374",
+    "targeted_tests_passed":  18,
+    "institutional_tests_passed":  952,
+    "protected_files":  98,
+    "protected_files_changed":  0,
+    "human_quality_review":  true,
+    "five_resource_completeness":  true,
+    "deterministic_manifest_sha256":  true,
+    "fld_oda_handoff":  true,
+    "paid_api_allowed":  false,
+    "spt0234_scope_complete":  true,
+    "next_component":  "SPT-023.5",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0234/quality-governance.json",
+                                "sha256":  "301DD91E12AB152E25A7F492CC763665499B5BD289350F3BA21FDA595A41D280"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.4/SGD-SPT023.4-Capa3-Gobernanza-Calidad-Cierre.md",
+                                "sha256":  "EED7E80039CCBA60DE41D0E5EE8BC73B7A8A4AC3F28801F678D7117C665879C9"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/handoff.py",
+                                "sha256":  "F282907A3ADE07EDC86E057B5B58206E3CDEDFB6FF8AB95EF37C9F76E410CE41"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/layer3.py",
+                                "sha256":  "D46C0BBD5AA76097449FC81304495086977CF31D5CCB5643A0F8F9D101110256"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/manifest.py",
+                                "sha256":  "1B2FB238DE2AAF36EE2E4AB2B76D0F0829C39260ECE06D9457503BE94E723147"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/quality.py",
+                                "sha256":  "C52CB46920F0AD4F59B67DACE3F37B0A52184B9D35BC7D1E35943295341F297C"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0234_multimedia_governance_layer3.py",
+                                "sha256":  "56FBE9150659FE7223256A6C966987176AA94593F758B8C0BC9ED1CD6E0FD740"
+                            }
+                        ]
+}

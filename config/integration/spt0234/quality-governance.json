@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.4",
+  "layer": "3",
+  "required_resources": [
+    "image",
+    "audio_puinave",
+    "audio_es",
+    "audio_en",
+    "audio_it"
+  ],
+  "technical_validation_required": true,
+  "human_quality_review_required": true,
+  "reviewer_required": true,
+  "reason_required": true,
+  "all_five_resources_must_be_approved": true,
+  "manifest_sha256_required": true,
+  "paid_api_allowed": false,
+  "success_status": "READY_FOR_FLD_ODA",
+  "next_component": "SPT-023.5"
+}
