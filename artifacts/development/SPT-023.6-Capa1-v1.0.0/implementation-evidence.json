@@ -1,0 +1,61 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.6",
+    "layer":  "1",
+    "title":  "Orquestador Inteligente",
+    "generated_utc":  "2026-08-10T03:10:10.2921177Z",
+    "certified_baseline":  "1ea0206b46f42dae287741d76ffe943a8fc46496",
+    "targeted_tests_passed":  20,
+    "institutional_tests_passed":  1030,
+    "protected_files":  929,
+    "protected_files_changed":  0,
+    "pipeline_steps":  10,
+    "integrates_spt0231_to_spt0235":  true,
+    "integrates_pmo":  true,
+    "integrates_auditor":  true,
+    "integrates_sgd002":  true,
+    "n8n_contract":  true,
+    "fastapi_contract":  true,
+    "idempotent":  true,
+    "resume_supported":  true,
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.6-CAPA-2",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0236/orchestrator-policy.json",
+                                "sha256":  "93D57482CC5B9E88040A52569C28C0A2AEABA90174EC646465D2021A90D16F2C"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.6/SGD-SPT023.6-Capa1-Orquestador-Inteligente.md",
+                                "sha256":  "8064CDCC3C17B10F30AED1B35698C001BBC8BBF4D98E12EEA3B59104093D2A71"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/__init__.py",
+                                "sha256":  "988D7DF8873303569FC42DBA6F8C6C4B336FD555337E81F781740DD6FF7B72C7"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/contracts.py",
+                                "sha256":  "A6C4C6B8A02BB604ADFA65655C498A62A4076D91E325A1A51A555A86B3ECAFD1"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/models.py",
+                                "sha256":  "A023BE1FBE42E3E9FB225F2C81D3C5DEB1785C4CF617C18361D97208C7E79206"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/planner.py",
+                                "sha256":  "D945CC1A2160741577F39FADBA4A3AFBCDC0E0762002857D9AAD2E1E65619EE4"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/service.py",
+                                "sha256":  "AC3B1281D430FE31D6A281BBA15B2AD7EE1B1F56A789B01759684AA17F935049"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/state.py",
+                                "sha256":  "EA30C68CA72CC6F467437D79D4EDBBD18B779B55D0417CFEFDB6CE7BFB6F28C6"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0236_orchestrator_layer1.py",
+                                "sha256":  "67DDFA6750BA3506A5FF9588C017FEF13068160D36C24E8C476EC07DC42B231C"
+                            }
+                        ]
+}
