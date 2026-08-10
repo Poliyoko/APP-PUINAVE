@@ -1,0 +1,29 @@
+{
+  "component": "SPT-024.7",
+  "version": "1.0.0",
+  "title": "Seguridad de CI/CD, Dependencias y Cadena de Suministro",
+  "mode": "static-non-executing",
+  "blocking_controls": [
+    "SCM-WORKFLOW-PERMISSIONS",
+    "SCM-ACTIONS-MUTABLE-BRANCH",
+    "SCM-SECRET-USAGE",
+    "SCM-EXPRESSION-INJECTION",
+    "SCM-SCRIPT-EXECUTION",
+    "SCM-DEPENDENCY-INTEGRITY",
+    "SCM-SBOM",
+    "SCM-ARTIFACT-INTEGRITY"
+  ],
+  "advisory_controls": [
+    "SCM-ACTIONS-PINNING",
+    "SCM-VERSION-PINNING",
+    "SCM-RELEASE-PROVENANCE",
+    "SCM-BUILD-REPRODUCIBILITY"
+  ],
+  "safety": {
+    "execute_workflows": false,
+    "install_packages": false,
+    "publish_releases": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}

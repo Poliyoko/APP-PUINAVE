@@ -1,0 +1,3922 @@
+{
+  "format": "SGODA-INSTITUTIONAL-SBOM",
+  "version": "1.0",
+  "components": [
+    {
+      "path": ".github/workflows/builder-ci.yml",
+      "sha256": "974b98fd7fd0fa776d83b86455956f7f0390251072abd6560cb62bd6a774ac22",
+      "bytes": 2585
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "2d8c8bc3e979bafd33f8a18f438708f6db888d8b501755a9b2ce27d5afcd0623",
+      "bytes": 3109
+    },
+    {
+      "path": ".github/workflows/spb-003-2-closure-audit.yml",
+      "sha256": "7670b60f47a4839e99e6b87e29aa5aea9b423a8fa8e0e6eba70904401169ae7d",
+      "bytes": 1978
+    },
+    {
+      "path": ".github/workflows/spb-003.2-closure.yml",
+      "sha256": "41990a43f414c3a94a36ace46fa4f2ef78f1cc25c168cdb67922e3289845fa90",
+      "bytes": 807
+    },
+    {
+      "path": ".github/workflows/utf8-repository-compliance.yml",
+      "sha256": "c2290ce092f3fb1f3d25848c5ff40003b7133528f1220ed286eadfce5e0e45c3",
+      "bytes": 452
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/pyproject.toml",
+      "sha256": "77bc1f3dc3d2a36aed7b2324c12bd54f5a51a1f2f8ee6f3404876600909b5f98",
+      "bytes": 905
+    },
+    {
+      "path": "SGODA-PUINAVE/builder/requirements.txt",
+      "sha256": "23f073d6813bedef7c75525d9a49a87b14bed8f2814720ecb5f3b92285244013",
+      "bytes": 60
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/builder/pyproject.toml",
+      "sha256": "c5d0bfdb4d9a8a2073b458dca9ab804112f4d992eeef1b60982f5fb703a50b81",
+      "bytes": 1889
+    },
+    {
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/builder/requirements.txt",
+      "sha256": "23f073d6813bedef7c75525d9a49a87b14bed8f2814720ecb5f3b92285244013",
+      "bytes": 60
+    },
+    {
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/requirements.txt",
+      "sha256": "4c494cc3a2d19363f7f61470feb455ac017853474f2400f72ccca117fd36a76d",
+      "bytes": 107
+    },
+    {
+      "path": "artifacts/releases/SPB-006/checksums.sha256",
+      "sha256": "5775977571cec63aae2f3da7a43542a7c8edec1789ecea8a482c2a3fbf01f730",
+      "bytes": 832
+    },
+    {
+      "path": "artifacts/releases/SPB-006/closure.json",
+      "sha256": "4921e59c76fb9c711408f2b76eae20b024e16a099ba197f861da239400bc8206",
+      "bytes": 146
+    },
+    {
+      "path": "artifacts/releases/SPB-006/evidence.json",
+      "sha256": "dbafa11f546d7174e425804a731a2ffd8846ac76859c8a9887781a48003c9dfe",
+      "bytes": 279
+    },
+    {
+      "path": "artifacts/releases/SPB-006/manifest.json",
+      "sha256": "bfb6d51026400aff64f96dda370dc1358cb3d928cfb656c27f84873738051750",
+      "bytes": 724
+    },
+    {
+      "path": "builder/docs/releases/0.10.0.md",
+      "sha256": "c538c421a137cc73584115c8a405550e60e0be3689899ede9f248c8a93641428",
+      "bytes": 181
+    },
+    {
+      "path": "builder/docs/releases/0.9.0.md",
+      "sha256": "ed04a59311f9d9b22bdcfa3cf8fe5a69d3b95410403c7319faa64dd0fac6fb99",
+      "bytes": 180
+    },
+    {
+      "path": "builder/docs/releases/1.0.0.md",
+      "sha256": "8f7cc5b270897d2da5345b0f7f9d72b4fa2aa79fdb195cf9998f30ea94e1def6",
+      "bytes": 688
+    },
+    {
+      "path": "builder/pyproject.toml",
+      "sha256": "c5d0bfdb4d9a8a2073b458dca9ab804112f4d992eeef1b60982f5fb703a50b81",
+      "bytes": 1889
+    },
+    {
+      "path": "builder/requirements.txt",
+      "sha256": "23f073d6813bedef7c75525d9a49a87b14bed8f2814720ecb5f3b92285244013",
+      "bytes": 60
+    },
+    {
+      "path": "builder_backup/pyproject.toml",
+      "sha256": "ff90090480e40ea8882c468188dd4b2365428777b92ae4a4c14ec3eaf0a6d166",
+      "bytes": 982
+    },
+    {
+      "path": "builder_backup_20260713_175707/pyproject.toml",
+      "sha256": "e1722a4dda5cfed3262cb4da3dff4cbd6cf96ed29d3d5d9cabcefdb40f6e4699",
+      "bytes": 658
+    },
+    {
+      "path": "builder_backup_20260713_175707/requirements.txt",
+      "sha256": "ad9b20a64cb20e1bf38f182e3f2fdd82a7c9bba6944ea5f8f188a42cf5d712ef",
+      "bytes": 16
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/manifest.json",
+      "sha256": "17f334c92f6f39b35d6d6fe9bc40f18d5422fb9fcfa0e961a08878c9e2383d3e",
+      "bytes": 422
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-baseline-manifest.json",
+      "sha256": "30790302a767357bb16ddafcfde7a9875e458b86a705d5a679bb9ff465094fff",
+      "bytes": 1290
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-initialized-event.json",
+      "sha256": "40c0e452712dbae5f0276b96fd8caf8d90bd5774dd45e2db4cce34dfa95a915f",
+      "bytes": 450
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-migration-result.json",
+      "sha256": "fbac4c5de8f11169503980e084c103dbb0065a67bc094020c89c8f87190464a2",
+      "bytes": 104
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-resources.jsonl",
+      "sha256": "fe5f1b8f97836d66d2779f003bfebf07c49721ed32ea8b36384e263b47bca57a",
+      "bytes": 35440
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-statistics.json",
+      "sha256": "134b2e8e145fb6debe73fa3bbb83bf9ef3ffb898da30644310b8038fc3a1cb97",
+      "bytes": 336
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr-validation.json",
+      "sha256": "48926e9578d5daebe4d2cbe5ce592954abcbca434f8ab427d7fc3bdd4c20f40c",
+      "bytes": 498
+    },
+    {
+      "path": "releases/ADR-010-v1.0.0/rmr.sqlite3",
+      "sha256": "ca413faa0fd1dcc6d530b704649a8b01af4c6191160c68694b92a484b9aa283a",
+      "bytes": 61440
+    },
+    {
+      "path": "releases/PCI-001-v1.0.0/manifest.json",
+      "sha256": "d0d045fed2dc7462c5d2a642e9c91c0e09a126c66cc67832a2f04c4dcf83683a",
+      "bytes": 219
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R2/manifest.json",
+      "sha256": "01775a011e6ce7e64495dfda93a4ff74b6d6374d0aa3ce71296f30de95a0c364",
+      "bytes": 229
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/PCI-001.1-Arquitectura.md",
+      "sha256": "8a815b187ea569131e2c65eb1accd1541d1e2f1f70248bb862adbd1fd7f89dd2",
+      "bytes": 350
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/PCI-001.1-Manual-Operativo.md",
+      "sha256": "d51161fcb4cfa72826b87f4a2361d531e5bea99fde612dedebde5c3a771db868",
+      "bytes": 189
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/PCI-001.1-component.json",
+      "sha256": "3f1e7909a1e836208ed1f245a5a95fe256e156695f9edf7ae635eedf6301e341",
+      "bytes": 561
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/PCI-001.1-policy.json",
+      "sha256": "29f42bc81c4a5a06e17d4cf4e4fcdc0c540d12290aa3225e42f4f010805aabd3",
+      "bytes": 407
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/SGD-201A.1-dashboard.html",
+      "sha256": "ffd5fe8bd0b777c1260ccf39e30e4b303a0a03398ded5015ed255f620149d6df",
+      "bytes": 8022
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/SGD-201A.1-intelligent-audit.json",
+      "sha256": "dff3234a9fa42f63da758de92cefb24c81b31e175b1b2866e883d5afbd780e23",
+      "bytes": 181093
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/SGD-201A.1-intelligent-audit.md",
+      "sha256": "4676a31064879de880877c6b125d901b9bdea0eafc163689172f56958f1d4dab",
+      "bytes": 6204
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/SGD-201A.1-metrics.json",
+      "sha256": "1de92443e36889d9e586c8ab3c3be7e2a6d5e1d9c50bb1349e75b2a993cd7846",
+      "bytes": 373
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/SGD-201A.1-pmo-digital.json",
+      "sha256": "76e82191db5fa4d137d9695a3f2ca5d3c84d96ccd89a39694f7fe086ebb541ad",
+      "bytes": 488
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/SGD-201A.1-traceability-graph.json",
+      "sha256": "b72fd0662194288caeaa2e6124441489d30c1aae211ee3f0d4b3e4e43232c154",
+      "bytes": 79539
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/__init__.py",
+      "sha256": "ab4f806abdd58a03f93558a1e07ef52f08aff9bfb3068248f8b46f3d6a80489f",
+      "bytes": 22775
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/__main__.py",
+      "sha256": "dadea7fb12c4ee219d146c7deda8599e83efc3f9e6ba5a1a016a26c80035c443",
+      "bytes": 46
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/full-suite-summary.json",
+      "sha256": "5d4b669fa4ace557c5ace4d44bf02972d9562b2e77f4780deda35b88d57010d8",
+      "bytes": 383
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/full-suite-summary.md",
+      "sha256": "c52693be58bb97b08b11e9f1747f2cd9e5e3859d54362f40f3ede1228f68a640",
+      "bytes": 360
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/full-suite.xml",
+      "sha256": "673d2e097abbe02626d91f187ce7919e3089f6319b17e4aafbff75fd04b4a317",
+      "bytes": 85705
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/implementation-evidence.json",
+      "sha256": "0d72b63d1f0bfdbf49c8ed7fee8b5a7dd74f3afb08ca0369e4531cab64a866ca",
+      "bytes": 573144
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/implementation-evidence.md",
+      "sha256": "3956cddfd2fbd43739ba9a759e719d2ff3a45c79422e38e7f05964b49bfd0394",
+      "bytes": 427
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/manifest.json",
+      "sha256": "50c6a4aefb548eafd76e0967e0874dcbe674a8de915c0d8c326d68a9c218c94c",
+      "bytes": 1536
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/specific-summary.json",
+      "sha256": "0ea75931e35afe893de9e29bc2716aa59ea0837b4304083abf40318850780e2e",
+      "bytes": 407
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/specific-summary.md",
+      "sha256": "98f07208bc9204075336bb69a9b00beb6e59fdd99c182f5de8e46de1ab738063",
+      "bytes": 386
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/specific.xml",
+      "sha256": "2b3e90e38a241214038f745a6c7d1627d8972c17486a39e44073e64148b27b18",
+      "bytes": 8550
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0-R3/test_PCI_001_1_intelligent_master_index_auditor.py",
+      "sha256": "0cb54a3aef261b483a688760adcf7e28e28bf9c53cef790326ce6d609bbc166c",
+      "bytes": 4342
+    },
+    {
+      "path": "releases/PCI-001.1-v1.0.0/manifest.json",
+      "sha256": "ac2a26772d71a404e268b51e46d7cd3222cdf550f4da0e1cc3aa6df942d8e97b",
+      "bytes": 223
+    },
+    {
+      "path": "releases/PCI-001.2-v1.0.0/manifest.json",
+      "sha256": "bb056badb2cf8d51d6e66806cecf05ed950f9f81b2bd6b19eb47d39295976f1b",
+      "bytes": 223
+    },
+    {
+      "path": "releases/PCI-002-v1.1.2/manifest.json",
+      "sha256": "9b86f4d1dc832a8d2fe30bc798231b5a4d5f1f4399fa213da7910fa4d4066770",
+      "bytes": 371
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001-component.json",
+      "sha256": "2c7299cbd6e10e19fefd0d65fa828e1dc4fea33d2ae76fbb0069245f75faa144",
+      "bytes": 508
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001-policy.json",
+      "sha256": "c0d93bd3168ff79b86abdf1250d72b1a3f5bc7f93becbad50ededfa389a9ea7f",
+      "bytes": 318
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001-technology-registry.json",
+      "sha256": "73083f23d8438adf00fe088b89ee8752196d1726729bbf8f05a0c01a38e99b8a",
+      "bytes": 3118
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001-v1.0.1/installer-certification.json",
+      "sha256": "3b6deab9ac7ef170cef048f5ed8c61e5dc12a125f63109cab0d530e8682abd5a",
+      "bytes": 342
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001-v1.0.1/institutional-compliance.json",
+      "sha256": "9485b17cb8f3530e0c7d28b0b78cc4fbedc608642a404183e9ee8d3c69f531ee",
+      "bytes": 1635
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001-v1.0.1/institutional-compliance.md",
+      "sha256": "b8df8be10a37c0ae243646c1028a0cc13aafaabca39412c2c90c9559ec51632d",
+      "bytes": 860
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001-v1.0.1/unit-tests.xml",
+      "sha256": "8595d28a94e3f8efee2980e962d5f8d23508277a2a6fd8f4d7bad8de70d7f15b",
+      "bytes": 1878
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001/POL-001-Arquitectura.md",
+      "sha256": "8156feb618c8990217fc75a7cc0932e6d8d0d8a6831c45fe436bbad5a7ebd47d",
+      "bytes": 386
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/POL-001/POL-001-Manual-Operativo.md",
+      "sha256": "84d060ea4047083e43410df9f3389ab89a93d00bb88c5060087f78f9d212670f",
+      "bytes": 371
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/free_technology_policy/__init__.py",
+      "sha256": "e03ef3fac16e6b247d435937632b5486eb797c0d3d8a631862386808c99dbe3b",
+      "bytes": 8273
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/free_technology_policy/__main__.py",
+      "sha256": "dadea7fb12c4ee219d146c7deda8599e83efc3f9e6ba5a1a016a26c80035c443",
+      "bytes": 46
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/free_technology_policy/test_POL_001_free_technology_policy.py",
+      "sha256": "5b44a83dc7d85d07710190d1cfad4245a5cbc357105500d4e82daf164c27ac01",
+      "bytes": 4306
+    },
+    {
+      "path": "releases/POL-001-v1.0.1/manifest.json",
+      "sha256": "43f6e9bb7afbe6219b9f8fc07f5abab27a6aa318fbedb4ff98fd198cb807e91a",
+      "bytes": 266
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001-component.json",
+      "sha256": "bf992ba6732cee3a714c5011632444f4538d8213142c2f849acb10a2ab8c6cb3",
+      "bytes": 508
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001-policy.json",
+      "sha256": "59c12be8a9ed08692fe91f0ef7e5fc956f44d9ef3dc305322074532db6a4c723",
+      "bytes": 318
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001-technology-registry.json",
+      "sha256": "d882b4fa75147534bc1e62df72ed97a0a97261b5e8fecc04f817b11eb8bf2bbb",
+      "bytes": 4166
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001-v1.0.2/installer-certification.json",
+      "sha256": "7d3a33c7fb65ded2a08a3403850ff4c35fdcc27ec72937823105dcd524bf55aa",
+      "bytes": 337
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001-v1.0.2/institutional-compliance.json",
+      "sha256": "bad2bfcb024bfbeb4a9b77aea417aa4f037d874f1091cf152d6dc76240ba2d0a",
+      "bytes": 1577
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001-v1.0.2/institutional-compliance.md",
+      "sha256": "d3f58454dcaaf9c6e57f64c6d0f34359e1f552731b236f68b078f00d37a1fea0",
+      "bytes": 796
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001-v1.0.2/unit-tests.xml",
+      "sha256": "8fea898fdcb72bde0ce2a798448c4cc76ff2c1a03e0a83c704eea1e610361317",
+      "bytes": 2039
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001/POL-001-Arquitectura.md",
+      "sha256": "8156feb618c8990217fc75a7cc0932e6d8d0d8a6831c45fe436bbad5a7ebd47d",
+      "bytes": 386
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/POL-001/POL-001-Manual-Operativo.md",
+      "sha256": "84d060ea4047083e43410df9f3389ab89a93d00bb88c5060087f78f9d212670f",
+      "bytes": 371
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/free_technology_policy/__init__.py",
+      "sha256": "ca8330243de5687c23d8996bb79b64f069007ba04bedd00f1720c07bf6cc3ee0",
+      "bytes": 8273
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/free_technology_policy/__main__.py",
+      "sha256": "dadea7fb12c4ee219d146c7deda8599e83efc3f9e6ba5a1a016a26c80035c443",
+      "bytes": 46
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/free_technology_policy/test_POL_001_free_technology_policy.py",
+      "sha256": "062725ca14a8b4440b49ffbeff398e4fc15f4f8330dade0e32d735e8d11bb197",
+      "bytes": 4935
+    },
+    {
+      "path": "releases/POL-001-v1.0.2/manifest.json",
+      "sha256": "35082cb7a356469bddc5c644e18ace22b9dc0c548aadde575dd25647dadf9695",
+      "bytes": 255
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/Invoke-SGD114-PolicyAuditor.ps1",
+      "sha256": "e68c02acb1bbbcb60293ac666ada533e411f6837e0f7e6e6a5d9712460de0247",
+      "bytes": 1376
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-114-Policy-Auditor.md",
+      "sha256": "daafad5495b63e66c434a16e146fa6fcaf55f217d76b437ab068d33ded92288d",
+      "bytes": 437
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-114-policy-auditor-component.json",
+      "sha256": "58d20080764cb13826f39c923a71dd6eed6be99575da14b809b00e189d5bdc58",
+      "bytes": 451
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-116B-policy-audit.json",
+      "sha256": "557e24bee58086865c324e731415774771253fe19156a5d7835fd559a6e259d1",
+      "bytes": 1151
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-116B-policy-audit.md",
+      "sha256": "2d9ed1a7debac94348fb976fe12662a47664ebf879f7fede4155ebb1cc47297b",
+      "bytes": 950
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/SGD-116B-quality-gate.json",
+      "sha256": "15a80a758286350651b4d84796aa0b133d90fc104794bc839d067a886b8318f1",
+      "bytes": 5766
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/manifest.json",
+      "sha256": "f8505bfdfda016f36c53fa60d148d474d1f4fee2bf25e2a783dff3aade7030f1",
+      "bytes": 532
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/policy_auditor.py",
+      "sha256": "a33d632f3e6f7db64e2b0f84284dafc2721dc74f84e2c93ae2726df7863cc9a1",
+      "bytes": 8826
+    },
+    {
+      "path": "releases/SGD-114-Policy-Auditor-v1.0.0/test_SGD_114_policy_auditor.py",
+      "sha256": "fefc6d565280259adfad0501dff3a656e4e793f6bc80fa28113e209632fc268c",
+      "bytes": 1628
+    },
+    {
+      "path": "releases/SGD-114-v1.1.0-release-manifest.json",
+      "sha256": "4b188d1ff0f1589e7a59c89305940b152749a80021e07745d2bbdf38bc558ee5",
+      "bytes": 449
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/SGD-114-v2.0.1-windows-test-evidence.json",
+      "sha256": "49aa96365b85d7aca21b5c98f4eef5cb418c7797af755ff3fd087a9a3241ab76",
+      "bytes": 581
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/manifest.json",
+      "sha256": "0c92ee7863be1d6e63d6fd5db848e4cc9f88b16103c7798a9441fa94f040b640",
+      "bytes": 459
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/repository-audit.json",
+      "sha256": "e13c82907126e97e233624fd9850f5e4b70f8b50a3d07a0278bad9cea2942878",
+      "bytes": 4944
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/repository-governance-event.json",
+      "sha256": "14ef63a7915946fdb7cdd6ca8e418812a047b7dddab078325f5ca232c48083a5",
+      "bytes": 640
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/repository-manifest.json",
+      "sha256": "bfd7d1c2e6b5fa7a7597c1dff44c66f577855ca2a1275c910376072d0d87405f",
+      "bytes": 178202
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/sgd-114-v2-repository-policy.json",
+      "sha256": "e277abd50e62def7179499fb7731cb23c790873eb907c199db61f106403a1fb9",
+      "bytes": 1279
+    },
+    {
+      "path": "releases/SGD-114-v2.0.1/test_SGD_114_v2_repository_governance.py",
+      "sha256": "03bd654ad3a54966f1608cd797ec1aaa7bb8d990341d6916d5c272b44bab1f3c",
+      "bytes": 5791
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/Invoke-SGD114C-PolicyGovernance.ps1",
+      "sha256": "3661a36b1b5c7ca022509102d186a3963c5ee74e6f8a30fdbb1a2123fd1391c8",
+      "bytes": 616
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/SGD-114C-Migracion-SGD-114.md",
+      "sha256": "c795dd85d544890811717799233b443cdfa91d9c138b968232c2fc8aac513418",
+      "bytes": 333
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/SGD-114C-Policy-Governance-Core.md",
+      "sha256": "d26a239824d2e0e566be0592f4d7e977917ae3c52af3ff5138480475a5084621",
+      "bytes": 415
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/SGD-114C-component.json",
+      "sha256": "e78ca1a44fb9e1753b376b60b62ad3d3d9dccba0193f22e540ac1799b9cb7043",
+      "bytes": 806
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/SGD-114C-implementation-evidence.json",
+      "sha256": "ae29c4d3962999f9c65269c7f46ad06ebcf5d207383256b3454002c793fadd00",
+      "bytes": 572
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/SGD-114C-policy.json",
+      "sha256": "51c1c3cbc091bf5e62845da324da86d421afc3c209b93b80f95a580bafc0cd52",
+      "bytes": 703
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/SGD-116B-policy-result.json",
+      "sha256": "e20554ff2eda1085f6675664f4441574761b356061be7cc44727e730038fe930",
+      "bytes": 3757
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/SGD-116B-policy-result.md",
+      "sha256": "83fad3e68cee198deb0387d0670118e57506d90cb940ceea7bcd7c434f72820e",
+      "bytes": 2171
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/manifest.json",
+      "sha256": "0375f04e2df1821e8011d3e69e5a3737972e925b4f325dc8cd6e7e8791f944bc",
+      "bytes": 740
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/policy_cli.py",
+      "sha256": "ce1f3889bc480edc7aa03d59d584bcc7bcddb24ee91c8132648328dc32dbb455",
+      "bytes": 1635
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/policy_context.py",
+      "sha256": "b06e9e9afcb852b9db5b0ddf8fe3c7031690a18d5adfb9856c38bb3f29ca97df",
+      "bytes": 1908
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/policy_engine.py",
+      "sha256": "3a97b05eccf413b05bd05e5c7aa9ee7166002d873f81b59a738248bda91d4873",
+      "bytes": 921
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/policy_models.py",
+      "sha256": "5adec71a5ee7cfe1c1ab9259b0fe85262b136a1a9c44c3ed5e027ca8f8fc9624",
+      "bytes": 1745
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/policy_registry.py",
+      "sha256": "2c14145889c2edadd36b7391b62b36740e38e6c0673b9e9a437a4ca79250b23b",
+      "bytes": 981
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/policy_report.py",
+      "sha256": "c310faedea389f8cfa54f15d62df179b68426692707ea19c41417ba601ef9d05",
+      "bytes": 2928
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/policy_rules.py",
+      "sha256": "ffa85a34c2e618c7bd8de8e1e7115cee22291b3c4448fbdef229aaf29453c58d",
+      "bytes": 10102
+    },
+    {
+      "path": "releases/SGD-114C-v1.0.0/test_SGD_114C_policy_governance_core.py",
+      "sha256": "8122abf477bf24245b695259bfdcb3ee67b37659d5972feb25acd82f855ee96c",
+      "bytes": 4954
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/Invoke-SGD114D-AdaptivePolicy.ps1",
+      "sha256": "c48034aa7816907cc062f4350fd33e6d49e2fb76992e954ecf32d94840c1f1ea",
+      "bytes": 665
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/SGD-114D-Adaptive-Institutional-Policy-Engine.md",
+      "sha256": "81b95ab405d653f94c66323b1f6622958b00197b66d395c2ec95b6e1f6bbe2ea",
+      "bytes": 496
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/SGD-114D-Migracion-SGD-114C.md",
+      "sha256": "f343aca20514dba884cfae950a1396c54f602d904cb592d1b0f5ec92fa74344d",
+      "bytes": 316
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/SGD-114D-adaptive-policy.json",
+      "sha256": "afbf5e517f173c141246fbc4f07dc5d03801eed0ccb3759511f7a0e0430ac929",
+      "bytes": 525
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/SGD-114D-component.json",
+      "sha256": "e5b3f4e43f568b0dae9e97f139885b1fb76344a33a3c078c41c5316f39558897",
+      "bytes": 861
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/adaptive_policy.py",
+      "sha256": "47e056fbfe5dee2c5754303ffd58dcc4235277ca6e8f3f589f53bf76b1936ab2",
+      "bytes": 421
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/adaptive_policy_cli.py",
+      "sha256": "1ba12a9e20ef64534a47c3fbe8a614dc17ededa1bdddf605314b7f7deec871b8",
+      "bytes": 3018
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/adaptive_policy_engine.py",
+      "sha256": "87bad5340dcc5671747d41cde0c36219f43e65e2e0deb8cb3591f50eb358145b",
+      "bytes": 1074
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/adaptive_policy_models.py",
+      "sha256": "d3e473329233a5f051e3937b4d7c0a337f8ed7b32a1345e05b3c551e4df0f73d",
+      "bytes": 850
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/adaptive_policy_resolver.py",
+      "sha256": "6244273d567fedb67877fe436887b3072d8dc69caab91fabdaf48650f20854c4",
+      "bytes": 3515
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/adaptive_policy_rules.py",
+      "sha256": "320e1d6443994143707f40f794e6a82d0430b58faed0cf3b3737b08d8f3f9912",
+      "bytes": 2297
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/manifest.json",
+      "sha256": "26a8abd76bd3b5b47cd5c5b9c046d1210ee8ad1e94d1a3f237e14ae655c35e8c",
+      "bytes": 765
+    },
+    {
+      "path": "releases/SGD-114D-v1.0.0/test_SGD_114D_adaptive_institutional_policy_engine.py",
+      "sha256": "23ec41161338c31fb20d200256c14e604e0ecca143d83804f9acd8ea13d1a8a3",
+      "bytes": 4451
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/SGD-114E-C1-Native-Ecosystem-Validator-Fix.md",
+      "sha256": "8aa651c367ea8695fdf1ce189dca65eac0c1be1695bcb69cf1b5a9cb866e2d7f",
+      "bytes": 779
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/SGD-114E-C1-component.json",
+      "sha256": "8ac24699b059242f89f43c0b7cc19c66f318e54980b482050a6bb1a762909eb6",
+      "bytes": 640
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/SGD-114E-C1-implementation-evidence.json",
+      "sha256": "022f2c04330d3c6eaf3a0715df5f1d491690ecd4bdd147afcbce94f34cfb5bba",
+      "bytes": 1546
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/SGD-114E-C1-implementation-evidence.md",
+      "sha256": "c5b35b93d489930fcddae8d8b1dafce379b63a71447ba62d750373e8f354d890",
+      "bytes": 396
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/SGD-114E-C1-repository-evaluation.json",
+      "sha256": "67b40918605aaac09a8929c82e7db511df069a804664394bea9d3441855f62cf",
+      "bytes": 432
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/SGD-114E-C1-repository-evaluation.md",
+      "sha256": "86b96f6a54cd1a3e39403496d31e490486f9b47d4e045ea2b5cd37cef4ed5ae5",
+      "bytes": 372
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/manifest.json",
+      "sha256": "fb5046866cacf741a1f3804d6e172016407ed14c54f2702220e1d1c65ff497fa",
+      "bytes": 647
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/native_ecosystem_policy.py",
+      "sha256": "078f4ecb00382594c5fb3a8bf77c1901fddd7a23309cc9fbb24ff0cc051b8cd5",
+      "bytes": 2098
+    },
+    {
+      "path": "releases/SGD-114E-C1-v1.0.0/native_ecosystem_validator.py",
+      "sha256": "43264aa5b22c6828e5d0768b4a1a0a0c80fb3faf80028edd8196ad6826fe7421",
+      "bytes": 6698
+    },
+    {
+      "path": "releases/SGD-114E-v1.0.3/manifest.json",
+      "sha256": "8f5e408ae614f5221360f523277cbbe1fa389eb342e5522e30103f64235e96d2",
+      "bytes": 213
+    },
+    {
+      "path": "releases/SGD-114E-v1.0.4/manifest.json",
+      "sha256": "f028a8a320b733e06d97184208f7b74f1cab31601f75fd5ed19730a5acdb7c09",
+      "bytes": 213
+    },
+    {
+      "path": "releases/SGD-114E-v1.0.5/manifest.json",
+      "sha256": "1833eca9d6f6c61c7dd8b319449b6a469e99c1505335714fcd57c277b86dbb82",
+      "bytes": 213
+    },
+    {
+      "path": "releases/SGD-114E-v1.0.6/manifest.json",
+      "sha256": "324924a0a67931a745f117b3fc2fd79ebe70c24a551d973cca34209295daec13",
+      "bytes": 213
+    },
+    {
+      "path": "releases/SGD-114E-v1.0.7/manifest.json",
+      "sha256": "b3609d923801ab1e55732f6ccd58ba008a035535bccd5f6acf9087493266cfe1",
+      "bytes": 213
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R1/manifest.json",
+      "sha256": "4f1e44c4f3a4ec5582711fe0163700bff7c7ff843795bcfdd17ae62d2db075f2",
+      "bytes": 219
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-WindowsPowerShell-Compatible.md",
+      "sha256": "f158a3ab3f6693e96b6da98dcbeaa8acc2daca7c64120baba314d8600c14cfeb",
+      "bytes": 561
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/SGD-114E-v2.0.0-R2.1-component.json",
+      "sha256": "8ac860281d22eb7b87d74517f4ae637fb1f53489f28b33c39480370e9f7cb185",
+      "bytes": 428
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/component-normalization.json",
+      "sha256": "cef1ea80dc69570e643b0fe1bdce119a13cb3343b1b432acbedca9168047f07d",
+      "bytes": 12048
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/full-suite-summary.json",
+      "sha256": "d240b1fda801f6807dcc40b1889448d4d9cc91d5568bc7c03ecb1adfd26ab803",
+      "bytes": 374
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/full-suite-summary.md",
+      "sha256": "1e6a1530bdd1e9020fd6d75b6c1d5a01c93ca16e4ab6172e0e813f108df73aa2",
+      "bytes": 351
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/full-suite.xml",
+      "sha256": "e469e31bc63a79ec365b5542e428fe728c4cc8a1f9ed2619e0c5c51d0351f139",
+      "bytes": 76195
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/implementation-evidence.json",
+      "sha256": "f407af84f26b5d93b21acef8f53c7166ef6df64cf418882c40b6789fbb0ec86d",
+      "bytes": 6463
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/implementation-evidence.md",
+      "sha256": "f434236aedabc4c87e15c96385648d42c8d7ccec75e977cf6a6d5d3df931c31f",
+      "bytes": 273
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/manifest.json",
+      "sha256": "e9f84d5c580085c1bc102d5b88c4bee6baab7a01cae05bf13b3720370cb2e59c",
+      "bytes": 974
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/native_ecosystem_cli.py",
+      "sha256": "7992d7abfcc8918ee33c152234cfa7cafa40e82699654425fb98cfbf8a01ff1f",
+      "bytes": 1884
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/native_ecosystem_models.py",
+      "sha256": "227de8143506af814668869527f65a9b9e812201473408736e59607b17ff503e",
+      "bytes": 3935
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/native_ecosystem_validator.py",
+      "sha256": "0124d033cc9b51f2a6c78db8a9fe4bd1da4145fcb344a4f7546ebd3fc7df031e",
+      "bytes": 10232
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/self-validation.json",
+      "sha256": "ee916cfdf48d45c597ee20b058205bc8fcba186503d68f074746a0d36d4c0d29",
+      "bytes": 1782
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/self-validation.md",
+      "sha256": "7ee20636fca8724e4962a0259d7e005674fabd825f7fd505706ab025aeeff3d1",
+      "bytes": 208
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/specific-summary.json",
+      "sha256": "e2efbb3d19dd48cfaa9fabc00f751fe0071cb581e059336520d8d2c941187592",
+      "bytes": 374
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/specific-summary.md",
+      "sha256": "e7a9bce6eccf87bb3a357e00b51c243685ad576a01ee90daefe0bfdb50bfc6bc",
+      "bytes": 351
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/specific.xml",
+      "sha256": "255e89a7084b6adffc4e4a9e641ca4dfc9efb05fc83e805c39baa11645eda86e",
+      "bytes": 9750
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.1/test_SGD_114E_v2_0_0_R2_self_validation_closure.py",
+      "sha256": "1419acadeec2b1b95270f9312170a9367240fe0cd415a304dd53119d6e6b6898",
+      "bytes": 2728
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0-R2.2/manifest.json",
+      "sha256": "4ae896029e637ad3dcf229960618c06e12c7bde3853566542bd2d1fad9091f93",
+      "bytes": 223
+    },
+    {
+      "path": "releases/SGD-114E-v2.0.0/manifest.json",
+      "sha256": "19af5cd42e451559f9fa9a209bfbf8009a4dca881e420d96ebb99ed6aa0c7fd7",
+      "bytes": 213
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/Invoke-InstitutionalPytest.ps1",
+      "sha256": "b6af6d9a4cbb3a841c0d0f4d99a779b01dfa67866ac3457635dee5ed0a48f6a6",
+      "bytes": 1352
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/Invoke-SGD114F-TestEvidenceSynchronizer.ps1",
+      "sha256": "8306383be93d60169890973bba201f56b2468a38a629e666dec5df69e41d8fcc",
+      "bytes": 975
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-Institutional-Test-Evidence-Synchronizer.md",
+      "sha256": "3bf54c58e53f7880701b0b4a5caa95241618e9ef067ec70da4e5289cf8854d28",
+      "bytes": 459
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-Migracion-Instaladores.md",
+      "sha256": "12ab05d6d4bb4b7569b31a5f1cc396102a10551cd5d4181a80dee8d2d78f8b93",
+      "bytes": 495
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-component.json",
+      "sha256": "b440b9ebe6e211aa3a87201a2e837e8830b67bf87ddd6e9347e956f2ca077426",
+      "bytes": 998
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-full-suite-summary.json",
+      "sha256": "f40e7d791a45dbb70ee6f029d73e808d1f0b258f2bdc801a999ee0412e34b9fb",
+      "bytes": 371
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-full-suite-summary.md",
+      "sha256": "d266cfe1bdb9df424371c32a7fc868c0e751191522db6cad715c204c5ce0c603",
+      "bytes": 348
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-full-suite.xml",
+      "sha256": "4849e326c8655ec73caa58319cd03151d8a3d4c6145055775ba4de49b024be80",
+      "bytes": 65659
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-implementation-evidence.json",
+      "sha256": "7651a53bc68798a4fe7feb5702065e64a7c1b2ccd0b87627bee16fccf6175fe1",
+      "bytes": 2342
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-policy.json",
+      "sha256": "062e7fed40a155d61d1f36469f63ce9a37fc7ea3a6cfc759ed2bd3dfa863a5c3",
+      "bytes": 366
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-specific-summary.json",
+      "sha256": "afbbaa13fc63e18604f10af033ad75d8a8a48eba2abeb8df5ca873b779644015",
+      "bytes": 359
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-specific-summary.md",
+      "sha256": "1515dac1677208f6a33a3591755b2b40fdf78127cee698e5d6a566d923aaa30e",
+      "bytes": 336
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SGD-114F-specific.xml",
+      "sha256": "10ad21420fee8603d6fe462ac89587ba227df2eaafde678a11a58f8818a259cc",
+      "bytes": 2079
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SPT-015-specific-summary.json",
+      "sha256": "f9634c0f43d2b5ade1eecd8f7c1f452336bd6b90fd18179385293703b02b24a5",
+      "bytes": 357
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SPT-015-specific-summary.md",
+      "sha256": "b36ac29d0e96aaf2f0b7b0a09954a26c0c8843428b0bbd6f57783232d79e25f4",
+      "bytes": 334
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/SPT-015-specific.xml",
+      "sha256": "d0620ea28334f92be4db75508044ed7fccb18770d2d7142df10ed658f8817439",
+      "bytes": 3296
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/__init__.py",
+      "sha256": "48d1ebacfba3f689a9c9a37e2828ae451ed094339430a829c29f5e1c76d7f5d5",
+      "bytes": 348
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/cli.py",
+      "sha256": "386759593b81c3d8093eb98d759c00c9c2c2f6a36285e7b7ede916683c054995",
+      "bytes": 1708
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/junit_parser.py",
+      "sha256": "3dccb5ed848c7d4046f5d450306928252778aac7d9e8b27cac77d05b9e545d31",
+      "bytes": 1937
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/manifest.json",
+      "sha256": "848c4d23ae3f2db865d05285f26ba01aa986f5adbdf13a19b01b012538931c66",
+      "bytes": 1277
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/models.py",
+      "sha256": "5915c8a55d67970d9d5464efd21c376f690f00d3da448e3009e76bcc3d3f8738",
+      "bytes": 476
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/synchronizer.py",
+      "sha256": "8a72009cc9ea869dbd87aee85e439238a676bcd4d384052470995fa927abeb1f",
+      "bytes": 2713
+    },
+    {
+      "path": "releases/SGD-114F-v1.0.0/test_SGD_114F_institutional_test_evidence_synchronizer.py",
+      "sha256": "f192cf4336453888f028d4a531b553ef4687e2bad643b417a7a454e54dffd0b5",
+      "bytes": 5800
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.0/manifest.json",
+      "sha256": "afd3ce746e0d3ed577029bf5da77ae42cba9fdc55664aae73a3078c3bb92e28b",
+      "bytes": 213
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/SGD-114G-v1.0.1-Legacy-Manifest-Migration.md",
+      "sha256": "c084738c1cc4f418c8b97f3d77b8b821655878e9112b695de1bd547794c4f616",
+      "bytes": 425
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/SGD-114G-v1.0.1-component.json",
+      "sha256": "6f7ff7feb0870a3277734c536e5e40b8acf05b2860a65cf2106c0a33268c506d",
+      "bytes": 369
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/cli.py",
+      "sha256": "34f1b67d9bc33c0d285a6ee95a95a2818f9c57b97a933b3f182f0f124f3676b5",
+      "bytes": 2732
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/full-suite-summary.json",
+      "sha256": "a0e845fff6a7e412ca800e4e5bb067b5dda8a3dd66fc93e6507b75d7f9573a9b",
+      "bytes": 368
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/full-suite-summary.md",
+      "sha256": "1d4d61cc2297a98f95427b04061afa16addfddea882e7ee2b6013a0e0160c757",
+      "bytes": 346
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/full-suite.xml",
+      "sha256": "cf13c92db608d0b024977752f65fcab722081997264cd2999c3f8d56ba2d7b3b",
+      "bytes": 77849
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/implementation-evidence.json",
+      "sha256": "65fac58135d34eebac51996dcb2da8c84d45e19b9be0638cec7a4c10c8dea44a",
+      "bytes": 5114
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/implementation-evidence.md",
+      "sha256": "70bf871e658e181568ad7700d0ce38729da595172ed8a90d9a61c05748cd68d7",
+      "bytes": 175
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/manifest.json",
+      "sha256": "edc8534326b1c707073b8b33ba35484a256c059f720c9627ed6e140edff77d14",
+      "bytes": 867
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/release-closure.json",
+      "sha256": "7f37c58214841299cb0b7fe1a509d1615739bf42f0bf94849df94cac5b24262d",
+      "bytes": 1470
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/service.py",
+      "sha256": "ea528eeb51d42338ef6df55bb52127b11e9616b3aac3589ed2a393aeeda0b31e",
+      "bytes": 10012
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/specific-summary.json",
+      "sha256": "d83a2c400db47b4291fb09a689ebbe29ea62a6433162df56f193e198aeb4a580",
+      "bytes": 364
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/specific-summary.md",
+      "sha256": "72c6a9f3ac0d0b02c7db136a0ee83c60f2c49da01ffb30b596c9388521c31e8c",
+      "bytes": 341
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/specific.xml",
+      "sha256": "cf925cdcd9adccb2a79bd50cdfa7443b8f38dcbd2a4e3271e1ab46b6ff570d5b",
+      "bytes": 1906
+    },
+    {
+      "path": "releases/SGD-114G-v1.0.1/test_SGD_114G_v1_0_1_manifest_migration.py",
+      "sha256": "d62322f04896b0406ac5594020ce7d6784199949bd63f737674bf7b6817d4a40",
+      "bytes": 2092
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/SGD-114D-v1.0.1-component.json",
+      "sha256": "cdac57dd836e23ca1b8af4ebe34af07c2907c65faddb87972bc8413446646236",
+      "bytes": 904
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/SGD-115A-Documentation-Canonical-Component-Resolver.md",
+      "sha256": "e611a39eccdf33839b73db5b8a140652aaa2590c27a34f4b3deed193abfed7fa",
+      "bytes": 396
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/SGD-115A-component.json",
+      "sha256": "f27b1f2e1e6c16a425eb5fff4d1248d8e365709bc6eea490210486663463db52",
+      "bytes": 592
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/SGD-115A-implementation-evidence.json",
+      "sha256": "13fa0bcb5464a042025904d5c7188f8b15d9d5d848304a6e8913cac855d28b73",
+      "bytes": 931
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/SGD-115A-policy.json",
+      "sha256": "31c8575f0a36079f15408420bc1525569210df766d466a014a8cd2cbccdec428",
+      "bytes": 331
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/canonical_component_resolver.py",
+      "sha256": "a7a5015601b4a95e9ec0f37bb11f445d7f86607a5a1780482144b4415d847e0d",
+      "bytes": 2955
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/manifest.json",
+      "sha256": "47e8c1c93b7fce07524dde7e2889d182173c0900993596959b21ab78448c4164",
+      "bytes": 620
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/master-documentation-validation.json",
+      "sha256": "c8e9f50a5a6039ddce595851eebed9fda21de789360014126a9900a35c511874",
+      "bytes": 231
+    },
+    {
+      "path": "releases/SGD-115A-v1.0.0/test_SGD_115A_documentation_canonical_component_resolver.py",
+      "sha256": "4284f95a5aa3b14ee453f5b6ad14bdd956b251cafd97c82f8a0d696c855974d7",
+      "bytes": 3021
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/SGD-116B-v3.0.0-definitive-closure.json",
+      "sha256": "b1c86065f3bc1cc778f6fd0f655dd3b2ca961db9637d259ab9eba3453b56b257",
+      "bytes": 870
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/dependency-graph.json",
+      "sha256": "9208cf9db2a000904d65f74187196667f7575fa14e618c0099e0ec48962b27d5",
+      "bytes": 7382
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/dependency_graph.py",
+      "sha256": "1e566bc8d493b232161b61466c6d13c33397cc768d2f9f5de2cb031ce478b94b",
+      "bytes": 3637
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/discovery.py",
+      "sha256": "0d98ac4098bb367a4fe7c315ce0dcbf5db66eccdc484bf2b42be6fb412588090",
+      "bytes": 10778
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/executive-summary.json",
+      "sha256": "7caf4a0c72b1444d732ebde4331bed4282b4d0d5e41fe989c0d77cf5acd467b4",
+      "bytes": 2790
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/manifest.json",
+      "sha256": "9d4cf55a0cfa377bc15b43f8724669c5ff77ea1988516000c62f91c5114b5851",
+      "bytes": 584
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/metrics.json",
+      "sha256": "1574238d0c356bf8601e0ef0225b8818e34f744f32a85083e95a012d046f92a4",
+      "bytes": 362
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/models.py",
+      "sha256": "b4a0aa7af228059ebbd69f69048b0cb897abd73dccdbf585edc9a59072d88b79",
+      "bytes": 1789
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/roadmap.json",
+      "sha256": "9083fa130a70888970645a210cae429b6e5b341756aa93935da1d976f5d8fad3",
+      "bytes": 16690
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/test_SGD_116B_institutional_roadmap_closure.py",
+      "sha256": "3ef06cb9566941184381a016ee8de78a584e7afba1a45c96f00b02a35b52980d",
+      "bytes": 7431
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/test_SGD_116_master_ecosystem_roadmap.py",
+      "sha256": "07a5c95a874b1a4f09ff8c8b4e84d72de7018f49153bdbe6e5f0ec8fc2326b62",
+      "bytes": 10415
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/timeline.json",
+      "sha256": "d825ce8d2c46f0ed1322f8ff25d03d94836c0025412ed48613369b55b244cd3d",
+      "bytes": 4186
+    },
+    {
+      "path": "releases/SGD-116B-v3.0.0/validation.json",
+      "sha256": "3d1a9356d6dc810750b63932dbff5fdaef51c6c9814f8b92ffe950733bc0c595",
+      "bytes": 2102
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/SGD-117-Arquitectura.md",
+      "sha256": "7cf28c7f23a02e8e8ced8f2dd73808bff89cbbcdadf07d14da27595790284c6e",
+      "bytes": 769
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/SGD-117-Manual-Operativo.md",
+      "sha256": "a156204b5a90d5e4e0b3f4a422f9841cb4c818a5b7bbb803c16a4793332d4410",
+      "bytes": 388
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/SGD-117-component.json",
+      "sha256": "c4d684652a93a88515d01958e861e2bf93af5dfbd81c04b05be798d95bf7a71b",
+      "bytes": 871
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/SGD-117-policy.json",
+      "sha256": "1c1e3e2f221df3e6a035c7ddf24b1f373e2f1864ec2f20f61faca5eec54b2eba",
+      "bytes": 449
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/__init__.py",
+      "sha256": "be2b51cf7345e806fc9b7b9587a05ace829b266ff10dfe7e69ebaf215f9e18b5",
+      "bytes": 211
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/cli.py",
+      "sha256": "d43c46e82e5478efa7e8848a5412f8b8eb7e4ff4929e2781394aa1dbdbe406f9",
+      "bytes": 1717
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/full-suite-summary.json",
+      "sha256": "b57f57ca7168414683fafd1f56ab18563b32bf2b33c5c4585fad15c65b527b09",
+      "bytes": 368
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/full-suite-summary.md",
+      "sha256": "801a4b19c67b229f5255709d9f43321c03b0e74be80c165b659aa1528f2a7fb2",
+      "bytes": 345
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/full-suite.xml",
+      "sha256": "0dca99cc0868d1a1dbfc15921d896badc1b8629378accd841d1f92aed7ff8240",
+      "bytes": 78904
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/implementation-evidence.json",
+      "sha256": "f68efcf3c89c30aed5d129a7c12106555edab10397027c74a3f176440f9c26ab",
+      "bytes": 2571
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/implementation-evidence.md",
+      "sha256": "22e0fc8cd8d8b9da27bfdd3224ecc23afb13bf800bb803eac77045ddd97a2ed2",
+      "bytes": 289
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/institutional-repository-report.json",
+      "sha256": "4ecaf66771153b78fa2fccf9fc4e319a3b7ac7ded68a3e13021569703f4dce10",
+      "bytes": 817
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/manager.py",
+      "sha256": "8a6f15d17a2a88bab160f4860789f1fdfe72840681e7cf0e3682fa4db781e80c",
+      "bytes": 7251
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/manifest.json",
+      "sha256": "31e155aa05f37e4c044b396e10ad64bff6c12bc9fbbdf9cf31f6cc290b4f81aa",
+      "bytes": 1344
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/master-documents-post-audit.json",
+      "sha256": "9f41f1d873a6928d3ef8c73a9823baa7cbdf4f1ea375bc814ac54a0142674264",
+      "bytes": 273
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/master-documents-pre-audit.json",
+      "sha256": "9f41f1d873a6928d3ef8c73a9823baa7cbdf4f1ea375bc814ac54a0142674264",
+      "bytes": 273
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/models.py",
+      "sha256": "8e38f4f889be66afff649bbc9e481793f6255aca52609dbb26cbf32a887a5724",
+      "bytes": 1012
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/repository-inventory.json",
+      "sha256": "348d71e652b81381baaba9597ec4e6cbc72e3c117132c402fb87de8567fbadd6",
+      "bytes": 474980
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/repository-validation.json",
+      "sha256": "35f389f59a34f4c99b0b7ba98267cfc619cebaeafbb7be838ca0786668579fbc",
+      "bytes": 122
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/specific-summary.json",
+      "sha256": "5c1c8e7cea63646d100b380db27ebaccf38d160f90d954ccc16eb672ee605adf",
+      "bytes": 360
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/specific-summary.md",
+      "sha256": "0bbdadb8dec8e9fd26189a0f86dc1202b670d713edb093a322c2755009b380ab",
+      "bytes": 337
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/specific.xml",
+      "sha256": "8d42eab2b30a6a62f7b1b363ab44a69bcdd0ed518100947ef5a20db23a143691",
+      "bytes": 1305
+    },
+    {
+      "path": "releases/SGD-117-v1.0.0/test_SGD_117_repository_manager.py",
+      "sha256": "7c858b6c91aa6ee82d134aea52481c114c83a38a8b0c3e1135ea4b540b46cdc6",
+      "bytes": 3453
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-Protocolo-Correccion-Errores.md",
+      "sha256": "fc0b0f8fa58288563f5132132cb539a9738f327e69fe46bd66b9bacfb01016ee",
+      "bytes": 436
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-SGODA-Installer-Builder.md",
+      "sha256": "b7d901a1ad110b0bebc32c4de367c3d008076ad70770ea38393dd2ffc40417ab",
+      "bytes": 297
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-component.json",
+      "sha256": "bc091e7ea0c531ead72d40651ef45ca282d970d4712a4b1b429cff75dd9a06f2",
+      "bytes": 599
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/SIB-001-policy.json",
+      "sha256": "d6e47553b3e5066e99db9d0daa392a0ecfeb43b7eeb25c3a7f9e0ec4b90a22e2",
+      "bytes": 439
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/installer.ps1",
+      "sha256": "efa4fe808e6e0cb28acaac1478448994c29e89b7dac53ada836ef22b2b49932e",
+      "bytes": 1527
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/manifest.json",
+      "sha256": "4a9f34f01521a9ce7c7674514f8f1b9bfad9ad7fe115d3dbee32e7bb78e38539",
+      "bytes": 1487
+    },
+    {
+      "path": "releases/SIB-001-v0.1.0/repair-template.ps1",
+      "sha256": "381f16fa4aa219b908936a2ed1a75c1320d6cd71e5152da3d89a3bd2a26ed151",
+      "bytes": 1329
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-Politica-Publicacion-Repositorio.md",
+      "sha256": "d928b9a99209f6cbcb2a5b2796090598242517aa7179f977ee1341dc31d5921c",
+      "bytes": 577
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-Publicacion-Institucional.md",
+      "sha256": "05936a4b6b7753a9611c15709fc9b8dc3a16c47c76d301b2e445bdce0edf6371",
+      "bytes": 1194
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-component.json",
+      "sha256": "5afebc378f690d7be957f8795d3b9087593b3489479ea8b5cf0631d2bc5a4e5f",
+      "bytes": 396
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/SPB-007-publication-policy.json",
+      "sha256": "128d3eb988b7ce3d6d1516b91d48055bbbf3f148b732c8a0e9bf88bc2e6c7bae",
+      "bytes": 967
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/implementation-evidence.json",
+      "sha256": "eba1aa6a7276c7b5d5a8a7d262a73fd6df4d20329de2010af60217ab1abe5147",
+      "bytes": 899
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/manifest.json",
+      "sha256": "acfee95604b28fb66822e4b245a872ece61bd90249b40fc80e99c873c2ef5e84",
+      "bytes": 487
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/prepublication-audit.json",
+      "sha256": "7faccf26d6851bf9b80beddc9488769c55216b82628647cca2337b4c60f5b496",
+      "bytes": 4628
+    },
+    {
+      "path": "releases/SPB-007-v1.0.0/traceability-SPB-007.json",
+      "sha256": "39489f87ba0c0a1531a1a39f25ad80ed43f3ecc44aa0d75b5e637352a88ab621",
+      "bytes": 810
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-baseline-manifest.json",
+      "sha256": "dac68dfd4c222c4ed4f10562e723cf0c49f29e3299d620f4f0e4114002a1594d",
+      "bytes": 1295
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-repository-v1.0.0.json",
+      "sha256": "484b97571508d4767d364ee89ba56b59b8dbce6acae921d799a4e209b928a9a8",
+      "bytes": 24166
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-statistics.json",
+      "sha256": "ebf3f0573af05a50eaf7881fbe591e6dd9e5167ab7a1f4deaae5e7bbb4bb668e",
+      "bytes": 336
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/canonical-validation.json",
+      "sha256": "c7086d3636ad24283acc5131282739cfd4891de37933d5f48998876f3a75e958",
+      "bytes": 338
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/manifest.json",
+      "sha256": "95d2226570cd55c7cb5d8daabdda29b7278eaa3e37ecd31e4ca8d03fd09dff12",
+      "bytes": 391
+    },
+    {
+      "path": "releases/SPT-001B-v1.0.0/schema-v1.1.json",
+      "sha256": "c04bb3e93f2156ef0d33f3639493d92a5efbcf463b47bc1bc5aec3b1efd5b049",
+      "bytes": 6633
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/manifest.json",
+      "sha256": "be0dd4d63030647263fbfe6bcda16faaa755d416df25186db133097e82fda87b",
+      "bytes": 374
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+      "sha256": "614f003e82f5c63f7e1379448dcd2d5f2e9e07ffae62c61e47b5652fb98541ac",
+      "bytes": 874
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-generation-event.json",
+      "sha256": "feaf20ed39d8004dc01c5110caa9ad21c3bfe26af64c6a8cc494526fb934ac8d",
+      "bytes": 471
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+      "sha256": "ca8e9836e63cecd6b0df654027eb5ec630a40fd729a382e772bbc3ffd5d3f107",
+      "bytes": 48209
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-statistics.json",
+      "sha256": "4f073650fb754c2a2e3a52d7b7645db121137de8ecea36c425fea679a88fab13",
+      "bytes": 319
+    },
+    {
+      "path": "releases/SPT-002-v0.1.0/oda-validation.json",
+      "sha256": "2180e299956f7351a299922d077bfbccc0196da6e05c4541d6839ad6cbda6f0d",
+      "bytes": 488
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/job-statistics.json",
+      "sha256": "96a688bb183f6dac0379a37f2a9464697261f2228f6662221fce5ec67b4dfa18",
+      "bytes": 174
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/manifest.json",
+      "sha256": "a90c2d0026839e1f54f9a399403293b66525bad3c705234d54c4224164fc6dee",
+      "bytes": 354
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/multimedia-jobs-planned-event.json",
+      "sha256": "6348c4e86395233c839843388208049731a3f04a7e64c66185ab09789949fc78",
+      "bytes": 397
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/orchestrator-validation.json",
+      "sha256": "1bff58c9be293c0561a18d974f03ac338c175f32a2b67678f1c9ebaea87dc575",
+      "bytes": 208
+    },
+    {
+      "path": "releases/SPT-003A-v0.1.0/planning-summary.json",
+      "sha256": "c2767531bd28a1b70a6c4dcc896dca0016e56065c21adc328fa15b9c9c6d2df2",
+      "bytes": 236
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-Adaptadores-IA-Multimedia.md",
+      "sha256": "56532f7008e09b2d0f2a1a37b59df4925c25742d14b1e2d4099189b6b0d6abb6",
+      "bytes": 827
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-Seguridad-Credenciales-Proveedores.md",
+      "sha256": "fca08f2888da2efbd6dff1391f57fbe75b3f4c25eec3d635a9f6be37a9e9709b",
+      "bytes": 485
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-policy.json",
+      "sha256": "dbe88333596518bc9f0de123c0fd83fb3c78ce85542c6d8861623ae020f128b0",
+      "bytes": 557
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/SPT-003B-providers.example.json",
+      "sha256": "468918e05256af8c9d99d1a28588bcdf28f03fb38b7f55b1fe161010d72991e5",
+      "bytes": 442
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/manifest.json",
+      "sha256": "4f6d627565b2ecb72fd500dc66bf4a35b3f7dbf58ebc10c9d716cc1e39aa2c2f",
+      "bytes": 450
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/multimedia-events.jsonl",
+      "sha256": "c44a4055901743751055293c5f3a7786178ba4595cb6271a219c52f326928634",
+      "bytes": 3032
+    },
+    {
+      "path": "releases/SPT-003B-v0.1.0/processing-summary.json",
+      "sha256": "2ad1b5606ab2c76fb7b9058ec5f2cb82f656a9b3845b0e74d67b9daa38532996",
+      "bytes": 73
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-Piloto-Controlado-Proveedores.md",
+      "sha256": "32cf5d7f5155ed1a96a33af67c3ca8e1868fbfd660bb19dcb80ed6b1c3a10d53",
+      "bytes": 798
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-Protocolo-Aprobacion-Cultural.md",
+      "sha256": "f38969caad23b5c5831465a61650016252821f035491974ac23e3c867b932a5b",
+      "bytes": 495
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-approval-template.json",
+      "sha256": "a1e1030b3317eba413cb503607b497c61ec26746bcafe21676fd223fe11900cc",
+      "bytes": 375
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-component.json",
+      "sha256": "5c299ba723dd131e9e76a57125bb826a0f256e2cf332b185d49681bb38b2d96b",
+      "bytes": 614
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-pilot-policy.json",
+      "sha256": "897075e5f1b9ea12e49f6888722680729803cc13b0bf68aa7310c17cd94f75ef",
+      "bytes": 595
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/SPT-003C-pricing-template.json",
+      "sha256": "1757e44aaf7abe3830efcc9fec9562e9202f1cc337e72dc372c57c4c40856bfa",
+      "bytes": 249
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/manifest.json",
+      "sha256": "f941295b847e5277851653efa3b0cb593b0647d6fcb83a3efc9ad2e70acaaf41",
+      "bytes": 489
+    },
+    {
+      "path": "releases/SPT-003C-v0.1.0/pilot-summary.json",
+      "sha256": "61acb32741acb28e7929d5d25195768d54e447e6bd57ab29a1bdf5be677b747a",
+      "bytes": 236
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-Fundacion-Asistente-Institucional.md",
+      "sha256": "6881021215a4784f9dfc641e69444cc2319082a3ad18b5a99ee0d7580a9c4586",
+      "bytes": 1020
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-Identidad-Cultural-Pendiente.md",
+      "sha256": "940c08947e8caea9940f03ec3f961fcd4c25eb866f043d83a3971192466f9be2",
+      "bytes": 600
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-Seguridad-Linguistica-Cultural.md",
+      "sha256": "6652459c6f1c02479d96d727cb991da1213cb2e631b5fec159712bea08929d75",
+      "bytes": 673
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-assistant-policy.json",
+      "sha256": "950ad76935170a3065aa63704e7bf359e51a820f7c3214f8f94ecbb644060253",
+      "bytes": 718
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-component.json",
+      "sha256": "69e94733df80dcfd92cb97c4d4d302b2082e166f1d48282047cbac8e715232e6",
+      "bytes": 938
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-faq.json",
+      "sha256": "55d5e24e777e35ab5267f3686cfaa00222d9977d17e89d63c6d754d03c489382",
+      "bytes": 1376
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/SPT-004A-identity.json",
+      "sha256": "24658251099b2cbf76fa5b0d1d0c983976701aee20f534752f0f3e606b74d427",
+      "bytes": 448
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/demo-response.json",
+      "sha256": "1073f24da31718d8417d96dfcc7dcea41d53d6c7591fd21411338bfa6cea284d",
+      "bytes": 701
+    },
+    {
+      "path": "releases/SPT-004A-v0.1.0/manifest.json",
+      "sha256": "b396c374387ba1304e87b1023b8e318e10e894e5bc3cf28b499e479aab0aa0b1",
+      "bytes": 525
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-Guia-Cambio-Nombre-Visible.md",
+      "sha256": "16db2495a13cfc27e90c1aef550136fecbd9cd777b2318c798f97462a370dbbe",
+      "bytes": 543
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+      "sha256": "6776586f9cc14d638d1e7d7205b7ebc074926677664fd3e831a3bbbcac2dbc62",
+      "bytes": 555
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+      "sha256": "70a011d580340ffaa48a338084adabef497ad7f529b1681e52ae058948d64cf3",
+      "bytes": 689
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-component.json",
+      "sha256": "a4bec3c7ae41233bc447cdc907d371d6debc4c76120d78695cc9eb89ba328740",
+      "bytes": 904
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-identity-baseline.json",
+      "sha256": "9c38b607e9c8726410f3cfc2c1e943659a6a325b8cf0a2a37ee00b34612864eb",
+      "bytes": 1040
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/SPT-005-identity-policy.json",
+      "sha256": "366d13dc42f54637f4daa5a2fc909a6998adc393e7a7d75ba020581e999f971a",
+      "bytes": 628
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/api-identity.json",
+      "sha256": "b676a5492ee928e9cee8eff5d86fdaa47148101a829eb3831481dd9aee0c3703",
+      "bytes": 284
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/flutter-identity.json",
+      "sha256": "bf26625861790465f5fb8b3d7fa2535d98cc37b035088e2d3a61ead621f5c528",
+      "bytes": 316
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/manifest.json",
+      "sha256": "1244522ca67fee7956941fd0e67451223323a56b3f1d68f5696f6ad0e962a8be",
+      "bytes": 563
+    },
+    {
+      "path": "releases/SPT-005-v0.1.0/web-identity.json",
+      "sha256": "ee492639bd2d4ba8a9f549b9fe2182626dec08c3d5c7d4581fdfd4d4a34965a3",
+      "bytes": 291
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+      "sha256": "39ace09fd0166b970f430e93e49b8e2c7dd8476c696a4e3f4f2923a5bbaeb2a5",
+      "bytes": 799
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-Reproduccion-Automatica-Configurable.md",
+      "sha256": "75a4b8088dd0bb4e5f2aa3aad10d3b29a711d49eb6228f645b8d1cfc0a0912d5",
+      "bytes": 448
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-Validacion-Linguistica-Cultural.md",
+      "sha256": "37068ff456c82291a8caf9da51e85bfdf189c46ca919ffff041e3a700f6fcb9f",
+      "bytes": 475
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-component.json",
+      "sha256": "b6eb6160656a5f15f86751eab2eda0a1330338a45638be1f87c62d0063cb38fd",
+      "bytes": 1046
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-enrichment-policy.json",
+      "sha256": "89abd58701477bff39f1724fdc1b10b17f0b39e2a7c1b0d7437867b71491fd0c",
+      "bytes": 918
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/SPT-006-playback-policy.json",
+      "sha256": "f0d1b530f4c45ffb9254ce3473a9631c51c4e204f1568479d019fff691f96dd2",
+      "bytes": 453
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/manifest.json",
+      "sha256": "e0b081c597fda562970cd182decc5981f2ba8f192b442720eeb7cb7b381ff139",
+      "bytes": 513
+    },
+    {
+      "path": "releases/SPT-006-v0.1.0/pipeline-summary.json",
+      "sha256": "a81afac9f7bda1e47b723d1982b2a8dc2caeb164a0bb329bd1d60ab70135e72b",
+      "bytes": 266
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+      "sha256": "b24095f1f393507113c4cae9bca5d8cd3ce98a87ee6731751e6735787215bbdc",
+      "bytes": 464
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/SPT-006A-Operacion-Offline.md",
+      "sha256": "41472b019785d755be08b1c105b97821403f8e7de3925d2525a83b94479eb3a6",
+      "bytes": 441
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/SPT-006A-Politica-Modelos-Licencias.md",
+      "sha256": "66e19e1db5d42385f15e3ddf41a1ed471fe8c495bdd0e64fc1180ef4d7232657",
+      "bytes": 382
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/SPT-006A-approved-free-models.json",
+      "sha256": "115e1f7fec73f980896f22ef6a824ef996a1a7a0a98df2ea0cd5494f79db136c",
+      "bytes": 443
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/SPT-006A-component.json",
+      "sha256": "ef59f9fa440c42606c29fd11973386ce0c610386f3cee1584784aa95ffd0cce5",
+      "bytes": 696
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/SPT-006A-free-local-policy.json",
+      "sha256": "6e10ab8679cb374a09bbf605e30dde9228e6c41a6c37e770307bd020826d0285",
+      "bytes": 946
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/SPT-006A-locales.json",
+      "sha256": "a5c7936493a0b462a6d152505850892899fa5d787ac8a161692a0ac8d2eb47bd",
+      "bytes": 429
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/diagnostic.json",
+      "sha256": "423ee4f905dee58e252a084121ad07f67eeccec18743224dc460a212785bce2a",
+      "bytes": 853
+    },
+    {
+      "path": "releases/SPT-006A-v0.2.0/manifest.json",
+      "sha256": "cfabba4faf3113caaf560661a1b9e83fd55218da1bdc96ac418a98d7bef0ac65",
+      "bytes": 523
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/Invoke-SPT007A-LexicalEngine.ps1",
+      "sha256": "5c3b945e3fbd347f831d9d52d1302ceaa9d7c8dd48e935572d06d3b4d39689fe",
+      "bytes": 554
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-Arquitectura-Busqueda-Ranking.md",
+      "sha256": "4c8c53e46712f83160a0016818c7fa078f77b418a153ad356db51747d42a7c24",
+      "bytes": 441
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+      "sha256": "abc86107b5e127be515ba798425e8461349075764060f5944fce089d1f12ae4a",
+      "bytes": 457
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-Seguridad-Linguistica-Cultural.md",
+      "sha256": "792ca842702f05bf32beca23185b83afef7954b9227cfab63c4c53550b297458",
+      "bytes": 327
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-component.json",
+      "sha256": "c4b8e326188a2a192f93453da27874ea00f54f9ad6361062b9424c7fee6f86c6",
+      "bytes": 1099
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-implementation-evidence.json",
+      "sha256": "531834c8f361be783fef751f37b6664733b465de3b288b2ee1c8963536389fba",
+      "bytes": 1274
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-lexical-policy.json",
+      "sha256": "39dde25618d31837ab5bc9b57bae8b34c7e7e1b172d24c3a51880f5e267ef7f5",
+      "bytes": 526
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-policy-result.json",
+      "sha256": "e72b767ea9d214b6bc9ed76fd2897d4adb24c56d2095cdbb761b57e6dc172a74",
+      "bytes": 3763
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/SPT-007A-policy-result.md",
+      "sha256": "099a135ef85801c8aba42886fd1198b47ba48f1328221f1c76a39440b9917140",
+      "bytes": 2177
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/__init__.py",
+      "sha256": "843ba9ca6f4f1fe7068f58ba2c06f2fc0eef03a56f7af1367696ae7a35f6810f",
+      "bytes": 840
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/cli.py",
+      "sha256": "a35384df60ff4b8a6a5ba26e0db93478bccf0b8ef4177098e1cb9a8e8e60957d",
+      "bytes": 1579
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/demo-search.json",
+      "sha256": "1bfd13406561fba09c23d0c0f49afc52e3b0bad8ccc821d3f67696cb24071660",
+      "bytes": 926
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/manifest.json",
+      "sha256": "5ba541d0f8d12cea9dbce40b6dc0e9e053aecb35cc835ae5efdab79df8a4731e",
+      "bytes": 850
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/models.py",
+      "sha256": "bd400bf8b3d8d3315c7139ee78f502b84b70d4bca6256105b1d24ea0b038a640",
+      "bytes": 1641
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/multimedia.py",
+      "sha256": "997117f55e48024a7467e821eb43a902a01f1ffd79a0d823c02a7b39eba764a2",
+      "bytes": 1961
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/normalizer.py",
+      "sha256": "4437f83a6d3413136b708c51b18df60cb5dfc01f4b3498f00acda7e223d3f064",
+      "bytes": 1752
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/ranking.py",
+      "sha256": "f5cfe6891ea1b23819d6ba84a4ec87c19e963f915de71cb9ed7882129219c913",
+      "bytes": 1075
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/repository.py",
+      "sha256": "cbf323b4a271098ef4578d3ab59520432e5ad3d698a61351ff55154f91ddc7b0",
+      "bytes": 7972
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/search.py",
+      "sha256": "053a1a886f651a78b715d22dcc5fa4de4bb84af4862cbe9887898f6b80f54868",
+      "bytes": 3862
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/service.py",
+      "sha256": "87083a9fa34051930e1cacaeb23184f15f40541161db08d38295c31dfb07f4af",
+      "bytes": 2210
+    },
+    {
+      "path": "releases/SPT-007A-v0.1.0/test_SPT_007A_intelligent_lexical_engine.py",
+      "sha256": "2845ee2a7dabe3abbd5916b8f209c9f097d214305bf600fe52d32bf964b9592a",
+      "bytes": 4394
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/Invoke-SPT007B-SemanticLexicalEngine.ps1",
+      "sha256": "4689cabd0504d3d7c1bd6d9e7525897ebaaeb1ffedd7bbedbbaa4888e06cd479",
+      "bytes": 652
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-Arquitectura-Indice-Semantico.md",
+      "sha256": "10f5c3d43361702ad45bb976b3ec984f395e2a89566f91be1d15a4ae22e28428",
+      "bytes": 367
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-Gobierno-Relaciones-Lexicas.md",
+      "sha256": "d306efd12402937996dc868e307cbb8c65904cff3eb59d2a7a70618e4a5b2cc2",
+      "bytes": 310
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+      "sha256": "84e22cc6c29166adb72a7f3c7fde9af0ab23593e6923803d6afed7dc25bc1bbb",
+      "bytes": 280
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-component.json",
+      "sha256": "e48bc3f7f8349ac3257fc31b00c49129a542dcdc701945087e0c741df3116742",
+      "bytes": 1119
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-implementation-evidence.json",
+      "sha256": "41fafbd0474967b7d7dbbaeb49b81beead015a972f2398c23bf7bfb6b32d4deb",
+      "bytes": 1363
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-policy-result.json",
+      "sha256": "103d4fcef3e0d283117637a09c6c00a9d41d0ca3dbddbbc3f73460bd7b930314",
+      "bytes": 3763
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-policy-result.md",
+      "sha256": "260a1f3dae029460399e822b05b5795f0fef07e2f2ef3a3d8bf40f3b792c7c33",
+      "bytes": 2177
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-relations.example.json",
+      "sha256": "4ab7966c292dd567bf0c5f09164edf02e5690017a69b914e1e28f6767b525440",
+      "bytes": 232
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/SPT-007B-semantic-policy.json",
+      "sha256": "ffd623b10f70586bb5b4a40af0f2c3e247f94eb188719a24956fc417cf8eca77",
+      "bytes": 632
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/demo-semantic-search.json",
+      "sha256": "992aef597e243ea4b4352696619b3b0620166701189c9385d3de2bc5622f4b4b",
+      "bytes": 1175
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/manifest.json",
+      "sha256": "97178094623aed4db6d6b6986b162d8e54ff3ab79334906f410b754617143892",
+      "bytes": 931
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/query_expansion.py",
+      "sha256": "7976196758734693c9331afce5704a89f5e4a61d672a487f1ddd1ed29241b8d8",
+      "bytes": 1238
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/relations.py",
+      "sha256": "158e85bb3b21a68ca5072ff29176ae80f992b3f982a3705be8c3e22367358450",
+      "bytes": 3974
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_cli.py",
+      "sha256": "34ce665de5c45a2773d80d6d5c298fd1aa71489cb2b391b6c561147cdb350031",
+      "bytes": 1757
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_index.py",
+      "sha256": "3c0da70633f2c16b30f2aeaf7b82270d2bd82b43206f72b895484d968a9e42c7",
+      "bytes": 2716
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_models.py",
+      "sha256": "3f816e78a028d5e9a61001184c97e74c39e3397dff88caa750f5787cf4457076",
+      "bytes": 1094
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_ranking.py",
+      "sha256": "f53e7f38bd98db5d46cd298e46e17e756a4259ecf6a21a301e76f1fee17e4fef",
+      "bytes": 689
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/semantic_service.py",
+      "sha256": "ab627104b4b19d800ff0869196f652de5e4f35b201650262dccc540180fcd998",
+      "bytes": 6679
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/suggestions.py",
+      "sha256": "18dac81557133822f6bf292b91ba0ca8839e1cb9f1f6a5ff85e0d648f0b29a56",
+      "bytes": 777
+    },
+    {
+      "path": "releases/SPT-007B-v1.0.0/test_SPT_007B_semantic_lexical_engine.py",
+      "sha256": "2a7629c10c5b0263c60ee80b74a37b4fb093a67d2f4ddba12daefb22b5e237d1",
+      "bytes": 6617
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/Invoke-SPT007C-KnowledgeEngine.ps1",
+      "sha256": "a448d3cdc56ce40c21a7d7cdbc97e15eeb1c1db3062fe24c70b831a6a6b34fc1",
+      "bytes": 516
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Arquitectura-Grafo-Conocimiento.md",
+      "sha256": "5967ef766ba0307fac9e51bf772459f3f55532bcf59585bff26937bd944e8112",
+      "bytes": 359
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Inferencia-Controlada-Explicable.md",
+      "sha256": "b3967f9290e4463aa185b3b1dd062c5ab8b9d75200a79d38f19b2d25cb24fead",
+      "bytes": 346
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Integracion-ODA-Multimedia.md",
+      "sha256": "17c9121a75666cd1436ae2d6f4128288d9de1cdfdbd0b518aefd67bbfeaf1a35",
+      "bytes": 282
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Motor-Conocimiento-Linguistico-Cultural.md",
+      "sha256": "2736b0ff76896ec00c65d127b52a50d16641dcdb017f9281c3ddca3557194872",
+      "bytes": 271
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Ontologia-Linguistica-Cultural.md",
+      "sha256": "800b5863f0e649741471e6a3c5932ded66007313df18dd763409b175e2404563",
+      "bytes": 286
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Operacion-Mantenimiento.md",
+      "sha256": "2e184def44fe9b7dee550d1bb049fc8d378c9d0aeab7895317f4c4e02ef96f40",
+      "bytes": 286
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-Pruebas-Criterios-Aceptacion.md",
+      "sha256": "7b87fa2a97b0636ffdb4006add65567d2b90e9ddf36bfd345e1d5e23d4340587",
+      "bytes": 351
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-component.json",
+      "sha256": "00102977ec1baafaf723ab404a84dcf5952b8d8aa0fea1aee98f4b0787eacdf2",
+      "bytes": 1449
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-implementation-evidence.json",
+      "sha256": "c316e777c217b74a0cdbdd619ca2c54df2e2b69ef26ce25e38e3552afe7e4fd5",
+      "bytes": 1153
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-knowledge-policy.json",
+      "sha256": "1a46d5c6c79c3a775a55760791ee156292115bb7780dba3277cb2075cee58087",
+      "bytes": 559
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-ontology.json",
+      "sha256": "87b647067541e57901a585d2b3df4d3a5de21fc7193d28c5e02a94c29aef51a2",
+      "bytes": 494
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-policy-result.json",
+      "sha256": "4e39d585ebb6661acbc684080e08bdba410bae91ebf1aa0e1fa9f6bfa9147ab5",
+      "bytes": 3765
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/SPT-007C-policy-result.md",
+      "sha256": "a771034729254a47907d35b4086a57978233483cec89ed8e6bb0f9182ed0c839",
+      "bytes": 2179
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/__init__.py",
+      "sha256": "838173e72a38d34c6355e30d5b4ba49729c6ca679a33ce3b2eb67a33cde39132",
+      "bytes": 690
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/cli.py",
+      "sha256": "62adba8feb402aa9e91db21e14ad711443da676cbb5779e6869741efdbd4f47e",
+      "bytes": 964
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/demo-knowledge-query.json",
+      "sha256": "832f4e44e54adc77f54acbb1784027b183ff5e7642ff101306f5a61f3183dc5b",
+      "bytes": 2389
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/graph.py",
+      "sha256": "785e4e60744f691c629ee42ab406d26028d800f200c64266472c386f31ba1896",
+      "bytes": 8146
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/inference.py",
+      "sha256": "ea4950b07f878b3d930184ef5a96ee0c628706be0f4143423a12de9bd6fd0fc3",
+      "bytes": 2793
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/manifest.json",
+      "sha256": "fee1adc5921bb5c1c239e11aa77f84f146392f1bfedc236257d62251d7c344e5",
+      "bytes": 1083
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/models.py",
+      "sha256": "5b401bc501e38af346aa3bae2f619b961e05c7b0746da593cf8a0c6666da48f6",
+      "bytes": 1137
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/navigation.py",
+      "sha256": "15042bbefec37ec626a91fc1e7b634cb9993c68423fe732b105d0c19838e42f3",
+      "bytes": 1541
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/oda_bridge.py",
+      "sha256": "7bb8ed43d85097bbbeaefb0ad7339f1312978e6737495af26e2869fd6fa4559d",
+      "bytes": 1220
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/ontology.py",
+      "sha256": "c553f969a7dda0322fc52599fcf189e792c573fdc502eb0fb9b5cff7cd55be0f",
+      "bytes": 1022
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/service.py",
+      "sha256": "55278ca9602613971b6934bfce531acc226c69949be5a51e9e87f4d94d87e745",
+      "bytes": 4138
+    },
+    {
+      "path": "releases/SPT-007C-v1.0.0/test_SPT_007C_knowledge_engine.py",
+      "sha256": "9efb53efc0f1b2b3bb51bf7c388859d1ec6034f3b94a12ffc7a470c1052d9cae",
+      "bytes": 6946
+    },
+    {
+      "path": "releases/SPT-007D-v1.0.0/SPT-007D-component.json",
+      "sha256": "e1d8ab6d15d481083bca635bb42cedc8bdd0c4d9a37e08759d35541dff8d3dd5",
+      "bytes": 770
+    },
+    {
+      "path": "releases/SPT-007D-v1.0.0/SPT-007D-policy-result.json",
+      "sha256": "c7a3196ea90bfafa50d0a032af7da66a601ae2309ba580f0f2a5ca3688a2ef94",
+      "bytes": 3765
+    },
+    {
+      "path": "releases/SPT-007D-v1.0.0/SPT-007D-policy-result.md",
+      "sha256": "253655ff7eb5cd19772aa6b84ed21699ea5719c2a4f47c1dd2977b6ef3316a9f",
+      "bytes": 2179
+    },
+    {
+      "path": "releases/SPT-007D-v1.0.0/manifest.json",
+      "sha256": "4f0a0f1397304fda69d65a6d6c8379aeb606d956f5fd2e3ec0f1bc4f8af81d55",
+      "bytes": 318
+    },
+    {
+      "path": "releases/SPT-008-v1.0.0/SPT-008-component.json",
+      "sha256": "a6adaed7e0d1eb9bb42fecbf3242bf6104a5ea301dff189eccff717f702ab3c5",
+      "bytes": 757
+    },
+    {
+      "path": "releases/SPT-008-v1.0.0/SPT-008-policy-result.json",
+      "sha256": "9da91381be40931d32b8894fbb8a6394a2824d299fdf1e2bff3111e4ac877125",
+      "bytes": 3750
+    },
+    {
+      "path": "releases/SPT-008-v1.0.0/SPT-008-policy-result.md",
+      "sha256": "e81651ccc72eac14bc90fa187255d61e4ee38da82fdabd5b77bc7d8b1e3b1626",
+      "bytes": 2164
+    },
+    {
+      "path": "releases/SPT-008-v1.0.0/manifest.json",
+      "sha256": "7f92d2f3684cf7bfd7d9decfceee22b95aa191e51afac89beef44aa025cecbf8",
+      "bytes": 313
+    },
+    {
+      "path": "releases/SPT-009-v1.0.0/SPT-009-component.json",
+      "sha256": "6a8050d32d52a87bb7a379b6b4479bf7c0d2f282e3df07d7b1e0d79ab9371665",
+      "bytes": 825
+    },
+    {
+      "path": "releases/SPT-009-v1.0.0/SPT-009-policy-result.json",
+      "sha256": "d41981e42c122a74d8e8c91c7ab373df03c25cd2813c44d9e62f05af36ab8e91",
+      "bytes": 3757
+    },
+    {
+      "path": "releases/SPT-009-v1.0.0/SPT-009-policy-result.md",
+      "sha256": "5474f60f43ada4c38ac44eb19239f01a244c9b1cffbea71b9d09cb83ee5c2d35",
+      "bytes": 2171
+    },
+    {
+      "path": "releases/SPT-009-v1.0.0/manifest.json",
+      "sha256": "bf2c6ac2f4331da2bd305f919e26ff1c829029548b6615dec08eaddf5a96d287",
+      "bytes": 313
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-Solucion-Errores-Demostracion-Integrada.md",
+      "sha256": "9100001528699abc02ead94984e6f8942e3439ae54f0af60e4e4e1ca0e770d85",
+      "bytes": 10906
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-v1.0.1-correction-evidence.json",
+      "sha256": "b372fca929b50812ba8e9d1585626a1fdf9bac7fe2829ea38adf0b887a3884c1",
+      "bytes": 1064
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-v1.0.1-policy-result.json",
+      "sha256": "d237c23a11ac8358c2873025b13b311640c211ca4de0810aeae74476653107f1",
+      "bytes": 3753
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/SPT-010-v1.0.1-policy-result.md",
+      "sha256": "84729b4caebd8f3e3c279ea1c5d58cf68f7d2e9a36d48d471eaa7fa9fc5f441c",
+      "bytes": 2167
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/cli.py",
+      "sha256": "d22ca28fe4608870f1868020875b7faaea9cdbabd6de9ff27bcb10656a588125",
+      "bytes": 3347
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/demo-platform-payload.json",
+      "sha256": "e3ad0bce6e0d78a0f9a035544f68e81fd3e0d6b18f2938a021b90f4183855286",
+      "bytes": 54
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/demo-platform-result-v1.0.1.json",
+      "sha256": "3ecb2a9488fa8a5d89189d8368e1ebeb8a21599f6fb96e94e460552d63b7e29e",
+      "bytes": 786
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/manifest.json",
+      "sha256": "9bccab760df5bed6d60342584e9c9c03ea8387af472d22f16ef69fa907695622",
+      "bytes": 540
+    },
+    {
+      "path": "releases/SPT-010-v1.0.1/test_SPT_010_payload_compatibility.py",
+      "sha256": "60afa870aa8fde760eab23fe5ac746ccc627539a601f6a92eaf2371c8a09d645",
+      "bytes": 2753
+    },
+    {
+      "path": "releases/SPT-011-v1.0.0/manifest.json",
+      "sha256": "da5eca64abfe39480239622776d299d1f6c1a3adf6edb9eeb8f229ee26b27cce",
+      "bytes": 211
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/SPT-011A-Institutional-Evidence-Closure.md",
+      "sha256": "7e32d1892c0003c85d0ae09477b0a02747eed53d80de9544b8344695661ba2d2",
+      "bytes": 465
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/SPT-011A-component.json",
+      "sha256": "18045a6ff381234f968286e245bb4886a1d766f64926d2c0b809d20b96e88c6d",
+      "bytes": 590
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/SPT-011A-v1.0.2-demo-evidence.json",
+      "sha256": "f0acac1a61b17b9e9cf34cae99e131fce3c1611eb3ba85bab6d1c004571b719d",
+      "bytes": 524
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/SPT-011A-v1.0.2-pre-gate-evidence.json",
+      "sha256": "caf4e68be2c62a30f9d71ccc7474f0aacb79eb9453c125d44d4ae7e69653a1e2",
+      "bytes": 971
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/SPT-011A-v1.0.2-pre-gate-evidence.md",
+      "sha256": "96e661aad39ad11bdf87d83f274e3a1ae0571ca7b9305cd2699e8ba19316f9f1",
+      "bytes": 354
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/SPT-011A-v1.0.2-test-evidence.json",
+      "sha256": "4729f9b19d6ad36618ca0bc26b92a88c47d6b3cc4a705e4b3a77ef49d3629b5d",
+      "bytes": 918
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/demo-operational-result-v1.0.1.json",
+      "sha256": "44412ae5fbfc2039b16c8f3330d77a2f523ef18b805de2304bcf358cbfb567d2",
+      "bytes": 706
+    },
+    {
+      "path": "releases/SPT-011A-v1.0.1/manifest.json",
+      "sha256": "f4f886e4c71cba74992ac3750703b7654474857637611231f7d440e7b7295c02",
+      "bytes": 773
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/Invoke-SPT012-LearningPlatform.ps1",
+      "sha256": "61941788004ab9122a97ce5db4efe2570c63e425934e54b1766a18706ff3de89",
+      "bytes": 633
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-Arquitectura.md",
+      "sha256": "238d117285bee7b48ffdab62c924b037d4d035346db71c495a8ace88cf8a8407",
+      "bytes": 186
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-Diccionario-Digital.md",
+      "sha256": "317d6f0a60521dc22a7a427d114a0b4a5b3cdb1f62e66cdaf99b677e7d451579",
+      "bytes": 152
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-Integracion-Motores.md",
+      "sha256": "5e3634452f69204faf5734bab0ddc1b726f054515150a6a8c1ad0f1e52e44b62",
+      "bytes": 165
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-Multimedia-y-ODA.md",
+      "sha256": "70d517580de4e22da5afbc9401247971ff9dc220baea203b236a0629ad3c5718",
+      "bytes": 152
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-Rutas-Progreso-Evaluacion.md",
+      "sha256": "a20af1f321c745cc17029af962cc825f97b685e48adcd6d328c56d6a76afe608",
+      "bytes": 157
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-component.json",
+      "sha256": "76304ba0fd66d91b9a65189df2e7c2229d2f9f8e2e6c4ef1b5f39dc4695ade15",
+      "bytes": 1392
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-implementation-evidence.json",
+      "sha256": "0bb99954bdb7a80e880ade6ffc44ed2530ac2016f60bb64ba644e79334940a24",
+      "bytes": 678
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-policy.json",
+      "sha256": "a3bd4efd05c1f58cb54eca20ce120e73306978a8ae42616542cdc7660d811607",
+      "bytes": 373
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/SPT-012-runtime.json",
+      "sha256": "632701f8817bc14e7ded8dae7905714c3cec03237d30124daeac0fc9a1ef70a3",
+      "bytes": 298
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/__init__.py",
+      "sha256": "45bcaadd5f2f3175c3e2f91ec6dcec5914a607e2c9c1de970f209e3795aed837",
+      "bytes": 443
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/api.py",
+      "sha256": "a40c38af7bb263f6e806582a2596d01bbc1cce3b7dfe6d5b585a1d6b7530d700",
+      "bytes": 1821
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/cli.py",
+      "sha256": "f4c2c0eb3f5202a22616eb59c0287c9270d537e3bfcd3f3108d69a3c852200ac",
+      "bytes": 2223
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/curriculum.py",
+      "sha256": "58b4101c6ceed6fe884d69548ca1a0004caebdd101f56a60babf40b1c87aaf71",
+      "bytes": 1390
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/demo-dictionary.json",
+      "sha256": "f85c29f6d73fd8fc7f579454f9225cc34d9dddc697b390a6446adbb47f865029",
+      "bytes": 419
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/demo-learning-result.json",
+      "sha256": "e49896051b2329c513853fcc4cdaaaad7dc7dd67ee19a7cd9add473983967101",
+      "bytes": 1142
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/demo-media.json",
+      "sha256": "399f8cc6797ff37926f7545b4fc507de71801dd854c9e4eea1edc331d64f7db6",
+      "bytes": 674
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/demo-request.json",
+      "sha256": "abccbfb8ce1bf50af63150d4314b4b1ed763074569020522b5db3a55ee8d0fcf",
+      "bytes": 169
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/digital_dictionary.py",
+      "sha256": "31790191a75e34c40beb6b6c5975c14e9a13f57485997192470ef86585d3f1d4",
+      "bytes": 2922
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/integration_bridge.py",
+      "sha256": "114f3d4be29997172c8481e18899bb3f17ed789f307756d148078f9a5d0b0aee",
+      "bytes": 1274
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/manifest.json",
+      "sha256": "66880edd5ac4cc0734b7de88eebb13c2e612974e53e7449a1259cb6083a9c075",
+      "bytes": 1271
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/media_library.py",
+      "sha256": "adcc5596865dbd5a764230d2cc5976da2f26f3d04e1893891e12ff71f95af9de",
+      "bytes": 1854
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/models.py",
+      "sha256": "083e997b2f25f57d4c0413d7c5112bae9ed9abfad77e86d096d379de9f85c432",
+      "bytes": 776
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/oda_factory.py",
+      "sha256": "f5678ec070547b20f1a9d8594b0e6443ac2c3ed670af082d9138adac2fda3d75",
+      "bytes": 1498
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/progress.py",
+      "sha256": "1219a39bae6646858965aee0f8f149015a3a60d0b2ff6db2c0f9aed2a8342296",
+      "bytes": 1729
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/service.py",
+      "sha256": "0714316e17f6c4c5263488f7417201313339f334211e7d81d62dc5d7d938183c",
+      "bytes": 5938
+    },
+    {
+      "path": "releases/SPT-012-v1.0.0/test_SPT_012_sgoda_learning_platform.py",
+      "sha256": "b96fce9c92f9e2441d9c9c7391cea8a81b88831865f8f52b59219189c8604db3",
+      "bytes": 7376
+    },
+    {
+      "path": "releases/SPT-013A-v1.0.1/SPT-013A-v1.0.1-implementation-evidence.json",
+      "sha256": "31fb88ec44ac39c2771d342c9c41c58b8e6e0c0fe2c4c1c08a36c818acae79cb",
+      "bytes": 661
+    },
+    {
+      "path": "releases/SPT-013A-v1.0.1/foundation-demo-v1.0.1.json",
+      "sha256": "ee627b63415cf1feb23b06192b23b75f7e7c45c9b8214537e5e3fb5f3be89f79",
+      "bytes": 189
+    },
+    {
+      "path": "releases/SPT-013A-v1.0.1/manifest.json",
+      "sha256": "1b85aa3a20bd076398be598feba298c77033d64637a28884ed735c0c2a6761ec",
+      "bytes": 399
+    },
+    {
+      "path": "releases/SPT-013A-v1.0.1/registry.py",
+      "sha256": "94b016ffa3f8a3572796c10d028d94987ecda56965d550769f57cce10b4895cb",
+      "bytes": 2079
+    },
+    {
+      "path": "releases/SPT-013A-v1.0.1/test_SPT_013A_learning_ecosystem_foundation.py",
+      "sha256": "e35f62545c4594c1a9ef913f5e845254c2af7d757b164647c9bd2b22f8c9a36a",
+      "bytes": 2849
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/Invoke-SPT013B-DictionaryManager.ps1",
+      "sha256": "2ff8d03de0eab0f0bd404595b9917d56ea60c8d04ff9db370525b7d478f6bd77",
+      "bytes": 463
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/SPT-013B-Arquitectura.md",
+      "sha256": "01f88a83ab064b58aaacd4ff4353e1f6d2d6fb4a4c5120a0a837e5b954bcb28c",
+      "bytes": 268
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/SPT-013B-Importacion-Exportacion.md",
+      "sha256": "97a6bbd9aa16617ed5a4064b3df013d1418dc38d4e706a12b3b76f4b153e5ede",
+      "bytes": 241
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/SPT-013B-Modelo-Lexico.md",
+      "sha256": "295d96663aebe4bd963a21c5a64e618c7d0c074525c44b22591d9821613a2133",
+      "bytes": 316
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/SPT-013B-component.json",
+      "sha256": "aba9271c919014a7dbf22104154df85f374c2437ab092bf7f2355e6f41c3ad9c",
+      "bytes": 1293
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/SPT-013B-entry-schema.json",
+      "sha256": "fc6558c91d49bb880baf4acce0c4fb6b4529f5e9027e60068eb4c833d3dcfe91",
+      "bytes": 577
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/SPT-013B-implementation-evidence.json",
+      "sha256": "153ff538be42a6bfc041a35f4591fe2b755755d8610bfdf0a36113662866d185",
+      "bytes": 510
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/SPT-013B-policy.json",
+      "sha256": "77949ba557692724da6ec09d5bf72d15033c8e92d64ab6f8ed901247ad191619",
+      "bytes": 338
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/__init__.py",
+      "sha256": "9efdc8188a746c3e7249408ea89888e292a0ec7d977ca740b4b00e47cc50b131",
+      "bytes": 636
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/cli.py",
+      "sha256": "3480afe9dddb7c9feade5702ed812db898ca1e8ada7343118180c5959fbcba4f",
+      "bytes": 1497
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/demo-input.json",
+      "sha256": "9f7693476dfea0543db361a1146f9b4eef74dc3bc923378409093d2d16e5855a",
+      "bytes": 1118
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/demo-output.json",
+      "sha256": "6afb1aada4e18cfc425d10d93c935895cc12e04c9f6853a1faa5084615a56cd4",
+      "bytes": 648
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/import_export.py",
+      "sha256": "d89000e9484ede5591c534bbffe71e200e7ae9b141944453f3352c4caf2ed63d",
+      "bytes": 3806
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/manifest.json",
+      "sha256": "33bc7dc75e10eac8dd0b586c680401ae19ff4cb0b36d050f8a99201e22172632",
+      "bytes": 985
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/models.py",
+      "sha256": "6a55b4ca4c85ccab756b5292dfa9bfff188272b0f098e0f0cf8542ff2bea9d6e",
+      "bytes": 1112
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/repository.py",
+      "sha256": "99edb72b75c8a77e071f415b3592e66a41a3681d0efc30eb70fda6e9916cad65",
+      "bytes": 2056
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/service.py",
+      "sha256": "e36bb4d9e0ba1dbcc102f86dc94a39041b89fec45b32cbf8e0522802ebcb9fac",
+      "bytes": 6398
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/test_SPT_013B_institutional_digital_dictionary_manager.py",
+      "sha256": "cfd76cbced6fe935b8f69516296d600cdd9d4b0acca7f6c99d08f5814ea40edc",
+      "bytes": 6394
+    },
+    {
+      "path": "releases/SPT-013B-v1.0.0/validation.py",
+      "sha256": "e90e46b68a85b3ea3bf88b7be9aa1adea0ff6340a164989e5e388526c8a78280",
+      "bytes": 1300
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/Invoke-SPT014-MultimediaEngine.ps1",
+      "sha256": "3a531430933b58084d5e2c87ce6a4b0433410599c6fce700aa3c2e1f1f6b4ee9",
+      "bytes": 460
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/SPT-014-Arquitectura.md",
+      "sha256": "db3a346cd18e0f8a5023a57e334d14624cfd78a756e974be586eedc1a15c3826",
+      "bytes": 232
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/SPT-014-ODA-Multimedia.md",
+      "sha256": "9d8e996c84ebc5a2149129de9492ef910c682fddd81a5762096c2906ffda5228",
+      "bytes": 260
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/SPT-014-Politica-Multimedia.md",
+      "sha256": "a8a04cb4b0bed989eb2a0eed38cecce6016525fbc42890c7c69f90d4d79cb72e",
+      "bytes": 267
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/SPT-014-component.json",
+      "sha256": "f1ceb0f4c37820f9115ffe8cbd6db26ec1141ada2b148ecebbffc88b09078c08",
+      "bytes": 1329
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/SPT-014-implementation-evidence.json",
+      "sha256": "5b73d4cd5b6a329c75203a6d00c0db13845cceaa1a5b52a19c4c7b09837846e4",
+      "bytes": 595
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/SPT-014-media-schema.json",
+      "sha256": "4e7825012ac99fec922b827ac97efb8207ff9931b63058f7efdd33876ed807ae",
+      "bytes": 739
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/SPT-014-policy.json",
+      "sha256": "ed059955d5c92e345356ac95b6da7795096aa1ddfc8ba52302fe48bb4e33e95c",
+      "bytes": 363
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/__init__.py",
+      "sha256": "58786c9c121d5983e678851632df1a70c8a84e17b7af2875bc1cf1efdd23a110",
+      "bytes": 628
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/cli.py",
+      "sha256": "456ed408de58d6b45ef2270ba972a051a0dca4defdb4dda113627f6d555297ca",
+      "bytes": 1728
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/demo-output.json",
+      "sha256": "05a721a7ba5b0235bcc0a3228d6f7b96b60b77eb9c67fa91c1d7c688066d2f90",
+      "bytes": 1893
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/demo-request.json",
+      "sha256": "366323af4cd839072a1eacc2c1bb8488065e1c7f7dff59ad4479cc207a913b44",
+      "bytes": 1753
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/manifest.json",
+      "sha256": "d75ee28ae45f3173c832af8a95cb64e5cb889db295ad717f3fb6902ae0089406",
+      "bytes": 986
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/manifest.py",
+      "sha256": "dd4f0722f7d1ab3eb77eaac3e90b2395dfbfe21d849b6698220cd1473e6d73c0",
+      "bytes": 2711
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/models.py",
+      "sha256": "e856e959b4ea149fd0e7b6c29cc91531784abcad1f772b9db252174a2aeee3a9",
+      "bytes": 835
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/oda.py",
+      "sha256": "cf9f028434d104904aa9a0bf2f9289ec0bfdf8a23760dded566396a7ce62eaff",
+      "bytes": 1027
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/repository.py",
+      "sha256": "d52182013bdf9c3495cda1f997abe7015a1a1d7ec0d34a6b07725c8a71d1aacc",
+      "bytes": 2045
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/service.py",
+      "sha256": "3f1ab9e76f7a7ea12995a7fa75b99b8609c4dde1788630f2413f5f3cf0555d93",
+      "bytes": 7931
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/test_SPT_014_intelligent_multimedia_engine.py",
+      "sha256": "acb1a0988472dad562b8d97775f26127a32633da0e7c07c67f7622fc7afae4df",
+      "bytes": 7817
+    },
+    {
+      "path": "releases/SPT-014-v1.0.0/validation.py",
+      "sha256": "f54c659c45862dc7ebc09a24e689a4e9aab3942ab981d4655fbc4584dcd66b73",
+      "bytes": 2106
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/Invoke-SPT015-AdaptiveAssessment.ps1",
+      "sha256": "d5b4428f913fab45c528d331e0a155fd1d8844ce4dc751f340683aca252b876d",
+      "bytes": 464
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-Arquitectura.md",
+      "sha256": "801af6d3495e01d84260ca607e2f1ca678db080d8b0949746a878ba551e90849",
+      "bytes": 185
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-Modelo-Adaptativo.md",
+      "sha256": "310d58feeed51fcf4f889d0990e15766e2616b3d09ddd89f40fe04d3d4cc37e8",
+      "bytes": 249
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-Rubricas.md",
+      "sha256": "7b39686c3adafead56bfd948042fb77621b45296a3d48b80725eb364a0f09902",
+      "bytes": 203
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-assessment-schema.json",
+      "sha256": "15e395f6d0637f905e1bf4fe378e37c31ece78bfca9e5e1b3155ef4068b7df96",
+      "bytes": 696
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-component.json",
+      "sha256": "41b0d849542f8865bab5968d50159fbbf639853730e92023fac72bfdfd86fe77",
+      "bytes": 1354
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-implementation-evidence.json",
+      "sha256": "471ab8db5bbb944b837b566af0bbdb87390249014466f9cbebf6282035215a03",
+      "bytes": 581
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-policy.json",
+      "sha256": "907919e5e7c4c3b8b34dbbf593dcaf83cca14d3cbf2a5cbd49a95a054f3e1769",
+      "bytes": 335
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/SPT-015-rubrics.json",
+      "sha256": "827373b06d8001731c3cd19d4b50edac4aec56a7a9c840a0ea699a085ab184fe",
+      "bytes": 279
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/__init__.py",
+      "sha256": "6453b8dfa9d5bcd56c7245567f73ab867de51c5bec82d080a7434c75365d157a",
+      "bytes": 688
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/adaptation.py",
+      "sha256": "f6e47526f70b7f928a570034b4e96de36b99aa38a32bf200089fbaee9e94feb6",
+      "bytes": 1087
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/cli.py",
+      "sha256": "945891cf3b43f60c935ddb071f5dab81b568bd6ac1b846b02064d66722f76372",
+      "bytes": 1891
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/demo-output.json",
+      "sha256": "c73fc4f66b7141c032db4e281e0fecd1c0463e993cca9d6c21ef7a5060e7213c",
+      "bytes": 255
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/demo-request.json",
+      "sha256": "72fb891bdb4e3a8217a4ba7fc199c1ffd74bfd818fedffb46ef7efe338a5462b",
+      "bytes": 2150
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/exporter.py",
+      "sha256": "e71aa798569d71111438adae0111f6a88f9aaa4e83fd5e4ac669c5c052c6294f",
+      "bytes": 473
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/feedback.py",
+      "sha256": "a83f13da18a3936b3c2370960351cf72daffc31a4fc109c5103030b7c4b4db85",
+      "bytes": 798
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/manifest.json",
+      "sha256": "47e9911e1abeb7c4446810363be52fd676b7ef2a564eb4a97e66bf8270225f76",
+      "bytes": 1027
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/models.py",
+      "sha256": "7d208daae6fb15781705a1e37d6706a5620fc8d8f9d9fd59d75be8bc9fa46c5d",
+      "bytes": 1023
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/repository.py",
+      "sha256": "6937adb048967a2534d6c82e1eb589839660f1c05c07b4e5e90adffeb4528a22",
+      "bytes": 1879
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/scoring.py",
+      "sha256": "9c30c024e0c3b27356005e49b413dcf6b381bf2b912895a6b5c7aba4e01352fa",
+      "bytes": 806
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/service.py",
+      "sha256": "f010f4c3d54b3c95660ae1eae6c71747cee1293b992fe6f9baa876c2a724cd5a",
+      "bytes": 12095
+    },
+    {
+      "path": "releases/SPT-015-v1.0.0/test_SPT_015_adaptive_assessment_engine.py",
+      "sha256": "779284b1f589151b4ae4b22ed6a351a5abcb00472b864aa2086ade7a1480c376",
+      "bytes": 7794
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/ACT-SPT-016-Cierre-Oficial.md",
+      "sha256": "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852",
+      "bytes": 620
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Arquitectura.md",
+      "sha256": "6688ecbc0e99e8353a1d41f1740c73451383d73c408cd9f8b9836021fee71dcf",
+      "bytes": 1002
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Especificacion-Funcional.md",
+      "sha256": "60c0b44e31b5034e0cf43843741f6397088585383681a583fd636c86cab09018",
+      "bytes": 790
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Manual-Operativo.md",
+      "sha256": "262b6e7c2b33c3c334e6994906ca7305dae183609a9825a32b254f975dd3c1f0",
+      "bytes": 572
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Matriz-de-Trazabilidad.md",
+      "sha256": "207ccac65b86abf5a7d5a1bbe723a9666cb3bd7602f89ed25fc472972acb01e2",
+      "bytes": 880
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-Plan-y-Resultados-de-Pruebas.md",
+      "sha256": "f31c04d4274bfde856374fab7ae86846948ac3a4aea4b15710dbc4be2c210467",
+      "bytes": 411
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-component.json",
+      "sha256": "4109b94cd070c64c99c1ca4fab4fbc92757ba4a1d88164a83423925d5788274d",
+      "bytes": 708
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/SPT-016-policy.json",
+      "sha256": "b1de2aa5c2323b09433d1a2efe75b562159bd731e9ab0135c56edd8c4ff1038d",
+      "bytes": 520
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/full-suite-summary.json",
+      "sha256": "95dc1dc160fff5cb37b9af17cd53b4cab865578a1e3aa75f26d1f4568f427ed2",
+      "bytes": 368
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/full-suite-summary.md",
+      "sha256": "e577b8060c46351bd5d3d79d9efb9a1de74054e7ed0f4f601f7f5afe02df34d9",
+      "bytes": 345
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/full-suite.xml",
+      "sha256": "ae2abd5e961f582d3c6b37fc7ea5365720aab7749099d2584e127bbe6b3d9ad5",
+      "bytes": 77850
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/implementation-inventory.json",
+      "sha256": "7bddb1b3435a4a87e559ae51397ddc0823b4e38f7988b60c54b1a6006da72991",
+      "bytes": 3283
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/manifest.json",
+      "sha256": "bab678f220c8ef3feeb805afed791e2a5446ed7fdfcebe5b8e66f4efed47c2d7",
+      "bytes": 5220
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/official-closure.json",
+      "sha256": "25ac8e6f6472543e4d85df5c986837cba3cad606cbb3833e0aaf6d714274bab2",
+      "bytes": 2358
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/official-closure.md",
+      "sha256": "a67ec696b803337240595fbe130bc07d06db1cf3ca0a447dc56af93be8e32852",
+      "bytes": 620
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/release-validation.json",
+      "sha256": "fd497c5bc0b0023b89e23aad3b0264d223b31875df0ae6fbb1eb31800ba744b1",
+      "bytes": 1495
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/specific-summary.json",
+      "sha256": "5211c9b903b1e101ed9e42ae0a4d0ffbc5dff0f0012238388c1ca6af66f35af5",
+      "bytes": 362
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/specific-summary.md",
+      "sha256": "0024952b52a8cd73f8397c6156cb377b8a7fd1e0173f8ac3d0545f5c171f3e7d",
+      "bytes": 339
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/specific.xml",
+      "sha256": "e98931b7485a11b0ecb3b172b34a3ede0fa4ea48b9e431f5a579fa5aac1e0e89",
+      "bytes": 3145
+    },
+    {
+      "path": "releases/SPT-016-v1.0.0/traceability-matrix.json",
+      "sha256": "8d5c353458e6d77161c706339921345b9166a464a4fdf2ccffdbb4615d4978b0",
+      "bytes": 2009
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016-full-suite-summary.json",
+      "sha256": "93aa4af0839ce49d6ee497d0d89edd73b711000609e5db7b6e6be0fb79ad4132",
+      "bytes": 370
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016-full-suite-summary.md",
+      "sha256": "7a014cb71b05b880781b1fcdc7f6993a61ec2c3101fe8e29b70e94411ddb4324",
+      "bytes": 347
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016-full-suite.xml",
+      "sha256": "30240d2d4f3b1b75085bc787f154f5113c8bafba681295611312361020c55e2b",
+      "bytes": 68553
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016-specific-summary.json",
+      "sha256": "531c91363872f452510c3828da6b8f0372c94147727a6b8f1f6b3425a3227bd8",
+      "bytes": 357
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016-specific-summary.md",
+      "sha256": "5401d4df3c9d10b97486461e5814155d885db485cc28b0c9c203a20f3f35d7dc",
+      "bytes": 334
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016-specific.xml",
+      "sha256": "4e33aeaed561c567aeb756a8ad9d3331fb879a44501df028acff62238b1e9a40",
+      "bytes": 3145
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016A-Evidence-Compatibility-Patch.md",
+      "sha256": "2bbc2db53945b2539d4f2ab3d21844940f4eb1906fc7aee9e5eb3b463c087f02",
+      "bytes": 747
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016A-component.json",
+      "sha256": "d8268c926f81357e1d864a988c2233e4bbc5a3d7d5ad2e0e7d60a9d1e95d24f6",
+      "bytes": 554
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016A-implementation-evidence.json",
+      "sha256": "e2b4b20706a1bc5178ece74bf37d956362691c75ac1a843f0fec5b59834fb6ab",
+      "bytes": 3495
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/SPT-016A-implementation-evidence.md",
+      "sha256": "ed6ff0c6c015fb2a41118a8010b4b5420229aa720d26fc38a213a3e64aef343a",
+      "bytes": 398
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/__init__.py",
+      "sha256": "3cdeeadbb12aec2f20466e632ce92a8d063bec49a9eaff56e3b732ad1b9eb7dd",
+      "bytes": 608
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/cli.py",
+      "sha256": "507e78bde3383113664a75b9eede3bcc8153cae86329f855c4f7f82dc5fee6cf",
+      "bytes": 1680
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/demo-output.json",
+      "sha256": "070c053d6ac23b4ef1e890786a50485f43fdc87c7090ea7f3b73b45cd7fe33ef",
+      "bytes": 1755
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/demo-request.json",
+      "sha256": "a9f7d177076c8ef709e6932c2c12e85da78ea6c3de4d0362902da50bc8a7d091",
+      "bytes": 1570
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/exporter.py",
+      "sha256": "416fd5dad8b83964ebd0c2d027685763e9ccdf898ed7a7bf7ef5ccfe35dbbd56",
+      "bytes": 470
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/manifest.json",
+      "sha256": "15cadf9a908547363a4391b4869a619af856ea0a2678808fa9a5618dc3e0c886",
+      "bytes": 1159
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/metrics.py",
+      "sha256": "0864c6910ed043aa820cfdf272d395635e4e3f14043d9de12f6ab15bf6d17299",
+      "bytes": 1334
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/models.py",
+      "sha256": "e58251424e669afccc28bdef3dddad4cb7c8dd51d8024bfc435dbf5eb8b8af2c",
+      "bytes": 817
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/recommendations.py",
+      "sha256": "23f3986473885a8a6ebc03dc4c61da21dfef409d39ca3c83d4eb89a239101adc",
+      "bytes": 849
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/repository.py",
+      "sha256": "e77b7261b43d01d87b0e66e84f190df99191b607fa0c379ebde7378de835538e",
+      "bytes": 1425
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/service.py",
+      "sha256": "47655937322c36a7521ba364be751f0cc5eb5cc0286af70c3dc21e399c78ea8d",
+      "bytes": 9023
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/test_SPT_016_learning_analytics_engine.py",
+      "sha256": "f256af22ed5a7a2480055f65fb3695e9cd5df1caa12e73966d74200dca3fdb7b",
+      "bytes": 7158
+    },
+    {
+      "path": "releases/SPT-016A-v1.0.1/trends.py",
+      "sha256": "19e3624c22fd27fdcfbabbbc1b5b36d675fa52ac4229fa496ea51f0a5cee52b4",
+      "bytes": 1329
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/SPT-017-Arquitectura.md",
+      "sha256": "faec4df85190fa52ccd9b9255c7af2ada7f4a921a46dd306f0f59fd04ae9586d",
+      "bytes": 209
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/SPT-017-Manual-Operativo.md",
+      "sha256": "0b347865a93e1260ba76490db91de00a7ac0f3bcbf5e37ae040d36949e1cbec7",
+      "bytes": 108
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/SPT-017-component.json",
+      "sha256": "8bb0cc348ea0621394f776a71fd1f1b52b3c1219cd6b1eb2ea515f2cf6c032a9",
+      "bytes": 803
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/SPT-017-policy.json",
+      "sha256": "a88440596b31f6ece530a0c0b568a0beb14d0b04ea3df29abd1ba56ca04bdf2e",
+      "bytes": 460
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/__init__.py",
+      "sha256": "084053085eb001a1a61e00329caa506d1ac40d41a2f2a597a76f030cc3faa58d",
+      "bytes": 210
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/amda-demonstration.json",
+      "sha256": "fa33b65e5481044fc42238254ea374431fa161bde04b5fd3170ae4f5a442d0e2",
+      "bytes": 899
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/cli.py",
+      "sha256": "4207eb320ece12b60eb52217aab06bdf01c9714477c1aa14d9d29d4ea4a8770b",
+      "bytes": 1039
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/full-suite-summary.json",
+      "sha256": "8db080592619037313e2b7946064e9b723f1c7b07ee23b15b5ce338211b841f6",
+      "bytes": 368
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/full-suite-summary.md",
+      "sha256": "7db426bdd9e2179d86d9ac043a1b155a5c388997318b4f28200fb941c7d858fb",
+      "bytes": 345
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/full-suite.xml",
+      "sha256": "d26b35777b69fd2adb83899366a579e0a1a8d3fc04b69932cefee405ac61a7cd",
+      "bytes": 80473
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/health.json",
+      "sha256": "232b18ab0cb7bf95c7f2c61234220e0d66f2264479c3c21c3707c9fb64fc384c",
+      "bytes": 227
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/implementation-evidence.json",
+      "sha256": "3a947a7418e16edc1e2fbe25b57d2dd043836af69b6911ea7c53dae1ce20716e",
+      "bytes": 713
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/index.py",
+      "sha256": "59e19a53b1bf4b3ba60b37249f9a40b4d75b5e314bba8367403d707475fe00c9",
+      "bytes": 1222
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/integrations.py",
+      "sha256": "17e0fd4c78c5182c19d3af554e2610a70e6337f0eb34f38125e1c6ad0229b268",
+      "bytes": 1599
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/manifest.json",
+      "sha256": "14852ce40b9a8b7ce5efdeb938d4f4c3a697265e539eb28e65827551768e0825",
+      "bytes": 1297
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/models.py",
+      "sha256": "c699e699246f8b55af5a4721d289a180fd9b4fd6afb30906bbed394747ef5f70",
+      "bytes": 1093
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/provenance.py",
+      "sha256": "0797f691ffc2c07d8383cc30095f6d1f180677a29286f932cf451f28e53a9444",
+      "bytes": 304
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/repository.py",
+      "sha256": "0b6a3cc9fcb37df191c721fa602fbbe4646ef54deb2588e028da289a2128bc87",
+      "bytes": 1539
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/service.py",
+      "sha256": "5fa9f7ac15fcdd56cfc1cc62cebc2a92356930d3e09435acd96ddce039978047",
+      "bytes": 1340
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/specific-summary.json",
+      "sha256": "f5b01ba9c3441126b05ff102eb6df375dfb63183529f37bb3e662c80f4c795cc",
+      "bytes": 376
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/specific-summary.md",
+      "sha256": "f3a033a79c791bda0948b5707ec7260c8f636dea1145aec05d504a8994753a90",
+      "bytes": 355
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/specific.xml",
+      "sha256": "fcf764b5ba9236b4aa639defb2948fdae26f01626d54802a7abe1f574446604d",
+      "bytes": 11727
+    },
+    {
+      "path": "releases/SPT-017-v1.0.0/test_SPT_017_puinave_knowledge_center.py",
+      "sha256": "0285b6b22acea6e7203eee1dcb47bf7264c04f547e9842b261ac93350e911da4",
+      "bytes": 2662
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/SPT-018-Arquitectura.md",
+      "sha256": "0fdb53da76e8633e03d1197075e72776c220b1a34b5979050320be6cb296395f",
+      "bytes": 589
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/SPT-018-Especificacion-Funcional.md",
+      "sha256": "957faffbf5ca807e8d4ffd2c56caa23c9bc590221c666a725f7ac2b8aa82010d",
+      "bytes": 315
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/SPT-018-Manual-Operativo.md",
+      "sha256": "cbf26c390a4d8d8e6a8ff0b8937651f5d6de72770b579460061d2c4dada9e800",
+      "bytes": 499
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/SPT-018-component.json",
+      "sha256": "891af12f85bbeb8cc6736a0e6d19c9463b4dc2aabe8941ddafeaa2e8629ca19f",
+      "bytes": 698
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/SPT-018-policy.json",
+      "sha256": "6aa34a0c51f9314a596ef887d5287dfbb95679117da1999685067ff3909c82ff",
+      "bytes": 474
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/__init__.py",
+      "sha256": "b487fd6be59cc1444df45cf3c9a2485295cc9450a39239f7fd48724fbd6b5e3c",
+      "bytes": 247
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/adaptation.py",
+      "sha256": "da2333d1fd84dd3e3a7616df6cbbe9f7922bbdcab97b81a34068c7653c7e509d",
+      "bytes": 850
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/amda-pedagogical-demonstration.json",
+      "sha256": "85b5f8e91d34aaf95fdc7405d26c7ade13ccb917e0a0d63c62011e490207adf6",
+      "bytes": 1325
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/cli.py",
+      "sha256": "74c3ce0ab6ac5946911d1d4384b647d3a590b1c0826c2f6379df6026db3cf8fc",
+      "bytes": 1750
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/engine.py",
+      "sha256": "51b6832614811a3a3bc68a91e0bcd3b2650010f9454341508e0aa40d726213fc",
+      "bytes": 6012
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/evidence.py",
+      "sha256": "37e7a12b729ba38454ad2c692b710ed5176ed0a5021cfcda6a8905f9e92b7243",
+      "bytes": 509
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/full-suite-summary.json",
+      "sha256": "13d56b3cae94210b58935f89eee68e4770cacd9cc21f26bce7310bd693beec7d",
+      "bytes": 368
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/full-suite-summary.md",
+      "sha256": "71774fb076b3ab1cba3a892217cdc63cd7b6b64ca1c27b39117e15d196a097ba",
+      "bytes": 345
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/full-suite.xml",
+      "sha256": "329b5b49c9acd3fa18a7f6291c82b7697934d87b6c2155170a2792dc7a4e54a2",
+      "bytes": 82046
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/health.json",
+      "sha256": "4121461b25802c4cfc0ce2d90de79ae8f63b4af945a5af30fdc6d794b7a9319c",
+      "bytes": 288
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/implementation-evidence.json",
+      "sha256": "09ef0c2aeebaef5a7aecc5c42a5685ba6ac000ce6d95e9a2dc5c39f2910fd9ee",
+      "bytes": 5441
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/implementation-evidence.md",
+      "sha256": "1866267ce58c7d0380896334f20b75b77e718a223d92cb133bcaeb5b5787f666",
+      "bytes": 354
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/manifest.json",
+      "sha256": "c1a6f06c95e7c5da7fb08ab93acee168ff6cb14a6510422caf12a02cc320fe86",
+      "bytes": 1576
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/models.py",
+      "sha256": "11ccdda10f1dbffcca22f07a7a132e6441736b178c8beb21f5f76cb791b58cf6",
+      "bytes": 1559
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/policy.py",
+      "sha256": "cc80fa33390358ad63566acfdf658ffdd23384f486ee571556a49a0719a380cd",
+      "bytes": 979
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/service.py",
+      "sha256": "c1120db4c92aaad4471c41babc24dc6d9f4904113ad9dd80738759b6be5f6310",
+      "bytes": 950
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/specific-summary.json",
+      "sha256": "9d6f156f4bf73fd552d716b906cd41ab91f11c9d40436ec9d2bf5e56b4481425",
+      "bytes": 378
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/specific-summary.md",
+      "sha256": "eed4101066d7046251696d6bcd7c564bf4f9c7b085cf66606548077b07f69a83",
+      "bytes": 355
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/specific.xml",
+      "sha256": "0d524754dff2c9b1a1742eba37d3b48b35c6192ff8765094f0e1edaa4b9f7dfc",
+      "bytes": 10083
+    },
+    {
+      "path": "releases/SPT-018-v1.0.0/test_SPT_018_pedagogical_ai.py",
+      "sha256": "006d9223959682d7cce47c4d3ddf511b50a671b20efc94a08f42b9ddea427b22",
+      "bytes": 6055
+    },
+    {
+      "path": "releases/SPT-019.0-v1.1.0/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+      "sha256": "58acd91eadb9b0127d4f0e7ef0b256c1d1015f1046da268eba46b0b23e109a1e",
+      "bytes": 3277
+    },
+    {
+      "path": "releases/SPT-019.0-v1.1.0/implementation-evidence.json",
+      "sha256": "eb4e0146f430081ff35f1a7b10ee54d97acc568a28e973ebbf64145ad1dfc3be",
+      "bytes": 679
+    },
+    {
+      "path": "releases/SPT-019.0-v1.1.0/manifest.json",
+      "sha256": "50f5bb037ee760876b2ed3925bc3eaae9153b98cde21e9119f9ade45e3996553",
+      "bytes": 284
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1-component.json",
+      "sha256": "09b85554cb19c2d24d957be29b65326693c7ee4b64dced66aff42da173f704da",
+      "bytes": 490
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1-policy.json",
+      "sha256": "405e7a4058bc986d3158a8dc08156600573f997d513f29ce5727f0c05e4f0f9d",
+      "bytes": 328
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1-v1.0.1/implementation-evidence.json",
+      "sha256": "667871cfba5dab0b8676be4b00967a37033003784746504c30240d924910a190",
+      "bytes": 466
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1-v1.0.1/simulation-event.json",
+      "sha256": "76ccacfa76f796fbcc4358221b197afdd665aa758f585e715b014274bab5ed60",
+      "bytes": 111
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1-v1.0.1/simulation-result.json",
+      "sha256": "47f5cc342b884d2158f85174572eaa6e69ec88053f700653382b9f2e9944697a",
+      "bytes": 284
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1-v1.0.1/unit-tests.xml",
+      "sha256": "7317ace3d6f782bb14f4d83dc431d00cf0c2efb5599908a9d1fd53aab6615e94",
+      "bytes": 2092
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1-v1.0.1/workflow-registry.json",
+      "sha256": "a4195997ae591342b5c2f7f05774ceabc4b84f8ef418216cf146fbb7b383037c",
+      "bytes": 1230
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1/SPT-019.1-Arquitectura.md",
+      "sha256": "a5fbe5ef211ab2fa2666dd9dde3e14c243b75c6bd6f1578aeff21e4d0f2c543f",
+      "bytes": 298
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/SPT-019.1/SPT-019.1-Manual-Operativo.md",
+      "sha256": "01adf2fa6584a608d390f6328f016c3e1bb65a14d490f8af68b57810a73865df",
+      "bytes": 292
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/governance/SPT-019-WF-001-Policy-Audit-Request.json",
+      "sha256": "cd48b573e4246aba2d6c5aefaa7f7144925b3f46e17c53b18a9d1bc2e8050f40",
+      "bytes": 1101
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/manifest.json",
+      "sha256": "ed0e36d6f28b711d8d9523d194c19b25a3e9a88450a6692f1f86ca081c9cabe2",
+      "bytes": 371
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/pmo/SPT-019-WF-002-PMO-Event-Gateway.json",
+      "sha256": "77c391b645250e0a4ff26a47eabec7cc076eed39bb263cbfa70a085d2bd4f41d",
+      "bytes": 1080
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/workflow_engine/__init__.py",
+      "sha256": "d191a18fdf6e8bec430db4249f03ba96932bd8a2de998abe7c03ccbd23307f7a",
+      "bytes": 10778
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/workflow_engine/__main__.py",
+      "sha256": "dadea7fb12c4ee219d146c7deda8599e83efc3f9e6ba5a1a016a26c80035c443",
+      "bytes": 46
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/workflow_engine/test_SPT_019_1_core.py",
+      "sha256": "7327e1efa4c17e55e20b41461ce326d0b33b22d8b932bb7c23a2255ac5ea24be",
+      "bytes": 5508
+    },
+    {
+      "path": "releases/SPT-019.1-v1.0.1/workflow_engine/test_SPT_019_1_workflow_engine_core.py",
+      "sha256": "ba4ebc3050871094709e20c2993d20c692b0ed9878ebd471091a7705f982f45c",
+      "bytes": 4917
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/SPT-019.2-Arquitectura.md",
+      "sha256": "b835bcc83638a1ec438a8fd93d31950086c6926e4b6a963bcf7417b2674257e2",
+      "bytes": 225
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/SPT-019.2-Manual-Operativo.md",
+      "sha256": "233794850158d9e7079721a19675c725dcf56ca4acc218b9029b2839f636af44",
+      "bytes": 237
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/SPT-019.2-component.json",
+      "sha256": "237d7e64a0847c95904c52d4a2dda39084fd1dec7b0bfb533678aa0ba90b6e5b",
+      "bytes": 298
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/SPT-019.2-policy.json",
+      "sha256": "45f19d5295fdfeb2549b2a3c3d840750300ce824195a01d4930af37d012ffee9",
+      "bytes": 253
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/SPT-019.2-v1.0.0/implementation-evidence.json",
+      "sha256": "78b77298d138f80a834e606c763e053354e4feb8b0729e8b30bb25f5c759d514",
+      "bytes": 491
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/SPT-019.2-v1.0.0/unit-tests.xml",
+      "sha256": "28325c6e75e0fa93cceddd2c15a3234ab447dd5b61025f4d445b7a03fabbde57",
+      "bytes": 2068
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/SPT-019.2-v1.0.0/workflow-registry.json",
+      "sha256": "bffd3320dbe8d103c3e17478db01764ffa73d0dae7e3f061216e3281d7ac3d5a",
+      "bytes": 1359
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/manifest.json",
+      "sha256": "4ecda462b191b35a46b0f50bcef34885f4c64f969278ac2918b182dcde777f16",
+      "bytes": 380
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/workflow_registry/__init__.py",
+      "sha256": "30881c4b8b95fce45719fa5805d3378c4de5c5624d0e17cd978c58795c92825c",
+      "bytes": 9688
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/workflow_registry/__main__.py",
+      "sha256": "dadea7fb12c4ee219d146c7deda8599e83efc3f9e6ba5a1a016a26c80035c443",
+      "bytes": 46
+    },
+    {
+      "path": "releases/SPT-019.2-v1.0.0/workflow_registry/test_SPT_019_2_workflow_registry_manager.py",
+      "sha256": "327e5573c4ec014683f9967b97652e3bd95f1dd6d30664bd4c50754d26950845",
+      "bytes": 4343
+    },
+    {
+      "path": "releases/SPT-019.3-ZE-v1.0.2/ACT-019.3-ZE-Cierre-Cero-Errores.md",
+      "sha256": "0f3f251f5379c493eeaa8036acc68ae95a95afea2885da9098c37ed3389be033",
+      "bytes": 525
+    },
+    {
+      "path": "releases/SPT-019.3-ZE-v1.0.2/SGD-423-SPT-019.3-Zero-Error-Closure-Report.md",
+      "sha256": "71180f7dcf7a1ee291740f2141c7bb3c4cb22241316c292d88c2657a0d07c8aa",
+      "bytes": 1378
+    },
+    {
+      "path": "releases/SPT-019.3-ZE-v1.0.2/manifest.json",
+      "sha256": "ac468c831957a7c73349c3b31daba2d050e5153dfa7256a2d495909b0150e133",
+      "bytes": 433
+    },
+    {
+      "path": "releases/SPT-019.3-ZE-v1.0.2/zero-error-report.json",
+      "sha256": "1dedf9614de2634b9b8806e08845809fbd7dd6172ff53e6d4c97654fc700913c",
+      "bytes": 10133
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/docs/06_Tecnologia/SPT-019.3/SGD-420-Arquitectura-Orquestador.md",
+      "sha256": "ca0905ba8644c545c07275fbae7bd92a016dd5fc8c07c07d7fd436dde04756d3",
+      "bytes": 510
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/docs/06_Tecnologia/SPT-019.3/SGD-421-Integracion-Institucional.md",
+      "sha256": "a52a52f762af606f5569465fbd28e93422322c96f5b5636de74f7815e83be730",
+      "bytes": 416
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/docs/06_Tecnologia/SPT-019.3/SGD-422-Eventos-Trazabilidad-Evidencias.md",
+      "sha256": "8391f59488cddc811708639f67513f81537e65f78072e918a8987f470350c996",
+      "bytes": 382
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/implementation-evidence.json",
+      "sha256": "ac42f01709e718e979871ec0a6f9318e091f7b753c91e04001e9e1d623968442",
+      "bytes": 4110
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/manifest.json",
+      "sha256": "dc3f677831bbafcbbfa4bf4b73a1d54914579a35830486e8be27210d452fec7e",
+      "bytes": 296
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/__init__.py",
+      "sha256": "61f3bb2e1b9241426c68304a113e44ac2a874cc47d08ff48f1aa524aa127120c",
+      "bytes": 1120
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/components.py",
+      "sha256": "0824da2e07237561e022cb10a1a31eb6897376e7a48532a647d103bbc11024e5",
+      "bytes": 2671
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/events.py",
+      "sha256": "f1846a57bddf834d5c1a6f11708d425c711d1f4c06b873fa8ea4947cad607a11",
+      "bytes": 1045
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/evidence.py",
+      "sha256": "a22df4b8d93e203b051b7ab005f11a493b44104da2b33620ffe8dc2fb6b3c8cf",
+      "bytes": 1274
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/institutional_integration.py",
+      "sha256": "ccd6dd2d43c4b8c5fa770be384db90fde8961d239dbda203d1425cf3aa18c78c",
+      "bytes": 1938
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/orchestrator.py",
+      "sha256": "e39d3b1bd8d1e7ab908c4a6972a1fb07decaee1fc28725274cf2b6643afcb110",
+      "bytes": 3661
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/quality.py",
+      "sha256": "3d7dfaf21d352b868793d51388486a48d31faf4cc9ec2601aacf9dc309d3b20b",
+      "bytes": 1197
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/src/sgoda/workflows/spt0193/traceability.py",
+      "sha256": "233db1e5e93fb6dc261dea5ef7c5edb598652880f558710335746ae7c16554e9",
+      "bytes": 1908
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/tests/workflows/spt0193/test_spt0193a.py",
+      "sha256": "c793d7698931bffcfb62074b2a80f7b1eb180bb93d176060eef735f7bcb1fd79",
+      "bytes": 1513
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/tests/workflows/spt0193/test_spt0193b.py",
+      "sha256": "a2991dfe9105ebd9e36fbf5f1e1a0a5b75423cad480c330bd7171d8d34432a4d",
+      "bytes": 1516
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/tests/workflows/spt0193/test_spt0193c.py",
+      "sha256": "0d2b93ebb8de8f848f9268c39eb5108b326076b78719b27978a2ebd9c65a8345",
+      "bytes": 1364
+    },
+    {
+      "path": "releases/SPT-019.3-v1.0.1/tests/workflows/spt0193/test_spt0193d.py",
+      "sha256": "669e497dd9bc75df5cec7a973d25c7c8e512f6e38ba54595146ba68de30f3349",
+      "bytes": 1398
+    },
+    {
+      "path": "releases/SPT-019.3E-v2.0.0/ACT-019.3E-v2.0.0-Remediacion-PowerShell.md",
+      "sha256": "1252927486f2a270d2deeb36779bcc2716f102f6d9559175788246a11ebdd38b",
+      "bytes": 406
+    },
+    {
+      "path": "releases/SPT-019.3E-v2.0.0/SGD-424-PowerShell-Syntax-Remediation-v2.0.0.md",
+      "sha256": "76469260827bd3ed5997966c13ee27e6b1699ab633a69c31d9efe6c3c8bd0775",
+      "bytes": 644
+    },
+    {
+      "path": "releases/SPT-019.3E-v2.0.0/implementation-evidence.json",
+      "sha256": "8850516aca347b2ae125474f0c7054b8a5ac5cb130d61c50efbc885345f28ab5",
+      "bytes": 1049
+    },
+    {
+      "path": "releases/SPT-019.3E-v2.0.0/manifest.json",
+      "sha256": "cb819b7cd0519d87793ba73f720438cce5f10d6f8d19680943f9834d9110b1a1",
+      "bytes": 557
+    },
+    {
+      "path": "releases/SPT-019.3E-v2.0.0/quarantine-manifest.json",
+      "sha256": "66eaa94ce1839edf26cf50c8184df2f868f3c31dd918cae7b7c023daba16ee86",
+      "bytes": 1392
+    },
+    {
+      "path": "releases/SPT-020-v1.0.0/ACT-020.8-Cierre-Institucional-Cero-Errores.md",
+      "sha256": "2dea7323dc994771bd493d1e4ffa48a4f8fde4b9a420f812bbfc61034e460b72",
+      "bytes": 727
+    },
+    {
+      "path": "releases/SPT-020-v1.0.0/SGD-437-SPT-020-Zero-Error-Closure.md",
+      "sha256": "8ffc5606cba171b9ed9ee25772dea1317377fbb427a0a9ed4ac65b2e5609241b",
+      "bytes": 407
+    },
+    {
+      "path": "releases/SPT-020-v1.0.0/SPT-020-closure-registry.json",
+      "sha256": "179476575ef7f201a8b0f5f896d905ab4e973ad8890ada6493c1856557f50603",
+      "bytes": 4662
+    },
+    {
+      "path": "releases/SPT-020-v1.0.0/manifest.json",
+      "sha256": "3d30e43d9654e5edd330486953b13dd4ebe144bb1ef28f4c8dd3ec370bf99a2d",
+      "bytes": 613
+    },
+    {
+      "path": "releases/SPT-020-v1.0.0/zero-error-report.json",
+      "sha256": "19c7bd36bdeb1b2e0a0b0217598c6a5a9d9e2f778e7c66bfdec1cf3916e382c1",
+      "bytes": 7530
+    },
+    {
+      "path": "releases/SPT-020.1-v1.0.0/ACT-020.1-Institutional-Service-Bus.md",
+      "sha256": "0a35807fd189be9ca3f7a5ddb62d5430208a287c9336c802e2f0711994ff52f7",
+      "bytes": 344
+    },
+    {
+      "path": "releases/SPT-020.1-v1.0.0/SGD-430-Institutional-Service-Bus.md",
+      "sha256": "9e5ed44b6831909eec87ad9bd81b10b5e07be03b43ebf26a0e686dbdf7b2ba35",
+      "bytes": 386
+    },
+    {
+      "path": "releases/SPT-020.1-v1.0.0/implementation-evidence.json",
+      "sha256": "55b48c949ac10ecc8bae9cde2e253671841f1f7385004a4e4ea69cb950243060",
+      "bytes": 2355
+    },
+    {
+      "path": "releases/SPT-020.1-v1.0.0/manifest.json",
+      "sha256": "befa79cc02f9f439c213f186f868c10b46bb383b7859f0e6c42fee549a8a302a",
+      "bytes": 421
+    },
+    {
+      "path": "releases/SPT-020.2-v1.0.0/ACT-020.2-Component-Lifecycle-Manager.md",
+      "sha256": "72920e0e195d08656ad7e41c3781d1af5c2206e8fc0f192bc9c23df0ae123c00",
+      "bytes": 347
+    },
+    {
+      "path": "releases/SPT-020.2-v1.0.0/SGD-431-Component-Lifecycle-Manager.md",
+      "sha256": "21a32d19cc1652f91a5dcdc0b0226da8b13f0644eff1168e6be6e0904292cdc9",
+      "bytes": 517
+    },
+    {
+      "path": "releases/SPT-020.2-v1.0.0/implementation-evidence.json",
+      "sha256": "8f92e1ca20873175000818e5f750ab8cc7c5ebc57c35ef2ab8f8885efd4527a9",
+      "bytes": 2602
+    },
+    {
+      "path": "releases/SPT-020.2-v1.0.0/manifest.json",
+      "sha256": "8d67f5fda8627b5e068b20ebddae793c46fdaf35844866c8a58b61f860042707",
+      "bytes": 424
+    },
+    {
+      "path": "releases/SPT-020.3-v1.0.0/ACT-020.3-Component-Dependency-Manager.md",
+      "sha256": "5ea7191b05d74d301a31e85f04b009929615737ba355841895a533fdd1fdcf42",
+      "bytes": 362
+    },
+    {
+      "path": "releases/SPT-020.3-v1.0.0/SGD-432-Component-Dependency-Manager.md",
+      "sha256": "72a1b3601dec7000b8bb8a3595b52c035531d611c4ee96b9800dbcef4d96af00",
+      "bytes": 474
+    },
+    {
+      "path": "releases/SPT-020.3-v1.0.0/implementation-evidence.json",
+      "sha256": "713195c13fd11567a5dcffcb194569781f6ca20df9d1b6bbf6154c2568df738f",
+      "bytes": 2628
+    },
+    {
+      "path": "releases/SPT-020.3-v1.0.0/manifest.json",
+      "sha256": "5b57beca49c52d470d1a91fbba369e277f563b4f8d3ffa837bf0ea3b92fb45f5",
+      "bytes": 425
+    },
+    {
+      "path": "releases/SPT-020.4-v1.0.0/ACT-020.4-Institutional-Event-Bus.md",
+      "sha256": "4db8cdaa59090441ff23dd927463fb80c857a8756c5f43eb978946e4bff2f723",
+      "bytes": 342
+    },
+    {
+      "path": "releases/SPT-020.4-v1.0.0/SGD-433-Institutional-Event-Bus.md",
+      "sha256": "ed0daa1ae19571c8251d8aee3c053e3a7939fbc76964bf9a6bc0fa5ef421f0f5",
+      "bytes": 549
+    },
+    {
+      "path": "releases/SPT-020.4-v1.0.0/implementation-evidence.json",
+      "sha256": "a909198feea1e2f66dd88a99a70134872f77a7adb80f4358d586ee46221d1d1b",
+      "bytes": 2383
+    },
+    {
+      "path": "releases/SPT-020.4-v1.0.0/manifest.json",
+      "sha256": "74d22528399ce29eb3603f6a34f8fc159037f333326f9667321cf815b805b7ad",
+      "bytes": 419
+    },
+    {
+      "path": "releases/SPT-020.5-v1.0.0/ACT-020.5-Service-Discovery-Registry.md",
+      "sha256": "97799309eae182bb155eaaa0bc0211dfe6e1798753c4c32266727bf59ae46c32",
+      "bytes": 371
+    },
+    {
+      "path": "releases/SPT-020.5-v1.0.0/SGD-434-Service-Discovery-Registry.md",
+      "sha256": "c935ab8243c10223addb6ee88e2fa4575dc467bec25fd9482b8875e752851920",
+      "bytes": 572
+    },
+    {
+      "path": "releases/SPT-020.5-v1.0.0/implementation-evidence.json",
+      "sha256": "ff8b8a1d7b7c1af52211e6d5bc5bdbaff00728eb429ef28920b75ba8169a0090",
+      "bytes": 2670
+    },
+    {
+      "path": "releases/SPT-020.5-v1.0.0/manifest.json",
+      "sha256": "170daa494703843da46620323eb652cba7631ec3c12bf5e1f2ea48446866e17b",
+      "bytes": 430
+    },
+    {
+      "path": "releases/SPT-020.6-v1.0.0/ACT-020.6-Institutional-Runtime-Orchestrator.md",
+      "sha256": "e5691aa35fa06c30f9bd35d6946ba783f3d67fb72e1fbfd47c3d88d851791e61",
+      "bytes": 361
+    },
+    {
+      "path": "releases/SPT-020.6-v1.0.0/SGD-435-Institutional-Runtime-Orchestrator.md",
+      "sha256": "2e265d5fe3af7c9d4cfe41e4e1e8702faa18cbe8ec6f0c475e319feef8d6fd6e",
+      "bytes": 571
+    },
+    {
+      "path": "releases/SPT-020.6-v1.0.0/implementation-evidence.json",
+      "sha256": "53f3555891b3b12898615c79076686f0ae95051a86ae4453154974ab5688abda",
+      "bytes": 2699
+    },
+    {
+      "path": "releases/SPT-020.6-v1.0.0/manifest.json",
+      "sha256": "1d5cc52d2c98794223a44630a4df8f97f7d54a188c91ec3ac2565262a33dc327",
+      "bytes": 438
+    },
+    {
+      "path": "releases/SPT-020.7-v1.0.0/ACT-020.7-Cierre-Institutional-Health-Monitor.md",
+      "sha256": "2b6797ddddc9d65c7f4b889f1682e499715c0200e7ffaae3a71b4ec9b710f36b",
+      "bytes": 518
+    },
+    {
+      "path": "releases/SPT-020.7-v1.0.0/SGD-436-Institutional-Health-Monitor.md",
+      "sha256": "24adb180eac78960b0d4457ec931191b5a5cc81495f79958fe4e0cf71bc2bdcc",
+      "bytes": 635
+    },
+    {
+      "path": "releases/SPT-020.7-v1.0.0/implementation-evidence.json",
+      "sha256": "31511592723a3b7299ca5f52a4a8334b3280da5078195ff2bac219c3dc9c2987",
+      "bytes": 2647
+    },
+    {
+      "path": "releases/SPT-020.7-v1.0.0/manifest.json",
+      "sha256": "82cc7bd50305d868752669caa960a8e5fe08e02a435c447cc4f8aaf2b65233d8",
+      "bytes": 461
+    },
+    {
+      "path": "releases/SPT-020.9-v1.0.0/ACT-020.9-Cierre-Master-State-Update.md",
+      "sha256": "6836d1cee95385b9d063f961cb5bd5633fe7e18c247a8644bec3d440b62c0c8b",
+      "bytes": 640
+    },
+    {
+      "path": "releases/SPT-020.9-v1.0.0/manifest.json",
+      "sha256": "3bcf624010166f518c9c6a8d3c9de8eb7bd5f750f9465506d23c0acb3acbfa97",
+      "bytes": 796
+    },
+    {
+      "path": "releases/SPT-020.9-v1.0.0/master-state-update-report.json",
+      "sha256": "dc9d3602c9baf355ef50f531af063624c4b5987a14c490853199c0e047d96c05",
+      "bytes": 1578
+    },
+    {
+      "path": "releases/SPT-020.9-v1.0.0/master-traceability-report.json",
+      "sha256": "ea108ffb880b76f85168ceefe0bdf019036faab4158f06855718488df38938e4",
+      "bytes": 4955
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/ACT-021.0-Apertura-Institucional-SPT-021.md",
+      "sha256": "bcb266932a4616cef00ce8c9fbd8d0a41ca7e42384430f6cec13a75f288a0d80",
+      "bytes": 547
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/SGD-438-SPT-021.0-Baseline-Gap-Analyzer.md",
+      "sha256": "14bd7e56242932688bec01ff90b9c74a2a35729eb59d884efad9f35916473e45",
+      "bytes": 994
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/SPT-021-scope-definition.json",
+      "sha256": "0f5fa6c42b195f5c1f06dbf3f00d0417dccb2026f77a53eff70721c3c5b4edd5",
+      "bytes": 4310
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/implementation-evidence.json",
+      "sha256": "3f7618e21e44866d5524f27ccb3beecff038aa8f372427110b2496e641025723",
+      "bytes": 1599
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/manifest.json",
+      "sha256": "45ca12ce3addbdd8e576f034c18b3e97a22dd20789b22c69cedf76c9959c50e2",
+      "bytes": 587
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/remote-repository-reconciliation.json",
+      "sha256": "d4733770a56115e883ed15e8b8670cd80381f46ddee04215ac71801f2747adfc",
+      "bytes": 2919
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/technology-capability-registry.json",
+      "sha256": "db780b0a6c3ed64ff9af2781964805bb72a36906cf75835486b0f8f173e867b7",
+      "bytes": 200526
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/technology-dependency-map.json",
+      "sha256": "05a0352d0ccd605242a38b4eb74b7b30263c84a3c2cafc5c8bda7675a8e1d079",
+      "bytes": 1019
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/technology-gap-analysis.json",
+      "sha256": "6ea4d3f860fbe91d46262c62896a3b84f21d298e0006d64bf7ad525c41bf8beb",
+      "bytes": 2394
+    },
+    {
+      "path": "releases/SPT-021.0-v1.0.1/technology-overlap-report.json",
+      "sha256": "ee1244deedb8c15cc7c35bae62c89ffab0b6c25ae1cfb2ce17c1d66a9529f161",
+      "bytes": 3369
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.3/ACT-021.0.1-Reconciliation-Publication.md",
+      "sha256": "330b1cf4a3d2d33125e6ae1c7e99d729baba817b226673377768c324cc2de3a6",
+      "bytes": 686
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.3/implementation-evidence.json",
+      "sha256": "21ecaf08288179fbc89d8844faaa74622b8496fcc5fb7f52cfff4f04e262862d",
+      "bytes": 1972
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.3/manifest.json",
+      "sha256": "19edfe88b632de3d34415e6402b1271a1a239739e9e6c0e8c5a1cf882912e7e6",
+      "bytes": 573
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.3/publication-manifest.json",
+      "sha256": "f5dc8c887dfe6fbe5a74ec1b6f1394978a08bda97fefdacfc19f9b1140031307",
+      "bytes": 956648
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.6/ACT-021.0.1-Reconciliation-Publication.md",
+      "sha256": "609ee05e408ebc86c9d7b5c924b87d0b2bf0b8ba95e4b664bee5fe97dd749c6f",
+      "bytes": 686
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.6/implementation-evidence.json",
+      "sha256": "231b7b12ef6f3bfaecd812358790fa3e7f2549db4e769c79a5c6926fbee27215",
+      "bytes": 2615
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.6/manifest.json",
+      "sha256": "db0765f2d2a4dcb8acc1e9faf244c2378455e25d20ee466f9bd8fdfc1bc0e89b",
+      "bytes": 573
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.6/publication-manifest.json",
+      "sha256": "ad888f5df9fd6bcfee9bc50b31325eb93c41875247b888420d4d03c113c6fa75",
+      "bytes": 1054166
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.8/ACT-021.0.1-Reconciliation-Publication.md",
+      "sha256": "d6aea6e80565f6ee4a8d51fd4e5da0f811e62c254e430da50f167da27b666541",
+      "bytes": 686
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.8/implementation-evidence.json",
+      "sha256": "98559cfa1cc4514b7c7844a6452808fd3465fafc6a536585eba5c81f865e6ce3",
+      "bytes": 2615
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.8/manifest.json",
+      "sha256": "ad7de2ba30bd4ae9f86295eeadfb9c74a0e8baaa9f0ad48694d0a32d61387f39",
+      "bytes": 573
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.8/publication-manifest.json",
+      "sha256": "17505b138f1260f23b22d4e1579be17cfa64d34b0e2bdf979d29a2e122b9308d",
+      "bytes": 1229500
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.9/ACT-021.0.1-Reconciliation-Publication.md",
+      "sha256": "6396b43ef0f64d7d34a61844da7f6dea34665c44fcec303ae6edca892b2ccd0b",
+      "bytes": 698
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.9/implementation-evidence.json",
+      "sha256": "6bd119c4d6abfd840fe4a3493aeb9c59d1c66130ccfb47bc34e0fc5c043e8094",
+      "bytes": 2587
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.9/manifest.json",
+      "sha256": "1c92eb97fd1fdc0f6b9ac9f4a5fbf6d0abddc37a2ea37965060008a0c15c47c9",
+      "bytes": 589
+    },
+    {
+      "path": "releases/SPT-021.0.1-v1.0.9/publication-manifest.json",
+      "sha256": "ced90767660b0a92b668277270c2fd918b681d5f84cab2a0a0e62ddc3a502b7c",
+      "bytes": 1282889
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.0/ACT-021.1-Cierre-Institutional-Master-Map-Generator.md",
+      "sha256": "9ede7e894a653e2738e153b9dc287d9290440b37815eadca902d7d0db7854415",
+      "bytes": 429
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.0/SGD-001-Mapa-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+      "sha256": "71ea9f0ab100b4c48b2c5ef1b671100031f8110d80d71d0e84a89481b7f5e5cd",
+      "bytes": 492844
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.0/implementation-evidence.json",
+      "sha256": "effeaa507d5ee7504f5bdda8d4c609fe57655e4a07899e456073002bf06fa164",
+      "bytes": 847
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.0/institutional-master-map-inventory.json",
+      "sha256": "cc4510a0a8e68e8df2bcc4f72b98451dfc1dc363a377f74e96a5d880dd55c958",
+      "bytes": 1255647
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.0/manifest.json",
+      "sha256": "3d4de5847fd0ce7bf564b31e8e69187ebab6f4b3e7fdea005425c5469ccc17da",
+      "bytes": 587
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.1/ACT-021.1-Cierre-Institutional-Master-Map-Generator.md",
+      "sha256": "f0570a04e3c8337fe64cc4f239529908c656a0414710280bfd2e57cb337f6129",
+      "bytes": 504
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.1/SGD-001-Mapa-Maestro-Institucional-SGODA-PUINAVE-v1.0.1.md",
+      "sha256": "effa6c115c2a0420bbc234e781c3851a94c84e4ef2fb81d0bf37c40038d391d9",
+      "bytes": 562187
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.1/implementation-evidence.json",
+      "sha256": "eb03882b18f538968bd5378dc91f3e5ed26d03f3c0a613a1dad1e3425760d14b",
+      "bytes": 1444
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.1/institutional-master-map-inventory.json",
+      "sha256": "fb752c12e287737e0e5cb2abced99c2a14d57a0c289524ab4567c1abe5708c52",
+      "bytes": 1345573
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.1/manifest.json",
+      "sha256": "34e79cb6c39c078e82c4403a8ab24053f40661db94170563168d5a60da319ff3",
+      "bytes": 711
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.1/semantic-validation-report.json",
+      "sha256": "33ef371e9f4a9d6170fae970df7e22d9bd4be0ec9aae460107af61526c1a7939",
+      "bytes": 2252
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.2/ACT-021.1-Cierre-Institutional-Master-Map-Generator.md",
+      "sha256": "41c8ea927c76a6f92b813ccef097095dc5a95470a753407b3561bf94a702d905",
+      "bytes": 592
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.2/SGD-001-Mapa-Maestro-Institucional-SGODA-PUINAVE-v1.0.2.md",
+      "sha256": "1bb7cd6ce813f99a1080ff525da91fffc30b8381e5b9646a85010a0fbd12defe",
+      "bytes": 1668634
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.2/implementation-evidence.json",
+      "sha256": "5ee66eaf90ac08c83c7e33c2aefe9d78c0e9ac199764ead12275acc75c4de42f",
+      "bytes": 1538
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.2/institutional-detailed-records.json",
+      "sha256": "5198cefd22a43af4a9bf9ad7167002de0075d7fdb7cb6c0df0501b32a8f5787a",
+      "bytes": 2085108
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.2/institutional-master-map-inventory.json",
+      "sha256": "616828e61206c27b7fb1693f0bcbcd653c637b8627f3d1a3d99bea0dda4b8f41",
+      "bytes": 1346793
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.2/manifest.json",
+      "sha256": "6dab4f04174aff16b601eecd6a27c380c187235abdf660f6106a7355ff2b7564",
+      "bytes": 848
+    },
+    {
+      "path": "releases/SPT-021.1-v1.0.2/semantic-validation-report.json",
+      "sha256": "e79613f82ad3b28c013266ad4462599736e5d8810dfb5321a0491b1bc4ba2f9f",
+      "bytes": 2346
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/ACT-021.2-Cierre-Institutional-Rule-Discovery-Reuse.md",
+      "sha256": "cf7d80af112c1b13602a05a983c9f412871e77042d2ea83ed6056082d8bb3817",
+      "bytes": 505
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/RMI-021.2-Registro-Maestro-Institucional-Implementaciones-v1.0.0.md",
+      "sha256": "6d7bdf88de68f66d668db82632d57a88dd02b246527cad065b7127b442c389fc",
+      "bytes": 3942731
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+      "sha256": "86cfa2f1d0113f94af899400406e66ed89d95efa437c8f5e5ba42122c6e9b85f",
+      "bytes": 1843
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/SGD-003-Matriz-Institucional-Reutilizacion-v1.0.0.md",
+      "sha256": "7d433f091b5ceb60b8334247401bb548085586335cc80687ae60eba742594aa8",
+      "bytes": 1666
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/SGD-004-Matriz-Institucional-Duplicidades-v1.0.0.md",
+      "sha256": "22f875e53375bcc423a551745a51f89c2fffa5bfa4660b598749f9100410e4bc",
+      "bytes": 143466
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/SGD-005-Dependencias-Reglas-Componentes-v1.0.0.md",
+      "sha256": "feda8c003e54390b5cf379cda264fd280f43f6159619ae7461452232a3a03adf",
+      "bytes": 335742
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/SGD-006-Cadena-Oficial-Publicacion-Sincronizacion-v1.0.0.md",
+      "sha256": "92fa6254cd2519b19036b58afea7ffb1b2ce7e355008c6e14e78717dd048c8e3",
+      "bytes": 978
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/implementation-evidence.json",
+      "sha256": "c551f491a07850b5598f30704506884b6b9a24aeebdc7a1933140ff327fe4b1c",
+      "bytes": 1050
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/institutional-duplicate-matrix.json",
+      "sha256": "4fa1d09b53354e6fc4c7a538e70d6373217da3dea519514cd3dc7b8e4019a947",
+      "bytes": 234911
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/institutional-publication-chain.json",
+      "sha256": "af3d135ed2e96086a8e99602dbd7a7ba74c6f0dfbe1b9a4b3dd85efb207a4b4d",
+      "bytes": 1417
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/institutional-reuse-matrix.json",
+      "sha256": "38b00de9367acd2324ce607dbc3334aa9916fe924350196d6c52a9375305a815",
+      "bytes": 3273
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/institutional-rule-registry.json",
+      "sha256": "dbd1c63bb4ab5a7ece517144d373853caae1b66f5df9d313525496260836549f",
+      "bytes": 4516
+    },
+    {
+      "path": "releases/SPT-021.2-v1.0.2/manifest.json",
+      "sha256": "39353e37de37273ea11e7cb4d37fd8c3b9dcc225b224ba07d8f20d53b10b06a8",
+      "bytes": 1097
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/ACT-021.3-Cierre-Institutional-Master-Book-Generator.md",
+      "sha256": "ef37be3631b8b09ed253d73a70e81812f5584bfc033e529e9ddbec3d496f8553",
+      "bytes": 534
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+      "sha256": "d3c66b1dada99d7d453705ca942e08fd3d0f545c8b6c2ecad1f53f2744ce7834",
+      "bytes": 17383628
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/canonical-components.json",
+      "sha256": "8f6fe9f0bf0624a2034b868e91ce4ff996de0b46c8b63d286ff9adfb552491f6",
+      "bytes": 18649575
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/dashboard-summary.json",
+      "sha256": "ebbc59f4f9b8c8493a32939f173626de3d27b7f562a08ba3613de1d070d30e90",
+      "bytes": 314
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/implementation-evidence.json",
+      "sha256": "6437c73b7d6fe981257071bac0a58dd5b9631b239d881f4ebdb1e104bda9c9e5",
+      "bytes": 899
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/institutional-detailed-records.json",
+      "sha256": "7f1e70ea211e818d135e21723f94a5255814bb135cfec8f467e75c5bff27b914",
+      "bytes": 28211340
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/manifest.json",
+      "sha256": "981f0843f6707e1ffb214475410dff27b7508bc081ece933813d801c79b7dcea",
+      "bytes": 793
+    },
+    {
+      "path": "releases/SPT-021.3-v1.0.0/semantic-validation-report.json",
+      "sha256": "7352d67fd6d2591d17d9c35b277716cec5eeb5b7611ac86e3a1f680488997771",
+      "bytes": 515
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.2/ACT-021.3-v1.1.2-AutoUpdate-Persistent-Closure.md",
+      "sha256": "01774809ce261019c6c435fb6b968c00524ce816f5def191a034cfc329ba9f9a",
+      "bytes": 553
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.2/Invoke-SGD002-AutoUpdate.ps1",
+      "sha256": "7e210ac09ea5655edee5790c7a2f5e24db791e3d941a44863373d4ab708ec1b7",
+      "bytes": 9710
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.2/Publish-SGODA-WithMasterBook.ps1",
+      "sha256": "f062a65d2467175203a99f5fe959b2622a55e7228ae9cd97f9934e1164851869",
+      "bytes": 1519
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.2/implementation-evidence.json",
+      "sha256": "c361bfa0f8c3c20b91b7836db64f2269f7f3ccac5490c159f3598eb85daacc61",
+      "bytes": 1140
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.2/sgd002-auto-update.json",
+      "sha256": "50ca8efa956078531f0f272573f8c0ecb909f02e60cb6c7e82ad7e70d56dab60",
+      "bytes": 705
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.3/ACT-021.3-v1.1.3-AutoUpdate-Persistent-Closure.md",
+      "sha256": "01774809ce261019c6c435fb6b968c00524ce816f5def191a034cfc329ba9f9a",
+      "bytes": 553
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.3/Invoke-SGD002-AutoUpdate.ps1",
+      "sha256": "7e210ac09ea5655edee5790c7a2f5e24db791e3d941a44863373d4ab708ec1b7",
+      "bytes": 9710
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.3/Publish-SGODA-WithMasterBook.ps1",
+      "sha256": "ab79d1686277ea06fe32458676eca939cf3799af1d63b434115ae2211600831d",
+      "bytes": 3351
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.3/implementation-evidence.json",
+      "sha256": "c41412bfbc1457a69d7aad4402dd964fdac4ed9b0e1c847fcf1005655d2a0d93",
+      "bytes": 1188
+    },
+    {
+      "path": "releases/SPT-021.3-v1.1.3/sgd002-auto-update.json",
+      "sha256": "90752fe7ecd64efe8c1f57578ab59cceab54e485b0f9fabe1f63fd4d036184f5",
+      "bytes": 753
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "ac152fb2e634b7a7f687ee8edad9575002904aaef8dfc47c9c7fa3f724dca329",
+      "bytes": 128
+    }
+  ],
+  "component_count": 783
+}

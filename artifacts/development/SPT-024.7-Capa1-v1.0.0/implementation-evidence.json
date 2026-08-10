@@ -1,0 +1,26 @@
+{
+    "component":  "SPT-024.7",
+    "layer":  "Capa 1",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-10T23:00:30.6721807Z",
+    "authoritative_baseline":  "45474c659c0634fb2aac1eb31fd19e9485594722",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "preexisting_outside_scope_items":  56,
+    "gates":  {
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "supply_chain_security":  "PASS",
+                  "blocking_controls":  8,
+                  "failed_blocking_controls":  0,
+                  "sbom_generated":  true,
+                  "integrity_manifest_generated":  true,
+                  "workflow_executed_by_gate":  false,
+                  "package_installed_by_gate":  false,
+                  "release_published_by_gate":  false,
+                  "secret_values_exposed":  false,
+                  "closed_components_preserved":  true,
+                  "historical_outside_scope_preserved":  true
+              },
+    "publication":  "PENDING_CONTROLLED_COMMIT"
+}

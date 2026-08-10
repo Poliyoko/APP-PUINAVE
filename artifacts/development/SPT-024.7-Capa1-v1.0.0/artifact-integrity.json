@@ -1,0 +1,16 @@
+{
+  "algorithm": "SHA-256",
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.7-Capa1-v1.0.0/institutional-sbom.json",
+      "sha256": "eaa32d627f51211de02ea9e8e9820c7fa889b09b414ea315d10266e03120829b",
+      "bytes": 149349
+    },
+    {
+      "path": "artifacts/development/SPT-024.7-Capa1-v1.0.0/supply-chain-security-assessment.json",
+      "sha256": "e19ad0691d20c6c592ec9cbfc3194a126c34bb954a028cae1ecc983166e0cd40",
+      "bytes": 124413
+    }
+  ],
+  "record_count": 2
+}
