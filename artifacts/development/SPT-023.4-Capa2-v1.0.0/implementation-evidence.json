@@ -1,0 +1,53 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.4",
+    "layer":  "2",
+    "title":  "Ejecucion Local y Persistencia Multimedia RMR",
+    "generated_utc":  "2026-08-10T02:21:40.5372218Z",
+    "certified_baseline":  "7eff8c2519b9a4922282331ca9f8cbe7dd042828",
+    "targeted_tests_passed":  21,
+    "institutional_tests_passed":  934,
+    "protected_files":  133,
+    "protected_files_changed":  0,
+    "local_image_execution_contract":  true,
+    "local_tts_execution_contract":  true,
+    "puinave_native_import":  true,
+    "png_jpeg_validation":  true,
+    "wav_validation":  true,
+    "sha256_per_resource":  true,
+    "rmr_persistence":  true,
+    "reuse_existing_resources":  true,
+    "external_network_required":  false,
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.4-CAPA-3",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0234/local-execution.json",
+                                "sha256":  "A97A28C17E775E3427239E158E6E8791BCF27C1D117E93C028DCCF67AF0E9A8A"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.4/SGD-SPT023.4-Capa2-Ejecucion-Local-RMR.md",
+                                "sha256":  "B215A24ECBC84D1AFB992F40A96F2BAB022D18CCAACD80426B91D9988D8FC1B8"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/executor.py",
+                                "sha256":  "8499C7368009BA3F533B45F536A9248EB0A01E3889EC09F532388D1B8FB773B2"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/layer2.py",
+                                "sha256":  "677D4F3FC023C0FA59CCB15F7E7E97F0832AEE6244E2417BEBF69C3DA2044857"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/rmr.py",
+                                "sha256":  "54F90EC934244B5937733C5DAFF985BC1B2EC8FB43144FEAC2CDA7B18E69AE0D"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/validators.py",
+                                "sha256":  "BDC4C5FE962AD18A869C7977FC0FC3E34378FFBCB3FFF6E69EBB4BD3EB90D9D5"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0234_multimedia_execution_layer2.py",
+                                "sha256":  "EE337D902E98972B8B498202660B7853BCE3B03159B156FA29110E5D96A9AAAF"
+                            }
+                        ]
+}

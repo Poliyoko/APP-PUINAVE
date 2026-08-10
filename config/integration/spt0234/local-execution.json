@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.4",
+  "layer": "2",
+  "execution_mode": "LOCAL_ONLY",
+  "external_network_required": false,
+  "paid_api_allowed": false,
+  "image_provider": {
+    "mode": "LOCAL_COMMAND",
+    "command": null,
+    "required_output": "PNG_OR_JPEG"
+  },
+  "tts_provider": {
+    "mode": "LOCAL_COMMAND",
+    "command": null,
+    "languages": ["es-CO", "en-US", "it-IT"],
+    "required_output": "WAV"
+  },
+  "puinave_audio": {
+    "mode": "NATIVE_HUMAN_RECORDING",
+    "required_output": "WAV",
+    "human_validation_required": true
+  },
+  "registry": "ADR-010/RMR",
+  "reuse_existing_approved_resources": true,
+  "next_component": "SPT-023.4-CAPA-3"
+}
