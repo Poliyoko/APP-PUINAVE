@@ -1,0 +1,22 @@
+{
+    "component":  "SPT-024.4-R1",
+    "baseline":  "0b79f817d5f34a2fcdd4a888e76093a379107bc5",
+    "production_scope":  "STRICT",
+    "targeted_tests":  39,
+    "institutional_tests":  1327,
+    "compileall":  "PASS",
+    "database_surfaces":  6,
+    "failed_blocking_controls":  0,
+    "database_connection_opened":  false,
+    "secret_values_exposed":  false,
+    "postgres_runtime_overlay":  "CERTIFIED",
+    "dsn_env_name":  "SGODA_POSTGRES_DSN",
+    "sslmode":  "verify-full",
+    "statement_timeout_ms":  30000,
+    "lock_timeout_ms":  5000,
+    "protected_changes":  0,
+    "mutation_of_closed_components":  false,
+    "paid_api_used":  false,
+    "security_gate":  "PASS",
+    "next_component":  "SPT-024.5"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.1",
+  "component": "SPT-024.4-R1",
+  "baseline": "0b79f817d5f34a2fcdd4a888e76093a379107bc5",
+  "production_scope": [
+    "src/sgoda/operational_platform/database.py",
+    "src/sgoda/operational_platform/settings.py",
+    "config/operational_platform/SPT-011-component.json",
+    "config/operational_platform/SPT-011-operational-policy.json",
+    "config/operational_platform/SPT-011-runtime.json"
+  ],
+  "dsn_env_name": "SGODA_POSTGRES_DSN",
+  "required_sslmode": "verify-full",
+  "statement_timeout_ms": 30000,
+  "lock_timeout_ms": 5000,
+  "forbid_runtime_superuser": true,
+  "require_parameterized_sql": true,
+  "database_connection_during_gate": false,
+  "secret_values_must_never_be_reported": true,
+  "mutation_of_closed_components": false,
+  "paid_api_allowed": false,
+  "next_component": "SPT-024.5"
+}

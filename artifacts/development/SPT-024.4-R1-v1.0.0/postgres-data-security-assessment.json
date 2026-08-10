@@ -1,0 +1,143 @@
+{
+  "closed_components_mutated": false,
+  "component": "SPT-024.4-R1",
+  "database_connection_opened": false,
+  "next_component": "SPT-024.5",
+  "paid_api_used": false,
+  "report": {
+    "conformant": true,
+    "controls": [
+      {
+        "blocking": true,
+        "control_id": "DB-PRODUCTION-SCOPE",
+        "detail": "Only operational DB/runtime files are evaluated; policies, docs, tests, releases and detector sources are excluded.",
+        "name": "Production PostgreSQL scope",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "DB-SECRET-INDIRECTION",
+        "detail": "No effective plaintext PostgreSQL DSN detected in operational scope.",
+        "name": "Database secret indirection",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "DB-SQL-INJECTION",
+        "detail": "No AST-confirmed dynamic SQL execution found.",
+        "name": "Parameterized SQL / injection control",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "DB-LEAST-PRIVILEGE",
+        "detail": "No explicit runtime PostgreSQL superuser role found.",
+        "name": "Least privilege runtime role",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "DB-TLS",
+        "detail": "Runtime overlay enforces sslmode=verify-full.",
+        "name": "PostgreSQL TLS policy",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "DB-TIMEOUTS",
+        "detail": "Runtime overlay enforces statement_timeout and lock_timeout.",
+        "name": "Statement/lock timeout policy",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "DB-SECRET-NONPERSISTENCE",
+        "detail": "SPT-024.4 reads credentials only through the SPT-024.2-approved environment indirection contract.",
+        "name": "Secret non-persistence",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "DB-BACKUP-INTEGRITY",
+        "detail": "Backup manifests require SHA-256 and restore verification before institutional publication.",
+        "name": "Backup/restore integrity contract",
+        "passed": true
+      }
+    ],
+    "failed_blocking_controls": [],
+    "surfaces": [
+      {
+        "path": "src/sgoda/operational_platform/database.py",
+        "rationale": "Operational PostgreSQL/data runtime surface.",
+        "runtime_relevant": true,
+        "secret_indirection": false,
+        "superuser_marker": false,
+        "surface_type": "POSTGRES_RUNTIME",
+        "tls_declared": false,
+        "unsafe_sql_marker": false
+      },
+      {
+        "path": "src/sgoda/operational_platform/settings.py",
+        "rationale": "Operational PostgreSQL/data runtime surface.",
+        "runtime_relevant": true,
+        "secret_indirection": false,
+        "superuser_marker": false,
+        "surface_type": "POSTGRES_RUNTIME",
+        "tls_declared": false,
+        "unsafe_sql_marker": false
+      },
+      {
+        "path": "config/operational_platform/SPT-011-component.json",
+        "rationale": "Operational PostgreSQL/data runtime surface.",
+        "runtime_relevant": true,
+        "secret_indirection": false,
+        "superuser_marker": false,
+        "surface_type": "POSTGRES_RUNTIME",
+        "tls_declared": false,
+        "unsafe_sql_marker": false
+      },
+      {
+        "path": "config/operational_platform/SPT-011-operational-policy.json",
+        "rationale": "Operational PostgreSQL/data runtime surface.",
+        "runtime_relevant": true,
+        "secret_indirection": false,
+        "superuser_marker": false,
+        "surface_type": "POSTGRES_RUNTIME",
+        "tls_declared": false,
+        "unsafe_sql_marker": false
+      },
+      {
+        "path": "config/operational_platform/SPT-011-runtime.json",
+        "rationale": "Operational PostgreSQL/data runtime surface.",
+        "runtime_relevant": true,
+        "secret_indirection": false,
+        "superuser_marker": false,
+        "surface_type": "POSTGRES_RUNTIME",
+        "tls_declared": false,
+        "unsafe_sql_marker": false
+      },
+      {
+        "path": "src/sgoda/integration/spt0244/runtime.py",
+        "rationale": "Central PostgreSQL runtime security policy overlay.",
+        "runtime_relevant": true,
+        "secret_indirection": true,
+        "superuser_marker": false,
+        "surface_type": "SPT0244_SECURITY_OVERLAY",
+        "tls_declared": true,
+        "unsafe_sql_marker": false
+      }
+    ]
+  },
+  "runtime_policy": {
+    "application_name": "sgoda-puinave",
+    "dsn_env_name": "SGODA_POSTGRES_DSN",
+    "forbid_runtime_superuser": true,
+    "lock_timeout_ms": 5000,
+    "require_parameterized_sql": true,
+    "required_sslmode": "verify-full",
+    "secret_value_persisted": false,
+    "statement_timeout_ms": 30000
+  },
+  "secret_values_exposed": false,
+  "status": "POSTGRES_DATA_SECURITY_GATE_PASS"
+}
