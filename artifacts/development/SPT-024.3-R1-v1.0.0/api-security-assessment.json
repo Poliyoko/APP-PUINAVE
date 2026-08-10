@@ -1,0 +1,274 @@
+{
+  "closed_components_mutated": false,
+  "component": "SPT-024.3",
+  "gateway_policy": {
+    "allowed_origins": [],
+    "max_request_bytes": 2097152,
+    "plaintext_token_persisted": false,
+    "protected_paths": [
+      "/audit/repository",
+      "/admin",
+      "/publish",
+      "/workflow",
+      "/pmo"
+    ],
+    "rate_limit_requests": 120,
+    "rate_limit_window_seconds": 60,
+    "token_env_name": "SGODA_API_GUARD_TOKEN",
+    "trusted_hosts": [
+      "localhost",
+      "127.0.0.1"
+    ]
+  },
+  "next_component": "SPT-024.4",
+  "paid_api_used": false,
+  "report": {
+    "conformant": true,
+    "controls": [
+      {
+        "blocking": true,
+        "control_id": "API-SCOPE",
+        "detail": "Only operational src/sgoda API/service roots are scanned; tests, releases, docs and builder templates are excluded.",
+        "name": "Production API scope",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-HEADERS",
+        "detail": "Central ASGI gateway injects required security headers.",
+        "name": "Security headers",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-CORS",
+        "detail": "Wildcard CORS not detected in production scope; gateway enforces explicit origins.",
+        "name": "CORS restriction",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-DEBUG",
+        "detail": "debug=True not detected in production scope.",
+        "name": "Production debug disabled",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-AUTH",
+        "detail": "Sensitive routes are protected by native authentication or the central security gateway.",
+        "name": "Sensitive route authentication",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-REQUEST-SIZE",
+        "detail": "Gateway request-size limit=2097152 bytes.",
+        "name": "Request size control",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-RATE-LIMIT",
+        "detail": "Gateway rate limiting is enabled.",
+        "name": "Rate limiting",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-TRUSTED-HOST",
+        "detail": "Gateway trusted-host allowlist is configured.",
+        "name": "Trusted host policy",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-HEALTH",
+        "detail": "Health/status production sources do not expose secret-like assignments.",
+        "name": "Health/status information safety",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-AUDIT",
+        "detail": "Security overlay is an explicit institutional control point; no secret values are logged.",
+        "name": "Security audit contract",
+        "passed": true
+      },
+      {
+        "blocking": true,
+        "control_id": "API-SECRETS",
+        "detail": "No plaintext secret assignment detected in production scope.",
+        "name": "No plaintext secrets in production API scope",
+        "passed": true
+      }
+    ],
+    "exposures": [
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/status",
+        "sensitive": false,
+        "source": "src/sgoda/api/kernel_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/modules",
+        "sensitive": false,
+        "source": "src/sgoda/api/kernel_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/metadata",
+        "sensitive": false,
+        "source": "src/sgoda/api/kernel_routes.py"
+      },
+      {
+        "authenticated": true,
+        "gateway_auth": true,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/audit/repository",
+        "sensitive": true,
+        "source": "src/sgoda/api/kernel_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/health",
+        "sensitive": false,
+        "source": "src/sgoda/api/routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/version",
+        "sensitive": false,
+        "source": "src/sgoda/api/routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/health",
+        "sensitive": false,
+        "source": "src/sgoda/api/spt022_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/catalog",
+        "sensitive": false,
+        "source": "src/sgoda/api/spt022_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "POST",
+        "native_auth": false,
+        "path": "/run/{operation_id}",
+        "sensitive": false,
+        "source": "src/sgoda/api/spt022_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/health",
+        "sensitive": false,
+        "source": "src/sgoda/api/spt0231_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "POST",
+        "native_auth": false,
+        "path": "/detect",
+        "sensitive": false,
+        "source": "src/sgoda/api/spt0231_routes.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "POST",
+        "native_auth": false,
+        "path": "/learning/execute",
+        "sensitive": false,
+        "source": "src/sgoda/learning_platform/api.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/health",
+        "sensitive": false,
+        "source": "src/sgoda/operational_platform/api.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/lexical/{entry_id}",
+        "sensitive": false,
+        "source": "src/sgoda/operational_platform/api.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "POST",
+        "native_auth": false,
+        "path": "/execute",
+        "sensitive": false,
+        "source": "src/sgoda/operational_platform/api.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/health",
+        "sensitive": false,
+        "source": "src/sgoda/platform/api.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "GET",
+        "native_auth": false,
+        "path": "/capabilities",
+        "sensitive": false,
+        "source": "src/sgoda/platform/api.py"
+      },
+      {
+        "authenticated": null,
+        "gateway_auth": false,
+        "method": "POST",
+        "native_auth": false,
+        "path": "/execute",
+        "sensitive": false,
+        "source": "src/sgoda/platform/api.py"
+      }
+    ],
+    "failed_blocking_controls": []
+  },
+  "secret_values_exposed": false,
+  "status": "API_SECURITY_GATE_PASS"
+}

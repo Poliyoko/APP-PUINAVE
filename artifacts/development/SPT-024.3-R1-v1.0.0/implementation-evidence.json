@@ -1,0 +1,22 @@
+{
+    "component":  "SPT-024.3-R1",
+    "baseline":  "12886bff5161973f7743b49ff4da61676b8b04b0",
+    "production_scope":  "STRICT",
+    "targeted_tests":  40,
+    "institutional_tests":  1288,
+    "compileall":  "PASS",
+    "discovered_exposures":  18,
+    "failed_blocking_controls":  0,
+    "audit_repository_protection":  "SECURITY_GATEWAY",
+    "security_headers":  "ENFORCED",
+    "cors":  "ALLOWLIST",
+    "request_size":  "ENFORCED",
+    "rate_limit":  "ENFORCED",
+    "trusted_hosts":  "ENFORCED",
+    "secret_values_exposed":  false,
+    "protected_changes":  0,
+    "mutation_of_closed_components":  false,
+    "paid_api_used":  false,
+    "security_gate":  "PASS",
+    "next_component":  "SPT-024.4"
+}

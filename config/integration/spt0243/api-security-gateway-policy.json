@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.1",
+  "platform": "SPT-024",
+  "component": "SPT-024.3",
+  "remediation": "R1",
+  "production_scope": [
+    "src/sgoda/api",
+    "src/sgoda/learning_platform",
+    "src/sgoda/operational_platform",
+    "src/sgoda/platform"
+  ],
+  "excluded_from_production_gate": [
+    "tests",
+    "releases",
+    "builder/templates",
+    "docs",
+    "artifacts"
+  ],
+  "gateway": {
+    "protected_paths": [
+      "/audit/repository",
+      "/admin",
+      "/publish",
+      "/workflow",
+      "/pmo"
+    ],
+    "token_env_name": "SGODA_API_GUARD_TOKEN",
+    "max_request_bytes": 2097152,
+    "rate_limit_requests": 120,
+    "rate_limit_window_seconds": 60,
+    "trusted_hosts": [
+      "localhost",
+      "127.0.0.1"
+    ],
+    "secret_values_must_never_be_persisted": true
+  },
+  "mutation_of_closed_components": false,
+  "paid_api_allowed": false,
+  "next_component": "SPT-024.4"
+}
