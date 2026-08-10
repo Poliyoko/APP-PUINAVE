@@ -1,0 +1,30 @@
+{
+    "component":  "SPT-023.7",
+    "layer":  "Capa 1",
+    "version":  "1.0.0",
+    "baseline":  "27ebc50911e36ae73989197d1ba2206c4e31267b",
+    "scope":  [
+                  "SPT-023.1",
+                  "SPT-023.2",
+                  "SPT-023.3",
+                  "SPT-023.4",
+                  "SPT-023.5",
+                  "SPT-023.6"
+              ],
+    "dimensions":  [
+                       "integrity",
+                       "missing_resources",
+                       "consistency",
+                       "nomenclature",
+                       "traceability",
+                       "quality",
+                       "institutional_conformity"
+                   ],
+    "targeted_tests":  26,
+    "institutional_tests":  1102,
+    "compileall":  "PASS",
+    "protected_files":  895,
+    "protected_changes":  0,
+    "mutation_of_closed_components":  false,
+    "status":  "IMPLEMENTED_AND_VALIDATED"
+}
