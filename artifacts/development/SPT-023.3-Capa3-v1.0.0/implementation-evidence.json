@@ -1,0 +1,53 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.3",
+    "layer":  "3",
+    "title":  "Gobernanza Persistencia y Cierre del Catalogo Institucional",
+    "generated_utc":  "2026-08-10T01:58:49.9160290Z",
+    "certified_baseline":  "cf69edf73bc3612812d683beaf94b7aabbfbb645",
+    "targeted_tests_passed":  14,
+    "institutional_tests_passed":  896,
+    "protected_files":  70,
+    "protected_files_changed":  0,
+    "category_management":  true,
+    "subcategory_management":  true,
+    "category_reuse":  true,
+    "controlled_category_proposals":  true,
+    "human_approval_required":  true,
+    "automatic_category_creation":  false,
+    "registry_persistence":  true,
+    "registry_versioning":  true,
+    "sha256_change_ledger":  true,
+    "spt0233_scope_complete":  true,
+    "next_component":  "SPT-023.4",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0233/governance-config.json",
+                                "sha256":  "D4C26DA654836FFCC4AA4A968CB1AD847AA57B0F2400D0E6942DF0890FF9562D"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.3/SGD-SPT023.3-Capa3-Gobernanza-Persistencia-Cierre.md",
+                                "sha256":  "213A868676738E0794B3F34CDE60083DDB5096C06928B13AD727094DB6575C8F"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/governance.py",
+                                "sha256":  "3B2DA5C6CE239DFA76F5DCF0B92F3ADE0AAE2D8C243E983A5702E13427CAABE6"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/layer3.py",
+                                "sha256":  "C4367581A1FD1A9DD728385827BBBDE04BB3476D7B13C5BDED52A417BE8E47E7"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/ledger.py",
+                                "sha256":  "ACD847B69BC4E2E206D5C5B1D8411723EA6DF42758F4CF24DD32468FF0935D83"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/registry.py",
+                                "sha256":  "BC21BC68A0B32A1B1D9D720F8D10912614D28F5E49659D1D75828F7520D52F1C"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0233_category_governance_layer3.py",
+                                "sha256":  "307F6B959FF90A6689A2C03B61FE5BFBB97B64183BC586849C493078658FF64D"
+                            }
+                        ]
+}

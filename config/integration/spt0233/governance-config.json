@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.3",
+  "layer": "3",
+  "automatic_category_creation": false,
+  "human_approval_required": true,
+  "registry_versioning": true,
+  "hierarchy_validation": true,
+  "duplicate_id_policy": "REJECT",
+  "duplicate_name_policy": "REJECT",
+  "change_ledger": {
+    "format": "JSONL",
+    "append_only": true,
+    "hash_algorithm": "SHA-256",
+    "hash_chain_required": true
+  },
+  "next_component": "SPT-023.4"
+}
