@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.4",
+  "layer": "1",
+  "resources_per_lexical_entry": [
+    "image",
+    "audio_puinave",
+    "audio_es",
+    "audio_en",
+    "audio_it"
+  ],
+  "reuse_existing_resources": true,
+  "automatic_external_calls": false,
+  "paid_api_allowed": false,
+  "routes": {
+    "image": "SPT-003A->SPT-003B->ADR-010",
+    "audio_puinave": "NATIVE_RECORDING->SPT-003B->ADR-010",
+    "audio_es": "SPT-006A->SPT-003B->ADR-010",
+    "audio_en": "SPT-006A->SPT-003B->ADR-010",
+    "audio_it": "SPT-006A->SPT-003B->ADR-010"
+  },
+  "next_component": "SPT-023.4-CAPA-2"
+}

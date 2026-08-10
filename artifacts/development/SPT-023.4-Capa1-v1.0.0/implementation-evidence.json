@@ -1,0 +1,63 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.4",
+    "layer":  "1",
+    "title":  "Planificador e Integracion Multimedia",
+    "generated_utc":  "2026-08-10T02:08:50.3609776Z",
+    "certified_baseline":  "d68adbe21c245f70b08a131046dc463fe4c6196a",
+    "targeted_tests_passed":  17,
+    "institutional_tests_passed":  913,
+    "protected_files":  123,
+    "protected_files_changed":  0,
+    "resources_per_word":  5,
+    "image_planning":  true,
+    "puinave_native_audio":  true,
+    "spanish_local_tts":  true,
+    "english_local_tts":  true,
+    "italian_local_tts":  true,
+    "reuse_existing_resources":  true,
+    "reused_components":  [
+                              "SPT-003A",
+                              "SPT-003B",
+                              "SPT-006",
+                              "SPT-006A",
+                              "ADR-010"
+                          ],
+    "automatic_external_calls":  false,
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.4-CAPA-2",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0234/multimedia-policy.json",
+                                "sha256":  "CB2385BB5EB4483683D372BE0F5EC2125FF5DC50FAE6C34E9ACDFDEB8BCC4E6F"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.4/SGD-SPT023.4-Capa1-Planificador-Multimedia.md",
+                                "sha256":  "D98088814DB288444D3572670554AE40E861A5EF4D0603BDAEF74539E6085C14"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/__init__.py",
+                                "sha256":  "371B185C011B57B1C337DB3761AD6C2027B0BC5A1AD8DB7B7A57CA235C5ADFC2"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/models.py",
+                                "sha256":  "C2BB6E13AC848EDCCD5A5E7830FECECCC5EDAF8258E916161BFD71E78005B7A6"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/planner.py",
+                                "sha256":  "8BFB2C7C0438D4308963FDDA6A6CB40DFDA921714E1CEBDDAC5D7ACE312F3965"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/policy.py",
+                                "sha256":  "49AF5C4E0FE6F83EAD37578230CBFD7F24673B31E086C8CB60F21FBF3DFBFCA7"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0234/service.py",
+                                "sha256":  "75FB65A4C4396B82286D57A11B1203BAB65B71E7EE30376C1A4C107080DBE852"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0234_multimedia_planner_layer1.py",
+                                "sha256":  "4D11CC7F2D1664817E821ADCDC72CBAA5DFEFEB5CE35F885AF58ED4DD25C9AE9"
+                            }
+                        ]
+}
