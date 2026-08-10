@@ -1,0 +1,50 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.5",
+    "layer":  "3",
+    "title":  "Gobernanza Publicacion y Cierre FLD ODA",
+    "generated_utc":  "2026-08-10T03:02:46.1656469Z",
+    "certified_baseline":  "9768f0486805a1a8fbc2f4ff9f84a5adaca884ae",
+    "targeted_tests_passed":  18,
+    "institutional_tests_passed":  1010,
+    "protected_files":  126,
+    "protected_files_changed":  0,
+    "human_publication_review":  true,
+    "publication_manifest_sha256":  true,
+    "published_catalog":  true,
+    "idempotent_publication":  true,
+    "reference_validation":  true,
+    "spt0235_scope_complete":  true,
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.6",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0235/publication-governance.json",
+                                "sha256":  "02D6AD4D344756527AC2080FA40EDB8D45B4FBAEACDD1CD6BF5A88D7A18D3590"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.5/SGD-SPT023.5-Capa3-Gobernanza-Publicacion-Cierre.md",
+                                "sha256":  "DD3483DE6268BFE4B88B8FF867B456BF74A18621F3C909F205746D211EC1B6B2"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/catalog.py",
+                                "sha256":  "8FE8F4F2921189D9CD86D694FD78D600C422289DB5B4364BC6D00D31B4316AD1"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/layer3.py",
+                                "sha256":  "58E8E72B5C70C05FC150202664F861E491B9DAACA4559D8747660920F488D028"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/manifest.py",
+                                "sha256":  "62E686526CCE447950AF1AE3EB05EAEB7DF1C6416B6B41C5604BBEB3B0934457"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/publication.py",
+                                "sha256":  "D94B201ADBF55F14A1FCF91D97688092A5E142D20B71611D83CCFE110555CE66"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0235_publication_governance_layer3.py",
+                                "sha256":  "045DDE229066773CF8CC70F3B1A967752EE58D2F02965D04368A21D8640CB486"
+                            }
+                        ]
+}

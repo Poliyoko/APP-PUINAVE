@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.5",
+  "layer": "3",
+  "human_publication_review_required": true,
+  "reviewer_required": true,
+  "reason_required": true,
+  "validate_registry_version": true,
+  "validate_fld_oda_link": true,
+  "validate_multimedia_references": true,
+  "publication_manifest_sha256": true,
+  "published_catalog": "LOCAL_JSON_ATOMIC",
+  "idempotent_publication": true,
+  "paid_api_allowed": false,
+  "spt0235_scope_complete_on_approval": true,
+  "next_component": "SPT-023.6"
+}
