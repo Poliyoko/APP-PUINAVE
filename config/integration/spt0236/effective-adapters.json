@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.6",
+  "layer": "2",
+  "effective_adapters": {
+    "FASTAPI": "HTTP_JSON_CONFIGURABLE",
+    "N8N": "HTTP_JSON_CONFIGURABLE",
+    "PMO_DIGITAL": "LOCAL_JSON_ATOMIC",
+    "AUDITOR_INSTITUCIONAL": "LOCAL_JSON_ATOMIC",
+    "SGD-002": "LOCAL_JSON_ATOMIC"
+  },
+  "core_components_reused": [
+    "SPT-023.1",
+    "SPT-023.2",
+    "SPT-023.3",
+    "SPT-023.4",
+    "SPT-023.5"
+  ],
+  "hardcoded_credentials": false,
+  "internet_required_for_tests": false,
+  "resume_supported": true,
+  "idempotent": true,
+  "paid_api_allowed": false,
+  "next_component": "SPT-023.6-CAPA-3"
+}

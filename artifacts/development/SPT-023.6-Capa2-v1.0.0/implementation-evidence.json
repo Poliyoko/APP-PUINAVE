@@ -1,0 +1,55 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.6",
+    "layer":  "2",
+    "title":  "Adaptadores Efectivos Institucionales",
+    "generated_utc":  "2026-08-10T03:24:16.7899553Z",
+    "certified_baseline":  "5eea474d0787e119f116c756484124b239f76d86",
+    "targeted_tests_passed":  22,
+    "institutional_tests_passed":  1052,
+    "protected_files":  940,
+    "protected_files_changed":  0,
+    "fastapi_adapter":  "HTTP_JSON_CONFIGURABLE",
+    "n8n_adapter":  "HTTP_JSON_CONFIGURABLE",
+    "pmo_adapter":  "LOCAL_JSON_ATOMIC",
+    "auditor_adapter":  "LOCAL_JSON_ATOMIC",
+    "sgd002_adapter":  "LOCAL_JSON_ATOMIC",
+    "core_components_reused":  [
+                                   "SPT-023.1",
+                                   "SPT-023.2",
+                                   "SPT-023.3",
+                                   "SPT-023.4",
+                                   "SPT-023.5"
+                               ],
+    "internet_required_for_tests":  false,
+    "idempotent":  true,
+    "resume_supported":  true,
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.6-CAPA-3",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0236/effective-adapters.json",
+                                "sha256":  "E15A056AEA44576A786F2CB3FA4640030FB99A6B76F06EF31E7C78F330E1E29F"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.6/SGD-SPT023.6-Capa2-Adaptadores-Efectivos.md",
+                                "sha256":  "FD755F5ABB50FF4F8056DFEFE87ED7FBEC3D66C70A5FED71E3F8B766CFC806DD"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/adapters.py",
+                                "sha256":  "C944DC0D0C53D2CDC6408CD47497AB1062790BBC8CF0303D63857B0150D983CF"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/bindings.py",
+                                "sha256":  "48F329B4E3C738FFF758B6A7F1E9C89D80AF185E4771A6938E900A1A799A7B77"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/bridge.py",
+                                "sha256":  "014F6E2C72D8352B9B5A7DA4E6341E27ED9700F8F6F4992B37A3C16A7D4550D9"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0236_effective_adapters_layer2.py",
+                                "sha256":  "E989DF70CA076E9556B7AB049215B7C5963B165447903885AE202C9B17C11A3C"
+                            }
+                        ]
+}
