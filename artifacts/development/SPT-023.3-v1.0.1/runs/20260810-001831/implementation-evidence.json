@@ -1,0 +1,50 @@
+{
+    "schema_version":  "1.0.1",
+    "component":  "SPT-023.3",
+    "layer":  "Capa 1",
+    "title":  "Motor Institucional de Categorias",
+    "run_id":  "20260810-001831",
+    "generated_utc":  "2026-08-10T00:19:06.3460819Z",
+    "certified_baseline":  "543dd7e52c24e661b8b7a1936aae7b88346733e1",
+    "source_component":  "SPT-023.2",
+    "next_component":  "SPT-023.4",
+    "policy":  {
+                   "reuse_existing_categories":  true,
+                   "automatic_category_creation":  false,
+                   "no_invention":  true,
+                   "human_validation":  true
+               },
+    "targeted_tests_passed":  9,
+    "institutional_tests_passed":  870,
+    "protected_files":  27,
+    "protected_files_changed":  0,
+    "resume_mode":  false,
+    "generated_files":  [
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.3/SGD-SPT023.3-Capa1-Motor-Categorias.md",
+                                "sha256":  "DE1DA80144BB1968342A0D3B75AD9A5EF395977B0D8E26624B9D4FD4F9722C5E"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/__init__.py",
+                                "sha256":  "9CD4D4BFF8D25FD8C02DE3B4DD91472BE909EB389B492FAD4C54CCBB06EA29CD"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/catalog.py",
+                                "sha256":  "DDB367635A63EBF9FC7BF05C703E5BDC73FC7AD429FD73225B48EBC3B3058804"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/models.py",
+                                "sha256":  "6B9F095B5786A884AB828F1059A2196CE5E47CEA0BE01A6F38416201F9EC9E25"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0233/service.py",
+                                "sha256":  "4D05A0304D30B80C174AC2CC9E5BF31E96E31B688DD66D01E31D34955A46A7D4"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0233_category_engine.py",
+                                "sha256":  "82182C32B4554EA892B2C6CCF7ED3054614B6D9BC6835DF5B52120887D31B126"
+                            }
+                        ],
+    "commit":  false,
+    "push":  false
+}
