@@ -1,0 +1,68 @@
+{
+    "component":  "SPT-023.7",
+    "layer":  "Capa 3",
+    "version":  "1.0.0",
+    "baseline":  "1274306bee8ef9e90b43360af14b99cf2dd062c1",
+    "targeted_tests":  29,
+    "institutional_tests":  1157,
+    "compileall":  "PASS",
+    "protected_files":  187,
+    "protected_changes":  0,
+    "layer1_preserved":  true,
+    "layer2_preserved":  true,
+    "transversal_audit":  "PASS",
+    "correlation":  "PASS",
+    "risk_evaluation":  "PASS",
+    "evidence_integrity":  "PASS",
+    "quality_gates":  "PASS",
+    "governance":  "PASS",
+    "closure_manifest":  "CREATED",
+    "closure_manifest_sha256":  "C733A88F72DBFC990E6386E83BE5CC502743AFA5A3754AC2D6E765E35B2B1B40",
+    "audit_ledger_sha256_chain":  "VERIFIED",
+    "spt0237_status":  "INSTITUTIONALLY_CLOSED",
+    "paid_api_used":  false,
+    "next_component":  "SPT-023.8",
+    "security_platform_next":  "SPT-024 PISI",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0237/governance-quality-gates.json",
+                                "sha256":  "E365A56857B2B6627E7990CF24465FE9F1EE39E7F259F8C43901C929BF71F087"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.7/SGD-SPT023.7-Capa3-Gobierno-Quality-Gates-Cierre.md",
+                                "sha256":  "151BC83C808C5B59C4B6AE41D317C308C62A12E77674D7AB751B055F8E9D7FAF"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/closure.py",
+                                "sha256":  "22FEFAEF426C9DBBBCD395EDF1E5A3696C553879098359558ED0957ED51A84B9"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/gates.py",
+                                "sha256":  "63B53532D7A953CCF895AC5E3DFEEC14E093E497F8F7DCEE05FAB7C822521899"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/governance.py",
+                                "sha256":  "224A48A5E00DCCAABA65F577FB39D164980D633DDFD5A880D972A04062968DD5"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/layer3.py",
+                                "sha256":  "CD98DAD55FF98E29159B7CF8261182132CA1CE4148979245771A45E6E3FDC760"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/ledger.py",
+                                "sha256":  "2BB7DC4DF59D740709B2776E030879881B938FDD0B73456CE885C7CD8C297618"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0237_governance_closure_layer3.py",
+                                "sha256":  "EC652655B1D41D500C7D7026D8ABCC3CDDC501CB3AAC6102B4BC166A8051AA68"
+                            },
+                            {
+                                "path":  "artifacts/development/SPT-023.7-Capa3-v1.0.0/closure-manifest.json",
+                                "sha256":  "363E34E37518CEE5592EE21117B0169D4DB3CD06DEE79C87C2EEB737AD92E585"
+                            },
+                            {
+                                "path":  "artifacts/development/SPT-023.7-Capa3-v1.0.0/audit-closure-ledger.json",
+                                "sha256":  "A6F6990B4DD115626F3D8F926C33F5F19CF27F8F9A022C507B617F343A409872"
+                            }
+                        ]
+}

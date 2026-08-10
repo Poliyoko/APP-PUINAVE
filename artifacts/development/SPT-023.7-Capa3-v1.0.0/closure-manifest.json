@@ -1,0 +1,11 @@
+{
+  "closed_components_preserved": true,
+  "component": "SPT-023.7",
+  "governance_passed": true,
+  "layer1_preserved": true,
+  "layer2_preserved": true,
+  "manifest_sha256": "C733A88F72DBFC990E6386E83BE5CC502743AFA5A3754AC2D6E765E35B2B1B40",
+  "next_component": "SPT-023.8",
+  "quality_gates_passed": true,
+  "status": "INSTITUTIONALLY_CLOSED"
+}

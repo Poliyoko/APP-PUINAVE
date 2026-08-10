@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.7",
+  "layer": "3",
+  "purpose": "governance_quality_gates_and_institutional_closure",
+  "reuse": {
+    "layer1": true,
+    "layer2": true,
+    "spt023_1_to_6": true
+  },
+  "required_quality_gates": [
+    "GATE-TRANSVERSAL-AUDIT",
+    "GATE-CORRELATION",
+    "GATE-RISK",
+    "GATE-EVIDENCE",
+    "GATE-CROSS-COMPONENT",
+    "GATE-VERDICT",
+    "GATE-PRESERVATION"
+  ],
+  "ledger": {
+    "format": "LOCAL_JSON",
+    "sha256_chain": true
+  },
+  "protected_changes_required": 0,
+  "paid_api_allowed": false,
+  "close_spt0237": true,
+  "next_component": "SPT-023.8"
+}

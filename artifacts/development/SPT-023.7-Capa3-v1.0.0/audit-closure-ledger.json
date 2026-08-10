@@ -1,0 +1,33 @@
+[
+  {
+    "entry_sha256": "FCBD6C53FD873D6EC0B35F8E508BCECB8B73E162B41FF7827EEED25CF89F3CAE",
+    "event_type": "QUALITY_GATES_EVALUATED",
+    "payload": {
+      "failed_blocking": [],
+      "passed": true
+    },
+    "previous_hash": "GENESIS",
+    "sequence": 1
+  },
+  {
+    "entry_sha256": "67776B70D407E00E894397D56395EBCC391BAF0E720E748FB665BD82DE447CA9",
+    "event_type": "GOVERNANCE_EVALUATED",
+    "payload": {
+      "passed": true,
+      "violations": []
+    },
+    "previous_hash": "FCBD6C53FD873D6EC0B35F8E508BCECB8B73E162B41FF7827EEED25CF89F3CAE",
+    "sequence": 2
+  },
+  {
+    "entry_sha256": "0B88E98FE3D4FA2A712CB5FEF67A944541C4A7F02AB4A10F6D99F018BC9AAE7E",
+    "event_type": "SPT0237_CLOSURE_CERTIFIED",
+    "payload": {
+      "manifest_sha256": "C733A88F72DBFC990E6386E83BE5CC502743AFA5A3754AC2D6E765E35B2B1B40",
+      "next_component": "SPT-023.8",
+      "status": "INSTITUTIONALLY_CLOSED"
+    },
+    "previous_hash": "67776B70D407E00E894397D56395EBCC391BAF0E720E748FB665BD82DE447CA9",
+    "sequence": 3
+  }
+]
