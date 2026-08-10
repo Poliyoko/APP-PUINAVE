@@ -38,3 +38,11 @@ artifacts/runtime/
 **/repository-backup/
 **/registry-backup/
 # SGODA institutional runtime / generated local state
+
+# SPT-024 PISI - institutional secret protection
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12

@@ -1,0 +1,19 @@
+{
+    "component":  "SPT-024.2-R1",
+    "baseline":  "212c9430fcd96f564439f3af828b740c2761f850",
+    "reused_spt0241":  true,
+    "reused_spt0242_failed_run":  true,
+    "rebuilt_spt0242":  false,
+    "targeted_tests":  29,
+    "institutional_tests":  1248,
+    "compileall":  "PASS",
+    "candidates_assessed":  13,
+    "false_positives_certified":  13,
+    "confirmed_risks":  0,
+    "review_required":  0,
+    "secret_values_exposed":  false,
+    "gitignore_control":  "PASS",
+    "protected_changes":  0,
+    "security_gate":  "PASS",
+    "next_component":  "SPT-024.3"
+}

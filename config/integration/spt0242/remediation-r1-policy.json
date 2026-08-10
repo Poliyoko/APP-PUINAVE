@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-024.2-R1",
+  "purpose": "safe_secret_remediation_and_certification",
+  "reuse": {
+    "spt0241_baseline": true,
+    "spt0242_failed_run_outputs": true,
+    "rebuild_spt0242": false
+  },
+  "automatic_remediation": [
+    "ADD_GITIGNORE_SECRET_PATTERNS"
+  ],
+  "forbidden_automatic_actions": [
+    "ROTATE_CREDENTIAL",
+    "DELETE_SECRET",
+    "REWRITE_GIT_HISTORY",
+    "CHANGE_SERVICE_CREDENTIAL"
+  ],
+  "secret_values_must_never_be_reported": true,
+  "publication_requires": {
+    "confirmed_risks": 0,
+    "review_required": 0,
+    "gitignore_control": "PASS"
+  },
+  "paid_api_allowed": false
+}
