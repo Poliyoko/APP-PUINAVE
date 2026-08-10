@@ -1,0 +1,51 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.5",
+    "layer":  "2",
+    "title":  "Registro Versionado FLD ODA",
+    "generated_utc":  "2026-08-10T02:45:24.3011972Z",
+    "certified_baseline":  "e337686a1132c8dda2ba511e176c2c98ab8d9fd8",
+    "targeted_tests_passed":  20,
+    "institutional_tests_passed":  992,
+    "protected_files":  117,
+    "protected_files_changed":  0,
+    "registry_master":  true,
+    "versioning":  true,
+    "preserve_all_versions":  true,
+    "reference_validation":  true,
+    "version_sha256":  true,
+    "query_by_lexical_id":  true,
+    "query_by_version":  true,
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.5-CAPA-3",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0235/registry-policy.json",
+                                "sha256":  "66F271666EB80FB51C6302374C79B716E558C4812E264CF6D0821062907CB86C"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.5/SGD-SPT023.5-Capa2-Registro-Versionado-FLD-ODA.md",
+                                "sha256":  "435A344D1E60529B15D445FE4CBD4BE096CDA8AD4C15B92DDC251050E0E9CF1B"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/layer2.py",
+                                "sha256":  "F3659371505A4BEDEC2517BAAD08E50200637319AD3379BE1A8DFBA27D48BDE2"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/query.py",
+                                "sha256":  "B5909FACED6EED9B2D76837F1C593BD91B4A713DFFB7DB6B3AA2EC761424ACE8"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/references.py",
+                                "sha256":  "233130A9BF21912D35F0D0A48B66FA191E0CE756ABF9C4764D7305581856164A"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/registry.py",
+                                "sha256":  "FD43A214C62773C8EC317667C9808F6AF8D6F2482596077C8752D521739A77EF"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0235_fld_oda_registry_layer2.py",
+                                "sha256":  "B9FF975B96F2D4C7A3BE48557C4F900F3A63E6C00EE338BBD6682E9A1D288C71"
+                            }
+                        ]
+}

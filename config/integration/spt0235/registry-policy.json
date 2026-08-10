@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.5",
+  "layer": "2",
+  "registry_type": "FLD_ODA_MASTER",
+  "storage": "LOCAL_JSON_ATOMIC",
+  "versioning": true,
+  "preserve_all_versions": true,
+  "version_hash_algorithm": "SHA-256",
+  "validate_fld_oda_link": true,
+  "validate_multimedia_manifest": true,
+  "required_multimedia_resources": 5,
+  "query_by_lexical_id": true,
+  "query_by_version": true,
+  "paid_api_allowed": false,
+  "next_component": "SPT-023.5-CAPA-3"
+}
