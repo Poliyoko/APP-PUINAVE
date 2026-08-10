@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.5",
+  "layer": "1",
+  "input_status_required": "READY_FOR_FLD_ODA",
+  "required_multimedia_resources": 5,
+  "constructs": [
+    "FLD",
+    "ODA"
+  ],
+  "canonical_hash_algorithm": "SHA-256",
+  "traceability_required": true,
+  "paid_api_allowed": false,
+  "next_component": "SPT-023.5-CAPA-2"
+}

@@ -1,0 +1,53 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.5",
+    "layer":  "1",
+    "title":  "Constructor FLD ODA",
+    "generated_utc":  "2026-08-10T02:36:49.7093300Z",
+    "certified_baseline":  "72ad012c4ffa690fbde5db06eed9fbefb2615500",
+    "targeted_tests_passed":  20,
+    "institutional_tests_passed":  972,
+    "protected_files":  107,
+    "protected_files_changed":  0,
+    "fld_builder":  true,
+    "oda_builder":  true,
+    "multimedia_references":  5,
+    "deterministic_sha256":  true,
+    "source_status":  "READY_FOR_FLD_ODA",
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.5-CAPA-2",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0235/fld-oda-builder.json",
+                                "sha256":  "E50CF080DE87F62C3E655A0ECE086B3AB0FB3AD88A3E28225A3B5B947ABAC252"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.5/SGD-SPT023.5-Capa1-Constructor-FLD-ODA.md",
+                                "sha256":  "B7A498EE02624BA7FE216C27F38D50FFDC649F8CFC9BCA00A3718D6C5EB2A894"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/__init__.py",
+                                "sha256":  "B8F2A382B1E282DEF3605BF1E0E1A91A1939612E654797B8E1A8E9FE09422249"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/fld.py",
+                                "sha256":  "127B7E013C945E4437E8749510EF040F7E3729E159197712A2710C82B3EB8DC7"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/models.py",
+                                "sha256":  "C86D1A1F05F469846E5D4D2CFCFF9A384D9F7D142440A023452DD2109EAD35D5"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/oda.py",
+                                "sha256":  "531791E3603FE2CF2E6A00742BABD838C605CDCF3B102BBA056517843B626061"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0235/service.py",
+                                "sha256":  "A7844134C14D24DF9EA1D942FF91470E7CB9CF3D29D5CC9E2E34D618F0B51D57"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0235_fld_oda_builder_layer1.py",
+                                "sha256":  "204FECECCEF8CB99B7A7FF736085CEC7C818B1A4F38B4AB257C305A17C31F349"
+                            }
+                        ]
+}
