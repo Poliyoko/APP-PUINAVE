@@ -1,0 +1,115 @@
+{
+    "status":  "CLIENT_SECURITY_GATE_PASS",
+    "scope_result":  "NO_PRODUCTION_FLUTTER_CLIENT_PRESENT",
+    "assessment_mode":  "AUTHORITATIVE_GIT_TRACKED_CLASSIFIED_SCOPE",
+    "production_client_candidates":  0,
+    "ci_cd_yaml_count":  5,
+    "repository_yaml_config_count":  4,
+    "failed_control_ids":  [
+
+                           ],
+    "controls":  [
+                     {
+                         "control_id":  "CLI-SECRETS",
+                         "passed":  true,
+                         "blocking":  true,
+                         "applicable":  false,
+                         "detail":  "No production Flutter/client surface exists in the authoritative Git-tracked scope; control is not currently applicable."
+                     },
+                     {
+                         "control_id":  "CLI-TLS",
+                         "passed":  true,
+                         "blocking":  true,
+                         "applicable":  false,
+                         "detail":  "No production Flutter/client surface exists in the authoritative Git-tracked scope; control is not currently applicable."
+                     },
+                     {
+                         "control_id":  "CLI-CERT",
+                         "passed":  true,
+                         "blocking":  true,
+                         "applicable":  false,
+                         "detail":  "No production Flutter/client surface exists in the authoritative Git-tracked scope; control is not currently applicable."
+                     },
+                     {
+                         "control_id":  "CLI-STORAGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "applicable":  false,
+                         "detail":  "No production Flutter/client surface exists in the authoritative Git-tracked scope; control is not currently applicable."
+                     },
+                     {
+                         "control_id":  "CLI-LOGGING",
+                         "passed":  true,
+                         "blocking":  true,
+                         "applicable":  false,
+                         "detail":  "No production Flutter/client surface exists in the authoritative Git-tracked scope; control is not currently applicable."
+                     },
+                     {
+                         "control_id":  "CLI-WEBVIEW",
+                         "passed":  true,
+                         "blocking":  true,
+                         "applicable":  false,
+                         "detail":  "No production Flutter/client surface exists in the authoritative Git-tracked scope; control is not currently applicable."
+                     },
+                     {
+                         "control_id":  "CLI-BACKUP",
+                         "passed":  true,
+                         "blocking":  true,
+                         "applicable":  false,
+                         "detail":  "No production Flutter/client surface exists in the authoritative Git-tracked scope; control is not currently applicable."
+                     }
+                 ],
+    "surfaces":  [
+
+                 ],
+    "classifications":  [
+                            {
+                                "path":  ".github/workflows/builder-ci.yml",
+                                "classification":  "CI_CD_WORKFLOW",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  ".github/workflows/release.yml",
+                                "classification":  "CI_CD_WORKFLOW",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  ".github/workflows/spb-003-2-closure-audit.yml",
+                                "classification":  "CI_CD_WORKFLOW",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  ".github/workflows/spb-003.2-closure.yml",
+                                "classification":  "CI_CD_WORKFLOW",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  ".github/workflows/utf8-repository-compliance.yml",
+                                "classification":  "CI_CD_WORKFLOW",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/.github/workflows/spb-003-2-closure-audit.yml",
+                                "classification":  "REPOSITORY_CONFIGURATION",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/.github/workflows/spb-003.2-closure.yml",
+                                "classification":  "REPOSITORY_CONFIGURATION",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/.github/workflows/utf8-repository-compliance.yml",
+                                "classification":  "REPOSITORY_CONFIGURATION",
+                                "production_flutter_client":  false
+                            },
+                            {
+                                "path":  "pic.yaml",
+                                "classification":  "REPOSITORY_CONFIGURATION",
+                                "production_flutter_client":  false
+                            }
+                        ],
+    "external_connection_opened":  false,
+    "flutter_app_executed_by_gate":  false,
+    "secret_values_exposed":  false
+}

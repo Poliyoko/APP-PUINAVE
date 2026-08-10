@@ -1,0 +1,25 @@
+{
+    "component":  "SPT-024.6",
+    "layer":  "Capa 1",
+    "version":  "1.0.0",
+    "master_version":  "1.0.7",
+    "generated_utc":  "2026-08-10T07:23:07.6720001Z",
+    "authoritative_baseline":  "96f5d4a7f901cb294320fc85cee9a4aea93ccc7c",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "preexisting_outside_scope_items":  56,
+    "input_package_present":  true,
+    "gates":  {
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "client_security":  "PASS",
+                  "client_scope_result":  "NO_PRODUCTION_FLUTTER_CLIENT_PRESENT",
+                  "blocking_controls":  7,
+                  "external_connection_opened":  false,
+                  "flutter_app_executed_by_gate":  false,
+                  "secret_values_exposed":  false,
+                  "closed_components_preserved":  true,
+                  "historical_outside_scope_preserved":  true
+              },
+    "publication":  "PENDING_CONTROLLED_COMMIT"
+}

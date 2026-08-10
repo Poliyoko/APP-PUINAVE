@@ -1,0 +1,8 @@
+{
+  "component":"SPT-024.6",
+  "version":"1.0.0",
+  "mode":"static-non-executing",
+  "blocking_controls":["CLI-SECRETS","CLI-TLS","CLI-CERT","CLI-STORAGE","CLI-LOGGING","CLI-WEBVIEW","CLI-BACKUP"],
+  "advisory_controls":["CLI-PERMISSIONS","CLI-DEPS","CLI-ENDPOINTS"],
+  "safety":{"open_external_connections":false,"execute_flutter_application":false,"print_secret_values":false,"persist_secret_values":false,"modify_closed_components":false}
+}
