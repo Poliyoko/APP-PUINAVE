@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.6",
+  "layer": "3",
+  "execution_governance": true,
+  "retry_policy": {
+    "max_attempts": 3,
+    "retryable_exceptions": [
+      "RuntimeError",
+      "TimeoutError"
+    ]
+  },
+  "compensation_enabled": true,
+  "event_ledger": {
+    "storage": "LOCAL_JSON_ATOMIC",
+    "sha256_chain": true
+  },
+  "required_health_gates": [
+    "ORCHESTRATOR",
+    "STATE_STORE",
+    "PMO_DIGITAL",
+    "AUDITOR_INSTITUCIONAL",
+    "SGD-002"
+  ],
+  "effective_adapters_required": true,
+  "orchestration_complete_required": true,
+  "paid_api_allowed": false,
+  "close_spt0236": true,
+  "next_component": "SPT-023.7"
+}

@@ -1,0 +1,55 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SPT-023.6",
+    "layer":  "3",
+    "title":  "Gobierno de Ejecucion y Cierre del Orquestador Inteligente",
+    "generated_utc":  "2026-08-10T03:31:38.4635876Z",
+    "certified_baseline":  "f6634162fd79fa2c724692e5cf93fbaf8599618a",
+    "targeted_tests_passed":  24,
+    "institutional_tests_passed":  1076,
+    "protected_files":  948,
+    "protected_files_changed":  0,
+    "retries_governed":  true,
+    "compensation_governed":  true,
+    "event_ledger_sha256":  true,
+    "health_gates":  true,
+    "effective_adapters_required":  true,
+    "orchestration_complete_required":  true,
+    "spt0236_scope_complete":  true,
+    "paid_api_allowed":  false,
+    "next_component":  "SPT-023.7",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0236/governance-policy.json",
+                                "sha256":  "ACB2156771E72BF7D9D2123D1066D4FA452C6FF8A1E4E46258BDF3396C3C4F9C"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.6/SGD-SPT023.6-Capa3-Gobierno-Cierre.md",
+                                "sha256":  "82495EFBD0144E7D6F04A6F106DFC73406BC19909E926019D07FB1B8B9449BF6"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/compensation.py",
+                                "sha256":  "5E463AD434B7001D73C5C04CCCF9F9D2422C90F971A8ABEAEE1320AF0516AA89"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/events.py",
+                                "sha256":  "9E858BE9BCCE65096739558E1DAA746E4A1C6D6DE7B49FFF42C1F4D7F1860EA3"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/governance.py",
+                                "sha256":  "64858499E64519DCF2F31D3E4EE87415F3C7337DFB7919C73DF5B6976D45C01E"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/layer3.py",
+                                "sha256":  "20E392EF80384340D73D0E8CB31D14B1CAA2BE847C6AD77A1AC3AD78959015C5"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0236/runtime.py",
+                                "sha256":  "20473B1BA5160A00E2858CAAB24789113B5C4A62557B731FA814550F63E86170"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0236_governance_layer3.py",
+                                "sha256":  "C51DF0F91D5A00E94920B90C603367906A41FACF8379379EAC642329DC3F2E18"
+                            }
+                        ]
+}
