@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "platform": "SPT-024",
+  "component": "SPT-024.5",
+  "layer": "1",
+  "purpose": "n8n_automation_workflow_security",
+  "require_credentials_indirection": true,
+  "require_webhook_authentication": true,
+  "forbid_plaintext_credentials": true,
+  "forbid_unrestricted_execute_command": true,
+  "require_workflow_integrity_hash": true,
+  "require_audit_traceability": true,
+  "require_disabled_by_default_for_untrusted_workflows": true,
+  "require_local_or_approved_free_runtime": true,
+  "secret_values_must_never_be_reported": true,
+  "n8n_started_during_gate": false,
+  "workflow_execution_during_gate": false,
+  "webhook_call_during_gate": false,
+  "mutation_of_closed_components": false,
+  "paid_api_allowed": false,
+  "next_component": "SPT-024.6"
+}
