@@ -1,0 +1,58 @@
+{
+    "component":  "SPT-023.7",
+    "layer":  "Capa 2",
+    "version":  "1.0.0",
+    "baseline":  "ae770bb6f91a1d6647586fbe73f1d4ebb1402a0a",
+    "targeted_tests":  26,
+    "institutional_tests":  1128,
+    "compileall":  "PASS",
+    "protected_files":  174,
+    "protected_changes":  0,
+    "layer1_reused":  true,
+    "correlation":  true,
+    "risk_evaluation":  true,
+    "evidence_consolidation":  true,
+    "cross_component_consistency":  true,
+    "institutional_verdict":  true,
+    "mutation_of_closed_components":  false,
+    "next_component":  "SPT-023.7-CAPA-3",
+    "generated_files":  [
+                            {
+                                "path":  "config/integration/spt0237/institutional-correlation.json",
+                                "sha256":  "30C66ED61240E3ADFA9BFA0CEB4CA7F20898382F26891F791B14DA86678C0BF6"
+                            },
+                            {
+                                "path":  "docs/06_Tecnologia/SPT-023.7/SGD-SPT023.7-Capa2-Correlacion-Riesgo-Dictamen.md",
+                                "sha256":  "BB58812048FE10B1350EC33CB885C3F51E1F2610220DE55B671BF50B9E9B67DF"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/correlation.py",
+                                "sha256":  "DC5F7A1466863F6B09E4B2448CAB1A7B7802622E4142CE97F6EEE64C2E4DF42D"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/crosscheck.py",
+                                "sha256":  "2D599277154F2FF0E4B21BD2557E26AEE17BB75980C5D426C11F925E23AE4D40"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/evidence.py",
+                                "sha256":  "826DA84C712466A11258E1800A854058ED7B0893F374B64D6D9B1ECB4B5EEDBA"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/layer2.py",
+                                "sha256":  "1D079F12F02AA7DE53F685F9A8C7EB7FCCF46B70AC2856E5C098397591F1C0A6"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/risk.py",
+                                "sha256":  "B404D5149FD1E6023A3219AC90765F044EC7B55ABA34EECE00A3284429380312"
+                            },
+                            {
+                                "path":  "src/sgoda/integration/spt0237/verdict.py",
+                                "sha256":  "5C939DF0EB77E367973F1E039729778821EFB4818371D09216FB422CAC1ACE51"
+                            },
+                            {
+                                "path":  "tests/integration/test_spt0237_institutional_correlation_layer2.py",
+                                "sha256":  "D86EFB3BE6709B4268D55DD1FEF329484A34664F195BB8B01E8FA64D22E408D9"
+                            }
+                        ],
+    "status":  "IMPLEMENTED_AND_VALIDATED"
+}

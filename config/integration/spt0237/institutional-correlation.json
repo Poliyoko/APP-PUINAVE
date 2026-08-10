@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-023.7",
+  "layer": "2",
+  "reuse_layer1": true,
+  "scope": [
+    "SPT-023.1",
+    "SPT-023.2",
+    "SPT-023.3",
+    "SPT-023.4",
+    "SPT-023.5",
+    "SPT-023.6"
+  ],
+  "capabilities": [
+    "finding_correlation",
+    "severity_risk_evaluation",
+    "evidence_consolidation",
+    "cross_component_consistency",
+    "institutional_verdict"
+  ],
+  "blocking_severities": [
+    "ERROR",
+    "CRITICAL"
+  ],
+  "evidence_sha256": true,
+  "mutation_of_closed_components": false,
+  "paid_api_allowed": false,
+  "next_component": "SPT-023.7-CAPA-3"
+}
