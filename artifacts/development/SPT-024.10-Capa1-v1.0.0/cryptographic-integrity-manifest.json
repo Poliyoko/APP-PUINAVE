@@ -1,0 +1,21 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 3,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-protection-assessment.json",
+      "bytes": 4229,
+      "sha256": "06532f522b69061d5639a117fd18170a5c192c811d671197c7939a33a1145448"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-data-surface-inventory.json",
+      "bytes": 93376,
+      "sha256": "009804b2bd8c7b29e45a8db7b89554b0528a641e4c02f153be2d2fd9b626eb1c"
+    },
+    {
+      "path": "config/integration/spt02410/cryptographic-protection-policy.json",
+      "bytes": 1219,
+      "sha256": "27b3efc2585ad31a21c5e075e1644538ba6cdfdf061a1850017b34be2eba924b"
+    }
+  ]
+}

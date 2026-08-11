@@ -1,0 +1,132 @@
+{
+  "status": "CRYPTOGRAPHIC_PROTECTION_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "CRYPTO-KEY-INDIRECTION",
+      "name": "Cryptographic key indirection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Cryptographic keys are represented only through indirect references."
+    },
+    {
+      "control_id": "CRYPTO-ALGORITHM-POLICY",
+      "name": "Approved cryptographic algorithms",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Only approved cryptographic algorithms are accepted by policy."
+    },
+    {
+      "control_id": "CRYPTO-SENSITIVE-DATA",
+      "name": "Sensitive-data cryptographic protection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Sensitive data requires protection at rest and in transit."
+    },
+    {
+      "control_id": "CRYPTO-INTEGRITY",
+      "name": "SHA-256 integrity chain",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "SHA-256 chained integrity metadata is deterministic and verifiable."
+    },
+    {
+      "control_id": "CRYPTO-AUTHENTICITY",
+      "name": "HMAC authenticity validation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "HMAC-SHA-256 authenticity control verifies expected payload integrity."
+    },
+    {
+      "control_id": "CRYPTO-NO-INLINE-KEYS",
+      "name": "No inline private key material",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "No inline private-key material is permitted by the key profile."
+    },
+    {
+      "control_id": "CRYPTO-NO-SIDE-EFFECTS",
+      "name": "No operational key or data mutation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Gate does not read real keys, rotate keys, encrypt production data or open external connections."
+    },
+    {
+      "control_id": "CRYPTO-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Evidence stores classifications, references and fingerprints only."
+    }
+  ],
+  "key_profiles": {
+    "encryption": {
+      "valid": true,
+      "credential_reference_indirect": true,
+      "algorithm_allowed": true,
+      "purpose_allowed": true,
+      "inline_key_material": false,
+      "key_material_read": false,
+      "secret_values_exposed": false
+    },
+    "signing": {
+      "valid": true,
+      "credential_reference_indirect": true,
+      "algorithm_allowed": true,
+      "purpose_allowed": true,
+      "inline_key_material": false,
+      "key_material_read": false,
+      "secret_values_exposed": false
+    }
+  },
+  "storage_profiles": {
+    "sensitive": {
+      "valid": true,
+      "classification": "LEXICAL_RESTRICTED",
+      "sensitive": true,
+      "required_protection": "ENCRYPT_AT_REST_AND_IN_TRANSIT",
+      "plaintext_persistence_allowed": false,
+      "secret_values_exposed": false,
+      "encrypted_at_rest": true,
+      "encrypted_in_transit": true
+    },
+    "public": {
+      "valid": true,
+      "classification": "PUBLIC",
+      "sensitive": false,
+      "required_protection": "INTEGRITY_ONLY",
+      "plaintext_persistence_allowed": true,
+      "secret_values_exposed": false,
+      "encrypted_at_rest": false,
+      "encrypted_in_transit": true
+    }
+  },
+  "integrity_chain": [
+    {
+      "index": 1,
+      "previous_hash": "",
+      "sha256": "802e08807afb6c56c80db038a5384c3b53b16867afb3e2e4471114d83bbeee9b"
+    },
+    {
+      "index": 2,
+      "previous_hash": "802e08807afb6c56c80db038a5384c3b53b16867afb3e2e4471114d83bbeee9b",
+      "sha256": "e405f84b151de3e1678a81979cf1167e507a5a4fe40fac1d7609d28b91f715b4"
+    }
+  ],
+  "hmac_verified": true,
+  "discovered_crypto_data_surfaces": 1517,
+  "real_key_material_read": false,
+  "real_key_rotated": false,
+  "production_data_encrypted": false,
+  "production_data_decrypted": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

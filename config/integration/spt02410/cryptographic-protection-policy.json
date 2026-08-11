@@ -1,0 +1,47 @@
+{
+  "component": "SPT-024.10",
+  "layer": "1",
+  "version": "1.0.0",
+  "title": "Proteccion Criptografica, Gestion de Claves, Integridad y Proteccion de Datos Sensibles",
+  "blocking_controls": [
+    "CRYPTO-KEY-INDIRECTION",
+    "CRYPTO-ALGORITHM-POLICY",
+    "CRYPTO-SENSITIVE-DATA",
+    "CRYPTO-INTEGRITY",
+    "CRYPTO-AUTHENTICITY",
+    "CRYPTO-NO-INLINE-KEYS",
+    "CRYPTO-NO-SIDE-EFFECTS",
+    "CRYPTO-SECRET-SAFETY"
+  ],
+  "approved_algorithms": [
+    "AES-256-GCM",
+    "CHACHA20-POLY1305",
+    "ED25519",
+    "RSA-3072",
+    "SHA-256",
+    "HMAC-SHA-256"
+  ],
+  "key_management": {
+    "indirect_reference_only": true,
+    "inline_private_keys": false,
+    "real_key_rotation_by_gate": false
+  },
+  "sensitive_data": {
+    "encryption_at_rest_required": true,
+    "encryption_in_transit_required": true,
+    "plaintext_persistence_allowed": false
+  },
+  "integrity": {
+    "digest": "SHA-256",
+    "authenticity": "HMAC-SHA-256"
+  },
+  "safety": {
+    "read_real_key_material": false,
+    "rotate_real_keys": false,
+    "encrypt_production_data": false,
+    "decrypt_production_data": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}

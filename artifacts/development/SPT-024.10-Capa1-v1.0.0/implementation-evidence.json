@@ -1,0 +1,28 @@
+{
+    "component":  "SPT-024.10",
+    "layer":  "1",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T06:07:20.4877982Z",
+    "authoritative_baseline":  "f33ee6d1913d30632a98a4ab26dab44aad8f88c0",
+    "final_status":  "CRYPTOGRAPHIC_PROTECTION_GATE_PASS",
+    "gates":  {
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "cryptographic_protection":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "assessment":  "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-protection-assessment.json",
+                      "inventory":  "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-data-surface-inventory.json",
+                      "integrity_manifest":  "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-integrity-manifest.json"
+                  },
+    "real_key_material_read":  false,
+    "real_key_rotated":  false,
+    "production_data_encrypted":  false,
+    "production_data_decrypted":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}
