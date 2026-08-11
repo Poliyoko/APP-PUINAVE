@@ -1,0 +1,28 @@
+{
+    "format":  "SGODA-SPLIT-GZIP-ARCHIVE",
+    "version":  "1.0",
+    "source_path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+    "source_bytes":  450786084,
+    "source_sha256":  "924AAF294B9FCBC634778711116D6DCF449E7B512F41D1015EFB74BA007F99DC",
+    "compression":  "gzip",
+    "compressed_sha256":  "9AB5F2FD794D032CD242227B5DD26381F2FC07D18E8D219D153E271A68B49E24",
+    "part_max_bytes":  52428800,
+    "part_count":  1,
+    "parts":  [
+                  {
+                      "index":  1,
+                      "file":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json-archive/parts/institutional-inventory.json.gz.part001",
+                      "bytes":  1754463,
+                      "sha256":  "9AB5F2FD794D032CD242227B5DD26381F2FC07D18E8D219D153E271A68B49E24"
+                  }
+              ],
+    "reconstruction":  {
+                           "join_order":  "ascending part index",
+                           "decompress":  "gzip",
+                           "expected_source_sha256":  "924AAF294B9FCBC634778711116D6DCF449E7B512F41D1015EFB74BA007F99DC"
+                       },
+    "github_file_limit_mitigation":  true,
+    "original_file_preserved_locally":  true,
+    "reconstruction_verified":  true,
+    "secret_values_exposed":  false
+}

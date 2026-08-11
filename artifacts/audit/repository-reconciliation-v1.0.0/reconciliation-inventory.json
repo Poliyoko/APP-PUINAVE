@@ -1,0 +1,547 @@
+{
+    "component":  "Repository Institutional Reconciliation",
+    "version":  "1.0.0",
+    "status":  "READY_FOR_CONTROLLED_RECONCILIATION",
+    "generated_utc":  "2026-08-11T02:45:53.5857684Z",
+    "authoritative_baseline":  "28ca61560db884ae8803d346130c177924e99316",
+    "historical_outside_scope_items":  56,
+    "tracked_modified_items":  0,
+    "untracked_items":  56,
+    "exact_duplicates":  5,
+    "auto_publish_candidates":  18,
+    "preserved_no_publish_items":  33,
+    "blocked_sensitive_items":  0,
+    "false_positives_certified":  0,
+    "classifications":  [
+                            {
+                                "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.0-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "7F2198AFFAA601B37066B60755614B7B7CA014943B3B9B5800171D7196FC639B",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.1-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "F66A8C545813FD69E69FBA14ACE126A927EC491B3806DB3F5DAE7FDCEF70B432",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.2-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "8587417D4303C8B0FB9B1A38630E1DF913709843050DB6598BDFEA2E1848EAFA",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "Install-SPT023.3-Capa1-v1.0.0-OneFile-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "63487B1C0F02BB1B597B7C2DF36C0C22A8AFBCE2268BEC2D168366765C03F7B5",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Install-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "7B23BE05B269C4984C2301B130B077D7252C38AE0F119CFFB3007BB00D793BFF",
+                                "classification":  "EXACT_DUPLICATE",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Same SHA-256 already exists in tracked repository."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0233-Capa2-FINAL-PS51 (2).ps1",
+                                "git_status":  "??",
+                                "sha256":  "F9710FEFFB243BD803AC2D3590143BE7170B1D62D3D3F996F43EFF9C794933C6",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0234-Capa2-FINAL-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "FA75695ECA414746689D375E47C239754F5C8D56732F6B4C09A02D1BBB0A23E4",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0242-Capa1-FINAL-v1.0.0-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "1557AFAF878E6D76EBD14AE6C6635765F93E96EE9A7C94411AA40BE99E603799",
+                                "classification":  "SUPERSEDED_FAILED_MASTER_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Historical failed master has a certified replacement already tracked in Git; preserve locally, do not republish."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0242-R1-FINAL-v1.0.0-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "F888D0117378E6DBB2D839658E0574A69B4545C89B3C4741BB61A793D3C02F70",
+                                "classification":  "SUPERSEDED_FAILED_MASTER_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Historical failed master has a certified replacement already tracked in Git; preserve locally, do not republish."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.1-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "9251159E0DED96FF4A6F3AD32558712D97D3F8D29636D2E157554F45990CE25E",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.2-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "6BCA0E486A9C6E6740CE9FC7762AC76ABC2AC83C2382CCC9369538B2216747F4",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.3-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "5F91BAA79543A343D804B69315F192EEA1B482BBB84C16394FDC47009B678904",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.4-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "1DEFDD1ABDE205AFDC69937BA4207BF1C6A48D52D51A62D24A99AFF24FA716F4",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.5-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "ACBA8904702432CE86EE32C409165724603BB85E9141CF9F1A18905F3B94FBA9",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.6-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "79C15BF2A6B3F5EE82325DD9E94739CBBC62A5737B9B66E9849021346E93C7A7",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-Untracked-Reconciliation-v2.0.0-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "20DBF7E719A86A25484EA7791DC6936CB777C8A3C66ECE5D43BC66D778B29ADD",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-Untracked-Reconciliation-v2.0.1-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "1D5F75D370F18C86C8369C63484AFA5C6CA892202358B73B602757DC2CF01DFC",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "Invoke-SGODA-Untracked-Reconciliation-v2.0.2-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "DE6FE59C699C227C0B39A144D97F3A79BDA58B12F97EEB2E461D0DF134460AA6",
+                                "classification":  "EXACT_DUPLICATE",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Same SHA-256 already exists in tracked repository."
+                            },
+                            {
+                                "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.0-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "B2E72BED44127E24FC7E4644EDA15BE32BB7903F8A58FE16A6577FB04124BC93",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.1-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "CFAAB19960057E681D45953E1C2CAB20D5B3E5DB171AFD94ABA32D687F66F391",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.2-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "BC6000D71FD7AAE1BCAE417517BE1F1BD54FFFCC73BAA599FD7CF38E4858E522",
+                                "classification":  "EXACT_DUPLICATE",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Same SHA-256 already exists in tracked repository."
+                            },
+                            {
+                                "path":  "Publish-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "7C0B5AEBAC3E9747F2FE846CE3DD1CD208F866FBA74887D1F92AE53A69AA7260",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "TRANSFER-Invoke-SGODA-SPT0233-Capa2-FINAL-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "6515569ABE1E27AB7EE28D15134132CF0B6E2EA59791856B4851A00347AB2070",
+                                "classification":  "EXACT_DUPLICATE",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Same SHA-256 already exists in tracked repository."
+                            },
+                            {
+                                "path":  "Verify-SPT023.3-Capa1-FinalClosure-v1.0.0-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "1B5558488E7C7487E86E18CF18A6785069C1F20DF31E3ED9EC72533338A4C5BB",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "artifacts/audit/untracked-reconciliation-v2.0.1/prepublication-evidence.json",
+                                "git_status":  "??",
+                                "sha256":  "885EDA435D398AA0D9CE1C5D6B95D3E48EEEC2B0596905377A4A78CFC6BFEDF4",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-1.log",
+                                "git_status":  "??",
+                                "sha256":  "B2DC04FBECCB99876A1402A4B0A079066A4722FF0A5BC6BA3BC3772F65A35769",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-2.log",
+                                "git_status":  "??",
+                                "sha256":  "0B0BE1A4FB45BE3DEFB10DE9516A9B7BD18B24B60AF63CEB1CABFE12C2E12AAA",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+                                "git_status":  "??",
+                                "sha256":  "58ACD91EADB9B0127D4F0E7EF0B256C1D1015F1046DA268EBA46B0B23E109A1E",
+                                "classification":  "EXACT_DUPLICATE",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Same SHA-256 already exists in tracked repository."
+                            },
+                            {
+                                "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+                                "git_status":  "??",
+                                "sha256":  "C87047D0DDD88C6A16A9CD896E3CCDC8965D8B089D2B9198CFB5F9C87D1370DF",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/development/SPT-024.5-R1-v1.0.5/implementation-evidence.json",
+                                "git_status":  "??",
+                                "sha256":  "345F1F3BCEDDA3933B9A897A435726F5260D05CFE22831D311C95FFEB81D17CF",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "artifacts/development/SPT-024.5-R1-v1.0.6/implementation-evidence.json",
+                                "git_status":  "??",
+                                "sha256":  "9F0BF895B1369F3019F1857B1C0C194FFC08F7A0D7D2FD68F406C5A9233944FD",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+                                "git_status":  "??",
+                                "sha256":  "286795A4702AB8A0ADBA3A15B6F9EE0964EDD97FA6B29B998715FB0753206D0D",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Install-SPT021.2-v1.0.2-OneFile-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "A5680462BF857414F49FE9EAC773618E6248980A984A19D990006A5549AE5BEB",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.5-ASCII-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "87FDB612019706167B9A6E4711F7143F90E59EF5FAF874E78A63EB303AFC5A91",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-052448/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "0332E99732BD0E07C086BEDCE348E5EF054756BCB2D5108A43410CF21D4F15C8",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-143030/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "AE057B33CE8C341DD0DC2661E92533DB5FD5A9D37A434A273FEF391186939246",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-144107/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "8C90A385998C84707CBA7386FC9AE1D25268D7F3B26635FFF5024E9C550AE564",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-145852/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "901809972DB808EBF1EDD0B4FE0EA4129057FDFB8BC3757DE99F94FB4BC4EB61",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-151556/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "8CFE791E81093A599BEBEF9A53F6D92178A730B5B1BEF57C94E638591E48302E",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-153055/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "0820347618B4365ACD91CCB31FAE3790F24B049A005038CA31A577056233517B",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-050420/publication-manifest.json",
+                                "git_status":  "??",
+                                "sha256":  "BF0CAC344F8520E3B4915B051ED7B0780463F2E9A1056410299FFEBCFCDAD962",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-150508/publication-manifest.json",
+                                "git_status":  "??",
+                                "sha256":  "A88C5A4FE6D17944D7EAEC3A293A452E508A0525576C761505DF1C4A6AD02820",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                "git_status":  "??",
+                                "sha256":  "64633E47F65029850057E2D1D792D8215EA2A630F4E4B31F83F9B16F1CA322C5",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                                "git_status":  "??",
+                                "sha256":  "1E657C5757D4888625668F403FEE15A82908E9C757F4C2DE888CBD5D0EAB88E0",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.0.1-v1.0.6/publication-manifest.json",
+                                "git_status":  "??",
+                                "sha256":  "A88C5A4FE6D17944D7EAEC3A293A452E508A0525576C761505DF1C4A6AD02820",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                                "git_status":  "??",
+                                "sha256":  "1E657C5757D4888625668F403FEE15A82908E9C757F4C2DE888CBD5D0EAB88E0",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/manifest.json",
+                                "git_status":  "??",
+                                "sha256":  "49C302F5B554A425BB5471B39D85F3BB1B25B06B1A8EC0EBCC646E63E964C8A3",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                "git_status":  "??",
+                                "sha256":  "64633E47F65029850057E2D1D792D8215EA2A630F4E4B31F83F9B16F1CA322C5",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "0820347618B4365ACD91CCB31FAE3790F24B049A005038CA31A577056233517B",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.6-ASCII-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "5FB4ACB61005E4EDE2583A4B2FC256152262A31A2C37CF2F15F0F14CD7F3E458",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-154554/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "6CAE5E2FAA925696CABB7A3C20C156D05428EF6AE84667B188ABD78A852CA828",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                "git_status":  "??",
+                                "sha256":  "C9B236F1C3F176787DAE1DBCF03834E03B5BA5A2AAE5DDC12294D9CE4FC9D90E",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                "git_status":  "??",
+                                "sha256":  "C9B236F1C3F176787DAE1DBCF03834E03B5BA5A2AAE5DDC12294D9CE4FC9D90E",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+                                "git_status":  "??",
+                                "sha256":  "6CAE5E2FAA925696CABB7A3C20C156D05428EF6AE84667B188ABD78A852CA828",
+                                "classification":  "LOCAL_RESIDUE_PRESERVE_NO_PUBLISH",
+                                "auto_publish_candidate":  false,
+                                "reason":  "Backup/temp/transfer/certification residue retained locally but excluded from canonical publication."
+                            },
+                            {
+                                "path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+                                "git_status":  "??",
+                                "sha256":  "924AAF294B9FCBC634778711116D6DCF449E7B512F41D1015EFB74BA007F99DC",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            },
+                            {
+                                "path":  "tools/institutional/Invoke-SGODA-Untracked-Reconciliation-v2.0.1-PS51.ps1",
+                                "git_status":  "??",
+                                "sha256":  "1D5F75D370F18C86C8369C63484AFA5C6CA892202358B73B602757DC2CF01DFC",
+                                "classification":  "UNTRACKED_INSTITUTIONAL_CANDIDATE",
+                                "auto_publish_candidate":  true,
+                                "reason":  "Institutional path eligible for controlled reconciliation."
+                            }
+                        ],
+    "publish_candidates":  [
+                               "Install-SPT023.3-Capa1-v1.0.0-OneFile-PS51.ps1",
+                               "Invoke-SGODA-SPT0234-Capa2-FINAL-PS51.ps1",
+                               "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.1-PS51.ps1",
+                               "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.2-PS51.ps1",
+                               "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.3-PS51.ps1",
+                               "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.4-PS51.ps1",
+                               "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.5-PS51.ps1",
+                               "Invoke-SGODA-SPT0245-R1-SECURITY-CERTIFY-v1.0.6-PS51.ps1",
+                               "Invoke-SGODA-Untracked-Reconciliation-v2.0.0-PS51.ps1",
+                               "Invoke-SGODA-Untracked-Reconciliation-v2.0.1-PS51.ps1",
+                               "Publish-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1",
+                               "Verify-SPT023.3-Capa1-FinalClosure-v1.0.0-PS51.ps1",
+                               "artifacts/audit/untracked-reconciliation-v2.0.1/prepublication-evidence.json",
+                               "artifacts/development/SPT-024.5-R1-v1.0.5/implementation-evidence.json",
+                               "artifacts/development/SPT-024.5-R1-v1.0.6/implementation-evidence.json",
+                               "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+                               "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+                               "tools/institutional/Invoke-SGODA-Untracked-Reconciliation-v2.0.1-PS51.ps1"
+                           ],
+    "duplicate_no_publish":  [
+                                 "Install-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1",
+                                 "Invoke-SGODA-Untracked-Reconciliation-v2.0.2-PS51.ps1",
+                                 "Prepare-SPT023-Authoritative-Continuation-v1.0.2-PS51.ps1",
+                                 "TRANSFER-Invoke-SGODA-SPT0233-Capa2-FINAL-PS51.ps1",
+                                 "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md"
+                             ],
+    "preserved_no_publish":  [
+                                 "Certify-SPT023.3-Capa1-GreenBanner-v1.0.0-PS51.ps1",
+                                 "Certify-SPT023.3-Capa1-GreenBanner-v1.0.1-PS51.ps1",
+                                 "Certify-SPT023.3-Capa1-GreenBanner-v1.0.2-PS51.ps1",
+                                 "Invoke-SGODA-SPT0233-Capa2-FINAL-PS51 (2).ps1",
+                                 "Invoke-SGODA-SPT0242-Capa1-FINAL-v1.0.0-PS51.ps1",
+                                 "Invoke-SGODA-SPT0242-R1-FINAL-v1.0.0-PS51.ps1",
+                                 "Prepare-SPT023-Authoritative-Continuation-v1.0.0-PS51.ps1",
+                                 "Prepare-SPT023-Authoritative-Continuation-v1.0.1-PS51.ps1",
+                                 "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-1.log",
+                                 "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-2.log",
+                                 "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Install-SPT021.2-v1.0.2-OneFile-PS51.ps1",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.5-ASCII-PS51.ps1",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-052448/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-143030/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-144107/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-145852/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-151556/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-153055/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-050420/publication-manifest.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-150508/publication-manifest.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.0.1-v1.0.6/publication-manifest.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/manifest.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.6-ASCII-PS51.ps1",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-154554/canonical-components.json",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                                 "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/canonical-components.json"
+                             ],
+    "secret_values_exposed":  false,
+    "large_file_archival_representation":  {
+                                               "source_path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+                                               "source_sha256":  "286795A4702AB8A0ADBA3A15B6F9EE0964EDD97FA6B29B998715FB0753206D0D",
+                                               "manifest":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory-archive/manifest.json",
+                                               "part_count":  1,
+                                               "reconstructable":  true
+                                           },
+    "oversized_artifact_archives":  [
+                                        {
+                                            "source_path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+                                            "source_bytes":  450786084,
+                                            "source_sha256":  "924AAF294B9FCBC634778711116D6DCF449E7B512F41D1015EFB74BA007F99DC",
+                                            "archive_root":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json-archive",
+                                            "manifest":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json-archive/manifest.json",
+                                            "part_count":  1,
+                                            "compressed_sha256":  "9AB5F2FD794D032CD242227B5DD26381F2FC07D18E8D219D153E271A68B49E24",
+                                            "reconstruction_verified":  true
+                                        }
+                                    ]
+}

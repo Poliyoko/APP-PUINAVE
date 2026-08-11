@@ -1,0 +1,30 @@
+{
+    "component":  "SPT-024.5-R1",
+    "version":  "1.0.5",
+    "generated_utc":  "2026-08-10T06:35:18.4912189Z",
+    "authoritative_baseline":  "54400774e87d6340e5f114facf2d80ffa5d9ebdc",
+    "recovery":  {
+                     "rebuild":  false,
+                     "source_state":  "failed-run outputs reused",
+                     "v102_failure":  "PowerShell command-wrapper recursion / call-depth overflow",
+                     "v103_fix":  "direct git.exe invocation through non-colliding Invoke-Native wrapper",
+                     "v104_fix":  "pre-existing outside-scope worktree snapshot with status and SHA-256 preservation",
+                     "v105_fix":  "align unauthenticated webhook negative regression with active-runtime security semantics; production gate unchanged",
+                     "preexisting_outside_scope_items":  52,
+                     "test_contract":  "production workflow fixture scope + 8 blocking controls"
+                 },
+    "gates":  {
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "production_automation_security":  "PASS",
+                  "blocking_controls":  8,
+                  "n8n_started_by_gate":  false,
+                  "workflow_executed_by_gate":  false,
+                  "webhook_called_by_gate":  false,
+                  "secret_values_exposed":  false,
+                  "closed_components_preserved":  true,
+                  "preexisting_worktree_preserved":  true
+              },
+    "publication":  "PENDING_CONTROLLED_COMMIT"
+}

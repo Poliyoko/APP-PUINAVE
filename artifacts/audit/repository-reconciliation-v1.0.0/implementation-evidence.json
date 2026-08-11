@@ -1,0 +1,51 @@
+{
+    "component":  "Repository Institutional Reconciliation",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T02:46:52.4800570Z",
+    "authoritative_baseline":  "28ca61560db884ae8803d346130c177924e99316",
+    "historical_items":  56,
+    "candidates_published":  18,
+    "duplicates_not_republished":  5,
+    "local_residues_preserved":  33,
+    "gates":  {
+                  "remote_baseline":  "PASS",
+                  "sha256_inventory":  "PASS",
+                  "duplicate_detection":  "PASS",
+                  "sensitive_content":  "PASS",
+                  "false_positives_certified":  0,
+                  "powershell_syntax":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "historical_content_preserved":  "PASS"
+              },
+    "publication":  "PENDING",
+    "large_file_recovery":  {
+                                "source_path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+                                "source_bytes":  450816104,
+                                "source_sha256":  "286795A4702AB8A0ADBA3A15B6F9EE0964EDD97FA6B29B998715FB0753206D0D",
+                                "repository_representation":  "SPLIT_GZIP_ARCHIVE",
+                                "manifest":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory-archive/manifest.json",
+                                "part_count":  1,
+                                "github_file_limit_resolved":  true,
+                                "original_preserved_locally":  true,
+                                "reconstruction_verified":  true
+                            },
+    "large_file_recovery_v1_0_6":  {
+                                       "recovered_files":  [
+                                                               {
+                                                                   "source_path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+                                                                   "source_bytes":  450786084,
+                                                                   "source_sha256":  "924AAF294B9FCBC634778711116D6DCF449E7B512F41D1015EFB74BA007F99DC",
+                                                                   "archive_root":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json-archive",
+                                                                   "manifest":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json-archive/manifest.json",
+                                                                   "part_count":  1,
+                                                                   "compressed_sha256":  "9AB5F2FD794D032CD242227B5DD26381F2FC07D18E8D219D153E271A68B49E24",
+                                                                   "reconstruction_verified":  true
+                                                               }
+                                                           ],
+                                       "github_file_limit_resolved":  true,
+                                       "all_originals_preserved_locally":  true,
+                                       "all_reconstructions_verified":  true,
+                                       "secret_values_exposed":  false
+                                   }
+}
