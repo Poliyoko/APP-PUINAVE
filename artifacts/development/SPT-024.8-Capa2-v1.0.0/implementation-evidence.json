@@ -1,0 +1,28 @@
+{
+    "component":  "SPT-024.8",
+    "layer":  "2",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T04:37:19.5333220Z",
+    "authoritative_baseline":  "c66860f5fe6460d7600ae3c4c137c0412d0232d8",
+    "final_status":  "INCIDENT_RESPONSE_GATE_PASS",
+    "gates":  {
+                  "capa1_security_monitoring":  "PASS",
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "incident_response":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "assessment":  "artifacts/development/SPT-024.8-Capa2-v1.0.0/event-correlation-assessment.json",
+                      "correlation_baseline":  "artifacts/development/SPT-024.8-Capa2-v1.0.0/correlation-baseline.json",
+                      "incident_response_baseline":  "artifacts/development/SPT-024.8-Capa2-v1.0.0/incident-response-baseline.json"
+                  },
+    "alert_sent":  false,
+    "incident_action_executed":  false,
+    "webhook_called":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

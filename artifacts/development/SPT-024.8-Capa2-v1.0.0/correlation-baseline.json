@@ -1,0 +1,35 @@
+{
+  "correlations": [
+    {
+      "correlation_id": "COR-A155F4CCA57472D15D50243E",
+      "category": "AUDIT",
+      "source": "repository",
+      "severity": "LOW",
+      "event_count": 1,
+      "fingerprint": "96234CBCE4DF1FF666C68CD1",
+      "secret_values_exposed": false
+    },
+    {
+      "correlation_id": "COR-DA9DEBC0241E3B01D20528D2",
+      "category": "AUTH",
+      "source": "api",
+      "severity": "HIGH",
+      "event_count": 2,
+      "fingerprint": "6B26BAF8BB515A05267248E9",
+      "secret_values_exposed": false
+    }
+  ],
+  "integrity_chain": [
+    {
+      "index": 1,
+      "previous_hash": "",
+      "sha256": "0d3951233553852b372c904344691c74e52731642e2efb53fd4c249939cda5ef"
+    },
+    {
+      "index": 2,
+      "previous_hash": "0d3951233553852b372c904344691c74e52731642e2efb53fd4c249939cda5ef",
+      "sha256": "f051bfb861cc59aa025a75610fb66b22e5349c5e162882b356581a166cd7ec3d"
+    }
+  ],
+  "secret_values_exposed": false
+}

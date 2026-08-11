@@ -1,0 +1,35 @@
+{
+  "component": "SPT-024.8",
+  "layer": "2",
+  "version": "1.0.0",
+  "title": "CorrelaciÃ³n de Eventos, GestiÃ³n de Incidentes, Alertamiento y Respuesta Institucional",
+  "blocking_controls": [
+    "IR-CORRELATION",
+    "IR-INCIDENT",
+    "IR-ALERTING",
+    "IR-RESPONSE",
+    "IR-INTEGRITY",
+    "IR-SECRET-SAFETY"
+  ],
+  "correlation": {
+    "mode": "DETERMINISTIC_FILE_BASED",
+    "fingerprint_algorithm": "SHA-256",
+    "secret_values": false
+  },
+  "alerting": {
+    "delivery_mode": "EVIDENCE_ONLY",
+    "send_by_gate": false
+  },
+  "response": {
+    "execution_mode": "PLAN_ONLY",
+    "execute_by_gate": false
+  },
+  "safety": {
+    "start_services": false,
+    "open_external_connections": false,
+    "call_webhooks": false,
+    "execute_incident_actions": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}

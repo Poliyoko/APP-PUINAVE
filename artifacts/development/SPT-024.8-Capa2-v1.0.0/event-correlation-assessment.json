@@ -1,0 +1,182 @@
+{
+  "status": "INCIDENT_RESPONSE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "IR-CORRELATION",
+      "name": "Deterministic event correlation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Event correlation engine produced deterministic grouped records."
+    },
+    {
+      "control_id": "IR-INCIDENT",
+      "name": "Incident generation and lifecycle",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Incident records created from correlations."
+    },
+    {
+      "control_id": "IR-ALERTING",
+      "name": "Safe alerting policy",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Alerts are generated as evidence only; no delivery performed by gate."
+    },
+    {
+      "control_id": "IR-RESPONSE",
+      "name": "Controlled response planning",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Response plans validated without execution."
+    },
+    {
+      "control_id": "IR-INTEGRITY",
+      "name": "Correlation and incident evidence integrity",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "SHA-256 chain covers correlation, incident, alert and response records."
+    },
+    {
+      "control_id": "IR-SECRET-SAFETY",
+      "name": "No secret values in incident evidence",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Incident evidence uses metadata and fingerprints only."
+    }
+  ],
+  "correlations": [
+    {
+      "correlation_id": "COR-A155F4CCA57472D15D50243E",
+      "category": "AUDIT",
+      "source": "repository",
+      "severity": "LOW",
+      "event_count": 1,
+      "fingerprint": "96234CBCE4DF1FF666C68CD1",
+      "secret_values_exposed": false
+    },
+    {
+      "correlation_id": "COR-DA9DEBC0241E3B01D20528D2",
+      "category": "AUTH",
+      "source": "api",
+      "severity": "HIGH",
+      "event_count": 2,
+      "fingerprint": "6B26BAF8BB515A05267248E9",
+      "secret_values_exposed": false
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "INC-A155F4CCA57472D15D50243E",
+      "correlation_id": "COR-A155F4CCA57472D15D50243E",
+      "severity": "LOW",
+      "status": "DETECTED",
+      "event_count": 1,
+      "fingerprint": "96234CBCE4DF1FF666C68CD1",
+      "secret_values_exposed": false
+    },
+    {
+      "incident_id": "INC-DA9DEBC0241E3B01D20528D2",
+      "correlation_id": "COR-DA9DEBC0241E3B01D20528D2",
+      "severity": "HIGH",
+      "status": "DETECTED",
+      "event_count": 2,
+      "fingerprint": "6B26BAF8BB515A05267248E9",
+      "secret_values_exposed": false
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "ALT-A155F4CCA57472D15D50243E",
+      "incident_id": "INC-A155F4CCA57472D15D50243E",
+      "severity": "LOW",
+      "should_alert": false,
+      "delivery_mode": "EVIDENCE_ONLY",
+      "sent": false,
+      "secret_values_exposed": false
+    },
+    {
+      "alert_id": "ALT-DA9DEBC0241E3B01D20528D2",
+      "incident_id": "INC-DA9DEBC0241E3B01D20528D2",
+      "severity": "HIGH",
+      "should_alert": true,
+      "delivery_mode": "EVIDENCE_ONLY",
+      "sent": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "response_plans": [
+    {
+      "incident_id": "INC-A155F4CCA57472D15D50243E",
+      "planned_actions": [
+        "REVIEW"
+      ],
+      "execution_mode": "PLAN_ONLY",
+      "executed": false,
+      "secret_values_exposed": false
+    },
+    {
+      "incident_id": "INC-DA9DEBC0241E3B01D20528D2",
+      "planned_actions": [
+        "REVIEW",
+        "ESCALATE"
+      ],
+      "execution_mode": "PLAN_ONLY",
+      "executed": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "integrity_chain": [
+    {
+      "index": 1,
+      "previous_hash": "",
+      "sha256": "0d3951233553852b372c904344691c74e52731642e2efb53fd4c249939cda5ef"
+    },
+    {
+      "index": 2,
+      "previous_hash": "0d3951233553852b372c904344691c74e52731642e2efb53fd4c249939cda5ef",
+      "sha256": "f051bfb861cc59aa025a75610fb66b22e5349c5e162882b356581a166cd7ec3d"
+    },
+    {
+      "index": 3,
+      "previous_hash": "f051bfb861cc59aa025a75610fb66b22e5349c5e162882b356581a166cd7ec3d",
+      "sha256": "5e7bf4b4de0b3898db86e0cc13142a198f0627031046c2fae5d2a3532d1a9321"
+    },
+    {
+      "index": 4,
+      "previous_hash": "5e7bf4b4de0b3898db86e0cc13142a198f0627031046c2fae5d2a3532d1a9321",
+      "sha256": "09f1a521742c0d31e02c16363f4ff2e3bc9b79b5b9893ebdf0280dd551f475ee"
+    },
+    {
+      "index": 5,
+      "previous_hash": "09f1a521742c0d31e02c16363f4ff2e3bc9b79b5b9893ebdf0280dd551f475ee",
+      "sha256": "7ab8f45d66f1e84fab0f7ab18483e941ff61dd5123abecc561bf8f794612d255"
+    },
+    {
+      "index": 6,
+      "previous_hash": "7ab8f45d66f1e84fab0f7ab18483e941ff61dd5123abecc561bf8f794612d255",
+      "sha256": "26630fc3d36d993b370a75cb77a6d090c60f4e8aac98ee5bc363b66a07cec8bf"
+    },
+    {
+      "index": 7,
+      "previous_hash": "26630fc3d36d993b370a75cb77a6d090c60f4e8aac98ee5bc363b66a07cec8bf",
+      "sha256": "c1beb8ee631edbe250273908c216258d24c9a9d5f592b5c8aafc5efbb0b33f5f"
+    },
+    {
+      "index": 8,
+      "previous_hash": "c1beb8ee631edbe250273908c216258d24c9a9d5f592b5c8aafc5efbb0b33f5f",
+      "sha256": "ef7e7c666855946422b0f0dfa0c23c6857a234bae2e36893d994db0d3c8ea072"
+    }
+  ],
+  "alert_sent": false,
+  "incident_action_executed": false,
+  "webhook_called": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}
