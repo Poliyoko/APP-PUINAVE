@@ -1,0 +1,22 @@
+{
+  "classification": {
+    "valid": true,
+    "classification": "RESTRICTED",
+    "data_type": "LEXICAL_RESTRICTED",
+    "sensitive": true,
+    "requires_access_control": true,
+    "requires_retention_policy": true,
+    "secret_values_exposed": false
+  },
+  "purpose_limitation": {
+    "valid": true,
+    "purpose": "PRESERVATION",
+    "purpose_declared": true,
+    "access_limited": true,
+    "disclosure_limited": true,
+    "external_disclosure_executed": false,
+    "secret_values_exposed": false
+  },
+  "production_data_modified": false,
+  "secret_values_exposed": false
+}

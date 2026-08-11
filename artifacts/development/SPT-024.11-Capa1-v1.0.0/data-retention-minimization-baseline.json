@@ -1,0 +1,32 @@
+{
+  "minimization": {
+    "valid": true,
+    "retained_fields": [
+      "word",
+      "language",
+      "audio_ref",
+      "image_ref"
+    ],
+    "removed_fields": [
+      "debug_note"
+    ],
+    "field_count_before": 5,
+    "field_count_after": 4,
+    "minimized": true,
+    "data_modified_in_production": false,
+    "secret_values_exposed": false
+  },
+  "retention": {
+    "valid": true,
+    "retention_days": 365,
+    "legal_hold": false,
+    "expires_at": "2027-01-01T00:00:00+00:00",
+    "expired": false,
+    "decision": "RETAIN",
+    "disposal_executed": false,
+    "data_modified_in_production": false,
+    "secret_values_exposed": false
+  },
+  "production_data_deleted": false,
+  "secret_values_exposed": false
+}

@@ -1,0 +1,31 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 5,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-classification-baseline.json",
+      "bytes": 600,
+      "sha256": "876bcf8f0d99faf80cf49ae4eb8fce0fdc9ff80020571e7adb00665a58f3c5bf"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-privacy-governance-assessment.json",
+      "bytes": 3593,
+      "sha256": "b5fb8ddbd715f33645a1f3a1b71265e7c6f4d2fd7fcaa47925a5abf3f0cbf1ac"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-privacy-surface-inventory.json",
+      "bytes": 306456,
+      "sha256": "b27baa6068743ee8a4b89667cbff460b914c548533c612551bdfe0da868b2da7"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-retention-minimization-baseline.json",
+      "bytes": 754,
+      "sha256": "25f8af31c76db1ebe00b584a8e774bc5e30927fd0d094ece48efb6d9f353322a"
+    },
+    {
+      "path": "config/integration/spt02411/data-privacy-governance-policy.json",
+      "bytes": 1194,
+      "sha256": "258199d7409111486302bee1531dede955142d8ac5a2bd0ee5cedf99638bb1a3"
+    }
+  ]
+}

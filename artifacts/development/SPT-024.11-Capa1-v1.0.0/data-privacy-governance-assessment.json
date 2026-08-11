@@ -1,0 +1,122 @@
+{
+  "status": "DATA_PRIVACY_GOVERNANCE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "DATA-CLASSIFICATION",
+      "name": "Institutional data classification",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Sensitive information is explicitly classified."
+    },
+    {
+      "control_id": "DATA-MINIMIZATION",
+      "name": "Data minimization",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Only fields required for the declared purpose are retained in the model."
+    },
+    {
+      "control_id": "DATA-RETENTION",
+      "name": "Retention governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Retention is time-bound and disposal remains review-gated."
+    },
+    {
+      "control_id": "DATA-PURPOSE-LIMITATION",
+      "name": "Purpose limitation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Processing purpose is declared, allowed and access/disclosure constrained."
+    },
+    {
+      "control_id": "DATA-SENSITIVE-ACCESS",
+      "name": "Sensitive data access control requirement",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Sensitive classifications require controlled access."
+    },
+    {
+      "control_id": "DATA-NO-AUTO-DISPOSAL",
+      "name": "No automatic destructive disposal",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Gate never deletes production information."
+    },
+    {
+      "control_id": "DATA-NO-SIDE-EFFECTS",
+      "name": "No production data mutation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment is governance-only and does not alter production data."
+    },
+    {
+      "control_id": "DATA-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Evidence stores policy metadata only."
+    }
+  ],
+  "classification": {
+    "valid": true,
+    "classification": "RESTRICTED",
+    "data_type": "LEXICAL_RESTRICTED",
+    "sensitive": true,
+    "requires_access_control": true,
+    "requires_retention_policy": true,
+    "secret_values_exposed": false
+  },
+  "minimization": {
+    "valid": true,
+    "retained_fields": [
+      "word",
+      "language",
+      "audio_ref",
+      "image_ref"
+    ],
+    "removed_fields": [
+      "debug_note"
+    ],
+    "field_count_before": 5,
+    "field_count_after": 4,
+    "minimized": true,
+    "data_modified_in_production": false,
+    "secret_values_exposed": false
+  },
+  "retention": {
+    "valid": true,
+    "retention_days": 365,
+    "legal_hold": false,
+    "expires_at": "2027-01-01T00:00:00+00:00",
+    "expired": false,
+    "decision": "RETAIN",
+    "disposal_executed": false,
+    "data_modified_in_production": false,
+    "secret_values_exposed": false
+  },
+  "purpose_limitation": {
+    "valid": true,
+    "purpose": "PRESERVATION",
+    "purpose_declared": true,
+    "access_limited": true,
+    "disclosure_limited": true,
+    "external_disclosure_executed": false,
+    "secret_values_exposed": false
+  },
+  "discovered_data_privacy_surfaces": 4067,
+  "production_data_modified": false,
+  "production_data_deleted": false,
+  "external_disclosure_executed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

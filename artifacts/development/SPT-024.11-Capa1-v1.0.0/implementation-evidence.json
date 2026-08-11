@@ -1,0 +1,29 @@
+{
+    "component":  "SPT-024.11",
+    "layer":  "1",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T06:45:07.2612296Z",
+    "authoritative_baseline":  "80a2def5a74a36d7044a863db65c04d5cec5af66",
+    "final_status":  "DATA_PRIVACY_GOVERNANCE_GATE_PASS",
+    "gates":  {
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "data_privacy_governance":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "assessment":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-privacy-governance-assessment.json",
+                      "inventory":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-privacy-surface-inventory.json",
+                      "classification":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-classification-baseline.json",
+                      "retention_minimization":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-retention-minimization-baseline.json",
+                      "integrity_manifest":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-privacy-integrity-manifest.json"
+                  },
+    "production_data_modified":  false,
+    "production_data_deleted":  false,
+    "external_disclosure_executed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

@@ -1,0 +1,45 @@
+{
+  "component": "SPT-024.11",
+  "layer": "1",
+  "version": "1.0.0",
+  "title": "Proteccion de Datos, Privacidad, Clasificacion, Minimizacion, Retencion y Gobierno de Informacion Sensible",
+  "blocking_controls": [
+    "DATA-CLASSIFICATION",
+    "DATA-MINIMIZATION",
+    "DATA-RETENTION",
+    "DATA-PURPOSE-LIMITATION",
+    "DATA-SENSITIVE-ACCESS",
+    "DATA-NO-AUTO-DISPOSAL",
+    "DATA-NO-SIDE-EFFECTS",
+    "DATA-SECRET-SAFETY"
+  ],
+  "classification_levels": [
+    "PUBLIC",
+    "INTERNAL",
+    "CONFIDENTIAL",
+    "RESTRICTED"
+  ],
+  "minimization": {
+    "required_fields_only": true,
+    "production_data_mutation_by_gate": false
+  },
+  "retention": {
+    "policy_required": true,
+    "legal_hold_supported": true,
+    "automatic_destructive_disposal": false,
+    "expired_state": "DISPOSE_REVIEW"
+  },
+  "privacy": {
+    "purpose_limitation_required": true,
+    "access_limitation_required": true,
+    "disclosure_limitation_required": true
+  },
+  "safety": {
+    "modify_production_data": false,
+    "delete_production_data": false,
+    "external_disclosure": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}
