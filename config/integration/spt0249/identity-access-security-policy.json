@@ -1,0 +1,72 @@
+{
+  "component": "SPT-024.9",
+  "layer": "1",
+  "version": "1.0.0",
+  "title": "Identidades, Autenticacion, Autorizacion, RBAC y Minimo Privilegio",
+  "default_decision": "DENY",
+  "blocking_controls": [
+    "IAM-DENY-DEFAULT",
+    "IAM-RBAC",
+    "IAM-LEAST-PRIVILEGE",
+    "IAM-SEPARATION-DUTIES",
+    "IAM-SERVICE-IDENTITY",
+    "IAM-AUTHN",
+    "IAM-SECRET-INDIRECTION"
+  ],
+  "roles": {
+    "LEXICAL_READER": [
+      "lexical:read",
+      "catalog:read"
+    ],
+    "LEXICAL_EDITOR": [
+      "lexical:read",
+      "lexical:create",
+      "lexical:update",
+      "catalog:read"
+    ],
+    "AUDITOR": [
+      "audit:read",
+      "evidence:read",
+      "security:assessment:read"
+    ],
+    "PUBLISHER": [
+      "publication:prepare",
+      "publication:publish",
+      "release:read"
+    ],
+    "SECURITY_OPERATOR": [
+      "security:assessment:read",
+      "incident:read",
+      "incident:triage",
+      "incident:escalate"
+    ],
+    "SERVICE_WORKFLOW": [
+      "workflow:execute",
+      "workflow:read"
+    ]
+  },
+  "authentication": {
+    "human_factor_policy": [
+      "MFA",
+      "PASSKEY",
+      "OIDC",
+      "PASSWORD"
+    ],
+    "service_factor_policy": [
+      "WORKLOAD_IDENTITY",
+      "OIDC",
+      "SERVICE_TOKEN"
+    ],
+    "credential_reference_only": true
+  },
+  "safety": {
+    "change_passwords": false,
+    "rotate_tokens": false,
+    "change_os_permissions": false,
+    "change_database_roles": false,
+    "change_github_permissions": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}

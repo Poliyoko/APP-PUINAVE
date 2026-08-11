@@ -1,0 +1,29 @@
+{
+    "component":  "SPT-024.9",
+    "layer":  "1",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T05:10:08.9652591Z",
+    "authoritative_baseline":  "960bbe9b74b7e075a1d09b470853da2efb11c734",
+    "final_status":  "IDENTITY_ACCESS_GATE_PASS",
+    "gates":  {
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "identity_access":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "assessment":  "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-assessment.json",
+                      "surface_inventory":  "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-surface-inventory.json",
+                      "integrity_manifest":  "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-integrity-manifest.json"
+                  },
+    "password_changed":  false,
+    "token_rotated":  false,
+    "os_permission_changed":  false,
+    "database_role_changed":  false,
+    "github_permission_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

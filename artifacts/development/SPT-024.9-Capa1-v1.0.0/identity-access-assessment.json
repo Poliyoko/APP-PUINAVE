@@ -1,0 +1,177 @@
+{
+  "status": "IDENTITY_ACCESS_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "IAM-DENY-DEFAULT",
+      "name": "Deny by default",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Unauthorized and unknown-role access is denied."
+    },
+    {
+      "control_id": "IAM-RBAC",
+      "name": "Role-based access control",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Authorized role/action combinations are explicitly allowed."
+    },
+    {
+      "control_id": "IAM-LEAST-PRIVILEGE",
+      "name": "Least privilege",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Role catalog contains no wildcard permissions and passes least-privilege rules."
+    },
+    {
+      "control_id": "IAM-SEPARATION-DUTIES",
+      "name": "Separation of duties",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Publishing and security escalation duties are separated."
+    },
+    {
+      "control_id": "IAM-SERVICE-IDENTITY",
+      "name": "Service identity confinement",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Service identities are confined to service-specific roles."
+    },
+    {
+      "control_id": "IAM-AUTHN",
+      "name": "Authentication profile requirements",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Human and service authentication profiles satisfy factor and indirection requirements."
+    },
+    {
+      "control_id": "IAM-SECRET-INDIRECTION",
+      "name": "Credential secret indirection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Credential references are indirect; raw secret values are not persisted."
+    }
+  ],
+  "least_privilege": {
+    "wildcard_permissions": [],
+    "empty_roles": [],
+    "high_risk_roles": {
+      "PUBLISHER": [
+        "publication:publish"
+      ],
+      "SECURITY_OPERATOR": [
+        "incident:escalate"
+      ],
+      "SERVICE_WORKFLOW": [
+        "workflow:execute"
+      ]
+    },
+    "separation_of_duties": true,
+    "least_privilege_pass": true
+  },
+  "authentication": {
+    "human": {
+      "valid": true,
+      "identity_type": "HUMAN",
+      "enabled": true,
+      "credential_reference_indirect": true,
+      "factor_policy": true,
+      "secret_values_exposed": false
+    },
+    "service": {
+      "valid": true,
+      "identity_type": "SERVICE",
+      "enabled": true,
+      "credential_reference_indirect": true,
+      "factor_policy": true,
+      "secret_values_exposed": false
+    }
+  },
+  "decisions": {
+    "reader_read": {
+      "allowed": true,
+      "reason": "RBAC_ALLOW",
+      "identity_id": "USR-READER",
+      "resource": "lexical",
+      "action": "read"
+    },
+    "reader_publish": {
+      "allowed": false,
+      "reason": "DENY_BY_DEFAULT",
+      "identity_id": "USR-READER",
+      "resource": "publication",
+      "action": "publish"
+    },
+    "editor_update": {
+      "allowed": true,
+      "reason": "RBAC_ALLOW",
+      "identity_id": "USR-EDITOR",
+      "resource": "lexical",
+      "action": "update"
+    },
+    "publisher_publish": {
+      "allowed": true,
+      "reason": "RBAC_ALLOW",
+      "identity_id": "USR-PUBLISHER",
+      "resource": "publication",
+      "action": "publish"
+    },
+    "publisher_incident": {
+      "allowed": false,
+      "reason": "DENY_BY_DEFAULT",
+      "identity_id": "USR-PUBLISHER",
+      "resource": "incident",
+      "action": "escalate"
+    },
+    "security_incident": {
+      "allowed": true,
+      "reason": "RBAC_ALLOW",
+      "identity_id": "USR-SECURITY",
+      "resource": "incident",
+      "action": "escalate"
+    },
+    "security_publish": {
+      "allowed": false,
+      "reason": "DENY_BY_DEFAULT",
+      "identity_id": "USR-SECURITY",
+      "resource": "publication",
+      "action": "publish"
+    },
+    "service_execute": {
+      "allowed": true,
+      "reason": "RBAC_ALLOW",
+      "identity_id": "SVC-WORKFLOW",
+      "resource": "workflow",
+      "action": "execute"
+    },
+    "service_publish": {
+      "allowed": false,
+      "reason": "DENY_BY_DEFAULT",
+      "identity_id": "SVC-WORKFLOW",
+      "resource": "publication",
+      "action": "publish"
+    },
+    "unknown_read": {
+      "allowed": false,
+      "reason": "UNKNOWN_ROLE",
+      "identity_id": "USR-UNKNOWN",
+      "resource": "lexical",
+      "action": "read"
+    }
+  },
+  "discovered_identity_access_surfaces": 1066,
+  "password_changed": false,
+  "token_rotated": false,
+  "os_permission_changed": false,
+  "database_role_changed": false,
+  "github_permission_changed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

@@ -1,0 +1,21 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 3,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-assessment.json",
+      "bytes": 4961,
+      "sha256": "c998d6d458fcb0158ae3e1601865cb898ba72609bc7f55de27dbf20b1a513cb3"
+    },
+    {
+      "path": "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-surface-inventory.json",
+      "bytes": 58477,
+      "sha256": "b8b2cdb0e40d01d4eaf1b0be73e82487a1d6d23eabfe3888ebe3d8b8558dcfea"
+    },
+    {
+      "path": "config/integration/spt0249/identity-access-security-policy.json",
+      "bytes": 1586,
+      "sha256": "320cd5002573365004b34bf8511fd35bcf98c0afc30d51ff2a8a024b2d9b5397"
+    }
+  ]
+}
