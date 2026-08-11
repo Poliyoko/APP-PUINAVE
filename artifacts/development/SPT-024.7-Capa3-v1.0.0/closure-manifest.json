@@ -1,0 +1,58 @@
+{
+  "component": "SPT-024.7",
+  "layer": "3",
+  "version": "1.0.0",
+  "status": "INSTITUTIONALLY_CLOSED",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "SC3-CAPA2-PASS",
+      "name": "SPT-024.7 Capa 2 certified PASS",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 assessment is PASS."
+    },
+    {
+      "control_id": "SC3-SBOM-INTEGRITY",
+      "name": "SBOM integrity",
+      "passed": true,
+      "blocking": true,
+      "detail": "SBOM structure validated."
+    },
+    {
+      "control_id": "SC3-EVIDENCE-INTEGRITY",
+      "name": "Evidence SHA-256 ledger",
+      "passed": true,
+      "blocking": true,
+      "detail": "Evidence ledger covers all required closure inputs."
+    },
+    {
+      "control_id": "SC3-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 certifies no secret values exposed."
+    },
+    {
+      "control_id": "SC3-PUBLICATION-SAFETY",
+      "name": "No workflow/package/release execution by gate",
+      "passed": true,
+      "blocking": true,
+      "detail": "Closure uses static governance evidence only."
+    },
+    {
+      "control_id": "SC3-CLOSED-COMPONENT-PRESERVATION",
+      "name": "Closed component preservation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Runtime SHA-256 preservation gate enforced by PowerShell master."
+    }
+  ],
+  "layer2_status": "SUPPLY_CHAIN_LAYER2_GATE_PASS",
+  "sbom_components": 16,
+  "layer2_integrity_records": 2,
+  "secret_values_exposed": false,
+  "workflow_executed": false,
+  "package_installed": false,
+  "release_published": false
+}

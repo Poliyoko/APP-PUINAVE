@@ -1,0 +1,23 @@
+{
+  "component": "SPT-024.7",
+  "layer": "3",
+  "version": "1.0.0",
+  "title": "Gobierno, Quality Gates Finales y Cierre Institucional de la Cadena de Suministro",
+  "blocking_controls": [
+    "SC3-CAPA2-PASS",
+    "SC3-SBOM-INTEGRITY",
+    "SC3-EVIDENCE-INTEGRITY",
+    "SC3-SECRET-SAFETY",
+    "SC3-PUBLICATION-SAFETY",
+    "SC3-CLOSED-COMPONENT-PRESERVATION"
+  ],
+  "closure_status": "INSTITUTIONALLY_CLOSED",
+  "safety": {
+    "modify_layer1": false,
+    "modify_layer2": false,
+    "execute_workflows": false,
+    "install_packages": false,
+    "publish_release_before_remote_gate": false,
+    "print_secret_values": false
+  }
+}

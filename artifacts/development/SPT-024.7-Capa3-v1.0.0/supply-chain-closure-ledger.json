@@ -1,0 +1,26 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 4,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.7-Capa2-v1.0.0/implementation-evidence.json",
+      "bytes": 1065,
+      "sha256": "25e9b085abb37f4f7afc5dcef0d3188b7d83d6a2765976c8ef1b84ad3a4238db"
+    },
+    {
+      "path": "artifacts/development/SPT-024.7-Capa2-v1.0.0/integrity-manifest-layer2.json",
+      "bytes": 496,
+      "sha256": "8c1aa3bcba9de3c382a82bcbb24d221532c6b56d0253888c04bea095cd6ee1a6"
+    },
+    {
+      "path": "artifacts/development/SPT-024.7-Capa2-v1.0.0/sbom-layer2.json",
+      "bytes": 3391,
+      "sha256": "99c6cfc7331104d7a259a2524ad03b74360880dde69c7e2eadadf703e6881bed"
+    },
+    {
+      "path": "artifacts/development/SPT-024.7-Capa2-v1.0.0/supply-chain-layer2-assessment.json",
+      "bytes": 2820,
+      "sha256": "d0cd5deb39f38f49576e5642102ff95a0f774150136a1b6bcc06ac8a818c3818"
+    }
+  ]
+}
