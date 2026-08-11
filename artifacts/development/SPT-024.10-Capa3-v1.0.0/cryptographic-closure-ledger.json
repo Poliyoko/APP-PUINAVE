@@ -1,0 +1,74 @@
+{
+  "algorithm": "SHA-256",
+  "declared_count": 11,
+  "record_count": 11,
+  "missing_count": 0,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-protection-assessment.json",
+      "exists": true,
+      "bytes": 4229,
+      "sha256": "06532f522b69061d5639a117fd18170a5c192c811d671197c7939a33a1145448"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-data-surface-inventory.json",
+      "exists": true,
+      "bytes": 93376,
+      "sha256": "009804b2bd8c7b29e45a8db7b89554b0528a641e4c02f153be2d2fd9b626eb1c"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-integrity-manifest.json",
+      "exists": true,
+      "bytes": 733,
+      "sha256": "bc76b14fb0eb8e43a6c94624481057e7c5a6cf1f9e9c307103b193a6f9ec77fd"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/implementation-evidence.json",
+      "exists": true,
+      "bytes": 1283,
+      "sha256": "19721d01b5927c5d38c2504b7738974f8b1cc42d0756c595a52fa8861bfff6f9"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-governance-assessment.json",
+      "exists": true,
+      "bytes": 3449,
+      "sha256": "9242b73b22e05dfd3e279d9094926748d24f28a35a8f67a66ef36126434e0c32"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-governance-surface-inventory.json",
+      "exists": true,
+      "bytes": 82458,
+      "sha256": "a42bb22714b5dc09f8dad0a93627059a0d53575e8159807b8fb1e0ffaace3ea2"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-baseline.json",
+      "exists": true,
+      "bytes": 195,
+      "sha256": "d9a9adad6ac84d52585f1cdf3700d4135e6df74148fe8d38f5f6c469dc02f4c4"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-rotation-versioning-baseline.json",
+      "exists": true,
+      "bytes": 564,
+      "sha256": "b86608de2c5eae01d64eb09485afb70214da4e23a59b6b8d60b213cf64527d03"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-custody-revocation-baseline.json",
+      "exists": true,
+      "bytes": 570,
+      "sha256": "f394728556ddbdedffe7e4c7a6d1137255dee30e1af314ad09b612fde6f87ac4"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-governance-integrity-manifest.json",
+      "exists": true,
+      "bytes": 1384,
+      "sha256": "fe19fd9c544f6991e1d0aa07a6aab2ed7602b5099b2f80a356fc494d06258874"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/implementation-evidence.json",
+      "exists": true,
+      "bytes": 1709,
+      "sha256": "e4e8518a87dc154cc75da3398c1980f1c908082e0bd3e98e3cf51ee3efd148f1"
+    }
+  ]
+}

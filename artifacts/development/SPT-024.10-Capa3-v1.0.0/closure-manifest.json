@@ -1,0 +1,106 @@
+{
+  "component": "SPT-024.10",
+  "layer": "3",
+  "version": "1.0.0",
+  "status": "INSTITUTIONALLY_CLOSED",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "CRYPTOG-CAPA1-PASS",
+      "name": "SPT-024.10 Capa 1 cryptographic protection certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 1 cryptographic protection gate is PASS."
+    },
+    {
+      "control_id": "CRYPTOG-CAPA2-PASS",
+      "name": "SPT-024.10 Capa 2 key governance certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 key lifecycle governance gate is PASS."
+    },
+    {
+      "control_id": "CRYPTOG-POLICY",
+      "name": "Final cryptographic policy consolidation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Approved algorithms, sensitive-data protection and integrity controls are certified."
+    },
+    {
+      "control_id": "CRYPTOG-KEY-GOVERNANCE",
+      "name": "Final key lifecycle governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Lifecycle, rotation, revocation and custody are certified."
+    },
+    {
+      "control_id": "CRYPTOG-RECERTIFICATION",
+      "name": "Periodic key recertification",
+      "passed": true,
+      "blocking": true,
+      "detail": "Key recertification is periodic, deterministic and non-executing."
+    },
+    {
+      "control_id": "CRYPTOG-LIFECYCLE",
+      "name": "Expiration, revocation and destruction governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Key lifecycle contains formal revocation and destruction states."
+    },
+    {
+      "control_id": "CRYPTOG-ROTATION-VERSIONING",
+      "name": "Rotation and version governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Rotation remains approval-gated and versioned without production execution."
+    },
+    {
+      "control_id": "CRYPTOG-CUSTODY",
+      "name": "Custody and recovery governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Separated custody and controlled revocation remain certified."
+    },
+    {
+      "control_id": "CRYPTOG-EVIDENCE-INTEGRITY",
+      "name": "Evidence completeness and SHA-256 integrity",
+      "passed": true,
+      "blocking": true,
+      "detail": "All mandatory cryptographic evidence inputs are present and hashed."
+    },
+    {
+      "control_id": "CRYPTOG-NO-SIDE-EFFECTS",
+      "name": "No operational cryptographic side effects",
+      "passed": true,
+      "blocking": true,
+      "detail": "Closure performs governance validation only."
+    },
+    {
+      "control_id": "CRYPTOG-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "detail": "No raw key or secret material is exposed."
+    },
+    {
+      "control_id": "CRYPTOG-CLOSED-COMPONENT-PRESERVATION",
+      "name": "Closed component preservation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Runtime SHA-256 preservation is enforced by the PowerShell master."
+    }
+  ],
+  "layer1_status": "CRYPTOGRAPHIC_PROTECTION_GATE_PASS",
+  "layer2_status": "KEY_LIFECYCLE_GOVERNANCE_GATE_PASS",
+  "recertification_records": 3,
+  "crypto_policy_governance": true,
+  "key_lifecycle_governance": true,
+  "lifecycle_governance": true,
+  "rotation_versioning_governance": true,
+  "custody_revocation_governance": true,
+  "real_key_change_executed": false,
+  "key_material_read": false,
+  "production_crypto_changed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

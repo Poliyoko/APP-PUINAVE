@@ -1,0 +1,217 @@
+{
+  "status": "INSTITUTIONALLY_CLOSED",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "CRYPTOG-CAPA1-PASS",
+      "name": "SPT-024.10 Capa 1 cryptographic protection certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 1 cryptographic protection gate is PASS."
+    },
+    {
+      "control_id": "CRYPTOG-CAPA2-PASS",
+      "name": "SPT-024.10 Capa 2 key governance certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 key lifecycle governance gate is PASS."
+    },
+    {
+      "control_id": "CRYPTOG-POLICY",
+      "name": "Final cryptographic policy consolidation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Approved algorithms, sensitive-data protection and integrity controls are certified."
+    },
+    {
+      "control_id": "CRYPTOG-KEY-GOVERNANCE",
+      "name": "Final key lifecycle governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Lifecycle, rotation, revocation and custody are certified."
+    },
+    {
+      "control_id": "CRYPTOG-RECERTIFICATION",
+      "name": "Periodic key recertification",
+      "passed": true,
+      "blocking": true,
+      "detail": "Key recertification is periodic, deterministic and non-executing."
+    },
+    {
+      "control_id": "CRYPTOG-LIFECYCLE",
+      "name": "Expiration, revocation and destruction governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Key lifecycle contains formal revocation and destruction states."
+    },
+    {
+      "control_id": "CRYPTOG-ROTATION-VERSIONING",
+      "name": "Rotation and version governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Rotation remains approval-gated and versioned without production execution."
+    },
+    {
+      "control_id": "CRYPTOG-CUSTODY",
+      "name": "Custody and recovery governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Separated custody and controlled revocation remain certified."
+    },
+    {
+      "control_id": "CRYPTOG-EVIDENCE-INTEGRITY",
+      "name": "Evidence completeness and SHA-256 integrity",
+      "passed": true,
+      "blocking": true,
+      "detail": "All mandatory cryptographic evidence inputs are present and hashed."
+    },
+    {
+      "control_id": "CRYPTOG-NO-SIDE-EFFECTS",
+      "name": "No operational cryptographic side effects",
+      "passed": true,
+      "blocking": true,
+      "detail": "Closure performs governance validation only."
+    },
+    {
+      "control_id": "CRYPTOG-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "detail": "No raw key or secret material is exposed."
+    },
+    {
+      "control_id": "CRYPTOG-CLOSED-COMPONENT-PRESERVATION",
+      "name": "Closed component preservation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Runtime SHA-256 preservation is enforced by the PowerShell master."
+    }
+  ],
+  "layer1_status": "CRYPTOGRAPHIC_PROTECTION_GATE_PASS",
+  "layer2_status": "KEY_LIFECYCLE_GOVERNANCE_GATE_PASS",
+  "recertification": [
+    {
+      "key_id": "SGODA-DATA-KEY",
+      "version": 3,
+      "last_reviewed_at": "2026-07-22T00:00:00+00:00",
+      "review_period_days": 90,
+      "due_at": "2026-10-20T00:00:00+00:00",
+      "overdue": false,
+      "decision": "RETAIN",
+      "rotation_executed": false,
+      "revocation_executed": false,
+      "key_material_read": false,
+      "secret_values_exposed": false
+    },
+    {
+      "key_id": "SGODA-SIGNING-KEY",
+      "version": 2,
+      "last_reviewed_at": "2026-05-08T00:00:00+00:00",
+      "review_period_days": 90,
+      "due_at": "2026-08-06T00:00:00+00:00",
+      "overdue": true,
+      "decision": "REVIEW",
+      "rotation_executed": false,
+      "revocation_executed": false,
+      "key_material_read": false,
+      "secret_values_exposed": false
+    },
+    {
+      "key_id": "SGODA-AUDIT-INTEGRITY-KEY",
+      "version": 1,
+      "last_reviewed_at": "2026-07-12T00:00:00+00:00",
+      "review_period_days": 60,
+      "due_at": "2026-09-10T00:00:00+00:00",
+      "overdue": false,
+      "decision": "RETAIN",
+      "rotation_executed": false,
+      "revocation_executed": false,
+      "key_material_read": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "evidence_ledger": {
+    "algorithm": "SHA-256",
+    "declared_count": 11,
+    "record_count": 11,
+    "missing_count": 0,
+    "records": [
+      {
+        "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-protection-assessment.json",
+        "exists": true,
+        "bytes": 4229,
+        "sha256": "06532f522b69061d5639a117fd18170a5c192c811d671197c7939a33a1145448"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-data-surface-inventory.json",
+        "exists": true,
+        "bytes": 93376,
+        "sha256": "009804b2bd8c7b29e45a8db7b89554b0528a641e4c02f153be2d2fd9b626eb1c"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/cryptographic-integrity-manifest.json",
+        "exists": true,
+        "bytes": 733,
+        "sha256": "bc76b14fb0eb8e43a6c94624481057e7c5a6cf1f9e9c307103b193a6f9ec77fd"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa1-v1.0.0/implementation-evidence.json",
+        "exists": true,
+        "bytes": 1283,
+        "sha256": "19721d01b5927c5d38c2504b7738974f8b1cc42d0756c595a52fa8861bfff6f9"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-governance-assessment.json",
+        "exists": true,
+        "bytes": 3449,
+        "sha256": "9242b73b22e05dfd3e279d9094926748d24f28a35a8f67a66ef36126434e0c32"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-governance-surface-inventory.json",
+        "exists": true,
+        "bytes": 82458,
+        "sha256": "a42bb22714b5dc09f8dad0a93627059a0d53575e8159807b8fb1e0ffaace3ea2"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-baseline.json",
+        "exists": true,
+        "bytes": 195,
+        "sha256": "d9a9adad6ac84d52585f1cdf3700d4135e6df74148fe8d38f5f6c469dc02f4c4"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-rotation-versioning-baseline.json",
+        "exists": true,
+        "bytes": 564,
+        "sha256": "b86608de2c5eae01d64eb09485afb70214da4e23a59b6b8d60b213cf64527d03"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-custody-revocation-baseline.json",
+        "exists": true,
+        "bytes": 570,
+        "sha256": "f394728556ddbdedffe7e4c7a6d1137255dee30e1af314ad09b612fde6f87ac4"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-governance-integrity-manifest.json",
+        "exists": true,
+        "bytes": 1384,
+        "sha256": "fe19fd9c544f6991e1d0aa07a6aab2ed7602b5099b2f80a356fc494d06258874"
+      },
+      {
+        "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/implementation-evidence.json",
+        "exists": true,
+        "bytes": 1709,
+        "sha256": "e4e8518a87dc154cc75da3398c1980f1c908082e0bd3e98e3cf51ee3efd148f1"
+      }
+    ]
+  },
+  "crypto_policy_governance": true,
+  "key_lifecycle_governance": true,
+  "lifecycle_governance": true,
+  "rotation_versioning_governance": true,
+  "custody_revocation_governance": true,
+  "real_key_change_executed": false,
+  "key_material_read": false,
+  "production_crypto_changed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

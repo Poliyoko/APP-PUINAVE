@@ -1,0 +1,39 @@
+{
+  "component": "SPT-024.10",
+  "layer": "3",
+  "version": "1.0.0",
+  "title": "Gobierno Criptografico Final, Quality Gates, Recertificacion de Claves, Evidencias e Integridad y Cierre Institucional",
+  "blocking_controls": [
+    "CRYPTOG-CAPA1-PASS",
+    "CRYPTOG-CAPA2-PASS",
+    "CRYPTOG-POLICY",
+    "CRYPTOG-KEY-GOVERNANCE",
+    "CRYPTOG-RECERTIFICATION",
+    "CRYPTOG-LIFECYCLE",
+    "CRYPTOG-ROTATION-VERSIONING",
+    "CRYPTOG-CUSTODY",
+    "CRYPTOG-EVIDENCE-INTEGRITY",
+    "CRYPTOG-NO-SIDE-EFFECTS",
+    "CRYPTOG-SECRET-SAFETY",
+    "CRYPTOG-CLOSED-COMPONENT-PRESERVATION"
+  ],
+  "recertification": {
+    "periodic": true,
+    "default_review_period_days": 90,
+    "overdue_decision": "REVIEW",
+    "automatic_rotation": false,
+    "automatic_revocation": false
+  },
+  "closure_status": "INSTITUTIONALLY_CLOSED",
+  "safety": {
+    "read_real_key_material": false,
+    "rotate_real_keys": false,
+    "revoke_real_keys": false,
+    "change_production_crypto": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_layer1": false,
+    "modify_layer2": false,
+    "modify_closed_components": false
+  }
+}
