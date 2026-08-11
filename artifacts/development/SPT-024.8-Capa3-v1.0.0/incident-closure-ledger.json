@@ -1,0 +1,49 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 7,
+  "missing_count": 0,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.8-Capa1-v1.0.0/security-monitoring-assessment.json",
+      "exists": true,
+      "bytes": 1892,
+      "sha256": "1d32306dd447dfaceb8c61e98c7b175f6f598d910d73ad2c66cf1662c0921e27"
+    },
+    {
+      "path": "artifacts/development/SPT-024.8-Capa1-v1.0.0/security-log-integrity-baseline.json",
+      "exists": true,
+      "bytes": 448,
+      "sha256": "77c02dfead6196bc2a8a5ddbb4fcc96263431883589f25e9636b6892b010e271"
+    },
+    {
+      "path": "artifacts/development/SPT-024.8-Capa1-v1.0.0/implementation-evidence.json",
+      "exists": true,
+      "bytes": 1056,
+      "sha256": "c345e64b928a53cb46b4c8e227228a08c90f1e75f387f0ac24c17cbbf130f8b8"
+    },
+    {
+      "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/event-correlation-assessment.json",
+      "exists": true,
+      "bytes": 5699,
+      "sha256": "2b2a3987171f143be9c3740019d3d86dc98ae34d70e436b8467e1c4d5e01430b"
+    },
+    {
+      "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/correlation-baseline.json",
+      "exists": true,
+      "bytes": 984,
+      "sha256": "84f20aa22246a75631f3a8e097c355f46722a27ad4f0d87feee2f10450781229"
+    },
+    {
+      "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/incident-response-baseline.json",
+      "exists": true,
+      "bytes": 3504,
+      "sha256": "7e9c3496567b5e5a78f710eff54fc4515570b5a849c7f115267b4ca6f33e5eb0"
+    },
+    {
+      "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/implementation-evidence.json",
+      "exists": true,
+      "bytes": 1255,
+      "sha256": "de365b5d6bd631c609caf43dff0c6b6ff12a709a0bb87194057ef5bf17cc34ca"
+    }
+  ]
+}

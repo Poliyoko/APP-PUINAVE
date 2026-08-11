@@ -1,0 +1,30 @@
+{
+  "component": "SPT-024.8",
+  "layer": "3",
+  "version": "1.0.0",
+  "title": "Gobierno de Incidentes, Quality Gates Finales, Escalamiento y Cierre Institucional",
+  "blocking_controls": [
+    "IRG-CAPA1-PASS",
+    "IRG-CAPA2-PASS",
+    "IRG-EVIDENCE-INTEGRITY",
+    "IRG-ESCALATION",
+    "IRG-NO-SIDE-EFFECTS",
+    "IRG-SECRET-SAFETY",
+    "IRG-CLOSED-COMPONENT-PRESERVATION"
+  ],
+  "escalation": {
+    "L1": "OPERATIONAL_REVIEW",
+    "L2": "SECURITY_COORDINATION",
+    "L3": "INSTITUTIONAL_SECURITY_LEAD"
+  },
+  "closure_status": "INSTITUTIONALLY_CLOSED",
+  "safety": {
+    "send_notifications": false,
+    "execute_incident_actions": false,
+    "call_webhooks": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_layer1": false,
+    "modify_layer2": false
+  }
+}

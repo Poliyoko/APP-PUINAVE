@@ -1,0 +1,66 @@
+{
+  "component": "SPT-024.8",
+  "layer": "3",
+  "version": "1.0.0",
+  "status": "INSTITUTIONALLY_CLOSED",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "IRG-CAPA1-PASS",
+      "name": "Capa 1 security monitoring certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 1 security monitoring gate is PASS."
+    },
+    {
+      "control_id": "IRG-CAPA2-PASS",
+      "name": "Capa 2 incident response certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 incident response gate is PASS."
+    },
+    {
+      "control_id": "IRG-EVIDENCE-INTEGRITY",
+      "name": "Required evidence completeness and SHA-256 ledger",
+      "passed": true,
+      "blocking": true,
+      "detail": "Evidence ledger covers all required inputs."
+    },
+    {
+      "control_id": "IRG-ESCALATION",
+      "name": "Institutional escalation rules",
+      "passed": true,
+      "blocking": true,
+      "detail": "Escalation rules generated for all incidents."
+    },
+    {
+      "control_id": "IRG-NO-SIDE-EFFECTS",
+      "name": "No operational side effects during closure",
+      "passed": true,
+      "blocking": true,
+      "detail": "Closure uses evidence-only alerting and plan-only response."
+    },
+    {
+      "control_id": "IRG-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "detail": "No secret values exposed in governance evidence."
+    },
+    {
+      "control_id": "IRG-CLOSED-COMPONENT-PRESERVATION",
+      "name": "Closed component preservation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Runtime SHA-256 preservation is enforced by PowerShell master."
+    }
+  ],
+  "incident_count": 2,
+  "layer1_status": "SECURITY_MONITORING_GATE_PASS",
+  "layer2_status": "INCIDENT_RESPONSE_GATE_PASS",
+  "notification_sent": false,
+  "incident_action_executed": false,
+  "webhook_called": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

@@ -1,0 +1,134 @@
+{
+  "status": "INSTITUTIONALLY_CLOSED",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "IRG-CAPA1-PASS",
+      "name": "Capa 1 security monitoring certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 1 security monitoring gate is PASS."
+    },
+    {
+      "control_id": "IRG-CAPA2-PASS",
+      "name": "Capa 2 incident response certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 incident response gate is PASS."
+    },
+    {
+      "control_id": "IRG-EVIDENCE-INTEGRITY",
+      "name": "Required evidence completeness and SHA-256 ledger",
+      "passed": true,
+      "blocking": true,
+      "detail": "Evidence ledger covers all required inputs."
+    },
+    {
+      "control_id": "IRG-ESCALATION",
+      "name": "Institutional escalation rules",
+      "passed": true,
+      "blocking": true,
+      "detail": "Escalation rules generated for all incidents."
+    },
+    {
+      "control_id": "IRG-NO-SIDE-EFFECTS",
+      "name": "No operational side effects during closure",
+      "passed": true,
+      "blocking": true,
+      "detail": "Closure uses evidence-only alerting and plan-only response."
+    },
+    {
+      "control_id": "IRG-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "detail": "No secret values exposed in governance evidence."
+    },
+    {
+      "control_id": "IRG-CLOSED-COMPONENT-PRESERVATION",
+      "name": "Closed component preservation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Runtime SHA-256 preservation is enforced by PowerShell master."
+    }
+  ],
+  "evidence_ledger": {
+    "algorithm": "SHA-256",
+    "record_count": 7,
+    "missing_count": 0,
+    "records": [
+      {
+        "path": "artifacts/development/SPT-024.8-Capa1-v1.0.0/security-monitoring-assessment.json",
+        "exists": true,
+        "bytes": 1892,
+        "sha256": "1d32306dd447dfaceb8c61e98c7b175f6f598d910d73ad2c66cf1662c0921e27"
+      },
+      {
+        "path": "artifacts/development/SPT-024.8-Capa1-v1.0.0/security-log-integrity-baseline.json",
+        "exists": true,
+        "bytes": 448,
+        "sha256": "77c02dfead6196bc2a8a5ddbb4fcc96263431883589f25e9636b6892b010e271"
+      },
+      {
+        "path": "artifacts/development/SPT-024.8-Capa1-v1.0.0/implementation-evidence.json",
+        "exists": true,
+        "bytes": 1056,
+        "sha256": "c345e64b928a53cb46b4c8e227228a08c90f1e75f387f0ac24c17cbbf130f8b8"
+      },
+      {
+        "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/event-correlation-assessment.json",
+        "exists": true,
+        "bytes": 5699,
+        "sha256": "2b2a3987171f143be9c3740019d3d86dc98ae34d70e436b8467e1c4d5e01430b"
+      },
+      {
+        "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/correlation-baseline.json",
+        "exists": true,
+        "bytes": 984,
+        "sha256": "84f20aa22246a75631f3a8e097c355f46722a27ad4f0d87feee2f10450781229"
+      },
+      {
+        "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/incident-response-baseline.json",
+        "exists": true,
+        "bytes": 3504,
+        "sha256": "7e9c3496567b5e5a78f710eff54fc4515570b5a849c7f115267b4ca6f33e5eb0"
+      },
+      {
+        "path": "artifacts/development/SPT-024.8-Capa2-v1.0.0/implementation-evidence.json",
+        "exists": true,
+        "bytes": 1255,
+        "sha256": "de365b5d6bd631c609caf43dff0c6b6ff12a709a0bb87194057ef5bf17cc34ca"
+      }
+    ]
+  },
+  "escalation": [
+    {
+      "severity": "LOW",
+      "event_count": 1,
+      "escalation_level": "L1",
+      "authority": "OPERATIONAL_REVIEW",
+      "notification_mode": "EVIDENCE_ONLY",
+      "notification_sent": false,
+      "action_executed": false,
+      "secret_values_exposed": false
+    },
+    {
+      "severity": "HIGH",
+      "event_count": 2,
+      "escalation_level": "L2",
+      "authority": "SECURITY_COORDINATION",
+      "notification_mode": "EVIDENCE_ONLY",
+      "notification_sent": false,
+      "action_executed": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "layer1_status": "SECURITY_MONITORING_GATE_PASS",
+  "layer2_status": "INCIDENT_RESPONSE_GATE_PASS",
+  "incident_count": 2,
+  "notification_sent": false,
+  "incident_action_executed": false,
+  "webhook_called": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

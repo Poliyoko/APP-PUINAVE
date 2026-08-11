@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "severity": "LOW",
+      "event_count": 1,
+      "escalation_level": "L1",
+      "authority": "OPERATIONAL_REVIEW",
+      "notification_mode": "EVIDENCE_ONLY",
+      "notification_sent": false,
+      "action_executed": false,
+      "secret_values_exposed": false
+    },
+    {
+      "severity": "HIGH",
+      "event_count": 2,
+      "escalation_level": "L2",
+      "authority": "SECURITY_COORDINATION",
+      "notification_mode": "EVIDENCE_ONLY",
+      "notification_sent": false,
+      "action_executed": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "notification_sent": false,
+  "incident_action_executed": false,
+  "secret_values_exposed": false
+}
