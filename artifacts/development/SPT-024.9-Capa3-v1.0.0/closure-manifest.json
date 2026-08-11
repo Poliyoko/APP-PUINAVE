@@ -1,0 +1,90 @@
+{
+  "component": "SPT-024.9",
+  "layer": "3",
+  "version": "1.0.0",
+  "status": "INSTITUTIONALLY_CLOSED",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "IAMG-CAPA1-PASS",
+      "name": "SPT-024.9 Capa 1 IAM gate certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 1 identity/access gate is PASS."
+    },
+    {
+      "control_id": "IAMG-CAPA2-PASS",
+      "name": "SPT-024.9 Capa 2 PAM gate certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 privilege-governance gate is PASS."
+    },
+    {
+      "control_id": "IAMG-EVIDENCE-INTEGRITY",
+      "name": "Closure evidence completeness and SHA-256 integrity",
+      "passed": true,
+      "blocking": true,
+      "detail": "All mandatory IAM/PAM evidence is present and hashed."
+    },
+    {
+      "control_id": "IAMG-RECERTIFICATION",
+      "name": "Periodic access recertification governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Recertification records are deterministic, reviewable and non-executing."
+    },
+    {
+      "control_id": "IAMG-SEPARATION-DUTIES",
+      "name": "Final separation of duties",
+      "passed": true,
+      "blocking": true,
+      "detail": "IAM role separation and PAM dual-control approval are both certified."
+    },
+    {
+      "control_id": "IAMG-LIFECYCLE",
+      "name": "Expiration and revocation lifecycle",
+      "passed": true,
+      "blocking": true,
+      "detail": "Privileged access lifecycle includes revocation and formal closure."
+    },
+    {
+      "control_id": "IAMG-PAM",
+      "name": "Final PAM governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "No standing admin; privileged session remains non-materialized and non-executing."
+    },
+    {
+      "control_id": "IAMG-NO-SIDE-EFFECTS",
+      "name": "No real IAM/PAM side effects during closure",
+      "passed": true,
+      "blocking": true,
+      "detail": "Closure remains evidence-only and does not alter real privileges or credentials."
+    },
+    {
+      "control_id": "IAMG-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "detail": "No raw credential or secret value is exposed in closure evidence."
+    },
+    {
+      "control_id": "IAMG-CLOSED-COMPONENT-PRESERVATION",
+      "name": "Closed component preservation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Runtime SHA-256 preservation is enforced by the PowerShell master."
+    }
+  ],
+  "layer1_status": "IDENTITY_ACCESS_GATE_PASS",
+  "layer2_status": "PRIVILEGE_GOVERNANCE_GATE_PASS",
+  "recertification_records": 3,
+  "segregation_of_duties": true,
+  "lifecycle_governance": true,
+  "pam_governance": true,
+  "real_access_change_executed": false,
+  "credential_rotated": false,
+  "secret_read": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

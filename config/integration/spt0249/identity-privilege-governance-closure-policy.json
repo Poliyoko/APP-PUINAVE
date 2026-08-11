@@ -1,0 +1,35 @@
+{
+  "component": "SPT-024.9",
+  "layer": "3",
+  "version": "1.0.0",
+  "title": "Gobierno Final de Identidades y Privilegios, Quality Gates, Recertificacion de Accesos y Cierre Institucional",
+  "blocking_controls": [
+    "IAMG-CAPA1-PASS",
+    "IAMG-CAPA2-PASS",
+    "IAMG-EVIDENCE-INTEGRITY",
+    "IAMG-RECERTIFICATION",
+    "IAMG-SEPARATION-DUTIES",
+    "IAMG-LIFECYCLE",
+    "IAMG-PAM",
+    "IAMG-NO-SIDE-EFFECTS",
+    "IAMG-SECRET-SAFETY",
+    "IAMG-CLOSED-COMPONENT-PRESERVATION"
+  ],
+  "recertification": {
+    "periodic": true,
+    "default_review_period_days": 90,
+    "overdue_decision": "REVIEW",
+    "automatic_real_access_change": false
+  },
+  "closure_status": "INSTITUTIONALLY_CLOSED",
+  "safety": {
+    "grant_real_privilege": false,
+    "revoke_real_privilege": false,
+    "rotate_credentials": false,
+    "read_secret_values": false,
+    "execute_privileged_commands": false,
+    "open_external_connections": false,
+    "modify_layer1": false,
+    "modify_layer2": false
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "status": "INSTITUTIONALLY_CLOSED",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "IAMG-CAPA1-PASS",
+      "name": "SPT-024.9 Capa 1 IAM gate certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 1 identity/access gate is PASS."
+    },
+    {
+      "control_id": "IAMG-CAPA2-PASS",
+      "name": "SPT-024.9 Capa 2 PAM gate certified",
+      "passed": true,
+      "blocking": true,
+      "detail": "Capa 2 privilege-governance gate is PASS."
+    },
+    {
+      "control_id": "IAMG-EVIDENCE-INTEGRITY",
+      "name": "Closure evidence completeness and SHA-256 integrity",
+      "passed": true,
+      "blocking": true,
+      "detail": "All mandatory IAM/PAM evidence is present and hashed."
+    },
+    {
+      "control_id": "IAMG-RECERTIFICATION",
+      "name": "Periodic access recertification governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "Recertification records are deterministic, reviewable and non-executing."
+    },
+    {
+      "control_id": "IAMG-SEPARATION-DUTIES",
+      "name": "Final separation of duties",
+      "passed": true,
+      "blocking": true,
+      "detail": "IAM role separation and PAM dual-control approval are both certified."
+    },
+    {
+      "control_id": "IAMG-LIFECYCLE",
+      "name": "Expiration and revocation lifecycle",
+      "passed": true,
+      "blocking": true,
+      "detail": "Privileged access lifecycle includes revocation and formal closure."
+    },
+    {
+      "control_id": "IAMG-PAM",
+      "name": "Final PAM governance",
+      "passed": true,
+      "blocking": true,
+      "detail": "No standing admin; privileged session remains non-materialized and non-executing."
+    },
+    {
+      "control_id": "IAMG-NO-SIDE-EFFECTS",
+      "name": "No real IAM/PAM side effects during closure",
+      "passed": true,
+      "blocking": true,
+      "detail": "Closure remains evidence-only and does not alter real privileges or credentials."
+    },
+    {
+      "control_id": "IAMG-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "detail": "No raw credential or secret value is exposed in closure evidence."
+    },
+    {
+      "control_id": "IAMG-CLOSED-COMPONENT-PRESERVATION",
+      "name": "Closed component preservation",
+      "passed": true,
+      "blocking": true,
+      "detail": "Runtime SHA-256 preservation is enforced by the PowerShell master."
+    }
+  ],
+  "layer1_status": "IDENTITY_ACCESS_GATE_PASS",
+  "layer2_status": "PRIVILEGE_GOVERNANCE_GATE_PASS",
+  "recertification": [
+    {
+      "identity_id": "USR-PUBLISHER",
+      "permission": "publication:publish",
+      "last_reviewed_at": "2026-07-12T00:00:00+00:00",
+      "review_period_days": 90,
+      "due_at": "2026-10-10T00:00:00+00:00",
+      "overdue": false,
+      "decision": "RETAIN",
+      "executed": false,
+      "secret_values_exposed": false
+    },
+    {
+      "identity_id": "USR-SECURITY",
+      "permission": "incident:escalate",
+      "last_reviewed_at": "2026-05-08T00:00:00+00:00",
+      "review_period_days": 90,
+      "due_at": "2026-08-06T00:00:00+00:00",
+      "overdue": true,
+      "decision": "REVIEW",
+      "executed": false,
+      "secret_values_exposed": false
+    },
+    {
+      "identity_id": "SVC-WORKFLOW",
+      "permission": "workflow:execute",
+      "last_reviewed_at": "2026-07-22T00:00:00+00:00",
+      "review_period_days": 60,
+      "due_at": "2026-09-20T00:00:00+00:00",
+      "overdue": false,
+      "decision": "RETAIN",
+      "executed": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "evidence_ledger": {
+    "algorithm": "SHA-256",
+    "declared_count": 10,
+    "record_count": 10,
+    "missing_count": 0,
+    "records": [
+      {
+        "path": "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-assessment.json",
+        "exists": true,
+        "bytes": 4961,
+        "sha256": "c998d6d458fcb0158ae3e1601865cb898ba72609bc7f55de27dbf20b1a513cb3"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-surface-inventory.json",
+        "exists": true,
+        "bytes": 58477,
+        "sha256": "b8b2cdb0e40d01d4eaf1b0be73e82487a1d6d23eabfe3888ebe3d8b8558dcfea"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa1-v1.0.0/identity-access-integrity-manifest.json",
+        "exists": true,
+        "bytes": 718,
+        "sha256": "451f2a13572590dece38f7a0c98c71804173cf079d496fcbc930afb874a5c071"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa1-v1.0.0/implementation-evidence.json",
+        "exists": true,
+        "bytes": 1283,
+        "sha256": "4b6ab8ad534a1a1dd0dcdd305d4f8221ddf0ffc9465c2749e72630b09d753fe9"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/privilege-governance-assessment.json",
+        "exists": true,
+        "bytes": 3027,
+        "sha256": "4431aae596c65c36460d12c302414ecbca2ebc0ee2d152c3729d7fce1baf2df3"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/privileged-access-inventory.json",
+        "exists": true,
+        "bytes": 69345,
+        "sha256": "56c102d7636781bb3b71a530c4b13aca31d633237e87846981c014d910bd5bc5"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/access-lifecycle-baseline.json",
+        "exists": true,
+        "bytes": 211,
+        "sha256": "4e5e1abf461b6155e133203f5744a354daf4fa30d5c50f884cac7c627e4aeb6a"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/pam-control-baseline.json",
+        "exists": true,
+        "bytes": 773,
+        "sha256": "8e636430de8405cc751c6aa74d64b75f2c70023394f242b599b51c8768b2c2eb"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/privilege-governance-integrity-manifest.json",
+        "exists": true,
+        "bytes": 1140,
+        "sha256": "57e0929218e7eab7f1c3aca2ccef266bef1a890c4837f02c4bb89032f6c93793"
+      },
+      {
+        "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/implementation-evidence.json",
+        "exists": true,
+        "bytes": 1577,
+        "sha256": "245168c240a1fe99edcc49509f078748b3f390cb02bf159ac84861cf6d79db62"
+      }
+    ]
+  },
+  "segregation_of_duties": true,
+  "lifecycle_governance": true,
+  "pam_governance": true,
+  "real_access_change_executed": false,
+  "credential_rotated": false,
+  "secret_read": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

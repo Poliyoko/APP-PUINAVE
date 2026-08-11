@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "identity_id": "USR-PUBLISHER",
+      "permission": "publication:publish",
+      "last_reviewed_at": "2026-07-12T00:00:00+00:00",
+      "review_period_days": 90,
+      "due_at": "2026-10-10T00:00:00+00:00",
+      "overdue": false,
+      "decision": "RETAIN",
+      "executed": false,
+      "secret_values_exposed": false
+    },
+    {
+      "identity_id": "USR-SECURITY",
+      "permission": "incident:escalate",
+      "last_reviewed_at": "2026-05-08T00:00:00+00:00",
+      "review_period_days": 90,
+      "due_at": "2026-08-06T00:00:00+00:00",
+      "overdue": true,
+      "decision": "REVIEW",
+      "executed": false,
+      "secret_values_exposed": false
+    },
+    {
+      "identity_id": "SVC-WORKFLOW",
+      "permission": "workflow:execute",
+      "last_reviewed_at": "2026-07-22T00:00:00+00:00",
+      "review_period_days": 60,
+      "due_at": "2026-09-20T00:00:00+00:00",
+      "overdue": false,
+      "decision": "RETAIN",
+      "executed": false,
+      "secret_values_exposed": false
+    }
+  ],
+  "periodic": true,
+  "real_access_change_executed": false,
+  "credential_rotated": false,
+  "secret_values_exposed": false
+}

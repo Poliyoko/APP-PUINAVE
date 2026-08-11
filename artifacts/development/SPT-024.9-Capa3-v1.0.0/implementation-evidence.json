@@ -1,0 +1,34 @@
+{
+    "component":  "SPT-024.9",
+    "layer":  "3",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T05:55:38.2239280Z",
+    "authoritative_baseline":  "1b3c5edadc4e329b21725bb76e79dba5c9fa1665",
+    "final_status":  "INSTITUTIONALLY_CLOSED",
+    "gates":  {
+                  "capa1_identity_access":  "PASS",
+                  "capa2_privilege_governance":  "PASS",
+                  "recertification":  "PASS",
+                  "separation_of_duties":  "PASS",
+                  "lifecycle_expiration_revocation":  "PASS",
+                  "pam_governance":  "PASS",
+                  "evidence_integrity":  "PASS",
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "governance_assessment":  "artifacts/development/SPT-024.9-Capa3-v1.0.0/identity-privilege-governance-assessment.json",
+                      "recertification_baseline":  "artifacts/development/SPT-024.9-Capa3-v1.0.0/access-recertification-baseline.json",
+                      "closure_ledger":  "artifacts/development/SPT-024.9-Capa3-v1.0.0/identity-privilege-closure-ledger.json",
+                      "closure_manifest":  "artifacts/development/SPT-024.9-Capa3-v1.0.0/closure-manifest.json"
+                  },
+    "real_access_change_executed":  false,
+    "credential_rotated":  false,
+    "secret_read":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}
