@@ -1,0 +1,32 @@
+{
+    "component":  "SPT-024.9",
+    "layer":  "2",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T05:24:41.1439650Z",
+    "authoritative_baseline":  "1cc0607bba39aff23c246b162a9f24c34cca0040",
+    "final_status":  "PRIVILEGE_GOVERNANCE_GATE_PASS",
+    "gates":  {
+                  "capa1_identity_access":  "PASS",
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "privilege_governance":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "assessment":  "artifacts/development/SPT-024.9-Capa2-v1.0.0/privilege-governance-assessment.json",
+                      "privileged_inventory":  "artifacts/development/SPT-024.9-Capa2-v1.0.0/privileged-access-inventory.json",
+                      "lifecycle_baseline":  "artifacts/development/SPT-024.9-Capa2-v1.0.0/access-lifecycle-baseline.json",
+                      "pam_baseline":  "artifacts/development/SPT-024.9-Capa2-v1.0.0/pam-control-baseline.json",
+                      "integrity_manifest":  "artifacts/development/SPT-024.9-Capa2-v1.0.0/privilege-governance-integrity-manifest.json"
+                  },
+    "real_privilege_granted":  false,
+    "real_privilege_revoked":  false,
+    "token_rotated":  false,
+    "secret_read":  false,
+    "command_executed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

@@ -1,0 +1,95 @@
+{
+  "status": "PRIVILEGE_GOVERNANCE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "PAM-SERVICE-IDENTITY",
+      "name": "Service identity governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Service identity is owner-bound, role-confined and credential-indirect."
+    },
+    {
+      "control_id": "PAM-JIT",
+      "name": "Just-in-time privileged access",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "High-risk privileges require JIT PAM session controls."
+    },
+    {
+      "control_id": "PAM-APPROVAL",
+      "name": "Dual-control privileged approval",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Privileged request requires separated requester and approver."
+    },
+    {
+      "control_id": "PAM-LIFECYCLE",
+      "name": "Access lifecycle governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Privileged access lifecycle supports request, approval, activation, revocation and closure."
+    },
+    {
+      "control_id": "PAM-NO-STANDING-ADMIN",
+      "name": "No standing unrestricted administrator access",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Gate models privileged sessions without materializing credentials or executing commands."
+    },
+    {
+      "control_id": "PAM-SECRET-SAFETY",
+      "name": "Privileged credential secrecy",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Credential references remain indirect and secret values are not read or exposed."
+    },
+    {
+      "control_id": "PAM-NO-SIDE-EFFECTS",
+      "name": "No operational privilege side effects",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "No real privilege, command, token or external action is executed by the gate."
+    }
+  ],
+  "service_identity": {
+    "valid": true,
+    "owner_present": true,
+    "credential_reference_indirect": true,
+    "role_scope_valid": true,
+    "secret_values_exposed": false
+  },
+  "approval": {
+    "valid": true,
+    "high_risk": true,
+    "separation_of_approval": true,
+    "secret_values_exposed": false
+  },
+  "lifecycle_final_state": "CLOSED",
+  "pam_session": {
+    "grant_id": "PAM-GRANT-001",
+    "permission": "publication:publish",
+    "pam_required": true,
+    "session_mode": "JUST_IN_TIME",
+    "credential_materialized": false,
+    "secret_read": false,
+    "command_executed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "discovered_privileged_surfaces": 1218,
+  "real_privilege_granted": false,
+  "real_privilege_revoked": false,
+  "token_rotated": false,
+  "secret_read": false,
+  "command_executed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

@@ -1,0 +1,29 @@
+{
+  "session": {
+    "grant_id": "PAM-GRANT-001",
+    "permission": "publication:publish",
+    "pam_required": true,
+    "session_mode": "JUST_IN_TIME",
+    "credential_materialized": false,
+    "secret_read": false,
+    "command_executed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "approval": {
+    "valid": true,
+    "high_risk": true,
+    "separation_of_approval": true,
+    "secret_values_exposed": false
+  },
+  "service_identity": {
+    "valid": true,
+    "owner_present": true,
+    "credential_reference_indirect": true,
+    "role_scope_valid": true,
+    "secret_values_exposed": false
+  },
+  "standing_admin": false,
+  "credential_materialized": false,
+  "secret_values_exposed": false
+}

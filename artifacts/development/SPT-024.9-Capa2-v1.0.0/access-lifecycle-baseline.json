@@ -1,0 +1,13 @@
+{
+  "states": [
+    "REQUESTED",
+    "APPROVED",
+    "ACTIVE",
+    "SUSPENDED",
+    "EXPIRED",
+    "REVOKED",
+    "CLOSED"
+  ],
+  "sample_final_state": "CLOSED",
+  "real_privilege_changes": false
+}

@@ -1,0 +1,31 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 5,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/access-lifecycle-baseline.json",
+      "bytes": 211,
+      "sha256": "4e5e1abf461b6155e133203f5744a354daf4fa30d5c50f884cac7c627e4aeb6a"
+    },
+    {
+      "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/pam-control-baseline.json",
+      "bytes": 773,
+      "sha256": "8e636430de8405cc751c6aa74d64b75f2c70023394f242b599b51c8768b2c2eb"
+    },
+    {
+      "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/privilege-governance-assessment.json",
+      "bytes": 3027,
+      "sha256": "4431aae596c65c36460d12c302414ecbca2ebc0ee2d152c3729d7fce1baf2df3"
+    },
+    {
+      "path": "artifacts/development/SPT-024.9-Capa2-v1.0.0/privileged-access-inventory.json",
+      "bytes": 69345,
+      "sha256": "56c102d7636781bb3b71a530c4b13aca31d633237e87846981c014d910bd5bc5"
+    },
+    {
+      "path": "config/integration/spt0249/privilege-governance-pam-policy.json",
+      "bytes": 1076,
+      "sha256": "cf2a50162e9006dfa8927ae2a072ee7adcb6f5dcbc0754381cdc0d51850490c7"
+    }
+  ]
+}

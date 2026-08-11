@@ -1,0 +1,45 @@
+{
+  "component": "SPT-024.9",
+  "layer": "2",
+  "version": "1.0.0",
+  "title": "Gobierno de Privilegios, Identidades de Servicio, Ciclo de Vida de Accesos y PAM",
+  "blocking_controls": [
+    "PAM-SERVICE-IDENTITY",
+    "PAM-JIT",
+    "PAM-APPROVAL",
+    "PAM-LIFECYCLE",
+    "PAM-NO-STANDING-ADMIN",
+    "PAM-SECRET-SAFETY",
+    "PAM-NO-SIDE-EFFECTS"
+  ],
+  "privileged_access": {
+    "default_mode": "JUST_IN_TIME",
+    "standing_admin": false,
+    "dual_control_required": true,
+    "justification_required": true,
+    "expiration_required": true
+  },
+  "service_identity": {
+    "owner_required": true,
+    "human_roles_disallowed": true,
+    "credential_reference_only": true
+  },
+  "lifecycle": [
+    "REQUESTED",
+    "APPROVED",
+    "ACTIVE",
+    "SUSPENDED",
+    "EXPIRED",
+    "REVOKED",
+    "CLOSED"
+  ],
+  "safety": {
+    "grant_real_privilege": false,
+    "revoke_real_privilege": false,
+    "rotate_tokens": false,
+    "read_secret_values": false,
+    "execute_commands": false,
+    "open_external_connections": false,
+    "modify_closed_components": false
+  }
+}
