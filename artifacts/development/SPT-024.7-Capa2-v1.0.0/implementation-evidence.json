@@ -1,0 +1,25 @@
+{
+    "component":  "SPT-024.7",
+    "layer":  "2",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T03:25:39.9589442Z",
+    "authoritative_baseline":  "fbd10fdce5e8e0f51b437a270ee3b57c4ffef9eb",
+    "gates":  {
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "supply_chain_layer2":  "PASS",
+                  "preservation":  "PENDING",
+                  "staging":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "assessment":  "artifacts/development/SPT-024.7-Capa2-v1.0.0/supply-chain-layer2-assessment.json",
+                      "sbom":  "artifacts/development/SPT-024.7-Capa2-v1.0.0/sbom-layer2.json",
+                      "integrity":  "artifacts/development/SPT-024.7-Capa2-v1.0.0/integrity-manifest-layer2.json"
+                  },
+    "workflow_executed":  false,
+    "package_installed":  false,
+    "release_published":  false,
+    "secret_values_exposed":  false
+}

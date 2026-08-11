@@ -1,0 +1,90 @@
+{
+  "status": "SUPPLY_CHAIN_LAYER2_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "SC2-ACTIONS-MUTABLE",
+      "name": "No mutable action references",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "No mutable action refs."
+    },
+    {
+      "control_id": "SC2-WRITE-ALL",
+      "name": "No permissions write-all",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "No write-all workflow permissions."
+    },
+    {
+      "control_id": "SC2-DANGEROUS-RUN",
+      "name": "No dangerous dynamic shell execution",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "No dangerous run marker."
+    },
+    {
+      "control_id": "SC2-DEPENDENCY-SOURCE",
+      "name": "Secure dependency sources",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Dependency source integrity passed."
+    },
+    {
+      "control_id": "SC2-LOCKFILE",
+      "name": "Lockfile governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Lockfile companion policy passed."
+    },
+    {
+      "control_id": "SC2-VULNERABILITY",
+      "name": "Known vulnerability gate",
+      "passed": true,
+      "blocking": true,
+      "applicable": false,
+      "detail": "Vulnerability auditor unavailable; control non-applicable."
+    },
+    {
+      "control_id": "SC2-ACTIONS-SHA",
+      "name": "Third-party actions immutable SHA hardening",
+      "passed": false,
+      "blocking": false,
+      "applicable": true,
+      "detail": "6 non-SHA action ref(s) remain as hardening advisory."
+    }
+  ],
+  "hardening": {
+    "mutable_action_refs": [],
+    "unpinned_action_refs": [
+      ".github/workflows/spb-003-2-closure-audit.yml:actions/checkout@v4",
+      ".github/workflows/spb-003-2-closure-audit.yml:actions/setup-python@v5",
+      ".github/workflows/spb-003.2-closure.yml:actions/checkout@v4",
+      ".github/workflows/spb-003.2-closure.yml:actions/setup-python@v5",
+      ".github/workflows/utf8-repository-compliance.yml:actions/checkout@v4",
+      ".github/workflows/utf8-repository-compliance.yml:actions/setup-python@v5"
+    ],
+    "write_all_permissions": [],
+    "dangerous_run_markers": []
+  },
+  "dependencies": {
+    "insecure_sources": [],
+    "unpinned_vcs": [],
+    "missing_lock_companion": []
+  },
+  "vulnerability": {
+    "available": false,
+    "executed": false,
+    "blocking_vulnerabilities": 0,
+    "advisory": "pip-audit not installed; no package installation performed."
+  },
+  "workflow_executed": false,
+  "package_installed": false,
+  "release_published": false,
+  "secret_values_exposed": false
+}

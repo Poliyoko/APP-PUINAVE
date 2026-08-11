@@ -1,0 +1,16 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 2,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.7-Capa2-v1.0.0/sbom-layer2.json",
+      "bytes": 3391,
+      "sha256": "99c6cfc7331104d7a259a2524ad03b74360880dde69c7e2eadadf703e6881bed"
+    },
+    {
+      "path": "artifacts/development/SPT-024.7-Capa2-v1.0.0/supply-chain-layer2-assessment.json",
+      "bytes": 2820,
+      "sha256": "d0cd5deb39f38f49576e5642102ff95a0f774150136a1b6bcc06ac8a818c3818"
+    }
+  ]
+}

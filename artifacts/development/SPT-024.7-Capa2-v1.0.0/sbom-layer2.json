@@ -1,0 +1,103 @@
+{
+  "format": "SGODA-SBOM",
+  "version": "2.0",
+  "component_count": 16,
+  "components": [
+    {
+      "type": "file",
+      "path": ".github/workflows/builder-ci.yml",
+      "sha256": "974b98fd7fd0fa776d83b86455956f7f0390251072abd6560cb62bd6a774ac22",
+      "bytes": 2585
+    },
+    {
+      "type": "file",
+      "path": ".github/workflows/release.yml",
+      "sha256": "2d8c8bc3e979bafd33f8a18f438708f6db888d8b501755a9b2ce27d5afcd0623",
+      "bytes": 3109
+    },
+    {
+      "type": "file",
+      "path": ".github/workflows/spb-003-2-closure-audit.yml",
+      "sha256": "7670b60f47a4839e99e6b87e29aa5aea9b423a8fa8e0e6eba70904401169ae7d",
+      "bytes": 1978
+    },
+    {
+      "type": "file",
+      "path": ".github/workflows/spb-003.2-closure.yml",
+      "sha256": "41990a43f414c3a94a36ace46fa4f2ef78f1cc25c168cdb67922e3289845fa90",
+      "bytes": 807
+    },
+    {
+      "type": "file",
+      "path": ".github/workflows/utf8-repository-compliance.yml",
+      "sha256": "c2290ce092f3fb1f3d25848c5ff40003b7133528f1220ed286eadfce5e0e45c3",
+      "bytes": 452
+    },
+    {
+      "type": "file",
+      "path": "SGODA-PUINAVE/builder/pyproject.toml",
+      "sha256": "77bc1f3dc3d2a36aed7b2324c12bd54f5a51a1f2f8ee6f3404876600909b5f98",
+      "bytes": 905
+    },
+    {
+      "type": "file",
+      "path": "SGODA-PUINAVE/builder/requirements.txt",
+      "sha256": "23f073d6813bedef7c75525d9a49a87b14bed8f2814720ecb5f3b92285244013",
+      "bytes": 60
+    },
+    {
+      "type": "file",
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/builder/pyproject.toml",
+      "sha256": "c5d0bfdb4d9a8a2073b458dca9ab804112f4d992eeef1b60982f5fb703a50b81",
+      "bytes": 1889
+    },
+    {
+      "type": "file",
+      "path": "artifacts/development/spb-003.2-b1.3a/baseline-20260727-235102/builder/requirements.txt",
+      "sha256": "23f073d6813bedef7c75525d9a49a87b14bed8f2814720ecb5f3b92285244013",
+      "bytes": 60
+    },
+    {
+      "type": "file",
+      "path": "artifacts/pmo/SPB-005.3-UTF8-REPOSITORY-STANDARD/backups/requirements.txt",
+      "sha256": "4c494cc3a2d19363f7f61470feb455ac017853474f2400f72ccca117fd36a76d",
+      "bytes": 107
+    },
+    {
+      "type": "file",
+      "path": "builder/pyproject.toml",
+      "sha256": "c5d0bfdb4d9a8a2073b458dca9ab804112f4d992eeef1b60982f5fb703a50b81",
+      "bytes": 1889
+    },
+    {
+      "type": "file",
+      "path": "builder/requirements.txt",
+      "sha256": "23f073d6813bedef7c75525d9a49a87b14bed8f2814720ecb5f3b92285244013",
+      "bytes": 60
+    },
+    {
+      "type": "file",
+      "path": "builder_backup/pyproject.toml",
+      "sha256": "ff90090480e40ea8882c468188dd4b2365428777b92ae4a4c14ec3eaf0a6d166",
+      "bytes": 982
+    },
+    {
+      "type": "file",
+      "path": "builder_backup_20260713_175707/pyproject.toml",
+      "sha256": "e1722a4dda5cfed3262cb4da3dff4cbd6cf96ed29d3d5d9cabcefdb40f6e4699",
+      "bytes": 658
+    },
+    {
+      "type": "file",
+      "path": "builder_backup_20260713_175707/requirements.txt",
+      "sha256": "ad9b20a64cb20e1bf38f182e3f2fdd82a7c9bba6944ea5f8f188a42cf5d712ef",
+      "bytes": 16
+    },
+    {
+      "type": "file",
+      "path": "requirements.txt",
+      "sha256": "ac152fb2e634b7a7f687ee8edad9575002904aaef8dfc47c9c7fa3f724dca329",
+      "bytes": 128
+    }
+  ]
+}

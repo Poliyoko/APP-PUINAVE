@@ -1,0 +1,24 @@
+{
+  "component": "SPT-024.7",
+  "layer": "2",
+  "version": "1.0.0",
+  "title": "Hardening, Integridad, Vulnerabilidades y Gobierno de la Cadena de Suministro",
+  "blocking_controls": [
+    "SC2-ACTIONS-MUTABLE",
+    "SC2-WRITE-ALL",
+    "SC2-DANGEROUS-RUN",
+    "SC2-DEPENDENCY-SOURCE",
+    "SC2-LOCKFILE",
+    "SC2-VULNERABILITY"
+  ],
+  "advisory_controls": [
+    "SC2-ACTIONS-SHA"
+  ],
+  "safety": {
+    "execute_workflows": false,
+    "install_packages": false,
+    "publish_releases": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}
