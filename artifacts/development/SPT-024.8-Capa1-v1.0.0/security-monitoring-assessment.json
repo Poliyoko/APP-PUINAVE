@@ -1,0 +1,63 @@
+{
+  "status": "SECURITY_MONITORING_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "MON-SECRET-SAFETY",
+      "name": "No secret-like values written to logs",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "No secret-like logging patterns detected."
+    },
+    {
+      "control_id": "MON-INTEGRITY",
+      "name": "Tamper-evident security event chain",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "SHA-256 chained event integrity available."
+    },
+    {
+      "control_id": "MON-INCIDENT-LIFECYCLE",
+      "name": "Incident lifecycle governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Incident lifecycle states and fingerprints implemented."
+    },
+    {
+      "control_id": "MON-AUDIT-METADATA",
+      "name": "Safe audit metadata",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Findings expose metadata/fingerprints only."
+    },
+    {
+      "control_id": "MON-TRACE-HARDENING",
+      "name": "Exception trace hardening",
+      "passed": true,
+      "blocking": false,
+      "applicable": true,
+      "detail": "No explicit full traceback logging markers detected."
+    }
+  ],
+  "findings": [],
+  "integrity_chain": [
+    {
+      "index": 1,
+      "previous_hash": "",
+      "sha256": "c9ac32eca442a98b1aec493b64eed62ef78077b31bbbdc6301242b16d0a41115"
+    },
+    {
+      "index": 2,
+      "previous_hash": "c9ac32eca442a98b1aec493b64eed62ef78077b31bbbdc6301242b16d0a41115",
+      "sha256": "b46df497dd53009a1f547cf318d33013a61224a60c0eb2ef1c9563f91852d85d"
+    }
+  ],
+  "service_started": false,
+  "external_connection_opened": false,
+  "incident_action_executed": false,
+  "secret_values_exposed": false
+}

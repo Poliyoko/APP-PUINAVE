@@ -1,0 +1,27 @@
+{
+  "component": "SPT-024.8",
+  "layer": "1",
+  "version": "1.0.0",
+  "title": "Monitoreo, Registro, DetecciÃ³n y Respuesta a Incidentes",
+  "blocking_controls": [
+    "MON-SECRET-SAFETY",
+    "MON-INTEGRITY",
+    "MON-INCIDENT-LIFECYCLE",
+    "MON-AUDIT-METADATA"
+  ],
+  "advisory_controls": [
+    "MON-TRACE-HARDENING"
+  ],
+  "retention": {
+    "policy_required": true,
+    "secret_values_in_logs": false,
+    "fingerprint_only_findings": true
+  },
+  "safety": {
+    "start_services": false,
+    "open_external_connections": false,
+    "execute_incident_actions": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}

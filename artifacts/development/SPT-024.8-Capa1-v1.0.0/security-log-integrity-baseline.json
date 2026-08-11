@@ -1,0 +1,16 @@
+{
+  "algorithm": "SHA-256",
+  "event_chain": [
+    {
+      "index": 1,
+      "previous_hash": "",
+      "sha256": "9fb0a9b238d16e9b8b7914b59739548de84e773958fb0f1fadc29d55f3f5ce98"
+    },
+    {
+      "index": 2,
+      "previous_hash": "9fb0a9b238d16e9b8b7914b59739548de84e773958fb0f1fadc29d55f3f5ce98",
+      "sha256": "92ecf365f89eb93082297feb350e6ad9c8303fa1d8ff9de1af93af0d8f771abe"
+    }
+  ],
+  "secret_values_exposed": false
+}
