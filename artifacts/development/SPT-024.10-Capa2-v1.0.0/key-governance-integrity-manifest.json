@@ -1,0 +1,36 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 6,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-custody-revocation-baseline.json",
+      "bytes": 570,
+      "sha256": "f394728556ddbdedffe7e4c7a6d1137255dee30e1af314ad09b612fde6f87ac4"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-governance-surface-inventory.json",
+      "bytes": 82458,
+      "sha256": "a42bb22714b5dc09f8dad0a93627059a0d53575e8159807b8fb1e0ffaace3ea2"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-baseline.json",
+      "bytes": 195,
+      "sha256": "d9a9adad6ac84d52585f1cdf3700d4135e6df74148fe8d38f5f6c469dc02f4c4"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-governance-assessment.json",
+      "bytes": 3449,
+      "sha256": "9242b73b22e05dfd3e279d9094926748d24f28a35a8f67a66ef36126434e0c32"
+    },
+    {
+      "path": "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-rotation-versioning-baseline.json",
+      "bytes": 564,
+      "sha256": "b86608de2c5eae01d64eb09485afb70214da4e23a59b6b8d60b213cf64527d03"
+    },
+    {
+      "path": "config/integration/spt02410/key-lifecycle-governance-policy.json",
+      "bytes": 1090,
+      "sha256": "b2b79bc783653da570f7525484c82c53d2e950088a1991cabe5df3fd3119b33b"
+    }
+  ]
+}

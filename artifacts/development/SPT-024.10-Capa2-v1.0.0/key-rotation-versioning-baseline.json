@@ -1,0 +1,23 @@
+{
+  "versioning": {
+    "valid": true,
+    "version_count": 3,
+    "unique_versions": true,
+    "positive_versions": true,
+    "ordered": true,
+    "single_key_family": true
+  },
+  "rotation_plan": {
+    "valid": true,
+    "key_id": "SGODA-DATA-KEY",
+    "from_version": 3,
+    "to_version": 4,
+    "rotation_interval_days": 90,
+    "approval_required": true,
+    "rotation_executed": false,
+    "key_material_read": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "real_rotation_executed": false
+}

@@ -1,0 +1,21 @@
+{
+  "custody": {
+    "valid": true,
+    "separation_of_custody": true,
+    "recovery_authority_separated": true,
+    "key_material_read": false,
+    "secret_values_exposed": false
+  },
+  "revocation_plan": {
+    "valid": true,
+    "key_id": "SGODA-DATA-KEY",
+    "version": 2,
+    "reason": "Cryptographic lifecycle retirement",
+    "approved_by": "PISI_SECURITY_OWNER",
+    "revocation_executed": false,
+    "key_material_read": false,
+    "secret_values_exposed": false
+  },
+  "real_revocation_executed": false,
+  "secret_values_exposed": false
+}

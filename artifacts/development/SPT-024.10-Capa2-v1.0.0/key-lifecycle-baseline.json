@@ -1,0 +1,12 @@
+{
+  "states": [
+    "PLANNED",
+    "ACTIVE",
+    "ROTATION_DUE",
+    "RETIRED",
+    "REVOKED",
+    "DESTROYED"
+  ],
+  "sample_final_state": "DESTROYED",
+  "real_key_changes": false
+}

@@ -1,0 +1,115 @@
+{
+  "status": "KEY_LIFECYCLE_GOVERNANCE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "KEY-LIFECYCLE",
+      "name": "Cryptographic key lifecycle",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Lifecycle supports activation, rotation due, retirement and destruction."
+    },
+    {
+      "control_id": "KEY-VERSIONING",
+      "name": "Cryptographic key versioning",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Key versions are positive, unique, ordered and belong to one key family."
+    },
+    {
+      "control_id": "KEY-ROTATION",
+      "name": "Planned key rotation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Rotation is planned, versioned and approval-gated."
+    },
+    {
+      "control_id": "KEY-REVOCATION",
+      "name": "Key revocation governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Revocation requires key identity, version, reason and approval."
+    },
+    {
+      "control_id": "KEY-CUSTODY",
+      "name": "Separated key custody",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Ownership, dual custody and recovery authority are separated."
+    },
+    {
+      "control_id": "KEY-NO-REAL-MATERIAL",
+      "name": "No real key material access",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Gate never reads production key material."
+    },
+    {
+      "control_id": "KEY-NO-SIDE-EFFECTS",
+      "name": "No operational key mutation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Gate models lifecycle operations without executing production changes."
+    },
+    {
+      "control_id": "KEY-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Evidence contains governance metadata only."
+    }
+  ],
+  "lifecycle_final_state": "DESTROYED",
+  "versioning": {
+    "valid": true,
+    "version_count": 3,
+    "unique_versions": true,
+    "positive_versions": true,
+    "ordered": true,
+    "single_key_family": true
+  },
+  "custody": {
+    "valid": true,
+    "separation_of_custody": true,
+    "recovery_authority_separated": true,
+    "key_material_read": false,
+    "secret_values_exposed": false
+  },
+  "rotation_plan": {
+    "valid": true,
+    "key_id": "SGODA-DATA-KEY",
+    "from_version": 3,
+    "to_version": 4,
+    "rotation_interval_days": 90,
+    "approval_required": true,
+    "rotation_executed": false,
+    "key_material_read": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "revocation_plan": {
+    "valid": true,
+    "key_id": "SGODA-DATA-KEY",
+    "version": 2,
+    "reason": "Cryptographic lifecycle retirement",
+    "approved_by": "PISI_SECURITY_OWNER",
+    "revocation_executed": false,
+    "key_material_read": false,
+    "secret_values_exposed": false
+  },
+  "discovered_key_governance_surfaces": 1388,
+  "real_key_material_read": false,
+  "real_key_rotated": false,
+  "real_key_revoked": false,
+  "production_crypto_changed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

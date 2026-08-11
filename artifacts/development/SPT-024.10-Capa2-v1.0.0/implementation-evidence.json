@@ -1,0 +1,32 @@
+{
+    "component":  "SPT-024.10",
+    "layer":  "2",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-11T06:18:56.7433718Z",
+    "authoritative_baseline":  "8c31043dc513e4b0778d3da28d0a6fb7300ab543",
+    "final_status":  "KEY_LIFECYCLE_GOVERNANCE_GATE_PASS",
+    "gates":  {
+                  "capa1_cryptographic_protection":  "PASS",
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "key_lifecycle_governance":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "artifacts":  {
+                      "assessment":  "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-governance-assessment.json",
+                      "inventory":  "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-governance-surface-inventory.json",
+                      "lifecycle":  "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-lifecycle-baseline.json",
+                      "rotation_versioning":  "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-rotation-versioning-baseline.json",
+                      "custody_revocation":  "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-custody-revocation-baseline.json",
+                      "integrity_manifest":  "artifacts/development/SPT-024.10-Capa2-v1.0.0/key-governance-integrity-manifest.json"
+                  },
+    "real_key_material_read":  false,
+    "real_key_rotated":  false,
+    "real_key_revoked":  false,
+    "production_crypto_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}
