@@ -1,0 +1,53 @@
+{
+  "component": "SPT-024.13",
+  "layer": 3,
+  "version": "1.0.0",
+  "title": "Gobierno Final de Continuidad, Quality Gates, Recertificacion de Recuperacion, Resiliencia, RTO/RPO, Failover y Cierre Institucional",
+  "blocking_controls": [
+    "layer1_continuity_gate",
+    "layer2_recovery_gate",
+    "backup_governance",
+    "recovery_strategy_governance",
+    "restore_test_governance",
+    "advanced_rto_rpo_governance",
+    "availability_governance",
+    "redundancy_governance",
+    "controlled_failover_governance",
+    "contingency_governance",
+    "recertification_complete",
+    "evidence_integrity",
+    "preservation_governance",
+    "no_real_restore",
+    "no_real_failover",
+    "no_real_service_or_traffic_action"
+  ],
+  "recertification": {
+    "periodic": true,
+    "domains": [
+      "backup-governance",
+      "recovery-governance",
+      "rto-rpo-governance",
+      "availability-resilience",
+      "redundancy-governance",
+      "controlled-failover",
+      "contingency-governance"
+    ]
+  },
+  "closure": {
+    "requires_layer1_pass": true,
+    "requires_layer2_pass": true,
+    "requires_sha256_integrity": true,
+    "requires_repository_sync": true
+  },
+  "safety": {
+    "execute_restore": false,
+    "execute_failover": false,
+    "restart_services": false,
+    "shift_traffic": false,
+    "modify_infrastructure": false,
+    "modify_production_data": false,
+    "external_connections": false,
+    "secret_values_exposed": false,
+    "modify_closed_layers": false
+  }
+}

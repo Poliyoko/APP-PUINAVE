@@ -1,0 +1,54 @@
+[
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa1-v1.0.0/continuity-resilience-assessment.json",
+        "sha256":  "A71CDAB593A1A8E238F0DD946F8803E5794F1B65F8CA5AF1F091FE41059A5DCE"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa1-v1.0.0/continuity-resilience-integrity-manifest.json",
+        "sha256":  "A9D660B4B5953C1362B9E070B50A8C09904705A5556B06BCC9C3BAB9EE27430F"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa1-v1.0.0/implementation-evidence.json",
+        "sha256":  "204543E22E45DE3B97F718C37A3E9AEAEA27ADA50765DC75B4FDFA92F560BA6F"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/continuity-recovery-governance-assessment.json",
+        "sha256":  "BE6B27809D9441584B68C18052342EB7FB254242D134A2ACCBA7B9392701F87C"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/continuity-recovery-integrity-manifest.json",
+        "sha256":  "BCC7999AAC1D7E328688F58BB53231393936EE6A5FF879A3B25C699EF58687B0"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/implementation-evidence.json",
+        "sha256":  "190DC19580070056F882621591367B6C9F4A055817A95DDB6F9FCAA9CDFE3570"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/recovery-strategy-baseline.json",
+        "sha256":  "50B046F14657CCF7E7905C901A4E6C30BE0D68F724403FE243B25E39E7FBC5BF"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/restore-testing-baseline.json",
+        "sha256":  "C4939C8974DE392001DD0E347C53EA9639038CD413BEBD09D51F904BBAAE38E6"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/rto-rpo-advanced-baseline.json",
+        "sha256":  "E6A7FFD4DA9E72CD8834C828BF4DDFFA6491381CCF04C9FF0FD6E060E093BC05"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/redundancy-governance-baseline.json",
+        "sha256":  "0F9EB3223ED8783951B57553112CE7480DC6AE98CB3D6F31D66D25D2856B77B8"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.13-Capa2-v1.0.0/controlled-failover-baseline.json",
+        "sha256":  "3D3D0F5922CA6F5BC570A50420755D46F9AFD4176B9C005B02FB713FD1B6F8D7"
+    },
+    {
+        "path":  "config/integration/spt02413/continuity-resilience-policy.json",
+        "sha256":  "9A5AEDDE0FB8D8C8B030AC77D46EC4A97DC6C6413A05A4FA4AA9003350F822E6"
+    },
+    {
+        "path":  "config/integration/spt02413/continuity-recovery-governance-policy.json",
+        "sha256":  "5A3371B33DC83565C1C313DD8CBB6FDDC696AA45457D98858384AF45E4D7299F"
+    }
+]

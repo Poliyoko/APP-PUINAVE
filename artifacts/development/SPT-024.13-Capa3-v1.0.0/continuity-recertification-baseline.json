@@ -1,0 +1,37 @@
+[
+    {
+        "domain":  "backup_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.13-Capa1"
+    },
+    {
+        "domain":  "recovery_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.13-Capas1-2"
+    },
+    {
+        "domain":  "rto_rpo_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.13-Capas1-2"
+    },
+    {
+        "domain":  "availability_resilience",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.13-Capa1"
+    },
+    {
+        "domain":  "redundancy_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.13-Capa2"
+    },
+    {
+        "domain":  "controlled_failover",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.13-Capa2"
+    },
+    {
+        "domain":  "contingency_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.13-Capa1"
+    }
+]
