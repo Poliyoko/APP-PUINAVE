@@ -1,0 +1,49 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt02417/final-infrastructure-governance-closure-policy.json",
+                        "sha256":  "E115646938FB2C542197C121CA0315B7DDA05F27E623C4D298ABF2DFED3E5822"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.17/SGD-SPT024.17-Capa3-Gobierno-Final-Infraestructura-Recertificacion-Cierre.md",
+                        "sha256":  "A2A5BD488609167B16FC95554A9BFF673656D657D541396668AF408CC56AD368"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa3-v1.0.0/final-infrastructure-governance-assessment.json",
+                        "sha256":  "390B24ACEB86F96B5EF67702F262535FD13BC8C6163BBFE7B43F17ED1339C397"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa3-v1.0.0/infrastructure-recertification-baseline.json",
+                        "sha256":  "7713B2F262915743F2233367B3043FCECCDE9BE40A865A3058A01C0181CD9FBA"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa3-v1.0.0/infrastructure-closure-ledger.json",
+                        "sha256":  "B0A2131B032A5C9FA2F565D34B36E1B40E703D778123F4AA00EDEF67B304EA74"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/infrastructure-security-governance-assessment.json",
+                        "sha256":  "5A848596BB84A58897479414CBF2CE58F72B61347063A5D97B7114C1A2C23700"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/infrastructure-security-integrity-manifest.json",
+                        "sha256":  "E93F99ABF7EDC190B1D4B1A4925A6101D15EE5CCD0C257030C792F96E8F2716D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/implementation-evidence.json",
+                        "sha256":  "B27BCCAD446CB976AD0C224381078EC8292E226228D1EDEB310031CE81148D38"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa2-v1.0.0/advanced-infrastructure-hardening-assessment.json",
+                        "sha256":  "D4CD14BED434247A8CA623EDBDDAD1462BA2955B85F36884B56CF9895DD3515F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa2-v1.0.0/advanced-infrastructure-integrity-manifest.json",
+                        "sha256":  "6022C04167DA92FB6841CA484B17CE362E2A8E741E0380AE2040E764FE5B410C"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa2-v1.0.0/implementation-evidence.json",
+                        "sha256":  "F26F3BCDE3A857B5CDBC261752196CB7D543159C2F794BF60F84816A85FC605B"
+                    }
+                ]
+}

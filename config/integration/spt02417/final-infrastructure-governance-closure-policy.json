@@ -1,0 +1,11 @@
+{
+  "component": "SPT-024.17",
+  "layer": 3,
+  "version": "1.0.0",
+  "authoritative_baseline": "48656b842d71188453f163337c69c37ccc063e8d",
+  "requires_layer1": "INFRASTRUCTURE_SECURITY_GOVERNANCE_GATE_PASS",
+  "requires_layer2": "ADVANCED_INFRASTRUCTURE_HARDENING_GOVERNANCE_GATE_PASS",
+  "blocking_controls": 24,
+  "recertification_records": 9,
+  "non_destructive": true
+}

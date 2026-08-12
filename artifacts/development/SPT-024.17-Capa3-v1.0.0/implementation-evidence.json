@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-024.17",
+    "layer":  3,
+    "version":  "1.0.0",
+    "baseline":  "48656b842d71188453f163337c69c37ccc063e8d",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "final_gate":  "FINAL_INFRASTRUCTURE_GOVERNANCE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "closed_components_preserved":  true,
+    "non_destructive":  true
+}

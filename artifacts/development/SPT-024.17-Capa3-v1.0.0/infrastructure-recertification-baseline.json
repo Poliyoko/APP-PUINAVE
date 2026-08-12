@@ -1,0 +1,47 @@
+[
+    {
+        "domain":  "HARDENING",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "SERVICES",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "PORTS",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "NETWORK_SEGMENTATION",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "TLS_SECURE_COMMUNICATIONS",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "SECURE_CONFIGURATION",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "CONFIGURATION_DRIFT",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "INFRASTRUCTURE_CHANGES",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    },
+    {
+        "domain":  "INTEGRITY",
+        "status":  "PASS",
+        "periodic_recertification":  true
+    }
+]

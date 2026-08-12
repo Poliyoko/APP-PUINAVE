@@ -1,0 +1,67 @@
+{
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "final_gate":  "FINAL_INFRASTRUCTURE_GOVERNANCE_GATE_PASS",
+    "blocking_controls":  24,
+    "failed_blocking_controls":  [
+
+                                 ],
+    "recertification":  [
+                            {
+                                "domain":  "HARDENING",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "SERVICES",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "PORTS",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "NETWORK_SEGMENTATION",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "TLS_SECURE_COMMUNICATIONS",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "SECURE_CONFIGURATION",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "CONFIGURATION_DRIFT",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "INFRASTRUCTURE_CHANGES",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            },
+                            {
+                                "domain":  "INTEGRITY",
+                                "status":  "PASS",
+                                "periodic_recertification":  true
+                            }
+                        ],
+    "recertification_records":  9,
+    "active_network_scan_executed":  false,
+    "service_action_executed":  false,
+    "port_changed":  false,
+    "firewall_changed":  false,
+    "network_configuration_changed":  false,
+    "tls_configuration_changed":  false,
+    "drift_remediation_executed":  false,
+    "production_change_executed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false,
+    "closed_components_preserved":  true
+}

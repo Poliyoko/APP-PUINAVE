@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-024.17",
+    "layer":  3,
+    "version":  "1.0.0",
+    "baseline":  "48656b842d71188453f163337c69c37ccc063e8d",
+    "layer1_status":  "INFRASTRUCTURE_SECURITY_GOVERNANCE_GATE_PASS",
+    "layer2_status":  "ADVANCED_INFRASTRUCTURE_HARDENING_GOVERNANCE_GATE_PASS",
+    "final_status":  "INSTITUTIONALLY_CLOSED",
+    "final_gate":  "FINAL_INFRASTRUCTURE_GOVERNANCE_GATE_PASS",
+    "recertification_records":  9,
+    "closed_components_preserved":  true
+}
