@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "treatment": "MITIGATE",
+  "owner_present": true,
+  "due_date_present": true,
+  "approval_required": true,
+  "residual_risk_review": true,
+  "evidence_required": true,
+  "treatment_executed": false,
+  "production_changed": false,
+  "secret_values_exposed": false
+}

@@ -1,0 +1,163 @@
+{
+  "status": "SECURITY_RISK_GOVERNANCE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "RISK-INVENTORY",
+      "name": "Security risk surface inventory",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Security risk surfaces are inventoried."
+    },
+    {
+      "control_id": "RISK-THREAT-GOVERNANCE",
+      "name": "Threat governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Threat taxonomy, assets, vectors and owners are governed."
+    },
+    {
+      "control_id": "RISK-VULNERABILITY-GOVERNANCE",
+      "name": "Vulnerability governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Vulnerability inventory, severity, ownership and SLA are governed."
+    },
+    {
+      "control_id": "RISK-IMPACT-GOVERNANCE",
+      "name": "Impact assessment",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Impact includes CIA, cultural and institutional dimensions."
+    },
+    {
+      "control_id": "RISK-SCORING",
+      "name": "Risk scoring",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Risk combines likelihood and impact."
+    },
+    {
+      "control_id": "RISK-TREATMENT-GOVERNANCE",
+      "name": "Risk treatment governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Treatment requires owner, due date, approval, residual review and evidence."
+    },
+    {
+      "control_id": "RISK-RESIDUAL-REVIEW",
+      "name": "Residual risk review",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Residual risk must be reviewed."
+    },
+    {
+      "control_id": "RISK-NO-ACTIVE-PROBE",
+      "name": "No active threat probe",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Layer 1 does not execute active attack probes."
+    },
+    {
+      "control_id": "RISK-NO-VULN-SCAN",
+      "name": "No active vulnerability scan",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Layer 1 is static and file-based."
+    },
+    {
+      "control_id": "RISK-NO-PRODUCTION-CHANGE",
+      "name": "No production change",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment does not alter production."
+    },
+    {
+      "control_id": "RISK-NO-EXTERNAL-CONNECTION",
+      "name": "No external connection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment stays local."
+    },
+    {
+      "control_id": "RISK-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Evidence contains metadata only."
+    }
+  ],
+  "threat_governance": {
+    "valid": true,
+    "taxonomy_defined": true,
+    "assets_mapped": true,
+    "attack_vectors_reviewed": true,
+    "owners_defined": true,
+    "evidence_required": true,
+    "active_probe_executed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "vulnerability_governance": {
+    "valid": true,
+    "inventory_required": true,
+    "severity_model_defined": true,
+    "remediation_owner_required": true,
+    "sla_defined": true,
+    "evidence_required": true,
+    "scanner_executed": false,
+    "package_changed": false,
+    "production_changed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "impact_assessment": {
+    "valid": true,
+    "confidentiality": 4,
+    "integrity": 5,
+    "availability": 4,
+    "cultural": 5,
+    "institutional": 4,
+    "impact_score": 5,
+    "production_data_modified": false,
+    "secret_values_exposed": false
+  },
+  "risk_assessment": {
+    "valid": true,
+    "likelihood": 3,
+    "impact": 5,
+    "risk_score": 15,
+    "risk_level": "HIGH"
+  },
+  "treatment_governance": {
+    "valid": true,
+    "treatment": "MITIGATE",
+    "owner_present": true,
+    "due_date_present": true,
+    "approval_required": true,
+    "residual_risk_review": true,
+    "evidence_required": true,
+    "treatment_executed": false,
+    "production_changed": false,
+    "secret_values_exposed": false
+  },
+  "risk_surfaces": 4055,
+  "active_probe_executed": false,
+  "vulnerability_scan_executed": false,
+  "treatment_executed": false,
+  "production_changed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

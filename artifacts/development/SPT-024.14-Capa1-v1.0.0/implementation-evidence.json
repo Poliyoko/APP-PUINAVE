@@ -1,0 +1,17 @@
+{
+    "component":  "SPT-024.14",
+    "layer":  1,
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-12T04:25:12.0370250Z",
+    "authoritative_baseline":  "8a60df18f3f6205e01f0173ee15414c21babf5dd",
+    "final_status":  "SECURITY_RISK_GOVERNANCE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "active_probe_executed":  false,
+    "vulnerability_scan_executed":  false,
+    "treatment_executed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

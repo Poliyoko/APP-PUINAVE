@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "taxonomy_defined": true,
+  "assets_mapped": true,
+  "attack_vectors_reviewed": true,
+  "owners_defined": true,
+  "evidence_required": true,
+  "active_probe_executed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

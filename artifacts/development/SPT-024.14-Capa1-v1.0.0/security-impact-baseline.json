@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "confidentiality": 4,
+  "integrity": 5,
+  "availability": 4,
+  "cultural": 5,
+  "institutional": 4,
+  "impact_score": 5,
+  "production_data_modified": false,
+  "secret_values_exposed": false
+}

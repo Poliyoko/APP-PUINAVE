@@ -1,0 +1,42 @@
+{
+  "component": "SPT-024.14",
+  "layer": 1,
+  "version": "1.0.0",
+  "title": "Gestion de Riesgos de Seguridad, Amenazas, Vulnerabilidades, Evaluacion de Impacto y Gobierno de Tratamiento del Riesgo",
+  "blocking_controls": [
+    "RISK-INVENTORY",
+    "RISK-THREAT-GOVERNANCE",
+    "RISK-VULNERABILITY-GOVERNANCE",
+    "RISK-IMPACT-GOVERNANCE",
+    "RISK-SCORING",
+    "RISK-TREATMENT-GOVERNANCE",
+    "RISK-RESIDUAL-REVIEW",
+    "RISK-NO-ACTIVE-PROBE",
+    "RISK-NO-VULN-SCAN",
+    "RISK-NO-PRODUCTION-CHANGE",
+    "RISK-NO-EXTERNAL-CONNECTION",
+    "RISK-SECRET-SAFETY"
+  ],
+  "impact_dimensions": [
+    "confidentiality",
+    "integrity",
+    "availability",
+    "cultural",
+    "institutional"
+  ],
+  "treatment_options": [
+    "MITIGATE",
+    "AVOID",
+    "TRANSFER",
+    "ACCEPT"
+  ],
+  "safety": {
+    "active_probe": false,
+    "active_vulnerability_scan": false,
+    "production_change": false,
+    "package_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_components": false
+  }
+}

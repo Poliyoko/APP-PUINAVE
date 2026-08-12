@@ -1,0 +1,46 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 8,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.14-Capa1-v1.0.0/risk-treatment-governance-baseline.json",
+      "bytes": 298,
+      "sha256": "c14dce18567c87ac88282fe41b7cd931431f0b8342095ae150b058e7f80aa411"
+    },
+    {
+      "path": "artifacts/development/SPT-024.14-Capa1-v1.0.0/security-impact-baseline.json",
+      "bytes": 225,
+      "sha256": "b4d7ceb73456da20e817f5ca02ad087e1a82ca67a989b154bdb819012ebc2b09"
+    },
+    {
+      "path": "artifacts/development/SPT-024.14-Capa1-v1.0.0/security-risk-governance-assessment.json",
+      "bytes": 4732,
+      "sha256": "dc1aad12b3e46dfd8371d6ce7ed92e6db89378b45148004538cb86a1c71c71da"
+    },
+    {
+      "path": "artifacts/development/SPT-024.14-Capa1-v1.0.0/security-risk-register-baseline.json",
+      "bytes": 105,
+      "sha256": "d1bb76ef0dfd8f94b73f6483d707b19df6e58ae36f2bcea7065d420ecb2ba6e6"
+    },
+    {
+      "path": "artifacts/development/SPT-024.14-Capa1-v1.0.0/security-risk-surface-inventory.json",
+      "bytes": 74,
+      "sha256": "1892c33e125d20a39d4c454cbd2574bb663acdd7aaae957d04d468a31ee3d65e"
+    },
+    {
+      "path": "artifacts/development/SPT-024.14-Capa1-v1.0.0/threat-governance-baseline.json",
+      "bytes": 281,
+      "sha256": "4e90ea00ef46e4be2a89c2eee9c771f43c326a1156db527db21c7e0911811aed"
+    },
+    {
+      "path": "artifacts/development/SPT-024.14-Capa1-v1.0.0/vulnerability-governance-baseline.json",
+      "bytes": 348,
+      "sha256": "520ff7e85f129a1b29bc109bccf8048875647156b3088335654fe09c5d8a18a0"
+    },
+    {
+      "path": "config/integration/spt02414/security-risk-governance-policy.json",
+      "bytes": 1047,
+      "sha256": "e5bfa04f4b82e3dc49fcb7fcf6df2e9e69e8134a253e01c0d6e78aca03e71445"
+    }
+  ]
+}
