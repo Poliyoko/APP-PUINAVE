@@ -1,0 +1,21 @@
+{
+  "component": "SPT-024.11",
+  "layer": "2",
+  "version": "1.0.0",
+  "title": "Ciclo de Vida de Datos, Retencion Avanzada, Archivado, Disposicion Controlada, Legal Hold y Gobierno de Privacidad",
+  "blocking_controls": [
+    "DATA-LIFECYCLE",
+    "DATA-ARCHIVE-GOVERNANCE",
+    "DATA-ADVANCED-RETENTION",
+    "DATA-LEGAL-HOLD",
+    "DATA-DISPOSAL-CONTROL",
+    "DATA-PRIVACY-GOVERNANCE",
+    "DATA-NO-DESTRUCTIVE-ACTION",
+    "DATA-NO-SIDE-EFFECTS",
+    "DATA-SECRET-SAFETY"
+  ],
+  "automatic_destructive_disposal": false,
+  "legal_hold_overrides_disposal": true,
+  "archive_execution_by_gate": false,
+  "production_data_mutation_by_gate": false
+}

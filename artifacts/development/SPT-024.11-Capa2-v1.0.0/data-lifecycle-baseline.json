@@ -1,0 +1,12 @@
+{
+  "states": [
+    "ACTIVE",
+    "ARCHIVE_READY",
+    "ARCHIVED",
+    "RETENTION_REVIEW",
+    "DISPOSAL_REVIEW",
+    "LEGAL_HOLD",
+    "CLOSED"
+  ],
+  "sample_final_state": "CLOSED"
+}

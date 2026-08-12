@@ -1,0 +1,16 @@
+{
+  "legal_hold": {
+    "valid": true,
+    "active": true,
+    "release_executed": false,
+    "production_data_deleted": false,
+    "secret_values_exposed": false
+  },
+  "disposal_review": {
+    "eligible": true,
+    "disposal_executed": false,
+    "production_data_deleted": false,
+    "secret_values_exposed": false
+  },
+  "disposal_executed": false
+}

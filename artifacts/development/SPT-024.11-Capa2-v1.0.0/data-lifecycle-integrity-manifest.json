@@ -1,0 +1,41 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 7,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.11-Capa2-v1.0.0/advanced-retention-baseline.json",
+      "bytes": 481,
+      "sha256": "9e74b8cb9c5ee6bbf4e95024abf5808a8eb611e284e4764cf5a84b43ae280508"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa2-v1.0.0/archive-governance-baseline.json",
+      "bytes": 263,
+      "sha256": "0528f54a4ef5a53b42eb2a2d424bdec909e16eb79240bf4de67cb218664bf43b"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa2-v1.0.0/data-lifecycle-baseline.json",
+      "bytes": 197,
+      "sha256": "6f9382b6df3c8dc08f6f7a994945fa18b83ffaa07635158c72b74628d11c617c"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa2-v1.0.0/data-lifecycle-governance-assessment.json",
+      "bytes": 2984,
+      "sha256": "a3d6e21a4e1ef9f26e559edbdf62f9e5767b41937a59a60b3cfa30f875dd9930"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa2-v1.0.0/data-lifecycle-surface-inventory.json",
+      "bytes": 119088,
+      "sha256": "a574af1ec1b19ce3efa5339ea6993f1906b99ffb161aabeede322089617621d1"
+    },
+    {
+      "path": "artifacts/development/SPT-024.11-Capa2-v1.0.0/legal-hold-disposal-baseline.json",
+      "bytes": 370,
+      "sha256": "1b9bc3aa99d95bb95010c3f74ded7cdd577aeeeabb1cb51f8ab06203c2f82e27"
+    },
+    {
+      "path": "config/integration/spt02411/data-lifecycle-governance-policy.json",
+      "bytes": 650,
+      "sha256": "8735d188887204b637a06925dc25dd00456164fb60c4b57998bd4339b03f4738"
+    }
+  ]
+}

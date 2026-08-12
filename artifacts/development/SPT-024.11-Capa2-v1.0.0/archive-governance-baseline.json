@@ -1,0 +1,11 @@
+{
+  "archive_plan": {
+    "valid": true,
+    "archive_format": "JSON",
+    "archive_executed": false,
+    "production_data_modified": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "archive_executed": false
+}

@@ -1,0 +1,19 @@
+{
+  "retention": {
+    "valid": true,
+    "retention_days": 365,
+    "minimum_retention_days": 30,
+    "legal_hold": false,
+    "expired": true,
+    "disposition": "DISPOSAL_REVIEW",
+    "disposal_executed": false,
+    "production_data_deleted": false,
+    "secret_values_exposed": false
+  },
+  "privacy_governance": {
+    "valid": true,
+    "production_policy_changed": false,
+    "external_disclosure_executed": false,
+    "secret_values_exposed": false
+  }
+}

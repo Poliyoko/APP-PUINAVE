@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-024.11",
+    "layer":  "2",
+    "version":  "1.0.0",
+    "authoritative_baseline":  "0e2dcff70b894da808839cbda9931e22a2daf611",
+    "final_status":  "DATA_LIFECYCLE_GOVERNANCE_GATE_PASS",
+    "production_data_modified":  false,
+    "production_data_deleted":  false,
+    "archive_executed":  false,
+    "disposal_executed":  false,
+    "secret_values_exposed":  false
+}

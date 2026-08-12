@@ -1,0 +1,107 @@
+{
+  "status": "DATA_LIFECYCLE_GOVERNANCE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "DATA-LIFECYCLE",
+      "passed": true,
+      "blocking": true,
+      "detail": "Formal lifecycle closes after governed review."
+    },
+    {
+      "control_id": "DATA-ARCHIVE-GOVERNANCE",
+      "passed": true,
+      "blocking": true,
+      "detail": "Archive requires integrity and immutability."
+    },
+    {
+      "control_id": "DATA-ADVANCED-RETENTION",
+      "passed": true,
+      "blocking": true,
+      "detail": "Retention is time-bound."
+    },
+    {
+      "control_id": "DATA-LEGAL-HOLD",
+      "passed": true,
+      "blocking": true,
+      "detail": "Legal hold requires reason and authority."
+    },
+    {
+      "control_id": "DATA-DISPOSAL-CONTROL",
+      "passed": true,
+      "blocking": true,
+      "detail": "Disposal remains review-only."
+    },
+    {
+      "control_id": "DATA-PRIVACY-GOVERNANCE",
+      "passed": true,
+      "blocking": true,
+      "detail": "Purpose/classification/access/minimization/retention jointly reviewed."
+    },
+    {
+      "control_id": "DATA-NO-DESTRUCTIVE-ACTION",
+      "passed": true,
+      "blocking": true,
+      "detail": "No production deletion."
+    },
+    {
+      "control_id": "DATA-NO-SIDE-EFFECTS",
+      "passed": true,
+      "blocking": true,
+      "detail": "No production mutation or disclosure."
+    },
+    {
+      "control_id": "DATA-SECRET-SAFETY",
+      "passed": true,
+      "blocking": true,
+      "detail": "No secret values exposed."
+    }
+  ],
+  "lifecycle_final_state": "CLOSED",
+  "archive_plan": {
+    "valid": true,
+    "archive_format": "JSON",
+    "archive_executed": false,
+    "production_data_modified": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "retention": {
+    "valid": true,
+    "retention_days": 365,
+    "minimum_retention_days": 30,
+    "legal_hold": false,
+    "expired": true,
+    "disposition": "DISPOSAL_REVIEW",
+    "disposal_executed": false,
+    "production_data_deleted": false,
+    "secret_values_exposed": false
+  },
+  "legal_hold": {
+    "valid": true,
+    "active": true,
+    "release_executed": false,
+    "production_data_deleted": false,
+    "secret_values_exposed": false
+  },
+  "disposal_review": {
+    "eligible": true,
+    "disposal_executed": false,
+    "production_data_deleted": false,
+    "secret_values_exposed": false
+  },
+  "privacy_governance": {
+    "valid": true,
+    "production_policy_changed": false,
+    "external_disclosure_executed": false,
+    "secret_values_exposed": false
+  },
+  "discovered_data_lifecycle_surfaces": 1714,
+  "production_data_modified": false,
+  "production_data_deleted": false,
+  "archive_executed": false,
+  "disposal_executed": false,
+  "external_disclosure_executed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}
