@@ -1,0 +1,27 @@
+[
+    {
+        "control":  "secure_configuration_baseline",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.12-Capas1-2"
+    },
+    {
+        "control":  "service_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.12-Capa2"
+    },
+    {
+        "control":  "port_exposure_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.12-Capas1-2"
+    },
+    {
+        "control":  "infrastructure_change_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.12-Capa2"
+    },
+    {
+        "control":  "secret_indirection",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.12-Capas1-2"
+    }
+]

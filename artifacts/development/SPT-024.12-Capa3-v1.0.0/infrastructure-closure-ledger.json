@@ -1,0 +1,50 @@
+[
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa1-v1.0.0/infrastructure-security-assessment.json",
+        "sha256":  "2734E45AD46BEC5A6FF5BCC307376DBDDDE1E993EF6B72E9225DC10DF58A9CB7"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa1-v1.0.0/infrastructure-integrity-manifest.json",
+        "sha256":  "0FDC9F8D296AFA28678448A214517B611FCC6F2F247144BA19617C4522921644"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa1-v1.0.0/implementation-evidence.json",
+        "sha256":  "421D855E3664A4AAA7E32586E5AE9C0C0792F1DE7E565CFB62D185AE2CACDF40"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-hardening-governance-assessment.json",
+        "sha256":  "CFF8938090E3C579BB5B705CF51106B593186EA0C9534F0CDA6D691D8F18294B"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-hardening-integrity-manifest.json",
+        "sha256":  "E36DFF1746B4A009BD45083242A084FB7DE53E477146D111F7569E32334D7196"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/implementation-evidence.json",
+        "sha256":  "9AD926E61D8CB21D1037D27142ADDE270B2640DB9FB1149B9A63B5F059E5E927"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/secure-configuration-baseline.json",
+        "sha256":  "39C87F8A5176D95E7B513399E849B008F2155077871B346C5B3458504C3D73AF"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/service-governance-baseline.json",
+        "sha256":  "2AFC05659AFC9FC372C1D583A0B9EA262E8E25ADA5B578CCF9F53E2723540685"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/port-exposure-governance-baseline.json",
+        "sha256":  "C4B28F7996406B7AFC0530D9715EC99EEB4277EB180CA08E7AE16F0A005E00D8"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-change-governance-baseline.json",
+        "sha256":  "6A65814AC1B5082CF88BF23B9A825C3252681B27AD0F3017C45B315BB87418E0"
+    },
+    {
+        "path":  "config/integration/spt02412/infrastructure-security-policy.json",
+        "sha256":  "8556B67EE67CB66487DBAF8694193A2AABE294F152725ED503886A59D891E755"
+    },
+    {
+        "path":  "config/integration/spt02412/infrastructure-hardening-governance-policy.json",
+        "sha256":  "E683703969309E869B7D7B028E72BA7ABBD828C17B5B68AF17B5A034E331CBB5"
+    }
+]

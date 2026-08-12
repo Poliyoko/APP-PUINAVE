@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-024.12",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "authoritative_baseline":  "20dba08be6c7b1034893b47b0edbfdd5082a69da",
+    "recertification_records":  5,
+    "evidence_ledger_records":  12,
+    "closed_layers":  [
+                          "SPT-024.12-Capa1",
+                          "SPT-024.12-Capa2",
+                          "SPT-024.12-Capa3"
+                      ]
+}

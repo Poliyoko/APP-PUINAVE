@@ -1,0 +1,21 @@
+{
+    "component":  "SPT-024.12",
+    "layer":  3,
+    "version":  "1.0.0",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "layer1_status":  "INFRASTRUCTURE_SECURITY_GATE_PASS",
+    "layer2_status":  "INFRASTRUCTURE_HARDENING_GOVERNANCE_GATE_PASS",
+    "blocking_controls":  14,
+    "failed_blocking_controls":  0,
+    "secure_configuration_baseline":  "PASS",
+    "service_governance":  "PASS",
+    "port_governance":  "PASS",
+    "exposure_governance":  "PASS",
+    "infrastructure_change_governance":  "PASS",
+    "secret_indirection":  "PASS",
+    "production_configuration_changed":  false,
+    "service_action_executed":  false,
+    "network_action_executed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

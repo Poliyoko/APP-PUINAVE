@@ -1,0 +1,46 @@
+{
+  "component": "SPT-024.12",
+  "layer": "3",
+  "version": "1.0.0",
+  "title": "Gobierno Final de Infraestructura, Quality Gates, Recertificacion de Hardening, Gestion de Exposicion y Cierre Institucional",
+  "blocking_controls": [
+    "layer1_infrastructure_gate",
+    "layer2_hardening_gate",
+    "secure_configuration_baseline",
+    "service_governance",
+    "port_governance",
+    "exposure_governance",
+    "infrastructure_change_governance",
+    "secret_indirection",
+    "recertification_complete",
+    "evidence_integrity",
+    "preservation_governance",
+    "no_real_infrastructure_change",
+    "no_service_action",
+    "no_network_action"
+  ],
+  "recertification": {
+    "periodic": true,
+    "domains": [
+      "secure-configuration-baseline",
+      "service-governance",
+      "port-exposure-governance",
+      "infrastructure-change-governance",
+      "secret-indirection"
+    ]
+  },
+  "closure": {
+    "requires_layer1_pass": true,
+    "requires_layer2_pass": true,
+    "requires_sha256_integrity": true,
+    "requires_repository_sync": true
+  },
+  "safety": {
+    "production_configuration_changes": false,
+    "service_actions": false,
+    "network_actions": false,
+    "external_connections": false,
+    "secret_values_exposed": false,
+    "modify_closed_layers": false
+  }
+}
