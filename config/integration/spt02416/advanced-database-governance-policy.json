@@ -1,0 +1,41 @@
+{
+  "component": "SPT-024.16",
+  "layer": 2,
+  "version": "1.0.0",
+  "title": "Gobierno Avanzado de PostgreSQL, Roles y Privilegios, Seguridad de Esquemas, Migraciones, Auditoria Avanzada, Integridad Transaccional y Proteccion de Persistencia",
+  "requires": {
+    "layer1": "DATABASE_SECURITY_GOVERNANCE_GATE_PASS"
+  },
+  "blocking_controls": [
+    "DB2-LAYER1-GATE",
+    "DB2-SURFACE-INVENTORY",
+    "DB2-ROLES-PRIVILEGES",
+    "DB2-SCHEMA-SECURITY",
+    "DB2-MIGRATION-GOVERNANCE",
+    "DB2-ADVANCED-AUDIT",
+    "DB2-TRANSACTION-INTEGRITY",
+    "DB2-PERSISTENCE-PROTECTION",
+    "DB2-POSTGRESQL-GOVERNANCE",
+    "DB2-NO-ROLE-CHANGE",
+    "DB2-NO-SCHEMA-CHANGE",
+    "DB2-NO-MIGRATION-EXECUTION",
+    "DB2-NO-AUDIT-CONFIG-CHANGE",
+    "DB2-NO-TRANSACTION-EXECUTION",
+    "DB2-NO-PERSISTENCE-CHANGE",
+    "DB2-NO-POSTGRES-CONFIG-CHANGE",
+    "DB2-NO-EXTERNAL-CONNECTION",
+    "DB2-SECRET-SAFETY"
+  ],
+  "safety": {
+    "real_role_change": false,
+    "schema_change": false,
+    "migration_execution": false,
+    "audit_configuration_change": false,
+    "transaction_execution": false,
+    "persistence_change": false,
+    "postgresql_configuration_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_layer1": false
+  }
+}

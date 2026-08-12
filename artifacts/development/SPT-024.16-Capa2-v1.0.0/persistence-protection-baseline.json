@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "backup_reference":  true,
+    "restore_governance":  true,
+    "retention_alignment":  true,
+    "encryption_policy_reference":  true,
+    "integrity_hashes":  true,
+    "sensitive_data_classification":  true,
+    "persistence_changed":  false
+}

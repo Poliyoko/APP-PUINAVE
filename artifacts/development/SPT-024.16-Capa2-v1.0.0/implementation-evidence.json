@@ -1,0 +1,21 @@
+{
+    "component":  "SPT-024.16",
+    "layer":  2,
+    "version":  "1.0.0",
+    "authoritative_baseline":  "c47ccfeea6736703a1626a55ad2f6cfd4ec3e2f5",
+    "status":  "ADVANCED_DATABASE_GOVERNANCE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "capa1_reused":  true,
+    "capa1_reopened":  false,
+    "real_role_changed":  false,
+    "schema_changed":  false,
+    "migration_executed":  false,
+    "audit_configuration_changed":  false,
+    "transaction_executed":  false,
+    "persistence_changed":  false,
+    "postgresql_configuration_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

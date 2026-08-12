@@ -1,0 +1,193 @@
+{
+    "status":  "ADVANCED_DATABASE_GOVERNANCE_GATE_PASS",
+    "failed_blocking_controls":  [
+
+                                 ],
+    "controls":  [
+                     {
+                         "control_id":  "DB2-LAYER1-GATE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Layer 1 is required and preserved."
+                     },
+                     {
+                         "control_id":  "DB2-SURFACE-INVENTORY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Advanced database surface inventory exists."
+                     },
+                     {
+                         "control_id":  "DB2-ROLES-PRIVILEGES",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Roles and privileges governance passes."
+                     },
+                     {
+                         "control_id":  "DB2-SCHEMA-SECURITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Schema security governance passes."
+                     },
+                     {
+                         "control_id":  "DB2-MIGRATION-GOVERNANCE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Migration governance passes."
+                     },
+                     {
+                         "control_id":  "DB2-ADVANCED-AUDIT",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Advanced database auditing passes."
+                     },
+                     {
+                         "control_id":  "DB2-TRANSACTION-INTEGRITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Transactional integrity governance passes."
+                     },
+                     {
+                         "control_id":  "DB2-PERSISTENCE-PROTECTION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Persistence protection passes."
+                     },
+                     {
+                         "control_id":  "DB2-POSTGRESQL-GOVERNANCE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "PostgreSQL advanced governance passes."
+                     },
+                     {
+                         "control_id":  "DB2-NO-ROLE-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No real role change."
+                     },
+                     {
+                         "control_id":  "DB2-NO-SCHEMA-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No schema change."
+                     },
+                     {
+                         "control_id":  "DB2-NO-MIGRATION-EXECUTION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No migration executed."
+                     },
+                     {
+                         "control_id":  "DB2-NO-AUDIT-CONFIG-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No audit configuration change."
+                     },
+                     {
+                         "control_id":  "DB2-NO-TRANSACTION-EXECUTION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No transaction executed."
+                     },
+                     {
+                         "control_id":  "DB2-NO-PERSISTENCE-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No persistence change."
+                     },
+                     {
+                         "control_id":  "DB2-NO-POSTGRES-CONFIG-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No PostgreSQL configuration change."
+                     },
+                     {
+                         "control_id":  "DB2-NO-EXTERNAL-CONNECTION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Assessment remains local/static."
+                     },
+                     {
+                         "control_id":  "DB2-SECRET-SAFETY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Secret values are not exposed."
+                     }
+                 ],
+    "surface_count":  1754,
+    "roles_privileges":  {
+                             "valid":  true,
+                             "role_hierarchy_governance":  true,
+                             "least_privilege":  true,
+                             "default_privileges_review":  true,
+                             "service_account_scope":  true,
+                             "privileged_role_separation":  true,
+                             "ownership_governance":  true,
+                             "real_role_changed":  false
+                         },
+    "schema_security":  {
+                            "valid":  true,
+                            "public_schema_governance":  true,
+                            "search_path_governance":  true,
+                            "schema_owner_review":  true,
+                            "create_privilege_review":  true,
+                            "cross_schema_access_review":  true,
+                            "extension_schema_governance":  true,
+                            "schema_changed":  false
+                        },
+    "migration_governance":  {
+                                 "valid":  true,
+                                 "versioned_migrations":  true,
+                                 "forward_only_review":  true,
+                                 "rollback_plan":  true,
+                                 "ddl_review":  true,
+                                 "migration_checksums":  true,
+                                 "environment_promotion_governance":  true,
+                                 "migration_executed":  false
+                             },
+    "advanced_auditing":  {
+                              "valid":  true,
+                              "privileged_statement_audit":  true,
+                              "ddl_audit":  true,
+                              "failed_auth_audit":  true,
+                              "role_change_audit":  true,
+                              "sensitive_table_access_audit":  true,
+                              "audit_integrity":  true,
+                              "audit_configuration_changed":  false
+                          },
+    "transactional_integrity":  {
+                                    "valid":  true,
+                                    "transaction_boundaries":  true,
+                                    "isolation_governance":  true,
+                                    "deadlock_handling":  true,
+                                    "retry_policy":  true,
+                                    "idempotency_governance":  true,
+                                    "consistency_checks":  true,
+                                    "transaction_executed":  false
+                                },
+    "persistence_protection":  {
+                                   "valid":  true,
+                                   "backup_reference":  true,
+                                   "restore_governance":  true,
+                                   "retention_alignment":  true,
+                                   "encryption_policy_reference":  true,
+                                   "integrity_hashes":  true,
+                                   "sensitive_data_classification":  true,
+                                   "persistence_changed":  false
+                               },
+    "postgresql_governance":  {
+                                  "valid":  true,
+                                  "ssl_mode_policy":  true,
+                                  "connection_limit_governance":  true,
+                                  "statement_timeout_governance":  true,
+                                  "idle_transaction_timeout_governance":  true,
+                                  "extension_allowlist":  true,
+                                  "logging_policy":  true,
+                                  "configuration_drift_review":  true,
+                                  "postgresql_configuration_changed":  false
+                              },
+    "production_query_executed":  false,
+    "production_data_changed":  false,
+    "production_configuration_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

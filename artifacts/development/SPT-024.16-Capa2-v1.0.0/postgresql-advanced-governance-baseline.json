@@ -1,0 +1,11 @@
+{
+    "valid":  true,
+    "ssl_mode_policy":  true,
+    "connection_limit_governance":  true,
+    "statement_timeout_governance":  true,
+    "idle_transaction_timeout_governance":  true,
+    "extension_allowlist":  true,
+    "logging_policy":  true,
+    "configuration_drift_review":  true,
+    "postgresql_configuration_changed":  false
+}

@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "role_hierarchy_governance":  true,
+    "least_privilege":  true,
+    "default_privileges_review":  true,
+    "service_account_scope":  true,
+    "privileged_role_separation":  true,
+    "ownership_governance":  true,
+    "real_role_changed":  false
+}

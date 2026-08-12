@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "versioned_migrations":  true,
+    "forward_only_review":  true,
+    "rollback_plan":  true,
+    "ddl_review":  true,
+    "migration_checksums":  true,
+    "environment_promotion_governance":  true,
+    "migration_executed":  false
+}

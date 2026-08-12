@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "public_schema_governance":  true,
+    "search_path_governance":  true,
+    "schema_owner_review":  true,
+    "create_privilege_review":  true,
+    "cross_schema_access_review":  true,
+    "extension_schema_governance":  true,
+    "schema_changed":  false
+}

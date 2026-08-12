@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "transaction_boundaries":  true,
+    "isolation_governance":  true,
+    "deadlock_handling":  true,
+    "retry_policy":  true,
+    "idempotency_governance":  true,
+    "consistency_checks":  true,
+    "transaction_executed":  false
+}

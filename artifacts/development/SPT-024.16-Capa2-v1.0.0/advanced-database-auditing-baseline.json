@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "privileged_statement_audit":  true,
+    "ddl_audit":  true,
+    "failed_auth_audit":  true,
+    "role_change_audit":  true,
+    "sensitive_table_access_audit":  true,
+    "audit_integrity":  true,
+    "audit_configuration_changed":  false
+}
