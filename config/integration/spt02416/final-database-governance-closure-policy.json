@@ -1,0 +1,42 @@
+{
+  "component": "SPT-024.16",
+  "layer": 3,
+  "version": "1.0.0",
+  "title": "Gobierno Final de Seguridad de Bases de Datos y PostgreSQL, Quality Gates, Recertificacion y Cierre Institucional",
+  "requires": {
+    "layer1": "DATABASE_SECURITY_GOVERNANCE_GATE_PASS",
+    "layer2": "ADVANCED_DATABASE_GOVERNANCE_GATE_PASS"
+  },
+  "recertification_domains": [
+    "database_access_governance",
+    "secure_query_governance",
+    "data_integrity_governance",
+    "database_auditing_governance",
+    "postgresql_hardening_governance",
+    "persistence_governance",
+    "roles_privileges_governance",
+    "schema_security_governance",
+    "migration_governance",
+    "advanced_database_auditing",
+    "transactional_integrity_governance",
+    "persistence_protection_governance",
+    "postgresql_advanced_governance"
+  ],
+  "safety": {
+    "real_role_change": false,
+    "schema_change": false,
+    "migration_execution": false,
+    "audit_configuration_change": false,
+    "transaction_execution": false,
+    "persistence_change": false,
+    "postgresql_configuration_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_layers": false
+  },
+  "closure": {
+    "requires_sha256_integrity": true,
+    "requires_preservation_gate": true,
+    "requires_repository_sync": true
+  }
+}

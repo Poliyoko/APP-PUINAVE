@@ -1,0 +1,67 @@
+[
+    {
+        "domain":  "database_access_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa1"
+    },
+    {
+        "domain":  "secure_query_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa1"
+    },
+    {
+        "domain":  "data_integrity_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa1"
+    },
+    {
+        "domain":  "database_auditing_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa1"
+    },
+    {
+        "domain":  "postgresql_hardening_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa1"
+    },
+    {
+        "domain":  "persistence_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa1"
+    },
+    {
+        "domain":  "roles_privileges_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa2"
+    },
+    {
+        "domain":  "schema_security_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa2"
+    },
+    {
+        "domain":  "migration_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa2"
+    },
+    {
+        "domain":  "advanced_database_auditing",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa2"
+    },
+    {
+        "domain":  "transactional_integrity_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa2"
+    },
+    {
+        "domain":  "persistence_protection_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa2"
+    },
+    {
+        "domain":  "postgresql_advanced_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.16-Capa2"
+    }
+]

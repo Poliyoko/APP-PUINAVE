@@ -1,0 +1,78 @@
+[
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-security-governance-assessment.json",
+        "sha256":  "4E22A61E53ECA1C719E13DF2374F53A1811FDDFA04416F8EC508BA23E5F7D611"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-security-integrity-manifest.json",
+        "sha256":  "EA3EACEEAEC29C5F12F2D7CC98D2A787011DD12D950B80524F11DB10121EB2B9"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/implementation-evidence.json",
+        "sha256":  "7BD5FA74C9B128D65A07C4BA2DB26D4917DABB49ED19313189951BB28C7925A4"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-access-governance-baseline.json",
+        "sha256":  "30AA1516A28651AD8D683AEAFA493B377485E2785BA626C3B76EC53EAE356F06"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/secure-query-governance-baseline.json",
+        "sha256":  "CA651A70F885F6513A634724940B391127A820345FEE5AFBCDEA7859257F4124"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/data-integrity-governance-baseline.json",
+        "sha256":  "35CF650F0DBA4BDD7755EFAB710AC08EAA1C8793EC3FB882B98B28C6D090EC0C"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-auditing-baseline.json",
+        "sha256":  "81BB24DFD236DA0FE6E8DC872ACB0FB940AD0483C5900A839F0897ADF65C448B"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/postgresql-hardening-baseline.json",
+        "sha256":  "FFF417FF540A377C1D77055461B62DFF7420CFBBEDBBFE58D9CF8E67A20B50C4"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/persistence-governance-baseline.json",
+        "sha256":  "6C4661524361EE572FA188271917D4186E364EF4E00997D352BEEA9B867B4A47"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/advanced-database-governance-assessment.json",
+        "sha256":  "2E60F75E134D959DE88FC9C1D569BF886CA36CBD8641EE81E23B7B54DDD567B0"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/advanced-database-integrity-manifest.json",
+        "sha256":  "79E6530B9B1E01D84893B4B3EF8E92B640783F7E0EB94240F1A83D2F51EF8E24"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/implementation-evidence.json",
+        "sha256":  "62BD6E7376BE0C2D2FF1196FD56BFE5CE24CF520E4BAEAEE4401C90513F6EBC4"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/roles-privileges-governance-baseline.json",
+        "sha256":  "160227BBC3979D7220D01A6207E36723C0625FB6CADF96F184282D6B0FBD9475"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/schema-security-governance-baseline.json",
+        "sha256":  "034B52FB1F1835DB101B96B115F4FB476095EB7306882F87323ACB7C3A28A73D"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/migration-governance-baseline.json",
+        "sha256":  "E2C47A2CC1FF8DD70781605863ABC7A979679DE19F98E3F4C7B4D7E951780940"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/advanced-database-auditing-baseline.json",
+        "sha256":  "73F75AD05C15DC38E30EF529088BA7D530FF2554C878B0A59046891C5C2BB044"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/transactional-integrity-baseline.json",
+        "sha256":  "F6CC337879F9C92027E1D08BDA7BCDA10F8BEF343DBF369218C54C69C11677AB"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/persistence-protection-baseline.json",
+        "sha256":  "C161B96D6B2CA12FBF945E37924F19FBABA2DA40F0F69CDB89CC21309396F494"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.16-Capa2-v1.0.0/postgresql-advanced-governance-baseline.json",
+        "sha256":  "0E1D3AC9A1583F3E4494C3F5F108E6050BF699F122D9E33F2E9B374EA916D8C5"
+    }
+]
