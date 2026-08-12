@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "roles_defined": true,
+  "escalation": true,
+  "communication": true,
+  "activation_criteria": true,
+  "evidence": true,
+  "periodic_review": true,
+  "contingency_activated": false,
+  "notification_sent": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

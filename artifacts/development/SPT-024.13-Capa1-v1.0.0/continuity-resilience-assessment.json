@@ -1,0 +1,163 @@
+{
+  "status": "CONTINUITY_RESILIENCE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "CONT-INVENTORY",
+      "name": "Continuity and resilience surface inventory",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Relevant continuity, backup, recovery and availability surfaces are inventoried."
+    },
+    {
+      "control_id": "CONT-BACKUP-GOVERNANCE",
+      "name": "Backup governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Backup policy requires schedule, integrity, encryption, retention and separated copy."
+    },
+    {
+      "control_id": "CONT-RECOVERY-GOVERNANCE",
+      "name": "Recovery governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Recovery requires documented procedure, test, RTO/RPO, rollback and evidence."
+    },
+    {
+      "control_id": "CONT-AVAILABILITY-GOVERNANCE",
+      "name": "Availability governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Availability requires health monitoring, dependency inventory and degradation plan."
+    },
+    {
+      "control_id": "CONT-CONTINGENCY-GOVERNANCE",
+      "name": "Contingency governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Contingency requires roles, escalation, communication, activation criteria and review."
+    },
+    {
+      "control_id": "CONT-RTO-RPO",
+      "name": "RTO and RPO governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Recovery objectives must be explicitly governed."
+    },
+    {
+      "control_id": "CONT-INTEGRITY",
+      "name": "Backup and recovery integrity",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Continuity artifacts require integrity and evidence."
+    },
+    {
+      "control_id": "CONT-NO-REAL-BACKUP-RESTORE",
+      "name": "No real backup or restore action",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Layer 1 does not execute backup, restore or failover."
+    },
+    {
+      "control_id": "CONT-NO-SERVICE-ACTION",
+      "name": "No service or traffic action",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment does not restart services or shift traffic."
+    },
+    {
+      "control_id": "CONT-NO-CONTINGENCY-ACTIVATION",
+      "name": "No real contingency activation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment does not activate contingency or send notifications."
+    },
+    {
+      "control_id": "CONT-NO-EXTERNAL-CONNECTION",
+      "name": "No external connection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment remains static and local."
+    },
+    {
+      "control_id": "CONT-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Evidence contains metadata only."
+    }
+  ],
+  "backup_governance": {
+    "valid": true,
+    "versioned": true,
+    "scheduled": true,
+    "integrity": true,
+    "encrypted": true,
+    "retention": true,
+    "separated_copy": true,
+    "backup_executed": false,
+    "production_data_modified": false,
+    "secret_values_exposed": false
+  },
+  "recovery_governance": {
+    "valid": true,
+    "documented": true,
+    "tested": true,
+    "rto_defined": true,
+    "rpo_defined": true,
+    "rollback": true,
+    "evidence": true,
+    "restore_executed": false,
+    "failover_executed": false,
+    "production_data_modified": false,
+    "secret_values_exposed": false
+  },
+  "availability_governance": {
+    "valid": true,
+    "health_monitoring": true,
+    "dependency_inventory": true,
+    "capacity_review": true,
+    "degradation_plan": true,
+    "recovery_priority": true,
+    "service_restarted": false,
+    "traffic_shifted": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "contingency_governance": {
+    "valid": true,
+    "roles_defined": true,
+    "escalation": true,
+    "communication": true,
+    "activation_criteria": true,
+    "evidence": true,
+    "periodic_review": true,
+    "contingency_activated": false,
+    "notification_sent": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "continuity_surfaces": 3952,
+  "backup_executed": false,
+  "restore_executed": false,
+  "failover_executed": false,
+  "service_restarted": false,
+  "traffic_shifted": false,
+  "contingency_activated": false,
+  "notification_sent": false,
+  "production_data_modified": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

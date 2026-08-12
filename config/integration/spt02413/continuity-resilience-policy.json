@@ -1,0 +1,64 @@
+{
+  "component": "SPT-024.13",
+  "layer": "1",
+  "version": "1.0.0",
+  "title": "Continuidad Operacional, Resiliencia, Backup, Recuperacion, Disponibilidad y Gobierno de Contingencias",
+  "blocking_controls": [
+    "CONT-INVENTORY",
+    "CONT-BACKUP-GOVERNANCE",
+    "CONT-RECOVERY-GOVERNANCE",
+    "CONT-AVAILABILITY-GOVERNANCE",
+    "CONT-CONTINGENCY-GOVERNANCE",
+    "CONT-RTO-RPO",
+    "CONT-INTEGRITY",
+    "CONT-NO-REAL-BACKUP-RESTORE",
+    "CONT-NO-SERVICE-ACTION",
+    "CONT-NO-CONTINGENCY-ACTIVATION",
+    "CONT-NO-EXTERNAL-CONNECTION",
+    "CONT-SECRET-SAFETY"
+  ],
+  "backup_governance": {
+    "versioned": true,
+    "scheduled": true,
+    "integrity_required": true,
+    "encryption_required": true,
+    "retention_required": true,
+    "separated_copy_required": true
+  },
+  "recovery_governance": {
+    "documented": true,
+    "tested": true,
+    "rto_required": true,
+    "rpo_required": true,
+    "rollback_required": true,
+    "evidence_required": true
+  },
+  "availability_governance": {
+    "health_monitoring": true,
+    "dependency_inventory": true,
+    "capacity_review": true,
+    "degradation_plan": true,
+    "recovery_priority": true
+  },
+  "contingency_governance": {
+    "roles_defined": true,
+    "escalation": true,
+    "communication": true,
+    "activation_criteria": true,
+    "evidence": true,
+    "periodic_review": true
+  },
+  "safety": {
+    "execute_backup": false,
+    "execute_restore": false,
+    "execute_failover": false,
+    "restart_services": false,
+    "shift_traffic": false,
+    "activate_contingency": false,
+    "send_notifications": false,
+    "modify_production_data": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}

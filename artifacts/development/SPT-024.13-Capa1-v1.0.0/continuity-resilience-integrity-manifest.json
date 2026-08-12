@@ -1,0 +1,41 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 7,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.13-Capa1-v1.0.0/availability-governance-baseline.json",
+      "bytes": 308,
+      "sha256": "66d515236a7b90559ede2800bc9622f3ff00e4cc5108708237c88a98e9aedc63"
+    },
+    {
+      "path": "artifacts/development/SPT-024.13-Capa1-v1.0.0/backup-governance-baseline.json",
+      "bytes": 262,
+      "sha256": "903ab74c852c2a876950e1b7ebdd72cc4c239b3173956b37d63ebd9c370d7f43"
+    },
+    {
+      "path": "artifacts/development/SPT-024.13-Capa1-v1.0.0/contingency-governance-baseline.json",
+      "bytes": 320,
+      "sha256": "c94fd604c904879eb07efaccaa24d458eb0f95996b4bef4d27833157fff8af73"
+    },
+    {
+      "path": "artifacts/development/SPT-024.13-Capa1-v1.0.0/continuity-resilience-assessment.json",
+      "bytes": 5024,
+      "sha256": "a71cdab593a1a8e238f0dd946f8803e5794f1b65f8ca5af1f091fe41059a5dce"
+    },
+    {
+      "path": "artifacts/development/SPT-024.13-Capa1-v1.0.0/continuity-resilience-surface-inventory.json",
+      "bytes": 265,
+      "sha256": "c1a9fb434f15578fc302a0271043140003cd3e15c8efe65baa74d27aa9228de7"
+    },
+    {
+      "path": "artifacts/development/SPT-024.13-Capa1-v1.0.0/recovery-governance-baseline.json",
+      "bytes": 289,
+      "sha256": "ff0b5576fa3ef78b8c7174399d63f0304e162f6355df4bc480d46b671baa2c89"
+    },
+    {
+      "path": "config/integration/spt02413/continuity-resilience-policy.json",
+      "bytes": 1746,
+      "sha256": "9a5aedde0fb8d8c8b030ac77d46ec4a97dc6c6413a05a4fa4aa9003350f822e6"
+    }
+  ]
+}

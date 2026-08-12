@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "versioned": true,
+  "scheduled": true,
+  "integrity": true,
+  "encrypted": true,
+  "retention": true,
+  "separated_copy": true,
+  "backup_executed": false,
+  "production_data_modified": false,
+  "secret_values_exposed": false
+}

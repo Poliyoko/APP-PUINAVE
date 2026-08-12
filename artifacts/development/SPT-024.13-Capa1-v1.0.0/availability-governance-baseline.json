@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "health_monitoring": true,
+  "dependency_inventory": true,
+  "capacity_review": true,
+  "degradation_plan": true,
+  "recovery_priority": true,
+  "service_restarted": false,
+  "traffic_shifted": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

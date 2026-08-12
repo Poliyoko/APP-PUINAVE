@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "documented": true,
+  "tested": true,
+  "rto_defined": true,
+  "rpo_defined": true,
+  "rollback": true,
+  "evidence": true,
+  "restore_executed": false,
+  "failover_executed": false,
+  "production_data_modified": false,
+  "secret_values_exposed": false
+}
