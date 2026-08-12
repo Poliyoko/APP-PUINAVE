@@ -1,0 +1,19 @@
+{
+    "component":  "SPT-024.11",
+    "layer":  3,
+    "version":  "1.0.0",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "layer1_status":  "DATA_PRIVACY_GOVERNANCE_GATE_PASS",
+    "layer2_status":  "DATA_LIFECYCLE_GOVERNANCE_GATE_PASS",
+    "blocking_controls":  12,
+    "failed_blocking_controls":  0,
+    "classification_governance":  "PASS",
+    "minimization_governance":  "PASS",
+    "purpose_limitation_governance":  "PASS",
+    "retention_archive_governance":  "PASS",
+    "legal_hold_governance":  "PASS",
+    "controlled_disposal_governance":  "PASS",
+    "production_data_modified":  false,
+    "production_data_deleted":  false,
+    "secret_values_exposed":  false
+}

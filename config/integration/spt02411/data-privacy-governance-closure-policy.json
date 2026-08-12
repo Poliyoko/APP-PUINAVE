@@ -1,0 +1,33 @@
+{
+  "id": "SPT-024.11-CAPA3",
+  "version": "1.0.0",
+  "status": "institutional-closure-policy",
+  "blocking_controls": [
+    "layer1_privacy_gate",
+    "layer2_lifecycle_gate",
+    "classification_governance",
+    "minimization_governance",
+    "purpose_limitation_governance",
+    "retention_governance",
+    "archive_governance",
+    "legal_hold_governance",
+    "controlled_disposal_governance",
+    "recertification_complete",
+    "evidence_integrity",
+    "no_destructive_action"
+  ],
+  "recertification": {
+    "periodic": true,
+    "domains": [
+      "classification-minimization",
+      "retention-archive",
+      "legal-hold-disposal",
+      "privacy-purpose"
+    ]
+  },
+  "destructive_disposal": {
+    "automatic": false,
+    "requires_review": true
+  },
+  "production_data_changes": false
+}

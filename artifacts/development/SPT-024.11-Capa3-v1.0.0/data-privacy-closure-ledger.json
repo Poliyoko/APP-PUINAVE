@@ -1,0 +1,50 @@
+[
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-privacy-governance-assessment.json",
+        "sha256":  "B5FB8DDBD715F33645A1F3A1B71265E7C6F4D2FD7FCAA47925A5ABF3F0CBF1AC"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-classification-baseline.json",
+        "sha256":  "876BCF8F0D99FAF80CF49AE4EB8FCE0FDC9FF80020571E7ADB00665A58F3C5BF"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-retention-minimization-baseline.json",
+        "sha256":  "25F8AF31C76DB1EBE00B584A8E774BC5E30927FD0D094ECE48EFB6D9F353322A"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/data-privacy-integrity-manifest.json",
+        "sha256":  "0102F9C2DBA2C42114E9082983358842EF36A036B6E4A7D8ACB22C532074BD77"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa1-v1.0.0/implementation-evidence.json",
+        "sha256":  "01D4A742C96738E539F455894E641EAAE220A9F5DA19DAE88280199134AD99CD"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa2-v1.0.0/data-lifecycle-governance-assessment.json",
+        "sha256":  "A3D6E21A4E1EF9F26E559EDBDF62F9E5767B41937A59A60B3CFA30F875DD9930"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa2-v1.0.0/data-lifecycle-baseline.json",
+        "sha256":  "6F9382B6DF3C8DC08F6F7A994945FA18B83FFAA07635158C72B74628D11C617C"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa2-v1.0.0/advanced-retention-baseline.json",
+        "sha256":  "9E74B8CB9C5EE6BBF4E95024ABF5808A8EB611E284E4764CF5A84B43AE280508"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa2-v1.0.0/archive-governance-baseline.json",
+        "sha256":  "0528F54A4EF5A53B42EB2A2D424BDEC909E16EB79240BF4DE67CB218664BF43B"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa2-v1.0.0/legal-hold-disposal-baseline.json",
+        "sha256":  "1B9BC3AA99D95BB95010C3F74DED7CDD577AEEEABB1CB51F8AB06203C2F82E27"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa2-v1.0.0/data-lifecycle-integrity-manifest.json",
+        "sha256":  "81422B0809AA8FB54B17944FA80075A041FF584BE702F92B59951939C8A83C00"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.11-Capa2-v1.0.0/implementation-evidence.json",
+        "sha256":  "B8D3A804487FD251B45D06265E08269CBE6CC3B33F847401252762C6EA72DCE0"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "control":  "classification_minimization",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.11-Capa1"
+    },
+    {
+        "control":  "retention_archive",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.11-Capa2"
+    },
+    {
+        "control":  "legal_hold_disposal",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.11-Capa2"
+    },
+    {
+        "control":  "privacy_purpose_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.11-Capas1-2"
+    }
+]
