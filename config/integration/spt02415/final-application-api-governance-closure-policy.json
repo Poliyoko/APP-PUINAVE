@@ -1,0 +1,40 @@
+{
+  "component": "SPT-024.15",
+  "layer": 3,
+  "version": "1.0.0",
+  "title": "Gobierno Final de Seguridad de Aplicaciones y APIs, Quality Gates, Recertificacion OWASP, Endpoints, Sesiones, Exposicion y Cierre Institucional",
+  "requires": {
+    "layer1": "APPLICATION_API_SECURITY_GATE_PASS",
+    "layer2": "ADVANCED_API_HARDENING_GATE_PASS"
+  },
+  "recertification_domains": [
+    "input_validation",
+    "session_security",
+    "api_authentication_authorization",
+    "object_level_authorization",
+    "owasp_control_coverage",
+    "software_security_governance",
+    "advanced_session_hardening",
+    "rate_limit_governance",
+    "cors_csrf_governance",
+    "endpoint_security_governance",
+    "advanced_input_validation",
+    "api_exposure_governance"
+  ],
+  "safety": {
+    "active_attack": false,
+    "real_session_change": false,
+    "rate_limit_change": false,
+    "endpoint_change": false,
+    "exposure_change": false,
+    "production_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_layers": false
+  },
+  "closure": {
+    "requires_sha256_integrity": true,
+    "requires_preservation_gate": true,
+    "requires_repository_sync": true
+  }
+}

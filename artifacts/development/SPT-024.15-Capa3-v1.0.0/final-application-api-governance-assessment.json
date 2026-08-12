@@ -1,0 +1,23 @@
+{
+    "component":  "SPT-024.15",
+    "layer":  3,
+    "version":  "1.0.0",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "layer1_status":  "APPLICATION_API_SECURITY_GATE_PASS",
+    "layer2_status":  "ADVANCED_API_HARDENING_GATE_PASS",
+    "blocking_controls":  22,
+    "failed_blocking_controls":  0,
+    "recertification_records":  12,
+    "owasp_recertification":  "PASS",
+    "endpoint_security_governance":  "PASS",
+    "session_security_governance":  "PASS",
+    "api_exposure_governance":  "PASS",
+    "active_attack_executed":  false,
+    "real_session_changed":  false,
+    "rate_limit_changed":  false,
+    "endpoint_changed":  false,
+    "exposure_changed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

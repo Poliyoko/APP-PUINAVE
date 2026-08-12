@@ -1,0 +1,62 @@
+[
+    {
+        "domain":  "input_validation",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa1"
+    },
+    {
+        "domain":  "session_security",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa1"
+    },
+    {
+        "domain":  "api_authentication_authorization",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa1"
+    },
+    {
+        "domain":  "object_level_authorization",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa1"
+    },
+    {
+        "domain":  "owasp_control_coverage",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa1"
+    },
+    {
+        "domain":  "software_security_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa1"
+    },
+    {
+        "domain":  "advanced_session_hardening",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa2"
+    },
+    {
+        "domain":  "rate_limit_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa2"
+    },
+    {
+        "domain":  "cors_csrf_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa2"
+    },
+    {
+        "domain":  "endpoint_security_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa2"
+    },
+    {
+        "domain":  "advanced_input_validation",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa2"
+    },
+    {
+        "domain":  "api_exposure_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.15-Capa2"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/application-api-security-assessment.json",
+        "sha256":  "BE3D8D2DB48678A8B5018040334D15467BD47BB41D9D4E1B57F9835483FB8D5D"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/application-api-integrity-manifest.json",
+        "sha256":  "FAECD435DB72404F578316A3D350A49A0A57ACBE8E3FFE143C59FB533A82704D"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/implementation-evidence.json",
+        "sha256":  "322258D02FC826620F95CFDE6F1AA7C33E1CAB7A6BBCC1056FE931CC934842BD"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/owasp-control-coverage-baseline.json",
+        "sha256":  "005D5B5EDF74C3B0D58FFC1E4A2EA4225251898E47A5BB8FC65E1540D2622AF4"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/session-security-baseline.json",
+        "sha256":  "4ACB959C1B57C117381A6D1B72265BA152A90E94D72491E1719F10569F9714ED"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/api-security-baseline.json",
+        "sha256":  "0AD96EF652F53E1396B4740C43879A302E6EBD0F37F674F107E3272C681AC512"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-api-hardening-assessment.json",
+        "sha256":  "DA0859D97B2352D182704BE1732271E818E3B1A6DFAEFC402861A0D0F3EF1A21"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-api-integrity-manifest.json",
+        "sha256":  "7F7480FE10303A9FB64D8E3F01C17D53C101025886A3DF852A3AC202558FA792"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/implementation-evidence.json",
+        "sha256":  "D9810DA44617E86401EE22A374643E730BD9747D37D37C358A9224366269F63F"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-session-hardening-baseline.json",
+        "sha256":  "D6FD471B1018CF0F31F09832573F178D228673F3FF3A0068EB0EE9C6C1B34CBD"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/rate-limit-governance-baseline.json",
+        "sha256":  "D6406E5FA536B1F6D8EA7AB7BD69B34B17F49A5ED9092AC5C6A6545965EEEEFB"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/cors-csrf-governance-baseline.json",
+        "sha256":  "3F927110350BA7AB4D2DB1D210804CE0CA7B1AF89CC7196D34D018E81920ECF3"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/endpoint-security-baseline.json",
+        "sha256":  "17DCBFD34B432B97C5F418A254115764C0ABAA6814C3F89D94EB1E271DDAA985"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-validation-baseline.json",
+        "sha256":  "959E4869E5B1586932F0C982322C8A2247AA37DBE5766854B39A06AE62FC592D"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/api-exposure-governance-baseline.json",
+        "sha256":  "75C744E508B9453A58EB57A7797D28F85F4F74D18598AF8FEBB4618BACC80B7B"
+    }
+]
