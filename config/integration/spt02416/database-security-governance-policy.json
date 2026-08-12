@@ -1,0 +1,32 @@
+{
+  "component": "SPT-024.16",
+  "layer": 1,
+  "version": "1.0.0",
+  "title": "Seguridad de Bases de Datos, PostgreSQL, Acceso a Datos, Consultas Seguras, Integridad, Auditoria y Gobierno de Persistencia",
+  "blocking_controls": [
+    "DB-SURFACE-INVENTORY",
+    "DB-ACCESS-GOVERNANCE",
+    "DB-QUERY-SECURITY",
+    "DB-DATA-INTEGRITY",
+    "DB-AUDITING",
+    "DB-POSTGRESQL-HARDENING",
+    "DB-PERSISTENCE-GOVERNANCE",
+    "DB-NO-ROLE-CHANGE",
+    "DB-NO-QUERY-EXECUTION",
+    "DB-NO-DATA-CHANGE",
+    "DB-NO-AUDIT-CONFIG-CHANGE",
+    "DB-NO-POSTGRES-CONFIG-CHANGE",
+    "DB-NO-EXTERNAL-CONNECTION",
+    "DB-SECRET-SAFETY"
+  ],
+  "safety": {
+    "production_query_execution": false,
+    "production_data_change": false,
+    "database_role_change": false,
+    "postgresql_configuration_change": false,
+    "audit_configuration_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_components": false
+  }
+}

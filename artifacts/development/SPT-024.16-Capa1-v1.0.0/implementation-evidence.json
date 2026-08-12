@@ -1,0 +1,17 @@
+{
+    "component":  "SPT-024.16",
+    "layer":  1,
+    "version":  "1.0.0",
+    "authoritative_baseline":  "c8fdc81bca96c78d76e22fee092f65605dc3e2fe",
+    "status":  "DATABASE_SECURITY_GOVERNANCE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "production_query_executed":  false,
+    "production_data_changed":  false,
+    "database_role_changed":  false,
+    "postgresql_configuration_changed":  false,
+    "audit_configuration_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

@@ -1,0 +1,9 @@
+{
+    "valid":  true,
+    "least_privilege":  true,
+    "service_identity_governance":  true,
+    "admin_role_separation":  true,
+    "credential_indirection":  true,
+    "network_scope_governance":  true,
+    "real_role_changed":  false
+}

@@ -1,0 +1,45 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt02416/database-security-governance-policy.json",
+                        "sha256":  "C595FA59F6592518F82D6C9FA3B0D4A943A7E77935C888246B601759CCC2C3F8"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.16/SGD-SPT024.16-Capa1-Seguridad-Bases-Datos-PostgreSQL-Consultas-Integridad-Auditoria.md",
+                        "sha256":  "2646F75B51EFF28B7773FE11062D5984CE41B1C4B7073E492F4757C9E0F8956B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-security-governance-assessment.json",
+                        "sha256":  "4E22A61E53ECA1C719E13DF2374F53A1811FDDFA04416F8EC508BA23E5F7D611"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-security-surface-inventory.json",
+                        "sha256":  "CD4040EFAACFDBB53001050B177D9F540864E1545A2B08D93CAFDD6CDFE724AA"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-access-governance-baseline.json",
+                        "sha256":  "30AA1516A28651AD8D683AEAFA493B377485E2785BA626C3B76EC53EAE356F06"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/secure-query-governance-baseline.json",
+                        "sha256":  "CA651A70F885F6513A634724940B391127A820345FEE5AFBCDEA7859257F4124"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/data-integrity-governance-baseline.json",
+                        "sha256":  "35CF650F0DBA4BDD7755EFAB710AC08EAA1C8793EC3FB882B98B28C6D090EC0C"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/database-auditing-baseline.json",
+                        "sha256":  "81BB24DFD236DA0FE6E8DC872ACB0FB940AD0483C5900A839F0897ADF65C448B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/postgresql-hardening-baseline.json",
+                        "sha256":  "FFF417FF540A377C1D77055461B62DFF7420CFBBEDBBFE58D9CF8E67A20B50C4"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.16-Capa1-v1.0.0/persistence-governance-baseline.json",
+                        "sha256":  "6C4661524361EE572FA188271917D4186E364EF4E00997D352BEEA9B867B4A47"
+                    }
+                ]
+}

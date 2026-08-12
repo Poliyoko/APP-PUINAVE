@@ -1,0 +1,9 @@
+{
+    "valid":  true,
+    "parameterized_queries":  true,
+    "dynamic_sql_review":  true,
+    "identifier_allowlists":  true,
+    "transaction_boundaries":  true,
+    "unsafe_query_construction_blocked":  true,
+    "query_executed":  false
+}

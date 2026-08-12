@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "ssl_policy":  true,
+    "search_path_governance":  true,
+    "public_schema_governance":  true,
+    "extension_governance":  true,
+    "statement_timeout_governance":  true,
+    "idle_transaction_timeout_governance":  true,
+    "postgresql_configuration_changed":  false
+}

@@ -1,0 +1,9 @@
+{
+    "valid":  true,
+    "security_event_logging":  true,
+    "privileged_action_logging":  true,
+    "failed_auth_logging":  true,
+    "schema_change_logging":  true,
+    "log_integrity":  true,
+    "audit_configuration_changed":  false
+}

@@ -1,0 +1,9 @@
+{
+    "valid":  true,
+    "constraints_governance":  true,
+    "referential_integrity":  true,
+    "migration_review":  true,
+    "backup_integrity_reference":  true,
+    "hash_evidence":  true,
+    "data_changed":  false
+}

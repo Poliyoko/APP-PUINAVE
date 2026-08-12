@@ -1,0 +1,8 @@
+{
+    "valid":  true,
+    "repository_migration_traceability":  true,
+    "schema_versioning":  true,
+    "rollback_governance":  true,
+    "data_access_review":  true,
+    "evidence_required":  true
+}
