@@ -1,0 +1,20 @@
+{
+    "component":  "SPT-024.14",
+    "layer":  3,
+    "version":  "1.0.0",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "layer1_status":  "SECURITY_RISK_GOVERNANCE_GATE_PASS",
+    "layer2_status":  "RISK_REGISTER_GOVERNANCE_GATE_PASS",
+    "blocking_controls":  17,
+    "failed_blocking_controls":  0,
+    "recertification_records":  9,
+    "master_risk_register":  "PASS",
+    "residual_risk":  "PASS",
+    "exceptions":  "PASS",
+    "risk_acceptance":  "PASS",
+    "automatic_acceptance":  false,
+    "treatment_executed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

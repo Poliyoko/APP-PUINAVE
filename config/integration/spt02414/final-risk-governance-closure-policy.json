@@ -1,0 +1,34 @@
+{
+  "component": "SPT-024.14",
+  "layer": 3,
+  "version": "1.0.0",
+  "title": "Gobierno Final del Riesgo, Quality Gates, Recertificacion y Cierre Institucional",
+  "requires": {
+    "layer1": "SECURITY_RISK_GOVERNANCE_GATE_PASS",
+    "layer2": "RISK_REGISTER_GOVERNANCE_GATE_PASS"
+  },
+  "recertification_domains": [
+    "threat_governance",
+    "vulnerability_governance",
+    "impact_assessment",
+    "master_risk_register",
+    "risk_prioritization",
+    "treatment_plans",
+    "residual_risk",
+    "exceptions",
+    "risk_acceptance"
+  ],
+  "safety": {
+    "automatic_acceptance": false,
+    "treatment_execution": false,
+    "production_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_layers": false
+  },
+  "closure": {
+    "requires_sha256_integrity": true,
+    "requires_preservation_gate": true,
+    "requires_repository_sync": true
+  }
+}

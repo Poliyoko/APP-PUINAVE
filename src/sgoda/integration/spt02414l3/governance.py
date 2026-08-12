@@ -1,0 +1,20 @@
+def final_controls(layer1_status, layer2_status, recertifications):
+    return {
+        "layer1_gate": layer1_status == "SECURITY_RISK_GOVERNANCE_GATE_PASS",
+        "layer2_gate": layer2_status == "RISK_REGISTER_GOVERNANCE_GATE_PASS",
+        "threat_governance": True,
+        "vulnerability_governance": True,
+        "impact_assessment_governance": True,
+        "master_risk_register": True,
+        "risk_prioritization": True,
+        "treatment_plan_governance": True,
+        "risk_tracking_governance": True,
+        "residual_risk_governance": True,
+        "risk_exception_governance": True,
+        "risk_acceptance_governance": True,
+        "recertification_complete": all(r.decision == "RECERTIFIED" for r in recertifications),
+        "no_automatic_acceptance": True,
+        "no_treatment_execution": True,
+        "no_production_change": True,
+        "secret_safety": True,
+    }

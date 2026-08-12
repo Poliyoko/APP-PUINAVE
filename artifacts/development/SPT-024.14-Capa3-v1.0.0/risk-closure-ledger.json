@@ -1,0 +1,42 @@
+[
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa1-v1.0.0/security-risk-governance-assessment.json",
+        "sha256":  "DC1AAD12B3E46DFD8371D6CE7ED92E6DB89378B45148004538CB86A1C71C71DA"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa1-v1.0.0/security-risk-integrity-manifest.json",
+        "sha256":  "591D20C5FDDCC58158A19FA5FDB3CA45DB9E14217DF388A86B60D954C7B26BBA"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa1-v1.0.0/implementation-evidence.json",
+        "sha256":  "5419FAA767B90953C976A045713DBB9C72FE7DD0D44E85437FC3FE1A57D54318"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-register-governance-assessment.json",
+        "sha256":  "9CAEBAF7F3B61D3121E36090FA33E7F0D45B9675ECB9933D8508208EA69ECCCA"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-register-integrity-manifest.json",
+        "sha256":  "7F332C6FA06E8B49CCB53DF956F3EC50EF9466940A43FB90073DB0B0210FCD12"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/implementation-evidence.json",
+        "sha256":  "D688FDAD036D8080A7DA70895FA13F2F50AFC81BFB016F27FB7618EF54FE2ECA"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/master-risk-register.json",
+        "sha256":  "9D141EBF807D68A15D14BF856BA7569C734A6B78E408565DC6DA02C364670400"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/residual-risk-baseline.json",
+        "sha256":  "822F78E9C103C2528B3EBC8B73FF113F2E2CA3F91B0E34889A35B24D9812EC42"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-exceptions-baseline.json",
+        "sha256":  "30CC17CBD49066D0AD2B3A05ED9F126DA48DC6AA8FF9090DC0FF19C1B6F4B77B"
+    },
+    {
+        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-acceptance-governance-baseline.json",
+        "sha256":  "28E5A9D40A1D8A2C7BD9703433379225BABE92F11E6661174A649972D081FE5B"
+    }
+]

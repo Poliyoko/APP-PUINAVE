@@ -1,0 +1,10 @@
+{
+    "component":  "SPT-024.14-Capa3",
+    "implementation":  "PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "preservation_gate":  "PENDING_FINAL_CHECK",
+    "publication":  "PENDING_COMMIT_PUSH",
+    "non_destructive":  true
+}

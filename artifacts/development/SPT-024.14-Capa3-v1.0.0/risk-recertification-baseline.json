@@ -1,0 +1,47 @@
+[
+    {
+        "domain":  "threat_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa1"
+    },
+    {
+        "domain":  "vulnerability_governance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa1"
+    },
+    {
+        "domain":  "impact_assessment",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa1"
+    },
+    {
+        "domain":  "master_risk_register",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa2"
+    },
+    {
+        "domain":  "risk_prioritization",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa2"
+    },
+    {
+        "domain":  "treatment_plans",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa2"
+    },
+    {
+        "domain":  "residual_risk",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa2"
+    },
+    {
+        "domain":  "exceptions",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa2"
+    },
+    {
+        "domain":  "risk_acceptance",
+        "decision":  "RECERTIFIED",
+        "source":  "SPT-024.14-Capa2"
+    }
+]
