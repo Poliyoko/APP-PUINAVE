@@ -1,0 +1,60 @@
+{
+    "component":  "SPT-024.13",
+    "external_connection_opened":  false,
+    "failed_blocking_controls":  0,
+    "failed_control_ids":  [
+
+                           ],
+    "failover":  {
+                     "approval_required":  true,
+                     "evidence_required":  true,
+                     "failover_executed":  false,
+                     "manual_activation":  true,
+                     "prechecks_required":  true,
+                     "rollback_required":  true,
+                     "traffic_shifted":  false,
+                     "valid":  true
+                 },
+    "failover_executed":  false,
+    "infrastructure_changed":  false,
+    "layer":  2,
+    "production_data_modified":  false,
+    "recovery_strategy":  {
+                              "dependencies_mapped":  true,
+                              "documented":  true,
+                              "owners_defined":  true,
+                              "prioritized":  true,
+                              "recovery_executed":  false,
+                              "runbook_defined":  true,
+                              "valid":  true
+                          },
+    "redundancy":  {
+                       "capacity_defined":  true,
+                       "dependency_redundancy":  true,
+                       "failure_domain_separation":  true,
+                       "health_criteria_defined":  true,
+                       "infrastructure_changed":  false,
+                       "valid":  true
+                   },
+    "restore_executed":  false,
+    "restore_testing":  {
+                            "evidence_required":  true,
+                            "integrity_verified":  true,
+                            "isolated_test":  true,
+                            "production_data_modified":  false,
+                            "restore_executed":  false,
+                            "rollback_defined":  true,
+                            "valid":  true
+                        },
+    "rto_rpo":  {
+                    "max_rpo_minutes":  30,
+                    "max_rto_minutes":  120,
+                    "rpo_minutes":  15,
+                    "rto_minutes":  60,
+                    "valid":  true
+                },
+    "secret_values_exposed":  false,
+    "status":  "CONTINUITY_RECOVERY_GOVERNANCE_GATE_PASS",
+    "surface_count":  3971,
+    "traffic_shifted":  false
+}

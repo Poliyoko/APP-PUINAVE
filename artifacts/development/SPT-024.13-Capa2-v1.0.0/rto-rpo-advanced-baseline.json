@@ -1,0 +1,7 @@
+{
+    "max_rpo_minutes":  30,
+    "max_rto_minutes":  120,
+    "rpo_minutes":  15,
+    "rto_minutes":  60,
+    "valid":  true
+}

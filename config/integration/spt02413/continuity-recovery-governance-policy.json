@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SPT-024.13",
+  "layer": 2,
+  "layer1_gate": "CONTINUITY_RESILIENCE_GATE_PASS",
+  "recovery_strategy": {
+    "documented": true,
+    "prioritized": true,
+    "dependencies_mapped": true,
+    "runbook_defined": true,
+    "owners_defined": true
+  },
+  "restore_testing": {
+    "isolated_test": true,
+    "integrity_verified": true,
+    "evidence_required": true,
+    "rollback_defined": true
+  },
+  "rto_rpo": {
+    "rto_minutes": 60,
+    "rpo_minutes": 15,
+    "max_rto_minutes": 120,
+    "max_rpo_minutes": 30
+  },
+  "redundancy": {
+    "failure_domain_separation": true,
+    "dependency_redundancy": true,
+    "capacity_defined": true,
+    "health_criteria_defined": true
+  },
+  "failover": {
+    "approval_required": true,
+    "prechecks_required": true,
+    "rollback_required": true,
+    "evidence_required": true,
+    "manual_activation": true
+  },
+  "automatic_destructive_action": false,
+  "secret_indirection": true
+}

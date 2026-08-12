@@ -1,0 +1,8 @@
+{
+    "capacity_defined":  true,
+    "dependency_redundancy":  true,
+    "failure_domain_separation":  true,
+    "health_criteria_defined":  true,
+    "infrastructure_changed":  false,
+    "valid":  true
+}

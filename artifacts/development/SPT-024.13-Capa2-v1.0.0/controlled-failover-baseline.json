@@ -1,0 +1,10 @@
+{
+    "approval_required":  true,
+    "evidence_required":  true,
+    "failover_executed":  false,
+    "manual_activation":  true,
+    "prechecks_required":  true,
+    "rollback_required":  true,
+    "traffic_shifted":  false,
+    "valid":  true
+}

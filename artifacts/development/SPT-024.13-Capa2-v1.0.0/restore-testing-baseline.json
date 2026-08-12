@@ -1,0 +1,9 @@
+{
+    "evidence_required":  true,
+    "integrity_verified":  true,
+    "isolated_test":  true,
+    "production_data_modified":  false,
+    "restore_executed":  false,
+    "rollback_defined":  true,
+    "valid":  true
+}
