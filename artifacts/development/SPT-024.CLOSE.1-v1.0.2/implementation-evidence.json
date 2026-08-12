@@ -1,0 +1,11 @@
+{
+    "component":  "SPT-024.CLOSE.1",
+    "version":  "1.0.2",
+    "baseline":  "2bea3459b808b04ad42923963cd707f230e4e4ad",
+    "status":  "PISI_GLOBAL_PREPARE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "closed_components_preserved":  true,
+    "local_remote_sync_required":  true
+}

@@ -1,0 +1,10 @@
+{
+    "program":  "SPT-024 / PISI",
+    "prepare_status":  "READY_FOR_INSTITUTIONAL_CLOSURE_PACKAGE",
+    "source_baseline":  "2bea3459b808b04ad42923963cd707f230e4e4ad",
+    "coverage_gate":  "PASS",
+    "master_control_matrix":  "CREATED",
+    "domain_reconciliation":  "PASS",
+    "next_recommended_deliverable":  "SPT-024.CLOSE.2",
+    "closed_components_must_remain_immutable":  true
+}

@@ -1,0 +1,34 @@
+{
+    "algorithm":  "SHA-256",
+    "baseline":  "2bea3459b808b04ad42923963cd707f230e4e4ad",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt024close1/pisi-global-prepare-policy.json",
+                        "sha256":  "CDF7131BB00E9F1DA4D9AED5633558DD1D4809C9DBB8F1CA723D0EE008DEDF0E"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/CLOSE/SGD-SPT024-CLOSE1-Auditoria-Cobertura-PISI-PREPARE-Cierre.md",
+                        "sha256":  "5F2A97ADFC6B041AAAD533774AABC22EE7FD82B9B48C394DFD8CC2825B0AB683"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-component-coverage-matrix.json",
+                        "sha256":  "E0A1D588B6A5FCF5D7DFF681E10FDCBD50282E7252A741A72D6A090CA0E66F57"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-master-control-matrix.json",
+                        "sha256":  "496E17604AB19C1DD416904E19374DEC7EEED97D491168BB065C9F04CB53DB84"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-domain-reconciliation.json",
+                        "sha256":  "22076BE6A4641156BB2A184D96F2BE11D168B1BD3714B1B7CC569256A3BCF186"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-global-prepare-assessment.json",
+                        "sha256":  "5F4FCC61AD3AB169AA8866168EBFCD1B4BCF768C602652124A5B65E22CBA766B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-institutional-closure-prepare.json",
+                        "sha256":  "56AC9F42F6506871FC9F0ECE2671D38CFD5ABDFEF69B3242451D4D47736723DB"
+                    }
+                ]
+}

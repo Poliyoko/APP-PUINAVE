@@ -1,0 +1,15 @@
+{
+    "component":  "SPT-024.CLOSE.1",
+    "baseline":  "2bea3459b808b04ad42923963cd707f230e4e4ad",
+    "status":  "PISI_GLOBAL_PREPARE_GATE_PASS",
+    "expected_components":  17,
+    "covered_components":  17,
+    "missing_components":  [
+
+                           ],
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "destructive_cleanup":  false,
+    "production_change":  false,
+    "secret_values_exposed":  false
+}

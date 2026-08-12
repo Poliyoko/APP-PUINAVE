@@ -1,0 +1,10 @@
+{
+    "expected_components":  17,
+    "covered_components":  17,
+    "missing_components":  [
+
+                           ],
+    "duplicate_domain_reopening":  "NO",
+    "closed_components_modified":  "NO",
+    "result":  "RECONCILED"
+}

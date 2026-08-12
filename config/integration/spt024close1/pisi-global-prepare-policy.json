@@ -1,0 +1,36 @@
+{
+  "component": "SPT-024.CLOSE.1",
+  "version": "1.0.0",
+  "title": "Auditoria Integral de Cobertura PISI, Reconciliacion de Dominios, Matriz Maestra de Controles, Quality Gate Global y PREPARE de Cierre Institucional",
+  "authoritative_baseline": "2bea3459b808b04ad42923963cd707f230e4e4ad",
+  "expected_components": [
+    "SPT-024.1",
+    "SPT-024.2",
+    "SPT-024.3",
+    "SPT-024.4",
+    "SPT-024.5",
+    "SPT-024.6",
+    "SPT-024.7",
+    "SPT-024.8",
+    "SPT-024.9",
+    "SPT-024.10",
+    "SPT-024.11",
+    "SPT-024.12",
+    "SPT-024.13",
+    "SPT-024.14",
+    "SPT-024.15",
+    "SPT-024.16",
+    "SPT-024.17"
+  ],
+  "mode": "STATIC_NON_DESTRUCTIVE",
+  "global_gate": "PISI_GLOBAL_PREPARE_GATE_PASS",
+  "rules": {
+    "modify_closed_components": false,
+    "destructive_cleanup": false,
+    "active_security_probe": false,
+    "production_change": false,
+    "secret_values_exposed": false,
+    "commit_push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}
