@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "network_surface_inventory":  true,
+    "trust_boundary_governance":  true,
+    "segmentation_governance":  true,
+    "dns_governance":  true,
+    "proxy_governance":  true,
+    "egress_governance":  true,
+    "network_configuration_changed":  false
+}

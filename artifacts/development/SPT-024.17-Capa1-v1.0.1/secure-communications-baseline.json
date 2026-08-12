@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "tls_required":  true,
+    "certificate_governance":  true,
+    "protocol_allowlist":  true,
+    "plaintext_secret_prohibition":  true,
+    "internal_transport_governance":  true,
+    "external_transport_governance":  true,
+    "tls_configuration_changed":  false
+}

@@ -1,0 +1,226 @@
+{
+    "status":  "INFRASTRUCTURE_SECURITY_GOVERNANCE_GATE_PASS",
+    "failed_blocking_controls":  [
+
+                                 ],
+    "controls":  [
+                     {
+                         "control_id":  "INFRA-SURFACE-INVENTORY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Surface inventory"
+                     },
+                     {
+                         "control_id":  "INFRA-ASSET-GOVERNANCE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Asset governance"
+                     },
+                     {
+                         "control_id":  "INFRA-OS-SECURITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "OS security"
+                     },
+                     {
+                         "control_id":  "INFRA-SERVICE-SECURITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Service security"
+                     },
+                     {
+                         "control_id":  "INFRA-PORT-SECURITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Port security"
+                     },
+                     {
+                         "control_id":  "INFRA-NETWORK-SECURITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Network security"
+                     },
+                     {
+                         "control_id":  "INFRA-SECURE-COMMS",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Secure communications"
+                     },
+                     {
+                         "control_id":  "INFRA-HARDENING",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Hardening"
+                     },
+                     {
+                         "control_id":  "INFRA-CONFIG-GOVERNANCE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Configuration governance"
+                     },
+                     {
+                         "control_id":  "INFRA-INTEGRITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Integrity governance"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-ACTIVE-SCAN",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No active scan"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-SERVICE-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No service change"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-PORT-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No port change"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-FIREWALL-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No firewall change"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-NETWORK-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No network change"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-TLS-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No TLS change"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-OS-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No OS change"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-PRODUCTION-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No production change"
+                     },
+                     {
+                         "control_id":  "INFRA-NO-EXTERNAL-CONNECTION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No external connection"
+                     },
+                     {
+                         "control_id":  "INFRA-SECRET-SAFETY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No secret exposure"
+                     }
+                 ],
+    "surface_count":  1654,
+    "infrastructure_inventory":  {
+                                     "valid":  true,
+                                     "asset_inventory":  true,
+                                     "environment_classification":  true,
+                                     "ownership_governance":  true,
+                                     "configuration_source_traceability":  true,
+                                     "exposure_inventory":  true
+                                 },
+    "operating_system_security":  {
+                                      "valid":  true,
+                                      "supported_os_governance":  true,
+                                      "patch_baseline_governance":  true,
+                                      "privilege_boundary_governance":  true,
+                                      "service_account_governance":  true,
+                                      "filesystem_permission_review":  true,
+                                      "logging_governance":  true,
+                                      "operating_system_changed":  false
+                                  },
+    "service_security":  {
+                             "valid":  true,
+                             "service_inventory":  true,
+                             "minimum_service_principle":  true,
+                             "startup_governance":  true,
+                             "service_identity_review":  true,
+                             "dependency_governance":  true,
+                             "failure_behavior_review":  true,
+                             "real_service_changed":  false
+                         },
+    "port_security":  {
+                          "valid":  true,
+                          "port_inventory":  true,
+                          "minimum_exposure_principle":  true,
+                          "admin_port_governance":  true,
+                          "loopback_binding_review":  true,
+                          "public_binding_review":  true,
+                          "firewall_policy_reference":  true,
+                          "real_port_changed":  false,
+                          "firewall_changed":  false,
+                          "active_network_scan_executed":  false
+                      },
+    "network_security":  {
+                             "valid":  true,
+                             "network_surface_inventory":  true,
+                             "trust_boundary_governance":  true,
+                             "segmentation_governance":  true,
+                             "dns_governance":  true,
+                             "proxy_governance":  true,
+                             "egress_governance":  true,
+                             "network_configuration_changed":  false
+                         },
+    "secure_communications":  {
+                                  "valid":  true,
+                                  "tls_required":  true,
+                                  "certificate_governance":  true,
+                                  "protocol_allowlist":  true,
+                                  "plaintext_secret_prohibition":  true,
+                                  "internal_transport_governance":  true,
+                                  "external_transport_governance":  true,
+                                  "tls_configuration_changed":  false
+                              },
+    "hardening_baseline":  {
+                               "valid":  true,
+                               "secure_defaults":  true,
+                               "least_functionality":  true,
+                               "secret_indirection":  true,
+                               "debug_disabled_by_policy":  true,
+                               "administrative_surface_governance":  true,
+                               "hardening_review_required":  true,
+                               "production_changed":  false
+                           },
+    "configuration_governance":  {
+                                     "valid":  true,
+                                     "configuration_as_code":  true,
+                                     "version_controlled_configuration":  true,
+                                     "change_review":  true,
+                                     "drift_detection_governance":  true,
+                                     "rollback_governance":  true,
+                                     "evidence_required":  true,
+                                     "configuration_changed":  false
+                                 },
+    "integrity_governance":  {
+                                 "valid":  true,
+                                 "sha256_required":  true,
+                                 "preservation_gate":  true,
+                                 "evidence_manifest":  true,
+                                 "repository_sync_required":  true
+                             },
+    "active_network_scan_executed":  false,
+    "real_service_changed":  false,
+    "real_port_changed":  false,
+    "firewall_changed":  false,
+    "network_configuration_changed":  false,
+    "tls_configuration_changed":  false,
+    "operating_system_changed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

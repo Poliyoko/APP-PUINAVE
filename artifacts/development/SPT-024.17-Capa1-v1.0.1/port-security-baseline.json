@@ -1,0 +1,12 @@
+{
+    "valid":  true,
+    "port_inventory":  true,
+    "minimum_exposure_principle":  true,
+    "admin_port_governance":  true,
+    "loopback_binding_review":  true,
+    "public_binding_review":  true,
+    "firewall_policy_reference":  true,
+    "real_port_changed":  false,
+    "firewall_changed":  false,
+    "active_network_scan_executed":  false
+}

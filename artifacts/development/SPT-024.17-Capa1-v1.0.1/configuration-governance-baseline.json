@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "configuration_as_code":  true,
+    "version_controlled_configuration":  true,
+    "change_review":  true,
+    "drift_detection_governance":  true,
+    "rollback_governance":  true,
+    "evidence_required":  true,
+    "configuration_changed":  false
+}

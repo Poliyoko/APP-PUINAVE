@@ -1,0 +1,41 @@
+{
+  "component": "SPT-024.17",
+  "layer": 1,
+  "version": "1.0.0",
+  "title": "Inventario de Infraestructura, Sistemas Operativos, Servicios, Puertos, Redes, Comunicaciones Seguras, Hardening Base y Gobierno de Configuracion",
+  "blocking_controls": [
+    "INFRA-SURFACE-INVENTORY",
+    "INFRA-ASSET-GOVERNANCE",
+    "INFRA-OS-SECURITY",
+    "INFRA-SERVICE-SECURITY",
+    "INFRA-PORT-SECURITY",
+    "INFRA-NETWORK-SECURITY",
+    "INFRA-SECURE-COMMS",
+    "INFRA-HARDENING",
+    "INFRA-CONFIG-GOVERNANCE",
+    "INFRA-INTEGRITY",
+    "INFRA-NO-ACTIVE-SCAN",
+    "INFRA-NO-SERVICE-CHANGE",
+    "INFRA-NO-PORT-CHANGE",
+    "INFRA-NO-FIREWALL-CHANGE",
+    "INFRA-NO-NETWORK-CHANGE",
+    "INFRA-NO-TLS-CHANGE",
+    "INFRA-NO-OS-CHANGE",
+    "INFRA-NO-PRODUCTION-CHANGE",
+    "INFRA-NO-EXTERNAL-CONNECTION",
+    "INFRA-SECRET-SAFETY"
+  ],
+  "safety": {
+    "active_network_scan": false,
+    "real_service_change": false,
+    "real_port_change": false,
+    "firewall_change": false,
+    "network_configuration_change": false,
+    "tls_configuration_change": false,
+    "operating_system_change": false,
+    "production_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_components": false
+  }
+}

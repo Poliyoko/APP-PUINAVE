@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "secure_defaults":  true,
+    "least_functionality":  true,
+    "secret_indirection":  true,
+    "debug_disabled_by_policy":  true,
+    "administrative_surface_governance":  true,
+    "hardening_review_required":  true,
+    "production_changed":  false
+}

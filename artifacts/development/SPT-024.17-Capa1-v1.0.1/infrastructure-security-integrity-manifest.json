@@ -1,0 +1,49 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt02417/infrastructure-security-governance-policy.json",
+                        "sha256":  "FC937D83BC9EE91D30F9C3BABCA0257788F83CB2AB1524F54590CA7A090692BD"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.17/SGD-SPT024.17-Capa1-Seguridad-Infraestructura-SO-Servicios-Puertos-Redes-Hardening.md",
+                        "sha256":  "8E393DF6C2D138EE04897A0FCE6B9D69A40F6DB20A0E936DE76DB9AD057E3B61"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/infrastructure-security-governance-assessment.json",
+                        "sha256":  "5A848596BB84A58897479414CBF2CE58F72B61347063A5D97B7114C1A2C23700"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/infrastructure-security-surface-inventory.json",
+                        "sha256":  "81AA2C50A2D318C71747F994C9FB32611638951B0ED532B94FB49586A0BF6C76"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/operating-system-security-baseline.json",
+                        "sha256":  "AD89C926C30C531D6331375F495BE5BB425F92B4A42126362B972B021A705F6D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/service-security-baseline.json",
+                        "sha256":  "23576D65B19EE64C9E773628B4098D057A132C9295A0796C02EC6D501977E040"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/port-security-baseline.json",
+                        "sha256":  "8A132649A398E4C135672492ECFAF281E07A19CA0CEA2EA67C88E24D9266609E"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/network-security-baseline.json",
+                        "sha256":  "672D025D6B818FDAA0450E7C9EE043D9C23475271615AE8C5841AF68E5E73875"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/secure-communications-baseline.json",
+                        "sha256":  "BD8BB28787BEC01363228D39278AD9C60CBCD889664E4736BB94F753D46E0F48"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/infrastructure-hardening-baseline.json",
+                        "sha256":  "ADD00D490547FDF6958064CF970DC5903C3118863908ECCE637CF503A1E6597B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/configuration-governance-baseline.json",
+                        "sha256":  "E1A1D1DC39475843E993E22FDAE6DE72B8268A0D78EED626F697A5CB032E5F30"
+                    }
+                ]
+}

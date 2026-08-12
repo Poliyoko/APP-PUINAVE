@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "supported_os_governance":  true,
+    "patch_baseline_governance":  true,
+    "privilege_boundary_governance":  true,
+    "service_account_governance":  true,
+    "filesystem_permission_review":  true,
+    "logging_governance":  true,
+    "operating_system_changed":  false
+}

@@ -1,0 +1,20 @@
+{
+    "component":  "SPT-024.17",
+    "layer":  1,
+    "version":  "1.0.1",
+    "authoritative_baseline":  "5a8ccf9ce7990e920f84550de0f33dd532ce74d3",
+    "status":  "INFRASTRUCTURE_SECURITY_GOVERNANCE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "active_network_scan_executed":  false,
+    "real_service_changed":  false,
+    "real_port_changed":  false,
+    "firewall_changed":  false,
+    "network_configuration_changed":  false,
+    "tls_configuration_changed":  false,
+    "operating_system_changed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

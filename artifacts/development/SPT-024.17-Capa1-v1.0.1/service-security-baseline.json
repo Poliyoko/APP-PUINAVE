@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "service_inventory":  true,
+    "minimum_service_principle":  true,
+    "startup_governance":  true,
+    "service_identity_review":  true,
+    "dependency_governance":  true,
+    "failure_behavior_review":  true,
+    "real_service_changed":  false
+}
