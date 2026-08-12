@@ -1,0 +1,8 @@
+{
+    "valid":  true,
+    "allowlist_or_schema_validation":  true,
+    "size_limits":  true,
+    "type_validation":  true,
+    "canonicalization_review":  true,
+    "unsafe_deserialization_blocked":  true
+}

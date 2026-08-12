@@ -1,0 +1,29 @@
+{
+  "component": "SPT-024.15",
+  "layer": 1,
+  "version": "1.0.0",
+  "title": "Seguridad de Aplicaciones y APIs, Validacion de Entradas, Proteccion de Sesiones, Controles OWASP y Gobierno de Seguridad del Software",
+  "blocking_controls": [
+    "APP-SURFACE-INVENTORY",
+    "APP-INPUT-VALIDATION",
+    "APP-SESSION-SECURITY",
+    "APP-API-AUTHZ",
+    "APP-API-ABUSE",
+    "APP-CORS-HEADERS",
+    "APP-ERROR-SANITIZATION",
+    "APP-OWASP-COVERAGE",
+    "APP-SOFTWARE-GOVERNANCE",
+    "APP-NO-ACTIVE-ATTACK",
+    "APP-NO-PRODUCTION-CHANGE",
+    "APP-NO-EXTERNAL-CONNECTION",
+    "APP-SECRET-SAFETY"
+  ],
+  "safety": {
+    "active_attack_test": false,
+    "production_change": false,
+    "real_session_rotation": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_components": false
+  }
+}

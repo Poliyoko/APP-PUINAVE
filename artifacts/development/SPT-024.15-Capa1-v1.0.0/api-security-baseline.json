@@ -1,0 +1,12 @@
+{
+    "valid":  true,
+    "authentication_required":  true,
+    "authorization_required":  true,
+    "object_level_authorization":  true,
+    "rate_limit_governance":  true,
+    "cors_governance":  true,
+    "error_sanitization":  true,
+    "security_headers":  true,
+    "request_size_governance":  true,
+    "endpoint_changed":  false
+}

@@ -1,0 +1,15 @@
+{
+    "component":  "SPT-024.15",
+    "layer":  1,
+    "version":  "1.0.0",
+    "authoritative_baseline":  "ff6dcbc3964bfd9203c563f1729f11243e09557d",
+    "status":  "APPLICATION_API_SECURITY_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "active_attack_executed":  false,
+    "real_session_rotated":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

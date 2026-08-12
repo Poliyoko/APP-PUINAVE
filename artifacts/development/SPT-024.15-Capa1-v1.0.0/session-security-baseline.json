@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "secure_cookie_policy":  true,
+    "http_only_policy":  true,
+    "same_site_policy":  true,
+    "session_expiry":  true,
+    "session_rotation":  true,
+    "csrf_governance":  true,
+    "real_session_rotated":  false
+}

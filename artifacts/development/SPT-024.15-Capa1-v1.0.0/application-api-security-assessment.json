@@ -1,0 +1,144 @@
+{
+    "status":  "APPLICATION_API_SECURITY_GATE_PASS",
+    "failed_blocking_controls":  [
+
+                                 ],
+    "controls":  [
+                     {
+                         "control_id":  "APP-SURFACE-INVENTORY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Application/API surface inventory exists."
+                     },
+                     {
+                         "control_id":  "APP-INPUT-VALIDATION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Input validation governance passes."
+                     },
+                     {
+                         "control_id":  "APP-SESSION-SECURITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Session controls are governed."
+                     },
+                     {
+                         "control_id":  "APP-API-AUTHZ",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "API authn/authz governance passes."
+                     },
+                     {
+                         "control_id":  "APP-API-ABUSE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "API abuse controls are governed."
+                     },
+                     {
+                         "control_id":  "APP-CORS-HEADERS",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "CORS and security-header policy pass."
+                     },
+                     {
+                         "control_id":  "APP-ERROR-SANITIZATION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Error output is governed."
+                     },
+                     {
+                         "control_id":  "APP-OWASP-COVERAGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "OWASP-oriented control coverage passes."
+                     },
+                     {
+                         "control_id":  "APP-SOFTWARE-GOVERNANCE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Secure software governance passes."
+                     },
+                     {
+                         "control_id":  "APP-NO-ACTIVE-ATTACK",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No active attack testing is executed."
+                     },
+                     {
+                         "control_id":  "APP-NO-PRODUCTION-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No production application change is executed."
+                     },
+                     {
+                         "control_id":  "APP-NO-EXTERNAL-CONNECTION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Assessment is local/static."
+                     },
+                     {
+                         "control_id":  "APP-SECRET-SAFETY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Secret values are not exposed."
+                     }
+                 ],
+    "surface_count":  1495,
+    "input_validation":  {
+                             "valid":  true,
+                             "allowlist_or_schema_validation":  true,
+                             "size_limits":  true,
+                             "type_validation":  true,
+                             "canonicalization_review":  true,
+                             "unsafe_deserialization_blocked":  true
+                         },
+    "session_security":  {
+                             "valid":  true,
+                             "secure_cookie_policy":  true,
+                             "http_only_policy":  true,
+                             "same_site_policy":  true,
+                             "session_expiry":  true,
+                             "session_rotation":  true,
+                             "csrf_governance":  true,
+                             "real_session_rotated":  false
+                         },
+    "api_security":  {
+                         "valid":  true,
+                         "authentication_required":  true,
+                         "authorization_required":  true,
+                         "object_level_authorization":  true,
+                         "rate_limit_governance":  true,
+                         "cors_governance":  true,
+                         "error_sanitization":  true,
+                         "security_headers":  true,
+                         "request_size_governance":  true,
+                         "endpoint_changed":  false
+                     },
+    "owasp_control_coverage":  {
+                                   "valid":  true,
+                                   "access_control":  true,
+                                   "cryptographic_failures":  true,
+                                   "injection":  true,
+                                   "insecure_design":  true,
+                                   "security_misconfiguration":  true,
+                                   "vulnerable_components":  true,
+                                   "auth_failures":  true,
+                                   "integrity_failures":  true,
+                                   "logging_monitoring":  true,
+                                   "request_forgery":  true,
+                                   "active_attack_test_executed":  false
+                               },
+    "software_security_governance":  {
+                                         "valid":  true,
+                                         "secure_coding_policy":  true,
+                                         "dependency_review":  true,
+                                         "secret_indirection":  true,
+                                         "review_required":  true,
+                                         "security_tests_required":  true,
+                                         "evidence_required":  true
+                                     },
+    "active_attack_test_executed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

@@ -1,0 +1,41 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt02415/application-api-security-policy.json",
+                        "sha256":  "B5C77F0275FB5668FAB23488F759F1467683600155274BAC71950C3160192CEA"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.15/SGD-SPT024.15-Capa1-Seguridad-Aplicaciones-APIs-Validacion-Sesiones-OWASP.md",
+                        "sha256":  "C11FC850AEFD6D8952D192775683F89544186F1A54EBCB48AF84E6A3EE672410"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/application-api-security-assessment.json",
+                        "sha256":  "BE3D8D2DB48678A8B5018040334D15467BD47BB41D9D4E1B57F9835483FB8D5D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/application-api-surface-inventory.json",
+                        "sha256":  "DEA6A121B7472773AE8D225F3F00B7C1D7F6257A8C5EA2723BDA566E539438AC"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/input-validation-baseline.json",
+                        "sha256":  "D89A4B6A166DD5D98F6F1DC3798545CCA8B988F4C7BEA938154E289A68E26FAE"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/session-security-baseline.json",
+                        "sha256":  "4ACB959C1B57C117381A6D1B72265BA152A90E94D72491E1719F10569F9714ED"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/api-security-baseline.json",
+                        "sha256":  "0AD96EF652F53E1396B4740C43879A302E6EBD0F37F674F107E3272C681AC512"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/owasp-control-coverage-baseline.json",
+                        "sha256":  "005D5B5EDF74C3B0D58FFC1E4A2EA4225251898E47A5BB8FC65E1540D2622AF4"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa1-v1.0.0/software-security-governance-baseline.json",
+                        "sha256":  "278153EC8C8FC0331F4D3D6E30C15BCFFD4F3F7B8117D60E86C7C20EF8A8D817"
+                    }
+                ]
+}

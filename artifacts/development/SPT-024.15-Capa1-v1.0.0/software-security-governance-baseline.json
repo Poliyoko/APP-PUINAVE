@@ -1,0 +1,9 @@
+{
+    "valid":  true,
+    "secure_coding_policy":  true,
+    "dependency_review":  true,
+    "secret_indirection":  true,
+    "review_required":  true,
+    "security_tests_required":  true,
+    "evidence_required":  true
+}

@@ -1,0 +1,14 @@
+{
+    "valid":  true,
+    "access_control":  true,
+    "cryptographic_failures":  true,
+    "injection":  true,
+    "insecure_design":  true,
+    "security_misconfiguration":  true,
+    "vulnerable_components":  true,
+    "auth_failures":  true,
+    "integrity_failures":  true,
+    "logging_monitoring":  true,
+    "request_forgery":  true,
+    "active_attack_test_executed":  false
+}
