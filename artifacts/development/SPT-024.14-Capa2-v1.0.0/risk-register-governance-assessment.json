@@ -1,0 +1,214 @@
+{
+    "status":  "RISK_REGISTER_GOVERNANCE_GATE_PASS",
+    "gate":  {
+                 "passed":  true,
+                 "failed":  [
+
+                            ],
+                 "controls":  {
+                                  "LAYER1_GATE":  true,
+                                  "MASTER_REGISTER":  true,
+                                  "PRIORITIZATION":  true,
+                                  "TREATMENT_PLANS":  true,
+                                  "RESIDUAL_RISK":  true,
+                                  "EXCEPTION_GOVERNANCE":  true,
+                                  "ACCEPTANCE_GOVERNANCE":  true,
+                                  "TRACKING_GOVERNANCE":  true,
+                                  "NO_AUTO_ACCEPTANCE":  true,
+                                  "NO_TREATMENT_EXECUTION":  true,
+                                  "NO_PRODUCTION_CHANGE":  true,
+                                  "SECRET_SAFETY":  true
+                              }
+             },
+    "records":  [
+                    {
+                        "risk_id":  "RISK-002",
+                        "title":  "Credential exposure",
+                        "inherent_score":  25,
+                        "residual_score":  8,
+                        "priority":  "CRITICAL",
+                        "treatment":  "MITIGATE",
+                        "owner":  "PISI_RISK_OWNER",
+                        "status":  "IN_TREATMENT",
+                        "exception":  false,
+                        "acceptance_required":  false
+                    },
+                    {
+                        "risk_id":  "RISK-001",
+                        "title":  "Lexical data integrity",
+                        "inherent_score":  20,
+                        "residual_score":  10,
+                        "priority":  "HIGH",
+                        "treatment":  "MITIGATE",
+                        "owner":  "PISI_RISK_OWNER",
+                        "status":  "IN_TREATMENT",
+                        "exception":  false,
+                        "acceptance_required":  false
+                    },
+                    {
+                        "risk_id":  "RISK-003",
+                        "title":  "Service availability",
+                        "inherent_score":  15,
+                        "residual_score":  6,
+                        "priority":  "HIGH",
+                        "treatment":  "MITIGATE",
+                        "owner":  "PISI_CONTINUITY_OWNER",
+                        "status":  "MONITORED",
+                        "exception":  false,
+                        "acceptance_required":  false
+                    },
+                    {
+                        "risk_id":  "RISK-004",
+                        "title":  "Third-party dependency disruption",
+                        "inherent_score":  12,
+                        "residual_score":  6,
+                        "priority":  "HIGH",
+                        "treatment":  "TRANSFER",
+                        "owner":  "PISI_SUPPLY_CHAIN_OWNER",
+                        "status":  "MONITORED",
+                        "exception":  true,
+                        "acceptance_required":  true
+                    }
+                ],
+    "treatments":  [
+                       {
+                           "risk_id":  "RISK-002",
+                           "valid":  true,
+                           "treatment":  "MITIGATE",
+                           "owner":  "PISI_RISK_OWNER",
+                           "status":  "IN_TREATMENT",
+                           "residual_score":  8,
+                           "treatment_executed":  false
+                       },
+                       {
+                           "risk_id":  "RISK-001",
+                           "valid":  true,
+                           "treatment":  "MITIGATE",
+                           "owner":  "PISI_RISK_OWNER",
+                           "status":  "IN_TREATMENT",
+                           "residual_score":  10,
+                           "treatment_executed":  false
+                       },
+                       {
+                           "risk_id":  "RISK-003",
+                           "valid":  true,
+                           "treatment":  "MITIGATE",
+                           "owner":  "PISI_CONTINUITY_OWNER",
+                           "status":  "MONITORED",
+                           "residual_score":  6,
+                           "treatment_executed":  false
+                       },
+                       {
+                           "risk_id":  "RISK-004",
+                           "valid":  true,
+                           "treatment":  "TRANSFER",
+                           "owner":  "PISI_SUPPLY_CHAIN_OWNER",
+                           "status":  "MONITORED",
+                           "residual_score":  6,
+                           "treatment_executed":  false
+                       }
+                   ],
+    "residuals":  [
+                      {
+                          "risk_id":  "RISK-002",
+                          "valid":  true,
+                          "inherent_score":  25,
+                          "residual_score":  8,
+                          "risk_reduction":  17,
+                          "review_required":  true
+                      },
+                      {
+                          "risk_id":  "RISK-001",
+                          "valid":  true,
+                          "inherent_score":  20,
+                          "residual_score":  10,
+                          "risk_reduction":  10,
+                          "review_required":  true
+                      },
+                      {
+                          "risk_id":  "RISK-003",
+                          "valid":  true,
+                          "inherent_score":  15,
+                          "residual_score":  6,
+                          "risk_reduction":  9,
+                          "review_required":  true
+                      },
+                      {
+                          "risk_id":  "RISK-004",
+                          "valid":  true,
+                          "inherent_score":  12,
+                          "residual_score":  6,
+                          "risk_reduction":  6,
+                          "review_required":  true
+                      }
+                  ],
+    "exceptions":  [
+                       {
+                           "risk_id":  "RISK-002",
+                           "exception":  false,
+                           "valid":  true,
+                           "approval_required":  false,
+                           "expiry_required":  false
+                       },
+                       {
+                           "risk_id":  "RISK-001",
+                           "exception":  false,
+                           "valid":  true,
+                           "approval_required":  false,
+                           "expiry_required":  false
+                       },
+                       {
+                           "risk_id":  "RISK-003",
+                           "exception":  false,
+                           "valid":  true,
+                           "approval_required":  false,
+                           "expiry_required":  false
+                       },
+                       {
+                           "risk_id":  "RISK-004",
+                           "exception":  true,
+                           "valid":  true,
+                           "approval_required":  true,
+                           "expiry_required":  true
+                       }
+                   ],
+    "acceptances":  [
+                        {
+                            "risk_id":  "RISK-002",
+                            "required":  false,
+                            "approval_required":  false,
+                            "residual_review_required":  false,
+                            "accepted_automatically":  false,
+                            "valid":  true
+                        },
+                        {
+                            "risk_id":  "RISK-001",
+                            "required":  false,
+                            "approval_required":  false,
+                            "residual_review_required":  false,
+                            "accepted_automatically":  false,
+                            "valid":  true
+                        },
+                        {
+                            "risk_id":  "RISK-003",
+                            "required":  false,
+                            "approval_required":  false,
+                            "residual_review_required":  false,
+                            "accepted_automatically":  false,
+                            "valid":  true
+                        },
+                        {
+                            "risk_id":  "RISK-004",
+                            "required":  true,
+                            "approval_required":  true,
+                            "residual_review_required":  true,
+                            "accepted_automatically":  false,
+                            "valid":  true
+                        }
+                    ],
+    "treatment_executed":  false,
+    "acceptance_executed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

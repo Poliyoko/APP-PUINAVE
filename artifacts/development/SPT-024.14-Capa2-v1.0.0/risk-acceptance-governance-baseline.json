@@ -1,0 +1,34 @@
+[
+    {
+        "risk_id":  "RISK-002",
+        "required":  false,
+        "approval_required":  false,
+        "residual_review_required":  false,
+        "accepted_automatically":  false,
+        "valid":  true
+    },
+    {
+        "risk_id":  "RISK-001",
+        "required":  false,
+        "approval_required":  false,
+        "residual_review_required":  false,
+        "accepted_automatically":  false,
+        "valid":  true
+    },
+    {
+        "risk_id":  "RISK-003",
+        "required":  false,
+        "approval_required":  false,
+        "residual_review_required":  false,
+        "accepted_automatically":  false,
+        "valid":  true
+    },
+    {
+        "risk_id":  "RISK-004",
+        "required":  true,
+        "approval_required":  true,
+        "residual_review_required":  true,
+        "accepted_automatically":  false,
+        "valid":  true
+    }
+]

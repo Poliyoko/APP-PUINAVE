@@ -1,0 +1,30 @@
+[
+    {
+        "risk_id":  "RISK-002",
+        "exception":  false,
+        "valid":  true,
+        "approval_required":  false,
+        "expiry_required":  false
+    },
+    {
+        "risk_id":  "RISK-001",
+        "exception":  false,
+        "valid":  true,
+        "approval_required":  false,
+        "expiry_required":  false
+    },
+    {
+        "risk_id":  "RISK-003",
+        "exception":  false,
+        "valid":  true,
+        "approval_required":  false,
+        "expiry_required":  false
+    },
+    {
+        "risk_id":  "RISK-004",
+        "exception":  true,
+        "valid":  true,
+        "approval_required":  true,
+        "expiry_required":  true
+    }
+]

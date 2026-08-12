@@ -1,0 +1,37 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt02414/risk-register-governance-policy.json",
+                        "sha256":  "545A66CDC65862CADC3DA5863A271F6F4DD971E71C2ACFC4869CC698903D00BF"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.14/SGD-SPT024.14-Capa2-Registro-Maestro-Riesgos-Priorizacion-Tratamiento-Riesgo-Residual-Excepciones.md",
+                        "sha256":  "A32CE41DAE228D3E3540D4732200492EB7FF72613FCA1D63CB09CBE330E844DB"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-register-governance-assessment.json",
+                        "sha256":  "9CAEBAF7F3B61D3121E36090FA33E7F0D45B9675ECB9933D8508208EA69ECCCA"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/master-risk-register.json",
+                        "sha256":  "9D141EBF807D68A15D14BF856BA7569C734A6B78E408565DC6DA02C364670400"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-treatment-plans-baseline.json",
+                        "sha256":  "56E1F8DEA3D3579EA66131FFA26E522B47D523A1853A14A00809365B6C3CFD1A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/residual-risk-baseline.json",
+                        "sha256":  "822F78E9C103C2528B3EBC8B73FF113F2E2CA3F91B0E34889A35B24D9812EC42"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-exceptions-baseline.json",
+                        "sha256":  "30CC17CBD49066D0AD2B3A05ED9F126DA48DC6AA8FF9090DC0FF19C1B6F4B77B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.14-Capa2-v1.0.0/risk-acceptance-governance-baseline.json",
+                        "sha256":  "28E5A9D40A1D8A2C7BD9703433379225BABE92F11E6661174A649972D081FE5B"
+                    }
+                ]
+}

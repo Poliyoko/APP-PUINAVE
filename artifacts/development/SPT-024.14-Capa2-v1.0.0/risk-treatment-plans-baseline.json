@@ -1,0 +1,38 @@
+[
+    {
+        "risk_id":  "RISK-002",
+        "valid":  true,
+        "treatment":  "MITIGATE",
+        "owner":  "PISI_RISK_OWNER",
+        "status":  "IN_TREATMENT",
+        "residual_score":  8,
+        "treatment_executed":  false
+    },
+    {
+        "risk_id":  "RISK-001",
+        "valid":  true,
+        "treatment":  "MITIGATE",
+        "owner":  "PISI_RISK_OWNER",
+        "status":  "IN_TREATMENT",
+        "residual_score":  10,
+        "treatment_executed":  false
+    },
+    {
+        "risk_id":  "RISK-003",
+        "valid":  true,
+        "treatment":  "MITIGATE",
+        "owner":  "PISI_CONTINUITY_OWNER",
+        "status":  "MONITORED",
+        "residual_score":  6,
+        "treatment_executed":  false
+    },
+    {
+        "risk_id":  "RISK-004",
+        "valid":  true,
+        "treatment":  "TRANSFER",
+        "owner":  "PISI_SUPPLY_CHAIN_OWNER",
+        "status":  "MONITORED",
+        "residual_score":  6,
+        "treatment_executed":  false
+    }
+]

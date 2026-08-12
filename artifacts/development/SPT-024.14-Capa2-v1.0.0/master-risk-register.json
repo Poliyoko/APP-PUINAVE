@@ -1,0 +1,50 @@
+[
+    {
+        "risk_id":  "RISK-002",
+        "title":  "Credential exposure",
+        "inherent_score":  25,
+        "residual_score":  8,
+        "priority":  "CRITICAL",
+        "treatment":  "MITIGATE",
+        "owner":  "PISI_RISK_OWNER",
+        "status":  "IN_TREATMENT",
+        "exception":  false,
+        "acceptance_required":  false
+    },
+    {
+        "risk_id":  "RISK-001",
+        "title":  "Lexical data integrity",
+        "inherent_score":  20,
+        "residual_score":  10,
+        "priority":  "HIGH",
+        "treatment":  "MITIGATE",
+        "owner":  "PISI_RISK_OWNER",
+        "status":  "IN_TREATMENT",
+        "exception":  false,
+        "acceptance_required":  false
+    },
+    {
+        "risk_id":  "RISK-003",
+        "title":  "Service availability",
+        "inherent_score":  15,
+        "residual_score":  6,
+        "priority":  "HIGH",
+        "treatment":  "MITIGATE",
+        "owner":  "PISI_CONTINUITY_OWNER",
+        "status":  "MONITORED",
+        "exception":  false,
+        "acceptance_required":  false
+    },
+    {
+        "risk_id":  "RISK-004",
+        "title":  "Third-party dependency disruption",
+        "inherent_score":  12,
+        "residual_score":  6,
+        "priority":  "HIGH",
+        "treatment":  "TRANSFER",
+        "owner":  "PISI_SUPPLY_CHAIN_OWNER",
+        "status":  "MONITORED",
+        "exception":  true,
+        "acceptance_required":  true
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "component":  "SPT-024.14",
+    "layer":  2,
+    "version":  "1.0.0",
+    "authoritative_baseline":  "12abac887ab08e7ba6932477cf696efedad49865",
+    "status":  "RISK_REGISTER_GOVERNANCE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "capa1_reused":  true,
+    "capa1_reopened":  false,
+    "treatment_executed":  false,
+    "automatic_acceptance_executed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

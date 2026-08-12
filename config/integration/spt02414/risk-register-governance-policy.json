@@ -1,0 +1,35 @@
+{
+  "component": "SPT-024.14",
+  "layer": 2,
+  "version": "1.0.0",
+  "title": "Registro Maestro de Riesgos, Priorizacion, Tratamiento, Seguimiento, Riesgo Residual, Excepciones y Aceptacion",
+  "blocking_controls": [
+    "LAYER1_GATE",
+    "MASTER_REGISTER",
+    "PRIORITIZATION",
+    "TREATMENT_PLANS",
+    "RESIDUAL_RISK",
+    "EXCEPTION_GOVERNANCE",
+    "ACCEPTANCE_GOVERNANCE",
+    "TRACKING_GOVERNANCE",
+    "NO_AUTO_ACCEPTANCE",
+    "NO_TREATMENT_EXECUTION",
+    "NO_PRODUCTION_CHANGE",
+    "SECRET_SAFETY"
+  ],
+  "acceptance": {
+    "automatic": false,
+    "approval_required": true,
+    "residual_review_required": true
+  },
+  "exceptions": {
+    "approval_required": true,
+    "expiry_required": true
+  },
+  "safety": {
+    "treatment_execution": false,
+    "production_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false
+  }
+}
