@@ -1,0 +1,45 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt02415/advanced-api-hardening-governance-policy.json",
+                        "sha256":  "33BA65521B8CC83C6FEBCBCF2A13281CA54945126DB9EDB815222C27D38D28BA"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.15/SGD-SPT024.15-Capa2-Hardening-APIs-Sesiones-RateLimit-CORS-CSRF-Endpoints-Exposicion.md",
+                        "sha256":  "4B4262120CC29907778214FED87568113FC085B416376EFD4BF75FA203056235"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-api-hardening-assessment.json",
+                        "sha256":  "DA0859D97B2352D182704BE1732271E818E3B1A6DFAEFC402861A0D0F3EF1A21"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-api-surface-inventory.json",
+                        "sha256":  "9EA1F7B1CC1D3E0C6238F0AE2827DBDB9D532C8DB19D8467C7958903114CD717"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-session-hardening-baseline.json",
+                        "sha256":  "D6FD471B1018CF0F31F09832573F178D228673F3FF3A0068EB0EE9C6C1B34CBD"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/rate-limit-governance-baseline.json",
+                        "sha256":  "D6406E5FA536B1F6D8EA7AB7BD69B34B17F49A5ED9092AC5C6A6545965EEEEFB"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/cors-csrf-governance-baseline.json",
+                        "sha256":  "3F927110350BA7AB4D2DB1D210804CE0CA7B1AF89CC7196D34D018E81920ECF3"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/endpoint-security-baseline.json",
+                        "sha256":  "17DCBFD34B432B97C5F418A254115764C0ABAA6814C3F89D94EB1E271DDAA985"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/advanced-validation-baseline.json",
+                        "sha256":  "959E4869E5B1586932F0C982322C8A2247AA37DBE5766854B39A06AE62FC592D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.15-Capa2-v1.0.0/api-exposure-governance-baseline.json",
+                        "sha256":  "75C744E508B9453A58EB57A7797D28F85F4F74D18598AF8FEBB4618BACC80B7B"
+                    }
+                ]
+}

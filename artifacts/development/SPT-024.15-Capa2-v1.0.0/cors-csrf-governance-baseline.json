@@ -1,0 +1,9 @@
+{
+    "valid":  true,
+    "explicit_origin_allowlist":  true,
+    "credentials_scope_review":  true,
+    "wildcard_credentials_blocked":  true,
+    "csrf_token_required":  true,
+    "unsafe_method_protection":  true,
+    "origin_referer_review":  true
+}

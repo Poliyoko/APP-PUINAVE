@@ -1,0 +1,11 @@
+{
+    "valid":  true,
+    "schema_validation":  true,
+    "length_limits":  true,
+    "numeric_bounds":  true,
+    "enum_allowlists":  true,
+    "canonicalization":  true,
+    "path_traversal_protection":  true,
+    "injection_protection":  true,
+    "unsafe_deserialization_blocked":  true
+}

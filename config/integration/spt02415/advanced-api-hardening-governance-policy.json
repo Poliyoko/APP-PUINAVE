@@ -1,0 +1,34 @@
+{
+  "component": "SPT-024.15",
+  "layer": 2,
+  "version": "1.0.0",
+  "title": "Hardening de APIs, Proteccion Avanzada de Sesiones, Rate Limiting, CORS, CSRF, Seguridad de Endpoints, Validacion Avanzada y Gobierno de Exposicion",
+  "requires": {
+    "layer1": "APPLICATION_API_SECURITY_GATE_PASS"
+  },
+  "blocking_controls": [
+    "API2-LAYER1-GATE",
+    "API2-SURFACE-INVENTORY",
+    "API2-SESSION-HARDENING",
+    "API2-RATE-LIMIT",
+    "API2-CORS-CSRF",
+    "API2-ENDPOINT-SECURITY",
+    "API2-ADVANCED-VALIDATION",
+    "API2-EXPOSURE-GOVERNANCE",
+    "API2-NO-ACTIVE-ATTACK",
+    "API2-NO-SESSION-CHANGE",
+    "API2-NO-RATELIMIT-CHANGE",
+    "API2-NO-ENDPOINT-CHANGE",
+    "API2-NO-EXPOSURE-CHANGE",
+    "API2-NO-EXTERNAL-CONNECTION",
+    "API2-SECRET-SAFETY"
+  ],
+  "safety": {
+    "active_attack": false,
+    "production_change": false,
+    "real_session_change": false,
+    "external_connection": false,
+    "secret_values_exposed": false,
+    "modify_closed_layer1": false
+  }
+}

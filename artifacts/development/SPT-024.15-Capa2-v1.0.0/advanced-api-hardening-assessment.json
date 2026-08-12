@@ -1,0 +1,168 @@
+{
+    "status":  "ADVANCED_API_HARDENING_GATE_PASS",
+    "failed_blocking_controls":  [
+
+                                 ],
+    "controls":  [
+                     {
+                         "control_id":  "API2-LAYER1-GATE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Layer 1 is required and preserved."
+                     },
+                     {
+                         "control_id":  "API2-SURFACE-INVENTORY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Surface inventory exists."
+                     },
+                     {
+                         "control_id":  "API2-SESSION-HARDENING",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Advanced session hardening passes."
+                     },
+                     {
+                         "control_id":  "API2-RATE-LIMIT",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Rate limiting governance passes."
+                     },
+                     {
+                         "control_id":  "API2-CORS-CSRF",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "CORS/CSRF governance passes."
+                     },
+                     {
+                         "control_id":  "API2-ENDPOINT-SECURITY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Endpoint security governance passes."
+                     },
+                     {
+                         "control_id":  "API2-ADVANCED-VALIDATION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Advanced input validation passes."
+                     },
+                     {
+                         "control_id":  "API2-EXPOSURE-GOVERNANCE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Endpoint exposure governance passes."
+                     },
+                     {
+                         "control_id":  "API2-NO-ACTIVE-ATTACK",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No active attack testing is executed."
+                     },
+                     {
+                         "control_id":  "API2-NO-SESSION-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No real session changes."
+                     },
+                     {
+                         "control_id":  "API2-NO-RATELIMIT-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No production rate-limit change."
+                     },
+                     {
+                         "control_id":  "API2-NO-ENDPOINT-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No endpoint change."
+                     },
+                     {
+                         "control_id":  "API2-NO-EXPOSURE-CHANGE",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "No exposure change."
+                     },
+                     {
+                         "control_id":  "API2-NO-EXTERNAL-CONNECTION",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Assessment is local/static."
+                     },
+                     {
+                         "control_id":  "API2-SECRET-SAFETY",
+                         "passed":  true,
+                         "blocking":  true,
+                         "detail":  "Secret values are not exposed."
+                     }
+                 ],
+    "surface_count":  1818,
+    "session_hardening":  {
+                              "valid":  true,
+                              "secure_cookie":  true,
+                              "http_only":  true,
+                              "same_site_strict_or_lax":  true,
+                              "absolute_timeout":  true,
+                              "idle_timeout":  true,
+                              "rotation_on_auth":  true,
+                              "logout_invalidation":  true,
+                              "csrf_binding":  true,
+                              "real_session_changed":  false
+                          },
+    "rate_limit_governance":  {
+                                  "valid":  true,
+                                  "global_limit_policy":  true,
+                                  "per_identity_limit":  true,
+                                  "per_endpoint_limit":  true,
+                                  "burst_control":  true,
+                                  "retry_after_policy":  true,
+                                  "abuse_logging":  true,
+                                  "rate_limit_changed":  false
+                              },
+    "cors_csrf_governance":  {
+                                 "valid":  true,
+                                 "explicit_origin_allowlist":  true,
+                                 "credentials_scope_review":  true,
+                                 "wildcard_credentials_blocked":  true,
+                                 "csrf_token_required":  true,
+                                 "unsafe_method_protection":  true,
+                                 "origin_referer_review":  true
+                             },
+    "endpoint_security":  {
+                              "valid":  true,
+                              "authn_required":  true,
+                              "authz_required":  true,
+                              "object_authz_required":  true,
+                              "method_allowlist":  true,
+                              "content_type_allowlist":  true,
+                              "response_schema_review":  true,
+                              "error_sanitization":  true,
+                              "security_headers":  true,
+                              "endpoint_changed":  false
+                          },
+    "advanced_validation":  {
+                                "valid":  true,
+                                "schema_validation":  true,
+                                "length_limits":  true,
+                                "numeric_bounds":  true,
+                                "enum_allowlists":  true,
+                                "canonicalization":  true,
+                                "path_traversal_protection":  true,
+                                "injection_protection":  true,
+                                "unsafe_deserialization_blocked":  true
+                            },
+    "exposure_governance":  {
+                                "valid":  true,
+                                "public_private_classification":  true,
+                                "admin_endpoint_separation":  true,
+                                "debug_endpoint_governance":  true,
+                                "docs_endpoint_governance":  true,
+                                "health_endpoint_minimization":  true,
+                                "versioning_policy":  true,
+                                "deprecated_endpoint_governance":  true,
+                                "exposure_changed":  false
+                            },
+    "active_attack_executed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

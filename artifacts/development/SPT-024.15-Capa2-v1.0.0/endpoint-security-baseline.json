@@ -1,0 +1,12 @@
+{
+    "valid":  true,
+    "authn_required":  true,
+    "authz_required":  true,
+    "object_authz_required":  true,
+    "method_allowlist":  true,
+    "content_type_allowlist":  true,
+    "response_schema_review":  true,
+    "error_sanitization":  true,
+    "security_headers":  true,
+    "endpoint_changed":  false
+}

@@ -1,0 +1,3 @@
+def assess_exposure_governance(profile):
+    checks={"public_private_classification":bool(profile.get("public_private_classification")),"admin_endpoint_separation":bool(profile.get("admin_endpoint_separation")),"debug_endpoint_governance":bool(profile.get("debug_endpoint_governance")),"docs_endpoint_governance":bool(profile.get("docs_endpoint_governance")),"health_endpoint_minimization":bool(profile.get("health_endpoint_minimization")),"versioning_policy":bool(profile.get("versioning_policy")),"deprecated_endpoint_governance":bool(profile.get("deprecated_endpoint_governance"))}
+    return {"valid":all(checks.values()),**checks,"exposure_changed":False}

@@ -1,0 +1,3 @@
+def assess_advanced_validation(profile):
+    checks={"schema_validation":bool(profile.get("schema_validation")),"length_limits":bool(profile.get("length_limits")),"numeric_bounds":bool(profile.get("numeric_bounds")),"enum_allowlists":bool(profile.get("enum_allowlists")),"canonicalization":bool(profile.get("canonicalization")),"path_traversal_protection":bool(profile.get("path_traversal_protection")),"injection_protection":bool(profile.get("injection_protection")),"unsafe_deserialization_blocked":bool(profile.get("unsafe_deserialization_blocked"))}
+    return {"valid":all(checks.values()),**checks}

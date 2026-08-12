@@ -1,0 +1,20 @@
+{
+    "component":  "SPT-024.15",
+    "layer":  2,
+    "version":  "1.0.0",
+    "authoritative_baseline":  "8510c78b14a4f07604fa9d1201509c2363e05877",
+    "status":  "ADVANCED_API_HARDENING_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "capa1_reused":  true,
+    "capa1_reopened":  false,
+    "active_attack_executed":  false,
+    "real_session_changed":  false,
+    "rate_limit_changed":  false,
+    "endpoint_changed":  false,
+    "exposure_changed":  false,
+    "production_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

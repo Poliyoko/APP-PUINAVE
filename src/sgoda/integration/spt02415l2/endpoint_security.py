@@ -1,0 +1,3 @@
+def assess_endpoint_security(profile):
+    checks={"authn_required":bool(profile.get("authn_required")),"authz_required":bool(profile.get("authz_required")),"object_authz_required":bool(profile.get("object_authz_required")),"method_allowlist":bool(profile.get("method_allowlist")),"content_type_allowlist":bool(profile.get("content_type_allowlist")),"response_schema_review":bool(profile.get("response_schema_review")),"error_sanitization":bool(profile.get("error_sanitization")),"security_headers":bool(profile.get("security_headers"))}
+    return {"valid":all(checks.values()),**checks,"endpoint_changed":False}

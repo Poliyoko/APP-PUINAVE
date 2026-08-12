@@ -1,0 +1,11 @@
+{
+    "valid":  true,
+    "public_private_classification":  true,
+    "admin_endpoint_separation":  true,
+    "debug_endpoint_governance":  true,
+    "docs_endpoint_governance":  true,
+    "health_endpoint_minimization":  true,
+    "versioning_policy":  true,
+    "deprecated_endpoint_governance":  true,
+    "exposure_changed":  false
+}

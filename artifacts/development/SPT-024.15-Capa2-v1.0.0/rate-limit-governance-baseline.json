@@ -1,0 +1,10 @@
+{
+    "valid":  true,
+    "global_limit_policy":  true,
+    "per_identity_limit":  true,
+    "per_endpoint_limit":  true,
+    "burst_control":  true,
+    "retry_after_policy":  true,
+    "abuse_logging":  true,
+    "rate_limit_changed":  false
+}

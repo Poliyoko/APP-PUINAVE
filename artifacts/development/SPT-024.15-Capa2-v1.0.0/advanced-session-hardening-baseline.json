@@ -1,0 +1,12 @@
+{
+    "valid":  true,
+    "secure_cookie":  true,
+    "http_only":  true,
+    "same_site_strict_or_lax":  true,
+    "absolute_timeout":  true,
+    "idle_timeout":  true,
+    "rotation_on_auth":  true,
+    "logout_invalidation":  true,
+    "csrf_binding":  true,
+    "real_session_changed":  false
+}
