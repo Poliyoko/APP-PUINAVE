@@ -1,0 +1,31 @@
+{
+  "hardening": {
+    "valid": true,
+    "surface_count": 2453,
+    "baseline_controls": {
+      "least_exposure": true,
+      "secure_defaults": true,
+      "configuration_review": true,
+      "service_hardening": true,
+      "admin_surface_review": true
+    },
+    "insecure_tokens_catalogued": 6,
+    "production_configuration_changed": false,
+    "service_restarted": false,
+    "os_permission_changed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "configuration_governance": {
+    "valid": true,
+    "versioned": true,
+    "reviewed": true,
+    "integrity": true,
+    "rollback": true,
+    "secrets_indirect": true,
+    "production_configuration_changed": false,
+    "secret_values_exposed": false
+  },
+  "production_configuration_changed": false,
+  "service_restarted": false
+}

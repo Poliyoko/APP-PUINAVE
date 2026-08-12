@@ -1,0 +1,31 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 5,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.12-Capa1-v1.0.0/exposure-surface-baseline.json",
+      "bytes": 456,
+      "sha256": "6208b6e35f5f4361c92ceb0220ef6fa8e5e7d12c840a219fb54d57f45b9a45e2"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa1-v1.0.0/infrastructure-hardening-baseline.json",
+      "bytes": 862,
+      "sha256": "5b46ce0a993f46b6af54d118fc2bb77b96a2f2575442d839480e501390ed70b9"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa1-v1.0.0/infrastructure-security-assessment.json",
+      "bytes": 3997,
+      "sha256": "2734e45ad46bec5a6ff5bcc307376dbddde1e993ef6b72e9225dc10df58a9cb7"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa1-v1.0.0/infrastructure-surface-inventory.json",
+      "bytes": 420,
+      "sha256": "6b780975ff883f4a6e305e5f1c726254e95a6be84eb3d0b12b29e36d78a64caa"
+    },
+    {
+      "path": "config/integration/spt02412/infrastructure-security-policy.json",
+      "bytes": 1180,
+      "sha256": "8556b67ee67cb66487dbaf8694193a2aabe294f152725ed503886a59d891e755"
+    }
+  ]
+}

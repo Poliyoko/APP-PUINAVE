@@ -1,0 +1,18 @@
+{
+  "mode": "GIT_TRACKED_STATIC_DISCOVERY",
+  "surface_count": 2453,
+  "classification_counts": {
+    "CI_CD": 8,
+    "SCRIPT": 50,
+    "GENERAL": 1537,
+    "DATABASE": 5,
+    "API": 13,
+    "AUTOMATION": 71,
+    "CONFIGURATION": 769
+  },
+  "production_configuration_changed": false,
+  "service_restarted": false,
+  "port_opened": false,
+  "firewall_changed": false,
+  "secret_values_exposed": false
+}

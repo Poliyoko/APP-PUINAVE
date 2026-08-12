@@ -1,0 +1,42 @@
+{
+  "component": "SPT-024.12",
+  "layer": "1",
+  "version": "1.0.0",
+  "title": "Seguridad de Infraestructura, Configuracion, Hardening de Hosts/Servicios, Superficie de Exposicion y Gobierno Operacional",
+  "blocking_controls": [
+    "INFRA-INVENTORY",
+    "INFRA-HARDENING",
+    "INFRA-CONFIG-GOVERNANCE",
+    "INFRA-EXPOSURE",
+    "INFRA-SECRET-INDIRECTION",
+    "INFRA-NO-REAL-CHANGE",
+    "INFRA-NO-SERVICE-ACTION",
+    "INFRA-NO-EXTERNAL-CONNECTION",
+    "INFRA-SECRET-SAFETY"
+  ],
+  "mode": "STATIC_NON_DESTRUCTIVE",
+  "hardening": {
+    "secure_defaults": true,
+    "least_exposure": true,
+    "service_review": true,
+    "configuration_review": true
+  },
+  "configuration_governance": {
+    "versioned": true,
+    "reviewed": true,
+    "integrity_required": true,
+    "rollback_required": true,
+    "secret_indirection_required": true
+  },
+  "safety": {
+    "modify_production_configuration": false,
+    "restart_services": false,
+    "change_os_permissions": false,
+    "open_ports": false,
+    "change_firewall": false,
+    "publish_services": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_closed_components": false
+  }
+}

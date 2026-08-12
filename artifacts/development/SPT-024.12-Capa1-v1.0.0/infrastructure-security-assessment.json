@@ -1,0 +1,132 @@
+{
+  "status": "INFRASTRUCTURE_SECURITY_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "INFRA-INVENTORY",
+      "name": "Infrastructure surface inventory",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Infrastructure/configuration surfaces are inventoried from Git-tracked files."
+    },
+    {
+      "control_id": "INFRA-HARDENING",
+      "name": "Infrastructure hardening baseline",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Hardening controls require secure defaults, least exposure and service review."
+    },
+    {
+      "control_id": "INFRA-CONFIG-GOVERNANCE",
+      "name": "Configuration governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Configuration must be versioned, reviewed, integrity-protected and rollback-capable."
+    },
+    {
+      "control_id": "INFRA-EXPOSURE",
+      "name": "Exposure surface governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Exposure review is static and does not publish services or open ports."
+    },
+    {
+      "control_id": "INFRA-SECRET-INDIRECTION",
+      "name": "Secret indirection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Infrastructure configuration must not embed production secrets."
+    },
+    {
+      "control_id": "INFRA-NO-REAL-CHANGE",
+      "name": "No production infrastructure mutation",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Layer 1 assessment never changes production infrastructure."
+    },
+    {
+      "control_id": "INFRA-NO-SERVICE-ACTION",
+      "name": "No service restart or publication",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Gate does not restart or publish services."
+    },
+    {
+      "control_id": "INFRA-NO-EXTERNAL-CONNECTION",
+      "name": "No external connection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment remains local and static."
+    },
+    {
+      "control_id": "INFRA-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Evidence contains metadata only."
+    }
+  ],
+  "classification_counts": {
+    "CI_CD": 8,
+    "SCRIPT": 50,
+    "GENERAL": 1537,
+    "DATABASE": 5,
+    "API": 13,
+    "AUTOMATION": 71,
+    "CONFIGURATION": 769
+  },
+  "hardening": {
+    "valid": true,
+    "surface_count": 2453,
+    "baseline_controls": {
+      "least_exposure": true,
+      "secure_defaults": true,
+      "configuration_review": true,
+      "service_hardening": true,
+      "admin_surface_review": true
+    },
+    "insecure_tokens_catalogued": 6,
+    "production_configuration_changed": false,
+    "service_restarted": false,
+    "os_permission_changed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "exposure": {
+    "valid": true,
+    "surface_count": 2453,
+    "exposure_candidate_count": 314,
+    "review_mode": "STATIC_NON_DESTRUCTIVE",
+    "port_opened": false,
+    "firewall_changed": false,
+    "service_published": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "configuration_governance": {
+    "valid": true,
+    "versioned": true,
+    "reviewed": true,
+    "integrity": true,
+    "rollback": true,
+    "secrets_indirect": true,
+    "production_configuration_changed": false,
+    "secret_values_exposed": false
+  },
+  "infrastructure_surfaces": 2453,
+  "production_configuration_changed": false,
+  "service_restarted": false,
+  "port_opened": false,
+  "firewall_changed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

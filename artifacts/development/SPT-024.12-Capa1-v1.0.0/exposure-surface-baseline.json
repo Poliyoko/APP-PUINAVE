@@ -1,0 +1,17 @@
+{
+  "exposure": {
+    "valid": true,
+    "surface_count": 2453,
+    "exposure_candidate_count": 314,
+    "review_mode": "STATIC_NON_DESTRUCTIVE",
+    "port_opened": false,
+    "firewall_changed": false,
+    "service_published": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "port_opened": false,
+  "firewall_changed": false,
+  "service_published": false,
+  "external_connection_opened": false
+}
