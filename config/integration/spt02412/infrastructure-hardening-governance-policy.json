@@ -1,0 +1,56 @@
+{
+  "component": "SPT-024.12",
+  "layer": "2",
+  "version": "1.0.0",
+  "title": "Hardening Operacional Avanzado, Baselines de Configuracion Segura, Gestion de Exposicion, Servicios, Puertos y Gobierno de Cambios de Infraestructura",
+  "blocking_controls": [
+    "INFRA-SECURE-BASELINE",
+    "INFRA-SERVICE-GOVERNANCE",
+    "INFRA-PORT-GOVERNANCE",
+    "INFRA-EXPOSURE-GOVERNANCE",
+    "INFRA-CHANGE-GOVERNANCE",
+    "INFRA-SECRET-INDIRECTION",
+    "INFRA-NO-REAL-SERVICE-ACTION",
+    "INFRA-NO-REAL-NETWORK-ACTION",
+    "INFRA-NO-PRODUCTION-CHANGE",
+    "INFRA-NO-EXTERNAL-CONNECTION",
+    "INFRA-SECRET-SAFETY"
+  ],
+  "secure_baseline": {
+    "versioned": true,
+    "reviewed": true,
+    "integrity_protected": true,
+    "rollback_ready": true,
+    "least_exposure": true,
+    "secret_indirection": true
+  },
+  "service_governance": {
+    "approval_required": true,
+    "health_check_required": true,
+    "privileged_services_prohibited": true
+  },
+  "port_governance": {
+    "purpose_required": true,
+    "approval_required": true,
+    "restriction_required": true,
+    "public_exposure_default": false
+  },
+  "change_governance": {
+    "change_id_required": true,
+    "approval_required": true,
+    "rollback_required": true,
+    "evidence_required": true,
+    "risk_review_required": true
+  },
+  "safety": {
+    "modify_production_configuration": false,
+    "execute_production_change": false,
+    "start_stop_restart_service": false,
+    "open_ports": false,
+    "change_firewall": false,
+    "open_external_connections": false,
+    "print_secret_values": false,
+    "modify_layer1": false,
+    "modify_closed_components": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "component":  "SPT-024.12",
+    "layer":  "2",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-12T03:13:27.6677541Z",
+    "authoritative_baseline":  "f44aa28ba66fe96c3e1a321c84c5d1e122e85262",
+    "final_status":  "INFRASTRUCTURE_HARDENING_GOVERNANCE_GATE_PASS",
+    "gates":  {
+                  "capa1_infrastructure_security":  "PASS",
+                  "targeted_tests":  "PASS",
+                  "institutional_suite":  "PASS",
+                  "compileall":  "PASS",
+                  "hardening_governance":  "PASS",
+                  "preservation":  "PENDING",
+                  "github_size":  "PENDING",
+                  "remote_sync":  "PENDING"
+              },
+    "production_configuration_changed":  false,
+    "production_change_executed":  false,
+    "service_restarted":  false,
+    "port_opened":  false,
+    "firewall_changed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}

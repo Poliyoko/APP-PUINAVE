@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "change_id": "CHG-SPT02412-L2",
+  "approval_present": true,
+  "rollback": true,
+  "evidence": true,
+  "risk_review": true,
+  "production_change_executed": false,
+  "secret_values_exposed": false
+}

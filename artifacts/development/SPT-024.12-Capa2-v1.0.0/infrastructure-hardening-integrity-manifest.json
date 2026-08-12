@@ -1,0 +1,41 @@
+{
+  "algorithm": "SHA-256",
+  "record_count": 7,
+  "records": [
+    {
+      "path": "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-change-governance-baseline.json",
+      "bytes": 228,
+      "sha256": "6a65814ac1b5082cf88bf23b9a825c3252681b27ad0f3017c45b315bb87418e0"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-hardening-governance-assessment.json",
+      "bytes": 4801,
+      "sha256": "cff8938090e3c579bb5b705cf51106b593186ea0c9534f0cda6d691d8f18294b"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-hardening-surface-inventory.json",
+      "bytes": 281,
+      "sha256": "0fa3f49f1f22abff89b257fc44cbdbbfab5c6814b7dc3c204c8c728c3ba8ae86"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa2-v1.0.0/port-exposure-governance-baseline.json",
+      "bytes": 674,
+      "sha256": "c4b28f7996406b7afc0530d9715ec99eeb4277eb180ca08e7ae16f0a005e00d8"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa2-v1.0.0/secure-configuration-baseline.json",
+      "bytes": 329,
+      "sha256": "39c87f8a5176d95e7b513399e849b008f2155077871b346c5b3458504c3d73af"
+    },
+    {
+      "path": "artifacts/development/SPT-024.12-Capa2-v1.0.0/service-governance-baseline.json",
+      "bytes": 259,
+      "sha256": "2afc05659afc9fc372c1d583a0b9ea262e8e25ada5b578ccf9f53e2723540685"
+    },
+    {
+      "path": "config/integration/spt02412/infrastructure-hardening-governance-policy.json",
+      "bytes": 1640,
+      "sha256": "e683703969309e869b7d7b028e72ba7abbd828c17b5b68af17b5a034e331cbb5"
+    }
+  ]
+}

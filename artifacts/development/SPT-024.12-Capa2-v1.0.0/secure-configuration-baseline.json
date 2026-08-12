@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "controls": {
+    "versioned": true,
+    "reviewed": true,
+    "integrity_protected": true,
+    "rollback_ready": true,
+    "least_exposure": true,
+    "secret_indirection": true
+  },
+  "production_configuration_changed": false,
+  "service_restarted": false,
+  "secret_values_exposed": false
+}

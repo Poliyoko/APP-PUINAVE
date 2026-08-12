@@ -1,0 +1,161 @@
+{
+  "status": "INFRASTRUCTURE_HARDENING_GOVERNANCE_GATE_PASS",
+  "failed_blocking_controls": [],
+  "controls": [
+    {
+      "control_id": "INFRA-SECURE-BASELINE",
+      "name": "Secure configuration baseline",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Secure baseline is versioned, reviewed, integrity-protected and rollback-ready."
+    },
+    {
+      "control_id": "INFRA-SERVICE-GOVERNANCE",
+      "name": "Service governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Services require approval and health checks and may not run privileged."
+    },
+    {
+      "control_id": "INFRA-PORT-GOVERNANCE",
+      "name": "Port governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Ports require purpose, approval, restriction and non-public exposure."
+    },
+    {
+      "control_id": "INFRA-EXPOSURE-GOVERNANCE",
+      "name": "Exposure governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Exposure is inventoried and assessed statically."
+    },
+    {
+      "control_id": "INFRA-CHANGE-GOVERNANCE",
+      "name": "Infrastructure change governance",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Changes require approval, rollback, risk review and evidence."
+    },
+    {
+      "control_id": "INFRA-SECRET-INDIRECTION",
+      "name": "Secret indirection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Operational infrastructure baselines prohibit embedded production secrets."
+    },
+    {
+      "control_id": "INFRA-NO-REAL-SERVICE-ACTION",
+      "name": "No real service action",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment never starts, stops or restarts services."
+    },
+    {
+      "control_id": "INFRA-NO-REAL-NETWORK-ACTION",
+      "name": "No real network action",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment never opens ports or changes firewall."
+    },
+    {
+      "control_id": "INFRA-NO-PRODUCTION-CHANGE",
+      "name": "No production infrastructure change",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment is governance-only."
+    },
+    {
+      "control_id": "INFRA-NO-EXTERNAL-CONNECTION",
+      "name": "No external connection",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Assessment remains local and static."
+    },
+    {
+      "control_id": "INFRA-SECRET-SAFETY",
+      "name": "No secret values exposed",
+      "passed": true,
+      "blocking": true,
+      "applicable": true,
+      "detail": "Evidence stores governance metadata only."
+    }
+  ],
+  "secure_baseline": {
+    "valid": true,
+    "controls": {
+      "versioned": true,
+      "reviewed": true,
+      "integrity_protected": true,
+      "rollback_ready": true,
+      "least_exposure": true,
+      "secret_indirection": true
+    },
+    "production_configuration_changed": false,
+    "service_restarted": false,
+    "secret_values_exposed": false
+  },
+  "service_governance": {
+    "valid": true,
+    "enabled": true,
+    "approved": true,
+    "health_check": true,
+    "privileged": false,
+    "external": false,
+    "service_started": false,
+    "service_stopped": false,
+    "service_restarted": false,
+    "secret_values_exposed": false
+  },
+  "port_governance": {
+    "valid": true,
+    "port": 443,
+    "purpose_present": true,
+    "approved": true,
+    "restricted": true,
+    "public": false,
+    "port_opened": false,
+    "firewall_changed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "change_governance": {
+    "valid": true,
+    "change_id": "CHG-SPT02412-L2",
+    "approval_present": true,
+    "rollback": true,
+    "evidence": true,
+    "risk_review": true,
+    "production_change_executed": false,
+    "secret_values_exposed": false
+  },
+  "exposure": {
+    "valid": true,
+    "surface_count": 2449,
+    "candidate_count": 418,
+    "mode": "STATIC_NON_DESTRUCTIVE",
+    "port_opened": false,
+    "firewall_changed": false,
+    "service_published": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "infrastructure_surfaces": 2449,
+  "production_configuration_changed": false,
+  "production_change_executed": false,
+  "service_restarted": false,
+  "port_opened": false,
+  "firewall_changed": false,
+  "external_connection_opened": false,
+  "secret_values_exposed": false
+}

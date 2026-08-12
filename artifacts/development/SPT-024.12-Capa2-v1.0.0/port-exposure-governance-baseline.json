@@ -1,0 +1,27 @@
+{
+  "port_governance": {
+    "valid": true,
+    "port": 443,
+    "purpose_present": true,
+    "approved": true,
+    "restricted": true,
+    "public": false,
+    "port_opened": false,
+    "firewall_changed": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "exposure": {
+    "valid": true,
+    "surface_count": 2449,
+    "candidate_count": 418,
+    "mode": "STATIC_NON_DESTRUCTIVE",
+    "port_opened": false,
+    "firewall_changed": false,
+    "service_published": false,
+    "external_connection_opened": false,
+    "secret_values_exposed": false
+  },
+  "port_opened": false,
+  "firewall_changed": false
+}

@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "enabled": true,
+  "approved": true,
+  "health_check": true,
+  "privileged": false,
+  "external": false,
+  "service_started": false,
+  "service_stopped": false,
+  "service_restarted": false,
+  "secret_values_exposed": false
+}

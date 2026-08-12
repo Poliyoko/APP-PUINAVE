@@ -1,0 +1,10 @@
+{
+  "mode": "GIT_TRACKED_STATIC_DISCOVERY",
+  "surface_count": 2449,
+  "production_configuration_changed": false,
+  "production_change_executed": false,
+  "service_restarted": false,
+  "port_opened": false,
+  "firewall_changed": false,
+  "secret_values_exposed": false
+}
