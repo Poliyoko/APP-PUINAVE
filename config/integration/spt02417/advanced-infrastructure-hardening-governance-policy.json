@@ -1,0 +1,9 @@
+{
+  "component": "SPT-024.17",
+  "layer": 2,
+  "version": "1.0.0",
+  "authoritative_baseline": "15dd47d06c190cee647009d6bce2113e6165b003",
+  "requires_layer1_status": "INFRASTRUCTURE_SECURITY_GOVERNANCE_GATE_PASS",
+  "mode": "STATIC_NON_DESTRUCTIVE",
+  "blocking_controls": 22
+}

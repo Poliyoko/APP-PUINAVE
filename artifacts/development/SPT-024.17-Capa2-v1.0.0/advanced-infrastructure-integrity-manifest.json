@@ -1,0 +1,29 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt02417/advanced-infrastructure-hardening-governance-policy.json",
+                        "sha256":  "AA5985F5B4F93824604AB07F2566807AD8B655E0ED5038B93F419DE88CAAFC46"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.17/SGD-SPT024.17-Capa2-Hardening-Avanzado-Servicios-Puertos-Redes-TLS-Drift-Cambios.md",
+                        "sha256":  "3DF578CC179E474B8E678E5EE2404A49DCCB951C0CDAFF51C6CB409381DD2430"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa2-v1.0.0/advanced-infrastructure-hardening-assessment.json",
+                        "sha256":  "D4CD14BED434247A8CA623EDBDDAD1462BA2955B85F36884B56CF9895DD3515F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/infrastructure-security-governance-assessment.json",
+                        "sha256":  "5A848596BB84A58897479414CBF2CE58F72B61347063A5D97B7114C1A2C23700"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/infrastructure-security-integrity-manifest.json",
+                        "sha256":  "E93F99ABF7EDC190B1D4B1A4925A6101D15EE5CCD0C257030C792F96E8F2716D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.17-Capa1-v1.0.1/implementation-evidence.json",
+                        "sha256":  "B27BCCAD446CB976AD0C224381078EC8292E226228D1EDEB310031CE81148D38"
+                    }
+                ]
+}

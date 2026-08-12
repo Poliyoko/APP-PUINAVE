@@ -1,0 +1,117 @@
+{
+    "status":  "ADVANCED_INFRASTRUCTURE_HARDENING_GOVERNANCE_GATE_PASS",
+    "surface_count":  1720,
+    "blocking_controls":  22,
+    "failed_blocking_controls":  [
+
+                                 ],
+    "controls":  [
+                     {
+                         "control_id":  "INFRA2-HARDENING",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-SERVICE-GOVERNANCE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-PORT-GOVERNANCE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-SEGMENTATION",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-TLS",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-SECURE-BASELINE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-DRIFT",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-CHANGE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-INTEGRITY",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-ACTIVE-SCAN",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-SERVICE-ACTION",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-PORT-CHANGE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-FIREWALL-CHANGE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-NETWORK-CHANGE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-TLS-CHANGE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-DRIFT-REMEDIATION",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-PRODUCTION-CHANGE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-NO-EXTERNAL-CONNECTION",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-SECRET-SAFETY",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-LAYER1-REUSE",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-CLOSED-COMPONENTS",
+                         "passed":  true
+                     },
+                     {
+                         "control_id":  "INFRA2-SURFACE-INVENTORY",
+                         "passed":  true
+                     }
+                 ],
+    "advanced_hardening_governance":  "PASS",
+    "service_governance":  "PASS",
+    "port_governance":  "PASS",
+    "network_segmentation_governance":  "PASS",
+    "tls_secure_communications_governance":  "PASS",
+    "secure_configuration_baseline":  "PASS",
+    "configuration_drift_governance":  "PASS",
+    "infrastructure_change_governance":  "PASS",
+    "integrity_governance":  "PASS",
+    "active_network_scan_executed":  false,
+    "service_action_executed":  false,
+    "port_changed":  false,
+    "firewall_changed":  false,
+    "network_configuration_changed":  false,
+    "tls_configuration_changed":  false,
+    "drift_remediation_executed":  false,
+    "production_change_executed":  false,
+    "external_connection_opened":  false,
+    "secret_values_exposed":  false
+}
