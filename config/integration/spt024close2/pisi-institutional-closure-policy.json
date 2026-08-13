@@ -1,0 +1,22 @@
+{
+  "component": "SPT-024.CLOSE.2",
+  "version": "1.0.0",
+  "title": "Paquete de Cierre Institucional de PISI/SPT-024",
+  "authoritative_baseline": "92ad4bcfef627c56b068dec05615b9eba420470c",
+  "requires": {
+    "close1_status": "PISI_GLOBAL_PREPARE_GATE_PASS",
+    "expected_domains": 17,
+    "covered_domains": 17,
+    "missing_domains": 0
+  },
+  "final_gate": "PISI_INSTITUTIONAL_CLOSURE_GATE_PASS",
+  "rules": {
+    "modify_closed_components": false,
+    "destructive_cleanup": false,
+    "production_change": false,
+    "active_security_probe": false,
+    "secret_values_exposed": false,
+    "commit_push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

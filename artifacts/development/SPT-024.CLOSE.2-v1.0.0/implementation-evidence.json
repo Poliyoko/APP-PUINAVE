@@ -1,0 +1,15 @@
+{
+    "component":  "SPT-024.CLOSE.2",
+    "version":  "1.0.0",
+    "baseline":  "92ad4bcfef627c56b068dec05615b9eba420470c",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "final_gate":  "PISI_INSTITUTIONAL_CLOSURE_GATE_PASS",
+    "expected_domains":  17,
+    "recertified_domains":  17,
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "closed_components_preserved":  true,
+    "production_change":  false,
+    "secret_values_exposed":  false
+}

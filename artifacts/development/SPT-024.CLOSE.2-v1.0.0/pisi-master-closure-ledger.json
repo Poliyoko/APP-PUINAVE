@@ -1,0 +1,13 @@
+{
+    "program":  "PISI",
+    "component":  "SPT-024",
+    "closure_package":  "SPT-024.CLOSE.2",
+    "version":  "1.0.0",
+    "source_baseline":  "92ad4bcfef627c56b068dec05615b9eba420470c",
+    "close1_gate":  "PISI_GLOBAL_PREPARE_GATE_PASS",
+    "final_gate":  "PISI_INSTITUTIONAL_CLOSURE_GATE_PASS",
+    "institutional_status":  "INSTITUTIONALLY_CLOSED",
+    "domains_total":  17,
+    "domains_recertified":  17,
+    "closed_components_preserved":  true
+}

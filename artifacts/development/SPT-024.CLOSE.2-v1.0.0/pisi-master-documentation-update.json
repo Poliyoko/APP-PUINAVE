@@ -1,0 +1,10 @@
+{
+    "update_type":  "INSTITUTIONAL_MASTER_STATUS_UPDATE",
+    "program":  "SPT-024 / PISI",
+    "new_status":  "INSTITUTIONALLY_CLOSED",
+    "source_of_truth_commit_before":  "92ad4bcfef627c56b068dec05615b9eba420470c",
+    "domains":  "SPT-024.1-SPT-024.17",
+    "coverage":  "17/17",
+    "quality_gate":  "PASS",
+    "instruction":  "Reflect this closure in SGD-000, SGD-002, Master Index and Master Traceability during the next institutional master synchronization without reopening closed components."
+}

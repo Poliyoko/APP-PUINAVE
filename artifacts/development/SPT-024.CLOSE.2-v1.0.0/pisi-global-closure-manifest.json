@@ -1,0 +1,67 @@
+{
+    "algorithm":  "SHA-256",
+    "program":  "PISI",
+    "component":  "SPT-024",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt024close2/pisi-institutional-closure-policy.json",
+                        "sha256":  "D0A2197FCE88CE16E37073645782A8FA8D0AC7F07D74E8875E3806B81AB7AEBA"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/CLOSE/SGD-SPT024-CLOSE2-Paquete-Cierre-Institucional-PISI.md",
+                        "sha256":  "6C3E356A56449BDEEBE8D9751AF83C9E3AFF1FBEE353C7BF8A58EC9E62672A07"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/CLOSE/ACT-SPT024-Cierre-Institucional-PISI.md",
+                        "sha256":  "C244534CAC0B584808E00F7EAD4F8D3952CFC5E15E9EB8143B3367DC2C31B532"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.2-v1.0.0/pisi-final-closure-assessment.json",
+                        "sha256":  "66B71666A481138031DE2665432518E558A752261C587FDA79D4B780546F6C28"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.2-v1.0.0/pisi-17-domain-consolidated-status.json",
+                        "sha256":  "A592831DA12476C82352914865CF9F3AAFF3D798E54AB2E6565C35C94D46D16C"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.2-v1.0.0/pisi-final-recertification.json",
+                        "sha256":  "4DD16EED25062405C72028634A21BAB1A94350B92ADDF112D2336E7953D9B861"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.2-v1.0.0/pisi-master-closure-ledger.json",
+                        "sha256":  "FC2C2868D44FFC0ADFA34327AE431C75A61638A8B67DDE2DB323C2A948F5135E"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.2-v1.0.0/pisi-master-documentation-update.json",
+                        "sha256":  "11E2A8BDAA8B6DFAF0902DBE486FAD6044EDED650E6BEF8BDAC55EA94D38909E"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-global-prepare-assessment.json",
+                        "sha256":  "5F4FCC61AD3AB169AA8866168EBFCD1B4BCF768C602652124A5B65E22CBA766B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-component-coverage-matrix.json",
+                        "sha256":  "E0A1D588B6A5FCF5D7DFF681E10FDCBD50282E7252A741A72D6A090CA0E66F57"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-master-control-matrix.json",
+                        "sha256":  "496E17604AB19C1DD416904E19374DEC7EEED97D491168BB065C9F04CB53DB84"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-domain-reconciliation.json",
+                        "sha256":  "22076BE6A4641156BB2A184D96F2BE11D168B1BD3714B1B7CC569256A3BCF186"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-institutional-closure-prepare.json",
+                        "sha256":  "56AC9F42F6506871FC9F0ECE2671D38CFD5ABDFEF69B3242451D4D47736723DB"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/pisi-global-integrity-manifest.json",
+                        "sha256":  "E0843DF12417DDB3203CCA741B47A90CFA16AE5F5F8FDBE19158BC871278D93A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.CLOSE.1-v1.0.2/implementation-evidence.json",
+                        "sha256":  "56E9A574939C476FBE1022EED342851146DC1029DC6E6E167A9DFCFFDB5307E5"
+                    }
+                ]
+}

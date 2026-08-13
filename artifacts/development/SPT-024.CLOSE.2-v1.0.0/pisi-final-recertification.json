@@ -1,0 +1,94 @@
+{
+    "program":  "PISI",
+    "component":  "SPT-024",
+    "recertified_domains":  17,
+    "expected_domains":  17,
+    "status":  "PASS",
+    "domains":  [
+                    {
+                        "component":  "SPT-024.1",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.2",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.3",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.4",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.5",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.6",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.7",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.8",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.9",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.10",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.11",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.12",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.13",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.14",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.15",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.16",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    },
+                    {
+                        "component":  "SPT-024.17",
+                        "status":  "CLOSED_AND_RECERTIFIED",
+                        "recertified":  true
+                    }
+                ]
+}
