@@ -1,0 +1,21 @@
+{
+    "contract":  "SGODA_MASTER_CONFIGURATION_PROFILE_CATALOG_V1",
+    "profiles":  [
+                     {
+                         "profile_id":  "example-language-profile",
+                         "template_id":  "sgoda-language-platform-standard",
+                         "version":  "1.0.0",
+                         "native_language":  "qaa",
+                         "support_languages":  [
+                                                   "es",
+                                                   "en",
+                                                   "it",
+                                                   "pt"
+                                               ],
+                         "example_only":  true,
+                         "fingerprint":  "27e2011f317664bdb76944ad130383f7f706d3b18071ae0f2cf7546b0ac3dd95"
+                     }
+                 ],
+    "real_instance_count":  0,
+    "example_profile_count":  1
+}

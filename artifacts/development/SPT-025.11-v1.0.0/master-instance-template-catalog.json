@@ -1,0 +1,13 @@
+{
+    "contract":  "SGODA_MASTER_INSTANCE_TEMPLATE_CATALOG_V1",
+    "templates":  [
+                      {
+                          "template_id":  "sgoda-language-platform-standard",
+                          "version":  "1.0.0",
+                          "fingerprint":  "3668752349a42a6bcd1ae74f51cc5502382ff1ffd425040cb03cf6106befc98c"
+                      }
+                  ],
+    "language_neutral":  true,
+    "one_native_language_per_platform":  true,
+    "support_languages":  "0..N_CONFIGURABLE"
+}

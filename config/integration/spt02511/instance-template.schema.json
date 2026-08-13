@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Instance Template",
+  "type": "object",
+  "required": ["template_id","version","native_language","support_languages","features","resources","identity","governance"]
+}

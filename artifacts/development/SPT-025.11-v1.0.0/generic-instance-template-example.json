@@ -1,0 +1,27 @@
+{
+    "template_id":  "sgoda-language-platform-standard",
+    "version":  "1.0.0",
+    "native_language":  {
+                            "mode":  "CONFIGURABLE_EXACTLY_ONE"
+                        },
+    "support_languages":  {
+                              "mode":  "CONFIGURABLE_0_TO_N",
+                              "hard_coded":  false
+                          },
+    "features":  {
+                     "configurable":  true
+                 },
+    "resources":  {
+                      "configurable":  true,
+                      "bible_optional":  true
+                  },
+    "identity":  {
+                     "configurable":  true
+                 },
+    "governance":  {
+                       "shared_core_reference":  true,
+                       "duplicate_core":  false,
+                       "auto_deploy":  false,
+                       "production_change":  false
+                   }
+}

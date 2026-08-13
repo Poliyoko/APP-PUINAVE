@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.11",
+    "version":  "1.0.0",
+    "baseline":  "12d228f423d553f12eebccfee506926975c392d1",
+    "status":  "TEMPLATE_PROFILE_CATALOG_GATE_PASS",
+    "generic_language_neutral":  true,
+    "real_new_platform_deployed":  false,
+    "example_profile_is_real_instance":  false,
+    "historical_kurripaco_reference_is_real_instance":  false,
+    "sgoda_puinave_modified":  false,
+    "production_changed":  false
+}

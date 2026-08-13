@@ -1,0 +1,41 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/master-instance-template-catalog.json",
+                        "sha256":  "37529DE6690BE8F87BD5176CE5AE0208403E036639D8936AA56F4C8D40636F08"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/master-configuration-profile-catalog.json",
+                        "sha256":  "6AA255E6A78674D5BBA5CC7FE4470D0535308BD78839F3238577BB8750E5E52D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/generic-instance-template-example.json",
+                        "sha256":  "42D209FFA6DF26236A0A19C812C3EFDC2BA961AC809EA2C895BF804A8A0AFBE0"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/generic-configuration-profile-example.json",
+                        "sha256":  "74A448522CC867EBA35A6E5931B1DC047845C111A4EF9751861B775550122C68"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/template-profile-compatibility-matrix.json",
+                        "sha256":  "FAF9D7E0677F22DF9F3EA02EBD7547D69EC7D5260DB14F943D4A3CEE07932993"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/reusable-configuration-rules.json",
+                        "sha256":  "3573A87678B38E4446B0B7E43F6469C0D30C848A15C90BF3FC46C7E5EA4BA769"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/template-profile-catalog-assessment.json",
+                        "sha256":  "68219A102EB10861A3011C2DE41C7A543063B88123FFADD7D074EA50F38216C3"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/implementation-evidence.json",
+                        "sha256":  "034ADB8313A3BFD921EB5FEB2FF0D06D9564E62A9E094C1609923F4C4EA80EDD"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.11-v1.0.0/spt02512-prepare.json",
+                        "sha256":  "3636669242DE7562E925FB8122FAB505BCA847279189AA3514F11C368BBFE599"
+                    }
+                ]
+}

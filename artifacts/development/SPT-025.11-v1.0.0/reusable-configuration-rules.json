@@ -1,0 +1,12 @@
+{
+    "native_language":  "EXACTLY_ONE_CONFIGURABLE",
+    "support_languages":  "0_TO_N_CONFIGURABLE",
+    "hard_coded_support_languages":  false,
+    "bible_resource_optional_configurable":  true,
+    "identity_configurable":  true,
+    "shared_core_reference":  true,
+    "duplicate_core":  false,
+    "auto_deploy":  false,
+    "production_change":  false,
+    "example_names_are_evidence_only":  true
+}

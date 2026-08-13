@@ -1,0 +1,30 @@
+{
+  "component": "SPT-025.11",
+  "version": "1.0.0",
+  "title": "Catalogo Institucional de Plantillas de Instancia y Perfiles de Configuracion Reutilizables",
+  "authoritative_baseline": "12d228f423d553f12eebccfee506926975c392d1",
+  "architecture": {
+    "sgoda_core": "SHARED_REFERENCE",
+    "one_native_language_per_platform": true,
+    "support_languages": "0..N_CONFIGURABLE",
+    "hard_coded_support_languages": false,
+    "templates_language_neutral": true
+  },
+  "catalog": {
+    "template_versioning_required": true,
+    "profile_versioning_required": true,
+    "sha256_required": true,
+    "compatibility_gate_required": true,
+    "examples_are_not_real_instances": true
+  },
+  "deployment": {
+    "auto_deploy": false,
+    "production_change": false,
+    "real_platform_created": false
+  },
+  "repository": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

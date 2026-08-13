@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Reusable Configuration Profile",
+  "type": "object",
+  "required": ["profile_id","version","template_id","native_language","support_languages","resource_profile","identity_profile","governance"]
+}

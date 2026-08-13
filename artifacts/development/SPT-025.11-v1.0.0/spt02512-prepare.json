@@ -1,0 +1,6 @@
+{
+    "next_deliverable":  "SPT-025.12",
+    "title":  "Validador Institucional de Plantillas y Perfiles, Compatibilidad, Herencia y Quality Gates de Configuracion",
+    "source_baseline":  "12d228f423d553f12eebccfee506926975c392d1",
+    "spt02511_template_profile_catalog_gate":  "PASS"
+}
