@@ -1,0 +1,19 @@
+{
+    "component":  "SPT-025.12",
+    "version":  "1.0.0",
+    "baseline":  "60fb409bdaa21ee5953d93b4a8ae7ecbed14d27f",
+    "status":  "TEMPLATE_PROFILE_VALIDATION_QUALITY_GATE_PASS",
+    "template_validation":  "PASS",
+    "profile_validation":  "PASS",
+    "compatibility":  "PASS",
+    "controlled_inheritance":  "PASS",
+    "native_language_inheritance_immutability":  "PASS",
+    "support_languages_configurable_0_to_n":  true,
+    "hard_coded_support_languages":  false,
+    "resolved_profile_sha256":  "41e85a6a9e971b7d01493e0c06409ce42dab639c85f9f34c3fb99e0dc6869747",
+    "example_profile_is_real_instance":  false,
+    "historical_kurripaco_reference_is_real_instance":  false,
+    "auto_deployment":  false,
+    "production_change":  false,
+    "sgoda_puinave_modified":  false
+}

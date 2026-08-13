@@ -1,0 +1,37 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/template-validation-assessment.json",
+                        "sha256":  "77D9A82063A668EDBD03C2B82F60BCFAA853201291433C746AD76302EC77114F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/profile-validation-assessment.json",
+                        "sha256":  "77D9A82063A668EDBD03C2B82F60BCFAA853201291433C746AD76302EC77114F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/template-profile-compatibility-assessment.json",
+                        "sha256":  "1D38AB61EF5B91B3E1338CFE1200216E22BEECD6E1CF03B8C07C39DC7FE5D196"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/profile-inheritance-assessment.json",
+                        "sha256":  "BFC8A7793D54891F8E22F363B1E2317D41951032347F0578A5BCF0C6EFB7B1FB"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/resolved-example-profile.json",
+                        "sha256":  "B5AD6940CDDA25D162F27284E1A00ED7391A1F3E0F3141287CC131865934C5B5"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/configuration-quality-gate.json",
+                        "sha256":  "C585633854E7370C6FFF47E44FBE664CA951E461A9537D01CE9800C15FAB06C1"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/implementation-evidence.json",
+                        "sha256":  "2C45A2720EC9345134867294E65A910EB8EAE154B815B6489C62B63AFCE0A44B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.12-v1.0.0/spt02513-prepare.json",
+                        "sha256":  "183625D0372FECB73AEA1E26ACD74FB63DE47836AC9E368FADE5710A93092EB0"
+                    }
+                ]
+}

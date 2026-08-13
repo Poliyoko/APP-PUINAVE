@@ -1,0 +1,43 @@
+{
+    "profile_id":  "example-child-profile",
+    "version":  "1.0.1",
+    "template_id":  "sgoda-language-platform-standard",
+    "native_language":  {
+                            "code":  "qaa",
+                            "name":  "Example Native Language"
+                        },
+    "support_languages":  [
+                              {
+                                  "code":  "es",
+                                  "name":  "EspaÃ±ol"
+                              },
+                              {
+                                  "code":  "en",
+                                  "name":  "English"
+                              },
+                              {
+                                  "code":  "it",
+                                  "name":  "Italiano"
+                              },
+                              {
+                                  "code":  "pt",
+                                  "name":  "PortuguÃªs"
+                              }
+                          ],
+    "resource_profile":  {
+                             "bible":  {
+                                           "enabled":  false,
+                                           "url":  null
+                                       }
+                         },
+    "identity_profile":  {
+                             "community":  "Example Community",
+                             "branding":  "configurable",
+                             "theme":  "configurable"
+                         },
+    "governance":  {
+                       "example_only":  true,
+                       "auto_deploy":  false,
+                       "production_change":  false
+                   }
+}
