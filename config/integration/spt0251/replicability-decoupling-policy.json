@@ -1,0 +1,21 @@
+{
+  "component": "SPT-025.1",
+  "version": "1.0.0",
+  "authoritative_baseline": "1e2281203799256644e07687617cd734a67baaed",
+  "architecture": {
+    "one_native_language_per_platform": true,
+    "independent_platforms": true,
+    "shared_core": "SGODA CORE",
+    "support_languages_configurable": true,
+    "puinave_support_languages": [
+      "es",
+      "en",
+      "it",
+      "pt"
+    ],
+    "hardcoded_support_languages": false,
+    "bible_resource_configurable_per_platform": true,
+    "rlb_instance_specific": true
+  },
+  "mode": "STATIC_NON_DESTRUCTIVE"
+}

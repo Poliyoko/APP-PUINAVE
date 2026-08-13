@@ -1,0 +1,19 @@
+{
+    "component":  "SPT-025.1",
+    "version":  "1.0.1",
+    "baseline":  "1e2281203799256644e07687617cd734a67baaed",
+    "status":  "REPLICABILITY_PREPARE_GATE_PASS",
+    "one_native_language_per_platform":  true,
+    "independent_platforms":  true,
+    "shared_sgoda_core":  true,
+    "support_languages_configurable":  true,
+    "puinave_support_languages":  [
+                                      "es",
+                                      "en",
+                                      "it",
+                                      "pt"
+                                  ],
+    "rlb_instance_specific":  true,
+    "bible_resource_configurable_per_platform":  true,
+    "closed_components_preserved":  true
+}

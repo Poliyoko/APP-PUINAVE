@@ -1,0 +1,7 @@
+{
+    "path":  "src/sgoda/workflows/__init__.py",
+    "category":  "CORE_CANDIDATE",
+    "reasons":  [
+                    "CORE_STRUCTURE"
+                ]
+}

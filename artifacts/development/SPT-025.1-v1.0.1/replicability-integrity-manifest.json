@@ -1,0 +1,49 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt0251/replicability-decoupling-policy.json",
+                        "sha256":  "F21C588703DF8D5260FC2F97EE05CD002648A4AF5256F3AAA2FD175737884CDA"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.1/SGD-SPT025.1-Auditoria-Desacoplamiento-Multifuncionalidad-Replicabilidad.md",
+                        "sha256":  "5551A0141EBF9BBC1AC20BA3EC300C605378562A23285FC6E81216F9A940278D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/repository-replicability-surface-inventory.json",
+                        "sha256":  "5A0FBB54D3FDE5432F72019C485B60F0F7A4E33A30B2AB1DF1F2EBE6E26233F9"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/puinave-coupling-inventory.json",
+                        "sha256":  "308974D6A09F5A28592291D530E52BE9C96AD28993EA383F0B871C94C855E6EF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/rlb-coupling-inventory.json",
+                        "sha256":  "8C044D16CBF7FAACC95ED87F6AD4C773867AB4C1F3E506BA9BB161B95D8902E6"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/spt004b-bible-resource-inventory.json",
+                        "sha256":  "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/sgoda-core-candidate-matrix.json",
+                        "sha256":  "AAE46002E11511B6B9B10D99EA1F51B582881BA41EECBED784FBCF3F422E2B75"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/language-platform-instance-candidate-matrix.json",
+                        "sha256":  "3312F9E4025969362C7D0EBF4F2E8497558C6F2C97624A5551CDF2F89D3E75D7"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/shared-configurable-surface-matrix.json",
+                        "sha256":  "B6440944D559371A626C4639763C53E1730EE721B86911D3434C584711A630B9"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/replicability-assessment.json",
+                        "sha256":  "2F39CB94A916163237046328213967B87B980E205F179E558F8D7D51E176FAAA"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/spt0252-prepare.json",
+                        "sha256":  "8EEBED142D497BF31D566EA9CAA6B57677210AD9AC4651D0052DBBB695D86AF3"
+                    }
+                ]
+}

@@ -1,0 +1,11 @@
+{
+    "component":  "SPT-025.1",
+    "version":  "1.0.1",
+    "baseline":  "1e2281203799256644e07687617cd734a67baaed",
+    "status":  "REPLICABILITY_PREPARE_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "production_change":  false,
+    "closed_components_preserved":  true
+}

@@ -1,0 +1,992 @@
+[
+    {
+        "path":  "Install-SPT007A-v0.1.0-Intelligent-Lexical-Engine.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "Install-SPT007B-v1.0.0-Semantic-Lexical-Engine.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "Install-SPT013B-v1.0.0-Institutional-Digital-Dictionary-Manager.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "Repositorio LExico Base (Excel)-1.xlsx",
+        "category":  "REVIEW_REQUIRED",
+        "reasons":  [
+
+                    ]
+    },
+    {
+        "path":  "SGODA-PUINAVE/Repositorio LExico Base (Excel)-1.xlsx",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "SGODA-PUINAVE/docs/03_ADR/ADR-006-RLB-como-fuente-de-datos.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "SGODA-PUINAVE/~$Repositorio LExico Base (Excel)-1.xlsx",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/dictionary_manager/SPT-013B/demo-input.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/dictionary_manager/SPT-013B/demo-output.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/learning_platform/SPT-012/demo-dictionary.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/lexical_engine/SPT-007A/demo-rlb.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/lexical_engine/SPT-007A/demo-search.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/lexical_engine/SPT-007B/demo-relations.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/lexical_engine/SPT-007B/demo-semantic-rlb.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/lexical_engine/SPT-007B/demo-semantic-search.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/operational_platform/SPT-011/demo-rlb.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/config__dictionary_manager__SPT-013B-component.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/config__dictionary_manager__SPT-013B-entry-schema.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/config__dictionary_manager__SPT-013B-policy.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/scripts__Invoke-SPT013B-DictionaryManager.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager____init__.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__cli.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__import_export.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__models.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__repository.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__service.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/src__sgoda__dictionary_manager__validation.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/pmo/SPT-013B/backups/pre-SPT013B-20260802-214546/tests__dictionary_manager__test_SPT_013B_institutional_digital_dictionary_manager.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P06/errores-importacion.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P06/palabras-canonicas.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P06/perfil-rlb.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P06/resumen-ejecucion.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P07/header-mapping-analysis.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P07/normalization-summary.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P07/reprocessed/errores-importacion.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P07/reprocessed/palabras-canonicas.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P07/reprocessed/perfil-rlb.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P07/schema-p07-normalized.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P08/canonical-baseline-manifest.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P08/canonical-repository-v1.0.0.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P08/canonical-statistics.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "artifacts/rlb/SPT-001B-P08/canonical-validation.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "config/dictionary_manager/SPT-013B-component.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/dictionary_manager/SPT-013B-entry-schema.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/dictionary_manager/SPT-013B-policy.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/lexical_engine/SPT-007A-component.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/lexical_engine/SPT-007A-lexical-policy.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/lexical_engine/SPT-007B-component.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/lexical_engine/SPT-007B-relations.example.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/lexical_engine/SPT-007B-semantic-policy.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/rlb/SPT-001B-P06-component.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/rlb/SPT-001B-P07-component.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/rlb/SPT-001B-P07-header-mapping.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/rlb/SPT-001B-P08-component.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/rlb/active-schema.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/rlb/schema-v1.1.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "config/rlb/schema-v1.json",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CONFIGURABLE_SURFACE"
+                    ]
+    },
+    {
+        "path":  "docs/03_ADR/ADR-006-RLB-como-fuente-de-datos.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/03_ADR/ADR-009-Arquitectura-Eventos-RLB-Extensible.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/05_Fase_Tecnologica/SPT-001/SPT-001B-P06-Pipeline-Institucional-RLB.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/05_Fase_Tecnologica/SPT-007/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Gobierno-Relaciones-Lexicas.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/05_Fase_Tecnologica/SPT-007/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/07_Fase_Tecnologica_III/SPT-011/SPT-011-Operacion-RLB-Multimedia.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/07_Fase_Tecnologica_III/SPT-012/SPT-012-Diccionario-Digital.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "docs/08_Fase_Tecnologica_IV/SPT-013B/SPT-013B-Modelo-Lexico.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007A-v0.1.0/Invoke-SPT007A-LexicalEngine.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007A-v0.1.0/SPT-007A-Fundacion-Motor-Lexico-Inteligente.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007A-v0.1.0/SPT-007A-lexical-policy.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007A-v0.1.0/test_SPT_007A_intelligent_lexical_engine.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007B-v1.0.0/Invoke-SPT007B-SemanticLexicalEngine.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007B-v1.0.0/SPT-007B-Gobierno-Relaciones-Lexicas.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007B-v1.0.0/SPT-007B-Motor-Lexico-Inteligente-Semantico.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-007B-v1.0.0/test_SPT_007B_semantic_lexical_engine.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-012-v1.0.0/SPT-012-Diccionario-Digital.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-012-v1.0.0/demo-dictionary.json",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-012-v1.0.0/digital_dictionary.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-013B-v1.0.0/Invoke-SPT013B-DictionaryManager.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-013B-v1.0.0/SPT-013B-Modelo-Lexico.md",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "releases/SPT-013B-v1.0.0/test_SPT_013B_institutional_digital_dictionary_manager.py",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "scripts/Invoke-SPT007A-LexicalEngine.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "scripts/Invoke-SPT007B-SemanticLexicalEngine.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "scripts/Invoke-SPT013B-DictionaryManager.ps1",
+        "category":  "INSTANCE_SPECIFIC",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/dictionary_manager/__init__.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/dictionary_manager/cli.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/dictionary_manager/import_export.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/dictionary_manager/models.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/dictionary_manager/repository.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/dictionary_manager/service.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/dictionary_manager/validation.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/learning_platform/digital_dictionary.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/__init__.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/cli.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/models.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/multimedia.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/normalizer.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/query_expansion.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/ranking.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/relations.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/repository.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/search.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/semantic_cli.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/semantic_index.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/semantic_models.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/semantic_ranking.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/semantic_service.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/service.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/lexical_engine/suggestions.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/operational_platform/rlb_adapter.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/__init__.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/canonical_consolidator.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/cli.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/events.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/excel_reader.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/exporter.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/header_normalizer.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/models.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/pipeline.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/profile_models.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/schema.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "src/sgoda/rlb/schema_loader.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/dictionary_manager/test_SPT_013B_institutional_digital_dictionary_manager.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/lexical_engine/test_SPT_007A_intelligent_lexical_engine.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/lexical_engine/test_SPT_007B_semantic_lexical_engine.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/rlb/test_SPT_001B_P06_contract.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/rlb/test_SPT_001B_P07_header_normalizer.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/rlb/test_SPT_001B_P08_canonical_closure.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/rlb/test_excel_reader.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/rlb/test_exporter.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/rlb/test_pipeline_p06.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "tests/rlb/test_schema.py",
+        "category":  "SHARED_CONFIGURABLE",
+        "reasons":  [
+                        "LANGUAGE_OR_INSTANCE_COUPLING",
+                        "CORE_STRUCTURE"
+                    ]
+    },
+    {
+        "path":  "~$Repositorio LExico Base (Excel)-1.xlsx",
+        "category":  "REVIEW_REQUIRED",
+        "reasons":  [
+
+                    ]
+    }
+]
