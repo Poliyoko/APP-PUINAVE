@@ -1,0 +1,8 @@
+{
+    "type":  "bible",
+    "optional":  true,
+    "platform_configurable":  true,
+    "url_configurable":  true,
+    "sgoda_core_embeds_url":  false,
+    "external_access_execution":  "NOT_PERFORMED"
+}

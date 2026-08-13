@@ -1,0 +1,13 @@
+{
+    "platform":  "SGODA-PUINAVE",
+    "native_language":  "pui",
+    "support_languages":  [
+                              "es",
+                              "en",
+                              "it",
+                              "pt"
+                          ],
+    "bible_resource_id":  "PUINAVE-BIBLE-001",
+    "bible_enabled":  true,
+    "bible_url":  "\u003cCONFIGURABLE-BIBLE-URL\u003e"
+}

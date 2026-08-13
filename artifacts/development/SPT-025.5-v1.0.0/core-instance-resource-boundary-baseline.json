@@ -1,0 +1,18 @@
+{
+    "sgoda_core":  [
+                       "resource_contracts",
+                       "validation",
+                       "catalog_service",
+                       "security",
+                       "testing",
+                       "evidence"
+                   ],
+    "instance":  [
+                     "resource_names",
+                     "resource_urls",
+                     "resource_paths",
+                     "resource_enablement",
+                     "language_scope",
+                     "community_metadata"
+                 ]
+}

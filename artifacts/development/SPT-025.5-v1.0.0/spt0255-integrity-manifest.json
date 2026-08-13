@@ -1,0 +1,57 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt0255/platform-resource-catalog-policy.json",
+                        "sha256":  "5F9937D8DB96BB808E3233477E9C8216D24989E7AFF73210A73EE87D75C12C76"
+                    },
+                    {
+                        "path":  "config/integration/spt0255/platform-resource-catalog.schema.json",
+                        "sha256":  "8D7026E198B41A69DB2C2BF7EDB1F8F01490298CAD05449E60B04FFEBF630987"
+                    },
+                    {
+                        "path":  "config/integration/spt0255/sgoda-puinave-resource-catalog.json",
+                        "sha256":  "D82FFE8B6624CB680DB95B6E29D261CCE131C5E043416A15879286446BEF6728"
+                    },
+                    {
+                        "path":  "config/integration/spt0255/platform-resource-catalog-template.json",
+                        "sha256":  "29C8B4755EF16D594F6A7D21E5A10B2266D4B120DF03E04CC9F2DA5F8CCB6766"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.5/SGD-SPT025.5-Recursos-Culturales-Linguisticos-Biblia-Catalogo.md",
+                        "sha256":  "115227B4FE7F29B6F3F9E1E761B7811A39375B9B469E25A471C75C56A8FCE77B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/platform-resource-catalog-baseline.json",
+                        "sha256":  "F7BDDF5CD4BAA947508C23875D916A26892F3BB65A8F5724CC7D51EF21E471F3"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/bible-resource-governance-baseline.json",
+                        "sha256":  "261529D434C30A1E6EAED7FD96C3B7A20F33B72C0CD7C085138A87DF1DE6A6FF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/resource-language-scope-baseline.json",
+                        "sha256":  "82B882C5AF76DDB5854240C669897C9D0FA2BCEFC34C9D3E6A67959333B38FBF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/sgoda-puinave-resource-baseline.json",
+                        "sha256":  "538EB22445262445FD28CC36C256905C126A3C184924B5402876CB9CA8FDB87D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/core-instance-resource-boundary-baseline.json",
+                        "sha256":  "623C7CCCE39E9D55BD5F9E42978623E0FC2CB0EF58F8D5213C9FBF5E2FD383CF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/resource-catalog-integrity-baseline.json",
+                        "sha256":  "950093FCC64462D052868F675BCC22DDD73757DE123DD428C1A3BAAF4EF395A8"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/spt0255-resource-catalog-assessment.json",
+                        "sha256":  "F39FC8AEB290528AC89097EEB75829149201DFA886BFE20281EA8DC1916E3C51"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/spt0256-prepare.json",
+                        "sha256":  "FDAED5FFDF38C11652EA3CA2B67DD1436731F289E58518EF811C7A00CA7D2D98"
+                    }
+                ]
+}

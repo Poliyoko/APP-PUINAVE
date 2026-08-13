@@ -1,0 +1,31 @@
+{
+  "platform_id": "sgoda-puinave",
+  "native_language": "pui",
+  "support_languages": [
+    "es",
+    "en",
+    "it",
+    "pt"
+  ],
+  "instance_specific": true,
+  "sgoda_core_embeds_resource_values": false,
+  "resources": [
+    {
+      "resource_id": "PUINAVE-BIBLE-001",
+      "name": "Biblia Puinave",
+      "type": "bible",
+      "enabled": true,
+      "language_scope": "pui",
+      "platform_configurable": true,
+      "url_configurable": true,
+      "source": {
+        "mode": "url",
+        "url": "<CONFIGURABLE-BIBLE-URL>"
+      },
+      "metadata": {
+        "category": "spiritual-cultural",
+        "optional": true
+      }
+    }
+  ]
+}

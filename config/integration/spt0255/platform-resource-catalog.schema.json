@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Platform Resource Catalog",
+  "type": "object",
+  "required": [
+    "platform_id",
+    "native_language",
+    "support_languages",
+    "instance_specific",
+    "sgoda_core_embeds_resource_values",
+    "resources"
+  ],
+  "properties": {
+    "platform_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "native_language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "support_languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "instance_specific": {
+      "const": true
+    },
+    "sgoda_core_embeds_resource_values": {
+      "const": false
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "resource_id",
+          "name",
+          "type",
+          "enabled",
+          "language_scope",
+          "platform_configurable",
+          "source"
+        ],
+        "properties": {
+          "resource_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string"
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "language_scope": {
+            "type": "string"
+          },
+          "platform_configurable": {
+            "const": true
+          },
+          "url_configurable": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

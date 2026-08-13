@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.5",
+    "version":  "1.0.0",
+    "baseline":  "ebe7e82869500a7a04cafd40189b705982c5be84",
+    "status":  "RESOURCE_BIBLE_GOVERNANCE_GATE_PASS",
+    "catalog_instance_specific":  true,
+    "sgoda_core_embeds_resource_values":  false,
+    "bible_configurable_per_platform":  true,
+    "bible_url_configurable":  true,
+    "external_connection_opened":  false,
+    "closed_components_preserved":  true
+}

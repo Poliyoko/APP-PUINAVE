@@ -1,0 +1,9 @@
+{
+    "allowed":  [
+                    "native_language",
+                    "enabled_support_language",
+                    "multilingual",
+                    "none"
+                ],
+    "validation_required":  true
+}

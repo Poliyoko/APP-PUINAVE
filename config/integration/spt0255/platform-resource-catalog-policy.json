@@ -1,0 +1,34 @@
+{
+  "component": "SPT-025.5",
+  "version": "1.0.0",
+  "title": "Recursos Culturales y Linguisticos Configurables por Plataforma, Biblia y Catalogo de Recursos",
+  "authoritative_baseline": "ebe7e82869500a7a04cafd40189b705982c5be84",
+  "architecture": {
+    "resource_catalog": "INSTANCE_SPECIFIC",
+    "sgoda_core_embeds_resource_values": false,
+    "bible_optional": true,
+    "bible_configurable_per_platform": true,
+    "bible_url_configurable": true,
+    "resource_enable_disable_per_platform": true,
+    "resource_types_configurable": true,
+    "language_scope": "NATIVE_OR_ENABLED_SUPPORT_OR_MULTILINGUAL",
+    "reference_platform": "SGODA-PUINAVE",
+    "reference_native_language": "pui",
+    "reference_support_languages": [
+      "es",
+      "en",
+      "it",
+      "pt"
+    ]
+  },
+  "mode": "NON_DESTRUCTIVE_RESOURCE_CATALOG_DEFINITION",
+  "rules": {
+    "modify_spt004b": false,
+    "replace_existing_bible_link": false,
+    "modify_closed_components": false,
+    "production_change": false,
+    "external_connection_opened": false,
+    "commit_push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "model":  "PLATFORM_RESOURCE_CATALOG",
+    "ownership":  "INSTANCE",
+    "types":  [
+                  "bible",
+                  "dictionary",
+                  "grammar",
+                  "story",
+                  "song",
+                  "video",
+                  "audio",
+                  "document",
+                  "website",
+                  "education",
+                  "culture",
+                  "custom"
+              ],
+    "enable_disable":  true,
+    "language_scope_configurable":  true
+}

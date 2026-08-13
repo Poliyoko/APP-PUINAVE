@@ -1,0 +1,23 @@
+{
+  "platform_id": "sgoda-<native-language>",
+  "native_language": "<native-code>",
+  "support_languages": [
+    "<support-code-1>"
+  ],
+  "instance_specific": true,
+  "sgoda_core_embeds_resource_values": false,
+  "resources": [
+    {
+      "resource_id": "<RESOURCE-ID>",
+      "name": "<RESOURCE-NAME>",
+      "type": "custom",
+      "enabled": true,
+      "language_scope": "<native-code>",
+      "platform_configurable": true,
+      "source": {
+        "mode": "none"
+      },
+      "metadata": {}
+    }
+  ]
+}
