@@ -1,0 +1,10 @@
+{
+    "selection":  "PER_PLATFORM",
+    "count":  "0..N",
+    "unique_codes_required":  true,
+    "native_code_excluded":  true,
+    "roles":  [
+                  "support"
+              ],
+    "runtime_selection":  true
+}

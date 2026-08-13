@@ -1,0 +1,16 @@
+{
+    "component":  "SPT-025.3",
+    "version":  "1.0.0",
+    "baseline":  "d2d8226d068451537982cc8fcec5c7ace60a0735",
+    "status":  "LANGUAGE_PLATFORM_MODEL_GATE_PASS",
+    "one_native_language_per_platform":  true,
+    "support_languages_configurable":  true,
+    "output_language_user_selectable":  true,
+    "puinave_support_languages":  [
+                                      "es",
+                                      "en",
+                                      "it",
+                                      "pt"
+                                  ],
+    "closed_components_preserved":  true
+}

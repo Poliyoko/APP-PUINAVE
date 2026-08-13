@@ -1,0 +1,11 @@
+{
+    "user_selectable":  true,
+    "targets":  [
+                    "translation",
+                    "definition",
+                    "example",
+                    "navigation",
+                    "audio"
+                ],
+    "availability_driven":  true
+}

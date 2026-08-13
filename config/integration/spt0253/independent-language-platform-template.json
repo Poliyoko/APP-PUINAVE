@@ -1,0 +1,37 @@
+{
+  "platform_id": "sgoda-<native-language>",
+  "platform_name": "SGODA-<NATIVE-LANGUAGE>",
+  "independent_platform": true,
+  "native_language": {
+    "code": "<native-code>",
+    "name": "<Native Language>",
+    "role": "native"
+  },
+  "support_languages": [
+    {
+      "code": "<support-code>",
+      "name": "<Support Language>",
+      "role": "support"
+    }
+  ],
+  "support_languages_hardcoded": false,
+  "output_selection": {
+    "enabled": true,
+    "mode": "user_selectable"
+  },
+  "navigation_language": {
+    "configurable": true
+  },
+  "translation_targets": {
+    "configurable": true
+  },
+  "definition_languages": {
+    "configurable": true
+  },
+  "example_languages": {
+    "configurable": true
+  },
+  "audio_languages": {
+    "configurable": true
+  }
+}

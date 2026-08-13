@@ -1,0 +1,8 @@
+{
+    "model":  "INDEPENDENT_LANGUAGE_PLATFORM",
+    "native_language_count":  1,
+    "independent_platform":  true,
+    "support_languages":  "0..N",
+    "support_languages_configurable":  true,
+    "hardcoded_support_languages":  false
+}

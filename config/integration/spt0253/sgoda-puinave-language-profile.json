@@ -1,0 +1,52 @@
+{
+  "platform_id": "sgoda-puinave",
+  "platform_name": "SGODA-PUINAVE",
+  "independent_platform": true,
+  "native_language": {
+    "code": "pui",
+    "name": "Puinave",
+    "role": "native"
+  },
+  "support_languages": [
+    {
+      "code": "es",
+      "name": "EspaÃ±ol",
+      "role": "support"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "role": "support"
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "role": "support"
+    },
+    {
+      "code": "pt",
+      "name": "PortuguÃªs",
+      "role": "support"
+    }
+  ],
+  "support_languages_hardcoded": false,
+  "output_selection": {
+    "enabled": true,
+    "mode": "user_selectable"
+  },
+  "navigation_language": {
+    "configurable": true
+  },
+  "translation_targets": {
+    "configurable": true
+  },
+  "definition_languages": {
+    "configurable": true
+  },
+  "example_languages": {
+    "configurable": true
+  },
+  "audio_languages": {
+    "configurable": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt0253/independent-language-platform-language-policy.json",
+                        "sha256":  "BF73E6F7593BAB43F631363FBD0AF45A8257E0AFB40D8FEF5F9836D0DD38D318"
+                    },
+                    {
+                        "path":  "config/integration/spt0253/independent-language-platform-language.schema.json",
+                        "sha256":  "1363CE51FF4035892A832AE04124524A75C71F0715983D29743B4871F55C3828"
+                    },
+                    {
+                        "path":  "config/integration/spt0253/sgoda-puinave-language-profile.json",
+                        "sha256":  "80967ABDCF0BD4CEFA9379710A5229E726935025909FE74AAE49B0D3DCB86847"
+                    },
+                    {
+                        "path":  "config/integration/spt0253/independent-language-platform-template.json",
+                        "sha256":  "B7A1A988564340186FA30E023FEBF2C3D1305C51CAA5F7402971536832E74E06"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.3/SGD-SPT025.3-Modelo-Plataforma-Linguistica-Independiente-Idiomas-Auxiliares.md",
+                        "sha256":  "D22613AA70D35AA74BF274DE901B7009AF816F342753680A8D9B7A5804EEBE91"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/language-platform-model-baseline.json",
+                        "sha256":  "EC997BB46A67BFCC8AD8FD7C5D626018B2448EF850B4F4F553A0114BAED5DFF4"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/support-language-configuration-baseline.json",
+                        "sha256":  "ED8F2DCF8C37C2172FBA424EA4D55213E2DD5788D896A4A0AEA77C20419A463A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/output-language-selection-baseline.json",
+                        "sha256":  "58BE7E0D9BE69D8C8E87B9E3D1CF8401CEB0F314B5A4F51ECADCC34BB348F6D9"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/sgoda-puinave-language-baseline.json",
+                        "sha256":  "89534867B6CF0DB1EF0BFB8F689880D2EFE9AC68857724EB15E87F02E8867BC7"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/replicable-language-platform-template-baseline.json",
+                        "sha256":  "029ABE99D94E91479A27A821C4D4BAC03C4B6903FE74D1A21C5F7C66A010B99E"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/spt0253-language-model-assessment.json",
+                        "sha256":  "48E1D776FD2E1C1E9591C489C7B4D7AA0888DBB98727B50DA71CFF35005C1D90"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/spt0254-prepare.json",
+                        "sha256":  "97D1B086F6EE1EC6D781742AFAC9734B87679749353C0B302FCC79F992BCCB50"
+                    }
+                ]
+}

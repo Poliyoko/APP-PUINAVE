@@ -1,0 +1,27 @@
+{
+  "component": "SPT-025.3",
+  "version": "1.0.0",
+  "title": "Modelo de Plataforma Linguistica Independiente y Configuracion de Lengua Nativa / Idiomas Auxiliares",
+  "authoritative_baseline": "d2d8226d068451537982cc8fcec5c7ace60a0735",
+  "rules": {
+    "one_native_language_per_platform": true,
+    "independent_platforms": true,
+    "support_languages_count": "0..N",
+    "support_languages_configurable": true,
+    "support_languages_hardcoded": false,
+    "output_language_user_selectable": true,
+    "navigation_language_configurable": true,
+    "translation_definition_examples_audio_configurable": true,
+    "reference_platform": "SGODA-PUINAVE",
+    "reference_support_languages": [
+      "es",
+      "en",
+      "it",
+      "pt"
+    ],
+    "modify_closed_components": false,
+    "production_change": false,
+    "commit_push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

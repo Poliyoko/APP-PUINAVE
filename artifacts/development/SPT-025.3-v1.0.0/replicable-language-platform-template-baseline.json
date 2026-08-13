@@ -1,0 +1,7 @@
+{
+    "platform_id":  "CONFIGURABLE",
+    "platform_name":  "CONFIGURABLE",
+    "native_language":  "EXACTLY_ONE",
+    "support_languages":  "ZERO_TO_N",
+    "independent_platform":  true
+}

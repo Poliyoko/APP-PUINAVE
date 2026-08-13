@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Independent Language Platform Language Configuration",
+  "type": "object",
+  "required": [
+    "platform_id",
+    "platform_name",
+    "independent_platform",
+    "native_language",
+    "support_languages",
+    "support_languages_hardcoded",
+    "output_selection"
+  ],
+  "properties": {
+    "platform_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "platform_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "independent_platform": {
+      "const": true
+    },
+    "native_language": {
+      "type": "object",
+      "required": [
+        "code",
+        "name"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "enum": [
+            "native"
+          ]
+        }
+      }
+    },
+    "support_languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "enum": [
+              "support"
+            ]
+          }
+        }
+      }
+    },
+    "support_languages_hardcoded": {
+      "const": false
+    },
+    "output_selection": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "mode"
+      ],
+      "properties": {
+        "enabled": {
+          "const": true
+        },
+        "mode": {
+          "const": "user_selectable"
+        }
+      }
+    }
+  }
+}

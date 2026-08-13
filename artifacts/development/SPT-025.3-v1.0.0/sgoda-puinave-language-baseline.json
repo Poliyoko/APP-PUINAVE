@@ -1,0 +1,14 @@
+{
+    "platform":  "SGODA-PUINAVE",
+    "native_language":  {
+                            "code":  "pui",
+                            "name":  "Puinave"
+                        },
+    "support_languages":  [
+                              "es",
+                              "en",
+                              "it",
+                              "pt"
+                          ],
+    "backward_compatibility_required":  true
+}
