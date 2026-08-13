@@ -1,0 +1,44 @@
+{
+    "template":  {
+                     "template_id":  "sgoda-language-platform-standard",
+                     "version":  "1.0.0"
+                 },
+    "platform":  {
+                     "native_language":  {
+                                             "code":  "qaa",
+                                             "name":  "Example Native Language"
+                                         },
+                     "support_languages":  [
+                                               {
+                                                   "code":  "es"
+                                               },
+                                               {
+                                                   "code":  "en"
+                                               },
+                                               {
+                                                   "code":  "it"
+                                               },
+                                               {
+                                                   "code":  "pt"
+                                               }
+                                           ],
+                     "display_name":  "SGODA Example Platform"
+                 },
+    "resources":  {
+                      "bible":  {
+                                    "enabled":  false,
+                                    "url":  null
+                                }
+                  },
+    "identity":  {
+                     "community":  "Example Community",
+                     "theme":  "configurable"
+                 },
+    "governance":  {
+                       "shared_core_reference":  true,
+                       "core_duplicated":  false,
+                       "auto_deployed":  false,
+                       "production_changed":  false,
+                       "example_only":  true
+                   }
+}

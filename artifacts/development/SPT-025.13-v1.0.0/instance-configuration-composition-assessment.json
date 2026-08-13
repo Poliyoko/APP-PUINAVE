@@ -1,0 +1,19 @@
+{
+    "component":  "SPT-025.13",
+    "version":  "1.0.0",
+    "baseline":  "a9b2a24a470761b6aa046275cc6b2d0570b25fe0",
+    "status":  "INSTANCE_CONFIGURATION_COMPOSITION_GATE_PASS",
+    "native_language":  "qaa",
+    "support_languages":  [
+                              "es",
+                              "en",
+                              "it",
+                              "pt"
+                          ],
+    "sha256":  "7602f191dccfc632e743520130e684f33fb5d235dec7920d69ca77ccd5776abd",
+    "example_configuration_is_real_instance":  false,
+    "historical_kurripaco_reference_is_real_instance":  false,
+    "auto_deployment":  false,
+    "production_change":  false,
+    "sgoda_puinave_modified":  false
+}

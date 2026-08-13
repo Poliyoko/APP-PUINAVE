@@ -1,0 +1,16 @@
+{
+  "component": "SPT-025.13",
+  "version": "1.0.0",
+  "authoritative_baseline": "a9b2a24a470761b6aa046275cc6b2d0570b25fe0",
+  "one_native_language_per_platform": true,
+  "native_language_immutable_during_composition": true,
+  "support_languages": "0..N_CONFIGURABLE",
+  "hard_coded_support_languages": false,
+  "shared_core_reference": true,
+  "duplicate_core": false,
+  "auto_deploy": false,
+  "production_change": false,
+  "examples_are_real_instances": false,
+  "kurripaco_real_instance": false,
+  "all_outputs_in_repository": true
+}

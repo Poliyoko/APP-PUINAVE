@@ -1,0 +1,29 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.13-v1.0.0/instance-configuration-composition-assessment.json",
+                        "sha256":  "46AAFFAFE07F9498C83A3F2B7B55EE319966B7E2177BEB3AC8E497B1FA9D80F7"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.13-v1.0.0/profile-resolution-assessment.json",
+                        "sha256":  "979070199AAB74C5B097D91BF3AA4FF3BFAC05E4395D798300857D73AAC04CC7"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.13-v1.0.0/declarative-assembly-baseline.json",
+                        "sha256":  "5848E5D99981F3F6B2FC8D7C0140ABDEBEFF4A3E35BC9CDA7E3E14FD267CE950"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.13-v1.0.0/composed-example-instance-configuration.json",
+                        "sha256":  "775447345988EAE3E36B14F479117E859C20E08DDEDB6AF9D430C9CF0804DEFE"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.13-v1.0.0/implementation-evidence.json",
+                        "sha256":  "131DF53EFE064F09BC739D3EB21B4ADB8B59CEDACAB0CD38949A1E02C1003A6A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.13-v1.0.0/spt02514-prepare.json",
+                        "sha256":  "46C34D3485BD99377128A814E50494F0531E43918437E88FDF7EB325DF7F0C6B"
+                    }
+                ]
+}

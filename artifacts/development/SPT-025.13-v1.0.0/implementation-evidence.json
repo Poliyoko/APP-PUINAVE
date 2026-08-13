@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-025.13",
+    "version":  "1.0.0",
+    "baseline":  "a9b2a24a470761b6aa046275cc6b2d0570b25fe0",
+    "spt02512_gate":  "PASS",
+    "prepare_consumed":  "artifacts/development/SPT-025.12-v1.0.0/spt02513-prepare.json",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "global_composition_gate":  "PASS",
+    "all_outputs_to_repository":  true,
+    "closed_components_preserved":  true
+}

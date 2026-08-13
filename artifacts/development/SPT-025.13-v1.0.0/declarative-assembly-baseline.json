@@ -1,0 +1,10 @@
+{
+    "mode":  "DECLARATIVE",
+    "template":  "sgoda-language-platform-standard",
+    "profile_layers":  2,
+    "instance_overlay":  true,
+    "shared_core_reference":  true,
+    "core_duplicated":  false,
+    "auto_deployed":  false,
+    "production_changed":  false
+}
