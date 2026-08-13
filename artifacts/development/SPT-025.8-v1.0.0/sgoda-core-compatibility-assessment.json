@@ -1,0 +1,9 @@
+{
+    "status":  "SGODA_CORE_COMPATIBILITY_GATE_PASS",
+    "language_contract":  true,
+    "rlb_contract":  true,
+    "resource_contract":  true,
+    "identity_contract":  true,
+    "sgoda_core_compatibility":  true,
+    "bootstrap_manifest":  true
+}

@@ -1,0 +1,8 @@
+{
+    "native_language":  "kpc",
+    "support_languages":  [
+                              "es",
+                              "en"
+                          ],
+    "status":  "PASS"
+}

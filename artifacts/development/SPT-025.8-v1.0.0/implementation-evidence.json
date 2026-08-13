@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.8",
+    "version":  "1.0.0",
+    "baseline":  "0fd93995564ceba8c05316145221bd4ece4a1443",
+    "repository_continuity_gate":  "PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "global_quality_gate":  "PASS",
+    "all_outputs_to_repository":  true,
+    "closed_components_preserved":  true
+}

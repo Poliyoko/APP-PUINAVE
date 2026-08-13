@@ -1,0 +1,29 @@
+{
+  "component": "SPT-025.8",
+  "version": "1.0.0",
+  "title": "Validador de Instancias, Quality Gates de Bootstrap, Compatibilidad y Ensayo de Replicacion No Destructiva",
+  "authoritative_baseline": "0fd93995564ceba8c05316145221bd4ece4a1443",
+  "validation_scope": [
+    "native_language_contract",
+    "support_languages_contract",
+    "rlb_contract",
+    "identity_contract",
+    "resource_catalog_contract",
+    "sgoda_core_compatibility",
+    "bootstrap_manifest",
+    "sha256_integrity",
+    "nondestructive_replication_trial"
+  ],
+  "replication_trial": {
+    "reference": "SGODA-KURRIPACO",
+    "deploy": false,
+    "production_change": false,
+    "modify_sgoda_puinave": false,
+    "duplicate_sgoda_core": false
+  },
+  "repository_policy": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "component":  "SPT-025.8",
+    "version":  "1.0.0",
+    "status":  "SPT0258_GLOBAL_QUALITY_GATE_PASS",
+    "native_language_contract":  "PASS",
+    "support_languages_contract":  "PASS",
+    "rlb_contract":  "PASS",
+    "resource_catalog_contract":  "PASS",
+    "identity_contract":  "PASS",
+    "sgoda_core_compatibility":  "PASS",
+    "bootstrap_manifest":  "PASS",
+    "sha256_integrity":  "PASS",
+    "nondestructive_replication_trial":  "PASS",
+    "real_platform_deployed":  false,
+    "production_changed":  false,
+    "sgoda_puinave_modified":  false,
+    "sgoda_core_duplicated":  false
+}

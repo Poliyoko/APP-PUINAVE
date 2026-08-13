@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-025.8",
+    "version":  "1.0.0",
+    "baseline":  "0fd93995564ceba8c05316145221bd4ece4a1443",
+    "status":  "INSTANCE_VALIDATION_QUALITY_GATE_PASS",
+    "platform_id":  "sgoda-kurripaco",
+    "native_language":  "kpc",
+    "support_languages":  [
+                              "es",
+                              "en"
+                          ],
+    "valid":  true
+}
