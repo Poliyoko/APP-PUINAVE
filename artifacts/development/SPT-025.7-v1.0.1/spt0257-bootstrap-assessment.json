@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.7",
+    "version":  "1.0.1",
+    "baseline":  "be336578467f3971295338adc3b9f5ff9c78ef99",
+    "status":  "LANGUAGE_INSTANCE_BOOTSTRAP_GATE_PASS",
+    "recovery_from":  "v1.0.0-parser-hold",
+    "shared_core_reference":  true,
+    "core_duplicated":  false,
+    "real_new_platform_deployed":  false,
+    "sgoda_puinave_modified":  false,
+    "closed_components_preserved":  true
+}

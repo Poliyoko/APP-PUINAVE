@@ -1,0 +1,53 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt0257/language-instance-bootstrap-policy.json",
+                        "sha256":  "F893B530251D6D102B3D90BDB0962256F03A8B9338DD854E12248ACD7CA27874"
+                    },
+                    {
+                        "path":  "config/integration/spt0257/language-instance-bootstrap.schema.json",
+                        "sha256":  "55DC829CA526B3814FF1A70B2C4518F7F0D31B4E4363FE13CBB8BD367EFDB2D8"
+                    },
+                    {
+                        "path":  "config/integration/spt0257/sgoda-puinave-bootstrap-reference.json",
+                        "sha256":  "47B1F09B3E896832A6DD2693C4BFD6C0EBAFB60A992EDB7EEDFFCECCF683106C"
+                    },
+                    {
+                        "path":  "config/integration/spt0257/example-sgoda-kurripaco-bootstrap-spec.json",
+                        "sha256":  "57D1F62144A9D496708C30275A7076EE627D1C5647813BB163F99C646CB8C4E6"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.7/SGD-SPT025.7-Generador-Instancias-Linguisticas-Bootstrap.md",
+                        "sha256":  "698698DA4BD9AB8C1573223208BE28BBB56605E063BCFBF70EA791429F8F3FCD"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/language-instance-factory-baseline.json",
+                        "sha256":  "8BE07C3E90464FF887B38BC600AAE4721E6F13CF358699064BB0A5BC51DA9D4A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/bootstrap-package-contract.json",
+                        "sha256":  "9040F58D9CDF7640FC690ABF8455078D91A0F0740B56CB978CB032A751CFFEB2"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/sgoda-puinave-bootstrap-reference-baseline.json",
+                        "sha256":  "CA026B9E5C8D4D9809E3A5DB287B848D8269F1187EA984A892BA247FD08D486B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/kurripaco-bootstrap-preview-nondeployed.json",
+                        "sha256":  "6546348BB2389D3F27BCC27CDFB63FB8FA44D308B4ABBDF5E016EC29E272D49B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/shared-core-reuse-baseline.json",
+                        "sha256":  "AA5021D28C468DE20C65DED2705D880CE9DAA3BC852544865A2908BE90DB82D5"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/spt0257-bootstrap-assessment.json",
+                        "sha256":  "79A0F30452C39626B166F3A54C64212C7FDC52DE7290572C42EED9B88DDA34D2"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/spt0258-prepare.json",
+                        "sha256":  "0B0B16B47992CB0AE936AFE4257D9B696F605BCF7CDF9E0DD5617BF1F8424876"
+                    }
+                ]
+}

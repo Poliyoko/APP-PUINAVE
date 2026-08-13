@@ -1,0 +1,12 @@
+{
+    "platform_id":  "sgoda-puinave",
+    "native_language":  "pui",
+    "support_languages":  [
+                              "es",
+                              "en",
+                              "it",
+                              "pt"
+                          ],
+    "reference_only":  true,
+    "modified":  false
+}

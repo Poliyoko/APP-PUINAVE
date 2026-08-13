@@ -1,0 +1,11 @@
+{
+    "shared_core_reference":  true,
+    "duplicate_core_per_instance":  false,
+    "instance_contains":  [
+                              "platform_config",
+                              "rlb",
+                              "resources",
+                              "identity",
+                              "bootstrap_manifest"
+                          ]
+}

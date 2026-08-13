@@ -1,0 +1,6 @@
+{
+    "next_deliverable":  "SPT-025.8",
+    "title":  "Validador de Instancias, Quality Gates de Bootstrap, Compatibilidad y Ensayo de Replicacion No Destructiva",
+    "source_baseline":  "be336578467f3971295338adc3b9f5ff9c78ef99",
+    "bootstrap_factory_gate":  "PASS"
+}

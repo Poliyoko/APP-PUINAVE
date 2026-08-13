@@ -1,0 +1,14 @@
+{
+    "component":  "SPT-025.7",
+    "version":  "1.0.1",
+    "baseline":  "be336578467f3971295338adc3b9f5ff9c78ef99",
+    "status":  "LANGUAGE_INSTANCE_BOOTSTRAP_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "parser_recovery":  "PASS",
+    "real_new_platform_deployed":  false,
+    "sgoda_puinave_modified":  false,
+    "production_change":  false,
+    "closed_components_preserved":  true
+}

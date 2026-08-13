@@ -1,0 +1,12 @@
+{
+    "generated_files":  [
+                            "platform.json",
+                            "rlb.json",
+                            "resources.json",
+                            "identity.json",
+                            "bootstrap-manifest.json"
+                        ],
+    "rlb_state":  "EMPTY_READY",
+    "resources_state":  "READY",
+    "identity_state":  "READY"
+}

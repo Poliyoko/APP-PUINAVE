@@ -1,0 +1,9 @@
+{
+  "component": "SPT-025.7",
+  "version": "1.0.1",
+  "mode": "RECOVERY",
+  "shared_core_reference": true,
+  "duplicate_core_per_instance": false,
+  "production_deployment": false,
+  "modify_sgoda_puinave": false
+}

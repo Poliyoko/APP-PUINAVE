@@ -1,0 +1,12 @@
+{
+    "example_only":  true,
+    "deployed":  false,
+    "platform_id":  "sgoda-kurripaco",
+    "native_language":  "kpc",
+    "support_languages":  [
+                              "es",
+                              "en"
+                          ],
+    "sgoda_core":  "SHARED_REFERENCE",
+    "rlb_state":  "EMPTY_READY"
+}

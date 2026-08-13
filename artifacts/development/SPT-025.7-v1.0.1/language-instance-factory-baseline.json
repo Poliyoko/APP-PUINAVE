@@ -1,0 +1,9 @@
+{
+    "model":  "SGODA_LANGUAGE_INSTANCE_FACTORY",
+    "version":  "1.0.1",
+    "sgoda_core":  "SHARED_REFERENCE",
+    "core_copy_created":  false,
+    "one_native_language":  true,
+    "support_languages":  "0..N",
+    "production_deployment":  false
+}
