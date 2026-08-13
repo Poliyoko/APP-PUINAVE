@@ -1,0 +1,24 @@
+{
+    "component":  "SPT-025.10",
+    "contract":  "SGODA_MASTER_INSTANCE_REGISTRY_V1",
+    "registry_mode":  "GENERIC_LANGUAGE_NEUTRAL",
+    "real_instance_count":  0,
+    "example_record_count":  1,
+    "records":  [
+                    {
+                        "instance_id":  "sgoda-example-language",
+                        "native_language":  "qaa",
+                        "support_languages":  [
+                                                  "es",
+                                                  "en",
+                                                  "it",
+                                                  "pt"
+                                              ],
+                        "package_version":  "1.0.0",
+                        "package_sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
+                        "lifecycle_state":  "MATERIALIZED",
+                        "example_only":  true,
+                        "fingerprint":  "7c1b2a7edaa6de4b14f25f8c37a368b1a2a671e1fccbfb3c3bc5889f63f46093"
+                    }
+                ]
+}

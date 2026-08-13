@@ -1,0 +1,14 @@
+{
+    "component":  "SPT-025.10",
+    "version":  "1.0.0",
+    "baseline":  "c3c83833c82e8d4310c38cde660b8d4c45be2e86",
+    "status":  "MASTER_INSTANCE_REGISTRY_LIFECYCLE_GATE_PASS",
+    "generic_language_neutral":  true,
+    "one_native_language_per_platform":  true,
+    "support_languages_configurable_0_to_n":  true,
+    "hard_coded_support_languages":  false,
+    "real_new_platform_deployed":  false,
+    "example_record_is_real_instance":  false,
+    "sgoda_puinave_modified":  false,
+    "production_changed":  false
+}

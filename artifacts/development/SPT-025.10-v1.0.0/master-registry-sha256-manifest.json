@@ -1,0 +1,37 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/master-instance-registry.json",
+                        "sha256":  "F6BA63B8E91EDCD59DD662013420F0CAA7E4A01CB9610023BAA30317C2FA4CB0"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/package-version-ledger.json",
+                        "sha256":  "B1C855F2DEA9D25EBD0BEB276A916599C825F36395011E1CDFD3EDDC39169900"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/instance-traceability-ledger.json",
+                        "sha256":  "F55126275FCE3D0CFA9AC692CF92839D3F76362A7B245E096DCC811F02DAB05B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/lifecycle-governance-baseline.json",
+                        "sha256":  "1C4E8E9272A38DC4155F27FB3B75A04C2ACEE1AC756AFB4E8BD75FF0AB32933C"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/example-instance-registry-record.json",
+                        "sha256":  "3D684ACAD07FA3D597D541B2FA9ADC23CAE0778F06626C2F9D2687A73DC652A4"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/master-registry-lifecycle-assessment.json",
+                        "sha256":  "67FE3B183FFA1E6DE33ECA0C7AC4F49B221F3E32A849658CD93D6A02A46D2C2E"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/implementation-evidence.json",
+                        "sha256":  "B075D7174F27BD6F231F16F766C797500B3193C8536FA2FB719257EE95B37D75"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.10-v1.0.0/spt02511-prepare.json",
+                        "sha256":  "6872A3A883439BBE29F9A263AD963846BAB4C45821F55E31F4258CCE5025C083"
+                    }
+                ]
+}

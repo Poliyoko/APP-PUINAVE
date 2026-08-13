@@ -1,0 +1,12 @@
+{
+    "contract":  "SGODA_PACKAGE_VERSION_LEDGER_V1",
+    "example_only":  true,
+    "entries":  [
+                    {
+                        "instance_id":  "sgoda-example-language",
+                        "package_version":  "1.0.0",
+                        "package_sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
+                        "operational_deployment":  false
+                    }
+                ]
+}

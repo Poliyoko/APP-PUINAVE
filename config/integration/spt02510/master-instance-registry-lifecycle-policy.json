@@ -1,0 +1,33 @@
+{
+  "component": "SPT-025.10",
+  "version": "1.0.0",
+  "title": "Registro Maestro de Instancias, Versionado de Paquetes, Trazabilidad y Gobierno de Ciclo de Vida",
+  "authoritative_baseline": "c3c83833c82e8d4310c38cde660b8d4c45be2e86",
+  "architecture": {
+    "sgoda_core": "SHARED_REFERENCE",
+    "one_native_language_per_platform": true,
+    "support_languages": "0..N_CONFIGURABLE",
+    "hard_coded_support_languages": false
+  },
+  "registry": {
+    "generic_language_neutral": true,
+    "package_version_required": true,
+    "package_sha256_required": true,
+    "traceability_required": true,
+    "lifecycle_governance_required": true
+  },
+  "examples": {
+    "names_are_evidence_only": true,
+    "example_is_real_instance": false,
+    "default_deployment_target": false
+  },
+  "deployment": {
+    "auto_deploy": false,
+    "production_change": false
+  },
+  "repository": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

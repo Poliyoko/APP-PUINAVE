@@ -1,0 +1,9 @@
+{
+    "contract":  "SGODA_INSTANCE_TRACEABILITY_LEDGER_V1",
+    "source_baseline":  "c3c83833c82e8d4310c38cde660b8d4c45be2e86",
+    "source_prepare":  "artifacts/development/SPT-025.9-v1.0.0/spt02510-prepare.json",
+    "spt0259_gate":  "PASS",
+    "example_names_are_evidence_only":  true,
+    "kurripaco_historical_reference_is_real_instance":  false,
+    "deployment_executed":  false
+}

@@ -1,0 +1,39 @@
+{
+    "instance_id":  "sgoda-example-language",
+    "native_language":  {
+                            "code":  "qaa",
+                            "name":  "Example Native Language"
+                        },
+    "support_languages":  [
+                              {
+                                  "code":  "es",
+                                  "name":  "EspaÃ±ol"
+                              },
+                              {
+                                  "code":  "en",
+                                  "name":  "English"
+                              },
+                              {
+                                  "code":  "it",
+                                  "name":  "Italiano"
+                              },
+                              {
+                                  "code":  "pt",
+                                  "name":  "PortuguÃªs"
+                              }
+                          ],
+    "package":  {
+                    "version":  "1.0.0",
+                    "sha256":  "0000000000000000000000000000000000000000000000000000000000000000"
+                },
+    "lifecycle":  {
+                      "state":  "MATERIALIZED"
+                  },
+    "governance":  {
+                       "shared_core_reference":  true,
+                       "core_duplicated":  false,
+                       "auto_deployed":  false,
+                       "production_changed":  false,
+                       "example_only":  true
+                   }
+}

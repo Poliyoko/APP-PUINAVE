@@ -1,0 +1,16 @@
+{
+    "contract":  "SGODA_INSTANCE_LIFECYCLE_V1",
+    "states":  [
+                   "DRAFT",
+                   "VALIDATED",
+                   "MATERIALIZED",
+                   "REGISTERED",
+                   "SUSPENDED",
+                   "RETIRED",
+                   "ARCHIVED"
+               ],
+    "auto_deployment":  false,
+    "production_change":  false,
+    "shared_core_reference":  true,
+    "core_duplication":  false
+}
