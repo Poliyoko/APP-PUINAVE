@@ -1,0 +1,26 @@
+{
+    "platform_id":  "sgoda-kurripaco",
+    "platform_name":  "SGODA-KURRIPACO",
+    "community":  {
+                      "community_id":  "kurripaco",
+                      "name":  "Pueblo Kurripaco"
+                  },
+    "native_language":  {
+                            "code":  "kpc",
+                            "name":  "Kurripaco"
+                        },
+    "support_languages":  [
+                              {
+                                  "code":  "es",
+                                  "name":  "EspaÃ±ol"
+                              },
+                              {
+                                  "code":  "en",
+                                  "name":  "English"
+                              }
+                          ],
+    "sgoda_core":  {
+                       "mode":  "shared_reference",
+                       "embedded_copy":  false
+                   }
+}

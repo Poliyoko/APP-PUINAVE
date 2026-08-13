@@ -1,0 +1,12 @@
+{
+    "instance_specific":  true,
+    "native_language":  "kpc",
+    "support_languages":  [
+                              "es",
+                              "en"
+                          ],
+    "records":  [
+
+                ],
+    "bootstrap_state":  "EMPTY_READY"
+}

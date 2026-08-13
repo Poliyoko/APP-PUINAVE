@@ -1,0 +1,7 @@
+{
+    "rollback_supported":  true,
+    "destructive_cleanup_required":  false,
+    "production_restore_required":  false,
+    "scope":  "generated_instance_package_only",
+    "status":  "PASS"
+}

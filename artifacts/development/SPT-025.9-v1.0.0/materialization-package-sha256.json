@@ -1,0 +1,33 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.9-v1.0.0/kurripaco-reference-package/instance/platform.json",
+                        "sha256":  "D739129858FE6D7817310433973A2CFD475F6DD531B519F8FB2993154A11F24D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.9-v1.0.0/kurripaco-reference-package/instance/identity.json",
+                        "sha256":  "0EB36945E1AE07C1D81A4685865DED27C37A2A8B723775358A52B73309F6E0F8"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.9-v1.0.0/kurripaco-reference-package/instance/resources.json",
+                        "sha256":  "2BE6FCB39DFDAA2D4FFA7BD60212DB17C619342723D039E2B19BB41DF3E801D9"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.9-v1.0.0/kurripaco-reference-package/instance/rlb.json",
+                        "sha256":  "6BE7F3E29408B081133B48E1922D767B867B9C29A2789EEAF9491AE18AE23DC7"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.9-v1.0.0/kurripaco-reference-package/instance/governance.json",
+                        "sha256":  "D54C666E6FE3A8BFAD74F8BF822891909BB2AEDBDA6C58A0727589F35A2F8812"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.9-v1.0.0/kurripaco-reference-package/instance/rollback-manifest.json",
+                        "sha256":  "FC9285E8819BA053A72DB104ECB84E5388A77616EB410762E8404C6E0A177E51"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.9-v1.0.0/kurripaco-reference-package/instance/package-manifest.json",
+                        "sha256":  "A68BBD66B087257A4225ECFC61B3F520049C7CD7B1D94D72ED97AC7C358458AD"
+                    }
+                ]
+}

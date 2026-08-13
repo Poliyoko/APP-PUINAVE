@@ -1,0 +1,21 @@
+{
+  "component": "SPT-025.9",
+  "version": "1.0.0",
+  "title": "Materializador Controlado de Instancias / Empaquetado Replicable y Gobierno de Creacion",
+  "authoritative_baseline": "106d4c01c783bd6c610fe5f3e344674151e9c4f0",
+  "materialization": {
+    "mode": "PACKAGE_ONLY",
+    "shared_core_reference": true,
+    "duplicate_core": false,
+    "auto_deploy": false,
+    "production_change": false,
+    "rollback_manifest_required": true,
+    "sha256_per_file_required": true,
+    "reference_trial": "SGODA-KURRIPACO"
+  },
+  "repository": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

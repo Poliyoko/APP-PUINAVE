@@ -1,0 +1,7 @@
+{
+    "action":  "REFERENCE_PACKAGE_MATERIALIZED",
+    "instance":  "sgoda-kurripaco",
+    "operational_deployment":  false,
+    "repository_evidence_only":  true,
+    "status":  "PASS"
+}

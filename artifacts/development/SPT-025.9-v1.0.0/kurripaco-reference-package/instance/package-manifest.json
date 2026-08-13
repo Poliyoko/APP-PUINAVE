@@ -1,0 +1,21 @@
+{
+    "materialization_contract":  "SGODA_INSTANCE_PACKAGE_V1",
+    "platform_id":  "sgoda-kurripaco",
+    "native_language":  "kpc",
+    "support_languages":  [
+                              "es",
+                              "en"
+                          ],
+    "shared_core_reference":  true,
+    "core_duplicated":  false,
+    "auto_deployed":  false,
+    "production_changed":  false,
+    "file_hashes":  {
+                        "instance/platform.json":  "3186c5588f495c0ef995e2a3c073be3511ff0cd29fee5e5682c1fa93e02c297e",
+                        "instance/identity.json":  "f441cf413b80d0191861ce026d3c2b8c9305fd2dfb6dcb1b2d67293ca48e60f0",
+                        "instance/resources.json":  "ed948fc03d39c76988f3592a04ad058964f5d2399b407ac36a330dc9a5a334be",
+                        "instance/rlb.json":  "62a04543b290779d5a2149b25600521a36e9ef9c86abbc9a26302616fb02a172",
+                        "instance/governance.json":  "c81947c8ab87be61b11c92486f3ac6b82256defe06ad0da4a4b15e5016d3fdf0",
+                        "instance/rollback-manifest.json":  "46019b9c814d056c42f5d6fe8f1a896954eb2b1deb77a33d5dc74185535a58fa"
+                    }
+}

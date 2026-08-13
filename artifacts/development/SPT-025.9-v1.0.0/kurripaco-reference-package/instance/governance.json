@@ -1,0 +1,6 @@
+{
+    "shared_core_reference":  true,
+    "duplicate_core":  false,
+    "auto_deploy":  false,
+    "production_change":  false
+}

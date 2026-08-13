@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.9",
+    "version":  "1.0.0",
+    "baseline":  "106d4c01c783bd6c610fe5f3e344674151e9c4f0",
+    "status":  "CONTROLLED_INSTANCE_MATERIALIZATION_GATE_PASS",
+    "reference_instance":  "sgoda-kurripaco",
+    "shared_core_reference":  true,
+    "core_duplicated":  false,
+    "auto_deployed":  false,
+    "production_changed":  false,
+    "sgoda_puinave_modified":  false
+}

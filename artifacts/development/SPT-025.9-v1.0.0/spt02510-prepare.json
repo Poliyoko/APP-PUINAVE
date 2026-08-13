@@ -1,0 +1,6 @@
+{
+    "next_deliverable":  "SPT-025.10",
+    "title":  "Registro Maestro de Instancias, Versionado de Paquetes, Trazabilidad y Gobierno de Ciclo de Vida",
+    "source_baseline":  "106d4c01c783bd6c610fe5f3e344674151e9c4f0",
+    "spt0259_materialization_gate":  "PASS"
+}
