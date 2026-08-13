@@ -1,0 +1,45 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt0252/sgoda-core-language-platform-contract-policy.json",
+                        "sha256":  "76B6D0FBAF06530C2D0C295F5D0D56C68A9EA16405DECEA736DD940E5C96CF0F"
+                    },
+                    {
+                        "path":  "config/integration/spt0252/language-platform-contract.schema.json",
+                        "sha256":  "989803A41CF656909B517CF94F3E409659DC8B8FA80D2A21F04AA1E925F83697"
+                    },
+                    {
+                        "path":  "config/integration/spt0252/reference-platform-sgoda-puinave.json",
+                        "sha256":  "751ED594418CB56B9268DEF69C35EF43098AC95EEF608863159B6D5D0ED5F1FE"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.2/SGD-SPT025.2-SGODA-Core-Contrato-Plataforma-Linguistica-Independiente.md",
+                        "sha256":  "8991E9A7B33BAD55576DF1143D5BFFCF1C67F3A1B8B5E5583740D35AFE1168A9"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/sgoda-core-contract.json",
+                        "sha256":  "CE2C2F957439AF3F262EE8C855FDB26C283D1BF7408E24BE201BCE8A477102D9"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/independent-language-platform-contract.json",
+                        "sha256":  "2EA215F4DE6403131019492DB86F20FBFCEC77AF018EDFD3D16A928B3C1A7AD1"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/core-instance-boundary-baseline.json",
+                        "sha256":  "58562F2461E2161B8A09556E890B15378F5FF4A4394577BE6FF2677159C167FD"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/sgoda-puinave-compatibility-baseline.json",
+                        "sha256":  "9F78FBAC4BE30987D1B0EF6440D0CA1575E31B6E20D74AEE4F8B660E917CD33F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/spt0252-contract-assessment.json",
+                        "sha256":  "DDBB1927A0BECE120165D296AE8CD2CC7EB838C54B291BBDE17854EE43E6127B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/spt0253-prepare.json",
+                        "sha256":  "A42B49BE3825B844DC3BBF2EC55A5458454F3418849A3D7BA2CD3100B715D19A"
+                    }
+                ]
+}

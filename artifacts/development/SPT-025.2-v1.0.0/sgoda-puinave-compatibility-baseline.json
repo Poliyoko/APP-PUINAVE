@@ -1,0 +1,12 @@
+{
+    "reference_platform":  "SGODA-PUINAVE",
+    "native_language":  "pui",
+    "support_languages":  [
+                              "es",
+                              "en",
+                              "it",
+                              "pt"
+                          ],
+    "backward_compatibility_required":  true,
+    "destructive_migration":  false
+}

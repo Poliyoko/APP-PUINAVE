@@ -1,0 +1,9 @@
+{
+    "contract":  "INDEPENDENT_LANGUAGE_PLATFORM",
+    "native_language_count":  1,
+    "support_languages":  "N_CONFIGURABLE",
+    "rlb":  "INSTANCE_SPECIFIC",
+    "resources":  "CONFIGURABLE_PER_PLATFORM",
+    "branding":  "CONFIGURABLE_PER_PLATFORM",
+    "data_isolation_required":  true
+}

@@ -1,0 +1,24 @@
+{
+    "core":  [
+                 "application_services",
+                 "security",
+                 "governance",
+                 "automation",
+                 "testing",
+                 "evidence"
+             ],
+    "instance":  [
+                     "native_language",
+                     "rlb",
+                     "native_audio",
+                     "community_resources",
+                     "branding"
+                 ],
+    "shared_configurable":  [
+                                "support_languages",
+                                "bible_connector",
+                                "resource_catalog",
+                                "ui_labels",
+                                "tts_languages"
+                            ]
+}

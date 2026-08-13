@@ -1,0 +1,26 @@
+{
+    "contract":  "SGODA_CORE",
+    "shared_capabilities":  [
+                                "api",
+                                "persistence",
+                                "automation",
+                                "pmo",
+                                "auditor",
+                                "security",
+                                "fld",
+                                "oda",
+                                "workflow",
+                                "testing",
+                                "evidence",
+                                "governance"
+                            ],
+    "must_not_embed":  [
+                           "native_language_specific_lexicon",
+                           "native_language_specific_audio",
+                           "community_branding",
+                           "bible_url",
+                           "hardcoded_support_languages"
+                       ],
+    "one_native_language_per_platform":  true,
+    "support_languages_configurable":  true
+}

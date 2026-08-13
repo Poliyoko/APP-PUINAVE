@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Independent Language Platform Contract",
+  "type": "object",
+  "required": [
+    "platform_id",
+    "platform_name",
+    "native_language",
+    "support_languages",
+    "rlb",
+    "resources",
+    "branding"
+  ],
+  "properties": {
+    "platform_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "platform_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "native_language": {
+      "type": "object",
+      "required": [
+        "code",
+        "name"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "support_languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "rlb": {
+      "type": "object"
+    },
+    "resources": {
+      "type": "object"
+    },
+    "branding": {
+      "type": "object"
+    }
+  }
+}

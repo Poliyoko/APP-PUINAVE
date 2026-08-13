@@ -1,0 +1,33 @@
+{
+  "component": "SPT-025.2",
+  "version": "1.0.0",
+  "title": "Definicion Formal de SGODA Core y Contrato de Plataforma Linguistica Independiente",
+  "authoritative_baseline": "f19b77c651e9c5885ba589bdc94f523bc9dc4c56",
+  "architecture": {
+    "shared_core": "SGODA Core",
+    "one_native_language_per_platform": true,
+    "independent_language_platforms": true,
+    "support_languages_configurable": true,
+    "hardcoded_support_languages": false,
+    "rlb_instance_specific": true,
+    "resources_configurable_per_platform": true,
+    "bible_url_configurable_per_platform": true,
+    "branding_configurable_per_platform": true,
+    "reference_platform": "SGODA-PUINAVE",
+    "reference_support_languages": [
+      "es",
+      "en",
+      "it",
+      "pt"
+    ]
+  },
+  "mode": "NON_DESTRUCTIVE_CONTRACT_DEFINITION",
+  "rules": {
+    "modify_closed_components": false,
+    "move_closed_components": false,
+    "production_change": false,
+    "database_migration": false,
+    "commit_push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

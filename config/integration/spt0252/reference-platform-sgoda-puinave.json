@@ -1,0 +1,40 @@
+{
+  "platform_id": "sgoda-puinave",
+  "platform_name": "SGODA-PUINAVE",
+  "native_language": {
+    "code": "pui",
+    "name": "Puinave"
+  },
+  "support_languages": [
+    {
+      "code": "es",
+      "name": "EspaÃ±ol"
+    },
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "it",
+      "name": "Italiano"
+    },
+    {
+      "code": "pt",
+      "name": "PortuguÃªs"
+    }
+  ],
+  "rlb": {
+    "instance_specific": true,
+    "source": "RLB-PUINAVE"
+  },
+  "resources": {
+    "configurable_per_platform": true,
+    "bible": {
+      "enabled": true,
+      "url_configurable": true
+    }
+  },
+  "branding": {
+    "configurable_per_platform": true
+  }
+}
