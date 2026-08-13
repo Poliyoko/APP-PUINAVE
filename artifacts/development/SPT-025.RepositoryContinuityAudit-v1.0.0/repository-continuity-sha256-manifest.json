@@ -1,0 +1,356 @@
+{
+    "algorithm":  "SHA-256",
+    "audited_baseline":  "1d6756e2335f5a130290c2e8ca6169f660007f9b",
+    "records":  [
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "Invoke-SGODA-SPT0251-DecouplingMultifunctionReplicability-Audit-RECOVERY-v1.0.1-PS51.ps1",
+                        "sha256":  "C7C7ADE28599C86BF6051772D04C7F3FE1A1F1DC57666376A28DEC44736B3B07"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/implementation-evidence.json",
+                        "sha256":  "66B9276084E2708EB15BC09C9C5F7C5B8A30EBADDDF3C3157051683BABCD0F1C"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/replicability-assessment.json",
+                        "sha256":  "22FD4BF8FF8902D79848EBED3F8579DE71322A3F2D1D4255D2004ED75EA69A26"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/replicability-integrity-manifest.json",
+                        "sha256":  "69057E0F5DA52530C0E2285B550D5E8A4746FCE0CE471B57FADD1335D7B16482"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "artifacts/development/SPT-025.1-v1.0.1/spt0252-prepare.json",
+                        "sha256":  "A712CB8C17321E790A5645FFE8A20DED143277BE7086C4A52FA83E05858E054B"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "config/integration/spt0251/replicability-decoupling-policy.json",
+                        "sha256":  "FDC32F7F84BE58EC3B13DE4702D14AF14E508BDF015C380A39C7F2B33627287A"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.1/SGD-SPT025.1-Auditoria-Desacoplamiento-Multifuncionalidad-Replicabilidad.md",
+                        "sha256":  "DAAE9BAB9F4570AFABC76A94BA48910D710A4DB8E68221AECA87EDC42608262E"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "src/sgoda/integration/spt0251/__init__.py",
+                        "sha256":  "0C93780DB72952E27A66055AF06594DD6AB98262BD4CF16A9100F7B168763A13"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "src/sgoda/integration/spt0251/core.py",
+                        "sha256":  "746F9D1DA5F98D29B9098BAB1C4794FD82E878018C9772A356FB6CDF86F6789B"
+                    },
+                    {
+                        "component":  "SPT-025.1",
+                        "path":  "tests/integration/test_spt0251_decoupling_multifunction_replicability_audit.py",
+                        "sha256":  "DC2F727BD74D549FAA5D730A68E078AE264636C09773593F287B5C4570BDBF9D"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "Invoke-SGODA-SPT0252-SGODACore-LanguagePlatformContract-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "87F9B50CDF3793EC1540BE83BF03D87CE672A99B4859AA64452E837613702194"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/implementation-evidence.json",
+                        "sha256":  "53DD500106870DF4C7AA83AB9CE62BA3BC12F6AD86BB6A9B544F0F0BB48FCC8E"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/spt0252-contract-assessment.json",
+                        "sha256":  "A03AE8AA5EB8474EF9FA4AD94606CBB25F48C097A77643E40980FF4D78F06FA9"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/spt0252-integrity-manifest.json",
+                        "sha256":  "25BBFB82CE23B2A08BFAFB16B4C6212BDD5C1257E06CBD50473FF73B13991FBB"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "artifacts/development/SPT-025.2-v1.0.0/spt0253-prepare.json",
+                        "sha256":  "FF4B46F8597A6ED5177725879CC792138FEBCB8CD204349A960349CA09FE3996"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "config/integration/spt0252/sgoda-core-language-platform-contract-policy.json",
+                        "sha256":  "70E246F1AEB28219380441AFC7B4A57FA2192239DD9FCC43D1B2D9965DBE2C5A"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.2/SGD-SPT025.2-SGODA-Core-Contrato-Plataforma-Linguistica-Independiente.md",
+                        "sha256":  "F82AE24C122CB80FC24DAE23D522B9C48ACB785E423C1A4567BA658100234EDF"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "src/sgoda/integration/spt0252/__init__.py",
+                        "sha256":  "D03DE54E02449BC0B5173BED30D64F4509DB14A3CEFBC15030583C7659529742"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "src/sgoda/integration/spt0252/core.py",
+                        "sha256":  "6DC27806C89CAA10D2CFDD44F03788103958D3E9C8B4CEA395162FD9B979DB79"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "path":  "tests/integration/test_spt0252_sgoda_core_language_platform_contract.py",
+                        "sha256":  "16F5AC99F8FD77C5C76FE8F07C01F06E49B9786438370165CAA1685E190C09DF"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "Invoke-SGODA-SPT0253-IndependentLanguagePlatform-LanguageConfig-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "10D90952338C0B231C84EE0D5DC132D26955E1C48C2F72CE707476496CF7DFD8"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/implementation-evidence.json",
+                        "sha256":  "E86DD4246FC8D45B7612F9DF6A027BEB38705DFD25ED296F7D731A0E0D377938"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/spt0253-language-model-assessment.json",
+                        "sha256":  "CB6D9174006D204DF9B5C92E5B50528779AFAFFE377825514D2C4BC93E983B4A"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/spt0253-integrity-manifest.json",
+                        "sha256":  "94BBD62F2A0F0B71FDA28731A256B4E5567A34F93EF0B9C7D35F65529AE0C0C3"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "artifacts/development/SPT-025.3-v1.0.0/spt0254-prepare.json",
+                        "sha256":  "AC306DF5CEFCA7D583B0367FFF4F8B0970B765EA4670302AA23CA1401AC565F3"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "config/integration/spt0253/independent-language-platform-language-policy.json",
+                        "sha256":  "97C7436C04B14E85C4B2EC5B5973E11433B9A3F180AE43518F6DDA9A242F5AC8"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.3/SGD-SPT025.3-Modelo-Plataforma-Linguistica-Independiente-Idiomas-Auxiliares.md",
+                        "sha256":  "3F154F726797ECD6DB0CAF57A5CFD2EF1B568E27E34E3F8EFFBF3D5EA224ADE0"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "src/sgoda/integration/spt0253/__init__.py",
+                        "sha256":  "23C9D774A53431E47E7E83C2DA6BE69AADCE496EBDB1D18F3952BFDCEA5B9AE8"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "src/sgoda/integration/spt0253/core.py",
+                        "sha256":  "23E589EC2AEFAF18F58FBA0AC08FD3AC61E4D8F489E08FC8A463CBDCA21B4577"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "path":  "tests/integration/test_spt0253_independent_language_platform_language_config.py",
+                        "sha256":  "ABA732F17C8907A9E85A2122089568C7F783A9FCE29E853ED46D6B575E4B796B"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "Invoke-SGODA-SPT0254-ParametricRLB-InstanceDataContract-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "6D78CFB65D1A4B40BBD11D49A876E11BA5287DF2E9B44B05B8E938B09593056B"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/implementation-evidence.json",
+                        "sha256":  "1BFA5D2FAFCE527CC8C11E74B2143EC62770510A8EA466E4E6AB225D2128018C"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/spt0254-rlb-contract-assessment.json",
+                        "sha256":  "901A9B2DFAEF44279E23714DE7F5F188CBA47F14B0A7A52BDFDE7E5E01D36464"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/spt0254-integrity-manifest.json",
+                        "sha256":  "25C5E80E5E35AF7C5A5976B472860DCF40854FE4627548CC800AE1CBA7043C03"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/spt0255-prepare.json",
+                        "sha256":  "4BB0215069AE8C32427C5BC9825B2E9FFA6EECDA8F1B97DAB0915249DD12B82E"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "config/integration/spt0254/parametric-rlb-instance-data-policy.json",
+                        "sha256":  "5C4060AA1B4D7C4E95B53E4713DC1F027E3B75C93C33B8D6DADCCF1FFBD3BCDE"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.4/SGD-SPT025.4-RLB-Parametrizable-Contrato-Datos-Instancia.md",
+                        "sha256":  "04FC2C3F8F03355E0CB0DEDF88A784C9A5118B4F1706302FE1EB0CD511F00CC1"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "src/sgoda/integration/spt0254/__init__.py",
+                        "sha256":  "BBA07053091533FAABBFD89A876B32918927D46E9604F576E805D475966930DD"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "src/sgoda/integration/spt0254/core.py",
+                        "sha256":  "7BAE41F808E1310B54849F9614ABF2D108A4DEFED2825F6A9DACE64920A31E5A"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "path":  "tests/integration/test_spt0254_parametric_rlb_instance_data_contract.py",
+                        "sha256":  "9AF9D7339B254E131C552F7C844DA306044D654870A2333678C282A8B5B2C6D5"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "Invoke-SGODA-SPT0255-CulturalLinguisticResources-BibleCatalog-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "25E6C98CC7D88821D355100C4A7D8E3B668F1FC654E60C2C4406BF8E8EC01CF8"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/implementation-evidence.json",
+                        "sha256":  "0BF1ED07E489155E73532BFBEA9F0FA4604FC605618C6681B0332767AFAA0F1F"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/spt0255-resource-catalog-assessment.json",
+                        "sha256":  "790E2E8F73658AE18D92B7BD1F428C0DA258BF83658812F8597BA2CDC1794C12"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/spt0255-integrity-manifest.json",
+                        "sha256":  "11803E5DE956B36AA98C39A499966A2FCC123FCA93AD95C5BE4C281E5E6F9090"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "artifacts/development/SPT-025.5-v1.0.0/spt0256-prepare.json",
+                        "sha256":  "C09093AE1B98E7356A69DE3E16C82B9C087526112B975502D8C7CDA1E4A88E59"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "config/integration/spt0255/platform-resource-catalog-policy.json",
+                        "sha256":  "58042C0C218BC5B1237D0F5184832047FBF3B59EC37E203D23A6B763000820DB"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.5/SGD-SPT025.5-Recursos-Culturales-Linguisticos-Biblia-Catalogo.md",
+                        "sha256":  "CBCC00CA6A5A3CD8ED5B0AE8939A746DE94A405DC908E1F06A1E0F69DBE2819C"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "src/sgoda/integration/spt0255/__init__.py",
+                        "sha256":  "D1E5282AEE5CF2988A8B8118895C6DB42A179858192977CC9510FEBD40561C08"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "src/sgoda/integration/spt0255/core.py",
+                        "sha256":  "DE118B7571224BB5E15490AA4D0C2CB1F4D7219145CE6B76739D9270F5162E26"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "path":  "tests/integration/test_spt0255_cultural_linguistic_resources_bible_catalog.py",
+                        "sha256":  "D20964A1B64218E8FD14A426D7756B1AF1237659C67719F637B7272A9D844CA5"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "Invoke-SGODA-SPT0256-CommunityIdentity-BrandingPlatformConfig-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "49DFC4D61B59C2373F82B735EE8EE56A4798F35A89D543D08CB87B7F380252F1"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/implementation-evidence.json",
+                        "sha256":  "98F48CE5795A701BFE3010B8240647D342C63B753008731725C58EAE91E89739"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/spt0256-identity-assessment.json",
+                        "sha256":  "9583346489E82FA54EE6AF9F030E7C02A25429B1035954356584B581B9A51A5B"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/spt0256-integrity-manifest.json",
+                        "sha256":  "61972E2BC7ACE44203B8820BCD4783443B176064A3440FFA52C259707B8E99C4"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/spt0257-prepare.json",
+                        "sha256":  "34AB29DFD7921ACDD6ECEF4AF9EAE08EE349B75F928027376B92BA5F0A2474B6"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "config/integration/spt0256/platform-identity-branding-policy.json",
+                        "sha256":  "ECA1E3656ECC65E53A8FE678A96A9DDE04FB3670D01585AD8F9573E1E0A47321"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.6/SGD-SPT025.6-Identidad-Comunitaria-Branding-Metadatos-Configuracion.md",
+                        "sha256":  "139E834D40DC76D9C14F9793DBE40DF4A6EC2E3E8E7C9665163B644847055FE1"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "src/sgoda/integration/spt0256/__init__.py",
+                        "sha256":  "9F697A067545D7446653797C7777FF6AF68540457BAAD42EBFC5046EBCBF05B4"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "src/sgoda/integration/spt0256/core.py",
+                        "sha256":  "86DE5D469BA3CA053328665BDCDB133C9365CFF1F22DE816F409EA0BFA8E6F93"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "path":  "tests/integration/test_spt0256_community_identity_branding_platform_config.py",
+                        "sha256":  "00BE516B9844510FC05FF22A86422C7752D24DA098A5C7C34C1A62F5138C7859"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "Invoke-SGODA-SPT0257-LanguageInstanceBootstrap-Factory-RECOVERY-v1.0.1-PS51.ps1",
+                        "sha256":  "A8A20C4B42B3C0BFF3CD1A3323A92CB636123C4827158F052B56A860442298F8"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/implementation-evidence.json",
+                        "sha256":  "05D6800CC2CCB4FAEFC5DF91F4DD64B424FB22B01234F99664623FEA2703E12B"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/spt0257-bootstrap-assessment.json",
+                        "sha256":  "832756CC6AE57BD17DDC3E6E3D3896F7053751D1F1862D412611DE32F2811EF8"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/spt0257-integrity-manifest.json",
+                        "sha256":  "D78C05A303E684D77FB4CEBCD793790D7F0711D3D52B64889A411075887132C9"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "artifacts/development/SPT-025.7-v1.0.1/spt0258-prepare.json",
+                        "sha256":  "ABD8323A22B4D61C3731895CE0C0881E3F5286FF8B35DAF326348CAC934DB1F4"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "config/integration/spt0257/language-instance-bootstrap-policy.json",
+                        "sha256":  "1850B0FB0CC9EB33BF6378FE611D7FA4F89EFAA9FB20850295250749DB2FC6A7"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.7/SGD-SPT025.7-Generador-Instancias-Linguisticas-Bootstrap.md",
+                        "sha256":  "F265E147F59867E5508CFB829794C2343F2431FFF1477E055A9F58A0C50C7BB2"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "src/sgoda/integration/spt0257/__init__.py",
+                        "sha256":  "FC4E73DA561D79AEACDEC9EA699D8A85FB29A5B78F844FD4A509116F147F1571"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "src/sgoda/integration/spt0257/core.py",
+                        "sha256":  "60048C93D32F438A15FD310897248BDFC33646BD5078F1CD2591B9DEFBB63150"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "path":  "tests/integration/test_spt0257_language_instance_bootstrap_factory.py",
+                        "sha256":  "8A777A27F6200A66462847510E5A1305869D77796D12809E3003BA86843FE2E1"
+                    }
+                ]
+}

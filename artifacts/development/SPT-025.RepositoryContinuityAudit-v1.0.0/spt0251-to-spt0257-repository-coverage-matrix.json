@@ -1,0 +1,126 @@
+{
+    "audited_baseline":  "1d6756e2335f5a130290c2e8ca6169f660007f9b",
+    "records":  [
+                    {
+                        "component":  "SPT-025.1",
+                        "required_paths":  10,
+                        "present_paths":  10,
+                        "missing_paths":  [
+
+                                          ],
+                        "coverage_percent":  100
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "required_paths":  10,
+                        "present_paths":  10,
+                        "missing_paths":  [
+
+                                          ],
+                        "coverage_percent":  100
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "required_paths":  10,
+                        "present_paths":  10,
+                        "missing_paths":  [
+
+                                          ],
+                        "coverage_percent":  100
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "required_paths":  10,
+                        "present_paths":  10,
+                        "missing_paths":  [
+
+                                          ],
+                        "coverage_percent":  100
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "required_paths":  10,
+                        "present_paths":  10,
+                        "missing_paths":  [
+
+                                          ],
+                        "coverage_percent":  100
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "required_paths":  10,
+                        "present_paths":  10,
+                        "missing_paths":  [
+
+                                          ],
+                        "coverage_percent":  100
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "required_paths":  10,
+                        "present_paths":  10,
+                        "missing_paths":  [
+
+                                          ],
+                        "coverage_percent":  100
+                    }
+                ],
+    "gates":  [
+                  {
+                      "component":  "SPT-025.1",
+                      "assessment_path":  "artifacts/development/SPT-025.1-v1.0.1/replicability-assessment.json",
+                      "key":  "support_languages_configurable",
+                      "expected":  true,
+                      "actual":  true,
+                      "pass":  true
+                  },
+                  {
+                      "component":  "SPT-025.2",
+                      "assessment_path":  "artifacts/development/SPT-025.2-v1.0.0/spt0252-contract-assessment.json",
+                      "key":  "one_native_language_per_platform",
+                      "expected":  true,
+                      "actual":  true,
+                      "pass":  true
+                  },
+                  {
+                      "component":  "SPT-025.3",
+                      "assessment_path":  "artifacts/development/SPT-025.3-v1.0.0/spt0253-language-model-assessment.json",
+                      "key":  "status",
+                      "expected":  "LANGUAGE_PLATFORM_MODEL_GATE_PASS",
+                      "actual":  "LANGUAGE_PLATFORM_MODEL_GATE_PASS",
+                      "pass":  true
+                  },
+                  {
+                      "component":  "SPT-025.4",
+                      "assessment_path":  "artifacts/development/SPT-025.4-v1.0.0/spt0254-rlb-contract-assessment.json",
+                      "key":  "status",
+                      "expected":  "PARAMETRIC_RLB_INSTANCE_DATA_GATE_PASS",
+                      "actual":  "PARAMETRIC_RLB_INSTANCE_DATA_GATE_PASS",
+                      "pass":  true
+                  },
+                  {
+                      "component":  "SPT-025.5",
+                      "assessment_path":  "artifacts/development/SPT-025.5-v1.0.0/spt0255-resource-catalog-assessment.json",
+                      "key":  "status",
+                      "expected":  "RESOURCE_BIBLE_GOVERNANCE_GATE_PASS",
+                      "actual":  "RESOURCE_BIBLE_GOVERNANCE_GATE_PASS",
+                      "pass":  true
+                  },
+                  {
+                      "component":  "SPT-025.6",
+                      "assessment_path":  "artifacts/development/SPT-025.6-v1.0.0/spt0256-identity-assessment.json",
+                      "key":  "status",
+                      "expected":  "IDENTITY_BRANDING_GOVERNANCE_GATE_PASS",
+                      "actual":  "IDENTITY_BRANDING_GOVERNANCE_GATE_PASS",
+                      "pass":  true
+                  },
+                  {
+                      "component":  "SPT-025.7",
+                      "assessment_path":  "artifacts/development/SPT-025.7-v1.0.1/spt0257-bootstrap-assessment.json",
+                      "key":  "status",
+                      "expected":  "LANGUAGE_INSTANCE_BOOTSTRAP_GATE_PASS",
+                      "actual":  "LANGUAGE_INSTANCE_BOOTSTRAP_GATE_PASS",
+                      "pass":  true
+                  }
+              ]
+}

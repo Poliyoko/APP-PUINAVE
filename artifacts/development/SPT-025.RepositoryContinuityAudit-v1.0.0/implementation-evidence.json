@@ -1,0 +1,19 @@
+{
+    "component":  "SPT-025.RepositoryContinuityAudit",
+    "version":  "1.0.0",
+    "baseline":  "1d6756e2335f5a130290c2e8ca6169f660007f9b",
+    "source":  "GIT_COMMIT_TREE",
+    "components":  [
+                       "SPT-025.1",
+                       "SPT-025.2",
+                       "SPT-025.3",
+                       "SPT-025.4",
+                       "SPT-025.5",
+                       "SPT-025.6",
+                       "SPT-025.7"
+                   ],
+    "critical_paths_missing":  0,
+    "repository_continuity":  "PASS",
+    "closed_components_preserved":  true,
+    "production_change":  false
+}

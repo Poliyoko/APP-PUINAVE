@@ -1,0 +1,21 @@
+{
+  "component": "SPT-025.RepositoryContinuityAudit",
+  "version": "1.0.0",
+  "authoritative_baseline": "1d6756e2335f5a130290c2e8ca6169f660007f9b",
+  "scope": [
+    "SPT-025.1",
+    "SPT-025.2",
+    "SPT-025.3",
+    "SPT-025.4",
+    "SPT-025.5",
+    "SPT-025.6",
+    "SPT-025.7"
+  ],
+  "audit_source": "GIT_COMMIT_TREE",
+  "modify_closed_components": false,
+  "production_change": false,
+  "require_100_percent_critical_path_coverage": true,
+  "require_gate_validation": true,
+  "commit_push_required": true,
+  "local_remote_head_equality_required": true
+}

@@ -1,0 +1,121 @@
+{
+  "SPT-025.1": {
+    "expected_status_file": "artifacts/development/SPT-025.1-v1.0.1/replicability-assessment.json",
+    "expected_status_key": "support_languages_configurable",
+    "expected_status_value": true,
+    "paths": [
+      "Invoke-SGODA-SPT0251-DecouplingMultifunctionReplicability-Audit-RECOVERY-v1.0.1-PS51.ps1",
+      "artifacts/development/SPT-025.1-v1.0.1/implementation-evidence.json",
+      "artifacts/development/SPT-025.1-v1.0.1/replicability-assessment.json",
+      "artifacts/development/SPT-025.1-v1.0.1/replicability-integrity-manifest.json",
+      "artifacts/development/SPT-025.1-v1.0.1/spt0252-prepare.json",
+      "config/integration/spt0251/replicability-decoupling-policy.json",
+      "docs/06_Tecnologia/SPT-025/SPT-025.1/SGD-SPT025.1-Auditoria-Desacoplamiento-Multifuncionalidad-Replicabilidad.md",
+      "src/sgoda/integration/spt0251/__init__.py",
+      "src/sgoda/integration/spt0251/core.py",
+      "tests/integration/test_spt0251_decoupling_multifunction_replicability_audit.py"
+    ]
+  },
+  "SPT-025.2": {
+    "expected_status_file": "artifacts/development/SPT-025.2-v1.0.0/spt0252-contract-assessment.json",
+    "expected_status_key": "one_native_language_per_platform",
+    "expected_status_value": true,
+    "paths": [
+      "Invoke-SGODA-SPT0252-SGODACore-LanguagePlatformContract-FINAL-v1.0.0-PS51.ps1",
+      "artifacts/development/SPT-025.2-v1.0.0/implementation-evidence.json",
+      "artifacts/development/SPT-025.2-v1.0.0/spt0252-contract-assessment.json",
+      "artifacts/development/SPT-025.2-v1.0.0/spt0252-integrity-manifest.json",
+      "artifacts/development/SPT-025.2-v1.0.0/spt0253-prepare.json",
+      "config/integration/spt0252/sgoda-core-language-platform-contract-policy.json",
+      "docs/06_Tecnologia/SPT-025/SPT-025.2/SGD-SPT025.2-SGODA-Core-Contrato-Plataforma-Linguistica-Independiente.md",
+      "src/sgoda/integration/spt0252/__init__.py",
+      "src/sgoda/integration/spt0252/core.py",
+      "tests/integration/test_spt0252_sgoda_core_language_platform_contract.py"
+    ]
+  },
+  "SPT-025.3": {
+    "expected_status_file": "artifacts/development/SPT-025.3-v1.0.0/spt0253-language-model-assessment.json",
+    "expected_status_key": "status",
+    "expected_status_value": "LANGUAGE_PLATFORM_MODEL_GATE_PASS",
+    "paths": [
+      "Invoke-SGODA-SPT0253-IndependentLanguagePlatform-LanguageConfig-FINAL-v1.0.0-PS51.ps1",
+      "artifacts/development/SPT-025.3-v1.0.0/implementation-evidence.json",
+      "artifacts/development/SPT-025.3-v1.0.0/spt0253-language-model-assessment.json",
+      "artifacts/development/SPT-025.3-v1.0.0/spt0253-integrity-manifest.json",
+      "artifacts/development/SPT-025.3-v1.0.0/spt0254-prepare.json",
+      "config/integration/spt0253/independent-language-platform-language-policy.json",
+      "docs/06_Tecnologia/SPT-025/SPT-025.3/SGD-SPT025.3-Modelo-Plataforma-Linguistica-Independiente-Idiomas-Auxiliares.md",
+      "src/sgoda/integration/spt0253/__init__.py",
+      "src/sgoda/integration/spt0253/core.py",
+      "tests/integration/test_spt0253_independent_language_platform_language_config.py"
+    ]
+  },
+  "SPT-025.4": {
+    "expected_status_file": "artifacts/development/SPT-025.4-v1.0.0/spt0254-rlb-contract-assessment.json",
+    "expected_status_key": "status",
+    "expected_status_value": "PARAMETRIC_RLB_INSTANCE_DATA_GATE_PASS",
+    "paths": [
+      "Invoke-SGODA-SPT0254-ParametricRLB-InstanceDataContract-FINAL-v1.0.0-PS51.ps1",
+      "artifacts/development/SPT-025.4-v1.0.0/implementation-evidence.json",
+      "artifacts/development/SPT-025.4-v1.0.0/spt0254-rlb-contract-assessment.json",
+      "artifacts/development/SPT-025.4-v1.0.0/spt0254-integrity-manifest.json",
+      "artifacts/development/SPT-025.4-v1.0.0/spt0255-prepare.json",
+      "config/integration/spt0254/parametric-rlb-instance-data-policy.json",
+      "docs/06_Tecnologia/SPT-025/SPT-025.4/SGD-SPT025.4-RLB-Parametrizable-Contrato-Datos-Instancia.md",
+      "src/sgoda/integration/spt0254/__init__.py",
+      "src/sgoda/integration/spt0254/core.py",
+      "tests/integration/test_spt0254_parametric_rlb_instance_data_contract.py"
+    ]
+  },
+  "SPT-025.5": {
+    "expected_status_file": "artifacts/development/SPT-025.5-v1.0.0/spt0255-resource-catalog-assessment.json",
+    "expected_status_key": "status",
+    "expected_status_value": "RESOURCE_BIBLE_GOVERNANCE_GATE_PASS",
+    "paths": [
+      "Invoke-SGODA-SPT0255-CulturalLinguisticResources-BibleCatalog-FINAL-v1.0.0-PS51.ps1",
+      "artifacts/development/SPT-025.5-v1.0.0/implementation-evidence.json",
+      "artifacts/development/SPT-025.5-v1.0.0/spt0255-resource-catalog-assessment.json",
+      "artifacts/development/SPT-025.5-v1.0.0/spt0255-integrity-manifest.json",
+      "artifacts/development/SPT-025.5-v1.0.0/spt0256-prepare.json",
+      "config/integration/spt0255/platform-resource-catalog-policy.json",
+      "docs/06_Tecnologia/SPT-025/SPT-025.5/SGD-SPT025.5-Recursos-Culturales-Linguisticos-Biblia-Catalogo.md",
+      "src/sgoda/integration/spt0255/__init__.py",
+      "src/sgoda/integration/spt0255/core.py",
+      "tests/integration/test_spt0255_cultural_linguistic_resources_bible_catalog.py"
+    ]
+  },
+  "SPT-025.6": {
+    "expected_status_file": "artifacts/development/SPT-025.6-v1.0.0/spt0256-identity-assessment.json",
+    "expected_status_key": "status",
+    "expected_status_value": "IDENTITY_BRANDING_GOVERNANCE_GATE_PASS",
+    "paths": [
+      "Invoke-SGODA-SPT0256-CommunityIdentity-BrandingPlatformConfig-FINAL-v1.0.0-PS51.ps1",
+      "artifacts/development/SPT-025.6-v1.0.0/implementation-evidence.json",
+      "artifacts/development/SPT-025.6-v1.0.0/spt0256-identity-assessment.json",
+      "artifacts/development/SPT-025.6-v1.0.0/spt0256-integrity-manifest.json",
+      "artifacts/development/SPT-025.6-v1.0.0/spt0257-prepare.json",
+      "config/integration/spt0256/platform-identity-branding-policy.json",
+      "docs/06_Tecnologia/SPT-025/SPT-025.6/SGD-SPT025.6-Identidad-Comunitaria-Branding-Metadatos-Configuracion.md",
+      "src/sgoda/integration/spt0256/__init__.py",
+      "src/sgoda/integration/spt0256/core.py",
+      "tests/integration/test_spt0256_community_identity_branding_platform_config.py"
+    ]
+  },
+  "SPT-025.7": {
+    "expected_status_file": "artifacts/development/SPT-025.7-v1.0.1/spt0257-bootstrap-assessment.json",
+    "expected_status_key": "status",
+    "expected_status_value": "LANGUAGE_INSTANCE_BOOTSTRAP_GATE_PASS",
+    "paths": [
+      "Invoke-SGODA-SPT0257-LanguageInstanceBootstrap-Factory-RECOVERY-v1.0.1-PS51.ps1",
+      "artifacts/development/SPT-025.7-v1.0.1/implementation-evidence.json",
+      "artifacts/development/SPT-025.7-v1.0.1/spt0257-bootstrap-assessment.json",
+      "artifacts/development/SPT-025.7-v1.0.1/spt0257-integrity-manifest.json",
+      "artifacts/development/SPT-025.7-v1.0.1/spt0258-prepare.json",
+      "config/integration/spt0257/language-instance-bootstrap-policy.json",
+      "docs/06_Tecnologia/SPT-025/SPT-025.7/SGD-SPT025.7-Generador-Instancias-Linguisticas-Bootstrap.md",
+      "src/sgoda/integration/spt0257/__init__.py",
+      "src/sgoda/integration/spt0257/core.py",
+      "tests/integration/test_spt0257_language_instance_bootstrap_factory.py"
+    ]
+  }
+}
