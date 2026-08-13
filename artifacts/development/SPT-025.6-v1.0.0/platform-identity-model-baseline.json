@@ -1,0 +1,7 @@
+{
+    "model":  "PLATFORM_IDENTITY",
+    "ownership":  "INSTANCE",
+    "platform_name":  "CONFIGURABLE",
+    "community":  "CONFIGURABLE",
+    "sgoda_core_embeds_identity_values":  false
+}

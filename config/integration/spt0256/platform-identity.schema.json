@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Platform Identity",
+  "type": "object",
+  "required": [
+    "platform_id",
+    "platform_name",
+    "instance_specific",
+    "community",
+    "native_language",
+    "branding",
+    "institutional_texts",
+    "cultural_metadata",
+    "presentation"
+  ]
+}

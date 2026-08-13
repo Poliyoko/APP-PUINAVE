@@ -1,0 +1,53 @@
+{
+  "platform_id": "sgoda-<native-language>",
+  "platform_name": "SGODA-<NATIVE-LANGUAGE>",
+  "instance_specific": true,
+  "sgoda_core_embeds_identity_values": false,
+  "community": {
+    "community_id": "<community-id>",
+    "name": "<Community Name>",
+    "territory": {
+      "configurable": true,
+      "value": ""
+    },
+    "contact_metadata": {
+      "configurable": true
+    }
+  },
+  "native_language": {
+    "code": "<native-code>",
+    "name": "<Native Language>"
+  },
+  "branding": {
+    "configurable_per_platform": true,
+    "logo": {
+      "mode": "resource_reference",
+      "value": ""
+    },
+    "icon": {
+      "mode": "resource_reference",
+      "value": ""
+    },
+    "theme": {
+      "primary_token": "platform-primary",
+      "secondary_token": "platform-secondary",
+      "configurable": true
+    }
+  },
+  "institutional_texts": {
+    "configurable_per_platform": true,
+    "title": "<Platform Title>",
+    "slogan": ""
+  },
+  "cultural_metadata": {
+    "configurable_per_platform": true,
+    "community_description": "",
+    "cultural_notes": "",
+    "attribution": ""
+  },
+  "presentation": {
+    "configurable_per_platform": true,
+    "default_navigation_language": "<support-language>",
+    "show_native_language_first": true
+  }
+}

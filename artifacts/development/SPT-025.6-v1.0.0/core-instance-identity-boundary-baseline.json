@@ -1,0 +1,18 @@
+{
+    "sgoda_core":  [
+                       "identity_contracts",
+                       "validation",
+                       "theme_contracts",
+                       "security",
+                       "testing",
+                       "evidence"
+                   ],
+    "instance":  [
+                     "platform_name",
+                     "community_metadata",
+                     "branding_resources",
+                     "institutional_texts",
+                     "cultural_metadata",
+                     "presentation_preferences"
+                 ]
+}

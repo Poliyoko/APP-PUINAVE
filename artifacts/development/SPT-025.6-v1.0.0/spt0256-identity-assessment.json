@@ -1,0 +1,9 @@
+{
+    "component":  "SPT-025.6",
+    "version":  "1.0.0",
+    "baseline":  "bc467bc133fd8bf3b9c0fedab62fffe48f0100a0",
+    "status":  "IDENTITY_BRANDING_GOVERNANCE_GATE_PASS",
+    "identity_instance_specific":  true,
+    "sgoda_core_embeds_identity_values":  false,
+    "closed_components_preserved":  true
+}

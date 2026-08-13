@@ -1,0 +1,53 @@
+{
+  "platform_id": "sgoda-puinave",
+  "platform_name": "SGODA-PUINAVE",
+  "instance_specific": true,
+  "sgoda_core_embeds_identity_values": false,
+  "community": {
+    "community_id": "puinave",
+    "name": "Pueblo Puinave",
+    "territory": {
+      "configurable": true,
+      "value": ""
+    },
+    "contact_metadata": {
+      "configurable": true
+    }
+  },
+  "native_language": {
+    "code": "pui",
+    "name": "Puinave"
+  },
+  "branding": {
+    "configurable_per_platform": true,
+    "logo": {
+      "mode": "resource_reference",
+      "value": ""
+    },
+    "icon": {
+      "mode": "resource_reference",
+      "value": ""
+    },
+    "theme": {
+      "primary_token": "platform-primary",
+      "secondary_token": "platform-secondary",
+      "configurable": true
+    }
+  },
+  "institutional_texts": {
+    "configurable_per_platform": true,
+    "title": "SGODA-PUINAVE",
+    "slogan": "TecnologÃ­a para preservar la memoria del pueblo Puinave."
+  },
+  "cultural_metadata": {
+    "configurable_per_platform": true,
+    "community_description": "",
+    "cultural_notes": "",
+    "attribution": ""
+  },
+  "presentation": {
+    "configurable_per_platform": true,
+    "default_navigation_language": "es",
+    "show_native_language_first": true
+  }
+}

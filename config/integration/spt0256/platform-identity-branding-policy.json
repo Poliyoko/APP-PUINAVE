@@ -1,0 +1,18 @@
+{
+  "component": "SPT-025.6",
+  "version": "1.0.0",
+  "authoritative_baseline": "bc467bc133fd8bf3b9c0fedab62fffe48f0100a0",
+  "identity_ownership": "INSTANCE_SPECIFIC",
+  "sgoda_core_embeds_identity_values": false,
+  "platform_name_configurable": true,
+  "community_metadata_configurable": true,
+  "branding_configurable": true,
+  "logo_reference_configurable": true,
+  "icon_reference_configurable": true,
+  "theme_tokens_configurable": true,
+  "institutional_texts_configurable": true,
+  "cultural_metadata_configurable": true,
+  "presentation_preferences_configurable": true,
+  "modify_closed_components": false,
+  "production_change": false
+}

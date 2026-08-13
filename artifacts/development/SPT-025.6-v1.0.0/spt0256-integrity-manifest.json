@@ -1,0 +1,61 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt0256/platform-identity-branding-policy.json",
+                        "sha256":  "6AA886821B7D5D909AFC2D4039294D0EAB7AE118A87BC4C1502F2222F8DA92A9"
+                    },
+                    {
+                        "path":  "config/integration/spt0256/platform-identity.schema.json",
+                        "sha256":  "911024CCD146433180633578E2E3BF5DFB0F15C53095F2B5C70E1B8C9724F406"
+                    },
+                    {
+                        "path":  "config/integration/spt0256/sgoda-puinave-identity-profile.json",
+                        "sha256":  "1B5EB681B232AF0267D2D607BE2466B6CB89E543F11ED8819FAF9FFF6251A25A"
+                    },
+                    {
+                        "path":  "config/integration/spt0256/platform-identity-template.json",
+                        "sha256":  "5A37B171A349550D191E37EE863F82DE0F7159AAA454879A98296B307081A9BF"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.6/SGD-SPT025.6-Identidad-Comunitaria-Branding-Metadatos-Configuracion.md",
+                        "sha256":  "831091A601C22AA5524511E4F48C326768937B77F7743706F440612020E4BDF8"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/platform-identity-model-baseline.json",
+                        "sha256":  "3FC52DC5FEA8483AED6ACD915C0B567FF3C4B063C0A2E4716B331EAB57ECCE04"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/branding-configuration-baseline.json",
+                        "sha256":  "FC8A4262C6467524CD2FA494B4245B09E87E66A845448F3CB1A9559ABD43B60D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/community-metadata-baseline.json",
+                        "sha256":  "581B1545A476FDA80D1667BE1F2B2A2DF2ACF3B0DAA8B9964D55E53DFADD0F7D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/presentation-preferences-baseline.json",
+                        "sha256":  "DB4E3451F338F6EA6752C7A86908D7C6D40B8354247CE17D4DAB6A522D4E7409"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/sgoda-puinave-identity-baseline.json",
+                        "sha256":  "29872F718F5E7D042A166CCA6CB638F44AB82C4B4184E537B092BEBD6C1004DF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/core-instance-identity-boundary-baseline.json",
+                        "sha256":  "F34BAA002FDE9F6EE9B13AB7852CDCE359707763F0FBA97F8794C697F02AD9E7"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/identity-integrity-baseline.json",
+                        "sha256":  "E0EB5B2ABBA5AE2ED956B658728EC913CD39F4BD916335B69638C9DD193815C7"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/spt0256-identity-assessment.json",
+                        "sha256":  "4B3B4A095FF22FD6E5A1AD0D90C612432839787840C8FEF77596D6FEF77F861D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.6-v1.0.0/spt0257-prepare.json",
+                        "sha256":  "051293D3D3C2EE6294153300CCA6AD575926188A5F8A5C2C0FF7685D76034AA1"
+                    }
+                ]
+}
