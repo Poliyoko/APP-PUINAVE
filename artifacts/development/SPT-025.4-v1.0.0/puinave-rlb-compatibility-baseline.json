@@ -1,0 +1,13 @@
+{
+    "platform":  "SGODA-PUINAVE",
+    "repository":  "RLB-PUINAVE",
+    "preserve_existing":  true,
+    "destructive_migration":  false,
+    "adapter_required":  true,
+    "support_languages":  [
+                              "es",
+                              "en",
+                              "it",
+                              "pt"
+                          ]
+}

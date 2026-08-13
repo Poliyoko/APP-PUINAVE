@@ -1,0 +1,11 @@
+{
+    "component":  "SPT-025.4",
+    "version":  "1.0.0",
+    "baseline":  "3d980dcb905b856c8f898e6dda5aed3953664cdf",
+    "status":  "PARAMETRIC_RLB_INSTANCE_DATA_GATE_PASS",
+    "rlb_instance_specific":  true,
+    "sgoda_core_contains_lexical_data":  false,
+    "support_language_meanings_configurable":  true,
+    "puinave_backward_compatibility":  true,
+    "closed_components_preserved":  true
+}

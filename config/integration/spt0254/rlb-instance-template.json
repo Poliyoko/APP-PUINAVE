@@ -1,0 +1,28 @@
+{
+  "platform_id": "sgoda-<native-language>",
+  "repository_id": "RLB-<NATIVE-LANGUAGE>",
+  "instance_specific": true,
+  "native_language": {
+    "code": "<native-code>",
+    "name": "<Native Language>"
+  },
+  "support_languages": [
+    "<support-code-1>",
+    "<support-code-2>"
+  ],
+  "lexical_fields": [
+    "lexical_id",
+    "native_language",
+    "native_form",
+    "meanings",
+    "pronunciation",
+    "audio",
+    "images",
+    "metadata"
+  ],
+  "backward_compatibility": {
+    "existing_rlb_preserved": true,
+    "destructive_migration": false,
+    "adapter_required": true
+  }
+}

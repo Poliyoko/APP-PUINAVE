@@ -1,0 +1,19 @@
+{
+    "sgoda_core":  [
+                       "schema_validation",
+                       "api_contracts",
+                       "workflow",
+                       "security",
+                       "testing",
+                       "evidence"
+                   ],
+    "instance":  [
+                     "lexicon",
+                     "native_forms",
+                     "meanings",
+                     "pronunciation",
+                     "native_audio",
+                     "images",
+                     "metadata"
+                 ]
+}

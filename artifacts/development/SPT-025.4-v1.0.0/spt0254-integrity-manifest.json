@@ -1,0 +1,53 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "config/integration/spt0254/parametric-rlb-instance-data-policy.json",
+                        "sha256":  "FAC4DE63D539C371150ECA4AFEA42D437DF5E30698680F29FAD074B0E9AA7F8C"
+                    },
+                    {
+                        "path":  "config/integration/spt0254/parametric-rlb-lexeme.schema.json",
+                        "sha256":  "C1A0C71F6380D4D8BE3C28038CD4A0B0177E7A3F4EE0FF27E441F6DF1B6FDF64"
+                    },
+                    {
+                        "path":  "config/integration/spt0254/sgoda-puinave-rlb-instance-contract.json",
+                        "sha256":  "88143B5F3103F924E983D252359590172678BF165862DCEBC19E22602480175F"
+                    },
+                    {
+                        "path":  "config/integration/spt0254/rlb-instance-template.json",
+                        "sha256":  "1A46875E2DA499A63E847AC8FE281E6B4002BF1FEE4CE103712B48085DA50B35"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/SPT-025.4/SGD-SPT025.4-RLB-Parametrizable-Contrato-Datos-Instancia.md",
+                        "sha256":  "001960A9E25DC10103CC13F70A8983417E962C8C5B2B9C7CBFA1514E78F4A3F1"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/parametric-rlb-model-baseline.json",
+                        "sha256":  "51AC634F5127E32F0FEDFEF1A19471103D944889C43384FBB9189727062D656B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/lexeme-data-contract-baseline.json",
+                        "sha256":  "A4D0C3D0390FC909043DB4EC91C713B1F005DC67729CBCCB92732F06658BEA0B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/lexical-instance-boundary-baseline.json",
+                        "sha256":  "35ADFB852CB5145A7CFD4BD11D2D1251611FDCF78B0C5EA1B0F6D1CC30E8B789"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/puinave-rlb-compatibility-baseline.json",
+                        "sha256":  "C84F1E792606DE89B8201DE80FE6F972C6C362035A5C417ECC9DFAB87654B1DE"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/reference-lexeme-integrity-baseline.json",
+                        "sha256":  "43A2D5E89AD4EC345102D765335DA259191CA908FEA1854CD0D844FFD34CD8FA"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/spt0254-rlb-contract-assessment.json",
+                        "sha256":  "37F8E6F8A32F836BB167007D39C66548160AF4AF3E0AC13D9329BCE255D13F7B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.4-v1.0.0/spt0255-prepare.json",
+                        "sha256":  "FEF88FAD06EED03643315B79382CC3114CE79A2BAA6D021370AF44259BE8443D"
+                    }
+                ]
+}

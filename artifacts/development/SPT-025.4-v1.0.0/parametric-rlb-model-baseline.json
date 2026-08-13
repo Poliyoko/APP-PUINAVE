@@ -1,0 +1,8 @@
+{
+    "model":  "PARAMETRIC_RLB",
+    "ownership":  "INSTANCE",
+    "sgoda_core_contains_lexical_data":  false,
+    "native_language_count":  1,
+    "support_languages":  "0..N",
+    "support_language_meanings_configurable":  true
+}

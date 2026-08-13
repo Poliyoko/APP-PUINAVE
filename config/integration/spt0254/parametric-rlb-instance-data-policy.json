@@ -1,0 +1,33 @@
+{
+  "component": "SPT-025.4",
+  "version": "1.0.0",
+  "title": "Repositorio Lexico Base Parametrizable por Lengua y Contrato de Datos de Instancia",
+  "authoritative_baseline": "3d980dcb905b856c8f898e6dda5aed3953664cdf",
+  "architecture": {
+    "lexical_repository": "INSTANCE_SPECIFIC",
+    "sgoda_core_contains_lexical_data": false,
+    "one_native_language_per_platform": true,
+    "support_language_meanings": "0..N_CONFIGURABLE",
+    "pronunciation": "INSTANCE_SPECIFIC",
+    "native_audio": "INSTANCE_SPECIFIC",
+    "images": "INSTANCE_SPECIFIC",
+    "metadata": "INSTANCE_SPECIFIC",
+    "backward_compatibility_adapter_required": true,
+    "reference_platform": "SGODA-PUINAVE",
+    "reference_support_languages": [
+      "es",
+      "en",
+      "it",
+      "pt"
+    ]
+  },
+  "mode": "NON_DESTRUCTIVE_CONTRACT_AND_ADAPTER_PREPARE",
+  "rules": {
+    "modify_existing_rlb": false,
+    "migrate_existing_data": false,
+    "modify_closed_components": false,
+    "production_change": false,
+    "commit_push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

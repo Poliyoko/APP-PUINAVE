@@ -1,0 +1,30 @@
+{
+  "platform_id": "sgoda-puinave",
+  "repository_id": "RLB-PUINAVE",
+  "instance_specific": true,
+  "native_language": {
+    "code": "pui",
+    "name": "Puinave"
+  },
+  "support_languages": [
+    "es",
+    "en",
+    "it",
+    "pt"
+  ],
+  "lexical_fields": [
+    "lexical_id",
+    "native_language",
+    "native_form",
+    "meanings",
+    "pronunciation",
+    "audio",
+    "images",
+    "metadata"
+  ],
+  "backward_compatibility": {
+    "existing_rlb_preserved": true,
+    "destructive_migration": false,
+    "adapter_required": true
+  }
+}

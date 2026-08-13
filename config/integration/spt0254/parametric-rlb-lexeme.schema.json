@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Parametric RLB Instance Lexeme",
+  "type": "object",
+  "required": [
+    "lexical_id",
+    "native_language",
+    "native_form",
+    "meanings",
+    "pronunciation",
+    "audio",
+    "images",
+    "metadata"
+  ],
+  "properties": {
+    "lexical_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "native_language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "native_form": {
+      "type": "string",
+      "minLength": 1
+    },
+    "meanings": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "pronunciation": {
+      "type": "object"
+    },
+    "audio": {
+      "type": "object"
+    },
+    "images": {
+      "type": "array"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  }
+}

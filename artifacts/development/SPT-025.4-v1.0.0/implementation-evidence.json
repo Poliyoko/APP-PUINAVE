@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.4",
+    "version":  "1.0.0",
+    "baseline":  "3d980dcb905b856c8f898e6dda5aed3953664cdf",
+    "status":  "PARAMETRIC_RLB_INSTANCE_DATA_GATE_PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "production_change":  false,
+    "existing_rlb_modified":  false,
+    "closed_components_preserved":  true
+}

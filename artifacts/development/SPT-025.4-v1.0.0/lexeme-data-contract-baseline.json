@@ -1,0 +1,18 @@
+{
+    "required_fields":  [
+                            "lexical_id",
+                            "native_language",
+                            "native_form",
+                            "meanings",
+                            "pronunciation",
+                            "audio",
+                            "images",
+                            "metadata"
+                        ],
+    "native_form":  "REQUIRED",
+    "meanings":  "BY_ENABLED_SUPPORT_LANGUAGE",
+    "pronunciation":  "INSTANCE",
+    "audio":  "INSTANCE",
+    "images":  "INSTANCE",
+    "metadata":  "INSTANCE"
+}
