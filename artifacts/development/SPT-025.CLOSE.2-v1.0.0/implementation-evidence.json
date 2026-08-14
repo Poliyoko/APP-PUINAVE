@@ -1,0 +1,13 @@
+{
+    "component":  "SPT-025.CLOSE.2",
+    "version":  "1.0.0",
+    "baseline":  "31752ab2d4695ab05210c309a552940f9b176abe",
+    "close1_global_gate":  "PASS",
+    "prepare_consumed":  "artifacts/development/SPT-025.CLOSE.1-v1.0.0/spt025-close2-prepare.json",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "final_closure_gate":  "PASS",
+    "all_outputs_to_repository":  true,
+    "closed_components_preserved":  true
+}

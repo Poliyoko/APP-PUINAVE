@@ -1,0 +1,36 @@
+{
+  "component": "SPT-025.CLOSE.2",
+  "version": "1.0.0",
+  "title": "Paquete de Cierre Institucional de SPT-025, Acta, Ledger Maestro, Manifiesto Global y Recertificacion Final",
+  "authoritative_baseline": "31752ab2d4695ab05210c309a552940f9b176abe",
+  "closure": {
+    "expected_components": 16,
+    "required_coverage": "16/16",
+    "master_ledger": true,
+    "global_manifest": true,
+    "institutional_acta": true,
+    "final_recertification": true,
+    "sha256_required": true
+  },
+  "replicability": {
+    "one_native_language_per_platform": true,
+    "support_languages": "0..N_CONFIGURABLE",
+    "hard_coded_support_languages": false,
+    "shared_core_reference": true,
+    "core_duplicated": false,
+    "rlb_instance_specific": true,
+    "resources_instance_specific": true,
+    "identity_instance_specific": true
+  },
+  "safety": {
+    "real_platform_deployment": false,
+    "auto_deployment": false,
+    "production_change": false,
+    "kurripaco_real_instance": false
+  },
+  "repository": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

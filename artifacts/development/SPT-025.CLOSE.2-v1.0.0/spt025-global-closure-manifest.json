@@ -1,0 +1,11 @@
+{
+    "contract":  "SGODA_SPT025_GLOBAL_CLOSURE_MANIFEST_V1",
+    "component_coverage":  "16/16",
+    "replicability":  "PASS",
+    "master_ledger_sha256":  "0851826c3a6654f57660c95821b4300c9d6f9651cd06365ea49419552f69f7da",
+    "real_platform_deployed":  false,
+    "auto_deployment":  false,
+    "production_change":  false,
+    "core_duplicated":  false,
+    "historical_kurripaco_reference_is_real_instance":  false
+}

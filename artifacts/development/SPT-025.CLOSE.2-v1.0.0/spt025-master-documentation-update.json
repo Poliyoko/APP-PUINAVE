@@ -1,0 +1,10 @@
+{
+    "component":  "SPT-025",
+    "institutional_status":  "CLOSED",
+    "baseline":  "31752ab2d4695ab05210c309a552940f9b176abe",
+    "close1":  "PASS",
+    "close2":  "PASS",
+    "component_coverage":  "16/16",
+    "architecture":  "SGODA Core -\u003e Motor de Instancias -\u003e Plataforma Linguistica Independiente",
+    "repository_sync_required":  true
+}

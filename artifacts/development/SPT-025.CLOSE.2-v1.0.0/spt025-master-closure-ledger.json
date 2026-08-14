@@ -1,0 +1,136 @@
+{
+    "contract":  "SGODA_SPT025_MASTER_CLOSURE_LEDGER_V1",
+    "records":  [
+                    {
+                        "component":  "SPT-025.1",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.2",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.3",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.4",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.5",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.6",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.7",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.8",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.9",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.10",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.11",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.12",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.13",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.14",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.15",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    },
+                    {
+                        "component":  "SPT-025.16",
+                        "closed":  true,
+                        "preserved":  true,
+                        "repository":  "PRESENT",
+                        "tests":  "PASS",
+                        "evidence":  "PRESENT"
+                    }
+                ],
+    "closed_components":  16,
+    "preserved_components":  16,
+    "sha256":  "0851826c3a6654f57660c95821b4300c9d6f9651cd06365ea49419552f69f7da"
+}

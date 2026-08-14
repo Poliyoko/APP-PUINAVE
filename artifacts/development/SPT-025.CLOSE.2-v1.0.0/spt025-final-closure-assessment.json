@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.CLOSE.2",
+    "version":  "1.0.0",
+    "baseline":  "31752ab2d4695ab05210c309a552940f9b176abe",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "final_gate":  "SPT025_INSTITUTIONAL_CLOSURE_GATE_PASS",
+    "expected_components":  16,
+    "recertified_components":  16,
+    "failed_blocking_controls":  0,
+    "real_platform_deployed":  false,
+    "production_change":  false
+}

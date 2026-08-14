@@ -1,0 +1,41 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-final-closure-assessment.json",
+                        "sha256":  "F7C872D41E9F0E55E696EC844CB859EAC814FD08166589D97313B9C85686CB7F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-16-component-consolidated-status.json",
+                        "sha256":  "037484373E12401EAC58DF41571E0C00C34930A4464096794966C1968C82E580"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-final-recertification.json",
+                        "sha256":  "114506834757A0925D221483DE2515FD0D4183E8A0F8FEBDF3534444E60ED189"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-master-closure-ledger.json",
+                        "sha256":  "D86C835664A1D025F7B128420D97754416784BEC5F2CF4F39F02C2EEEF42B2B0"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-global-closure-manifest.json",
+                        "sha256":  "48F9A7625495B8E7171E6B5C192E462FB82D2F3662E0B28C39BFB0264D4017A6"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-master-documentation-update.json",
+                        "sha256":  "29EFEE945BB296A91B3C533AC12D48E61F6E7B64B4391547AFA20D2658B44755"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/implementation-evidence.json",
+                        "sha256":  "67B3A207DC7B2BE54A0D4A20C2C461AA954F9569EFCCF3A10E65B7EC2373F8FF"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/CLOSE/ACT-SPT025-Cierre-Institucional.md",
+                        "sha256":  "6B6FD9F385D0943E570A77C2BB45E960E0A78D13D5DB2318E5A95E222DB5E75B"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-025/CLOSE/SGD-SPT025-CLOSE2-Paquete-Cierre-Institucional.md",
+                        "sha256":  "11CB7A3A2F956EAAD3AF29AD2F6425E72762D6ED194B8693BB66E4A541E5C1CD"
+                    }
+                ]
+}
