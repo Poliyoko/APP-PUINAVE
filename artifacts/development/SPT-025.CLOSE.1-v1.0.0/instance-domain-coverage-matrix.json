@@ -1,0 +1,23 @@
+{
+    "domains":  [
+                    "SGODA_CORE",
+                    "LANGUAGE_INSTANCE",
+                    "NATIVE_LANGUAGE",
+                    "SUPPORT_LANGUAGES",
+                    "RLB",
+                    "PRONUNCIATION_AUDIO",
+                    "IMAGES_METADATA",
+                    "CULTURAL_RESOURCES",
+                    "BIBLE_RESOURCE",
+                    "IDENTITY_BRANDING",
+                    "BOOTSTRAP",
+                    "VALIDATION",
+                    "MATERIALIZATION",
+                    "TEMPLATE_PROFILE",
+                    "COMPOSITION",
+                    "PUBLICATION_GOVERNANCE"
+                ],
+    "covered":  16,
+    "missing":  0,
+    "status":  "PASS"
+}

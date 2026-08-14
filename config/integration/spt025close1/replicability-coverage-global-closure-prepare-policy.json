@@ -1,0 +1,38 @@
+{
+  "component": "SPT-025.CLOSE.1",
+  "version": "1.0.0",
+  "title": "Auditoria Integral de Replicabilidad, Cobertura de Instancias, Quality Gate Global y PREPARE de Cierre Institucional de SPT-025",
+  "authoritative_baseline": "34292e34d94cf2f79844a830faafa1dde3a0a813",
+  "expected_components": 16,
+  "audit": {
+    "coverage_required": "100_PERCENT",
+    "code_required": true,
+    "tests_required": true,
+    "config_required": true,
+    "documentation_required": true,
+    "evidence_required": true,
+    "executables_required": true,
+    "sha256_required": true
+  },
+  "replicability": {
+    "one_native_language_per_platform": true,
+    "support_languages": "0..N_CONFIGURABLE",
+    "hard_coded_support_languages": false,
+    "shared_core_reference": true,
+    "core_duplicated": false,
+    "rlb_instance_specific": true,
+    "resources_instance_specific": true,
+    "identity_instance_specific": true
+  },
+  "safety": {
+    "real_platform_deployment": false,
+    "auto_deployment": false,
+    "production_change": false,
+    "kurripaco_real_instance": false
+  },
+  "repository": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

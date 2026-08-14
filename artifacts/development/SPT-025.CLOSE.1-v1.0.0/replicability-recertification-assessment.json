@@ -1,0 +1,14 @@
+{
+    "component":  "SPT-025.CLOSE.1",
+    "status":  "PASS",
+    "one_native_language_per_platform":  true,
+    "support_languages":  "0..N_CONFIGURABLE",
+    "hard_coded_support_languages":  false,
+    "rlb_instance_specific":  true,
+    "resource_catalog_instance_specific":  true,
+    "identity_instance_specific":  true,
+    "shared_core_reference":  true,
+    "core_duplicated":  false,
+    "real_platform_deployed":  false,
+    "historical_kurripaco_reference_is_real_instance":  false
+}

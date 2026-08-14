@@ -1,0 +1,189 @@
+{
+    "expected_components":  16,
+    "covered_components":  16,
+    "missing_components":  [
+
+                           ],
+    "incomplete_components":  [
+
+                              ],
+    "coverage_percent":  100,
+    "rows":  [
+                 {
+                     "component":  "SPT-025.1",
+                     "present":  true,
+                     "path_count":  120,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.2",
+                     "present":  true,
+                     "path_count":  17,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.3",
+                     "present":  true,
+                     "path_count":  19,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.4",
+                     "present":  true,
+                     "path_count":  19,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.5",
+                     "present":  true,
+                     "path_count":  20,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.6",
+                     "present":  true,
+                     "path_count":  21,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.7",
+                     "present":  true,
+                     "path_count":  20,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.8",
+                     "present":  true,
+                     "path_count":  19,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.9",
+                     "present":  true,
+                     "path_count":  20,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.10",
+                     "present":  true,
+                     "path_count":  16,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.11",
+                     "present":  true,
+                     "path_count":  19,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.12",
+                     "present":  true,
+                     "path_count":  16,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.13",
+                     "present":  true,
+                     "path_count":  14,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.14",
+                     "present":  true,
+                     "path_count":  13,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.15",
+                     "present":  true,
+                     "path_count":  15,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 },
+                 {
+                     "component":  "SPT-025.16",
+                     "present":  true,
+                     "path_count":  14,
+                     "code":  true,
+                     "tests":  true,
+                     "config":  true,
+                     "docs":  true,
+                     "evidence":  true,
+                     "executable":  true
+                 }
+             ]
+}

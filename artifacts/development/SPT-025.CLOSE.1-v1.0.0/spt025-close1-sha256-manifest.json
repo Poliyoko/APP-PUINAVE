@@ -1,0 +1,29 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.1-v1.0.0/spt025-component-coverage-matrix.json",
+                        "sha256":  "ABD1D5361256BFC68A5D52C9833BE976CFE29F8926146B7FA0EA35EC72A75A90"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.1-v1.0.0/replicability-recertification-assessment.json",
+                        "sha256":  "78C3C82C192DF00B1B1C5C56CB239E27354BE6ADA75E75880E5F551FD6C6B6BE"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.1-v1.0.0/instance-domain-coverage-matrix.json",
+                        "sha256":  "C449D7F444FF1118ED3708CD78ABB1DD3E69F36944874499B5A56248FFE1B1B4"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.1-v1.0.0/spt025-global-quality-gate.json",
+                        "sha256":  "C9527A08547133283C6360935B111D91C072435760E22DA120141D3CAA10BF66"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.1-v1.0.0/implementation-evidence.json",
+                        "sha256":  "500AA3E0C3E519BEFE302D50A8DEC5F234CBF10DC3996BD6204F9A24A9BEACF3"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.CLOSE.1-v1.0.0/spt025-close2-prepare.json",
+                        "sha256":  "AD3EDB8CF8676FB80DBD9CD46F82B8AAA3A94082F2A73B0304EE55E4D0E26353"
+                    }
+                ]
+}

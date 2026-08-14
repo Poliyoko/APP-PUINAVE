@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.CLOSE.1",
+    "version":  "1.0.0",
+    "baseline":  "34292e34d94cf2f79844a830faafa1dde3a0a813",
+    "status":  "SPT025_GLOBAL_CLOSURE_PREPARE_GATE_PASS",
+    "component_coverage":  "16/16",
+    "replicability":  "PASS",
+    "global_quality_gate":  "PASS",
+    "institutional_closure_prepare":  "APPROVED",
+    "real_platform_deployed":  false,
+    "production_change":  false
+}
