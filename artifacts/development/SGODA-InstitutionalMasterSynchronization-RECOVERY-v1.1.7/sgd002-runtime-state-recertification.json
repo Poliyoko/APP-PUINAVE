@@ -1,0 +1,7 @@
+{
+    "path":  "artifacts/runtime/sgd002-auto/state.json",
+    "json_valid":  true,
+    "modified":  true,
+    "sha256":  "B61F1B3904349C1286B4C9EEFCA3392C6919B03B6BEA9D7D3E14BBDC84B8B60F",
+    "decision":  "INCLUDE_CURRENT_OPERATIONAL_STATE_IN_MASTER_SYNCHRONIZATION"
+}

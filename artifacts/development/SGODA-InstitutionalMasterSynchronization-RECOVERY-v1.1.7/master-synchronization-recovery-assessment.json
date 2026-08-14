@@ -1,0 +1,23 @@
+{
+    "component":  "SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION-RECOVERY",
+    "version":  "1.1.7",
+    "authoritative_input_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "status":  "RECOVERY_READY_FOR_PUBLICATION",
+    "spt025_status":  "INSTITUTIONALLY_CLOSED",
+    "sgd000_reconciliation":  "PASS",
+    "sgd002_recertification":  "PASS",
+    "master_index_reconciliation":  "PASS",
+    "master_registry_reconciliation":  "PASS",
+    "nomenclature_reconciliation":  "PASS",
+    "traceability_matrix_reconciliation":  "PASS",
+    "worktree_reconciliation":  "PASS",
+    "largefile_policy":  "GZIP_RECONSTRUCTABLE_ARCHIVES",
+    "canonical_test_runtime":  ".venv/Scripts/python.exe + PYTHONPATH=src",
+    "recertified_test_count":  2409,
+    "security_gate":  "PASS",
+    "institutional_tests":  2409,
+    "compileall":  "PASS",
+    "destructive_cleanup":  false,
+    "production_change":  false,
+    "real_new_platform_deployed":  false
+}

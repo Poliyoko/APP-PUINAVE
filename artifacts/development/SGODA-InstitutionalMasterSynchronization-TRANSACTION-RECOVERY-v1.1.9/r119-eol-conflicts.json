@@ -1,0 +1,666 @@
+[
+    {
+        "Path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  103,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "7F2198AFFAA601B37066B60755614B7B7CA014943B3B9B5800171D7196FC639B"
+    },
+    {
+        "Path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.1-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  56,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "F66A8C545813FD69E69FBA14ACE126A927EC491B3806DB3F5DAE7FDCEF70B432"
+    },
+    {
+        "Path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.2-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  62,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "8587417D4303C8B0FB9B1A38630E1DF913709843050DB6598BDFEA2E1848EAFA"
+    },
+    {
+        "Path":  "Install-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1100,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "7B23BE05B269C4984C2301B130B077D7252C38AE0F119CFFB3007BB00D793BFF"
+    },
+    {
+        "Path":  "Invoke-SGODA-Exact-Institutional-Reconciliation-Set-PREPARE-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  380,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "50692E6AE0A6049583D1B64F51215B2F360DB61908C5D763D4FC6F0DF1F9DEB4"
+    },
+    {
+        "Path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  743,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "C9D7C79BC7C347D8BABDD3F965CD78FC0ED38FE56E94E4B73642657677557824"
+    },
+    {
+        "Path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-RECOVERY-v1.1.0-PS51(1) (1).ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  628,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "21D97DF1299C6A52B7CA4A5DA0B96723E5B27AB7D6A531E5AEDC80BCDF4AE0C2"
+    },
+    {
+        "Path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-RECOVERY-v1.1.0-PS51(1) (4).ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  628,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "21D97DF1299C6A52B7CA4A5DA0B96723E5B27AB7D6A531E5AEDC80BCDF4AE0C2"
+    },
+    {
+        "Path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-RECOVERY-v1.1.0-PS51(1).ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  628,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "21D97DF1299C6A52B7CA4A5DA0B96723E5B27AB7D6A531E5AEDC80BCDF4AE0C2"
+    },
+    {
+        "Path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  498,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "2BF90272D8F0AC363FD3E54F0D65F5CD7596CB6C3A652AFA88594CF9E7FDE51B"
+    },
+    {
+        "Path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.1-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  694,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "A0FE126C59C16001547E5CFBAFDAF2564C7EA6B01E80AC83EA91042680AEAA3E"
+    },
+    {
+        "Path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.2-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  711,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "E85E8B187E019B6FAD8131371391916DAC908D3E5FA6789F6BBCAAA291DE2979"
+    },
+    {
+        "Path":  "Invoke-SGODA-Repository-Reconciliation-R1-LARGEFILE-RECOVERY-v1.0.4-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  414,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "A24CCB2CDE6BEA0E9FE0E7E343756A2A2320FDBEA831F3766EEE05F9A0527BDB"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0233-Capa2-FINAL-PS51 (2).ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1389,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "F9710FEFFB243BD803AC2D3590143BE7170B1D62D3D3F996F43EFF9C794933C6"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT024-CLOSE1-PISICoverageAudit-PREPARE-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  406,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "61031EEA330F02F5481A3490F23270EFD311864BA51AC66C7ED12A2EEC8C7879"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT024-CLOSE1-PISICoverageAudit-RECOVERY-v1.0.1-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  406,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "8301EEBBF6AE8871C332CF553981C9A445345071B6DEF585E4729F3993EE9AB5"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  496,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "501EEE0C5ACB7F71EE13FBB2618BC305B019F592536E75FA9452D9048260D697"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.1-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  515,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "78CF0586219F7435CE5D2698FDE74453051DBC7E320D64AB2D6926273776035D"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.2-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  562,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "9E1B5C15EC591E8D8F21873F742899A72EAD1B6F871602A3701A4772C813CA2C"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT02411-Capa3-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  568,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "0A13BC6CC2E9A0C5B5ADB87D9173A1F1FC4F6C5B576E018791A754DB71120C53"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0242-Capa1-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  2103,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "1557AFAF878E6D76EBD14AE6C6635765F93E96EE9A7C94411AA40BE99E603799"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0242-R1-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1416,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "F888D0117378E6DBB2D839658E0574A69B4545C89B3C4741BB61A793D3C02F70"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  514,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "8A9B1598AF246AEC5CD20A884AFC2E1F158095A8622F9908CBD9D42010FDEFF1"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.1-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  514,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "F1A78380CA572D09DBFF976C7DF5DD9CA2143F66D44FBD96F570A25D0CD5C9B6"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.2-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  514,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "D106653CF70CC88F1E51D262F59CF55D1C79F6A07DE60C2AC7FFEB259891EFD4"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.3-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  514,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "6ADC2B8E1B9668D2F91913A68B5C29BB93E582B5FCF26AC496205CBE94ABB4AD"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.4-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  535,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "D0FC361BA53F321594361C204119ABF0EA9EBB63049D968F20DFCFC2EE44150D"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0246-R1-SECURITY-CERTIFY-v1.0.5-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  570,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "7AAC86208B917272E8713924ECCFD52816419EFD5129A3388517F4541A46BEB5"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0246-R1-SECURITY-CERTIFY-v1.0.6-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  606,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "6AE803E791018D2F86F4A80BFC347BEDA7ED06851FFE29AC91990DA1BCBC45E7"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1403,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "7C7454CF3CAAD343F52A742D284FB2CE4AC90F98BEF8C536CEB399D69E6AEC51"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.1-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1410,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "E1BEBDA917F1DBA34BB75910136CB78F6CE18E89AB98D8CE731969618E4C9FD1"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.2-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1452,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "F233E1A5FF78C3E9959829059B66B7BF303FB7EAEE017DAAACB326B2E8ACC170"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0247-Capa3-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  910,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "B296D9A9DF368E1D6B95350D68C58908C11A392110595AEC7681B1D48CA48B40"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0249-Capa3-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1208,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "1B6EE750087AB940A986DF55845175B75EAB231926C64381A62BC3DD98843732"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0251-DecouplingMultifunctionReplicability-Audit-PREPARE-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  276,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "CF7D1A39CA9E3F988BA47934DA962BE7CA08C9EDD804BA489E5271B253E05053"
+    },
+    {
+        "Path":  "Invoke-SGODA-SPT0257-LanguageInstanceBootstrap-Factory-FINAL-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  163,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "CDE35C7A2A9429B5E1EFEE0AB331B38EE92ECE91A0101B6D5CBBFFA332A7FD5F"
+    },
+    {
+        "Path":  "Invoke-SGODA-Untracked-Reconciliation-v2.0.2-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1020,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "DE6FE59C699C227C0B39A144D97F3A79BDA58B12F97EEB2E461D0DF134460AA6"
+    },
+    {
+        "Path":  "Invoke-SGODA-Worktree-Institutional-Reconciliation-AUDIT-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  263,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "423DD272190037BFDB845EB315EB682C4DF181D05BFEAF60D5AAA1E9DCF60782"
+    },
+    {
+        "Path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.0-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  134,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "B2E72BED44127E24FC7E4644EDA15BE32BB7903F8A58FE16A6577FB04124BC93"
+    },
+    {
+        "Path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.1-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  314,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "CFAAB19960057E681D45953E1C2CAB20D5B3E5DB171AFD94ABA32D687F66F391"
+    },
+    {
+        "Path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.2-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  345,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "BC6000D71FD7AAE1BCAE417517BE1F1BD54FFFCC73BAA599FD7CF38E4858E522"
+    },
+    {
+        "Path":  "SGODA-EOL-PREFLIGHT-R119.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  118,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "BE2761634ABC1C55F9EC40182F934A0051550EE7FB713DA4A922037E82928904"
+    },
+    {
+        "Path":  "SGODA-LARGEFILE-SECRET-AUDIT-113.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  201,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "953E177A02432646E833FFDD2215B1850456776BA4F25518E49A9C81E43C1A4E"
+    },
+    {
+        "Path":  "SGODA-LARGEFILE-SECRET-PREPARE-114.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  219,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "EAC180D9AFCBC33C82900CDF1A3C16EDED98A601A0BB1207411DC252F1A80374"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R116.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  935,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "1A2DEB9E7DFE2879E42BE9C51F97550D0682E0CB0B05E828ABB1B4C29C175F77"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R117.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  972,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "DBE2E60B3BEC4464827C9A4274BBF1A3A13807DA4168D1A39CD36754B91F627A"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R118.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  481,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "5D79C28C415203ADA411CF06D79D6852E4DFA00A9812768537E4029BB98515A3"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R119-FINAL-v2.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  556,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "81C1FAC9C242EE7F2A8B567CCAF8C244D645247700B2E92AA731CD806060436C"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R119-FINAL-v3.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  557,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "C84B46AAFCCEA4B327FE85F44DCA2E7713F7FDC10E0952EF2A1980DC1496FD9D"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R119-FINAL-v4.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  578,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "5FD69AF8A0610A18E300A286D1732467293712E8D4EE0C89F70C6FC6E424A8BA"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R119-FINAL.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  554,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "3E6816958B6C80731463BCA81913AD0ED1E5EFCA828F4A718F6FFF6D86AF371A"
+    },
+    {
+        "Path":  "SGODA-MSYNC-R119.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  554,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "509CFEF212331D946714D37F4930D7CC6E93E4F99DFBB07B19742F4B364E73D3"
+    },
+    {
+        "Path":  "SGODA-RECOVERY-110.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  628,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "40B52C5943358AF73471C44D9E81331A69B3F428EC77A386DBBBCB58934A2157"
+    },
+    {
+        "Path":  "SGODA-RECOVERY-111.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  658,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "7696A91A04CA5A651F6563017933E47900F5A1A776FD16E7CDA4066401DAAD32"
+    },
+    {
+        "Path":  "SGODA-RECOVERY-112.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  666,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "D8DEB2843E96DB790DD2135CE06AAE0F27BA3BD5F6C9B866BDFDB25F43F8A38E"
+    },
+    {
+        "Path":  "SGODA-SYNC-115.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  882,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "CDE478445942128B69C58DADC632C36FFCE38488B28C1D762EE514E879E26CAB"
+    },
+    {
+        "Path":  "TRANSFER-Invoke-SGODA-SPT0233-Capa2-FINAL-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  1394,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "6515569ABE1E27AB7EE28D15134132CF0B6E2EA59791856B4851A00347AB2070"
+    },
+    {
+        "Path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+        "RequiredEol":  "lf",
+        "CRLF":  148,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "58ACD91EADB9B0127D4F0E7EF0B256C1D1015F1046DA268EBA46B0B23E109A1E"
+    },
+    {
+        "Path":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/institutional-disposition-ledger.json",
+        "RequiredEol":  "lf",
+        "CRLF":  759,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "FC970C441F7F5CDFD0B6B3656CEF7CF6BB24200A6CF4C660F6AF5B22E91C7EFA"
+    },
+    {
+        "Path":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/master-synchronization-recovery-prepare.json",
+        "RequiredEol":  "lf",
+        "CRLF":  24,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "08E397BAEAF16FCC21F2A1DDA777AD654DE8860D24B6099EF76E658D5C47001C"
+    },
+    {
+        "Path":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/worktree-reconciliation-manifest.json",
+        "RequiredEol":  "lf",
+        "CRLF":  762,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "DE01D4D9AAFF9639A1405968086CA2B61CDA1B093AA5DF9B910608E02E8AA3B5"
+    },
+    {
+        "Path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+        "RequiredEol":  "lf",
+        "CRLF":  30020,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "286795A4702AB8A0ADBA3A15B6F9EE0964EDD97FA6B29B998715FB0753206D0D"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.5-ASCII-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  645,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "87FDB612019706167B9A6E4711F7143F90E59EF5FAF874E78A63EB303AFC5A91"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-052448/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  200360,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "0332E99732BD0E07C086BEDCE348E5EF054756BCB2D5108A43410CF21D4F15C8"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-143030/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  200688,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "AE057B33CE8C341DD0DC2661E92533DB5FD5A9D37A434A273FEF391186939246"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-144107/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  200828,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "8C90A385998C84707CBA7386FC9AE1D25268D7F3B26635FFF5024E9C550AE564"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-145852/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  201022,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "901809972DB808EBF1EDD0B4FE0EA4129057FDFB8BC3757DE99F94FB4BC4EB61"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-151556/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  202730,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "8CFE791E81093A599BEBEF9A53F6D92178A730B5B1BEF57C94E638591E48302E"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-153055/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  202914,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "0820347618B4365ACD91CCB31FAE3790F24B049A005038CA31A577056233517B"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-050420/publication-manifest.json",
+        "RequiredEol":  "lf",
+        "CRLF":  15585,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "BF0CAC344F8520E3B4915B051ED7B0780463F2E9A1056410299FFEBCFCDAD962"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-150508/publication-manifest.json",
+        "RequiredEol":  "lf",
+        "CRLF":  15913,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "A88C5A4FE6D17944D7EAEC3A293A452E508A0525576C761505DF1C4A6AD02820"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+        "RequiredEol":  "lf",
+        "CRLF":  66893,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "64633E47F65029850057E2D1D792D8215EA2A630F4E4B31F83F9B16F1CA322C5"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+        "RequiredEol":  "lf",
+        "CRLF":  22,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "1E657C5757D4888625668F403FEE15A82908E9C757F4C2DE888CBD5D0EAB88E0"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.0.1-v1.0.6/publication-manifest.json",
+        "RequiredEol":  "lf",
+        "CRLF":  15913,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "A88C5A4FE6D17944D7EAEC3A293A452E508A0525576C761505DF1C4A6AD02820"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+        "RequiredEol":  "lf",
+        "CRLF":  22,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "1E657C5757D4888625668F403FEE15A82908E9C757F4C2DE888CBD5D0EAB88E0"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/manifest.json",
+        "RequiredEol":  "lf",
+        "CRLF":  19,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "49C302F5B554A425BB5471B39D85F3BB1B25B06B1A8EC0EBCC646E63E964C8A3"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+        "RequiredEol":  "lf",
+        "CRLF":  66893,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "64633E47F65029850057E2D1D792D8215EA2A630F4E4B31F83F9B16F1CA322C5"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  202914,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "0820347618B4365ACD91CCB31FAE3790F24B049A005038CA31A577056233517B"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.6-ASCII-PS51.ps1",
+        "RequiredEol":  "crlf",
+        "CRLF":  0,
+        "BareLF":  688,
+        "Reason":  "ATTR_CRLF_BUT_WORKTREE_HAS_LF",
+        "SHA256":  "5FB4ACB61005E4EDE2583A4B2FC256152262A31A2C37CF2F15F0F14CD7F3E458"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-154554/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  203100,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "6CAE5E2FAA925696CABB7A3C20C156D05428EF6AE84667B188ABD78A852CA828"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+        "RequiredEol":  "lf",
+        "CRLF":  66965,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "C9B236F1C3F176787DAE1DBCF03834E03B5BA5A2AAE5DDC12294D9CE4FC9D90E"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+        "RequiredEol":  "lf",
+        "CRLF":  66965,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "C9B236F1C3F176787DAE1DBCF03834E03B5BA5A2AAE5DDC12294D9CE4FC9D90E"
+    },
+    {
+        "Path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+        "RequiredEol":  "lf",
+        "CRLF":  203100,
+        "BareLF":  0,
+        "Reason":  "ATTR_LF_BUT_WORKTREE_HAS_CRLF",
+        "SHA256":  "6CAE5E2FAA925696CABB7A3C20C156D05428EF6AE84667B188ABD78A852CA828"
+    }
+]

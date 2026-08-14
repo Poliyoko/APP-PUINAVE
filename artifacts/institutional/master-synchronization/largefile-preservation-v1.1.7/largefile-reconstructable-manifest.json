@@ -1,0 +1,52 @@
+{
+    "schema_version":  "1.1.6",
+    "authoritative_input_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "policy":  "GZIP_RECONSTRUCTABLE_ARCHIVES",
+    "originals_deleted":  false,
+    "records":  [
+                    {
+                        "original_path":  "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-1.log",
+                        "original_bytes":  142649660,
+                        "original_sha256":  "B2DC04FBECCB99876A1402A4B0A079066A4722FF0A5BC6BA3BC3772F65A35769",
+                        "repository_archive":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/01-staging-copy-attempt-1.log.gz",
+                        "archive_bytes":  901846,
+                        "archive_sha256":  "74154A9B6A8CEA3CF129B88BEF7FCFB4AF93375127BED75F1D2F83B59A6766D3",
+                        "compression":  "gzip",
+                        "reconstructable":  true,
+                        "raw_original_policy":  "KEEP_LOCAL_UNTRACKED"
+                    },
+                    {
+                        "original_path":  "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-2.log",
+                        "original_bytes":  141212888,
+                        "original_sha256":  "0B0BE1A4FB45BE3DEFB10DE9516A9B7BD18B24B60AF63CEB1CABFE12C2E12AAA",
+                        "repository_archive":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/02-staging-copy-attempt-2.log.gz",
+                        "archive_bytes":  501920,
+                        "archive_sha256":  "632053C1B26B0C61B2CCD1975951FD41A1E7D16BF68F7107B7B02DC2E4FFDADD",
+                        "compression":  "gzip",
+                        "reconstructable":  true,
+                        "raw_original_policy":  "KEEP_LOCAL_UNTRACKED"
+                    },
+                    {
+                        "original_path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+                        "original_bytes":  450816104,
+                        "original_sha256":  "286795A4702AB8A0ADBA3A15B6F9EE0964EDD97FA6B29B998715FB0753206D0D",
+                        "repository_archive":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/03-institutional-inventory-pmo.json.gz",
+                        "archive_bytes":  1754621,
+                        "archive_sha256":  "388888FF39D28BD20EFE53F9023925A9BC7DA2D2DB29A6F8CCFF333098A07C02",
+                        "compression":  "gzip",
+                        "reconstructable":  true,
+                        "raw_original_policy":  "KEEP_LOCAL_UNTRACKED"
+                    },
+                    {
+                        "original_path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+                        "original_bytes":  450786084,
+                        "original_sha256":  "924AAF294B9FCBC634778711116D6DCF449E7B512F41D1015EFB74BA007F99DC",
+                        "repository_archive":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/04-institutional-inventory-release.json.gz",
+                        "archive_bytes":  1754463,
+                        "archive_sha256":  "9AB5F2FD794D032CD242227B5DD26381F2FC07D18E8D219D153E271A68B49E24",
+                        "compression":  "gzip",
+                        "reconstructable":  true,
+                        "raw_original_policy":  "KEEP_LOCAL_UNTRACKED"
+                    }
+                ]
+}

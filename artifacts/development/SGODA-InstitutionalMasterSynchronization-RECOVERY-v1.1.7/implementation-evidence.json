@@ -1,0 +1,17 @@
+{
+    "authoritative_input_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "prepare_manifest":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/worktree-reconciliation-manifest.json",
+    "disposition_ledger":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/institutional-disposition-ledger.json",
+    "recovery_prepare":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/master-synchronization-recovery-prepare.json",
+    "preservation_candidate_count":  73,
+    "already_represented_count":  5,
+    "oversized_raw_local_count":  4,
+    "reconstructable_archive_count":  4,
+    "institutional_tests":  2409,
+    "institutional_suite":  "PASS",
+    "compileall":  "PASS",
+    "github_size_gate":  "PASS",
+    "security_gate":  "PASS",
+    "closed_components_preserved":  true,
+    "all_unique_institutional_content_represented":  true
+}

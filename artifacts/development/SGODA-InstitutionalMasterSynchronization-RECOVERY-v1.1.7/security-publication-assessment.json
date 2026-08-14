@@ -1,0 +1,8 @@
+{
+    "secret_risk_path":  "Invoke-SGODA-SPT0242-R1-FINAL-v1.0.0-PS51.ps1",
+    "secret_risk_sha256":  "F888D0117378E6DBB2D839658E0574A69B4545C89B3C4741BB61A793D3C02F70",
+    "plausible_private_key_payload":  false,
+    "high_risk_secret_hits":  0,
+    "secret_values_printed":  false,
+    "publication_gate":  "PASS"
+}

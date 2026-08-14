@@ -1,0 +1,20 @@
+{
+    "component":  "SGODA-MSYNC-R118",
+    "version":  "1.1.8",
+    "authoritative_input_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "status":  "READY_FOR_EXACT_PUBLICATION",
+    "r117_evidence_consumed":  true,
+    "current_untracked":  107,
+    "r117_publication_base":  88,
+    "raw_oversized_local":  4,
+    "residual_exact_duplicates":  5,
+    "residual_superseded_outputs":  10,
+    "unexpected_untracked":  0,
+    "institutional_tests_collected":  2409,
+    "institutional_tests_passed":  2409,
+    "compileall":  "PASS",
+    "security_gate":  "PASS",
+    "destructive_cleanup":  false,
+    "files_deleted":  false,
+    "spt025_status":  "INSTITUTIONALLY_CLOSED"
+}

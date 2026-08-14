@@ -1,0 +1,13 @@
+{
+    "baseline":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "r117_integrity_records":  13,
+    "r117_largefile_records":  4,
+    "r117_gzip_reconstruction_recertified":  4,
+    "canonical_runtime":  ".venv/Scripts/python.exe + PYTHONPATH=src",
+    "test_collection":  2409,
+    "test_passed":  2409,
+    "staged_before_recovery":  0,
+    "deleted_tracked_before_recovery":  0,
+    "commit_performed_at_evidence_write":  false,
+    "push_performed_at_evidence_write":  false
+}

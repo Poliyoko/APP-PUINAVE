@@ -1,0 +1,478 @@
+{
+    "algorithm":  "SHA-256",
+    "authoritative_input_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "records":  [
+                    {
+                        "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.0-PS51.ps1",
+                        "sha256":  "EB1D5AD547022F9CE18AAFE482871C965534718FAD1BA4943D466903F323CA1D"
+                    },
+                    {
+                        "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.1-PS51.ps1",
+                        "sha256":  "760D799CDA8834CC6E60467B598CFA511FA9F82143C08FAAC7514CE4188B6AA5"
+                    },
+                    {
+                        "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.2-PS51.ps1",
+                        "sha256":  "A4F91E13BFAF644901F384E33C9EFD391080F838876DF625F4557E2048F23855"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Exact-Institutional-Reconciliation-Set-PREPARE-v1.0.0-PS51.ps1",
+                        "sha256":  "00074A09C8C6E6870B9EFC5DBBBDCFBBEB807F129D8103D6E5E09399365C7F27"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "7017ECA5452AD54246E3E1C314746502D7847AF406563028676D37C2A2BB165D"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-RECOVERY-v1.1.0-PS51(1) (1).ps1",
+                        "sha256":  "74641F2080F3CD60F811EF1BCA4BB5764709D266125D4DEDB0508D4DABA9DCF5"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-RECOVERY-v1.1.0-PS51(1) (4).ps1",
+                        "sha256":  "74641F2080F3CD60F811EF1BCA4BB5764709D266125D4DEDB0508D4DABA9DCF5"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-RECOVERY-v1.1.0-PS51(1).ps1",
+                        "sha256":  "74641F2080F3CD60F811EF1BCA4BB5764709D266125D4DEDB0508D4DABA9DCF5"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "368697F9ECDCA164AAD24B892836067856520C3ECB113D83381C2BBC69CAB961"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.1-PS51.ps1",
+                        "sha256":  "9E5E60BF0727E3BDECF5CA54E6D9574237F79189F3C22A0B4C6CA2BE59A625A4"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.2-PS51.ps1",
+                        "sha256":  "C1A64636CD6A831C13E08502FDD76AB85C900615FB945D08AB666A5A03042BBA"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-R1-LARGEFILE-RECOVERY-v1.0.4-PS51.ps1",
+                        "sha256":  "4CEA5A4A4B8EB6128BC4166B1440DC8468B4CE4D35A3A351B703B6121BE3A860"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0233-Capa2-FINAL-PS51 (2).ps1",
+                        "sha256":  "6240FEF9A708B827F04454F60556E1534613D2F2B6500E0E8FE449EA81E373DF"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT024-CLOSE1-PISICoverageAudit-PREPARE-v1.0.0-PS51.ps1",
+                        "sha256":  "DEABED1A24EFE6C37785C9D2E3D0BCE1BE196A4757490F7C4E01F7A2EAEB7140"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT024-CLOSE1-PISICoverageAudit-RECOVERY-v1.0.1-PS51.ps1",
+                        "sha256":  "234DC24647D2647D32AB7D52E3864C941F3177BBEDCD731129D03612BC027F9A"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "5A5438B107BBF436270484F408925637090170F86AECF3CD7E3CD3636A0DD5D6"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.1-PS51.ps1",
+                        "sha256":  "2ECAD8F7B4DC48DA7ACD325D60D903887DE00BED9C776BCD11B1706A46DD70CA"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.2-PS51.ps1",
+                        "sha256":  "2B812C16AFA4B808473ED27E1BE2210A60F658DC9D9D72184929247C884C5D88"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa3-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "78D11B88DA6F3FE5D651C9D07BE4BA7FC317D7C39482E7487F4EA6251D5AB94C"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0242-Capa1-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "76DC7760ACEC87FA9E03A4E6898BC39491DCA8209B2C4AB5D8505A6788B7EABC"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0242-R1-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "D2BE61486639BF4C189106BB10D3D6B09F9DE899D0DAEBDB16BF964CD2C425A9"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "BE59CEC8564443242A2DB38CF2B90E3B08AA5F1B5708D60C89555EB57C0A9391"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.1-PS51.ps1",
+                        "sha256":  "321EC4A36FA3D99362E26A4102F579DDEB253AE316FC53054A1262BD33EFEF2C"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.2-PS51.ps1",
+                        "sha256":  "E06119CDC032B814C6D540641D57B0EB92CF7792FFDF4D47619F39853160B190"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.3-PS51.ps1",
+                        "sha256":  "77BE4282CEC9C1FD70B5DD8958E5B3CD74C0F24E22E86378DE6FEEBFB068B770"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.4-PS51.ps1",
+                        "sha256":  "7FC9456585BF751424AD27868FBA7E2828ED94B8A111C8557EBEB369EC93D361"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-R1-SECURITY-CERTIFY-v1.0.5-PS51.ps1",
+                        "sha256":  "A47EEB5877FCCEC3EF25C322D447AD2A3C4C2033E475E441CFDE0845471CADAA"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-R1-SECURITY-CERTIFY-v1.0.6-PS51.ps1",
+                        "sha256":  "56A420660014452F17CC421716C4B411D830DA2A59112EBB1015D3E1F715B337"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "75E12AAD2B60648168248E920839113440E76E4241026A4AD3F881123B12C649"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.1-PS51.ps1",
+                        "sha256":  "5A77ECD82A7EC2EB39FA7C8D786CD58B2E989EDD9BD688A913E7DA01E5453095"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.2-PS51.ps1",
+                        "sha256":  "B97D03D4A1188CA55912012F483D8C51D5BB7A0A09C7DCBCCE2993771E36FBF0"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa3-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "5999AEB9295370C21D1B4943CF764782C0DC14308239F4DFCA3A50F6E74F678B"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0249-Capa3-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "5B9CD0936CFBEF13901652518E980B328E15ED259C7F8C4AC2E15BB876BE6CA3"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0251-DecouplingMultifunctionReplicability-Audit-PREPARE-v1.0.0-PS51.ps1",
+                        "sha256":  "6D7F45836EA432AA2AB28ECF9053187B888D6AF727A7D0A662B6170914FA11CF"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0257-LanguageInstanceBootstrap-Factory-FINAL-v1.0.0-PS51.ps1",
+                        "sha256":  "BB3CC069B293F952DBB2B61BB977047EAC77AFC7D0407CF3F034E1EC6230E6C0"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Worktree-Institutional-Reconciliation-AUDIT-v1.0.0-PS51.ps1",
+                        "sha256":  "5835AC9C0C5FEBCB0CCD5995205C55FF2958613F9CBD166AE148A194E6B6B316"
+                    },
+                    {
+                        "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.0-PS51.ps1",
+                        "sha256":  "21328172DDDF984748C4847596B9563085F8A72510C1CA31526F5CE2079740F3"
+                    },
+                    {
+                        "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.1-PS51.ps1",
+                        "sha256":  "E615F50CAC124658DCE52F483553BBB6500D3314635A63B6BA6A20E75C2E2007"
+                    },
+                    {
+                        "path":  "SGODA-LARGEFILE-SECRET-AUDIT-113.ps1",
+                        "sha256":  "6D8D67784F28A31D710FE3786F43375EF127BD057C9186842814A1BFC12D21CD"
+                    },
+                    {
+                        "path":  "SGODA-LARGEFILE-SECRET-PREPARE-114.ps1",
+                        "sha256":  "8417A9814C26E792711B2959D93F203DA565003C53D5BF7F75F8A14D14DCDCAC"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R116.ps1",
+                        "sha256":  "395A5C83D93572633DB234ABBAD4E2F0CCCDFAB3FAF4FD0B5BCD68F71D7BAFC5"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R117.ps1",
+                        "sha256":  "9EB868C4BA054326DD9D52B08F0A5C373D7F4167D19FEA5C018F3475028EE18D"
+                    },
+                    {
+                        "path":  "SGODA-RECOVERY-110.ps1",
+                        "sha256":  "98734E8206755E6E7D029B4AC21104A7064BEDE3D911EFCF914FBB3D53E6C50D"
+                    },
+                    {
+                        "path":  "SGODA-RECOVERY-111.ps1",
+                        "sha256":  "AD4348423F7941A913628F86FE7B49E272E8EA5B0B66A5864DCEA8679C32D6DA"
+                    },
+                    {
+                        "path":  "SGODA-RECOVERY-112.ps1",
+                        "sha256":  "2AFC06DEB53C5D50A52459CE521660906F88A013CF2CA4030DE40D92CCCF0802"
+                    },
+                    {
+                        "path":  "SGODA-SYNC-115.ps1",
+                        "sha256":  "EA38641F941ABFB11BC135E3ECC1319D95AC5F7081B7886ADBD010CE04B7CF0E"
+                    },
+                    {
+                        "path":  "SPT0246-Baseline-Input.zip",
+                        "sha256":  "75DE5537E7623EDD5A76C40C1497E59207E1370B3AF1247E3DDF31F26A61328A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+                        "sha256":  "C87047D0DDD88C6A16A9CD896E3CCDC8965D8B089D2B9198CFB5F9C87D1370DF"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/institutional-disposition-ledger.json",
+                        "sha256":  "FC1E17060C4B348F06DEEC7F2611642026AAC7A1FAACDAAC257D78E2165F59C9"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/master-synchronization-recovery-prepare.json",
+                        "sha256":  "E583AC327ABAC9847E79C01371F97FDB65AE0F8942F7325EED2E251F172CF2AE"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/worktree-reconciliation-v1.0.0/worktree-reconciliation-manifest.json",
+                        "sha256":  "9D881E9ED8AA88887CD6ADA091DF0B94F7CAAD68B44869A690601EB136FCECFA"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Install-SPT021.2-v1.0.2-OneFile-PS51.ps1",
+                        "sha256":  "A5680462BF857414F49FE9EAC773618E6248980A984A19D990006A5549AE5BEB"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.5-ASCII-PS51.ps1",
+                        "sha256":  "69DABA99C3C8BDBAD095214BA745551120ED7DB8393EBE052C0F83689011C084"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-052448/canonical-components.json",
+                        "sha256":  "F36CC93C77EEC4EC39A68A21372DF40E14AC465892DE219883771D1F0D0E93D7"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-143030/canonical-components.json",
+                        "sha256":  "3C7403C4C90BB4EF31D87EFAFAF1D02E7818C0CDE8956B59719F57F1EFAE5B2D"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-144107/canonical-components.json",
+                        "sha256":  "28943F72460583A82B02118B4E35343AE7B5FE7F721D62499D885BE0906213E1"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-145852/canonical-components.json",
+                        "sha256":  "BDEBAA98EB1FDC734A924462D463769309539D6C96FDEA04B6F4A216BAA6B37A"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-151556/canonical-components.json",
+                        "sha256":  "B804DC79D0CA0556B278D5534BC9B3A285A56AE022B8AE09E17569EFB8510237"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-153055/canonical-components.json",
+                        "sha256":  "0C7AEB48B3EF43D4514C65E2EEA1643CC1500A725F5944A8B8C69AEA3CD27832"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-050420/publication-manifest.json",
+                        "sha256":  "A48673D01A315D9F5C14DE7E9130A0AF1CEAC817EB613C29B0A94F24781DECF2"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-150508/publication-manifest.json",
+                        "sha256":  "51F7D355207A783FC2B8AD85B4C6F61E9448BD0CEC9D107DCB1E71E5588FF1E9"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "sha256":  "DF73AB2F9AF250D77B21FB6111FE1E23BD0B3C7C52E830C50D51E8CBD4343367"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                        "sha256":  "7ABE4D36C668FE0A4BF3E400F8A762B48F742ACB33A958C706E5BD5758D62E8E"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.0.1-v1.0.6/publication-manifest.json",
+                        "sha256":  "51F7D355207A783FC2B8AD85B4C6F61E9448BD0CEC9D107DCB1E71E5588FF1E9"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                        "sha256":  "7ABE4D36C668FE0A4BF3E400F8A762B48F742ACB33A958C706E5BD5758D62E8E"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/manifest.json",
+                        "sha256":  "720E729A2452966B18BB89D86249EA4A02A58E673B64D4164EFE460320B98B8D"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "sha256":  "DF73AB2F9AF250D77B21FB6111FE1E23BD0B3C7C52E830C50D51E8CBD4343367"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+                        "sha256":  "0C7AEB48B3EF43D4514C65E2EEA1643CC1500A725F5944A8B8C69AEA3CD27832"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.6-ASCII-PS51.ps1",
+                        "sha256":  "71A680FD5D8C18E5C234F2B948B80F82792E6E2EF8B27EC745225A47946DEDA7"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-154554/canonical-components.json",
+                        "sha256":  "2F1B02832C5FE7441337484D8F40F0FF6B6A90BD486D82C2A7F089CDAF54E514"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "sha256":  "64A7D70478281B86C130EC04558D6056BD911B083A17A2848E9A1A67C623068A"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "sha256":  "64A7D70478281B86C130EC04558D6056BD911B083A17A2848E9A1A67C623068A"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+                        "sha256":  "2F1B02832C5FE7441337484D8F40F0FF6B6A90BD486D82C2A7F089CDAF54E514"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/final-worktree-reconciliation-ledger.json",
+                        "sha256":  "D4F9F33BF627253831F583D89DA6ED2D487B58487F649942349A32D0FC0B1C22"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/master-synchronization-recovery-assessment.json",
+                        "sha256":  "D3B97BF62A024FBE353A43A5A8A6BC52C627453CBE69FDC3472030A2D8234175"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/security-publication-assessment.json",
+                        "sha256":  "0FB4BECB42B293C855BB7299BAAE5C52D2CD97578341BEEB61C63D279CF8546B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/master-synchronization-recovery-sha256-manifest.json",
+                        "sha256":  "6FD9CAF8CA0D611E3D94A89112C4B717696F92994AA465079D702DE84EB38DB7"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/implementation-evidence.json",
+                        "sha256":  "D081584156234463461E8D02A0A811A2986AC20F942FF44D81FA6CDF908BB0D2"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/commits-tags-releases-recertification.json",
+                        "sha256":  "7EAC61505AC632758DBC439FBEB5B2DBA8F5C400A4B184CBB253B62F73B8DE58"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/sgd002-runtime-state-recertification.json",
+                        "sha256":  "1D3C8525746E79E8A729894C92FB01C8FA839C146595E7F926F0ECED9C160468"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/largefile-reconstructable-manifest.json",
+                        "sha256":  "409F1CDC3C11DE44F13D798EAF9DEE2E190985D854A0411B6C2C57C32F12CE55"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/01-staging-copy-attempt-1.log.gz",
+                        "sha256":  "74154A9B6A8CEA3CF129B88BEF7FCFB4AF93375127BED75F1D2F83B59A6766D3"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/02-staging-copy-attempt-2.log.gz",
+                        "sha256":  "632053C1B26B0C61B2CCD1975951FD41A1E7D16BF68F7107B7B02DC2E4FFDADD"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/03-institutional-inventory-pmo.json.gz",
+                        "sha256":  "388888FF39D28BD20EFE53F9023925A9BC7DA2D2DB29A6F8CCFF333098A07C02"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/04-institutional-inventory-release.json.gz",
+                        "sha256":  "9AB5F2FD794D032CD242227B5DD26381F2FC07D18E8D219D153E271A68B49E24"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Sincronizacion-Institucional-Maestra-RECOVERY-v1.1.7.md",
+                        "sha256":  "77FBF2B8F530CDBC30A0DCC60C9F1B87376C482C4ABF8CBB99FDBD811DD60D27"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-MASTER-SYNC-RECOVERY-v1.1.7.md",
+                        "sha256":  "00376574836B152F1874C87954B5232939674D82B38EA998F8FBE640394B8C24"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R118.ps1",
+                        "sha256":  "CA8843BB9AE43B1102B16669F86DBE7F433C953DDE3215D5B6F21D8C5ECC1F07"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119.ps1",
+                        "sha256":  "5033A83B6A608E867605F42C94ABD2788E7461AABDEE1CF081931A34D9344EBC"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119-FINAL.ps1",
+                        "sha256":  "81ECFA30F3B736DB5B50C9B05BF039E09B298345E866770034023E617C890D82"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.8/transaction-recovery-assessment.json",
+                        "sha256":  "97AA889D774C52953B357500AF8DB0469CA6D316FEDFEE878CF599BB2488BFB3"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.8/exact-publication-stage-manifest.json",
+                        "sha256":  "3B96EB2604CC7037F45A9F2F4DCA9E9DE8975A87E9FC1A44147BF6F582DD994F"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.8/transaction-recovery-sha256-manifest.json",
+                        "sha256":  "E48C675D9C9A57593F42375D28A1A7A292C181FC39F55BC417F236C53FE22D25"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.8/implementation-evidence.json",
+                        "sha256":  "549A95F0E1CE39B4A517CDACE4532E925DCAD0BE8513785447B287C2A67E666E"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-MASTER-SYNC-TRANSACTION-RECOVERY-v1.1.8.md",
+                        "sha256":  "019684830D384B4B6E675D80BF8B864BBC8043ABFF902CE2F247C5CE0A0F57AE"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Transaction-Recovery-R118-v1.1.8.md",
+                        "sha256":  "DFB00FF379246B0F698361F07299C0C945068DA10232F156CDE1EDC155353F44"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119-FINAL-v2.ps1",
+                        "sha256":  "62865DCAEC5FDF08F1A711651894FF378711EF50AC81F0109C94BC8BD4C8AD6E"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119-FINAL-v3.ps1",
+                        "sha256":  "210E1C12DF03BD5E04375885614A239E2552DA6CBC89B8C1026BFD5306CDA28B"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119-FINAL-v4.ps1",
+                        "sha256":  "BB969C853EC9BFCA6B9C3E2C2F99DA97B1B0631798AED33A80943E603444238F"
+                    },
+                    {
+                        "path":  "SGODA-EOL-PREFLIGHT-R119.ps1",
+                        "sha256":  "C9CFF5BCCD4FA11C0E4C8D32B14F20A7A3CF00668ABF47EC60FA859494647BC4"
+                    },
+                    {
+                        "path":  "SGODA-EOL-RECOVERY-R119-v2.ps1",
+                        "sha256":  "A3AE815ADA6039854266FEB7552BB0A4AA94159C42D7BB651480A99DD622240D"
+                    },
+                    {
+                        "path":  "SGODA-EOL-RECOVERY-R119.ps1",
+                        "sha256":  "E2A826DF02D362DAE5D63CCE7EFD8538AA5F81B0218FEE90A2585AF422EF74C6"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.9/r119-eol-conflicts.json",
+                        "sha256":  "F4973E4E3EEA76F335758E3DD8557C9AA39AFB6349821CF453A355AEE7D8AAD2"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.9/eol-recovery-v2/r119-eol-normalization-manifest-v2.json",
+                        "sha256":  "B3E747E4D3E0D2B73E7E19684B13CDE4BC68A66E0F21E3F702814049971091F7"
+                    },
+                    {
+                        "path":  "Install-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1",
+                        "sha256":  "C7E72B32FD3AEC75BD03F99924C901E1A24DF8C74CD3B6E10CEBBF0B86F3C095"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Untracked-Reconciliation-v2.0.2-PS51.ps1",
+                        "sha256":  "E265CB3429E799ADE061CC342D2A43F46C6E51E2C2F594B20A7E62DA92A1552B"
+                    },
+                    {
+                        "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.2-PS51.ps1",
+                        "sha256":  "D4252365706B2F35BB168213ACFE6B87F5C4F658F1F6C8DCC1B26E694F81D5D9"
+                    },
+                    {
+                        "path":  "TRANSFER-Invoke-SGODA-SPT0233-Capa2-FINAL-PS51.ps1",
+                        "sha256":  "140DFC56EF9D34F25ED156A15005E6CF388983338BF2F1A4639E80D12F83BD8F"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.9/exact-publication-stage-manifest.json",
+                        "sha256":  "187DA05B806E28BC0FA2D98BFDD72E0F2FC0224A896C3156728FABD703EB4937"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.9/implementation-evidence.json",
+                        "sha256":  "CF774C0B92A59FEFBF64072A4DE62D5C056D7F51FD774B5661F86A087B749A3F"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.9/transaction-recovery-assessment.json",
+                        "sha256":  "2EDB72591C703FC2EE33D2626B23B6DF09F67E0C7AB0285007A944B9C30A6172"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-TRANSACTION-RECOVERY-v1.1.9/transaction-recovery-sha256-manifest.json",
+                        "sha256":  "4D295B12EA8984FFDC1C604101C76F2CE37966515D70465CDAC70CBA424CCC8D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+                        "sha256":  "3233A0F2F907570FB945FD54146D6FD2DA94E3DDC4B228524E7E60AAD040B874"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-MASTER-SYNC-TRANSACTION-RECOVERY-v1.1.9.md",
+                        "sha256":  "B2800982775CBF1E6DACE6C418A62327E15398DDC99B121CBC4DC9F40B160E0D"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119-PUBLISH-v2.ps1",
+                        "sha256":  "4693EBF6DC249674499185A9128DE45FA89F48F2E9BB9E7FEFD65AA9523C7CDD"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119-PUBLISH.ps1",
+                        "sha256":  "1BEDD833876583B136E344CF9C877C705F34D37D760BB1F31017147F0D2916F2"
+                    },
+                    {
+                        "path":  "SGODA-MSYNC-R119-PUBLISH-v3.ps1",
+                        "sha256":  "7DA3A62CE77499AF535592D50001F8017B283C58B278903782800AB339BB51E7"
+                    },
+                    {
+                        "path":  "artifacts/runtime/sgd002-auto/state.json",
+                        "sha256":  "2037EDCA1DD34041FC4EB869A45F483ECBA8E38FB01294C541F5BBCEF8E917EB"
+                    }
+                ]
+}

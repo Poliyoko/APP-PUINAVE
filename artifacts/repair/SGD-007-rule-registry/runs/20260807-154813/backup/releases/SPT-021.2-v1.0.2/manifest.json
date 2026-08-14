@@ -1,0 +1,19 @@
+{
+    "component":  "SPT-021.2",
+    "version":  "1.0.2",
+    "status":  "CLOSED",
+    "rules_discovered":  11,
+    "potential_duplicates":  700,
+    "tests_passed":  808,
+    "technical_errors":  0,
+    "documents":  [
+                      "docs/00_Estado_Maestro/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                      "docs/00_Estado_Maestro/SGD-003-Matriz-Institucional-Reutilizacion-v1.0.0.md",
+                      "docs/00_Estado_Maestro/SGD-004-Matriz-Institucional-Duplicidades-v1.0.0.md",
+                      "docs/00_Estado_Maestro/SGD-005-Dependencias-Reglas-Componentes-v1.0.0.md",
+                      "docs/00_Estado_Maestro/SGD-006-Cadena-Oficial-Publicacion-Sincronizacion-v1.0.0.md",
+                      "docs/00_Estado_Maestro/RMI-021.2-Registro-Maestro-Institucional-Implementaciones-v1.0.0.md"
+                  ],
+    "evidence":  "artifacts/development/SPT-021.2-v1.0.2/runs/20260807-050122/implementation-evidence.json",
+    "act":  "docs/06_Tecnologia/SPT-021.2/ACT-021.2-Cierre-Institutional-Rule-Discovery-Reuse.md"
+}

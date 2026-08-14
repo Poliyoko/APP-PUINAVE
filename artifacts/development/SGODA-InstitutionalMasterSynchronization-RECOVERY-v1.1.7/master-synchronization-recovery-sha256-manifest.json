@@ -1,0 +1,58 @@
+{
+    "algorithm":  "SHA-256",
+    "authoritative_input_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/final-worktree-reconciliation-ledger.json",
+                        "sha256":  "D4F9F33BF627253831F583D89DA6ED2D487B58487F649942349A32D0FC0B1C22"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/master-synchronization-recovery-assessment.json",
+                        "sha256":  "D3B97BF62A024FBE353A43A5A8A6BC52C627453CBE69FDC3472030A2D8234175"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/commits-tags-releases-recertification.json",
+                        "sha256":  "7EAC61505AC632758DBC439FBEB5B2DBA8F5C400A4B184CBB253B62F73B8DE58"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/sgd002-runtime-state-recertification.json",
+                        "sha256":  "1D3C8525746E79E8A729894C92FB01C8FA839C146595E7F926F0ECED9C160468"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/security-publication-assessment.json",
+                        "sha256":  "0FB4BECB42B293C855BB7299BAAE5C52D2CD97578341BEEB61C63D279CF8546B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-RECOVERY-v1.1.7/implementation-evidence.json",
+                        "sha256":  "D081584156234463461E8D02A0A811A2986AC20F942FF44D81FA6CDF908BB0D2"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Sincronizacion-Institucional-Maestra-RECOVERY-v1.1.7.md",
+                        "sha256":  "77FBF2B8F530CDBC30A0DCC60C9F1B87376C482C4ABF8CBB99FDBD811DD60D27"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-MASTER-SYNC-RECOVERY-v1.1.7.md",
+                        "sha256":  "00376574836B152F1874C87954B5232939674D82B38EA998F8FBE640394B8C24"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/largefile-reconstructable-manifest.json",
+                        "sha256":  "409F1CDC3C11DE44F13D798EAF9DEE2E190985D854A0411B6C2C57C32F12CE55"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/01-staging-copy-attempt-1.log.gz",
+                        "sha256":  "74154A9B6A8CEA3CF129B88BEF7FCFB4AF93375127BED75F1D2F83B59A6766D3"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/02-staging-copy-attempt-2.log.gz",
+                        "sha256":  "632053C1B26B0C61B2CCD1975951FD41A1E7D16BF68F7107B7B02DC2E4FFDADD"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/03-institutional-inventory-pmo.json.gz",
+                        "sha256":  "388888FF39D28BD20EFE53F9023925A9BC7DA2D2DB29A6F8CCFF333098A07C02"
+                    },
+                    {
+                        "path":  "artifacts/institutional/master-synchronization/largefile-preservation-v1.1.7/04-institutional-inventory-release.json.gz",
+                        "sha256":  "9AB5F2FD794D032CD242227B5DD26381F2FC07D18E8D219D153E271A68B49E24"
+                    }
+                ]
+}

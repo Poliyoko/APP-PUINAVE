@@ -1,0 +1,763 @@
+{
+    "schema_version":  "1.0.0",
+    "generated_utc":  "2026-08-14T07:32:58.7228938Z",
+    "authoritative_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "local_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "remote_head":  "4d463840b2bae0bbc6f18ea869f37e792b69d450",
+    "ahead":  0,
+    "behind":  0,
+    "spt025_status":  "INSTITUTIONALLY_CLOSED",
+    "spt025_reopened":  false,
+    "destructive_cleanup_performed":  false,
+    "records":  [
+                    {
+                        "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "7F2198AFFAA601B37066B60755614B7B7CA014943B3B9B5800171D7196FC639B",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.1-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "F66A8C545813FD69E69FBA14ACE126A927EC491B3806DB3F5DAE7FDCEF70B432",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Certify-SPT023.3-Capa1-GreenBanner-v1.0.2-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "8587417D4303C8B0FB9B1A38630E1DF913709843050DB6598BDFEA2E1848EAFA",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Install-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1",
+                        "category":  "EXACT_TRACKED_DUPLICATE",
+                        "disposition":  "ALREADY_REPRESENTED_IN_REPOSITORY",
+                        "sha256":  "7B23BE05B269C4984C2301B130B077D7252C38AE0F119CFFB3007BB00D793BFF",
+                        "tracked_equivalent_count":  1,
+                        "tracked_equivalents":  [
+                                                    "tools/institutional/Install-SPT023.3-Capa1-v1.0.1-OneFile-PS51.ps1"
+                                                ],
+                        "reason":  "SHA256 identical to tracked repository content"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Exact-Institutional-Reconciliation-Set-PREPARE-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "50692E6AE0A6049583D1B64F51215B2F360DB61908C5D763D4FC6F0DF1F9DEB4",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-InstitutionalMasterSynchronization-SPT025Reconciliation-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "FAILED_SUPERSEDED_SYNC_SCRIPT",
+                        "disposition":  "PRESERVE_AS_FAILED_EXECUTION_EVIDENCE",
+                        "sha256":  "C9D7C79BC7C347D8BABDD3F965CD78FC0ED38FE56E94E4B73642657677557824",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Superseded parser-failed synchronization script"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "2BF90272D8F0AC363FD3E54F0D65F5CD7596CB6C3A652AFA88594CF9E7FDE51B",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.1-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "A0FE126C59C16001547E5CFBAFDAF2564C7EA6B01E80AC83EA91042680AEAA3E",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-FINAL-v1.0.2-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "E85E8B187E019B6FAD8131371391916DAC908D3E5FA6789F6BBCAAA291DE2979",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Repository-Reconciliation-R1-LARGEFILE-RECOVERY-v1.0.4-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "A24CCB2CDE6BEA0E9FE0E7E343756A2A2320FDBEA831F3766EEE05F9A0527BDB",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0233-Capa2-FINAL-PS51 (2).ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "F9710FEFFB243BD803AC2D3590143BE7170B1D62D3D3F996F43EFF9C794933C6",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT024-CLOSE1-PISICoverageAudit-PREPARE-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "61031EEA330F02F5481A3490F23270EFD311864BA51AC66C7ED12A2EEC8C7879",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT024-CLOSE1-PISICoverageAudit-RECOVERY-v1.0.1-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "8301EEBBF6AE8871C332CF553981C9A445345071B6DEF585E4729F3993EE9AB5",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "501EEE0C5ACB7F71EE13FBB2618BC305B019F592536E75FA9452D9048260D697",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.1-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "78CF0586219F7435CE5D2698FDE74453051DBC7E320D64AB2D6926273776035D",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa2-FINAL-v1.0.2-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "9E1B5C15EC591E8D8F21873F742899A72EAD1B6F871602A3701A4772C813CA2C",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT02411-Capa3-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "0A13BC6CC2E9A0C5B5ADB87D9173A1F1FC4F6C5B576E018791A754DB71120C53",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0242-Capa1-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "1557AFAF878E6D76EBD14AE6C6635765F93E96EE9A7C94411AA40BE99E603799",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0242-R1-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "F888D0117378E6DBB2D839658E0574A69B4545C89B3C4741BB61A793D3C02F70",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "8A9B1598AF246AEC5CD20A884AFC2E1F158095A8622F9908CBD9D42010FDEFF1",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.1-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "F1A78380CA572D09DBFF976C7DF5DD9CA2143F66D44FBD96F570A25D0CD5C9B6",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.2-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "D106653CF70CC88F1E51D262F59CF55D1C79F6A07DE60C2AC7FFEB259891EFD4",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.3-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "6ADC2B8E1B9668D2F91913A68B5C29BB93E582B5FCF26AC496205CBE94ABB4AD",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-Capa1-FINAL-v1.0.4-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "D0FC361BA53F321594361C204119ABF0EA9EBB63049D968F20DFCFC2EE44150D",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-R1-SECURITY-CERTIFY-v1.0.5-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "7AAC86208B917272E8713924ECCFD52816419EFD5129A3388517F4541A46BEB5",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0246-R1-SECURITY-CERTIFY-v1.0.6-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "6AE803E791018D2F86F4A80BFC347BEDA7ED06851FFE29AC91990DA1BCBC45E7",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "7C7454CF3CAAD343F52A742D284FB2CE4AC90F98BEF8C536CEB399D69E6AEC51",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.1-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "E1BEBDA917F1DBA34BB75910136CB78F6CE18E89AB98D8CE731969618E4C9FD1",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa1-FINAL-v1.0.2-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "F233E1A5FF78C3E9959829059B66B7BF303FB7EAEE017DAAACB326B2E8ACC170",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0247-Capa3-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "B296D9A9DF368E1D6B95350D68C58908C11A392110595AEC7681B1D48CA48B40",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0249-Capa3-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "1B6EE750087AB940A986DF55845175B75EAB231926C64381A62BC3DD98843732",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0251-DecouplingMultifunctionReplicability-Audit-PREPARE-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "CF7D1A39CA9E3F988BA47934DA962BE7CA08C9EDD804BA489E5271B253E05053",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-SPT0257-LanguageInstanceBootstrap-Factory-FINAL-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "CDE35C7A2A9429B5E1EFEE0AB331B38EE92ECE91A0101B6D5CBBFFA332A7FD5F",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Untracked-Reconciliation-v2.0.2-PS51.ps1",
+                        "category":  "EXACT_TRACKED_DUPLICATE",
+                        "disposition":  "ALREADY_REPRESENTED_IN_REPOSITORY",
+                        "sha256":  "DE6FE59C699C227C0B39A144D97F3A79BDA58B12F97EEB2E461D0DF134460AA6",
+                        "tracked_equivalent_count":  1,
+                        "tracked_equivalents":  [
+                                                    "tools/institutional/Invoke-SGODA-Untracked-Reconciliation-v2.0.2-PS51.ps1"
+                                                ],
+                        "reason":  "SHA256 identical to tracked repository content"
+                    },
+                    {
+                        "path":  "Invoke-SGODA-Worktree-Institutional-Reconciliation-AUDIT-v1.0.0-PS51.ps1",
+                        "category":  "CURRENT_RECONCILIATION_TOOL",
+                        "disposition":  "INCLUDE_IN_RECONCILIATION_PACKAGE",
+                        "sha256":  "423DD272190037BFDB845EB315EB682C4DF181D05BFEAF60D5AAA1E9DCF60782",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Generated institutional audit tool for current synchronization"
+                    },
+                    {
+                        "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.0-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "B2E72BED44127E24FC7E4644EDA15BE32BB7903F8A58FE16A6577FB04124BC93",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.1-PS51.ps1",
+                        "category":  "HISTORICAL_SCRIPT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_EXECUTION_HISTORY",
+                        "sha256":  "CFAAB19960057E681D45953E1C2CAB20D5B3E5DB171AFD94ABA32D687F66F391",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical PowerShell execution asset"
+                    },
+                    {
+                        "path":  "Prepare-SPT023-Authoritative-Continuation-v1.0.2-PS51.ps1",
+                        "category":  "EXACT_TRACKED_DUPLICATE",
+                        "disposition":  "ALREADY_REPRESENTED_IN_REPOSITORY",
+                        "sha256":  "BC6000D71FD7AAE1BCAE417517BE1F1BD54FFFCC73BAA599FD7CF38E4858E522",
+                        "tracked_equivalent_count":  1,
+                        "tracked_equivalents":  [
+                                                    "tools/institutional/Prepare-SPT023-Authoritative-Continuation-v1.0.2-PS51.ps1"
+                                                ],
+                        "reason":  "SHA256 identical to tracked repository content"
+                    },
+                    {
+                        "path":  "SPT0246-Baseline-Input.zip",
+                        "category":  "ARCHIVE_INPUT_UNIQUE",
+                        "disposition":  "PRESERVE_AS_SOURCE_EVIDENCE",
+                        "sha256":  "75DE5537E7623EDD5A76C40C1497E59207E1370B3AF1247E3DDF31F26A61328A",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical/source archive"
+                    },
+                    {
+                        "path":  "TRANSFER-Invoke-SGODA-SPT0233-Capa2-FINAL-PS51.ps1",
+                        "category":  "EXACT_TRACKED_DUPLICATE",
+                        "disposition":  "ALREADY_REPRESENTED_IN_REPOSITORY",
+                        "sha256":  "6515569ABE1E27AB7EE28D15134132CF0B6E2EA59791856B4851A00347AB2070",
+                        "tracked_equivalent_count":  1,
+                        "tracked_equivalents":  [
+                                                    "Invoke-SGODA-SPT0233-Capa2-FINAL-PS51.ps1"
+                                                ],
+                        "reason":  "SHA256 identical to tracked repository content"
+                    },
+                    {
+                        "path":  "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-1.log",
+                        "category":  "RUNTIME_LOG",
+                        "disposition":  "PRESERVE_PENDING_RUNTIME_POLICY",
+                        "sha256":  "B2DC04FBECCB99876A1402A4B0A079066A4722FF0A5BC6BA3BC3772F65A35769",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Operational runtime log"
+                    },
+                    {
+                        "path":  "artifacts/consolidation/PCI-002-v1.2.1/robocopy/staging-copy-attempt-2.log",
+                        "category":  "RUNTIME_LOG",
+                        "disposition":  "PRESERVE_PENDING_RUNTIME_POLICY",
+                        "sha256":  "0B0BE1A4FB45BE3DEFB10DE9516A9B7BD18B24B60AF63CEB1CABFE12C2E12AAA",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Operational runtime log"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+                        "category":  "EXACT_TRACKED_DUPLICATE",
+                        "disposition":  "ALREADY_REPRESENTED_IN_REPOSITORY",
+                        "sha256":  "58ACD91EADB9B0127D4F0E7EF0B256C1D1015F1046DA268EBA46B0B23E109A1E",
+                        "tracked_equivalent_count":  1,
+                        "tracked_equivalents":  [
+                                                    "releases/SPT-019.0-v1.1.0/SGD-000-Estado-Maestro-Institucional-v1.0.0.md"
+                                                ],
+                        "reason":  "SHA256 identical to tracked repository content"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-020.9-v1.0.0/runs/20260807-021414/backup/docs/08_Entregables/Matriz_Maestra_Seguimiento_SGODA-PUINAVE.md",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "C87047D0DDD88C6A16A9CD896E3CCDC8965D8B089D2B9198CFB5F9C87D1370DF",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/pmo/SPT-019.0-v1.1.0/runs/20260805-071813/institutional-inventory.json",
+                        "category":  "ARTIFACT_UNIQUE",
+                        "disposition":  "INCLUDE_AS_INSTITUTIONAL_EVIDENCE",
+                        "sha256":  "286795A4702AB8A0ADBA3A15B6F9EE0964EDD97FA6B29B998715FB0753206D0D",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique institutional artifact"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Install-SPT021.2-v1.0.2-OneFile-PS51.ps1",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "A5680462BF857414F49FE9EAC773618E6248980A984A19D990006A5549AE5BEB",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.5-ASCII-PS51.ps1",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "87FDB612019706167B9A6E4711F7143F90E59EF5FAF874E78A63EB303AFC5A91",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-052448/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "0332E99732BD0E07C086BEDCE348E5EF054756BCB2D5108A43410CF21D4F15C8",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-143030/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "AE057B33CE8C341DD0DC2661E92533DB5FD5A9D37A434A273FEF391186939246",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-144107/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "8C90A385998C84707CBA7386FC9AE1D25268D7F3B26635FFF5024E9C550AE564",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-145852/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "901809972DB808EBF1EDD0B4FE0EA4129057FDFB8BC3757DE99F94FB4BC4EB61",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-151556/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "8CFE791E81093A599BEBEF9A53F6D92178A730B5B1BEF57C94E638591E48302E",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-153055/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "0820347618B4365ACD91CCB31FAE3790F24B049A005038CA31A577056233517B",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-050420/publication-manifest.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "BF0CAC344F8520E3B4915B051ED7B0780463F2E9A1056410299FFEBCFCDAD962",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/artifacts/publication/SPT-021.0.1-v1.0.6/runs/20260807-150508/publication-manifest.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "A88C5A4FE6D17944D7EAEC3A293A452E508A0525576C761505DF1C4A6AD02820",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "64633E47F65029850057E2D1D792D8215EA2A630F4E4B31F83F9B16F1CA322C5",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/docs/00_Estado_Maestro/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "1E657C5757D4888625668F403FEE15A82908E9C757F4C2DE888CBD5D0EAB88E0",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.0.1-v1.0.6/publication-manifest.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "A88C5A4FE6D17944D7EAEC3A293A452E508A0525576C761505DF1C4A6AD02820",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/SGD-002-Registro-Maestro-Reglas-Institucionales-v1.0.0.md",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "1E657C5757D4888625668F403FEE15A82908E9C757F4C2DE888CBD5D0EAB88E0",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.2-v1.0.2/manifest.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "49C302F5B554A425BB5471B39D85F3BB1B25B06B1A8EC0EBCC646E63E964C8A3",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "64633E47F65029850057E2D1D792D8215EA2A630F4E4B31F83F9B16F1CA322C5",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-154813/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "0820347618B4365ACD91CCB31FAE3790F24B049A005038CA31A577056233517B",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/Repair-SGD007-Rule-Registry-Nomenclature-v1.0.6-ASCII-PS51.ps1",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "5FB4ACB61005E4EDE2583A4B2FC256152262A31A2C37CF2F15F0F14CD7F3E458",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/artifacts/development/SPT-021.3-v1.0.0/runs/20260807-154554/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "6CAE5E2FAA925696CABB7A3C20C156D05428EF6AE84667B188ABD78A852CA828",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "C9B236F1C3F176787DAE1DBCF03834E03B5BA5A2AAE5DDC12294D9CE4FC9D90E",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "C9B236F1C3F176787DAE1DBCF03834E03B5BA5A2AAE5DDC12294D9CE4FC9D90E",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "artifacts/repair/SGD-007-rule-registry/runs/20260807-155759/backup/releases/SPT-021.3-v1.0.0/canonical-components.json",
+                        "category":  "HISTORICAL_BACKUP_UNIQUE",
+                        "disposition":  "PRESERVE_AS_HISTORICAL_EVIDENCE",
+                        "sha256":  "6CAE5E2FAA925696CABB7A3C20C156D05428EF6AE84667B188ABD78A852CA828",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique historical backup not represented by identical tracked content"
+                    },
+                    {
+                        "path":  "releases/SPT-019.0-v1.1.0/institutional-inventory.json",
+                        "category":  "RELEASE_EVIDENCE_UNIQUE",
+                        "disposition":  "INCLUDE_AS_RELEASE_EVIDENCE",
+                        "sha256":  "924AAF294B9FCBC634778711116D6DCF449E7B512F41D1015EFB74BA007F99DC",
+                        "tracked_equivalent_count":  0,
+                        "tracked_equivalents":  [
+
+                                                ],
+                        "reason":  "Unique release evidence"
+                    }
+                ]
+}
