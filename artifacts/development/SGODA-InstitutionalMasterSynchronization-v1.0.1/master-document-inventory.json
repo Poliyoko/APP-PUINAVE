@@ -1,0 +1,44 @@
+[
+    {
+        "path":  "docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+        "tracked":  true,
+        "exists":  true,
+        "updated":  true,
+        "sha256":  "FF1580CBA22722F4B0F3D282F77CC7F1DBB344DACAD1EEA2F45251887C696CE2"
+    },
+    {
+        "path":  "docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+        "tracked":  true,
+        "exists":  true,
+        "updated":  true,
+        "sha256":  "18B856F7083E4D0C4419EC1AD24E1A92AF9704B17C07ADE1D8B7CE661F97A21F"
+    },
+    {
+        "path":  "docs/00_Estado_Maestro/RMI-021.2-Registro-Maestro-Institucional-Implementaciones-v1.0.0.md",
+        "tracked":  true,
+        "exists":  true,
+        "updated":  true,
+        "sha256":  "D82E18B159A358CCF03B21EE5CE9D2570B0160EB3684C9941D385C5D718FC362"
+    },
+    {
+        "path":  "docs/00_INDICE_MAESTRO.md",
+        "tracked":  true,
+        "exists":  true,
+        "updated":  true,
+        "sha256":  "12A316D648A514A9438CD48698C45D4449F1E15CE5930818A46F89C5E20D374F"
+    },
+    {
+        "path":  "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+        "tracked":  true,
+        "exists":  true,
+        "updated":  true,
+        "sha256":  "9790897CE662AADFDB60097EA23354038020527AB0364A8B14D836A52C632E41"
+    },
+    {
+        "path":  "docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md",
+        "tracked":  true,
+        "exists":  true,
+        "updated":  true,
+        "sha256":  "E355FF53E0005114F67A8FA7D69D9593742EF45914235B5108C4DDF3B886AE7E"
+    }
+]

@@ -200,3 +200,22 @@ Este índice debe regenerarse o validarse cada vez que un incremento sea publica
 _Generado: 2026-08-04T05:27:08.619967+00:00_
 
 <!-- PCI-001.2:END MANAGED COMPONENT INDEX -->
+
+<!-- SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION:v1.0.1:BEGIN -->
+## Sincronizacion Institucional Maestra - v1.0.1
+
+- Linea base fuente: `e2deea6e76657d281dbdbec6db338d12b261d585`
+- SPT-025: **CERRADO INSTITUCIONALMENTE**
+- Cobertura SPT-025: **16/16**
+- Recertificacion final SPT-025: **16/16**
+- Pruebas institucionales de sincronizacion: **2409 PASS**
+- Modelo replicable: **APROBADO**
+- SGODA Core: **COMPARTIDO / NO DUPLICADO**
+- Plataforma linguistica: **una lengua nativa principal por instancia**
+- Idiomas auxiliares: **0..N configurables**
+- Kurripaco: **referencia de ejemplo; no instancia real**
+- Plataforma nueva desplegada: **NO**
+- Cambio de produccion: **NO**
+- Repositorio fuente al inicio: `LOCAL_HEAD = REMOTE_HEAD = e2deea6e76657d281dbdbec6db338d12b261d585`
+Indice actualizado para referenciar el programa SPT-025 cerrado, su acta, ledger, manifiesto y matriz maestra de trazabilidad.
+<!-- SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION:v1.0.1:END -->

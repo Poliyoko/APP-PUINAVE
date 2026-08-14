@@ -1,0 +1,13 @@
+{
+    "release":  "SGODA-INSTITUTIONAL-MASTER-SYNC-v1.0.1",
+    "type":  "INSTITUTIONAL_MASTER_SYNCHRONIZATION",
+    "source_baseline":  "e2deea6e76657d281dbdbec6db338d12b261d585",
+    "spt025":  "INSTITUTIONALLY_CLOSED",
+    "spt025_coverage":  "16/16",
+    "master_sync_gate":  "PASS",
+    "tag_inventory_reconciled":  true,
+    "existing_tag_count":  39,
+    "release_inventory_reconciled":  true,
+    "existing_release_root_count":  86,
+    "repository_branch":  "feature/SPT-001A-rlb-schema-foundation"
+}

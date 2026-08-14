@@ -1,0 +1,12 @@
+{
+    "source_baseline":  "e2deea6e76657d281dbdbec6db338d12b261d585",
+    "spt025_close2_gate":  "PASS",
+    "targeted_tests":  "PASS",
+    "institutional_suite":  "PASS",
+    "institutional_tests_passed":  2409,
+    "compileall":  "PASS",
+    "master_documents_reconciled":  true,
+    "closed_components_preserved":  true,
+    "production_change":  false,
+    "real_new_platform_deployed":  false
+}

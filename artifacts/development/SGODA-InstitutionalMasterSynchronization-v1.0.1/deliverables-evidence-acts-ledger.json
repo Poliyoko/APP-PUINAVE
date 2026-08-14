@@ -1,0 +1,11 @@
+{
+    "spt025_tracked_surfaces":  187,
+    "documentation_surfaces":  20,
+    "executable_surfaces":  0,
+    "evidence_surfaces":  167,
+    "acta_surfaces":  9,
+    "close_act":  "docs/06_Tecnologia/SPT-025/CLOSE/ACT-SPT025-Cierre-Institucional.md",
+    "close_ledger":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-master-closure-ledger.json",
+    "close_manifest":  "artifacts/development/SPT-025.CLOSE.2-v1.0.0/spt025-global-closure-manifest.json",
+    "traceability_document":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Matriz-Maestra-Trazabilidad-Institucional.md"
+}

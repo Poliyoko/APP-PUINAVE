@@ -1,0 +1,130 @@
+[
+    {
+        "component":  "SPT-025.1",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "f19b77c651e9c5885ba589bdc94f523bc9dc4c56",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.1",
+        "evidence_pattern":  "artifacts/development/SPT-025.1*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.2",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "d2d8226d068451537982cc8fcec5c7ace60a0735",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.2",
+        "evidence_pattern":  "artifacts/development/SPT-025.2*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.3",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "3d980dcb905b856c8f898e6dda5aed3953664cdf",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.3",
+        "evidence_pattern":  "artifacts/development/SPT-025.3*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.4",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "ebe7e82869500a7a04cafd40189b705982c5be84",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.4",
+        "evidence_pattern":  "artifacts/development/SPT-025.4*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.5",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "bc467bc133fd8bf3b9c0fedab62fffe48f0100a0",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.5",
+        "evidence_pattern":  "artifacts/development/SPT-025.5*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.6",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "be336578467f3971295338adc3b9f5ff9c78ef99",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.6",
+        "evidence_pattern":  "artifacts/development/SPT-025.6*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.7",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "1d6756e2335f5a130290c2e8ca6169f660007f9b",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.7",
+        "evidence_pattern":  "artifacts/development/SPT-025.7*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.8",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "106d4c01c783bd6c610fe5f3e344674151e9c4f0",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.8",
+        "evidence_pattern":  "artifacts/development/SPT-025.8*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.9",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "c3c83833c82e8d4310c38cde660b8d4c45be2e86",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.9",
+        "evidence_pattern":  "artifacts/development/SPT-025.9*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.10",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "12d228f423d553f12eebccfee506926975c392d1",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.10",
+        "evidence_pattern":  "artifacts/development/SPT-025.10*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.11",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "60fb409bdaa21ee5953d93b4a8ae7ecbed14d27f",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.11",
+        "evidence_pattern":  "artifacts/development/SPT-025.11*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.12",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "a9b2a24a470761b6aa046275cc6b2d0570b25fe0",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.12",
+        "evidence_pattern":  "artifacts/development/SPT-025.12*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.13",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "bfaf5615fc0352f32b53da46b44793c1decc8b4d",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.13",
+        "evidence_pattern":  "artifacts/development/SPT-025.13*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.14",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "bb7d818664e46bf7be4bc0036872bc6197fc2a2a",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.14",
+        "evidence_pattern":  "artifacts/development/SPT-025.14*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.15",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "41d4a4f3475cabb5f405bfb84677d116ac8ded53",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.15",
+        "evidence_pattern":  "artifacts/development/SPT-025.15*",
+        "preserved":  true
+    },
+    {
+        "component":  "SPT-025.16",
+        "status":  "INSTITUTIONALLY_CLOSED",
+        "commit":  "34292e34d94cf2f79844a830faafa1dde3a0a813",
+        "documentation_root":  "docs/06_Tecnologia/SPT-025/SPT-025.16",
+        "evidence_pattern":  "artifacts/development/SPT-025.16*",
+        "preserved":  true
+    }
+]

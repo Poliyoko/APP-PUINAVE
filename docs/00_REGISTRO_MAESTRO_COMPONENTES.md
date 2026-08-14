@@ -73,3 +73,22 @@
 | `SGD-114E-V2.0.0-R2.1` | Self Validation Closure | 2.0.0-R2.1 | implemented | — | `config/governance/SGD-114E-v2.0.0-R2.1-component.json` |
 | `SGD-114G-V1.0.0` | Institutional Release Management Service | 1.0.0 | implemented | — | `config/governance/SGD-114G-v1.0.0-component.json` |
 | `SGD-114G-V1.0.1` | Legacy Manifest Migration and Canonical Closure | 1.0.1 | implemented | — | `config/governance/SGD-114G-v1.0.1-component.json` |
+
+<!-- SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION:v1.0.1:BEGIN -->
+## Sincronizacion Institucional Maestra - v1.0.1
+
+- Linea base fuente: `e2deea6e76657d281dbdbec6db338d12b261d585`
+- SPT-025: **CERRADO INSTITUCIONALMENTE**
+- Cobertura SPT-025: **16/16**
+- Recertificacion final SPT-025: **16/16**
+- Pruebas institucionales de sincronizacion: **2409 PASS**
+- Modelo replicable: **APROBADO**
+- SGODA Core: **COMPARTIDO / NO DUPLICADO**
+- Plataforma linguistica: **una lengua nativa principal por instancia**
+- Idiomas auxiliares: **0..N configurables**
+- Kurripaco: **referencia de ejemplo; no instancia real**
+- Plataforma nueva desplegada: **NO**
+- Cambio de produccion: **NO**
+- Repositorio fuente al inicio: `LOCAL_HEAD = REMOTE_HEAD = e2deea6e76657d281dbdbec6db338d12b261d585`
+Registro Maestro de Componentes actualizado con SPT-025 institucionalmente cerrado y sincronizado.
+<!-- SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION:v1.0.1:END -->

@@ -1,0 +1,16 @@
+{
+    "component":  "SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION",
+    "version":  "1.0.1",
+    "source_baseline":  "e2deea6e76657d281dbdbec6db338d12b261d585",
+    "status":  "MASTER_SYNCHRONIZATION_GATE_PASS",
+    "spt025_status":  "INSTITUTIONALLY_CLOSED",
+    "spt025_coverage":  "16/16",
+    "master_documents_updated":  6,
+    "traceability_rows":  16,
+    "institutional_tests_passed":  2409,
+    "nomenclature_reconciled":  true,
+    "commits_reconciled":  true,
+    "tags_reconciled":  true,
+    "releases_reconciled":  true,
+    "all_outputs_to_repository":  true
+}

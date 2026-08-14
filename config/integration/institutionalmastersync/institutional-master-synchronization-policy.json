@@ -1,0 +1,37 @@
+{
+  "component": "SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION",
+  "version": "1.0.0",
+  "source_baseline": "e2deea6e76657d281dbdbec6db338d12b261d585",
+  "master_documents": [
+    "docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+    "docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+    "docs/00_Estado_Maestro/RMI-021.2-Registro-Maestro-Institucional-Implementaciones-v1.0.0.md",
+    "docs/00_INDICE_MAESTRO.md",
+    "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+    "docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md"
+  ],
+  "reconcile": [
+    "SGD-000",
+    "SGD-002",
+    "MASTER_INDEX",
+    "MASTER_REGISTRY",
+    "NOMENCLATURE",
+    "TRACEABILITY",
+    "DELIVERABLES",
+    "EVIDENCE",
+    "ACTS",
+    "COMMITS",
+    "TAGS",
+    "RELEASES"
+  ],
+  "preservation": {
+    "closed_components": true,
+    "destructive_cleanup": false,
+    "master_documents_are_authorized_mutable_surfaces": true
+  },
+  "repository": {
+    "push_required": true,
+    "local_remote_head_equality_required": true,
+    "all_outputs_in_repository": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "algorithm":  "SHA-256",
+    "source_baseline":  "e2deea6e76657d281dbdbec6db338d12b261d585",
+    "records":  [
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+                        "sha256":  "FF1580CBA22722F4B0F3D282F77CC7F1DBB344DACAD1EEA2F45251887C696CE2"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md",
+                        "sha256":  "18B856F7083E4D0C4419EC1AD24E1A92AF9704B17C07ADE1D8B7CE661F97A21F"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/RMI-021.2-Registro-Maestro-Institucional-Implementaciones-v1.0.0.md",
+                        "sha256":  "D82E18B159A358CCF03B21EE5CE9D2570B0160EB3684C9941D385C5D718FC362"
+                    },
+                    {
+                        "path":  "docs/00_INDICE_MAESTRO.md",
+                        "sha256":  "12A316D648A514A9438CD48698C45D4449F1E15CE5930818A46F89C5E20D374F"
+                    },
+                    {
+                        "path":  "docs/00_REGISTRO_MAESTRO_COMPONENTES.md",
+                        "sha256":  "9790897CE662AADFDB60097EA23354038020527AB0364A8B14D836A52C632E41"
+                    },
+                    {
+                        "path":  "docs/01_Gobierno/SGD-100-Norma-Institucional-Nomenclatura.md",
+                        "sha256":  "E355FF53E0005114F67A8FA7D69D9593742EF45914235B5108C4DDF3B886AE7E"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Matriz-Maestra-Trazabilidad-Institucional.md",
+                        "sha256":  "53172DCE5A4F60F7C080CC4F4CA210B7CFB1864463AEAE9F43A2CE1430C6CD23"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-v1.0.1/master-document-inventory.json",
+                        "sha256":  "145EC5DB6DEAC630CD90A81F9A4A158BFB5D39BFD874496FD17A877B874D80B3"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-v1.0.1/master-traceability-matrix.json",
+                        "sha256":  "0D8F4CA31C4B74F303ADB5A62B1694D6F0CDFB12D7D24DF33B31183397C03EB4"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-v1.0.1/deliverables-evidence-acts-ledger.json",
+                        "sha256":  "FF9556CBDEF9E12C5715F25A0AD7390C70FBDF1B8479D193B1904A7C61D05A8F"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-v1.0.1/commits-tags-releases-reconciliation.json",
+                        "sha256":  "22F2209EF02CD594FE3771D94D3DFEC9F0B7D6F5322AA29CEFFD43774E3210F3"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-v1.0.1/institutional-master-synchronization-assessment.json",
+                        "sha256":  "E8F4E4C218412271FF06BF3B8ECB16D3CF7D383E1F50F4E094A76001CDC8DDB8"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-InstitutionalMasterSynchronization-v1.0.1/implementation-evidence.json",
+                        "sha256":  "5496A0E9DD1283BB7E97839B705CA448D49E6ADC0ADE39DC41F96256EF2415D3"
+                    },
+                    {
+                        "path":  "releases/SGODA-INSTITUTIONAL-MASTER-SYNC-v1.0.1/manifest.json",
+                        "sha256":  "FE4798984A04EF1606A1E6A188044BB996B7D5927CDEEEBA7885A6B554208433"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Sincronizacion-Institucional-Maestra-v1.0.1.md",
+                        "sha256":  "7CCF2A18CB33BB75666AA9A1A81522AEBFF08FEC7561049F14B55C36A0FBBDF0"
+                    },
+                    {
+                        "path":  "config/integration/institutionalmastersync/institutional-master-synchronization-policy.json",
+                        "sha256":  "ED36E3A1A228D80AAC0296EA6EABA397FB9A2019FD9A0CD7D1F120EE92F62EB8"
+                    }
+                ]
+}
