@@ -1,0 +1,14 @@
+{
+    "component":  "SPT-025.14",
+    "version":  "1.0.0",
+    "baseline":  "bfaf5615fc0352f32b53da46b44793c1decc8b4d",
+    "status":  "PASS",
+    "native_language":  "qaa",
+    "support_languages":  [
+                              "es",
+                              "en",
+                              "it",
+                              "pt"
+                          ],
+    "sha256":  "7602f191dccfc632e743520130e684f33fb5d235dec7920d69ca77ccd5776abd"
+}

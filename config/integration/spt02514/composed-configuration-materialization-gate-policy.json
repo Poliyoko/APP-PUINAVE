@@ -1,0 +1,32 @@
+{
+  "component": "SPT-025.14",
+  "version": "1.0.0",
+  "authoritative_baseline": "bfaf5615fc0352f32b53da46b44793c1decc8b4d",
+  "validation": {
+    "composed_configuration": true,
+    "instance_contract": true,
+    "sha256_integrity": true,
+    "declarative_materialization_gate": true
+  },
+  "architecture": {
+    "one_native_language_per_platform": true,
+    "support_languages": "0..N_CONFIGURABLE",
+    "hard_coded_support_languages": false,
+    "shared_core_reference": true,
+    "core_duplicated": false
+  },
+  "examples": {
+    "real_instance": false,
+    "kurripaco_real_instance": false
+  },
+  "deployment": {
+    "auto_deploy": false,
+    "production_change": false,
+    "real_platform_created": false
+  },
+  "repository": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

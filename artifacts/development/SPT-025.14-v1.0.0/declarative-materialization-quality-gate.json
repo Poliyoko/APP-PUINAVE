@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-025.14",
+    "version":  "1.0.0",
+    "status":  "DECLARATIVE_MATERIALIZATION_QUALITY_GATE_PASS",
+    "mode":  "DECLARATIVE_PACKAGE_ONLY",
+    "sha256":  "7602f191dccfc632e743520130e684f33fb5d235dec7920d69ca77ccd5776abd",
+    "real_platform_deployed":  false,
+    "production_changed":  false,
+    "auto_deployment":  false,
+    "historical_kurripaco_reference_is_real_instance":  false,
+    "sgoda_puinave_modified":  false
+}

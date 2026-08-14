@@ -1,0 +1,25 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.14-v1.0.0/composed-configuration-validation-assessment.json",
+                        "sha256":  "418F0ECFE35D4B8DBA83EAEE9E67BC0832C43DA66E6F9AF44304C804F893493B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.14-v1.0.0/instance-contract-validation-assessment.json",
+                        "sha256":  "0D721AE649E8F4795FCA54885ADAD01A648BA5A8B8FA5F02B9EF53E18C759099"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.14-v1.0.0/declarative-materialization-quality-gate.json",
+                        "sha256":  "1D1156963210E26AB3759D1863A04371F9CF030ED37407D62440B0129115755B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.14-v1.0.0/implementation-evidence.json",
+                        "sha256":  "A1F0FEA6DCCB4716B5DADB226BC7CFD80BCD4B454C7D98567F09B44ED3234FC6"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.14-v1.0.0/spt02515-prepare.json",
+                        "sha256":  "632F744EEE84EC09CD15CC1724B926136969E092400A217F39F34EE7ADE5F6B0"
+                    }
+                ]
+}
