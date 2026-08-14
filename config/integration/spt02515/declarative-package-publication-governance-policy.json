@@ -1,0 +1,33 @@
+{
+  "component": "SPT-025.15",
+  "version": "1.0.0",
+  "title": "Gobierno de Publicacion de Paquetes Declarativos, Promocion Controlada y Registro de Materializaciones",
+  "authoritative_baseline": "bb7d818664e46bf7be4bc0036872bc6197fc2a2a",
+  "publication": {
+    "declarative_packages_only": true,
+    "controlled_promotion": true,
+    "materialization_registry": true,
+    "sha256_required": true,
+    "real_platform_deployment": false
+  },
+  "architecture": {
+    "one_native_language_per_platform": true,
+    "support_languages": "0..N_CONFIGURABLE",
+    "hard_coded_support_languages": false,
+    "shared_core_reference": true,
+    "core_duplicated": false
+  },
+  "examples": {
+    "example_only": true,
+    "kurripaco_real_instance": false
+  },
+  "deployment": {
+    "auto_deploy": false,
+    "production_change": false
+  },
+  "repository": {
+    "all_outputs_committed": true,
+    "push_required": true,
+    "local_remote_head_equality_required": true
+  }
+}

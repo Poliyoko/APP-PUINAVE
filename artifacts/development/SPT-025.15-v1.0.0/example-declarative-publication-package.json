@@ -1,0 +1,13 @@
+{
+    "package_id":  "sgoda-example-declarative-package",
+    "version":  "1.0.0",
+    "configuration_sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
+    "materialization_mode":  "DECLARATIVE_PACKAGE_ONLY",
+    "governance":  {
+                       "shared_core_reference":  true,
+                       "core_duplicated":  false,
+                       "auto_deploy":  false,
+                       "production_change":  false,
+                       "example_only":  true
+                   }
+}

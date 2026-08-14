@@ -1,0 +1,33 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.15-v1.0.0/declarative-package-publication-assessment.json",
+                        "sha256":  "7437AFF3AE37F9F224EC5378CEC164876F31E832A470745468B48842968F2118"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.15-v1.0.0/controlled-promotion-ledger.json",
+                        "sha256":  "5748D7BBB12AA1735810CA852D568A45E29D143D0E82F0183F744B8308A9E9EF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.15-v1.0.0/materialization-registry.json",
+                        "sha256":  "3D0659113A1B35D3EBA6BEB3D74D1395C1D866EC7F176144F8A04B2668AE2B8B"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.15-v1.0.0/example-declarative-publication-package.json",
+                        "sha256":  "7ED863DAEE51BA83DC7F1548FA4740ADDDC9EDE7932A1B42EC16B43EC9053871"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.15-v1.0.0/example-materialization-record.json",
+                        "sha256":  "BBF3BA473D985E500043C9EA31A139C0E1B715949E739454FA33C2CD9A2DF349"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.15-v1.0.0/implementation-evidence.json",
+                        "sha256":  "0A6FAC47DDA5DADC3BEDA0869F5C21CB934D7258F6F057786E4592B42C4E321A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.15-v1.0.0/spt02516-prepare.json",
+                        "sha256":  "5454A3C2E52E89E6828815E31A22457367DB7C061853BCBB5FCDF7D4FA0586C3"
+                    }
+                ]
+}

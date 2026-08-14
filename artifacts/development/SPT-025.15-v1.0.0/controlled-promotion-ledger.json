@@ -1,0 +1,17 @@
+{
+    "contract":  "SGODA_CONTROLLED_PROMOTION_LEDGER_V1",
+    "records":  [
+                    {
+                        "valid":  true,
+                        "errors":  [
+
+                                   ],
+                        "package_id":  "sgoda-example-declarative-package",
+                        "from_state":  "APPROVED",
+                        "to_state":  "PUBLISHED",
+                        "package_sha256":  "a9dd251414814e846b56cf8cc5f88717d7eeb7fe92a24e34a1685470d2257503",
+                        "real_platform_deployed":  false,
+                        "production_changed":  false
+                    }
+                ]
+}
