@@ -1,0 +1,17 @@
+{
+    "contract":  "SGODA_MASTER_MATERIALIZATION_REGISTRY_V1",
+    "records":  [
+                    {
+                        "materialization_id":  "example-materialization-001",
+                        "package_id":  "sgoda-example-declarative-package",
+                        "state":  "PUBLISHED",
+                        "real_platform":  false,
+                        "example_only":  true,
+                        "auto_deployed":  false,
+                        "production_changed":  false
+                    }
+                ],
+    "record_count":  1,
+    "real_platform_count":  0,
+    "sha256":  "99f2f53f008fc7dd6471c33325bfe796fa7fcece58d1ae04fc1d0c95709f2bad"
+}

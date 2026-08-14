@@ -1,0 +1,8 @@
+{
+    "component":  "SPT-025",
+    "status":  "READY_FOR_INSTITUTIONAL_CLOSURE_PREPARE",
+    "spt025_1_to_16_preserved":  true,
+    "final_promotion_gate":  "PASS",
+    "real_platform_deployed":  false,
+    "production_change":  false
+}

@@ -1,0 +1,29 @@
+{
+    "algorithm":  "SHA-256",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-025.16-v1.0.0/publication-recertification-assessment.json",
+                        "sha256":  "1F199D9C9226A0CD2F5C51BDAFEBA5D9C3D9153166CC3BE5912B2C093FAED639"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.16-v1.0.0/master-materialization-registry.json",
+                        "sha256":  "E5F9001B8FD47C4985ADEA30E198B61426A33453C975072515688559431FFD66"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.16-v1.0.0/final-promotion-quality-gate.json",
+                        "sha256":  "45AEB75282ADDB2680C002B45BB8AC9238D0B56F656533D57D2B8F9478E2A997"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.16-v1.0.0/spt025-closure-readiness-assessment.json",
+                        "sha256":  "1A6D9E2CD34D8CC3E3EA765E21E0051C2CDFBBD120BA3E21C6953C7CC786037A"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.16-v1.0.0/implementation-evidence.json",
+                        "sha256":  "8C5B7824226C10E456D63FC1D2125D701C6FA95D532E7B4D500CAD5ABE4459F5"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-025.16-v1.0.0/spt025-close1-prepare.json",
+                        "sha256":  "8837541105635B2CBF673A55A6F4A4AAD41A38924D5BEE433F316D170CBE2EA5"
+                    }
+                ]
+}

@@ -1,0 +1,10 @@
+{
+    "component":  "SPT-025.16",
+    "version":  "1.0.0",
+    "status":  "FINAL_PROMOTION_QUALITY_GATE_PASS",
+    "final_promotion_state":  "APPROVED_FOR_INSTITUTIONAL_CLOSURE",
+    "real_platform_deployed":  false,
+    "production_changed":  false,
+    "core_duplicated":  false,
+    "historical_kurripaco_reference_is_real_instance":  false
+}
