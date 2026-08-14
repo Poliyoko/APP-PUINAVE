@@ -1,0 +1,18 @@
+{
+    "component":  "SGODA-MASTER.CLOSE",
+    "version":  "1.0.0",
+    "authoritative_input_head":  "9d41156c2017e6139fe6e4146f318b84ddf9fe6d",
+    "status":  "READY_FOR_INSTITUTIONAL_MASTER_CLOSURE",
+    "local_remote_gate":  "PASS",
+    "spt025_status":  "INSTITUTIONALLY_CLOSED",
+    "spt025_components":  16,
+    "master_document_coverage":  "PASS",
+    "untracked_reconciliation":  "PASS",
+    "commits_tags_releases":  "PASS",
+    "github_size_gate":  "PASS",
+    "destructive_cleanup":  false,
+    "production_change":  false,
+    "new_functionality":  false,
+    "tag_created":  false,
+    "release_created":  false
+}

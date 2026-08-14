@@ -1,0 +1,23 @@
+{
+    "component":  "SGODA-MASTER.CLOSE",
+    "version":  "1.0.0",
+    "authoritative_input_head":  "9d41156c2017e6139fe6e4146f318b84ddf9fe6d",
+    "r119_commit":  "9d41156c2017e6139fe6e4146f318b84ddf9fe6d",
+    "r119_recertified":  true,
+    "spt025_recertified":  true,
+    "master_documents_recertified":  true,
+    "exact_duplicate_residuals":  8,
+    "raw_oversized_local_preserved":  4,
+    "superseded_local_evidence":  2,
+    "superseded_policy":  "PRESERVE_LOCAL_NOT_REPUBLISH",
+    "historical_master_close_scripts":  [
+                                            "SGODA-MASTER-CLOSE-v2.ps1",
+                                            "SGODA-MASTER-CLOSE.ps1"
+                                        ],
+    "historical_master_close_policy":  "PRESERVE_AND_PUBLISH_AS_EVIDENCE",
+    "unrepresented_active_untracked":  0,
+    "closed_components_preserved":  true,
+    "destructive_cleanup":  false,
+    "commit_performed_at_evidence_write":  false,
+    "push_performed_at_evidence_write":  false
+}

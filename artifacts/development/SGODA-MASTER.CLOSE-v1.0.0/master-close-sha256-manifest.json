@@ -1,0 +1,43 @@
+{
+    "component":  "SGODA-MASTER.CLOSE",
+    "version":  "1.0.0",
+    "authoritative_input_head":  "9d41156c2017e6139fe6e4146f318b84ddf9fe6d",
+    "records":  [
+                    {
+                        "path":  "SGODA-MASTER-CLOSE-v3.ps1",
+                        "sha256":  "C50296343C739154E7CA2F38613568A23447A34D87917E8E1902D7843773DA60"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-MASTER.CLOSE-v1.0.0/master-close-assessment.json",
+                        "sha256":  "B58562754B30ADF395537590BEEA5414962FD487AC381A0D6443C362454E55B1"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-MASTER.CLOSE-v1.0.0/master-document-reconciliation.json",
+                        "sha256":  "3C0010C891355DB7072D938F6E7BEA1EEB367EECE3404A8C17E3B778A871CABC"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-MASTER.CLOSE-v1.0.0/commits-tags-releases-reconciliation.json",
+                        "sha256":  "FD46F1BB1BB13445091B5158945A5CF3B202794CFCB43F371685CE8FA442EEEB"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-MASTER.CLOSE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "EDE76915927788EFC26CC0AC61A94967F6A185BF5952D950715E0DA39530740E"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-MASTER-CLOSE-v1.0.0.md",
+                        "sha256":  "EE6642D8D1F87951FFC83FF3691E5C2D4EF31C9A5322188901BB200596484886"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Cierre-Sincronizacion-Institucional-Maestra-v1.0.0.md",
+                        "sha256":  "3181526CC52FF96B6010A397B698CBA721D1E0275E99E72D3ED3E51F6A1D5C23"
+                    },
+                    {
+                        "path":  "SGODA-MASTER-CLOSE-v2.ps1",
+                        "sha256":  "70BF631B099F043F7F3337ECCD2929081E95534403DFCC3935DD14BD60F51FFD"
+                    },
+                    {
+                        "path":  "SGODA-MASTER-CLOSE.ps1",
+                        "sha256":  "576AC464CAF01016A54A8F6FC58A02A982A3F19D94FC93A68280840F90FAB60D"
+                    }
+                ]
+}
