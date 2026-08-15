@@ -1,0 +1,23 @@
+{
+    "component":  "SPT-018.FASTPATH",
+    "sequence":  9,
+    "input_baseline":  "3f99b39cb93af7167442a14481d41020a28f242d",
+    "source_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+    "final_state":  "CLOSED",
+    "action":  "HISTORICAL_INSTITUTIONAL_FORMALIZATION_AND_RECONCILIATION",
+    "reopened":  false,
+    "historical_test_evidence":  "AVAILABLE",
+    "historical_tests_recreated":  false,
+    "tracked_path_count":  43,
+    "test_count":  1,
+    "evidence_count":  37,
+    "pass_evidence_count":  8,
+    "release_count":  25,
+    "commit_hit_count":  2,
+    "pending_before":  19,
+    "pending_after":  18,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false,
+    "result":  "PASS"
+}

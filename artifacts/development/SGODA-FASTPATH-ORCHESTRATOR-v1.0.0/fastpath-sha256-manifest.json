@@ -1,0 +1,31 @@
+{
+    "component":  "SGODA-FASTPATH-ORCHESTRATOR",
+    "version":  "1.0.0",
+    "baseline":  "3f99b39cb93af7167442a14481d41020a28f242d",
+    "records":  [
+                    {
+                        "path":  "SGODA-FASTPATH-ORCHESTRATOR.ps1",
+                        "sha256":  "27EB1AEF383A8514722377CAD5440D8FE3C572F31A90799AFADABBFE0989E64C"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/institutional-index.json",
+                        "sha256":  "C0B5868644D8E14E099B5285AA9C5E99B0A38159B593CAA2997C096C923A92EB"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/fastpath-plan.json",
+                        "sha256":  "C003D67B4818C1EDF3323BC1A2968C7702A6BD209D884C76D28524DCB052D3B6"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/fastpath-assessment.json",
+                        "sha256":  "74C2679382F61C0C3FC8A18BB2A007E84466BB8D47DF235CBB0139828D5ECE1B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/implementation-evidence.json",
+                        "sha256":  "EF26465CF1F0D03391D533BFB3160C520F7D1EA66B66DEF243238A977757290D"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-FASTPATH-Plan-v1.0.0.md",
+                        "sha256":  "79079E8FC591A00DCB957078D0A25D019B767207FFBE830BE889AF599F9E5376"
+                    }
+                ]
+}

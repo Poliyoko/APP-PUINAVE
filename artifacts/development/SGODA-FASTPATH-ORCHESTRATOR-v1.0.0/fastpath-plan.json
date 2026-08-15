@@ -1,0 +1,285 @@
+{
+    "component":  "SGODA-FASTPATH-ORCHESTRATOR",
+    "version":  "1.0.0",
+    "baseline":  "3f99b39cb93af7167442a14481d41020a28f242d",
+    "mode":  "PLAN",
+    "pending_before":  27,
+    "current_candidate":  "SPT-008",
+    "indexed_candidates":  27,
+    "already_closed":  21,
+    "needs_formalization":  6,
+    "incomplete_or_review":  0,
+    "plan":  [
+                 {
+                     "deliverable":  "SPT-008",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  25,
+                     "pass_evidence_count":  9,
+                     "release_count":  4,
+                     "commit_hit_count":  2
+                 },
+                 {
+                     "deliverable":  "SPT-009",
+                     "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "fastpath_action":  "FORMALIZE_CLOSE_THEN_RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  8,
+                     "pass_evidence_count":  2,
+                     "release_count":  4,
+                     "commit_hit_count":  1
+                 },
+                 {
+                     "deliverable":  "SPT-010",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  1,
+                     "evidence_count":  17,
+                     "pass_evidence_count":  3,
+                     "release_count":  9,
+                     "commit_hit_count":  2
+                 },
+                 {
+                     "deliverable":  "SPT-011",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  26,
+                     "pass_evidence_count":  4,
+                     "release_count":  9,
+                     "commit_hit_count":  0
+                 },
+                 {
+                     "deliverable":  "SPT-012",
+                     "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "fastpath_action":  "FORMALIZE_CLOSE_THEN_RECONCILE",
+                     "test_count":  1,
+                     "evidence_count":  36,
+                     "pass_evidence_count":  3,
+                     "release_count":  27,
+                     "commit_hit_count":  2
+                 },
+                 {
+                     "deliverable":  "SPT-014",
+                     "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "fastpath_action":  "FORMALIZE_CLOSE_THEN_RECONCILE",
+                     "test_count":  2,
+                     "evidence_count":  40,
+                     "pass_evidence_count":  6,
+                     "release_count":  20,
+                     "commit_hit_count":  2
+                 },
+                 {
+                     "deliverable":  "SPT-015",
+                     "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "fastpath_action":  "FORMALIZE_CLOSE_THEN_RECONCILE",
+                     "test_count":  1,
+                     "evidence_count":  41,
+                     "pass_evidence_count":  5,
+                     "release_count":  25,
+                     "commit_hit_count":  0
+                 },
+                 {
+                     "deliverable":  "SPT-017",
+                     "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "fastpath_action":  "FORMALIZE_CLOSE_THEN_RECONCILE",
+                     "test_count":  1,
+                     "evidence_count":  34,
+                     "pass_evidence_count":  8,
+                     "release_count":  23,
+                     "commit_hit_count":  2
+                 },
+                 {
+                     "deliverable":  "SPT-018",
+                     "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "fastpath_action":  "FORMALIZE_CLOSE_THEN_RECONCILE",
+                     "test_count":  1,
+                     "evidence_count":  37,
+                     "pass_evidence_count":  8,
+                     "release_count":  25,
+                     "commit_hit_count":  2
+                 },
+                 {
+                     "deliverable":  "SPT-019.0",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  7,
+                     "evidence_count":  100,
+                     "pass_evidence_count":  27,
+                     "release_count":  58,
+                     "commit_hit_count":  0
+                 },
+                 {
+                     "deliverable":  "SPT-019.1",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  7,
+                     "evidence_count":  100,
+                     "pass_evidence_count":  27,
+                     "release_count":  58,
+                     "commit_hit_count":  0
+                 },
+                 {
+                     "deliverable":  "SPT-019.2",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  7,
+                     "evidence_count":  100,
+                     "pass_evidence_count":  27,
+                     "release_count":  58,
+                     "commit_hit_count":  0
+                 },
+                 {
+                     "deliverable":  "SPT-023.2",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  40,
+                     "pass_evidence_count":  7,
+                     "release_count":  0,
+                     "commit_hit_count":  17
+                 },
+                 {
+                     "deliverable":  "SPT-024.1",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.2",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.3",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.4",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.5",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.6",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.8",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.9",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.10",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.11",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.13",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.15",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.16",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 },
+                 {
+                     "deliverable":  "SPT-024.17",
+                     "real_state":  "ALREADY_CLOSED",
+                     "fastpath_action":  "RECONCILE",
+                     "test_count":  0,
+                     "evidence_count":  260,
+                     "pass_evidence_count":  86,
+                     "release_count":  0,
+                     "commit_hit_count":  42
+                 }
+             ],
+    "execute_policy":  "STOP_ON_FIRST_HOLD"
+}

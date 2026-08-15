@@ -1,0 +1,14 @@
+{
+    "component":  "SGODA-FASTPATH-EXECUTION",
+    "version":  "1.0.0",
+    "status":  "PASS",
+    "input_baseline":  "3f99b39cb93af7167442a14481d41020a28f242d",
+    "candidates_processed":  27,
+    "pending_before":  27,
+    "pending_after":  0,
+    "map_reconciliation":  "PASS",
+    "historical_tests_recreated":  false,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false
+}

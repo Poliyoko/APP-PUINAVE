@@ -1,0 +1,407 @@
+{
+    "component":  "SGODA-FASTPATH-EXECUTION",
+    "version":  "1.0.0",
+    "input_baseline":  "3f99b39cb93af7167442a14481d41020a28f242d",
+    "records":  [
+                    {
+                        "path":  "SGODA-FASTPATH-EXECUTION-ENGINE-v3.ps1",
+                        "sha256":  "ABA4379CA9A204B70E3236A6F658CD146F5BB829477EE0285A8BF5AD2B3ECDDF"
+                    },
+                    {
+                        "path":  "SGODA-FASTPATH-ORCHESTRATOR.ps1",
+                        "sha256":  "27EB1AEF383A8514722377CAD5440D8FE3C572F31A90799AFADABBFE0989E64C"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/fastpath-plan.json",
+                        "sha256":  "C003D67B4818C1EDF3323BC1A2968C7702A6BD209D884C76D28524DCB052D3B6"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/institutional-index.json",
+                        "sha256":  "C0B5868644D8E14E099B5285AA9C5E99B0A38159B593CAA2997C096C923A92EB"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/fastpath-assessment.json",
+                        "sha256":  "74C2679382F61C0C3FC8A18BB2A007E84466BB8D47DF235CBB0139828D5ECE1B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/implementation-evidence.json",
+                        "sha256":  "EF26465CF1F0D03391D533BFB3160C520F7D1EA66B66DEF243238A977757290D"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/fastpath-sha256-manifest.json",
+                        "sha256":  "4F2BA66216B93F775F538F0FA6741CBD5F8AC5225DA956EE18270758029C7E1C"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-FASTPATH-Plan-v1.0.0.md",
+                        "sha256":  "79079E8FC591A00DCB957078D0A25D019B767207FFBE830BE889AF599F9E5376"
+                    },
+                    {
+                        "path":  "SGODA-FASTPATH-EXECUTION-ENGINE.ps1",
+                        "sha256":  "64DA1256CA63B2F7DE2009E2BB8669DDD29A9342DFA7D4E51A32DBB47E15F50C"
+                    },
+                    {
+                        "path":  "SGODA-FASTPATH-EXECUTION-ENGINE-v2.ps1",
+                        "sha256":  "41497526EB4CAF3DA43090AE88512ADE29D1C1BE7483409ECDD94E9E6C4C2D01"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-008/spt008-assessment.json",
+                        "sha256":  "DCE6F30672952464736FFE51E06117D1D42683B6B6585CA584B88E46D2CAEB96"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-008/spt008-evidence.json",
+                        "sha256":  "63202A48B006943E3A6AF550BC58A447743B3ED6F10DE23A1D3952A5C9AEC64C"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-008-FASTPATH-v1.0.0.md",
+                        "sha256":  "7F67575C80BB2B8A8B0371B8CAD5FF4BB81FFC4F4827FB8B9EB12CD73E625601"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-009/spt009-assessment.json",
+                        "sha256":  "34CE95F0390ECEE2F09DA7A1015AA0582F790009619492DA940162EE0F1E794B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-009/spt009-evidence.json",
+                        "sha256":  "F1DC6B68C58D0BADB9EE7438670AA07048A6975E2E9E73C78996E6F5A705C60E"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-009-FASTPATH-v1.0.0.md",
+                        "sha256":  "A5C6239D9017D24665D6086802900B40A92145E98C19C86CADAB9DC0FD5A99DC"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-010/spt010-assessment.json",
+                        "sha256":  "E3C5FDB12CA77C2C0F5F36B2006F4E9066E99DCAAD894635DB8E662B7ECC4D44"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-010/spt010-evidence.json",
+                        "sha256":  "42211F2F6741E919FB5AF73BF945E3B057525D7EE6F96D16B2B45A7566AD9825"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-010-FASTPATH-v1.0.0.md",
+                        "sha256":  "A6340D71F90A9FE4351ECC425C097FFE41BEC1D9DA51E8CA8DC29EDFEA6A23A0"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-011/spt011-assessment.json",
+                        "sha256":  "3DFD20B931418968F68AC2EE4E213463264FF52FCAB714CD034C4EE6F36961AA"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-011/spt011-evidence.json",
+                        "sha256":  "99FEFF1A8F909DC4F59C9E617784AB57A082E70AB099FE3F098E4322411D7D09"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-011-FASTPATH-v1.0.0.md",
+                        "sha256":  "C67055A0A246B33C7A648519EB1950A0F24714C7FA8ED027D4D34DDA953566A8"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-012/spt012-assessment.json",
+                        "sha256":  "F2DD411AC24C393AEE433EAEAA79DB1EDD6D3F65CF0E3A079E52FF33E4BBA7BB"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-012/spt012-evidence.json",
+                        "sha256":  "4A022BEA68FEF00CEF15A2D0B269E754D9AAA0B4F2EB8AC1D83820F9DAD44106"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-012-FASTPATH-v1.0.0.md",
+                        "sha256":  "D51A07BEF9F6DB972680578E965C27974AEBFA75B34FF9AAD598F5A4D8600B76"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-014/spt014-assessment.json",
+                        "sha256":  "81D7B5A8DBA2DF87F29F3C1ED72AC8239B1EFE18AFFDBB7A6D409FFCE5AB6455"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-014/spt014-evidence.json",
+                        "sha256":  "F26E73C052CF1DCE9FB4742FAF34479F54E46C23610F84BBF9B11CF0DCEC2B3E"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-014-FASTPATH-v1.0.0.md",
+                        "sha256":  "F49D3653C7660CBDC182AFF2B12DFC037676C8F985812A1E724915DC763AF88E"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-015/spt015-assessment.json",
+                        "sha256":  "53E2C2EFB8202AD05F2EA5E1627A5E4902748D286CAD2FFDF751B84F7EF2E2A7"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-015/spt015-evidence.json",
+                        "sha256":  "56871D6E380DDED4DE808EB8B828864841E8A985664A0D801463D05113931E21"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-015-FASTPATH-v1.0.0.md",
+                        "sha256":  "B469072849B2E55FB235BF495C46A1FEF6806AC4ADCC17A4B41A9D8ED158ED86"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-017/spt017-assessment.json",
+                        "sha256":  "963B0549C3E23A5056FA5FCB04C86B7D0C1E1AA1FBD8AE095F547545F4D9E623"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-017/spt017-evidence.json",
+                        "sha256":  "FF0864240E5BE7F59EB458A514358D82393E8B817897223BE0FDC3277C90C1B0"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-017-FASTPATH-v1.0.0.md",
+                        "sha256":  "1554FFA556136CCCF52BA2EC15E88779F0D24B33CDAC286D1009D9D60722E3BB"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-018/spt018-assessment.json",
+                        "sha256":  "0C51D6607439FF678137214E84AC0B0F5147B63A142A9D27680372B065A4F4EC"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-018/spt018-evidence.json",
+                        "sha256":  "21E33A33C26EBECCE404C474D09AE6F3FEAEAC9D6EA01C1962340E8EC87FCD00"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-018-FASTPATH-v1.0.0.md",
+                        "sha256":  "C0578BE3994EFC002BB1B2AC48EC163B3809263D397BCDE01BA80AA6A072C08D"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-019.0/spt0190-assessment.json",
+                        "sha256":  "214A254D3FCA954541E4B6D52F6A0A83D4F16A382B1660BDF7F4ED3A6B178759"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-019.0/spt0190-evidence.json",
+                        "sha256":  "F3B195F30612DE32B9F6B024C78E405AFD7A5B955FD00B8445389EBC05ACC2A4"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-019.0-FASTPATH-v1.0.0.md",
+                        "sha256":  "32161229D482241B25DFB1CB44D200083BE8E1B54B2FD1F9F49DFDF87FEEEEAD"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-019.1/spt0191-assessment.json",
+                        "sha256":  "2241F48B9876BFD4F4097246F8700E894656ABA3A37C130F37F8C3D57011D6FF"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-019.1/spt0191-evidence.json",
+                        "sha256":  "F8E536985162871DF1FE2E58BE888BD1C3FEC5546C28096B99E2AA08913403F2"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-019.1-FASTPATH-v1.0.0.md",
+                        "sha256":  "39699D404BC0912E3A5017922AFBA2CC2C07BA8A09A798807004E0621E71326A"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-019.2/spt0192-assessment.json",
+                        "sha256":  "6870CF68F154CBDE56710BF8EB0B8492A26C7447B790634D970E3F15482A8404"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-019.2/spt0192-evidence.json",
+                        "sha256":  "39305D5F9E70E24D6DBFE4CC2FEEB687CC93324EA7B68CF4972C3DFEC17D5A63"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-019.2-FASTPATH-v1.0.0.md",
+                        "sha256":  "8B156198ABFEF27A179E9D2E492385138A783F228C19FC2A760CB1A930F043A4"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-023.2/spt0232-assessment.json",
+                        "sha256":  "4DAF883EBBF41EFF5D13A386B6B1CF1B5BE2D127BAC492E35F5BFAD0F04B39B3"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-023.2/spt0232-evidence.json",
+                        "sha256":  "119EC8077CBC24181AD731AE1B808296FCCEF2C085BFF7E26718FCD7688B4391"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-023.2-FASTPATH-v1.0.0.md",
+                        "sha256":  "7A336D5E4F4063DB4681A85C8BB4099238F40A181812B4C003FE431D06D1DEF5"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.1/spt0241-assessment.json",
+                        "sha256":  "28C13A4225425A331E7B83C957A68A438A9FFE4B03135253362503748B781940"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.1/spt0241-evidence.json",
+                        "sha256":  "BF5EBA303A0FEC98A535832C4611B30B8C130ADEC748BE45F4B06E85CCB344C2"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.1-FASTPATH-v1.0.0.md",
+                        "sha256":  "BABB96161DFB0679462F09F7FE81D28C6A9F615274C02C4270088F3245C2C540"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.2/spt0242-assessment.json",
+                        "sha256":  "B87CAF1ECCF93BF92F65E1B9025D115C38E117AE3E852161ECEA5FD9679DBBB1"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.2/spt0242-evidence.json",
+                        "sha256":  "53B38457B3E11B132CC7012A13D05A5E599BCC677951B5D449D250808EED4992"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.2-FASTPATH-v1.0.0.md",
+                        "sha256":  "AB883239452AF273492E0B523A4FA43E9715FA3BF762AAA11E0A714D42F59715"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.3/spt0243-assessment.json",
+                        "sha256":  "61C5982773A9FD52F4A68FB39D397DE1E6419931DF21BDE39CCBAAE5402A7CE9"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.3/spt0243-evidence.json",
+                        "sha256":  "4B001AF475524E6445DB4ADB881B63155ED4FE810591027B1710A50C26023B7E"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.3-FASTPATH-v1.0.0.md",
+                        "sha256":  "A969E4069CF3D92D3D096546C900B88A5E4FDB636677FFA3DDFD681E4CA49F39"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.4/spt0244-assessment.json",
+                        "sha256":  "8D413908855D17D65E239FBD2165C5D7689D3FD2C355158FE5010A4C0460A408"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.4/spt0244-evidence.json",
+                        "sha256":  "4D523BB3C91DEB67A5835A644B85468B02E8339D8E4A2E3CC408EA7E2278C77D"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.4-FASTPATH-v1.0.0.md",
+                        "sha256":  "D6F234F2A1A9CB0F959898F9D6AB14E3A1A55AF9151F0C7552626B74F0747A2E"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.5/spt0245-assessment.json",
+                        "sha256":  "CF8D9CDBCF88876028F9020C66006E869A5BAD8566E7C8656DBFF86EC11FF6F1"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.5/spt0245-evidence.json",
+                        "sha256":  "1AA50F709E0724E4DC4670F72A968684C62D897DE73F6BEBBF61846DB8E5C99C"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.5-FASTPATH-v1.0.0.md",
+                        "sha256":  "A1F13ECF2AB192E81D0E2AF14C0B4E139D1E1C7490AA508B68C79B82C8005BCB"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.6/spt0246-assessment.json",
+                        "sha256":  "90BDB9180BEE9F2ABD8E845C5D0D652F3E16969E1B1042AB732F7EE059D209AD"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.6/spt0246-evidence.json",
+                        "sha256":  "5143FE69C8C45D90427EE05BE3EC66F746CAE3EB93585A9D2F1E120F32D6ECCE"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.6-FASTPATH-v1.0.0.md",
+                        "sha256":  "62E5B14B681521ED6D0CB969EF227B5B3EA4222B23D6C84F55A3506CDD56D5F9"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.8/spt0248-assessment.json",
+                        "sha256":  "E0DF8A300137A172232B10AF18079FE76EFDF9469B4CE97BA40EB5EA5FBF087B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.8/spt0248-evidence.json",
+                        "sha256":  "A3B8BFDA74B9479CDDC1107473D19BD9235892D79AC3E1BAC06F593CB9614DBF"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.8-FASTPATH-v1.0.0.md",
+                        "sha256":  "87A164833E57DC619C44CCC89CDFCABCB576A2D8C76F0E48149F09C409C6ACCE"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.9/spt0249-assessment.json",
+                        "sha256":  "DAEAA1C0BB5FFD669625EB94CA44B4AC596EECCC0A30E2CBD36D85FAFA0D9EF7"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.9/spt0249-evidence.json",
+                        "sha256":  "0BF5AE177C73E1EDE2B071DD30C96A83529F3B2C3BADDAA452037E99F91133CE"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.9-FASTPATH-v1.0.0.md",
+                        "sha256":  "A589F1B0A6F247D9AC3D55307DA1510C4A65C5AAD251EC29C60AE6C8246EBBF7"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.10/spt02410-assessment.json",
+                        "sha256":  "A59B502A2FA1B5F5D8491CF70CC74F9F5E7C524ECF094BC2409077E85CB7D6FA"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.10/spt02410-evidence.json",
+                        "sha256":  "557C781D6F865F1A46E6273C899A0A8E1255B1A563096516CF533E9C1B253BAD"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.10-FASTPATH-v1.0.0.md",
+                        "sha256":  "7B34C692BBDACE23951FCC0F2B8D9D87F57EAF60C01EE28BCFB1AC9D767E49E1"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.11/spt02411-assessment.json",
+                        "sha256":  "4E069D5132DD81E4B44FF781D59A7C5E45877D4B5E0AEEB67BDEA9BEE2F66495"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.11/spt02411-evidence.json",
+                        "sha256":  "663CB9F40CE30A2AA6570FEA5E1CFD9A0A3BFA7BCA3D1D8237A0A5A1ED5E2582"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.11-FASTPATH-v1.0.0.md",
+                        "sha256":  "774E8CA597082EEE4D802378F7FF0EA3AD795FDD0797CA75A61A77308464A857"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.13/spt02413-assessment.json",
+                        "sha256":  "9C0A5E5C210D8E844AE9AD44EBFFE01A20E4AE13777F761F513848F6F77A96FF"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.13/spt02413-evidence.json",
+                        "sha256":  "3A8242BBFFD60EB2C3A7E20B258E29C0346677C740B9D5CA861BF05E68905E6D"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.13-FASTPATH-v1.0.0.md",
+                        "sha256":  "336C405E3D227D83FD67235ABC8DE2B9A9EB9DABEB617D1BA94E0F299E90932A"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.15/spt02415-assessment.json",
+                        "sha256":  "910ADC94A15D309A2EB0BBBE288000861F34C1DD126A77DA901547884E5072EA"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.15/spt02415-evidence.json",
+                        "sha256":  "6CBD1091B583043C619940DAAFD82E98EF9A21131D872B2370D01B190922A6B9"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.15-FASTPATH-v1.0.0.md",
+                        "sha256":  "A25E9808EEBDB8AA4E756AF61EE45978C44FE57C91EDCA216E7F4907562291DA"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.16/spt02416-assessment.json",
+                        "sha256":  "164C91A1D20449273BFA86BA0CF1DEB7E8A679947A2EB4982C43A599B1C4DA9B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.16/spt02416-evidence.json",
+                        "sha256":  "0CDFBFFA5721AB2CC8AD4BD91E0FB99D0DC2DF702DBF1F21E73E488FCBFCC029"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.16-FASTPATH-v1.0.0.md",
+                        "sha256":  "2CF8A1CCBD872C3DF6EB7CDEF4709B860CF0EB59A75867489E1DDA5CDBF4C35F"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.17/spt02417-assessment.json",
+                        "sha256":  "20FA8C8E71F965A10AD0DB49F9DDEFB258CD496C8EB90A54848628FF9B56BAB3"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/candidates/SPT-024.17/spt02417-evidence.json",
+                        "sha256":  "04830C5F36DEE2247C8B25CB51D40552DFA5AD967AFB0664EB7296B10E3FD5EE"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-024.17-FASTPATH-v1.0.0.md",
+                        "sha256":  "FA9C44461A671BD1BEE3F792D454E10089A2A6D753D014E8AA80A7FFE99880CA"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/global-deliverable-inventory-fastpath-final.json",
+                        "sha256":  "7604A0BDEAB1577EB67F1D55B9EDA5329C1FBBA6B9CFA609AD51FF621804D5DD"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/global-deliverable-status-matrix-fastpath-final.json",
+                        "sha256":  "B1D6ECF2EDE8CD1D54E75EDD729608A7FAB084118C5EE3B211A0D52341DBFEDB"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/next-technological-deliverable-assessment-fastpath-final.json",
+                        "sha256":  "F57E855860141393A56420701EAA65143F9794982602B04647606106CB8C2CC6"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/fastpath-execution-ledger.json",
+                        "sha256":  "71850FFC4D11A05855D9AEBD138E788604593214D35512A840ECB65A6042EDAF"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/fastpath-execution-assessment.json",
+                        "sha256":  "BEF8D2DA6CBE993E402541052EF26C181309707FB0CC5D22E270FF77B7680B0D"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/implementation-evidence.json",
+                        "sha256":  "E53637F26CFDF3F574BC3423CB4E76F1F515375730931FFD738444510A2AC6D6"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.1.0.md",
+                        "sha256":  "D202A63C1A19B365C284D9A8CD3934DA448AEBE2A1181281FD8D4D5A5CCD053A"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-FASTPATH-Execution-v1.0.0.md",
+                        "sha256":  "0CBF717D99C4316F30BFA4ED9A945750CA319B361966A56DAED23B444BF2D108"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-FASTPATH-EXECUTION-v1.0.0.md",
+                        "sha256":  "846D2D40C11488056CD4115D8CC5BE77ACCC0284E2449D9298626082BBAA92C9"
+                    }
+                ]
+}

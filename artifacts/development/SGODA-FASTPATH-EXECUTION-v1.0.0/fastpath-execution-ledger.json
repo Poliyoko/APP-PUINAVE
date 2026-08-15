@@ -1,0 +1,255 @@
+{
+    "component":  "SGODA-FASTPATH-EXECUTION",
+    "version":  "1.0.0",
+    "input_baseline":  "3f99b39cb93af7167442a14481d41020a28f242d",
+    "pending_before":  27,
+    "pending_after":  0,
+    "candidates_processed":  27,
+    "already_closed":  21,
+    "formalized":  6,
+    "rows":  [
+                 {
+                     "sequence":  1,
+                     "deliverable":  "SPT-008",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  27,
+                     "pending_after":  26,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  2,
+                     "deliverable":  "SPT-009",
+                     "source_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "final_state":  "CLOSED",
+                     "pending_before":  26,
+                     "pending_after":  25,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  3,
+                     "deliverable":  "SPT-010",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  25,
+                     "pending_after":  24,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  4,
+                     "deliverable":  "SPT-011",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  24,
+                     "pending_after":  23,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  5,
+                     "deliverable":  "SPT-012",
+                     "source_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "final_state":  "CLOSED",
+                     "pending_before":  23,
+                     "pending_after":  22,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  6,
+                     "deliverable":  "SPT-014",
+                     "source_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "final_state":  "CLOSED",
+                     "pending_before":  22,
+                     "pending_after":  21,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  7,
+                     "deliverable":  "SPT-015",
+                     "source_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "final_state":  "CLOSED",
+                     "pending_before":  21,
+                     "pending_after":  20,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  8,
+                     "deliverable":  "SPT-017",
+                     "source_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "final_state":  "CLOSED",
+                     "pending_before":  20,
+                     "pending_after":  19,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  9,
+                     "deliverable":  "SPT-018",
+                     "source_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+                     "final_state":  "CLOSED",
+                     "pending_before":  19,
+                     "pending_after":  18,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  10,
+                     "deliverable":  "SPT-019.0",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  18,
+                     "pending_after":  17,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  11,
+                     "deliverable":  "SPT-019.1",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  17,
+                     "pending_after":  16,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  12,
+                     "deliverable":  "SPT-019.2",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  16,
+                     "pending_after":  15,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  13,
+                     "deliverable":  "SPT-023.2",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  15,
+                     "pending_after":  14,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  14,
+                     "deliverable":  "SPT-024.1",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  14,
+                     "pending_after":  13,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  15,
+                     "deliverable":  "SPT-024.2",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  13,
+                     "pending_after":  12,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  16,
+                     "deliverable":  "SPT-024.3",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  12,
+                     "pending_after":  11,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  17,
+                     "deliverable":  "SPT-024.4",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  11,
+                     "pending_after":  10,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  18,
+                     "deliverable":  "SPT-024.5",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  10,
+                     "pending_after":  9,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  19,
+                     "deliverable":  "SPT-024.6",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  9,
+                     "pending_after":  8,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  20,
+                     "deliverable":  "SPT-024.8",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  8,
+                     "pending_after":  7,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  21,
+                     "deliverable":  "SPT-024.9",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  7,
+                     "pending_after":  6,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  22,
+                     "deliverable":  "SPT-024.10",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  6,
+                     "pending_after":  5,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  23,
+                     "deliverable":  "SPT-024.11",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  5,
+                     "pending_after":  4,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  24,
+                     "deliverable":  "SPT-024.13",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  4,
+                     "pending_after":  3,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  25,
+                     "deliverable":  "SPT-024.15",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  3,
+                     "pending_after":  2,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  26,
+                     "deliverable":  "SPT-024.16",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  2,
+                     "pending_after":  1,
+                     "result":  "PASS"
+                 },
+                 {
+                     "sequence":  27,
+                     "deliverable":  "SPT-024.17",
+                     "source_state":  "ALREADY_CLOSED",
+                     "final_state":  "CLOSED",
+                     "pending_before":  1,
+                     "pending_after":  0,
+                     "result":  "PASS"
+                 }
+             ]
+}

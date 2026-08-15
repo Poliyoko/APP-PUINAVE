@@ -1,0 +1,13 @@
+{
+    "component":  "SGODA-FASTPATH-ORCHESTRATOR",
+    "version":  "1.0.0",
+    "baseline":  "3f99b39cb93af7167442a14481d41020a28f242d",
+    "source_map":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-007-v1.0.7/global-deliverable-status-matrix-reconciled.json",
+    "tracked_files_scanned":  6077,
+    "candidate_count":  27,
+    "classification_summary":  {
+                                   "already_closed":  21,
+                                   "needs_formalization":  6,
+                                   "incomplete_or_review":  0
+                               }
+}

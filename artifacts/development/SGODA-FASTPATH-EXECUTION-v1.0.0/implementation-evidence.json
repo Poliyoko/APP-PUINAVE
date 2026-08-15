@@ -1,0 +1,11 @@
+{
+    "component":  "SGODA-FASTPATH-EXECUTION",
+    "certified_plan":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/fastpath-plan.json",
+    "certified_index":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/institutional-index.json",
+    "previous_map":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-007-v1.0.7/global-deliverable-inventory-reconciled.json",
+    "candidates_processed":  27,
+    "already_closed":  21,
+    "needs_formalization":  6,
+    "incomplete":  0,
+    "final_pending":  0
+}
