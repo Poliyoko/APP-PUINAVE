@@ -1,0 +1,29 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-007",
+    "version":  "1.0.7",
+    "baseline":  "aac254aaf13a45d8d633dfcdfdf7631beb4d378b",
+    "spt007_close_inputs":  [
+                                "SGODA-SPT007-FORMALIZE-CLOSE.ps1",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/implementation-evidence.json",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-evidence-recertification.json",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-formalization-close-assessment.json",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-formalization-close-coverage.json",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-formalization-close-sha256-manifest.json",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-formalization-quality-gate.json",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-historical-traceability.json",
+                                "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-release-artifact-recertification.json",
+                                "docs/00_Estado_Maestro/ACT-SPT-007-FORMALIZATION-CLOSE-v1.0.0.md",
+                                "docs/06_Tecnologia/SPT-007/SGD-SPT007-FORMALIZATION-CLOSE-v1.0.0.md"
+                            ],
+    "correction":  {
+                       "deliverable":  "SPT-007",
+                       "from":  "IMPLEMENTED_OR_DOCUMENTED",
+                       "to":  "CLOSED",
+                       "reopen":  false
+                   },
+    "pending_before":  28,
+    "pending_after":  27,
+    "next_candidate":  "SPT-008",
+    "tag_created":  false,
+    "release_created":  false
+}
