@@ -1,0 +1,17 @@
+{
+    "component":  "SPT-008.FORMALIZE.CLOSE",
+    "baseline":  "fdb42c25aaf530c9d1b6a30d3baa85db88fed6f4",
+    "tracked_paths":  13,
+    "test_paths":  0,
+    "docs":  2,
+    "artifacts":  4,
+    "scripts":  1,
+    "source":  0,
+    "releases":  4,
+    "evidence_candidates":  8,
+    "pass_evidence":  2,
+    "implementation_markers":  6,
+    "historical_closure_markers":  0,
+    "historical_actas":  0,
+    "formalization_closure_created":  true
+}

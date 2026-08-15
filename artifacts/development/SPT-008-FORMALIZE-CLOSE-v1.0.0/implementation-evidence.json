@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-008.FORMALIZE.CLOSE",
+    "baseline":  "fdb42c25aaf530c9d1b6a30d3baa85db88fed6f4",
+    "purpose":  "FORMALIZE_EXISTING_HISTORICAL_IMPLEMENTATION_ONLY",
+    "prepare_consumed":  true,
+    "prepare_evidence_published":  true,
+    "implementation_rewritten":  false,
+    "historical_tests_recreated":  false,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false
+}

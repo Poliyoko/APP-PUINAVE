@@ -1,0 +1,49 @@
+{
+    "component":  "SPT-008",
+    "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+    "evidence_candidates":  [
+                                "artifacts/pmo/SPT-008/SPT-008-implementation-evidence.json",
+                                "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+                                "artifacts/pmo/SPT-008/SPT-008-policy-result.md",
+                                "artifacts/pmo/SPT-008/SPT-008-pre-gate-evidence.json",
+                                "releases/SPT-008-v1.0.0/SPT-008-component.json",
+                                "releases/SPT-008-v1.0.0/SPT-008-policy-result.json",
+                                "releases/SPT-008-v1.0.0/SPT-008-policy-result.md",
+                                "releases/SPT-008-v1.0.0/manifest.json"
+                            ],
+    "pass_evidence_files":  [
+                                "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+                                "releases/SPT-008-v1.0.0/SPT-008-policy-result.json"
+                            ],
+    "closure_markers":  [
+
+                        ],
+    "implementation_markers":  [
+                                   "Install-SPT007D-SPT008-SPT009-Integrated-Intelligence-Suite.ps1",
+                                   "artifacts/pmo/SPT-008/SPT-008-implementation-evidence.json",
+                                   "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+                                   "config/tutor/SPT-008-component.json",
+                                   "releases/SPT-008-v1.0.0/SPT-008-component.json",
+                                   "releases/SPT-008-v1.0.0/SPT-008-policy-result.json"
+                               ],
+    "prepare_markers":  [
+
+                        ],
+    "commit_history":  [
+                           "8ebaa631494c3f85f8e5e965c45f331b7b7d83bb|2026-08-02 15:29:57 -0500|feat(ai): implement SPT-007D SPT-008 SPT-009 integrated intelligence suite"
+                       ],
+    "tag_history":  [
+
+                    ],
+    "release_paths":  [
+                          "releases/SPT-008-v1.0.0/SPT-008-component.json",
+                          "releases/SPT-008-v1.0.0/SPT-008-policy-result.json",
+                          "releases/SPT-008-v1.0.0/SPT-008-policy-result.md",
+                          "releases/SPT-008-v1.0.0/manifest.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "destructive_cleanup":  false,
+    "repository_write":  false
+}

@@ -1,0 +1,16 @@
+{
+    "component":  "SPT-008.FORMALIZE.PREPARE",
+    "version":  "1.0.0",
+    "baseline":  "fdb42c25aaf530c9d1b6a30d3baa85db88fed6f4",
+    "audit_mode":  "READ_ONLY_REPOSITORY_AUDIT_WITH_LOCAL_EVIDENCE_OUTPUT",
+    "map_candidate":  "SPT-008",
+    "map_pending_before":  27,
+    "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+    "recommended_action":  "BUILD_FORMALIZATION_CLOSURE_PACKAGE",
+    "git_add":  false,
+    "commit":  false,
+    "push":  false,
+    "tag":  false,
+    "release":  false,
+    "destructive_cleanup":  false
+}

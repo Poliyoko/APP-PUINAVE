@@ -1,0 +1,22 @@
+{
+    "component":  "SPT-008",
+    "version":  "1.0.0",
+    "baseline":  "fdb42c25aaf530c9d1b6a30d3baa85db88fed6f4",
+    "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+    "reason":  "Implementation or historical evidence exists but explicit institutional closure coverage is insufficient.",
+    "recommended_action":  "BUILD_FORMALIZATION_CLOSURE_PACKAGE",
+    "tracked_path_count":  13,
+    "test_path_count":  0,
+    "evidence_count":  8,
+    "pass_evidence_count":  2,
+    "closure_marker_count":  0,
+    "implementation_marker_count":  6,
+    "prepare_marker_count":  0,
+    "commit_hit_count":  1,
+    "tag_hit_count":  0,
+    "release_path_count":  4,
+    "acta_path_count":  0,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false
+}

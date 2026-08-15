@@ -1,0 +1,39 @@
+{
+    "component":  "SPT-008.FORMALIZE.PREPARE",
+    "version":  "1.0.0",
+    "baseline":  "fdb42c25aaf530c9d1b6a30d3baa85db88fed6f4",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-008-FORMALIZE-PREPARE-v1.0.0/spt008-real-state-assessment.json",
+                        "sha256":  "1A08C79625266F44AE06CFB5B453CA6EE7F4E94EDEEDB5166D45D240A1E50FFB"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-008-FORMALIZE-PREPARE-v1.0.0/spt008-coverage-matrix.json",
+                        "sha256":  "726C5EDEF99B774940418E9977D7DB2CBFC00F32EE8668ECDED0FF7084A9D403"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-008-FORMALIZE-PREPARE-v1.0.0/spt008-evidence-inventory.json",
+                        "sha256":  "3D68ADB6CC0971B64A4CAD6414DA2D6C933E79B6C3D92259D5B0F6D4E25391DD"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-008-FORMALIZE-PREPARE-v1.0.0/spt008-commits-tags-releases.json",
+                        "sha256":  "FF50D27AB7D23C57656986623DC0549145E76D2AB2623080305FCB894601B7BF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-008-FORMALIZE-PREPARE-v1.0.0/spt008-dependency-sequence-audit.json",
+                        "sha256":  "27D7E857387D7D6964855BD620FEE2ED533D1ACD6CC6F8856616A2B31D11BF0E"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-008-FORMALIZE-PREPARE-v1.0.0/spt008-formalization-prepare.json",
+                        "sha256":  "AC669B439D7A667982945207DF2F5D3956FBED7D25F4EC0A450C68886E109464"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-008-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "67F863D1366C77467716DE20B4095D571E1D2619BD8B37647DD1DDD37D2F3C27"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-008/SGD-SPT008-FORMALIZE-PREPARE-Auditoria-Estado-Real.md",
+                        "sha256":  "2E036E5E719D125AD2A96CEF39178D373D1CE9E0C410146E0FFF1B0377146D01"
+                    }
+                ]
+}

@@ -1,0 +1,63 @@
+{
+    "component":  "SPT-008",
+    "version":  "1.0.0",
+    "baseline":  "fdb42c25aaf530c9d1b6a30d3baa85db88fed6f4",
+    "generated_at":  "2026-08-15T15:45:40-05:00",
+    "tracked_paths":  [
+                          "Install-SPT007D-SPT008-SPT009-Integrated-Intelligence-Suite.ps1",
+                          "artifacts/pmo/SPT-008/SPT-008-implementation-evidence.json",
+                          "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+                          "artifacts/pmo/SPT-008/SPT-008-policy-result.md",
+                          "artifacts/pmo/SPT-008/SPT-008-pre-gate-evidence.json",
+                          "config/tutor/SPT-008-component.json",
+                          "config/tutor/SPT-008-policy.json",
+                          "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md",
+                          "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md",
+                          "releases/SPT-008-v1.0.0/SPT-008-component.json",
+                          "releases/SPT-008-v1.0.0/SPT-008-policy-result.json",
+                          "releases/SPT-008-v1.0.0/SPT-008-policy-result.md",
+                          "releases/SPT-008-v1.0.0/manifest.json"
+                      ],
+    "tests":  [
+
+              ],
+    "docs":  [
+                 "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Rutas-Ejercicios-Retroalimentacion.md",
+                 "docs/05_Fase_Tecnologica/SPT-008/SPT-008-Tutor-Inteligente-Puinave.md"
+             ],
+    "artifacts":  [
+                      "artifacts/pmo/SPT-008/SPT-008-implementation-evidence.json",
+                      "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+                      "artifacts/pmo/SPT-008/SPT-008-policy-result.md",
+                      "artifacts/pmo/SPT-008/SPT-008-pre-gate-evidence.json"
+                  ],
+    "scripts":  [
+                    "Install-SPT007D-SPT008-SPT009-Integrated-Intelligence-Suite.ps1"
+                ],
+    "source":  [
+
+               ],
+    "releases":  [
+                     "releases/SPT-008-v1.0.0/SPT-008-component.json",
+                     "releases/SPT-008-v1.0.0/SPT-008-policy-result.json",
+                     "releases/SPT-008-v1.0.0/SPT-008-policy-result.md",
+                     "releases/SPT-008-v1.0.0/manifest.json"
+                 ],
+    "actas":  [
+
+              ],
+    "closure_marker_files":  [
+
+                             ],
+    "implementation_marker_files":  [
+                                        "Install-SPT007D-SPT008-SPT009-Integrated-Intelligence-Suite.ps1",
+                                        "artifacts/pmo/SPT-008/SPT-008-implementation-evidence.json",
+                                        "artifacts/pmo/SPT-008/SPT-008-policy-result.json",
+                                        "config/tutor/SPT-008-component.json",
+                                        "releases/SPT-008-v1.0.0/SPT-008-component.json",
+                                        "releases/SPT-008-v1.0.0/SPT-008-policy-result.json"
+                                    ],
+    "prepare_marker_files":  [
+
+                             ]
+}

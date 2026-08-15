@@ -1,0 +1,22 @@
+{
+    "component":  "SPT-008",
+    "baseline":  "fdb42c25aaf530c9d1b6a30d3baa85db88fed6f4",
+    "commits":  [
+                    "8ebaa631494c3f85f8e5e965c45f331b7b7d83bb|2026-08-02 15:29:57 -0500|feat(ai): implement SPT-007D SPT-008 SPT-009 integrated intelligence suite"
+                ],
+    "tags":  [
+
+             ],
+    "release_paths":  [
+                          "releases/SPT-008-v1.0.0/SPT-008-component.json",
+                          "releases/SPT-008-v1.0.0/SPT-008-policy-result.json",
+                          "releases/SPT-008-v1.0.0/SPT-008-policy-result.md",
+                          "releases/SPT-008-v1.0.0/manifest.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "tag_created":  false,
+    "release_created":  false,
+    "policy":  "AUDIT_EXISTING_ONLY"
+}
