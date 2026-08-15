@@ -1,0 +1,28 @@
+{
+    "component":  "SPT-004",
+    "baseline":  "4b9686412d4546a538969929b078acfcdc2f539d",
+    "commits":  [
+                    "fdfd33b33b8d6220e4d7b4799ae7bb92ceb1254b|2026-08-02 05:07:49 -0500|chore(assistant): publish SPT-004A evidence",
+                    "0819ef21e9a25e5b5e108e4313d2b42b3b46006a|2026-08-02 05:07:43 -0500|feat(assistant): implement SPT-004A institutional assistant foundation"
+                ],
+    "tags":  [
+
+             ],
+    "release_paths":  [
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Fundacion-Asistente-Institucional.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Identidad-Cultural-Pendiente.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Seguridad-Linguistica-Cultural.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-assistant-policy.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-component.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-faq.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-identity.json",
+                          "releases/SPT-004A-v0.1.0/demo-response.json",
+                          "releases/SPT-004A-v0.1.0/manifest.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "tag_created":  false,
+    "release_created":  false,
+    "policy":  "AUDIT_EXISTING_ONLY"
+}

@@ -1,0 +1,75 @@
+{
+    "component":  "SPT-004",
+    "version":  "1.0.0",
+    "baseline":  "4b9686412d4546a538969929b078acfcdc2f539d",
+    "generated_at":  "2026-08-15T01:45:40-05:00",
+    "tracked_paths":  [
+                          "artifacts/assistant/SPT-004A/demo-response.json",
+                          "artifacts/development/SPT-025.1-v1.0.1/spt004b-bible-resource-inventory.json",
+                          "artifacts/pmo/SPT-004A/SPT-004A-quality-gate.json",
+                          "artifacts/pmo/SPT-004A/implementation-evidence.json",
+                          "artifacts/pmo/SPT-004A/traceability-SPT-004A.json",
+                          "config/assistant/SPT-004A-assistant-policy.json",
+                          "config/assistant/SPT-004A-component.json",
+                          "config/assistant/SPT-004A-faq.json",
+                          "config/assistant/SPT-004A-identity.json",
+                          "dashboard/SPT-004A-dashboard.json",
+                          "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+                          "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md",
+                          "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Fundacion-Asistente-Institucional.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Identidad-Cultural-Pendiente.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Seguridad-Linguistica-Cultural.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-assistant-policy.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-component.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-faq.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-identity.json",
+                          "releases/SPT-004A-v0.1.0/demo-response.json",
+                          "releases/SPT-004A-v0.1.0/manifest.json"
+                      ],
+    "tests":  [
+
+              ],
+    "docs":  [
+                 "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Fundacion-Asistente-Institucional.md",
+                 "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Identidad-Cultural-Pendiente.md",
+                 "docs/05_Fase_Tecnologica/SPT-004/SPT-004A-Seguridad-Linguistica-Cultural.md"
+             ],
+    "artifacts":  [
+                      "artifacts/assistant/SPT-004A/demo-response.json",
+                      "artifacts/development/SPT-025.1-v1.0.1/spt004b-bible-resource-inventory.json",
+                      "artifacts/pmo/SPT-004A/SPT-004A-quality-gate.json",
+                      "artifacts/pmo/SPT-004A/implementation-evidence.json",
+                      "artifacts/pmo/SPT-004A/traceability-SPT-004A.json"
+                  ],
+    "scripts":  [
+
+                ],
+    "source":  [
+
+               ],
+    "releases":  [
+                     "releases/SPT-004A-v0.1.0/SPT-004A-Fundacion-Asistente-Institucional.md",
+                     "releases/SPT-004A-v0.1.0/SPT-004A-Identidad-Cultural-Pendiente.md",
+                     "releases/SPT-004A-v0.1.0/SPT-004A-Seguridad-Linguistica-Cultural.md",
+                     "releases/SPT-004A-v0.1.0/SPT-004A-assistant-policy.json",
+                     "releases/SPT-004A-v0.1.0/SPT-004A-component.json",
+                     "releases/SPT-004A-v0.1.0/SPT-004A-faq.json",
+                     "releases/SPT-004A-v0.1.0/SPT-004A-identity.json",
+                     "releases/SPT-004A-v0.1.0/demo-response.json",
+                     "releases/SPT-004A-v0.1.0/manifest.json"
+                 ],
+    "actas":  [
+
+              ],
+    "closure_marker_files":  [
+                                 "artifacts/pmo/SPT-004A/SPT-004A-quality-gate.json"
+                             ],
+    "implementation_marker_files":  [
+                                        "artifacts/pmo/SPT-004A/implementation-evidence.json",
+                                        "dashboard/SPT-004A-dashboard.json"
+                                    ],
+    "prepare_marker_files":  [
+
+                             ]
+}

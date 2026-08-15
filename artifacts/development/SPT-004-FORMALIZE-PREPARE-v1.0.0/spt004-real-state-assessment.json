@@ -1,0 +1,20 @@
+{
+    "component":  "SPT-004",
+    "version":  "1.0.0",
+    "baseline":  "4b9686412d4546a538969929b078acfcdc2f539d",
+    "real_state":  "ALREADY_CLOSED",
+    "reason":  "Historical closure markers and institutional evidence are present; commit or release history corroborates the closed state.",
+    "recommended_action":  "RECONCILE_MASTER_MAP_WITHOUT_REOPENING",
+    "tracked_path_count":  22,
+    "test_path_count":  0,
+    "evidence_count":  14,
+    "pass_evidence_count":  0,
+    "closure_marker_count":  1,
+    "commit_hit_count":  2,
+    "tag_hit_count":  0,
+    "release_path_count":  9,
+    "acta_path_count":  0,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false
+}

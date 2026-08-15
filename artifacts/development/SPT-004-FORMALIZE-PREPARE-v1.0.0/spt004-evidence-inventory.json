@@ -1,0 +1,56 @@
+{
+    "component":  "SPT-004",
+    "real_state":  "ALREADY_CLOSED",
+    "evidence_candidates":  [
+                                "artifacts/assistant/SPT-004A/demo-response.json",
+                                "artifacts/development/SPT-025.1-v1.0.1/spt004b-bible-resource-inventory.json",
+                                "artifacts/pmo/SPT-004A/SPT-004A-quality-gate.json",
+                                "artifacts/pmo/SPT-004A/implementation-evidence.json",
+                                "artifacts/pmo/SPT-004A/traceability-SPT-004A.json",
+                                "releases/SPT-004A-v0.1.0/SPT-004A-Fundacion-Asistente-Institucional.md",
+                                "releases/SPT-004A-v0.1.0/SPT-004A-Identidad-Cultural-Pendiente.md",
+                                "releases/SPT-004A-v0.1.0/SPT-004A-Seguridad-Linguistica-Cultural.md",
+                                "releases/SPT-004A-v0.1.0/SPT-004A-assistant-policy.json",
+                                "releases/SPT-004A-v0.1.0/SPT-004A-component.json",
+                                "releases/SPT-004A-v0.1.0/SPT-004A-faq.json",
+                                "releases/SPT-004A-v0.1.0/SPT-004A-identity.json",
+                                "releases/SPT-004A-v0.1.0/demo-response.json",
+                                "releases/SPT-004A-v0.1.0/manifest.json"
+                            ],
+    "pass_evidence_files":  [
+
+                            ],
+    "closure_markers":  [
+                            "artifacts/pmo/SPT-004A/SPT-004A-quality-gate.json"
+                        ],
+    "implementation_markers":  [
+                                   "artifacts/pmo/SPT-004A/implementation-evidence.json",
+                                   "dashboard/SPT-004A-dashboard.json"
+                               ],
+    "prepare_markers":  [
+
+                        ],
+    "commit_history":  [
+                           "fdfd33b33b8d6220e4d7b4799ae7bb92ceb1254b|2026-08-02 05:07:49 -0500|chore(assistant): publish SPT-004A evidence",
+                           "0819ef21e9a25e5b5e108e4313d2b42b3b46006a|2026-08-02 05:07:43 -0500|feat(assistant): implement SPT-004A institutional assistant foundation"
+                       ],
+    "tag_history":  [
+
+                    ],
+    "release_paths":  [
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Fundacion-Asistente-Institucional.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Identidad-Cultural-Pendiente.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-Seguridad-Linguistica-Cultural.md",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-assistant-policy.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-component.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-faq.json",
+                          "releases/SPT-004A-v0.1.0/SPT-004A-identity.json",
+                          "releases/SPT-004A-v0.1.0/demo-response.json",
+                          "releases/SPT-004A-v0.1.0/manifest.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "destructive_cleanup":  false,
+    "repository_write":  false
+}
