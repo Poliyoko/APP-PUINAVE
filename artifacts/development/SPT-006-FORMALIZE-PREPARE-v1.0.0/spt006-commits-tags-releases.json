@@ -1,0 +1,38 @@
+{
+    "component":  "SPT-006",
+    "baseline":  "ece5ef430c2a249b0094c3a289a08428bad211dd",
+    "commits":  [
+                    "8ce1ead868999a71530de63b8bcd6c3ac80897cd|2026-08-02 06:44:47 -0500|chore(language): publish SPT-006A v0.2.0 evidence",
+                    "f3b3b2167ba40aaedc11b49f8d46d0fea5224567|2026-08-02 06:44:41 -0500|feat(language): implement SPT-006A free local multilingual engine",
+                    "c445d748492260d73459bc00b04cb72c5870bd13|2026-08-02 06:17:37 -0500|chore(enrichment): publish SPT-006 evidence",
+                    "63b08ddfd35baff88fc44a7199e0595776b3c8e5|2026-08-02 06:17:30 -0500|feat(enrichment): implement SPT-006 multilingual multimedia pipeline"
+                ],
+    "tags":  [
+
+             ],
+    "release_paths":  [
+                          "releases/SPT-006-v0.1.0/SPT-006-Pipeline-Enriquecimiento-Multimedia.md",
+                          "releases/SPT-006-v0.1.0/SPT-006-Reproduccion-Automatica-Configurable.md",
+                          "releases/SPT-006-v0.1.0/SPT-006-Validacion-Linguistica-Cultural.md",
+                          "releases/SPT-006-v0.1.0/SPT-006-component.json",
+                          "releases/SPT-006-v0.1.0/SPT-006-enrichment-policy.json",
+                          "releases/SPT-006-v0.1.0/SPT-006-playback-policy.json",
+                          "releases/SPT-006-v0.1.0/manifest.json",
+                          "releases/SPT-006-v0.1.0/pipeline-summary.json",
+                          "releases/SPT-006A-v0.2.0/SPT-006A-Motor-Multilingue-Local-Gratuito.md",
+                          "releases/SPT-006A-v0.2.0/SPT-006A-Operacion-Offline.md",
+                          "releases/SPT-006A-v0.2.0/SPT-006A-Politica-Modelos-Licencias.md",
+                          "releases/SPT-006A-v0.2.0/SPT-006A-approved-free-models.json",
+                          "releases/SPT-006A-v0.2.0/SPT-006A-component.json",
+                          "releases/SPT-006A-v0.2.0/SPT-006A-free-local-policy.json",
+                          "releases/SPT-006A-v0.2.0/SPT-006A-locales.json",
+                          "releases/SPT-006A-v0.2.0/diagnostic.json",
+                          "releases/SPT-006A-v0.2.0/manifest.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "tag_created":  false,
+    "release_created":  false,
+    "policy":  "AUDIT_EXISTING_ONLY"
+}

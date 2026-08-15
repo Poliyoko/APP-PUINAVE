@@ -1,0 +1,36 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-006",
+    "version":  "1.0.6",
+    "baseline":  "ece5ef430c2a249b0094c3a289a08428bad211dd",
+    "spt006_prepare_inputs":  [
+                                  "SGODA-SPT006-FORMALIZE-PREPARE.ps1",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/spt006-real-state-assessment.json",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/spt006-coverage-matrix.json",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/spt006-evidence-inventory.json",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/spt006-commits-tags-releases.json",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/spt006-dependency-sequence-audit.json",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/spt006-formalization-prepare.json",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/spt006-prepare-sha256-manifest.json",
+                                  "artifacts/development/SPT-006-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                                  "docs/06_Tecnologia/SPT-006/SGD-SPT006-FORMALIZE-PREPARE-Auditoria-Estado-Real.md"
+                              ],
+    "previous_map_inputs":  [
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-005-v1.0.5/global-deliverable-inventory-reconciled.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-005-v1.0.5/global-deliverable-status-matrix-reconciled.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-005-v1.0.5/next-technological-deliverable-assessment-reconciled.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-005-v1.0.5/spt005-map-reconciliation-assessment.json",
+                                "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.0.5.md"
+                            ],
+    "correction":  {
+                       "deliverable":  "SPT-006",
+                       "from":  "IMPLEMENTED_OR_DOCUMENTED",
+                       "to":  "CLOSED",
+                       "reopen":  false,
+                       "justification":  "SPT-006 certified ALREADY_CLOSED by formalization PREPARE."
+                   },
+    "pending_before":  29,
+    "pending_after":  28,
+    "next_candidate":  "SPT-007",
+    "tag_created":  false,
+    "release_created":  false
+}
