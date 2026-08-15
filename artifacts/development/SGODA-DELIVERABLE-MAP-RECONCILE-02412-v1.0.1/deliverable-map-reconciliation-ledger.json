@@ -1,0 +1,32 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-02412",
+    "version":  "1.0.1",
+    "baseline":  "02a1485b02130834909e83a26321440ed78c0a80",
+    "prepare_inputs":  [
+                           "SGODA-SPT02412-FORMALIZE-PREPARE.ps1",
+                           "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-real-state-assessment.json",
+                           "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-coverage-matrix.json",
+                           "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-evidence-inventory.json",
+                           "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-commits-tags-releases.json",
+                           "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-formalization-prepare.json",
+                           "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-prepare-sha256-manifest.json",
+                           "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                           "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-FORMALIZE-PREPARE-Auditoria-Estado-Real.md"
+                       ],
+    "previous_map_inputs":  [
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/global-deliverable-inventory.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/global-deliverable-status-matrix.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/next-technological-deliverable-assessment.json",
+                                "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.0.0.md"
+                            ],
+    "correction":  {
+                       "deliverable":  "SPT-024.12",
+                       "from":  "IMPLEMENTED_OR_DOCUMENTED",
+                       "to":  "CLOSED",
+                       "reopen":  false,
+                       "justification":  "ALREADY_CLOSED certified by formalization PREPARE."
+                   },
+    "next_candidate":  "SPT-002",
+    "tag_created":  false,
+    "release_created":  false
+}

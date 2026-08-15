@@ -1,0 +1,79 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-02412",
+    "version":  "1.0.1",
+    "baseline":  "02a1485b02130834909e83a26321440ed78c0a80",
+    "records":  [
+                    {
+                        "path":  "SGODA-DELIVERABLE-MAP-RECONCILE-02412.ps1",
+                        "sha256":  "3A6E1B80C6BF28D0A1DF8ED2D4C6B1F5EC4DD97D5B068DBB9D413F4ACCCDCFB6"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/global-deliverable-inventory-reconciled.json",
+                        "sha256":  "B9880F958AED50EBCB56564A16A3410EB815C3BFA0153B7B2E204898841199E1"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/global-deliverable-status-matrix-reconciled.json",
+                        "sha256":  "E0C17A9488ED69142BF1338A5FE7D691A86882665F7DFE2AD7977C191D5A75A3"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/next-technological-deliverable-assessment-reconciled.json",
+                        "sha256":  "30B62D587A11D94958202F3062B848FC5591CF79D7057125A804EB6EFF7A84BE"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/spt02412-map-reconciliation-assessment.json",
+                        "sha256":  "FF866DE825171740A2576EBAECCA8FB32E42D0EA6D9C544E3C5598B41FBA54E0"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/deliverable-map-reconciliation-ledger.json",
+                        "sha256":  "816F67CF8BC6B6339A4450365A5397EC4A3605B85B55B72266875CF5B3AEC362"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/implementation-evidence.json",
+                        "sha256":  "E2C9CC29682C4BEE23900DDC088B8DE22F1179F53B766AE712568F51A763DE2D"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.0.1.md",
+                        "sha256":  "407D609E593BBBF75848A7D456A102C13138B1C70C8CDA9FC1C58BB8C520E882"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1.md",
+                        "sha256":  "DDA7E1F8D28844C73F7653832593897502CC641E2280B37B0420635D6238AB88"
+                    },
+                    {
+                        "path":  "SGODA-SPT02412-FORMALIZE-PREPARE.ps1",
+                        "sha256":  "B725B268A9651190318A6BC6E05BA95082D80743FB2B21741927952D0FB67DDB"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-real-state-assessment.json",
+                        "sha256":  "D897F3D7DA6AF6E19DEE61BDA5ECF14DBA24F098D883EAB290601747067E9D87"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-coverage-matrix.json",
+                        "sha256":  "068D5A7604521384DB8D99B96F934EA7C4BA3F24540890BAFEC795DB8D1B2428"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-evidence-inventory.json",
+                        "sha256":  "6F68675F36EC213B5EFC2A5D36FE93B164213DA584F2F8A1836BBEDD1D7329F2"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-commits-tags-releases.json",
+                        "sha256":  "018F141B99829C704E6BD8973FDCFB26771D8CE2518BCD8631430F4014C93A24"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-formalization-prepare.json",
+                        "sha256":  "CEF13781F49EFA19C2A39F67F63DA87F99FA4F54F0ACC853BD791879A934CC40"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-prepare-sha256-manifest.json",
+                        "sha256":  "D18CAAF590E2C028925F72641265668B694357D83A50A179F343D24C071BA65D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "72FB34C5A03097DE4B475E35302D36E5579393A0DA6F5C04DFF04E703FE6C35A"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-FORMALIZE-PREPARE-Auditoria-Estado-Real.md",
+                        "sha256":  "9A2CF3FBD228C9A8A674CDC3556EE868DFA7FCA562683043917AC53B84D9B1ED"
+                    }
+                ]
+}

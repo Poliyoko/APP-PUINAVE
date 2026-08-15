@@ -1,0 +1,18 @@
+{
+    "component":  "SPT-024.12",
+    "baseline":  "02a1485b02130834909e83a26321440ed78c0a80",
+    "commits":  [
+                    "17c728bff606870558e1a7158399b86d11c581e4|2026-08-11 22:29:07 -0500|feat(spt-024.12): close infrastructure governance hardening recertification layer 3",
+                    "20dba08be6c7b1034893b47b0edbfdd5082a69da|2026-08-11 22:18:36 -0500|feat(spt-024.12): implement advanced hardening services ports infrastructure change layer 2",
+                    "f44aa28ba66fe96c3e1a321c84c5d1e122e85262|2026-08-11 22:02:09 -0500|feat(spt-024.12): implement infrastructure configuration hardening exposure layer 1"
+                ],
+    "tags":  [
+
+             ],
+    "release_paths":  [
+
+                      ],
+    "tag_created":  false,
+    "release_created":  false,
+    "policy":  "AUDIT_EXISTING_ONLY"
+}

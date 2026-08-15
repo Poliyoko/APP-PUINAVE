@@ -1,0 +1,23 @@
+{
+    "component":  "SPT-024.12.FORMALIZE.PREPARE",
+    "baseline":  "02a1485b02130834909e83a26321440ed78c0a80",
+    "audit_mode":  "READ_ONLY_REPOSITORY_AUDIT_WITH_LOCAL_EVIDENCE_OUTPUT",
+    "real_state":  "ALREADY_CLOSED",
+    "recommended_action":  "RECONCILE_MASTER_MAP_WITHOUT_REOPENING",
+    "files_generated_locally":  [
+                                    "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-real-state-assessment.json",
+                                    "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-coverage-matrix.json",
+                                    "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-evidence-inventory.json",
+                                    "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-commits-tags-releases.json",
+                                    "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-formalization-prepare.json",
+                                    "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-prepare-sha256-manifest.json",
+                                    "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                                    "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-FORMALIZE-PREPARE-Auditoria-Estado-Real.md"
+                                ],
+    "git_add":  false,
+    "commit":  false,
+    "push":  false,
+    "tag":  false,
+    "release":  false,
+    "destructive_cleanup":  false
+}

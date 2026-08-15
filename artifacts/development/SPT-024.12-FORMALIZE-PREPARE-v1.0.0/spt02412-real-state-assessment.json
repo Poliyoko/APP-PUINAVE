@@ -1,0 +1,18 @@
+{
+    "component":  "SPT-024.12",
+    "version":  "1.0.0",
+    "baseline":  "02a1485b02130834909e83a26321440ed78c0a80",
+    "real_state":  "ALREADY_CLOSED",
+    "reason":  "Closure markers and institutional evidence are already present in tracked repository content.",
+    "recommended_action":  "RECONCILE_MASTER_MAP_WITHOUT_REOPENING",
+    "tracked_path_count":  59,
+    "test_path_count":  3,
+    "evidence_count":  19,
+    "closure_marker_count":  11,
+    "commit_hit_count":  3,
+    "tag_hit_count":  0,
+    "release_path_count":  0,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false
+}

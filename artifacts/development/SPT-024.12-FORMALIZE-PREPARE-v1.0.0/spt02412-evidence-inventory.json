@@ -1,0 +1,61 @@
+{
+    "component":  "SPT-024.12",
+    "real_state":  "ALREADY_CLOSED",
+    "closure_markers":  [
+                            "Invoke-SGODA-SPT02412-Capa1-FINAL-v1.0.0-PS51.ps1",
+                            "Invoke-SGODA-SPT02412-Capa2-FINAL-v1.0.0-PS51.ps1",
+                            "Invoke-SGODA-SPT02412-Capa3-FINAL-v1.0.0-PS51.ps1",
+                            "artifacts/development/SPT-024.12-Capa3-v1.0.0/closure-manifest.json",
+                            "artifacts/development/SPT-024.12-Capa3-v1.0.0/infrastructure-governance-assessment.json",
+                            "config/integration/spt02412/infrastructure-governance-closure-policy.json",
+                            "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-Capa1-Seguridad-Infraestructura-Configuracion-Hardening-Exposicion.md",
+                            "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-Capa2-Hardening-Operacional-Baselines-Servicios-Puertos-Cambios.md",
+                            "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-Capa3-Gobierno-Final-Infraestructura-Recertificacion-Cierre.md",
+                            "src/sgoda/integration/spt02412l3/closure.py",
+                            "tests/integration/test_spt02412_infrastructure_governance_closure_layer3.py"
+                        ],
+    "implementation_markers":  [
+                                   "Invoke-SGODA-SPT02412-Capa1-FINAL-v1.0.0-PS51.ps1",
+                                   "Invoke-SGODA-SPT02412-Capa2-FINAL-v1.0.0-PS51.ps1",
+                                   "Invoke-SGODA-SPT02412-Capa3-FINAL-v1.0.0-PS51.ps1",
+                                   "artifacts/development/SPT-024.12-Capa1-v1.0.0/implementation-evidence.json",
+                                   "artifacts/development/SPT-024.12-Capa2-v1.0.0/implementation-evidence.json",
+                                   "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-hardening-governance-assessment.json",
+                                   "artifacts/development/SPT-024.12-Capa2-v1.0.0/port-exposure-governance-baseline.json",
+                                   "artifacts/development/SPT-024.12-Capa2-v1.0.0/service-governance-baseline.json",
+                                   "artifacts/development/SPT-024.12-Capa3-v1.0.0/implementation-evidence.json",
+                                   "artifacts/development/SPT-024.12-Capa3-v1.0.0/infrastructure-governance-assessment.json",
+                                   "config/integration/spt02412/infrastructure-governance-closure-policy.json",
+                                   "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-Capa3-Gobierno-Final-Infraestructura-Recertificacion-Cierre.md",
+                                   "src/sgoda/integration/spt02412l2/audit.py",
+                                   "src/sgoda/integration/spt02412l2/port_governance.py",
+                                   "src/sgoda/integration/spt02412l2/service_governance.py",
+                                   "src/sgoda/integration/spt02412l3/__init__.py",
+                                   "tests/integration/test_spt02412_infrastructure_hardening_governance_layer2.py"
+                               ],
+    "prepare_markers":  [
+
+                        ],
+    "commit_history":  [
+                           "17c728bff606870558e1a7158399b86d11c581e4|2026-08-11 22:29:07 -0500|feat(spt-024.12): close infrastructure governance hardening recertification layer 3",
+                           "20dba08be6c7b1034893b47b0edbfdd5082a69da|2026-08-11 22:18:36 -0500|feat(spt-024.12): implement advanced hardening services ports infrastructure change layer 2",
+                           "f44aa28ba66fe96c3e1a321c84c5d1e122e85262|2026-08-11 22:02:09 -0500|feat(spt-024.12): implement infrastructure configuration hardening exposure layer 1"
+                       ],
+    "tag_history":  [
+
+                    ],
+    "release_paths":  [
+
+                      ],
+    "pass_evidence":  [
+                          "artifacts/development/SPT-024.12-Capa1-v1.0.0/implementation-evidence.json",
+                          "artifacts/development/SPT-024.12-Capa2-v1.0.0/implementation-evidence.json",
+                          "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-hardening-governance-assessment.json",
+                          "artifacts/development/SPT-024.12-Capa2-v1.0.0/port-exposure-governance-baseline.json",
+                          "artifacts/development/SPT-024.12-Capa2-v1.0.0/service-governance-baseline.json",
+                          "artifacts/development/SPT-024.12-Capa3-v1.0.0/implementation-evidence.json",
+                          "artifacts/development/SPT-024.12-Capa3-v1.0.0/infrastructure-governance-assessment.json"
+                      ],
+    "destructive_cleanup":  false,
+    "repository_write":  false
+}

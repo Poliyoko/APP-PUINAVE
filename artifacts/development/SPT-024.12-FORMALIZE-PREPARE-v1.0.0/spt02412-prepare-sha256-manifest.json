@@ -1,0 +1,35 @@
+{
+    "component":  "SPT-024.12.FORMALIZE.PREPARE",
+    "version":  "1.0.0",
+    "baseline":  "02a1485b02130834909e83a26321440ed78c0a80",
+    "records":  [
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-real-state-assessment.json",
+                        "sha256":  "D897F3D7DA6AF6E19DEE61BDA5ECF14DBA24F098D883EAB290601747067E9D87"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-coverage-matrix.json",
+                        "sha256":  "068D5A7604521384DB8D99B96F934EA7C4BA3F24540890BAFEC795DB8D1B2428"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-evidence-inventory.json",
+                        "sha256":  "6F68675F36EC213B5EFC2A5D36FE93B164213DA584F2F8A1836BBEDD1D7329F2"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-commits-tags-releases.json",
+                        "sha256":  "018F141B99829C704E6BD8973FDCFB26771D8CE2518BCD8631430F4014C93A24"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/spt02412-formalization-prepare.json",
+                        "sha256":  "CEF13781F49EFA19C2A39F67F63DA87F99FA4F54F0ACC853BD791879A934CC40"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-024.12-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "72FB34C5A03097DE4B475E35302D36E5579393A0DA6F5C04DFF04E703FE6C35A"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-024/SPT-024.12/SGD-SPT024.12-FORMALIZE-PREPARE-Auditoria-Estado-Real.md",
+                        "sha256":  "9A2CF3FBD228C9A8A674CDC3556EE868DFA7FCA562683043917AC53B84D9B1ED"
+                    }
+                ]
+}
