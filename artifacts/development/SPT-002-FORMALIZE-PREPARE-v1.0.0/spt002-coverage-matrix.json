@@ -1,0 +1,75 @@
+{
+    "component":  "SPT-002",
+    "version":  "1.0.0",
+    "baseline":  "2c661a7ec7f87516cd15a3202d2b02c954a1bfc1",
+    "generated_at":  "2026-08-15T00:58:18-05:00",
+    "tracked_paths":  [
+                          "Install-SPT002-ODA-Engine-Institutional.ps1",
+                          "artifacts/oda/SPT-002/oda-baseline-manifest.json",
+                          "artifacts/oda/SPT-002/oda-generation-event.json",
+                          "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+                          "artifacts/oda/SPT-002/oda-statistics.json",
+                          "artifacts/oda/SPT-002/oda-validation.json",
+                          "artifacts/pmo/SPT-002/SPT-002-quality-gate.json",
+                          "artifacts/pmo/SPT-002/implementation-evidence.json",
+                          "artifacts/pmo/SPT-002/traceability-SPT-002.json",
+                          "config/oda/SPT-002-component.json",
+                          "dashboard/SPT-002-dashboard.json",
+                          "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Arquitectura-ODA.md",
+                          "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Motor-Funcional-ODA.md",
+                          "releases/SPT-002-v0.1.0/manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-generation-event.json",
+                          "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+                          "releases/SPT-002-v0.1.0/oda-statistics.json",
+                          "releases/SPT-002-v0.1.0/oda-validation.json",
+                          "scripts/Invoke-SPT002-ODAEngine.ps1"
+                      ],
+    "tests":  [
+
+              ],
+    "docs":  [
+                 "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Arquitectura-ODA.md",
+                 "docs/05_Fase_Tecnologica/SPT-002/SPT-002-Motor-Funcional-ODA.md"
+             ],
+    "artifacts":  [
+                      "artifacts/oda/SPT-002/oda-baseline-manifest.json",
+                      "artifacts/oda/SPT-002/oda-generation-event.json",
+                      "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+                      "artifacts/oda/SPT-002/oda-statistics.json",
+                      "artifacts/oda/SPT-002/oda-validation.json",
+                      "artifacts/pmo/SPT-002/SPT-002-quality-gate.json",
+                      "artifacts/pmo/SPT-002/implementation-evidence.json",
+                      "artifacts/pmo/SPT-002/traceability-SPT-002.json"
+                  ],
+    "scripts":  [
+                    "Install-SPT002-ODA-Engine-Institutional.ps1",
+                    "scripts/Invoke-SPT002-ODAEngine.ps1"
+                ],
+    "source":  [
+
+               ],
+    "releases":  [
+                     "releases/SPT-002-v0.1.0/manifest.json",
+                     "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+                     "releases/SPT-002-v0.1.0/oda-generation-event.json",
+                     "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+                     "releases/SPT-002-v0.1.0/oda-statistics.json",
+                     "releases/SPT-002-v0.1.0/oda-validation.json"
+                 ],
+    "actas":  [
+
+              ],
+    "closure_marker_files":  [
+                                 "Install-SPT002-ODA-Engine-Institutional.ps1",
+                                 "artifacts/pmo/SPT-002/SPT-002-quality-gate.json"
+                             ],
+    "implementation_marker_files":  [
+                                        "Install-SPT002-ODA-Engine-Institutional.ps1",
+                                        "artifacts/pmo/SPT-002/implementation-evidence.json",
+                                        "dashboard/SPT-002-dashboard.json"
+                                    ],
+    "prepare_marker_files":  [
+
+                             ]
+}

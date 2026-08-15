@@ -1,0 +1,24 @@
+{
+    "component":  "SPT-002",
+    "baseline":  "2c661a7ec7f87516cd15a3202d2b02c954a1bfc1",
+    "commits":  [
+
+                ],
+    "tags":  [
+
+             ],
+    "release_paths":  [
+                          "releases/SPT-002-v0.1.0/manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-generation-event.json",
+                          "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+                          "releases/SPT-002-v0.1.0/oda-statistics.json",
+                          "releases/SPT-002-v0.1.0/oda-validation.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "tag_created":  false,
+    "release_created":  false,
+    "policy":  "AUDIT_EXISTING_ONLY"
+}

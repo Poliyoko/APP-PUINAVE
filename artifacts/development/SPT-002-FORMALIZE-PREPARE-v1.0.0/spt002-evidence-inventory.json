@@ -1,0 +1,54 @@
+{
+    "component":  "SPT-002",
+    "real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+    "evidence_candidates":  [
+                                "artifacts/oda/SPT-002/oda-baseline-manifest.json",
+                                "artifacts/oda/SPT-002/oda-generation-event.json",
+                                "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+                                "artifacts/oda/SPT-002/oda-statistics.json",
+                                "artifacts/oda/SPT-002/oda-validation.json",
+                                "artifacts/pmo/SPT-002/SPT-002-quality-gate.json",
+                                "artifacts/pmo/SPT-002/implementation-evidence.json",
+                                "artifacts/pmo/SPT-002/traceability-SPT-002.json",
+                                "releases/SPT-002-v0.1.0/manifest.json",
+                                "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+                                "releases/SPT-002-v0.1.0/oda-generation-event.json",
+                                "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+                                "releases/SPT-002-v0.1.0/oda-statistics.json",
+                                "releases/SPT-002-v0.1.0/oda-validation.json"
+                            ],
+    "pass_evidence_files":  [
+
+                            ],
+    "closure_markers":  [
+                            "Install-SPT002-ODA-Engine-Institutional.ps1",
+                            "artifacts/pmo/SPT-002/SPT-002-quality-gate.json"
+                        ],
+    "implementation_markers":  [
+                                   "Install-SPT002-ODA-Engine-Institutional.ps1",
+                                   "artifacts/pmo/SPT-002/implementation-evidence.json",
+                                   "dashboard/SPT-002-dashboard.json"
+                               ],
+    "prepare_markers":  [
+
+                        ],
+    "commit_history":  [
+
+                       ],
+    "tag_history":  [
+
+                    ],
+    "release_paths":  [
+                          "releases/SPT-002-v0.1.0/manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-generation-event.json",
+                          "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+                          "releases/SPT-002-v0.1.0/oda-statistics.json",
+                          "releases/SPT-002-v0.1.0/oda-validation.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "destructive_cleanup":  false,
+    "repository_write":  false
+}

@@ -1,0 +1,59 @@
+{
+    "component":  "SPT-002.FORMALIZE.CLOSE",
+    "version":  "1.0.0",
+    "baseline":  "2c661a7ec7f87516cd15a3202d2b02c954a1bfc1",
+    "generated_at":  "2026-08-15T01:08:53-05:00",
+    "release_paths":  [
+                          "releases/SPT-002-v0.1.0/manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+                          "releases/SPT-002-v0.1.0/oda-generation-event.json",
+                          "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+                          "releases/SPT-002-v0.1.0/oda-statistics.json",
+                          "releases/SPT-002-v0.1.0/oda-validation.json"
+                      ],
+    "release_records":  [
+                            {
+                                "path":  "releases/SPT-002-v0.1.0/manifest.json",
+                                "sha256":  "BE0DD4D63030647263FBFE6BCDA16FAAA755D416DF25186DB133097E82FDA87B",
+                                "size_bytes":  374
+                            },
+                            {
+                                "path":  "releases/SPT-002-v0.1.0/oda-baseline-manifest.json",
+                                "sha256":  "614F003E82F5C63F7E1379448DCD2D5F2E9E07FFAE62C61E47B5652FB98541AC",
+                                "size_bytes":  874
+                            },
+                            {
+                                "path":  "releases/SPT-002-v0.1.0/oda-generation-event.json",
+                                "sha256":  "FEAF20ED39D8004DC01C5110CAA9AD21C3BFE26AF64C6A8CC494526FB934AC8D",
+                                "size_bytes":  471
+                            },
+                            {
+                                "path":  "releases/SPT-002-v0.1.0/oda-repository-v0.1.0.json",
+                                "sha256":  "CA8E9836E63CECD6B0DF654027EB5EC630A40FD729A382E772BBC3FFD5D3F107",
+                                "size_bytes":  48209
+                            },
+                            {
+                                "path":  "releases/SPT-002-v0.1.0/oda-statistics.json",
+                                "sha256":  "4F073650FB754C2A2E3A52D7B7645DB121137DE8ECEA36C425FEA679A88FAB13",
+                                "size_bytes":  319
+                            },
+                            {
+                                "path":  "releases/SPT-002-v0.1.0/oda-validation.json",
+                                "sha256":  "2180E299956F7351A299922D077BFBCCC0196DA6E05C4541D6839AD6CBDA6F0D",
+                                "size_bytes":  488
+                            }
+                        ],
+    "artifact_paths":  [
+                           "artifacts/oda/SPT-002/oda-baseline-manifest.json",
+                           "artifacts/oda/SPT-002/oda-generation-event.json",
+                           "artifacts/oda/SPT-002/oda-repository-v0.1.0.json",
+                           "artifacts/oda/SPT-002/oda-statistics.json",
+                           "artifacts/oda/SPT-002/oda-validation.json",
+                           "artifacts/pmo/SPT-002/SPT-002-quality-gate.json",
+                           "artifacts/pmo/SPT-002/implementation-evidence.json",
+                           "artifacts/pmo/SPT-002/traceability-SPT-002.json"
+                       ],
+    "release_gate":  "PASS",
+    "tag_created":  false,
+    "release_created":  false
+}

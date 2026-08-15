@@ -1,0 +1,21 @@
+{
+    "component":  "SPT-002",
+    "version":  "1.0.0",
+    "baseline":  "2c661a7ec7f87516cd15a3202d2b02c954a1bfc1",
+    "previous_real_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+    "formalized_state":  "CLOSED",
+    "closure_type":  "HISTORICAL_INSTITUTIONAL_FORMALIZATION",
+    "prepare_consumed":  true,
+    "release_recertification":  "PASS",
+    "historical_traceability":  "PASS",
+    "formalization_quality_gate":  "PASS",
+    "historical_test_evidence":  "NOT_AVAILABLE",
+    "test_policy":  "DO_NOT_INVENT_OR_RECREATE_CLOSED_HISTORICAL_TESTS",
+    "tag_created":  false,
+    "release_created":  false,
+    "reopened":  false,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false,
+    "next_action":  "RECONCILE_MASTER_MAP_WITHOUT_REOPENING"
+}

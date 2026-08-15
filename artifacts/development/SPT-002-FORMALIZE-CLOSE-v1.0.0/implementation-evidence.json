@@ -1,0 +1,28 @@
+{
+    "component":  "SPT-002.FORMALIZE.CLOSE",
+    "version":  "1.0.0",
+    "baseline":  "2c661a7ec7f87516cd15a3202d2b02c954a1bfc1",
+    "prepare_outputs_consumed":  [
+                                     "SGODA-SPT002-FORMALIZE-PREPARE.ps1",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/spt002-real-state-assessment.json",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/spt002-coverage-matrix.json",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/spt002-evidence-inventory.json",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/spt002-commits-tags-releases.json",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/spt002-dependency-sequence-audit.json",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/spt002-formalization-prepare.json",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/spt002-prepare-sha256-manifest.json",
+                                     "artifacts/development/SPT-002-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                                     "docs/06_Tecnologia/SPT-002/SGD-SPT002-FORMALIZE-PREPARE-Auditoria-Estado-Real.md"
+                                 ],
+    "tracked_path_count":  20,
+    "release_path_count":  6,
+    "artifact_path_count":  8,
+    "closure_marker_count":  2,
+    "implementation_marker_count":  3,
+    "commit_hit_count":  0,
+    "tag_hit_count":  0,
+    "historical_test_evidence":  "NOT_AVAILABLE",
+    "formalization_only":  true,
+    "functional_change":  false,
+    "destructive_cleanup":  false
+}

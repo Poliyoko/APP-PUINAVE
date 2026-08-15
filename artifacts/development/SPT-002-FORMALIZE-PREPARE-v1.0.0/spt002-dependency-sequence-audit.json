@@ -1,0 +1,10 @@
+{
+    "component":  "SPT-002",
+    "baseline":  "2c661a7ec7f87516cd15a3202d2b02c954a1bfc1",
+    "spt001_related_paths":  5,
+    "spt003_to_005_related_paths":  35,
+    "post_spt002_commit_sample":  [
+
+                                  ],
+    "sequence_gate":  "PASS"
+}
