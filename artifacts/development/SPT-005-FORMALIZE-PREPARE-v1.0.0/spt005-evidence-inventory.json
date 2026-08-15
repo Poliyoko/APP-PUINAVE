@@ -1,0 +1,60 @@
+{
+    "component":  "SPT-005",
+    "real_state":  "ALREADY_CLOSED",
+    "evidence_candidates":  [
+                                "artifacts/identity/SPT-005/exports/api-identity.json",
+                                "artifacts/identity/SPT-005/exports/flutter-identity.json",
+                                "artifacts/identity/SPT-005/exports/web-identity.json",
+                                "artifacts/pmo/SPT-005/SPT-005-quality-gate.json",
+                                "artifacts/pmo/SPT-005/implementation-evidence.json",
+                                "artifacts/pmo/SPT-005/traceability-SPT-005.json",
+                                "releases/SPT-005-v0.1.0/SPT-005-Guia-Cambio-Nombre-Visible.md",
+                                "releases/SPT-005-v0.1.0/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+                                "releases/SPT-005-v0.1.0/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+                                "releases/SPT-005-v0.1.0/SPT-005-component.json",
+                                "releases/SPT-005-v0.1.0/SPT-005-identity-baseline.json",
+                                "releases/SPT-005-v0.1.0/SPT-005-identity-policy.json",
+                                "releases/SPT-005-v0.1.0/api-identity.json",
+                                "releases/SPT-005-v0.1.0/flutter-identity.json",
+                                "releases/SPT-005-v0.1.0/manifest.json",
+                                "releases/SPT-005-v0.1.0/web-identity.json"
+                            ],
+    "pass_evidence_files":  [
+
+                            ],
+    "closure_markers":  [
+                            "artifacts/pmo/SPT-005/SPT-005-quality-gate.json"
+                        ],
+    "implementation_markers":  [
+                                   "Install-SPT005-Configurable-Cultural-Identity.ps1",
+                                   "artifacts/pmo/SPT-005/implementation-evidence.json",
+                                   "dashboard/SPT-005-dashboard.json"
+                               ],
+    "prepare_markers":  [
+
+                        ],
+    "commit_history":  [
+                           "b6b1c08de5365dc69c56ee3457aca106cc82bcb6|2026-08-02 06:01:28 -0500|chore(identity): publish SPT-005 evidence",
+                           "58fbb38d04227a99e72d408d5001f7978421ec72|2026-08-02 06:01:23 -0500|feat(identity): implement SPT-005 configurable cultural identity"
+                       ],
+    "tag_history":  [
+
+                    ],
+    "release_paths":  [
+                          "releases/SPT-005-v0.1.0/SPT-005-Guia-Cambio-Nombre-Visible.md",
+                          "releases/SPT-005-v0.1.0/SPT-005-Protocolo-Aprobacion-Nombre-Puinave.md",
+                          "releases/SPT-005-v0.1.0/SPT-005-Sistema-Identidad-Cultural-Configurable.md",
+                          "releases/SPT-005-v0.1.0/SPT-005-component.json",
+                          "releases/SPT-005-v0.1.0/SPT-005-identity-baseline.json",
+                          "releases/SPT-005-v0.1.0/SPT-005-identity-policy.json",
+                          "releases/SPT-005-v0.1.0/api-identity.json",
+                          "releases/SPT-005-v0.1.0/flutter-identity.json",
+                          "releases/SPT-005-v0.1.0/manifest.json",
+                          "releases/SPT-005-v0.1.0/web-identity.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "destructive_cleanup":  false,
+    "repository_write":  false
+}

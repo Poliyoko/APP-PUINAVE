@@ -1,0 +1,15 @@
+{
+    "component":  "SPT-005.FORMALIZE.PREPARE",
+    "version":  "1.0.0",
+    "baseline":  "96e09ce7f28766a6fc555435ee1f5486744c336e",
+    "real_state":  "ALREADY_CLOSED",
+    "next_action":  "RECONCILE_MASTER_MAP_WITHOUT_REOPENING",
+    "if_already_closed":  "RECONCILE_MASTER_MAP_WITHOUT_REOPENING",
+    "if_pending_formalization":  "BUILD_FORMALIZATION_CLOSURE_PACKAGE",
+    "if_incomplete":  "IDENTIFY_AND_COMPLETE_MISSING_ELEMENTS",
+    "commit_allowed":  false,
+    "push_allowed":  false,
+    "tag_allowed":  false,
+    "release_allowed":  false,
+    "destructive_cleanup":  false
+}
