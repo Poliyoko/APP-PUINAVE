@@ -1,0 +1,32 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-002",
+    "version":  "1.0.2",
+    "baseline":  "2b123103c1bcdf31c2c34395d3f15587d0886d2b",
+    "spt002_close_inputs":  [
+                                "artifacts/development/SPT-002-FORMALIZE-CLOSE-v1.0.0/spt002-formalization-close-assessment.json",
+                                "artifacts/development/SPT-002-FORMALIZE-CLOSE-v1.0.0/spt002-formalization-close-coverage.json",
+                                "artifacts/development/SPT-002-FORMALIZE-CLOSE-v1.0.0/spt002-historical-traceability.json",
+                                "artifacts/development/SPT-002-FORMALIZE-CLOSE-v1.0.0/spt002-release-artifact-recertification.json",
+                                "artifacts/development/SPT-002-FORMALIZE-CLOSE-v1.0.0/implementation-evidence.json",
+                                "artifacts/development/SPT-002-FORMALIZE-CLOSE-v1.0.0/spt002-formalization-close-sha256-manifest.json",
+                                "docs/06_Tecnologia/SPT-002/SGD-SPT002-FORMALIZATION-CLOSE-v1.0.0.md",
+                                "docs/00_Estado_Maestro/ACT-SPT-002-FORMALIZATION-CLOSE-v1.0.0.md"
+                            ],
+    "previous_map_inputs":  [
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/global-deliverable-inventory-reconciled.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/global-deliverable-status-matrix-reconciled.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/next-technological-deliverable-assessment-reconciled.json",
+                                "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-02412-v1.0.1/spt02412-map-reconciliation-assessment.json",
+                                "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.0.1.md"
+                            ],
+    "correction":  {
+                       "deliverable":  "SPT-002",
+                       "from":  "IMPLEMENTED_OR_DOCUMENTED",
+                       "to":  "CLOSED",
+                       "reopen":  false,
+                       "justification":  "SPT-002 formalized as CLOSED by SPT-002.FORMALIZE.CLOSE."
+                   },
+    "next_candidate":  "SPT-003",
+    "tag_created":  false,
+    "release_created":  false
+}

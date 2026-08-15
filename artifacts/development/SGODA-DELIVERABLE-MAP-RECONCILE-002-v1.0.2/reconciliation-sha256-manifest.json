@@ -1,0 +1,43 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-002",
+    "version":  "1.0.2",
+    "baseline":  "2b123103c1bcdf31c2c34395d3f15587d0886d2b",
+    "records":  [
+                    {
+                        "path":  "SGODA-DELIVERABLE-MAP-RECONCILE-002.ps1",
+                        "sha256":  "8865212AD41B3C6218A8D65381F8AEA77583DFC363D333B28201DCEB51C4D22B"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-002-v1.0.2/global-deliverable-inventory-reconciled.json",
+                        "sha256":  "30F2633E002C56EA2748D2917F7232983FFCB5F7F0C986A8D1E646FD61A0DAEC"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-002-v1.0.2/global-deliverable-status-matrix-reconciled.json",
+                        "sha256":  "354BB4F04693D3E7D45B9A40B271D786E4C33917D938BCBD8B019FDCC3152C4A"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-002-v1.0.2/next-technological-deliverable-assessment-reconciled.json",
+                        "sha256":  "F01EA2FA3ADC72F50DDC48D293BBDF1242B7F4146B39F0E6760B926905A275DC"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-002-v1.0.2/spt002-map-reconciliation-assessment.json",
+                        "sha256":  "1968AF1642903801DB03D103F7EF623FD03E48A6E899FDEE7DDD60239D449B51"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-002-v1.0.2/deliverable-map-reconciliation-ledger.json",
+                        "sha256":  "F687BE6F4697A454CEC445B26838CBF1B6A0A1D28FD2C4EC152E37672BC64AD3"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-RECONCILE-002-v1.0.2/implementation-evidence.json",
+                        "sha256":  "DE01200BA1B36FE78B9C31E157FF7EC8761D34100FAAE34EF4E2CFC301B12D96"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.0.2.md",
+                        "sha256":  "B66B9AEE607E45113A188AE90DB4B09FC4E09AAE4F1169237066C4C163758581"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-DELIVERABLE-MAP-RECONCILE-002-v1.0.2.md",
+                        "sha256":  "BF05EE77D1E99A4A15ABC1A67AE61E904DB4A1689B580F218AE7CB0733F0A544"
+                    }
+                ]
+}
