@@ -1,0 +1,87 @@
+{
+    "component":  "SPT-007.FORMALIZE.CLOSE",
+    "version":  "1.0.0",
+    "baseline":  "2c7b9a67b477c2936d8e324739ef6db4813a2d9d",
+    "records":  [
+                    {
+                        "path":  "SGODA-SPT007-FORMALIZE-CLOSE.ps1",
+                        "sha256":  "788486A3285B310ECA0B2A0DF5A6D25604F7F19A21DD376A11A3CABA66EA7D44"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-formalization-close-assessment.json",
+                        "sha256":  "ECEE443236873BA8A5DBE176000A3FA520E14FC86EDFB5FAFF5AB916D07A49DC"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-formalization-close-coverage.json",
+                        "sha256":  "791F1C418139C37BB92ED4FA2A181FF81B0B60CCBA3BF43A365275CC1F3EA12F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-historical-traceability.json",
+                        "sha256":  "F01BE32B5E2092C63878B9313C50269B046D4D0055F3A927F5C189512A8EA944"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-release-artifact-recertification.json",
+                        "sha256":  "C395948BA5E61504EE6566BAEC6A1A06D46FDFB635FFAAACC628EDBBB557A0CF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-evidence-recertification.json",
+                        "sha256":  "B0F880C0BBC007C05F5694EC26818B9F8EB5EE9D1665BB828AD1015CBC7E7227"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/spt007-formalization-quality-gate.json",
+                        "sha256":  "76AA30755972D80FF4660EFBB94659D7420AE137DDD3606E9886019CA81348DF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-CLOSE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "74B63D9498C6E33FCA0716B789140F7465544A696F3EA47AF4F1CEC8743B2EB3"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-007/SGD-SPT007-FORMALIZATION-CLOSE-v1.0.0.md",
+                        "sha256":  "F0E0A3C0D5D43F2E97EC58C19402E3CF96790BD1562A9F44567F500E2BE91ADE"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SPT-007-FORMALIZATION-CLOSE-v1.0.0.md",
+                        "sha256":  "760C3247DE47A862712BB38423181C36C2C386DA9CB245A02406B466DCE5495F"
+                    },
+                    {
+                        "path":  "SGODA-SPT007-FORMALIZE-PREPARE.ps1",
+                        "sha256":  "7472F20CCB06B5FB353D6F7398AD542515194103F43AEE58F949AAED71406AE2"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/spt007-real-state-assessment.json",
+                        "sha256":  "8AAC3FDFB3488D54E21EFEA1E8836F764F34FEEDC282B6EF1A78BF8742AF1056"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/spt007-coverage-matrix.json",
+                        "sha256":  "6CC6F8CA07A82156BA80136086629DD460B3B66DBE71E2A3BEB7CB08A0BE9F06"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/spt007-evidence-inventory.json",
+                        "sha256":  "3803ED9CE56DDB33D43678FD66D743C3B43A4AEF48AFA6AEB155F80E5F24AD00"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/spt007-commits-tags-releases.json",
+                        "sha256":  "FB1CC4166BBEED92FDFE8F9CE17D657A153BC1F4C09B03136D90BB600A6A29D6"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/spt007-dependency-sequence-audit.json",
+                        "sha256":  "A00FF5887547C45A27AD2ADA59675F7BDBD57C0A60434D2AE2991439D407837D"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/spt007-formalization-prepare.json",
+                        "sha256":  "AA00D3CB808FCD73DD84C36ADB25AE48B16FEFDC7CEF95FF17439BDC4CB93EBF"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/spt007-prepare-sha256-manifest.json",
+                        "sha256":  "C50591FEBE8EDFDD846D318909CC150DB705DED325719DDBEFA2CBE0956D419F"
+                    },
+                    {
+                        "path":  "artifacts/development/SPT-007-FORMALIZE-PREPARE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "9B06BB7839B2835CF7DF9C441F690B0D4CE60FBF1DA796DE992AF1324D950E7D"
+                    },
+                    {
+                        "path":  "docs/06_Tecnologia/SPT-007/SGD-SPT007-FORMALIZE-PREPARE-Auditoria-Estado-Real.md",
+                        "sha256":  "3E3E822D8F2E199B2357C430279B7A38DB83D32DDFD82EFB25AFE430CA9A15B2"
+                    }
+                ]
+}

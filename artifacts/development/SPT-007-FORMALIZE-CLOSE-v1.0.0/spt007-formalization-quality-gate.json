@@ -1,0 +1,12 @@
+{
+    "component":  "SPT-007.FORMALIZE.CLOSE",
+    "baseline":  "2c7b9a67b477c2936d8e324739ef6db4813a2d9d",
+    "prepare_state":  "IMPLEMENTED_PENDING_FORMALIZATION",
+    "historical_test_evidence":  "AVAILABLE",
+    "historical_tests_recreated":  false,
+    "evidence_candidates":  95,
+    "pass_evidence":  9,
+    "release_paths":  72,
+    "commit_hits":  7,
+    "formalization_quality_gate":  "PASS"
+}

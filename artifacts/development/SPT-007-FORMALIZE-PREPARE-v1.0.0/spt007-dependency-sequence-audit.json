@@ -1,0 +1,29 @@
+{
+    "component":  "SPT-007",
+    "baseline":  "2c7b9a67b477c2936d8e324739ef6db4813a2d9d",
+    "spt001_to_006_related_paths":  249,
+    "spt008_to_019_related_paths":  505,
+    "post_spt007_commit_sample":  [
+                                      "2c7b9a67b477c2936d8e324739ef6db4813a2d9d|chore(institutional): reconcile SPT-006 as already closed",
+                                      "ece5ef430c2a249b0094c3a289a08428bad211dd|chore(institutional): reconcile SPT-005 as already closed",
+                                      "96e09ce7f28766a6fc555435ee1f5486744c336e|chore(institutional): reconcile SPT-004 as already closed",
+                                      "4b9686412d4546a538969929b078acfcdc2f539d|chore(institutional): reconcile SPT-003 as already closed",
+                                      "b66e8d4b68c78f9ac6d72f3f7a82b4cdef88ef66|chore(institutional): reconcile SPT-002 as formally closed",
+                                      "2b123103c1bcdf31c2c34395d3f15587d0886d2b|chore(spt-002): formalize historical institutional closure",
+                                      "2c661a7ec7f87516cd15a3202d2b02c954a1bfc1|chore(institutional): reconcile SPT-024.12 as already closed",
+                                      "02a1485b02130834909e83a26321440ed78c0a80|chore(institutional): update global deliverable map after master close",
+                                      "be6fe28a8324366a7a477169767cfdf64e61b0b3|chore(institutional): close master synchronization after R119",
+                                      "9d41156c2017e6139fe6e4146f318b84ddf9fe6d|fix(institutional): publish R119 master synchronization after final EOL rehash",
+                                      "4d463840b2bae0bbc6f18ea869f37e792b69d450|fix(institutional): recover PS51-safe master synchronization after SPT-025 closure",
+                                      "e2deea6e76657d281dbdbec6db338d12b261d585|feat(spt-025.close.2): close institutional replicable language platform program",
+                                      "31752ab2d4695ab05210c309a552940f9b176abe|audit(spt-025.close.1): certify replicability coverage and prepare institutional closure",
+                                      "34292e34d94cf2f79844a830faafa1dde3a0a813|feat(spt-025.16): recertify publication and approve final promotion gate",
+                                      "41d4a4f3475cabb5f405bfb84677d116ac8ded53|feat(spt-025.15): govern declarative package publication promotion and materialization registry",
+                                      "bb7d818664e46bf7be4bc0036872bc6197fc2a2a|feat(spt-025.14): validate composed configuration and declarative materialization gate",
+                                      "bfaf5615fc0352f32b53da46b44793c1decc8b4d|feat(spt-025.13): compose declarative instance configuration and resolve profiles",
+                                      "a9b2a24a470761b6aa046275cc6b2d0570b25fe0|feat(spt-025.12): validate templates profiles inheritance and configuration quality gates",
+                                      "60fb409bdaa21ee5953d93b4a8ae7ecbed14d27f|feat(spt-025.11): catalog reusable instance templates and configuration profiles",
+                                      "12d228f423d553f12eebccfee506926975c392d1|feat(spt-025.10): govern master instance registry package versions traceability lifecycle"
+                                  ],
+    "sequence_gate":  "PASS"
+}
