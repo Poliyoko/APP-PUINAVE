@@ -1,0 +1,11 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-003",
+    "authoritative_input_head":  "b66e8d4b68c78f9ac6d72f3f7a82b4cdef88ef66",
+    "spt003_prepare_consumed":  true,
+    "spt003_reopened":  false,
+    "pending_before":  32,
+    "pending_after":  31,
+    "next_candidate":  "SPT-004",
+    "destructive_cleanup":  false,
+    "production_change":  false
+}

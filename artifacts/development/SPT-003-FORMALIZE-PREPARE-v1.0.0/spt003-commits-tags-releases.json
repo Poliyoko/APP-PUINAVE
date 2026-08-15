@@ -1,0 +1,43 @@
+{
+    "component":  "SPT-003",
+    "baseline":  "b66e8d4b68c78f9ac6d72f3f7a82b4cdef88ef66",
+    "commits":  [
+                    "a51255a076efd2b0cf6874cb504ecbabb940b492|2026-08-02 04:48:51 -0500|chore(automation): publish SPT-003C evidence",
+                    "a5837d881312e1d332cb4cd2880093bb0bbbf00c|2026-08-02 04:48:46 -0500|feat(automation): implement SPT-003C controlled provider pilot",
+                    "f2b9a89aed2be4a39c6f543fc596c5424cad7b9b|2026-08-02 04:23:41 -0500|chore(automation): publish SPT-003B evidence",
+                    "2fbfa6378a8cb0dc66970c4d45e23deb3d453de2|2026-08-02 04:23:36 -0500|feat(automation): implement SPT-003B AI multimedia adapters",
+                    "2560793e851e06420416d891763f736ff8995bbf|2026-08-02 04:12:07 -0500|chore(automation): publish SPT-003A evidence",
+                    "49251df8fda69ac1359b1aa7105fab8e1d996aa9|2026-08-02 04:12:03 -0500|feat(automation): implement SPT-003A multimedia orchestrator"
+                ],
+    "tags":  [
+
+             ],
+    "release_paths":  [
+                          "releases/SPT-003A-v0.1.0/job-statistics.json",
+                          "releases/SPT-003A-v0.1.0/manifest.json",
+                          "releases/SPT-003A-v0.1.0/multimedia-jobs-planned-event.json",
+                          "releases/SPT-003A-v0.1.0/orchestrator-validation.json",
+                          "releases/SPT-003A-v0.1.0/planning-summary.json",
+                          "releases/SPT-003B-v0.1.0/SPT-003B-Adaptadores-IA-Multimedia.md",
+                          "releases/SPT-003B-v0.1.0/SPT-003B-Seguridad-Credenciales-Proveedores.md",
+                          "releases/SPT-003B-v0.1.0/SPT-003B-policy.json",
+                          "releases/SPT-003B-v0.1.0/SPT-003B-providers.example.json",
+                          "releases/SPT-003B-v0.1.0/manifest.json",
+                          "releases/SPT-003B-v0.1.0/multimedia-events.jsonl",
+                          "releases/SPT-003B-v0.1.0/processing-summary.json",
+                          "releases/SPT-003C-v0.1.0/SPT-003C-Piloto-Controlado-Proveedores.md",
+                          "releases/SPT-003C-v0.1.0/SPT-003C-Protocolo-Aprobacion-Cultural.md",
+                          "releases/SPT-003C-v0.1.0/SPT-003C-approval-template.json",
+                          "releases/SPT-003C-v0.1.0/SPT-003C-component.json",
+                          "releases/SPT-003C-v0.1.0/SPT-003C-pilot-policy.json",
+                          "releases/SPT-003C-v0.1.0/SPT-003C-pricing-template.json",
+                          "releases/SPT-003C-v0.1.0/manifest.json",
+                          "releases/SPT-003C-v0.1.0/pilot-summary.json"
+                      ],
+    "acta_paths":  [
+
+                   ],
+    "tag_created":  false,
+    "release_created":  false,
+    "policy":  "AUDIT_EXISTING_ONLY"
+}

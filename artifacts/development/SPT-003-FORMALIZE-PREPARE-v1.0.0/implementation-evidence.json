@@ -1,0 +1,15 @@
+{
+    "component":  "SPT-003.FORMALIZE.PREPARE",
+    "version":  "1.0.0",
+    "baseline":  "b66e8d4b68c78f9ac6d72f3f7a82b4cdef88ef66",
+    "audit_mode":  "READ_ONLY_REPOSITORY_AUDIT_WITH_LOCAL_EVIDENCE_OUTPUT",
+    "map_candidate":  "SPT-003",
+    "real_state":  "ALREADY_CLOSED",
+    "recommended_action":  "RECONCILE_MASTER_MAP_WITHOUT_REOPENING",
+    "git_add":  false,
+    "commit":  false,
+    "push":  false,
+    "tag":  false,
+    "release":  false,
+    "destructive_cleanup":  false
+}

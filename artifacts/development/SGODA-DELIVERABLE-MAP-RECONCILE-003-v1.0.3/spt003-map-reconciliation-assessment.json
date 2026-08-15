@@ -1,0 +1,17 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-RECONCILE-003",
+    "version":  "1.0.3",
+    "authoritative_input_head":  "b66e8d4b68c78f9ac6d72f3f7a82b4cdef88ef66",
+    "status":  "READY_FOR_PUBLICATION",
+    "spt003_real_state":  "ALREADY_CLOSED",
+    "spt003_previous_map_status":  "IMPLEMENTED_OR_DOCUMENTED",
+    "spt003_reconciled_status":  "CLOSED",
+    "spt003_reopened":  false,
+    "master_map_reconciliation":  "PASS",
+    "pending_deliverables_recalculated":  true,
+    "next_deliverable_candidate":  "SPT-004",
+    "next_action":  "AUDIT_NEXT_PENDING_DELIVERABLE",
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false
+}
