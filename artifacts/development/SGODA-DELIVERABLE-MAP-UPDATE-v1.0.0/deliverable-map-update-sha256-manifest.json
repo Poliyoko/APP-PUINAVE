@@ -1,0 +1,43 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-UPDATE",
+    "version":  "1.0.0",
+    "authoritative_input_head":  "be6fe28a8324366a7a477169767cfdf64e61b0b3",
+    "records":  [
+                    {
+                        "path":  "SGODA-DELIVERABLE-MAP-UPDATE.ps1",
+                        "sha256":  "F82FC5D798EFACBDAF22728B54F7755937740BBF85685597F9CC31CD5661D76F"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/deliverable-map-update-assessment.json",
+                        "sha256":  "B8B8ED2F3CEAC1A3A6ABE6FC6164255D348811316FD912B3262DDF41A6F230D0"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/global-deliverable-inventory.json",
+                        "sha256":  "9866931BB16565B9961E6616C85DD19B02B308C080DB7DCD6050760E9B824C6D"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/global-deliverable-status-matrix.json",
+                        "sha256":  "F1BA23E548F07114FEA4C0716BA1E6F9CF7E7AFC9C3F35B3E45DC5FA8263F174"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/deliverable-dependency-reconciliation.json",
+                        "sha256":  "287069D8E32AB9FDE359925D355E7EEC6E7EBB12CB50770C2A3CD534ABB7083E"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/next-technological-deliverable-assessment.json",
+                        "sha256":  "5FF92EEDFDEC2E66A40D4EB9E64476C43A1DDD818478C0C8536F9B45D7991D6D"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "2F0A9EA63D1727D20921CEFCE8A7A1023D39A0D9EBFE71B85F7EBA7483477981"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.0.0.md",
+                        "sha256":  "D7E97AF36B3AB20B11D631FC76B37EC2DAFB0F13A05F728A7906C5C40BC57F28"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-DELIVERABLE-MAP-UPDATE-v1.0.0.md",
+                        "sha256":  "C0443C91578B7C4AAFD4C8BB5675386EA266FCB96D75F7DE3A322E3B0599C546"
+                    }
+                ]
+}

@@ -1,0 +1,15 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-UPDATE",
+    "version":  "1.0.0",
+    "authoritative_input_head":  "be6fe28a8324366a7a477169767cfdf64e61b0b3",
+    "status":  "READY_FOR_PUBLICATION",
+    "master_close_consumed":  true,
+    "deliverable_inventory":  "PASS",
+    "status_matrix":  "PASS",
+    "master_governance_coverage":  "PASS",
+    "commits_tags_releases":  "PASS",
+    "next_deliverable_assessment":  "PASS",
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false
+}

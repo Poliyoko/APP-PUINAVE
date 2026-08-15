@@ -1,0 +1,14 @@
+{
+    "component":  "SGODA-DELIVERABLE-MAP-UPDATE",
+    "version":  "1.0.0",
+    "authoritative_input_head":  "be6fe28a8324366a7a477169767cfdf64e61b0b3",
+    "discovered_deliverables":  118,
+    "closed_or_formalized":  58,
+    "implemented_or_documented":  60,
+    "pending_spt_candidates":  34,
+    "next_decision":  "EXISTING_PENDING_DELIVERABLE_DETECTED",
+    "master_close_consumed":  true,
+    "tag_created":  false,
+    "release_created":  false,
+    "destructive_cleanup":  false
+}
