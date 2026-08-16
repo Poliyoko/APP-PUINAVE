@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1">
+
+<title>SGODA - Lengua Puinave</title>
+
+<style>
+
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  background: #f4f4ef;
+  color: #17201d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #153b32;
+  color: white;
+  padding: 28px;
+}
+
+header div {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.7rem;
+}
+
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 24px;
+}
+
+.browser,
+.detail {
+  background: white;
+  border-radius: 16px;
+  box-shadow:
+    0 8px 30px rgba(0,0,0,.06);
+}
+
+.browser {
+  overflow: hidden;
+}
+
+.toolbar {
+  padding: 18px;
+  border-bottom: 1px solid #e2e5e2;
+}
+
+#search {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1px solid #cbd1cd;
+  border-radius: 10px;
+}
+
+#counter {
+  margin-bottom: 0;
+  color: #66736e;
+}
+
+.word-list {
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.word {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #eceeea;
+  background: white;
+  text-align: left;
+  padding: 14px 18px;
+  cursor: pointer;
+}
+
+.word:hover,
+.word.active {
+  background: #edf5f1;
+}
+
+.word strong {
+  display: block;
+  font-size: 1.1rem;
+}
+
+.word span {
+  display: block;
+  margin-top: 3px;
+  color: #69746f;
+}
+
+.detail {
+  padding: 42px;
+  min-height: 520px;
+}
+
+.lexical-id {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #edf5f1;
+  border-radius: 999px;
+  color: #28584a;
+}
+
+.native {
+  font-size: 4rem;
+  margin: 18px 0 3px;
+}
+
+.pronunciation {
+  font-size: 1.35rem;
+  color: #67736e;
+}
+
+.label {
+  margin-top: 36px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #77827e;
+  font-size: .8rem;
+}
+
+.meaning {
+  margin-top: 6px;
+  font-size: 1.8rem;
+}
+
+.audio-box {
+  margin-top: 30px;
+  padding: 18px;
+  background: #f4f4ef;
+  border-radius: 14px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.navigation button {
+  padding: 10px 16px;
+  border: 1px solid #cad0cc;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+}
+
+.navigation button:disabled {
+  opacity: .4;
+  cursor: default;
+}
+
+@media (max-width: 760px) {
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .word-list {
+    max-height: 350px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div>
+
+<p>SGODA - Preservación y aprendizaje</p>
+
+<h1>Lengua Puinave</h1>
+
+<p>
+Ficha Lexica Digital - Piloto de 20 palabras
+</p>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="browser">
+
+<div class="toolbar">
+
+<input
+  id="search"
+  type="search"
+  placeholder="Buscar palabra, significado o ID">
+
+<p id="counter"></p>
+
+</div>
+
+<div
+  id="list"
+  class="word-list">
+</div>
+
+</section>
+
+<section
+  id="detail"
+  class="detail">
+
+Seleccione una palabra.
+
+</section>
+
+</main>
+
+<script>
+
+"use strict";
+
+let records = [];
+let filtered = [];
+let selectedId = null;
+
+const list =
+  document.getElementById("list");
+
+const detail =
+  document.getElementById("detail");
+
+const search =
+  document.getElementById("search");
+
+const counter =
+  document.getElementById("counter");
+
+
+function escapeHtml(value) {
+
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+
+function renderList() {
+
+  list.innerHTML = "";
+
+  counter.textContent =
+    filtered.length + " fichas";
+
+  filtered.forEach((item) => {
+
+    const button =
+      document.createElement("button");
+
+    button.type = "button";
+
+    button.className =
+      "word" +
+      (
+        item.lexical_id === selectedId
+          ? " active"
+          : ""
+      );
+
+    button.innerHTML =
+      "<strong>" +
+      escapeHtml(item.native_word) +
+      "</strong>" +
+      "<span>" +
+      escapeHtml(item.translation_es) +
+      "</span>" +
+      "<span>" +
+      escapeHtml(item.lexical_id) +
+      "</span>";
+
+    button.addEventListener(
+      "click",
+      function () {
+        showRecord(item.lexical_id);
+      }
+    );
+
+    list.appendChild(button);
+  });
+}
+
+
+function showRecord(id) {
+
+  const index =
+    records.findIndex(
+      function (item) {
+        return item.lexical_id === id;
+      }
+    );
+
+  if (index < 0) {
+    return;
+  }
+
+  selectedId = id;
+
+  const item = records[index];
+
+  const previous =
+    index > 0
+      ? records[index - 1]
+      : null;
+
+  const next =
+    index < records.length - 1
+      ? records[index + 1]
+      : null;
+
+  detail.innerHTML =
+    '<span class="lexical-id">' +
+    escapeHtml(item.lexical_id) +
+    '</span>' +
+
+    '<div class="native">' +
+    escapeHtml(item.native_word) +
+    '</div>' +
+
+    '<div class="pronunciation">' +
+    escapeHtml(item.native_pronunciation) +
+    '</div>' +
+
+    '<div class="label">' +
+    'Significado en español' +
+    '</div>' +
+
+    '<div class="meaning">' +
+    escapeHtml(item.translation_es) +
+    '</div>' +
+
+    '<div class="audio-box">' +
+    '<strong>Pronunciación en Puinave</strong>' +
+
+    '<audio controls preload="metadata" src="/api/audio/' +
+    encodeURIComponent(item.audio_file) +
+    '"></audio>' +
+
+    '</div>' +
+
+    '<div class="navigation">' +
+
+    '<button id="previous" ' +
+    (previous ? "" : "disabled") +
+    '>Anterior</button>' +
+
+    '<button id="next" ' +
+    (next ? "" : "disabled") +
+    '>Siguiente</button>' +
+
+    '</div>';
+
+  if (previous) {
+
+    document
+      .getElementById("previous")
+      .addEventListener(
+        "click",
+        function () {
+          showRecord(
+            previous.lexical_id
+          );
+        }
+      );
+  }
+
+  if (next) {
+
+    document
+      .getElementById("next")
+      .addEventListener(
+        "click",
+        function () {
+          showRecord(
+            next.lexical_id
+          );
+        }
+      );
+  }
+
+  renderList();
+}
+
+
+search.addEventListener(
+  "input",
+  function () {
+
+    const query =
+      search.value
+        .trim()
+        .toLowerCase();
+
+    filtered =
+      records.filter(
+        function (item) {
+
+          return (
+            item.native_word
+              .toLowerCase()
+              .includes(query)
+            ||
+            item.translation_es
+              .toLowerCase()
+              .includes(query)
+            ||
+            item.lexical_id
+              .toLowerCase()
+              .includes(query)
+          );
+        }
+      );
+
+    renderList();
+  }
+);
+
+
+async function start() {
+
+  const response =
+    await fetch("/api/lexicon");
+
+  if (!response.ok) {
+
+    detail.textContent =
+      "No fue posible cargar el lexico.";
+
+    return;
+  }
+
+  records =
+    await response.json();
+
+  filtered =
+    records.slice();
+
+  renderList();
+
+  if (records.length > 0) {
+
+    showRecord(
+      records[0].lexical_id
+    );
+  }
+}
+
+
+start();
+
+</script>
+
+</body>
+</html>

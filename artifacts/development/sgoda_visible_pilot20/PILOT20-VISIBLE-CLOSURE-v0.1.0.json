@@ -1,0 +1,77 @@
+{
+    "schema_version":  "1.0.2",
+    "component":  "SGODA Visible Pilot-20",
+    "version":  "0.1.0",
+    "status":  "CANDIDATE_CLOSED_PASS",
+    "validation":  {
+                       "canonical_records":  20,
+                       "visible_records":  20,
+                       "unique_lexical_ids":  20,
+                       "python_syntax":  "PASS",
+                       "pytest":  "5 PASSED",
+                       "http_validator":  {
+                                              "client":  "Python httpx",
+                                              "encoding":  "UTF-8",
+                                              "health":  "PASS",
+                                              "lexicon":  "20/20 PASS",
+                                              "canonical_field_match":  "20/20 PASS",
+                                              "audio":  "20/20 PASS"
+                                          },
+                       "powershell51_probe":  {
+                                                  "status":  "NOT_USED_AS_ACCEPTANCE_GATE",
+                                                  "reason":  "JSON array cardinality and UTF-8 decoding incompatibility"
+                                              },
+                       "visual_utf8":  {
+                                           "preservation":  "PASS",
+                                           "pronunciation":  "PASS",
+                                           "spanish":  "PASS"
+                                       },
+                       "manual_audio":  {
+                                            "PU_000001_AMDA":  "PASS",
+                                            "PU_000016_AU_Bachaco":  "PASS",
+                                            "PU_000017_AU_Cantar":  "PASS",
+                                            "PU_000020_ACARIG":  "PASS"
+                                        }
+                   },
+    "linguistic_identity":  {
+                                "PU_000001":  "AMDA / Huérfana",
+                                "PU_000016":  "AU / Bachaco",
+                                "PU_000017":  "AU / Cantar",
+                                "PU_000020":  "ÃCARIG / Morado para persona, animal o cosa",
+                                "all_20_compared_with_canonical_csv":  true,
+                                "status":  "PASS"
+                            },
+    "portability":  {
+                        "temporary_worktree_path_embedded":  false,
+                        "drive_audio_source_preserved":  true,
+                        "status":  "PASS"
+                    },
+    "products":  [
+                     {
+                         "path":  "src/sgoda/visible/README.md",
+                         "bytes":  377,
+                         "sha256":  "9AFDBC37548E4833E95EEC1DFC04C72EB48425CE6B6F733C8D426910D17C4A6F"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/index.html",
+                         "bytes":  7029,
+                         "sha256":  "4C065D525CE53BDA1D17D7B7DF924B5CC9A28D3963C51A496B0E65DD9849EF81"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/pilot20_api.py",
+                         "bytes":  3290,
+                         "sha256":  "4472A62029549F13D5B9DFB8BE689BE00A1CD5B3BB7D12D1E0BA7DBB448A4B8B"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/tests/test_pilot20_visible.py",
+                         "bytes":  1523,
+                         "sha256":  "DE49C3FA8FF1BE12F2C471D0C217AF9A32DB9DD2282330AD3B776E9040CFB325"
+                     }
+                 ],
+    "publication":  {
+                        "candidate_branch":  "feature/sgoda-visible-pilot20-20260816-174050",
+                        "previous_candidate_commit":  "a7ae9244f3e1af803066d8cab50a6c493c7bb3af",
+                        "master_modified":  false,
+                        "pushed":  false
+                    }
+}
