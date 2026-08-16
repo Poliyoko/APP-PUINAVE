@@ -1,0 +1,55 @@
+SGODA AUDIO MANAGER
+EVIDENCIA TECNICA DE CONSOLIDACION
+
+Version: v0.1.0
+Fecha: 2026-08-16 11:05:07
+Instancia piloto: SGODA-PUINAVE
+
+============================================================
+RESULTADOS
+============================================================
+
+Scripts permanentes: 5
+Sintaxis FAIL: 0
+
+Registros matriz: 20
+
+Recursos faltantes: 0
+Drive FAIL: 0
+Nombres invalidos: 0
+Lexical IDs duplicados: 0
+
+SHA WAV invalidos: 0
+SHA MP3 invalidos: 0
+
+Baseline comparison:
+Registros: 20
+Campos comparados: 36
+Diferencias: 0
+Faltantes: 0
+No esperados: 0
+Resultado: PASS
+
+Drive pilot:
+WAV: 20
+MP3: 20
+MASTER: 1
+Resultado: PASS
+
+Matriz tecnologica:
+CSV: C:\Users\Lida Silva Acevedo\Documents\SGODA_AudioManager\output\v0.1.0-pilot-20\MATRIZ_TECNOLOGICA_SGODA.csv
+JSON: C:\Users\Lida Silva Acevedo\Documents\SGODA_AudioManager\output\v0.1.0-pilot-20\MATRIZ_TECNOLOGICA_SGODA.json
+
+============================================================
+ESTADO
+============================================================
+
+CONSOLIDATION AUDIT: PASS
+OVERALL STATUS: PASS
+
+Clasificacion:
+CANDIDATO TECNICO PARA INCORPORACION INSTITUCIONAL
+
+Nota:
+audio_qc_status permanece separado del Quality Gate tecnologico.
+La aprobacion auditiva debe conservar trazabilidad propia.

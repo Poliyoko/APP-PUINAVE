@@ -1,0 +1,55 @@
+{
+    "schema_version":  "1.0.0",
+    "instance":  {
+                     "instance_id":  "SGODA-PUINAVE",
+                     "lexical_prefix":  "PU",
+                     "id_width":  6,
+                     "native_language":  {
+                                             "name":  "Puinave",
+                                             "code":  "pu"
+                                         },
+                     "primary_auxiliary_language":  {
+                                                        "name":  "Español",
+                                                        "code":  "es"
+                                                    },
+                     "auxiliary_languages":  [
+                                                 {
+                                                     "name":  "Español",
+                                                     "code":  "es"
+                                                 },
+                                                 {
+                                                     "name":  "Inglés",
+                                                     "code":  "en"
+                                                 },
+                                                 {
+                                                     "name":  "Italiano",
+                                                     "code":  "it"
+                                                 },
+                                                 {
+                                                     "name":  "Portugués",
+                                                     "code":  "pt"
+                                                 }
+                                             ],
+                     "production":  {
+                                        "batch_size":  20,
+                                        "sample_rate_hz":  48000,
+                                        "bit_depth":  24,
+                                        "channels":  1,
+                                        "native_wav_format":  "wav",
+                                        "distribution_format":  "mp3"
+                                    }
+                 },
+    "storage":  {
+                    "type":  "drive",
+                    "provider":  "google_drive",
+                    "root":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS",
+                    "folders":  {
+                                    "wav":  "WAV",
+                                    "mp3":  "MP3",
+                                    "master":  "MASTER"
+                                }
+                },
+    "naming":  {
+                   "pattern":  "{prefix}-{id}_{language}.{extension}"
+               }
+}

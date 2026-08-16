@@ -1,0 +1,13 @@
+# SGODA Audio Manager - Politica EOL institucional
+# Determinista para PowerShell 5.1, Git y CI/CD
+
+*.ps1  text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+
+*.json text eol=lf
+*.csv  text eol=lf
+*.txt  text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
