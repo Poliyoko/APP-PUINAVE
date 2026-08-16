@@ -1,0 +1,22 @@
+{
+    "component":  "SGODA_AudioManager",
+    "version":  "0.1.0",
+    "generated_at":  "2026-08-16T11:05:07-05:00",
+    "status":  "PASS",
+    "pilot":  {
+                  "records":  20,
+                  "wav":  20,
+                  "mp3":  20,
+                  "master":  1
+              },
+    "quality_gates":  {
+                          "syntax":  "PASS",
+                          "drive":  "PASS",
+                          "matrix":  "PASS",
+                          "consolidation":  "PASS"
+                      },
+    "evidence":  {
+                     "report":  "C:\\Users\\Lida Silva Acevedo\\Documents\\SGODA_AudioManager\\evidence\\v0.1.0\\20260816-110506\\SGODA_AudioManager-v0.1.0-EVIDENCE.txt",
+                     "hashes":  "C:\\Users\\Lida Silva Acevedo\\Documents\\SGODA_AudioManager\\evidence\\v0.1.0\\20260816-110506\\SGODA_AudioManager-v0.1.0-SHA256.csv"
+                 }
+}
