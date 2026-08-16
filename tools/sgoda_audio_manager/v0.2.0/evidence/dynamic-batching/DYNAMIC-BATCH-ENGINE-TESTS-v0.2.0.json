@@ -1,0 +1,94 @@
+{
+    "component":  "SGODA Audio Manager",
+    "version":  "0.2.0",
+    "capability":  "dynamic_batch_engine",
+    "baseline":  {
+                     "version":  "v0.1.0",
+                     "commit":  "b637cb8796b66142950a893e2a9458e15f9db878",
+                     "preserved":  true
+                 },
+    "batching":  {
+                     "cardinality":  "N",
+                     "batch_size_parameterized":  true,
+                     "formula":  "ceil(record_count / batch_size)",
+                     "partial_final_batch":  true
+                 },
+    "id_management":  {
+                          "modes":  [
+                                        "input",
+                                        "generate",
+                                        "input_or_generate"
+                                    ],
+                          "width_parameterized":  true,
+                          "prefix_parameterized":  true,
+                          "duplicate_detection":  true
+                      },
+    "tests":  [
+                  {
+                      "N":  1,
+                      "BatchSize":  20,
+                      "ExpectedBatches":  1,
+                      "ActualBatches":  1,
+                      "ExpectedLast":  1,
+                      "ActualLast":  1,
+                      "Status":  "PASS"
+                  },
+                  {
+                      "N":  19,
+                      "BatchSize":  20,
+                      "ExpectedBatches":  1,
+                      "ActualBatches":  1,
+                      "ExpectedLast":  19,
+                      "ActualLast":  19,
+                      "Status":  "PASS"
+                  },
+                  {
+                      "N":  20,
+                      "BatchSize":  20,
+                      "ExpectedBatches":  1,
+                      "ActualBatches":  1,
+                      "ExpectedLast":  20,
+                      "ActualLast":  20,
+                      "Status":  "PASS"
+                  },
+                  {
+                      "N":  21,
+                      "BatchSize":  20,
+                      "ExpectedBatches":  2,
+                      "ActualBatches":  2,
+                      "ExpectedLast":  1,
+                      "ActualLast":  1,
+                      "Status":  "PASS"
+                  },
+                  {
+                      "N":  1000,
+                      "BatchSize":  20,
+                      "ExpectedBatches":  50,
+                      "ActualBatches":  50,
+                      "ExpectedLast":  20,
+                      "ActualLast":  20,
+                      "Status":  "PASS"
+                  },
+                  {
+                      "N":  1003,
+                      "BatchSize":  20,
+                      "ExpectedBatches":  51,
+                      "ActualBatches":  51,
+                      "ExpectedLast":  3,
+                      "ActualLast":  3,
+                      "Status":  "PASS"
+                  }
+              ],
+    "large_scale_control":  {
+                                "generated_ids":  1003,
+                                "first_id":  "LX-000001",
+                                "last_id":  "LX-001003",
+                                "duplicates":  0,
+                                "status":  "PASS"
+                            },
+    "publication":  {
+                        "git_add":  false,
+                        "commit":  false,
+                        "push":  false
+                    }
+}

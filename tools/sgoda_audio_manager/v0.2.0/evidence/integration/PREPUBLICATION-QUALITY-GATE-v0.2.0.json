@@ -1,0 +1,104 @@
+{
+    "component":  "SGODA Audio Manager",
+    "version":  "0.2.0",
+    "status":  "PREPUBLICATION_PASS",
+    "architecture":  {
+                         "id_manager":  "PASS",
+                         "dynamic_batch_engine":  "PASS",
+                         "massive_drive_validator":  "PASS",
+                         "linguistic_integrity":  "PASS",
+                         "integrated_pipeline":  "PASS"
+                     },
+    "id_resolution":  {
+                          "input":  true,
+                          "generate":  true,
+                          "input_or_generate":  true,
+                          "linguistic_validator_uses_same_id_engine":  true
+                      },
+    "regression":  {
+                       "linguistic_negative":  "PASS",
+                       "pilot_20":  "PASS",
+                       "pilot_ready":  20,
+                       "scale_records":  1003,
+                       "scale_batches":  51,
+                       "scale_linguistic_ids":  1003,
+                       "scale_status":  "PASS"
+                   },
+    "baseline":  {
+                     "version":  "v0.1.0",
+                     "commit":  "b637cb8796b66142950a893e2a9458e15f9db878",
+                     "preserved":  true
+                 },
+    "repository":  {
+                       "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                       "head":  "b637cb8796b66142950a893e2a9458e15f9db878",
+                       "staged":  0
+                   },
+    "candidate_files":  [
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/config/instance.pilot.validation.json",
+                                "bytes":  4398,
+                                "sha256":  "5F7557B8E2625F5332A88D0D9101CFC3315B2E0FABE1AE337FD7C415BA3BCB08"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/config/instance.template.json",
+                                "bytes":  3562,
+                                "sha256":  "F2C6ADB3F40623E0DCAE557EB483F5C9E037B8947F402D92A84832BC1DCB1A5B"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/evidence/dynamic-batching/DYNAMIC-BATCH-ENGINE-TESTS-v0.2.0.json",
+                                "bytes":  3504,
+                                "sha256":  "849D0F8994E4E34C514710E123F4BA8F93BF8C3977CDE527C85BF46B8D321E54"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/evidence/integration/PREPUBLICATION-QUALITY-GATE-v0.2.0.json",
+                                "bytes":  5999,
+                                "sha256":  "4D28A1B239FB2012C77CDC74777AC5F65CB613119EE0065999A573D7F64F27E2"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/evidence/massive-drive-validator/MASSIVE-INPUT-DRIVE-VALIDATOR-TESTS-v0.2.0.json",
+                                "bytes":  2893,
+                                "sha256":  "50B31A5C7740495FD1A868B0E029C0B9448FB3D5D566538D6F54A21667288A96"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/evidence/prepare/SCALING-PREPARE-v0.2.0.json",
+                                "bytes":  1662,
+                                "sha256":  "28833B0C79C44709E785F2573A14CCC34322A6AED8D9E0FBF9776BF2231BC1B2"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/prepare/BASELINE-v0.1.0-FREEZE.json",
+                                "bytes":  4869,
+                                "sha256":  "37E4EF12E42CCEB7EBC8A132AFD2968DD800912A4E75B825B6E7FD29B6519D5C"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/schema/input-n-records.schema.json",
+                                "bytes":  1930,
+                                "sha256":  "F6540AF438F0BBC1E49B8E37F7DC295A205A58D17CCEA1A8FFABD24D6326E319"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Invoke-SGODAAudioProductionPipeline.ps1",
+                                "bytes":  3433,
+                                "sha256":  "680C6221B3A3BCEA444D1A1A0CCF24587C695BD4FA9EDBE6EA6FDC80CE97C9D8"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/New-SGODADynamicBatchPlan.ps1",
+                                "bytes":  2133,
+                                "sha256":  "8109A9171C8BEB600BCA2B1113C2FBA823BC6A8917E66F24FF5D7DDB1B7A1972"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Resolve-SGODALexicalIds.ps1",
+                                "bytes":  1911,
+                                "sha256":  "ACC524D3FF65A4666BE3CADCA203F9A9F0C03B26021608EB979CBAC9FE54745B"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Test-SGODALinguisticIntegrity.ps1",
+                                "bytes":  4993,
+                                "sha256":  "A400D72DF55BEC1F496F4D8D99F7A32B8463C137DB55DCFB8F523B9BA69DE812"
+                            },
+                            {
+                                "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Test-SGODAMassiveDrive.ps1",
+                                "bytes":  17089,
+                                "sha256":  "DD3632078393224358C86E97D9FD6A73F0AD78D4111359466D09CF6320FC0794"
+                            }
+                        ]
+}

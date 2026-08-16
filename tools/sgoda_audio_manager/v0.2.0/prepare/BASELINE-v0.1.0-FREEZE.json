@@ -1,0 +1,78 @@
+{
+    "component":  "SGODA Audio Manager",
+    "baseline_version":  "v0.1.0",
+    "baseline_commit":  "b637cb8796b66142950a893e2a9458e15f9db878",
+    "baseline_tree":  "5ce0f2dd35853e16d165867920c228563848e7ac",
+    "baseline_file_count":  16,
+    "baseline_files":  [
+                           {
+                               "path":  "tools/sgoda_audio_manager/.gitattributes",
+                               "git_blob_sha1":  "28f471ba9994a7fa061af51245ce28e9341c38c7"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/backups/v0.1.0-20260816-105614/scripts-v0.1.0-sha256.csv",
+                               "git_blob_sha1":  "82febcb77b67d43cf52d0fff73169465b5108135"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/config/instance.puinave.pilot.json",
+                               "git_blob_sha1":  "d7eb8af44fae70e25efc46e55b71c59349c90892"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/evidence/v0.1.0/20260816-110506/SGODA_AudioManager-v0.1.0-EVIDENCE.txt",
+                               "git_blob_sha1":  "9e791fd264a57f9ba5d70373c401d4452f485a25"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/evidence/v0.1.0/20260816-110506/SGODA_AudioManager-v0.1.0-MANIFEST.json",
+                               "git_blob_sha1":  "bf2ca7e8b6f3eddd37d80c96c12c1992a8c3bcf8"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/evidence/v0.1.0/20260816-110506/SGODA_AudioManager-v0.1.0-SHA256.csv",
+                               "git_blob_sha1":  "f070e8303ee0fb0af3dcb5421f4e3666f2e4a3a1"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/input/entrada_minima_puinave_20.csv",
+                               "git_blob_sha1":  "bd17c1cae7ca0315efc14cd62fc8e2750da56200"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/output/pilot-20/MATRIZ_TECNOLOGICA_SGODA.csv",
+                               "git_blob_sha1":  "3742d95a69293760396aa8710369fda2e1e3e25d"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/output/pilot-20/MATRIZ_TECNOLOGICA_SGODA.json",
+                               "git_blob_sha1":  "1f3d81904907278b9317be421608a6170494bff1"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/output/v0.1.0-pilot-20/MATRIZ_TECNOLOGICA_SGODA.csv",
+                               "git_blob_sha1":  "6bee3e96a0d34648584029bfa8d56c8a6d3cb2d3"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/output/v0.1.0-pilot-20/MATRIZ_TECNOLOGICA_SGODA.json",
+                               "git_blob_sha1":  "50b38f6e57b22718cac06e2546991d55be4ef272"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/scripts/Import-SGODAInput.ps1",
+                               "git_blob_sha1":  "e553d6b57abdf2e1b4ace1333aa915a6daffeb7c"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/scripts/Invoke-SGODAAudioManager.ps1",
+                               "git_blob_sha1":  "ae9125e55761be49efe59f50b071bccd6662b861"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/scripts/New-SGODATechnologyMatrix.ps1",
+                               "git_blob_sha1":  "0d9f2650c437261ea873e5c6747e444cfa86e689"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/scripts/Test-SGODADriveAudio.ps1",
+                               "git_blob_sha1":  "9c78b2e2bd511aaa1d72fc861557f7243dc07e5d"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.1.0/scripts/Test-SGODATechnologyMatrix.ps1",
+                               "git_blob_sha1":  "4f7bdd8fee54be7895a2394030a8788a214238bd"
+                           }
+                       ],
+    "protection":  {
+                       "v010_must_not_be_modified":  true,
+                       "development_target":  "v0.2.0",
+                       "strategy":  "additive_non_destructive"
+                   }
+}

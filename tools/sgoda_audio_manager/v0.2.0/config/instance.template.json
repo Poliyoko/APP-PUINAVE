@@ -1,0 +1,76 @@
+{
+    "schema_version":  "2.0.0",
+    "engine":  {
+                   "component":  "SGODA_AudioManager",
+                   "version":  "0.2.0",
+                   "mode":  "instance_driven"
+               },
+    "instance":  {
+                     "instance_id":  "${INSTANCE_ID}",
+                     "lexical_prefix":  "${LEXICAL_PREFIX}",
+                     "id_width":  6,
+                     "native_language":  {
+                                             "name":  "${NATIVE_LANGUAGE_NAME}",
+                                             "code":  "${NATIVE_LANGUAGE_CODE}"
+                                         },
+                     "primary_auxiliary_language":  {
+                                                        "name":  "${PRIMARY_AUXILIARY_LANGUAGE_NAME}",
+                                                        "code":  "${PRIMARY_AUXILIARY_LANGUAGE_CODE}"
+                                                    },
+                     "auxiliary_languages":  [
+
+                                             ]
+                 },
+    "input":  {
+                  "type":  "csv",
+                  "record_count_mode":  "dynamic",
+                  "expected_record_count":  null,
+                  "minimum_records":  1,
+                  "columns":  {
+                                  "id":  "ID",
+                                  "native_word_template":  "PALABRA EN {NATIVE_LANGUAGE}",
+                                  "native_pronunciation_template":  "PRONUNCIACION EN {NATIVE_LANGUAGE}",
+                                  "native_audio_template":  "AUDIO EN {NATIVE_LANGUAGE}",
+                                  "primary_translation_template":  "PALABRA EN {PRIMARY_AUXILIARY_LANGUAGE}"
+                              },
+                  "id_mode":  "input_or_generate",
+                  "generated_id_start":  1,
+                  "generated_id_source":  "instance.lexical_prefix + sequence"
+              },
+    "production":  {
+                       "batch_mode":  "dynamic",
+                       "batch_size":  20,
+                       "allow_partial_final_batch":  true,
+                       "maximum_records":  null,
+                       "audio":  {
+                                     "sample_rate_hz":  48000,
+                                     "bit_depth":  24,
+                                     "channels":  1,
+                                     "master_format":  "wav",
+                                     "distribution_format":  "mp3"
+                                 }
+                   },
+    "storage":  {
+                    "type":  "drive",
+                    "provider":  "google_drive",
+                    "root":  "${DRIVE_ROOT}",
+                    "folders":  {
+                                    "wav":  "WAV",
+                                    "mp3":  "MP3",
+                                    "master":  "MASTER"
+                                }
+                },
+    "naming":  {
+                   "lexical_id_pattern":  "{prefix}-{id}",
+                   "audio_pattern":  "{prefix}-{id}_{language}.{extension}"
+               },
+    "validation":  {
+                       "require_unique_ids":  true,
+                       "require_contiguous_ids":  false,
+                       "require_native_audio":  true,
+                       "validate_sha256":  true,
+                       "validate_drive_resources":  true,
+                       "fail_on_duplicate_id":  true,
+                       "fail_on_missing_required_resource":  true
+                   }
+}

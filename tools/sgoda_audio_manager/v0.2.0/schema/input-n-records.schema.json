@@ -1,0 +1,43 @@
+{
+    "schema_version":  "2.0.0",
+    "schema_id":  "sgoda-audio-manager-input",
+    "cardinality":  {
+                        "mode":  "N",
+                        "minimum":  1,
+                        "maximum":  null
+                    },
+    "id":  {
+               "source":  "input_or_generate",
+               "type":  "string_or_integer",
+               "normalized_width_from_instance":  true,
+               "unique":  true,
+               "generation_start_source":  "instance.input.generated_id_start"
+           },
+    "required_semantic_fields":  [
+                                     "native_word",
+                                     "native_pronunciation",
+                                     "native_audio",
+                                     "primary_translation"
+                                 ],
+    "field_resolution":  {
+                             "native_word":  "instance + column template",
+                             "native_pronunciation":  "instance + column template",
+                             "native_audio":  "instance + column template",
+                             "primary_translation":  "instance + column template"
+                         },
+    "language_rules":  {
+                           "native_language_count_per_instance":  1,
+                           "auxiliary_language_count":  "0..N",
+                           "languages_hardcoded_in_engine":  false
+                       },
+    "batching":  {
+                     "batch_size_source":  "instance.production.batch_size",
+                     "batch_count_formula":  "ceil(record_count / batch_size)",
+                     "partial_final_batch_supported":  true
+                 },
+    "storage":  {
+                    "audio_source":  "drive",
+                    "drive_provider_source":  "instance.storage.provider",
+                    "drive_root_source":  "instance.storage.root"
+                }
+}
