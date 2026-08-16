@@ -1,0 +1,38 @@
+{
+    "prepare":  "SGODA Audio Manager v0.2.0 Scaling Preparation",
+    "status":  "PREPARED_NOT_PUBLISHED",
+    "repository":  {
+                       "branch_observed":  "feature/SPT-001A-rlb-schema-foundation",
+                       "head_observed":  "b637cb8796b66142950a893e2a9458e15f9db878",
+                       "default_branch":  "master",
+                       "baseline_in_default":  false,
+                       "branch_assessment":  "PUBLISHED_NOT_CONFIRMED_IN_DEFAULT",
+                       "no_branch_change_executed":  true
+                   },
+    "baseline":  {
+                     "version":  "v0.1.0",
+                     "commit":  "b637cb8796b66142950a893e2a9458e15f9db878",
+                     "tree":  "5ce0f2dd35853e16d165867920c228563848e7ac",
+                     "files":  16,
+                     "frozen":  true
+                 },
+    "scaling":  {
+                    "record_cardinality":  "N",
+                    "hardcoded_record_count":  false,
+                    "batch_size_parameterized":  true,
+                    "partial_final_batch_supported":  true,
+                    "native_language_parameterized":  true,
+                    "native_language_count_per_instance":  1,
+                    "auxiliary_languages":  "0..N",
+                    "drive_required_as_audio_source":  true
+                },
+    "safety":  {
+                   "git_add":  false,
+                   "commit":  false,
+                   "push":  false,
+                   "checkout":  false,
+                   "merge":  false,
+                   "rebase":  false,
+                   "v010_modified":  false
+               }
+}
