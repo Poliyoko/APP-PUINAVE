@@ -1,0 +1,39 @@
+{
+    "component":  "SGODA Audio Manager",
+    "version":  "0.2.0",
+    "institutional_integration":  {
+                                      "status":  "PASS",
+                                      "target_branch":  "master",
+                                      "target_baseline_commit":  "4b0fa50849c42c564df98cde5c7382c436681a3e",
+                                      "strategy":  "CHERRY_PICK_V010_THEN_V020"
+                                  },
+    "source":  {
+                   "v010_commit":  "b637cb8796b66142950a893e2a9458e15f9db878",
+                   "v020_commit":  "c1fe1ff2051a402e9784310810e674a503436ddf",
+                   "v020_tag":  "sgoda-audio-manager-v0.2.0"
+               },
+    "integrated":  {
+                       "v010_commit":  "4fa3379cc41784050240f0cda339e125a0b98f05",
+                       "v020_commit":  "1a9cbc3f1747de1804953b64a96b85116c7fa693"
+                   },
+    "pilot20":  {
+                    "records":  20,
+                    "ready":  20,
+                    "missing_wav":  0,
+                    "missing_mp3":  0,
+                    "missing_both":  0,
+                    "duplicate_ids":  0,
+                    "invalid_ids":  0,
+                    "invalid_names":  0,
+                    "unexpected_files":  0,
+                    "empty_files":  0,
+                    "status":  "PASS"
+                },
+    "safety":  {
+                   "original_branch_preserved":  true,
+                   "historical_pending_preserved":  true,
+                   "source_tags_modified":  false,
+                   "merge_of_feature_branch":  false,
+                   "cherry_pick_scope_only":  true
+               }
+}
