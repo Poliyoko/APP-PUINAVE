@@ -1,0 +1,20 @@
+{
+    "component":  "SGODA-FASTPATH-POSTEXEC-CERTIFY",
+    "version":  "1.0.0",
+    "baseline":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "status":  "PASS",
+    "fastpath_commit":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "candidates_processed":  27,
+    "already_closed_reconciled":  21,
+    "formalized_and_reconciled":  6,
+    "incomplete":  0,
+    "pending_before":  27,
+    "pending_after":  0,
+    "reopened_candidates":  0,
+    "historical_tests_recreated":  false,
+    "destructive_cleanup":  false,
+    "github_size_gate":  "PASS",
+    "next_action":  "FINAL_GLOBAL_DELIVERABLE_MAP_CLOSE",
+    "automatic_spt_creation":  false,
+    "generated_at":  "2026-08-15T20:28:00-05:00"
+}

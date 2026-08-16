@@ -1,0 +1,11 @@
+{
+    "component":  "SGODA-FASTPATH-POSTEXEC-CERTIFY",
+    "baseline":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "source_plan":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/fastpath-plan.json",
+    "source_index":  "artifacts/development/SGODA-FASTPATH-ORCHESTRATOR-v1.0.0/institutional-index.json",
+    "source_execution_ledger":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/fastpath-execution-ledger.json",
+    "source_final_status":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/global-deliverable-status-matrix-fastpath-final.json",
+    "source_final_next":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/next-technological-deliverable-assessment-fastpath-final.json",
+    "source_map_document":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Mapa-Global-Entregables-v1.1.0.md",
+    "result":  "PASS"
+}

@@ -1,0 +1,17 @@
+{
+    "component":  "SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE",
+    "baseline":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "source_final_inventory":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/global-deliverable-inventory-fastpath-final.json",
+    "source_final_status":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/global-deliverable-status-matrix-fastpath-final.json",
+    "source_final_next":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/next-technological-deliverable-assessment-fastpath-final.json",
+    "source_fastpath_ledger":  "artifacts/development/SGODA-FASTPATH-EXECUTION-v1.0.0/fastpath-execution-ledger.json",
+    "source_postexec_assessment":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-assessment.json",
+    "source_postexec_ledger":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-ledger.json",
+    "pending_before":  27,
+    "pending_after":  0,
+    "candidates_processed":  27,
+    "already_closed_reconciled":  21,
+    "formalized_and_reconciled":  6,
+    "incomplete":  0,
+    "result":  "PASS"
+}

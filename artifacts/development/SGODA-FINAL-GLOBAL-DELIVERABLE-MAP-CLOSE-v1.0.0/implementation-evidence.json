@@ -1,0 +1,18 @@
+{
+    "component":  "SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE",
+    "baseline":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "fastpath_execution_integrity":  "PASS",
+    "postexec_sha256_recertification":  "PASS",
+    "github_size_gate":  "PASS",
+    "security_gate":  "PASS",
+    "destructive_cleanup":  false,
+    "postexec_certification_inputs":  [
+                                          "SGODA-FASTPATH-POSTEXEC-CERTIFY.ps1",
+                                          "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-assessment.json",
+                                          "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-ledger.json",
+                                          "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/implementation-evidence.json",
+                                          "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-sha256-manifest.json",
+                                          "docs/00_Estado_Maestro/SGODA-FASTPATH-POSTEXEC-CERTIFICATION-v1.0.0.md",
+                                          "docs/00_Estado_Maestro/ACT-SGODA-FASTPATH-POSTEXEC-CERTIFICATION-v1.0.0.md"
+                                      ]
+}

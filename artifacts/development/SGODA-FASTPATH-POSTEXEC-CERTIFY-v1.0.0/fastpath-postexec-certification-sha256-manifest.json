@@ -1,0 +1,31 @@
+{
+    "component":  "SGODA-FASTPATH-POSTEXEC-CERTIFY",
+    "version":  "1.0.0",
+    "baseline":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "records":  [
+                    {
+                        "path":  "SGODA-FASTPATH-POSTEXEC-CERTIFY.ps1",
+                        "sha256":  "AD4D4DC84252D1AA5F9180882E81EDD5BC944F454BA57FA54D37855BD74E4866"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-assessment.json",
+                        "sha256":  "070E0F0467D194572E04CD81C34E0A5DFDC6F57323C8ABC38661BAD15EF02E37"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-ledger.json",
+                        "sha256":  "883C9763BE3969544BBBE0AA24CE8B8E1EFB0917D1DECA22A4233A76B63A1EA1"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/implementation-evidence.json",
+                        "sha256":  "A570CEEBFA7EF70EC458A1A036F2BDDA31218393A747151FC2C02F95A320DEBC"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-FASTPATH-POSTEXEC-CERTIFICATION-v1.0.0.md",
+                        "sha256":  "DC59AE324382E771160585E98A514B92B21CC5EBB564BCADBDB26AB87CB2098A"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-FASTPATH-POSTEXEC-CERTIFICATION-v1.0.0.md",
+                        "sha256":  "B53D67C499BE8A1E5D33A1F5E1424E1AB26100B07A11BFF2543E6D692142A7C2"
+                    }
+                ]
+}

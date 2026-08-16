@@ -1,0 +1,20 @@
+{
+    "component":  "SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE",
+    "version":  "1.0.0",
+    "authoritative_input_head":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "status":  "INSTITUTIONALLY_CLOSED",
+    "fastpath_execution_recertified":  true,
+    "total_fastpath_candidates":  27,
+    "already_closed_reconciled":  21,
+    "formalized_and_reconciled":  6,
+    "incomplete":  0,
+    "pending_spt_candidates":  0,
+    "master_map_reconciliation":  "PASS",
+    "postexec_certification_published":  true,
+    "automatic_spt_creation":  false,
+    "destructive_cleanup":  false,
+    "new_functionality":  false,
+    "production_change":  false,
+    "next_action":  "DETERMINE_NEXT_TECHNOLOGICAL_PHASE",
+    "generated_at":  "2026-08-15T20:40:21-05:00"
+}

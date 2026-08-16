@@ -1,0 +1,59 @@
+{
+    "component":  "SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE",
+    "version":  "1.0.0",
+    "baseline":  "5e3fd09e8079bbaec2c38ff495049418008b2a29",
+    "records":  [
+                    {
+                        "path":  "SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE.ps1",
+                        "sha256":  "9948D87A4584BEA29B53C478EFF3781E26C0D9A13D3E1420FABF673DE1A75D07"
+                    },
+                    {
+                        "path":  "SGODA-FASTPATH-POSTEXEC-CERTIFY.ps1",
+                        "sha256":  "AD4D4DC84252D1AA5F9180882E81EDD5BC944F454BA57FA54D37855BD74E4866"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-assessment.json",
+                        "sha256":  "070E0F0467D194572E04CD81C34E0A5DFDC6F57323C8ABC38661BAD15EF02E37"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-ledger.json",
+                        "sha256":  "883C9763BE3969544BBBE0AA24CE8B8E1EFB0917D1DECA22A4233A76B63A1EA1"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/implementation-evidence.json",
+                        "sha256":  "A570CEEBFA7EF70EC458A1A036F2BDDA31218393A747151FC2C02F95A320DEBC"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FASTPATH-POSTEXEC-CERTIFY-v1.0.0/fastpath-postexec-certification-sha256-manifest.json",
+                        "sha256":  "1C015A61347435843DB252D38F33B6B40EB024FFE257B6CE3C28DF065560ABEA"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-FASTPATH-POSTEXEC-CERTIFICATION-v1.0.0.md",
+                        "sha256":  "DC59AE324382E771160585E98A514B92B21CC5EBB564BCADBDB26AB87CB2098A"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-FASTPATH-POSTEXEC-CERTIFICATION-v1.0.0.md",
+                        "sha256":  "B53D67C499BE8A1E5D33A1F5E1424E1AB26100B07A11BFF2543E6D692142A7C2"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE-v1.0.0/final-global-deliverable-map-close-assessment.json",
+                        "sha256":  "4646D3A12DDE97DF2AF39921E62C23B9C8407FEA368203147A45297288B22F84"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE-v1.0.0/final-global-deliverable-map-close-ledger.json",
+                        "sha256":  "C5B63D35963FC44D9C2171D963819D84DDBCA5550ECAAE303128D52FFA9FD74D"
+                    },
+                    {
+                        "path":  "artifacts/development/SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE-v1.0.0/implementation-evidence.json",
+                        "sha256":  "2A564E7EAC78CA494C7165E5AB2385B7B229FF73BC12180F0ED9657A7CBEBD97"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/SGODA-PUINAVE-Cierre-Final-Mapa-Global-Entregables-v1.0.0.md",
+                        "sha256":  "7197F79A91ECB3B28129F00318407BF5164077C0659CF799A21C4BEA0D9FAF96"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/ACT-SGODA-FINAL-GLOBAL-DELIVERABLE-MAP-CLOSE-v1.0.0.md",
+                        "sha256":  "D7E9AA844168E3FD6BF9E84A7A3B17F08BCAD1C447E5642400CD52EE9B6503ED"
+                    }
+                ]
+}
