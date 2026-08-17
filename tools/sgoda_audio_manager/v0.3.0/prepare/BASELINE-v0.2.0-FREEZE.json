@@ -1,0 +1,38 @@
+{
+    "baseline":  "SGODA Audio Manager v0.2.0",
+    "consumer":  "SGODA Audio Derivation Engine v0.3.0",
+    "preservation_policy":  "NON_DESTRUCTIVE",
+    "baseline_files":  [
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Invoke-SGODAAudioProductionPipeline.ps1",
+                               "bytes":  3433,
+                               "sha256":  "680C6221B3A3BCEA444D1A1A0CCF24587C695BD4FA9EDBE6EA6FDC80CE97C9D8"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Test-SGODAMassiveDrive.ps1",
+                               "bytes":  17089,
+                               "sha256":  "DD3632078393224358C86E97D9FD6A73F0AD78D4111359466D09CF6320FC0794"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Resolve-SGODALexicalIds.ps1",
+                               "bytes":  1911,
+                               "sha256":  "ACC524D3FF65A4666BE3CADCA203F9A9F0C03B26021608EB979CBAC9FE54745B"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/New-SGODADynamicBatchPlan.ps1",
+                               "bytes":  2133,
+                               "sha256":  "8109A9171C8BEB600BCA2B1113C2FBA823BC6A8917E66F24FF5D7DDB1B7A1972"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.2.0/scripts/Test-SGODALinguisticIntegrity.ps1",
+                               "bytes":  4993,
+                               "sha256":  "A400D72DF55BEC1F496F4D8D99F7A32B8463C137DB55DCFB8F523B9BA69DE812"
+                           },
+                           {
+                               "path":  "tools/sgoda_audio_manager/v0.2.0/schema/input-n-records.schema.json",
+                               "bytes":  1930,
+                               "sha256":  "F6540AF438F0BBC1E49B8E37F7DC295A205A58D17CCEA1A8FFABD24D6326E319"
+                           }
+                       ],
+    "generated_utc":  "2026-08-17T05:42:21.1848552Z"
+}

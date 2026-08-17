@@ -1,0 +1,14 @@
+{
+    "engine":  "SGODA Audio Derivation Engine",
+    "version":  "0.3.0",
+    "source_records":  25,
+    "pending_mp3":  5,
+    "processed":  5,
+    "ready":  5,
+    "errors":  0,
+    "overwrite_policy":  "Never",
+    "audio_bitrate_kbps":  128,
+    "ffmpeg":  "C:\\Users\\Lida Silva Acevedo\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe",
+    "ffprobe":  "C:\\Users\\Lida Silva Acevedo\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffprobe.exe",
+    "generated_utc":  "2026-08-17T05:56:07.3373857Z"
+}

@@ -1,0 +1,94 @@
+{
+    "component":  "SGODA Audio Derivation Engine",
+    "version":  "0.3.0",
+    "gate":  "REAL-5 -\u003e REAL-25",
+    "run_id":  "20260817T055528Z",
+    "real_5":  {
+                   "records":  5,
+                   "processed":  5,
+                   "ready":  5,
+                   "errors":  0,
+                   "overwrite_policy":  "Never"
+               },
+    "drive":  {
+                  "wav":  25,
+                  "mp3":  25
+              },
+    "real_25":  {
+                    "validated_records":  25,
+                    "ready":  25,
+                    "not_ready":  0,
+                    "missing_mp3":  0
+                },
+    "wav_master_immutable":  true,
+    "ffprobe_verified":  true,
+    "sha256_verified":  true,
+    "records":  [
+                    {
+                        "lexical_id":  "PU-000021",
+                        "native_word":  "YÜG",
+                        "wav_sha256_before":  "7223FEBCE7CA6E55DE623FE6F53253F1B2FF54F068CE32FC8D9E3A3EF5AAC4F8",
+                        "wav_sha256_after":  "7223FEBCE7CA6E55DE623FE6F53253F1B2FF54F068CE32FC8D9E3A3EF5AAC4F8",
+                        "mp3_sha256":  "8E94FA4CCFD54F280C6B00667885AE9802E887B4EBCADD697ADBDC62B9B748E3",
+                        "mp3_codec":  "mp3",
+                        "mp3_sample_rate":  "48000",
+                        "mp3_channels":  "1",
+                        "mp3_duration":  "0.534042",
+                        "mp3_size_bytes":  9644,
+                        "status":  "READY"
+                    },
+                    {
+                        "lexical_id":  "PU-000022",
+                        "native_word":  "YÜI",
+                        "wav_sha256_before":  "D3893BE32F09C971A363D763BB4C7B7D67BA7202EE8E1FB9216385A4F319FEAE",
+                        "wav_sha256_after":  "D3893BE32F09C971A363D763BB4C7B7D67BA7202EE8E1FB9216385A4F319FEAE",
+                        "mp3_sha256":  "0BD3A800110F372E26837493B641528C8ABF3E4C1E0CFD7E79EA80DCCEE85918",
+                        "mp3_codec":  "mp3",
+                        "mp3_sample_rate":  "48000",
+                        "mp3_channels":  "1",
+                        "mp3_duration":  "0.568896",
+                        "mp3_size_bytes":  10028,
+                        "status":  "READY"
+                    },
+                    {
+                        "lexical_id":  "PU-000023",
+                        "native_word":  "YÖIPIG",
+                        "wav_sha256_before":  "DFC17228487D28D923CDCFBE2C03D20F59994A2CCB834D15294A8560CD0D5451",
+                        "wav_sha256_after":  "DFC17228487D28D923CDCFBE2C03D20F59994A2CCB834D15294A8560CD0D5451",
+                        "mp3_sha256":  "882153E1C481549E2EEE5BD763AF33610CEA1F9F580FBDB32931F4D37DAAB279",
+                        "mp3_codec":  "mp3",
+                        "mp3_sample_rate":  "48000",
+                        "mp3_channels":  "1",
+                        "mp3_duration":  "0.650146",
+                        "mp3_size_bytes":  11564,
+                        "status":  "READY"
+                    },
+                    {
+                        "lexical_id":  "PU-000024",
+                        "native_word":  "YÖI",
+                        "wav_sha256_before":  "D716EC02E0E12D7E1BA5E1E070765F4B67BB67A6FD391C48D6BB836E59F29643",
+                        "wav_sha256_after":  "D716EC02E0E12D7E1BA5E1E070765F4B67BB67A6FD391C48D6BB836E59F29643",
+                        "mp3_sha256":  "04BEAA645599B87DA4E2561ABF52E1B23F6C263CF903B2960DCDCEA72E2309D2",
+                        "mp3_codec":  "mp3",
+                        "mp3_sample_rate":  "48000",
+                        "mp3_channels":  "1",
+                        "mp3_duration":  "0.441188",
+                        "mp3_size_bytes":  8108,
+                        "status":  "READY"
+                    },
+                    {
+                        "lexical_id":  "PU-000025",
+                        "native_word":  "YÖ",
+                        "wav_sha256_before":  "DCE935004D787A3F70A9065F5CA05AE9F89E6CE32CA6FB954C1061AF2DD3E24A",
+                        "wav_sha256_after":  "DCE935004D787A3F70A9065F5CA05AE9F89E6CE32CA6FB954C1061AF2DD3E24A",
+                        "mp3_sha256":  "877DF337379CFF49AEE39E30176C8ACA29C2224A56BFE7D3463013006ABE1E4B",
+                        "mp3_codec":  "mp3",
+                        "mp3_sample_rate":  "48000",
+                        "mp3_channels":  "1",
+                        "mp3_duration":  "0.394729",
+                        "mp3_size_bytes":  7340,
+                        "status":  "READY"
+                    }
+                ],
+    "generated_utc":  "2026-08-17T05:56:10.5846107Z"
+}

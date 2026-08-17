@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Audio Derivation Summary v0.3.0",
+  "type": "object",
+  "required": [
+    "engine",
+    "version",
+    "source_records",
+    "pending_mp3",
+    "processed",
+    "ready",
+    "errors",
+    "overwrite_policy",
+    "audio_bitrate_kbps",
+    "ffmpeg",
+    "ffprobe",
+    "generated_utc"
+  ],
+  "properties": {
+    "engine": {
+      "const": "SGODA Audio Derivation Engine"
+    },
+    "version": {
+      "const": "0.3.0"
+    },
+    "source_records": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pending_mp3": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "processed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "ready": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "errors": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "overwrite_policy": {
+      "enum": [
+        "Never",
+        "IfInvalid",
+        "Always"
+      ]
+    },
+    "audio_bitrate_kbps": {
+      "type": "integer",
+      "minimum": 32
+    },
+    "ffmpeg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ffprobe": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_utc": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

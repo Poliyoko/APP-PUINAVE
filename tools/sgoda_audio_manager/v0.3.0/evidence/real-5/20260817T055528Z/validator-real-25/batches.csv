@@ -1,0 +1,3 @@
+"batch_id","record_count","ready","missing_wav","missing_mp3","missing_both","empty_wav","empty_mp3","empty_both","duplicate_id","invalid_id","batch_status"
+"LOTE-0001","20","20","0","0","0","0","0","0","0","0","READY"
+"LOTE-0002","5","5","0","0","0","0","0","0","0","0","READY"

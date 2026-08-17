@@ -1,0 +1,30 @@
+[
+    {
+        "batch_id":  "LOTE-0001",
+        "record_count":  20,
+        "ready":  20,
+        "missing_wav":  0,
+        "missing_mp3":  0,
+        "missing_both":  0,
+        "empty_wav":  0,
+        "empty_mp3":  0,
+        "empty_both":  0,
+        "duplicate_id":  0,
+        "invalid_id":  0,
+        "batch_status":  "READY"
+    },
+    {
+        "batch_id":  "LOTE-0002",
+        "record_count":  5,
+        "ready":  5,
+        "missing_wav":  0,
+        "missing_mp3":  0,
+        "missing_both":  0,
+        "empty_wav":  0,
+        "empty_mp3":  0,
+        "empty_both":  0,
+        "duplicate_id":  0,
+        "invalid_id":  0,
+        "batch_status":  "READY"
+    }
+]

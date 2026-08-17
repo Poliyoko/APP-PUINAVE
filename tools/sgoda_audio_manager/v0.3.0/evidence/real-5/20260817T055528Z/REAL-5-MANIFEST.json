@@ -1,0 +1,62 @@
+[
+    {
+        "lexical_id":  "PU-000021",
+        "native_word":  "YÜG",
+        "expected_wav":  "PU-000021_pu.wav",
+        "expected_mp3":  "PU-000021_pu.mp3",
+        "wav_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\WAV\\PU-000021_pu.wav",
+        "mp3_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\MP3\\PU-000021_pu.mp3",
+        "wav_sha256_before":  "7223FEBCE7CA6E55DE623FE6F53253F1B2FF54F068CE32FC8D9E3A3EF5AAC4F8",
+        "mp3_pre_exists":  false,
+        "mp3_pre_valid":  false,
+        "mp3_pre_sha256":  ""
+    },
+    {
+        "lexical_id":  "PU-000022",
+        "native_word":  "YÜI",
+        "expected_wav":  "PU-000022_pu.wav",
+        "expected_mp3":  "PU-000022_pu.mp3",
+        "wav_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\WAV\\PU-000022_pu.wav",
+        "mp3_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\MP3\\PU-000022_pu.mp3",
+        "wav_sha256_before":  "D3893BE32F09C971A363D763BB4C7B7D67BA7202EE8E1FB9216385A4F319FEAE",
+        "mp3_pre_exists":  false,
+        "mp3_pre_valid":  false,
+        "mp3_pre_sha256":  ""
+    },
+    {
+        "lexical_id":  "PU-000023",
+        "native_word":  "YÖIPIG",
+        "expected_wav":  "PU-000023_pu.wav",
+        "expected_mp3":  "PU-000023_pu.mp3",
+        "wav_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\WAV\\PU-000023_pu.wav",
+        "mp3_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\MP3\\PU-000023_pu.mp3",
+        "wav_sha256_before":  "DFC17228487D28D923CDCFBE2C03D20F59994A2CCB834D15294A8560CD0D5451",
+        "mp3_pre_exists":  false,
+        "mp3_pre_valid":  false,
+        "mp3_pre_sha256":  ""
+    },
+    {
+        "lexical_id":  "PU-000024",
+        "native_word":  "YÖI",
+        "expected_wav":  "PU-000024_pu.wav",
+        "expected_mp3":  "PU-000024_pu.mp3",
+        "wav_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\WAV\\PU-000024_pu.wav",
+        "mp3_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\MP3\\PU-000024_pu.mp3",
+        "wav_sha256_before":  "D716EC02E0E12D7E1BA5E1E070765F4B67BB67A6FD391C48D6BB836E59F29643",
+        "mp3_pre_exists":  false,
+        "mp3_pre_valid":  false,
+        "mp3_pre_sha256":  ""
+    },
+    {
+        "lexical_id":  "PU-000025",
+        "native_word":  "YÖ",
+        "expected_wav":  "PU-000025_pu.wav",
+        "expected_mp3":  "PU-000025_pu.mp3",
+        "wav_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\WAV\\PU-000025_pu.wav",
+        "mp3_path":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS\\MP3\\PU-000025_pu.mp3",
+        "wav_sha256_before":  "DCE935004D787A3F70A9065F5CA05AE9F89E6CE32CA6FB954C1061AF2DD3E24A",
+        "mp3_pre_exists":  false,
+        "mp3_pre_valid":  false,
+        "mp3_pre_sha256":  ""
+    }
+]

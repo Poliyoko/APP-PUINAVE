@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SGODA Audio Derivation Records v0.3.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "lexical_id",
+      "native_word",
+      "expected_wav",
+      "expected_mp3",
+      "wav_path",
+      "mp3_path",
+      "overwrite_policy",
+      "action",
+      "wav_sha256",
+      "mp3_sha256",
+      "mp3_codec",
+      "mp3_duration_seconds",
+      "mp3_size_bytes",
+      "status",
+      "error"
+    ],
+    "properties": {
+      "lexical_id": {
+        "type": "string"
+      },
+      "native_word": {
+        "type": "string"
+      },
+      "expected_wav": {
+        "type": "string"
+      },
+      "expected_mp3": {
+        "type": "string"
+      },
+      "wav_path": {
+        "type": "string"
+      },
+      "mp3_path": {
+        "type": "string"
+      },
+      "overwrite_policy": {
+        "enum": [
+          "Never",
+          "IfInvalid",
+          "Always"
+        ]
+      },
+      "action": {
+        "type": "string"
+      },
+      "wav_sha256": {
+        "type": "string"
+      },
+      "mp3_sha256": {
+        "type": "string"
+      },
+      "mp3_codec": {
+        "type": "string"
+      },
+      "mp3_duration_seconds": {
+        "type": "string"
+      },
+      "mp3_size_bytes": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "status": {
+        "enum": [
+          "READY",
+          "ERROR"
+        ]
+      },
+      "error": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": true
+  }
+}

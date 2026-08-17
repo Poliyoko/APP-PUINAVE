@@ -1,0 +1,46 @@
+{
+    "suite":  "SGODA Audio Derivation Engine v0.3.0",
+    "generated_utc":  "2026-08-17T05:48:16.5369265Z",
+    "ffmpeg":  "C:\\Users\\Lida Silva Acevedo\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe",
+    "ffprobe":  "C:\\Users\\Lida Silva Acevedo\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffprobe.exe",
+    "total_tests":  7,
+    "passed":  7,
+    "failed":  0,
+    "tests":  [
+                  {
+                      "name":  "GENERATE_AND_NEVER",
+                      "status":  "PASS",
+                      "detail":  "GeneraciÃ³n inicial y protecciÃ³n de MP3 vÃ¡lido."
+                  },
+                  {
+                      "name":  "INVALID_EXISTING_NEVER",
+                      "status":  "PASS",
+                      "detail":  "MP3 invÃ¡lido existente rechazado sin sobrescritura."
+                  },
+                  {
+                      "name":  "IFINVALID_REPAIR",
+                      "status":  "PASS",
+                      "detail":  "MP3 invÃ¡lido regenerado correctamente."
+                  },
+                  {
+                      "name":  "ALWAYS_REGENERATE",
+                      "status":  "PASS",
+                      "detail":  "RegeneraciÃ³n explÃ­cita verificada."
+                  },
+                  {
+                      "name":  "MISSING_WAV",
+                      "status":  "PASS",
+                      "detail":  "WAV maestro inexistente detectado."
+                  },
+                  {
+                      "name":  "EMPTY_WAV",
+                      "status":  "PASS",
+                      "detail":  "WAV maestro vacÃ­o detectado."
+                  },
+                  {
+                      "name":  "CARDINALITY_N25",
+                      "status":  "PASS",
+                      "detail":  "Procesamiento parametrizado de 25 registros."
+                  }
+              ]
+}

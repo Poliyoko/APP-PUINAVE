@@ -1,0 +1,64 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "DMP Master Deliverables",
+    "layer":  1,
+    "capability":  "Domain Model",
+    "status":  "TECHNICALLY_VALIDATED",
+    "repository":  {
+                       "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                       "head":  "c1fe1ff2051a402e9784310810e674a503436ddf",
+                       "source_of_truth":  true
+                   },
+    "architecture":  {
+                         "strategy":  "EXTEND",
+                         "breaking_changes":  0,
+                         "reused":  [
+                                        "MMGR Asset",
+                                        "MMGR Traceability"
+                                    ],
+                         "new_models":  [
+                                            "DeliverableIdentity",
+                                            "ArchitectureMapping",
+                                            "Progress",
+                                            "Verification",
+                                            "RepositoryTraceability",
+                                            "InstitutionalTraceability",
+                                            "MasterDeliverable"
+                                        ],
+                         "subsystems":  [
+                                            "Nucleo del Sistema",
+                                            "Builder",
+                                            "CCP",
+                                            "API",
+                                            "ODA",
+                                            "Multimedia",
+                                            "Mobile",
+                                            "Portal Web",
+                                            "IA",
+                                            "DMP"
+                                        ]
+                     },
+    "files":  {
+                  "model":  {
+                                "path":  "src/sgoda/pmo/repository/mmgr/master_deliverables.py",
+                                "sha256":  "155B8D7E52657FD8361333EB78E282E2D1C81137C464C42F7209F9A443DE9198"
+                            },
+                  "test":  {
+                               "path":  "tests/pmo/repository/mmgr/test_master_deliverables.py",
+                               "sha256":  "A438561EC14398C8D6B16BD4150B206684D2CFE7791CE3121BF91DAF6281A4F2"
+                           }
+              },
+    "quality_gate":  {
+                         "imports":  "PASS",
+                         "syntax":  "PASS",
+                         "regression":  "PASS",
+                         "tests_passed":  24,
+                         "tests_failed":  0
+                     },
+    "publication":  {
+                        "commit":  false,
+                        "push":  false,
+                        "remote_published":  false
+                    },
+    "next_layer":  "Capa 2 - Repository Deliverable Discovery"
+}
