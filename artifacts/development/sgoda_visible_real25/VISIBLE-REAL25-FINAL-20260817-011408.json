@@ -1,0 +1,58 @@
+{
+    "component":  "SGODA Visible",
+    "gate":  "REAL-25 final HTTP integration",
+    "generated_utc":  "2026-08-17T06:14:38.3875083Z",
+    "tests":  {
+                  "pytest":  "18/18 PASS",
+                  "health":  "PASS",
+                  "records":  25,
+                  "unique_ids":  25,
+                  "new_records":  5,
+                  "new_audio":  5,
+                  "all_audio":  25,
+                  "html":  "PASS",
+                  "status":  "PASS"
+              },
+    "new_records":  [
+                        {
+                            "lexical_id":  "PU-000021",
+                            "native_word":  "YÃG",
+                            "native_pronunciation":  "(llÃ¯c)",
+                            "primary_translation":  "yucal reciÃ©n sembrado",
+                            "audio_file":  "PU-000021_pu.mp3"
+                        },
+                        {
+                            "lexical_id":  "PU-000022",
+                            "native_word":  "YÃI",
+                            "native_pronunciation":  "(llÃ¶Ã¬)",
+                            "primary_translation":  "diarrea",
+                            "audio_file":  "PU-000022_pu.mp3"
+                        },
+                        {
+                            "lexical_id":  "PU-000023",
+                            "native_word":  "YÃIPIG",
+                            "native_pronunciation":  "(yÃ¶ipik)",
+                            "primary_translation":  "escama de pescado",
+                            "audio_file":  "PU-000023_pu.mp3"
+                        },
+                        {
+                            "lexical_id":  "PU-000024",
+                            "native_word":  "YÃI",
+                            "native_pronunciation":  "(llÃ¶Ã¬)",
+                            "primary_translation":  "pez, pescado",
+                            "audio_file":  "PU-000024_pu.mp3"
+                        },
+                        {
+                            "lexical_id":  "PU-000025",
+                            "native_word":  "YÃ",
+                            "native_pronunciation":  "(yÃ¶-)",
+                            "primary_translation":  "cuello",
+                            "audio_file":  "PU-000025_pu.mp3"
+                        }
+                    ],
+    "runtime":  {
+                    "url":  "http://127.0.0.1:8025",
+                    "pid":  6836,
+                    "port":  8025
+                }
+}

@@ -1,0 +1,59 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SGODA Visible",
+    "validation":  "REAL-25",
+    "date":  "2026-08-17",
+    "status":  "PASS",
+    "visual_validation":  {
+                              "records_visible":  25,
+                              "expected_records":  25,
+                              "new_records_visible":  5,
+                              "unicode_interface":  "PASS"
+                          },
+    "auditory_validation":  {
+                                "performed":  true,
+                                "correspondence_confirmed":  true,
+                                "playback_quality":  "PASS"
+                            },
+    "drive_validation":  {
+                             "method":  "human_visual_confirmation",
+                             "wav_new_present":  5,
+                             "wav_new_expected":  5,
+                             "mp3_new_present":  5,
+                             "mp3_new_expected":  5,
+                             "zero_length_visible":  0,
+                             "status":  "PASS"
+                         },
+    "records":  [
+                    {
+                        "lexical_id":  "PU-000021",
+                        "native_word":  "YÜG",
+                        "wav":  "PU-000021_pu.wav",
+                        "mp3":  "PU-000021_pu.mp3"
+                    },
+                    {
+                        "lexical_id":  "PU-000022",
+                        "native_word":  "YÜI",
+                        "wav":  "PU-000022_pu.wav",
+                        "mp3":  "PU-000022_pu.mp3"
+                    },
+                    {
+                        "lexical_id":  "PU-000023",
+                        "native_word":  "YÖIPIG",
+                        "wav":  "PU-000023_pu.wav",
+                        "mp3":  "PU-000023_pu.mp3"
+                    },
+                    {
+                        "lexical_id":  "PU-000024",
+                        "native_word":  "YÖI",
+                        "wav":  "PU-000024_pu.wav",
+                        "mp3":  "PU-000024_pu.mp3"
+                    },
+                    {
+                        "lexical_id":  "PU-000025",
+                        "native_word":  "YÖ",
+                        "wav":  "PU-000025_pu.wav",
+                        "mp3":  "PU-000025_pu.mp3"
+                    }
+                ]
+}
