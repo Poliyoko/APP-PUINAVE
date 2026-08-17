@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1">
+
+<title>SGODA Visible</title>
+
+<style>
+
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  background: #f4f4ef;
+  color: #17201d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #153b32;
+  color: white;
+  padding: 28px;
+}
+
+header > div,
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 4px 0;
+}
+
+main {
+  padding: 24px;
+  display: grid;
+  grid-template-columns:
+    minmax(300px, 390px)
+    1fr;
+  gap: 24px;
+}
+
+.panel {
+  background: white;
+  border-radius: 16px;
+  box-shadow:
+    0 8px 30px rgba(0,0,0,.06);
+}
+
+.browser {
+  overflow: hidden;
+}
+
+.toolbar {
+  padding: 16px;
+  border-bottom: 1px solid #e6e8e5;
+}
+
+#search {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c9d0cc;
+  border-radius: 10px;
+}
+
+.word {
+  width: 100%;
+  padding: 14px 17px;
+  border: 0;
+  border-bottom: 1px solid #eceeeb;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.word:hover {
+  background: #edf5f1;
+}
+
+.word strong,
+.word span {
+  display: block;
+}
+
+.word span {
+  margin-top: 3px;
+  color: #68736f;
+}
+
+.pager {
+  padding: 14px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.pager button {
+  padding: 9px 13px;
+}
+
+.detail {
+  min-height: 520px;
+  padding: 42px;
+}
+
+.native-word {
+  font-size: 4rem;
+  margin: 18px 0 4px;
+}
+
+.pronunciation {
+  font-size: 1.3rem;
+  color: #68736f;
+}
+
+.translation {
+  margin-top: 28px;
+  font-size: 1.7rem;
+}
+
+audio {
+  width: 100%;
+  margin-top: 28px;
+}
+
+@media (max-width: 760px) {
+
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div>
+
+<p id="instance"></p>
+
+<h1 id="language">
+SGODA Visible
+</h1>
+
+<p>
+Preservación y aprendizaje
+</p>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="panel browser">
+
+<div class="toolbar">
+
+<input
+  id="search"
+  type="search"
+  placeholder="Buscar palabra, significado, pronunciación o ID">
+
+<p id="counter"></p>
+
+</div>
+
+<div id="list"></div>
+
+<div class="pager">
+
+<button
+  id="previousPage"
+  type="button">
+Anterior
+</button>
+
+<span id="pageInfo"></span>
+
+<button
+  id="nextPage"
+  type="button">
+Siguiente
+</button>
+
+</div>
+
+</section>
+
+<section
+  id="detail"
+  class="panel detail">
+
+Seleccione una ficha.
+
+</section>
+
+</main>
+
+<script>
+
+"use strict";
+
+const PAGE_SIZE = 50;
+
+let meta = null;
+let offset = 0;
+let total = 0;
+let currentQuery = "";
+
+const list =
+  document.getElementById("list");
+
+const detail =
+  document.getElementById("detail");
+
+const counter =
+  document.getElementById("counter");
+
+const pageInfo =
+  document.getElementById("pageInfo");
+
+const search =
+  document.getElementById("search");
+
+
+function escapeHtml(value) {
+
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+
+async function loadMeta() {
+
+  const response =
+    await fetch("/api/meta");
+
+  meta =
+    await response.json();
+
+  document.getElementById(
+    "instance"
+  ).textContent =
+    meta.instance_id;
+
+  document.getElementById(
+    "language"
+  ).textContent =
+    meta.native_language.name;
+}
+
+
+async function loadPage() {
+
+  const params =
+    new URLSearchParams({
+      q: currentQuery,
+      offset: String(offset),
+      limit: String(PAGE_SIZE),
+    });
+
+  const response =
+    await fetch(
+      "/api/lexicon?" +
+      params.toString()
+    );
+
+  const page =
+    await response.json();
+
+  total = page.total;
+
+  list.innerHTML = "";
+
+  page.items.forEach(
+    function (item) {
+
+      const button =
+        document.createElement(
+          "button"
+        );
+
+      button.type = "button";
+
+      button.className = "word";
+
+      button.innerHTML =
+        "<strong>" +
+        escapeHtml(
+          item.native_word
+        ) +
+        "</strong>" +
+        "<span>" +
+        escapeHtml(
+          item.primary_translation
+        ) +
+        "</span>" +
+        "<span>" +
+        escapeHtml(
+          item.lexical_id
+        ) +
+        "</span>";
+
+      button.addEventListener(
+        "click",
+        function () {
+          showRecord(
+            item.lexical_id
+          );
+        }
+      );
+
+      list.appendChild(button);
+    }
+  );
+
+  counter.textContent =
+    total + " fichas";
+
+  const start =
+    total === 0
+      ? 0
+      : offset + 1;
+
+  const end =
+    Math.min(
+      offset + page.items.length,
+      total
+    );
+
+  pageInfo.textContent =
+    start +
+    " - " +
+    end +
+    " / " +
+    total;
+
+  document.getElementById(
+    "previousPage"
+  ).disabled =
+    offset <= 0;
+
+  document.getElementById(
+    "nextPage"
+  ).disabled =
+    offset + PAGE_SIZE >= total;
+
+  if (
+    page.items.length > 0
+  ) {
+
+    await showRecord(
+      page.items[0].lexical_id
+    );
+  }
+}
+
+
+async function showRecord(
+  lexicalId
+) {
+
+  const response =
+    await fetch(
+      "/api/lexicon/" +
+      encodeURIComponent(
+        lexicalId
+      )
+    );
+
+  const item =
+    await response.json();
+
+  detail.innerHTML =
+    "<p>" +
+    escapeHtml(
+      item.lexical_id
+    ) +
+    "</p>" +
+
+    '<div class="native-word">' +
+    escapeHtml(
+      item.native_word
+    ) +
+    "</div>" +
+
+    '<div class="pronunciation">' +
+    escapeHtml(
+      item.native_pronunciation
+    ) +
+    "</div>" +
+
+    "<p>Significado</p>" +
+
+    '<div class="translation">' +
+    escapeHtml(
+      item.primary_translation
+    ) +
+    "</div>" +
+
+    "<p>Pronunciación</p>" +
+
+    '<audio controls preload="metadata" src="/api/audio/' +
+    encodeURIComponent(
+      item.audio_file
+    ) +
+    '"></audio>';
+}
+
+
+document.getElementById(
+  "previousPage"
+).addEventListener(
+  "click",
+  async function () {
+
+    offset =
+      Math.max(
+        0,
+        offset - PAGE_SIZE
+      );
+
+    await loadPage();
+  }
+);
+
+
+document.getElementById(
+  "nextPage"
+).addEventListener(
+  "click",
+  async function () {
+
+    if (
+      offset + PAGE_SIZE < total
+    ) {
+
+      offset += PAGE_SIZE;
+
+      await loadPage();
+    }
+  }
+);
+
+
+let searchTimer = null;
+
+search.addEventListener(
+  "input",
+  function () {
+
+    clearTimeout(
+      searchTimer
+    );
+
+    searchTimer =
+      setTimeout(
+        async function () {
+
+          currentQuery =
+            search.value.trim();
+
+          offset = 0;
+
+          await loadPage();
+
+        },
+        250
+      );
+  }
+);
+
+
+async function start() {
+
+  await loadMeta();
+
+  await loadPage();
+}
+
+
+start();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "SGODA Visible N",
+    "version":  "0.2.0",
+    "status":  "PREPUBLICATION_QUALITY_GATE_PASS",
+    "institutional_base":  {
+                               "master":  "709932f7082b0d1b6228354b5e7d70046ec8f959"
+                           },
+    "architecture":  {
+                         "record_cardinality":  "N",
+                         "fixed_record_maximum":  false,
+                         "native_languages_per_instance":  1,
+                         "auxiliary_languages_cardinality":  "0..N",
+                         "pagination":  true,
+                         "max_response_page":  200,
+                         "lazy_audio":  true
+                     },
+    "tests":  {
+                  "visible_n":  "12 PASSED",
+                  "pilot20_historical":  "5 PASSED",
+                  "real_20":  "PASS",
+                  "scale_1003":  "PASS",
+                  "scale_1501":  "PASS",
+                  "stress_5000":  "PASS",
+                  "auxiliary_0":  "PASS",
+                  "auxiliary_1":  "PASS",
+                  "auxiliary_n":  "PASS"
+              },
+    "real_http":  {
+                      "health":  "PASS",
+                      "records":  "20/20 PASS",
+                      "unique_ids":  "20/20 PASS",
+                      "linguistic_integrity":  "PASS",
+                      "audio":  "20/20 PASS"
+                  },
+    "pilot20":  {
+                    "baseline_changed_files":  0,
+                    "status":  "PRESERVED"
+                },
+    "products":  [
+                     {
+                         "path":  "artifacts/development/sgoda_visible_n_v0.2.0/PREPARE-DEVELOPMENT-20260816-202954.json",
+                         "bytes":  2558,
+                         "sha256":  "2A16D35008183E0DCE3A36AEEEE09135EFCE4485E1A344E9F2BF7161C5AF28D0"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/app.py",
+                         "bytes":  2450,
+                         "sha256":  "12C7B686EA52DA6C6BBE8CC04243BF519CA51C5DB6A5C28768CD02A2B5333DDE"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/config/instance.puinave.pilot20.json",
+                         "bytes":  1913,
+                         "sha256":  "C2760640A8E342058AD28636099098EBF81510E8B7994C2AA85731C28D6CCCFD"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/engine.py",
+                         "bytes":  8010,
+                         "sha256":  "4207EBD8D4D9AB2D507DF51F6EE680EE094ED6B1E008AB7BBE7A0F937AD92DFF"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/README-v0.2.0.md",
+                         "bytes":  747,
+                         "sha256":  "3E760D448A06848970961864D254DD7504E8364D5407B26DC53ADA3DA45527DF"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/static/index-v0.2.0.html",
+                         "bytes":  6606,
+                         "sha256":  "344D655DAA9122DFCD2F653FBC8BEB04527DCE89F805989E99D2220C15765D2F"
+                     },
+                     {
+                         "path":  "src/sgoda/visible/tests/test_visible_n_v020.py",
+                         "bytes":  8520,
+                         "sha256":  "03AFCC6EFDF71CB7837C958D8436B5A4655773CE7ADEDF272265B01E822F5B10"
+                     }
+                 ],
+    "safety":  {
+                   "master_modified":  false,
+                   "commit_created":  false,
+                   "push_executed":  false
+               }
+}

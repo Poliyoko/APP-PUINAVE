@@ -1,0 +1,44 @@
+{
+    "schema_version":  "2.0.1",
+    "instance":  {
+                     "instance_id":  "SGODA-PUINAVE",
+                     "lexical_prefix":  "PU",
+                     "id_width":  6,
+                     "native_language":  {
+                                             "name":  "Puinave",
+                                             "code":  "pu"
+                                         },
+                     "auxiliary_languages":  [
+                                                 {
+                                                     "name":  "Español",
+                                                     "code":  "es",
+                                                     "role":  "translation"
+                                                 }
+                                             ]
+                 },
+    "input":  {
+                  "format":  "csv",
+                  "path":  "tools/sgoda_audio_manager/v0.1.0/input/entrada_minima_puinave_20.csv",
+                  "columns":  {
+                                  "id":  "ID",
+                                  "native_word":  "PALABRA EN PUINAVE",
+                                  "native_pronunciation":  "PRONUNCIACION EN PUINAVE",
+                                  "primary_translation":  "PALABRA EN ESPAÑOL"
+                              }
+              },
+    "storage":  {
+                    "type":  "drive",
+                    "provider":  "google_drive",
+                    "root":  "G:\\Mi unidad\\SGODA-PUINAVE\\AUDIOS\\PRUEBA_20_PALABRAS",
+                    "folders":  {
+                                    "mp3":  "MP3"
+                                }
+                },
+    "naming":  {
+                   "audio_pattern":  "{prefix}-{id}_{language}.mp3"
+               },
+    "visible":  {
+                    "default_page_size":  50,
+                    "max_page_size":  200
+                }
+}

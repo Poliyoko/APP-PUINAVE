@@ -1,0 +1,51 @@
+{
+    "schema_version":  "1.2.0",
+    "component":  "SGODA Visible N",
+    "version":  "0.2.0",
+    "status":  "DEVELOPMENT_CANDIDATE_PASS",
+    "institutional_base":  {
+                               "branch":  "master",
+                               "commit":  "709932f7082b0d1b6228354b5e7d70046ec8f959"
+                           },
+    "architecture":  {
+                         "record_cardinality":  "N",
+                         "fixed_record_maximum":  false,
+                         "native_languages_per_instance":  1,
+                         "auxiliary_languages_cardinality":  "0..N",
+                         "pagination":  true,
+                         "default_page_size":  50,
+                         "max_response_page":  200,
+                         "lazy_audio":  true,
+                         "configurable_instance":  true,
+                         "native_language_hardcoded":  false,
+                         "auxiliary_languages_hardcoded":  false,
+                         "lexical_prefix_hardcoded":  false
+                     },
+    "automated_quality_gates":  {
+                                    "visible_n_test_suite":  "12 PASSED",
+                                    "scale_20_real":  "PASS",
+                                    "scale_1003":  "PASS",
+                                    "scale_1501":  "PASS",
+                                    "scale_5000":  "PASS",
+                                    "auxiliary_languages_zero":  "PASS",
+                                    "auxiliary_languages_one":  "PASS",
+                                    "auxiliary_languages_multiple":  "PASS",
+                                    "no_fixed_record_cardinality":  "PASS"
+                                },
+    "historical_regression":  {
+                                  "pilot20_pytest":  "PASS",
+                                  "compatibility_method":  "detached full Git worktree at historical runtime path",
+                                  "pilot20_files_changed":  0,
+                                  "pilot20_baseline":  "PRESERVED"
+                              },
+    "previously_validated_real_http":  {
+                                           "records":  "20/20 PASS",
+                                           "native_audio":  "20/20 PASS"
+                                       },
+    "safety":  {
+                   "master_modified":  false,
+                   "commit_created":  false,
+                   "push_executed":  false,
+                   "pilot20_modified":  false
+               }
+}
