@@ -198,3 +198,25 @@ regresion de la suite institucional.
 - Repositorio fuente al inicio: `LOCAL_HEAD = REMOTE_HEAD = e2deea6e76657d281dbdbec6db338d12b261d585`
 Estado maestro reconciliado con el cierre institucional de SPT-025.
 <!-- SGODA-INSTITUTIONAL-MASTER-SYNCHRONIZATION:v1.0.1:END -->
+
+<!-- DMP-2.6F-INSTITUTIONAL-CLOSE-V1.0.0 -->
+## DMP 2.6F — Cierre Institucional del Modelo de Avance Real
+
+- Estado técnico: **CLOSED**
+- Estado institucional: **CLOSED**
+- Publicación productiva: **VERIFIED**
+- Commit certificado: `4719e48b36d2e229cd448272afe739f4ee25f7ef`
+- Divergencia local/remoto certificada: **0/0**
+- Archivos del commit productivo: **17**
+- Pruebas certificadas: **116**
+- Avance real institucional certificado: **89.6583 %**
+- Motor matemático MMGR: **PRESERVED**
+- Código productivo: **PRESERVED**
+- Evidencias y releases históricos: **PRESERVED**
+- Inflación artificial del porcentaje de avance: **PROHIBITED**
+- Acta: `ACT-DMP-2.6F-INSTITUTIONAL-CLOSE-v1.0.0.md`
+- Evidencia estructurada:
+  `artifacts/pmo/DMP-2.6F-v1.0.0/institutional-closure-evidence.json`
+
+DMP 2.6F constituye la línea base institucional vigente para la
+medición ponderada del avance real del proyecto.

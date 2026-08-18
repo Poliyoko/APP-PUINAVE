@@ -1,0 +1,31 @@
+{
+    "schema_version":  "1.0.0",
+    "component":  "DMP",
+    "layer":  "2.6F",
+    "operation":  "INSTITUTIONAL_CLOSURE",
+    "status":  "CLOSED_TECHNICALLY_AND_PUBLISHED",
+    "repository":  {
+                       "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                       "published_commit":  "4719e48b36d2e229cd448272afe739f4ee25f7ef",
+                       "remote_verified":  true,
+                       "divergence":  "0/0",
+                       "committed_files":  17
+                   },
+    "certification":  {
+                          "certified_tests":  116,
+                          "tests_repeated_during_closure":  false,
+                          "project_progress_percent":  89.6583,
+                          "progress_inflation_prohibited":  true
+                      },
+    "preservation":  {
+                         "productive_python_code":  true,
+                         "mmgr_mathematical_engine":  true,
+                         "historical_evidence":  true,
+                         "existing_releases":  true,
+                         "preexisting_local_entries":  9
+                     },
+    "master_state":  {
+                         "sgd_000":  "docs/00_Estado_Maestro/SGD-000-Estado-Maestro-Institucional-v1.0.0.md",
+                         "sgd_002":  "docs/00_Estado_Maestro/SGD-002-Libro-Maestro-Institucional-SGODA-PUINAVE-v1.0.0.md"
+                     }
+}
