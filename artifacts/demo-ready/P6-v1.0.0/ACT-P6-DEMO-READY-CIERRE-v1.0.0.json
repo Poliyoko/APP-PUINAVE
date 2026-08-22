@@ -1,0 +1,46 @@
+{
+    "schema_version":  "1.0.0",
+    "record_type":  "SGODA_P6_INSTITUTIONAL_CLOSURE",
+    "project":  "SGODA-PUINAVE",
+    "phase":  "P6",
+    "status":  "CLOSED",
+    "closure_utc":  "2026-08-22T04:57:42Z",
+    "technical_release":  {
+                              "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                              "commit":  "6ee874b2b61c822c667c6e8ab416570fa9c5deee",
+                              "tree":  "87546577c4f72f1ffe2528c4b1be18f25da62277",
+                              "published_files":  47,
+                              "tag":  "SGODA-DEMO-READY-PILOTO25-v1.0.0",
+                              "local_remote":  "SYNCHRONIZED"
+                          },
+    "demo_ready":  {
+                       "pilot":  "REAL-25",
+                       "lexical_records":  25,
+                       "audio_records":  25,
+                       "fastapi":  "READY",
+                       "portal_web":  "READY",
+                       "flutter_web":  "READY",
+                       "android_physical":  "READY",
+                       "android_audio":  "CONFIRMED",
+                       "end_to_end":  "PASS"
+                   },
+    "quality":  {
+                    "repository_tests":  2510,
+                    "repository_tests_status":  "PASS",
+                    "tests_repeated_in_b5":  false,
+                    "dart_format":  "PASS",
+                    "flutter_analyze":  "PASS",
+                    "p6_b4_closure_audit":  "PASS"
+                },
+    "preservation":  {
+                         "outside_scope_entries":  107,
+                         "policy":  "PRESERVED",
+                         "historic_tags_modified":  false,
+                         "force_push_used":  false
+                     },
+    "governance":  {
+                       "decision":  "APPROVED",
+                       "final_state":  "CLOSED_PUBLISHED_CERTIFIED_FORMALIZED",
+                       "repository":  "Poliyoko/APP-PUINAVE"
+                   }
+}
