@@ -1,0 +1,99 @@
+{
+    "schema_version":  "1.0.0",
+    "deliverable":  "SGODA-DEMO-READY-PILOTO25",
+    "version":  "1.0.0",
+    "generated_utc":  "2026-08-21T01:41:14Z",
+    "baseline":  {
+                     "head":  "83c945e92789281658316b68a2a91dca871a22ea",
+                     "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                     "origin":  "https://github.com/Poliyoko/APP-PUINAVE.git"
+                 },
+    "pilot":  {
+                  "id":  "PILOTO_25",
+                  "lexical_records":  25,
+                  "real_audio":  25,
+                  "status":  "READY"
+              },
+    "backend":  {
+                    "technology":  "FastAPI",
+                    "status":  "READY",
+                    "health":  "UP",
+                    "endpoint":  "/api/demo/pilot25"
+                },
+    "clients":  {
+                    "portal_web":  "READY",
+                    "flutter_web":  "READY",
+                    "android_physical":  "READY"
+                },
+    "android":  {
+                    "device_id":  "innjaionlbpf8lww",
+                    "platform":  "Android 15 / API 35",
+                    "apk_sha256":  "5E51F71F8442D8681A9EB7B2F11BF939A7BC8ADCCE5862875CE9029C5E7CD1FB",
+                    "apk_size_bytes":  77560519,
+                    "installation":  "CONFIRMED",
+                    "real_audio_playback":  "CONFIRMED"
+                },
+    "e2e":  {
+                "portal_web":  "PASS",
+                "flutter_web":  "PASS",
+                "android_physical":  "PASS",
+                "real25":  "PASS",
+                "audio":  "PASS",
+                "overall":  "PASS"
+            },
+    "historic_tests":  {
+                           "certified":  116,
+                           "repeated_during_p5":  false,
+                           "final_quality_gate_pending":  true
+                       },
+    "implementation_inventory":  [
+                                     {
+                                         "path":  "src/sgoda/demo_ready/__init__.py",
+                                         "sha256":  "6F116BF2ED3340250C5E982E424B4EA8EA2E4F880DB6A40A5D37281652F61F82"
+                                     },
+                                     {
+                                         "path":  "src/sgoda/demo_ready/pilot25.py",
+                                         "sha256":  "C976A7014B21249BCE5D8CF41EB6A2F0683F9CDC92065CE6C914A7D3E840177D"
+                                     },
+                                     {
+                                         "path":  "src/sgoda/demo_ready/app.py",
+                                         "sha256":  "31FFE3232B275A7A31352B98BB97A67E55778FCA79771817AEDF970969CCFDAE"
+                                     },
+                                     {
+                                         "path":  "src/sgoda/demo_ready/web/index.html",
+                                         "sha256":  "675BF76DE7898F7F2947E946E38EC37BFF25025B20777B774B73526AB7684353"
+                                     },
+                                     {
+                                         "path":  "scripts/demo/Start-SGODAPilot25.ps1",
+                                         "sha256":  "296EB93F0D092B2C6A36883A37C0D5CE081460D9AEF01995C5D39F17B839F0CA"
+                                     },
+                                     {
+                                         "path":  "tests/demo_ready/test_pilot25_real_binding.py",
+                                         "sha256":  "3A4E801A71130A2FD362008530CF1FC5A6C1EB91F65D47B772004AA2B113C358"
+                                     },
+                                     {
+                                         "path":  "apps/sgoda_puinave_demo/pubspec.yaml",
+                                         "sha256":  "23032ED51DFA636FBCF6B141D695ACBB88820F4ACBFB63FA90634BEF13AFC7DA"
+                                     },
+                                     {
+                                         "path":  "apps/sgoda_puinave_demo/lib/main.dart",
+                                         "sha256":  "9935BB5DC5040714EC218903D9FCA92D89AE2C52CA04E2DD5A00779F590FFBBF"
+                                     },
+                                     {
+                                         "path":  "apps/sgoda_puinave_demo/lib/audio_bridge.dart",
+                                         "sha256":  "9AB284C8061828FB30ED6C1515C3FD372544BFD1118534FB150B7833B4F1683B"
+                                     },
+                                     {
+                                         "path":  "apps/sgoda_puinave_demo/lib/audio_bridge_web.dart",
+                                         "sha256":  "90D1ACECDB4D96804411D289C3DB41CA4F3D8FB1A65B95465FD168CBBF0ED432"
+                                     },
+                                     {
+                                         "path":  "apps/sgoda_puinave_demo/lib/audio_bridge_android.dart",
+                                         "sha256":  "388784AF6BCFC0E7396199A4648F414E9A9948C6FA413E2B764570A1A75919F1"
+                                     },
+                                     {
+                                         "path":  "apps/sgoda_puinave_demo/lib/audio_bridge_stub.dart",
+                                         "sha256":  "17991C9B9F78994E2EFB2B2F5DB911991641E9AEBA8D9573EF26E8302B78BC0B"
+                                     }
+                                 ]
+}
