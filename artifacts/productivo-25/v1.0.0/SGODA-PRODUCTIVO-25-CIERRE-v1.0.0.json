@@ -1,0 +1,41 @@
+{
+    "schema_version":  "1.0.0",
+    "artifact_id":  "SGODA-PRODUCTIVO-25-CIERRE-v1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "institutional_state":  "PRODUCTIVO-25",
+    "version":  "1.0.0",
+    "generated_at":  "2026-08-29T12:57:33-05:00",
+    "baseline":  {
+                     "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                     "commit":  "490c9d483d15b41ef8330e30333b4131baf126f8"
+                 },
+    "real25":  {
+                   "records":  25,
+                   "expected_records":  25,
+                   "lexical_complete":  25,
+                   "audio_complete":  25,
+                   "runtime_audio_available":  25,
+                   "ready":  true,
+                   "quality_gate":  "PASS"
+               },
+    "certified_reuse":  {
+                            "fastapi":  "REUSED_CERTIFIED",
+                            "flutter_web":  "REUSED_CERTIFIED",
+                            "flutter_android":  "REUSED_CERTIFIED",
+                            "android_physical_device":  "REUSED_CERTIFIED",
+                            "puinave_native_audio":  "REUSED_CERTIFIED",
+                            "n8n":  "REUSED_CERTIFIED",
+                            "pisi_security":  "REUSED_CERTIFIED",
+                            "pmo_digital":  "REUSED_CERTIFIED",
+                            "repository_auditor":  "REUSED_CERTIFIED",
+                            "demo_ready_p6":  "REUSED_CERTIFIED"
+                        },
+    "continuity":  {
+                       "reopen_closed_components":  false,
+                       "preserve_historical_evidence":  true,
+                       "preserve_untracked_history":  122,
+                       "next_operational_target":  "REAL-N",
+                       "next_scaling_scope":  "mass ingestion and content scaling"
+                   },
+    "status":  "CLOSURE_CANDIDATE"
+}
