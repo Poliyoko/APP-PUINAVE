@@ -37,5 +37,10 @@
                        "next_operational_target":  "REAL-N",
                        "next_scaling_scope":  "mass ingestion and content scaling"
                    },
-    "status":  "CLOSURE_CANDIDATE"
+    "status":  "CLOSURE_CANDIDATE",
+    "final_status":  "CLOSED_VERIFIED",
+    "live_e2e":  "25/25 PASS",
+    "final_evidence":  "artifacts/productivo-25/v1.0.0/C25-FINAL-LIVE-E2E.json",
+    "preservation":  "122/122 PASS",
+    "workflow_sha256":  "e63db855d75a8b7939a59d661b3c78668582be4778b4fe166e1c768574e3ee2c"
 }

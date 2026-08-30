@@ -1,0 +1,71 @@
+{
+    "id":  "P25e2eR12N8n001",
+    "name":  "SGODA PRODUCTIVO-25 - PostgreSQL FastAPI E2E",
+    "nodes":  [
+                  {
+                      "parameters":  {
+                                         "httpMethod":  "POST",
+                                         "path":  "sgoda-productivo25-e2e",
+                                         "responseMode":  "lastNode",
+                                         "options":  {
+
+                                                     }
+                                     },
+                      "id":  "p25-webhook-0001",
+                      "name":  "PRODUCTIVO-25 Webhook",
+                      "type":  "n8n-nodes-base.webhook",
+                      "typeVersion":  2,
+                      "position":  [
+                                       -300,
+                                       0
+                                   ],
+                      "webhookId":  "86bf6f40-cd47-4af0-bf6f-25a0e001c25e"
+                  },
+                  {
+                      "parameters":  {
+                                         "method":  "GET",
+                                         "url":  "http://127.0.0.1:8010/api/demo/pilot25",
+                                         "options":  {
+                                                         "timeout":  30000
+                                                     }
+                                     },
+                      "id":  "p25-fastapi-0001",
+                      "name":  "FastAPI PostgreSQL REAL-25",
+                      "type":  "n8n-nodes-base.httpRequest",
+                      "typeVersion":  4.2,
+                      "position":  [
+                                       0,
+                                       0
+                                   ]
+                  }
+              ],
+    "connections":  {
+                        "PRODUCTIVO-25 Webhook":  {
+                                                      "main":  [
+                                                                   [
+                                                                       {
+                                                                           "node":  "FastAPI PostgreSQL REAL-25",
+                                                                           "type":  "main",
+                                                                           "index":  0
+                                                                       }
+                                                                   ]
+                                                               ]
+                                                  }
+                    },
+    "settings":  {
+                     "executionOrder":  "v1"
+                 },
+    "staticData":  null,
+    "meta":  {
+                 "sgoda_component":  "PRODUCTIVO-25",
+                 "purpose":  "postgresql-fastapi-n8n-e2e"
+             },
+    "pinData":  {
+
+                },
+    "versionId":  "f1252500-0000-4000-8000-000000000001",
+    "active":  false,
+    "tags":  [
+
+             ]
+}

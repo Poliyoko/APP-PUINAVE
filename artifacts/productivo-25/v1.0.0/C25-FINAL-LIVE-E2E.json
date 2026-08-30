@@ -1,0 +1,78 @@
+{
+    "schema":  "sgoda.productivo25.live-e2e.v1",
+    "status":  "PASS",
+    "timestamp_utc":  "2026-08-30T09:45:24Z",
+    "project":  "SGODA-PUINAVE",
+    "closure":  "C25-FINAL",
+    "execution":  "C25-FINAL-AUTHORITATIVE-ATTEMPT-3",
+    "baseline_commit":  "a1ed9ad9623293e9ac2c6137753c83609b39f587",
+    "architecture":  "PostgreSQL(WSL)-\u003eFastAPI(WSL)-\u003eDrive(G:)-\u003en8n(Windows)",
+    "records":  25,
+    "data_source":  "postgresql",
+    "ready":  true,
+    "postgres_wsl_real25":  "25/25 PASS",
+    "drive_real25":  "PASS",
+    "fastapi_real25":  "25/postgresql/ready PASS",
+    "database_direct_requery":  false,
+    "database_write_performed":  false,
+    "real25_reload_performed":  false,
+    "workflow_id":  "P25e2eR12N8n001",
+    "workflow_file":  "automation/n8n/workflows/productivo25/01-productivo25-e2e.json",
+    "workflow_sha256":  "e63db855d75a8b7939a59d661b3c78668582be4778b4fe166e1c768574e3ee2c",
+    "workflow_active":  true,
+    "workflow_import_repeated":  false,
+    "webhook_node":  "PRODUCTIVO-25 Webhook",
+    "webhook_id":  "86bf6f40-cd47-4af0-bf6f-25a0e001c25e",
+    "registered_webhook_path":  "sgoda-productivo25-e2e",
+    "webhook_method":  "POST",
+    "webhook_attempts_total":  3,
+    "webhook_attempt_1":  {
+                              "result":  "HTTP 404",
+                              "interpretation":  "route not registered in effective form"
+                          },
+    "webhook_attempt_2":  {
+                              "result":  "HTTP 404",
+                              "interpretation":  "prefixed internal webhookPath was not accepted as public route"
+                          },
+    "webhook_attempt_3":  {
+                              "result":  "PASS",
+                              "records":  25,
+                              "data_source":  "postgresql",
+                              "ready":  true
+                          },
+    "n8n_live_e2e":  "25/25 PASS",
+    "historical_tests_repeated":  false,
+    "spt022_retested":  false,
+    "flutter_retested":  false,
+    "android_retested":  false,
+    "preservation":  {
+                         "status":  "PASS",
+                         "historical_untracked_expected":  122,
+                         "historical_untracked_actual":  122,
+                         "historical_untracked_preserved":  true,
+                         "accidental_artifact_removed":  "=3.2,",
+                         "accidental_artifacts_removed_count":  1,
+                         "productivo25_candidate_untracked":  [
+                                                                  "artifacts/productivo-25/v1.0.0/C25-FINAL-LIVE-E2E.json",
+                                                                  "automation/n8n/workflows/productivo25/01-productivo25-e2e.json",
+                                                                  "src/sgoda/demo_ready/postgres_pilot25.py",
+                                                                  "tests/demo_ready/test_postgres_pilot25.py"
+                                                              ],
+                         "productivo25_candidate_untracked_count":  4,
+                         "git_head_unchanged":  true,
+                         "workflow_sha256":  "e63db855d75a8b7939a59d661b3c78668582be4778b4fe166e1c768574e3ee2c",
+                         "webhook_repeated":  false,
+                         "database_requeried":  false,
+                         "http_requests":  0,
+                         "tests_repeated":  false
+                     },
+    "technical_closure":  {
+                              "status":  "CLOSED_VERIFIED",
+                              "live_e2e":  "25/25 PASS",
+                              "data_source":  "postgresql",
+                              "ready":  true,
+                              "attempt_3":  "PASS",
+                              "preservation":  "122/122 PASS",
+                              "next":  "PRODUCTIVO25-GIT-DOCS-PUBLICATION"
+                          }
+}

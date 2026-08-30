@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import os
 from functools import lru_cache
@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
 from .pilot25 import Pilot25Repository
+from .postgres_pilot25 import PostgresPilot25Repository
 
 
 app = FastAPI(
@@ -27,18 +28,26 @@ app.add_middleware(
 
 
 @lru_cache(maxsize=1)
-def get_repository() -> Pilot25Repository:
+def get_repository():
     records = os.environ.get("SGODA_PILOT25_RECORDS")
     drive = os.environ.get("SGODA_PILOT25_DRIVE_ROOT")
-
-    if not records:
-        raise RuntimeError(
-            "SGODA_PILOT25_RECORDS is not configured."
-        )
+    dsn = os.environ.get("SGODA_POSTGRES_DSN")
 
     if not drive:
         raise RuntimeError(
             "SGODA_PILOT25_DRIVE_ROOT is not configured."
+        )
+
+    if dsn:
+        return PostgresPilot25Repository(
+            dsn,
+            drive,
+        )
+
+    if not records:
+        raise RuntimeError(
+            "Neither SGODA_POSTGRES_DSN nor "
+            "SGODA_PILOT25_RECORDS is configured."
         )
 
     return Pilot25Repository(records, drive)
