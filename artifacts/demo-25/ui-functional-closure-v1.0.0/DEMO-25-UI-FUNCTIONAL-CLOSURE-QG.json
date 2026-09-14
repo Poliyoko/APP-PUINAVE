@@ -1,0 +1,55 @@
+{
+    "closure_id":  "DEMO-25-UI-FUNCTIONAL-CLOSURE-001",
+    "timestamp":  "2026-09-05T00:18:56.2956832-05:00",
+    "root_cause_repair":  {
+                              "issue":  "AMBIGUOUS_IMPORT",
+                              "symbol":  "demo25NativeLanguageName",
+                              "runtime_symbol_hidden":  true,
+                              "config_driven_support_source":  true,
+                              "ui_retransform":  false
+                          },
+    "categories":  {
+                       "catalog":  "PASS",
+                       "grouping":  "PASS",
+                       "filter":  "PASS",
+                       "navigation_to_fld":  "PASS",
+                       "counts":  "PASS",
+                       "config_binding":  "PASS",
+                       "localized_labels":  "PASS"
+                   },
+    "library":  {
+                    "configuration":  "PASS",
+                    "bible_status":  "VERIFIED",
+                    "bible_url":  "VERIFIED_URL_PENDING_BINDING",
+                    "public_links":  "READY_NO_VERIFIED_URL"
+                },
+    "identity":  {
+                     "flutter":  "PASS",
+                     "web":  "PASS",
+                     "android":  "PASS",
+                     "platform_name":  "SGODA-PUINAVE",
+                     "platform_name_status":  "PROVISIONAL_PENDING_COMMUNITY_CONFIRMATION"
+                 },
+    "quality_gates":  {
+                          "dart_format":  "PASS",
+                          "flutter_analyze":  "PASS",
+                          "flutter_web_build":  "PASS",
+                          "android_debug_build":  "PASS",
+                          "git_diff_check":  "PASS",
+                          "historical_untracked":  "122/122 PRESERVED"
+                      },
+    "protected_systems":  {
+                              "productivo25":  "FROZEN",
+                              "database_writes":  0,
+                              "fastapi_changes":  0,
+                              "n8n_executions":  0,
+                              "real_n_records_loaded":  0,
+                              "commit":  0,
+                              "push":  0,
+                              "tag":  0
+                          },
+    "status":  "CLOSED_VERIFIED",
+    "final_visual_qg":  "PASS",
+    "runtime_qg":  "CLOSED_VERIFIED",
+    "closed_at":  "2026-09-13T11:43:55.6211854-05:00"
+}

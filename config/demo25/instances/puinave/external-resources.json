@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "instance_id": "puinave",
+  "library": {
+    "title": "Recursos en lengua Puinave",
+    "enabled": true,
+    "configurable": true,
+    "hide_empty_sections": true,
+    "cardinality": "0..N"
+  },
+  "resources": [
+    {
+      "id": "puinave-bible",
+      "type": "BIBLE",
+      "title": "Biblia en Puinave",
+      "description": "Recurso bíblico disponible en lengua Puinave.",
+      "language_code": "pu",
+      "url": "https://www.scriptureearth.org/00eng.php?iso=pui",
+      "provider": null,
+      "status": "VERIFIED",
+      "visible": false,
+      "order": 10,
+      "verification": {
+        "status": "VERIFIED",
+        "confirmation_source": "PROJECT_USER_CONFIRMED_2026-08-30",
+        "url_binding_status": "PENDING",
+        "repository_source": null
+      },
+      "rights": {
+        "usage_status": "PENDING_METADATA_REVIEW",
+        "community_authorization": "NOT_RECORDED",
+        "participant_consent": "NOT_APPLICABLE"
+      },
+      "visible_link": true,
+      "links": [
+        {
+          "id": "puinave-bible-web",
+          "type": "WEB",
+          "label": "Biblia Puinave Web",
+          "url": "https://www.scriptureearth.org/00eng.php?iso=pui",
+          "platform": "ANY",
+          "status": "VERIFIED",
+          "enabled": true,
+          "visible": true,
+          "order": 10,
+          "valid_url": true,
+          "publishable": true
+        },
+        {
+          "id": "puinave-bible-puinave-sm",
+          "type": "ANDROID_APP",
+          "label": "Puinave SM",
+          "url": "https://apk.fcbh.org/Puinave_SM",
+          "platform": "ANY",
+          "status": "VERIFIED",
+          "enabled": true,
+          "visible": true,
+          "order": 20,
+          "valid_url": true,
+          "publishable": true
+        }
+      ],
+      "link_engine": "UNIVERSAL_0_N"
+    },
+    {
+      "id": "puinave-photographic-archive",
+      "type": "PHOTOGRAPHIC_ARCHIVE",
+      "title": "Registro fotográfico Puinave",
+      "description": "Colección configurable para fotografías relacionadas con la lengua, comunidad, territorio y patrimonio Puinave.",
+      "language_code": "pu",
+      "url": null,
+      "provider": null,
+      "status": "PENDING_VERIFICATION",
+      "visible": false,
+      "order": 20,
+      "verification": {
+        "status": "PENDING_VERIFICATION",
+        "url_binding_status": "PENDING"
+      },
+      "rights": {
+        "usage_status": "PENDING_REVIEW",
+        "community_authorization": "PENDING",
+        "participant_consent": "REQUIRED_WHEN_APPLICABLE"
+      },
+      "links": [],
+      "link_engine": "UNIVERSAL_0_N"
+    },
+    {
+      "id": "puinave-documentary-interviews",
+      "type": "DOCUMENTARY_INTERVIEW",
+      "title": "Documentales, testimonios y entrevistas Puinave",
+      "description": "Colección audiovisual configurable de documentales, testimonios y entrevistas a hablantes y miembros de la comunidad.",
+      "language_code": "pu",
+      "url": null,
+      "provider": null,
+      "status": "PENDING_VERIFICATION",
+      "visible": false,
+      "order": 30,
+      "verification": {
+        "status": "PENDING_VERIFICATION",
+        "url_binding_status": "PENDING"
+      },
+      "rights": {
+        "usage_status": "PENDING_REVIEW",
+        "community_authorization": "PENDING",
+        "participant_consent": "REQUIRED"
+      },
+      "links": [],
+      "link_engine": "UNIVERSAL_0_N"
+    }
+  ]
+}

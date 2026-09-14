@@ -1662,7 +1662,7 @@ class LibrarySection extends StatelessWidget {
                             '$demo25ConversationCount',
                           ),
                         ],
-                        if (publicLinks.isEmpty && !useLegacyFallback) ...[
+                        if (!canOpen) ...[
                           const SizedBox(height: 8),
                           const Text(
                             'Sin enlace '

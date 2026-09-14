@@ -1,0 +1,32 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "deliverable":  "DEMO-25-UNIVERSAL-EXTERNAL-LINK-ENGINE",
+    "status":  "IMPLEMENTED_AWAITING_VISUAL_QG",
+    "root_cause":  {
+                       "defect":  "RUNTIME_RESOURCE_CONFIG_NOT_RECONCILED",
+                       "wrong_target":  "MAIN_DART_SOURCE",
+                       "correct_target":  "DEMO25_RUNTIME_CONFIG_G_DART",
+                       "status":  "CLOSED"
+                   },
+    "qg":  {
+               "config_to_runtime":  "PASS",
+               "runtime_url":  "PASS",
+               "runtime_visible":  "PASS",
+               "runtime_status":  "VERIFIED",
+               "dictionary_regression":  "PASS",
+               "flutter_analyze":  "PASS",
+               "flutter_build_web":  "PASS",
+               "built_web_url":  "PASS",
+               "tracked_deletions":  0
+           },
+    "protected":  {
+                      "productivo25":  "FROZEN",
+                      "postgresql":  "NOT_TOUCHED",
+                      "fastapi":  "NOT_TOUCHED",
+                      "n8n":  "NOT_TOUCHED",
+                      "wsl":  "NOT_TOUCHED",
+                      "real_n":  "NOT_STARTED",
+                      "server_8091":  "NOT_RESTARTED"
+                  },
+    "next":  "VISUAL_QG_BIBLIOTECA_EXTERNAL_OPEN"
+}

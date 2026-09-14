@@ -1,0 +1,130 @@
+{
+    "schema_version":  "1.0.0",
+    "instance_id":  "puinave",
+    "configurable":  true,
+    "grammatical_categories":  [
+                                   {
+                                       "id":  "noun",
+                                       "label_es":  "Sustantivo",
+                                       "enabled":  true,
+                                       "order":  10
+                                   },
+                                   {
+                                       "id":  "verb",
+                                       "label_es":  "Verbo",
+                                       "enabled":  true,
+                                       "order":  20
+                                   },
+                                   {
+                                       "id":  "adjective",
+                                       "label_es":  "Adjetivo",
+                                       "enabled":  true,
+                                       "order":  30
+                                   },
+                                   {
+                                       "id":  "pronoun",
+                                       "label_es":  "Pronombre",
+                                       "enabled":  true,
+                                       "order":  40
+                                   },
+                                   {
+                                       "id":  "expression",
+                                       "label_es":  "Expresión",
+                                       "enabled":  true,
+                                       "order":  50
+                                   },
+                                   {
+                                       "id":  "pending_validation",
+                                       "label_es":  "Pendiente de validación",
+                                       "enabled":  true,
+                                       "order":  999
+                                   }
+                               ],
+    "semantic_categories":  [
+                                {
+                                    "id":  "family",
+                                    "label_es":  "Familia",
+                                    "enabled":  true,
+                                    "order":  10
+                                },
+                                {
+                                    "id":  "animals",
+                                    "label_es":  "Animales",
+                                    "enabled":  true,
+                                    "order":  20
+                                },
+                                {
+                                    "id":  "food",
+                                    "label_es":  "Alimentos",
+                                    "enabled":  true,
+                                    "order":  30
+                                },
+                                {
+                                    "id":  "actions",
+                                    "label_es":  "Acciones",
+                                    "enabled":  true,
+                                    "order":  40
+                                },
+                                {
+                                    "id":  "colors",
+                                    "label_es":  "Colores",
+                                    "enabled":  true,
+                                    "order":  50
+                                },
+                                {
+                                    "id":  "transport",
+                                    "label_es":  "Transporte",
+                                    "enabled":  true,
+                                    "order":  60
+                                },
+                                {
+                                    "id":  "body",
+                                    "label_es":  "Cuerpo humano",
+                                    "enabled":  true,
+                                    "order":  70
+                                },
+                                {
+                                    "id":  "health",
+                                    "label_es":  "Salud",
+                                    "enabled":  true,
+                                    "order":  80
+                                },
+                                {
+                                    "id":  "nature",
+                                    "label_es":  "Naturaleza",
+                                    "enabled":  true,
+                                    "order":  90
+                                },
+                                {
+                                    "id":  "agriculture",
+                                    "label_es":  "Agricultura",
+                                    "enabled":  true,
+                                    "order":  100
+                                },
+                                {
+                                    "id":  "communication",
+                                    "label_es":  "Comunicación",
+                                    "enabled":  true,
+                                    "order":  110
+                                },
+                                {
+                                    "id":  "materials",
+                                    "label_es":  "Materiales",
+                                    "enabled":  true,
+                                    "order":  120
+                                },
+                                {
+                                    "id":  "other",
+                                    "label_es":  "Por validar",
+                                    "enabled":  true,
+                                    "order":  999
+                                }
+                            ],
+    "governance":  {
+                       "instance_specific":  true,
+                       "administrator_extendable":  true,
+                       "administrator_orderable":  true,
+                       "administrator_toggleable":  true,
+                       "linguistic_validation_required":  true
+                   }
+}

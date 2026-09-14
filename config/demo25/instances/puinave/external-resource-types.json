@@ -1,0 +1,59 @@
+{
+    "schema_version":  "1.0.0",
+    "cardinality":  "0..N",
+    "configurable":  true,
+    "types":  [
+                  {
+                      "id":  "BIBLE",
+                      "title":  "Biblia"
+                  },
+                  {
+                      "id":  "DICTIONARY",
+                      "title":  "Diccionario"
+                  },
+                  {
+                      "id":  "EDUCATIONAL_MATERIAL",
+                      "title":  "Material educativo"
+                  },
+                  {
+                      "id":  "PHOTOGRAPHIC_ARCHIVE",
+                      "title":  "Registro fotográfico"
+                  },
+                  {
+                      "id":  "DOCUMENTARY_INTERVIEW",
+                      "title":  "Documentales y entrevistas"
+                  },
+                  {
+                      "id":  "NATIVE_CONVERSATION",
+                      "title":  "Conversaciones de hablantes nativos"
+                  },
+                  {
+                      "id":  "AUDIO_ARCHIVE",
+                      "title":  "Archivo sonoro"
+                  },
+                  {
+                      "id":  "VIDEO_ARCHIVE",
+                      "title":  "Archivo de video"
+                  },
+                  {
+                      "id":  "CULTURAL_RESOURCE",
+                      "title":  "Recursos culturales"
+                  },
+                  {
+                      "id":  "OTHER",
+                      "title":  "Otro"
+                  }
+              ],
+    "allowed_statuses":  [
+                             "PENDING_VERIFICATION",
+                             "VERIFIED",
+                             "COMMUNITY_APPROVED",
+                             "INACTIVE"
+                         ],
+    "governance":  {
+                       "url_verification_separate_from_rights":  true,
+                       "community_approval_separate_from_verification":  true,
+                       "participant_consent_supported":  true,
+                       "source_provenance_required":  true
+                   }
+}

@@ -1,0 +1,69 @@
+{
+    "schema":  "sgoda.native-conversation.contract.v1",
+    "resource_type":  "NATIVE_CONVERSATION",
+    "cardinality":  "0..N",
+    "purpose":  "Conversaciones educativas entre hablantes nativos",
+    "required_fields":  [
+                            "id",
+                            "type",
+                            "title",
+                            "native_language",
+                            "status",
+                            "visible",
+                            "dialogue"
+                        ],
+    "media_modes":  [
+                        "SGODA_MANAGED",
+                        "EXTERNAL_URL"
+                    ],
+    "media_types":  [
+                        "AUDIO",
+                        "VIDEO"
+                    ],
+    "dialogue_item":  {
+                          "utterance_id":  "required",
+                          "speaker_ref":  "required",
+                          "native":  {
+                                         "language":  "required",
+                                         "text":  "nullable",
+                                         "pronunciation":  "nullable",
+                                         "audio":  "nullable",
+                                         "start_time_ms":  "nullable",
+                                         "end_time_ms":  "nullable"
+                                     },
+                          "translations":  {
+                                               "cardinality":  "0..N",
+                                               "key":  "language_code",
+                                               "fields":  [
+                                                              "text",
+                                                              "audio",
+                                                              "status"
+                                                          ]
+                                           }
+                      },
+    "learning":  {
+                     "topic":  "nullable",
+                     "semantic_category":  "nullable",
+                     "difficulty":  "nullable",
+                     "selectable_auxiliary_language":  true,
+                     "directions":  [
+                                        "NATIVE_TO_AUXILIARY",
+                                        "AUXILIARY_TO_NATIVE"
+                                    ]
+                 },
+    "rights":  {
+                   "usage_status":  "required",
+                   "community_authorization":  "required_where_applicable",
+                   "participant_consent":  "required_where_identifiable_people",
+                   "provenance":  "required",
+                   "public_config_must_not_expose_private_consent_documents":  true
+               },
+    "publication_policy":  {
+                               "public_statuses":  [
+                                                       "VERIFIED",
+                                                       "COMMUNITY_APPROVED"
+                                                   ],
+                               "pending_hidden_by_default":  true,
+                               "inactive_hidden":  true
+                           }
+}

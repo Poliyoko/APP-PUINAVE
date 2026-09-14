@@ -1,0 +1,21 @@
+{
+    "schema":  "sgoda.native-conversations.collection.v1",
+    "instance_id":  "puinave",
+    "native_language":  "pu",
+    "configured_auxiliary_languages":  [
+                                           "es",
+                                           "en",
+                                           "it",
+                                           "pt"
+                                       ],
+    "records":  [
+
+                ],
+    "record_count":  0,
+    "state":  "READY_FOR_AUTHORIZED_CONTENT",
+    "notes":  [
+                  "No se incorporan conversaciones ficticias.",
+                  "No se publican videos sin verificación y autorización correspondiente.",
+                  "La colección admite recursos externos o administrados por SGODA."
+              ]
+}

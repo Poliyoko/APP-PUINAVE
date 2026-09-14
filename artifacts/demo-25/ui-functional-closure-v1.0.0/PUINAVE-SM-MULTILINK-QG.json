@@ -1,0 +1,48 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "component":  "DEMO25-PUINAVE-SM-MULTILINK",
+    "status":  "IMPLEMENTED_AWAITING_VISUAL_QG",
+    "root_causes":  {
+                        "disk_capacity":  "CLOSED",
+                        "previous_no_space_left_on_device":  "CLOSED",
+                        "powershell_measure_sum_test_mechanism":  "CLOSED",
+                        "generator_argument_contract":  "CLOSED"
+                    },
+    "resource":  {
+                     "instance":  "puinave",
+                     "resource_type":  "BIBLE",
+                     "status":  "VERIFIED",
+                     "links_per_resource":  "0..N",
+                     "bible_web":  "https://www.scriptureearth.org/00eng.php?iso=pui",
+                     "puinave_sm":  "https://apk.fcbh.org/Puinave_SM"
+                 },
+    "quality_gates":  {
+                          "disk_capacity":  "PASS",
+                          "bible_web_link_count":  "1 PASS",
+                          "puinave_sm_link_count":  "1 PASS",
+                          "duplicate_urls":  "0 PASS",
+                          "atomic_config_write":  "PASS",
+                          "generator":  "PASS",
+                          "generated_contract":  "PASS",
+                          "flutter_generic_binding":  "PASS",
+                          "flutter_analyze":  "PASS",
+                          "flutter_build_web":  "PASS",
+                          "flutter_build_android_debug":  "PASS",
+                          "android_build_executions_this_unit":  1,
+                          "built_web_bible_link":  "PASS",
+                          "built_web_puinave_sm_link":  "PASS",
+                          "android_debug_apk":  "PASS",
+                          "git_diff_check":  "PASS",
+                          "tracked_deletions":  "0 PASS"
+                      },
+    "safeguards":  {
+                       "historical_untracked":  "NOT_TOUCHED",
+                       "fastapi":  "NOT_TOUCHED",
+                       "postgresql":  "NOT_TOUCHED",
+                       "n8n":  "NOT_TOUCHED",
+                       "wsl":  "NOT_TOUCHED",
+                       "productivo25":  "FROZEN",
+                       "real_n":  "NOT_STARTED"
+                   },
+    "next":  "VISUAL_QG_BIBLE_WEB_AND_PUINAVE_SM"
+}

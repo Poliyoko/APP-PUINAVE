@@ -1,0 +1,35 @@
+{
+    "schema_version":  "1.0.0",
+    "deliverable":  "DEMO-25-UI-FUNCTIONAL-CLOSURE-001",
+    "instance_id":  "puinave",
+    "status":  "CLOSED_VERIFIED",
+    "closed_at":  "2026-09-13T11:43:55.6211854-05:00",
+    "visual_qg":  {
+                      "inicio":  "PASS",
+                      "real25":  "25/25 PASS",
+                      "dictionary":  "PASS",
+                      "categories":  "PASS",
+                      "category_to_fld":  "PASS",
+                      "library":  "PASS",
+                      "bible_web":  "PASS",
+                      "puinave_sm":  "PASS",
+                      "native_conversations":  "PASS",
+                      "about_sgoda":  "PASS",
+                      "identity":  "PASS",
+                      "full_platform":  "PASS"
+                  },
+    "runtime_qg":  {
+                       "fastapi_wsl":  "PASS",
+                       "windows_wsl_relay_8010":  "PASS",
+                       "flutter_web_8091":  "PASS",
+                       "real25_audio":  "25/25 PASS"
+                   },
+    "preserved":  {
+                      "productivo25":  "FROZEN",
+                      "postgresql":  "NOT_MODIFIED",
+                      "n8n":  "NOT_EXECUTED",
+                      "flutter_build":  "PREVIOUS_PASS_NOT_REPEATED",
+                      "android_build":  "PREVIOUS_PASS_NOT_REPEATED",
+                      "real_n":  "NOT_STARTED"
+                  }
+}

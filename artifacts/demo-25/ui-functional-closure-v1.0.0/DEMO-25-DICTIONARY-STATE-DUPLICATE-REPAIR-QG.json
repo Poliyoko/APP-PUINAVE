@@ -1,0 +1,20 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "deliverable":  "DEMO-25-UI-FUNCTIONAL-CLOSURE-001",
+    "defect":  "DUPLICATE_DICTIONARY_SECTION_STATE",
+    "source_file":  "apps/sgoda_puinave_demo/lib/main.dart",
+    "root_cause":  "UI_REGENERATION_CREATED_DUPLICATE_STATE_CLASS",
+    "repair_policy":  "REMOVE_SECOND_ONLY_IF_STRUCTURALLY_IDENTICAL",
+    "post_repair_declaration_count":  1,
+    "dart_format":  "PASS",
+    "flutter_analyze":  "PASS",
+    "flutter_build_web":  "PASS",
+    "git_diff_check":  "PASS",
+    "bible_config":  "FROZEN_PASS",
+    "bible_public_url":  "FROZEN_PASS",
+    "database_writes":  0,
+    "n8n_executions":  0,
+    "real_n_records_loaded":  0,
+    "productivo25":  "FROZEN",
+    "verified_utc":  "2026-09-06T18:58:48.8970868Z"
+}

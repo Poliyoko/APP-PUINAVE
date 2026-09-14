@@ -1,0 +1,31 @@
+{
+    "schema_version":  "1.0.0",
+    "deliverable":  "DEMO-25-UI-FUNCTIONAL-CLOSURE-001",
+    "status":  "CLOSED_VERIFIED",
+    "closed_at":  "2026-09-13T11:43:55.6211854-05:00",
+    "runtime_architecture":  {
+                                 "flutter_web":  "http://127.0.0.1:8091",
+                                 "fastapi_backend":  "http://127.0.0.1:8010",
+                                 "fastapi_health":  "/health",
+                                 "real25_api":  "/api/demo/pilot25",
+                                 "service":  "sgoda-productivo25-visual-8010.service"
+                             },
+    "root_causes_closed":  [
+                               "STALE_WSL_G_MOUNT",
+                               "WSL_CRLF_SYSTEMD_TRANSPORT",
+                               "WINDOWS_WSL_LOCALHOST_RELAY_READINESS"
+                           ],
+    "persistent_repair":  {
+                              "wsl_local_http_gate":  "PASS",
+                              "healthy_api_restart_avoidance":  "PASS",
+                              "windows_relay_wait":  "PASS",
+                              "web_runtime_recovery_8091":  "PASS"
+                          },
+    "final_qg":  {
+                     "fastapi_wsl_health":  "HTTP 200 PASS",
+                     "fastapi_wsl_real25":  "HTTP 200 PASS",
+                     "windows_fastapi_8010":  "HTTP 200 PASS",
+                     "flutter_web_8091":  "HTTP 200 PASS",
+                     "real25_audio":  "25/25 PASS"
+                 }
+}

@@ -1,0 +1,34 @@
+{
+    "schema":  "sgoda.language-interaction-policy.v1",
+    "instance_id":  "puinave",
+    "native_language":  "pu",
+    "auxiliary_languages":  [
+                                "es",
+                                "en",
+                                "it",
+                                "pt"
+                            ],
+    "cardinality":  "0..N",
+    "interaction_model":  {
+                              "primary_relation":  "NATIVE_TO_SELECTED_AUXILIARY",
+                              "reverse_relation":  "SELECTED_AUXILIARY_TO_NATIVE",
+                              "generate_direction_dynamically":  true,
+                              "do_not_store_pairwise_duplicates":  true
+                          },
+    "learning_modes":  [
+                           "LISTEN_NATIVE",
+                           "NATIVE_TO_AUXILIARY",
+                           "AUXILIARY_TO_NATIVE",
+                           "LINE_BY_LINE",
+                           "HIDE_TRANSLATION",
+                           "SHOW_PRONUNCIATION",
+                           "REPEAT_UTTERANCE"
+                       ],
+    "availability_policy":  {
+                                "language_enabled_is_not_translation_available":  true,
+                                "translation_requires_content":  true,
+                                "audio_requires_media":  true,
+                                "missing_content_must_not_be_fabricated":  true,
+                                "unavailable_languages_may_be_shown_as_pending":  true
+                            }
+}

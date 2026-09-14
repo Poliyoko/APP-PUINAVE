@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "component": "SGODA-UNIVERSAL-EXTERNAL-RESOURCE-LINK-ENGINE",
+  "status": "PASS",
+  "resources": 3,
+  "links_total": 2,
+  "publishable_links": 2,
+  "invalid_visible_links": 0,
+  "links_per_resource": "0..N",
+  "provider_hardcoding": false,
+  "language_hardcoding": false,
+  "resource_type_hardcoding": false,
+  "legacy_url_compatibility": true,
+  "supported_link_types": [
+    "ANDROID_APP",
+    "AUDIO",
+    "DEEP_LINK",
+    "DOCUMENT",
+    "DOWNLOAD",
+    "IOS_APP",
+    "OTHER",
+    "VIDEO",
+    "WEB"
+  ]
+}

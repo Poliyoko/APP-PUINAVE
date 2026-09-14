@@ -1,0 +1,128 @@
+{
+    "schema_version":  "1.0.0",
+    "architecture":  {
+                         "core":  "SGODA",
+                         "model":  "ONE_NATIVE_LANGUAGE_PER_INSTANCE",
+                         "configuration_driven":  true,
+                         "reusable_for_other_native_languages":  true
+                     },
+    "instance":  {
+                     "instance_id":  "puinave",
+                     "instance_status":  "DEMO25",
+                     "native_language":  {
+                                             "code":  "pu",
+                                             "name":  "Puinave",
+                                             "role":  "PRIMARY_NATIVE_LANGUAGE"
+                                         },
+                     "community":  {
+                                       "name":  "Pueblo Puinave",
+                                       "configurable":  true
+                                   }
+                 },
+    "identity":  {
+                     "platform_name":  "SGODA-PUINAVE",
+                     "platform_name_status":  "PROVISIONAL_PENDING_COMMUNITY_CONFIRMATION",
+                     "institutional_subtitle":  "Preservación y aprendizaje de la lengua Puinave",
+                     "slogan":  "Tecnología para preservar la memoria del pueblo Puinave.",
+                     "public_identity_configurable":  true,
+                     "logo":  {
+                                  "configurable":  true,
+                                  "asset":  null
+                              },
+                     "theme":  {
+                                   "configurable":  true,
+                                   "profile":  "default"
+                               }
+                 },
+    "web":  {
+                "site_name":  "SGODA-PUINAVE",
+                "page_title":  "SGODA-PUINAVE | Preservación y aprendizaje",
+                "short_name":  "SGODA-PUINAVE",
+                "configurable":  true
+            },
+    "android":  {
+                    "app_name":  "SGODA-PUINAVE",
+                    "configurable":  true
+                },
+    "languages":  {
+                      "schema":  "sgoda.instance.languages.v1",
+                      "cardinality":  "native=1; auxiliary=0..N",
+                      "native":  {
+                                     "code":  "pu",
+                                     "name":  "Puinave",
+                                     "role":  "NATIVE_PRIMARY",
+                                     "required":  true
+                                 },
+                      "auxiliary":  [
+                                        {
+                                            "code":  "es",
+                                            "name":  "Español",
+                                            "enabled":  true,
+                                            "order":  1,
+                                            "content_availability":  "AVAILABLE_IN_REAL25"
+                                        },
+                                        {
+                                            "code":  "en",
+                                            "name":  "English",
+                                            "enabled":  true,
+                                            "order":  2,
+                                            "content_availability":  "PENDING_CONTENT"
+                                        },
+                                        {
+                                            "code":  "it",
+                                            "name":  "Italiano",
+                                            "enabled":  true,
+                                            "order":  3,
+                                            "content_availability":  "PENDING_CONTENT"
+                                        },
+                                        {
+                                            "code":  "pt",
+                                            "name":  "Português",
+                                            "enabled":  true,
+                                            "order":  4,
+                                            "content_availability":  "PENDING_CONTENT"
+                                        }
+                                    ],
+                      "rules":  {
+                                    "no_hardcoded_auxiliary_limit":  true,
+                                    "configured_does_not_mean_content_exists":  true,
+                                    "render_only_available_content":  true,
+                                    "allow_future_languages_without_core_code_change":  true
+                                }
+                  },
+    "taxonomy":  {
+                     "grammatical_categories":  "0..N",
+                     "semantic_categories":  "0..N",
+                     "configurable":  true
+                 },
+    "digital_library":  {
+                            "enabled":  true,
+                            "cardinality":  "0..N",
+                            "configurable":  true,
+                            "hide_empty_sections":  true
+                        },
+    "fld":  {
+                "enabled":  true,
+                "instance_aware":  true
+            },
+    "governance":  {
+                       "linguistic_validation_required":  true,
+                       "inferred_categories_are_authoritative":  false,
+                       "external_resource_verification_required":  true,
+                       "publication_rights_review_supported":  true,
+                       "community_approval_supported":  true
+                   },
+    "language_interaction":  {
+                                 "multilingual":  true,
+                                 "native_language":  "pu",
+                                 "auxiliary_cardinality":  "0..N",
+                                 "initial_auxiliary_languages":  [
+                                                                     "es",
+                                                                     "en",
+                                                                     "it",
+                                                                     "pt"
+                                                                 ],
+                                 "bidirectional_learning":  true,
+                                 "conversation_resources":  true
+                             }
+}

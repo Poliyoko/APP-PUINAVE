@@ -1,0 +1,34 @@
+﻿{
+    "deliverable":  "DEMO-25-UI-FUNCTIONAL-CLOSURE-001",
+    "qg":  "BIBLE-EXISTING-GENERATOR-APPLY",
+    "status":  "IMPLEMENTED_AWAITING_VISUAL_QG",
+    "root_cause_resolution":  {
+                                  "source_config":  "PASS",
+                                  "existing_generator_contract":  "PASS",
+                                  "new_generator_patch":  false,
+                                  "canonical_generator_executions":  1,
+                                  "generated_support_url":  "PASS",
+                                  "web_build_url":  "PASS"
+                              },
+    "bible":  {
+                  "id":  "puinave-bible",
+                  "status":  "VERIFIED",
+                  "url_bound":  true,
+                  "visible_link":  true,
+                  "mode":  "CONTROLLED_TEST"
+              },
+    "quality_gates":  {
+                          "dictionary_duplicate_regression":  "PASS",
+                          "flutter_analyze":  "PASS",
+                          "flutter_build_web":  "PASS",
+                          "git_diff_check":  "PASS",
+                          "tracked_deletions":  "0 PASS"
+                      },
+    "frozen":  {
+                   "productivo25":  true,
+                   "database_writes":  0,
+                   "n8n_executions":  0,
+                   "real_n_records_loaded":  0
+               },
+    "visual_qg":  "PENDING"
+}

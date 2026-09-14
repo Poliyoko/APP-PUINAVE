@@ -1,0 +1,337 @@
+{
+    "schema_version":  "1.0.0",
+    "instance_id":  "puinave",
+    "record_count":  25,
+    "records":  [
+                    {
+                        "lexical_id":  "PU-000001",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "family",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000002",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "animals",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000003",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "food",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000004",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "family",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000005",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "food",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000006",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "food",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000007",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "actions",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000008",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "actions",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000009",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "actions",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000010",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "actions",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000011",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "materials",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000012",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "communication",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000013",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "communication",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000014",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "transport",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000015",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "animals",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000016",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "animals",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000017",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "actions",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000018",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "colors",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000019",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "colors",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000020",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "colors",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000021",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "agriculture",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000022",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "health",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000023",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "animals",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000024",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "animals",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    },
+                    {
+                        "lexical_id":  "PU-000025",
+                        "grammatical_category":  {
+                                                     "id":  null,
+                                                     "status":  "PENDING_LINGUISTIC_VALIDATION",
+                                                     "source":  null
+                                                 },
+                        "semantic_category":  {
+                                                  "id":  "body",
+                                                  "status":  "DERIVED_PENDING_VALIDATION",
+                                                  "source":  "DEMO25_EDUCATIONAL_CLASSIFICATION_FROM_SPANISH_GLOSS"
+                                              }
+                    }
+                ],
+    "governance":  {
+                       "source_linguistic_data_modified":  false,
+                       "semantic_values_authoritative":  false,
+                       "grammatical_values_authoritative":  false
+                   }
+}

@@ -1,0 +1,47 @@
+{
+    "closure_id":  "DEMO-25-UI-FUNCTIONAL-CLOSURE-001",
+    "stage":  "PERSISTENT_CONFIG_DRIVEN_GENERATOR",
+    "timestamp":  "2026-09-05T00:06:08.8181557-05:00",
+    "productivo25":  "FROZEN",
+    "taxonomy":  {
+                     "source":  "config/demo25/instances/puinave/taxonomy.json",
+                     "category_count":  13,
+                     "config_driven":  true,
+                     "localized_labels":  "PASS",
+                     "order_binding":  "PASS",
+                     "enabled_binding":  "PASS",
+                     "administrator_extendable":  true,
+                     "administrator_orderable":  true,
+                     "administrator_toggleable":  true
+                 },
+    "identity":  {
+                     "source":  "config/demo25/instances/puinave/instance-config.json",
+                     "platform_name":  "SGODA-PUINAVE",
+                     "platform_name_status":  "PROVISIONAL_PENDING_COMMUNITY_CONFIRMATION",
+                     "web_page_title":  "SGODA-PUINAVE | Preservación y aprendizaje",
+                     "android_app_name":  "SGODA-PUINAVE",
+                     "community_name":  "Pueblo Puinave"
+                 },
+    "bible":  {
+                  "status":  "VERIFIED",
+                  "url_binding":  "VERIFIED_URL_PENDING_BINDING",
+                  "fabricated_url":  false
+              },
+    "persistent_generator":  {
+                                 "powershell":  "scripts/demo25/Build-DEMO25-UI-ConfigDriven.ps1",
+                                 "python":  "scripts/demo25/build_demo25_ui_config_driven.py",
+                                 "repository_bound":  true,
+                                 "temp_dependency":  false,
+                                 "py_compile":  "PASS"
+                             },
+    "preservation":  "122/122 PRESERVED",
+    "protected_systems":  {
+                              "database_writes":  0,
+                              "fastapi_changes":  0,
+                              "n8n_executions":  0,
+                              "real_n_records_loaded":  0,
+                              "git_commit":  0,
+                              "git_push":  0,
+                              "git_tag":  0
+                          }
+}

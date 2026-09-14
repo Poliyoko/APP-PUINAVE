@@ -1,0 +1,87 @@
+{
+    "schema_version":  "1.0.0",
+    "object_type":  "DIGITAL_LEXICAL_RECORD",
+    "instance_aware":  true,
+    "fields":  [
+                   {
+                       "name":  "lexical_id",
+                       "required":  true,
+                       "cardinality":  "1"
+                   },
+                   {
+                       "name":  "native_word",
+                       "required":  true,
+                       "cardinality":  "1"
+                   },
+                   {
+                       "name":  "pronunciation",
+                       "required":  false,
+                       "cardinality":  "0..1"
+                   },
+                   {
+                       "name":  "translations",
+                       "required":  false,
+                       "cardinality":  "0..N"
+                   },
+                   {
+                       "name":  "grammatical_category",
+                       "required":  false,
+                       "cardinality":  "0..1",
+                       "configurable":  true
+                   },
+                   {
+                       "name":  "semantic_category",
+                       "required":  false,
+                       "cardinality":  "0..1",
+                       "configurable":  true
+                   },
+                   {
+                       "name":  "image",
+                       "required":  false,
+                       "cardinality":  "0..N"
+                   },
+                   {
+                       "name":  "native_audio",
+                       "required":  false,
+                       "cardinality":  "0..N"
+                   },
+                   {
+                       "name":  "auxiliary_audio",
+                       "required":  false,
+                       "cardinality":  "0..N"
+                   },
+                   {
+                       "name":  "multimedia",
+                       "required":  false,
+                       "cardinality":  "0..N"
+                   },
+                   {
+                       "name":  "external_resources",
+                       "required":  false,
+                       "cardinality":  "0..N"
+                   }
+               ],
+    "relationships":  {
+                          "instance_config":  "instance-config.json",
+                          "taxonomy":  "taxonomy.json",
+                          "category_assignment":  "real25-category-assignment.json",
+                          "digital_library":  "external-resources.json"
+                      },
+    "governance":  {
+                       "preserve_original_linguistic_data":  true,
+                       "inferred_data_requires_provenance":  true,
+                       "linguistic_validation_supported":  true,
+                       "community_validation_supported":  true,
+                       "multimedia_rights_supported":  true
+                   },
+    "multilingual":  {
+                         "native_language":  "1",
+                         "auxiliary_languages":  "0..N",
+                         "translations":  "0..N keyed by language_code",
+                         "native_audio":  "0..N media variants",
+                         "auxiliary_audio":  "0..N keyed by language_code",
+                         "conversation_links":  "0..N",
+                         "render_only_available_content":  true,
+                         "missing_translation_policy":  "DO_NOT_FABRICATE"
+                     }
+}

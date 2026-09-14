@@ -1,0 +1,52 @@
+﻿{
+    "schema_version":  "1.0.0",
+    "engine":  {
+                   "id":  "SGODA-UNIVERSAL-EXTERNAL-LINK-ENGINE",
+                   "configurable":  true,
+                   "instance_specific":  true,
+                   "links_per_resource":  "0..N",
+                   "provider_hardcoding":  false,
+                   "language_hardcoding":  false,
+                   "resource_type_hardcoding":  false
+               },
+    "supported_link_types":  [
+                                 "WEB",
+                                 "ANDROID_APP",
+                                 "IOS_APP",
+                                 "DEEP_LINK",
+                                 "AUDIO",
+                                 "VIDEO",
+                                 "DOCUMENT",
+                                 "DOWNLOAD",
+                                 "OTHER"
+                             ],
+    "supported_resource_types":  [
+                                     "BIBLE",
+                                     "DICTIONARY",
+                                     "EDUCATIONAL_MATERIAL",
+                                     "PHOTOGRAPHIC_ARCHIVE",
+                                     "DOCUMENTARY_INTERVIEW",
+                                     "NATIVE_CONVERSATION",
+                                     "AUDIO_ARCHIVE",
+                                     "VIDEO_ARCHIVE",
+                                     "CULTURAL_RESOURCE",
+                                     "OTHER"
+                                 ],
+    "publication_policy":  {
+                               "verified_resource_required":  true,
+                               "valid_url_required":  true,
+                               "enabled_link_required":  true,
+                               "visible_link_required":  true,
+                               "http_allowed":  false,
+                               "https_allowed":  true,
+                               "invalid_links_hidden":  true,
+                               "unavailable_links_hidden":  true
+                           },
+    "governance":  {
+                       "external_resources_are_instance_configuration":  true,
+                       "links_are_configurable":  true,
+                       "link_order_is_configurable":  true,
+                       "labels_are_configurable":  true,
+                       "provider_specific_code_forbidden":  true
+                   }
+}
