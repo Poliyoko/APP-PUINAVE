@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT MANUALLY.
+﻿// GENERATED FILE - DO NOT EDIT MANUALLY.
 // SGODA Universal External Resource Link Engine 0..N
 
 class Demo25ExternalResourceLink {
@@ -46,7 +46,7 @@ demo25ExternalResourceLinks = {
       id: 'puinave-bible-puinave-sm',
       type: 'ANDROID_APP',
       label: 'Puinave SM',
-      url: 'https://apk.fcbh.org/Puinave_SM',
+      url: 'https://play.google.com/store/apps/details?id=org.fcbh.puismv.n2.n',
       platform: 'ANY',
       status: 'VERIFIED',
       enabled: true,
@@ -68,3 +68,4 @@ List<Demo25ExternalResourceLink> demo25PublicLinksForResource(
   return links.where((link) => link.publishable).toList()
     ..sort((a, b) => a.order.compareTo(b.order));
 }
+

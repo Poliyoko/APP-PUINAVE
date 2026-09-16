@@ -1,4 +1,4 @@
-{
+﻿{
   "schema_version": "1.0.0",
   "instance_id": "puinave",
   "library": {
@@ -50,7 +50,7 @@
           "id": "puinave-bible-puinave-sm",
           "type": "ANDROID_APP",
           "label": "Puinave SM",
-          "url": "https://apk.fcbh.org/Puinave_SM",
+          "url": "https://play.google.com/store/apps/details?id=org.fcbh.puismv.n2.n",
           "platform": "ANY",
           "status": "VERIFIED",
           "enabled": true,
@@ -110,3 +110,4 @@
     }
   ]
 }
+

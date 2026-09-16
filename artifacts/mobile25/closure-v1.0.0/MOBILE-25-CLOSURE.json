@@ -1,0 +1,46 @@
+﻿{
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "MOBILE-25",
+    "status":  "CLOSED_VERIFIED",
+    "validation_date":  "2026-09-15T20:38:23.1717939-05:00",
+    "android":  {
+                    "device_serial":  "innjaionlbpf8lww",
+                    "sgoda_package":  "org.sgoda.sgoda_puinave_demo",
+                    "puinave_bible_package":  "org.fcbh.puismv.n2.n",
+                    "apk_sha256":  "2CC1A1B3498FDB22DF70C82C66844D101609EC1CA86B24DE1059D9A604CDBBCF"
+                },
+    "quality_gates":  {
+                          "clean_baseline":  "CLOSED_VERIFIED_FROZEN",
+                          "flutter_analyze":  "PASS",
+                          "android_build":  "PASS",
+                          "sgoda_install":  "PASS",
+                          "sgoda_launch":  "PASS",
+                          "mobile_audio":  "PHYSICAL_PASS_FROZEN",
+                          "android_browser":  "PHYSICAL_PASS_FROZEN",
+                          "biblia_puinave_web":  "PHYSICAL_PASS",
+                          "puinave_sm_external_link":  "PHYSICAL_PASS",
+                          "puinave_bible_device_state":  "ALREADY_INSTALLED",
+                          "puinave_bible_open":  "PHYSICAL_PASS_USER_CONFIRMED"
+                      },
+    "link_repair":  {
+                        "root_cause":  "Android resolved external_link_stub.dart, whose openExternalUrl returned false.",
+                        "native_solution":  "url_launcher with LaunchMode.externalApplication",
+                        "universal_engine":  "GENERIC"
+                    },
+    "puinave_sm":  {
+                       "sgoda_label":  "Puinave SM",
+                       "resource_type":  "ANDROID_APP",
+                       "enabled":  true,
+                       "visible":  true,
+                       "current_destination":  "https://play.google.com/store/apps/details?id=org.fcbh.puismv.n2.n",
+                       "destination_scope":  "PUINAVE_INSTANCE_CONFIGURATION",
+                       "official_application":  "Puinave Bible",
+                       "package":  "org.fcbh.puismv.n2.n",
+                       "physical_open":  "PASS"
+                   },
+    "preservation":  {
+                         "historical_demo25_evidence":  "PRESERVED_UNMODIFIED",
+                         "productivo25":  "FROZEN",
+                         "real_n":  "NOT_STARTED"
+                     }
+}
