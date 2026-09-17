@@ -1,0 +1,39 @@
+﻿{
+    "schema":  "SGD-003.1-INCREMENT-04-CLOSURE-READINESS-v1",
+    "generated_at":  "2026-09-16T21:23:12.3645533-05:00",
+    "repository":  "Poliyoko/APP-PUINAVE",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "baseline":  "b84e2bcf960dccf2e66be724876b08fa0f454a76",
+    "increment_01":  "PASS_FROZEN",
+    "increment_02":  "PASS_FROZEN",
+    "increment_03":  "PASS_FROZEN",
+    "descriptor_entries":  71,
+    "exact_unique_codes":  71,
+    "logical_components_by_normalization_rule":  61,
+    "reconciliation":  "41-\u003e60-\u003e71",
+    "reconciliation_nature":  "TEMPORAL_GROWTH_AND_VERSIONED_DESCRIPTORS",
+    "git_components_found":  43,
+    "git_components_not_found":  28,
+    "corpus_denominator_classification":  "APPROXIMATE",
+    "corpus_denominator_value":  1000,
+    "security_domains":  15,
+    "security_evidence_found":  14,
+    "security_not_evidenced":  1,
+    "security_not_evidenced_domains":  [
+                                           "Recuperacion ante desastre"
+                                       ],
+    "sgd002_integrity":  "NONEMPTY",
+    "closure_readiness":  "CONDITIONALLY_READY",
+    "conditions":  [
+                       "CORPUS_DENOMINATOR_APPROXIMATE",
+                       "SECURITY_NOT_EVIDENCED_1"
+                   ],
+    "mmar_status":  "BASELINE_PROVISIONAL_PRESERVED",
+    "mmar_technology":  83.24,
+    "mmar_lexical":  2.5,
+    "mmar_integral":  62.4,
+    "real_n":  "NOT_STARTED",
+    "commit":  "NOT_YET",
+    "push":  "NOT_YET",
+    "tag":  "NOT_YET"
+}

@@ -1,0 +1,245 @@
+﻿{
+    "schema":  "SGD-003.1-INCREMENT-04-CORPUS-DENOMINATOR-v1",
+    "generated_at":  "2026-09-16T21:23:11.8662908-05:00",
+    "classification":  "APPROXIMATE",
+    "value":  1000,
+    "source":  "docs/00_Estado_Maestro/SGD-003/SGD-003-C-MMAR.md",
+    "note":  "1000 is not treated as authoritative unless an explicit consistent machine-readable canonical field is found.",
+    "candidates":  [
+                       {
+                           "File":  "config/integration/spt02412/infrastructure-hardening-governance-policy.json",
+                           "Line":  14,
+                           "Context":  "\"INFRA-NO-REAL-NETWORK-ACTION\","
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-B-Diccionario-Nomenclatura.md",
+                           "Line":  35,
+                           "Context":  "| REAL-25 | Baseline funcional con 25 registros lingüísticos reales |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-B-Diccionario-Nomenclatura.md",
+                           "Line":  36,
+                           "Context":  "| REAL-N | Escalamiento desde REAL-25 hacia el universo lingüístico objetivo |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-B-Diccionario-Nomenclatura.md",
+                           "Line":  37,
+                           "Context":  "| PRODUCTIVO-25 | Validación productiva del conjunto REAL-25 |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-B-Diccionario-Nomenclatura.md",
+                           "Line":  38,
+                           "Context":  "| DEMO-25 | Cierre demostrativo funcional sobre REAL-25 |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-B-Diccionario-Nomenclatura.md",
+                           "Line":  39,
+                           "Context":  "| MOBILE-25 | Validación física Android del ecosistema REAL-25 |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-C-MMAR.md",
+                           "Line":  47,
+                           "Context":  "| Datos linguisticos REAL-N | 14% | 2.5% | 0.35 |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-C-MMAR.md",
+                           "Line":  48,
+                           "Context":  "| Audio y multimedia REAL-N | 12% | 3.75% | 0.45 |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-C-MMAR.md",
+                           "Line":  56,
+                           "Context":  "**Avance lingüístico REAL-25 / referencia ~1000:** 2.5%"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-C-MMAR.md",
+                           "Line":  63,
+                           "Context":  "todavía no ha sido escalado a REAL-N."
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-C-MMAR.md",
+                           "Line":  65,
+                           "Context":  "REAL-N permanece:"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-D-Dashboard-MMAR.md",
+                           "Line":  24,
+                           "Context":  "| REAL-25 | 25 |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-D-Dashboard-MMAR.md",
+                           "Line":  25,
+                           "Context":  "| Referencia léxica | ~1000 |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-D-Dashboard-MMAR.md",
+                           "Line":  38,
+                           "Context":  "| REAL-25 | COMPLETED / FROZEN BASELINE |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-D-Dashboard-MMAR.md",
+                           "Line":  39,
+                           "Context":  "| REAL-N | NOT_STARTED |"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-D-Dashboard-MMAR.md",
+                           "Line":  69,
+                           "Context":  "- REAL-N: NO INICIADO"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-F-Reconciliacion-Institucional.md",
+                           "Line":  41,
+                           "Context":  "definitiva del denominador REAL-N y de sus fuentes de evidencia."
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-F-Reconciliacion-Institucional.md",
+                           "Line":  43,
+                           "Context":  "## REAL-N"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-Reporte-Maestro-Integral-SGODA-PUINAVE.md",
+                           "Line":  21,
+                           "Context":  "el contenido desde REAL-25 hacia REAL-N."
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-Reporte-Maestro-Integral-SGODA-PUINAVE.md",
+                           "Line":  38,
+                           "Context":  "6. validación REAL-25;"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-Reporte-Maestro-Integral-SGODA-PUINAVE.md",
+                           "Line":  44,
+                           "Context":  "12. futura expansión REAL-N."
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-Reporte-Maestro-Integral-SGODA-PUINAVE.md",
+                           "Line":  119,
+                           "Context":  "- REAL-25/~1000: **2.5%**"
+                       },
+                       {
+                           "File":  "docs/00_Estado_Maestro/SGD-003/SGD-003-Reporte-Maestro-Integral-SGODA-PUINAVE.md",
+                           "Line":  129,
+                           "Context":  "QA, QG, E2E, REAL-25, REAL-N, PRODUCTIVO-25, DEMO-25, MOBILE-25 y MMAR."
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/DEMO-25/SGD-DEMO25-Cierre-Integral-v1.0.0.md",
+                           "Line":  11,
+                           "Context":  "- REAL-25: 25/25 PASS."
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/DEMO-25/SGD-DEMO25-Cierre-Integral-v1.0.0.md",
+                           "Line":  29,
+                           "Context":  "- REAL-25: /api/demo/pilot25"
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/DEMO-25/SGD-DEMO25-Cierre-Integral-v1.0.0.md",
+                           "Line":  46,
+                           "Context":  "- FastAPI REAL-25: PASS."
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/DEMO-25/SGD-DEMO25-Cierre-Integral-v1.0.0.md",
+                           "Line":  49,
+                           "Context":  "- Audios REAL-25: 25/25 PASS."
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/DEMO-25/SGD-DEMO25-Cierre-Integral-v1.0.0.md",
+                           "Line":  58,
+                           "Context":  "- REAL-N: NOT_STARTED."
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/MOBILE-25/SGD-MOBILE25-Cierre-v1.0.0.md",
+                           "Line":  10,
+                           "Context":  "REAL-25 y funcionamiento de recursos externos."
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/MOBILE-25/SGD-MOBILE25-Cierre-v1.0.0.md",
+                           "Line":  45,
+                           "Context":  "- Audio REAL-25: PHYSICAL PASS / FROZEN."
+                       },
+                       {
+                           "File":  "docs/06_Tecnologia/MOBILE-25/SGD-MOBILE25-Cierre-v1.0.0.md",
+                           "Line":  70,
+                           "Context":  "No quedan errores MOBILE-25 autorizados para heredarse a REAL-N."
+                       },
+                       {
+                           "File":  "docs/08_Entregables/DEMO-READY/ACT-P6-DEMO-READY-CIERRE-v1.0.0.md",
+                           "Line":  22,
+                           "Context":  "- REAL-25: **25 / 25 registros**"
+                       },
+                       {
+                           "File":  "docs/08_Entregables/DEMO-READY/SGODA-DEMO-READY-PILOTO25-v1.0.0.md",
+                           "Line":  23,
+                           "Context":  "| REAL-25 | READY |"
+                       },
+                       {
+                           "File":  "docs/08_Entregables/DEMO-READY/SGODA-DEMO-READY-PILOTO25-v1.0.0.md",
+                           "Line":  42,
+                           "Context":  "→ `REAL-25`"
+                       },
+                       {
+                           "File":  "docs/08_Entregables/PRODUCTIVO-25/SGODA-PRODUCTIVO-25-CIERRE-v1.0.0.md",
+                           "Line":  17,
+                           "Context":  "## 2. Línea base REAL-25"
+                       },
+                       {
+                           "File":  "docs/08_Entregables/PRODUCTIVO-25/SGODA-PRODUCTIVO-25-CIERRE-v1.0.0.md",
+                           "Line":  27,
+                           "Context":  "- Quality Gate REAL-25: PASS."
+                       },
+                       {
+                           "File":  "docs/08_Entregables/PRODUCTIVO-25/SGODA-PRODUCTIVO-25-CIERRE-v1.0.0.md",
+                           "Line":  54,
+                           "Context":  "SGODA-PUINAVE queda formalizado como **PRODUCTIVO-25 v1.0.0 — CLOSURE_CANDIDATE**, sustentado en la capacidad técnica ya validada para REAL-25."
+                       },
+                       {
+                           "File":  "docs/08_Entregables/PRODUCTIVO-25/SGODA-PRODUCTIVO-25-CIERRE-v1.0.0.md",
+                           "Line":  60,
+                           "Context":  "**PRODUCTIVO-25 → REAL-N → ingestión masiva → escalamiento de contenidos**"
+                       },
+                       {
+                           "File":  "docs/08_Entregables/PRODUCTIVO-25/SGODA-PRODUCTIVO-25-CIERRE-v1.0.0.md",
+                           "Line":  80,
+                           "Context":  "- REAL-25: **25/25 registros**."
+                       },
+                       {
+                           "File":  "artifacts/demo-25/image-production-v1.0.0/DEMO-25-IMAGE-MANIFEST-v1.0.0.json",
+                           "Line":  9,
+                           "Context":  "\"semantic_policy\":  \"Certified REAL-25 Spanish meaning only\","
+                       },
+                       {
+                           "File":  "artifacts/demo-ready/P6-v1.0.0/ACT-P6-DEMO-READY-CIERRE-v1.0.0.json",
+                           "Line":  17,
+                           "Context":  "\"pilot\":  \"REAL-25\","
+                       },
+                       {
+                           "File":  "artifacts/development/SPT-024.12-Capa2-v1.0.0/infrastructure-hardening-governance-assessment.json",
+                           "Line":  62,
+                           "Context":  "\"control_id\": \"INFRA-NO-REAL-NETWORK-ACTION\","
+                       },
+                       {
+                           "File":  "artifacts/productivo-25/v1.0.0/SGODA-PRODUCTIVO-25-CIERRE-v1.0.0.json",
+                           "Line":  37,
+                           "Context":  "\"next_operational_target\":  \"REAL-N\","
+                       },
+                       {
+                           "File":  "artifacts/sgd0031/data/SGD-003.1-MMAR.json",
+                           "Line":  69,
+                           "Context":  "\"Dimension\":  \"Datos linguisticos REAL-N\","
+                       },
+                       {
+                           "File":  "artifacts/sgd0031/data/SGD-003.1-MMAR.json",
+                           "Line":  75,
+                           "Context":  "\"Dimension\":  \"Audio y multimedia REAL-N\","
+                       },
+                       {
+                           "File":  "artifacts/demo-ready/P6-v1.0.0/SGODA-DEMO-READY-PILOTO25-v1.0.0.md",
+                           "Line":  23,
+                           "Context":  "| REAL-25 | READY |"
+                       },
+                       {
+                           "File":  "artifacts/demo-ready/P6-v1.0.0/SGODA-DEMO-READY-PILOTO25-v1.0.0.md",
+                           "Line":  42,
+                           "Context":  "→ `REAL-25`"
+                       }
+                   ]
+}

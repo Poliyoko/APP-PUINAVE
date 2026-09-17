@@ -1,0 +1,35 @@
+﻿{
+    "schema":  "SGD-003.1-INCREMENT-04-MANIFEST-v1",
+    "generated_at":  "2026-09-16T21:23:12.4484308-05:00",
+    "baseline":  "b84e2bcf960dccf2e66be724876b08fa0f454a76",
+    "files":  [
+                  {
+                      "path":  "artifacts/sgd0031/data/SGD-003.1-LOGICAL-COMPONENT-RECONCILIATION.json",
+                      "sha256":  "10CD539C71FFF0A804FC0B06B4231E3CEE8CE2928510D1AFAECC9A958511F6C6"
+                  },
+                  {
+                      "path":  "artifacts/sgd0031/data/SGD-003.1-LOGICAL-COMPONENT-RECONCILIATION.csv",
+                      "sha256":  "E37E2670314A19E22C78ED6F41EEB6A7BBE6333278E61457C77B61BCE97EFF2D"
+                  },
+                  {
+                      "path":  "artifacts/sgd0031/data/SGD-003.1-GIT-TRACEABILITY.json",
+                      "sha256":  "9AD556E7BEA43F53F54D0718EA35E31815A43991DE0015A8812C179D9161002A"
+                  },
+                  {
+                      "path":  "artifacts/sgd0031/data/SGD-003.1-CORPUS-DENOMINATOR-AUDIT.json",
+                      "sha256":  "9BE5386F9A55B6DED7F5029A1FC2E65C3F75B5E7AEC2B6CF44D90A239B70B31E"
+                  },
+                  {
+                      "path":  "artifacts/sgd0031/data/SGD-003.1-CLOSURE-READINESS.json",
+                      "sha256":  "8F0730512D30827B26F6D2576FD7E5DC36B6AE86670B1E35F08E0901AC84F793"
+                  },
+                  {
+                      "path":  "docs/00_Estado_Maestro/SGD-003/SGD-003-G-Cierre-Readiness.md",
+                      "sha256":  "841C2F361A589FDE376AF92BF838A18237DC66BCA41A62AE2EC0090323FF3AC6"
+                  },
+                  {
+                      "path":  "artifacts/sgd0031/evidence/SGD-003.1-INCREMENT-04.json",
+                      "sha256":  "5680B6D52ABC603212ED23B7739F13E58C4B40AB6FABFD74CF0C288C6570BDED"
+                  }
+              ]
+}

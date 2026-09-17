@@ -1,0 +1,1123 @@
+﻿{
+    "schema":  "SGD-003.1-INCREMENT-04-GIT-TRACEABILITY-v1",
+    "generated_at":  "2026-09-16T21:04:33.7445291-05:00",
+    "baseline":  "b84e2bcf960dccf2e66be724876b08fa0f454a76",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "commit_records_scanned":  238,
+    "tags_scanned":  44,
+    "components_found":  43,
+    "components_not_found":  28,
+    "rule":  "FOUND means textual correlation with commit subject and/or tag. It is not certification.",
+    "rows":  [
+                 {
+                     "Code":  "ADR-010",
+                     "LogicalCode":  "ADR-010",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "PCI-001",
+                     "LogicalCode":  "PCI-001",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "4330a3b7e8f17579eda335c271638c00c6d53c35\tchore(consolidation): publish PCI-001.1 R3 evidence",
+                                            "69a39cabe7312a0456f2a9f220dd99e4a2e881d0\tfix(consolidation): close PCI-001.1 R3 exact backward compatibility"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "PCI-001.1",
+                     "LogicalCode":  "PCI-001.1",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "4330a3b7e8f17579eda335c271638c00c6d53c35\tchore(consolidation): publish PCI-001.1 R3 evidence",
+                                            "69a39cabe7312a0456f2a9f220dd99e4a2e881d0\tfix(consolidation): close PCI-001.1 R3 exact backward compatibility"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "PCI-001.2",
+                     "LogicalCode":  "PCI-001.2",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "PCI-001.3",
+                     "LogicalCode":  "PCI-001.3",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "PCI-001.4",
+                     "LogicalCode":  "PCI-001.4",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "PCI-002",
+                     "LogicalCode":  "PCI-002",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "POL-001",
+                     "LogicalCode":  "POL-001",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114C",
+                     "LogicalCode":  "SGD-114C",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "90d4a6523ece9bb2d00227f2a66c6404bd1feb9a\tchore(governance): publish SGD-114C evidence",
+                                            "51a0594d1b1f2acddaf401867238be5edbf71fc6\tfeat(governance): implement SGD-114C Policy Governance Core"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114D",
+                     "LogicalCode":  "SGD-114D",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114D-v1.0.1",
+                     "LogicalCode":  "SGD-114D",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-C1",
+                     "LogicalCode":  "SGD-114E-C1",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v1.0.3",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v1.0.4",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v1.0.5",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v1.0.6",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v1.0.7",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v2.0.0",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v2.0.0-R1",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114E-v2.0.0-R2.1",
+                     "LogicalCode":  "SGD-114E",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "df12382f69e87ffc4fe8b77f6838ac6408822883\tchore(governance): publish SGD-114E-C1 evidence",
+                                            "7ffc288c5282687f0ca6e7fe427daa6e25d48f3c\tfix(governance): implement SGD-114E-C1 validator fix"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114F",
+                     "LogicalCode":  "SGD-114F",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "2af0f980736f358e3ae8bc7c6eaee8831b997e43\tchore(governance): publish SGD-114F synchronized evidence",
+                                            "cdacc3667df9d67c2bf824e7c2d7484f724f0194\tfeat(governance): implement SGD-114F test evidence synchronizer"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114G-v1.0.0",
+                     "LogicalCode":  "SGD-114G",
+                     "CommitCorrelation":  1,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "35085439ab45e02ad9f431cc59ae3d17ae52573d\tchore(governance): publish SGD-114G v1.0.1 evidence"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114G-v1.0.1",
+                     "LogicalCode":  "SGD-114G",
+                     "CommitCorrelation":  1,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "35085439ab45e02ad9f431cc59ae3d17ae52573d\tchore(governance): publish SGD-114G v1.0.1 evidence"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114-policy-auditor",
+                     "LogicalCode":  "SGD-114-POLICY-AUDITOR",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-114-v2",
+                     "LogicalCode":  "SGD-114-V2",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-115",
+                     "LogicalCode":  "SGD-115",
+                     "CommitCorrelation":  4,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "c7fbd477eea8ca62a0defdf48c54bb28bccda97b\tchore(documentation): publish SGD-115A evidence",
+                                            "8359a24aa533c6cd02b84966ffc2affa64658625\tfix(documentation): implement SGD-115A canonical component resolver",
+                                            "5db8234a152f7765cf4269f99a4aef2ae4a4a3df\tchore(documentation): publish SGD-115 evidence",
+                                            "98b773ce05743b46ceb268be950fe65f30024662\tfix(documentation): complete SGD-115 path validation"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-115A",
+                     "LogicalCode":  "SGD-115A",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "c7fbd477eea8ca62a0defdf48c54bb28bccda97b\tchore(documentation): publish SGD-115A evidence",
+                                            "8359a24aa533c6cd02b84966ffc2affa64658625\tfix(documentation): implement SGD-115A canonical component resolver"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-116",
+                     "LogicalCode":  "SGD-116",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-116B",
+                     "LogicalCode":  "SGD-116B",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SGD-117",
+                     "LogicalCode":  "SGD-117",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "f71cdc8ed0233164adbe6fba991f90d34df00abf\tchore(governance): publish SGD-117 evidence",
+                                            "32ff98950553f70cbc4dd9579675caf5a93186e5\tfeat(governance): implement SGD-117 repository manager"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SIB-001",
+                     "LogicalCode":  "SIB-001",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "a60a78b5772696b68ccc5a5f8315c64cbfd03f4f\tchore(builder): publish SIB-001 evidence",
+                                            "614dc057dc4c9dac98bceb23925e5db0701bd38a\tfeat(builder): implement SIB-001 SGODA Installer Builder"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPB-007",
+                     "LogicalCode":  "SPB-007",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "08be738f65261b3fde534f67819ae42ccf5ae5ec\tchore(repository): publish final SPB-007 evidence",
+                                            "9bd5cf3496b37001d2d454f2ca3f4c33fc554eb8\tfix(repository): complete SPB-007 two-phase publication"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-001B-P06",
+                     "LogicalCode":  "SPT-001B-P06",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-001B-P07",
+                     "LogicalCode":  "SPT-001B-P07",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-001B-P08",
+                     "LogicalCode":  "SPT-001B-P08",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-002",
+                     "LogicalCode":  "SPT-002",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "b66e8d4b68c78f9ac6d72f3f7a82b4cdef88ef66\tchore(institutional): reconcile SPT-002 as formally closed",
+                                            "2b123103c1bcdf31c2c34395d3f15587d0886d2b\tchore(spt-002): formalize historical institutional closure"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-003A",
+                     "LogicalCode":  "SPT-003A",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "2560793e851e06420416d891763f736ff8995bbf\tchore(automation): publish SPT-003A evidence",
+                                            "49251df8fda69ac1359b1aa7105fab8e1d996aa9\tfeat(automation): implement SPT-003A multimedia orchestrator"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-003B",
+                     "LogicalCode":  "SPT-003B",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "f2b9a89aed2be4a39c6f543fc596c5424cad7b9b\tchore(automation): publish SPT-003B evidence",
+                                            "2fbfa6378a8cb0dc66970c4d45e23deb3d453de2\tfeat(automation): implement SPT-003B AI multimedia adapters"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-003C",
+                     "LogicalCode":  "SPT-003C",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "a51255a076efd2b0cf6874cb504ecbabb940b492\tchore(automation): publish SPT-003C evidence",
+                                            "a5837d881312e1d332cb4cd2880093bb0bbbf00c\tfeat(automation): implement SPT-003C controlled provider pilot"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-004A",
+                     "LogicalCode":  "SPT-004A",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "fdfd33b33b8d6220e4d7b4799ae7bb92ceb1254b\tchore(assistant): publish SPT-004A evidence",
+                                            "0819ef21e9a25e5b5e108e4313d2b42b3b46006a\tfeat(assistant): implement SPT-004A institutional assistant foundation"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-005",
+                     "LogicalCode":  "SPT-005",
+                     "CommitCorrelation":  3,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "ece5ef430c2a249b0094c3a289a08428bad211dd\tchore(institutional): reconcile SPT-005 as already closed",
+                                            "b6b1c08de5365dc69c56ee3457aca106cc82bcb6\tchore(identity): publish SPT-005 evidence",
+                                            "58fbb38d04227a99e72d408d5001f7978421ec72\tfeat(identity): implement SPT-005 configurable cultural identity"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-006",
+                     "LogicalCode":  "SPT-006",
+                     "CommitCorrelation":  5,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "2c7b9a67b477c2936d8e324739ef6db4813a2d9d\tchore(institutional): reconcile SPT-006 as already closed",
+                                            "8ce1ead868999a71530de63b8bcd6c3ac80897cd\tchore(language): publish SPT-006A v0.2.0 evidence",
+                                            "f3b3b2167ba40aaedc11b49f8d46d0fea5224567\tfeat(language): implement SPT-006A free local multilingual engine",
+                                            "c445d748492260d73459bc00b04cb72c5870bd13\tchore(enrichment): publish SPT-006 evidence",
+                                            "63b08ddfd35baff88fc44a7199e0595776b3c8e5\tfeat(enrichment): implement SPT-006 multilingual multimedia pipeline"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-006A",
+                     "LogicalCode":  "SPT-006A",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "8ce1ead868999a71530de63b8bcd6c3ac80897cd\tchore(language): publish SPT-006A v0.2.0 evidence",
+                                            "f3b3b2167ba40aaedc11b49f8d46d0fea5224567\tfeat(language): implement SPT-006A free local multilingual engine"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-007A",
+                     "LogicalCode":  "SPT-007A",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "22c96bab9b2dc9ac5cc0c9e9be60aa31f75ecf46\tchore(lexical): publish SPT-007A evidence",
+                                            "c715d1e678742e360aab7fdf954542dedca9ffbf\tfeat(lexical): implement SPT-007A intelligent lexical engine"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-007B",
+                     "LogicalCode":  "SPT-007B",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "7d63b8e28b9ffac3c6d32c5236e734c10aede937\tchore(semantic): publish SPT-007B evidence",
+                                            "6388b06b6f0c47ca5459b53769a036f99da61bcd\tfeat(semantic): implement SPT-007B semantic lexical engine"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-007C",
+                     "LogicalCode":  "SPT-007C",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "2889c3f2d02f2428015fbb59941a034ce6b64ce8\tchore(knowledge): publish SPT-007C evidence",
+                                            "abcc85253a42378a26e976eb45ba181269e6d045\tfeat(knowledge): implement SPT-007C linguistic cultural knowledge engine"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-007D",
+                     "LogicalCode":  "SPT-007D",
+                     "CommitCorrelation":  1,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "8ebaa631494c3f85f8e5e965c45f331b7b7d83bb\tfeat(ai): implement SPT-007D SPT-008 SPT-009 integrated intelligence suite"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-008",
+                     "LogicalCode":  "SPT-008",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "3f99b39cb93af7167442a14481d41020a28f242d\tchore(spt-008): formalize historical institutional closure",
+                                            "8ebaa631494c3f85f8e5e965c45f331b7b7d83bb\tfeat(ai): implement SPT-007D SPT-008 SPT-009 integrated intelligence suite"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-009",
+                     "LogicalCode":  "SPT-009",
+                     "CommitCorrelation":  1,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "8ebaa631494c3f85f8e5e965c45f331b7b7d83bb\tfeat(ai): implement SPT-007D SPT-008 SPT-009 integrated intelligence suite"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-010",
+                     "LogicalCode":  "SPT-010",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "07f909f01e928cc8d31429c16d23ae72438f397c\tchore(platform): publish SPT-010 v1.0.2 evidence",
+                                            "bb1fb4ab37b97f6152193eb8523fe641487442e5\tfix(platform): implement SPT-010 v1.0.2 integrated platform correction"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-011",
+                     "LogicalCode":  "SPT-011",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-011A",
+                     "LogicalCode":  "SPT-011A",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-012",
+                     "LogicalCode":  "SPT-012",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "c2ae3c9cf262f8d37c9881984e5c35aad980c831\tchore(learning): publish SPT-012 evidence",
+                                            "b768cc691896c8ffc349c6bcd4b9c3b5555a5023\tfeat(learning): implement SPT-012 SGODA learning platform"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-013A",
+                     "LogicalCode":  "SPT-013A",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "1fbc381a142ac1f8b1b492df576cd3d1e433ecf3\tchore(learning): publish SPT-013A v1.0.1 evidence",
+                                            "609d3d833f9bf2a99b3ce02a02a7e6eb6db01709\tfix(learning): resolve SPT-013A external baseline dependency"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-013B",
+                     "LogicalCode":  "SPT-013B",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "d93f45b71f7e39b8c2fe55d340943ff4dc626efa\tchore(dictionary): publish SPT-013B evidence",
+                                            "a66b1cee5336f18f82733d07a5277ce14e60c5db\tfeat(dictionary): implement SPT-013B institutional dictionary manager"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-014",
+                     "LogicalCode":  "SPT-014",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "89f90b581bd4193c8e91ea7a796015fe747a0deb\tchore(multimedia): publish SPT-014 evidence",
+                                            "e6e8ecc6f6caaa7c7a6e2aa6f03e48dd86da8551\tfeat(multimedia): implement SPT-014 intelligent multimedia engine"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-015",
+                     "LogicalCode":  "SPT-015",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-016",
+                     "LogicalCode":  "SPT-016",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "3fb9ed1e018e3a19bc19f7c2bbf0c248032b7c87\tchore(analytics): publish SPT-016 closure evidence",
+                                            "ee978ff160a8b26bb3cf1ce102ced1d27ee0e5ed\tfeat(analytics): close SPT-016 learning analytics engine"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-016A",
+                     "LogicalCode":  "SPT-016A",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-017",
+                     "LogicalCode":  "SPT-017",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "0eb9f9eecd5b376cb7b208acde538e1915cfc57d\tchore(knowledge): publish SPT-017 evidence",
+                                            "5908a27c7af21a57eea5271e70652b9fa741d4bf\tfeat(knowledge): implement SPT-017 Puinave Knowledge Center"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-018",
+                     "LogicalCode":  "SPT-018",
+                     "CommitCorrelation":  2,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+                                            "8b25e035caa699f76f3b6ab5620347c015d72cba\tchore(pedagogy): publish SPT-018 evidence",
+                                            "734e1fad79b27ee47ad7f09feda5b745a33d7691\tfeat(pedagogy): implement SPT-018 SGODA Pedagogical AI"
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-019.1",
+                     "LogicalCode":  "SPT-019.1",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-019.2",
+                     "LogicalCode":  "SPT-019.2",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-020.1",
+                     "LogicalCode":  "SPT-020.1",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-020.2",
+                     "LogicalCode":  "SPT-020.2",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-020.3",
+                     "LogicalCode":  "SPT-020.3",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-020.4",
+                     "LogicalCode":  "SPT-020.4",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-020.5",
+                     "LogicalCode":  "SPT-020.5",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-020.6",
+                     "LogicalCode":  "SPT-020.6",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 },
+                 {
+                     "Code":  "SPT-020.7",
+                     "LogicalCode":  "SPT-020.7",
+                     "CommitCorrelation":  0,
+                     "TagCorrelation":  0,
+                     "TraceabilityRows":  1,
+                     "CommitSubjects":  [
+
+                                        ],
+                     "Tags":  [
+
+                              ],
+                     "Classification":  "NOT_FOUND",
+                     "Certification":  "NOT_INFERRED_FROM_GIT_CORRELATION"
+                 }
+             ]
+}

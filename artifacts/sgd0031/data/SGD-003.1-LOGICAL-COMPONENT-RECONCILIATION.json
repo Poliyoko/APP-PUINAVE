@@ -1,0 +1,78 @@
+﻿{
+    "schema":  "SGD-003.1-INCREMENT-04-RECONCILIATION-v1",
+    "generated_at":  "2026-09-16T21:04:32.7691144-05:00",
+    "baseline":  "b84e2bcf960dccf2e66be724876b08fa0f454a76",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "historical_components":  41,
+    "master_index_components":  60,
+    "current_descriptor_entries":  71,
+    "unique_descriptor_paths":  71,
+    "unique_exact_codes":  71,
+    "logical_component_count_by_normalization_rule":  61,
+    "logical_normalization_rule":  "Strip only terminal semantic version suffix -vN.N[.N][-RN[.N]]; preserve semantic subcomponent suffixes",
+    "duplicate_exact_code_groups":  0,
+    "duplicate_descriptor_groups":  0,
+    "unique_code_version_pairs":  71,
+    "exact_codes_with_multiple_versions":  0,
+    "logical_version_families":  3,
+    "missing_code":  0,
+    "missing_version":  0,
+    "missing_status":  0,
+    "reconciliation_nature":  "TEMPORAL_GROWTH_AND_VERSIONED_DESCRIPTORS",
+    "interpretation":  "41, 60 and 71 are treated as historical/current snapshots. They are not assumed to represent the same counting semantics.",
+    "logical_version_family_detail":  [
+                                          {
+                                              "LogicalCode":  "SGD-114D",
+                                              "DescriptorEntries":  2,
+                                              "Codes":  [
+                                                            "SGD-114D",
+                                                            "SGD-114D-v1.0.1"
+                                                        ],
+                                              "Versions":  [
+                                                               "1.0.0",
+                                                               "1.0.1"
+                                                           ]
+                                          },
+                                          {
+                                              "LogicalCode":  "SGD-114E",
+                                              "DescriptorEntries":  9,
+                                              "Codes":  [
+                                                            "SGD-114E",
+                                                            "SGD-114E-v1.0.3",
+                                                            "SGD-114E-v1.0.4",
+                                                            "SGD-114E-v1.0.5",
+                                                            "SGD-114E-v1.0.6",
+                                                            "SGD-114E-v1.0.7",
+                                                            "SGD-114E-v2.0.0",
+                                                            "SGD-114E-v2.0.0-R1",
+                                                            "SGD-114E-v2.0.0-R2.1"
+                                                        ],
+                                              "Versions":  [
+                                                               "1.0.2",
+                                                               "1.0.3",
+                                                               "1.0.4",
+                                                               "1.0.5",
+                                                               "1.0.6",
+                                                               "1.0.7",
+                                                               "2.0.0",
+                                                               "2.0.0-R1",
+                                                               "2.0.0-R2.1"
+                                                           ]
+                                          },
+                                          {
+                                              "LogicalCode":  "SGD-114G",
+                                              "DescriptorEntries":  2,
+                                              "Codes":  [
+                                                            "SGD-114G-v1.0.0",
+                                                            "SGD-114G-v1.0.1"
+                                                        ],
+                                              "Versions":  [
+                                                               "1.0.0",
+                                                               "1.0.1"
+                                                           ]
+                                          }
+                                      ],
+    "exact_multi_version_detail":  [
+
+                                   ]
+}
