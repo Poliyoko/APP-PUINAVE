@@ -1,0 +1,50 @@
+{
+    "schema_version":  "1.0.0",
+    "deliverable":  "REAL-523",
+    "unit":  "PROJECT1_BASELINE",
+    "project":  1,
+    "status":  "FROZEN_VERIFIED",
+    "source_quality_gates":  {
+                                 "real_523_0o_r1":  "PASS",
+                                 "real_523_0p_r3":  "PASS",
+                                 "real_523_0q":  "PASS",
+                                 "real_523_0r":  "PASS"
+                             },
+    "lexical_source":  {
+                           "file":  "Repositorio lexico base 523.xlsx",
+                           "sheet":  "hoja1",
+                           "lexical_records":  523,
+                           "lote_1_records":  20,
+                           "sha256":  "2E3D7AFAD2A79CA96291266713B46F5A85C25E4FE4317D1D7A6A89899C4FE1D9"
+                       },
+    "audacity_source":  {
+                            "file":  "1.aup3",
+                            "sha256":  "E1F800B1F0FBC1AD2568E4CB7951866D35965F70B3F28ECF1E2C001C6C5E69A8",
+                            "modified":  false
+                        },
+    "mapping":  {
+                    "segments":  20,
+                    "pass_mappings":  20,
+                    "duplicate_ids":  0,
+                    "duplicate_segments":  0,
+                    "sequence_gaps":  0,
+                    "first_segment":  "SEG-001.wav",
+                    "first_id":  "000001",
+                    "last_segment":  "SEG-020.wav",
+                    "last_id":  "000020"
+                },
+    "repository":  {
+                       "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                       "head":  "34bde8bcb5b74dc7a60b39e04aff8b1efae1eadc"
+                   },
+    "preservation":  {
+                         "source_audio_modified":  false,
+                         "excel_modified":  false,
+                         "master_aup3_modified":  false,
+                         "files_renamed":  false,
+                         "mp3_created":  false,
+                         "real_25_touched":  false,
+                         "real_n_started":  false
+                     },
+    "segment_manifest":  "REAL-523-PROJECT1-BASELINE-MANIFEST-v1.0.0.csv"
+}

@@ -1,0 +1,19 @@
+{
+    "quality_gate":  "REAL-523.0S",
+    "result":  "PASS",
+    "baseline":  "PROJECT1",
+    "baseline_status":  "FROZEN_VERIFIED",
+    "assertions":  {
+                       "source_0o_r1_pass":  true,
+                       "source_0p_r3_pass":  true,
+                       "source_0q_pass":  true,
+                       "source_0r_pass":  true,
+                       "lexical_records_523":  true,
+                       "lote1_records_20":  true,
+                       "segments_20":  true,
+                       "positional_mapping_20":  true,
+                       "segment_hashes_20":  true,
+                       "source_preserved":  true
+                   },
+    "next":  "PREPARE_REUSABLE_AUTOMATION_FOR_PROJECTS_2_23"
+}
