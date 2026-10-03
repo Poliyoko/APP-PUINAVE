@@ -1,0 +1,61 @@
+{
+    "schema_version":  "1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "R29",
+    "title":  "FastAPI PostgreSQL REAL-508 Runtime Integration",
+    "status":  "CLOSED_VERIFIED",
+    "parent_commit":  "07fadc85fae7b48caa27cc1adc7f270b1cc7f373",
+    "dataset":  {
+                    "authoritative":  "REAL508",
+                    "records":  508,
+                    "first_id":  "000001",
+                    "last_id":  "000508",
+                    "unique_ids":  508,
+                    "duplicates":  0,
+                    "pilot_25_included":  true,
+                    "target_533":  false
+                },
+    "runtime":  {
+                    "fastapi_http_real":  "PASS",
+                    "postgresql_real508":  "PASS",
+                    "repository_count":  508,
+                    "json_reload":  "NO",
+                    "canonical_endpoint":  "/lexical/{entry_id}",
+                    "parallel_endpoint":  "NO",
+                    "http_000001":  200,
+                    "http_000508":  200,
+                    "http_999999":  404,
+                    "multimedia_http":  "PASS",
+                    "multimedia_uri_exact_match":  "PASS",
+                    "transaction":  "READ_ONLY",
+                    "dml":  "NO",
+                    "ddl":  "NO"
+                },
+    "implementation":  {
+                           "postgresql_operational_repository":  "PASS",
+                           "fastapi_repository_injection":  "PASS",
+                           "json_fallback_preserved":  "PASS",
+                           "parallel_architecture":  "NO"
+                       },
+    "validation":  {
+                       "r29_1b":  "IMPLEMENTATION_PASS",
+                       "r29_1c":  "REAL_RUNTIME_VALIDATION_PASS",
+                       "r29_2a":  "FASTAPI_WIRING_IMPLEMENTATION_PASS",
+                       "r29_2b":  "HTTP_REAL_POSTGRESQL_PASS",
+                       "r29_2b_regression":  "17/17_PASS",
+                       "r29_2b_diagnostic":  "QUALITY_GATE_STRING_ESCAPE",
+                       "productive_repair_required":  "NO"
+                   },
+    "security":  {
+                     "credentials_published":  "NO",
+                     "pgpass_external":  "YES",
+                     "database_validation":  "READ_ONLY",
+                     "mass_multimedia_published":  "NO"
+                 },
+    "hashes":  {
+                   "api":  "EE3733A6C9E57738B4EC310FB92C0ED9F30BE0847875D5974D3D722B157A8FBB",
+                   "postgres_repository":  "DDCF1BEDE3B3C2B3D58DB487970649B1EA97F764524563E431EE881769934A93",
+                   "wiring_test":  "34ECBF238954957D3E2E42CA6EB7BB182B41A5443E75EC7264BA448E9833A0E4",
+                   "repository_test":  "45DFE0A4D90C3BEE76F4E6928FC305EA00FD11A533B86D3206F38205C7FD4DA4"
+               }
+}

@@ -1,0 +1,33 @@
+{
+    "schema_version":  "1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "R29",
+    "status":  "CLOSED_VERIFIED",
+    "parent_commit":  "07fadc85fae7b48caa27cc1adc7f270b1cc7f373",
+    "files":  [
+                  {
+                      "path":  "src/sgoda/operational_platform/api.py",
+                      "sha256":  "EE3733A6C9E57738B4EC310FB92C0ED9F30BE0847875D5974D3D722B157A8FBB"
+                  },
+                  {
+                      "path":  "src/sgoda/operational_platform/postgres_repository.py",
+                      "sha256":  "DDCF1BEDE3B3C2B3D58DB487970649B1EA97F764524563E431EE881769934A93"
+                  },
+                  {
+                      "path":  "tests/integration/test_real508_fastapi_postgres_wiring.py",
+                      "sha256":  "34ECBF238954957D3E2E42CA6EB7BB182B41A5443E75EC7264BA448E9833A0E4"
+                  },
+                  {
+                      "path":  "tests/integration/test_real508_postgres_operational_repository.py",
+                      "sha256":  "45DFE0A4D90C3BEE76F4E6928FC305EA00FD11A533B86D3206F38205C7FD4DA4"
+                  },
+                  {
+                      "path":  "artifacts/real-508/fastapi-postgresql-r29-v1.0.0/REAL-508-R29-FASTAPI-POSTGRESQL-QG-v1.0.0.json",
+                      "sha256":  "905DD92960FE275C4E794F7B003600886BDDB46991E74462E32B98A7AC301894"
+                  },
+                  {
+                      "path":  "docs/00_Estado_Maestro/REAL-508-R29-FASTAPI-POSTGRESQL-CLOSURE-v1.0.0.md",
+                      "sha256":  "631B5DD916F6FF4935D00AC06751B2C0E5EC569B2FE9A3E62D2D01A36052A3CD"
+                  }
+              ]
+}

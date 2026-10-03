@@ -27,7 +27,9 @@ def create_app(
 
     settings = OperationalSettings.from_json(settings_path)
     service = OperationalPlatformService(settings, repository=repository)
-    service.load_sources(rlb_path, media_path)
+
+    if repository is None:
+        service.load_sources(rlb_path, media_path)
 
     app = FastAPI(
         title="SGODA-PUINAVE Plataforma Operativa",
