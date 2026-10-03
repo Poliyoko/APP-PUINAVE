@@ -1,0 +1,39 @@
+{
+    "project":  "SGODA-PUINAVE",
+    "gate":  "R26.3",
+    "status":  "PASS",
+    "baseline":  "2f071cead27eaecaa8af9dcb7696382ea087dfeb",
+    "architecture":  {
+                         "api":  "src/sgoda/operational_platform/api.py",
+                         "endpoint":  "GET /lexical/{entry_id}",
+                         "operation":  "get_lexical_card",
+                         "repository_injection":  true,
+                         "parallel_api":  false,
+                         "duplicate_endpoint":  false
+                     },
+    "multimedia_contract":  {
+                                "legacy_media_type_uri":  "PASS",
+                                "real508_resource_type_path":  "PASS",
+                                "mass_media_in_git":  false
+                            },
+    "tests":  {
+                  "r26":  "6/6 PASS",
+                  "r25":  "6/6 PASS",
+                  "r22":  "15/15 PASS",
+                  "spt011":  "14/14 PASS",
+                  "py_compile":  "PASS"
+              },
+    "preservation":  {
+                         "r25":  "CLOSED_VERIFIED_FROZEN",
+                         "real508":  "CLOSED_VERIFIED_FROZEN",
+                         "postgresql_modified":  false,
+                         "wav_modified":  0,
+                         "mp3_modified":  0,
+                         "aup3_modified":  0
+                     },
+    "sha256":  {
+                   "api":  "46A190104C31D65C5381C0EAA1C7835EF9C16E7F5A9531CABA0386FBF07AFF18",
+                   "flutter_contract":  "40C54CD01C48E95E73B61F0A0FE5213CE9B966B20D12455C7B7F427D7756E0C9",
+                   "test":  "DF25FAD3D38169872BA64FF23A0B49D660E45FB149FE5F8C8741F19191615D08"
+               }
+}

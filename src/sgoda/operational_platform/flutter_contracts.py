@@ -21,8 +21,8 @@ def lexical_card(
         "validated": bool(entry.get("validated", False)),
         "media": [
             {
-                "type": item["media_type"],
-                "uri": item["uri"],
+                "type": (item.get("media_type") or item.get("resource_type") or ""),
+                "uri": (item.get("uri") or item.get("path") or ""),
                 "validated": bool(
                     item.get("validated", False)
                 ),

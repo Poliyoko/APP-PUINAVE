@@ -5,6 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+from .database import OperationalRepository
 from .models import OperationalRequest
 from .service import OperationalPlatformService
 from .settings import OperationalSettings
@@ -14,6 +15,7 @@ def create_app(
     settings_path: str | Path,
     rlb_path: str | Path,
     media_path: str | Path | None = None,
+    repository: OperationalRepository | None = None,
 ):
     try:
         from fastapi import FastAPI, HTTPException
@@ -24,7 +26,7 @@ def create_app(
         ) from error
 
     settings = OperationalSettings.from_json(settings_path)
-    service = OperationalPlatformService(settings)
+    service = OperationalPlatformService(settings, repository=repository)
     service.load_sources(rlb_path, media_path)
 
     app = FastAPI(
