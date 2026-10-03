@@ -1,0 +1,44 @@
+{
+    "schema_version":  "1.0.0",
+    "gate":  "REAL508_R25_3_1",
+    "status":  "PASS",
+    "generated_at_utc":  "2026-10-03T06:19:57Z",
+    "repository":  {
+                       "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                       "baseline_head":  "dbdfa85979bebd6356863b595029257531597184"
+                   },
+    "implementation":  {
+                           "module":  "src/sgoda/integration/real508_lexical_integration.py",
+                           "module_sha256":  "0BD3264E444C7CE06EF5821110EC3D882009FFF2C69C8BD21BA4C3BE16186BC6",
+                           "test":  "tests/integration/test_real508_lexical_integration.py",
+                           "test_sha256":  "3AA9EB2BA3346A274B7DB24664F3288964D5A8FFB362C06C34A8F53A85608FB4"
+                       },
+    "quality_gate":  {
+                         "compile":  "PASS",
+                         "pytest_r25":  "6/6_PASS",
+                         "regression_r22":  "15/15_PASS",
+                         "real508_count":  508,
+                         "lexical_entry_contract":  "PASS",
+                         "native_language_contract":  "pu",
+                         "lexical_model":  "PASS",
+                         "operational_persistence":  "PASS",
+                         "multimedia":  "PASS",
+                         "api_contract":  "PASS"
+                     },
+    "preservation":  {
+                         "real508":  "CLOSED_VERIFIED_FROZEN",
+                         "storage":  "PARAMETRIZABLE",
+                         "mass_media_git":  false,
+                         "wav_modified":  0,
+                         "mp3_modified":  0,
+                         "aup3_modified":  0,
+                         "puinave_graphy_modified":  false
+                     },
+    "production":  {
+                       "postgresql_modified":  false,
+                       "fastapi_runtime_modified":  false,
+                       "git_stage":  false,
+                       "git_commit":  false,
+                       "git_push":  false
+                   }
+}
