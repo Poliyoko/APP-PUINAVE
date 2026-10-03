@@ -1,0 +1,20 @@
+{
+    "proyecto":  "SGODA-PUINAVE",
+    "baseline":  "REAL-508",
+    "version":  "1.0.0",
+    "fecha_cierre_utc":  "2026-10-03T05:20:17Z",
+    "qg_humano_audio":  "PASS",
+    "audios_revisados":  508,
+    "audios_correctos":  508,
+    "audios_fail":  0,
+    "primer_id":  "000001",
+    "ultimo_id":  "000508",
+    "lotes":  23,
+    "labels":  508,
+    "wav":  508,
+    "aup3_modificados_por_cierre":  0,
+    "mp3_generados":  false,
+    "wav_incluidos_en_git":  false,
+    "politica_multimedia":  "PENDIENTE_FORMALIZACION_ALMACENAMIENTO_EXTERNO",
+    "estado":  "HUMAN_AUDIO_QG_PASS"
+}
