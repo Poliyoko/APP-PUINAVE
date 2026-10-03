@@ -1,0 +1,52 @@
+{
+    "schema_version":  "1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "R28",
+    "component":  "REAL-508 PostgreSQL Integration",
+    "status":  "CLOSED_VERIFIED",
+    "dataset":  {
+                    "authoritative_dataset":  "REAL508",
+                    "real_records":  508,
+                    "first_id":  "000001",
+                    "last_id":  "000508",
+                    "unique_ids":  508,
+                    "duplicate_ids":  0,
+                    "critical_nulls":  0,
+                    "pilot_25_status":  "REPLACED_BY_REAL508",
+                    "pilot_25_is_additional_dataset":  false
+                },
+    "migration":  {
+                      "step":  "R28.5.4B",
+                      "status":  "PASS",
+                      "baseline_before":  "25|25|0",
+                      "pilot_deleted_in_transaction":  25,
+                      "real508_upserted":  508,
+                      "precommit_total":  508,
+                      "precommit_pilot":  0,
+                      "precommit_real508":  508,
+                      "precommit_unique_ids":  508,
+                      "precommit_duplicates":  0,
+                      "precommit_critical_nulls":  0,
+                      "database_commit":  "PASS",
+                      "postcommit_total":  508,
+                      "postcommit_pilot":  0,
+                      "postcommit_real508":  508,
+                      "postcommit_range":  "000001-000508",
+                      "postcommit_read_only_verify":  "PASS"
+                  },
+    "architecture":  {
+                         "reuse_existing_rlb_postgres":  true,
+                         "parallel_persistence_architecture":  false,
+                         "native_language_text_normalization":  false,
+                         "future_growth":  "INCREMENTAL"
+                     },
+    "security":  {
+                     "credentials_in_repository":  false,
+                     "pgpass_in_repository":  false,
+                     "password_recorded":  false
+                 },
+    "publication":  {
+                        "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                        "parent_commit":  "df572f39c5d3547982d84d239028c333dcdda2d3"
+                    }
+}
