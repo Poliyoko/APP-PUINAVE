@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "instance": "puinave",
+  "dataset": "REAL-508",
+  "native_language": "pu",
+  "wav_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\Audacity\\audacity 523 palabras\\REAL508_WAV",
+  "mp3_root": "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\Audacity\\audacity 523 palabras\\REAL508_WAV\\MP3_INDIVIDUALES",
+  "public_mp3_base_url": null,
+  "git_store_mass_media": false
+}

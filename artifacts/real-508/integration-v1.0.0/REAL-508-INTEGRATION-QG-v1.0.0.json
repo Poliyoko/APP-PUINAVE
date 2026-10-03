@@ -1,0 +1,34 @@
+{
+    "gate":  "REAL508_INTEGRACION_R23",
+    "result":  "PASS",
+    "generated_utc":  "2026-10-03T06:01:53Z",
+    "repository":  {
+                       "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                       "head":  "8c2ca446ff1a66235d8956806a2997dbc26decd2"
+                   },
+    "real508":  {
+                    "status":  "CLOSED_VERIFIED_FROZEN",
+                    "records":  508,
+                    "wav_baseline":  "508/508_FROZEN",
+                    "human_wav_qg":  "508/508_PASS",
+                    "mp3_baseline":  "508/508_PASS",
+                    "human_mp3_canary_qg":  "23/23_PASS"
+                },
+    "integration":  {
+                        "files":  4,
+                        "import":  "PASS",
+                        "py_compile":  "PASS",
+                        "pytest":  "15/15_PASS",
+                        "canary":  "PASS",
+                        "multimedia_contract":  "PASS",
+                        "native_language":  "pu",
+                        "storage":  "PARAMETRIZABLE",
+                        "mass_media_in_git":  false
+                    },
+    "hashes":  {
+                   "config/real508/media-storage.json":  "5318B885B0A3AB6FCDEB9514F37B45D21AB5C61E3DE4C30272A872A7761578E6",
+                   "src/sgoda/integration/__init__.py":  "2D3D27F7CD09B806246CE6C9FBD2C53854FC66C8DD619FFF933F7B318D0D904D",
+                   "src/sgoda/integration/real508_adapter.py":  "B6774E482C2AC0220AB22AA6E7E8116A9AC1FA060700B2D8871EFAB2ED94206D",
+                   "tests/integration/test_real508_adapter.py":  "2BF2B6BEE312E9D69FB922F5B48B99CD14D5F894A164B9CECA7D8EC3B8972C7C"
+               }
+}
