@@ -1,0 +1,22 @@
+{
+    "version":  "1.0.0",
+    "scope":  "REAL508_IMAGE_INSTANCE_INFRASTRUCTURE",
+    "files":  [
+                  {
+                      "path":  "config/real508/media-storage.json",
+                      "sha256":  "72AE7011762509145A9D3F1CE92E0EC9F40627C30A67007D9AB27AA9F3BCE92D"
+                  },
+                  {
+                      "path":  "artifacts/real-n/real508-image-instance-v1.0.0/REAL508-IMAGE-MANIFEST-v1.0.0.json",
+                      "sha256":  "B398556E2F225A0C5901142F6044C5A9C6EFA2A30F424066BCC8BCAF9DED01DB"
+                  },
+                  {
+                      "path":  "artifacts/real-n/real508-image-instance-v1.0.0/REAL508-IMAGE-INSTANCE-EVIDENCE-v1.0.0.md",
+                      "sha256":  "012997AF69271D9712B364211141501543BE78E8E9766167F67365D380878DDB"
+                  },
+                  {
+                      "path":  "docs/00_Estado_Maestro/REAL-N-REAL508-IMAGE-INSTANCE-CLOSURE-v1.0.0.md",
+                      "sha256":  "6D9E00B99F44FC5C4860196B6FB08813D4DB700C76BD9B7A79489AABA0265A6B"
+                  }
+              ]
+}
