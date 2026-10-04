@@ -1,0 +1,71 @@
+{
+    "schema_version":  "1.0.0",
+    "increment":  {
+                      "id":  "RN-I18",
+                      "name":  "SPT025_INSTANCE_LIFECYCLE_INTEGRATION_RECERTIFICATION",
+                      "type":  "INTEGRATION_AND_RECERTIFICATION",
+                      "state":  "CONTRACT_FROZEN_IMPLEMENTATION_NOT_STARTED"
+                  },
+    "authority":  {
+                      "baseline_commit":  "b8673e13bdc97e058ec750e24358b441ee078729",
+                      "predecessor":  "RN-I17",
+                      "predecessor_state":  "CLOSED_VERIFIED_FROZEN",
+                      "authorization":  "POST_RN_I17_CAPABILITY_CLASSIFICATION_PASS"
+                  },
+    "sources":  {
+                    "platform":  "EXISTING_SGODA_PLATFORM",
+                    "dataset":  "REAL-508",
+                    "dataset_records":  508,
+                    "instance_engine":  "SPT-025_EXISTING",
+                    "runtime_baseline":  "RN-I17",
+                    "canonical_spt025":  [
+                                             "SPT-025.10",
+                                             "SPT-025.11",
+                                             "SPT-025.12",
+                                             "SPT-025.13",
+                                             "SPT-025.14",
+                                             "SPT-025.15",
+                                             "SPT-025.16"
+                                         ]
+                },
+    "invariants":  {
+                       "primary_native_language_cardinality":  "1",
+                       "auxiliary_language_cardinality":  "0..N",
+                       "lexical_autocorrection":  false,
+                       "puinave_normalization":  false,
+                       "real508_reimport":  false,
+                       "parallel_architecture":  false
+                   },
+    "strategy":  "REUSE_AND_INTEGRATE",
+    "in_scope":  [
+                     "REGISTER_EXISTING_INSTANCE",
+                     "RESOLVE_EXISTING_PROFILE_AND_TEMPLATE",
+                     "VALIDATE_EXISTING_CONFIGURATION",
+                     "COMPOSE_EXISTING_INSTANCE_CONFIGURATION",
+                     "VALIDATE_DECLARATIVE_MATERIALIZATION",
+                     "VALIDATE_CONTROLLED_PUBLICATION",
+                     "RECERTIFY_INSTANCE_LIFECYCLE",
+                     "PRESERVE_TRACEABILITY"
+                 ],
+    "prohibited":  [
+                       "NEW_ARCHITECTURE",
+                       "NEW_FASTAPI_APP",
+                       "NEW_DATABASE_MODEL",
+                       "NEW_FLUTTER_CLIENT",
+                       "NEW_INSTANCE_ENGINE",
+                       "NEW_REGISTRY",
+                       "NEW_MATERIALIZATION_ENGINE",
+                       "NEW_PUBLICATION_ENGINE",
+                       "NEW_LANGUAGE_INSTANCE_DEPLOYMENT",
+                       "KURRIPACO_REAL_DEPLOYMENT",
+                       "MASS_MEDIA_GIT_IMPORT",
+                       "LEXICAL_DATA_MUTATION",
+                       "SPT026_CREATION"
+                   ],
+    "controlled_debt":  {
+                            "mmar_recalibration":  "PRESERVED_NONBLOCKING",
+                            "real_restore":  "PRESERVED_NONBLOCKING_FOR_RN_I18",
+                            "real_restore_proven":  false,
+                            "real_restore_required_before_final_production_closure":  true
+                        }
+}

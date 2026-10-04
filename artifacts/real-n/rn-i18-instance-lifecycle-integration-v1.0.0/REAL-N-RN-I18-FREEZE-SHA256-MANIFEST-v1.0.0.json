@@ -1,0 +1,20 @@
+{
+    "schema_version":  "1.0.0",
+    "increment":  "RN-I18",
+    "purpose":  "CONTRACT_FREEZE",
+    "baseline_commit":  "b8673e13bdc97e058ec750e24358b441ee078729",
+    "entries":  [
+                    {
+                        "path":  "artifacts/real-n/rn-i18-instance-lifecycle-integration-v1.0.0/REAL-N-RN-I18-CONTRACT-v1.0.0.json",
+                        "sha256":  "8FF502521FAD11128CAC2C57D78DE8F353659E1F50DDA6F16AB73BD965DE6ED8"
+                    },
+                    {
+                        "path":  "artifacts/real-n/rn-i18-instance-lifecycle-integration-v1.0.0/REAL-N-RN-I18-EXECUTION-PLAN-v1.0.0.json",
+                        "sha256":  "F65068B51E9607B7DCE22BB880C4266BB6A55E49A71C94B47BD45E683CC99774"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/REAL-N-RN-I18-CONTRACT-FREEZE-v1.0.0.md",
+                        "sha256":  "85C5743B821AF1ECBDB63F0BC270B8A6097F92A6B6DDE8A1F950360141AAE502"
+                    }
+                ]
+}

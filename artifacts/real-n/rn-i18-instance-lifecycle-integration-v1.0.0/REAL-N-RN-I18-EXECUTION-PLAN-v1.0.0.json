@@ -1,0 +1,73 @@
+{
+    "schema_version":  "1.0.0",
+    "increment":  "RN-I18",
+    "execution_mode":  "NON_DESTRUCTIVE_FIRST",
+    "implementation_state":  "NOT_STARTED",
+    "gates":  [
+                  {
+                      "id":  "QG01",
+                      "name":  "CONTINUITY",
+                      "action":  "Verify baseline, branch and frozen predecessor"
+                  },
+                  {
+                      "id":  "QG02",
+                      "name":  "CANONICAL_SOURCES",
+                      "action":  "Verify SPT-025.10 through SPT-025.16 canonical sources"
+                  },
+                  {
+                      "id":  "QG03",
+                      "name":  "REGISTRY_INTEGRATION",
+                      "action":  "Integrate existing instance with existing registry"
+                  },
+                  {
+                      "id":  "QG04",
+                      "name":  "PROFILE_TEMPLATE_RESOLUTION",
+                      "action":  "Resolve existing configuration profile and instance template"
+                  },
+                  {
+                      "id":  "QG05",
+                      "name":  "CONFIGURATION_VALIDATION",
+                      "action":  "Validate resolved existing configuration"
+                  },
+                  {
+                      "id":  "QG06",
+                      "name":  "CONFIGURATION_COMPOSITION",
+                      "action":  "Compose existing instance configuration"
+                  },
+                  {
+                      "id":  "QG07",
+                      "name":  "DECLARATIVE_MATERIALIZATION",
+                      "action":  "Validate declarative materialization without new engine"
+                  },
+                  {
+                      "id":  "QG08",
+                      "name":  "CONTROLLED_PUBLICATION",
+                      "action":  "Validate controlled publication using existing governance"
+                  },
+                  {
+                      "id":  "QG09",
+                      "name":  "RECERTIFICATION",
+                      "action":  "Recertify integrated instance lifecycle"
+                  },
+                  {
+                      "id":  "QG10",
+                      "name":  "SECURITY_AND_GOVERNANCE",
+                      "action":  "Preserve security, governance and controlled debt"
+                  },
+                  {
+                      "id":  "QG11",
+                      "name":  "FINAL_INTEGRITY",
+                      "action":  "Verify no unauthorized mutation and preserve traceability"
+                  }
+              ],
+    "execution_policy":  {
+                             "reuse_existing_work":  true,
+                             "reopen_rn_i17":  false,
+                             "reopen_r27_r31":  false,
+                             "create_spt026":  false,
+                             "create_parallel_architecture":  false,
+                             "reimplement_closed_components":  false,
+                             "mass_media_git_import":  false
+                         },
+    "completion_rule":  "ALL_QG01_QG11_PASS_AND_CLOSURE_EVIDENCE_PUBLISHED"
+}
