@@ -97,18 +97,105 @@ class PilotPayload {
   }
 }
 
-class PilotApi {
-  Future<PilotPayload> load() async {
-    final response = await http.get(Uri.parse('$apiBase/api/demo/pilot25'));
+class Real508RecordAdapter {
+  static PilotRecord fromApiResponse(Map<String, dynamic> response) {
+    final data = response['data'];
 
-    if (response.statusCode != 200) {
-      throw Exception('SGODA API HTTP ${response.statusCode}');
+    if (data is! Map<String, dynamic>) {
+      throw const FormatException('REAL-508: respuesta sin data válida.');
     }
 
-    final decoded =
-        jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>;
+    final entryId = (data['entryId'] ?? '').toString();
 
-    return PilotPayload.fromJson(decoded);
+    final languagesRaw = data['languages'];
+    final languages = languagesRaw is Map<String, dynamic>
+        ? languagesRaw
+        : const <String, dynamic>{};
+
+    final puinave = (languages['pu'] ?? '').toString();
+    final spanish = (languages['es'] ?? '').toString();
+
+    final mediaRaw = data['media'];
+    final media = mediaRaw is List<dynamic> ? mediaRaw : const <dynamic>[];
+
+    String audioUrl = '';
+
+    for (final item in media) {
+      if (item is! Map<String, dynamic>) {
+        continue;
+      }
+
+      final type = (item['type'] ?? '').toString();
+      final uri = (item['uri'] ?? '').toString();
+      final validated = item['validated'] == true;
+      final autoplay = item['autoplay'] == true;
+
+      if (type == 'audio' && validated && !autoplay && uri.isNotEmpty) {
+        audioUrl = uri;
+        break;
+      }
+    }
+
+    if (entryId.isEmpty) {
+      throw const FormatException('REAL-508: entryId vacío.');
+    }
+
+    if (puinave.isEmpty) {
+      throw const FormatException('REAL-508: texto Puinave vacío.');
+    }
+
+    return PilotRecord(
+      lexicalId: entryId,
+      puinave: puinave,
+      pronunciation: '',
+      spanish: spanish,
+      audioAvailable: audioUrl.isNotEmpty,
+      audioUrl: audioUrl,
+    );
+  }
+}
+
+class PilotApi {
+  static const int real508Total = 508;
+
+  Future<PilotPayload> load() async {
+    final records = <PilotRecord>[];
+
+    for (var start = 1; start <= real508Total; start += 25) {
+      final end = (start + 24) > real508Total ? real508Total : start + 24;
+
+      final responses = await Future.wait(<Future<http.Response>>[
+        for (var id = start; id <= end; id++)
+          http.get(
+            Uri.parse('$apiBase/lexical/${id.toString().padLeft(6, '0')}'),
+          ),
+      ]);
+
+      for (final response in responses) {
+        if (response.statusCode != 200) {
+          throw Exception('SGODA REAL-508 API HTTP ${response.statusCode}');
+        }
+
+        final decoded =
+            jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>;
+
+        records.add(Real508RecordAdapter.fromApiResponse(decoded));
+      }
+    }
+
+    if (records.length != real508Total) {
+      throw StateError('REAL-508 incompleto: ${records.length}/$real508Total');
+    }
+
+    final audioComplete = records
+        .where((record) => record.audioAvailable)
+        .length;
+
+    return PilotPayload(
+      records: records,
+      ready: records.length == real508Total,
+      audioComplete: audioComplete,
+    );
   }
 }
 

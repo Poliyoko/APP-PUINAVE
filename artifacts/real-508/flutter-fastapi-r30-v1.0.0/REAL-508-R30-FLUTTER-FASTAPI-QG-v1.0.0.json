@@ -1,0 +1,67 @@
+{
+    "schema_version":  "1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "R30",
+    "status":  "CLOSED_VERIFIED",
+    "parent_baseline":  "05c7a332041aad250ea79506fada1d617c96f282",
+    "dataset":  {
+                    "active":  "REAL508",
+                    "expected_total":  508,
+                    "database_total":  508,
+                    "database_unique_ids":  508,
+                    "min_id":  "000001",
+                    "max_id":  "000508",
+                    "pilot25_included_in_real508":  true,
+                    "target_533":  false
+                },
+    "runtime":  {
+                    "postgresql_service":  "PASS",
+                    "postgresql_auth":  "PASS",
+                    "pgpass_host":  "127.0.0.1",
+                    "transaction":  "READ_ONLY",
+                    "database_write":  false,
+                    "uvicorn_version":  "0.54.0",
+                    "health_http":  200,
+                    "health_status":  "degraded",
+                    "lexical_runtime":  "PASS",
+                    "http_records":  508,
+                    "http_unique_ids":  508,
+                    "http_failures":  0,
+                    "not_found_404":  "PASS",
+                    "validated_audio_references":  508,
+                    "entries_with_validated_audio":  508
+                },
+    "flutter":  {
+                    "binding":  "PASS",
+                    "endpoint":  "/lexical/{entry_id}",
+                    "records":  508,
+                    "unit_tests":  "4/4 PASS",
+                    "analyze":  "PASS",
+                    "existing_audio_bridge_preserved":  true
+                },
+    "lexical_consistency_observation":  {
+                                            "status":  "OPEN_OBSERVATION",
+                                            "runtime_first_id":  "000001",
+                                            "runtime_first_puinave":  "A",
+                                            "runtime_first_spanish":  "Mí",
+                                            "certified_excel_first_id":  "000001",
+                                            "certified_excel_first_puinave":  "AMDA",
+                                            "certified_excel_first_spanish":  "Huérfana",
+                                            "automatic_correction_performed":  false,
+                                            "r27_reopened":  false,
+                                            "r29_reopened":  false,
+                                            "note":  "R30 certifica integración y transporte del contenido almacenado. La discrepancia del registro 000001 debe reconciliarse posteriormente contra la fuente léxica autoritativa sin corrección automática."
+                                        },
+    "continuity":  {
+                       "real25_historical_baseline":  "PRESERVED",
+                       "r29":  "CLOSED_VERIFIED_FROZEN",
+                       "parallel_architecture_created":  false
+                   },
+    "security":  {
+                     "password_printed":  false,
+                     "pgpass_published":  false,
+                     "secrets_published":  false,
+                     "mass_multimedia_published":  false
+                 },
+    "quality_gate":  "PASS_WITH_DOCUMENTED_LEXICAL_OBSERVATION"
+}

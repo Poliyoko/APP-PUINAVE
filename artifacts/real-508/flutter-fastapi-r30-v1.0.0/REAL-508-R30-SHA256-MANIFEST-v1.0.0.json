@@ -1,0 +1,29 @@
+{
+    "schema_version":  "1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "R30",
+    "algorithm":  "SHA256",
+    "parent_baseline":  "05c7a332041aad250ea79506fada1d617c96f282",
+    "files":  [
+                  {
+                      "path":  "apps/sgoda_puinave_demo/lib/main.dart",
+                      "sha256":  "7FA4D91EE0C946B39F7BEAD3FB5264705CB28D6231D26DB73B776CD838BB46AB"
+                  },
+                  {
+                      "path":  "apps/sgoda_puinave_demo/test/pilot_record_test.dart",
+                      "sha256":  "894429C91241FD28FABAD56FB5DE63CBFCD38C6F9ECE99EEF7C9E8FFE4B474CD"
+                  },
+                  {
+                      "path":  "artifacts/real-508/flutter-fastapi-r30-v1.0.0/REAL-508-R30-FLUTTER-FASTAPI-QG-v1.0.0.json",
+                      "sha256":  "8D765F34E0EF2B4199D5E2A74FA65897DDCBBC75D9CC2961F1BABC04A8880B2B"
+                  },
+                  {
+                      "path":  "artifacts/real-508/flutter-fastapi-r30-v1.0.0/REAL-508-R30-RUNTIME-EVIDENCE-v1.0.0.md",
+                      "sha256":  "6E42C67A012C874BDC5CBA15C2755A87DAEABF13710E0A6FC629F8D3BC2BC52C"
+                  },
+                  {
+                      "path":  "docs/00_Estado_Maestro/REAL-508-R30-FLUTTER-FASTAPI-CLOSURE-v1.0.0.md",
+                      "sha256":  "610238B2F6B726D039C888CF1B021FF68F092FC2E373648A561D74D1AB16DC8D"
+                  }
+              ]
+}
