@@ -1,0 +1,24 @@
+{
+    "schema_version":  "1.0.0",
+    "algorithm":  "SHA256",
+    "entries":  [
+                    {
+                        "path":  "artifacts/real-n/real-restore-validation-v1.0.0/REAL-N-REAL-RESTORE-EVIDENCE-v1.0.0.md",
+                        "sha256":  "1D5216EE48A49AFFDA1D0FDC5318F1A44424C239A49277E784A334AFADB3E96F"
+                    },
+                    {
+                        "path":  "artifacts/real-n/real-restore-validation-v1.0.0/REAL-N-REAL-RESTORE-QG-v1.0.0.json",
+                        "sha256":  "679963308153793D0259D57BB4FF07F115B88D2408EEF654A34DCE517AD704B1"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/REAL-N-REAL-RESTORE-CLOSURE-v1.0.0.md",
+                        "sha256":  "BAFE6B32E48D25C1FA318D565311156E4DB57DF1C7FFC58F4A69D5E08080B069"
+                    }
+                ],
+    "external_artifact":  {
+                              "path":  "/var/backups/sgoda-real-restore-validation/sgoda-real-restore-validation.dump",
+                              "sha256":  "8583560BF7885C5DDD27E9A3EE27406319C5F63E9AA7013B1DD9D25A40CC601F",
+                              "bytes":  23558,
+                              "committed_to_git":  false
+                          }
+}

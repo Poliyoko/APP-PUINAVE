@@ -1,0 +1,60 @@
+{
+    "schema_version":  "1.0.0",
+    "deliverable":  "REAL-N-REAL-RESTORE-VALIDATION",
+    "state":  "CLOSED_VERIFIED",
+    "baseline":  "250a0ad6a4b1be94a1ac2535eafcf62b24cd9be7",
+    "backup":  {
+                   "path":  "/var/backups/sgoda-real-restore-validation/sgoda-real-restore-validation.dump",
+                   "bytes":  23558,
+                   "sha256":  "8583560BF7885C5DDD27E9A3EE27406319C5F63E9AA7013B1DD9D25A40CC601F",
+                   "format":  "PostgreSQL custom",
+                   "regenerated_during_closure":  false
+               },
+    "source":  {
+                   "database":  "sgoda",
+                   "lexical_rows_before":  508,
+                   "lexical_rows_after":  508,
+                   "preserved":  true,
+                   "mutated":  false
+               },
+    "restore":  {
+                    "target":  "sgoda_restore_validation",
+                    "target_class":  "ISOLATED_NONPRODUCTION",
+                    "executed":  true,
+                    "lexical_rows":  508,
+                    "restored_columns":  26,
+                    "start_utc":  "2026-10-04T20:30:50.0707597Z",
+                    "end_utc":  "2026-10-04T20:30:50.2168766Z"
+                },
+    "rto":  {
+                "observed_seconds":  0.145,
+                "observed_minutes":  0.0024,
+                "historical_max_minutes":  120,
+                "result":  "PASS"
+            },
+    "rpo":  {
+                "backup_age_minutes_at_initial_validation":  0.0224,
+                "historical_max_minutes":  30,
+                "result":  "PASS"
+            },
+    "quality_gates":  {
+                          "backup_recertification":  "PASS",
+                          "production_preservation":  "PASS",
+                          "isolated_restore":  "PASS",
+                          "restored_schema":  "PASS",
+                          "real508_restore":  "PASS",
+                          "structural_integrity":  "PASS",
+                          "rto_measurement":  "PASS",
+                          "rpo_evidence":  "PASS",
+                          "repository_integrity":  "PASS"
+                      },
+    "decisions":  {
+                      "real_restore_technical_gap":  "RESOLVED",
+                      "restore_executed_baseline":  true,
+                      "automatic_cleanup":  false,
+                      "rn_i19_created":  false,
+                      "spt_026_created":  false,
+                      "rn_i18":  "CLOSED_VERIFIED_FROZEN",
+                      "real_n_overall":  "OPEN"
+                  }
+}
