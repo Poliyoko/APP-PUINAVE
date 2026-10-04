@@ -1,0 +1,15 @@
+{
+    "schema_version":  "1.0.0",
+    "algorithm":  "SHA256",
+    "baseline_commit":  "f2d2765590223bf3a71e0d8eb04d9c8207dd745d",
+    "entries":  [
+                    {
+                        "path":  "artifacts/real-n/real-restore-safe-execution-contract-v1.0.0/REAL-N-REAL-RESTORE-SAFE-EXECUTION-CONTRACT-v1.0.0.json",
+                        "sha256":  "4CE18A9840CBFD3D74682C51155E3CC98890BF3ADA7FD3AD04DCEDF9A25C7C9C"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/REAL-N-REAL-RESTORE-SAFE-EXECUTION-CONTRACT-v1.0.0.md",
+                        "sha256":  "E84B9E6783A1BA281A22DA35F675C6EF80368A74889E74AA1C9154DA8625AC4B"
+                    }
+                ]
+}

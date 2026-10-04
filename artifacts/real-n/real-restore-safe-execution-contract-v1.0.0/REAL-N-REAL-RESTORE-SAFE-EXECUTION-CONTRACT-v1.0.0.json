@@ -1,0 +1,100 @@
+{
+    "schema_version":  "1.0.0",
+    "contract_id":  "REAL-N-REAL-RESTORE-SAFE-EXECUTION",
+    "contract_version":  "v1.0.0",
+    "state":  "FROZEN_READY_FOR_CONTROLLED_EXECUTION",
+    "baseline_commit":  "f2d2765590223bf3a71e0d8eb04d9c8207dd745d",
+    "project":  {
+                    "repository":  "Poliyoko/APP-PUINAVE",
+                    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+                    "real_n_state":  "OPEN",
+                    "rn_i18_state":  "CLOSED_VERIFIED_FROZEN",
+                    "rn_i19_created":  false,
+                    "spt_026_created":  false
+                },
+    "demonstrated_gap":  {
+                             "restore_executed":  false,
+                             "physical_postgresql_backup_discovered":  false,
+                             "backup_creation_required":  true,
+                             "existing_dr_foundation":  "SPT-024.13",
+                             "reuse_existing_dr_foundation":  true,
+                             "new_dr_architecture_required":  false
+                         },
+    "source":  {
+                   "database":  "sgoda",
+                   "classification":  "PRODUCTION_CURRENT",
+                   "lexical_table":  "public.rlb_registro_lexico",
+                   "expected_lexical_rows":  508,
+                   "mutation_authorized":  false,
+                   "drop_authorized":  false,
+                   "overwrite_authorized":  false,
+                   "restore_into_source_authorized":  false
+               },
+    "backup":  {
+                   "engine":  "pg_dump",
+                   "format":  "CUSTOM",
+                   "format_option":  "-Fc",
+                   "directory":  "/var/backups/sgoda-real-restore-validation",
+                   "file":  "/var/backups/sgoda-real-restore-validation/sgoda-real-restore-validation.dump",
+                   "location_class":  "OUTSIDE_GIT",
+                   "sha256_required":  true,
+                   "pg_restore_list_validation_required":  true,
+                   "current_execution_authorized":  false
+               },
+    "restore":  {
+                    "target_database":  "sgoda_restore_validation",
+                    "target_class":  "ISOLATED_NONPRODUCTION",
+                    "target_collision_at_freeze":  false,
+                    "source_target_must_differ":  true,
+                    "create_target_only_after_execution_authorization":  true,
+                    "current_execution_authorized":  false,
+                    "cleanup_requires_separate_authorization":  true
+                },
+    "validation":  {
+                       "backup_sha256":  "REQUIRED",
+                       "backup_format":  "REQUIRED",
+                       "pg_restore_catalog":  "REQUIRED",
+                       "restored_lexical_rows":  508,
+                       "schema_integrity":  "REQUIRED",
+                       "data_integrity":  "REQUIRED",
+                       "source_unchanged":  "REQUIRED",
+                       "rto_measurement":  "REQUIRED",
+                       "rpo_evidence":  "REQUIRED"
+                   },
+    "safety":  {
+                   "production_drop":  "PROHIBITED",
+                   "production_overwrite":  "PROHIBITED",
+                   "production_restore":  "PROHIBITED",
+                   "production_mutation":  "PROHIBITED",
+                   "mass_media_git_import":  "PROHIBITED",
+                   "parallel_dr_architecture":  "PROHIBITED",
+                   "automatic_spt026_creation":  "PROHIBITED"
+               },
+    "execution_sequence":  [
+                               "PRE_EXECUTION_GUARDS",
+                               "CREATE_EXTERNAL_BACKUP_DIRECTORY",
+                               "CREATE_REAL_PG_DUMP_CUSTOM_BACKUP",
+                               "COMPUTE_BACKUP_SHA256",
+                               "VALIDATE_BACKUP_WITH_PG_RESTORE_LIST",
+                               "CAPTURE_BACKUP_TIMESTAMP_AND_RPO_EVIDENCE",
+                               "CREATE_ISOLATED_NONPRODUCTION_DATABASE",
+                               "RESTORE_BACKUP_TO_ISOLATED_DATABASE",
+                               "MEASURE_RESTORE_ELAPSED_TIME",
+                               "VALIDATE_RESTORED_SCHEMA",
+                               "VALIDATE_RESTORED_REAL508_COUNT",
+                               "VALIDATE_DATA_INTEGRITY",
+                               "VERIFY_PRODUCTION_SOURCE_UNCHANGED",
+                               "CAPTURE_EVIDENCE",
+                               "DETERMINE_CONTROLLED_CLOSURE"
+                           ],
+    "historical_limits":  {
+                              "max_rpo_minutes":  30,
+                              "max_rto_minutes":  120,
+                              "note":  "Historical governance thresholds reused from SPT-024.13; real observed values must be measured during execution."
+                          },
+    "deferred_debt":  {
+                          "mmar":  "PRESERVED_NONBLOCKING_RECALIBRATION",
+                          "mmar_blocks_restore_validation":  false
+                      },
+    "next":  "CONTROLLED_REAL_BACKUP_EXECUTION"
+}
