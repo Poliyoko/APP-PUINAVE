@@ -1,0 +1,20 @@
+{
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "REAL-508-R31",
+    "version":  "1.0.0",
+    "algorithm":  "SHA256",
+    "files":  [
+                  {
+                      "file":  "artifacts/real-508/lexical-reconciliation-r31-v1.0.0/REAL-508-R31-LEXICAL-RECONCILIATION-QG-v1.0.0.json",
+                      "sha256":  "97AC5ADE154C3188C64D4A1D7E2C65448002962BAD2C6738992F3ED7B0700419"
+                  },
+                  {
+                      "file":  "artifacts/real-508/lexical-reconciliation-r31-v1.0.0/REAL-508-R31-LEXICAL-RECONCILIATION-EVIDENCE-v1.0.0.md",
+                      "sha256":  "8F685B1609DAE4B2A1C6AF96A953B647A64BBF4F471555B291C050CB6530669F"
+                  },
+                  {
+                      "file":  "docs/00_Estado_Maestro/REAL-508-R31-LEXICAL-RECONCILIATION-CLOSURE-v1.0.0.md",
+                      "sha256":  "4F224564B9A08C9C14726FBD4BAD4B2FBF9A2E533A6DECF1A28EE1638913CDD6"
+                  }
+              ]
+}

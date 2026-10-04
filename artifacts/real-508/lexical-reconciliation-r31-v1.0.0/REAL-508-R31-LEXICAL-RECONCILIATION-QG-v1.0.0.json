@@ -1,0 +1,52 @@
+{
+    "project":  "SGODA-PUINAVE",
+    "deliverable":  "REAL-508-R31",
+    "phase":  "LEXICAL_RECONCILIATION",
+    "version":  "1.0.0",
+    "status":  "PASS",
+    "baseline":  "5a01348d5ee6df199b41055e2d18e82585011854",
+    "source":  {
+                   "dataset":  "REAL-508",
+                   "excel_records":  508,
+                   "postgresql_records":  508,
+                   "common_ids":  508,
+                   "missing_postgresql":  0,
+                   "unexpected_postgresql":  0,
+                   "duplicate_excel_ids":  0,
+                   "duplicate_postgresql_ids":  0
+               },
+    "lexical_reconciliation":  {
+                                   "identifiers":  "508_EXACT",
+                                   "palabra_puinave":  "508_EXACT",
+                                   "traduccion_espanol":  "508_EXACT",
+                                   "escritura_puinave":  "PRESERVED_IN_EXTENSIONES",
+                                   "lote_audio_puinave":  "PRESERVED_IN_EXTENSIONES",
+                                   "audio_puinave":  "RESOURCE_LOCATION"
+                               },
+    "root_cause":  {
+                       "previous_audio_mismatch":  "SEMANTIC_FIELD_MISMATCH",
+                       "data_corruption":  false,
+                       "lexical_repair_required":  false,
+                       "postgres_reload_required":  false,
+                       "automatic_correction":  false
+                   },
+    "traceability":  {
+                         "origen_records":  508,
+                         "escritura_puinave_records":  508,
+                         "lote_audio_puinave_records":  508,
+                         "fuente_lexica":  "EXCEL_CERTIFICADO",
+                         "preservar_texto_exacto":  true,
+                         "grafia_puinave_autoritativa":  true,
+                         "normalizar_puinave":  false,
+                         "reinterpretar_puinave":  false,
+                         "corregir_automaticamente_puinave":  false
+                     },
+    "safety":  {
+                   "postgresql_transaction":  "READ_ONLY",
+                   "postgresql_write":  false,
+                   "excel_write":  false,
+                   "automatic_lexical_correction":  false,
+                   "r30_reopened":  false
+               },
+    "decision":  "NO_DATA_REPAIR_REQUIRED"
+}
