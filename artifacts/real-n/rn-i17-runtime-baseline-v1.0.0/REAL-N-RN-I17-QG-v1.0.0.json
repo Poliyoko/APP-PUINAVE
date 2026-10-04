@@ -1,0 +1,94 @@
+{
+    "schema_version":  "1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "phase":  "REAL-N",
+    "increment":  "RN-I17",
+    "increment_name":  "REAL_N_INTEGRATED_RUNTIME_BASELINE",
+    "execution":  "REAL-N R3.2",
+    "baseline_commit":  "05059dd30f2001e5074e418a545a1ce00adc36d9",
+    "branch":  "feature/SPT-001A-rlb-schema-foundation",
+    "status":  "VERIFIED_PENDING_PUBLICATION",
+    "strategy":  "REUSE_AND_EXTEND",
+    "execution_mode":  "NON_DESTRUCTIVE_FIRST",
+    "dataset":  {
+                    "name":  "REAL-508",
+                    "expected_records":  508,
+                    "postgresql_records":  508,
+                    "lexical_autocorrection":  false,
+                    "normalize_puinave_characters":  false
+                },
+    "reuse":  {
+                  "spt025":  true,
+                  "real508":  true,
+                  "operational_platform":  true,
+                  "existing_fastapi":  true,
+                  "existing_postgresql":  true,
+                  "existing_flutter":  true,
+                  "parallel_architecture_created":  false,
+                  "spt026_created":  false,
+                  "r27_r31_reopened":  false
+              },
+    "quality_gates":  {
+                          "QG01":  "PASS",
+                          "QG02":  "PASS",
+                          "QG03":  "PASS",
+                          "QG04":  "PASS",
+                          "QG05":  "PASS",
+                          "QG06":  "PASS",
+                          "QG07":  "PASS",
+                          "QG08":  "PASS",
+                          "QG09":  "PASS",
+                          "QG10":  "PASS",
+                          "QG11":  "PASS"
+                      },
+    "targeted_regression":  {
+                                "result":  "PASS",
+                                "passed_tests":  56
+                            },
+    "postgresql":  {
+                       "service":  "PASS",
+                       "authentication":  "EXTERNAL_EXISTING_PGPASS",
+                       "credential_user":  "sgoda",
+                       "credential_secret_recorded":  false,
+                       "query_mode":  "SELECT_ONLY",
+                       "mutation":  false,
+                       "record_count":  508
+                   },
+    "security":  {
+                     "targeted_files":  14,
+                     "potential_hardcoded_secret_hits":  0,
+                     "secret_values_printed":  false
+                 },
+    "disaster_recovery":  {
+                              "governed_foundation":  true,
+                              "restore_executed":  false,
+                              "real_restore_proven":  false,
+                              "rpo_minutes":  15,
+                              "rto_minutes":  60,
+                              "debt_preserved":  true
+                          },
+    "controlled_debt":  [
+                            {
+                                "id":  "DEBT-REAL-N-MMAR",
+                                "description":  "Recalibracion MMAR pendiente; el denominador historico aproximado no se redefine automaticamente como 508.",
+                                "blocks_rn_i17":  false
+                            },
+                            {
+                                "id":  "DEBT-REAL-N-DR",
+                                "description":  "Restore real de desastre no demostrado; debe validarse antes del cierre productivo final correspondiente.",
+                                "blocks_rn_i17":  false
+                            }
+                        ],
+    "integrity":  {
+                      "data_mutation":  false,
+                      "postgresql_write":  false,
+                      "excel_write":  false,
+                      "source_code_write":  false,
+                      "r3_2_repository_integrity":  "PASS"
+                  },
+    "closure":  {
+                    "runtime_baseline":  "VERIFIED",
+                    "closed_verified":  false,
+                    "publication_required":  true
+                }
+}

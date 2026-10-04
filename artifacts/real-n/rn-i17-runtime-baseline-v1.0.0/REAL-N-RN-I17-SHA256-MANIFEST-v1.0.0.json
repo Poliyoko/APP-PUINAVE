@@ -1,0 +1,26 @@
+{
+    "schema_version":  "1.0.0",
+    "project":  "SGODA-PUINAVE",
+    "phase":  "REAL-N",
+    "increment":  "RN-I17",
+    "baseline_commit":  "05059dd30f2001e5074e418a545a1ce00adc36d9",
+    "algorithm":  "SHA-256",
+    "self_hash":  "NOT_APPLICABLE",
+    "files":  [
+                  {
+                      "path":  "artifacts/real-n/rn-i17-runtime-baseline-v1.0.0/REAL-N-RN-I17-RUNTIME-EVIDENCE-v1.0.0.md",
+                      "sha256":  "AB5B7210487C93B1A9D72F67E505C109B9759F51BA979C1691E3FC454898EFAC",
+                      "bytes":  3241
+                  },
+                  {
+                      "path":  "artifacts/real-n/rn-i17-runtime-baseline-v1.0.0/REAL-N-RN-I17-QG-v1.0.0.json",
+                      "sha256":  "4224734C3936A6118D2D7B1188462F5B3C6519859A8AC2B97D46BF420C94E466",
+                      "bytes":  4072
+                  },
+                  {
+                      "path":  "docs/00_Estado_Maestro/REAL-N-RN-I17-RUNTIME-BASELINE-CLOSURE-v1.0.0.md",
+                      "sha256":  "437D833476D719BEAE559EE4A3073F8115380414E9F445366183E7EBD508B6E4",
+                      "bytes":  1891
+                  }
+              ]
+}
