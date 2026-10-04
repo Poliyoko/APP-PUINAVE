@@ -1,0 +1,20 @@
+{
+    "schema_version":  "1.0.0",
+    "increment":  "RN-I18",
+    "purpose":  "CLOSURE_INTEGRITY",
+    "algorithm":  "SHA256",
+    "entries":  [
+                    {
+                        "path":  "artifacts/real-n/rn-i18-instance-lifecycle-integration-v1.0.0/REAL-N-RN-I18-INTEGRATION-EVIDENCE-v1.0.0.md",
+                        "sha256":  "317713FAD45A64C607BE07528CF67D38D59DB6BFE3A453CA6118E85AF2C2FD43"
+                    },
+                    {
+                        "path":  "artifacts/real-n/rn-i18-instance-lifecycle-integration-v1.0.0/REAL-N-RN-I18-QG-v1.0.0.json",
+                        "sha256":  "BBB1F449620B65A4024D3E8FF5F9A224E189F520420097D54882E859BD3AF60C"
+                    },
+                    {
+                        "path":  "docs/00_Estado_Maestro/REAL-N-RN-I18-INSTANCE-LIFECYCLE-INTEGRATION-CLOSURE-v1.0.0.md",
+                        "sha256":  "022FA2CAA8F4D3208A0F6FD8227E3AD91691BCEDE7D8EF2C5E7F1B43818D1171"
+                    }
+                ]
+}

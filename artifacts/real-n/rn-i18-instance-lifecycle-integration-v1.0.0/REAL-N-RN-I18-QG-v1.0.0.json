@@ -1,0 +1,67 @@
+{
+    "schema_version":  "1.0.0",
+    "increment":  {
+                      "id":  "RN-I18",
+                      "name":  "SPT025_INSTANCE_LIFECYCLE_INTEGRATION_RECERTIFICATION",
+                      "type":  "INTEGRATION_AND_RECERTIFICATION"
+                  },
+    "baseline":  "dbeb8c652281d1544d23c780679b58d7549cf8b8",
+    "strategy":  "REUSE_AND_INTEGRATE",
+    "execution":  {
+                      "spt025_chain":  [
+                                           "SPT-025.10",
+                                           "SPT-025.11",
+                                           "SPT-025.12",
+                                           "SPT-025.13",
+                                           "SPT-025.14",
+                                           "SPT-025.15",
+                                           "SPT-025.16"
+                                       ],
+                      "test_count":  206,
+                      "passed":  206,
+                      "failed":  0,
+                      "import_recovery":  {
+                                              "classification":  "INVOCATION_IMPORT_PATH_ONLY",
+                                              "project_regression":  false,
+                                              "source_modification":  false,
+                                              "method":  "TEMPORARY_PYTHONPATH_SRC"
+                                          }
+                  },
+    "quality_gates":  {
+                          "QG01_CONTINUITY":  "PASS",
+                          "QG02_CANONICAL_SOURCES":  "PASS",
+                          "QG03_REGISTRY_INTEGRATION":  "PASS",
+                          "QG04_PROFILE_TEMPLATE_RESOLUTION":  "PASS",
+                          "QG05_CONFIGURATION_VALIDATION":  "PASS",
+                          "QG06_CONFIGURATION_COMPOSITION":  "PASS",
+                          "QG07_DECLARATIVE_MATERIALIZATION":  "PASS",
+                          "QG08_CONTROLLED_PUBLICATION":  "PASS",
+                          "QG09_RECERTIFICATION":  "PASS",
+                          "QG10_SECURITY_AND_GOVERNANCE":  "PASS",
+                          "QG11_FINAL_INTEGRITY":  "PASS"
+                      },
+    "invariants":  {
+                       "real508_reimport":  false,
+                       "lexical_data_mutation":  false,
+                       "puinave_autocorrection":  false,
+                       "puinave_normalization":  false,
+                       "mass_media_git_import":  false,
+                       "parallel_architecture":  false,
+                       "spt026_created":  false,
+                       "rn_i17_reopened":  false,
+                       "r27_r31_reopened":  false,
+                       "new_implementation_required":  false
+                   },
+    "controlled_debt":  {
+                            "mmar_recalibration":  "PRESERVED",
+                            "real_restore":  "PRESERVED",
+                            "real_restore_proven":  false,
+                            "real_restore_required_before_final_production_closure":  true
+                        },
+    "closure":  {
+                    "qg01_qg11":  "ALL_PASS",
+                    "materialization":  "AUTHORIZED",
+                    "publication_required":  true,
+                    "closed_verified":  false
+                }
+}
