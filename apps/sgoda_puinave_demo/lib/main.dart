@@ -15,7 +15,7 @@ void main() {
 
 const apiBase = String.fromEnvironment(
   'SGODA_API_BASE',
-  defaultValue: 'http://127.0.0.1:8010',
+  defaultValue: 'http://127.0.0.1:8000',
 );
 
 class SgodaPuinaveApp extends StatelessWidget {
@@ -147,7 +147,7 @@ class Real508RecordAdapter {
     return PilotRecord(
       lexicalId: entryId,
       puinave: puinave,
-      pronunciation: '',
+      pronunciation: (data['pronunciation'] ?? '').toString(),
       spanish: spanish,
       audioAvailable: audioUrl.isNotEmpty,
       audioUrl: audioUrl,
@@ -158,7 +158,7 @@ class Real508RecordAdapter {
 class PilotApi {
   static const int real508Total = 508;
 
-  Future<PilotPayload> load() async {
+  Stream<PilotPayload> load() async* {
     final records = <PilotRecord>[];
 
     for (var start = 1; start <= real508Total; start += 25) {
@@ -181,21 +181,21 @@ class PilotApi {
 
         records.add(Real508RecordAdapter.fromApiResponse(decoded));
       }
+
+      final audioComplete = records
+          .where((record) => record.audioAvailable)
+          .length;
+
+      yield PilotPayload(
+        records: List<PilotRecord>.unmodifiable(records),
+        ready: records.length == real508Total,
+        audioComplete: audioComplete,
+      );
     }
 
     if (records.length != real508Total) {
       throw StateError('REAL-508 incompleto: ${records.length}/$real508Total');
     }
-
-    final audioComplete = records
-        .where((record) => record.audioAvailable)
-        .length;
-
-    return PilotPayload(
-      records: records,
-      ready: records.length == real508Total,
-      audioComplete: audioComplete,
-    );
   }
 }
 
@@ -220,7 +220,7 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
   final player = DemoAudioPlayer();
   final searchController = TextEditingController();
 
-  late Future<PilotPayload> payload;
+  late Stream<PilotPayload> payload;
   SgodaSection section = SgodaSection.inicio;
   String query = '';
   String? playingId;
@@ -249,10 +249,7 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
       return;
     }
 
-    final relativeUrl = record.audioUrl!;
-    final url = relativeUrl.startsWith('http')
-        ? relativeUrl
-        : '$apiBase$relativeUrl';
+    final url = '$apiBase/media/real508/audio/${record.lexicalId}';
 
     await player.stop();
     await player.play(url);
@@ -344,10 +341,10 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
                   ),
                 ),
               Expanded(
-                child: FutureBuilder<PilotPayload>(
-                  future: payload,
+                child: StreamBuilder<PilotPayload>(
+                  stream: payload,
                   builder: (context, snapshot) {
-                    if (snapshot.connectionState != ConnectionState.done) {
+                    if (!snapshot.hasData && !snapshot.hasError) {
                       return const Center(child: CircularProgressIndicator());
                     }
 
@@ -606,7 +603,7 @@ class StatusDashboard extends StatelessWidget {
         MetricCard(
           icon: Icons.library_books_outlined,
           value: '${data.records.length}',
-          label: 'Palabras REAL-25',
+          label: 'Palabras REAL508',
         ),
         MetricCard(
           icon: Icons.volume_up_outlined,
@@ -616,7 +613,7 @@ class StatusDashboard extends StatelessWidget {
         MetricCard(
           icon: data.ready ? Icons.check_circle_outline : Icons.warning_amber,
           value: data.ready ? 'Listo' : 'Revisar',
-          label: 'Estado del piloto',
+          label: 'Estado REAL508',
         ),
       ],
     );
@@ -1101,8 +1098,7 @@ class _LexicalDetailPageState extends State<LexicalDetailPage> {
       return;
     }
 
-    final relative = record.audioUrl!;
-    final url = relative.startsWith('http') ? relative : '$apiBase$relative';
+    final url = '$apiBase/media/real508/audio/${record.lexicalId}';
 
     await widget.player.stop();
     await widget.player.play(url);
@@ -1162,11 +1158,7 @@ class _LexicalDetailPageState extends State<LexicalDetailPage> {
                     title: 'Español',
                     value: record.spanish,
                   ),
-                  const DetailPanel(
-                    icon: Icons.image_outlined,
-                    title: 'Imagen',
-                    value: 'Recurso multimedia pendiente de vinculación.',
-                  ),
+                  Real508ImagePanel(record: record),
                   Demo25MultilingualFldPanel(record: record),
                   Demo25CategoryDetailPanel(record: record),
                 ],
@@ -1193,8 +1185,8 @@ class _LexicalDetailPageState extends State<LexicalDetailPage> {
                       ),
                       FilledButton.icon(
                         onPressed: record.audioAvailable ? toggleAudio : null,
-                        icon: Icon(playing ? Icons.stop : Icons.volume_up),
-                        label: Text(playing ? 'Detener' : 'Escuchar'),
+                        icon: const Icon(Icons.volume_up),
+                        label: const Text('Escuchar audio'),
                       ),
                     ],
                   ),
@@ -1264,6 +1256,66 @@ class DetailPanel extends StatelessWidget {
 }
 
 // DEMO25_MULTILINGUAL_LIBRARY_BINDING_V1
+
+class Real508ImagePanel extends StatelessWidget {
+  const Real508ImagePanel({super.key, required this.record});
+
+  final PilotRecord record;
+
+  @override
+  Widget build(BuildContext context) {
+    final numericId = int.tryParse(record.lexicalId) ?? 0;
+    final hasCurrentImage = numericId >= 1 && numericId <= 30;
+
+    if (!hasCurrentImage) {
+      return const DetailPanel(
+        icon: Icons.image_outlined,
+        title: 'Imagen',
+        value: 'Imagen no disponible actualmente para esta entrada.',
+      );
+    }
+
+    final imageUrl = '$apiBase/media/real508/image/${record.lexicalId}';
+
+    return Card(
+      clipBehavior: Clip.antiAlias,
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                const Icon(Icons.image_outlined),
+                const SizedBox(width: 10),
+                Text('Imagen', style: Theme.of(context).textTheme.titleMedium),
+              ],
+            ),
+            const SizedBox(height: 14),
+            AspectRatio(
+              aspectRatio: 1,
+              child: Image.network(
+                imageUrl,
+                fit: BoxFit.contain,
+                errorBuilder: (context, error, stackTrace) {
+                  return const Center(
+                    child: Padding(
+                      padding: EdgeInsets.all(16),
+                      child: Text(
+                        'Imagen temporalmente no disponible.',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
 
 class Demo25MultilingualFldPanel extends StatefulWidget {
   const Demo25MultilingualFldPanel({super.key, required this.record});
@@ -1582,7 +1634,7 @@ class CategoriesSection extends StatelessWidget {
                             title: Text(
                               'Sin palabras '
                               'asignadas en '
-                              'REAL-25.',
+                              'REAL508.',
                             ),
                           ),
                         ]
@@ -1947,7 +1999,7 @@ class _ConversationsSectionState extends State<ConversationsSection> {
                 Chip(
                   label: Text(
                     languageCode == 'es'
-                        ? 'Español disponible en REAL-25'
+                        ? 'Español disponible en REAL508'
                         : 'Contenido: $availability',
                   ),
                 ),
