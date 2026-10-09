@@ -9,6 +9,7 @@ from .database import OperationalRepository
 from .models import OperationalRequest
 from .service import OperationalPlatformService
 from .settings import OperationalSettings
+from sgoda.operational_platform.real508_media import router as real508_media_router
 
 
 def create_app(
@@ -19,6 +20,7 @@ def create_app(
 ):
     try:
         from fastapi import FastAPI, HTTPException
+        from fastapi.middleware.cors import CORSMiddleware
         from pydantic import BaseModel, Field
     except ImportError as error:
         raise RuntimeError(
@@ -34,6 +36,18 @@ def create_app(
     app = FastAPI(
         title="SGODA-PUINAVE Plataforma Operativa",
         version="1.0.0",
+    )
+
+    # SGODA Flutter Web local -> FastAPI REAL508 local.
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=[
+            "http://127.0.0.1:8080",
+            "http://localhost:8080",
+        ],
+        allow_credentials=False,
+        allow_methods=["GET", "POST", "OPTIONS"],
+        allow_headers=["*"],
     )
 
     class ExecuteBody(BaseModel):
@@ -97,5 +111,8 @@ def create_app(
             "warnings": list(response.warnings),
             "no_invention": response.no_invention,
         }
+
+    # REAL508-INTEGRATION-30
+    app.include_router(real508_media_router)
 
     return app

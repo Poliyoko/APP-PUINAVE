@@ -17,6 +17,9 @@ def lexical_card(
             "en-US": entry.get("english_us", ""),
             "it": entry.get("italian", ""),
         },
+        "pronunciation": str(
+            entry.get("metadata", {}).get("escritura_puinave", "")
+        ),
         "category": entry.get("category", ""),
         "validated": bool(entry.get("validated", False)),
         "media": [

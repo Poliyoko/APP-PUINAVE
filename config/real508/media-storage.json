@@ -7,10 +7,21 @@
     "mp3_root":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\Audacity\\audacity 523 palabras\\REAL508_WAV\\MP3_INDIVIDUALES",
     "public_mp3_base_url":  null,
     "git_store_mass_media":  false,
-    "image_root":  "C:\\Users\\Lida Silva Acevedo\\Documents\\PROYECTO MTM UD 2026\\SGODA-PUINAVE\\Audacity\\audacity 523 palabras\\REAL508_IMAGES",
+    "image_root":  "G:\\Mi unidad\\SGODA-PUINAVE\\IMAGES\\REAL508",
     "public_image_base_url":  "",
     "image_naming":  "{entry_id}.webp",
     "image_format":  "webp",
     "image_expected_records":  508,
-    "image_mass_media_in_git":  false
+    "image_mass_media_in_git":  false,
+    "integration":  {
+                        "profile":  "REAL508-INTEGRATION-30",
+                        "active_dataset":  "REAL508",
+                        "lexical_records":  508,
+                        "native_audio_records":  508,
+                        "current_images":  30,
+                        "image_first_id":  "000001",
+                        "image_last_id":  "000030",
+                        "pilot25":  "FROZEN",
+                        "productivo25":  "BASELINE_ONLY"
+                    }
 }
