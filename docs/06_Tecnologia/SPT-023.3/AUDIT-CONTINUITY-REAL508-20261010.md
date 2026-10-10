@@ -47,4 +47,4 @@ Los bloqueos afectan la integración productiva y clasificación real; permiten 
 
 ## Verificación de publicación
 
-La creación de árbol Git y el endpoint de creación de archivo fueron rechazados por GitHub con HTTP 403: `Resource not accessible by integration`. Existe discrepancia entre permissions.push=true y el permiso efectivo de la integración. No se publicó ningún archivo ni se creó un commit remoto. La rama conserva `770d21eae0462cad56f90507c4924021078e8623`, comprobado nuevamente con git ls-remote. Entrega disponible localmente; publicación BLOQUEADA. No se usó force.
+Los intentos iniciales de escritura recibieron HTTP 403: Resource not accessible by integration. El reintento del 2026-10-10 fue aceptado: commit documental 9db35919c22ce0516f5a6217d37687d296c41c70, sobre el baseline remoto previamente verificado. Se adjuntan el inventario completo, el manifiesto de integridad y el log íntegro de pruebas mediante un commit posterior fast-forward. La resolución del permiso de escritura no modifica los resultados: 105 passed, 8 failed por Excel certificado ausente; no hay PASS global. No se modifican código, datos lingüísticos ni archivos históricos.
