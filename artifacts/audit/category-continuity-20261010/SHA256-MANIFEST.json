@@ -1,0 +1,10 @@
+{
+  "src/sgoda/integration/spt0233/layer2.py": "61cfa995ca8802e3bab07417727be0b2f89436b03bcfb2623257e9bf4a36d363",
+  "src/sgoda/integration/spt0233/review_api.py": "8365187a61fabc0545897456406f28a247fac012753c531947fd4f6f8c857106",
+  "src/sgoda/integration/spt0233/real508_preparation.py": "31afbacb1468af5088aabd2b2ac15cb09d1d215e6080cd2f7b593289f6de0a6e",
+  "scripts/Invoke-SPT0233-Real508Preparation.ps1": "a03f638650d581d7cdc8650154ee4c2e4ad5b1c4aa27b068c51f483839cc8ac4",
+  "tests/integration/test_spt0233_continuity_security.py": "e061167525138ca0dac85169cf080958765326e10a066714ef236d0f0e1925c7",
+  "docs/06_Tecnologia/SPT-023.3/CONTINUITY-SECURITY-REAL508-20261010.md": "0cb2fe6672cbd73d4624707a81f6e693fbc265fec38dd9acee8cf7a4a3624c1b",
+  "artifacts/audit/category-continuity-20261010/results.json": "a314042b32c1100163fad40f3942f8d7194bfc9270b1716b7c13baf9529f932b",
+  "artifacts/audit/category-continuity-20261010/tests.xml": "c191fa6d4836cb96dab5869fdc43dd03ceed95923a17f151e7a5fd07ff182784"
+}

@@ -1,0 +1,36 @@
+{
+  "component": "SPT-023.3",
+  "layer": "2",
+  "source_component": "SPT-023.2",
+  "source_batch_hash": "40f7504dc9d13398cc46f3fb3d011cd8544185e3fe505e8ac1a351b42675a12f",
+  "records_processed": 508,
+  "status_counts": {
+    "NOT_ELIGIBLE": 508
+  },
+  "automatic_category_creation": false,
+  "requires_human_validation": true,
+  "next_component": "SPT-023.3-CAPA-3",
+  "preparation_status": "BLOCKED_PENDING_VALIDATED_SPT0232",
+  "catalog_sha256": "74caf37436ee9da81f8387f152efaa3f39a3e7a58e569a185d6753acc2d1adec",
+  "linguistic_certified": false,
+  "publication_authorized": false,
+  "source_sha256_declared_not_reverified": "36b16cb0bfe7e8aeee1f8fe3f3247ea9fa9ff9cf0112da9a67436289817cbd86",
+  "source_file_sha256": "15c30057a9b45ab7f57bc43d76105a572bead1f25a7996a17757c4c17dbe39d7",
+  "source_bytes_unchanged": true,
+  "ids_preserved": true,
+  "taxonomy_projection": "enabled semantic_categories: id preserved; label_es -> name; no keywords added",
+  "baseline": "9db35919c22ce0516f5a6217d37687d296c41c70",
+  "tests": {
+    "passed": 58,
+    "failed": 0,
+    "scope": "SPT0233 historical + continuity security",
+    "global_pass": false
+  },
+  "real508_exact_commit": "e6d4bcefb24e9c65879aea36fea17b2887bc4103",
+  "real508_transport_block": "No Git HTTPS credentials/helper/SSH agent; API cannot import exact authored commit with exposed tool schema. No failed push repeated. Remote advanced with documentation only.",
+  "zip_sha256": "b61b78ffc8bcb4b3da070e559d13f38f8747681a2e1438f76c92458d6da4e8e6",
+  "python_cli_executed": true,
+  "powershell_executed": false,
+  "publication_base": "925bf2d158adf659953b5274b9725bcd468e0589",
+  "remote_reconciliation": "Additional audit docs/evidence only; no overlap with continuity changes."
+}

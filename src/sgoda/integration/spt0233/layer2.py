@@ -104,11 +104,11 @@ class Spt0233Layer2Classifier:
             or ""
         ).strip().upper()
 
-        if decision == "READY_FOR_CATEGORY":
-            return True
+        if decision:
+            return decision == "READY_FOR_CATEGORY"
 
         return (
-            bool(item.get("downstream_allowed"))
+            item.get("downstream_allowed") is True
             and str(item.get("semantic_status") or "").strip().upper() == "MATCHED"
         )
 
@@ -285,11 +285,12 @@ class Spt0233Layer2Classifier:
             records = payload
             source_batch_hash = None
 
-        results = [
-            self.classify(item)
-            for item in records
-            if isinstance(item, dict)
-        ]
+        if isinstance(records, (str, bytes, dict)) or not isinstance(records, Iterable):
+            raise ValueError("Category batch must contain records.")
+        records = list(records)
+        if any(not isinstance(item, dict) for item in records):
+            raise ValueError("Category batch cannot silently discard invalid records.")
+        results = [self.classify(item) for item in records]
 
         counts: dict[str, int] = {}
         for result in results:
