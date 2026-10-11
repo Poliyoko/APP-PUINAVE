@@ -1,0 +1,70 @@
+name: SGODA-PUINAVE Android test APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      api_base:
+        description: "HTTPS URL of an accessible REAL508 FastAPI backend (optional; app can configure server)"
+        required: false
+        type: string
+  push:
+    branches:
+      - feature/SPT-001A-rlb-schema-foundation
+    paths:
+      - '.github/workflows/sgoda-android-test-apk.yml'
+      - 'apps/sgoda_puinave_demo/**'
+
+permissions:
+  contents: read
+
+jobs:
+  android-test-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: apps/sgoda_puinave_demo
+    steps:
+      - name: Checkout official source
+        uses: actions/checkout@v4
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install Flutter stable
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Verify toolchain
+        run: flutter --version
+      - name: Resolve dependencies
+        run: flutter pub get
+      - name: Run Flutter tests
+        run: flutter test
+      - name: Build installable debug APK
+        shell: bash
+        env:
+          SGODA_API_BASE: ${{ inputs.api_base }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${SGODA_API_BASE:-}" ]]; then
+            [[ "$SGODA_API_BASE" == https://* ]] || { echo 'Only HTTPS backend URLs are accepted.'; exit 1; }
+            flutter build apk --debug --dart-define="SGODA_API_BASE=$SGODA_API_BASE"
+          else
+            flutter build apk --debug
+          fi
+          test -s build/app/outputs/flutter-apk/app-debug.apk
+          mkdir -p dist
+          cp build/app/outputs/flutter-apk/app-debug.apk dist/SGODA-PUINAVE-TEST.apk
+          (cd dist && sha256sum SGODA-PUINAVE-TEST.apk > SGODA-PUINAVE-TEST.apk.sha256)
+      - name: Upload APK and SHA256
+        uses: actions/upload-artifact@v4
+        with:
+          name: SGODA-PUINAVE-TEST
+          path: |
+            apps/sgoda_puinave_demo/dist/SGODA-PUINAVE-TEST.apk
+            apps/sgoda_puinave_demo/dist/SGODA-PUINAVE-TEST.apk.sha256
+          if-no-files-found: error
+          retention-days: 30
