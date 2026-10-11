@@ -1,4 +1,8 @@
+param(
+    [string[]]$WebOrigins = @('http://127.0.0.1:8080', 'http://localhost:8080')
+)
 $ErrorActionPreference = "Stop"
+$WebOriginsJson = ConvertTo-Json -InputObject @($WebOrigins) -Compress
 
 $Distro = "Ubuntu-24.04"
 $PythonWsl = "/opt/sgoda-real508-venv/bin/python"
@@ -80,6 +84,7 @@ $Python = @(
     "    rlb_path='REAL508_POSTGRESQL',"
     "    media_path=None,"
     "    repository=repository,"
+    "    cors_origins=$WebOriginsJson,"
     ")"
 )
 

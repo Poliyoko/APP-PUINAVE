@@ -37,21 +37,32 @@ def test_different_spelling_gloss_or_pronunciation_blocks_assignment():
         assert 'category' not in result
 
 
-def test_unapproved_records_are_not_assigned():
+def test_records_outside_real508_are_not_assigned():
     value = entry()
-    value['entry_id'] = '000002'
+    value['entry_id'] = '999999'
     assert category_metadata(value) == {}
 
 
 def test_95_assignments_reference_seven_categories_registered_by_existing_c3():
     payload = json.loads((CONFIG / 'category-assignments.json').read_text())
     records = payload['records']
-    assert len(records) == len({r['entry_id'] for r in records}) == 95
+    assert len(records) == len({r['entry_id'] for r in records}) == 508
+    assert sum(r['status'] == 'USER_APPROVED_EDUCATIONAL' for r in records) == 95
+    assert sum(r['status'] == 'DERIVED_PENDING_VALIDATION' for r in records) == 413
     registry = CategoryRegistryStore(CONFIG / 'category-registry.json').load()
     events = CategoryChangeLedger(CONFIG / 'category-ledger.jsonl')
     assert events.verify()
-    ids = {r['category_id'] for r in records}
+    ids = {r['category_id'] for r in records if r['status'] == 'USER_APPROVED_EDUCATIONAL'}
     assert ids == {e['category_id'] for e in events.read()}
     assert len(ids) == 7
     assert ids <= {r['id'] for r in registry.categories}
     assert all(r['linguistic_certified'] is False for r in records)
+
+
+def test_derived_assignment_is_visible_without_fabricating_human_approval():
+    value = {'entry_id': '000002', 'puinave': ' AYOT', 'spanish': 'Mi  perro',
+             'metadata': {'escritura_puinave': 'ayot'}, 'validated': False}
+    card = lexical_card(value, ())
+    assert card['category'] == 'animals'
+    assert card['categoryStatus'] == 'DERIVED_PENDING_VALIDATION'
+    assert card['categoryLinguisticCertified'] is False

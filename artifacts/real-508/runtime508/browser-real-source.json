@@ -1,0 +1,38 @@
+{
+  "category_counts": {
+    "social_identity": 14,
+    "animals": 66,
+    "family": 27,
+    "personal_reference": 14,
+    "actions": 78,
+    "health": 30,
+    "materials": 21,
+    "nature": 40,
+    "food": 29,
+    "communication": 45,
+    "transport": 4,
+    "colors": 26,
+    "spiritual_culture": 2,
+    "quantity_numbers": 12,
+    "agriculture": 9,
+    "time": 14,
+    "dimension_position_texture": 14,
+    "body": 38,
+    "qualities_emotions_behavior": 25
+  },
+  "assignment_states": {
+    "USER_APPROVED_EDUCATIONAL": 95,
+    "DERIVED_PENDING_VALIDATION": 413
+  },
+  "category_assignments_visible": 508,
+  "distinct_category_ids": 19,
+  "dataset": "REAL508",
+  "source_sha256": "d56a2239ab455fd96fccc78b35a8c30a48bc836a95b0495db6d5f0738c9d3fdd",
+  "source_records": 508,
+  "browser_http_lexical_records": 508,
+  "all_http_200": true,
+  "javascript_errors": [],
+  "repository_mode": "in-memory read-only adapter of actual uploaded Excel; not PostgreSQL production",
+  "media_tested": false,
+  "physical_android_tested": false
+}

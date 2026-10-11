@@ -10,6 +10,8 @@ from .models import OperationalRequest
 from .service import OperationalPlatformService
 from .settings import OperationalSettings
 from sgoda.operational_platform.real508_media import router as real508_media_router
+from .category_assignments import CONFIG
+import json
 
 
 def create_app(
@@ -17,6 +19,7 @@ def create_app(
     rlb_path: str | Path,
     media_path: str | Path | None = None,
     repository: OperationalRepository | None = None,
+    cors_origins: list[str] | None = None,
 ):
     try:
         from fastapi import FastAPI, HTTPException
@@ -41,7 +44,7 @@ def create_app(
     # SGODA Flutter Web local -> FastAPI REAL508 local.
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=[
+        allow_origins=cors_origins if cors_origins is not None else [
             "http://127.0.0.1:8080",
             "http://localhost:8080",
         ],
@@ -90,6 +93,22 @@ def create_app(
             "sources": list(response.sources),
             "no_invention": response.no_invention,
         }
+
+    @app.get("/dataset/status")
+    def real508_status() -> dict:
+        expected = {f"{number:06d}" for number in range(1, 509)}
+        actual = {str(item["entry_id"]) for item in service.repository.all_entries()}
+        return {
+            "dataset": "REAL508", "expected": 508,
+            "record_count": len(actual), "ready": actual == expected,
+            "missing_ids": sorted(expected - actual),
+            "unexpected_ids": sorted(actual - expected),
+            "pilot_fallback": False,
+        }
+
+    @app.get("/categories/taxonomy")
+    def real508_taxonomy() -> dict:
+        return json.loads((CONFIG / "taxonomy.json").read_text(encoding="utf-8"))
 
     @app.post("/execute")
     def execute(body: ExecuteBody) -> dict:

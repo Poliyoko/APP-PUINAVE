@@ -22,7 +22,8 @@ def approved_assignments():
     if len(records) != len(payload['records']):
         raise ValueError('Duplicate category assignment ID')
     for item in records.values():
-        if item['category_id'] not in catalog or item['status'] != 'USER_APPROVED_EDUCATIONAL':
+        if item['category_id'] not in catalog or item['status'] not in {
+            'USER_APPROVED_EDUCATIONAL', 'DERIVED_PENDING_VALIDATION'}:
             raise ValueError('Invalid approved category assignment')
     return records, catalog
 

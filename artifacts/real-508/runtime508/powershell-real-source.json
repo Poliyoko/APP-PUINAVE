@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-10-11T04:20:12.1436227Z",
+  "dataset": "REAL508",
+  "expected_records": 508,
+  "lexical_requests": 508,
+  "category_assignments_checked": 508,
+  "user_approved_assignments": 95,
+  "audio_http_checked": false,
+  "audio_http_passed": 0,
+  "failures": [],
+  "pilot_fallback": false,
+  "passed": true,
+  "scope": "API REAL508 y 508 asignaciones; audio opcional. No certifica imágenes ni ejecución en teléfono.",
+  "repository_mode": "in-memory read-only adapter of actual uploaded Excel; not PostgreSQL production",
+  "physical_android_tested": false
+}

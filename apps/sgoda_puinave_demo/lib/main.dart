@@ -1,4 +1,5 @@
-import 'dart:convert';
+import 'real508_client.dart';
+export 'real508_client.dart';
 
 import 'audio_bridge.dart';
 import 'external_link.dart';
@@ -7,16 +8,17 @@ import 'demo25_external_resource_links.g.dart';
 import 'demo25_runtime_config.g.dart' hide demo25NativeLanguageName;
 
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 void main() {
   runApp(const SgodaPuinaveApp());
 }
 
-const apiBase = String.fromEnvironment(
+const configuredApiBase = String.fromEnvironment(
   'SGODA_API_BASE',
   defaultValue: 'http://127.0.0.1:8000',
 );
+String apiBase = configuredApiBase;
 
 class SgodaPuinaveApp extends StatelessWidget {
   const SgodaPuinaveApp({super.key});
@@ -30,6 +32,7 @@ class SgodaPuinaveApp extends StatelessWidget {
       title: demo25WebPageTitle,
       theme: ThemeData(
         useMaterial3: true,
+        fontFamily: 'PuinaveRoboto',
         colorScheme: ColorScheme.fromSeed(
           seedColor: seed,
           brightness: Brightness.light,
@@ -39,163 +42,6 @@ class SgodaPuinaveApp extends StatelessWidget {
       ),
       home: const SgodaHomePage(),
     );
-  }
-}
-
-class PilotRecord {
-  const PilotRecord({
-    required this.lexicalId,
-    required this.puinave,
-    required this.pronunciation,
-    required this.spanish,
-    required this.audioAvailable,
-    required this.audioUrl,
-  });
-
-  final String lexicalId;
-  final String puinave;
-  final String pronunciation;
-  final String spanish;
-  final bool audioAvailable;
-  final String? audioUrl;
-
-  factory PilotRecord.fromJson(Map<String, dynamic> json) {
-    return PilotRecord(
-      lexicalId: (json['lexical_id'] ?? '').toString(),
-      puinave: (json['puinave'] ?? '').toString(),
-      pronunciation: (json['pronunciation'] ?? '').toString(),
-      spanish: (json['spanish'] ?? '').toString(),
-      audioAvailable: json['audio_available'] == true,
-      audioUrl: json['audio_url']?.toString(),
-    );
-  }
-}
-
-class PilotPayload {
-  const PilotPayload({
-    required this.records,
-    required this.ready,
-    required this.audioComplete,
-  });
-
-  final List<PilotRecord> records;
-  final bool ready;
-  final int audioComplete;
-
-  factory PilotPayload.fromJson(Map<String, dynamic> json) {
-    final rawRecords = json['records'] as List<dynamic>? ?? const <dynamic>[];
-    final summary =
-        json['summary'] as Map<String, dynamic>? ?? const <String, dynamic>{};
-
-    return PilotPayload(
-      records: rawRecords
-          .map((item) => PilotRecord.fromJson(item as Map<String, dynamic>))
-          .toList(),
-      ready: summary['ready'] == true,
-      audioComplete: (summary['audio_complete'] as num?)?.toInt() ?? 0,
-    );
-  }
-}
-
-class Real508RecordAdapter {
-  static PilotRecord fromApiResponse(Map<String, dynamic> response) {
-    final data = response['data'];
-
-    if (data is! Map<String, dynamic>) {
-      throw const FormatException('REAL-508: respuesta sin data válida.');
-    }
-
-    final entryId = (data['entryId'] ?? '').toString();
-
-    final languagesRaw = data['languages'];
-    final languages = languagesRaw is Map<String, dynamic>
-        ? languagesRaw
-        : const <String, dynamic>{};
-
-    final puinave = (languages['pu'] ?? '').toString();
-    final spanish = (languages['es'] ?? '').toString();
-
-    final mediaRaw = data['media'];
-    final media = mediaRaw is List<dynamic> ? mediaRaw : const <dynamic>[];
-
-    String audioUrl = '';
-
-    for (final item in media) {
-      if (item is! Map<String, dynamic>) {
-        continue;
-      }
-
-      final type = (item['type'] ?? '').toString();
-      final uri = (item['uri'] ?? '').toString();
-      final validated = item['validated'] == true;
-      final autoplay = item['autoplay'] == true;
-
-      if (type == 'audio' && validated && !autoplay && uri.isNotEmpty) {
-        audioUrl = uri;
-        break;
-      }
-    }
-
-    if (entryId.isEmpty) {
-      throw const FormatException('REAL-508: entryId vacío.');
-    }
-
-    if (puinave.isEmpty) {
-      throw const FormatException('REAL-508: texto Puinave vacío.');
-    }
-
-    return PilotRecord(
-      lexicalId: entryId,
-      puinave: puinave,
-      pronunciation: (data['pronunciation'] ?? '').toString(),
-      spanish: spanish,
-      audioAvailable: audioUrl.isNotEmpty,
-      audioUrl: audioUrl,
-    );
-  }
-}
-
-class PilotApi {
-  static const int real508Total = 508;
-
-  Stream<PilotPayload> load() async* {
-    final records = <PilotRecord>[];
-
-    for (var start = 1; start <= real508Total; start += 25) {
-      final end = (start + 24) > real508Total ? real508Total : start + 24;
-
-      final responses = await Future.wait(<Future<http.Response>>[
-        for (var id = start; id <= end; id++)
-          http.get(
-            Uri.parse('$apiBase/lexical/${id.toString().padLeft(6, '0')}'),
-          ),
-      ]);
-
-      for (final response in responses) {
-        if (response.statusCode != 200) {
-          throw Exception('SGODA REAL-508 API HTTP ${response.statusCode}');
-        }
-
-        final decoded =
-            jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>;
-
-        records.add(Real508RecordAdapter.fromApiResponse(decoded));
-      }
-
-      final audioComplete = records
-          .where((record) => record.audioAvailable)
-          .length;
-
-      yield PilotPayload(
-        records: List<PilotRecord>.unmodifiable(records),
-        ready: records.length == real508Total,
-        audioComplete: audioComplete,
-      );
-    }
-
-    if (records.length != real508Total) {
-      throw StateError('REAL-508 incompleto: ${records.length}/$real508Total');
-    }
   }
 }
 
@@ -216,11 +62,11 @@ class SgodaHomePage extends StatefulWidget {
 }
 
 class _SgodaHomePageState extends State<SgodaHomePage> {
-  final api = PilotApi();
+  late Real508Api api;
   final player = DemoAudioPlayer();
   final searchController = TextEditingController();
 
-  late Stream<PilotPayload> payload;
+  late Stream<Real508Payload> payload;
   SgodaSection section = SgodaSection.inicio;
   String query = '';
   String? playingId;
@@ -228,11 +74,76 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
   @override
   void initState() {
     super.initState();
-    payload = api.load();
+    api = Real508Api(baseUrl: apiBase);
+    if (!kIsWeb && isLoopbackServer(apiBase)) {
+      payload = Stream<Real508Payload>.error(
+        StateError(
+          'Configure la URL del servidor REAL508 accesible desde el móvil.',
+        ),
+      );
+      WidgetsBinding.instance.addPostFrameCallback((_) => configureServer());
+    } else {
+      payload = api.load();
+    }
+  }
+
+  Future<void> configureServer() async {
+    final controller = TextEditingController(text: apiBase);
+    String? error;
+    final selected = await showDialog<String>(
+      context: context,
+      builder: (context) => StatefulBuilder(
+        builder: (context, update) {
+          return AlertDialog(
+            title: const Text('Servidor Puinave'),
+            content: TextField(
+              controller: controller,
+              keyboardType: TextInputType.url,
+              decoration: InputDecoration(
+                labelText: 'URL del backend',
+                errorText: error,
+              ),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text('Cancelar'),
+              ),
+              FilledButton(
+                onPressed: () {
+                  try {
+                    final url = normalizeServerUrl(
+                      controller.text,
+                      allowLoopback: kIsWeb,
+                    );
+                    Navigator.pop(context, url);
+                  } on ArgumentError catch (exception) {
+                    update(() => error = exception.message.toString());
+                  }
+                },
+                child: const Text('Conectar'),
+              ),
+            ],
+          );
+        },
+      ),
+    );
+    controller.dispose();
+    if (selected == null || !mounted) return;
+    await player.stop();
+    if (!mounted) return;
+    api.dispose();
+    setState(() {
+      apiBase = selected;
+      api = Real508Api(baseUrl: apiBase);
+      playingId = null;
+      payload = api.load();
+    });
   }
 
   @override
   void dispose() {
+    api.dispose();
     searchController.dispose();
     player.dispose();
     super.dispose();
@@ -244,7 +155,7 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
     });
   }
 
-  Future<void> play(PilotRecord record) async {
+  Future<void> play(Real508Record record) async {
     if (!record.audioAvailable || record.audioUrl == null) {
       return;
     }
@@ -267,7 +178,7 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
     }
   }
 
-  void openRecord(PilotPayload data, PilotRecord record) {
+  void openRecord(Real508Payload data, Real508Record record) {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => LexicalDetailPage(
@@ -310,6 +221,11 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
             ),
             actions: [
               IconButton(
+                onPressed: configureServer,
+                tooltip: 'Configurar servidor',
+                icon: const Icon(Icons.dns_outlined),
+              ),
+              IconButton(
                 onPressed: reload,
                 tooltip: 'Actualizar datos',
                 icon: const Icon(Icons.refresh),
@@ -341,7 +257,7 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
                   ),
                 ),
               Expanded(
-                child: StreamBuilder<PilotPayload>(
+                child: StreamBuilder<Real508Payload>(
                   stream: payload,
                   builder: (context, snapshot) {
                     if (!snapshot.hasData && !snapshot.hasError) {
@@ -501,7 +417,7 @@ class HomeSection extends StatelessWidget {
     required this.onDictionary,
   });
 
-  final PilotPayload data;
+  final Real508Payload data;
   final VoidCallback onDictionary;
 
   @override
@@ -592,7 +508,7 @@ class HomeSection extends StatelessWidget {
 class StatusDashboard extends StatelessWidget {
   const StatusDashboard({super.key, required this.data});
 
-  final PilotPayload data;
+  final Real508Payload data;
 
   @override
   Widget build(BuildContext context) {
@@ -743,14 +659,14 @@ class DictionarySection extends StatefulWidget {
     required this.onOpen,
   });
 
-  final PilotPayload data;
+  final Real508Payload data;
   final String query;
   final TextEditingController searchController;
   final String? playingId;
   final ValueChanged<String> onSearch;
-  final Future<void> Function(PilotRecord) onPlay;
+  final Future<void> Function(Real508Record) onPlay;
   final Future<void> Function() onStop;
-  final ValueChanged<PilotRecord> onOpen;
+  final ValueChanged<Real508Record> onOpen;
 
   @override
   State<DictionarySection> createState() => _DictionarySectionState();
@@ -759,13 +675,12 @@ class DictionarySection extends StatefulWidget {
 class _DictionarySectionState extends State<DictionarySection> {
   String selectedCategory = '';
 
-  String categoryFor(PilotRecord record) {
-    return (demo25SemanticCategories[record.lexicalId]?['semantic'] ?? '')
-        .trim();
+  String categoryFor(Real508Record record) {
+    return record.semanticCategory.isEmpty ? 'other' : record.semanticCategory;
   }
 
   List<Map<String, Object>> get configuredCategories {
-    return demo25SemanticCategoryCatalog
+    return widget.data.categoryCatalog
         .where((item) => item['enabled'] == true)
         .toList()
       ..sort((a, b) {
@@ -926,7 +841,12 @@ class _DictionarySectionState extends State<DictionarySection> {
                               if (semantic.isNotEmpty) ...[
                                 const SizedBox(height: 12),
                                 Chip(
-                                  label: Text(demo25CategoryLabel(semantic)),
+                                  label: Text(
+                                    real508CategoryLabel(
+                                      semantic,
+                                      widget.data.categoryCatalog,
+                                    ),
+                                  ),
                                 ),
                               ],
                               const SizedBox(height: 8),
@@ -985,7 +905,7 @@ class WordCard extends StatelessWidget {
     required this.onOpen,
   });
 
-  final PilotRecord record;
+  final Real508Record record;
   final bool isPlaying;
   final VoidCallback onPlay;
   final VoidCallback onStop;
@@ -1065,7 +985,7 @@ class LexicalDetailPage extends StatefulWidget {
     required this.player,
   });
 
-  final List<PilotRecord> records;
+  final List<Real508Record> records;
   final int initialIndex;
   final DemoAudioPlayer player;
 
@@ -1077,7 +997,7 @@ class _LexicalDetailPageState extends State<LexicalDetailPage> {
   late int index;
   bool playing = false;
 
-  PilotRecord get record => widget.records[index];
+  Real508Record get record => widget.records[index];
 
   @override
   void initState() {
@@ -1160,7 +1080,7 @@ class _LexicalDetailPageState extends State<LexicalDetailPage> {
                   ),
                   Real508ImagePanel(record: record),
                   Demo25MultilingualFldPanel(record: record),
-                  Demo25CategoryDetailPanel(record: record),
+                  Real508CategoryDetailPanel(record: record),
                 ],
               ),
               const SizedBox(height: 24),
@@ -1260,7 +1180,7 @@ class DetailPanel extends StatelessWidget {
 class Real508ImagePanel extends StatelessWidget {
   const Real508ImagePanel({super.key, required this.record});
 
-  final PilotRecord record;
+  final Real508Record record;
 
   @override
   Widget build(BuildContext context) {
@@ -1320,7 +1240,7 @@ class Real508ImagePanel extends StatelessWidget {
 class Demo25MultilingualFldPanel extends StatefulWidget {
   const Demo25MultilingualFldPanel({super.key, required this.record});
 
-  final PilotRecord record;
+  final Real508Record record;
 
   @override
   State<Demo25MultilingualFldPanel> createState() =>
@@ -1463,22 +1383,16 @@ class _Demo25MultilingualFldPanelState
   }
 }
 
-class Demo25CategoryDetailPanel extends StatelessWidget {
-  const Demo25CategoryDetailPanel({super.key, required this.record});
+class Real508CategoryDetailPanel extends StatelessWidget {
+  const Real508CategoryDetailPanel({super.key, required this.record});
 
-  final PilotRecord record;
+  final Real508Record record;
 
   @override
   Widget build(BuildContext context) {
-    final category = demo25SemanticCategories[record.lexicalId];
-
-    final semantic = (category?['semantic'] ?? '').trim();
-
-    final semanticStatus = (category?['semanticStatus'] ?? '').trim();
-
-    final grammatical = (category?['grammatical'] ?? '').trim();
-
-    final grammaticalStatus = (category?['grammaticalStatus'] ?? '').trim();
+    final semanticStatus = record.semanticCategoryStatus;
+    const grammatical = '';
+    const grammaticalStatus = 'PENDING_LINGUISTIC_VALIDATION';
 
     return SizedBox(
       width: 420,
@@ -1505,11 +1419,19 @@ class Demo25CategoryDetailPanel extends StatelessWidget {
               ),
               const SizedBox(height: 4),
               Text(
-                demo25CategoryLabel(semantic),
+                record.semanticCategoryLabel.isEmpty
+                    ? 'Pendiente de categoría'
+                    : record.semanticCategoryLabel,
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               const SizedBox(height: 4),
-              Text(demo25PublicStatus(semanticStatus)),
+              Text(
+                semanticStatus == 'USER_APPROVED_EDUCATIONAL'
+                    ? 'Clasificación educativa aprobada por el usuario'
+                    : semanticStatus == 'SOURCE_MISMATCH'
+                    ? 'Pendiente: versión léxica diferente'
+                    : demo25PublicStatus(semanticStatus),
+              ),
               const SizedBox(height: 18),
               Text(
                 'Categoría gramatical',
@@ -1544,34 +1466,34 @@ class CategoriesSection extends StatelessWidget {
     required this.onOpen,
   });
 
-  final PilotPayload data;
-  final ValueChanged<PilotRecord> onOpen;
+  final Real508Payload data;
+  final ValueChanged<Real508Record> onOpen;
 
-  String categoryFor(PilotRecord record) {
-    return (demo25SemanticCategories[record.lexicalId]?['semantic'] ?? '')
-        .trim();
+  String categoryFor(Real508Record record) {
+    return record.semanticCategory.isEmpty ? 'other' : record.semanticCategory;
   }
 
   @override
   Widget build(BuildContext context) {
-    final grouped = <String, List<PilotRecord>>{};
+    final grouped = <String, List<Real508Record>>{};
 
     for (final record in data.records) {
       final semantic = categoryFor(record);
 
-      if (semantic.isEmpty || !demo25SemanticCategoryEnabled(semantic)) {
+      if (semantic.isEmpty ||
+          !data.categoryCatalog.any(
+            (item) => item['id'] == semantic && item['enabled'] == true,
+          )) {
         continue;
       }
 
-      grouped.putIfAbsent(semantic, () => <PilotRecord>[]);
+      grouped.putIfAbsent(semantic, () => <Real508Record>[]);
 
       grouped[semantic]!.add(record);
     }
 
     final catalog =
-        demo25SemanticCategoryCatalog
-            .where((item) => item['enabled'] == true)
-            .toList()
+        data.categoryCatalog.where((item) => item['enabled'] == true).toList()
           ..sort((a, b) {
             final orderA = a['order'] as int? ?? 999999;
 
@@ -1608,7 +1530,7 @@ class CategoriesSection extends StatelessWidget {
 
             final label = item['label'] as String? ?? code;
 
-            final records = grouped[code] ?? <PilotRecord>[];
+            final records = grouped[code] ?? <Real508Record>[];
 
             return SizedBox(
               width: 420,

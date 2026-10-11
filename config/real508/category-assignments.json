@@ -13,6 +13,20 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000002",
+      "category_id": "animals",
+      "source_row_sha256": "fe9726471243755e116ffc96e49e581dad3115504d3c7f731da9d523c843a202",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000003",
+      "category_id": "actions",
+      "source_row_sha256": "4e9b8b98bcc8892bbcd8a9d32259af15a97b8685c73fcb48413524a6bc6470f1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000004",
       "category_id": "social_identity",
       "source_row_sha256": "41d05b4bb9f705e042127219d70fd9c347a067615b27efb2a2a621c1761be952",
@@ -20,10 +34,304 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000005",
+      "category_id": "health",
+      "source_row_sha256": "508e252cd68a5c4f0be6658f0e4fa483a73e1f5343e6c84c0cc1a1e45e22533e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000006",
+      "category_id": "family",
+      "source_row_sha256": "a6e3347edf870c92fc9711ea63122ce12120457a700f8de8fb69c15e41cc3fde",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000007",
+      "category_id": "materials",
+      "source_row_sha256": "2f453f5b17666a3bc17355bcd1e2c21d4d6025b59035e342c4e0e8dbf35622be",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000008",
+      "category_id": "materials",
+      "source_row_sha256": "cac569ae51ce229957a8cf694eefb1bd43ec0b2232782d68bfae29845fe80923",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000009",
+      "category_id": "animals",
+      "source_row_sha256": "09b5fb786eeba1cb3d6a22dc027b0c7d480abd66f995f3e6f204cbf21686428e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000010",
+      "category_id": "food",
+      "source_row_sha256": "8a5b419750a6a5a1583abbf5bbebe100621382729e2ad56bae5babdce2cd3fec",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000011",
+      "category_id": "nature",
+      "source_row_sha256": "5ebeeb23bcd664346a3b9d91316a34ae4251e80477e24a06a717996a0fe6c971",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000012",
+      "category_id": "actions",
+      "source_row_sha256": "29387f0a73418b5e52808c47085d78a66134f8bb9fe475f866a73e8767cf9b10",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000013",
+      "category_id": "actions",
+      "source_row_sha256": "dc269340d388c11e1f18e3301e3d4391ce52f1dd1eb4f3ac1fff51e61bdb1d7c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000014",
+      "category_id": "animals",
+      "source_row_sha256": "3e175b107662824d40c00b8b3f3b9974519e44b5df4b767873664accb42be491",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000015",
+      "category_id": "animals",
+      "source_row_sha256": "c81409d13e4762f4546521ac292aadfbce9c30693c562e8fb0f88aadc175a06a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000016",
+      "category_id": "nature",
+      "source_row_sha256": "d50f7185762ba140b723f7a7eafbb98bbd407f8a8462959646bbec81efcc0694",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000017",
+      "category_id": "communication",
+      "source_row_sha256": "885679711b0b0c7e8020e06e7f50c78104820ef1be82110eb44af67b26f1403e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000018",
+      "category_id": "communication",
+      "source_row_sha256": "c845ace090438b0fbd12189a03f9f971c1cc7a76bf42aff4d957fb3de3ccad15",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000019",
+      "category_id": "animals",
+      "source_row_sha256": "e97948b54f207d1105bb1c40d139b0ddd85ff719ab12e433f1fb46761ae06474",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000020",
+      "category_id": "actions",
+      "source_row_sha256": "d2865930f2b1fb5b847c0a18c7256a6ae1565541f33843a48e65524983f5461f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000021",
+      "category_id": "actions",
+      "source_row_sha256": "0b273a781c292885bb41a0f8d03e81e4eba6f58662ae65ffa752f9b6fcd62790",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000022",
+      "category_id": "animals",
+      "source_row_sha256": "b2f71214f0bcefcd36ef4557dcb372a628992312bfda069aaeff3e5ec082bff3",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000023",
+      "category_id": "family",
+      "source_row_sha256": "c8b830259ad677dfd5b7b61872dd44909a3219104c3330fd4649dc21efc121f9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000024",
+      "category_id": "animals",
+      "source_row_sha256": "d8432f460f7c554f8e2f976315d39a9dd8dc88ec33031dc8b06fb629550dab86",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000025",
+      "category_id": "food",
+      "source_row_sha256": "64006ed9a01ed80ab94a128708cd7630b00853aeca1cb5c8b47bcae2a877ce93",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000026",
+      "category_id": "family",
+      "source_row_sha256": "94adf0ea44b5aa0c59e35859ccb7b17a55483715eaa61d9a89c2455a2ae5aa37",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000027",
+      "category_id": "family",
+      "source_row_sha256": "6c352811ddfbed9dc0becb498a6468a7521e842c5d514df680d882378861522a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000028",
+      "category_id": "food",
+      "source_row_sha256": "1478d146ffdcf245dac74d0816bdf4df8968a3f5507111b0a8836dad3f3ce1ad",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000029",
+      "category_id": "food",
+      "source_row_sha256": "f204597cc8f8720d393fb171066acd07c8a16b9180b55b117482778f6a8910ca",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000030",
+      "category_id": "actions",
+      "source_row_sha256": "e4aac8af396a992c610d9cafff816eaf21478f5994ba572fb382c4703ced329c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000031",
+      "category_id": "actions",
+      "source_row_sha256": "018f1d091c4a899acae68e0949a540d50c42c43249dcb5ed8921100b4cffad24",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000032",
+      "category_id": "actions",
+      "source_row_sha256": "8514ee8304647fc949671f7b800151b904778d828e49f4b937bb7997deba7eb1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000033",
+      "category_id": "actions",
+      "source_row_sha256": "243c7b53bc9384bd106404bdd023acf3c342e5ae291717e70836f70313401981",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000034",
+      "category_id": "materials",
+      "source_row_sha256": "ee856240dd4210b36c8838a53bdae840342acbbdc6d44fd2736cf67a9face531",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000035",
       "category_id": "personal_reference",
       "source_row_sha256": "bdef0a77629a0fd37cf4a722fc2df92b29ce4160df6916311cebc8cfbcd3cd0b",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000036",
+      "category_id": "actions",
+      "source_row_sha256": "0a2b602b73079745249b04a7ad4bff0c5fc2171212e6ddaafd025966f646a89d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000037",
+      "category_id": "transport",
+      "source_row_sha256": "e1fe0f85ad0b4820a165b95d1439df331393e86489f588d93944d34c7a6bb62d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000038",
+      "category_id": "animals",
+      "source_row_sha256": "91b3074d6bbe3f538df07602e2dbdb459804607a55f83d88fc89990ed046f715",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000039",
+      "category_id": "animals",
+      "source_row_sha256": "5ea96a50a4cc20ea4deb0f143c144e02a24b17a84a38eb4c5d3dbb236d001c1d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000040",
+      "category_id": "communication",
+      "source_row_sha256": "0219ea9c4821a3c42e94b7ab43aca718bd9a5b724f1e0e91e1ed8405c4f29ab6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000041",
+      "category_id": "communication",
+      "source_row_sha256": "dd09ae35b1e809a6e927201c5da0b919b8b7ef9b8f4165a9e44dccc931b463d8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000042",
+      "category_id": "colors",
+      "source_row_sha256": "06310c1ee47657f9b441634222e0c47ff0dbc7f4890b3986bef53ab09ca857cd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000043",
+      "category_id": "colors",
+      "source_row_sha256": "4a4b97aded2f74ce48c52ce7a31654583b186ee17c1610e278c0d4ee156f90af",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000044",
+      "category_id": "colors",
+      "source_row_sha256": "6b04fe6036368fc4011c265ca48e799601d1938cc0dd9963add6fb69440d57e5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000045",
+      "category_id": "colors",
+      "source_row_sha256": "ef879d66ea81661f59ef7c15c580fca60ca7dd69a1c78ce13e925bd82836ba31",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000046",
+      "category_id": "colors",
+      "source_row_sha256": "90939e359ea55497b1df5a702eeb409764a042588dd0da1c5b6a5d5c7d1360fc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000047",
+      "category_id": "colors",
+      "source_row_sha256": "df2d252e7c4f92f8e86af7f7357c5fee33f0d7122cf0fa9e3408deb73d40dfc6",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -41,6 +349,146 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000050",
+      "category_id": "food",
+      "source_row_sha256": "cfc829246d1763aa8adad0029e113ad7b2f5625f890bef3d25a73f7ee089a7c3",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000051",
+      "category_id": "food",
+      "source_row_sha256": "097c4bfdec286450da46d26951f6a8a7dee52f424acd4186311e5e239c9d343a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000052",
+      "category_id": "food",
+      "source_row_sha256": "7d97b6f0e24f1569dd3faf2bb198609af185cf9fac008a0ddfc06690136f11ab",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000053",
+      "category_id": "food",
+      "source_row_sha256": "ba5f395bbec92dd3aa070728bfff416e478e54021705010a04f3eef4d7ac1804",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000054",
+      "category_id": "food",
+      "source_row_sha256": "a624f0e89dcbc2378157e602336ccb7ea21cc9480efff99094d3c0cf5dfd2284",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000055",
+      "category_id": "animals",
+      "source_row_sha256": "c0bda4b3cf89f91a67816c12495b0176f987ea8a6e109f9305f88ce1b19deaef",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000056",
+      "category_id": "food",
+      "source_row_sha256": "f10fb121b4b0b6936f3d811b8e7ba798d3c139fa7c91542eaf20160c510cdb1b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000057",
+      "category_id": "food",
+      "source_row_sha256": "f2ee7783c7f735e78513aa9fe56345ce677f88b049233311ed1beb3d6b7f499a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000058",
+      "category_id": "food",
+      "source_row_sha256": "235ae24bc5d75cb31488669c5b4395b3d4e7d9f91a2c0aac4da84009976b30ed",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000059",
+      "category_id": "animals",
+      "source_row_sha256": "ec760dac10ef568189713b214876653dcf2d5eb8af284bfb26d690bfdb4fea0c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000060",
+      "category_id": "animals",
+      "source_row_sha256": "d90d4456c42d3bd28b46fc27efad664b8fcc09503657fdc985648865199d6697",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000061",
+      "category_id": "materials",
+      "source_row_sha256": "6676ad155457cccada1a59507527a8ae329b6d30a3b79124aa30cbf93c64b268",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000062",
+      "category_id": "materials",
+      "source_row_sha256": "dedb3ef02cfc229de000cf28763171b192f8a2f84bd887bbda7dbe4249900b8d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000063",
+      "category_id": "health",
+      "source_row_sha256": "3e767d516f9e5be2bab51d07ecac3180e03583691bf02fe706ba0cf857c222f6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000064",
+      "category_id": "materials",
+      "source_row_sha256": "3be0f1e6a65976faf9484c64b391e9a6ba759953066dfc173abdc16d7c1c623f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000065",
+      "category_id": "animals",
+      "source_row_sha256": "35d0539ffb0bc1f4f8ebadb4d2ea2dbcfdea0e3f73c0cc34a7f7b56b6032668b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000066",
+      "category_id": "communication",
+      "source_row_sha256": "5d3a1b85ce1237c6df118a36016a16cb422752c4fd0fb0d5332b750414718306",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000067",
+      "category_id": "animals",
+      "source_row_sha256": "6af126f1a136a74c40fab7644441a008e9bd5f3cdff63037b31c4c0c6be021a9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000068",
+      "category_id": "food",
+      "source_row_sha256": "f9d0457d5dd6845048eaad18d902c0a1703de97e3a406ab0aaaee00aacee930a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000069",
+      "category_id": "communication",
+      "source_row_sha256": "4c16e7b793cb4f015a3212350fbe62f503e071bbf8c37a8a3ae806a596fb670f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000070",
       "category_id": "quantity_numbers",
       "source_row_sha256": "f6128619c5159c57258c22a7cfae91568787dfb332f4a14b000338faa19c7c44",
@@ -52,6 +500,55 @@
       "category_id": "quantity_numbers",
       "source_row_sha256": "dd9cc5ffcd3289998a27c6305100b88b215b1772c318a83e71796c1fb3c29095",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000072",
+      "category_id": "communication",
+      "source_row_sha256": "b7bb1c129810bf4cb7105f9ddf2f7b3e4fc4ecb47b36daa1ec4a8f2d883ed0a2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000073",
+      "category_id": "agriculture",
+      "source_row_sha256": "3ba46adb337a8943f58900c9129219408930204658d1e49cef97511c77cec4a5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000074",
+      "category_id": "actions",
+      "source_row_sha256": "5195badd77eef45a7b3d581fdf033a44e11fec0c6ad9344997e2d51d211b2492",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000075",
+      "category_id": "health",
+      "source_row_sha256": "7a5f191a58b4f41d45b348c0eb0770739d623521430678db8f2324d503bcc9de",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000076",
+      "category_id": "health",
+      "source_row_sha256": "d4cf56a6928769572f1fee5fdb8ddb9289d2be2de7dceb266b87cd63cb09fe8e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000077",
+      "category_id": "actions",
+      "source_row_sha256": "dd36215ab627d28753d357fef930755dfc84b40eab22b08067f1d817c1e112fb",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000078",
+      "category_id": "health",
+      "source_row_sha256": "b1fef912c1044cf6d9b19e95842e90a4b7358f281efcd5e8ac766f1f99eb9b8e",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -69,10 +566,38 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000081",
+      "category_id": "actions",
+      "source_row_sha256": "eea04bb0be19b41b4b04a782a8391eac07dd03d49eba05a4d4d72f913a5b8ba6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000082",
+      "category_id": "actions",
+      "source_row_sha256": "667d05e35f234407ed8560e24a13e277ede6626ec66b9617bde979aea4d0e185",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000083",
       "category_id": "time",
       "source_row_sha256": "8769befaa40460843f074eda491ab518e5d2692ca006870f58a00cbc06d6b1bc",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000084",
+      "category_id": "actions",
+      "source_row_sha256": "261d89c8a0a07618e2ebc1b4906893458a7aeccc2b21f9a2b3779d2590e9caff",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000085",
+      "category_id": "actions",
+      "source_row_sha256": "5ed65251871c97513f7d63687ebceb1bc6c7cfebc015fd80ec242962ad49fa18",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -90,10 +615,87 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000088",
+      "category_id": "materials",
+      "source_row_sha256": "c0312679b4ceeca349f36904848c3be410a8b170dfb9443d73385704b99bff51",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000089",
+      "category_id": "health",
+      "source_row_sha256": "c0409b486442b0e0b086a0077433af42d4496392fdfcacc4579fcfd5d49a77e9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000090",
+      "category_id": "health",
+      "source_row_sha256": "96f59b71ed6694b339b8bc4c3e0735ae2b9b1304d6dabc5738818bf5c63e9523",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000091",
+      "category_id": "actions",
+      "source_row_sha256": "7a40168530ece5a6eb5ba97d8cc86361b8d25277b5b7f06612348c4bec629915",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000092",
+      "category_id": "actions",
+      "source_row_sha256": "f366d5157617af14c3f55b13d9ae97a4ee1150c7c794ed3de8bd8a9a8d92e5e6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000093",
+      "category_id": "actions",
+      "source_row_sha256": "d8379478ea158741cd8ac5f6ce3a3cef39108e35ad07075c703e531e9e792d99",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000094",
+      "category_id": "actions",
+      "source_row_sha256": "283ea3f17565862030c810c86a688f5e6419268b378d08c727e2c8e53b077366",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000095",
+      "category_id": "actions",
+      "source_row_sha256": "7e2828fdcd27737d4cdd5a272f777a0f1d1fb98b83b92eb6f811ea277a119bf6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000096",
+      "category_id": "animals",
+      "source_row_sha256": "22418006144951da9816ac126b9f14939b308cfff79c2f6a42795f619b1fad48",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000097",
       "category_id": "personal_reference",
       "source_row_sha256": "d1421130030e5a1c2eaadd2da70f0a790924e6c26cd5ef4c6b5d0f67d92abe27",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000098",
+      "category_id": "animals",
+      "source_row_sha256": "5cb58bcb403a8624bb77ce6f4796970bd8086e165f84097095c6891df41724db",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000099",
+      "category_id": "actions",
+      "source_row_sha256": "35a5456cc4b6f2b85c6bfe85e73d878a5a389ca3ae7b187a2f0eb89dd4604a97",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -104,10 +706,122 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000101",
+      "category_id": "animals",
+      "source_row_sha256": "95747eb0477663046a7272eb45c6fbaacd655ea58ae4a2309253ee0177a7400c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000102",
+      "category_id": "nature",
+      "source_row_sha256": "648886656a72c54305d3eefc5d4e06af25a10623d84cf9b9e022086905b01486",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000103",
+      "category_id": "health",
+      "source_row_sha256": "6d8671832544ebc9bdf7e128c74c278cbe84ea12a0f83af8d1b93cce67ac29b0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000104",
+      "category_id": "body",
+      "source_row_sha256": "b3df058cb6220347b64e781da8c650d158b50e3d49be133a99fd65f6062b96b9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000105",
+      "category_id": "actions",
+      "source_row_sha256": "594516ed0916a1d961e3221f5d1cd487bf52f48c7f5d15b71b11c49828aee98d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000106",
+      "category_id": "actions",
+      "source_row_sha256": "0d85de1b43b3cb991da0bb2fac5fd8bee05c506b77dba954719b889d59a20324",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000107",
+      "category_id": "body",
+      "source_row_sha256": "8e0b2d7b714d47204ec50cf9f4aafcffaff1eb4dc1720487b8208f0eab5d1e3b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000108",
+      "category_id": "body",
+      "source_row_sha256": "e29adf46c119bdc07c828a2721b14bab5fbefb0678dbb587e56a3ca38213e00e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000109",
+      "category_id": "body",
+      "source_row_sha256": "de601d1a551d697af01cc39f9b7260a3d5f5edd40c6014e190d07d1f3f75d96a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000110",
+      "category_id": "body",
+      "source_row_sha256": "6e0f69798bc6e5e57b4f4af1c61b0fe514747a5c22d78f8d3050c559c90869f2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000111",
+      "category_id": "body",
+      "source_row_sha256": "d463cf5acaefeba900c8c44e293be9c6b1d052ff49e1ca6262822da87743b017",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000112",
+      "category_id": "nature",
+      "source_row_sha256": "034c4b7640184931b01899f872366c86ffc9c18b27b2f93411ce590c23ca5a21",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000113",
       "category_id": "personal_reference",
       "source_row_sha256": "7f07c46768655c10871fad115a2cc5cbc594f92bff75e3097b7cac70a4d45434",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000114",
+      "category_id": "actions",
+      "source_row_sha256": "f9a04594e800932221770a46d2b75de2285132be1e6a5cb229341e855f4cc3ef",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000115",
+      "category_id": "communication",
+      "source_row_sha256": "efeadcf1fc2d53b7891915e682eb7fdfded46d5a1cd7b96efac1b5edfc16f02a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000116",
+      "category_id": "health",
+      "source_row_sha256": "6a0602590d86a31c034c97ee2472f2a87bbfc6835c1fd929239ba3321a76b0d7",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000117",
+      "category_id": "actions",
+      "source_row_sha256": "4c75742d2ae6adf62045735adae8978b8143c3c2abc422ea63e491594986502c",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -118,10 +832,66 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000119",
+      "category_id": "communication",
+      "source_row_sha256": "7dd4eb6dae2f4644cfeeda38f1868c9c93dc21a33a12b6714312eb9e263507f1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000120",
       "category_id": "personal_reference",
       "source_row_sha256": "fd79d396c7768bdbd347939867a4365ae3876c41f64eeff61fff9e49fdde9c9e",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000121",
+      "category_id": "animals",
+      "source_row_sha256": "a1407707ea5ad42f13977fc722b02a0596cf8863dfb23f87378aa6a9c49c3810",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000122",
+      "category_id": "body",
+      "source_row_sha256": "4cbacf765054482c4d295b8c1b42b7dba9d2f2a9933f01fcac43eda3e1e791ae",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000123",
+      "category_id": "materials",
+      "source_row_sha256": "c01c0afdc42e4ef3e0a2cdc2e70ce00feb0d35000eec2aab726b1443111a286f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000124",
+      "category_id": "actions",
+      "source_row_sha256": "38009fb79add4764241a489d4e87cf445691ee73caf42b6c86c3ecb57bb00f46",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000125",
+      "category_id": "actions",
+      "source_row_sha256": "5cb3b2c0b33fc43351303c803c5d97002e01b8ac0399b49b4aab314cbb4a8fe3",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000126",
+      "category_id": "animals",
+      "source_row_sha256": "4779b48692c6fc48ecfd6635465a02cf93c1e57be51a8ce2e0583ec885b3254e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000127",
+      "category_id": "communication",
+      "source_row_sha256": "f4fc3f3ce68441c0f2470ded812bc3749a7de3248fa520bc92a0b0952a66041d",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -132,6 +902,34 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000129",
+      "category_id": "actions",
+      "source_row_sha256": "3abe600054e9a878b5a7b98d364b1a51b8c12ab37ba995eea22ce0afa102925c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000130",
+      "category_id": "actions",
+      "source_row_sha256": "b0ea489b41eead8e606a1a3ddb4d9171942b01a7135f630da9f6a0cdc4d8a30e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000131",
+      "category_id": "actions",
+      "source_row_sha256": "b48ba9b57abf34d1597d5d20088fa88ea4615bb0f1afb8bfe0857c50a2c1a159",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000132",
+      "category_id": "animals",
+      "source_row_sha256": "85111ca992a84da610b4b55c46ab160d027d0a8662f806f4fd56fc24301085ab",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000133",
       "category_id": "social_identity",
       "source_row_sha256": "b0ebef5b6cf35b6ffc9c4dd952bc7ea67d03bb1282191db45a79d03838754253",
@@ -139,10 +937,178 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000134",
+      "category_id": "food",
+      "source_row_sha256": "c0ac2683197886e230f7c756e0baf513cc893caca3ebe4bd8467e76751cb4e5e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000135",
+      "category_id": "animals",
+      "source_row_sha256": "6008c7398e7fe5175df19233faf05d5278c4ad8917ebe097fca130d72218787e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000136",
+      "category_id": "animals",
+      "source_row_sha256": "1493ffd204417d64fd021f7a6a3b0dab503c62bcf6caab3965123bc90ad9636c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000137",
+      "category_id": "health",
+      "source_row_sha256": "0ff6eca298a55452c395c8711e72d27f672a32f3d161b53595d98ccba881b9ca",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000138",
+      "category_id": "actions",
+      "source_row_sha256": "5aeb3a752ecd2b3c2526d95358a40786671341adb0e45afc6eb49dec024a400a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000139",
+      "category_id": "body",
+      "source_row_sha256": "efebbc160372c34f09853d5e93721072cabe7eff2311ee3c833872c118528634",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000140",
+      "category_id": "body",
+      "source_row_sha256": "7e1a7aeb982b7b5d82c4a9da7ec22bfbc7523cda7966365c8ffe2810979dad1f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000141",
+      "category_id": "animals",
+      "source_row_sha256": "1d48e812ee9fe4013274c6a23b0372312a044bc24c2a56358ee419d01b268319",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000142",
+      "category_id": "health",
+      "source_row_sha256": "14145cdcc97d1e21aecad6d10cb356007a47ff0a2812fb06cf8b0f4bc68291db",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000143",
+      "category_id": "animals",
+      "source_row_sha256": "904093e80f25b701392d543578f9e2e706c9d66379c20688abb4262a27d7e7f4",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000144",
+      "category_id": "nature",
+      "source_row_sha256": "567ebcb9fa752895bc0a27e2a9e68598161d42c2eacb89774330744ab5809a5b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000145",
+      "category_id": "animals",
+      "source_row_sha256": "5465f84a675bcf44118219c5ab1a4f6c27733894bd690a1c00095a2030adc60e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000146",
+      "category_id": "animals",
+      "source_row_sha256": "9bb6052505a48d99e888a82fd13370a6d65a5121937747463f0b5d720815c798",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000147",
+      "category_id": "animals",
+      "source_row_sha256": "96be612db5cc9c749e124ffc52a91e76eaf91daf3867533e6115ed57dcc6aedf",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000148",
+      "category_id": "body",
+      "source_row_sha256": "d608fc021ae2741b5ee6fa2d81d1864b7b97bc19898d05e2bd7c3749ce35ec8f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000149",
+      "category_id": "body",
+      "source_row_sha256": "7195b2af40f209a6697d614a5aaf9285f573104cc794d6333f0887bba859cd8e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000150",
+      "category_id": "materials",
+      "source_row_sha256": "209a2afc9c0678d573b465f576338b245a1db039affe65c02ff0e6f0a6e41a4d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000151",
+      "category_id": "body",
+      "source_row_sha256": "31df3fb4c2d9ca28a3aad3fba47ac3e9215189247c9f0ab0609f82dc83baf2a3",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000152",
+      "category_id": "body",
+      "source_row_sha256": "749ad5cf7bac5d3ce0ac6ee7d90993a79108f584e8ead2ad4a4420581429e5f5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000153",
+      "category_id": "communication",
+      "source_row_sha256": "bfec0ddd152162d9112e149564c22dc09c1d658978080f71bab51671721efc28",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000154",
+      "category_id": "communication",
+      "source_row_sha256": "a581af67ea1c2d802384245114336a53f8068234b57a91370383a8c9e93c0ec7",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000155",
+      "category_id": "colors",
+      "source_row_sha256": "f0d8aba38b42b9476824f0b28bba762b7eaf6a0e09a1d837436337212b59f1e0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000156",
+      "category_id": "colors",
+      "source_row_sha256": "115b7b8c52fc6d64ab574f8164f8eae8ecd6d21bc96a0d2da06aab4d1a445929",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000157",
       "category_id": "time",
       "source_row_sha256": "09ad121a88451e707f1823c7e2c8f975886e9c6b6bc7bcaa69062ad7fdb5b801",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000158",
+      "category_id": "communication",
+      "source_row_sha256": "c749c11bffac377dc178c1e38abf32ee18960c6b4d309988c4458438809de07a",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -188,6 +1154,13 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000165",
+      "category_id": "communication",
+      "source_row_sha256": "8ddeb05dcdc52b9e76e9b9db430220315d20866a514dc005b1723becb3699d4e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000166",
       "category_id": "personal_reference",
       "source_row_sha256": "6f50a2a8e86c66395d6902fdc20ff0a3d94aca893ac2ce7018ffa4533994ab34",
@@ -199,6 +1172,20 @@
       "category_id": "personal_reference",
       "source_row_sha256": "a40a23beffcc27c950c6d29b69404569b44d2c46dc1840ee026c7283e9e1aa0f",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000168",
+      "category_id": "actions",
+      "source_row_sha256": "eb1fc2c51facdac49c475d87a3e547eeacbd8a376882716ed26b459cd60051b0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000169",
+      "category_id": "actions",
+      "source_row_sha256": "a7783e9fe50b8656706fe77820afe1b39e464b1b376e83bc8950c98ab4221bb1",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -216,10 +1203,185 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000172",
+      "category_id": "nature",
+      "source_row_sha256": "b1a4cfaac95268807e21306aa5d9e658ed328aefbf4c02715f82c02f0da928ce",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000173",
+      "category_id": "nature",
+      "source_row_sha256": "626de5139ba5394a3fad440881e882872a37420712786dc1fe23900d7b0a15c8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000174",
+      "category_id": "animals",
+      "source_row_sha256": "ad53a27899ba0579f9a68698ac70355dc47da475a060c620fc7530d754232af8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000175",
+      "category_id": "nature",
+      "source_row_sha256": "c304a1f2d2e4bd9bc52f1f1c4971119c351251343324d3fbe8cf1b6a68b9aac0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000176",
       "category_id": "personal_reference",
       "source_row_sha256": "99a0407fb856cfc9651b47288e51d50741e94e2e8aabbb6ebfeed3837edd2e93",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000177",
+      "category_id": "animals",
+      "source_row_sha256": "30a76238f145d636c34d3e5c47694bde84d653f0fc5cbf37f835af0d54839f12",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000178",
+      "category_id": "actions",
+      "source_row_sha256": "f10c1b5989650bb9ca9011a80404cd4df037a79c6d5534c1489a6cc58e115add",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000179",
+      "category_id": "actions",
+      "source_row_sha256": "35c69578af68b2249495d4ccf078a59b06aa288c14f238c7332076e9f0e6a91a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000180",
+      "category_id": "animals",
+      "source_row_sha256": "091842e4ab32464ea0d7c0f9750a33e8e1bf778ae4b58c1e3169e74e6ed9525a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000181",
+      "category_id": "food",
+      "source_row_sha256": "0420bfb6f83c42bf9f48b485750d296db9b181e2ccd185fd657fd5069445038e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000182",
+      "category_id": "food",
+      "source_row_sha256": "da7eb33729630d88946b7765ee37b819ddd3e49b098d33684f06b9b3dedf7bd6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000183",
+      "category_id": "communication",
+      "source_row_sha256": "d768a7413a873966b1a8fd649e071d79970defad12ec0f7519fc1eb9df02be2c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000184",
+      "category_id": "communication",
+      "source_row_sha256": "6969fb593cfb7e78a73d6f9e86df5819969158fda3c3fbda47dc1c23aca65082",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000185",
+      "category_id": "materials",
+      "source_row_sha256": "736c1d772f9ade8c4bc07d4069da5a5168f86b2264100c07050b2da26cb62bdd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000186",
+      "category_id": "animals",
+      "source_row_sha256": "819724b9216d917b34563a5dccaaee32d08725debaca314132cd317b63b6e9bc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000187",
+      "category_id": "nature",
+      "source_row_sha256": "c5456396a5be4eaf19999de7343bb93984d6132c5fd55dd1839ac798f343061e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000188",
+      "category_id": "nature",
+      "source_row_sha256": "ad2a8521cb1205447dee334ef0c9e4fad6f566dd210bd60488d23ffaa303e9fa",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000189",
+      "category_id": "nature",
+      "source_row_sha256": "22e3ffd717a64dc91f86ea8d373437ff4b6c96d887369df01e2f83ebc3560fe1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000190",
+      "category_id": "nature",
+      "source_row_sha256": "36c390f35630c32fd853f6db36f16aecfcefe84229bc5052326c65d728aa1f96",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000191",
+      "category_id": "nature",
+      "source_row_sha256": "eb6d833f96527b5c14fddc32c7958b52eeb09249837861069cde39f3bc764e33",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000192",
+      "category_id": "nature",
+      "source_row_sha256": "827fe52c143d8daebfd1bf99cdcdb5029bd3596298e616aa1290b7b14fc68124",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000193",
+      "category_id": "animals",
+      "source_row_sha256": "8d07bf62e8ecb1b257cb485deba80c24975509e3c7e9f51ad2cd3eddd91355fa",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000194",
+      "category_id": "food",
+      "source_row_sha256": "4be80c998748daa6a7099fe748e562939cdce8c64b611bbfdceaf8e8c60d5e0a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000195",
+      "category_id": "health",
+      "source_row_sha256": "caab913b63b88bfc62b87acab2b83c4ad1c7250e655470c5ac1b2006a58f6d22",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000196",
+      "category_id": "animals",
+      "source_row_sha256": "709f9481590ba6d8c045dd56aab707c7725c4c88d83b8055f8d80d7fcbd0f678",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000197",
+      "category_id": "food",
+      "source_row_sha256": "dee399828bf318ca089875751cfd4e2edbbe0432ed575994fdf7550aa75e0e22",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -230,10 +1392,164 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000199",
+      "category_id": "communication",
+      "source_row_sha256": "5f6cf67212f7e1bea33c191d85304536b5cae9dd6cb9364412374ba3ecab7743",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000200",
+      "category_id": "actions",
+      "source_row_sha256": "1f34c61fc138ceacc4d4ce6e51cdcfd89c6a19aa011df1f93865e22adfc96512",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000201",
+      "category_id": "communication",
+      "source_row_sha256": "96d370f45bf4f3c494d8491df2d633b022ab4a8b5b13526f899bacedc2cfd72c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000202",
+      "category_id": "actions",
+      "source_row_sha256": "47160bd568d192c21181c2d75522093d723331fdc0370d7f0f22dd39d5eb4a22",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000203",
       "category_id": "quantity_numbers",
       "source_row_sha256": "1ef271936d8a808c15fecc831eabe85c1f64d415635b0d71ab091b107fb4c92d",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000204",
+      "category_id": "animals",
+      "source_row_sha256": "42b9f6bbe46dd4c2d6bd9e96b9849939d8b4b54dd8f289e6795708ed5c665f7b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000205",
+      "category_id": "nature",
+      "source_row_sha256": "a1f99a4dc64a0e18e69f2f27dddff2454942ea6b2637d3b4a4d8001bc0865248",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000206",
+      "category_id": "body",
+      "source_row_sha256": "d715fb0147c106f14fed0ab1ca9d245db9a1be53b1a02031e1ac12352f81498b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000207",
+      "category_id": "communication",
+      "source_row_sha256": "7f477d876c8ec7705acbafee79fb0f9d529cd5411cfecfb4a3548f68e49beea1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000208",
+      "category_id": "animals",
+      "source_row_sha256": "7512e32b95c6b1e1e62e5886f149e77875504a91427c8bd3da308f284e2bdc23",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000209",
+      "category_id": "animals",
+      "source_row_sha256": "edc528c115172816a981a8a65b4f549e642780dd3e53f27fa55a6b3dda1515c6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000210",
+      "category_id": "actions",
+      "source_row_sha256": "ac5c18e54bafde2745664cf58ab3ae562b343f2ce87f0a8c84bef91f216eedea",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000211",
+      "category_id": "materials",
+      "source_row_sha256": "15304cbd0b0b36631d3559aeb1e0f73fb5afdb3b1f0ef4175f5a66c8102452ba",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000212",
+      "category_id": "food",
+      "source_row_sha256": "f4611841047967db8af8f9a7d7b0ac624321e5d8c72a3b7b131ddf254af7adfa",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000213",
+      "category_id": "animals",
+      "source_row_sha256": "047c508728c3a68e67cf26f994f6e4ce35b3bf3e2300e11f46608d45680434fa",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000214",
+      "category_id": "body",
+      "source_row_sha256": "693dbe3c723206efb19a278c1a454c9e453f98e273c0169fd4e47b689e1fb7ec",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000215",
+      "category_id": "body",
+      "source_row_sha256": "cb20ca03ad09ea5c7522793dc144778c153718e98decf191d6237432a019aead",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000216",
+      "category_id": "nature",
+      "source_row_sha256": "80269c9cceb41f7758678217dc74cea089ea48c357498f5b2c6031084c4201db",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000217",
+      "category_id": "body",
+      "source_row_sha256": "4326bd85a0c9b843a21b58d525fb766ee675a1aee16f36566ce616429719a096",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000218",
+      "category_id": "nature",
+      "source_row_sha256": "b563e03b760ef3d560ad0118f9178b980f1c3437147e6ecf30ff0eb9cb860f8a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000219",
+      "category_id": "body",
+      "source_row_sha256": "a0da73f31a86d3bcb4bf22e909e9d47097ead814b5078819b39da794556d849a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000220",
+      "category_id": "animals",
+      "source_row_sha256": "f992d47196dea9b36874aa075f26d9ec82cd4bd4b566e53e8ac3925a1646bc0d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000221",
+      "category_id": "nature",
+      "source_row_sha256": "157b5350b37f59b894b9a2331b3d9ff4365aa9c99146c1c05222009d1afe8c20",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -265,6 +1581,195 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000226",
+      "category_id": "communication",
+      "source_row_sha256": "213f1736b8fda689c862f65fd94cf6de3322d4bcb2cf93d72372739ecfa8255a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000227",
+      "category_id": "communication",
+      "source_row_sha256": "1ee68a4389803531e5d7a6faca559234fd75db0ca3f7ee6150fe589b1dbdfce9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000228",
+      "category_id": "communication",
+      "source_row_sha256": "36d0118184207223029efcced27c1d7ba4db171e951ee9e1db4cd77b629ced80",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000229",
+      "category_id": "actions",
+      "source_row_sha256": "2dcf5887766995404f1a0edb47cc566cd57f54b091e611bd4b07f61d3f2e21b6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000230",
+      "category_id": "animals",
+      "source_row_sha256": "dd3018c17e4457688de5772fd71f192e9251629ccf13482bc6944b4a1d9daee6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000231",
+      "category_id": "food",
+      "source_row_sha256": "4977cdf4918c06632e1010c228a54e1f8ed2e2f953e8f53f8ecc05b83dbc3d68",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000232",
+      "category_id": "nature",
+      "source_row_sha256": "9eb638999c99f937d4617a74aa44af59b6fecdbc47be6503c4433e8c34a3fdae",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000233",
+      "category_id": "communication",
+      "source_row_sha256": "eee74002e5a3ea76e8caa0a62304947ad103ca4b78bc4e9fa6a8093f2eb777df",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000234",
+      "category_id": "health",
+      "source_row_sha256": "2656004087f11db4c6eb3716d179bf6610dc57891acba157efe2ecec41060b37",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000235",
+      "category_id": "animals",
+      "source_row_sha256": "0e44c71e44ddd5c380fcf44fb716f330b1e87749877f0e47c95527f7d42e4598",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000236",
+      "category_id": "nature",
+      "source_row_sha256": "bf69c0192b9983ead444c447046826e42182198e47577708d91fc2a1aab1b638",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000237",
+      "category_id": "colors",
+      "source_row_sha256": "d7799eb91c8ac46d4b528f302be3f889486ddf8397b238bc7c6af6e7160c2656",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000238",
+      "category_id": "colors",
+      "source_row_sha256": "d3cefda32dad144a66f21796166d4e13f7db6dc34f77fd9af384be5e4db6716a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000239",
+      "category_id": "nature",
+      "source_row_sha256": "b2457357172fab543cbd4e4c5519dab7d85c816e40ae1d306b033ea1ff16fe8f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000240",
+      "category_id": "materials",
+      "source_row_sha256": "b7b6d5e816b3677a07ab18dced2af402d440cefe97e21636032fe5e16bc12819",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000241",
+      "category_id": "nature",
+      "source_row_sha256": "9f6683974026022194b3309ca37ee22e783037782c46619bdeec95b67ec220bb",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000242",
+      "category_id": "materials",
+      "source_row_sha256": "3f96b01295106ec53317192d5cc90ede17a7cc96fdcf574f6523737c187e23dd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000243",
+      "category_id": "actions",
+      "source_row_sha256": "74dab407b5dfabfdbe9d39d3d75a51b1f34328375d906f8fa577bbc574812508",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000244",
+      "category_id": "actions",
+      "source_row_sha256": "368a9c0635ad96421fd1d95b7492c58359fbcb76fd7970b6f5e0ac530d802734",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000245",
+      "category_id": "communication",
+      "source_row_sha256": "eaaf72b08bea807375a72c7a775231938912e8a4b6115f716c9765f2a1103e72",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000246",
+      "category_id": "food",
+      "source_row_sha256": "6a5ba5dceb1f723e587837e9b37d5b11d94f1ef4c63fa08150a8fd89c1fe7535",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000247",
+      "category_id": "animals",
+      "source_row_sha256": "0e8cd43cb585818ea41874318197d408b7b22af96fec60ccc3177860e1b3e70a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000248",
+      "category_id": "materials",
+      "source_row_sha256": "ded5133e9506ca7724b111c4fb5ba18992b6a5e60dbde676995414cb0a3195b8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000249",
+      "category_id": "animals",
+      "source_row_sha256": "33d0e4897f828dcdc7753db1a16939b8f0e13ea8ec377a861d5dd8628f9cd82c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000250",
+      "category_id": "nature",
+      "source_row_sha256": "cfd6cd17bc6a8885344bdc1dccf0e7f7ae06d57a7bbe23b99a9e31f15ca6b10c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000251",
+      "category_id": "actions",
+      "source_row_sha256": "e51752be0e0753435082edd6138efa27ec06ad9b8666e78f288b2804e786353b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000252",
+      "category_id": "communication",
+      "source_row_sha256": "6e00675f567da86f95c96406fbbd5d180e4ee0296e8d7e4bae2cfe3219b4d177",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000253",
       "category_id": "quantity_numbers",
       "source_row_sha256": "1574240316fcedbd6f7bd2afc64fe9510a8847b5ca100ed9dd48a1ab46b4031d",
@@ -272,10 +1777,143 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000254",
+      "category_id": "animals",
+      "source_row_sha256": "8eda5b2aa62113561413b09ff29d3e26fdb5d13a188ea4fdb3ae62cc58864575",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000255",
+      "category_id": "agriculture",
+      "source_row_sha256": "6c38e33c9becbf7c48b95a180f957151640601b855b193ad3cb264956714a534",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000256",
+      "category_id": "agriculture",
+      "source_row_sha256": "be12fba37e9d00ef8a2e5d7d88731c8d3ac103d9454dfbf5d0cdf0f17dac2363",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000257",
+      "category_id": "actions",
+      "source_row_sha256": "b3ad74e216141c75eb6ae05e6a6519e0db365c543fa7e8e012cab2584287eb9d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000258",
+      "category_id": "animals",
+      "source_row_sha256": "2269b019c945c061af1311c8aac1bd3cd572295210382b804c54d5444883afd0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000259",
+      "category_id": "animals",
+      "source_row_sha256": "d08b7d301b3d3c671806d0e34c2d0d0aaddeb93519d857baad00ff9dc4e81958",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000260",
+      "category_id": "body",
+      "source_row_sha256": "d45d91ab78e3deaf3926f61020a01851b5901aa6bfcb553c866dd9f2193d3464",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000261",
+      "category_id": "body",
+      "source_row_sha256": "000eb6958cfb07ac456b00243f73416a2ee21894b069cbddd1d3c97c87e574d9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000262",
+      "category_id": "body",
+      "source_row_sha256": "fd3fdaaaab1c1013a28d8ff348075ef054f27a586c64adf59ba33dad0213d6f8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000263",
+      "category_id": "body",
+      "source_row_sha256": "3f02594e482418b6b5cc1fa23f49aa71d61bd695d5fbbb5e17ecbd8cb1d748cc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000264",
       "category_id": "quantity_numbers",
       "source_row_sha256": "b922599826eeb7a11de2fbc490c6ed5f43366321566659c36a0b1024529395a4",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000265",
+      "category_id": "materials",
+      "source_row_sha256": "c8bc6d2011c95a81f3f7ecb75ffca3abd838eb2a32ce5b92e45a6ab7fa4f79bf",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000266",
+      "category_id": "animals",
+      "source_row_sha256": "57745000722a2bc0c1b6f7666846c55862bc0051679e35eb489cb2130f8d6f46",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000267",
+      "category_id": "animals",
+      "source_row_sha256": "751a39e8c493437b4b2ab35b8edebc08c7c6b90502b55a2630e7497d1aaa02f4",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000268",
+      "category_id": "body",
+      "source_row_sha256": "a6d50a4875b6b5f15118220da8bea54e006c5bdac89ab90b77190e0a35dcced9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000269",
+      "category_id": "body",
+      "source_row_sha256": "1b8afa1134238c6333c54e04361f7714bf9ccf36b679f843a51986daa1bace25",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000270",
+      "category_id": "animals",
+      "source_row_sha256": "2fd6b841f6d0fb71623cb881f0fe210ea39eec873c99c85c52b91e9ba8b207e2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000271",
+      "category_id": "nature",
+      "source_row_sha256": "6a2f8c7345864ea76ffd03bd1b49c744f7906e4728d2c5c0b51feaee44e7c903",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000272",
+      "category_id": "animals",
+      "source_row_sha256": "ab9984f7b658b65183e1e03a5f58dc34829bf8568d4756031ea17231fb8e50d8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000273",
+      "category_id": "body",
+      "source_row_sha256": "4313658a351f5be38c8ad0af724a013a2aaf951ea6185bc515a64dfd65dfd5bc",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -293,10 +1931,24 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000276",
+      "category_id": "animals",
+      "source_row_sha256": "f7f69f7edc6b9abb97abdd869018ba066997bf6607e23b86b7ef80e2c4755053",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000277",
       "category_id": "social_identity",
       "source_row_sha256": "bf7eb8db37e849d75e1ae2f789eed12df6fe817487674989d82bfb4e0bdc1675",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000278",
+      "category_id": "family",
+      "source_row_sha256": "41fa81f357f13fc60863bb4d440bab5f6b2f4631c0d923b6e802a9ad482f684c",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -307,10 +1959,241 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000280",
+      "category_id": "animals",
+      "source_row_sha256": "bdbffc9a0cd4a7f6a15dd2f5fe1360c162aadaaee6b2a0805260c70c5a045806",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000281",
       "category_id": "social_identity",
       "source_row_sha256": "bdf9727f781bb2bd4cd18eeb005b9aaf262108774e1fb7e4d1bf6b4abbe7ff5f",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000282",
+      "category_id": "body",
+      "source_row_sha256": "fe1ca28af7ffd20ce4f00c3d7f515b5da4641401318493915aa84c8b13a36f46",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000283",
+      "category_id": "body",
+      "source_row_sha256": "1bd4cc3b735efda64716063b0f8ee539c33c51f7c1e65661cbe7c558d370ffa5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000284",
+      "category_id": "communication",
+      "source_row_sha256": "9b7a3161271126784b68953159e702ea54b04ad9b36f2695f3ca94fe9e4a90a4",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000285",
+      "category_id": "communication",
+      "source_row_sha256": "50dc2a304ba035d62a6d5ede18aeeef65e6909f615871936141c190df21ff1ef",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000286",
+      "category_id": "actions",
+      "source_row_sha256": "4a955da306e745183862ef380d1df39a73deac0010e6e8954d75d7f4b60c4cb8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000287",
+      "category_id": "actions",
+      "source_row_sha256": "3a80b8da6a4f73f8a68b2c24b671b3bd35a9b43648c1bea6f6635a91d4c8ad90",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000288",
+      "category_id": "body",
+      "source_row_sha256": "ebcc5e6e61e2d27e17bc2b993a21a8c54547496e1edc1ad48ad43174fd8bebcc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000289",
+      "category_id": "communication",
+      "source_row_sha256": "30ac383a146b70ee2395eef7ad45e2ac00e8893aca7a960267078ccc92fed1b1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000290",
+      "category_id": "animals",
+      "source_row_sha256": "617242cdd2fc7ea39d42f6a746492c9025221fd311edbe6801e52cf819f64b76",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000291",
+      "category_id": "animals",
+      "source_row_sha256": "b344b45d50ccbfbb07beded5ff9e000bea1d73d16765522810718adf8b6e5526",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000292",
+      "category_id": "body",
+      "source_row_sha256": "270f86bf5fd2185bd305a433ba838b708847ca6bb5e0adcfd0ea8f2292286dc1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000293",
+      "category_id": "body",
+      "source_row_sha256": "e36e7b8f979dc6ca8266bea76ccaac84db7fafe0aa2f4e6179d7534585695152",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000294",
+      "category_id": "body",
+      "source_row_sha256": "38d6e3eef1538b43674b6bfdb762dd6a7be946424ddb416d3b1d5f2f7ae9412a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000295",
+      "category_id": "body",
+      "source_row_sha256": "fe38d9cf02b839b15cc38cfc39572091fd47427bdb7ec5e8084dfe131fc3b4cd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000296",
+      "category_id": "food",
+      "source_row_sha256": "5ba103c6a800f1b5bd7a1070eed377fcde9e990f0945a6cd9ded170211e4dc71",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000297",
+      "category_id": "family",
+      "source_row_sha256": "b0cb8d835375478176bd31eea9f8e968a393bd6f39256ff4801ffbd2f3032fd6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000298",
+      "category_id": "family",
+      "source_row_sha256": "70d3706df907ea85a5d04d4e3d5d194e7cd30225fd36dbf69d63f388a4c5dc6f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000299",
+      "category_id": "family",
+      "source_row_sha256": "7bcf91b1ea1c3a29e0da5c5b78899ca6cb9341c4d79984e3656fc2f72736085f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000300",
+      "category_id": "family",
+      "source_row_sha256": "31548a562699819c57b62bb88b09ca089efc66f5470ca11d31c6391b68e77619",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000301",
+      "category_id": "nature",
+      "source_row_sha256": "c7b51d3ee5d47226a0f2745ad279723726991b6304ea433e011974da381bc781",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000302",
+      "category_id": "family",
+      "source_row_sha256": "52de66fc14921a8e209c055f8f5c570092b087cdea5bda757083e985230b007d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000303",
+      "category_id": "family",
+      "source_row_sha256": "a970adee7ba1fb3d6b1f5c71bdba746b9b12204500f99801db17db88be94b838",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000304",
+      "category_id": "family",
+      "source_row_sha256": "4c938b37481f747dde677c5e3f829758602b4246413ecdb32863f5ef95a591b9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000305",
+      "category_id": "family",
+      "source_row_sha256": "a9ecd21f613a3fd7b36ae45f843809d3f4a0cd82162db404852505a8bdfbffa4",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000306",
+      "category_id": "body",
+      "source_row_sha256": "e6aaa40aeb0f46be7b0476ded62c666e33f5071724818a086d1e156d94ec8f73",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000307",
+      "category_id": "health",
+      "source_row_sha256": "d044adf708e64f136a886b9f263c1ddd0a7329701b0053a207d7e07292d6bbe5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000308",
+      "category_id": "family",
+      "source_row_sha256": "a06ad923dda48e9f6dba60506c4ffa0ad5ef1142d64547ddaccac9f061fc93f4",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000309",
+      "category_id": "family",
+      "source_row_sha256": "702c9f5bab2a9726afe7236313d9f97688ac84b3114cd1ffa3e43dcd812c2961",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000310",
+      "category_id": "family",
+      "source_row_sha256": "abb35e0e9657c28796466ddb727f3c82b656510c6c11709df2ca2852edc2cfab",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000311",
+      "category_id": "family",
+      "source_row_sha256": "a7473416a4cbb610a19ef1f9c5bbe1e4252e6f6c6a9461e7ad9cdd359d7c19fc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000312",
+      "category_id": "materials",
+      "source_row_sha256": "71d0921980ccbda8f9bb8b15133bc81fe57661fdc973140a8a79fff83ee9775a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000313",
+      "category_id": "materials",
+      "source_row_sha256": "476125a7d2477837d7fbbb960572e9cf3f800f2ac8ac43c3db9ae03fe1834204",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -321,10 +2204,24 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000315",
+      "category_id": "animals",
+      "source_row_sha256": "e46fc76b71932e5864429134b7a0b334c44f94647002cb2e656d17af55dcf4c8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000316",
       "category_id": "spiritual_culture",
       "source_row_sha256": "accbec052d87cfe332db7d433cfecef840b2e1180666d5c7c26212713d03abbc",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000317",
+      "category_id": "family",
+      "source_row_sha256": "337cdf85d88f341565b7ef798b7afffb6e5639b31f6f821ad279a04a38b37c10",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -342,10 +2239,24 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000320",
+      "category_id": "actions",
+      "source_row_sha256": "fa7af1f12fbad5d00fb4bd4016121345dd12facda4e55dfc756304ea74238ddc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000321",
       "category_id": "dimension_position_texture",
       "source_row_sha256": "c7067f310a079cfbd99b5bac8948b443f537b02139e820edf6ccdd0a51606bff",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000322",
+      "category_id": "body",
+      "source_row_sha256": "3d0da2a39fa365b6370106842e16656012e7d476e0e2578dc900381fb756c87d",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -356,6 +2267,62 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000324",
+      "category_id": "nature",
+      "source_row_sha256": "e02df583c4d96b6ec871ee213b87159e04b219f65fb39619b9c081fa9193ce84",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000325",
+      "category_id": "actions",
+      "source_row_sha256": "fcff2b1ebaf211916ba002063ab189886d8ad8e4a94344f1180aafac419088a9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000326",
+      "category_id": "actions",
+      "source_row_sha256": "99fc0ea82dfc8c66ce1d9dd7e9fee50c71f28f69fbe32950c137284b0ccd490c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000327",
+      "category_id": "nature",
+      "source_row_sha256": "00afd5aa276a0705db188ef9b77aa4ceff4d1289865f018f8c54bd8956b6fc17",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000328",
+      "category_id": "nature",
+      "source_row_sha256": "6894499ccc51129c79f7a9cb0f34eb0f2ac54cd7adaf925cc83e0d33ac2a3d82",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000329",
+      "category_id": "animals",
+      "source_row_sha256": "c020c56be08223aab0c17f695d236aa126d2891dbc7163b35710d42579db0e7c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000330",
+      "category_id": "nature",
+      "source_row_sha256": "2c5ebd7d3031e7d1d2330751770fd0e1611cea54f6851351827b103ca3560d69",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000331",
+      "category_id": "materials",
+      "source_row_sha256": "91d510d081cd8d2edf35092eff3aa7237ce80055c5fdd2eea7cb2e0d2565c202",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000332",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "1b13ef3fa2751d41d5869b934d7206f445251138457eda76d2fd44907f97da4d",
@@ -363,10 +2330,38 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000333",
+      "category_id": "nature",
+      "source_row_sha256": "1380125650a5137a4db030b0d75cb319e636aec43f47dfa8bdbe041fda6e0234",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000334",
       "category_id": "social_identity",
       "source_row_sha256": "d774659db8c80cd2ac762e9c25146034d226f7fe9102cf41c41bde4b1571df63",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000335",
+      "category_id": "agriculture",
+      "source_row_sha256": "68de25d95cc7e87ca6d09bf987baf65da840cc10c2498aa07b3d57f6e810eadd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000336",
+      "category_id": "nature",
+      "source_row_sha256": "60ffa0cf0c3b123b44a0e2fbc50faae95bbf12347069f5d1caa47b3fa204924f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000337",
+      "category_id": "colors",
+      "source_row_sha256": "5544851ac8c78af9cc23098949aaf0e1a1681f9774e48c06d46bf9a728c4389d",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -391,6 +2386,13 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000341",
+      "category_id": "nature",
+      "source_row_sha256": "1726f62d812c497a0fee7423e3ce34cf081dcf91339fdc2f355d864d4a202b32",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000342",
       "category_id": "quantity_numbers",
       "source_row_sha256": "43d1d164ec74fb6f2756a32dc445629d912d523e21096e2c8369907804c1ea71",
@@ -402,6 +2404,69 @@
       "category_id": "dimension_position_texture",
       "source_row_sha256": "f6763c58e6ff3be9f8daf443d1cd944115d391a3395a77fe0a1d10fccc44e900",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000344",
+      "category_id": "family",
+      "source_row_sha256": "127c446f164a2685fcd4ab2c00c0baefe268e2658d176c466d95065db7be5603",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000345",
+      "category_id": "family",
+      "source_row_sha256": "7bb58599e988d0ca40d48c543e3d2d0ffd723c02b9f80171b1d6e13e94deb397",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000346",
+      "category_id": "family",
+      "source_row_sha256": "d9f31c6c746fbeda7497c65d1c49ef026253a08bfee0df452fc085b1001ef6f7",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000347",
+      "category_id": "animals",
+      "source_row_sha256": "b066e9768922e4e5ccc8fd2cf49403dd7b1f990797b2bc8c60f05f89a83ea1b8",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000348",
+      "category_id": "communication",
+      "source_row_sha256": "4b98fec6771f6d5c8c6a955b4c234febd65718b833d39896c7fa41f95e26f241",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000349",
+      "category_id": "colors",
+      "source_row_sha256": "52f7f8a210081609cfc317b9c53ba8890ff94b52b9faf0d655c3ed13823482d0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000350",
+      "category_id": "colors",
+      "source_row_sha256": "6e6368d68c9dac05f83886b3917a2f3be6d12252f114490711f81bb0f8db508b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000351",
+      "category_id": "colors",
+      "source_row_sha256": "adf194c56d81326576cf811d9d0b9eeba1d14b5d334b327b598278044c5aed1a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000352",
+      "category_id": "communication",
+      "source_row_sha256": "b8254e497b9c3114a30a8980ec19bc64eb8725e6a7b2976c7cd9c03a300e2ae2",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -419,6 +2484,125 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000355",
+      "category_id": "food",
+      "source_row_sha256": "515a95e876445dc1c37614177d1f397eb51a2da103bf1dbbb2c8c79a7bc8c851",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000356",
+      "category_id": "transport",
+      "source_row_sha256": "1012c9b0ad3c2debb6b052ea53f466982bf7850172939c34591dc20b87121377",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000357",
+      "category_id": "transport",
+      "source_row_sha256": "ee42c08cc9b22e72a9e12944352cea6abd9430cdf4d89c8170fb76a7aac4b9a3",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000358",
+      "category_id": "materials",
+      "source_row_sha256": "eb95ef718839cf655cf703b123351d158fe3d4d62756d1fb0bdead9df8a6934d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000359",
+      "category_id": "nature",
+      "source_row_sha256": "a643d81433ac78ca1f4ed32fb8f1d604a06071ba097fcc507962d6bf110152f7",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000360",
+      "category_id": "animals",
+      "source_row_sha256": "108350743f52cac9347ddb570d27a044cd1529b5dace9239a41f072f6d22d60b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000361",
+      "category_id": "health",
+      "source_row_sha256": "538f1be57399b437b53d0f29d10009115acecba552df14807a16637a13469a0e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000362",
+      "category_id": "animals",
+      "source_row_sha256": "399e974df845a6a25076fd1e4c77299731c5444783aa96d4eb08b48341f6e41f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000363",
+      "category_id": "body",
+      "source_row_sha256": "75a7a65a5698d43902d9b06bde6265d87fee1f3102564750015be0bb44e5a51e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000364",
+      "category_id": "body",
+      "source_row_sha256": "020747688db54d5b9652b240f3ef91b3480ce8c2eb247eacbdeac47fd6befb32",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000365",
+      "category_id": "materials",
+      "source_row_sha256": "5d143f206c03c9709ad8c3cf3767c3b53b513f5ddd182773fa854daacab0c8ba",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000366",
+      "category_id": "communication",
+      "source_row_sha256": "aef966ecb76de322217461fb7d1d645b73ff7f9d47518778671355c85772cf1f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000367",
+      "category_id": "communication",
+      "source_row_sha256": "d19515ecbf4ae3484a93fe65a776c141c254975f6be5ee9fa37e759ab755ef82",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000368",
+      "category_id": "nature",
+      "source_row_sha256": "85804f2a85aaaf1052ba2d69c62bac12148972d86572db858738ceca2ccb5fa2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000369",
+      "category_id": "health",
+      "source_row_sha256": "7b594d03a1629afb624bfd788eb8ffbbba6bb612394952e795c5646167b24a2d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000370",
+      "category_id": "health",
+      "source_row_sha256": "d4ef92479d29cc1b4ad6e749e5e08187fe8323376bb550a0f31632d9730e6350",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000371",
+      "category_id": "animals",
+      "source_row_sha256": "d571effbd81e881ce09a89263cf29a5f7e9c6ae57f20e25650f22cf6eb9286a4",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000372",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "a2da5d5663936d9c5140ed1f900d773872f1f56bc06b1727d78b7158d4966968",
@@ -433,6 +2617,48 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000374",
+      "category_id": "materials",
+      "source_row_sha256": "ca000e3a7e88a874c95ce302115eef0f478deb9c22baaa18eb8cf29e9d202ace",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000375",
+      "category_id": "animals",
+      "source_row_sha256": "8cb7eb13f03d75518850e557ffd04e06c1b7f6e92eb87ecbc9ca839756eb5d25",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000376",
+      "category_id": "agriculture",
+      "source_row_sha256": "4d256ddea9dddfa3c98e47af14da79933cdf3ce2033216517dea15396d48b4a2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000377",
+      "category_id": "agriculture",
+      "source_row_sha256": "5314f9af2e68af965daf6857c0f15e5d7f1c5863b43a9c99749f9af67ddf37a9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000378",
+      "category_id": "communication",
+      "source_row_sha256": "d497735228a48cbafe794cea8c59d00a7f10b11e5a59260f66d8e7420a909905",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000379",
+      "category_id": "health",
+      "source_row_sha256": "24f941e4ccc21239927fc5f314fd55e0b816df6eda12fc7c1c4e74e282860de9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000380",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "c3c78b981a47a8155477d2dbd19ece1cac8fa9631631156801a3169709513c42",
@@ -444,6 +2670,104 @@
       "category_id": "quantity_numbers",
       "source_row_sha256": "6661df317ab4f105b09d78979c32d782aca293e27591f221d2a3525598bac1ba",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000382",
+      "category_id": "actions",
+      "source_row_sha256": "0d2683cc202d859b64f505f7ef33457402ac9aa40c22136226e2e61191240cea",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000383",
+      "category_id": "health",
+      "source_row_sha256": "80454050aad434354865b35e51f5a49b28d94f0c68a754c31c3216ab85116d15",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000384",
+      "category_id": "actions",
+      "source_row_sha256": "bcceb179ca7ab42e4b2f7e508798ca2a0377be62e0a67eb4df2097401fa1b020",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000385",
+      "category_id": "actions",
+      "source_row_sha256": "78783324582359204555aa222aba2b8c5553db39d7c5ef7d4736c038c624d6ac",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000386",
+      "category_id": "actions",
+      "source_row_sha256": "9b0f188753f7f8ed15b02dae2d73da2d5e55a656637db273e5082408c64993c9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000387",
+      "category_id": "actions",
+      "source_row_sha256": "d0a5d7b76d6e485f9a7b0736c53f82816a19271e0815486027bca9e189db9c22",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000388",
+      "category_id": "agriculture",
+      "source_row_sha256": "1f067c3bb2a9eeb5f147978d2c1d505d7c49b10823706f6794fd7ef580db01ba",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000389",
+      "category_id": "colors",
+      "source_row_sha256": "361aebe8c45538a60bbc8a13ad53f1419260997607c637528cfbc467e3ff9c04",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000390",
+      "category_id": "colors",
+      "source_row_sha256": "793c701b1e5f1b668709ca55006d049410dd23fe526587727ca6d5cc89afc935",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000391",
+      "category_id": "health",
+      "source_row_sha256": "751ccec7490a4b8a74b9d42df1e6390f222c7e02aa856ef1c9baa0dd78233d99",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000392",
+      "category_id": "colors",
+      "source_row_sha256": "5e14403b2d7d24b59bc2a43e929ebf0974660c687065cf485fe3014620e4ed7c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000393",
+      "category_id": "nature",
+      "source_row_sha256": "027a2ed4c79323373c509856b9ca0f3ceacefc07c380229817f5073378d3b9a5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000394",
+      "category_id": "body",
+      "source_row_sha256": "1ccf8d5ca69aecdaf70424621e84da93a8f5b5c49ab850ebcc20f9aff88c0bb9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000395",
+      "category_id": "body",
+      "source_row_sha256": "8deff169c5d29bec8f3fa0e297bc0702a9019d32b501bb6dd3edfc596f7e8636",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -468,6 +2792,76 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000399",
+      "category_id": "animals",
+      "source_row_sha256": "17ed65f4ddcbde6adb3ee1753111dd195720dd5270e187ce5f3f1e58c9e9d853",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000400",
+      "category_id": "colors",
+      "source_row_sha256": "45309cd0dd1f713d0fe16e7ef494ffe8c4157cbc7902e7aae684917d1cf02f75",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000401",
+      "category_id": "colors",
+      "source_row_sha256": "e2a2d9b824fa6c32d259087d380ca7f01e58d009bb3cbe1ad859c4c723476007",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000402",
+      "category_id": "colors",
+      "source_row_sha256": "ceef1d20458ccc73215a40195315efc50b3c9b4132e99f3323b99cf354edb860",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000403",
+      "category_id": "actions",
+      "source_row_sha256": "971cfce3ba9451da93d3b21f3630f942a35289fbf41500a4fbb4b9805d21d7b7",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000404",
+      "category_id": "animals",
+      "source_row_sha256": "c3583dcdf7878d574108133b2afc4c0ec7d7b8966cae725b62a4bc54725d0141",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000405",
+      "category_id": "nature",
+      "source_row_sha256": "4ed73e7ecb5d2269e67d5d3e7aef5defa31173b13623631a70b86f5087c6e857",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000406",
+      "category_id": "health",
+      "source_row_sha256": "574007c04033d623ede63077bd3ebc7335bd65a4c18f6afacb98ed878356f162",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000407",
+      "category_id": "food",
+      "source_row_sha256": "735a60130e505118fe010ab5d8e16a6ca12d4f163b400d0a0fd25aa353c58fd2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000408",
+      "category_id": "actions",
+      "source_row_sha256": "12c34a040858bea17f2d3f62b638a4120c4632c271e59c6119e5774285e529bd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000409",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "9120582729740e43777d5d2a27532aabfdbe3ce2f49bffe35becfbf64365f8bf",
@@ -482,10 +2876,87 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000411",
+      "category_id": "actions",
+      "source_row_sha256": "5f8ca28ee279dfc22f57a0bd8a2a14a4a85d269659e255b382914cf77982b3bc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000412",
+      "category_id": "actions",
+      "source_row_sha256": "3af2914e1686a720aadbbc806ea57dff063f1c01b87a9ce40004803c7d867aaf",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000413",
+      "category_id": "actions",
+      "source_row_sha256": "dd2b96fb698cae092ba9423cbd6868028bba7a84526eec32550824e5495cc49b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000414",
+      "category_id": "food",
+      "source_row_sha256": "1cababfaa2d94bbbc59e7c5e1bc1d1f3085ea4f6c193689f1d62f8748cd4e67f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000415",
+      "category_id": "actions",
+      "source_row_sha256": "990baceeadaed99c09ba7989360cd6841298414aed120190b2a6fb4e181580c6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000416",
+      "category_id": "actions",
+      "source_row_sha256": "a769e009f2ceb3ef3effea58d0ba4e84752b4eea1d11883f5e0495f236b07d24",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000417",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "e0085fa373b0551c0a544e22da751fdabe3486eb18c5c5a89ebe022e9495718f",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000418",
+      "category_id": "colors",
+      "source_row_sha256": "e081d7eb06d4cbb747172b98545a81e3ae445869cd54e69e8ad1173d43842c6e",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000419",
+      "category_id": "agriculture",
+      "source_row_sha256": "ae648cbaef4745efa4c9dacdc64ed9a247d996695c038d2adce851ee3d884064",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000420",
+      "category_id": "colors",
+      "source_row_sha256": "87553a78b46882a806c18a15c18252b0096bb01ddb973a4882f1faf844564d4b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000421",
+      "category_id": "health",
+      "source_row_sha256": "8ac783ef90456745d1241fa9dc8ac1a23a44ca682eec300cd85a9d5e7347d92d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000422",
+      "category_id": "transport",
+      "source_row_sha256": "f39acd18bdd925a627258267fa1cb4c88f242cdaf6fc859770af9c5db9f5f348",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -510,10 +2981,199 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000426",
+      "category_id": "communication",
+      "source_row_sha256": "ec7e77227edb408cbb9d9a0d2de79cffaa630abd95efbc945a048863d2ac816a",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000427",
+      "category_id": "health",
+      "source_row_sha256": "ecec34270e12b7f24066e246caa0f1324e373c56a6978acc9dabfdb69a5a162c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000428",
+      "category_id": "actions",
+      "source_row_sha256": "5862a56ac4cd6780b3a99f30ef5b24064cb901da11b3f04b8554d85f8938756f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000429",
+      "category_id": "health",
+      "source_row_sha256": "65acc7b0b84c3af017206cbb979336467722738c40a81c538c30262fc63d7cb7",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000430",
+      "category_id": "communication",
+      "source_row_sha256": "73520d39c8bd4322068a9692460d0308c9ce90c234f72447ae588e6012a45f91",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000431",
+      "category_id": "communication",
+      "source_row_sha256": "9b7c1258178a4fed472cc653d87e6956e8a5b34feaad67bd1f0c1231bb53b2f0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000432",
+      "category_id": "nature",
+      "source_row_sha256": "6ee1db0910449a972481f8a4d5d2c3cc73435131ea3bc71a3efefc2fe49120fd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000433",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "62d7713105bf3445de705f75c503fed14e373d04a315fa178c82ce6e7a94b00b",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000434",
+      "category_id": "colors",
+      "source_row_sha256": "a07831514c1fd7c9d033b257cd9a5711928bbc06f7f7848aee1c34e4c61b5363",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000435",
+      "category_id": "colors",
+      "source_row_sha256": "a01aa42b45048fcbf7051b90edd9a7f2e76915f2469afea40f11c1fc25801ae2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000436",
+      "category_id": "communication",
+      "source_row_sha256": "dedf1cde6989188d2f68815f0f0b367d248d2b8d7f6feded89ad0a7012c2238b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000437",
+      "category_id": "agriculture",
+      "source_row_sha256": "32548459849eb1da7bbcd6deb988b086b84366c572ed5157ac080843deea1796",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000438",
+      "category_id": "health",
+      "source_row_sha256": "9bda0413fc6224c14e87b350b0c06f12a0365d78ab67641dd5a847b12cc8b0e9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000439",
+      "category_id": "actions",
+      "source_row_sha256": "ad20f493b196cee36c6ddf207a449394149b7e68c8edf13974a7358d0271b674",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000440",
+      "category_id": "actions",
+      "source_row_sha256": "1aba3cc6c59ec2f06e88490fb880de4bd5cb6b1c724293ba2731d50f2728e514",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000441",
+      "category_id": "actions",
+      "source_row_sha256": "a85a997c725cca248bf5a839d250a2f1f4caf92ea75d143920107d32575a390b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000442",
+      "category_id": "health",
+      "source_row_sha256": "8acb88d35a557fd63ef066dcd9aa26111aaf9d100b0787a72819d2df897f97da",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000443",
+      "category_id": "family",
+      "source_row_sha256": "ab18cbd5326a536a3f1c0ae32808589748c18b8cd648e6bdb7583513a8a151bb",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000444",
+      "category_id": "family",
+      "source_row_sha256": "0d5513961431993e971453c5471eb8e8ab3c24de188ebb8d0ade3ef459eb4b0c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000445",
+      "category_id": "family",
+      "source_row_sha256": "6941da54bc3efa244bfdfc0579e5594af60724d549558668b4dbb38bf7307ce2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000446",
+      "category_id": "family",
+      "source_row_sha256": "ed7ef4f386960ea0678886092f7cca90ee6e562315216dbe5e3bfcfcd6666ca0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000447",
+      "category_id": "family",
+      "source_row_sha256": "10c5777cf366260a5951f244a1072df38255eba8e85cf6fa272aafb3fa85a53c",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000448",
+      "category_id": "family",
+      "source_row_sha256": "33a9c3af9e5adb3423cadf0d58c3061017815cd5687aaf975703e24fd9a715f9",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000449",
+      "category_id": "nature",
+      "source_row_sha256": "5190d5d3ac31b98fbff22dc35ed04d0689b759f7f60dc31f1c7f1a4d7b4593ea",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000450",
+      "category_id": "actions",
+      "source_row_sha256": "0ee81fe9649bbdc7f373bdcb1706fe6c799fd3ed64a16447e6823015233244d6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000451",
+      "category_id": "communication",
+      "source_row_sha256": "6f5b93db14d7d04718205190f113973dacd93fcaca980c590b9cf5d85191f651",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000452",
+      "category_id": "communication",
+      "source_row_sha256": "d2e916dde15d99aaf5417a2acfcbcc115f7e5902d59916842aadf99be65c48e0",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000453",
+      "category_id": "communication",
+      "source_row_sha256": "744f5832dd64ef5918343bcdfcbdbc99797fb179145901b56efb10cd4868cff4",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -524,10 +3184,31 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000455",
+      "category_id": "actions",
+      "source_row_sha256": "25c17b4d6a4b08ef67ad4c78c029bdbd77d5aedb99a802bc317ad4740f7859cf",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000456",
       "category_id": "dimension_position_texture",
       "source_row_sha256": "288eda9749eabc9ca17b7499ced0c74016ffc1d24915e6391441bb7c3c90ac20",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000457",
+      "category_id": "actions",
+      "source_row_sha256": "b464bd6ea59aa6649bfda52728fdd1fddda591e6bbedc736547567a17da796f2",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000458",
+      "category_id": "actions",
+      "source_row_sha256": "7767debc73960d3f9f4d35348308dd8f8be4451510667db2bcbc5aabf2c900d8",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -552,6 +3233,13 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000462",
+      "category_id": "health",
+      "source_row_sha256": "b7a01c241904b2d837ea0c0a010dac06379ea84c3c438a7c56534058146056fd",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000463",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "cde6e1b097bac60d4d9fb8d8cb8ae6cb34588ea0b71b8d543faa04a2d081ad8b",
@@ -566,10 +3254,45 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000465",
+      "category_id": "food",
+      "source_row_sha256": "c88713407c615d81ee817d1483e9888ad7292bc5db56608f8d01253f0bbef7dc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000466",
+      "category_id": "food",
+      "source_row_sha256": "f6415b75343873665c89c658c5d688af5cea5c4daccf8ecadce1e948848346e5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000467",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "d7b09ee58ee42a7201ddaa804b7aff327a9e0c552ad0be2197d5d4d2ac173019",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000468",
+      "category_id": "health",
+      "source_row_sha256": "cbbe431297eca36faa2d76dc5d52b1578b81aa0824b0e694535262babaced86f",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000469",
+      "category_id": "health",
+      "source_row_sha256": "cff9a4bf941de049410fc42b6b3c44cc96c081387727901767e8199533681a02",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000470",
+      "category_id": "animals",
+      "source_row_sha256": "859af3401cec1ab8761d54152c097db96595cc946df7cb293d99e5ac6fb04dae",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -584,6 +3307,34 @@
       "category_id": "dimension_position_texture",
       "source_row_sha256": "7f77e3b9d116146fd1480d64569d061760c9cc494f564861875ad4a2cddf9f71",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000473",
+      "category_id": "colors",
+      "source_row_sha256": "df298b6b54d92ad4f0fa56f85db5fa317cafd728484c85a52ee0b4db984b3066",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000474",
+      "category_id": "colors",
+      "source_row_sha256": "529decd0e031bbdec48cd0c45f40b13d65eb7f3a1e699d4542ec070cf9168ef7",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000475",
+      "category_id": "actions",
+      "source_row_sha256": "33624f4b9123d17e37d1cafba9b582c015d5f8a47c5bbfcc785ecd85196458fb",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000476",
+      "category_id": "communication",
+      "source_row_sha256": "6164a256a1a37dfc77c0f52dfe84996646b397f727eb769e81d25ec384e9e9b9",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -605,6 +3356,27 @@
       "category_id": "social_identity",
       "source_row_sha256": "74dbbfbaa4df73eb1093b1a36bd7309aa9dfb241a6c8e75f27986bf3922c5345",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000480",
+      "category_id": "actions",
+      "source_row_sha256": "e1b4597702be9029156d53a0cc5b39336be5fbb3cc85bfb983931ab16bc7ab89",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000481",
+      "category_id": "actions",
+      "source_row_sha256": "890e5f39254d325906e1d26653999093c48deddc1b9143402a62754b1dfa2278",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000482",
+      "category_id": "animals",
+      "source_row_sha256": "774b6c5049309aee16e687c9b53a7dc99ee16344fdc5a61438dc9502acce7291",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -650,10 +3422,129 @@
       "linguistic_certified": false
     },
     {
+      "entry_id": "000489",
+      "category_id": "actions",
+      "source_row_sha256": "50119441cef4e9c521b5c044397e8e23bc68f564dd215c127e1f18e08ec521d1",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000490",
+      "category_id": "communication",
+      "source_row_sha256": "7b58d78cecd682b6ebdd063a69dd02b31eeb17c4de04e0503865934b74d31812",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000491",
+      "category_id": "nature",
+      "source_row_sha256": "f680bd9c0b95f6f4b070d1cf23716cc0ec18f98f650e669dc607208047e44c40",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000492",
+      "category_id": "nature",
+      "source_row_sha256": "920618092bf0d6c016b75d8377ef1b801dec69878775be9d79cadf22b1d2d8d6",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000493",
+      "category_id": "actions",
+      "source_row_sha256": "3734dcad300b883ed9a9656ab01c2142942c1f5254249f090537bc4444abc796",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000494",
+      "category_id": "actions",
+      "source_row_sha256": "56606c944f00cca0121650e040ac240092e188e69f3a6863545f8b2ea7a33129",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000495",
+      "category_id": "animals",
+      "source_row_sha256": "29d12243ece1e98b2edc919d67741c241d75b121c5d65d889bade826f2a43ba5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000496",
+      "category_id": "communication",
+      "source_row_sha256": "bde9907599864d451925f888958820237e8e9673d9316200676e61cf3e39d976",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000497",
+      "category_id": "food",
+      "source_row_sha256": "a8135e7e4f587c794f4c2408b42d003938962f93521027d652f20c4f57f6de3b",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000498",
+      "category_id": "communication",
+      "source_row_sha256": "cb0ec7d7726cfea295870e67ec064060419086295414f35eecb2e337522ddaac",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000499",
+      "category_id": "actions",
+      "source_row_sha256": "f7cc6f8df56cc0b6b6519111d6d93911459f4998bb292f4a95fadbdefd5574bc",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000500",
+      "category_id": "food",
+      "source_row_sha256": "5b358af73b06103bbd7fc625aa8871a594cc6e2b8f38b54b96c8fba2195f0b21",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000501",
+      "category_id": "animals",
+      "source_row_sha256": "4db3402d6e4cc271e9f6a2c54bf65997292ea05929107c53b474182ed6afbf07",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
       "entry_id": "000502",
       "category_id": "qualities_emotions_behavior",
       "source_row_sha256": "6c60ee950a2b04978251230dcdfad51d15a791457ea37dd959a8e88ecaaaf33d",
       "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000503",
+      "category_id": "health",
+      "source_row_sha256": "fc1f7bfa25e961ff8b218e9dcec77621f3828a37ebf8734c78ecceffff38357d",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000504",
+      "category_id": "actions",
+      "source_row_sha256": "be8ab8d058043f1bec4dab075faf5c843cd6ba67440b5e71339c223f9d78fae5",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000505",
+      "category_id": "actions",
+      "source_row_sha256": "ac2ee649416e5d85f8ba658d656f97ae471edd81a98bde391f32e5863d4917ad",
+      "status": "DERIVED_PENDING_VALIDATION",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000506",
+      "category_id": "communication",
+      "source_row_sha256": "e31b83ca24cc79903584b98d724c3e7c93ff507a6ca1d954f5a139e1cd3bcf46",
+      "status": "DERIVED_PENDING_VALIDATION",
       "linguistic_certified": false
     },
     {
@@ -670,5 +3561,6 @@
       "status": "USER_APPROVED_EDUCATIONAL",
       "linguistic_certified": false
     }
-  ]
+  ],
+  "assignment_scope": "508 educational semantic assignments: 95 user approved; 413 derived pending linguistic validation"
 }
