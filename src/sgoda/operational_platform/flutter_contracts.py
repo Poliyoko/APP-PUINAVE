@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from typing import Any
 
+from .category_assignments import category_metadata
+
 
 def lexical_card(
     entry: dict[str, Any],
@@ -36,6 +38,7 @@ def lexical_card(
             for item in media
         ],
         "noInvention": True,
+        **category_metadata(entry),
     }
 
 

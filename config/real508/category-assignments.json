@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "REAL508",
+  "source_sha256": "d56a2239ab455fd96fccc78b35a8c30a48bc836a95b0495db6d5f0738c9d3fdd",
+  "approval_scope": "95 previously pending records; educational semantic classification only",
+  "approved_by": "INFORMATICA (conversation approval)",
+  "records": [
+    {
+      "entry_id": "000001",
+      "category_id": "personal_reference",
+      "source_row_sha256": "c8ecbb89368507a9cab39436d44bca86fe0bf0b0f806077342c8cf19ad588ba2",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000004",
+      "category_id": "social_identity",
+      "source_row_sha256": "41d05b4bb9f705e042127219d70fd9c347a067615b27efb2a2a621c1761be952",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000035",
+      "category_id": "personal_reference",
+      "source_row_sha256": "bdef0a77629a0fd37cf4a722fc2df92b29ce4160df6916311cebc8cfbcd3cd0b",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000048",
+      "category_id": "spiritual_culture",
+      "source_row_sha256": "37d22060734b75d38223200997565f2c1851119cb1bf16dadff620eeca03af83",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000049",
+      "category_id": "personal_reference",
+      "source_row_sha256": "1b5c76bccc0702aae85d32af9c66957448d78858d076133782ddaf08ae329b05",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000070",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "f6128619c5159c57258c22a7cfae91568787dfb332f4a14b000338faa19c7c44",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000071",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "dd9cc5ffcd3289998a27c6305100b88b215b1772c318a83e71796c1fb3c29095",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000079",
+      "category_id": "social_identity",
+      "source_row_sha256": "dd2312d4d7192160a19e7dfd9c79a631f62fc20424ef60dbe245b34c6cecdfd0",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000080",
+      "category_id": "social_identity",
+      "source_row_sha256": "d4b9e5d20646b1c6306a929847a26304bee1ab0c75b71a911b1577ff7cbe6045",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000083",
+      "category_id": "time",
+      "source_row_sha256": "8769befaa40460843f074eda491ab518e5d2692ca006870f58a00cbc06d6b1bc",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000086",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "c81f7369149e039ee8e5a537ac6ee2e8beb6bbe0d50dd0b1b4ec943a92f7c592",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000087",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "391ac765e222bc17ca74e14f6dd8c942c2ee2f5cb0b8c5afb93900f50c624d67",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000097",
+      "category_id": "personal_reference",
+      "source_row_sha256": "d1421130030e5a1c2eaadd2da70f0a790924e6c26cd5ef4c6b5d0f67d92abe27",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000100",
+      "category_id": "personal_reference",
+      "source_row_sha256": "63ba1d5250b73578590b4dbeca09e17daa867e65eebbbe12bf8d736c6257b972",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000113",
+      "category_id": "personal_reference",
+      "source_row_sha256": "7f07c46768655c10871fad115a2cc5cbc594f92bff75e3097b7cac70a4d45434",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000118",
+      "category_id": "personal_reference",
+      "source_row_sha256": "1ce566d1353be7b21d456162d84005bb681a8f54833351adc45ff4f7f024d4ea",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000120",
+      "category_id": "personal_reference",
+      "source_row_sha256": "fd79d396c7768bdbd347939867a4365ae3876c41f64eeff61fff9e49fdde9c9e",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000128",
+      "category_id": "social_identity",
+      "source_row_sha256": "986e016ecc8f152e5fa41e8e5d72cbfcd15c41b6e91435bb96f4b0abc4cd55f2",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000133",
+      "category_id": "social_identity",
+      "source_row_sha256": "b0ebef5b6cf35b6ffc9c4dd952bc7ea67d03bb1282191db45a79d03838754253",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000157",
+      "category_id": "time",
+      "source_row_sha256": "09ad121a88451e707f1823c7e2c8f975886e9c6b6bc7bcaa69062ad7fdb5b801",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000159",
+      "category_id": "time",
+      "source_row_sha256": "8eaeea6c6a4341039ce0049ae34daddf0583ed062316e9a45a228175438f1598",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000160",
+      "category_id": "time",
+      "source_row_sha256": "6297f1ad8ba5950f253e281c7379f64ef69df762ae72a6776dd486feeecdf315",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000161",
+      "category_id": "personal_reference",
+      "source_row_sha256": "b1b8500258bee946a520e710f85e13afa722e764d506685690fa38dc3b790b8b",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000162",
+      "category_id": "personal_reference",
+      "source_row_sha256": "e13e46f445e76d869aeb77c8275f983c07cce8255f14002e49a2c98190144ebc",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000163",
+      "category_id": "social_identity",
+      "source_row_sha256": "14461e6af76a3fdccdb29d8af112b0d760f1f5f32dc96fd52010a73ffe06893e",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000164",
+      "category_id": "social_identity",
+      "source_row_sha256": "c4dd4905d13cc12ea9fac1abe7cdf7a294730a006987b5032b07f5c7422ad8b4",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000166",
+      "category_id": "personal_reference",
+      "source_row_sha256": "6f50a2a8e86c66395d6902fdc20ff0a3d94aca893ac2ce7018ffa4533994ab34",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000167",
+      "category_id": "personal_reference",
+      "source_row_sha256": "a40a23beffcc27c950c6d29b69404569b44d2c46dc1840ee026c7283e9e1aa0f",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000170",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "960feb4385c8d28477bb12212c57b3b1c5772759ddc1645a50bbe3e6ffeaa36f",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000171",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "4be118081ecd218f88063270a5b5d6c2f0e0ade989d9f7da190ae38adcb36975",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000176",
+      "category_id": "personal_reference",
+      "source_row_sha256": "99a0407fb856cfc9651b47288e51d50741e94e2e8aabbb6ebfeed3837edd2e93",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000198",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "4e3594243e5ab5565f5eb810d4897ec3e3cb36448c7fb16768e3064dc3765030",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000203",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "1ef271936d8a808c15fecc831eabe85c1f64d415635b0d71ab091b107fb4c92d",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000222",
+      "category_id": "time",
+      "source_row_sha256": "0d6fedf8a1e13197eedee8dadc350891e0693385e3f83b87e98afc006752d155",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000223",
+      "category_id": "time",
+      "source_row_sha256": "2d6fc60a361b423524ed341f5ea920e977f8bab84bbdfaa96c8bd29974fc7d04",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000224",
+      "category_id": "time",
+      "source_row_sha256": "680d7947ce1d20d0db0f9d23668b86b11b75a0088438a53489d0e8c4d2c0c5b3",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000225",
+      "category_id": "time",
+      "source_row_sha256": "5b6d33bf9e832d1db5f7fbaba4382eef214ddc180062aad5461a823cd515d18a",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000253",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "1574240316fcedbd6f7bd2afc64fe9510a8847b5ca100ed9dd48a1ab46b4031d",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000264",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "b922599826eeb7a11de2fbc490c6ed5f43366321566659c36a0b1024529395a4",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000274",
+      "category_id": "time",
+      "source_row_sha256": "608e3f7ff6d33baa67248a5dc082ed8d4ed3844e2f900daaeb5d9920b3e85297",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000275",
+      "category_id": "time",
+      "source_row_sha256": "793b24dbe93ec78f549006e215241c459eb5c2ce8420bbebb19b8a220309d8de",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000277",
+      "category_id": "social_identity",
+      "source_row_sha256": "bf7eb8db37e849d75e1ae2f789eed12df6fe817487674989d82bfb4e0bdc1675",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000279",
+      "category_id": "social_identity",
+      "source_row_sha256": "93a2346c00128919bf06ff9e52d5e81223728ab059fafa9e8c813416082eaa89",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000281",
+      "category_id": "social_identity",
+      "source_row_sha256": "bdf9727f781bb2bd4cd18eeb005b9aaf262108774e1fb7e4d1bf6b4abbe7ff5f",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000314",
+      "category_id": "social_identity",
+      "source_row_sha256": "6ba6e6b162881331fcd4850a61ae622fd37d52b040c8335c97380b7324885a2d",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000316",
+      "category_id": "spiritual_culture",
+      "source_row_sha256": "accbec052d87cfe332db7d433cfecef840b2e1180666d5c7c26212713d03abbc",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000318",
+      "category_id": "time",
+      "source_row_sha256": "eec6681e3a73ee403d3b189c8e3760c4da4fa2e926c5463b08964704590b739a",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000319",
+      "category_id": "time",
+      "source_row_sha256": "8c9060814c6d4d25d0e5b827ff9af40994bf64a1696141cffc8d6aa271a6082c",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000321",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "c7067f310a079cfbd99b5bac8948b443f537b02139e820edf6ccdd0a51606bff",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000323",
+      "category_id": "personal_reference",
+      "source_row_sha256": "55c85e9ec665e323a964806a3c46d9acc5ae4d62450b7a002ea46c4828b7aa58",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000332",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "1b13ef3fa2751d41d5869b934d7206f445251138457eda76d2fd44907f97da4d",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000334",
+      "category_id": "social_identity",
+      "source_row_sha256": "d774659db8c80cd2ac762e9c25146034d226f7fe9102cf41c41bde4b1571df63",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000338",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "049a02a8cf03962847ef668949ff7be9f47dcd1bbdcb8fb46ad48b0a70f0b1bb",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000339",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "93b07dfadb3f867d9dfd25423e39e2fb5978dde4549da60916f99be4280d4f4f",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000340",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "f052bcd0c86e32d14825972e2199311913fc4073ee93b154d266dba31fd19819",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000342",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "43d1d164ec74fb6f2756a32dc445629d912d523e21096e2c8369907804c1ea71",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000343",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "f6763c58e6ff3be9f8daf443d1cd944115d391a3395a77fe0a1d10fccc44e900",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000353",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "cbc2df648f165af9f1cc26223b5e62f5c92b37e36f8e685b84a45700c944d1e0",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000354",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "2edcaef589d3dec6ac64351a0055a56f1db8af638f436535e54262d7998bb853",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000372",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "a2da5d5663936d9c5140ed1f900d773872f1f56bc06b1727d78b7158d4966968",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000373",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "619b52e39f8a4c2dc3542592389f765e2b9eea6abde608bb990b13d7bafe000c",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000380",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "c3c78b981a47a8155477d2dbd19ece1cac8fa9631631156801a3169709513c42",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000381",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "6661df317ab4f105b09d78979c32d782aca293e27591f221d2a3525598bac1ba",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000396",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "db1b60456e21ac141f5bce8750ce0459719be2377c5ce039473b11020912f01e",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000397",
+      "category_id": "time",
+      "source_row_sha256": "9ee0e4995e31a79cedde8b21ffbf79d60b0c9e8eaf66ee9e4365b6c80eede992",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000398",
+      "category_id": "time",
+      "source_row_sha256": "0c583d737c4e232942112d362ef609cbdfd96bb776df5bfac0b082f2b5f44a71",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000409",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "9120582729740e43777d5d2a27532aabfdbe3ce2f49bffe35becfbf64365f8bf",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000410",
+      "category_id": "social_identity",
+      "source_row_sha256": "c3c064c0943cb448b83a58951d53ed3242d11cd4ace545c316a654208c87fbfe",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000417",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "e0085fa373b0551c0a544e22da751fdabe3486eb18c5c5a89ebe022e9495718f",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000423",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "a9096d7e18c3dee808c052dd220c86d6cce9666b8a3418061904be70b40779b8",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000424",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "de36ede8d7d9fd1d01a097c89da77056b2d9653821ed1d8ce8fd7466a71bbd15",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000425",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "50c6bdbc23fa1adae48d5c8c5c43d60bd736414c306f58407290ace89ca94ab4",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000433",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "62d7713105bf3445de705f75c503fed14e373d04a315fa178c82ce6e7a94b00b",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000454",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "88070fdecae3a55df9199a1b1c1124a7bca013ed175bd91913a09f323ae165b6",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000456",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "288eda9749eabc9ca17b7499ced0c74016ffc1d24915e6391441bb7c3c90ac20",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000459",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "c87f8f47a4fa571e35bfc3b7782a4eef40ccfcbf1658b7fed971d296d0a4764b",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000460",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "8b6dbfe8f3c1c82729333c5d71e0f6de2438b7e9fbea590af8250150fff9b2e5",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000461",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "2b2722a96c63602c7c19608597cbfb98dff8c7d8771deb6d65073b69e0160fd8",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000463",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "cde6e1b097bac60d4d9fb8d8cb8ae6cb34588ea0b71b8d543faa04a2d081ad8b",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000464",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "429029baa3d30795ea02dd87c0d1200c79ebcac72ab99ff70cee3609f84eadbc",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000467",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "d7b09ee58ee42a7201ddaa804b7aff327a9e0c552ad0be2197d5d4d2ac173019",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000471",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "8e53a4386be21aa7b0ba6f37e88ff4a32ac44f96354916fba6e854bd95abcfc5",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000472",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "7f77e3b9d116146fd1480d64569d061760c9cc494f564861875ad4a2cddf9f71",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000477",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "755d78eece7633e7d67818602ed94077c59aca8d1cb867f2afbf27c3ae9886ef",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000478",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "fdc67c9abf1c4744e0bd01a34969eb8d1e5817bcdc23ca515f5acfefb2d26466",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000479",
+      "category_id": "social_identity",
+      "source_row_sha256": "74dbbfbaa4df73eb1093b1a36bd7309aa9dfb241a6c8e75f27986bf3922c5345",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000483",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "e66dda21c4e9a6c9b884c6bd846d6a1fb73e1afc795808db2f1b5c11c8803b9d",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000484",
+      "category_id": "quantity_numbers",
+      "source_row_sha256": "393fb83c3daa1d10b75b0fd48de50a9621806a0b9d73ac56b4e5e2b6551dd093",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000485",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "e52a1affe9f9ddc71f9c330230421d89f9116b5f275b832672affd311cbc21cf",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000486",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "1a27dba6b88bccc7df85b6cb4a84c11e0c45819c9f03a0298d49109e89e5ef4e",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000487",
+      "category_id": "dimension_position_texture",
+      "source_row_sha256": "9f1e3d5006db9b3490f50bf23b0392574dbddda71ed29d7b393a312153a27fad",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000488",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "14cf93cc0a0e71d46b4389510b6e22cc87f3222915430e8a72cdd07f17985df7",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000502",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "6c60ee950a2b04978251230dcdfad51d15a791457ea37dd959a8e88ecaaaf33d",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000507",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "4777f0907650e4fb1e2a02ca1fb45858e0136250d8ea72ab9d06c38d604e2729",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    },
+    {
+      "entry_id": "000508",
+      "category_id": "qualities_emotions_behavior",
+      "source_row_sha256": "a4c6917922498d2003b59eed7d99f4bc0896c7a390f285b137b4ef84f0e4d190",
+      "status": "USER_APPROVED_EDUCATIONAL",
+      "linguistic_certified": false
+    }
+  ]
+}

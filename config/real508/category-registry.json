@@ -1,0 +1,208 @@
+{
+  "categories": [
+    {
+      "aliases": [],
+      "id": "family",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Familia"
+    },
+    {
+      "aliases": [],
+      "id": "animals",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Animales"
+    },
+    {
+      "aliases": [],
+      "id": "food",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Alimentos"
+    },
+    {
+      "aliases": [],
+      "id": "actions",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Acciones"
+    },
+    {
+      "aliases": [],
+      "id": "colors",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Colores"
+    },
+    {
+      "aliases": [],
+      "id": "transport",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Transporte"
+    },
+    {
+      "aliases": [],
+      "id": "body",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Cuerpo humano"
+    },
+    {
+      "aliases": [],
+      "id": "health",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Salud"
+    },
+    {
+      "aliases": [],
+      "id": "nature",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Naturaleza"
+    },
+    {
+      "aliases": [],
+      "id": "agriculture",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Agricultura"
+    },
+    {
+      "aliases": [],
+      "id": "communication",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Comunicación"
+    },
+    {
+      "aliases": [],
+      "id": "materials",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Materiales"
+    },
+    {
+      "aliases": [],
+      "id": "other",
+      "keywords": [],
+      "metadata": {
+        "parent_id": null
+      },
+      "name": "Por validar"
+    },
+    {
+      "aliases": [],
+      "id": "personal_reference",
+      "keywords": [],
+      "metadata": {
+        "approval_reason": "Usuario: Estoy de acuerdo con la propuesta de las categorias para los 95 registros pendientes; solicita asignar y actualizar repositorio y plataforma.",
+        "approved_by": "INFORMATICA (aprobación explícita en conversación)",
+        "parent_id": null,
+        "source_proposal_id": "CAT-PROP-5D01436736F1"
+      },
+      "name": "Referencia personal y posesión"
+    },
+    {
+      "aliases": [],
+      "id": "social_identity",
+      "keywords": [],
+      "metadata": {
+        "approval_reason": "Usuario: Estoy de acuerdo con la propuesta de las categorias para los 95 registros pendientes; solicita asignar y actualizar repositorio y plataforma.",
+        "approved_by": "INFORMATICA (aprobación explícita en conversación)",
+        "parent_id": null,
+        "source_proposal_id": "CAT-PROP-4804C461F638"
+      },
+      "name": "Relaciones sociales e identidad"
+    },
+    {
+      "aliases": [],
+      "id": "quantity_numbers",
+      "keywords": [],
+      "metadata": {
+        "approval_reason": "Usuario: Estoy de acuerdo con la propuesta de las categorias para los 95 registros pendientes; solicita asignar y actualizar repositorio y plataforma.",
+        "approved_by": "INFORMATICA (aprobación explícita en conversación)",
+        "parent_id": null,
+        "source_proposal_id": "CAT-PROP-CB239D210944"
+      },
+      "name": "Cantidad y números"
+    },
+    {
+      "aliases": [],
+      "id": "time",
+      "keywords": [],
+      "metadata": {
+        "approval_reason": "Usuario: Estoy de acuerdo con la propuesta de las categorias para los 95 registros pendientes; solicita asignar y actualizar repositorio y plataforma.",
+        "approved_by": "INFORMATICA (aprobación explícita en conversación)",
+        "parent_id": null,
+        "source_proposal_id": "CAT-PROP-7D34860F36BF"
+      },
+      "name": "Tiempo"
+    },
+    {
+      "aliases": [],
+      "id": "dimension_position_texture",
+      "keywords": [],
+      "metadata": {
+        "approval_reason": "Usuario: Estoy de acuerdo con la propuesta de las categorias para los 95 registros pendientes; solicita asignar y actualizar repositorio y plataforma.",
+        "approved_by": "INFORMATICA (aprobación explícita en conversación)",
+        "parent_id": null,
+        "source_proposal_id": "CAT-PROP-0B586A55DDFC"
+      },
+      "name": "Dimensión, posición y textura"
+    },
+    {
+      "aliases": [],
+      "id": "spiritual_culture",
+      "keywords": [],
+      "metadata": {
+        "approval_reason": "Usuario: Estoy de acuerdo con la propuesta de las categorias para los 95 registros pendientes; solicita asignar y actualizar repositorio y plataforma.",
+        "approved_by": "INFORMATICA (aprobación explícita en conversación)",
+        "parent_id": null,
+        "source_proposal_id": "CAT-PROP-AE16E90453FA"
+      },
+      "name": "Cultura espiritual"
+    },
+    {
+      "aliases": [],
+      "id": "qualities_emotions_behavior",
+      "keywords": [],
+      "metadata": {
+        "approval_reason": "Usuario: Estoy de acuerdo con la propuesta de las categorias para los 95 registros pendientes; solicita asignar y actualizar repositorio y plataforma.",
+        "approved_by": "INFORMATICA (aprobación explícita en conversación)",
+        "parent_id": null,
+        "source_proposal_id": "CAT-PROP-F6980FA52C41"
+      },
+      "name": "Cualidades, emociones y conducta"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "sha256": "79C97A25C01B8E34B0415D203BCBA6D9963B6499FCF77EE459B7F4099FE03CD0",
+  "version": 8
+}

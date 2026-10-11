@@ -1,0 +1,20 @@
+{
+  "source_sha256": "d56a2239ab455fd96fccc78b35a8c30a48bc836a95b0495db6d5f0738c9d3fdd",
+  "http_records_checked": 508,
+  "approved_assignments_exposed": 95,
+  "remaining_proposals_not_published": 413,
+  "counts": {
+    "personal_reference": 14,
+    "social_identity": 14,
+    "spiritual_culture": 2,
+    "quantity_numbers": 12,
+    "time": 14,
+    "dimension_position_texture": 14,
+    "qualities_emotions_behavior": 25
+  },
+  "original_values_preserved": true,
+  "tests_passed": 35,
+  "database_live_test": false,
+  "live_deployment": false,
+  "flutter_sdk_available": false
+}
