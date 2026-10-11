@@ -81,7 +81,8 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
           'Configure la URL del servidor REAL508 accesible desde el móvil.',
         ),
       );
-      WidgetsBinding.instance.addPostFrameCallback((_) => configureServer());
+      // Do not force a server dialog at launch on phones without a backend.
+      // The app stays open and offers manual configuration.
     } else {
       payload = api.load();
     }
@@ -199,23 +200,31 @@ class _SgodaHomePageState extends State<SgodaHomePage> {
         return Scaffold(
           appBar: AppBar(
             titleSpacing: 20,
-            title: const Row(
+            title: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                CircleAvatar(child: Icon(Icons.language)),
-                SizedBox(width: 12),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'SGODA-PUINAVE',
-                      style: TextStyle(fontWeight: FontWeight.bold),
-                    ),
-                    Text(
-                      'Preservación y aprendizaje de la lengua Puinave',
-                      style: TextStyle(fontSize: 12),
-                    ),
-                  ],
+                const CircleAvatar(child: Icon(Icons.language)),
+                const SizedBox(width: 8),
+                Flexible(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Text(
+                        'SGODA-PUINAVE',
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                      ),
+                      if (wide)
+                        const Text(
+                          'Preservación y aprendizaje de la lengua Puinave',
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(fontSize: 12),
+                        ),
+                    ],
+                  ),
                 ),
               ],
             ),
