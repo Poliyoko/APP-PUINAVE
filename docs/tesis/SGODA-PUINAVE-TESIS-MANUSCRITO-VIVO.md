@@ -1,4 +1,4 @@
-# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.3)
+# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.4)
 
 > Estado: BORRADOR ACADÉMICO EN CONSTRUCCIÓN. No representa aprobación del director, sustentación ni certificación de despliegue. Fecha de inicio: 2026-10-12.
 
@@ -13,6 +13,7 @@
 ### Registro de cambios
 | Versión | Fecha | Alcance | Estado |
 |---|---|---|---|
+| 0.1.4 | 2026-10-12 | Línea de Telecomunicaciones, Teleinformática y Ciencia de Datos; pertinencia a SGODA-PUINAVE | Texto académico incorporado |
 | 0.1.3 | 2026-10-12 | Grupo GITEM++: reseña, código y categorías aportadas por el autor | Borrador con contraste pendiente |
 | 0.1.2 | 2026-10-12 | Fijación del título académico indicado por el autor (requisito a) | Confirmado por el autor |
 | 0.1.1 | 2026-10-12 | Incorporación de los 15 requisitos institucionales de la propuesta de investigación | Borrador |
@@ -102,7 +103,7 @@ La guía de la Maestría en Telecomunicaciones Móviles distingue los **contenid
 |---|---|---|
 | a | Título del proyecto | **HERRAMIENTA DE APOYO PARA LA ENSEÑANZA DE LA LENGUA INDÍGENA PUINAVE** — confirmado por el autor; utilizar en portada y encabezado académico. |
 | b | Grupo de investigación (reseña y categoría Colciencias) | GITEM++ (COL0005655); reseña y categoría B (convocatoria 957 de 2024) aportadas por el autor; contraste institucional pendiente. |
-| c | Línea de investigación | **Pendiente de confirmación** con programa y director. |
+| c | Línea de investigación | Telecomunicaciones, Teleinformática y Ciencia de Datos; descripción y vinculación al proyecto aportadas por el autor; verificación institucional pendiente. |
 | d | Director y codirector (resumen de las hojas de vida) | La portada de la guía aportada menciona una asesora; **verificar designación vigente**, si existe codirector y hojas de vida autorizadas. |
 | e | Resumen del proyecto | Resumen provisional incluido; completar con resultados sustentados. |
 | f | Presentación de la propuesta | Integrar justificación, alcance, contexto y delimitaciones. |
@@ -146,3 +147,33 @@ La directora del grupo identificada por el autor es **Lilia Edith Aparicio Pico*
 **Fuente institucional indicada por el autor:** Universidad Distrital Francisco José de Caldas, Grupo GITEM++: https://doctoradoingenieria.udistrital.edu.co/gitem/
 
 **Pendiente para cierre científico:** capturar evidencia oficial de adscripción, código, categoría de Convocatoria 957 de 2024, dirección y fecha de consulta.
+
+## 11. Línea de investigación: Telecomunicaciones, Teleinformática y Ciencia de Datos (requisito c)
+
+**Identificación de la línea aportada por el autor.** La denominación y su adscripción formal a GITEM++ deberán cotejarse con la documentación institucional antes del depósito final.
+
+La línea de **Telecomunicaciones, Teleinformática y Ciencia de Datos** constituye un espacio interdisciplinario orientado al estudio, diseño, integración y aplicación de tecnologías para capturar, transmitir, procesar, almacenar, analizar y transformar información en conocimiento útil. En el ámbito del Grupo de Investigación en Telemedicina (GITEM++), articula infraestructuras de comunicación, sistemas computacionales y procesamiento de datos para abordar problemas de interés social y tecnológico, incluidos salud, telemedicina, telesalud, redes de nueva generación, sistemas de información y comunicaciones satelitales.
+
+### 11.1 Componentes conceptuales
+
+**Telecomunicaciones.** Comprende mecanismos para transportar información entre puntos mediante redes y sistemas de comunicación: comunicaciones digitales e inalámbricas, redes de datos, voz, imagen y video, enlaces satelitales, protocolos, calidad de servicio, seguridad, procesamiento de señales e infraestructura.
+
+**Teleinformática.** Integra redes, software, servicios digitales y almacenamiento para posibilitar el intercambio, la administración y el acceso a la información entre sistemas computacionales.
+
+**Ciencia de datos.** Abarca estructuración, validación, procesamiento y análisis de datos para producir información interpretable que pueda apoyar decisiones. No debe atribuirse a SGODA-PUINAVE capacidad de análisis inteligente o modelos predictivos sin evidencias de implementación y evaluación.
+
+### 11.2 Secuencia conceptual de tratamiento de la información
+
+Captura de información → Digitalización → Transmisión por red → Procesamiento computacional → Almacenamiento → Análisis → Generación de información/conocimiento → Toma de decisiones.
+
+Esta secuencia es un **modelo conceptual**, no una declaración de que cada etapa ya está implementada y validada en producción.
+
+### 11.3 Vinculación de la línea con SGODA-PUINAVE
+
+En el proyecto *Herramienta de apoyo para la enseñanza de la lengua indígena Puinave*, la línea se expresa en el tratamiento digital de registros léxicos, su asociación con audios e imágenes, los mecanismos de consulta Web y móvil y la trazabilidad de los recursos. Las telecomunicaciones sustentan la disponibilidad y transferencia de contenidos; la teleinformática articula componentes, interfaces, APIs y repositorios; y la ciencia de datos aporta criterios para la estructuración, integridad, clasificación y análisis del corpus. La pertinencia de la línea se justifica por **su aplicación tecnológica transversal a la preservación lingüística**, no porque el objeto de la tesis pertenezca al sector salud.
+
+### 11.4 Fuente y estado de validación
+
+- Fuente institucional de referencia aportada por el autor: https://doctoradoingenieria.udistrital.edu.co/gitem/
+- Estado académico: **texto de tesis incorporado; denominación y adscripción formal pendientes de contraste documental**.
+- Criterio de evaluación: demostrar la relación entre cada componente tecnológico y los objetivos de investigación mediante requisitos, decisiones de arquitectura y evidencias, sin asumir resultados educativos no medidos.
