@@ -1,4 +1,4 @@
-# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.4)
+# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.3.0)
 
 > Estado: BORRADOR ACADÉMICO EN CONSTRUCCIÓN. No representa aprobación del director, sustentación ni certificación de despliegue. Fecha de inicio: 2026-10-12.
 
@@ -177,3 +177,22 @@ En el proyecto *Herramienta de apoyo para la enseñanza de la lengua indígena P
 - Fuente institucional de referencia aportada por el autor: https://doctoradoingenieria.udistrital.edu.co/gitem/
 - Estado académico: **texto de tesis incorporado; denominación y adscripción formal pendientes de contraste documental**.
 - Criterio de evaluación: demostrar la relación entre cada componente tecnológico y los objetivos de investigación mediante requisitos, decisiones de arquitectura y evidencias, sin asumir resultados educativos no medidos.
+
+## 13. Incorporación académica de SGD-003 y auditoría de 429 folios (v0.3.0)
+
+**Documento de entrega rector:** `TESIS-PUINAVE-FORMATO-UD-V0.3.0-FUENTES-SGD003.docx` generado a partir de la versión universitaria de trabajo. El Word constituye el manuscrito para revisión de la directora; este archivo Markdown conserva el control de cambios y las decisiones académicas. El binario Word aún debe publicarse en la rama y comprobarse su presencia antes de declarar sincronización total.
+
+### Fuentes contrastadas
+1. `SGD-003-Documento-Maestro-Integral-ANALISIS-TRAZADO-FUENTES-2026-10-12.docx`: expediente de arquitectura, decisiones, subsistemas, corpus, gobierno y trazabilidad.
+2. `SGD-003-INFORME-AUDITORIA-CIENTIFICA-EDITORIAL-429-FOLIOS-2026-10-12.docx`: auditoría automatizada de 429 páginas, con dictamen **NO APTO PARA DECLARAR CIERRE CIENTÍFICO-EDITORIAL DEFINITIVO**.
+
+### Resultados de lectura incorporados al Word
+- Arquitectura de diez subsistemas y gobierno DMP transversal.
+- Unidad de análisis: registro léxico y relación con audio, imagen, categorías y ODA; el denominador canónico debe verificarse antes de reportar cobertura.
+- Jerarquía de evidencia: ADR/decisión, código presente, caso de prueba, ejecución documentada, funcionamiento observado.
+- Auditoría: 429 páginas inspeccionadas automáticamente; 7027 párrafos Word; 12 tablas; 835 encabezados; 26 patrones de párrafos extensos repetidos; incidencia de baja densidad en página 140.
+- No inferir despliegue Web/Android, eficacia educativa o PASS actual a partir de código archivado o Quality Gates históricos.
+- Matriz de riesgos de validez y asignación a los apartados g, h, j, m, n, o y al informe científico final.
+
+### Política editorial
+El expediente maestro de 429 páginas se utiliza como fuente documental y como soporte de anexos, **no** se traslada íntegramente al cuerpo de la tesis. El informe de auditoría sirve como lista de control para resolver repeticiones, trazabilidad, consistencia metodológica y límites de evidencia. Las siguientes ediciones deberán actualizar el Word universitario y este control versionado, sin reabrir pruebas certificadas.
