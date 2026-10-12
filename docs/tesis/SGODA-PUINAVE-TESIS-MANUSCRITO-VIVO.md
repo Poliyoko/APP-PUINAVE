@@ -1,4 +1,4 @@
-# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.2)
+# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.3)
 
 > Estado: BORRADOR ACADÉMICO EN CONSTRUCCIÓN. No representa aprobación del director, sustentación ni certificación de despliegue. Fecha de inicio: 2026-10-12.
 
@@ -13,6 +13,7 @@
 ### Registro de cambios
 | Versión | Fecha | Alcance | Estado |
 |---|---|---|---|
+| 0.1.3 | 2026-10-12 | Grupo GITEM++: reseña, código y categorías aportadas por el autor | Borrador con contraste pendiente |
 | 0.1.2 | 2026-10-12 | Fijación del título académico indicado por el autor (requisito a) | Confirmado por el autor |
 | 0.1.1 | 2026-10-12 | Incorporación de los 15 requisitos institucionales de la propuesta de investigación | Borrador |
 | 0.1.0 | 2026-10-12 | Estructura, problema, pregunta, objetivos, hipótesis, método y trazabilidad inicial | Borrador |
@@ -100,7 +101,7 @@ La guía de la Maestría en Telecomunicaciones Móviles distingue los **contenid
 | Código | Elemento exigido por la guía | Incorporación y estado en la tesis |
 |---|---|---|
 | a | Título del proyecto | **HERRAMIENTA DE APOYO PARA LA ENSEÑANZA DE LA LENGUA INDÍGENA PUINAVE** — confirmado por el autor; utilizar en portada y encabezado académico. |
-| b | Grupo de investigación (reseña y categoría Colciencias) | **Pendiente de confirmación documental** del grupo, categoría y vigencia; no inventar afiliación. |
+| b | Grupo de investigación (reseña y categoría Colciencias) | GITEM++ (COL0005655); reseña y categoría B (convocatoria 957 de 2024) aportadas por el autor; contraste institucional pendiente. |
 | c | Línea de investigación | **Pendiente de confirmación** con programa y director. |
 | d | Director y codirector (resumen de las hojas de vida) | La portada de la guía aportada menciona una asesora; **verificar designación vigente**, si existe codirector y hojas de vida autorizadas. |
 | e | Resumen del proyecto | Resumen provisional incluido; completar con resultados sustentados. |
@@ -117,3 +118,31 @@ La guía de la Maestría en Telecomunicaciones Móviles distingue los **contenid
 
 ### Regla de control académico
 Ninguno de los ítems b, c o d se completará con datos supuestos. Para n, diferenciar explícitamente resultados documentados de expectativas; para o, no atribuir divulgación efectuada sin evidencia. En el informe final se mantendrán además Introducción, Desarrollo de la investigación, Conclusiones, Principales aportes, Recomendaciones y trabajos futuros y Referencias, según la guía.
+
+## 10. Grupo de investigación: GITEM++ (requisito b)
+
+**Datos aportados por el autor; la clasificación y cargos deben contrastarse con sus fuentes institucionales antes de la entrega final.**
+
+El Grupo de Investigación en Telemedicina (GITEM++), código COL0005655, está adscrito a la Facultad de Ingeniería de la Universidad Distrital Francisco José de Caldas. Según la información suministrada por el autor, fue institucionalizado en 2002 y desarrolla investigación interdisciplinaria en tecnologías de información, comunicaciones, ingeniería, telemedicina, telesalud y sistemas de información. Entre sus antecedentes se encuentran iniciativas de redes de servicios telemédicos y sistemas de gestión, referencia y contrarreferencia en salud.
+
+Su pertinencia para la tesis sobre la lengua Puinave radica en las capacidades transversales de ingeniería, telecomunicaciones, sistemas de información y transferencia tecnológica. No se considera SGODA-PUINAVE un proyecto de telemedicina.
+
+### Clasificaciones históricas informadas
+
+| Convocatoria | Categoría informada |
+|---|---|
+| 693 de 2014 | C |
+| 737 de 2015 | B |
+| 781 de 2017 | C |
+| 894 de 2021 | C |
+| 957 de 2024 | B |
+
+La categoría B de 2024 es la clasificación vigente **según la información facilitada por el autor**. Las categorías anteriores pertenecen a convocatorias distintas y no deben presentarse como actuales.
+
+### Dirección
+
+La directora del grupo identificada por el autor es **Lilia Edith Aparicio Pico**, Doctora en Ciencias Técnicas, Magíster en Teleinformática y Especialista en Gerencia de Proyectos Educativos. Según la información aportada, es profesora investigadora titular y ha ejercido funciones directivas en investigación de la Universidad Distrital. Debe comprobarse la vigencia de los cargos y distinguir la dirección del grupo de la designación formal como directora de tesis.
+
+**Fuente institucional indicada por el autor:** Universidad Distrital Francisco José de Caldas, Grupo GITEM++: https://doctoradoingenieria.udistrital.edu.co/gitem/
+
+**Pendiente para cierre científico:** capturar evidencia oficial de adscripción, código, categoría de Convocatoria 957 de 2024, dirección y fecha de consulta.
