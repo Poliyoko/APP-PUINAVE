@@ -1,4 +1,4 @@
-# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.0)
+# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.1)
 
 > Estado: BORRADOR ACADÉMICO EN CONSTRUCCIÓN. No representa aprobación del director, sustentación ni certificación de despliegue. Fecha de inicio: 2026-10-12.
 
@@ -13,6 +13,7 @@
 ### Registro de cambios
 | Versión | Fecha | Alcance | Estado |
 |---|---|---|---|
+| 0.1.1 | 2026-10-12 | Incorporación de los 15 requisitos institucionales de la propuesta de investigación | Borrador |
 | 0.1.0 | 2026-10-12 | Estructura, problema, pregunta, objetivos, hipótesis, método y trazabilidad inicial | Borrador |
 
 ## Título de trabajo
@@ -90,3 +91,28 @@ Los registros de desarrollo y las pruebas unitarias respaldan atributos concreto
 
 ## Normas de formato de la guía
 Carta; márgenes 2,5 cm; Calibri 11 o alternativas permitidas; interlineado 1,5; texto justificado; página arriba a la derecha; introducción hasta 10 páginas; desarrollo sugerido hasta 80 páginas; referencias APA 7. La guía combina NTC 1486 y APA 7 y contiene reglas internas de títulos que deben armonizarse con el formato institucional final.
+
+## 9. Lista institucional obligatoria — Metodología en Investigación (propuesta)
+
+La guía de la Maestría en Telecomunicaciones Móviles distingue los **contenidos mínimos de la propuesta por metodología de investigación** del **contenido mínimo del informe científico final**. Los siguientes quince ítems (a–o) corresponden a la propuesta y deben mantenerse identificables en el expediente de tesis; no deben confundirse con quince capítulos obligatorios del informe final.
+
+| Código | Elemento exigido por la guía | Incorporación y estado en la tesis |
+|---|---|---|
+| a | Título del proyecto | Título de trabajo en portada y sección inicial; sujeto a aprobación institucional. |
+| b | Grupo de investigación (reseña y categoría Colciencias) | **Pendiente de confirmación documental** del grupo, categoría y vigencia; no inventar afiliación. |
+| c | Línea de investigación | **Pendiente de confirmación** con programa y director. |
+| d | Director y codirector (resumen de las hojas de vida) | La portada de la guía aportada menciona una asesora; **verificar designación vigente**, si existe codirector y hojas de vida autorizadas. |
+| e | Resumen del proyecto | Resumen provisional incluido; completar con resultados sustentados. |
+| f | Presentación de la propuesta | Integrar justificación, alcance, contexto y delimitaciones. |
+| g | Formulación del problema | Borrador de problema y pregunta incluido; ampliar con evidencia y literatura. |
+| h | Marco teórico o conceptual | **Por desarrollar** con bibliografía científica contrastada. |
+| i | Objetivos | General y específicos formulados en borrador; contrastar con resultados. |
+| j | Marco metodológico | Enfoque aplicado provisional, unidades de análisis e indicadores; faltan instrumentos y protocolo. |
+| k | Hipótesis | Hipótesis de trabajo incluida, sin atribuir comprobación. |
+| l | Bibliografía | Registro inicial; depurar referencias APA 7 y correspondencia con citas. |
+| m | Cronograma | **Por integrar** desde el historial del DMP, con plan original frente a ejecución real y fechas de corte. |
+| n | Resultados e impacto esperado | **Por distinguir** resultados alcanzados, resultados esperados e impacto no medido. |
+| o | Comunicación y divulgación | **Por documentar** estrategia, productos, públicos, permisos culturales y difusión efectiva. |
+
+### Regla de control académico
+Ninguno de los ítems b, c o d se completará con datos supuestos. Para n, diferenciar explícitamente resultados documentados de expectativas; para o, no atribuir divulgación efectuada sin evidencia. En el informe final se mantendrán además Introducción, Desarrollo de la investigación, Conclusiones, Principales aportes, Recomendaciones y trabajos futuros y Referencias, según la guía.
