@@ -1,4 +1,4 @@
-# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.1)
+# TESIS SGODA-PUINAVE — Manuscrito vivo de investigación (v0.1.2)
 
 > Estado: BORRADOR ACADÉMICO EN CONSTRUCCIÓN. No representa aprobación del director, sustentación ni certificación de despliegue. Fecha de inicio: 2026-10-12.
 
@@ -13,13 +13,14 @@
 ### Registro de cambios
 | Versión | Fecha | Alcance | Estado |
 |---|---|---|---|
+| 0.1.2 | 2026-10-12 | Fijación del título académico indicado por el autor (requisito a) | Confirmado por el autor |
 | 0.1.1 | 2026-10-12 | Incorporación de los 15 requisitos institucionales de la propuesta de investigación | Borrador |
 | 0.1.0 | 2026-10-12 | Estructura, problema, pregunta, objetivos, hipótesis, método y trazabilidad inicial | Borrador |
 
 ## Título de trabajo
-**SGODA-PUINAVE: diseño, desarrollo y evaluación documental y tecnológica de una plataforma digital para la preservación y enseñanza de la lengua Puinave**.
+**HERRAMIENTA DE APOYO PARA LA ENSEÑANZA DE LA LENGUA INDÍGENA PUINAVE**.
 
-La expresión «evaluación documental y tecnológica» delimita el alcance demostrado; cualquier afirmación de eficacia pedagógica exige una evaluación con usuarios y resultados propios.
+Título oficial suministrado por el autor, coincidente con la portada de la guía institucional adjunta. SGODA-PUINAVE es la denominación del sistema desarrollado y se conserva en el cuerpo del documento. Cualquier afirmación de eficacia pedagógica exige una evaluación con usuarios y resultados propios.
 
 ## Resumen (borrador)
 La preservación de lenguas indígenas plantea necesidades de documentación, acceso y continuidad de recursos lingüísticos. Este trabajo aborda el diseño y desarrollo de SGODA-PUINAVE, una plataforma modular orientada a organizar unidades léxicas, recursos multimedia y objetos digitales de aprendizaje en un entorno digital. Se examinan sus decisiones arquitectónicas, procesos de desarrollo, mecanismos de trazabilidad y evidencias de verificación disponibles. La investigación se plantea como un estudio aplicado con enfoque de diseño y evaluación de artefactos tecnológicos. Se distingue entre los resultados de desarrollo documentados, los controles históricos de calidad y las evaluaciones funcionales o educativas aún no demostradas. El manuscrito incorporará resultados cuantitativos únicamente cuando se vinculen con registros verificables y su fecha de corte. **Este resumen es provisional hasta consolidar la evaluación y las conclusiones.**
@@ -98,7 +99,7 @@ La guía de la Maestría en Telecomunicaciones Móviles distingue los **contenid
 
 | Código | Elemento exigido por la guía | Incorporación y estado en la tesis |
 |---|---|---|
-| a | Título del proyecto | Título de trabajo en portada y sección inicial; sujeto a aprobación institucional. |
+| a | Título del proyecto | **HERRAMIENTA DE APOYO PARA LA ENSEÑANZA DE LA LENGUA INDÍGENA PUINAVE** — confirmado por el autor; utilizar en portada y encabezado académico. |
 | b | Grupo de investigación (reseña y categoría Colciencias) | **Pendiente de confirmación documental** del grupo, categoría y vigencia; no inventar afiliación. |
 | c | Línea de investigación | **Pendiente de confirmación** con programa y director. |
 | d | Director y codirector (resumen de las hojas de vida) | La portada de la guía aportada menciona una asesora; **verificar designación vigente**, si existe codirector y hojas de vida autorizadas. |
