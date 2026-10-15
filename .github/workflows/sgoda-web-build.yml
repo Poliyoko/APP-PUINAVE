@@ -1,0 +1,56 @@
+name: SGODA Web build verification
+on:
+  workflow_dispatch:
+    inputs:
+      api_base:
+        description: 'Public HTTPS API URL (optional; app can configure server)'
+        required: false
+        type: string
+  push:
+    branches:
+      - feature/SPT-001A-rlb-schema-foundation
+    paths:
+      - 'apps/sgoda_puinave_demo/**'
+      - '.github/workflows/sgoda-web-build.yml'
+permissions:
+  contents: read
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: apps/sgoda_puinave_demo
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Resolve dependencies
+        run: flutter pub get
+      - name: Static analysis
+        run: flutter analyze
+      - name: Tests
+        run: flutter test
+      - name: Build web (no public deployment)
+        env:
+          SGODA_API_BASE: ${{ inputs.api_base }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -n "${SGODA_API_BASE:-}" ]]; then
+            [[ "$SGODA_API_BASE" =~ ^https://[^[:space:]]+$ ]] || { echo 'HTTPS API URL required'; exit 1; }
+            flutter build web --release --base-href /APP-PUINAVE/ --dart-define="SGODA_API_BASE=$SGODA_API_BASE"
+          else
+            flutter build web --release --base-href /APP-PUINAVE/
+          fi
+          test -s build/web/index.html
+          (cd build/web && find . -type f -print0 | sort -z | xargs -0 sha256sum) > web-sha256.txt
+      - name: Upload verified build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SGODA-PUINAVE-WEB
+          path: apps/sgoda_puinave_demo/build/web/
+          if-no-files-found: error
+          retention-days: 30
