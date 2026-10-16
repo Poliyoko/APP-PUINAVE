@@ -1,0 +1,71 @@
+name: SGODA-PUINAVE Web publication
+on:
+  workflow_dispatch:
+    inputs:
+      api_base:
+        description: 'Public HTTPS origin of the existing REAL508 FastAPI service'
+        required: true
+        type: string
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: sgoda-pages
+  cancel-in-progress: false
+jobs:
+  verify-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: apps/sgoda_puinave_demo
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate production API before publishing
+        env:
+          API_BASE: ${{ inputs.api_base }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          value=os.environ["API_BASE"].rstrip("/")
+          u=urllib.parse.urlsplit(value)
+          if u.scheme != "https" or not u.hostname or u.username or u.password or u.query or u.fragment:
+              raise SystemExit("A public HTTPS API origin is required")
+          if u.hostname in ("localhost", "127.0.0.1", "::1"):
+              raise SystemExit("Loopback is not publicly accessible")
+          req=urllib.request.Request(value+"/dataset/status",headers={"Accept":"application/json"})
+          with urllib.request.urlopen(req,timeout=20) as response:
+              data=json.load(response)
+          if data.get("dataset")!="REAL508" or data.get("ready") is not True or data.get("record_count")!=508:
+              raise SystemExit("REAL508 backend not ready; publication blocked")
+          print("REAL508 dataset status PASS (508)")
+          PY
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - name: Build public web application
+        env:
+          API_BASE: ${{ inputs.api_base }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          flutter build web --release --base-href /APP-PUINAVE/ --dart-define="SGODA_API_BASE=$API_BASE"
+          test -s build/web/index.html
+          (cd build/web && find . -type f -print0 | sort -z | xargs -0 sha256sum) > build/web-sha256.txt
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/sgoda_puinave_demo/build/web
+      - name: Publish on GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
