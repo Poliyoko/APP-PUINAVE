@@ -44,7 +44,18 @@ jobs:
               data=json.load(response)
           if data.get("dataset")!="REAL508" or data.get("ready") is not True or data.get("record_count")!=508:
               raise SystemExit("REAL508 backend not ready; publication blocked")
-          print("REAL508 dataset status PASS (508)")
+          req2=urllib.request.Request(value+"/categories/taxonomy",headers={"Accept":"application/json"})
+          with urllib.request.urlopen(req2,timeout=20) as response:
+              taxonomy=json.load(response)
+          categories=taxonomy.get("semantic_categories")
+          if not isinstance(categories,list) or not categories:
+              raise SystemExit("Category taxonomy unavailable; publication blocked")
+          req3=urllib.request.Request(value+"/lexical/000001",headers={"Accept":"application/json"})
+          with urllib.request.urlopen(req3,timeout=20) as response:
+              lexical=json.load(response)
+          if not isinstance(lexical.get("data"),dict):
+              raise SystemExit("REAL508 lexical endpoint unavailable; publication blocked")
+          print("REAL508 status, taxonomy and lexical API PASS")
           PY
       - uses: subosito/flutter-action@v2
         with:
