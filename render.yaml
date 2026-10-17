@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: sgoda-puinave-api
+    runtime: python
+    plan: free
+    region: ohio
+    branch: feature/SPT-001A-rlb-schema-foundation
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m uvicorn sgoda.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /openapi.json
+    envVars:
+      - key: PYTHONPATH
+        value: src
+      - key: PYTHON_VERSION
+        value: 3.11.11
